@@ -1,0 +1,86 @@
+
+# Rule 2: EVENT - SIGNAL - TIMEX
+# ==============================
+#
+# - intra-sentential EVENT-TIMEX3 pairs
+# - SIGNAL occuring between EVENT and TIMEX3
+
+# Implied Features:
+#
+#  - arg1.tag = EVENT
+#  - arg2.tag = TIMEX3
+#  - sameSentence = YES
+#
+# Other features:
+#
+#  - signal = <string>
+#  - relation = <TimemlRel>
+#	any timeml relation
+#  - confidence = <float>
+#	always 1 if rules have not been trained,
+#	otherwise a number from 0 to 1
+
+ruleNum=2-1
+	signal=in
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=2-2
+	signal=during
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=2-3
+	signal=on
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=2-4
+	signal=at
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=2-5
+	signal=over
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=2-6
+	signal=for
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=2-7
+	signal=of
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=2-8
+	signal=before
+	confidence=1
+	relation=BEFORE
+
+ruleNum=2-9
+	signal=after
+	confidence=1
+	relation=AFTER
+
+ruleNum=2-10
+	signal=when
+	confidence=1
+	relation=SIMULTANEOUS
+
+ruleNum=2-11
+	signal=since
+	confidence=1
+	relation=BEGUN_BY
+
+ruleNum=2-12
+	signal=from
+	confidence=1
+	relation=BEGUN_BY
+
+ruleNum=2-13
+	signal=until
+	confidence=1
+	relation=ENDED_BY

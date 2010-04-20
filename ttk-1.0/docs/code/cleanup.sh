@@ -1,0 +1,2 @@
+rm functions/*
+rm modules/*

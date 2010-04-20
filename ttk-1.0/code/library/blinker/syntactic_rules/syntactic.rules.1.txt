@@ -1,0 +1,33 @@
+
+# Rule 1: EVENT - TIMEX
+# =====================
+#
+# - intra-sentential EVENT-TIMEX3 pairs
+# - no SIGNAL occuring between EVENT and TIMEX3
+
+# Implied Features:
+#
+#  - arg1.tag = EVENT
+#  - arg2.tag = TIMEX3
+#  - signal = NO
+#  - sameSentence = YES
+#
+# Other features:
+#
+#  - distance = -1 | 1	
+#	1 if event is before timex, -1 otherwise
+#  - relation = <TimemlRel>	
+#	any timeml relation, always IS_INCLUDED in this case
+#  - confidence = <float>
+#	always 1 if rules have not been trained,
+#	otherwise a number from 0 to 1
+
+ruleNum=1-1
+	distance=1
+	confidence=1
+	relation=IS_INCLUDED
+
+ruleNum=1-2
+	distance=-1
+	confidence=1
+	relation=IS_INCLUDED

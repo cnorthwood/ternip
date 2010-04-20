@@ -1,0 +1,200 @@
+(lp1
+(iFSA
+FSA
+(dp2
+S'fsaname'
+p3
+NsS'finalStates'
+p4
+(lp5
+I5
+asS'alphabet'
+p6
+NsS'_isTrimmed'
+p7
+I1
+sS'label'
+p8
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_g_o_i_n_g_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _'_t_o_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _'_(_'_,_ _{_'_t_e_x_t_'_:_ _'_h_a_v_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_e_n_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_h_a_v_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_e_n_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_h_a_v_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _'_)_'_]"
+sS'states'
+p9
+(lp10
+I1
+aI3
+aI4
+aI2
+aI0
+aI5
+asS'initialState'
+p11
+I0
+sS'_arcMetadata'
+p12
+(dsS'_isSorted'
+p13
+I1
+sS'transitions'
+p14
+(lp15
+(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I0
+I1
+S"{'text': 'going', 'nodeType': 'Token'}"
+ta(I1
+I2
+S"{'text': 'to', 'nodeType': 'Token'}"
+ta(I2
+I2
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I2
+I3
+S"{'text': 'be', 'nodeType': 'Token', 'pos': ['VB', 'VBP']}"
+ta(I2
+I4
+S"{'text': 'have', 'nodeType': 'Token', 'pos': ['VB', 'VBP']}"
+ta(I2
+I5
+S"{'nodeType': 'Token', 'pos': ['VB', 'VBP']}"
+ta(I3
+I3
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I3
+I5
+S"{'nodeType': 'Token', 'pos': 'VBG'}"
+ta(I3
+I5
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+ta(I4
+I4
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I4
+I3
+S"{'text': 'been', 'nodeType': 'Token'}"
+ta(I4
+I5
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tasS'_isDeterminized'
+p16
+I1
+sS'_isMinimized'
+p17
+I1
+sba(iFSA
+FSA
+(dp18
+g3
+Nsg4
+(lp19
+I2
+asg6
+Nsg7
+I1
+sg8
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _'_(_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_i_n_g_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_)_'_]"
+sg9
+(lp20
+I2
+aI0
+aI1
+asg11
+I0
+sg12
+(dsg13
+I1
+sg14
+(lp21
+(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I0
+I1
+S"{'text': 'being', 'nodeType': 'Token'}"
+ta(I0
+I2
+S"{'nodeType': 'Token', 'pos': 'VBG'}"
+ta(I0
+I2
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+ta(I1
+I1
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I1
+I2
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tasg16
+I1
+sg17
+I1
+sba(iFSA
+FSA
+(dp22
+g3
+Nsg4
+(lp23
+I7
+asg6
+Nsg7
+I1
+sg8
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_,_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _'_._'_,_ _'_._'_,_ _'_._'_,_ _'_?_'_,_ _{_'_t_e_x_t_'_:_ _'_,_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _'_(_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_i_n_g_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_)_'_]"
+sg9
+(lp24
+I1
+aI6
+aI7
+aI2
+aI0
+aI4
+aI3
+aI5
+asg11
+I0
+sg12
+(dsg13
+I1
+sg14
+(lp25
+(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I0
+I1
+S"{'text': ',', 'nodeType': 'Token'}"
+ta(I1
+I2
+S'ALL'
+p26
+ta(I2
+I3
+g26
+ta(I3
+I4
+S'ALL'
+ta(I3
+I5
+S"{'text': ',', 'nodeType': 'Token'}"
+ta(I4
+I5
+S"{'text': ',', 'nodeType': 'Token'}"
+ta(I5
+I6
+S"{'text': 'being', 'nodeType': 'Token'}"
+ta(I5
+I7
+S"{'nodeType': 'Token', 'pos': 'VBG'}"
+ta(I5
+I7
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+ta(I6
+I6
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I6
+I7
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tasg16
+I1
+sg17
+I1
+sba.
