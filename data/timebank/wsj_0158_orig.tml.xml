@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t41" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0033 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0033. </AN>
+<HL> Reupke Quits Post
+@  As General Manager
+@  Of Reuters Holdings </HL>
+<DD> <TIMEX3 tid="t40" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> RTRSY WNEWS </CO>
+<DATELINE> LONDON  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Reuters Holdings PLC</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Michael Reupke</ENAMEX> <EVENT eid="e2" class="OCCURRENCE" >resigned</EVENT> as general manager  to pursue unspecified interests, a <EVENT eid="e97" class="OCCURRENCE" >move</EVENT> the news organization termed an "amicable separation."</s> 
+
+   <s><ENAMEX TYPE="PERSON">Mr. Reupke, 52 years old</ENAMEX> and a <TIMEX3 tid="t42" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P27Y" >27-year</TIMEX3> <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX> <EVENT eid="e47" class="STATE" >veteran</EVENT>, had <EVENT eid="e48" class="STATE" >been</EVENT> the information-services company's <EVENT eid="e49" class="STATE" >general manager</EVENT> <SIGNAL sid="s50" >for</SIGNAL> <TIMEX3 tid="t43" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P6M" >only <CARDINAL>six</CARDINAL> months</TIMEX3>.</s> 
+<s>His <EVENT eid="e51" class="ASPECTUAL" >appointment</EVENT> <SIGNAL sid="s134" >to</SIGNAL> that <EVENT eid="e127" class="STATE" >post</EVENT>, which has senior administrative, staff and policy responsibilities, <EVENT eid="e6" class="ASPECTUAL" >followed</EVENT> a <TIMEX3 tid="t44" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PXY" >several-year</TIMEX3> <EVENT eid="e52" class="STATE" >tenure</EVENT> as <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX>'s <EVENT eid="e53" class="STATE" >editor in chief</EVENT>.</s> 
+<s><SIGNAL sid="s54" >No</SIGNAL> <EVENT eid="e157" class="STATE" >successor</EVENT>  was <EVENT eid="e7" class="ASPECTUAL" >named</EVENT>, and <ENAMEX TYPE="PERSON">Mr. Reupke</ENAMEX>'s <EVENT eid="e168" class="STATE" >duties</EVENT> will be <EVENT eid="e8" class="ASPECTUAL" >split</EVENT> among <CARDINAL>three</CARDINAL> other senior <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX> executives, the company <EVENT eid="e9" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>In a telephone interview, <ENAMEX TYPE="PERSON">Mr. Reupke</ENAMEX> <EVENT eid="e10" class="REPORTING" >said</EVENT> his <EVENT eid="e55" class="OCCURRENCE" >departure</EVENT> was for "personal reasons," which he declined  to specify.</s> 
+<s>"There is no business reason for my <EVENT eid="e57" class="OCCURRENCE" >departure</EVENT>," nor any disagreement over policy, he <EVENT eid="e14" class="REPORTING" >added</EVENT>.</s> 
+<s>He also <EVENT eid="e15" class="REPORTING" >rejected</EVENT> <EVENT eid="e58" class="REPORTING" >reports</EVENT> that his <EVENT eid="e59" class="OCCURRENCE" >departure</EVENT> <EVENT eid="e16" class="ASPECTUAL" >stemmed</EVENT> <SIGNAL sid="s18" >from</SIGNAL> <EVENT eid="e17" class="I_STATE" >disappointment</EVENT> the <EVENT eid="e237" class="STATE" >general manager's post</EVENT> had <SIGNAL sid="s68" >n't</SIGNAL>  also <EVENT eid="e69" class="ASPECTUAL" >led</EVENT> <SIGNAL sid="s256" >to</SIGNAL> a <EVENT eid="e70" class="STATE" >board directorship</EVENT> at the <ENAMEX TYPE="LOCATION">London</ENAMEX>-based news organization.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Mr. Reupke</ENAMEX> was one of <CARDINAL>three</CARDINAL> executives on <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX>'s eight-person executive committee who did <SIGNAL sid="s22" >n't</SIGNAL>  also <EVENT eid="e21" class="STATE" >serve</EVENT> <EVENT eid="e64" class="STATE" >on the company's board of directors</EVENT>.</s> 
+<s>"<SIGNAL sid="s62" >If</SIGNAL> I  were <EVENT eid="e23" class="ASPECTUAL" >choosing</EVENT> the people of tomorrow, I <SIGNAL sid="s25" >would</SIGNAL>  have <EVENT eid="e24" class="ASPECTUAL" >chosen</EVENT> the people who are <TIMEX3 tid="t46" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t40" >now</TIMEX3> <EVENT eid="e63" class="STATE" >on the board</EVENT>," he <EVENT eid="e27" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>A <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX> spokesman <EVENT eid="e28" class="REPORTING" >said</EVENT> the <EVENT eid="e65" class="OCCURRENCE" >departure</EVENT> <EVENT eid="e29" class="I_STATE" >reflects</EVENT> "<SIGNAL sid="s71" >no</SIGNAL> <EVENT eid="e72" class="ASPECTUAL" >change</EVENT> <SIGNAL sid="s343" >in</SIGNAL> <EVENT eid="e73" class="STATE" >strategy</EVENT> or <EVENT eid="e74" class="OCCURRENCE" >profits</EVENT>."</s> 
+<s><ENAMEX TYPE="PERSON">Mark Shepperd</ENAMEX>, an analyst at <ENAMEX TYPE="ORGANIZATION">UBS Phillips amp Drew</ENAMEX> in <ENAMEX TYPE="LOCATION">London</ENAMEX>, <EVENT eid="e30" class="REPORTING" >said</EVENT>, "I <EVENT eid="e31" class="PERCEPTION" >suspect</EVENT> (the <EVENT eid="e66" class="OCCURRENCE" >departure</EVENT>) will be fairly <EVENT eid="e67" class="STATE" >irrelevant</EVENT> for the company.</s> 
+<s>I <SIGNAL sid="s33" >would</SIGNAL>  be very <EVENT eid="e32" class="I_STATE" >surprised</EVENT> <SIGNAL sid="s381" >if</SIGNAL> his <EVENT eid="e75" class="OCCURRENCE" >departure</EVENT> <EVENT eid="e76" class="ASPECTUAL" >signals</EVENT> any <EVENT eid="e77" class="ASPECTUAL" >change</EVENT> <SIGNAL sid="s422" >in</SIGNAL> <EVENT eid="e78" class="STATE" >strategy</EVENT> or <EVENT eid="e79" class="ASPECTUAL" >change</EVENT> <SIGNAL sid="s34" >in</SIGNAL> <EVENT eid="e80" class="OCCURRENCE" >profit</EVENT> <EVENT eid="e81" class="I_STATE" >expectations</EVENT>."</s> 
+<s>On <ENAMEX TYPE="ORGANIZATION"><ENAMEX TYPE="LOCATION">London</ENAMEX>'s Stock Exchange</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX> shares <EVENT eid="e35" class="I_ACTION" >rose</EVENT> <NUMEX TYPE="MONEY">five pence to 913 pence</NUMEX> (<NUMEX TYPE="MONEY">$14.43</NUMEX>).</s> 
+<s>In the U.S. over-the-counter market, American depositary shares for <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX>, each representing <CARDINAL>three</CARDINAL> shares in the <ENAMEX TYPE="LOCATION">London</ENAMEX> market, <EVENT eid="e36" class="OCCURRENCE" >closed</EVENT> <EVENT eid="e82" class="ASPECTUAL" >unchanged</EVENT> at <NUMEX TYPE="MONEY">$43.875</NUMEX>.</s> 
+
+   <s>The senior of the <CARDINAL>three</CARDINAL> executives who  will <EVENT eid="e37" class="ASPECTUAL" >assume</EVENT> <ENAMEX TYPE="PERSON">Mr. Reupke</ENAMEX>'s <EVENT eid="e358" class="STATE" >duties</EVENT> is <ENAMEX TYPE="PERSON">Nigel Judah, <CARDINAL>58</CARDINAL></ENAMEX>, finance director and a <ENAMEX TYPE="ORGANIZATION">Reuters</ENAMEX> board director.</s> 
+<s><ENAMEX TYPE="PERSON">Peter Holland, <CARDINAL>45</CARDINAL></ENAMEX>, deputy general manager, <EVENT eid="e38" class="ASPECTUAL" >becomes</EVENT> <EVENT eid="e83" class="STATE" >director of corporate affairs</EVENT>.</s> 
+<s>And <ENAMEX TYPE="PERSON">Patrick Mannix, <CARDINAL>46</CARDINAL></ENAMEX>, international technical manager, <EVENT eid="e39" class="OCCURRENCE" >becomes</EVENT> <EVENT eid="e84" class="STATE" >director of group quality programs</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei489" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei490" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei491" tense="NONE" eventID="e97" />
+<MAKEINSTANCE aspect="NONE" eiid="ei492" tense="NONE" eventID="e47" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei493" tense="PAST" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei494" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei495" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei496" tense="NONE" eventID="e127" />
+<MAKEINSTANCE aspect="NONE" eiid="ei497" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei498" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei499" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei500" tense="NONE" eventID="e157" />
+<MAKEINSTANCE aspect="NONE" eiid="ei501" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei502" tense="NONE" eventID="e168" />
+<MAKEINSTANCE aspect="NONE" eiid="ei503" tense="FUTURE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei504" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei505" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei506" tense="NONE" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei507" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei508" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei509" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei510" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei511" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei512" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei513" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei514" tense="NONE" eventID="e237" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei515" tense="PAST" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei516" tense="NONE" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei517" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei518" tense="NONE" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei519" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei520" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei521" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei522" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei523" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei524" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei525" tense="PRESENT" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei526" tense="NONE" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei527" tense="NONE" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei528" tense="NONE" eventID="e74" />
+<MAKEINSTANCE aspect="NONE" eiid="ei529" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei530" tense="PRESENT" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei531" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei532" tense="NONE" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei533" tense="FUTURE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei534" tense="NONE" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei535" tense="PRESENT" eventID="e76" />
+<MAKEINSTANCE aspect="NONE" eiid="ei536" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei537" tense="NONE" eventID="e78" />
+<MAKEINSTANCE aspect="NONE" eiid="ei538" tense="NONE" eventID="e79" />
+<MAKEINSTANCE aspect="NONE" eiid="ei539" tense="NONE" eventID="e80" />
+<MAKEINSTANCE aspect="NONE" eiid="ei540" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei541" tense="PAST" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei542" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei543" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei544" tense="FUTURE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei545" tense="NONE" eventID="e358" />
+<MAKEINSTANCE aspect="NONE" eiid="ei546" tense="PRESENT" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei547" tense="NONE" eventID="e83" />
+<MAKEINSTANCE aspect="NONE" eiid="ei548" tense="PRESENT" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei549" tense="NONE" eventID="e84" />
+<TLINK relatedToEventInstance="ei490" eventInstanceID="ei491" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei492" timeID="t42" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei494" eventInstanceID="ei493" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei490" eventInstanceID="ei493" relType="IBEFORE" />
+<TLINK signalID="s50" relatedToTime="t43" eventInstanceID="ei493" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei494" eventInstanceID="ei496" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei497" eventInstanceID="ei495" relType="IAFTER" />
+<TLINK relatedToTime="t44" eventInstanceID="ei498" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei498" eventInstanceID="ei499" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei494" eventInstanceID="ei502" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei489" eventInstanceID="ei504" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei503" eventInstanceID="ei504" relType="BEFORE" />
+<TLINK relatedToTime="t40" eventInstanceID="ei505" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei506" eventInstanceID="ei505" relType="AFTER" />
+<TLINK relatedToEventInstance="ei490" eventInstanceID="ei506" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei507" eventInstanceID="ei506" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei505" eventInstanceID="ei508" relType="AFTER" />
+<TLINK relatedToTime="t41" timeID="t40" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei505" eventInstanceID="ei509" relType="AFTER" />
+<TLINK relatedToTime="t40" eventInstanceID="ei489" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei506" eventInstanceID="ei511" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei494" eventInstanceID="ei514" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei518" eventInstanceID="ei516" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei490" eventInstanceID="ei489" relType="AFTER" />
+<TLINK relatedToEventInstance="ei505" eventInstanceID="ei522" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei518" eventInstanceID="ei521" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei521" timeID="t46" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t40" eventInstanceID="ei548" relType="AFTER" />
+<TLINK relatedToTime="t40" eventInstanceID="ei546" relType="AFTER" />
+<TLINK relatedToEventInstance="ei522" timeID="t46" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei489" eventInstanceID="ei523" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei506" eventInstanceID="ei524" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei523" eventInstanceID="ei529" relType="AFTER" />
+<TLINK relatedToEventInstance="ei507" eventInstanceID="ei531" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei506" eventInstanceID="ei534" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei538" eventInstanceID="ei536" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei527" eventInstanceID="ei537" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei528" eventInstanceID="ei539" relType="IDENTITY" />
+<TLINK relatedToTime="t40" eventInstanceID="ei541" relType="BEFORE" />
+<TLINK relatedToTime="t40" eventInstanceID="ei542" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei502" eventInstanceID="ei545" relType="IDENTITY" />
+<TLINK relatedToTime="t40" eventInstanceID="ei544" relType="AFTER" />
+<SLINK signalID="s54" subordinatedEventInstance="ei500" eventInstanceID="ei501" relType="NEGATIVE" />
+<SLINK subordinatedEventInstance="ei510" eventInstanceID="ei509" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei512" eventInstanceID="ei510" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei512" eventInstanceID="ei511" relType="MODAL" />
+<SLINK signalID="s18" subordinatedEventInstance="ei513" eventInstanceID="ei512" relType="FACTIVE" />
+<SLINK signalID="s256" subordinatedEventInstance="ei516" eventInstanceID="ei515" relType="FACTIVE" />
+<SLINK signalID="s22" subordinatedEventInstance="ei518" eventInstanceID="ei517" relType="NEGATIVE" />
+<SLINK signalID="s68" subordinatedEventInstance="ei515" eventInstanceID="ei514" relType="COUNTER_FACTIVE" />
+<SLINK signalID="s62" subordinatedEventInstance="ei519" eventInstanceID="ei522" relType="MODAL" />
+<SLINK signalID="s25" subordinatedEventInstance="ei520" eventInstanceID="ei519" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei521" eventInstanceID="ei520" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei525" eventInstanceID="ei523" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei525" eventInstanceID="ei524" relType="MODAL" />
+<SLINK signalID="s71" subordinatedEventInstance="ei526" eventInstanceID="ei525" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei530" eventInstanceID="ei529" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei532" eventInstanceID="ei530" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei532" eventInstanceID="ei531" relType="COUNTER_FACTIVE" />
+<SLINK signalID="s33" subordinatedEventInstance="ei533" eventInstanceID="ei529" relType="EVIDENTIAL" />
+<SLINK signalID="s381" subordinatedEventInstance="ei535" eventInstanceID="ei533" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei535" eventInstanceID="ei534" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei536" eventInstanceID="ei535" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei539" eventInstanceID="ei540" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei543" eventInstanceID="ei542" relType="NEGATIVE" />
+<ALINK relatedToEventInstance="ei496" signalID="s134" eventInstanceID="ei495" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei498" eventInstanceID="ei497" relType="CULMINATES" />
+<ALINK relatedToEventInstance="ei502" eventInstanceID="ei503" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei515" eventInstanceID="ei513" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei527" signalID="s343" eventInstanceID="ei526" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei528" signalID="s343" eventInstanceID="ei526" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei547" eventInstanceID="ei546" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei549" eventInstanceID="ei548" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei537" signalID="s422" eventInstanceID="ei536" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei540" signalID="s34" eventInstanceID="ei538" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei545" eventInstanceID="ei544" relType="CONTINUES" />
+</TimeML>

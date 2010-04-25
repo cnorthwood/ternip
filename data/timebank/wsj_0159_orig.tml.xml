@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0032 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0032. </AN>
+<HL> Business Brief -- Dunkin' Donuts Inc.:
+@  DD Acquisition Extended
+@  Its $45-a-Share Takeover Bid </HL>
+<DD><TIMEX3 tid="t39" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" > 11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> UNI.A DUNK T.CAO </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+RESTAURANTS, SUPERMARKETS AND DRUGSTORES (RFD) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">DD Acquisition Corp.</ENAMEX>, a partnership of <ENAMEX TYPE="ORGANIZATION">Unicorp Canada Corp.</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Kingsbridge Capital Group</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Cara Operations Ltd.</ENAMEX>, <EVENT eid="e2" class="OCCURRENCE" >extended</EVENT> <SIGNAL sid="s40" >to</SIGNAL> <TIMEX3 tid="t41" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-20" anchorTimeID="t39" >Nov. 20</TIMEX3> its $45-a-share offer for all Dunkin' <ENAMEX TYPE="ORGANIZATION">Donuts Inc.</ENAMEX> shares outstanding.</s> 
+
+   <s>The offer, which was <EVENT eid="e49" class="I_STATE" >due</EVENT> <SIGNAL sid="s48" >to</SIGNAL> <EVENT eid="e6" class="OCCURRENCE" >expire</EVENT> <TIMEX3 tid="t44" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t39" >yesterday</TIMEX3>, is <EVENT eid="e45" class="I_STATE" >conditional</EVENT> <SIGNAL sid="s46" >on</SIGNAL> <NUMEX TYPE="PERCENT">50.1%</NUMEX> of Dunkin' common shares, on a fully diluted basis, being <EVENT eid="e7" class="OCCURRENCE" >tendered</EVENT> and <SIGNAL sid="s9" >on</SIGNAL> the <EVENT eid="e8" class="OCCURRENCE" >withdrawal</EVENT> of the company's poison pill rights plan.</s> 
+
+   <s>Acquisition has <EVENT eid="e11" class="OCCURRENCE" >launched</EVENT> a <EVENT eid="e113" class="I_ACTION" >suit</EVENT> in a <ENAMEX TYPE="LOCATION">Delaware</ENAMEX> court <EVENT eid="e13" class="I_ACTION" >seeking</EVENT> the <EVENT eid="e14" class="OCCURRENCE" >withdrawal</EVENT> of Dunkin's poison pill rights and employee stock ownership plans, which it <EVENT eid="e50" class="REPORTING" >claims</EVENT> were <EVENT eid="e47" class="OCCURRENCE" >put in place</EVENT> <SIGNAL sid="s17" >to</SIGNAL> <EVENT eid="e18" class="OCCURRENCE" >deter</EVENT> bidders.</s> 
+<s>Acquisition <EVENT eid="e20" class="REPORTING" >said</EVENT> <CARDINAL>2.2 million</CARDINAL> shares, or about <NUMEX TYPE="PERCENT">38.5%</NUMEX> of the shares outstanding, have been <EVENT eid="e21" class="OCCURRENCE" >tendered</EVENT> under its offer.</s> 
+<s>The partners <EVENT eid="e23" class="REPORTING" >said</EVENT> they <TIMEX3 tid="t51" type="TIME" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t39" >already</TIMEX3> <EVENT eid="e24" class="STATE" >hold</EVENT> <NUMEX TYPE="PERCENT">15%</NUMEX> of all shares outstanding.</s> 
+
+   <s>Dunkin' has <EVENT eid="e25" class="I_ACTION" >set</EVENT> <TIMEX3 tid="t52" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-10" anchorTimeID="t39" >Nov. 10</TIMEX3> as the deadline for the <EVENT eid="e26" class="OCCURRENCE" >receipt</EVENT> of any competing bids.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">DD Acquisition</ENAMEX> <EVENT eid="e28" class="REPORTING" >said</EVENT> the <EVENT eid="e29" class="OCCURRENCE" >extension</EVENT> is <SIGNAL sid="s30" >to</SIGNAL> <EVENT eid="e206" class="I_ACTION" >allow</EVENT> this process <SIGNAL sid="s33" >to</SIGNAL> be <EVENT eid="e34" class="ASPECTUAL" >completed</EVENT>.</s> 
+<s>Dunkin' is based in <ENAMEX TYPE="LOCATION">Randolph</ENAMEX>, <ENAMEX TYPE="LOCATION">Mass. 
+Cara</ENAMEX>, a food services chain operator and <ENAMEX TYPE="ORGANIZATION">Unicorp</ENAMEX>, a holding company, are based in <ENAMEX TYPE="LOCATION">Toronto</ENAMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei217" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei218" tense="PAST" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei219" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei220" tense="PRESENT" eventID="e45" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei221" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei222" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei223" tense="PRESENT" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei224" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei225" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei226" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei227" tense="PRESENT" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei228" tense="PAST" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei229" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei230" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei231" tense="PRESENT" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei232" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei233" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei234" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei235" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei236" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei237" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei238" tense="NONE" eventID="e206" />
+<MAKEINSTANCE aspect="NONE" eiid="ei239" tense="NONE" eventID="e34" />
+<TLINK relatedToEventInstance="ei217" timeID="t39" relType="AFTER" />
+<TLINK signalID="s40" relatedToTime="t41" eventInstanceID="ei217" relType="ENDED_BY" />
+<TLINK relatedToTime="t44" eventInstanceID="ei219" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t39" timeID="t44" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei223" timeID="t39" relType="AFTER" />
+<TLINK relatedToEventInstance="ei224" eventInstanceID="ei223" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei226" eventInstanceID="ei228" relType="BEFORE" />
+<TLINK relatedToTime="t39" eventInstanceID="ei230" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei232" eventInstanceID="ei230" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei233" timeID="t51" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t39" timeID="t51" relType="BEFORE" />
+<TLINK relatedToTime="t39" eventInstanceID="ei234" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei235" timeID="t52" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t39" eventInstanceID="ei236" relType="BEFORE" />
+<SLINK signalID="s33" subordinatedEventInstance="ei239" eventInstanceID="ei238" relType="MODAL" />
+<SLINK signalID="s48" subordinatedEventInstance="ei219" eventInstanceID="ei218" relType="MODAL" />
+<SLINK signalID="s46" subordinatedEventInstance="ei221" eventInstanceID="ei220" relType="MODAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei222" eventInstanceID="ei220" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei225" eventInstanceID="ei224" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei226" eventInstanceID="ei225" relType="MODAL" />
+<SLINK signalID="s17" subordinatedEventInstance="ei229" eventInstanceID="ei228" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei231" eventInstanceID="ei230" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei233" eventInstanceID="ei232" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei237" eventInstanceID="ei236" relType="EVIDENTIAL" />
+<SLINK signalID="s30" subordinatedEventInstance="ei238" eventInstanceID="ei237" relType="MODAL" />
+</TimeML>

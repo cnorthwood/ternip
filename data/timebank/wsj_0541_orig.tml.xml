@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0160 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0160. </AN>
+<HL> Automatic Data Processing </HL>
+<DD> <TIMEX3 tid="t17" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> AUD </CO>
+<IN> BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) </IN>
+<DATELINE> ROSELAND, N.J.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Automatic Data Processing Inc.</ENAMEX> <EVENT eid="e1" class="I_STATE" >plans</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >redeem</EVENT> <SIGNAL sid="s15" >on</SIGNAL> <TIMEX3 tid="t18" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-16" anchorTimeID="t17" >Nov. 16</TIMEX3> its <NUMEX TYPE="MONEY">$150 million</NUMEX> of <NUMEX TYPE="PERCENT">6.5%</NUMEX> convertible subordinated debentures <EVENT eid="e19" class="STATE" >due</EVENT> <TIMEX3 tid="t20" type="DATE" temporalFunction="false" functionInDocument="NONE" value="2011-03-01" >March 1, 2011</TIMEX3>.</s> 
+
+   <s>The computing-services concern will <EVENT eid="e4" class="OCCURRENCE" >pay</EVENT> <NUMEX TYPE="MONEY">$1,059.04</NUMEX> for each <NUMEX TYPE="MONEY">$1,000</NUMEX> face amount of debt.</s> 
+<s>The conversion price for the debentures is <NUMEX TYPE="MONEY">$41.725</NUMEX> a share.</s> 
+<s>In <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> composite trading <TIMEX3 tid="t21" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t17" >Friday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Automatic Data</ENAMEX> <EVENT eid="e6" class="OCCURRENCE" >closed</EVENT> at <EVENT eid="e22" class="STATE" ><NUMEX TYPE="MONEY">$46.50</NUMEX> a share</EVENT>, down <NUMEX TYPE="MONEY">$2.25</NUMEX>.</s> 
+
+   <s><SIGNAL sid="s23" >If</SIGNAL> all the debt is <EVENT eid="e7" class="OCCURRENCE" >converted</EVENT> to common, <ENAMEX TYPE="ORGANIZATION">Automatic Data</ENAMEX> will <EVENT eid="e8" class="OCCURRENCE" >issue</EVENT> <CARDINAL>about 3.6 million</CARDINAL> shares; <TIMEX3 tid="t24" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-23" anchorTimeID="t17" >last Monday</TIMEX3>, the company <EVENT eid="e25" class="STATE" >had</EVENT> nearly <CARDINAL>73 million</CARDINAL> shares outstanding.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Automatic Data</ENAMEX> is <EVENT eid="e9" class="OCCURRENCE" >redeeming</EVENT> the bonds because the after-tax cost of the interest on the bonds is higher than the dividend yield on the common, a spokesman <EVENT eid="e14" class="REPORTING" >said</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei86" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei87" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei88" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei89" tense="FUTURE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei90" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei91" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei92" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei93" tense="FUTURE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei94" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei95" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei96" tense="PAST" eventID="e14" />
+<TLINK relatedToTime="t17" eventInstanceID="ei86" relType="INCLUDES" />
+<TLINK signalID="s15" relatedToTime="t18" eventInstanceID="ei87" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei88" eventInstanceID="ei86" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t20" eventInstanceID="ei88" relType="ENDED_BY" />
+<TLINK relatedToTime="t17" eventInstanceID="ei89" relType="AFTER" />
+<TLINK relatedToTime="t21" eventInstanceID="ei90" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei91" eventInstanceID="ei90" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei93" eventInstanceID="ei92" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei94" timeID="t24" relType="INCLUDES" />
+<TLINK relatedToTime="t17" eventInstanceID="ei95" relType="INCLUDES" />
+<TLINK relatedToTime="t17" eventInstanceID="ei96" relType="BEFORE" />
+<SLINK signalID="s2" subordinatedEventInstance="ei87" eventInstanceID="ei86" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei95" eventInstanceID="ei96" relType="EVIDENTIAL" />
+</TimeML>

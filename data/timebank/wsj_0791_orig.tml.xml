@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0104 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0104. </AN>
+<HL> Norwood May Offer
+@  To Acquire Phoenix
+@  Technologies Shares </HL>
+<DD> <TIMEX3 tid="t44" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> PTEC </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> WASHINGTON  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Norwood Partners Limited Partnership</ENAMEX> of <ENAMEX TYPE="LOCATION">Boston</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it may <EVENT eid="e2" class="OCCURRENCE" >make</EVENT> a tender <EVENT eid="e4" class="OCCURRENCE" >offer</EVENT> for some or all of <ENAMEX TYPE="ORGANIZATION">Phoenix Technologies Ltd.</ENAMEX>'s common shares.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Norwood</ENAMEX>, <ENAMEX TYPE="LOCATION">Mass.</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Phoenix</ENAMEX>, a once-high-flying maker of software for personal computers, has <EVENT eid="e6" class="OCCURRENCE" >had</EVENT> substantial <EVENT eid="e33" class="OCCURRENCE" >losses</EVENT> <SIGNAL sid="s34" >in</SIGNAL> <TIMEX3 tid="t46" type="DATE" temporalFunction="true" functionInDocument="NONE" value="P06M" anchorTimeID="t44" >the past two quarters</TIMEX3>.</s> 
+<s>Its stock, which was as high as <EVENT eid="e36" class="STATE" ><NUMEX TYPE="MONEY">$18.75</NUMEX> a share</EVENT>, has been <EVENT eid="e7" class="OCCURRENCE" >trading</EVENT> under <EVENT eid="e38" class="STATE" ><NUMEX TYPE="MONEY">$4</NUMEX> a share</EVENT> <TIMEX3 tid="t47" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t44" >recently</TIMEX3>.</s> 
+<s><TIMEX3 tid="t48" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t44" >Yesterday</TIMEX3> it <EVENT eid="e8" class="OCCURRENCE" >closed</EVENT> at <EVENT eid="e41" class="STATE" ><NUMEX TYPE="MONEY">$4.375</NUMEX> a share</EVENT>, up <NUMEX TYPE="MONEY">$1.125</NUMEX>, in national over-the-counter <EVENT eid="e9" class="OCCURRENCE" >trading</EVENT>.</s> 
+
+   <s>In a <ENAMEX TYPE="ORGANIZATION">Securities and Exchange Commission</ENAMEX> filing, <ENAMEX TYPE="ORGANIZATION">Norwood</ENAMEX> <EVENT eid="e11" class="REPORTING" >said</EVENT> it's part of a group that <EVENT eid="e12" class="OCCURRENCE" >holds</EVENT> <CARDINAL>525,546</CARDINAL> <ENAMEX TYPE="ORGANIZATION">Phoenix Technologies</ENAMEX> common shares, or a <NUMEX TYPE="PERCENT">5.3%</NUMEX> stake.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Norwood</ENAMEX> has <EVENT eid="e14" class="OCCURRENCE" >made</EVENT> "no detailed <EVENT eid="e43" class="OCCURRENCE" >plans</EVENT>," but it has <EVENT eid="e16" class="OCCURRENCE" >engaged</EVENT> in <EVENT eid="e17" class="OCCURRENCE" >talks</EVENT> with other shareholders, the filing <EVENT eid="e20" class="REPORTING" >said</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Phoenix</ENAMEX> <EVENT eid="e21" class="I_ACTION" >declined</EVENT> to <EVENT eid="e23" class="OCCURRENCE" >comment</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Norwood</ENAMEX> is <EVENT eid="e24" class="OCCURRENCE" >controlled</EVENT> by <ENAMEX TYPE="PERSON">Daniel L. Barnett</ENAMEX> and <ENAMEX TYPE="PERSON">Paul A. Reese</ENAMEX>, both officers of <ENAMEX TYPE="LOCATION">Boston</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Oasis Capital Management Inc.</ENAMEX>, a small <ENAMEX TYPE="LOCATION">Boston</ENAMEX> money management firm.</s> 
+<s>Also <EVENT eid="e25" class="OCCURRENCE" >involved</EVENT> in the group is <ENAMEX TYPE="PERSON">Robert F. Angelo</ENAMEX>, formerly <ENAMEX TYPE="ORGANIZATION">Phoenix</ENAMEX>'s senior vice president, field operations, who <EVENT eid="e29" class="OCCURRENCE" >left</EVENT> <ENAMEX TYPE="ORGANIZATION">Phoenix</ENAMEX> <SIGNAL sid="s50" >at</SIGNAL> <TIMEX3 mod="START" tid="t49" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10" anchorTimeID="t44" >the beginning of October</TIMEX3>.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Angelo</ENAMEX> was <EVENT eid="e30" class="I_ACTION" >described</EVENT> in the filing as a <EVENT eid="e170" class="STATE" >consultant</EVENT> to <ENAMEX TYPE="ORGANIZATION">Oasis</ENAMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei179" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" modality="may" eiid="ei180" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei181" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei182" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei183" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei184" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei185" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei186" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei187" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei188" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei189" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei190" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei191" tense="PRESENT" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei192" polarity="NEG" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei193" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei194" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei195" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei196" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei197" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei198" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei199" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei200" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei201" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei202" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei203" tense="NONE" eventID="e170" />
+<TLINK relatedToTime="t44" eventInstanceID="ei179" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei181" eventInstanceID="ei180" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei183" eventInstanceID="ei182" relType="IDENTITY" />
+<TLINK relatedToTime="t44" eventInstanceID="ei199" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei201" eventInstanceID="ei200" relType="AFTER" />
+<TLINK relatedToEventInstance="ei179" eventInstanceID="ei182" relType="BEFORE" />
+<TLINK signalID="s34" relatedToTime="t46" eventInstanceID="ei182" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei182" eventInstanceID="ei184" relType="BEGINS" />
+<TLINK relatedToEventInstance="ei199" eventInstanceID="ei200" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei182" eventInstanceID="ei186" relType="ENDS" />
+<TLINK relatedToEventInstance="ei186" eventInstanceID="ei185" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei186" timeID="t47" relType="INCLUDES" />
+<TLINK relatedToTime="t48" eventInstanceID="ei187" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei188" eventInstanceID="ei187" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei189" eventInstanceID="ei188" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei179" eventInstanceID="ei190" relType="IDENTITY" />
+<TLINK signalID="s50" relatedToTime="t49" eventInstanceID="ei201" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t44" eventInstanceID="ei192" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei193" eventInstanceID="ei192" relType="IDENTITY" />
+<TLINK relatedToTime="t44" eventInstanceID="ei197" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei195" eventInstanceID="ei194" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t44" eventInstanceID="ei194" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei180" eventInstanceID="ei179" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei198" eventInstanceID="ei197" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei192" eventInstanceID="ei196" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei203" eventInstanceID="ei202" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei191" eventInstanceID="ei190" relType="EVIDENTIAL" />
+</TimeML>

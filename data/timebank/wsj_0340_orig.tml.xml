@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891101-0024 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0024. </AN>
+<HL> International Brief -- Cie. de Navigation Mixte:
+@  Credit Lyonnais Unit Buys
+@  Stock to Help Defeat Bid </HL>
+<DD> <TIMEX3 tid="t22" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> F.CNM F.CLC F.CFP </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+INSURANCE (INS)
+FOOD PRODUCTS (FOD) </IN>
+<TEXT>
+   <s>The portfolio unit of the French bank group <ENAMEX TYPE="PERSON">Credit Lyonnais</ENAMEX> <EVENT eid="e1" class="REPORTING" >told</EVENT> stock market regulators that it <EVENT eid="e2" class="OCCURRENCE" >bought</EVENT> <CARDINAL>43,000</CARDINAL> shares of <ENAMEX TYPE="ORGANIZATION">Cie. de Navigation Mixte</ENAMEX>, apparently <SIGNAL sid="s20" >to</SIGNAL> <EVENT eid="e3" class="I_ACTION" >help</EVENT> <EVENT eid="e4" class="OCCURRENCE" >fend</EVENT> off an unwelcome takeover bid for the company.</s> 
+
+   <s><TIMEX3 mod="START" tid="t23" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-31" anchorTimeID="t22" >Earlier yesterday</TIMEX3>, the Societe de Bourses Francaises was <EVENT eid="e6" class="REPORTING" >told</EVENT> that a unit of <ENAMEX TYPE="ORGANIZATION">Framatome S.A.</ENAMEX> also <EVENT eid="e7" class="OCCURRENCE" >bought</EVENT> <ENAMEX TYPE="ORGANIZATION">Navigation Mixte</ENAMEX> shares, this <EVENT eid="e8" class="OCCURRENCE" >purchase</EVENT> covering <CARDINAL>more than 160,000</CARDINAL> shares.</s> 
+
+   <s>Both companies are allies of <ENAMEX TYPE="ORGANIZATION">Navigation Mixte</ENAMEX> in its <EVENT eid="e24" class="STATE" >fight</EVENT> against a hostile takeover bid <EVENT eid="e13" class="ASPECTUAL" >launched</EVENT> <TIMEX3 tid="t61" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-WXX" anchorTimeID="t22" >last week</TIMEX3> by <ENAMEX TYPE="ORGANIZATION">Cie. 
+Financiere de Paribas</ENAMEX> at <NUMEX TYPE="MONEY">1,850 French francs</NUMEX> (<NUMEX TYPE="MONEY">$297</NUMEX>) a share.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Navigation Mixte</ENAMEX>'s chairman had <EVENT eid="e14" class="I_ACTION" >suggested</EVENT> that friendly institutions were <SIGNAL sid="s25" >likely</SIGNAL> to <EVENT eid="e16" class="OCCURRENCE" >buy</EVENT> its stock <SIGNAL sid="s92" >as soon as</SIGNAL> <EVENT eid="e17" class="OCCURRENCE" >trading</EVENT> <EVENT eid="e18" class="ASPECTUAL" >opened</EVENT> <TIMEX3 tid="t26" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-06" anchorTimeID="t22" >Monday</TIMEX3>.</s> 
+
+   <s>The <ENAMEX TYPE="PERSON">Credit Lyonnais</ENAMEX> purchase, for <CARDINAL>33,000</CARDINAL> regular common shares and <CARDINAL>10,000</CARDINAL> newly created shares, is valued at about slightly more than <NUMEX TYPE="MONEY">80 million French francs</NUMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei99" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei100" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei101" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei102" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei103" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei104" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei105" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei106" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei107" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei108" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei109" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei110" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei111" tense="NONE" eventID="e18" />
+<TLINK relatedToTime="t22" eventInstanceID="ei108" relType="BEFORE" />
+<TLINK relatedToTime="t26" eventInstanceID="ei110" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t22" eventInstanceID="ei110" relType="AFTER" />
+<TLINK relatedToEventInstance="ei111" signalID="s92" eventInstanceID="ei109" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei105" eventInstanceID="ei104" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei103" timeID="t23" relType="INCLUDES" />
+<TLINK relatedToTime="t22" eventInstanceID="ei99" relType="BEFORE" />
+<TLINK relatedToTime="t61" eventInstanceID="ei107" relType="IS_INCLUDED" />
+<SLINK signalID="s25" subordinatedEventInstance="ei109" eventInstanceID="ei108" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei104" eventInstanceID="ei103" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei102" eventInstanceID="ei101" relType="MODAL" />
+<SLINK signalID="s20" subordinatedEventInstance="ei101" eventInstanceID="ei100" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei100" eventInstanceID="ei99" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei110" eventInstanceID="ei111" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei106" eventInstanceID="ei107" relType="INITIATES" />
+</TimeML>

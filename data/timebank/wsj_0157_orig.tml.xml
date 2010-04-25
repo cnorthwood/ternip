@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0034 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0034. </AN>
+<HL> Business Brief -- Tony Lama Co.:
+@  Equus Investment II Seeks
+@  To Change Offer for Firm </HL>
+<DD> <TIMEX3 tid="t26" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> TLAM </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Tony Lama Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> that <ENAMEX TYPE="ORGANIZATION">Equus Investment II Limited Partnership</ENAMEX>  has <EVENT eid="e2" class="I_ACTION" >proposed</EVENT> <EVENT eid="e2030" class="ASPECTUAL" >changing</EVENT> the <EVENT eid="e1995" class="I_ACTION" >offer</EVENT> for the company to <NUMEX TYPE="MONEY">$13.65</NUMEX> in cash and stock from an all-cash <EVENT eid="e4" class="I_ACTION" >transaction</EVENT>.</s> 
+
+   <s>Under terms of the new <EVENT eid="e2046" class="I_ACTION" >proposal</EVENT>, <ENAMEX TYPE="ORGANIZATION">Equus</ENAMEX>, managed by <ENAMEX TYPE="ORGANIZATION">Equus Capital Corp.</ENAMEX>, <ENAMEX TYPE="LOCATION">Houston</ENAMEX>, <SIGNAL sid="s8" >would</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >pay</EVENT> <NUMEX TYPE="MONEY">$12</NUMEX> cash and one new preferred share with a liquidation preference of <NUMEX TYPE="MONEY">$1.65</NUMEX> a share for each of <ENAMEX TYPE="ORGANIZATION">Tony Lama</ENAMEX>'s <CARDINAL>2.1 million</CARDINAL> shares outstanding.</s> 
+<s><TIMEX3 tid="t1999" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t26" >Previously</TIMEX3>, it <EVENT eid="e9" class="I_ACTION" >offered</EVENT> <NUMEX TYPE="MONEY">$13.65</NUMEX> a share in cash, or <NUMEX TYPE="MONEY">$29 million</NUMEX>.</s> 
+
+   <s>The El Paso, <ENAMEX TYPE="LOCATION">Texas</ENAMEX>, maker of Western boots and leather accessories <EVENT eid="e10" class="REPORTING" >said</EVENT> the preferred stock <SIGNAL sid="s12" >would</SIGNAL> <EVENT eid="e11" class="OCCURRENCE" >accrue</EVENT> dividends at a <NUMEX TYPE="PERCENT">12%</NUMEX> rate, but <SIGNAL sid="s15" >would</SIGNAL> <SIGNAL sid="s16" >n't</SIGNAL>  be <EVENT eid="e14" class="OCCURRENCE" >paid</EVENT> <SIGNAL sid="s1998" >for</SIGNAL> <TIMEX3 tid="t28" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P2Y" anchorTimeID="t26" >the first <CARDINAL>two</CARDINAL> years</TIMEX3>.</s> 
+<s>The stock <SIGNAL sid="s18" >would</SIGNAL>  be <EVENT eid="e17" class="OCCURRENCE" >redeemed</EVENT> <SIGNAL sid="s2105" >in</SIGNAL> <TIMEX3 tid="t29" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1994" anchorTimeID="t26" ><CARDINAL>five</CARDINAL> years</TIMEX3>, subject to terms of the surviving company's debt.</s> 
+
+   <s><SIGNAL sid="s2003" >Neither</SIGNAL> <ENAMEX TYPE="ORGANIZATION">Equus</ENAMEX> nor <ENAMEX TYPE="ORGANIZATION">Tony Lama</ENAMEX> <EVENT eid="e19" class="REPORTING" >gave</EVENT> a reason for the <EVENT eid="e2031" class="ASPECTUAL" >changed</EVENT> <EVENT eid="e2000" class="I_ACTION" >offer</EVENT> and <ENAMEX TYPE="ORGANIZATION">Tony Lama</ENAMEX> could <SIGNAL sid="s2140" >n't</SIGNAL>  be reached for <EVENT eid="e2001" class="REPORTING" >comment</EVENT>.</s> 
+<s>However, <ENAMEX TYPE="ORGANIZATION">Tony Lama</ENAMEX> <EVENT eid="e23" class="REPORTING" >said</EVENT> it would  promptly <EVENT eid="e24" class="OCCURRENCE" >submit</EVENT> the <EVENT eid="e2002" class="I_ACTION" >offer</EVENT> to a special committee of the company's board.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2195" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2196" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2197" tense="NONE" eventID="e2030" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2198" tense="NONE" eventID="e1995" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2199" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2200" tense="NONE" eventID="e2046" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2201" tense="FUTURE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2202" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2203" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2204" tense="FUTURE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2205" tense="FUTURE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2206" tense="FUTURE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2207" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2208" tense="NONE" eventID="e2031" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2209" tense="NONE" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2210" tense="NONE" eventID="e2001" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2211" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2212" tense="FUTURE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2213" tense="NONE" eventID="e2002" />
+<TLINK relatedToEventInstance="ei2201" eventInstanceID="ei2206" relType="AFTER" />
+<TLINK signalID="s2105" relatedToTime="t29" eventInstanceID="ei2206" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2209" eventInstanceID="ei2213" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2195" eventInstanceID="ei2203" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t26" timeID="t27" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2197" eventInstanceID="ei2208" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2210" eventInstanceID="ei2207" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2202" timeID="t1999" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2197" timeID="t1999" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2196" eventInstanceID="ei2200" relType="IDENTITY" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2195" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2213" eventInstanceID="ei2212" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2212" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei2212" eventInstanceID="ei2211" relType="EVIDENTIAL" />
+<SLINK signalID="s18" subordinatedEventInstance="ei2206" eventInstanceID="ei2203" relType="MODAL" />
+<SLINK signalID="s16" subordinatedEventInstance="ei2205" eventInstanceID="ei2203" relType="NEG_EVIDENTIAL" />
+<SLINK signalID="s12" subordinatedEventInstance="ei2204" eventInstanceID="ei2203" relType="MODAL" />
+<SLINK signalID="s2003" subordinatedEventInstance="ei2209" eventInstanceID="ei2207" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2197" eventInstanceID="ei2196" relType="MODAL" />
+<SLINK signalID="s2140" subordinatedEventInstance="ei2209" eventInstanceID="ei2210" relType="NEG_EVIDENTIAL" />
+<SLINK signalID="s8" subordinatedEventInstance="ei2201" eventInstanceID="ei2200" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2196" eventInstanceID="ei2195" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2209" eventInstanceID="ei2208" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei2199" eventInstanceID="ei2197" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei2198" eventInstanceID="ei2197" relType="CONTINUES" />
+</TimeML>

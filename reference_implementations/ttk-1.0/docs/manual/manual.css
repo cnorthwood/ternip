@@ -1,0 +1,41 @@
+
+body {
+   background-color: #f9f9f9;
+   margin-top: 10pt;
+   margin-left: 15pt;
+   margin-right: 10pt;
+   margin-bottom: 10pt;
+   font-size: 12pt;
+   line-height: 13pt
+}
+
+h2 {
+   background-color: lightyellow;
+   border-style: solid;
+   border-width: thin;
+   margin-top: 10pt;
+   margin-left: -5pt;
+   padding: 15pt;
+   padding-left: 10pt;
+   font-size: 24pt
+}
+
+h3 {
+   background-color: lightyellow;
+   border-style: solid;
+   border-width: thin;
+   margin-top: 30pt;
+   margin-bottom: 15pt;
+   margin-left: -5pt;
+   padding: 10pt;
+   font-size: 16pt
+}
+
+code {
+   font-size: 12pt
+}
+
+table {
+   font-size: 12pt;
+   line-height: 13pt
+}

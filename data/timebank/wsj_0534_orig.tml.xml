@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0167 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0167. </AN>
+<HL> Conseco to Redeem Preferred </HL>
+<DD> <TIMEX3 tid="t14" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CNC </CO>
+<IN> BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) </IN>
+<DATELINE> CARMEL, Ind.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Conseco Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it is <EVENT eid="e2" class="I_ACTION" >calling</EVENT> for the <EVENT eid="e3" class="OCCURRENCE" >redemption</EVENT> <SIGNAL sid="s13" >on</SIGNAL> <TIMEX3 tid="t15" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-07" anchorTimeID="t14" >Dec. 7</TIMEX3> of all the <CARDINAL>800,000</CARDINAL> remaining shares outstanding of its <NUMEX TYPE="MONEY">$1.875</NUMEX> Series A convertible preferred stock at <NUMEX TYPE="MONEY">$26.805</NUMEX> a share.</s> 
+
+   <s>The insurance concern <EVENT eid="e5" class="REPORTING" >said</EVENT> all conversion <EVENT eid="e16" class="STATE" >rights</EVENT> on the stock will <EVENT eid="e7" class="ASPECTUAL" >terminate</EVENT> <SIGNAL sid="s17" >on</SIGNAL> <TIMEX3 tid="t18" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-30" anchorTimeID="t14" >Nov. 30</TIMEX3>.</s> 
+<s><SIGNAL sid="s21" >Until</SIGNAL> <TIMEX3 tid="t22" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-30" anchorTimeID="t18" >then</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Conseco</ENAMEX> <EVENT eid="e8" class="REPORTING" >said</EVENT> the stock <EVENT eid="e9" class="STATE" >remains</EVENT> convertible into common stock at the rate of <CARDINAL>1.439</CARDINAL> shares of common stock for each share of preferred stock, which is equivalent to a conversion price of <NUMEX TYPE="MONEY">$17.50</NUMEX> a common share.</s> 
+<s>In <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> trading <TIMEX3 tid="t19" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t14" >Friday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Conseco</ENAMEX> <EVENT eid="e12" class="OCCURRENCE" >closed</EVENT> at <EVENT eid="e20" class="STATE" ><NUMEX TYPE="MONEY">$19.50</NUMEX></EVENT>, down <NUMEX TYPE="MONEY">25 cents</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei87" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei88" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei89" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei90" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei91" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei92" tense="FUTURE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei93" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei94" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei95" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei96" tense="NONE" eventID="e20" />
+<TLINK relatedToTime="t14" eventInstanceID="ei90" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei90" eventInstanceID="ei87" relType="IDENTITY" />
+<TLINK signalID="s17" relatedToTime="t18" eventInstanceID="ei92" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t18" eventInstanceID="ei91" relType="ENDED_BY" />
+<TLINK signalID="s21" relatedToTime="t22" eventInstanceID="ei94" relType="ENDED_BY" />
+<TLINK relatedToTime="t19" eventInstanceID="ei95" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei96" eventInstanceID="ei95" relType="INCLUDES" />
+<TLINK signalID="s13" relatedToTime="t15" eventInstanceID="ei89" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t14" eventInstanceID="ei87" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei92" eventInstanceID="ei90" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei94" eventInstanceID="ei93" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei89" eventInstanceID="ei88" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei88" eventInstanceID="ei87" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei91" eventInstanceID="ei92" relType="TERMINATES" />
+</TimeML>

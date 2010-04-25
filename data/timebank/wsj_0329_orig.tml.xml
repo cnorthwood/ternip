@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t20" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-01" >891101</TIMEX3>-0035 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0035. </AN>
+<HL> Business Brief -- Coda Energy Inc.:
+@  Oil and Gas Firm Arranges
+@  $50 Million Credit Facility </HL>
+<DD> <TIMEX3 tid="t19" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CODA </CO>
+<IN> BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Coda Energy Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" >arranged</EVENT> a <NUMEX TYPE="MONEY">$50 million</NUMEX> credit facility with <ENAMEX TYPE="ORGANIZATION">NCNB Texas National Bank</ENAMEX>, a unit of <ENAMEX TYPE="ORGANIZATION">NCNB Corp.</ENAMEX>, of <ENAMEX TYPE="LOCATION">Charlotte</ENAMEX>, <ENAMEX TYPE="LOCATION">N.C.</ENAMEX> 
+<EVENT eid="e3" class="OCCURRENCE" ></EVENT>
+   The Dallas oil and gas concern <EVENT eid="e4" class="REPORTING" >said</EVENT> that <NUMEX TYPE="MONEY">$10 million</NUMEX> of the facility <SIGNAL sid="s6" >would</SIGNAL>  be <EVENT eid="e5" class="OCCURRENCE" >used</EVENT>  to <EVENT eid="e7" class="OCCURRENCE" >consolidate</EVENT> the company's <NUMEX TYPE="MONEY">$8.1 million</NUMEX> of existing bank debt,  to <EVENT eid="e9" class="OCCURRENCE" >repurchase</EVENT> <CARDINAL>4 million</CARDINAL> of its <CARDINAL>4.9 million</CARDINAL> shares outstanding of Series D convertible preferred stock, and  to <EVENT eid="e10" class="OCCURRENCE" >purchase</EVENT> a <NUMEX TYPE="PERCENT">10%</NUMEX> net-profits interest in certain oil and gas properties from one of its existing lenders, <ENAMEX TYPE="ORGANIZATION">National Canada Corp. </ENAMEX>
+The remaining <NUMEX TYPE="MONEY">$40 million</NUMEX> <SIGNAL sid="s13" >can</SIGNAL>  be <EVENT eid="e12" class="OCCURRENCE" >used</EVENT> over <TIMEX3 tid="t21" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P3Y" ><CARDINAL>three</CARDINAL> years</TIMEX3> for oil and gas acquisitions, the company <EVENT eid="e14" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Ted Eubank, <ENAMEX TYPE="ORGANIZATION">Coda</ENAMEX>'s president</ENAMEX>, <EVENT eid="e15" class="REPORTING" >said</EVENT> the loan carries an interest rate of prime plus one percentage point, with <NUMEX TYPE="PERCENT">85%</NUMEX> of the company's net oil and gas revenue <TIMEX3 tid="t22" type="SET" quant="each" temporalFunction="false" functionInDocument="NONE" value="P1M">each month</TIMEX3> <EVENT eid="e17" class="OCCURRENCE" >dedicated</EVENT> to repayment.</s> 
+<s>The company <EVENT eid="e23" class="OCCURRENCE" >put</EVENT> up "virtually all" of its oil and gas properties as collateral, he <EVENT eid="e18" class="REPORTING" >said</EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei54" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei55" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei56" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei57" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei58" tense="FUTURE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei59" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei60" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei61" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei62" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei63" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei64" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei65" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei66" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei67" tense="PAST" eventID="e18" />
+<TLINK relatedToTime="t21" eventInstanceID="ei62" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei55" eventInstanceID="ei54" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei62" eventInstanceID="ei63" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei66" eventInstanceID="ei67" relType="EVIDENTIAL" />
+</TimeML>

@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0119 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0119. </AN>
+<HL> Integra-A Rights Offering </HL>
+<DD> <TIMEX3 tid="t21" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> ITGR HWG </CO>
+<DATELINE> IRVING, Texas  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Integra-A Hotel amp Restaurant Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> its <EVENT eid="e2044" class="STATE" >planned</EVENT> rights <EVENT eid="e1995" class="I_ACTION" >offering</EVENT>  <SIGNAL sid="s2024" >to</SIGNAL> <EVENT eid="e2" class="OCCURRENCE" >raise</EVENT> about <NUMEX TYPE="MONEY">$9 million</NUMEX>  was <EVENT eid="e3" class="I_ACTION" >declared</EVENT> <EVENT eid="e1994" class="STATE" >effective</EVENT> and the company  will <EVENT eid="e4" class="ASPECTUAL" >begin</EVENT> <EVENT eid="e1996" class="OCCURRENCE" >mailing</EVENT> materials to shareholders at <TIMEX3 mod="END" tid="t23" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-W44" anchorTimeID="t21" >the end of this week</TIMEX3>.</s> 
+
+   <s>Under the <EVENT eid="e1997" class="I_ACTION" >offer</EVENT>, shareholders  will <EVENT eid="e5" class="OCCURRENCE" >receive</EVENT> one right for each <CARDINAL>105</CARDINAL> common shares <EVENT eid="e6" class="STATE" >owned</EVENT>.</s> 
+<s><SIGNAL sid="s2097" >Each</SIGNAL> <EVENT eid="e2000" class="I_STATE" >right</EVENT> <EVENT eid="e7" class="I_STATE" >entitles</EVENT> the shareholder  <SIGNAL sid="s2005" >to</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >buy</EVENT> <NUMEX TYPE="MONEY">$100</NUMEX> face amount of <NUMEX TYPE="PERCENT">13.5%</NUMEX> bonds <SIGNAL sid="s2003" >due</SIGNAL> <TIMEX3 tid="t24" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1993" >1993</TIMEX3> and <EVENT eid="e1998" class="I_ACTION" >warrants</EVENT>  <SIGNAL sid="s2004" >to</SIGNAL> <EVENT eid="e9" class="OCCURRENCE" >buy</EVENT> <CARDINAL>23.5</CARDINAL> common shares at <NUMEX TYPE="MONEY">30 cents</NUMEX> a share.</s> 
+<s>The <EVENT eid="e2001" class="I_STATE" >rights</EVENT>, which <EVENT eid="e10" class="OCCURRENCE" >expire</EVENT> <TIMEX3 tid="t25" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-21" anchorTimeID="t21" >Nov. 21</TIMEX3>, can  be exercised for <NUMEX TYPE="MONEY">$100</NUMEX> each.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Integra</ENAMEX>, which owns and operates hotels, <EVENT eid="e15" class="REPORTING" >said</EVENT> that <ENAMEX TYPE="ORGANIZATION">Hallwood Group Inc.</ENAMEX>  has <EVENT eid="e16" class="I_ACTION" >agreed</EVENT>  <SIGNAL sid="s2006" >to</SIGNAL> <EVENT eid="e17" class="OCCURRENCE" >exercise</EVENT> any rights that are n't <EVENT eid="e18" class="OCCURRENCE" >exercised</EVENT> by other shareholders.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Hallwood</ENAMEX>, a Cleveland merchant bank, <EVENT eid="e2002" class="STATE" >owns</EVENT> about <NUMEX TYPE="PERCENT">11%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Integra</ENAMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2150" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2151" tense="NONE" eventID="e2044" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2152" tense="NONE" eventID="e1995" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2153" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2154" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2155" tense="NONE" eventID="e1994" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2156" tense="FUTURE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2157" tense="NONE" eventID="e1996" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2158" tense="NONE" eventID="e1997" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2159" tense="FUTURE" eventID="e5" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2160" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2161" cardinality="EVERY" tense="NONE" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2162" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2163" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2164" tense="PRESENT" eventID="e1998" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2165" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2166" tense="NONE" eventID="e2001" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2167" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2168" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2169" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2170" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2171" polarity="NEG" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2172" tense="PRESENT" eventID="e2002" />
+<TLINK relatedToEventInstance="ei2162" eventInstanceID="ei2161" relType="IDENTITY" />
+<TLINK relatedToTime="t25" eventInstanceID="ei2167" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2159" eventInstanceID="ei2160" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2150" eventInstanceID="ei2168" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2159" eventInstanceID="ei2158" relType="INCLUDES" />
+<TLINK relatedToTime="t21" eventInstanceID="ei2172" relType="INCLUDES" />
+<TLINK signalID="s2003" relatedToTime="t24" eventInstanceID="ei2163" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2170" eventInstanceID="ei2171" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2158" eventInstanceID="ei2152" relType="IDENTITY" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2156" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2154" eventInstanceID="ei2156" relType="AFTER" />
+<TLINK relatedToTime="t21" eventInstanceID="ei2150" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2154" eventInstanceID="ei2151" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2164" eventInstanceID="ei2161" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2161" eventInstanceID="ei2166" relType="IDENTITY" />
+<SLINK signalID="s2005" subordinatedEventInstance="ei2163" eventInstanceID="ei2162" relType="MODAL" />
+<SLINK signalID="s2006" subordinatedEventInstance="ei2170" eventInstanceID="ei2169" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2169" eventInstanceID="ei2168" relType="EVIDENTIAL" />
+<SLINK signalID="s2024" subordinatedEventInstance="ei2153" eventInstanceID="ei2152" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2154" eventInstanceID="ei2150" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2155" eventInstanceID="ei2154" relType="FACTIVE" />
+<SLINK signalID="s2004" subordinatedEventInstance="ei2165" eventInstanceID="ei2164" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2157" eventInstanceID="ei2156" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2166" eventInstanceID="ei2167" relType="TERMINATES" />
+</TimeML>

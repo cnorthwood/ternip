@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t25" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0017 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0017. </AN>
+<HL> Business Brief -- Coleco Industries Inc.:
+@  Ailing Toy Maker Submits
+@  Chapter 11 Revamp Plan </HL>
+<DD> <TIMEX3 tid="t24" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CLO </CO>
+<IN> BANKRUPTCIES (BCY) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Coleco Industries Inc.</ENAMEX>, a <TIMEX3 tid="t30" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t24" >once</TIMEX3> <EVENT eid="e1988" class="STATE" >high-flying</EVENT> toy maker whose stock <EVENT eid="e1" class="OCCURRENCE" >peaked</EVENT> at <NUMEX TYPE="MONEY">$65</NUMEX> a share <SIGNAL sid="s1986" >in</SIGNAL> <TIMEX3 mod="START" tid="t26" type="DATE" temporalFunction="false" functionInDocument="NONE" value="198X" >the early 1980s</TIMEX3>, <EVENT eid="e2" class="OCCURRENCE" >filed</EVENT> a Chapter <CARDINAL>11</CARDINAL> reorganization plan that <EVENT eid="e3" class="OCCURRENCE" >provides</EVENT> just <NUMEX TYPE="MONEY">1.125 cents</NUMEX> a share for common stockholders.</s> 
+
+   <s>Under the plan, unsecured creditors, who  are <EVENT eid="e4" class="STATE" >owed</EVENT> about <NUMEX TYPE="MONEY">$430 million</NUMEX>, would <EVENT eid="e5" class="OCCURRENCE" >receive</EVENT> about <NUMEX TYPE="MONEY">$92 million</NUMEX>, or <NUMEX TYPE="MONEY">21 cents</NUMEX> for each dollar they  are <EVENT eid="e7" class="STATE" >owed</EVENT>.</s> 
+<s>In addition, they  will <EVENT eid="e8" class="OCCURRENCE" >receive</EVENT> stock in the reorganized company, which  will  be <EVENT eid="e9" class="OCCURRENCE" >named</EVENT> <ENAMEX TYPE="ORGANIZATION">Ranger Industries Inc.</ENAMEX> 
+<SIGNAL sid="s1989" >After</SIGNAL> these <EVENT eid="e1990" class="OCCURRENCE" >payments</EVENT>, about <NUMEX TYPE="MONEY">$225,000</NUMEX> will be <EVENT eid="e1991" class="STATE" >available</EVENT> for the <CARDINAL>20 million</CARDINAL> common shares <EVENT eid="e2068" class="STATE" >outstanding</EVENT>.</s> 
+
+   <s>The <ENAMEX TYPE="LOCATION">Avon</ENAMEX>, <ENAMEX TYPE="LOCATION">Conn.</ENAMEX>, company's stock <EVENT eid="e10" class="OCCURRENCE" >hit</EVENT> a high <SIGNAL sid="s2075" >in</SIGNAL> <TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1983" >1983</TIMEX3> <SIGNAL sid="s2082" >after</SIGNAL> it <EVENT eid="e11" class="OCCURRENCE" >unveiled</EVENT> its <ENAMEX TYPE="PERSON">Adam</ENAMEX> home computer, but the product  was <EVENT eid="e12" class="STATE" >plagued</EVENT> with glitches and the company's fortunes <EVENT eid="e13" class="OCCURRENCE" >plunged</EVENT>.</s> 
+<s>But <ENAMEX TYPE="ORGANIZATION">Coleco</ENAMEX> <EVENT eid="e14" class="OCCURRENCE" >bounced</EVENT> back with the <EVENT eid="e1993" class="OCCURRENCE" >introduction</EVENT> of the Cabbage Patch dolls, whose sales <EVENT eid="e15" class="OCCURRENCE" >hit</EVENT> <NUMEX TYPE="MONEY">$600 million</NUMEX> in <TIMEX3 tid="t28" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1985" >1985</TIMEX3>.</s> 
+<s>But as the craze <EVENT eid="e16" class="OCCURRENCE" >died</EVENT>, <ENAMEX TYPE="ORGANIZATION">Coleco</ENAMEX> <EVENT eid="e17" class="OCCURRENCE" >failed</EVENT>  <SIGNAL sid="s1994" >to</SIGNAL> <EVENT eid="e18" class="OCCURRENCE" >come</EVENT> up with another winner and <EVENT eid="e19" class="OCCURRENCE" >filed</EVENT> for bankruptcy-law <EVENT eid="e1995" class="STATE" >protection</EVENT> <SIGNAL sid="s2133" >in</SIGNAL> <TIMEX3 tid="t29" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988-07" >July 1988</TIMEX3>.</s> 
+
+   <s>The plan  was <EVENT eid="e20" class="OCCURRENCE" >filed</EVENT> jointly with unsecured creditors in federal bankruptcy court in <ENAMEX TYPE="LOCATION">New York</ENAMEX> and must  be <EVENT eid="e22" class="OCCURRENCE" >approved</EVENT> by the court.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2146" tense="NONE" eventID="e1988" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2147" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2148" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2149" tense="PRESENT" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2150" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2151" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2152" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2153" tense="FUTURE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2154" tense="FUTURE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2155" tense="NONE" eventID="e1990" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2156" tense="FUTURE" eventID="e1991" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2157" tense="NONE" eventID="e2068" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2158" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2159" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2160" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2161" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2162" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2163" tense="NONE" eventID="e1993" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2164" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2165" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2166" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2167" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2168" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2169" tense="NONE" eventID="e1995" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2170" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2171" tense="NONE" eventID="e22" />
+<TLINK relatedToEventInstance="ei2171" eventInstanceID="ei2170" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2168" eventInstanceID="ei2170" relType="IDENTITY" />
+<TLINK relatedToTime="t24" timeID="t30" relType="BEFORE" />
+<TLINK relatedToTime="t30" eventInstanceID="ei2146" relType="IS_INCLUDED" />
+<TLINK signalID="s1986" relatedToTime="t26" eventInstanceID="ei2147" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t24" eventInstanceID="ei2148" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2148" eventInstanceID="ei2149" relType="DURING" />
+<TLINK relatedToEventInstance="ei2151" eventInstanceID="ei2150" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2150" eventInstanceID="ei2152" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2153" eventInstanceID="ei2150" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2154" eventInstanceID="ei2148" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2154" eventInstanceID="ei2153" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2155" signalID="s1989" eventInstanceID="ei2156" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2153" eventInstanceID="ei2155" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2151" eventInstanceID="ei2155" relType="INCLUDES" />
+<TLINK relatedToTime="t24" eventInstanceID="ei2157" relType="DURING" />
+<TLINK signalID="s2075" relatedToTime="t27" eventInstanceID="ei2158" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2159" signalID="s2082" eventInstanceID="ei2158" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2159" eventInstanceID="ei2160" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2160" eventInstanceID="ei2161" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2161" eventInstanceID="ei2162" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2163" eventInstanceID="ei2162" relType="AFTER" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2164" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2163" eventInstanceID="ei2164" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2164" eventInstanceID="ei2165" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2165" eventInstanceID="ei2166" relType="AFTER" />
+<TLINK signalID="s2133" relatedToTime="t29" eventInstanceID="ei2168" relType="IS_INCLUDED" />
+<SLINK signalID="s1994" subordinatedEventInstance="ei2167" eventInstanceID="ei2166" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2169" eventInstanceID="ei2168" relType="MODAL" />
+</TimeML>

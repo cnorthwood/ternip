@@ -1,0 +1,266 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0116 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0116. </AN>
+<HL> International:
+@  Polly Peck of U.K.
+@  To Buy 51% Stake
+@  In Japanese Firm
+@  ----
+@  By Urban C. Lehner
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t199" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> J.SNE </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+HOME ELECTRONICS, FURNISHINGS, APPLIANCES (HMF) </IN>
+<DATELINE> TOKYO  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Polly Peck International Inc.</ENAMEX>'s <EVENT eid="e1" class="I_STATE" >agreement</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >acquire</EVENT> <NUMEX TYPE="PERCENT">51%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Sansui Electric Co.</ENAMEX> proves that foreign companies can acquire Japanese companies -- if the alternative for the Japanese company is extinction.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX>, a fast-growing British conglomerate, will <EVENT eid="e8" class="OCCURRENCE" >pay</EVENT> <NUMEX TYPE="MONEY">15.6 billion yen</NUMEX> (<NUMEX TYPE="MONEY">$110 million</NUMEX>) for <CARDINAL>39 million</CARDINAL> new shares of <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>, a well-known maker of high-fidelity audio equipment that <EVENT eid="e9" class="I_STATE" >failed</EVENT> <SIGNAL sid="s10" >to</SIGNAL> <EVENT eid="e11" class="OCCURRENCE" >adjust</EVENT> to changing market conditions.</s> 
+<s>Japanese government officials, <EVENT eid="e193" class="I_STATE" >eager</EVENT> to <EVENT eid="e14" class="OCCURRENCE" >rebut</EVENT> foreign <EVENT eid="e195" class="OCCURRENCE" >criticism</EVENT> of Japanese <EVENT eid="e16" class="OCCURRENCE" >investments</EVENT> overseas , <EVENT eid="e17" class="I_ACTION" >hailed</EVENT> the <EVENT eid="e18" class="OCCURRENCE" >transaction</EVENT> as proof foreigners can make similar investments in <ENAMEX TYPE="LOCATION">Japan</ENAMEX>.</s> 
+<s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX>'s chairman, Asil Nadir</ENAMEX>, <EVENT eid="e22" class="OCCURRENCE" >echoed</EVENT> the official Japanese <EVENT eid="e197" class="STATE" >view</EVENT> of the <EVENT eid="e198" class="STATE" >accord</EVENT>, which was <EVENT eid="e23" class="REPORTING" >announced</EVENT> <TIMEX3 tid="t200" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t199" >Friday</TIMEX3>.</s> 
+
+   <s>"The myths that <ENAMEX TYPE="LOCATION">Japan</ENAMEX> is not open to concerns from outside has, I <EVENT eid="e26" class="I_STATE" >think</EVENT>, been <EVENT eid="e27" class="OCCURRENCE" >demolished</EVENT> at a stroke," <ENAMEX TYPE="PERSON">Mr. Nadir</ENAMEX> <EVENT eid="e30" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>But analysts <EVENT eid="e31" class="REPORTING" >say</EVENT> <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX> is a special <EVENT eid="e202" class="STATE" >case</EVENT>.</s> 
+<s>It <EVENT eid="e33" class="I_STATE" >expects</EVENT> <SIGNAL sid="s34" >to</SIGNAL> <EVENT eid="e35" class="REPORTING" >post</EVENT> a <EVENT eid="e36" class="OCCURRENCE" >loss</EVENT> of <NUMEX TYPE="MONEY">6.4 billion yen</NUMEX> <SIGNAL sid="s203" >for</SIGNAL> <TIMEX3 tid="t204" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" >the year</TIMEX3> <SIGNAL sid="s206" >ending</SIGNAL> <TIMEX3 tid="t205" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-31" anchorTimeID="t199" >tomorrow</TIMEX3> and its liabilities <TIMEX3 tid="t207" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PRESENT_REF" >currently</TIMEX3> <EVENT eid="e39" class="STATE" >exceed</EVENT> its assets by about <NUMEX TYPE="MONEY">13.8 billion yen</NUMEX>.</s> 
+<s>"<SIGNAL sid="s208" >If</SIGNAL> you find <EVENT eid="e209" class="STATE" >sound, healthy</EVENT> companies in <ENAMEX TYPE="LOCATION">Japan</ENAMEX>, they are not  <EVENT eid="e210" class="STATE" >for sale</EVENT>," <EVENT eid="e43" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">George Watanabe</ENAMEX>, a management-consultant at <ENAMEX TYPE="LOCATION">Tokyo</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Asia Advisory Services Inc.</ENAMEX> 
+
+   Statistics on acquisitions by foreigners vary in detail, because unlike <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>, which is listed on the <ENAMEX TYPE="LOCATION">Tokyo</ENAMEX> and <ENAMEX TYPE="LOCATION">Osaka</ENAMEX> stock exchanges, most of the Japanese companies acquired by foreigners are privately held.</s> 
+<s>But by all accounts foreign companies have <EVENT eid="e52" class="OCCURRENCE" >bought</EVENT> only a relative handful of Japanese companies <TIMEX3 tid="t211" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t199" >this year</TIMEX3>, while Japanese companies have <EVENT eid="e54" class="OCCURRENCE" >acquired</EVENT> hundreds of foreign companies.</s> 
+
+   <s><SIGNAL sid="s212" >Nor</SIGNAL> do analysts <EVENT eid="e56" class="I_STATE" >expect</EVENT> the <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX> deal <SIGNAL sid="s57" >to</SIGNAL> <EVENT eid="e58" class="OCCURRENCE" >touch</EVENT> off a fresh wave of foreign purchases.</s> 
+<s>If the strong yen and the high stock prices of Japanese companies were n't  deterrents enough, webs of cross-shareholdings between friendly Japanese companies and fiercely independent Japanese corporate attitudes <EVENT eid="e62" class="OCCURRENCE" >repel</EVENT> most would-be acquirers.</s> 
+
+   <s>Usually when a Japanese company is ready to sell, it has few alternatives remaining, and the grim demeanors of <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>'s directors at a joint news conference here left little doubt that this was not  the company's finest hour.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX> was once one of <ENAMEX TYPE="LOCATION">Japan</ENAMEX>'s premier makers of expensive, high-quality stereo gear for audiophiles.</s> 
+
+   <s>But <SIGNAL sid="s215" >in</SIGNAL> <TIMEX3 tid="t216" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PXY" anchorTimeID="t199" >recent years</TIMEX3>, the market has <EVENT eid="e71" class="OCCURRENCE" >moved</EVENT> toward less expensive "mini-component" sets, miniaturized amplifiers and receivers and software players that could be stacked on top of each other.</s> 
+
+   <s>Some of <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>'s fellow audio-specialty companies, such as <ENAMEX TYPE="ORGANIZATION">Aiwa Co.</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Pioneer Electric Corp.</ENAMEX>, <EVENT eid="e75" class="OCCURRENCE" >responded</EVENT> to the <EVENT eid="e76" class="OCCURRENCE" >challenge</EVENT> by quickly <EVENT eid="e77" class="OCCURRENCE" >bringing</EVENT> out mini-component products of their own, by <EVENT eid="e78" class="OCCURRENCE" >moving</EVENT> heavily into the booming compact disk businesses or by <EVENT eid="e81" class="OCCURRENCE" >diversifying</EVENT> into other consumer-electronics fields, including laser disks or portable cassette players.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX> was late into the mini-component business and <EVENT eid="e85" class="I_STATE" >failed</EVENT> <SIGNAL sid="s86" >to</SIGNAL> <EVENT eid="e87" class="OCCURRENCE" >branch</EVENT> into other new businesses.</s> 
+
+   <s><SIGNAL sid="s220" >As</SIGNAL> the yen <EVENT eid="e90" class="OCCURRENCE" >soared</EVENT> <SIGNAL sid="s219" >in</SIGNAL> <TIMEX3 tid="t217" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t199" >recent years</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>'s deepening financial problems <EVENT eid="e92" class="I_STATE" >became</EVENT> a <EVENT eid="e218" class="STATE" >vicious circle</EVENT>.</s> 
+<s>While competitors <EVENT eid="e93" class="OCCURRENCE" >moved</EVENT> production offshore in response to the sagging <EVENT eid="e221" class="STATE" >competitiveness</EVENT> of Japanese factories, <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX> <EVENT eid="e95" class="OCCURRENCE" >lacked</EVENT> the money <SIGNAL sid="s222" >to</SIGNAL> <EVENT eid="e98" class="OCCURRENCE" >build</EVENT> new plants in <ENAMEX TYPE="LOCATION">Southeast Asia</ENAMEX>.</s> 
+<s>"Our company has not been <EVENT eid="e224" class="I_STATE" >able</EVENT> to <EVENT eid="e225" class="I_ACTION" >cope</EVENT> very effectively with" <EVENT eid="e102" class="OCCURRENCE" >changes</EVENT> in the marketplace, <EVENT eid="e105" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Ryosuke Ito, <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>'s president</ENAMEX>.</s> 
+
+   <s>But even a Japanese company that looks like a dog may turn out to be a good investment for a foreign concern, some management consultants maintain.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Yoshihisa Murasawa</ENAMEX>, a management consultant <ENAMEX TYPE="ORGANIZATION">for Booz-Allen amp Hamilton (<ENAMEX TYPE="LOCATION">Japan</ENAMEX>)</ENAMEX> <ENAMEX TYPE="ORGANIZATION">Inc.</ENAMEX>, <EVENT eid="e113" class="REPORTING" >said</EVENT> his firm will likely be <EVENT eid="e115" class="OCCURRENCE" >recommending</EVENT> <EVENT eid="e116" class="OCCURRENCE" >acquisitions</EVENT> of Japanese companies more often to foreign clients <SIGNAL sid="s227" >in</SIGNAL> <TIMEX3 tid="t228" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t199" >the future</TIMEX3>.</s> 
+<s>"Attitudes {toward being acquired} are still negative, but they're <EVENT eid="e119" class="I_STATE" >becoming</EVENT> more <EVENT eid="e230" class="STATE" >positive</EVENT>," <ENAMEX TYPE="PERSON">Mr. Murasawa</ENAMEX> <EVENT eid="e120" class="REPORTING" >said</EVENT>.</s> 
+<s>"In some industries, like pharmaceuticals, <EVENT eid="e122" class="OCCURRENCE" >acquisitions</EVENT> <EVENT eid="e231" class="I_STATE" >make sense</EVENT>."</s> 
+
+   <s>Whether <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX>'s <EVENT eid="e125" class="OCCURRENCE" >acquisition</EVENT> <EVENT eid="e234" class="I_STATE" >makes sense</EVENT> <EVENT eid="e233" class="I_STATE" >remains</EVENT> to be <EVENT eid="e130" class="PERCEPTION" >seen</EVENT>, but at the news conference, <ENAMEX TYPE="PERSON">Mr. Nadir</ENAMEX> <EVENT eid="e131" class="I_ACTION" >brimmed</EVENT> with self-confidence that he can <EVENT eid="e132" class="OCCURRENCE" >turn</EVENT> <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX> around.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>, he said, is a perfect fit for <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX>'s electronics operations, which make televisions, videocassette recorders, microwaves and other products on an "original equipment maker" basis for sale under other companies' brand names.</s> 
+
+   <s>He <EVENT eid="e140" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX> will greatly <EVENT eid="e141" class="OCCURRENCE" >expand</EVENT> <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>'s product line, <EVENT eid="e143" class="OCCURRENCE" >using</EVENT> <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>'s engineers <SIGNAL sid="s144" >to</SIGNAL> <EVENT eid="e145" class="OCCURRENCE" >design</EVENT> the new products, and will <EVENT eid="e146" class="OCCURRENCE" >move</EVENT> <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>'s production of most products other than sophisticated audio gear offshore into <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX>'s own factories.</s> 
+
+   <s>"Whatever capital it (<ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>) needs so it can <EVENT eid="e149" class="OCCURRENCE" >compete</EVENT> and <EVENT eid="e151" class="OCCURRENCE" >become</EVENT> a totally global entity capable of competing with the best in the world, that capital will be <EVENT eid="e153" class="OCCURRENCE" >injected</EVENT>," <ENAMEX TYPE="PERSON">Mr. Nadir</ENAMEX> <EVENT eid="e154" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>And <SIGNAL sid="s669" >while</SIGNAL> <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX> is <SIGNAL sid="s157" >n't</SIGNAL> <EVENT eid="e156" class="OCCURRENCE" >jettisoning</EVENT> the existent top-management structure of <ENAMEX TYPE="ORGANIZATION">Sansui</ENAMEX>, it is <EVENT eid="e158" class="OCCURRENCE" >bringing</EVENT> in a <ENAMEX TYPE="ORGANIZATION">former Toshiba Corp.</ENAMEX> executive as executive vice president and chief operating officer.</s> 
+
+   <s>Such risk taking is an everyday matter for the brash <ENAMEX TYPE="PERSON">Mr. Nadir</ENAMEX>, who is <NUMEX TYPE="PERCENT">25%</NUMEX> owner of <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX> as well as its chairman.</s> 
+<s>He <EVENT eid="e162" class="OCCURRENCE" >took</EVENT> <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX>, once a small fabric wholesaler, and <EVENT eid="e163" class="OCCURRENCE" >used</EVENT> it at as a base <SIGNAL sid="s164" >to</SIGNAL> <EVENT eid="e165" class="OCCURRENCE" >build</EVENT> a conglomerate that has been <EVENT eid="e166" class="OCCURRENCE" >doubling</EVENT> its profits annually <SIGNAL sid="s236" >since</SIGNAL> <TIMEX3 tid="t235" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1980" >1980</TIMEX3>.</s> 
+<s><SIGNAL sid="s237" >In</SIGNAL> <TIMEX3 tid="t239" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09" anchorTimeID="t199" >September</TIMEX3>, it <EVENT eid="e167" class="REPORTING" >announced</EVENT> <EVENT eid="e240" class="I_STATE" >plans</EVENT> <SIGNAL sid="s168" >to</SIGNAL> <EVENT eid="e169" class="OCCURRENCE" >acquire</EVENT> the tropical-fruit business of <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">RJR Nabisco Inc.</ENAMEX>'s Del Monte</ENAMEX> foods unit for #<CARDINAL>557 million</CARDINAL> (<NUMEX TYPE="MONEY">$878 million</NUMEX>).</s> 
+
+   <s><TIMEX3 tid="t241" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09" anchorTimeID="t199" >Last month</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Polly Peck</ENAMEX> <EVENT eid="e171" class="REPORTING" >posted</EVENT> a <NUMEX TYPE="PERCENT">38%</NUMEX> <EVENT eid="e172" class="OCCURRENCE" >jump</EVENT> in pretax profit for the first half <SIGNAL sid="s242" >to</SIGNAL> <EVENT eid="e244" class="STATE" >#<CARDINAL>54.8 million</CARDINAL></EVENT> <SIGNAL sid="s243" >from</SIGNAL> <EVENT eid="e245" class="STATE" >#<CARDINAL>39.8 million</CARDINAL></EVENT> on a <NUMEX TYPE="PERCENT">63%</NUMEX> <EVENT eid="e174" class="OCCURRENCE" >rise</EVENT> in sales.</s> 
+
+   <s>---<ENAMEX TYPE="PERSON">
+
+   Joann S. Lublin</ENAMEX> in <ENAMEX TYPE="LOCATION">London</ENAMEX> contributed to this article.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="FUTURE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="NONE" eventID="e193" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e195" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e197" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e198" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="PRESENT" eventID="e26" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2006" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="PRESENT" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e202" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PRESENT" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="PRESENT" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e209" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" polarity="NEG" tense="NONE" eventID="e210" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PAST" eventID="e43" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2017" tense="PRESENT" eventID="e52" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2018" tense="PRESENT" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2020" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="PRESENT" eventID="e62" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2022" tense="PRESENT" eventID="e71" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="PAST" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2024" tense="NONE" eventID="e76" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2025" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2026" tense="NONE" eventID="e78" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2027" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2028" tense="PAST" eventID="e85" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2029" tense="NONE" eventID="e87" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2030" tense="PAST" eventID="e90" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="PAST" eventID="e92" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2032" tense="NONE" eventID="e218" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2033" tense="PAST" eventID="e93" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2034" tense="NONE" eventID="e221" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2035" tense="PAST" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2036" tense="NONE" eventID="e98" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2037" polarity="NEG" tense="PRESENT" eventID="e224" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2038" tense="NONE" eventID="e225" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2039" tense="NONE" eventID="e102" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2040" tense="PAST" eventID="e105" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2041" tense="PAST" eventID="e113" />
+<MAKEINSTANCE aspect="PROGRESSIVE" modality="likely" eiid="ei2042" tense="FUTURE" eventID="e115" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2043" tense="NONE" eventID="e116" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2044" tense="PRESENT" eventID="e119" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2045" tense="NONE" eventID="e230" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2046" tense="PAST" eventID="e120" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2047" tense="NONE" eventID="e122" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2048" tense="PRESENT" eventID="e231" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2049" tense="NONE" eventID="e125" />
+<MAKEINSTANCE aspect="NONE" modality="Whether" eiid="ei2050" tense="PRESENT" eventID="e234" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2051" tense="PRESENT" eventID="e233" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2052" tense="NONE" eventID="e130" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2053" tense="PAST" eventID="e131" />
+<MAKEINSTANCE aspect="NONE" modality="can" eiid="ei2054" tense="PRESENT" eventID="e132" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2055" tense="PAST" eventID="e140" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2056" tense="FUTURE" eventID="e141" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2057" tense="NONE" eventID="e143" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2058" tense="NONE" eventID="e145" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2059" tense="FUTURE" eventID="e146" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2060" tense="PRESENT" eventID="e149" />
+<MAKEINSTANCE aspect="NONE" modality="can" eiid="ei2061" tense="NONE" eventID="e151" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2062" tense="FUTURE" eventID="e153" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2063" tense="PAST" eventID="e154" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2064" tense="PRESENT" eventID="e156" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2065" tense="PRESENT" eventID="e158" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2066" tense="PAST" eventID="e162" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2067" tense="PAST" eventID="e163" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2068" tense="NONE" eventID="e165" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei2069" tense="PRESENT" eventID="e166" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2070" tense="PAST" eventID="e167" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2071" tense="NONE" eventID="e240" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2072" tense="NONE" eventID="e169" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2073" tense="PAST" eventID="e171" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2074" tense="NONE" eventID="e172" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2075" tense="NONE" eventID="e244" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2076" tense="NONE" eventID="e245" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2077" tense="NONE" eventID="e174" />
+<TLINK relatedToEventInstance="ei2077" eventInstanceID="ei2074" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t199" eventInstanceID="ei1990" relType="BEFORE" />
+<TLINK relatedToTime="t199" eventInstanceID="ei1992" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1993" relType="BEFORE" />
+<TLINK relatedToTime="t199" eventInstanceID="ei1995" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei1996" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1998" eventInstanceID="ei1997" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1999" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei2001" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei2003" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei2002" relType="INCLUDES" />
+<TLINK relatedToTime="t200" eventInstanceID="ei2004" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2007" relType="IS_INCLUDED" />
+<TLINK signalID="s203" relatedToTime="t204" eventInstanceID="ei2012" relType="IS_INCLUDED" />
+<TLINK signalID="s206" relatedToTime="t205" timeID="t204" relType="ENDED_BY" />
+<TLINK relatedToTime="t207" eventInstanceID="ei2013" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2015" eventInstanceID="ei2014" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2017" relType="BEFORE" />
+<TLINK relatedToTime="t211" eventInstanceID="ei2017" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t211" eventInstanceID="ei2018" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2018" relType="BEFORE" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2019" relType="INCLUDES" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2021" relType="INCLUDES" />
+<TLINK signalID="s215" relatedToTime="t216" eventInstanceID="ei2022" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2023" eventInstanceID="ei2024" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2025" eventInstanceID="ei2023" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2026" eventInstanceID="ei2023" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2027" eventInstanceID="ei2023" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2028" eventInstanceID="ei2023" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2022" eventInstanceID="ei2023" relType="AFTER" />
+<TLINK signalID="s219" relatedToTime="t217" eventInstanceID="ei2030" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2030" signalID="s220" eventInstanceID="ei2031" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2032" eventInstanceID="ei2031" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2033" eventInstanceID="ei2034" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2035" eventInstanceID="ei2033" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2035" eventInstanceID="ei2031" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2035" eventInstanceID="ei2040" relType="AFTER" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2040" relType="BEFORE" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2041" relType="BEFORE" />
+<TLINK signalID="s227" relatedToTime="t228" eventInstanceID="ei2042" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2041" eventInstanceID="ei2046" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2045" eventInstanceID="ei2044" relType="ENDED_BY" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2052" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2057" eventInstanceID="ei2056" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2058" eventInstanceID="ei2056" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2055" eventInstanceID="ei2063" relType="IDENTITY" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2062" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2064" signalID="s669" eventInstanceID="ei2065" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2065" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei2066" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2066" eventInstanceID="ei2067" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei2067" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2069" eventInstanceID="ei2068" relType="BEFORE" />
+<TLINK signalID="s236" relatedToTime="t235" eventInstanceID="ei2069" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei2068" relType="BEFORE" />
+<TLINK relatedToTime="t199" eventInstanceID="ei2069" relType="INCLUDES" />
+<TLINK signalID="s237" relatedToTime="t239" eventInstanceID="ei2070" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2073" timeID="t241" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2075" signalID="s242" eventInstanceID="ei2074" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2076" signalID="s243" eventInstanceID="ei2074" relType="BEGUN_BY" />
+<SLINK signalID="s2" subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="MODAL" />
+<SLINK signalID="s2" subordinatedEventInstance="ei1991" eventInstanceID="ei1992" relType="MODAL" />
+<SLINK signalID="s10" subordinatedEventInstance="ei1994" eventInstanceID="ei1993" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei1996" eventInstanceID="ei1995" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2001" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2003" eventInstanceID="ei2002" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2004" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2005" eventInstanceID="ei2007" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2006" eventInstanceID="ei2005" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2009" eventInstanceID="ei2008" relType="EVIDENTIAL" />
+<SLINK signalID="s34" subordinatedEventInstance="ei2011" eventInstanceID="ei2010" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2010" eventInstanceID="ei2008" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2012" eventInstanceID="ei2011" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2013" eventInstanceID="ei2008" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2015" eventInstanceID="ei2016" relType="EVIDENTIAL" />
+<SLINK signalID="s57" subordinatedEventInstance="ei2020" eventInstanceID="ei2019" relType="MODAL" />
+<SLINK signalID="s86" subordinatedEventInstance="ei2029" eventInstanceID="ei2028" relType="COUNTER_FACTIVE" />
+<SLINK signalID="s222" subordinatedEventInstance="ei2036" eventInstanceID="ei2035" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2037" eventInstanceID="ei2040" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2038" eventInstanceID="ei2037" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2039" eventInstanceID="ei2038" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2042" eventInstanceID="ei2041" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2043" eventInstanceID="ei2042" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2044" eventInstanceID="ei2046" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2048" eventInstanceID="ei2046" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2047" eventInstanceID="ei2048" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2052" eventInstanceID="ei2051" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2050" eventInstanceID="ei2052" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2049" eventInstanceID="ei2050" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2054" eventInstanceID="ei2053" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2056" eventInstanceID="ei2055" relType="EVIDENTIAL" />
+<SLINK signalID="s144" subordinatedEventInstance="ei2058" eventInstanceID="ei2057" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2059" eventInstanceID="ei2055" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2062" eventInstanceID="ei2063" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2060" eventInstanceID="ei2062" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2061" eventInstanceID="ei2062" relType="MODAL" />
+<SLINK signalID="s164" subordinatedEventInstance="ei2068" eventInstanceID="ei2067" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2071" eventInstanceID="ei2070" relType="EVIDENTIAL" />
+<SLINK signalID="s168" subordinatedEventInstance="ei2072" eventInstanceID="ei2071" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2074" eventInstanceID="ei2073" relType="EVIDENTIAL" />
+</TimeML>

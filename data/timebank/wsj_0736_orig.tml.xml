@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0159 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0159. </AN>
+<HL> Poughkeepsie Savings
+@  Abandons Plan to Sell
+@  South Carolina Offices </HL>
+<DD> <TIMEX3 tid="t61" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> PKPS </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> POUGHKEEPSIE, N.Y.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Poughkeepsie Savings Bank</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> a <EVENT eid="e51" class="I_STATE" >plan</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >sell</EVENT> its <ENAMEX TYPE="LOCATION">South Carolina</ENAMEX> branch offices to <ENAMEX TYPE="ORGANIZATION">First Citizens Bank</ENAMEX>, of <ENAMEX TYPE="LOCATION">Columbia</ENAMEX>, <ENAMEX TYPE="LOCATION">S.C.</ENAMEX>, <EVENT eid="e4" class="OCCURRENCE" >fell</EVENT> through.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Poughkeepsie</ENAMEX> also <EVENT eid="e5" class="I_STATE" >expects</EVENT> <SIGNAL sid="s6" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >post</EVENT> a one-time charge of <NUMEX TYPE="MONEY">$8.3 million</NUMEX>, <EVENT eid="e8" class="OCCURRENCE" >resulting</EVENT> in a net <EVENT eid="e9" class="OCCURRENCE" >loss</EVENT> <SIGNAL sid="s56" >for</SIGNAL> <TIMEX3 tid="t62" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t61" >the third quarter</TIMEX3>.</s> 
+<s>The charge represents a write-down of the goodwill associated with <ENAMEX TYPE="PERSON">Poughkeepsie</ENAMEX>'s investment in the banks it is <EVENT eid="e15" class="I_ACTION" >trying</EVENT> <SIGNAL sid="s16" >to</SIGNAL> <EVENT eid="e17" class="OCCURRENCE" >sell</EVENT> and its North <ENAMEX TYPE="PERSON">Carolina</ENAMEX> branches as well.</s> 
+
+   <s>The thrift <EVENT eid="e18" class="REPORTING" >announced</EVENT> the <EVENT eid="e52" class="I_STATE" >plan</EVENT> <TIMEX3 tid="t63" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-08-21" anchorTimeID="t61" >Aug. 21</TIMEX3>.</s> 
+<s>Among other reasons, high fees regulators imposed on certain transfers of thrift deposits to commercial banks "substantially <EVENT eid="e23" class="OCCURRENCE" >altered</EVENT> the economics of the <EVENT eid="e24" class="OCCURRENCE" >transaction</EVENT> for both parties," <ENAMEX TYPE="PERSON">Poughkeepsie</ENAMEX> <EVENT eid="e26" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>Additionally, the bank is <EVENT eid="e27" class="OCCURRENCE" >increasing</EVENT> its loan-loss <EVENT eid="e174" class="STATE" >reserves</EVENT> <SIGNAL sid="s177" >for</SIGNAL> <TIMEX3 tid="t64" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t61" >the third quarter</TIMEX3> by <EVENT eid="e53" class="STATE" ><NUMEX TYPE="MONEY">$8.5 million</NUMEX></EVENT> before taxes.</s> 
+
+   <s><SIGNAL sid="s59" >In</SIGNAL> <TIMEX3 tid="t65" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t61" >the year-earlier third quarter</TIMEX3>, <ENAMEX TYPE="PERSON">Poughkeepsie Savings</ENAMEX> <EVENT eid="e54" class="STATE" >had</EVENT> net <EVENT eid="e55" class="STATE" >income</EVENT> of <NUMEX TYPE="MONEY">$2.8 million</NUMEX>, or <NUMEX TYPE="MONEY">77 cents</NUMEX> a share.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Poughkeepsie</ENAMEX> <EVENT eid="e30" class="REPORTING" >said</EVENT> it is <EVENT eid="e31" class="ASPECTUAL" >continuing</EVENT> <SIGNAL sid="s32" >to</SIGNAL> <EVENT eid="e33" class="I_ACTION" >try</EVENT> <SIGNAL sid="s34" >to</SIGNAL> <EVENT eid="e35" class="OCCURRENCE" >sell</EVENT> itself, under a <TIMEX3 tid="t66" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-06" anchorTimeID="t61" >June</TIMEX3> <EVENT eid="e36" class="I_STATE" >agreement</EVENT> with a dissident-shareholder group.</s> 
+<s>The bank also <EVENT eid="e37" class="REPORTING" >said</EVENT> its <EVENT eid="e38" class="OCCURRENCE" >effort</EVENT> would <EVENT eid="e39" class="ASPECTUAL" >continue</EVENT> <SIGNAL sid="s60" >past</SIGNAL> the <TIMEX3 tid="t67" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t61" >Nov. 1</TIMEX3> deadline <EVENT eid="e42" class="OCCURRENCE" >set</EVENT> in that <EVENT eid="e43" class="I_STATE" >agreement</EVENT> and that the <EVENT eid="e44" class="OCCURRENCE" >litigation</EVENT> between the <CARDINAL>two</CARDINAL> sides might <EVENT eid="e45" class="ASPECTUAL" >resume</EVENT> as a <EVENT eid="e47" class="OCCURRENCE" >result</EVENT>.</s> 
+<s>The thrift and the holders had <EVENT eid="e48" class="ASPECTUAL" >suspended</EVENT> their <EVENT eid="e49" class="OCCURRENCE" >lawsuits</EVENT> as part of the <EVENT eid="e50" class="I_STATE" >agreement</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei282" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei283" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei284" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei285" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei286" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei287" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei288" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei289" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei290" tense="PRESENT" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei291" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei292" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei293" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei294" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei295" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei296" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei297" tense="PRESENT" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei298" tense="NONE" eventID="e174" />
+<MAKEINSTANCE aspect="NONE" eiid="ei299" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei300" tense="PAST" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei301" tense="NONE" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei302" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei303" tense="PRESENT" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei304" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei305" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei306" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei307" tense="PAST" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei308" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei309" tense="PAST" eventID="e39" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei310" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei311" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei312" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" modality="might" eiid="ei313" tense="FUTURE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei314" tense="NONE" eventID="e47" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei315" tense="PAST" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei316" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei317" tense="NONE" eventID="e50" />
+<TLINK relatedToTime="t61" eventInstanceID="ei282" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei285" eventInstanceID="ei283" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei282" eventInstanceID="ei285" relType="BEFORE" />
+<TLINK relatedToTime="t61" eventInstanceID="ei286" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei288" eventInstanceID="ei287" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei315" eventInstanceID="ei317" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei289" eventInstanceID="ei288" relType="IDENTITY" />
+<TLINK signalID="s56" relatedToTime="t62" eventInstanceID="ei289" relType="DURING" />
+<TLINK relatedToTime="t61" eventInstanceID="ei290" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei283" eventInstanceID="ei290" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei291" eventInstanceID="ei284" relType="IDENTITY" />
+<TLINK relatedToTime="t61" eventInstanceID="ei292" relType="BEFORE" />
+<TLINK relatedToTime="t63" eventInstanceID="ei292" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei285" eventInstanceID="ei294" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei284" eventInstanceID="ei295" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei299" eventInstanceID="ei297" relType="ENDED_BY" />
+<TLINK signalID="s177" relatedToTime="t64" eventInstanceID="ei298" relType="DURING" />
+<TLINK relatedToEventInstance="ei298" eventInstanceID="ei297" relType="SIMULTANEOUS" />
+<TLINK signalID="s59" relatedToTime="t65" eventInstanceID="ei301" relType="DURING" />
+<TLINK relatedToEventInstance="ei301" eventInstanceID="ei300" relType="IDENTITY" />
+<TLINK relatedToTime="t66" eventInstanceID="ei306" relType="IS_INCLUDED" />
+<TLINK signalID="s60" relatedToTime="t67" eventInstanceID="ei309" relType="AFTER" />
+<TLINK relatedToEventInstance="ei311" eventInstanceID="ei310" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei306" eventInstanceID="ei311" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei311" eventInstanceID="ei317" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei313" eventInstanceID="ei314" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei313" eventInstanceID="ei308" relType="BEFORE" />
+<TLINK relatedToTime="t61" eventInstanceID="ei315" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei285" eventInstanceID="ei282" relType="EVIDENTIAL" />
+<SLINK signalID="s2" subordinatedEventInstance="ei284" eventInstanceID="ei283" relType="MODAL" />
+<SLINK signalID="s6" subordinatedEventInstance="ei287" eventInstanceID="ei286" relType="MODAL" />
+<SLINK signalID="s16" subordinatedEventInstance="ei291" eventInstanceID="ei290" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei293" eventInstanceID="ei292" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei294" eventInstanceID="ei296" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei303" eventInstanceID="ei302" relType="EVIDENTIAL" />
+<SLINK signalID="s34" subordinatedEventInstance="ei305" eventInstanceID="ei304" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei309" eventInstanceID="ei307" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei313" eventInstanceID="ei307" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei304" signalID="s32" eventInstanceID="ei303" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei308" eventInstanceID="ei309" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei312" eventInstanceID="ei313" relType="REINITIATES" />
+<ALINK relatedToEventInstance="ei316" eventInstanceID="ei315" relType="TERMINATES" />
+</TimeML>

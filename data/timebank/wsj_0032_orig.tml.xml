@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0161 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0161. </AN>
+<HL> Montedison Bid for Erbamont </HL>
+<DD> <TIMEX3 tid="t13" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> MNT ERB </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+DRUG MANUFACTURERS (DRG) </IN>
+<DATELINE> NEW YORK  </DATELINE>
+<TEXT>
+   <s>Italian chemical giant <ENAMEX TYPE="ORGANIZATION">Montedison S.p.A.</ENAMEX>, through its <ENAMEX TYPE="ORGANIZATION">Montedison Acquisition N.V.</ENAMEX> indirect unit, <EVENT eid="e1" class="ASPECTUAL" >began</EVENT> its $37-a-share tender <EVENT eid="e2" class="OCCURRENCE" >offer</EVENT> for all the common shares outstanding of <ENAMEX TYPE="ORGANIZATION">Erbamont N.V.</ENAMEX>, a maker of pharmaceuticals incorporated in the <ENAMEX TYPE="LOCATION">Netherlands</ENAMEX>.</s> 
+
+   <s>The <EVENT eid="e4" class="OCCURRENCE" >offer</EVENT>, <EVENT eid="e5" class="OCCURRENCE" >advertised</EVENT> in <TIMEX3 tid="t19" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-02" anchorTimeID="t13" >today</TIMEX3>'s editions of The <ENAMEX TYPE="ORGANIZATION">Wall Street Journal</ENAMEX>, is <EVENT eid="e6" class="I_ACTION" >scheduled</EVENT> <SIGNAL sid="s7" >to</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >expire</EVENT> <SIGNAL sid="s15" >at</SIGNAL> the <TIMEX3 mod="END" tid="t18" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-11" anchorTimeID="t13" >end of November</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Montedison</ENAMEX> <TIMEX3 tid="t17" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t13" >currently</TIMEX3> <EVENT eid="e20" class="STATE" >owns</EVENT> about <NUMEX TYPE="PERCENT">72%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX>'s common shares outstanding.</s> 
+
+   <s>The <EVENT eid="e10" class="OCCURRENCE" >offer</EVENT> is being <EVENT eid="e11" class="ASPECTUAL" >launched</EVENT> pursuant to a <TIMEX3 tid="t21" type="TIME" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t13" >previously</TIMEX3> <EVENT eid="e22" class="REPORTING" >announced</EVENT> <EVENT eid="e12" class="OCCURRENCE" >agreement</EVENT> between the companies.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei102" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei103" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei104" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei105" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei106" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei107" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei108" tense="PRESENT" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei109" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei110" tense="PRESENT" eventID="e11" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei111" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei112" tense="NONE" eventID="e12" />
+<TLINK relatedToTime="t13" eventInstanceID="ei110" relType="AFTER" />
+<TLINK relatedToEventInstance="ei102" timeID="t13" relType="AFTER" />
+<TLINK relatedToEventInstance="ei103" eventInstanceID="ei102" relType="BEGINS" />
+<TLINK relatedToEventInstance="ei103" eventInstanceID="ei104" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei105" eventInstanceID="ei104" relType="BEFORE" />
+<TLINK relatedToTime="t19" eventInstanceID="ei105" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t13" timeID="t19" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei107" eventInstanceID="ei104" relType="BEFORE" />
+<TLINK signalID="s15" relatedToTime="t18" eventInstanceID="ei107" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t13" timeID="t17" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei108" timeID="t17" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei104" eventInstanceID="ei109" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei110" eventInstanceID="ei109" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei112" eventInstanceID="ei110" relType="AFTER" />
+<TLINK relatedToEventInstance="ei111" eventInstanceID="ei112" relType="BEFORE" />
+<TLINK relatedToTime="t21" eventInstanceID="ei111" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t13" timeID="t21" relType="BEFORE" />
+<SLINK signalID="s7" subordinatedEventInstance="ei107" eventInstanceID="ei106" relType="MODAL" />
+</TimeML>

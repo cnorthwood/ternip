@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t34" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0003 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0003. </AN>
+<HL> International:
+@  Finland, Big Creditors
+@  To Set Up Company
+@  To Complete Ships </HL>
+<DD> <TIMEX3 tid="t33" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> EUROP CCL </CO>
+<IN> BANKRUPTCIES (BCY)
+TRANSPORTATION, TRUCK AND SHIP LINES, RAILROADS (TRA) </IN>
+<DATELINE> STOCKHOLM  </DATELINE>
+<TEXT>
+   <s>The Finnish government and major creditors of bankrupt shipyard <ENAMEX TYPE="ORGANIZATION">Waertsilae Marine Industries Oy</ENAMEX> <EVENT eid="e1" class="I_ACTION" >agreed</EVENT> in principle  <SIGNAL sid="s59" >to</SIGNAL> <EVENT eid="e2" class="OCCURRENCE" >form</EVENT> a new company  <SIGNAL sid="s38" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >complete</EVENT> most of the troubled shipyard's backlog of <CARDINAL>15</CARDINAL> ships.</s> 
+
+   <s>The new company  will <EVENT eid="e4" class="I_ACTION" >attempt</EVENT>  <SIGNAL sid="s39" >to</SIGNAL> <EVENT eid="e5" class="OCCURRENCE" >limit</EVENT> the shipyard's losses, participants <EVENT eid="e6" class="REPORTING" >said</EVENT>.</s> 
+<s>"The situation is that the bankruptcy court  will <EVENT eid="e7" class="OCCURRENCE" >get</EVENT> out of the shipbuilding business.</s> 
+<s>Everything  will  be taken <EVENT eid="e8" class="OCCURRENCE" >over</EVENT> by the new company," <EVENT eid="e9" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Christian Andersson</ENAMEX>, executive vice president of <ENAMEX TYPE="ORGANIZATION">Oy Waertsilae</ENAMEX>, former parent of <ENAMEX TYPE="ORGANIZATION">Waertsilae Marine</ENAMEX>.</s> 
+
+   <s><SIGNAL sid="s112" >Once</SIGNAL> its ownership  is <EVENT eid="e10" class="OCCURRENCE" >finalized</EVENT>, the new company will <EVENT eid="e40" class="ASPECTUAL" >open</EVENT> <EVENT eid="e41" class="OCCURRENCE" >talks</EVENT> with state-appointed receivers  <SIGNAL sid="s42" >to</SIGNAL> <EVENT eid="e12" class="I_ACTION" >buy</EVENT> or <ENAMEX TYPE="ORGANIZATION"><EVENT eid="e43" class="OCCURRENCE" >lease</EVENT> Waertsilae Marine</ENAMEX>'s shipyard facilities.</s> 
+<s>Subcontractors  will  be <EVENT eid="e13" class="I_ACTION" >offered</EVENT> a <EVENT eid="e44" class="OCCURRENCE" >settlement</EVENT> and a swift <EVENT eid="e45" class="OCCURRENCE" >transition</EVENT> to new management  is <EVENT eid="e14" class="I_STATE" >expected</EVENT>  <SIGNAL sid="s151" >to</SIGNAL> <EVENT eid="e15" class="I_ACTION" >avert</EVENT> an <EVENT eid="e46" class="OCCURRENCE" >exodus</EVENT> of skilled workers from <ENAMEX TYPE="ORGANIZATION">Waertsilae Marine</ENAMEX>'s <CARDINAL>two</CARDINAL> big shipyards, government officials <EVENT eid="e16" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>Under an accord <EVENT eid="e17" class="OCCURRENCE" >signed</EVENT> <TIMEX3 tid="t35" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t33" >yesterday</TIMEX3>, the government and <ENAMEX TYPE="ORGANIZATION">Union Bank of Finland</ENAMEX> would <EVENT eid="e18" class="OCCURRENCE" >become</EVENT> major shareholders in the new company, each <EVENT eid="e20" class="OCCURRENCE" >injecting</EVENT> <NUMEX TYPE="MONEY">100 million Finnish markkaa</NUMEX> (<NUMEX TYPE="MONEY">$23.5 million</NUMEX>).</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Oy Waertsilae</ENAMEX> is  to <EVENT eid="e21" class="OCCURRENCE" >contribute</EVENT> <NUMEX TYPE="MONEY">200 million markkaa</NUMEX>, most of it as subordinated debt, and <EVENT eid="e22" class="OCCURRENCE" >take</EVENT> a minority stake in the new company.</s> 
+
+   <s>Customers <EVENT eid="e23" class="STATE" >holding</EVENT> contracts for <ENAMEX TYPE="ORGANIZATION">Waertsilae Marine</ENAMEX>'s undelivered ships  are <EVENT eid="e24" class="I_STATE" >expected</EVENT>  <SIGNAL sid="s216" >to</SIGNAL> <EVENT eid="e25" class="OCCURRENCE" >subscribe</EVENT> most of the remaining <NUMEX TYPE="MONEY">170 million markkaa</NUMEX> in share capital, government officials <EVENT eid="e27" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Waertsilae Marine</ENAMEX>'s biggest creditor is <ENAMEX TYPE="LOCATION">Miami</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Carnival Cruise Lines Inc. Carnival</ENAMEX>, which <EVENT eid="e28" class="STATE" >has</EVENT> <CARDINAL>three</CARDINAL> ships on <EVENT eid="e227" class="STATE" >order</EVENT> from <ENAMEX TYPE="ORGANIZATION">Waertsilae Marine</ENAMEX>, <EVENT eid="e232" class="OCCURRENCE" >presented</EVENT> claims for <NUMEX TYPE="MONEY">$1.5 billion</NUMEX> damages in the bankruptcy court <TIMEX3 tid="t37" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-W44" anchorTimeID="t33" >this week</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Waertsilae Marine</ENAMEX>'s bankruptcy <EVENT eid="e50" class="OCCURRENCE" >proceedings</EVENT> <EVENT eid="e32" class="ASPECTUAL" >began</EVENT> <TIMEX3 tid="t36" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-31" anchorTimeID="t33" >Tuesday</TIMEX3> in a <ENAMEX TYPE="LOCATION">Helsinki</ENAMEX> court.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei249" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei250" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei251" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei252" tense="FUTURE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei253" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei254" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei255" tense="FUTURE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei256" tense="FUTURE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei257" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei258" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei259" tense="FUTURE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei260" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei261" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei262" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei263" tense="FUTURE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei264" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei265" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei266" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei267" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei268" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei269" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei270" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei271" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei272" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" modality="to" eiid="ei273" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" modality="to" eiid="ei274" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei275" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei276" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei277" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei278" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei279" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei280" tense="NONE" eventID="e227" />
+<MAKEINSTANCE aspect="NONE" eiid="ei281" tense="PAST" eventID="e232" />
+<MAKEINSTANCE aspect="NONE" eiid="ei282" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei283" tense="PAST" eventID="e32" />
+<TLINK relatedToTime="t36" eventInstanceID="ei283" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t33" eventInstanceID="ei249" relType="BEFORE" />
+<TLINK relatedToTime="t33" eventInstanceID="ei254" relType="BEFORE" />
+<TLINK relatedToTime="t33" timeID="t34" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei256" eventInstanceID="ei255" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei254" eventInstanceID="ei257" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei259" signalID="s112" eventInstanceID="ei258" relType="BEFORE" />
+<TLINK relatedToTime="t33" eventInstanceID="ei263" relType="AFTER" />
+<TLINK relatedToEventInstance="ei280" eventInstanceID="ei279" relType="IDENTITY" />
+<TLINK relatedToTime="t35" eventInstanceID="ei270" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei271" eventInstanceID="ei272" relType="AFTER" />
+<TLINK signalID="s48" relatedToTime="t33" eventInstanceID="ei273" relType="AFTER" />
+<TLINK signalID="s48" relatedToTime="t33" eventInstanceID="ei274" relType="AFTER" />
+<TLINK relatedToTime="t33" eventInstanceID="ei275" relType="DURING" />
+<TLINK relatedToTime="t37" eventInstanceID="ei281" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t33" eventInstanceID="ei279" relType="DURING" />
+<SLINK signalID="s59" subordinatedEventInstance="ei250" eventInstanceID="ei249" relType="MODAL" />
+<SLINK signalID="s38" subordinatedEventInstance="ei251" eventInstanceID="ei250" relType="MODAL" />
+<SLINK signalID="s39" subordinatedEventInstance="ei253" eventInstanceID="ei252" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei255" eventInstanceID="ei257" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei256" eventInstanceID="ei257" relType="EVIDENTIAL" />
+<SLINK signalID="s42" subordinatedEventInstance="ei261" eventInstanceID="ei260" relType="MODAL" />
+<SLINK signalID="s42" subordinatedEventInstance="ei262" eventInstanceID="ei260" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei264" eventInstanceID="ei263" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei265" eventInstanceID="ei266" relType="MODAL" />
+<SLINK signalID="s151" subordinatedEventInstance="ei267" eventInstanceID="ei265" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei268" eventInstanceID="ei267" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei263" eventInstanceID="ei269" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei266" eventInstanceID="ei269" relType="EVIDENTIAL" />
+<SLINK signalID="s216" subordinatedEventInstance="ei277" eventInstanceID="ei276" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei276" eventInstanceID="ei278" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei282" eventInstanceID="ei283" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei260" eventInstanceID="ei259" relType="INITIATES" />
+</TimeML>

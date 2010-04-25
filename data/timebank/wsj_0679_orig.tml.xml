@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0016 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0016. </AN>
+<HL> Business Brief -- Octel Communications Corp.:
+@  Hewlett-Packard Co. Raises
+@  Stake to 8.5% of Common </HL>
+<DD> <TIMEX3 tid="t46" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> HWP OCTL </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Hewlett-Packard Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" >raised</EVENT> its stake in <ENAMEX TYPE="ORGANIZATION">Octel Communications Corp.</ENAMEX> to <NUMEX TYPE="PERCENT">8.5%</NUMEX> of the common shares outstanding.</s> 
+
+   <s>In a <ENAMEX TYPE="ORGANIZATION">Securities and Exchange Commission</ENAMEX> <EVENT eid="e53" class="REPORTING" >filing</EVENT>, <ENAMEX TYPE="ORGANIZATION">Hewlett-Packard</ENAMEX> <EVENT eid="e4" class="REPORTING" >said</EVENT> it now <EVENT eid="e5" class="STATE" >holds</EVENT> <CARDINAL>1,384,119</CARDINAL> <ENAMEX TYPE="ORGANIZATION">Octel</ENAMEX> common shares, including <CARDINAL>100,000</CARDINAL> shares <EVENT eid="e6" class="OCCURRENCE" >bought</EVENT> <SIGNAL sid="s47" >from</SIGNAL> <TIMEX3 tid="t94" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-08-26" anchorTimeID="t46" >Aug. 26</TIMEX3> <SIGNAL sid="s49" >to</SIGNAL> <TIMEX3 tid="t51" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-20" anchorTimeID="t50" >Oct. 20</TIMEX3> for <NUMEX TYPE="MONEY">$23.31 to $24.25</NUMEX> a share.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Hewlett-Packard</ENAMEX>, a <ENAMEX TYPE="LOCATION">Palo Alto</ENAMEX>, <ENAMEX TYPE="LOCATION">Calif.</ENAMEX>, computer company, <EVENT eid="e7" class="REPORTING" >said</EVENT> it <EVENT eid="e8" class="OCCURRENCE" >acquired</EVENT> the stock "<SIGNAL sid="s9" >to</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >develop</EVENT> and <EVENT eid="e11" class="STATE" >maintain</EVENT> a strategic partnership in which each company <EVENT eid="e13" class="STATE" >remains</EVENT> independent <SIGNAL sid="s14" >while</SIGNAL> <EVENT eid="e15" class="OCCURRENCE" >working</EVENT> together <SIGNAL sid="s52" >to</SIGNAL> <EVENT eid="e16" class="OCCURRENCE" >market</EVENT> and <EVENT eid="e17" class="OCCURRENCE" >sell</EVENT> their products."</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Octel</ENAMEX> <EVENT eid="e18" class="REPORTING" >said</EVENT> the <EVENT eid="e19" class="OCCURRENCE" >purchase</EVENT> was <EVENT eid="e20" class="I_STATE" >expected</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Hewlett-Packard</ENAMEX> <EVENT eid="e21" class="REPORTING" >affirmed</EVENT> it does <SIGNAL sid="s23" >n't</SIGNAL> <EVENT eid="e22" class="I_STATE" >plan</EVENT> <SIGNAL sid="s24" >to</SIGNAL> <EVENT eid="e25" class="OCCURRENCE" >obtain</EVENT> control of <ENAMEX TYPE="ORGANIZATION">Octel</ENAMEX>, a <ENAMEX TYPE="LOCATION">Milpitas</ENAMEX>, <ENAMEX TYPE="LOCATION">Calif.</ENAMEX>, maker of voice-processing systems.</s> 
+
+   <s>According to the <EVENT eid="e26" class="OCCURRENCE" >filing</EVENT>, <ENAMEX TYPE="ORGANIZATION">Hewlett-Packard</ENAMEX> <EVENT eid="e27" class="OCCURRENCE" >acquired</EVENT> <CARDINAL>730,070</CARDINAL> common shares from <ENAMEX TYPE="ORGANIZATION">Octel</ENAMEX> <SIGNAL sid="s55" >as a result of</SIGNAL> an <TIMEX3 tid="t57" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-08-10" anchorTimeID="t46" >Aug. 10, 1988</TIMEX3>, stock <EVENT eid="e56" class="OCCURRENCE" >purchase</EVENT> <EVENT eid="e29" class="I_ACTION" >agreement</EVENT>.</s> 
+<s>That <EVENT eid="e58" class="I_ACTION" >accord</EVENT> also <EVENT eid="e30" class="I_ACTION" >called</EVENT> for <ENAMEX TYPE="ORGANIZATION">Hewlett-Packard</ENAMEX> <SIGNAL sid="s31" >to</SIGNAL> <EVENT eid="e32" class="OCCURRENCE" >buy</EVENT> <CARDINAL>730,070</CARDINAL> <ENAMEX TYPE="ORGANIZATION">Octel</ENAMEX> shares in the open market <SIGNAL sid="s59" >within</SIGNAL> <TIMEX3 tid="t60" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P1Y6M" anchorTimeID="t57" ><CARDINAL>18</CARDINAL> months</TIMEX3>.</s> 
+<s>In addition, <ENAMEX TYPE="ORGANIZATION">Hewlett-Packard</ENAMEX> <EVENT eid="e36" class="OCCURRENCE" >acquired</EVENT> a <TIMEX3 tid="t61" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P2Y" anchorTimeID="t57" >two-year</TIMEX3> <EVENT eid="e37" class="I_STATE" >option</EVENT> <SIGNAL sid="s38" >to</SIGNAL> <EVENT eid="e39" class="OCCURRENCE" >buy</EVENT> an extra <NUMEX TYPE="PERCENT">10%</NUMEX>, of which half <SIGNAL sid="s41" >may</SIGNAL> be <EVENT eid="e40" class="OCCURRENCE" >sold</EVENT> directly to <ENAMEX TYPE="ORGANIZATION">Hewlett-Packard</ENAMEX> by <ENAMEX TYPE="ORGANIZATION">Octel</ENAMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei306" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei307" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei308" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei309" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei310" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei311" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei312" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei313" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei314" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei315" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei316" tense="PRESENT" eventID="e13" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei317" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei318" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei319" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei320" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei321" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei322" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei323" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei324" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei325" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei326" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei327" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei328" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei329" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei330" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei331" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei332" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei333" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei334" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei335" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei336" tense="PRESENT" eventID="e40" />
+<TLINK relatedToEventInstance="ei336" eventInstanceID="ei335" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei311" timeID="t46" relType="AFTER" />
+<TLINK relatedToEventInstance="ei306" eventInstanceID="ei308" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei309" eventInstanceID="ei308" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei309" eventInstanceID="ei309" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei310" eventInstanceID="ei311" relType="BEFORE" />
+<TLINK relatedToTime="t46" eventInstanceID="ei311" relType="BEFORE" />
+<TLINK signalID="s47" relatedToTime="t94" eventInstanceID="ei311" relType="AFTER" />
+<TLINK signalID="s49" relatedToTime="t51" eventInstanceID="ei311" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei306" eventInstanceID="ei312" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei315" eventInstanceID="ei314" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei316" eventInstanceID="ei315" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei317" signalID="s14" eventInstanceID="ei316" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t46" eventInstanceID="ei314" relType="AFTER" />
+<TLINK relatedToTime="t46" eventInstanceID="ei315" relType="AFTER" />
+<TLINK relatedToTime="t46" eventInstanceID="ei320" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei306" eventInstanceID="ei320" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei320" eventInstanceID="ei323" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei326" eventInstanceID="ei308" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei329" eventInstanceID="ei327" relType="AFTER" />
+<TLINK relatedToTime="t57" eventInstanceID="ei329" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei329" eventInstanceID="ei330" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei331" eventInstanceID="ei330" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei332" signalID="s59" timeID="t60" relType="DURING" />
+<TLINK relatedToTime="t57" timeID="t60" relType="AFTER" />
+<TLINK relatedToEventInstance="ei327" eventInstanceID="ei333" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei334" eventInstanceID="ei333" relType="BEGINS" />
+<TLINK relatedToTime="t61" eventInstanceID="ei334" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei333" eventInstanceID="ei335" relType="IAFTER" />
+<SLINK subordinatedEventInstance="ei307" eventInstanceID="ei306" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei310" eventInstanceID="ei309" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei313" eventInstanceID="ei312" relType="EVIDENTIAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei314" eventInstanceID="ei313" relType="MODAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei315" eventInstanceID="ei313" relType="MODAL" />
+<SLINK signalID="s52" subordinatedEventInstance="ei318" eventInstanceID="ei317" relType="MODAL" />
+<SLINK signalID="s52" subordinatedEventInstance="ei319" eventInstanceID="ei317" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei322" eventInstanceID="ei320" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei321" eventInstanceID="ei322" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei324" eventInstanceID="ei323" relType="MODAL" />
+<SLINK signalID="s24" subordinatedEventInstance="ei325" eventInstanceID="ei324" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei327" eventInstanceID="ei326" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei328" eventInstanceID="ei329" relType="MODAL" />
+<SLINK signalID="s31" subordinatedEventInstance="ei332" eventInstanceID="ei331" relType="MODAL" />
+<SLINK signalID="s38" subordinatedEventInstance="ei335" eventInstanceID="ei334" relType="MODAL" />
+</TimeML>

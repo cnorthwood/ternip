@@ -1,0 +1,352 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0089 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0089. </AN>
+<HL> Kellogg Pours Water on Plans to Build Big Cereal Plant
+@  ----
+@  By Richard Gibson
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t192" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> K </CO>
+<IN> FOOD PRODUCTS (FOD) </IN>
+<TEXT>
+   <s>This has n't been <ENAMEX TYPE="ORGANIZATION">Kellogg Co.</ENAMEX>'s year.</s> 
+<s>The oat-bran <EVENT eid="e190" class="OCCURRENCE" >craze</EVENT> has <EVENT eid="e189" class="OCCURRENCE" >cost</EVENT> the world's largest cereal maker market share.</s> 
+<s>The company's president <EVENT eid="e3" class="OCCURRENCE" >quit</EVENT> suddenly.</s> 
+<s>And <TIMEX3 tid="t296" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t192" >now</TIMEX3> <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> is indefinitely <EVENT eid="e4" class="ASPECTUAL" >suspending</EVENT> <EVENT eid="e5" class="OCCURRENCE" >work</EVENT> on what was to be <EVENT eid="e320" class="STATE" >a <NUMEX TYPE="MONEY">$1 billion</NUMEX> cereal plant</EVENT>.</s> 
+
+   <s>The company <EVENT eid="e7" class="REPORTING" >said</EVENT> it was <EVENT eid="e8" class="I_ACTION" >delaying</EVENT> <EVENT eid="e9" class="OCCURRENCE" >construction</EVENT> because of <TIMEX3 tid="t193" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t192" >current</TIMEX3> market <EVENT eid="e191" class="STATE" >conditions</EVENT>.</s> 
+<s>But the <ENAMEX TYPE="LOCATION">Memphis</ENAMEX>, <ENAMEX TYPE="LOCATION">Tenn.</ENAMEX>, facility wasn't to <EVENT eid="e10" class="ASPECTUAL" >begin</EVENT> <EVENT eid="e11" class="OCCURRENCE" >turning</EVENT> out product <SIGNAL sid="s195" >until</SIGNAL> <TIMEX3 tid="t196" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1993" >1993</TIMEX3>, so the <EVENT eid="e12" class="OCCURRENCE" >decision</EVENT> may reveal a more pessimistic long-term <EVENT eid="e197" class="OCCURRENCE" >outlook</EVENT> as well.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX>, which has n't been as <EVENT eid="e198" class="STATE" >successful</EVENT> in <EVENT eid="e17" class="OCCURRENCE" >capitalizing</EVENT> on the public's health-oriented desire for oat bran as rival <ENAMEX TYPE="ORGANIZATION">General Mills Inc.</ENAMEX>, has been <EVENT eid="e18" class="OCCURRENCE" >losing</EVENT> share in the <NUMEX TYPE="MONEY">$6 billion</NUMEX> ready-to-eat cereal market.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX>'s <TIMEX3 tid="t200" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t192" >current</TIMEX3> share is <EVENT eid="e19" class="I_STATE" >believed</EVENT> to be slightly <EVENT eid="e199" class="STATE" >under <NUMEX TYPE="PERCENT">40%</NUMEX></EVENT> while <ENAMEX TYPE="ORGANIZATION">General Mills</ENAMEX>' share is <EVENT eid="e201" class="STATE" >about <NUMEX TYPE="PERCENT">27%</NUMEX></EVENT>.</s> 
+
+   <s><EVENT eid="e22" class="STATE" >Led</EVENT> by its oat-based Cheerios line, <ENAMEX TYPE="ORGANIZATION">General Mills</ENAMEX> has <EVENT eid="e24" class="OCCURRENCE" >gained</EVENT> an estimated <NUMEX TYPE="PERCENT">2%</NUMEX> share <SIGNAL sid="s418" >so far</SIGNAL> <TIMEX3 tid="t419" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t192" >this year</TIMEX3>, mostly <EVENT eid="e203" class="OCCURRENCE" >at the expense</EVENT> of <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX>.</s> 
+<s>Each share point is worth about <NUMEX TYPE="MONEY">$60 million</NUMEX> in sales.</s> 
+
+   <s>Analysts <EVENT eid="e28" class="REPORTING" >say</EVENT> much of <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX>'s <EVENT eid="e204" class="OCCURRENCE" >erosion</EVENT> has been in such core brands as <ENAMEX TYPE="ORGANIZATION">Corn Flakes</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Rice Krispies</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Frosted Flakes</ENAMEX>, which represent nearly one-third of its sales volume.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> is so <EVENT eid="e206" class="I_STATE" >anxious</EVENT> <SIGNAL sid="s31" >to</SIGNAL> <EVENT eid="e32" class="OCCURRENCE" >turn</EVENT> around <ENAMEX TYPE="ORGANIZATION">Corn Flakes</ENAMEX> sales that it <TIMEX3 tid="t207" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t192" >soon</TIMEX3> will <EVENT eid="e33" class="ASPECTUAL" >begin</EVENT> <EVENT eid="e34" class="OCCURRENCE" >selling</EVENT> boxes for as little as <NUMEX TYPE="MONEY">99 cents</NUMEX>, trade sources <EVENT eid="e35" class="REPORTING" >say</EVENT>.</s> 
+
+   <s>"Cheerios and Honey Nut Cheerios have <EVENT eid="e36" class="OCCURRENCE" >eaten</EVENT> away sales normally <EVENT eid="e38" class="OCCURRENCE" >going</EVENT> to <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX>'s corn-based lines simply because they are <EVENT eid="e40" class="STATE" >made</EVENT> of oats," <EVENT eid="e41" class="REPORTING" >says</EVENT> <ENAMEX TYPE="PERSON">Merrill Lynch</ENAMEX> food <ENAMEX TYPE="PERSON">analyst William Maguire</ENAMEX>.</s> 
+<s>"They are not  <EVENT eid="e208" class="STATE" >a happy group</EVENT> of people at <ENAMEX TYPE="LOCATION">Battle Creek</ENAMEX> <TIMEX3 tid="t209" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t192" >right now</TIMEX3>."</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> is based in <ENAMEX TYPE="LOCATION">Battle Creek</ENAMEX>, <ENAMEX TYPE="LOCATION">Mich.</ENAMEX>, a city that calls itself the breakfast capital of the world.</s> 
+
+   <s>Another <ENAMEX TYPE="PERSON">analyst, John C. Maxwell Jr. of <ENAMEX TYPE="LOCATION">Wheat</ENAMEX></ENAMEX>, <ENAMEX TYPE="LOCATION">First Securities</ENAMEX> in <ENAMEX TYPE="LOCATION">Richmond</ENAMEX>, <ENAMEX TYPE="LOCATION">Va.</ENAMEX>, <TIMEX3 tid="t210" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t192" >recently</TIMEX3> went to a "<EVENT eid="e516" class="OCCURRENCE" >sell</EVENT>" <EVENT eid="e510" class="I_ACTION" >recommendation</EVENT> on <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> stock, which <EVENT eid="e48" class="OCCURRENCE" >closed</EVENT> <TIMEX3 tid="t211" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t192" >Friday</TIMEX3> at <EVENT eid="e519" class="STATE" ><NUMEX TYPE="MONEY">$71.75</NUMEX></EVENT>, down <NUMEX TYPE="MONEY">75 cents</NUMEX>, in <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> composite <EVENT eid="e528" class="OCCURRENCE" >trading</EVENT>.</s> 
+<s>"I do n't <EVENT eid="e49" class="I_STATE" >think</EVENT> <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> <SIGNAL sid="s52" >can</SIGNAL> <EVENT eid="e51" class="I_STATE" >get</EVENT> back <SIGNAL sid="s213" >to</SIGNAL> <EVENT eid="e212" class="STATE" ><NUMEX TYPE="PERCENT">40%</NUMEX></EVENT> <TIMEX3 tid="t214" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t192" >this year</TIMEX3>," he <EVENT eid="e53" class="REPORTING" >said</EVENT>.</s> 
+<s>"Kellogg's main problem is life style.</s> 
+<s>People are <EVENT eid="e215" class="OCCURRENCE" >reading</EVENT> the boxes and <EVENT eid="e55" class="I_ACTION" >deciding</EVENT> they <EVENT eid="e56" class="I_STATE" >want</EVENT> something that's `<EVENT eid="e216" class="STATE" >healthy</EVENT>' for you -- oats, bran."</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Maxwell</ENAMEX> <EVENT eid="e57" class="REPORTING" >said</EVENT> he <SIGNAL sid="s59" >would</SIGNAL> <SIGNAL sid="s60" >n't</SIGNAL> be <EVENT eid="e58" class="OCCURRENCE" >surprised</EVENT> <SIGNAL sid="s61" >if</SIGNAL>, <SIGNAL sid="s217" >over</SIGNAL> <TIMEX3 mod="APPROX" tid="t220" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P2Y" anchorTimeID="t192" >the next two years or so</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">General Mills</ENAMEX>' share <EVENT eid="e62" class="OCCURRENCE" >increased</EVENT> to <NUMEX TYPE="PERCENT">30%</NUMEX> or more.</s> 
+
+   <s>In <EVENT eid="e63" class="I_ACTION" >announcing</EVENT> the plant <EVENT eid="e64" class="OCCURRENCE" >delay</EVENT>, <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> Chairman William E. LaMothe</ENAMEX> <EVENT eid="e65" class="REPORTING" >said</EVENT>, "Cereal volume <EVENT eid="e224" class="OCCURRENCE" >growth</EVENT> in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> has <SIGNAL sid="s67" >not</SIGNAL> <EVENT eid="e66" class="OCCURRENCE" >met</EVENT> our <EVENT eid="e223" class="I_STATE" >expectations</EVENT> <SIGNAL sid="s225" >for</SIGNAL> <TIMEX3 tid="t226" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989" >1989</TIMEX3>."</s> 
+<s>He <EVENT eid="e68" class="REPORTING" >said</EVENT> <EVENT eid="e69" class="OCCURRENCE" >construction</EVENT> <SIGNAL sid="s71" >would</SIGNAL> <SIGNAL sid="s72" >n't</SIGNAL> <EVENT eid="e70" class="ASPECTUAL" >resume</EVENT> <SIGNAL sid="s227" >until</SIGNAL> market conditions <EVENT eid="e73" class="OCCURRENCE" >warrant</EVENT> it.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> <EVENT eid="e74" class="REPORTING" >indicated</EVENT> that it <EVENT eid="e75" class="STATE" >has</EVENT> room <SIGNAL sid="s76" >to</SIGNAL> <EVENT eid="e77" class="OCCURRENCE" >grow</EVENT> without <EVENT eid="e229" class="OCCURRENCE" >adding</EVENT> facilities.</s> 
+<s>The company <EVENT eid="e78" class="STATE" >has</EVENT> <CARDINAL>five</CARDINAL> other <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> plants, including a modern facility at its <ENAMEX TYPE="LOCATION">Battle Creek</ENAMEX> headquarters known as Building <CARDINAL>100</CARDINAL>, which is to <EVENT eid="e81" class="OCCURRENCE" >add</EVENT> bran-processing and rice-processing capacity <TIMEX3 tid="t230" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990" anchorTimeID="t192" >next year</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">General Mills</ENAMEX>, meanwhile , <EVENT eid="e82" class="I_STATE" >finds</EVENT> itself <EVENT eid="e83" class="I_STATE" >constrained</EVENT> <SIGNAL sid="s84" >from</SIGNAL> <EVENT eid="e85" class="OCCURRENCE" >boosting</EVENT> sales further because its plants are <EVENT eid="e86" class="OCCURRENCE" >operating</EVENT> at capacity.</s> 
+<s>A large plant in <ENAMEX TYPE="LOCATION">Covington</ENAMEX>, <ENAMEX TYPE="LOCATION">Ga.</ENAMEX>, is to <EVENT eid="e88" class="OCCURRENCE" >come</EVENT> on line <TIMEX3 tid="t233" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990" anchorTimeID="t192" >next year</TIMEX3>.</s> 
+
+   <s>A <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> officer, who asked not to be named, <EVENT eid="e91" class="REPORTING" >said</EVENT> the <ENAMEX TYPE="LOCATION">Memphis</ENAMEX> project was " <EVENT eid="e235" class="OCCURRENCE" >pulled</EVENT> in <SIGNAL sid="s741" >for</SIGNAL> a <EVENT eid="e93" class="OCCURRENCE" >reconsideration</EVENT> of costs," an indication that the ambitious plans might be <EVENT eid="e95" class="OCCURRENCE" >scaled</EVENT> back in any future <EVENT eid="e97" class="OCCURRENCE" >construction</EVENT>.</s> 
+<s>Initial cost estimates for the plant, which was to have been built in phases, <EVENT eid="e103" class="OCCURRENCE" >ranged</EVENT> from <NUMEX TYPE="MONEY">$1 billion to $1.2 billion</NUMEX>.</s> 
+
+   <s>A company spokesman <EVENT eid="e104" class="REPORTING" >said</EVENT> it was "possible, but highly unlikely," that the plant might never be <EVENT eid="e105" class="OCCURRENCE" >built</EVENT>.</s> 
+<s>"<SIGNAL sid="s239" >As</SIGNAL> we <EVENT eid="e107" class="I_ACTION" >regain</EVENT> our <EVENT eid="e240" class="STATE" >leadership</EVENT> level where we have been, and <SIGNAL sid="s241" >as</SIGNAL> we <EVENT eid="e108" class="ASPECTUAL" >continue</EVENT> <SIGNAL sid="s109" >to</SIGNAL> <EVENT eid="e110" class="OCCURRENCE" >put</EVENT> new products into the marketplace and <EVENT eid="e113" class="I_STATE" >need</EVENT> additional <EVENT eid="e242" class="STATE" >capacity</EVENT>, we will <EVENT eid="e114" class="I_ACTION" >look</EVENT> <SIGNAL sid="s798" >at</SIGNAL> <EVENT eid="e116" class="ASPECTUAL" >resuming</EVENT> our <EVENT eid="e117" class="OCCURRENCE" >involvement</EVENT> with our plan," he <EVENT eid="e118" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>The new facility was to have been the world's <EVENT eid="e246" class="STATE" >most advanced</EVENT> cereal manufacturing plant, and <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX>'s largest construction <EVENT eid="e120" class="OCCURRENCE" >project</EVENT>.</s> 
+<s>The company had <EVENT eid="e121" class="OCCURRENCE" >retained</EVENT> the <ENAMEX TYPE="ORGANIZATION">Fluor Daniel</ENAMEX> unit of <ENAMEX TYPE="ORGANIZATION">Fluor Corp.</ENAMEX> as general contractor.</s> 
+
+   <s>But <SIGNAL sid="s247" >in</SIGNAL> <TIMEX3 tid="t248" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t192" >recent weeks</TIMEX3>, construction-industry sources <EVENT eid="e122" class="REPORTING" >reported</EVENT> that early preparation work was <EVENT eid="e124" class="OCCURRENCE" >slowing</EVENT> at the 185-acre site.</s> 
+<s>Subcontractors <EVENT eid="e125" class="REPORTING" >said</EVENT> they were <EVENT eid="e126" class="REPORTING" >told</EVENT> that equipment <EVENT eid="e249" class="OCCURRENCE" >orders</EVENT> <SIGNAL sid="s129" >would</SIGNAL> be <EVENT eid="e128" class="I_ACTION" >delayed</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Fluor Daniel</ENAMEX> <SIGNAL sid="s250" >already</SIGNAL> has <EVENT eid="e130" class="OCCURRENCE" >reassigned</EVENT> most of its work crew, the sources <EVENT eid="e131" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><TIMEX3 tid="t251" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t192" >Last Friday</TIMEX3><SIGNAL sid="s252" >'s</SIGNAL> <EVENT eid="e132" class="OCCURRENCE" >announcement</EVENT> was the first official word that the project was <EVENT eid="e253" class="STATE" >in trouble</EVENT> and that the company's plans for a surge in market share may have been <EVENT eid="e254" class="STATE" >overly optimistic</EVENT>.</s> 
+<s><SIGNAL sid="s256" >Until</SIGNAL> <TIMEX3 tid="t257" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t192" >recently</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> had been <EVENT eid="e140" class="REPORTING" >telling</EVENT> its sales force and <ENAMEX TYPE="LOCATION">Wall Street</ENAMEX> that <SIGNAL sid="s259" >by</SIGNAL> <TIMEX3 tid="t258" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1992" >1992</TIMEX3> it <EVENT eid="e141" class="I_ACTION" >intended</EVENT> <SIGNAL sid="s142" >to</SIGNAL> <EVENT eid="e143" class="I_STATE" >achieve</EVENT> a <EVENT eid="e260" class="STATE" ><NUMEX TYPE="PERCENT">50%</NUMEX> share</EVENT> of market, measured in dollar volume.</s> 
+
+   <s>Although he <EVENT eid="e261" class="I_ACTION" >called</EVENT> current market conditions "<EVENT eid="e262" class="STATE" >highly competitive</EVENT>," <ENAMEX TYPE="PERSON">Mr. LaMothe, <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX>'s chairman and chief executive officer</ENAMEX>, <EVENT eid="e146" class="I_STATE" >forecast</EVENT> an earnings <EVENT eid="e147" class="OCCURRENCE" >increase</EVENT> <SIGNAL sid="s263" >for</SIGNAL> <TIMEX3 tid="t264" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t192" >the full year</TIMEX3>.</s> 
+<s><TIMEX3 tid="t265" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t192" >Last year</TIMEX3>, the company <EVENT eid="e148" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$480.4 million</NUMEX>, or <NUMEX TYPE="MONEY">$3.90</NUMEX> a share, on sales of <NUMEX TYPE="MONEY">$4.3 billion</NUMEX>.</s> 
+
+   <s>As <EVENT eid="e266" class="I_STATE" >expected</EVENT>, <ENAMEX TYPE="ORGANIZATION">Kellogg</ENAMEX> <EVENT eid="e150" class="REPORTING" >reported</EVENT> lower <TIMEX3 tid="t268" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t192" >third-quarter</TIMEX3> <EVENT eid="e267" class="STATE" >earnings</EVENT>.</s> 
+<s>Net <EVENT eid="e151" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="PERCENT">16%</NUMEX> <SIGNAL sid="s269" >to</SIGNAL> <EVENT eid="e274" class="STATE" ><NUMEX TYPE="MONEY">$123.1 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">$1.02</NUMEX> a share, <SIGNAL sid="s270" >from</SIGNAL> <EVENT eid="e275" class="STATE" ><NUMEX TYPE="MONEY">$145.7 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">$1.18</NUMEX> a share.</s> 
+<s>Sales <EVENT eid="e153" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">4.8%</NUMEX> <SIGNAL sid="s271" >to</SIGNAL> <EVENT eid="e276" class="STATE" ><NUMEX TYPE="MONEY">$1.20 billion</NUMEX></EVENT> <SIGNAL sid="s272" >from</SIGNAL> <EVENT eid="e277" class="STATE" ><NUMEX TYPE="MONEY">$1.14 billion</NUMEX></EVENT>.</s> 
+
+   <s>The company <EVENT eid="e154" class="OCCURRENCE" >had</EVENT> a one-time <EVENT eid="e278" class="OCCURRENCE" >charge</EVENT> of <NUMEX TYPE="MONEY">$14.8 million</NUMEX> <SIGNAL sid="s273" >in</SIGNAL> <TIMEX3 tid="t279" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t192" >the latest quarter</TIMEX3> covering the <EVENT eid="e156" class="OCCURRENCE" >disposition</EVENT> of certain assets.</s> 
+<s>The company <SIGNAL sid="s158" >would</SIGNAL> <SIGNAL sid="s159" >n't</SIGNAL> <EVENT eid="e157" class="OCCURRENCE" >elaborate</EVENT>, <EVENT eid="e160" class="REPORTING" >citing</EVENT> competitive <EVENT eid="e1045" class="OCCURRENCE" >reasons</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e190" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1995" tense="PRESENT" eventID="e189" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1997" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" modality="was to" eiid="ei1999" tense="NONE" eventID="e320" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2001" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e191" />
+<MAKEINSTANCE aspect="NONE" modality="to" eiid="ei2004" polarity="NEG" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2005" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" modality="may" eiid="ei2007" tense="NONE" eventID="e197" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2008" polarity="NEG" tense="PRESENT" eventID="e198" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2009" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei2010" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="PRESENT" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e199" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="NONE" eventID="e201" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2015" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="NONE" eventID="e203" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e204" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="PRESENT" eventID="e206" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2020" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="FUTURE" eventID="e33" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2022" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="PRESENT" eventID="e35" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2024" tense="PRESENT" eventID="e36" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2025" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2026" tense="PRESENT" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2027" tense="PRESENT" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2028" polarity="NEG" tense="PRESENT" eventID="e208" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2029" tense="NONE" eventID="e516" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2030" tense="NONE" eventID="e510" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="PAST" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2032" tense="NONE" eventID="e519" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2033" tense="NONE" eventID="e528" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2034" tense="PRESENT" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2035" polarity="NEG" tense="PRESENT" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2036" tense="NONE" eventID="e212" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2037" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2038" tense="PRESENT" eventID="e215" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2039" tense="PRESENT" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2040" tense="PRESENT" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2041" tense="PRESENT" eventID="e216" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2042" tense="PAST" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2043" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2044" tense="PAST" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2045" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2046" tense="NONE" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2047" tense="PAST" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2048" tense="NONE" eventID="e224" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2049" tense="PRESENT" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2050" tense="NONE" eventID="e223" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2051" tense="PAST" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2052" tense="NONE" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2053" tense="PAST" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2054" tense="PRESENT" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2055" tense="PAST" eventID="e74" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2056" tense="PRESENT" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2057" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2058" polarity="NEG" tense="NONE" eventID="e229" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2059" tense="PRESENT" eventID="e78" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2060" tense="PRESENT" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2061" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2062" tense="NONE" eventID="e83" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2063" tense="NONE" eventID="e85" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2064" tense="PRESENT" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2065" tense="PRESENT" eventID="e88" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2066" tense="PAST" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2067" tense="PAST" eventID="e235" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2068" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="PERFECTIVE" modality="might" eiid="ei2069" tense="PAST" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2070" tense="NONE" eventID="e97" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2071" tense="PAST" eventID="e103" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2072" tense="PAST" eventID="e104" />
+<MAKEINSTANCE aspect="PERFECTIVE" modality="might" eiid="ei2073" polarity="NEG" tense="NONE" eventID="e105" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2074" tense="NONE" eventID="e107" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2075" tense="NONE" eventID="e240" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2076" tense="PRESENT" eventID="e108" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2077" tense="NONE" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2078" tense="PRESENT" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2079" tense="NONE" eventID="e242" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2080" tense="FUTURE" eventID="e114" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2081" tense="NONE" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2082" tense="NONE" eventID="e117" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2083" tense="PAST" eventID="e118" />
+<MAKEINSTANCE aspect="NONE" modality="was to" eiid="ei2084" tense="NONE" eventID="e246" />
+<MAKEINSTANCE aspect="NONE" modality="was to" eiid="ei2085" tense="NONE" eventID="e120" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2086" tense="PAST" eventID="e121" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2087" tense="PAST" eventID="e122" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2088" tense="PAST" eventID="e124" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2089" tense="PAST" eventID="e125" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2090" tense="PAST" eventID="e126" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2091" tense="NONE" eventID="e249" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2092" tense="PAST" eventID="e128" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2093" tense="PRESENT" eventID="e130" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2094" tense="PAST" eventID="e131" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2095" tense="NONE" eventID="e132" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2096" tense="PAST" eventID="e253" />
+<MAKEINSTANCE aspect="PERFECTIVE" modality="may" eiid="ei2097" tense="PRESENT" eventID="e254" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei2098" tense="PAST" eventID="e140" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2099" tense="PAST" eventID="e141" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2100" tense="NONE" eventID="e143" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2101" tense="NONE" eventID="e260" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2102" tense="PAST" eventID="e261" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2103" tense="NONE" eventID="e262" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2104" tense="PAST" eventID="e146" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2105" tense="NONE" eventID="e147" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2106" tense="PAST" eventID="e148" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2107" tense="NONE" eventID="e266" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2108" tense="PAST" eventID="e150" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2109" tense="NONE" eventID="e267" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2110" tense="PAST" eventID="e151" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2111" tense="NONE" eventID="e274" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2112" tense="NONE" eventID="e275" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2113" tense="PAST" eventID="e153" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2114" tense="NONE" eventID="e276" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2115" tense="NONE" eventID="e277" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2116" tense="PAST" eventID="e154" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2117" tense="NONE" eventID="e278" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2118" tense="NONE" eventID="e156" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2119" tense="PAST" eventID="e157" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2120" tense="NONE" eventID="e160" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2121" tense="NONE" eventID="e1045" />
+<TLINK relatedToEventInstance="ei2119" eventInstanceID="ei2120" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t192" eventInstanceID="ei1995" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1994" relType="BEFORE" />
+<TLINK relatedToTime="t192" eventInstanceID="ei1996" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1996" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t296" eventInstanceID="ei1997" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei1998" relType="BEFORE" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2000" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2003" eventInstanceID="ei2001" relType="AFTER" />
+<TLINK relatedToTime="t193" eventInstanceID="ei2003" relType="IS_INCLUDED" />
+<TLINK signalID="s195" relatedToTime="t196" eventInstanceID="ei2004" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2001" eventInstanceID="ei2006" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2006" relType="AFTER" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2008" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2010" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t200" eventInstanceID="ei2012" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2012" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2015" relType="BEFORE" />
+<TLINK relatedToTime="t419" eventInstanceID="ei2015" relType="IS_INCLUDED" />
+<TLINK signalID="s418" relatedToTime="t192" timeID="t419" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2014" eventInstanceID="ei2015" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2016" eventInstanceID="ei2015" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2017" relType="INCLUDES" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2019" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2021" eventInstanceID="ei2019" relType="BEFORE" />
+<TLINK relatedToTime="t207" eventInstanceID="ei2021" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2021" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2025" eventInstanceID="ei2024" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2024" eventInstanceID="ei2026" relType="INCLUDES" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2027" relType="BEFORE" />
+<TLINK relatedToTime="t209" eventInstanceID="ei2028" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t210" eventInstanceID="ei2030" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2031" eventInstanceID="ei2032" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t211" eventInstanceID="ei2031" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t211" eventInstanceID="ei2033" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2031" eventInstanceID="ei2033" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2036" signalID="s213" eventInstanceID="ei2035" relType="ENDED_BY" />
+<TLINK relatedToTime="t214" eventInstanceID="ei2035" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2039" eventInstanceID="ei2038" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2037" eventInstanceID="ei2042" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2043" eventInstanceID="ei2044" relType="BEFORE" />
+<TLINK signalID="s217" relatedToTime="t220" eventInstanceID="ei2044" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2000" eventInstanceID="ei2045" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2045" eventInstanceID="ei2047" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2050" eventInstanceID="ei2049" relType="IDENTITY" />
+<TLINK signalID="s225" relatedToTime="t226" eventInstanceID="ei2048" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2047" eventInstanceID="ei2051" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2054" signalID="s227" eventInstanceID="ei2053" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2000" eventInstanceID="ei2055" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2058" eventInstanceID="ei2057" relType="AFTER" />
+<TLINK relatedToTime="t230" eventInstanceID="ei2059" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2060" timeID="t230" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2062" eventInstanceID="ei2064" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2062" eventInstanceID="ei2065" relType="ENDS" />
+<TLINK relatedToTime="t233" eventInstanceID="ei2065" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2066" eventInstanceID="ei2055" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2069" eventInstanceID="ei2067" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2070" eventInstanceID="ei2069" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei2071" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2055" eventInstanceID="ei2072" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2072" eventInstanceID="ei2083" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2074" signalID="s239" eventInstanceID="ei2080" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2076" signalID="s241" eventInstanceID="ei2080" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2078" eventInstanceID="ei2080" relType="AFTER" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2086" relType="BEFORE" />
+<TLINK signalID="s247" relatedToTime="t248" eventInstanceID="ei2087" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2089" eventInstanceID="ei2094" relType="IDENTITY" />
+<TLINK signalID="s247" relatedToTime="t248" eventInstanceID="ei2089" relType="IS_INCLUDED" />
+<TLINK signalID="s250" relatedToTime="t248" eventInstanceID="ei2093" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2095" signalID="s252" timeID="t251" relType="INCLUDES" />
+<TLINK signalID="s256" relatedToTime="t257" eventInstanceID="ei2098" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2095" eventInstanceID="ei2098" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2000" eventInstanceID="ei2095" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2101" eventInstanceID="ei2100" relType="ENDED_BY" />
+<TLINK signalID="s259" relatedToTime="t258" eventInstanceID="ei2101" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2072" eventInstanceID="ei2102" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2102" eventInstanceID="ei2104" relType="SIMULTANEOUS" />
+<TLINK signalID="s263" relatedToTime="t264" eventInstanceID="ei2105" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t265" eventInstanceID="ei2106" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2108" eventInstanceID="ei2107" relType="BEFORE" />
+<TLINK relatedToTime="t192" eventInstanceID="ei2108" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2055" eventInstanceID="ei2108" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2109" timeID="t268" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2111" signalID="s269" eventInstanceID="ei2110" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2112" signalID="s270" eventInstanceID="ei2110" relType="BEGUN_BY" />
+<TLINK relatedToTime="t268" eventInstanceID="ei2110" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2110" eventInstanceID="ei2113" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2114" signalID="s271" eventInstanceID="ei2113" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2115" signalID="s272" eventInstanceID="ei2113" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei2117" eventInstanceID="ei2116" relType="IDENTITY" />
+<TLINK signalID="s273" relatedToTime="t279" eventInstanceID="ei2117" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2118" eventInstanceID="ei2117" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2121" eventInstanceID="ei2119" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2001" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2009" eventInstanceID="ei2008" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2012" eventInstanceID="ei2011" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2018" eventInstanceID="ei2017" relType="EVIDENTIAL" />
+<SLINK signalID="s31" subordinatedEventInstance="ei2020" eventInstanceID="ei2019" relType="MODAL" />
+<SLINK signalID="s31" subordinatedEventInstance="ei2020" eventInstanceID="ei2021" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2021" eventInstanceID="ei2023" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2024" eventInstanceID="ei2027" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2028" eventInstanceID="ei2027" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2029" eventInstanceID="ei2030" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2034" eventInstanceID="ei2037" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2035" eventInstanceID="ei2034" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2038" eventInstanceID="ei2037" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2039" eventInstanceID="ei2037" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2040" eventInstanceID="ei2039" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2041" eventInstanceID="ei2040" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2043" eventInstanceID="ei2042" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2046" eventInstanceID="ei2045" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2049" eventInstanceID="ei2047" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2048" eventInstanceID="ei2050" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2053" eventInstanceID="ei2051" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2056" eventInstanceID="ei2055" relType="EVIDENTIAL" />
+<SLINK signalID="s76" subordinatedEventInstance="ei2057" eventInstanceID="ei2056" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2062" eventInstanceID="ei2061" relType="FACTIVE" />
+<SLINK signalID="s84" subordinatedEventInstance="ei2063" eventInstanceID="ei2062" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2067" eventInstanceID="ei2066" relType="EVIDENTIAL" />
+<SLINK signalID="s741" subordinatedEventInstance="ei2068" eventInstanceID="ei2067" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2073" eventInstanceID="ei2072" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2080" eventInstanceID="ei2083" relType="EVIDENTIAL" />
+<SLINK signalID="s798" subordinatedEventInstance="ei2081" eventInstanceID="ei2080" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2075" eventInstanceID="ei2074" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2079" eventInstanceID="ei2078" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2088" eventInstanceID="ei2087" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2090" eventInstanceID="ei2089" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2092" eventInstanceID="ei2090" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2091" eventInstanceID="ei2092" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2093" eventInstanceID="ei2094" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2096" eventInstanceID="ei2095" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2097" eventInstanceID="ei2095" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2099" eventInstanceID="ei2098" relType="EVIDENTIAL" />
+<SLINK signalID="s142" subordinatedEventInstance="ei2100" eventInstanceID="ei2099" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2103" eventInstanceID="ei2102" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2105" eventInstanceID="ei2104" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2109" eventInstanceID="ei2108" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2121" eventInstanceID="ei2120" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei1998" eventInstanceID="ei1997" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2022" eventInstanceID="ei2021" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2052" eventInstanceID="ei2053" relType="REINITIATES" />
+<ALINK relatedToEventInstance="ei2082" eventInstanceID="ei2081" relType="REINITIATES" />
+<ALINK relatedToEventInstance="ei2077" signalID="s109" eventInstanceID="ei2076" relType="CONTINUES" />
+</TimeML>

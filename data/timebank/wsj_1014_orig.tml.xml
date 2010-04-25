@@ -1,0 +1,284 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0042 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0042. </AN>
+<HL> Anheuser-Busch, Slugging It Out, Plans Beer Price Cuts
+@  ----
+@  By James P. Miller
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t161" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> BUD </CO>
+<IN> BEVERAGES (BVG)
+MARKETING, ADVERTISING (MKT)
+EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Anheuser-Busch Cos.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_STATE" >plans</EVENT> <SIGNAL sid="s3" >to</SIGNAL> aggressively <EVENT eid="e4" class="OCCURRENCE" >discount</EVENT> its major beer brands, <EVENT eid="e5" class="OCCURRENCE" >setting</EVENT> the stage for a potentially bruising price <EVENT eid="e6" class="OCCURRENCE" >war</EVENT> as the maturing industry's <EVENT eid="e192" class="OCCURRENCE" >growth</EVENT> <EVENT eid="e8" class="ASPECTUAL" >continues</EVENT> <SIGNAL sid="s9" >to</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >slow</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX>, the world's largest brewer and <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> market leader, has historically been <EVENT eid="e203" class="I_STATE" >reluctant</EVENT> <SIGNAL sid="s11" >to</SIGNAL> <EVENT eid="e12" class="OCCURRENCE" >engage</EVENT> in <EVENT eid="e210" class="OCCURRENCE" >price-cutting</EVENT> <SIGNAL sid="s222" >as a means of</SIGNAL> <EVENT eid="e14" class="OCCURRENCE" >boosting</EVENT> sales volume.</s> 
+<s>With the <EVENT eid="e15" class="OCCURRENCE" >passing</EVENT> of the heady <TIMEX3 tid="t227" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="PXD" >days</TIMEX3> of <EVENT eid="e16" class="OCCURRENCE" >swelling</EVENT> industry sales, however, the once-sporadic and brief <EVENT eid="e17" class="OCCURRENCE" >forays</EVENT> into <EVENT eid="e18" class="OCCURRENCE" >discounting</EVENT> are <EVENT eid="e20" class="OCCURRENCE" >becoming</EVENT> standard competitive weapons in the beer industry.</s> 
+
+   <s>Over the <TIMEX3 tid="t246" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-SU" anchorTimeID="t161" >summer</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> competitors <EVENT eid="e24" class="I_ACTION" >offered</EVENT> more and deeper <EVENT eid="e25" class="OCCURRENCE" >discounts</EVENT> than industry observers have <EVENT eid="e26" class="PERCEPTION" >seen</EVENT> for a long time.</s> 
+<s>Some experts <TIMEX3 tid="t261" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t161" >now</TIMEX3> <EVENT eid="e28" class="OCCURRENCE" >predict</EVENT> <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX>'s <EVENT eid="e29" class="OCCURRENCE" >entry</EVENT> <SIGNAL sid="s266" >into</SIGNAL> the <EVENT eid="e30" class="OCCURRENCE" >fray</EVENT> <EVENT eid="e32" class="OCCURRENCE" >means</EVENT> near-term earnings <EVENT eid="e33" class="OCCURRENCE" >trouble</EVENT> for all the industry players.</s> 
+
+   <s>The <ENAMEX TYPE="PERSON">St. Louis</ENAMEX> company <EVENT eid="e34" class="REPORTING" >said</EVENT> major rivals, <ENAMEX TYPE="ORGANIZATION">Philip Morris Co.</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Miller Brewing</ENAMEX> unit and <ENAMEX TYPE="ORGANIZATION">Adolph Coors Co.</ENAMEX> "have been <EVENT eid="e35" class="OCCURRENCE" >following</EVENT> a policy of continuous and deep <EVENT eid="e36" class="OCCURRENCE" >discounting</EVENT> for <TIMEX3 mod="EQUAL_OR_MORE" tid="t283" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P18M" anchorTimeID="t161" >at least the past 18 months</TIMEX3>" on their premium brands, <EVENT eid="e38" class="OCCURRENCE" >pricing</EVENT> their product as much as <NUMEX TYPE="MONEY">25 cents</NUMEX> a 12-pack below <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX>'s Budweiser label in many markets.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> <EVENT eid="e42" class="REPORTING" >said</EVENT> it's discounting policy basically <SIGNAL sid="s44" >would</SIGNAL> <EVENT eid="e43" class="OCCURRENCE" >involve</EVENT> <EVENT eid="e45" class="OCCURRENCE" >matching</EVENT> such <EVENT eid="e46" class="OCCURRENCE" >moves</EVENT> by rivals on a market-by-market basis.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Anheuser-Busch</ENAMEX> <EVENT eid="e47" class="REPORTING" >announced</EVENT> its <EVENT eid="e1991" class="I_STATE" >plan</EVENT> <SIGNAL sid="s311" >at the same time</SIGNAL> it <EVENT eid="e50" class="REPORTING" >reported</EVENT> <TIMEX3 tid="t321" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t161" >third-quarter</TIMEX3> net income <EVENT eid="e51" class="OCCURRENCE" >rose</EVENT> a lower-than-anticipated <NUMEX TYPE="PERCENT">5.2%</NUMEX> <SIGNAL sid="s336" >to</SIGNAL> <EVENT eid="e330" class="STATE" ><NUMEX TYPE="MONEY">$238.3 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">83 cents</NUMEX> a share, <SIGNAL sid="s337" >from</SIGNAL> <EVENT eid="e331" class="STATE" ><NUMEX TYPE="MONEY">$226.5 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">78 cents</NUMEX>.</s> 
+<s>Third-period sales were <NUMEX TYPE="MONEY">$2.49 billion</NUMEX>, up from last year's <NUMEX TYPE="MONEY">$2.34 billion</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> <EVENT eid="e52" class="REPORTING" >said</EVENT> its new strategy -- <EVENT eid="e53" class="OCCURRENCE" >started</EVENT> in some markets <TIMEX3 tid="t354" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09" anchorTimeID="t161" >last month</TIMEX3> and <EVENT eid="e56" class="I_STATE" >expected</EVENT> <SIGNAL sid="s57" >to</SIGNAL> be <EVENT eid="e58" class="OCCURRENCE" >applied</EVENT> soon in selected markets nationwide -- will <EVENT eid="e61" class="OCCURRENCE" >mean</EVENT> lower-than-anticipated earnings for the <TIMEX3 tid="t371" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="1989-H2" >last half of 1989</TIMEX3> and for <TIMEX3 tid="t370" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="1990" >1990</TIMEX3>.</s> 
+<s>The <EVENT eid="e62" class="OCCURRENCE" >projection</EVENT> <EVENT eid="e63" class="OCCURRENCE" >sent</EVENT> <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> shares <EVENT eid="e64" class="OCCURRENCE" >plunging</EVENT> <NUMEX TYPE="MONEY">$4.375</NUMEX> in <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> composite trading <TIMEX3 tid="t394" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-25" anchorTimeID="t161" >yesterday</TIMEX3>.</s> 
+<s>The stock <EVENT eid="e65" class="OCCURRENCE" >closed</EVENT> at <NUMEX TYPE="MONEY">$38.50</NUMEX> on heavy volume of <CARDINAL>about 3.5 million</CARDINAL> shares.</s> 
+<s>Shares of <ENAMEX TYPE="ORGANIZATION">Coors</ENAMEX>, the company's sole publicly traded major competitor, <EVENT eid="e66" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="MONEY">$1.50</NUMEX> apiece to <EVENT eid="e405" class="STATE" ><NUMEX TYPE="MONEY">$19.125</NUMEX></EVENT> in national over-the-counter trading, apparently on investor concerns over potential <EVENT eid="e410" class="OCCURRENCE" >fallout</EVENT> <SIGNAL sid="s71" >from</SIGNAL> the coming pricing <EVENT eid="e70" class="OCCURRENCE" >struggle</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> <EVENT eid="e72" class="OCCURRENCE" >noted</EVENT> that "beer industry <EVENT eid="e424" class="OCCURRENCE" >sales</EVENT> volume is <TIMEX3 tid="t419" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989" >1989</TIMEX3> is <EVENT eid="e73" class="OCCURRENCE" >following</EVENT> the <EVENT eid="e437" class="OCCURRENCE" >trend</EVENT> that has <EVENT eid="e74" class="OCCURRENCE" >characterized</EVENT> <TIMEX3 tid="t446" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="198X" >the last half of the '80s</TIMEX3>, with sales volume <EVENT eid="e75" class="STATE" >being</EVENT> essentially flat" <SIGNAL sid="s76" >while</SIGNAL> <EVENT eid="e77" class="OCCURRENCE" >consolidation</EVENT> <EVENT eid="e78" class="OCCURRENCE" >creates</EVENT> fewer, bigger players.</s> 
+
+   <s>"We <EVENT eid="e2004" class="I_STATE" >can</EVENT><SIGNAL sid="s2003" >not</SIGNAL> <EVENT eid="e80" class="I_ACTION" >permit</EVENT> a further <EVENT eid="e2000" class="OCCURRENCE" >slowing</EVENT> in our volume trend," <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> <EVENT eid="e82" class="REPORTING" >said</EVENT>, <EVENT eid="e83" class="REPORTING" >adding</EVENT> it will <EVENT eid="e84" class="OCCURRENCE" >take</EVENT> "appropriate competitive pricing <EVENT eid="e85" class="OCCURRENCE" >actions</EVENT> <SIGNAL sid="s86" >to</SIGNAL> <EVENT eid="e87" class="OCCURRENCE" >support</EVENT> our long-term market share growth strategy" for the premium brands.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> <EVENT eid="e88" class="REPORTING" >said</EVENT> it <EVENT eid="e89" class="ASPECTUAL" >continues</EVENT> <SIGNAL sid="s90" >to</SIGNAL> <EVENT eid="e91" class="OCCURRENCE" >hold</EVENT> to its <EVENT eid="e2045" class="REPORTING" >earlier-announced</EVENT> goal of a <NUMEX TYPE="PERCENT">50%</NUMEX> <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> market share by the <TIMEX3 tid="t2054" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="199X" >mid-1990s</TIMEX3>. 
+
+   Beneath the tepid news-release jargon <EVENT eid="e94" class="OCCURRENCE" >lies</EVENT> a powerful threat from the brewing giant, which <TIMEX3 tid="t2055" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t161" >last year</TIMEX3> <EVENT eid="e96" class="OCCURRENCE" >accounted</EVENT> for about <NUMEX TYPE="PERCENT">41%</NUMEX> of all <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> beer sales and is <EVENT eid="e97" class="I_STATE" >expected</EVENT> <SIGNAL sid="s98" >to</SIGNAL> <EVENT eid="e99" class="PERCEPTION" >see</EVENT> that <EVENT eid="e100" class="OCCURRENCE" >grow</EVENT> to <NUMEX TYPE="PERCENT">42.5%</NUMEX> in <TIMEX3 tid="t2056" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t161" >the current year</TIMEX3>.</s> 
+<s>"<ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> is the biggest guy in the bar, and he just <EVENT eid="e102" class="OCCURRENCE" >decided</EVENT> <SIGNAL sid="s103" >to</SIGNAL> <EVENT eid="e104" class="OCCURRENCE" >join</EVENT> in the barroom <EVENT eid="e105" class="OCCURRENCE" >brawl</EVENT>," <EVENT eid="e107" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Joseph J. Doyle</ENAMEX>, an analyst with <ENAMEX TYPE="ORGANIZATION">Smith Barney, Harris Upham amp Co.</ENAMEX> 
+"It's going to <EVENT eid="e110" class="OCCURRENCE" >get</EVENT> bloody."</s> 
+
+   <s><ENAMEX TYPE="PERSON">Jerry Steinman</ENAMEX>, publisher of Beer Marketers Insights, a trade newsletter, <EVENT eid="e112" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX>'s <EVENT eid="e113" class="OCCURRENCE" >announcement</EVENT> <EVENT eid="e114" class="OCCURRENCE" >means</EVENT> "everybody else in the industry is going to <EVENT eid="e2125" class="STATE" >have</EVENT> a difficult time <EVENT eid="e120" class="OCCURRENCE" >reaching</EVENT> their profit objectives."</s> 
+
+   <s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Prudential-Bache Securities Inc.</ENAMEX> analyst George E. Thompson</ENAMEX> <EVENT eid="e121" class="OCCURRENCE" >downplayed</EVENT> the importance of the <EVENT eid="e122" class="OCCURRENCE" >announcement</EVENT>, and <EVENT eid="e123" class="OCCURRENCE" >called</EVENT> any comparison between the coming beer-industry tiff and the seemingly unending "cola wars," unwarranted.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Thompson</ENAMEX> <EVENT eid="e128" class="OCCURRENCE" >calls</EVENT> discounting "a loser's game for anyone without a dominant market share," and <EVENT eid="e131" class="REPORTING" >projected</EVENT> that <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX>'s statement of intent could simply be a <EVENT eid="e135" class="OCCURRENCE" >means</EVENT> of <EVENT eid="e2164" class="I_ACTION" >warning</EVENT> competitors <SIGNAL sid="s136" >to</SIGNAL> <EVENT eid="e137" class="OCCURRENCE" >ease</EVENT> up on <EVENT eid="e2175" class="OCCURRENCE" >price-cutting</EVENT> or face a costly and fruitless <EVENT eid="e138" class="OCCURRENCE" >battle</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Mr. Thompson</ENAMEX> <EVENT eid="e139" class="OCCURRENCE" >noted</EVENT> that the disappointing earnings, which <EVENT eid="e140" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="MONEY">five cents</NUMEX> a share short of his own <EVENT eid="e141" class="OCCURRENCE" >projections</EVENT>, <EVENT eid="e142" class="OCCURRENCE" >contributed</EVENT> to the sell-off by an edgy and currently unforgiving investing public.</s> 
+
+   <s>But <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Smith Barney</ENAMEX>'s Mr. Doyle</ENAMEX>, who <TIMEX3 tid="t2196" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-25" anchorTimeID="t161" >yesterday</TIMEX3> <EVENT eid="e144" class="OCCURRENCE" >trimmed</EVENT> his <TIMEX3 tid="t2201" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1990" >1990</TIMEX3> <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX> earnings projection to <NUMEX TYPE="MONEY">$2.95</NUMEX> a share from <NUMEX TYPE="MONEY">$3.10</NUMEX>, <EVENT eid="e145" class="OCCURRENCE" >called</EVENT> the market's reaction "justified."</s> 
+<s>While the <TIMEX3 tid="t2210" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t161" >third-quarter</TIMEX3> earnings were a "moderate <EVENT eid="e148" class="OCCURRENCE" >disappointment</EVENT>," he <EVENT eid="e149" class="REPORTING" >said</EVENT>, "the real bad news <EVENT eid="e2224" class="STATE" >is</EVENT> the intensity of price <EVENT eid="e151" class="OCCURRENCE" >competition</EVENT>" in the premium-beer sector.</s> 
+
+   <s><EVENT eid="e2231" class="REPORTING" >According</EVENT> to <ENAMEX TYPE="PERSON">Mr. Steinman</ENAMEX>, the newsletter publisher, <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX>'s market share <EVENT eid="e2234" class="STATE" >is</EVENT> nearly twice that of its nearest competitor, <ENAMEX TYPE="ORGANIZATION">Miller Brewing</ENAMEX>, which <EVENT eid="e2237" class="STATE" >had</EVENT> a <NUMEX TYPE="PERCENT">21.2%</NUMEX> stake <TIMEX3 tid="t2238" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t161" >last year</TIMEX3>.</s> 
+<s>It's <EVENT eid="e154" class="OCCURRENCE" >followed</EVENT> by <ENAMEX TYPE="ORGANIZATION">Stroh Brewery Co.</ENAMEX>, which has <EVENT eid="e155" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s156" >to</SIGNAL> <EVENT eid="e157" class="OCCURRENCE" >sell</EVENT> its assets to <ENAMEX TYPE="ORGANIZATION">Coors</ENAMEX>.</s> 
+<s>Both <ENAMEX TYPE="ORGANIZATION">Coors</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Stroh</ENAMEX> have recently been <EVENT eid="e158" class="OCCURRENCE" >ceding</EVENT> market share to <ENAMEX TYPE="ORGANIZATION">Miller</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Anheuser</ENAMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2257" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2258" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2259" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2260" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2261" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2262" tense="NONE" eventID="e192" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2263" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2264" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2265" tense="PRESENT" eventID="e203" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2266" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2267" tense="NONE" eventID="e210" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2268" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2269" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2270" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2271" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2272" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2273" tense="PRESENT" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2274" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2275" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2276" tense="PRESENT" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2277" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2278" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2279" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2280" tense="PRESENT" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2281" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2282" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei2283" tense="PRESENT" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2284" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2285" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2286" tense="PAST" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2287" tense="PAST" eventID="e43" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2288" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2289" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2290" tense="PAST" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2291" tense="NONE" eventID="e1991" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2292" tense="PAST" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2293" tense="PAST" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2294" tense="NONE" eventID="e330" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2295" tense="NONE" eventID="e331" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2296" tense="PAST" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2297" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2298" tense="PAST" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2299" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2300" tense="FUTURE" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2301" tense="NONE" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2302" tense="PAST" eventID="e63" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2303" tense="NONE" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2304" tense="PAST" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2305" tense="PAST" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2306" tense="NONE" eventID="e405" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2307" tense="NONE" eventID="e410" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2308" tense="NONE" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2309" tense="PAST" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2310" tense="NONE" eventID="e424" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2311" tense="PRESENT" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2312" tense="NONE" eventID="e437" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2313" tense="PRESENT" eventID="e74" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2314" tense="NONE" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2315" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2316" tense="PRESENT" eventID="e78" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2317" tense="PRESENT" eventID="e2004" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2318" tense="NONE" eventID="e80" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2319" tense="NONE" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2320" tense="PAST" eventID="e82" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2321" tense="NONE" eventID="e83" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2322" tense="FUTURE" eventID="e84" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2323" tense="NONE" eventID="e85" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2324" tense="NONE" eventID="e87" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2325" tense="PAST" eventID="e88" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2326" tense="PRESENT" eventID="e89" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2327" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2328" tense="PAST" eventID="e2045" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2329" tense="PRESENT" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2330" tense="PAST" eventID="e96" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2331" tense="PRESENT" eventID="e97" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2332" tense="NONE" eventID="e99" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2333" tense="NONE" eventID="e100" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2334" tense="PAST" eventID="e102" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2335" tense="NONE" eventID="e104" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2336" tense="NONE" eventID="e105" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2337" tense="PAST" eventID="e107" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2338" tense="FUTURE" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2339" tense="PAST" eventID="e112" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2340" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2341" tense="PRESENT" eventID="e114" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2342" tense="FUTURE" eventID="e2125" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2343" tense="NONE" eventID="e120" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2344" tense="PAST" eventID="e121" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2345" tense="NONE" eventID="e122" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2346" tense="NONE" eventID="e123" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2347" tense="PRESENT" eventID="e128" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2348" tense="PAST" eventID="e131" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2349" tense="PAST" eventID="e135" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2350" tense="NONE" eventID="e2164" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2351" tense="NONE" eventID="e137" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2352" tense="PRESENT" eventID="e2175" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2353" tense="NONE" eventID="e138" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2354" tense="PAST" eventID="e139" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2355" tense="PAST" eventID="e140" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2356" tense="NONE" eventID="e141" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2357" tense="PAST" eventID="e142" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2358" tense="PAST" eventID="e144" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2359" tense="NONE" eventID="e145" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2360" tense="NONE" eventID="e148" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2361" tense="PAST" eventID="e149" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2362" tense="PRESENT" eventID="e2224" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2363" tense="NONE" eventID="e151" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2364" tense="PRESENT" eventID="e2231" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2365" tense="PRESENT" eventID="e2234" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2366" tense="PAST" eventID="e2237" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2367" tense="NONE" eventID="e154" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2368" tense="PRESENT" eventID="e155" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2369" tense="NONE" eventID="e157" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei2370" tense="PRESENT" eventID="e158" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2370" relType="DURING" />
+<TLINK relatedToEventInstance="ei2259" eventInstanceID="ei2260" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2261" eventInstanceID="ei2260" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2264" eventInstanceID="ei2262" relType="DURING" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2257" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2267" eventInstanceID="ei2266" relType="BEGINS" />
+<TLINK relatedToTime="t227" eventInstanceID="ei2269" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2270" timeID="t227" relType="INCLUDES" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2271" relType="DURING" />
+<TLINK relatedToEventInstance="ei2271" eventInstanceID="ei2272" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2273" relType="DURING" />
+<TLINK relatedToTime="t246" eventInstanceID="ei2274" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2274" eventInstanceID="ei2276" relType="BEFORE" />
+<TLINK relatedToTime="t261" eventInstanceID="ei2277" relType="DURING" />
+<TLINK relatedToEventInstance="ei2279" signalID="s266" eventInstanceID="ei2278" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2282" relType="BEFORE" />
+<TLINK relatedToTime="t283" eventInstanceID="ei2284" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t161" timeID="t283" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2284" eventInstanceID="ei2285" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2288" eventInstanceID="ei2287" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2289" eventInstanceID="ei2288" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2292" signalID="s311" eventInstanceID="ei2290" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t321" eventInstanceID="ei2292" relType="AFTER" />
+<TLINK relatedToTime="t321" eventInstanceID="ei2293" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2294" signalID="s336" eventInstanceID="ei2293" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2295" signalID="s337" eventInstanceID="ei2293" relType="AFTER" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2296" relType="BEFORE" />
+<TLINK relatedToTime="t354" eventInstanceID="ei2297" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2298" relType="DURING" />
+<TLINK relatedToTime="t371" eventInstanceID="ei2300" relType="ENDS" />
+<TLINK relatedToTime="t370" eventInstanceID="ei2300" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2296" eventInstanceID="ei2301" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2302" eventInstanceID="ei2301" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2303" eventInstanceID="ei2302" relType="BEFORE" />
+<TLINK relatedToTime="t394" eventInstanceID="ei2304" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t394" eventInstanceID="ei2303" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t394" eventInstanceID="ei2305" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2305" eventInstanceID="ei2306" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2308" signalID="s71" eventInstanceID="ei2307" relType="AFTER" />
+<TLINK relatedToTime="t419" eventInstanceID="ei2310" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2311" eventInstanceID="ei2310" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2312" eventInstanceID="ei2311" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2312" eventInstanceID="ei2313" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t446" eventInstanceID="ei2313" relType="DURING" />
+<TLINK relatedToEventInstance="ei2315" signalID="s76" eventInstanceID="ei2314" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2315" eventInstanceID="ei2316" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2320" eventInstanceID="ei2321" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2322" eventInstanceID="ei2323" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2325" eventInstanceID="ei2328" relType="BEFORE" />
+<TLINK relatedToTime="t2054" eventInstanceID="ei2325" relType="BEFORE" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2329" relType="DURING" />
+<TLINK relatedToEventInstance="ei2330" timeID="t2055" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2333" timeID="t2056" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2335" eventInstanceID="ei2336" relType="DURING" />
+<TLINK relatedToEventInstance="ei2337" eventInstanceID="ei2338" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2339" eventInstanceID="ei2340" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2339" eventInstanceID="ei2342" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2343" eventInstanceID="ei2342" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2345" eventInstanceID="ei2344" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2340" eventInstanceID="ei2345" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2344" eventInstanceID="ei2346" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2346" eventInstanceID="ei2347" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2347" eventInstanceID="ei2348" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2349" eventInstanceID="ei2350" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2348" eventInstanceID="ei2352" relType="DURING" />
+<TLINK relatedToEventInstance="ei2350" eventInstanceID="ei2353" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2354" eventInstanceID="ei2355" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2355" eventInstanceID="ei2356" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2358" timeID="t2196" relType="INCLUDES" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2359" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2358" timeID="t2201" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2360" timeID="t2210" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2361" eventInstanceID="ei2363" relType="DURING" />
+<TLINK relatedToTime="t2238" eventInstanceID="ei2366" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2367" relType="DURING" />
+<SLINK subordinatedEventInstance="ei2258" eventInstanceID="ei2257" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei2259" eventInstanceID="ei2258" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2261" eventInstanceID="ei2260" relType="MODAL" />
+<SLINK signalID="s11" subordinatedEventInstance="ei2266" eventInstanceID="ei2265" relType="MODAL" />
+<SLINK signalID="s222" subordinatedEventInstance="ei2268" eventInstanceID="ei2267" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2275" eventInstanceID="ei2274" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2281" eventInstanceID="ei2280" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2283" eventInstanceID="ei2282" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2287" eventInstanceID="ei2286" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2291" eventInstanceID="ei2290" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2297" eventInstanceID="ei2296" relType="EVIDENTIAL" />
+<SLINK signalID="s57" subordinatedEventInstance="ei2299" eventInstanceID="ei2298" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2311" eventInstanceID="ei2309" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2318" eventInstanceID="ei2317" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2319" eventInstanceID="ei2318" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2318" eventInstanceID="ei2320" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2322" eventInstanceID="ei2321" relType="EVIDENTIAL" />
+<SLINK signalID="s86" subordinatedEventInstance="ei2324" eventInstanceID="ei2323" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2326" eventInstanceID="ei2325" relType="EVIDENTIAL" />
+<SLINK signalID="s98" subordinatedEventInstance="ei2332" eventInstanceID="ei2331" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2333" eventInstanceID="ei2332" relType="EVIDENTIAL" />
+<SLINK signalID="s103" subordinatedEventInstance="ei2335" eventInstanceID="ei2334" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2334" eventInstanceID="ei2337" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2338" eventInstanceID="ei2337" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2341" eventInstanceID="ei2339" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2349" eventInstanceID="ei2348" relType="EVIDENTIAL" />
+<SLINK signalID="s136" subordinatedEventInstance="ei2351" eventInstanceID="ei2350" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2357" eventInstanceID="ei2354" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2360" eventInstanceID="ei2361" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2362" eventInstanceID="ei2361" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2365" eventInstanceID="ei2364" relType="EVIDENTIAL" />
+<SLINK signalID="s156" subordinatedEventInstance="ei2369" eventInstanceID="ei2368" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2264" signalID="s9" eventInstanceID="ei2263" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei2327" signalID="s90" eventInstanceID="ei2326" relType="CONTINUES" />
+</TimeML>

@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0181 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0181. </AN>
+<HL> Dutch Firm Seeks
+@  To Buy Up to 25%
+@  Of Nashua's Stock
+@  ----
+@  By Lawrence Ingrassia
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t76" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> NSH </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) </IN>
+<DATELINE> NASHUA, N.H.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Nashua Corp.</ENAMEX>, <EVENT eid="e1" class="STATE" >rumored</EVENT> a potential takeover target <SIGNAL sid="s75" >for</SIGNAL> <TIMEX3 tid="t77" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P6M" ><CARDINAL>six</CARDINAL> months</TIMEX3>, <EVENT eid="e3" class="REPORTING" >said</EVENT> that a Dutch company has <EVENT eid="e4" class="I_ACTION" >sought</EVENT> U.S. <EVENT eid="e5" class="I_STATE" >approval</EVENT> <SIGNAL sid="s6" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >buy</EVENT> up to <NUMEX TYPE="PERCENT">25%</NUMEX> of <ENAMEX TYPE="LOCATION">Nashua</ENAMEX>'s shares.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">Nashua</ENAMEX> <SIGNAL sid="s78" >immediately</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >responded</EVENT> by <EVENT eid="e9" class="OCCURRENCE" >strengthening</EVENT> a poison-pill plan and <EVENT eid="e10" class="REPORTING" >saying</EVENT> it will <EVENT eid="e11" class="OCCURRENCE" >buy</EVENT> back up to <CARDINAL>one million</CARDINAL> of its shares, or <NUMEX TYPE="PERCENT">10.4%</NUMEX> of the <CARDINAL>9.6 million</CARDINAL> outstanding.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">Nashua</ENAMEX>, whose major business is selling copiers, facsimile machines and related supplies, <EVENT eid="e15" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Reiss amp Co. B.V.</ENAMEX> of the <ENAMEX TYPE="LOCATION">Netherlands</ENAMEX> <EVENT eid="e16" class="OCCURRENCE" >filed</EVENT> a <EVENT eid="e17" class="I_ACTION" >request</EVENT> with the <ENAMEX TYPE="ORGANIZATION">Federal Trade Commission</ENAMEX> under the Hart-Scott-Rodino Act for <EVENT eid="e18" class="I_STATE" >permission</EVENT> <SIGNAL sid="s19" >to</SIGNAL> <EVENT eid="e20" class="OCCURRENCE" >buy</EVENT> more than <NUMEX TYPE="MONEY">$15 million</NUMEX> of <ENAMEX TYPE="LOCATION">Nashua</ENAMEX>'s stock but less than <NUMEX TYPE="PERCENT">25%</NUMEX>.</s> 
+
+   <s><SIGNAL sid="s79" >Previously</SIGNAL>, an affiliate of <ENAMEX TYPE="ORGANIZATION">Unicorp Canada</ENAMEX> <EVENT eid="e21" class="OCCURRENCE" >disclosed</EVENT> a stake of less than <NUMEX TYPE="PERCENT">5%</NUMEX> in <ENAMEX TYPE="LOCATION">Nashua</ENAMEX>, <EVENT eid="e80" class="REPORTING" >according</EVENT> to <ENAMEX TYPE="PERSON">Daniel M. Junius, <ENAMEX TYPE="LOCATION">Nashua</ENAMEX>'s treasurer</ENAMEX>.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">Nashua</ENAMEX>'s stock has <EVENT eid="e23" class="OCCURRENCE" >fluctuated</EVENT> sharply on takeover speculation, <EVENT eid="e26" class="OCCURRENCE" >rising</EVENT> <SIGNAL sid="s85" >to</SIGNAL> a high <SIGNAL sid="s87" >for</SIGNAL> <TIMEX3 tid="t88" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t76" >the year</TIMEX3> of <EVENT eid="e81" class="STATE" ><NUMEX TYPE="MONEY">$42.875</NUMEX> a share</EVENT> <SIGNAL sid="s83" >in</SIGNAL> <TIMEX3 tid="t89" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-06" anchorTimeID="t76" >June</TIMEX3> <SIGNAL sid="s84" >from</SIGNAL> <EVENT eid="e82" class="STATE" ><NUMEX TYPE="MONEY">$29.75</NUMEX></EVENT> <SIGNAL sid="s86" >in</SIGNAL> <TIMEX3 tid="t90" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-03" anchorTimeID="t76" >March</TIMEX3>.</s> 
+
+<s>But the company has <EVENT eid="e91" class="STATE" >had</EVENT> weak <EVENT eid="e27" class="OCCURRENCE" >results</EVENT> <TIMEX3 tid="t92" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-30" anchorTimeID="t76" >so far this year</TIMEX3>, with <EVENT eid="e249" class="STATE" >earnings</EVENT> <EVENT eid="e28" class="OCCURRENCE" >declining</EVENT> <NUMEX TYPE="PERCENT">43%</NUMEX> <SIGNAL sid="s95" >to</SIGNAL> <EVENT eid="e93" class="STATE" ><NUMEX TYPE="MONEY">$13.7 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">$1.43</NUMEX> a share, on a <NUMEX TYPE="PERCENT">4%</NUMEX> decline in <EVENT eid="e266" class="STATE" >revenue</EVENT> <SIGNAL sid="s268" >to</SIGNAL> <EVENT eid="e267" class="STATE" ><NUMEX TYPE="MONEY">$713.5 million</NUMEX></EVENT> <SIGNAL sid="s97" >through</SIGNAL> the <SIGNAL sid="s1000">first</SIGNAL> <TIMEX3 tid="t100" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P9M" anchorTimeID="t76" ><CARDINAL>nine</CARDINAL> months</TIMEX3> of <TIMEX3 type="DATE" tid="t1000" value="1989" temporalFunction="true" anchorTimeID="t76">the year</TIMEX3></s>.
+
+<s>Its stock has <EVENT eid="e30" class="OCCURRENCE" >slumped</EVENT> <TIMEX3 tid="t101" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PAST_REF" >recently</TIMEX3> , <EVENT eid="e31" class="OCCURRENCE" >closing</EVENT> <EVENT eid="e102" class="STATE" >unchanged</EVENT> <TIMEX3 tid="t103" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t76" >Friday</TIMEX3> at <NUMEX TYPE="MONEY">$29</NUMEX> a share in composite trading on the <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX>; at that price, the company has a market value of about <NUMEX TYPE="MONEY">$278.4 million</NUMEX>.</s> 
+<s><ENAMEX TYPE="LOCATION">Nashua</ENAMEX> <EVENT eid="e35" class="I_ACTION" >announced</EVENT> the <ENAMEX TYPE="ORGANIZATION">Reiss</ENAMEX> <EVENT eid="e104" class="OCCURRENCE" >request</EVENT> <SIGNAL sid="s37" >after</SIGNAL> the <EVENT eid="e105" class="OCCURRENCE" >market</EVENT> <EVENT eid="e38" class="ASPECTUAL" >closed</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Mr. Junius</ENAMEX> <EVENT eid="e39" class="REPORTING" >said</EVENT> <ENAMEX TYPE="LOCATION">Nashua</ENAMEX>'s "<EVENT eid="e106" class="I_STATE" >intention</EVENT> is <SIGNAL sid="s40" >to</SIGNAL> <EVENT eid="e41" class="STATE" >remain</EVENT> an independent public company."</s> 
+<s>The company <EVENT eid="e42" class="REPORTING" >said</EVENT> it <EVENT eid="e43" class="OCCURRENCE" >amended</EVENT> its shareholder rights plan by <EVENT eid="e45" class="OCCURRENCE" >reducing</EVENT> to <NUMEX TYPE="PERCENT">10%</NUMEX> from <NUMEX TYPE="PERCENT">20%</NUMEX> the level of ownership by an outsider that would trigger the issuance to other holders of rights to buy additional shares of <ENAMEX TYPE="LOCATION">Nashua</ENAMEX> common at half price.</s> 
+
+   <s>In addition, the company's board <EVENT eid="e53" class="I_ACTION" >authorized</EVENT> the <EVENT eid="e54" class="OCCURRENCE" >purchase</EVENT> of up to an additional <CARDINAL>one million</CARDINAL> shares.</s> 
+<s>Under a <EVENT eid="e107" class="STATE" >program</EVENT> <EVENT eid="e56" class="I_ACTION" >approved</EVENT> by the company <SIGNAL sid="s108" >in</SIGNAL> <TIMEX3 tid="t109" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1987" >1987</TIMEX3> that did n't specify a share amount, <ENAMEX TYPE="LOCATION">Nashua</ENAMEX> had <EVENT eid="e59" class="OCCURRENCE" >purchased</EVENT> <CARDINAL>481,000</CARDINAL> shares <SIGNAL sid="s110" >through</SIGNAL> <TIMEX3 tid="t111" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-29" anchorTimeID="t76" >Sept. 29</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Alex Henderson, an analyst at <ENAMEX TYPE="ORGANIZATION">Prudential-Bache Securities</ENAMEX></ENAMEX>, <EVENT eid="e60" class="REPORTING" >said</EVENT> that while <ENAMEX TYPE="LOCATION">Nashua</ENAMEX>'s performance <TIMEX3 tid="t112" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t76" >this year</TIMEX3> has been "<EVENT eid="e113" class="STATE" >atrocious</EVENT>," the company nonetheless is attractive as a "classic breakup candidate because there's no similarity between its {<CARDINAL>four</CARDINAL>} businesses."</s> 
+<s>He <EVENT eid="e65" class="I_ACTION" >estimated</EVENT> the breakup <EVENT eid="e114" class="STATE" >value</EVENT> at <NUMEX TYPE="MONEY">$55</NUMEX> a share.</s> 
+<s>In addition to selling Japanese-made photocopiers and facsimile machines in <ENAMEX TYPE="LOCATION">Europe</ENAMEX> and copier supplies in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX>, <ENAMEX TYPE="LOCATION">Nashua</ENAMEX> has <CARDINAL>three</CARDINAL> other major businesses: labels and tapes, data storage disks for computers and mail-order photofinishing.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1992" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="FUTURE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e80" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2006" tense="PRESENT" eventID="e23" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2007" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2011" tense="PRESENT" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e249" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2013" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e266" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="NONE" eventID="e267" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2017" tense="PRESENT" eventID="e30" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2018" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="NONE" eventID="e102" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2020" tense="PAST" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="NONE" eventID="e104" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="NONE" eventID="e105" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="PAST" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2024" tense="PAST" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2025" tense="NONE" eventID="e106" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2026" tense="PRESENT" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2027" tense="PAST" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2028" tense="PAST" eventID="e43" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2029" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2030" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2032" tense="NONE" eventID="e107" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2033" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2034" tense="PAST" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2035" tense="PAST" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2036" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2037" tense="PAST" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2038" tense="NONE" eventID="e114" />
+<TLINK timeID="t100" relatedToTime="t1000" relType="BEGINS" signalID="s1000"/>
+<TLINK relatedToTime="t76" eventInstanceID="ei1991" relType="BEFORE" />
+<TLINK relatedToTime="t76" eventInstanceID="ei1990" relType="BEFORE" />
+<TLINK signalID="s75" relatedToTime="t77" eventInstanceID="ei1990" relType="DURING" />
+<TLINK relatedToEventInstance="ei1991" signalID="s78" eventInstanceID="ei1995" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1995" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei1995" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei1999" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2000" signalID="s79" eventInstanceID="ei2004" relType="BEFORE" />
+<TLINK relatedToTime="t76" eventInstanceID="ei2006" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2006" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2008" signalID="s85" eventInstanceID="ei2007" relType="ENDED_BY" />
+<TLINK signalID="s83" relatedToTime="t89" eventInstanceID="ei2008" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2009" signalID="s84" eventInstanceID="ei2007" relType="BEGUN_BY" />
+<TLINK signalID="s86" relatedToTime="t90" eventInstanceID="ei2009" relType="IS_INCLUDED" />
+<TLINK signalID="s87" relatedToTime="t88" eventInstanceID="ei2007" relType="DURING" />
+<TLINK relatedToTime="t76" eventInstanceID="ei2010" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2010" relType="IDENTITY" />
+<TLINK relatedToTime="t92" eventInstanceID="ei2010" relType="DURING" />
+<TLINK relatedToEventInstance="ei2014" signalID="s95" eventInstanceID="ei2013" relType="ENDED_BY" />
+<TLINK relatedToTime="t92" eventInstanceID="ei2012" relType="DURING" />
+<TLINK relatedToEventInstance="ei2014" signalID="s95" eventInstanceID="ei2012" relType="ENDED_BY" />
+<TLINK signalID="s97" relatedToTime="t100" eventInstanceID="ei2015" relType="DURING" />
+<TLINK relatedToEventInstance="ei2016" signalID="s268" eventInstanceID="ei2015" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2016" signalID="s268" timeID="t100" relType="ENDED_BY" />
+<TLINK relatedToTime="t101" eventInstanceID="ei2017" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2019" eventInstanceID="ei2018" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2018" eventInstanceID="ei2017" relType="ENDED_BY" />
+<TLINK relatedToTime="t103" eventInstanceID="ei2018" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t76" eventInstanceID="ei2020" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2023" signalID="s37" eventInstanceID="ei2020" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2024" eventInstanceID="ei2027" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2029" eventInstanceID="ei2028" relType="AFTER" />
+<TLINK signalID="s108" relatedToTime="t109" eventInstanceID="ei2033" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2032" eventInstanceID="ei2034" relType="IS_INCLUDED" />
+<TLINK signalID="s110" relatedToTime="t111" eventInstanceID="ei2034" relType="ENDED_BY" />
+<TLINK relatedToTime="t112" eventInstanceID="ei2036" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2035" eventInstanceID="ei2037" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei1992" eventInstanceID="ei1991" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="MODAL" />
+<SLINK signalID="s6" subordinatedEventInstance="ei1994" eventInstanceID="ei1993" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1998" eventInstanceID="ei1997" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2001" relType="MODAL" />
+<SLINK signalID="s19" subordinatedEventInstance="ei2003" eventInstanceID="ei2002" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2004" eventInstanceID="ei2005" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2021" eventInstanceID="ei2020" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2025" eventInstanceID="ei2024" relType="EVIDENTIAL" />
+<SLINK signalID="s40" subordinatedEventInstance="ei2026" eventInstanceID="ei2025" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2028" eventInstanceID="ei2027" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2031" eventInstanceID="ei2030" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2032" eventInstanceID="ei2033" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2036" eventInstanceID="ei2035" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2038" eventInstanceID="ei2037" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2022" eventInstanceID="ei2023" relType="TERMINATES" />
+</TimeML>

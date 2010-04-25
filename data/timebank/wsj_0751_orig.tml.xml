@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0144 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0144. </AN>
+<HL> Dime Savings Bank Purchase </HL>
+<DD> <TIMEX3 tid="t23" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> DME STPT </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+SAVINGS AND LOANS, THRIFTS, CREDIT UNIONS (SAL) </IN>
+<DATELINE> GARDEN CITY, N.Y.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Dime Savings Bank of New York</ENAMEX> was <EVENT eid="e1" class="I_ACTION" >cleared</EVENT> by the <ENAMEX TYPE="ORGANIZATION">Federal Deposit Insurance Corp.</ENAMEX> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >acquire</EVENT> <ENAMEX TYPE="ORGANIZATION">Starpointe Savings Bank of Somerset</ENAMEX>, <ENAMEX TYPE="LOCATION">N.J.</ENAMEX>, the banks <EVENT eid="e4" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Starpointe</ENAMEX> holders, who <EVENT eid="e5" class="I_ACTION" >approved</EVENT> the <EVENT eid="e20" class="STATE" >plan</EVENT> <TIMEX3 tid="t24" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-04" anchorTimeID="t23" >last April</TIMEX3>, will <EVENT eid="e6" class="OCCURRENCE" >receive</EVENT> <NUMEX TYPE="MONEY">$21</NUMEX> in cash a share, or a total <NUMEX TYPE="MONEY">$63 million</NUMEX>.</s> 
+<s>The FDIC <EVENT eid="e9" class="I_ACTION" >cleared</EVENT> the <EVENT eid="e10" class="OCCURRENCE" >move</EVENT> <TIMEX3 tid="t25" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t23" >yesterday</TIMEX3>, and the banks must <EVENT eid="e11" class="OCCURRENCE" >wait</EVENT> <TIMEX3 mod="EQUAL_OR_MORE" tid="t26" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P30D" ><CARDINAL>at least 30</CARDINAL> days</TIMEX3> <SIGNAL sid="s13" >before</SIGNAL> <EVENT eid="e14" class="ASPECTUAL" >closing</EVENT> the <EVENT eid="e15" class="OCCURRENCE" >purchase</EVENT>.</s> 
+<s>A closing date has n't been <EVENT eid="e16" class="OCCURRENCE" >set</EVENT>.</s> 
+<s>The thrifts <EVENT eid="e18" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s21" >to</SIGNAL> the <EVENT eid="e19" class="OCCURRENCE" >transaction</EVENT> <SIGNAL sid="s22" >in</SIGNAL> <TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988-08" >August 1988</TIMEX3>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei138" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei139" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei140" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei141" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei142" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei143" tense="FUTURE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei144" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei145" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" modality="must" eiid="ei146" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei147" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei148" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei149" polarity="NEG" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei151" tense="NONE" eventID="e19" />
+<TLINK relatedToTime="t23" eventInstanceID="ei138" relType="BEFORE" />
+<TLINK relatedToTime="t23" eventInstanceID="ei140" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei147" eventInstanceID="ei146" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei147" signalID="s13" eventInstanceID="ei146" relType="BEFORE" />
+<TLINK relatedToTime="t24" eventInstanceID="ei141" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t23" eventInstanceID="ei149" relType="INCLUDES" />
+<TLINK relatedToTime="t23" eventInstanceID="ei143" relType="AFTER" />
+<TLINK relatedToEventInstance="ei138" eventInstanceID="ei144" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei139" eventInstanceID="ei145" relType="IDENTITY" />
+<TLINK signalID="s22" relatedToTime="t27" eventInstanceID="ei150" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t25" eventInstanceID="ei144" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t26" eventInstanceID="ei146" relType="DURING" />
+<TLINK relatedToEventInstance="ei139" eventInstanceID="ei151" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei141" eventInstanceID="ei150" relType="INCLUDES" />
+<TLINK relatedToTime="t23" eventInstanceID="ei150" relType="BEFORE" />
+<SLINK signalID="s2" subordinatedEventInstance="ei139" eventInstanceID="ei138" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei138" eventInstanceID="ei140" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei142" eventInstanceID="ei141" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei139" eventInstanceID="ei142" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei145" eventInstanceID="ei144" relType="MODAL" />
+<SLINK signalID="s21" subordinatedEventInstance="ei151" eventInstanceID="ei150" relType="MODAL" />
+<ALINK relatedToEventInstance="ei148" eventInstanceID="ei147" relType="CULMINATES" />
+</TimeML>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0048 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0048. </AN>
+<HL> Business Brief -- Lawrence Insurance Group Inc.:
+@  Houston Reinsurance Firm
+@  Is Acquired for $28 Million </HL>
+<DD> <TIMEX3 tid="t25" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> LWR </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Lawrence Insurance Group Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" >acquired</EVENT> <ENAMEX TYPE="ORGANIZATION">United Republic Reinsurance Co.</ENAMEX>, a Houston property and casualty reinsurance company, from <ENAMEX TYPE="ORGANIZATION">United Savings Association of Texas</ENAMEX> for <NUMEX TYPE="MONEY">$28 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Lawrence Insurance</ENAMEX> also <EVENT eid="e3" class="OCCURRENCE" >sold</EVENT> <CARDINAL>3.2 million</CARDINAL> of its shares for <NUMEX TYPE="MONEY">$7.125</NUMEX> each to its parent, <ENAMEX TYPE="ORGANIZATION">Lawrence Group Inc. Lawrence Insurance</ENAMEX>, <EVENT eid="e4" class="OCCURRENCE" >based</EVENT> in <ENAMEX TYPE="LOCATION">Albany</ENAMEX>, <ENAMEX TYPE="LOCATION">N.Y.</ENAMEX>, <EVENT eid="e5" class="I_STATE" >plans</EVENT> <SIGNAL sid="s6" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >use</EVENT> the <NUMEX TYPE="MONEY">$22.5 million</NUMEX> in proceeds <SIGNAL sid="s9" >to</SIGNAL> <EVENT eid="e10" class="I_ACTION" >help</EVENT> <EVENT eid="e11" class="OCCURRENCE" >finance</EVENT> the <EVENT eid="e12" class="OCCURRENCE" >acquisition</EVENT> of <ENAMEX TYPE="ORGANIZATION">United Republic</ENAMEX>.</s> 
+
+   <s>By <EVENT eid="e13" class="OCCURRENCE" >acquiring</EVENT> the shares, <ENAMEX TYPE="ORGANIZATION">Lawrence Group</ENAMEX> <EVENT eid="e14" class="OCCURRENCE" >increased</EVENT> its stake in <ENAMEX TYPE="ORGANIZATION">Lawrence Insurance</ENAMEX> to <EVENT eid="e26" class="STATE" ><NUMEX TYPE="PERCENT">93.2%</NUMEX></EVENT> from <EVENT eid="e27" class="STATE" ><NUMEX TYPE="PERCENT">91.2%</NUMEX></EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Lawrence Insurance</ENAMEX> <EVENT eid="e16" class="OCCURRENCE" >underwrites</EVENT> mostly primary insurance, a company spokesman <EVENT eid="e18" class="REPORTING" >said</EVENT>.</s> 
+<s>A reinsurance company effectively insures insurance companies that wish to spread the risk of a particular policy.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Lawrence Group</ENAMEX> also <EVENT eid="e24" class="OCCURRENCE" >owns</EVENT> <ENAMEX TYPE="ORGANIZATION">Lawrence Agency Corp.</ENAMEX>, <ENAMEX TYPE="LOCATION">Schenectady</ENAMEX>, <ENAMEX TYPE="LOCATION">N.Y.</ENAMEX>, an insurance agency and brokerage.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei102" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei103" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei104" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei105" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei106" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei107" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei108" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei109" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei110" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei111" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei112" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei113" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei114" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei115" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei116" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei117" tense="PRESENT" eventID="e24" />
+<TLINK relatedToTime="t25" eventInstanceID="ei102" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei103" eventInstanceID="ei102" relType="AFTER" />
+<TLINK relatedToTime="t25" eventInstanceID="ei104" relType="BEFORE" />
+<TLINK relatedToTime="t25" eventInstanceID="ei105" relType="DURING" />
+<TLINK relatedToEventInstance="ei110" eventInstanceID="ei109" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t25" eventInstanceID="ei106" relType="DURING" />
+<TLINK relatedToEventInstance="ei104" eventInstanceID="ei111" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei113" eventInstanceID="ei112" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei114" eventInstanceID="ei112" relType="AFTER" />
+<TLINK relatedToEventInstance="ei112" eventInstanceID="ei111" relType="BEFORE" />
+<TLINK relatedToTime="t25" eventInstanceID="ei115" relType="DURING" />
+<TLINK relatedToTime="t25" eventInstanceID="ei117" relType="DURING" />
+<SLINK subordinatedEventInstance="ei103" eventInstanceID="ei102" relType="EVIDENTIAL" />
+<SLINK signalID="s6" subordinatedEventInstance="ei107" eventInstanceID="ei106" relType="MODAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei108" eventInstanceID="ei107" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei109" eventInstanceID="ei108" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei115" eventInstanceID="ei116" relType="EVIDENTIAL" />
+</TimeML>

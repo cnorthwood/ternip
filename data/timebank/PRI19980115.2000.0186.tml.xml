@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> PRI<TIMEX3 tid="t28" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-01-15" >19980115</TIMEX3>.2000.0186 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="PRI_The_World" air_date="19980115:2000">
+<section startTime="186.82" type="report" endTime="246.61">
+<TEXT>
+<turn startTime="186.82" speaker="unknown" endTime="200.522" spkrType="unknown">
+ <s><TIMEX3 tid="t29" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t28" >Former</TIMEX3> savings and loan chief, <ENAMEX TYPE="PERSON">Charles Keating</ENAMEX>,  is <EVENT eid="e1" class="I_STATE" >facing</EVENT> more legal
+ <EVENT eid="e1997" class="STATE" >troubles</EVENT> in <ENAMEX TYPE="LOCATION">California</ENAMEX>.</s>
+ <s>A federal appeals court  has <EVENT eid="e3" class="ASPECTUAL" >reinstated</EVENT> his state <EVENT eid="e1998" class="STATE" >convictions</EVENT>
+ for securities <EVENT eid="e2000" class="OCCURRENCE" >fraud</EVENT>.</s>
+ <s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">NPR</ENAMEX>'s Elaine Corey</ENAMEX> <EVENT eid="e4" class="REPORTING" >has</EVENT> more from <ENAMEX TYPE="LOCATION">San Francisco</ENAMEX>.</s>
+</turn>
+<turn startTime="200.522" speaker="unknown" endTime="246.61" spkrType="unknown">
+ <s><SIGNAL sid="s2001" >In</SIGNAL> <CARDINAL><TIMEX3 tid="t30" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1991" >nineteen ninety-one</TIMEX3></CARDINAL> <ENAMEX TYPE="PERSON">Charles Keating</ENAMEX>  was <EVENT eid="e5" class="OCCURRENCE" >convicted</EVENT> in state court of
+ <EVENT eid="e7" class="I_ACTION" >helping</EVENT>  <SIGNAL sid="s2080" >to</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >defraud</EVENT> thousands of investors who <EVENT eid="e9" class="OCCURRENCE" >bought</EVENT> high risk
+ junk bonds <EVENT eid="e10" class="OCCURRENCE" >sold</EVENT> by <ENAMEX TYPE="PERSON">Keating</ENAMEX>'s employees at <ENAMEX TYPE="LOCATION">Lincoln</ENAMEX> savings and
+ loan.</s>
+ <s>The bonds <EVENT eid="e11" class="OCCURRENCE" >became</EVENT> <EVENT eid="e2036" class="STATE" >worthless</EVENT> <SIGNAL sid="s12" >when</SIGNAL> the <EVENT eid="e2037" class="STATE" >bankrupt</EVENT> thrift  was <EVENT eid="e13" class="OCCURRENCE" >seized</EVENT>
+ by government regulators.</s>
+ <s><ENAMEX TYPE="PERSON">Keating</ENAMEX>'s <EVENT eid="e2003" class="STATE" >convictions</EVENT>  were <EVENT eid="e14" class="OCCURRENCE" >thrown</EVENT> out <SIGNAL sid="s2132" >in</SIGNAL> <CARDINAL><TIMEX3 tid="t31" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1996" >nineteen ninety-six</TIMEX3></CARDINAL> on a
+ technicality.</s>
+ <s>And <SIGNAL sid="s2005" >on that basis</SIGNAL> <ENAMEX TYPE="PERSON">Keating</ENAMEX>  was <EVENT eid="e15" class="OCCURRENCE" >released</EVENT> from prison <SIGNAL sid="s2222" >before</SIGNAL> he
+ was <EVENT eid="e2004" class="STATE" >eligible</EVENT> for <EVENT eid="e2008" class="OCCURRENCE" >parole</EVENT>.</s>
+ <s><TIMEX3 tid="t32" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t28" >Now</TIMEX3> the ninth <ENAMEX TYPE="LOCATION">US</ENAMEX> circuit court of appeals  has <EVENT eid="e17" class="I_ACTION" >ruled</EVENT> that
+ the original <EVENT eid="e2007" class="OCCURRENCE" >appeal</EVENT>  was <EVENT eid="e18" class="STATE" >flawed</EVENT> <SIGNAL sid="s2176" >since</SIGNAL> it <EVENT eid="e19" class="OCCURRENCE" >brought</EVENT> up <EVENT eid="e2195" class="STATE" >issues</EVENT> that
+ had <SIGNAL sid="s21" >not</SIGNAL>  been <EVENT eid="e20" class="OCCURRENCE" >raised</EVENT> <SIGNAL sid="s2186" >before</SIGNAL>.</s>
+ <s>That <EVENT eid="e22" class="I_STATE" >means</EVENT> the <EVENT eid="e2009" class="STATE" >convictions</EVENT> <EVENT eid="e23" class="ASPECTUAL" >stand</EVENT>, a <EVENT eid="e2039" class="OCCURRENCE" >ruling</EVENT> <SIGNAL sid="s2239" >likely  to</SIGNAL> <EVENT eid="e24" class="OCCURRENCE" >send</EVENT>
+ <ENAMEX TYPE="PERSON">Keating</ENAMEX>'s lawyers back to state court where they <SIGNAL sid="s27" >must</SIGNAL>  <EVENT eid="e2010" class="ASPECTUAL" >start</EVENT> over with a new <EVENT eid="e2011" class="I_ACTION" >appeal</EVENT>.</s>
+ <s><ENAMEX TYPE="PERSON">Elaine Corey</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">NPR</ENAMEX> news, <ENAMEX TYPE="LOCATION">San Francisco</ENAMEX>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2268" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2269" tense="NONE" eventID="e1997" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2270" tense="PRESENT" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2271" tense="NONE" eventID="e1998" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2272" tense="NONE" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2273" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2274" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2275" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2276" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2277" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2278" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2279" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2280" tense="NONE" eventID="e2036" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2281" tense="NONE" eventID="e2037" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2282" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2283" tense="NONE" eventID="e2003" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2284" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2285" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2286" tense="NONE" eventID="e2004" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2287" tense="NONE" eventID="e2008" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2288" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2289" tense="NONE" eventID="e2007" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2290" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2291" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2292" tense="NONE" eventID="e2195" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2293" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2294" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2295" tense="NONE" eventID="e2009" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2296" tense="PRESENT" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2297" tense="NONE" eventID="e2039" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2298" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2299" tense="NONE" eventID="e2010" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2300" tense="NONE" eventID="e2011" />
+<TLINK relatedToEventInstance="ei2299" eventInstanceID="ei2298" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2288" timeID="t32" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t28" timeID="t32" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2286" signalID="s2222" eventInstanceID="ei2285" relType="BEFORE" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2298" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2274" signalID="s2186" eventInstanceID="ei2293" relType="IBEFORE" />
+<TLINK signalID="s2001" relatedToTime="t30" eventInstanceID="ei2293" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2298" signalID="s2239" eventInstanceID="ei2297" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2284" eventInstanceID="ei2289" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei2276" eventInstanceID="ei2274" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2285" signalID="s2005" eventInstanceID="ei2284" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2275" eventInstanceID="ei2274" relType="AFTER" />
+<TLINK signalID="s2132" relatedToTime="t31" eventInstanceID="ei2284" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2296" eventInstanceID="ei2270" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2284" eventInstanceID="ei2283" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2297" eventInstanceID="ei2296" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2295" eventInstanceID="ei2271" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2271" eventInstanceID="ei2274" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei2271" eventInstanceID="ei2283" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2278" eventInstanceID="ei2281" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2282" signalID="s12" eventInstanceID="ei2279" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2278" eventInstanceID="ei2279" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2280" eventInstanceID="ei2279" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei2278" eventInstanceID="ei2277" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t30" eventInstanceID="ei2277" relType="BEFORE" />
+<TLINK relatedToTime="t30" timeID="t29" relType="BEFORE" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2268" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2270" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2272" eventInstanceID="ei2271" relType="AFTER" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2273" relType="IS_INCLUDED" />
+<TLINK signalID="s2001" relatedToTime="t30" eventInstanceID="ei2274" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei2292" eventInstanceID="ei2291" relType="FACTIVE" />
+<SLINK signalID="s2008" subordinatedEventInstance="ei2287" eventInstanceID="ei2286" relType="FACTIVE" />
+<SLINK signalID="s2176" subordinatedEventInstance="ei2291" eventInstanceID="ei2290" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2290" eventInstanceID="ei2288" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2296" eventInstanceID="ei2294" relType="FACTIVE" />
+<SLINK signalID="s2080" subordinatedEventInstance="ei2276" eventInstanceID="ei2275" relType="FACTIVE" />
+<SLINK signalID="s21" subordinatedEventInstance="ei2293" eventInstanceID="ei2292" relType="NEGATIVE" />
+<SLINK subordinatedEventInstance="ei2269" eventInstanceID="ei2268" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2268" eventInstanceID="ei2273" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2274" eventInstanceID="ei2273" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2300" eventInstanceID="ei2299" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2296" eventInstanceID="ei2295" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei2271" eventInstanceID="ei2270" relType="CONTINUES" />
+</TimeML>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0056 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0056. </AN>
+<HL> Business Brief -- Elco Industries Inc.:
+@  Fastener Maker Expects Net
+@  In '90 to Be Below Forecast </HL>
+<DD> <TIMEX3 tid="t22" type="DATE" temporalFunction="true" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> ELCN </CO>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Elco Industries Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_STATE" >expects</EVENT> net income <SIGNAL sid="s23" >in</SIGNAL> <TIMEX3 tid="t28" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P1Y" anchorTimeID="t27" >the year</TIMEX3> <EVENT eid="e26" class="OCCURRENCE" >ending</EVENT> <TIMEX3 tid="t27" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990-06-30" anchorTimeID="t22" >June 30, 1990</TIMEX3>, <SIGNAL sid="s50" >to</SIGNAL> <EVENT eid="e19" class="OCCURRENCE" >fall</EVENT> below a recent analyst's estimate of <NUMEX TYPE="MONEY">$1.65</NUMEX> a share.</s> 
+
+   <s>The <ENAMEX TYPE="LOCATION">Rockford</ENAMEX>, <ENAMEX TYPE="LOCATION">Ill.</ENAMEX>, maker of fasteners also <EVENT eid="e5" class="REPORTING" >said</EVENT> it <EVENT eid="e6" class="I_STATE" >expects</EVENT> <SIGNAL sid="s7" >to</SIGNAL> <EVENT eid="e8" class="REPORTING" >post</EVENT> sales <SIGNAL sid="s29" >in</SIGNAL> <TIMEX3 tid="t30" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P1Y" anchorTimeID="t28" >the current fiscal year</TIMEX3> that <EVENT eid="e108" class="STATE" >are</EVENT> " slightly <SIGNAL sid="s109" >above</SIGNAL>" <TIMEX3 tid="t32" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t30" >fiscal 1989</TIMEX3> sales of <EVENT eid="e103" class="STATE" ><NUMEX TYPE="MONEY">$155 million</NUMEX></EVENT>.</s> 
+<s>The company <EVENT eid="e10" class="REPORTING" >said</EVENT> its industrial unit <EVENT eid="e11" class="ASPECTUAL" >continues</EVENT> <SIGNAL sid="s12" >to</SIGNAL> <EVENT eid="e33" class="STATE" >face</EVENT> margin <EVENT eid="e136" class="STATE" >pressures</EVENT> and lower <EVENT eid="e137" class="STATE" >demand</EVENT>.</s> 
+
+   <s><SIGNAL sid="s34" >In</SIGNAL> <TIMEX3 tid="t35" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P1Y" anchorTimeID="t32" >fiscal 1989</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Elco</ENAMEX> <EVENT eid="e15" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$7.8 million</NUMEX>, or <NUMEX TYPE="MONEY">$1.65</NUMEX> a share.</s> 
+<s>The company's stock <EVENT eid="e16" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="MONEY">$1.125 <SIGNAL sid="s20" >to</SIGNAL> <EVENT eid="e36" class="STATE" >$13.625</EVENT></NUMEX> in over-the-counter trading <TIMEX3 tid="t37" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t22" >yesterday</TIMEX3>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1992" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="PRESENT" eventID="e108" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e103" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PRESENT" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e136" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e137" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e36" />
+<TLINK relatedToTime="t22" timeID="t37" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1990" timeID="t22" relType="AFTER" />
+<TLINK signalID="s23" relatedToTime="t28" eventInstanceID="ei1993" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1992" timeID="t28" relType="ENDED_BY" />
+<TLINK relatedToTime="t27" eventInstanceID="ei1992" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1994" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t22" timeID="t27" relType="AFTER" />
+<TLINK signalID="s29" relatedToTime="t30" eventInstanceID="ei1996" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t32" timeID="t30" relType="AFTER" />
+<TLINK relatedToTime="t22" timeID="t30" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1998" signalID="s109" eventInstanceID="ei1997" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1999" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2002" eventInstanceID="ei2001" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2003" eventInstanceID="ei2001" relType="INCLUDES" />
+<TLINK signalID="s34" relatedToTime="t35" eventInstanceID="ei2004" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t32" timeID="t35" relType="IDENTITY" />
+<TLINK relatedToTime="t37" eventInstanceID="ei2005" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2006" signalID="s20" eventInstanceID="ei2005" relType="IBEFORE" />
+<SLINK subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="EVIDENTIAL" />
+<SLINK signalID="s50" subordinatedEventInstance="ei1993" eventInstanceID="ei1991" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1995" eventInstanceID="ei1994" relType="EVIDENTIAL" />
+<SLINK signalID="s7" subordinatedEventInstance="ei1996" eventInstanceID="ei1995" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2001" signalID="s12" eventInstanceID="ei2000" relType="CONTINUES" />
+</TimeML>

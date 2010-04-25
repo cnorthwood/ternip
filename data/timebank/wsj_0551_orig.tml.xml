@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0149 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0149. </AN>
+<HL> Trustcorp Inc. to Change Name </HL>
+<DD> <TIMEX3 tid="t14" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> TTCO SOCI </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) </IN>
+<DATELINE> TOLEDO, Ohio  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Trustcorp Inc.</ENAMEX> will <EVENT eid="e1" class="OCCURRENCE" >become</EVENT> <ENAMEX TYPE="ORGANIZATION">Society Bank amp Trust</ENAMEX> <SIGNAL sid="s2" >when</SIGNAL> its <EVENT eid="e3" class="OCCURRENCE" >merger</EVENT> is <EVENT eid="e4" class="ASPECTUAL" >completed</EVENT> with <ENAMEX TYPE="ORGANIZATION">Society Corp.</ENAMEX> of <ENAMEX TYPE="LOCATION">Cleveland</ENAMEX>, the bank <EVENT eid="e5" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Society Corp.</ENAMEX>, which is also a bank, <EVENT eid="e6" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s13" >in</SIGNAL> <TIMEX3 tid="t15" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-06" anchorTimeID="t14" >June</TIMEX3> <SIGNAL sid="s7" >to</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >buy</EVENT> <ENAMEX TYPE="ORGANIZATION">Trustcorp</ENAMEX> for <CARDINAL>12.4 million</CARDINAL> shares of stock with a market value of about <NUMEX TYPE="MONEY">$450 million</NUMEX>.</s> 
+<s>The <EVENT eid="e9" class="OCCURRENCE" >transaction</EVENT> is <EVENT eid="e10" class="I_STATE" >expected</EVENT> <SIGNAL sid="s11" >to</SIGNAL> <EVENT eid="e12" class="ASPECTUAL" >close</EVENT> <TIMEX3 mod="APPROX" tid="t17" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12" anchorTimeID="t14" >around year end</TIMEX3>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei82" tense="FUTURE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei83" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei84" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei85" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei86" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei87" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei88" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei89" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei90" tense="NONE" eventID="e12" />
+<TLINK relatedToTime="t14" eventInstanceID="ei82" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei84" signalID="s2" eventInstanceID="ei82" relType="AFTER" />
+<TLINK relatedToTime="t14" eventInstanceID="ei85" relType="BEFORE" />
+<TLINK signalID="s13" relatedToTime="t15" eventInstanceID="ei86" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei83" eventInstanceID="ei87" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei87" eventInstanceID="ei88" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei83" eventInstanceID="ei88" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t17" eventInstanceID="ei90" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei82" eventInstanceID="ei85" relType="EVIDENTIAL" />
+<SLINK signalID="s7" subordinatedEventInstance="ei87" eventInstanceID="ei86" relType="MODAL" />
+<SLINK signalID="s11" subordinatedEventInstance="ei90" eventInstanceID="ei89" relType="MODAL" />
+<ALINK relatedToEventInstance="ei83" eventInstanceID="ei84" relType="CULMINATES" />
+<ALINK relatedToEventInstance="ei88" eventInstanceID="ei90" relType="CULMINATES" />
+</TimeML>

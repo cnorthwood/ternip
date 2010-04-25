@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0039 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0039. </AN>
+<HL> Business Brief -- Dow Jones amp Co.:
+@  Offer for Telerate Common
+@  Is Extended Until Nov. 9 </HL>
+<DD> <TIMEX3 tid="t25" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> DJ TLR </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDIA, PUBLISHING, BROADCASTING, ELECTRONIC PUBLISHING (MED) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Dow Jones amp Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_ACTION" >extended</EVENT> its $18-a-share <EVENT eid="e3" class="OCCURRENCE" >offer</EVENT> for <ENAMEX TYPE="ORGANIZATION">Telerate Inc.</ENAMEX> common stock <SIGNAL sid="s26" >until</SIGNAL> <TIMEX3 tid="t27" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-09T17:00" anchorTimeID="t25" >5 p.m. EST Nov. 9</TIMEX3>.</s> 
+
+   <s>The <EVENT eid="e4" class="OCCURRENCE" >offer</EVENT>, valued at about <NUMEX TYPE="MONEY">$576 million</NUMEX> for the <NUMEX TYPE="PERCENT">33%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Telerate</ENAMEX> that <ENAMEX TYPE="ORGANIZATION">Dow Jones</ENAMEX> does n't already own, had been <EVENT eid="e8" class="I_ACTION" >set</EVENT> <SIGNAL sid="s9" >to</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >expire</EVENT> <TIMEX3 tid="t28" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-06" anchorTimeID="t27" >Nov. 6</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Dow Jones</ENAMEX>, which owns <CARDINAL>about 64 million</CARDINAL> of <ENAMEX TYPE="ORGANIZATION">Telerate</ENAMEX>'s <CARDINAL>95 million</CARDINAL> common shares outstanding, <EVENT eid="e12" class="REPORTING" >said</EVENT> that <CARDINAL>about 24,000</CARDINAL> shares have been <EVENT eid="e13" class="OCCURRENCE" >tendered</EVENT> under its <EVENT eid="e14" class="OCCURRENCE" >offer</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Telerate</ENAMEX>'s <CARDINAL>two</CARDINAL> independent directors have <EVENT eid="e15" class="OCCURRENCE" >rejected</EVENT> the <EVENT eid="e16" class="OCCURRENCE" >offer</EVENT> as inadequate.</s> 
+<s>In composite trading on the <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Telerate</ENAMEX> shares <EVENT eid="e18" class="OCCURRENCE" >closed</EVENT> at <NUMEX TYPE="MONEY">$19.50</NUMEX>, up <NUMEX TYPE="MONEY">12.5 cents</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Telerate</ENAMEX> provides an electronic financial information network.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Dow Jones</ENAMEX> publishes The <ENAMEX TYPE="ORGANIZATION">Wall Street Journal</ENAMEX>, <ENAMEX TYPE="PERSON">Barron</ENAMEX>'s magazine, and community newspapers and operates financial news services and computer data bases.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei120" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei121" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei124" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei127" tense="PRESENT" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei129" tense="PRESENT" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei130" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei131" tense="PAST" eventID="e18" />
+<TLINK relatedToTime="t25" eventInstanceID="ei131" relType="BEFORE" />
+<TLINK relatedToTime="t25" eventInstanceID="ei120" relType="AFTER" />
+<TLINK relatedToEventInstance="ei123" eventInstanceID="ei122" relType="IDENTITY" />
+<TLINK relatedToTime="t28" eventInstanceID="ei125" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t27" timeID="t28" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei122" signalID="s26" timeID="t27" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei120" eventInstanceID="ei126" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei128" eventInstanceID="ei127" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei122" eventInstanceID="ei128" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei122" eventInstanceID="ei130" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei127" eventInstanceID="ei129" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei121" eventInstanceID="ei120" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei122" eventInstanceID="ei121" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei123" eventInstanceID="ei124" relType="MODAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei125" eventInstanceID="ei124" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei127" eventInstanceID="ei126" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei130" eventInstanceID="ei129" relType="COUNTER_FACTIVE" />
+</TimeML>

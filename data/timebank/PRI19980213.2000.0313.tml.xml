@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> PRI<TIMEX3 tid="t37" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-13" >19980213</TIMEX3>.2000.0313 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="PRI_The_World" air_date="19980213:2000">
+<section startTime="313.82" type="report" endTime="371.87">
+<TEXT>
+<turn startTime="313.82" speaker="unknown" endTime="324.576" spkrType="unknown">
+ <s>Officials in <ENAMEX TYPE="LOCATION">California</ENAMEX>  are <EVENT eid="e1" class="I_ACTION" >warning</EVENT> residents that oncoming <EVENT eid="e40" class="OCCURRENCE" >rains</EVENT>  will <EVENT eid="e3" class="OCCURRENCE" >cause</EVENT> dangerous and unpredictable <EVENT eid="e41" class="OCCURRENCE" >landslides</EVENT>.</s> <s>From member station KQED, Auncil
+ Martinez <EVENT eid="e42" class="REPORTING" >reports</EVENT>.</s>
+</turn>
+<turn startTime="324.576" speaker="unknown" endTime="371.87" spkrType="unknown">
+ <s>Experts <EVENT eid="e5" class="REPORTING" >say</EVENT> the ground  is  so <EVENT eid="e6" class="STATE" >saturated</EVENT> it <EVENT eid="e49" class="I_STATE" >can</EVENT>not <EVENT eid="e8" class="OCCURRENCE" >absorb</EVENT> any more water.</s> <s>So
+ that <EVENT eid="e9" class="I_STATE" >means</EVENT> soil will <EVENT eid="e43" class="OCCURRENCE" >fall</EVENT> off in chunks and <EVENT eid="e11" class="OCCURRENCE" >destroy</EVENT> anything <EVENT eid="e44" class="STATE" >in its path</EVENT>.</s>
+ <s>In <ENAMEX TYPE="LOCATION">Los Angeles</ENAMEX> that lesson  was brought home <TIMEX3 tid="t38" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-13" anchorTimeID="t37" >today</TIMEX3> <SIGNAL sid="s15" >when</SIGNAL> tons of earth <EVENT eid="e16" class="OCCURRENCE" >cascaded</EVENT> down a hillside, <EVENT eid="e17" class="OCCURRENCE" >ripping</EVENT> <CARDINAL>two</CARDINAL> houses from their foundations.</s> <s>No one  was <EVENT eid="e18" class="OCCURRENCE" >hurt</EVENT>, but firefighters <EVENT eid="e19" class="I_ACTION" >ordered</EVENT> the <EVENT eid="e45" class="OCCURRENCE" >evacuation</EVENT> of nearby homes and <EVENT eid="e20" class="REPORTING" >said</EVENT> they'll <EVENT eid="e21" class="OCCURRENCE" >monitor</EVENT> the shifting ground.</s> <s>In the <ENAMEX TYPE="LOCATION">northern California</ENAMEX> town of <ENAMEX TYPE="LOCATION">Rio Nido</ENAMEX>,
+ officials <EVENT eid="e23" class="REPORTING" >say</EVENT> a football field sized slab of hillside could  still <EVENT eid="e25" class="OCCURRENCE" >break</EVENT> loose at
+ <TIMEX3 tid="t39" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t37" >any time</TIMEX3> and <EVENT eid="e29" class="OCCURRENCE" >destroy</EVENT> an entire neighborhood.</s> <s>And in <ENAMEX TYPE="LOCATION">San Francisco</ENAMEX>, a mansion
+ overlooking the <ENAMEX TYPE="LOCATION">Pacific Ocean</ENAMEX> and the Golden Gate Bridge  is <EVENT eid="e31" class="OCCURRENCE" >slipping</EVENT> toward
+ the sea.</s> <s>Forecasters <EVENT eid="e32" class="REPORTING" >say</EVENT> the picture  will <EVENT eid="e33" class="ASPECTUAL" >get</EVENT> <EVENT eid="e46" class="STATE" >worse</EVENT> because more <EVENT eid="e47" class="STATE" >rains</EVENT> are
+ on the way.</s> <s>For <ENAMEX TYPE="ORGANIZATION">NPR</ENAMEX> news, I'm Auncil Martinez <EVENT eid="e36" class="OCCURRENCE" >reporting</EVENT>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei203" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei204" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei205" tense="FUTURE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei206" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei207" tense="PRESENT" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei208" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei209" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei210" polarity="NEG" tense="PRESENT" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei211" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei212" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei213" tense="FUTURE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei214" tense="FUTURE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei215" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei216" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei217" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei218" polarity="NEG" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei219" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei220" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei221" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei222" tense="FUTURE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei223" tense="PRESENT" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" modality="could" eiid="ei224" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" modality="could" eiid="ei225" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei226" tense="PRESENT" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei227" tense="PRESENT" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei228" tense="FUTURE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei229" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei230" tense="NONE" eventID="e47" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei231" tense="NONE" eventID="e36" />
+<TLINK relatedToEventInstance="ei211" eventInstanceID="ei209" relType="BEFORE" />
+<TLINK relatedToTime="t37" eventInstanceID="ei203" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei214" eventInstanceID="ei213" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei215" eventInstanceID="ei214" relType="ENDS" />
+<TLINK relatedToEventInstance="ei216" signalID="s15" timeID="t38" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei216" timeID="t37" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei217" eventInstanceID="ei216" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei216" eventInstanceID="ei218" relType="AFTER" />
+<TLINK relatedToEventInstance="ei216" eventInstanceID="ei219" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei221" eventInstanceID="ei219" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t37" eventInstanceID="ei207" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t39" eventInstanceID="ei224" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei227" eventInstanceID="ei230" relType="AFTER" />
+<TLINK relatedToEventInstance="ei206" eventInstanceID="ei204" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei205" eventInstanceID="ei204" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei204" eventInstanceID="ei203" relType="BEFORE" />
+<TLINK relatedToTime="t37" eventInstanceID="ei226" relType="INCLUDES" />
+<TLINK relatedToTime="t37" eventInstanceID="ei227" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei210" eventInstanceID="ei209" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei207" eventInstanceID="ei231" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei228" eventInstanceID="ei230" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei211" eventInstanceID="ei210" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei213" eventInstanceID="ei212" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei220" eventInstanceID="ei219" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei209" eventInstanceID="ei208" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei222" eventInstanceID="ei221" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei224" eventInstanceID="ei223" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei225" eventInstanceID="ei221" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei208" eventInstanceID="ei207" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei228" eventInstanceID="ei227" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei229" eventInstanceID="ei228" relType="INITIATES" />
+</TimeML>

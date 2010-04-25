@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> ABC<TIMEX3 tid="t35" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-03-04" >19980304</TIMEX3>.1830.1636 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="ABC_World_News_Tonight" air_date="19980304:1830">
+<section startTime="1636.00" type="report" endTime="1722.49">
+<TEXT>
+<turn startTime="1636.00" speaker="unknown" endTime="1655.987" spkrType="unknown">
+ <s>Finally <TIMEX3 tid="t32" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-03-04" anchorTimeID="t35" >today</TIMEX3>, we <EVENT eid="e1" class="REPORTING" >learned</EVENT> that the space agency  has  finally <EVENT eid="e2" class="OCCURRENCE" >taken</EVENT> a giant
+ leap forward.</s> <s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Air Force</ENAMEX> Lieutenant Colonel Eileen Collins</ENAMEX>  will  be <EVENT eid="e3" class="I_ACTION" >named</EVENT>
+ <EVENT eid="e37" class="STATE" >commander</EVENT> of the Space Shuttle Columbia for a <EVENT eid="e38" class="OCCURRENCE" >mission</EVENT> <SIGNAL sid="s64" >in</SIGNAL> <TIMEX3 tid="t33" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-12" anchorTimeID="t35" >December</TIMEX3>.</s> <s><ENAMEX TYPE="PERSON">Colonel
+ Collins</ENAMEX> has been the <EVENT eid="e40" class="STATE" >co-pilot</EVENT> <SIGNAL sid="s4" >before</SIGNAL>, but <TIMEX3 tid="t111" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t35" >this time</TIMEX3> she's the <EVENT eid="e41" class="STATE" >boss</EVENT>.</s> <s>Here's
+ <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">ABC</ENAMEX>'s Ned Potter</ENAMEX>.</s>
+</turn>
+<turn startTime="1657.408" speaker="unknown" endTime="1674.340" spkrType="unknown">
+ <s>Even <CARDINAL>two hundred</CARDINAL> miles up in space, there has been a glass ceiling.</s> <s>It wasn't
+ until
+ <TIMEX3 tid="t34" temporalFunction="false" type="DURATION" functionInDocument="NONE" value="P20Y" ><CARDINAL>twenty</CARDINAL> years</TIMEX3> <SIGNAL sid="s66" >after</SIGNAL> the first astronauts  were <EVENT eid="e6" class="OCCURRENCE" >chosen</EVENT> that <ENAMEX TYPE="ORGANIZATION">NASA</ENAMEX> finally <EVENT eid="e7" class="OCCURRENCE" >included</EVENT>
+ <CARDINAL>six</CARDINAL> women, and they were all scientists, not pilots.</s> <s>No woman has actually
+ been <EVENT eid="e43" class="STATE" >in charge of a mission</EVENT> <SIGNAL sid="s67" >until</SIGNAL> <TIMEX3 tid="t55" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t35" >now</TIMEX3>.</s>
+</turn>
+<turn startTime="1674.340" speaker="unknown" endTime="1678.122" spkrType="unknown">
+ <s>Just the fact that we 're <EVENT eid="e68" class="OCCURRENCE" >doing</EVENT> the job that we 're doing <EVENT eid="e44" class="OCCURRENCE" >makes</EVENT> us role
+ <EVENT eid="e45" class="STATE" >models</EVENT>.</s>
+</turn>
+<turn startTime="1678.122" speaker="unknown" endTime="1700.517" spkrType="unknown">
+ <s>That <EVENT eid="e69" class="REPORTING" >was</EVENT> <ENAMEX TYPE="PERSON">Eileen Collins</ENAMEX>, <SIGNAL sid="s70" >after</SIGNAL> she <EVENT eid="e10" class="OCCURRENCE" >flew</EVENT> as the first ever <EVENT eid="e46" class="STATE" >co-pilot</EVENT>.</s> <s>Being
+ commander is different.</s> <s>It means supervising the rest of the crew in
+ training and leading them in flight.</s> <s>It is, in short, the kind of
+ management job many American women say they've had to fight for.</s> <s>In space,
+ some say female pilots  were <EVENT eid="e20" class="OCCURRENCE" >held</EVENT> up <SIGNAL sid="s71" >until</SIGNAL> <TIMEX3 tid="t36" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t35" >now</TIMEX3> by the <EVENT eid="e51" class="STATE" >lack</EVENT> of piloting
+ opportunities for them in the military.</s>
+</turn>
+<turn startTime="1700.517" speaker="unknown" endTime="1708.395" spkrType="unknown">
+ <s><SIGNAL sid="s72" >Once</SIGNAL> <ENAMEX TYPE="PERSON">Colonel Collins</ENAMEX>  was <EVENT eid="e22" class="I_ACTION" >picked</EVENT> as a <ENAMEX TYPE="ORGANIZATION">NASA</ENAMEX> <EVENT eid="e52" class="STATE" >astronaut</EVENT>, she <EVENT eid="e23" class="OCCURRENCE" >followed</EVENT> a
+ normal <EVENT eid="e53" class="OCCURRENCE" >progression</EVENT> within <ENAMEX TYPE="ORGANIZATION">NASA</ENAMEX>.</s> <s>Nobody <EVENT eid="e24" class="OCCURRENCE" >hurried</EVENT> her up.</s> <s>No one <EVENT eid="e25" class="OCCURRENCE" >held</EVENT> her
+ back.</s>
+</turn>
+<turn startTime="1708.395" speaker="unknown" endTime="1722.49" spkrType="unknown">
+ <s>Many <ENAMEX TYPE="ORGANIZATION">NASA</ENAMEX> watchers <EVENT eid="e26" class="REPORTING" >say</EVENT> female astronauts  have <EVENT eid="e27" class="OCCURRENCE" >become</EVENT> <EVENT eid="e253" class="STATE" >part</EVENT> of the agency's
+ routine.</s> <s>But they still have <EVENT eid="e28" class="I_ACTION" >catching</EVENT> up to do <CARDINAL>two hundred</CARDINAL> and <CARDINAL>thirty four</CARDINAL> Americans  have <EVENT eid="e30" class="OCCURRENCE" ><EVENT eid="e243" class="OCCURRENCE" ><EVENT eid="e250" class="OCCURRENCE" >flown</EVENT></EVENT></EVENT> in space, only <CARDINAL>twenty six</CARDINAL> of them women.</s> <s><ENAMEX TYPE="PERSON">Ned Potter</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">ABC News</ENAMEX>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei258" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei259" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei260" tense="FUTURE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei261" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei262" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei263" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei264" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei265" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei266" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei267" polarity="NEG" tense="PRESENT" eventID="e43" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei268" tense="PRESENT" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei269" tense="PRESENT" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei270" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei271" tense="PAST" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei272" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei273" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei274" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei275" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei276" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei277" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei278" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei279" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei280" polarity="NEG" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei281" polarity="NEG" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei282" tense="PRESENT" eventID="e26" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei283" tense="PRESENT" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei284" tense="NONE" eventID="e253" />
+<MAKEINSTANCE aspect="PROGRESSIVE" modality="have" eiid="ei285" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei286" cardinality="234" tense="PRESENT" eventID="e30" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei287" cardinality="34" tense="PRESENT" eventID="e243" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei288" cardinality="6" tense="PRESENT" eventID="e250" />
+<TLINK relatedToEventInstance="ei262" eventInstanceID="ei261" relType="SIMULTANEOUS" />
+<TLINK signalID="s64" relatedToTime="t33" eventInstanceID="ei262" relType="IS_INCLUDED" />
+<TLINK signalID="s4" relatedToTime="t35" eventInstanceID="ei263" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei262" timeID="t111" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei264" eventInstanceID="ei261" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei265" signalID="s66" eventInstanceID="ei266" relType="AFTER" />
+<TLINK signalID="s67" relatedToTime="t55" eventInstanceID="ei267" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei269" eventInstanceID="ei268" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei270" eventInstanceID="ei268" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei272" signalID="s70" eventInstanceID="ei271" relType="AFTER" />
+<TLINK relatedToEventInstance="ei273" eventInstanceID="ei272" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei263" eventInstanceID="ei273" relType="IDENTITY" />
+<TLINK signalID="s71" relatedToTime="t36" eventInstanceID="ei274" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei274" eventInstanceID="ei275" relType="DURING" />
+<TLINK relatedToEventInstance="ei277" eventInstanceID="ei276" relType="BEGINS" />
+<TLINK relatedToTime="t35" eventInstanceID="ei276" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei276" signalID="s72" eventInstanceID="ei278" relType="AFTER" />
+<TLINK relatedToEventInstance="ei279" eventInstanceID="ei278" relType="IDENTITY" />
+<TLINK relatedToTime="t32" eventInstanceID="ei258" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei280" eventInstanceID="ei279" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei281" eventInstanceID="ei279" relType="INCLUDES" />
+<TLINK relatedToTime="t35" eventInstanceID="ei282" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei285" eventInstanceID="ei283" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei286" timeID="t35" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei286" eventInstanceID="ei286" relType="INCLUDES" />
+<TLINK relatedToTime="t35" eventInstanceID="ei260" relType="AFTER" />
+<TLINK signalID="s66" relatedToTime="t34" eventInstanceID="ei265" relType="BEGINS" />
+<TLINK signalID="s66" relatedToTime="t34" eventInstanceID="ei266" relType="ENDS" />
+<SLINK subordinatedEventInstance="ei261" eventInstanceID="ei260" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei268" eventInstanceID="ei271" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei259" eventInstanceID="ei258" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei283" eventInstanceID="ei282" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei284" eventInstanceID="ei283" relType="FACTIVE" />
+</TimeML>

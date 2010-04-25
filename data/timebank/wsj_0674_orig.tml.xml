@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0022 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0022. </AN>
+<HL> Jim Pattison to Seek
+@  Control of Innopac </HL>
+<DD> <TIMEX3 tid="t41" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> T.INA </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+EARNINGS (ERN) </IN>
+<DATELINE> VANCOUVER, British Columbia  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Jim Pattison Industries Ltd.</ENAMEX>, one of a group of closely held companies owned by entrepreneur <ENAMEX TYPE="PERSON">James Pattison</ENAMEX>, <EVENT eid="e2" class="REPORTING" >said</EVENT> it "<EVENT eid="e3" class="I_STATE" >intends</EVENT> <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e5" class="I_ACTION" >seek</EVENT> <EVENT eid="e40" class="STATE" >control</EVENT>" of <NUMEX TYPE="PERCENT">30%</NUMEX>-owned <ENAMEX TYPE="ORGANIZATION">Innopac Inc.</ENAMEX>, a Toronto packaging concern.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Jim Pattison Industries</ENAMEX>, a holding company with annual sales of about C$<CARDINAL>1.9 billion</CARDINAL>, largely from car dealerships and grocery stores, did <SIGNAL sid="s8" >n't</SIGNAL> <EVENT eid="e7" class="REPORTING" >elaborate</EVENT> on the <EVENT eid="e9" class="OCCURRENCE" >statement</EVENT>, and a company official <EVENT eid="e11" class="I_ACTION" >declined</EVENT> further <EVENT eid="e12" class="OCCURRENCE" >comment</EVENT>.</s> 
+
+   <s>The company <EVENT eid="e13" class="REPORTING" >said</EVENT> it <TIMEX3 tid="t42" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t41" >currently</TIMEX3> <EVENT eid="e14" class="STATE" >holds</EVENT> <CARDINAL>about 4.2 million</CARDINAL> of <ENAMEX TYPE="ORGANIZATION">Innopac</ENAMEX>'s <CARDINAL>13.8 million</CARDINAL> common shares outstanding, which <EVENT eid="e43" class="STATE" >have</EVENT> an aggregate market value of about <NUMEX TYPE="MONEY">137.8 million Canadian dollars</NUMEX> (<ENAMEX TYPE="LOCATION">US</ENAMEX><NUMEX TYPE="MONEY">$117.3 million</NUMEX>).</s> 
+
+   <s>Separately, <ENAMEX TYPE="ORGANIZATION">Innopac</ENAMEX> <EVENT eid="e15" class="REPORTING" >reported</EVENT> a <TIMEX3 tid="t44" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q4" anchorTimeID="t41" >fourth-quarter</TIMEX3> <EVENT eid="e16" class="STATE" >loss</EVENT> of about C$<CARDINAL>2.6 million</CARDINAL>, or <NUMEX TYPE="MONEY">18 Canadian cents</NUMEX> a share, reflecting inventory <EVENT eid="e45" class="OCCURRENCE" >write-downs</EVENT>.</s> 
+<s>The <EVENT eid="e18" class="STATE" >results</EVENT> <EVENT eid="e19" class="OCCURRENCE" >made</EVENT> net income <SIGNAL sid="s47" >for</SIGNAL> <TIMEX3 tid="t49" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" >the year</TIMEX3> <SIGNAL sid="s48" >ended</SIGNAL> <TIMEX3 tid="t50" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-08-31" anchorTimeID="t41" >Aug. 31</TIMEX3> <EVENT eid="e162" class="STATE" >C$<CARDINAL>2.7 million</CARDINAL></EVENT>, or <NUMEX TYPE="MONEY">20 Canadian cents</NUMEX> a share, down <SIGNAL sid="s55" >from</SIGNAL> <EVENT eid="e54" class="STATE" >C$<CARDINAL>9.7 million</CARDINAL></EVENT>, or <NUMEX TYPE="MONEY">70 Canadian cents</NUMEX> a share <TIMEX3 tid="t52" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t41" >last year</TIMEX3>.</s> 
+<s><EVENT eid="e56" class="STATE" >Revenue</EVENT> was C$<CARDINAL>291.6 million</CARDINAL>, up <SIGNAL sid="s59" >from</SIGNAL> <EVENT eid="e57" class="STATE" >C$<CARDINAL>252 million</CARDINAL></EVENT> <SIGNAL sid="s60" >in</SIGNAL> <TIMEX3 tid="t58" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988" >1988</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Martin Fabi, <ENAMEX TYPE="ORGANIZATION">Innopac</ENAMEX>'s president and chief executive</ENAMEX>, <EVENT eid="e21" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Innopac</ENAMEX> <EVENT eid="e22" class="I_STATE" >viewed</EVENT> Mr. <ENAMEX TYPE="ORGANIZATION">Pattison</ENAMEX>'s <EVENT eid="e23" class="OCCURRENCE" >decision</EVENT> <SIGNAL sid="s24" >to</SIGNAL> <EVENT eid="e25" class="I_ACTION" >seek</EVENT> <EVENT eid="e62" class="STATE" >control</EVENT> as a "very positive" <EVENT eid="e26" class="OCCURRENCE" >move</EVENT>.</s> 
+<s>"I'm <EVENT eid="e63" class="I_STATE" >happy</EVENT> that he <EVENT eid="e64" class="STATE" >feels</EVENT> positively about our company," he <EVENT eid="e28" class="REPORTING" >said</EVENT>.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Fabi</ENAMEX> wouldn't <EVENT eid="e29" class="REPORTING" >say</EVENT> directly <SIGNAL sid="s67" >whether</SIGNAL> Mr. <ENAMEX TYPE="ORGANIZATION">Pattison</ENAMEX> has <EVENT eid="e30" class="REPORTING" >disclosed</EVENT> potential terms for his <EVENT eid="e68" class="I_STATE" >planned</EVENT> <EVENT eid="e31" class="OCCURRENCE" >bid</EVENT> for control.</s> 
+
+   <s>Among other things, <ENAMEX TYPE="ORGANIZATION">Innopac</ENAMEX> is involved in recycling polystyrene foam products that are often used by fast food chains, such as <ENAMEX TYPE="ORGANIZATION">McDonald's Corp.</ENAMEX>, for food packaging.</s> 
+<s>A joint venture involving units of <ENAMEX TYPE="ORGANIZATION">Innopac</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Mobil Corp.</ENAMEX> <TIMEX3 mod="START" tid="t69" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t41" >earlier this year</TIMEX3> <EVENT eid="e37" class="OCCURRENCE" >opened</EVENT> the first <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> polystyrene recycling plant, in <ENAMEX TYPE="LOCATION">Leominster</ENAMEX>, <ENAMEX TYPE="LOCATION">Mass.</ENAMEX></s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PRESENT" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PRESENT" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e162" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PRESENT" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="PRESENT" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2019" polarity="NEG" tense="PRESENT" eventID="e29" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2020" tense="PRESENT" eventID="e30" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2021" tense="NONE" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="PAST" eventID="e37" />
+<TLINK relatedToTime="t69" eventInstanceID="ei2023" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t41" eventInstanceID="ei1990" relType="BEFORE" />
+<TLINK relatedToTime="t41" eventInstanceID="ei1991" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1991" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1994" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1995" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1996" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1998" relType="IDENTITY" />
+<TLINK relatedToTime="t42" eventInstanceID="ei1999" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t42" eventInstanceID="ei2000" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t44" eventInstanceID="ei2002" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2002" eventInstanceID="ei2003" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2004" relType="BEFORE" />
+<TLINK signalID="s47" relatedToTime="t49" eventInstanceID="ei2006" relType="IS_INCLUDED" />
+<TLINK signalID="s48" relatedToTime="t50" timeID="t49" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2007" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2007" signalID="s55" timeID="t49" relType="BEGUN_BY" />
+<TLINK relatedToTime="t52" eventInstanceID="ei2007" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2009" signalID="s59" eventInstanceID="ei2008" relType="BEGUN_BY" />
+<TLINK signalID="s60" relatedToTime="t58" eventInstanceID="ei2009" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t41" eventInstanceID="ei2010" relType="BEFORE" />
+<TLINK relatedToTime="t41" eventInstanceID="ei2001" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1992" eventInstanceID="ei2013" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei2014" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2012" eventInstanceID="ei2015" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2018" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2021" relType="BEFORE" />
+<TLINK relatedToTime="t41" eventInstanceID="ei2010" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="EVIDENTIAL" />
+<SLINK signalID="s4" subordinatedEventInstance="ei1992" eventInstanceID="ei1991" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei1999" eventInstanceID="ei1998" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2001" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2011" eventInstanceID="ei2010" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2012" eventInstanceID="ei2011" relType="FACTIVE" />
+<SLINK signalID="s24" subordinatedEventInstance="ei2013" eventInstanceID="ei2012" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2014" eventInstanceID="ei2013" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2016" eventInstanceID="ei2018" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2017" eventInstanceID="ei2016" relType="FACTIVE" />
+<SLINK signalID="s67" subordinatedEventInstance="ei2020" eventInstanceID="ei2019" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2022" eventInstanceID="ei2020" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2022" eventInstanceID="ei2021" relType="MODAL" />
+</TimeML>

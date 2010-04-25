@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t20" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0014 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0014. </AN>
+<HL> Xerox Will Lay Off 300
+@  At Personal Insurance Unit </HL>
+<DD> <TIMEX3 tid="t19" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> XRX </CO>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Xerox Corp.</ENAMEX>  has <EVENT eid="e1" class="I_ACTION" >told</EVENT> employees in its <ENAMEX TYPE="ORGANIZATION">Crum amp Forster</ENAMEX> personal insurance operations that it  is <EVENT eid="e2" class="OCCURRENCE" >laying</EVENT> off <CARDINAL>about 300</CARDINAL> people, or <NUMEX TYPE="PERCENT">25%</NUMEX> of the staff.</s> 
+
+   <s>A spokeswoman for <ENAMEX TYPE="ORGANIZATION">Crum amp Forster</ENAMEX> <EVENT eid="e3" class="REPORTING" >said</EVENT> employees  were <EVENT eid="e4" class="REPORTING" >told</EVENT> <TIMEX3 mod="START" tid="t21" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-W44" anchorTimeID="t19" >early this week</TIMEX3> that numerous staff functions for the personal insurance lines  were <EVENT eid="e5" class="I_ACTION" >going</EVENT>  to  be <EVENT eid="e6" class="STATE" >centralized</EVENT> as a cost-cutting move.</s> 
+
+   <s>She <EVENT eid="e7" class="REPORTING" >said</EVENT> the <EVENT eid="e82" class="OCCURRENCE" >move</EVENT> would <EVENT eid="e8" class="OCCURRENCE" >result</EVENT> in a after-tax charge of less than <NUMEX TYPE="MONEY">$4 million</NUMEX> to be <EVENT eid="e10" class="OCCURRENCE" >spread</EVENT> over <TIMEX3 tid="t23" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P9M" anchorTimeID="t19" >the next three quarters</TIMEX3>.</s> 
+<s>By comparison, for <TIMEX3 tid="t24" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P9M" >the first <CARDINAL>nine</CARDINAL> months</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Xerox</ENAMEX> <EVENT eid="e11" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$492 million</NUMEX>, or <NUMEX TYPE="MONEY">$4.55</NUMEX> a share, on revenue of <NUMEX TYPE="MONEY">$12.97 billion</NUMEX>.</s> 
+
+   <s>Earnings at <ENAMEX TYPE="ORGANIZATION">Xerox</ENAMEX>'s financial-services operations actually <EVENT eid="e12" class="OCCURRENCE" >rose</EVENT> slightly, but that was largely because capital gains at <ENAMEX TYPE="ORGANIZATION">Crum amp Forster</ENAMEX> <EVENT eid="e13" class="OCCURRENCE" >offset</EVENT> Hurricane Hugo payments and the reserves set up  to cover future payments.</s> 
+
+   <s>Property/casualty insurance has been a <EVENT eid="e109" class="STATE" >tough</EVENT> business in <TIMEX3 tid="t25" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PXM" >recent quarters</TIMEX3>, as pricing has been cutthroat and natural <EVENT eid="e17" class="OCCURRENCE" >disasters</EVENT> such as <EVENT eid="e28" class="OCCURRENCE" >Hurricane Hugo</EVENT> and the <ENAMEX TYPE="LOCATION">California</ENAMEX> <EVENT eid="e29" class="OCCURRENCE" >earthquake</EVENT>  have <EVENT eid="e18" class="I_ACTION" >resulted</EVENT> in huge <EVENT eid="e126" class="OCCURRENCE" >payments</EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei131" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei132" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei133" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei134" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei135" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei136" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei137" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei138" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei139" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei140" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei141" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei142" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei143" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei144" tense="NONE" eventID="e109" />
+<MAKEINSTANCE aspect="NONE" eiid="ei145" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei146" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei147" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei148" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei149" tense="NONE" eventID="e126" />
+<TLINK relatedToEventInstance="ei133" eventInstanceID="ei137" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei140" eventInstanceID="ei139" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei138" eventInstanceID="ei132" relType="IDENTITY" />
+<TLINK relatedToTime="t19" eventInstanceID="ei131" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei139" eventInstanceID="ei138" relType="BEFORE" />
+<TLINK relatedToTime="t23" eventInstanceID="ei140" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t24" eventInstanceID="ei141" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t19" eventInstanceID="ei142" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei142" eventInstanceID="ei143" relType="BEFORE" />
+<TLINK relatedToTime="t25" eventInstanceID="ei144" relType="DURING" />
+<TLINK relatedToEventInstance="ei146" eventInstanceID="ei145" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei147" eventInstanceID="ei145" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei148" eventInstanceID="ei145" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei148" eventInstanceID="ei149" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t21" eventInstanceID="ei134" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t19" eventInstanceID="ei133" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei139" eventInstanceID="ei137" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei135" eventInstanceID="ei134" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei136" eventInstanceID="ei135" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei134" eventInstanceID="ei133" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei132" eventInstanceID="ei131" relType="EVIDENTIAL" />
+</TimeML>

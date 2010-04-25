@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0090 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0090. </AN>
+<HL> Dividend News:
+@  CMS Energy Corp. </HL>
+<DD> <TIMEX3 tid="t13" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CMS </CO>
+<IN> DIVIDENDS (DIV)
+EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">CMS ENERGY Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> management <SIGNAL sid="s4" >would</SIGNAL> <EVENT eid="e3" class="I_ACTION" >recommend</EVENT> to its board <TIMEX3 tid="t14" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t13" >today</TIMEX3> that its common stock dividend be <EVENT eid="e5" class="OCCURRENCE" >reinstated</EVENT> at a "modest level" <TIMEX3 mod="ON_OR_AFTER" tid="t77" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t13" >later this year</TIMEX3>.</s> 
+<s>The <ENAMEX TYPE="LOCATION">Dearborn</ENAMEX>, <ENAMEX TYPE="LOCATION">Mich.</ENAMEX>, energy company <EVENT eid="e6" class="ASPECTUAL" >stopped</EVENT> <EVENT eid="e7" class="OCCURRENCE" >paying</EVENT> a dividend <SIGNAL sid="s68" >in</SIGNAL> <TIMEX3 tid="t69" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1984-Q3" anchorTimeID="t13" >the third quarter of 1984</TIMEX3> because of <EVENT eid="e8" class="OCCURRENCE" >troubles</EVENT> at its <ENAMEX TYPE="LOCATION">Midland</ENAMEX> nuclear plant.</s> 
+<s>In addition, <ENAMEX TYPE="ORGANIZATION">CMS</ENAMEX> <EVENT eid="e10" class="REPORTING" >reported</EVENT> <TIMEX3 tid="t15" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t13" >third-quarter</TIMEX3> net of <EVENT eid="e16" class="STATE" ><NUMEX TYPE="MONEY">$68.2 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">83 cents</NUMEX> a share, <EVENT eid="e121" class="STATE" >up</EVENT> <SIGNAL sid="s18" >from</SIGNAL> <EVENT eid="e143" class="STATE" ><NUMEX TYPE="MONEY">$66.8 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">81 cents</NUMEX> a share, <TIMEX3 tid="t21" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t15" >a year ago</TIMEX3>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei159" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei160" tense="FUTURE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei163" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei164" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei165" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei166" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei167" tense="NONE" eventID="e121" />
+<MAKEINSTANCE aspect="NONE" eiid="ei168" tense="NONE" eventID="e143" />
+<TLINK relatedToTime="t15" timeID="t21" relType="BEFORE" />
+<TLINK relatedToTime="t13" eventInstanceID="ei159" relType="BEFORE" />
+<TLINK relatedToTime="t13" eventInstanceID="ei160" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t13" timeID="t14" relType="IDENTITY" />
+<TLINK relatedToTime="t77" eventInstanceID="ei161" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t77" timeID="t13" relType="AFTER" />
+<TLINK relatedToTime="t13" timeID="t69" relType="BEFORE" />
+<TLINK signalID="s68" relatedToTime="t69" eventInstanceID="ei162" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei162" eventInstanceID="ei164" relType="BEFORE" />
+<TLINK relatedToTime="t13" eventInstanceID="ei165" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei166" timeID="t15" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei168" signalID="s18" eventInstanceID="ei166" relType="AFTER" />
+<TLINK relatedToEventInstance="ei167" eventInstanceID="ei166" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei168" signalID="s18" eventInstanceID="ei167" relType="AFTER" />
+<TLINK relatedToTime="t21" eventInstanceID="ei168" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei160" eventInstanceID="ei159" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei161" eventInstanceID="ei160" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei166" eventInstanceID="ei165" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei163" eventInstanceID="ei162" relType="TERMINATES" />
+</TimeML>

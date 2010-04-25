@@ -1,0 +1,207 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> CNN<TIMEX3 tid="t104" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-02-13" >19980213</TIMEX3>.2130.0155 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="CNN_Headline_News" air_date="19980213:2130">
+<section startTime="155.00" type="report" endTime="274.42">
+<TEXT>
+<turn startTime="155.00" speaker="unknown" endTime="162.869" spkrType="unknown">
+ <s><ENAMEX TYPE="PERSON">President Clinton</ENAMEX> <EVENT eid="e1" class="REPORTING" >says</EVENT> he is <EVENT eid="e2" class="I_STATE" >committed</EVENT> to a possible <EVENT eid="e3" class="OCCURRENCE" >strike</EVENT> against <ENAMEX TYPE="LOCATION">Iraq</ENAMEX>,
+ despite <EVENT eid="e4" class="OCCURRENCE" >objections</EVENT> from other countries.</s>
+ <s><ENAMEX TYPE="PERSON">Steve Hurst</ENAMEX> has that.</s>
+</turn>
+<turn startTime="165.515" speaker="unknown" endTime="180.204" spkrType="unknown">
+ <s>The <ENAMEX TYPE="LOCATION">US</ENAMEX> military <EVENT eid="e103" class="OCCURRENCE" >buildup</EVENT> in the <ENAMEX TYPE="LOCATION">Persian</ENAMEX> gulf <EVENT eid="e6" class="ASPECTUAL" >continues</EVENT> apace, more
+ planes <EVENT eid="e7" class="OCCURRENCE" >headed</EVENT> from the united states and senior officials <EVENT eid="e9" class="REPORTING" >say</EVENT> <ENAMEX TYPE="PERSON"><ENAMEX TYPE="LOCATION">Iraq</ENAMEX>'s
+ president Saddam Hussein</ENAMEX> <SIGNAL sid="s11" >can</SIGNAL> <EVENT eid="e10" class="I_STATE" >expect</EVENT> punishing air <EVENT eid="e13" class="OCCURRENCE" >strikes</EVENT> to <EVENT eid="e15" class="ASPECTUAL" >continue</EVENT> well
+ <SIGNAL sid="s106" >into</SIGNAL> <TIMEX3 tid="t105" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t104" >the future</TIMEX3> <SIGNAL sid="s16" >if</SIGNAL> he does <SIGNAL sid="s18" >n't</SIGNAL> <EVENT eid="e17" class="ASPECTUAL" >stop</EVENT> <EVENT eid="e19" class="OCCURRENCE" >building</EVENT> biological and chemical
+ weapons.</s>
+</turn>
+<turn startTime="180.204" speaker="unknown" endTime="195.355" spkrType="unknown">
+ <s><ENAMEX TYPE="PERSON">Saddam</ENAMEX> will <EVENT eid="e21" class="I_STATE" >know</EVENT> by our <EVENT eid="e22" class="OCCURRENCE" >actions</EVENT> and our <EVENT eid="e23" class="OCCURRENCE" >warning</EVENT> that we will be <EVENT eid="e24" class="I_STATE" >prepared</EVENT> <SIGNAL sid="s25" >to</SIGNAL> <EVENT eid="e26" class="OCCURRENCE" >act</EVENT> again <SIGNAL sid="s27" >if</SIGNAL> we <EVENT eid="e107" class="STATE" >have</EVENT> <EVENT eid="e28" class="STATE" >evidence</EVENT> he is <EVENT eid="e29" class="I_ACTION" >trying</EVENT> <SIGNAL sid="s30" >to</SIGNAL> <EVENT eid="e31" class="OCCURRENCE" >rebuild</EVENT> his weapons of mass
+ destruction capabilities.</s>
+</turn>
+<turn startTime="195.355" speaker="unknown" endTime="205.195" spkrType="unknown">
+ <s><SIGNAL sid="s109" >In</SIGNAL> a <EVENT eid="e108" class="OCCURRENCE" >bit</EVENT> of television diplomacy, <ENAMEX TYPE="LOCATION">Iraq</ENAMEX>'s deputy foreign minister <EVENT eid="e34" class="OCCURRENCE" >responded</EVENT>
+ from <ENAMEX TYPE="LOCATION">Baghdad</ENAMEX> in <TIMEX3 mod="LESS_THAN" tid="t111" temporalFunction="false" type="DURATION" functionInDocument="NONE" value="PT1H" beginPoint="t104" ><CARDINAL>less than one</CARDINAL> hour</TIMEX3>, <EVENT eid="e35" class="REPORTING" >saying</EVENT> <ENAMEX TYPE="LOCATION">Washington</ENAMEX> <SIGNAL sid="s37" >would</SIGNAL> <EVENT eid="e36" class="OCCURRENCE" >break</EVENT>
+ international law by <EVENT eid="e39" class="OCCURRENCE" >attacking</EVENT> without <ENAMEX TYPE="ORGANIZATION">UN</ENAMEX> <EVENT eid="e113" class="OCCURRENCE" >approval</EVENT>.</s>
+</turn>
+<turn startTime="205.195" speaker="unknown" endTime="210.471" spkrType="unknown">
+ <s>The united states is <SIGNAL sid="s41" >not</SIGNAL> <EVENT eid="e40" class="I_STATE" >authorized</EVENT> <SIGNAL sid="s42" >to</SIGNAL> <EVENT eid="e43" class="OCCURRENCE" >use</EVENT> force <SIGNAL sid="s44" >before</SIGNAL> <EVENT eid="e45" class="OCCURRENCE" >going</EVENT> to the
+ council.</s>
+</turn>
+<turn startTime="210.471" speaker="unknown" endTime="218.535" spkrType="unknown">
+ <s><ENAMEX TYPE="PERSON">President Clinton</ENAMEX>, meantime, <EVENT eid="e46" class="OCCURRENCE" >glossed</EVENT> over stern <EVENT eid="e47" class="I_ACTION" >warnings</EVENT> from <ENAMEX TYPE="LOCATION">Moscow</ENAMEX> <SIGNAL sid="s115" >on</SIGNAL>
+ <TIMEX3 tid="t116" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-12" anchorTimeID="t104" >Thursday</TIMEX3> that <ENAMEX TYPE="LOCATION">US</ENAMEX> air <EVENT eid="e117" class="OCCURRENCE" >strikes</EVENT> against <ENAMEX TYPE="LOCATION">Iraq</ENAMEX> could <EVENT eid="e118" class="OCCURRENCE" >do</EVENT> serious <EVENT eid="e50" class="STATE" >harm</EVENT> to
+ relations with the <ENAMEX TYPE="ORGANIZATION">Kremlin</ENAMEX>.</s>
+</turn>
+<turn startTime="218.535" speaker="unknown" endTime="229.529" spkrType="unknown">
+ <s>We're <EVENT eid="e52" class="I_ACTION" >trying</EVENT> <SIGNAL sid="s53" >to</SIGNAL> <EVENT eid="e54" class="OCCURRENCE" >find</EVENT> a diplomatic solution.</s>
+ <s>And I <EVENT eid="e56" class="I_STATE" >hope</EVENT> that, whatever <EVENT eid="e57" class="OCCURRENCE" >happens</EVENT> <TIMEX3 tid="t119" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-13" anchorTimeID="t104" >today</TIMEX3>, that our relationships with <ENAMEX TYPE="LOCATION">Russia</ENAMEX>
+ will <EVENT eid="e58" class="ASPECTUAL" >continue</EVENT> <SIGNAL sid="s59" >to</SIGNAL> be <EVENT eid="e120" class="STATE" >productive</EVENT> and <EVENT eid="e121" class="STATE" >constructive</EVENT> and <EVENT eid="e122" class="STATE" >strong</EVENT>, because that's
+ very important to the future of our peoples.</s>
+</turn>
+<turn startTime="229.529" speaker="unknown" endTime="274.42" spkrType="unknown">
+ <s>One contrary view of the issue <EVENT eid="e60" class="OCCURRENCE" >presented</EVENT> itself to the president <SIGNAL sid="s123" >as</SIGNAL> he
+ <EVENT eid="e61" class="OCCURRENCE" >arrived</EVENT> in <ENAMEX TYPE="LOCATION">Philadelphia</ENAMEX> <SIGNAL sid="s125" >later</SIGNAL> <SIGNAL sid="s124" >in</SIGNAL> <TIMEX3 tid="t126" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-13" anchorTimeID="t119" >the day</TIMEX3>.</s>
+ <s>Nevertheless, the president <EVENT eid="e62" class="REPORTING" >said</EVENT> <ENAMEX TYPE="LOCATION">Washington</ENAMEX> <SIGNAL sid="s64" >would</SIGNAL> <EVENT eid="e63" class="OCCURRENCE" >use</EVENT> force <SIGNAL sid="s65" >if</SIGNAL> diplomacy
+ <EVENT eid="e67" class="I_ACTION" >fails</EVENT> <SIGNAL sid="s127" >to</SIGNAL> <EVENT eid="e128" class="I_ACTION" >force</EVENT> <ENAMEX TYPE="PERSON">Saddam Hussein</ENAMEX> <SIGNAL sid="s130" >to</SIGNAL> <EVENT eid="e129" class="OCCURRENCE" >back</EVENT> down.</s>
+ <s>The Russian foreign minister, <SIGNAL sid="s472" >meanwhile</SIGNAL> , <EVENT eid="e68" class="I_ACTION" >sought</EVENT> <SIGNAL sid="s69" >to</SIGNAL> <EVENT eid="e70" class="OCCURRENCE" >soften</EVENT> the harsh words
+ of his military counterpart, <EVENT eid="e72" class="REPORTING" >saying</EVENT> <SIGNAL sid="s132" >on</SIGNAL> <TIMEX3 tid="t133" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-13" anchorTimeID="t104" >Friday</TIMEX3> that <ENAMEX TYPE="LOCATION">Russia</ENAMEX> <TIMEX3 tid="t135" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t133" >now</TIMEX3> <EVENT eid="e73" class="I_STATE" >feels</EVENT> the
+ <ENAMEX TYPE="LOCATION">US</ENAMEX> <SIGNAL sid="s75" >must</SIGNAL> <EVENT eid="e74" class="OCCURRENCE" >hold</EVENT> off <SIGNAL sid="s136" >at least until</SIGNAL> <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">UN</ENAMEX> secretary general Kofi Annan</ENAMEX> <EVENT eid="e137" class="OCCURRENCE" >visits</EVENT>
+ <ENAMEX TYPE="LOCATION">Baghdad</ENAMEX> in a last-ditch effort at diplomacy.</s>
+ <s><ENAMEX TYPE="PERSON">Annan</ENAMEX> has no <EVENT eid="e78" class="OCCURRENCE" >trip</EVENT> <EVENT eid="e141" class="I_STATE" >planned</EVENT> <SIGNAL sid="s142" >so far</SIGNAL>.</s>
+ <s><SIGNAL sid="s143" >Meanwhile</SIGNAL>, <ENAMEX TYPE="PERSON">secretary of <ENAMEX TYPE="ORGANIZATION">state</ENAMEX> Madeleine Albright</ENAMEX>, <ENAMEX TYPE="LOCATION">Berger</ENAMEX> and <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">defense</ENAMEX>
+ secretary William Cohen</ENAMEX> <EVENT eid="e80" class="I_ACTION" >announced</EVENT> <EVENT eid="e144" class="I_STATE" >plans</EVENT> <SIGNAL sid="s81" >to</SIGNAL> <EVENT eid="e82" class="OCCURRENCE" >travel</EVENT> to an unnamed city
+ in the <ENAMEX TYPE="LOCATION">US</ENAMEX> heartland <TIMEX3 tid="t145" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-WXX" anchorTimeID="t104" >next week</TIMEX3>, <SIGNAL sid="s83" >to</SIGNAL> <EVENT eid="e84" class="I_ACTION" >explain</EVENT> to the American people just why
+ military force will be <EVENT eid="e146" class="STATE" >necessary</EVENT> <SIGNAL sid="s85" >if</SIGNAL> diplomacy <EVENT eid="e87" class="OCCURRENCE" >fails</EVENT>.</s>
+ <s><ENAMEX TYPE="PERSON">Steve Hurst</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">CNN</ENAMEX>, the state department.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei573" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei574" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" modality="possible" eiid="ei575" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei576" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei577" tense="NONE" eventID="e103" />
+<MAKEINSTANCE aspect="NONE" eiid="ei578" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei579" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei580" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei581" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei582" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei583" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei584" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei585" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei586" tense="FUTURE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei587" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei588" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei589" tense="FUTURE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei590" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei591" tense="PRESENT" eventID="e107" />
+<MAKEINSTANCE aspect="NONE" eiid="ei592" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei593" tense="PRESENT" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei594" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei595" tense="NONE" eventID="e108" />
+<MAKEINSTANCE aspect="NONE" eiid="ei596" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei597" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei598" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei599" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei600" polarity="NEG" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei601" tense="PRESENT" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei602" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei603" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei604" tense="PAST" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei605" tense="NONE" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei606" tense="NONE" eventID="e117" />
+<MAKEINSTANCE aspect="NONE" modality="could" eiid="ei607" tense="NONE" eventID="e118" />
+<MAKEINSTANCE aspect="NONE" eiid="ei608" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei609" tense="PRESENT" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei610" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei611" tense="PRESENT" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei612" tense="PRESENT" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei613" tense="FUTURE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei614" tense="NONE" eventID="e120" />
+<MAKEINSTANCE aspect="NONE" eiid="ei615" tense="NONE" eventID="e121" />
+<MAKEINSTANCE aspect="NONE" eiid="ei616" tense="NONE" eventID="e122" />
+<MAKEINSTANCE aspect="NONE" eiid="ei617" tense="PAST" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei618" tense="PAST" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei619" tense="PAST" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei620" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei621" tense="PRESENT" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei622" tense="NONE" eventID="e128" />
+<MAKEINSTANCE aspect="NONE" eiid="ei623" tense="NONE" eventID="e129" />
+<MAKEINSTANCE aspect="NONE" eiid="ei624" tense="PAST" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei625" tense="NONE" eventID="e70" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei626" tense="NONE" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei627" tense="PRESENT" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei628" tense="PAST" eventID="e74" />
+<MAKEINSTANCE aspect="NONE" eiid="ei629" tense="PRESENT" eventID="e137" />
+<MAKEINSTANCE aspect="NONE" eiid="ei630" tense="NONE" eventID="e78" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei631" polarity="NEG" tense="NONE" eventID="e141" />
+<MAKEINSTANCE aspect="NONE" eiid="ei632" tense="PAST" eventID="e80" />
+<MAKEINSTANCE aspect="NONE" eiid="ei633" tense="NONE" eventID="e144" />
+<MAKEINSTANCE aspect="NONE" eiid="ei634" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei635" tense="NONE" eventID="e84" />
+<MAKEINSTANCE aspect="NONE" eiid="ei636" tense="FUTURE" eventID="e146" />
+<MAKEINSTANCE aspect="NONE" eiid="ei637" tense="PRESENT" eventID="e87" />
+<TLINK relatedToTime="t104" eventInstanceID="ei573" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei574" eventInstanceID="ei576" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t104" eventInstanceID="ei578" relType="INCLUDES" />
+<TLINK relatedToTime="t104" eventInstanceID="ei579" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei578" eventInstanceID="ei579" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t104" eventInstanceID="ei580" relType="IS_INCLUDED" />
+<TLINK signalID="s106" relatedToTime="t105" eventInstanceID="ei583" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei584" eventInstanceID="ei583" relType="AFTER" />
+<TLINK relatedToEventInstance="ei587" eventInstanceID="ei586" relType="AFTER" />
+<TLINK relatedToEventInstance="ei588" eventInstanceID="ei586" relType="AFTER" />
+<TLINK relatedToEventInstance="ei591" eventInstanceID="ei590" relType="AFTER" />
+<TLINK relatedToEventInstance="ei592" eventInstanceID="ei591" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei595" signalID="s109" eventInstanceID="ei596" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei580" eventInstanceID="ei596" relType="AFTER" />
+<TLINK relatedToEventInstance="ei597" eventInstanceID="ei596" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei599" eventInstanceID="ei598" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei600" eventInstanceID="ei599" relType="AFTER" />
+<TLINK relatedToEventInstance="ei590" eventInstanceID="ei599" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei603" signalID="s44" eventInstanceID="ei602" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei605" eventInstanceID="ei604" relType="AFTER" />
+<TLINK relatedToEventInstance="ei608" eventInstanceID="ei607" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei608" eventInstanceID="ei606" relType="BEFORE" />
+<TLINK signalID="s115" relatedToTime="t116" eventInstanceID="ei605" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei612" eventInstanceID="ei613" relType="AFTER" />
+<TLINK relatedToTime="t119" eventInstanceID="ei612" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei618" signalID="s123" eventInstanceID="ei617" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei604" signalID="s125" eventInstanceID="ei618" relType="AFTER" />
+<TLINK signalID="s124" relatedToTime="t126" eventInstanceID="ei618" relType="IS_INCLUDED" />
+<TLINK signalID="s124" relatedToTime="t126" eventInstanceID="ei604" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei618" eventInstanceID="ei619" relType="AFTER" />
+<TLINK relatedToEventInstance="ei621" eventInstanceID="ei620" relType="AFTER" />
+<TLINK relatedToEventInstance="ei619" signalID="s472" eventInstanceID="ei624" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei624" eventInstanceID="ei626" relType="IS_INCLUDED" />
+<TLINK signalID="s132" relatedToTime="t133" eventInstanceID="ei626" relType="IS_INCLUDED" />
+<TLINK signalID="s132" relatedToTime="t133" eventInstanceID="ei624" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t135" eventInstanceID="ei627" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei629" signalID="s136" eventInstanceID="ei628" relType="ENDED_BY" />
+<TLINK signalID="s142" relatedToTime="t104" eventInstanceID="ei631" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei632" signalID="s143" eventInstanceID="ei624" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t145" eventInstanceID="ei634" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei637" eventInstanceID="ei636" relType="AFTER" />
+<TLINK relatedToTime="t111" eventInstanceID="ei580" relType="BEGINS" />
+<TLINK relatedToTime="t111" eventInstanceID="ei596" relType="ENDS" />
+<SLINK subordinatedEventInstance="ei574" eventInstanceID="ei573" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei575" eventInstanceID="ei574" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei581" eventInstanceID="ei580" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei583" eventInstanceID="ei581" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei586" eventInstanceID="ei580" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei589" eventInstanceID="ei586" relType="MODAL" />
+<SLINK signalID="s25" subordinatedEventInstance="ei590" eventInstanceID="ei589" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei593" eventInstanceID="ei592" relType="FACTIVE" />
+<SLINK signalID="s30" subordinatedEventInstance="ei594" eventInstanceID="ei593" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei598" eventInstanceID="ei597" relType="EVIDENTIAL" />
+<SLINK signalID="s42" subordinatedEventInstance="ei602" eventInstanceID="ei601" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei607" eventInstanceID="ei605" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei609" eventInstanceID="ei604" relType="EVIDENTIAL" />
+<SLINK signalID="s53" subordinatedEventInstance="ei610" eventInstanceID="ei609" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei611" eventInstanceID="ei604" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei613" eventInstanceID="ei611" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei620" eventInstanceID="ei619" relType="EVIDENTIAL" />
+<SLINK signalID="s127" subordinatedEventInstance="ei622" eventInstanceID="ei621" relType="COUNTER_FACTIVE" />
+<SLINK signalID="s130" subordinatedEventInstance="ei623" eventInstanceID="ei622" relType="MODAL" />
+<SLINK signalID="s69" subordinatedEventInstance="ei625" eventInstanceID="ei624" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei627" eventInstanceID="ei626" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei628" eventInstanceID="ei627" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei630" eventInstanceID="ei631" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei633" eventInstanceID="ei632" relType="EVIDENTIAL" />
+<SLINK signalID="s81" subordinatedEventInstance="ei634" eventInstanceID="ei633" relType="MODAL" />
+<SLINK signalID="s83" subordinatedEventInstance="ei635" eventInstanceID="ei634" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei636" eventInstanceID="ei635" relType="MODAL" />
+<ALINK relatedToEventInstance="ei577" eventInstanceID="ei578" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei582" eventInstanceID="ei583" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei585" eventInstanceID="ei584" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei614" signalID="s59" eventInstanceID="ei613" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei615" signalID="s59" eventInstanceID="ei613" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei616" signalID="s59" eventInstanceID="ei613" relType="CONTINUES" />
+</TimeML>

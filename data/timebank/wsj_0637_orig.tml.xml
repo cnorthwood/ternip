@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0061 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0061. </AN>
+<HL> Labatt Plans to Place
+@  New Preferred Shares </HL>
+<DD> <TIMEX3 tid="t34" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> T.LBT </CO>
+<DATELINE> LONDON, Ontario  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">John Labatt Ltd.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_STATE" >plans</EVENT> a private <EVENT eid="e3" class="OCCURRENCE" >placement</EVENT> of <NUMEX TYPE="MONEY">150 million Canadian dollars</NUMEX> (<ENAMEX TYPE="LOCATION">US</ENAMEX><NUMEX TYPE="MONEY">$127.5 million</NUMEX>) in preferred shares, to be <EVENT eid="e6" class="ASPECTUAL" >completed</EVENT> <TIMEX3 mod="APPROX" tid="t72" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t34" >around Nov. 1</TIMEX3>.</s> 
+
+   <s>Proceeds will be <EVENT eid="e7" class="I_ACTION" >used</EVENT> <SIGNAL sid="s8" >to</SIGNAL> <EVENT eid="e9" class="OCCURRENCE" >reduce</EVENT> short-term debt at the beer and food concern, <EVENT eid="e10" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Robert Vaux</ENAMEX>, vice president, <ENAMEX TYPE="ORGANIZATION">finance</ENAMEX>.</s> 
+
+   <s>The preferred shares will <EVENT eid="e12" class="OCCURRENCE" >carry</EVENT> a floating annual dividend equal to <NUMEX TYPE="PERCENT">72%</NUMEX> of the 30-day bankers' acceptance rate <SIGNAL sid="s36" >until</SIGNAL> <TIMEX3 tid="t37" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1994-12-31" >Dec. 31, 1994</TIMEX3>.</s> 
+<s><SIGNAL sid="s38" >Thereafter</SIGNAL>, the rate will be <EVENT eid="e13" class="OCCURRENCE" >renegotiated</EVENT>.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Vaux</ENAMEX> <EVENT eid="e14" class="REPORTING" >said</EVENT> that <SIGNAL sid="s15" >if</SIGNAL> no <EVENT eid="e16" class="OCCURRENCE" >agreement</EVENT> is <EVENT eid="e17" class="OCCURRENCE" >reached</EVENT>, other buyers will be <EVENT eid="e18" class="PERCEPTION" >sought</EVENT> by <EVENT eid="e19" class="OCCURRENCE" >bid</EVENT> or <EVENT eid="e20" class="OCCURRENCE" >auction</EVENT>.</s> 
+<s>The shares are <EVENT eid="e41" class="STATE" >redeemable</EVENT> <SIGNAL sid="s40" >after</SIGNAL> <TIMEX3 mod="END" tid="t42" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1994" >the end of 1994</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Mr. Vaux</ENAMEX> <EVENT eid="e21" class="REPORTING" >said</EVENT> the share issue is part of a <EVENT eid="e43" class="I_STATE" >strategy</EVENT> <SIGNAL sid="s22" >to</SIGNAL> <EVENT eid="e23" class="OCCURRENCE" >strengthen</EVENT> <ENAMEX TYPE="ORGANIZATION">Labatt</ENAMEX>'s balance sheet <SIGNAL sid="s169" >in anticipation of</SIGNAL> <EVENT eid="e25" class="OCCURRENCE" >acquisitions</EVENT> to be <EVENT eid="e27" class="OCCURRENCE" >made</EVENT> <SIGNAL sid="s45" >during</SIGNAL> <TIMEX3 tid="t46" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="PXM" >the next <CARDINAL>12</CARDINAL> to <CARDINAL>18</CARDINAL> months</TIMEX3>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Labatt</ENAMEX>'s <EVENT eid="e28" class="STATE" >has</EVENT> no takeover bids outstanding <TIMEX3 tid="t49" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PRESENT_REF" >currently</TIMEX3>, he <EVENT eid="e30" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>Lead underwriter to the issue is <ENAMEX TYPE="ORGANIZATION">Toronto Dominion Securities Inc.</ENAMEX></s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" modality="to be" eiid="ei1998" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="FUTURE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="FUTURE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="FUTURE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" polarity="NEG" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2006" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="FUTURE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PRESENT" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" modality="to be" eiid="ei2015" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" polarity="NEG" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="PAST" eventID="e30" />
+<TLINK relatedToTime="t49" eventInstanceID="ei2016" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t34" eventInstanceID="ei1995" relType="BEFORE" />
+<TLINK relatedToTime="t72" eventInstanceID="ei1998" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t34" eventInstanceID="ei1999" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei2001" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei1997" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t34" eventInstanceID="ei2002" relType="AFTER" />
+<TLINK signalID="s36" relatedToTime="t37" eventInstanceID="ei2002" relType="ENDED_BY" />
+<TLINK signalID="s38" relatedToTime="t37" eventInstanceID="ei2003" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2001" eventInstanceID="ei2004" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2005" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2005" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2007" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2009" eventInstanceID="ei2007" relType="INCLUDES" />
+<TLINK signalID="s40" relatedToTime="t42" eventInstanceID="ei2010" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2001" eventInstanceID="ei2011" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2014" signalID="s169" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2015" eventInstanceID="ei2014" relType="IDENTITY" />
+<TLINK signalID="s45" relatedToTime="t46" eventInstanceID="ei2015" relType="DURING" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2017" relType="IDENTITY" />
+<SLINK subordinatedEventInstance="ei1996" eventInstanceID="ei1995" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="MODAL" />
+<SLINK signalID="s8" subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1999" eventInstanceID="ei2001" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2007" eventInstanceID="ei2004" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2012" eventInstanceID="ei2011" relType="EVIDENTIAL" />
+<SLINK signalID="s22" subordinatedEventInstance="ei2013" eventInstanceID="ei2012" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2016" eventInstanceID="ei2017" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei1997" eventInstanceID="ei1998" relType="CULMINATES" />
+</TimeML>

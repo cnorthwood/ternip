@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> CNN<TIMEX3 tid="t31" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-01-26" >19980126</TIMEX3>.1600.1104 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="CNN_Headline_News" air_date="19980126:1600">
+<section startTime="1104.55" type="report" endTime="1156.42">
+<TEXT>
+<turn startTime="1104.55" speaker="unknown" endTime="1129.266" spkrType="unknown">
+ <s>Major job <EVENT eid="e35" class="OCCURRENCE" >cuts</EVENT> at AT and T.
+ The long distance giant <EVENT eid="e1" class="OCCURRENCE" >slashing</EVENT> up  to eighteen thousand jobs, <EVENT eid="e38" class="OCCURRENCE" >freezing</EVENT> executive
+ salaries and <EVENT eid="e3" class="OCCURRENCE" >shaking</EVENT> up management.</s>
+ <s>The <EVENT eid="e39" class="ASPECTUAL" >changes</EVENT> are part of a one point <NUMEX TYPE="MONEY">six
+ billion dollar</NUMEX> cost <EVENT eid="e41" class="OCCURRENCE" >cutting</EVENT> <EVENT eid="e40" class="ASPECTUAL" >initiative</EVENT>  to <EVENT eid="e4" class="OCCURRENCE" >revitalize</EVENT> its position in the telecommunications business.</s>
+ <s><TIMEX3 tid="t96" type="TIME" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t31" >Earlier</TIMEX3> AT and T also <EVENT eid="e7" class="REPORTING" >announced</EVENT> an eighteen percent <EVENT eid="e42" class="OCCURRENCE" >drop</EVENT> <SIGNAL sid="s8" >in</SIGNAL> <EVENT eid="e43" class="STATE" >profits</EVENT> <SIGNAL sid="s54" >for</SIGNAL> <TIMEX3 tid="t32" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1997-Q4" anchorTimeID="t31" >the fourth quarter</TIMEX3>.</s>
+ <s>The company's sales force <EVENT eid="e9" class="I_ACTION" >applauded</EVENT> the <EVENT eid="e44" class="OCCURRENCE" >shake up</EVENT>.</s>
+</turn>
+<turn startTime="1129.266" speaker="unknown" endTime="1136.105" spkrType="unknown">
+ <s>It's <SIGNAL sid="s55" >not</SIGNAL> something we're <SIGNAL sid="s11" >not</SIGNAL> <EVENT eid="e45" class="I_STATE" >used to</EVENT> in the industry.</s>
+ <s>But I <EVENT eid="e14" class="I_STATE" >think</EVENT> right <TIMEX3 tid="t34" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t31" >now</TIMEX3>, for AT and T and the people here, it's fairly <EVENT eid="e46" class="STATE" >intense</EVENT> as you might w- well imagine.</s>
+</turn>
+<turn startTime="1136.105" speaker="unknown" endTime="1141.693" spkrType="unknown">
+ <s>I mean <EVENT eid="e19" class="I_ACTION" >look</EVENT> at the <EVENT eid="e161" class="STATE" >stock</EVENT>.</s>
+ <s>You know, <SIGNAL sid="s181" >since</SIGNAL> he's <EVENT eid="e47" class="STATE" >been</EVENT> <EVENT eid="e172" class="STATE" >here</EVENT> the stock <EVENT eid="e22" class="OCCURRENCE" >skyrocketed</EVENT> so,
+ Yeah I <EVENT eid="e48" class="I_STATE" >think</EVENT> he's <EVENT eid="e24" class="OCCURRENCE" >doing</EVENT> the right thing.</s>
+</turn>
+<turn startTime="1141.693" speaker="unknown" endTime="1146.493" spkrType="unknown">
+ <s>I <EVENT eid="e25" class="I_STATE" >think</EVENT> it's a <EVENT eid="e49" class="STATE" >good thing</EVENT> that they 're  finally going  to  be <EVENT eid="e27" class="OCCURRENCE" >downsizing</EVENT> you know some management <SIGNAL sid="s213" >because</SIGNAL> there is a whole lot of <EVENT eid="e50" class="STATE" >waste</EVENT>.</s>
+</turn>
+<turn startTime="1146.493" speaker="unknown" endTime="1150.348" spkrType="unknown">
+ <s>Good <EVENT eid="e51" class="REPORTING" >news</EVENT> for AT and T <TIMEX3 tid="t33" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-01-26" anchorTimeID="t31" >today</TIMEX3>.</s>
+ <s>I <EVENT eid="e29" class="I_STATE" >think</EVENT> it's <EVENT eid="e204" class="STATE" >excellent</EVENT> for the company.</s>
+</turn>
+<turn startTime="1150.348" speaker="unknown" endTime="1156.42" spkrType="unknown">
+ <s>But investors  are <EVENT eid="e30" class="I_ACTION" >approaching</EVENT> the <EVENT eid="e52" class="OCCURRENCE" >changes</EVENT> with caution shares of AT and T <EVENT eid="e53" class="OCCURRENCE" >down</EVENT> nearly <CARDINAL>four</CARDINAL> at <CARDINAL>sixty-one and a half</CARDINAL>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei254" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei255" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei256" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei257" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei258" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei259" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei260" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei261" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei262" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei263" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei264" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei265" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei266" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei267" tense="PRESENT" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei268" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei269" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei270" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei271" tense="NONE" eventID="e161" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei272" tense="PRESENT" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei273" tense="NONE" eventID="e172" />
+<MAKEINSTANCE aspect="NONE" eiid="ei274" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei275" tense="PRESENT" eventID="e48" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei276" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei277" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei278" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei279" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei280" tense="PRESENT" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei281" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei282" tense="PRESENT" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei283" tense="NONE" eventID="e204" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei284" tense="PRESENT" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei285" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei286" tense="PRESENT" eventID="e53" />
+<TLINK relatedToEventInstance="ei258" eventInstanceID="ei266" relType="IDENTITY" />
+<TLINK relatedToTime="t31" eventInstanceID="ei267" relType="INCLUDES" />
+<TLINK relatedToTime="t34" eventInstanceID="ei268" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t31" timeID="t34" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei269" timeID="t34" relType="INCLUDES" />
+<TLINK relatedToTime="t31" eventInstanceID="ei271" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei273" eventInstanceID="ei272" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei272" signalID="s181" eventInstanceID="ei274" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t31" eventInstanceID="ei274" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei268" eventInstanceID="ei275" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei280" signalID="s213" eventInstanceID="ei279" relType="AFTER" />
+<TLINK relatedToTime="t33" eventInstanceID="ei281" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t31" timeID="t33" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei277" eventInstanceID="ei282" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t31" eventInstanceID="ei284" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei285" eventInstanceID="ei284" relType="AFTER" />
+<TLINK relatedToEventInstance="ei254" eventInstanceID="ei257" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei258" eventInstanceID="ei285" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei258" eventInstanceID="ei255" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t31" eventInstanceID="ei286" relType="IBEFORE" />
+<TLINK signalID="s54" relatedToTime="t32" eventInstanceID="ei264" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei263" eventInstanceID="ei262" relType="AFTER" />
+<TLINK relatedToEventInstance="ei262" timeID="t96" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t31" timeID="t96" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei260" eventInstanceID="ei258" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei258" eventInstanceID="ei257" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t31" eventInstanceID="ei254" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei255" eventInstanceID="ei254" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei254" eventInstanceID="ei256" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei258" eventInstanceID="ei256" relType="IS_INCLUDED" />
+<SLINK signalID="s11" subordinatedEventInstance="ei266" eventInstanceID="ei267" relType="NEGATIVE" />
+<SLINK subordinatedEventInstance="ei271" eventInstanceID="ei270" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei276" eventInstanceID="ei275" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei278" eventInstanceID="ei277" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei279" eventInstanceID="ei278" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei283" eventInstanceID="ei282" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei266" eventInstanceID="ei265" relType="MODAL" />
+<SLINK signalID="s8" subordinatedEventInstance="ei264" eventInstanceID="ei263" relType="FACTIVE" />
+<ALINK relatedToEventInstance="ei261" eventInstanceID="ei260" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei259" eventInstanceID="ei260" relType="INITIATES" />
+</TimeML>

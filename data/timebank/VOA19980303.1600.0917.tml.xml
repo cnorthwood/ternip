@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> VOA<TIMEX3 tid="t2078" type="DATE" temporalFunction="true" functionInDocument="CREATION_TIME" value="1998-03-03" >19980303</TIMEX3>.1600.0917 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="VOA" air_date="19980303:1600">
+<section startTime="917.62" type="report" endTime="991.72">
+<TEXT>
+<turn startTime="917.62" speaker="unknown" endTime="940.960" spkrType="unknown">
+ <s>Nigerian security forces <EVENT eid="e1" class="OCCURRENCE" >clashed</EVENT> in <ENAMEX TYPE="LOCATION">Lagos</ENAMEX> with anti-government
+ demonstrators who  were <EVENT eid="e2" class="OCCURRENCE" >protesting</EVENT> calls for military <ENAMEX TYPE="PERSON">leader Sani Abacha</ENAMEX>  <SIGNAL sid="s2101" >to</SIGNAL> <EVENT eid="e3" class="I_ACTION" >run</EVENT> for
+ president.</s>
+ <s>Meanwhile, as <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">VOA West Africa</ENAMEX> Correspondent Purnell Murdock</ENAMEX>
+ <EVENT eid="e2104" class="REPORTING" >reports</EVENT>, <ENAMEX TYPE="PERSON">General Abacha</ENAMEX>'s supporters <EVENT eid="e4" class="ASPECTUAL" >began</EVENT> a <TIMEX3 tid="t25" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P2D" ><CARDINAL>two</CARDINAL> day</TIMEX3> <EVENT eid="e2008" class="OCCURRENCE" >rally</EVENT> in the capital,
+ Abuja,  <SIGNAL sid="s2138" >to</SIGNAL> <EVENT eid="e6" class="OCCURRENCE" >urge</EVENT> him  <SIGNAL sid="s2139" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >compete</EVENT> in <TIMEX3 tid="t26" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1998" >this year</TIMEX3>'s election.</s>
+</turn>
+<turn startTime="940.960" speaker="unknown" endTime="991.72" spkrType="unknown">
+ <s><ENAMEX TYPE="LOCATION">Nigeria</ENAMEX> state radio <EVENT eid="e8" class="REPORTING" >says</EVENT> thousands of people <EVENT eid="e9" class="ASPECTUAL" >began</EVENT> <EVENT eid="e10" class="OCCURRENCE" >gathering</EVENT> in the capital
+ Abuja <TIMEX3 mod="START" tid="t2221" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-03-03" anchorTimeID="t2078" >early Tuesday</TIMEX3> for the <TIMEX3 tid="t28" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P2D" ><CARDINAL>two</CARDINAL> day</TIMEX3> <EVENT eid="e2079" class="OCCURRENCE" ><EVENT eid="e2080" class="OCCURRENCE" >rally</EVENT></EVENT> <EVENT eid="e2109" class="I_ACTION" >supporting</EVENT> <ENAMEX TYPE="PERSON">General Sani Abacha</ENAMEX>'s
+ <EVENT eid="e2114" class="STATE" ><EVENT eid="e2117" class="OCCURRENCE" >candidacy</EVENT></EVENT>.</s>
+ <s>Organizers <EVENT eid="e2120" class="REPORTING" >state</EVENT> the <TIMEX3 tid="t29" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P2D" ><CARDINAL>two</CARDINAL> days</TIMEX3> of <EVENT eid="e2047" class="OCCURRENCE" >music, dancing, and speeches</EVENT>  is <EVENT eid="e2123" class="I_STATE" >expected</EVENT>  <SIGNAL sid="s2131" >to</SIGNAL> <EVENT eid="e13" class="OCCURRENCE" >draw</EVENT> some two million people.</s>
+ <s>But <SIGNAL sid="s2161" >as</SIGNAL> supporters of the military leader <EVENT eid="e14" class="OCCURRENCE" >gathered</EVENT> in the north, riot
+ police <EVENT eid="e15" class="OCCURRENCE" >deployed</EVENT> in <ENAMEX TYPE="LOCATION">Nigeria</ENAMEX>'s southern commercial capital Lagos,  <SIGNAL sid="s2130" >to</SIGNAL> <EVENT eid="e16" class="ASPECTUAL" >break</EVENT> up a
+ protest <EVENT eid="e2058" class="OCCURRENCE" >rally</EVENT> <EVENT eid="e2176" class="OCCURRENCE" >called</EVENT> by the political opposition.</s>
+ <s>Although <ENAMEX TYPE="PERSON">General Abacha</ENAMEX> had not  publicly <EVENT eid="e18" class="OCCURRENCE" >announced</EVENT> his <EVENT eid="e2181" class="STATE" >candidacy</EVENT>, many
+ people <EVENT eid="e2183" class="I_STATE" >believe</EVENT> an <ENAMEX TYPE="PERSON">Abacha</ENAMEX> <EVENT eid="e2184" class="STATE" >presidency</EVENT> is a foregone conclusion.</s>
+ <s>Some analysts <EVENT eid="e2185" class="REPORTING" >say</EVENT> the <EVENT eid="e2186" class="STATE" >outcome</EVENT> of a <EVENT eid="e2187" class="OCCURRENCE" >face</EVENT> off between the police and anti Abacha
+ political groups will be a <EVENT eid="e2188" class="STATE" >test</EVENT> of the opposition's resolve.</s>
+ <s><ENAMEX TYPE="PERSON">Purnell Murdock</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">VOA News</ENAMEX>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2222" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2223" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2224" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2225" tense="PRESENT" eventID="e2104" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2226" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2227" tense="NONE" eventID="e2008" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2228" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2229" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2230" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2231" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2232" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2233" tense="NONE" eventID="e2079" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2234" tense="NONE" eventID="e2080" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2235" tense="NONE" eventID="e2109" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2236" tense="NONE" eventID="e2114" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2237" tense="NONE" eventID="e2117" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2238" tense="PRESENT" eventID="e2120" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2239" tense="NONE" eventID="e2047" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2240" tense="PRESENT" eventID="e2123" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2241" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2242" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2243" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2244" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2245" tense="NONE" eventID="e2058" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2246" tense="NONE" eventID="e2176" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2247" polarity="NEG" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2248" tense="NONE" eventID="e2181" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2249" tense="PRESENT" eventID="e2183" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2250" tense="NONE" eventID="e2184" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2251" tense="PRESENT" eventID="e2185" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2252" tense="NONE" eventID="e2186" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2253" tense="NONE" eventID="e2187" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2254" tense="NONE" eventID="e2188" />
+<TLINK relatedToEventInstance="ei2235" eventInstanceID="ei2233" relType="INCLUDES" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2239" relType="DURING" />
+<TLINK relatedToEventInstance="ei2233" eventInstanceID="ei2239" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2245" eventInstanceID="ei2246" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2249" eventInstanceID="ei2251" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2223" eventInstanceID="ei2222" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2252" eventInstanceID="ei2253" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2254" eventInstanceID="ei2252" relType="IDENTITY" />
+<TLINK relatedToTime="t2078" eventInstanceID="ei2242" relType="BEFORE" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2233" relType="DURING" />
+<TLINK relatedToEventInstance="ei2243" eventInstanceID="ei2245" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2242" signalID="s2161" eventInstanceID="ei2243" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2241" eventInstanceID="ei2239" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2227" eventInstanceID="ei2233" relType="IDENTITY" />
+<TLINK relatedToTime="t25" eventInstanceID="ei2227" relType="DURING" />
+<TLINK eventInstanceID="ei2231" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2229" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei2226" eventInstanceID="ei2225" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2236" eventInstanceID="ei2235" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2240" eventInstanceID="ei2238" relType="EVIDENTIAL" />
+<SLINK signalID="s2131" subordinatedEventInstance="ei2241" eventInstanceID="ei2240" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2248" eventInstanceID="ei2247" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2250" eventInstanceID="ei2249" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2252" eventInstanceID="ei2251" relType="EVIDENTIAL" />
+<SLINK signalID="s2130" subordinatedEventInstance="ei2244" eventInstanceID="ei2243" relType="MODAL" />
+<SLINK signalID="s2101" subordinatedEventInstance="ei2224" eventInstanceID="ei2223" relType="MODAL" />
+<SLINK signalID="s2138" subordinatedEventInstance="ei2228" eventInstanceID="ei2227" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2231" eventInstanceID="ei2230" relType="EVIDENTIAL" />
+<SLINK signalID="s2139" subordinatedEventInstance="ei2229" eventInstanceID="ei2228" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2245" eventInstanceID="ei2244" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei2227" eventInstanceID="ei2226" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2232" eventInstanceID="ei2231" relType="INITIATES" />
+</TimeML>

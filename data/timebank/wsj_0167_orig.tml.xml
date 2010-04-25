@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0023 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0023. </AN>
+<HL> Business Brief -- RMS International Inc.:
+@  Financing Sources, Waivers
+@  On Debt Are Being Sought </HL>
+<DD> <TIMEX3 tid="t19" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> RMS </CO>
+<IN> EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">RMS International Inc.</ENAMEX>, <ENAMEX TYPE="LOCATION">Hasbrouk Heights</ENAMEX>, <ENAMEX TYPE="LOCATION">N.J.</ENAMEX>, <EVENT eid="e1" class="I_ACTION" >facing</EVENT> a cash-flow <EVENT eid="e1989" class="STATE" >squeeze</EVENT>, <EVENT eid="e2" class="REPORTING" >said</EVENT> it  is <EVENT eid="e3" class="OCCURRENCE" >seeking</EVENT> other financing sources and waivers from debenture holders.</s> 
+
+   <s>The company <EVENT eid="e4" class="REPORTING" >said</EVENT> that because of softening sales it isn't <EVENT eid="e1990" class="STATE" >in compliance</EVENT> with <EVENT eid="e1991" class="I_STATE" >requirements</EVENT> that it <EVENT eid="e7" class="STATE" >maintain</EVENT> <NUMEX TYPE="MONEY">$3 million</NUMEX> in working capital.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">RMS</ENAMEX> distributes electronic devices and produces power supplies and plastic literature displays.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">RMS</ENAMEX> <EVENT eid="e12" class="REPORTING" >said</EVENT> it <EVENT eid="e1994" class="STATE" >had</EVENT> a loss of <NUMEX TYPE="MONEY">$158,666</NUMEX>, or <NUMEX TYPE="MONEY">10 cents</NUMEX> a share, <SIGNAL sid="s2000" >in</SIGNAL> <TIMEX3 tid="t21" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t19" >the third quarter</TIMEX3>, compared with <TIMEX3 tid="t22" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t21" >a year-earlier</TIMEX3> <EVENT eid="e1996" class="STATE" >loss</EVENT> of <NUMEX TYPE="MONEY">$26,956</NUMEX>, or <NUMEX TYPE="MONEY">two cents</NUMEX> a share.</s> 
+<s>Sales <EVENT eid="e15" class="OCCURRENCE" >rose</EVENT> to <NUMEX TYPE="MONEY">$3 million</NUMEX> from <NUMEX TYPE="MONEY">$2.9 million</NUMEX>.</s> 
+
+   <s><SIGNAL sid="s2001" >For</SIGNAL> <TIMEX3 tid="t23" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P9M" anchorTimeID="t21" >the <CARDINAL>nine</CARDINAL> months</TIMEX3>, the company <EVENT eid="e16" class="OCCURRENCE" >reported</EVENT> a net <EVENT eid="e1997" class="STATE" >loss</EVENT> of <NUMEX TYPE="MONEY">$608,413</NUMEX>, or <NUMEX TYPE="MONEY">39 cents</NUMEX> a share, compared with <TIMEX3 tid="t24" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t23" >year-earlier</TIMEX3> net <EVENT eid="e1998" class="STATE" >income</EVENT> of <NUMEX TYPE="MONEY">$967,809</NUMEX>, or <NUMEX TYPE="MONEY">62 cents</NUMEX> a share.</s> 
+<s>Sales <EVENT eid="e18" class="OCCURRENCE" >rose</EVENT> to <NUMEX TYPE="MONEY">$9.8 million</NUMEX> from <NUMEX TYPE="MONEY">$8.9 million</NUMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2090" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2091" tense="NONE" eventID="e1989" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2092" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2093" tense="PRESENT" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2094" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2095" polarity="NEG" tense="NONE" eventID="e1990" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2096" tense="NONE" eventID="e1991" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2097" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2098" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2099" tense="PAST" eventID="e1994" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2100" tense="NONE" eventID="e1996" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2101" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2102" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2103" tense="NONE" eventID="e1997" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2104" tense="NONE" eventID="e1998" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2105" tense="PAST" eventID="e18" />
+<TLINK signalID="s2001" relatedToTime="t23" eventInstanceID="ei2105" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t24" eventInstanceID="ei2104" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2094" eventInstanceID="ei2098" relType="SIMULTANEOUS" />
+<TLINK signalID="s2001" relatedToTime="t23" eventInstanceID="ei2103" relType="IS_INCLUDED" />
+<TLINK signalID="s2000" relatedToTime="t21" eventInstanceID="ei2101" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2096" eventInstanceID="ei2095" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t22" eventInstanceID="ei2100" relType="IS_INCLUDED" />
+<TLINK signalID="s2000" relatedToTime="t21" eventInstanceID="ei2099" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t19" eventInstanceID="ei2090" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2090" eventInstanceID="ei2092" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t19" eventInstanceID="ei2092" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2092" eventInstanceID="ei2094" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei2099" eventInstanceID="ei2098" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2097" eventInstanceID="ei2096" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2103" eventInstanceID="ei2102" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2095" eventInstanceID="ei2094" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2091" eventInstanceID="ei2090" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2093" eventInstanceID="ei2092" relType="EVIDENTIAL" />
+</TimeML>

@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0133 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0133. </AN>
+<HL> Dividend News:
+@  Cambrex Corp. </HL>
+<DD> <TIMEX3 tid="t22" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CBAM </CO>
+<IN> DIVIDENDS (DIV) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">CAMBREX Corp.</ENAMEX>, <ENAMEX TYPE="LOCATION">Bayonne</ENAMEX>, <ENAMEX TYPE="LOCATION">N.J.</ENAMEX>, <EVENT eid="e1" class="OCCURRENCE" >declared</EVENT> its initial quarterly of <NUMEX TYPE="MONEY">five cents</NUMEX> a share, <EVENT eid="e24" class="STATE" >payable</EVENT> <TIMEX3 tid="t23" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-01" anchorTimeID="t22" >Dec. 1</TIMEX3> to stock of <EVENT eid="e2" class="STATE" >record</EVENT> <TIMEX3 tid="t25" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-10" anchorTimeID="t22" >Nov. 10</TIMEX3>.</s> 
+<s>The maker of specialty chemicals has <CARDINAL>about 5.9 million</CARDINAL> shares outstanding.</s> 
+<s>The company <EVENT eid="e4" class="REPORTING" >said</EVENT> the <EVENT eid="e5" class="OCCURRENCE" >move</EVENT> <EVENT eid="e6" class="OCCURRENCE" >recognizes</EVENT> its strong financial <EVENT eid="e15" class="STATE" >position</EVENT>.</s> 
+<s>Although profits were " <EVENT eid="e7" class="OCCURRENCE" >squeezed</EVENT>" <SIGNAL sid="s19" >in</SIGNAL> <TIMEX3 tid="t26" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989" >1989</TIMEX3>, mainly as a result of higher raw-material costs, the company <EVENT eid="e9" class="REPORTING" >said</EVENT> it is <EVENT eid="e16" class="I_STATE" >confident</EVENT> about future <EVENT eid="e17" class="OCCURRENCE" >earnings</EVENT> and cash <EVENT eid="e10" class="OCCURRENCE" >flow</EVENT> <SIGNAL sid="s20" >for</SIGNAL> <TIMEX3 mod="ON_OR_AFTER" tid="t27" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1990" >1990 and beyond</TIMEX3>.</s> 
+<s>In national over-the-counter <EVENT eid="e11" class="OCCURRENCE" >trading</EVENT> <TIMEX3 tid="t28" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t22" >yesterday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Cambrex</ENAMEX> shares <EVENT eid="e12" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="MONEY">50 cents</NUMEX> to <EVENT eid="e14" class="OCCURRENCE" >close</EVENT> at <EVENT eid="e18" class="STATE" ><NUMEX TYPE="MONEY">$13</NUMEX> a share</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e18" />
+<TLINK relatedToTime="t22" eventInstanceID="ei1991" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2004" relType="ENDED_BY" />
+<TLINK relatedToTime="t23" eventInstanceID="ei1992" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="ENDED_BY" />
+<TLINK relatedToTime="t25" eventInstanceID="ei1993" relType="ENDED_BY" />
+<TLINK relatedToTime="t22" eventInstanceID="ei1994" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1995" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei1991" eventInstanceID="ei1995" relType="IDENTITY" />
+<TLINK relatedToTime="t22" eventInstanceID="ei1998" relType="BEFORE" />
+<TLINK signalID="s19" relatedToTime="t26" eventInstanceID="ei1998" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t22" eventInstanceID="ei1999" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2003" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2005" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2003" relType="IS_INCLUDED" />
+<TLINK signalID="s20" relatedToTime="t27" eventInstanceID="ei2002" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2003" relType="ENDED_BY" />
+<SLINK subordinatedEventInstance="ei1996" eventInstanceID="ei1994" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2000" relType="MODAL" />
+</TimeML>

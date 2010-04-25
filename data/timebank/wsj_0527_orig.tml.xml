@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0174 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0174. </AN>
+<HL> Crossland Savings Stock Plunges as Firm
+@  Recommends Suspension of Dividends
+@  ----
+@  By Udayan Gupta
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t84" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CRL </CO>
+<IN> DIVIDENDS (DIV)
+FINANCIAL, ACCOUNTING, LEASING (FIN)
+EARNINGS (ERN) </IN>
+<DATELINE> NEW YORK  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Crossland Savings Bank</ENAMEX>'s stock <EVENT eid="e1" class="OCCURRENCE" >plummeted</EVENT> <SIGNAL sid="s3" >after</SIGNAL> management <EVENT eid="e4" class="I_ACTION" >recommended</EVENT> a <EVENT eid="e82" class="OCCURRENCE" >suspension</EVENT> of dividend payments on both its common and preferred stock because <ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX> <SIGNAL sid="s7" >may</SIGNAL> <SIGNAL sid="s8" >not</SIGNAL> <EVENT eid="e6" class="I_STATE" >meet</EVENT> the new government capital <EVENT eid="e9" class="STATE" >criteria</EVENT> <SIGNAL sid="s83" >effective</SIGNAL> <TIMEX3 tid="t85" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-07" anchorTimeID="t84" >Dec. 7</TIMEX3>.</s> 
+
+   <s>In composite trading on the <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> <TIMEX3 tid="t86" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t84" >Friday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX> <EVENT eid="e11" class="OCCURRENCE" >closed</EVENT> at <EVENT eid="e87" class="STATE" ><NUMEX TYPE="MONEY">$5.25</NUMEX></EVENT>, down <NUMEX TYPE="MONEY">$1.875</NUMEX>, a <NUMEX TYPE="PERCENT">26%</NUMEX> decline.</s> 
+
+   <s>A spokesman <EVENT eid="e12" class="REPORTING" >said</EVENT> the savings bank <SIGNAL sid="s14" >may</SIGNAL> <SIGNAL sid="s15" >not</SIGNAL> <EVENT eid="e13" class="I_STATE" >qualify</EVENT> for the capital <EVENT eid="e16" class="STATE" >requirements</EVENT> because, under the proposed guidelines, its <NUMEX TYPE="MONEY">$380 million</NUMEX> of preferred stock does <SIGNAL sid="s19" >n't</SIGNAL> <EVENT eid="e18" class="I_STATE" >meet</EVENT> the "core capital" <EVENT eid="e20" class="STATE" >criteria</EVENT> outlined under the new <ENAMEX TYPE="LOCATION">Financial Institutions Reform</ENAMEX>, <ENAMEX TYPE="LOCATION">Recovery</ENAMEX> and Enforcement Act of <TIMEX3 tid="t89" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989" >1989</TIMEX3>.</s> 
+<s>He <EVENT eid="e22" class="REPORTING" >added</EVENT> that final guidelines to be <EVENT eid="e25" class="OCCURRENCE" >published</EVENT> <SIGNAL sid="s190" >in</SIGNAL> <TIMEX3 mod="START" tid="t191" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11" anchorTimeID="t84" >early November</TIMEX3> will <EVENT eid="e26" class="OCCURRENCE" >determine</EVENT> whether the bank is in <EVENT eid="e27" class="OCCURRENCE" >compliance</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX> <EVENT eid="e29" class="REPORTING" >said</EVENT> it <EVENT eid="e30" class="OCCURRENCE" >retained</EVENT> <CARDINAL>three</CARDINAL> investment bankers <SIGNAL sid="s31" >to</SIGNAL> <EVENT eid="e32" class="I_ACTION" >assist</EVENT> it in <EVENT eid="e34" class="I_ACTION" >developing</EVENT> and <EVENT eid="e35" class="I_ACTION" >implementing</EVENT> a financial restructuring <EVENT eid="e91" class="STATE" >plan</EVENT>.</s> 
+<s>It <SIGNAL sid="s37" >would</SIGNAL> <SIGNAL sid="s38" >n't</SIGNAL> <EVENT eid="e36" class="OCCURRENCE" >identify</EVENT> the bankers.</s> 
+
+   <s>Additionally, <ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX> <EVENT eid="e39" class="REPORTING" >reported</EVENT> a <TIMEX3 tid="t92" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t84" >third-quarter</TIMEX3> <EVENT eid="e40" class="STATE" >loss</EVENT> of <NUMEX TYPE="MONEY">$175.5 million</NUMEX>, or <NUMEX TYPE="MONEY">$13.44</NUMEX> a share, compared with net <EVENT eid="e94" class="STATE" >income</EVENT> of <NUMEX TYPE="MONEY">$27.1 million</NUMEX>, or <NUMEX TYPE="MONEY">$1.16</NUMEX> a share, <TIMEX3 tid="t95" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t92" >a year ago</TIMEX3>.</s> 
+<s>A major factor in the <TIMEX3 tid="t98" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t84" >third-quarter</TIMEX3> <EVENT eid="e43" class="STATE" >loss</EVENT> was the <EVENT eid="e97" class="OCCURRENCE" >write-down</EVENT> of <NUMEX TYPE="MONEY">$143.6 million</NUMEX> of goodwill.</s> 
+
+   <s>The spokesman <EVENT eid="e45" class="REPORTING" >said</EVENT> that the proposed guidelines <EVENT eid="e47" class="OCCURRENCE" >caused</EVENT> <ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX> to <EVENT eid="e49" class="OCCURRENCE" >revise</EVENT> its business objectives and, consequently , to <EVENT eid="e50" class="OCCURRENCE" >write</EVENT> down the asset value of some previous acquisitions.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX> <EVENT eid="e52" class="I_ACTION" >recorded</EVENT> an additional <NUMEX TYPE="MONEY">$20 million</NUMEX> in loan loss <EVENT eid="e100" class="STATE" >reserves</EVENT> <SIGNAL sid="s101" >in</SIGNAL> <TIMEX3 tid="t105" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t84" >the third quarter</TIMEX3>.</s> 
+
+   <s>Net interest <EVENT eid="e110" class="STATE" >income</EVENT> for <TIMEX3 tid="t104" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t84" >the third quarter</TIMEX3> declined <SIGNAL sid="s108" >to</SIGNAL> <EVENT eid="e106" class="STATE" ><NUMEX TYPE="MONEY">$35.6 million</NUMEX></EVENT> <SIGNAL sid="s109" >from</SIGNAL> <EVENT eid="e107" class="STATE" ><NUMEX TYPE="MONEY">$70.1 million</NUMEX></EVENT> <TIMEX3 tid="t111" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t104" >a year ago</TIMEX3>.</s> 
+<s>However, non-interest income <EVENT eid="e55" class="OCCURRENCE" >rose</EVENT> <SIGNAL sid="s115" >to</SIGNAL> <EVENT eid="e112" class="STATE" ><NUMEX TYPE="MONEY">$23.5 million</NUMEX></EVENT> <SIGNAL sid="s114" >from</SIGNAL> <EVENT eid="e113" class="STATE" ><NUMEX TYPE="MONEY">$22 million</NUMEX></EVENT>.</s> 
+<s><TIMEX3 tid="t116" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t84" >Third-quarter</TIMEX3> loan originations <EVENT eid="e57" class="OCCURRENCE" >dropped</EVENT> sharply <SIGNAL sid="s120" >to</SIGNAL> <EVENT eid="e118" class="STATE" ><NUMEX TYPE="MONEY">$663 million</NUMEX></EVENT> <SIGNAL sid="s121" >from</SIGNAL> <EVENT eid="e119" class="STATE" ><NUMEX TYPE="MONEY">$1 billion</NUMEX></EVENT> <TIMEX3 tid="t122" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t84" >a year ago</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Standard amp Poor's Corp.</ENAMEX> <EVENT eid="e58" class="OCCURRENCE" >lowered</EVENT> the rating on <ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX>'s preferred stock to double-C from single-B-minus and <EVENT eid="e60" class="OCCURRENCE" >placed</EVENT> it on CreditWatch for possible further downgrade.</s> 
+<s>It also <EVENT eid="e61" class="OCCURRENCE" >placed</EVENT> on CreditWatch for possible downgrade other securities, including the double-B-minus/B rating of <ENAMEX TYPE="ORGANIZATION">Crossland</ENAMEX>'s certificates of deposit and the single-B rating of its senior subordinated capital notes.</s> 
+<s>About <NUMEX TYPE="MONEY">$518 million</NUMEX> of debt is affected.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="NONE" eventID="e87" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="PRESENT" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="FUTURE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="PAST" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="NONE" eventID="e97" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="PAST" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="PAST" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2020" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="PAST" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="NONE" eventID="e100" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2024" tense="NONE" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2025" tense="NONE" eventID="e106" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2026" tense="NONE" eventID="e107" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2027" tense="PAST" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2028" tense="NONE" eventID="e112" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2029" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2030" tense="PAST" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="NONE" eventID="e118" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2032" tense="NONE" eventID="e119" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2033" tense="PAST" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2034" tense="PAST" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2035" tense="PAST" eventID="e61" />
+<TLINK relatedToTime="t84" eventInstanceID="ei1990" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1991" signalID="s3" eventInstanceID="ei1990" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1991" eventInstanceID="ei1993" relType="BEFORE" />
+<TLINK signalID="s83" relatedToTime="t85" eventInstanceID="ei1994" relType="BEGUN_BY" />
+<TLINK relatedToTime="t86" eventInstanceID="ei1995" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1996" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t84" eventInstanceID="ei1997" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1998" eventInstanceID="ei2000" relType="BEFORE" />
+<TLINK relatedToTime="t89" eventInstanceID="ei2001" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei2002" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2009" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2012" eventInstanceID="ei2006" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2013" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t92" eventInstanceID="ei2014" relType="DURING" />
+<TLINK relatedToTime="t95" eventInstanceID="ei2015" relType="DURING" />
+<TLINK relatedToTime="t98" eventInstanceID="ei2016" relType="DURING" />
+<TLINK relatedToEventInstance="ei2014" eventInstanceID="ei2016" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2016" eventInstanceID="ei2017" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei2018" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2020" eventInstanceID="ei2019" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2021" eventInstanceID="ei2019" relType="BEFORE" />
+<TLINK signalID="s101" relatedToTime="t105" eventInstanceID="ei2023" relType="DURING" />
+<TLINK relatedToTime="t104" eventInstanceID="ei2024" relType="DURING" />
+<TLINK relatedToEventInstance="ei2025" signalID="s108" eventInstanceID="ei2024" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2026" signalID="s109" eventInstanceID="ei2024" relType="BEGUN_BY" />
+<TLINK relatedToTime="t111" eventInstanceID="ei2026" relType="DURING" />
+<TLINK relatedToEventInstance="ei2028" signalID="s115" eventInstanceID="ei2027" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2029" signalID="s114" eventInstanceID="ei2027" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei2030" timeID="t116" relType="DURING" />
+<TLINK relatedToEventInstance="ei2031" signalID="s120" eventInstanceID="ei2030" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2032" signalID="s121" eventInstanceID="ei2030" relType="BEGUN_BY" />
+<TLINK relatedToTime="t122" eventInstanceID="ei2032" relType="DURING" />
+<TLINK relatedToEventInstance="ei2034" eventInstanceID="ei2033" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t84" eventInstanceID="ei2033" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2034" eventInstanceID="ei2035" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei1992" eventInstanceID="ei1991" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1994" eventInstanceID="ei1993" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei1998" eventInstanceID="ei1997" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1999" eventInstanceID="ei1998" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2004" eventInstanceID="ei2002" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2005" eventInstanceID="ei2004" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2007" eventInstanceID="ei2006" relType="EVIDENTIAL" />
+<SLINK signalID="s31" subordinatedEventInstance="ei2008" eventInstanceID="ei2007" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2009" eventInstanceID="ei2008" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2011" eventInstanceID="ei2009" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2010" eventInstanceID="ei2008" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2011" eventInstanceID="ei2010" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2014" eventInstanceID="ei2013" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2019" eventInstanceID="ei2018" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2023" eventInstanceID="ei2022" relType="FACTIVE" />
+</TimeML>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> CNN<TIMEX3 tid="t16" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-22" >19980222</TIMEX3>.1130.0084 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="CNN_Headline_News" air_date="19980222:1130">
+<section startTime="84.88" type="report" endTime="125.77">
+<TEXT>
+<turn startTime="84.88" speaker="unknown" endTime="125.77" spkrType="unknown">
+ <s>CNN headline news, I'm Sachi Koto.</s>
+ <s>Diplomacy <EVENT eid="e1" class="I_STATE" >appears</EVENT>  to  be <EVENT eid="e2" class="I_ACTION" >making</EVENT> headway in <EVENT eid="e4" class="I_ACTION" >resolving</EVENT> the united nation's
+ <EVENT eid="e96" class="OCCURRENCE" >standoff</EVENT> with <ENAMEX TYPE="LOCATION">Iraq</ENAMEX>.</s>
+ <s>A <ENAMEX TYPE="ORGANIZATION">UN</ENAMEX> spokesman <EVENT eid="e5" class="REPORTING" >says</EVENT> <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">UN</ENAMEX> secretary general Kofi Annan</ENAMEX> is <EVENT eid="e103" class="STATE" >on the verge of
+ a breakthrough</EVENT>, but <EVENT eid="e6" class="REPORTING" >added</EVENT> it's not <EVENT eid="e7" class="OCCURRENCE" >done</EVENT> yet.</s>
+ <s><ENAMEX TYPE="PERSON">Annan</ENAMEX> <EVENT eid="e8" class="ASPECTUAL" >wrapped</EVENT> up a <TIMEX3 tid="t122" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="PT3H" ><CARDINAL>three</CARDINAL> hour</TIMEX3> <EVENT eid="e35" class="OCCURRENCE" >meeting</EVENT> with <ENAMEX TYPE="PERSON">Iraqi president Saddam Hussein</ENAMEX>
+ in <ENAMEX TYPE="LOCATION">Baghdad</ENAMEX> <TIMEX3 tid="t18" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-22" anchorTimeID="t16" >today</TIMEX3>.</s>
+ <s>He's <EVENT eid="e9" class="I_STATE" >expected</EVENT>  <SIGNAL sid="s59" >to</SIGNAL> <EVENT eid="e73" class="OCCURRENCE" >meet</EVENT> with <ENAMEX TYPE="PERSON">Iraqi deputy prime minister Tariq Aziz</ENAMEX> <TIMEX3 tid="t64" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-22TAF" >later
+ this afternoon</TIMEX3>.</s> <s>One major sticking point has been <ENAMEX TYPE="LOCATION">Iraq</ENAMEX>'s <EVENT eid="e129" class="I_ACTION" >proposal</EVENT>  <SIGNAL sid="s136" >to</SIGNAL> <EVENT eid="e46" class="OCCURRENCE" >open</EVENT> it's presidential sites for <TIMEX3 mod="EQUAL_OR_LESS" tid="t70" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P60D" >no <CARDINAL>more than sixty</CARDINAL> days</TIMEX3>.</s>
+ <s>The <ENAMEX TYPE="ORGANIZATION">UN</ENAMEX> security council <EVENT eid="e13" class="I_ACTION" >insists</EVENT> any <EVENT eid="e140" class="I_ACTION" >deal</EVENT> must <EVENT eid="e14" class="I_STATE" >allow</EVENT> <ENAMEX TYPE="ORGANIZATION">UN</ENAMEX> inspectors unrestricted <EVENT eid="e141" class="OCCURRENCE" >access</EVENT> to all suspected weapons sites.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei156" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei157" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei158" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei159" tense="NONE" eventID="e96" />
+<MAKEINSTANCE aspect="NONE" eiid="ei160" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="PRESENT" eventID="e103" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei163" polarity="NEG" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei164" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei165" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei166" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei167" tense="NONE" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei168" tense="NONE" eventID="e129" />
+<MAKEINSTANCE aspect="NONE" eiid="ei169" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei170" tense="PRESENT" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei171" tense="NONE" eventID="e140" />
+<MAKEINSTANCE aspect="NONE" modality="must" eiid="ei172" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei173" tense="NONE" eventID="e141" />
+<TLINK relatedToEventInstance="ei162" eventInstanceID="ei160" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t122" eventInstanceID="ei165" relType="DURING" />
+<TLINK relatedToEventInstance="ei158" eventInstanceID="ei157" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t16" eventInstanceID="ei168" relType="BEFORE" />
+<TLINK relatedToTime="t64" eventInstanceID="ei167" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t18" eventInstanceID="ei164" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t70" eventInstanceID="ei169" relType="DURING" />
+<SLINK subordinatedEventInstance="ei173" eventInstanceID="ei172" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei172" eventInstanceID="ei171" relType="MODAL" />
+<SLINK signalID="s136" subordinatedEventInstance="ei169" eventInstanceID="ei168" relType="MODAL" />
+<SLINK signalID="s59" subordinatedEventInstance="ei167" eventInstanceID="ei166" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei161" eventInstanceID="ei160" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei159" eventInstanceID="ei158" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei171" eventInstanceID="ei170" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei157" eventInstanceID="ei156" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei163" eventInstanceID="ei162" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei165" eventInstanceID="ei164" relType="CULMINATES" />
+</TimeML>

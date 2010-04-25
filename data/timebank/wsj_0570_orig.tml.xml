@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0130 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0130. </AN>
+<HL> Crane Co. Holds 8.9%
+@  Of Milton Roy Corp.,
+@  May Seek Control </HL>
+<DD> <TIMEX3 tid="t85" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CR MRC </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> NEW YORK  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Crane Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="STATE" >holds</EVENT> an <NUMEX TYPE="PERCENT">8.9%</NUMEX> stake in <ENAMEX TYPE="ORGANIZATION">Milton Roy Corp.</ENAMEX>, an analytical-instruments maker, and <SIGNAL sid="s5" >may</SIGNAL> <EVENT eid="e4" class="I_STATE" >seek</EVENT> <EVENT eid="e80" class="STATE" >control</EVENT> of the company.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Crane</ENAMEX>, a maker of engineered products for aerospace, construction, defense and other uses, <EVENT eid="e8" class="OCCURRENCE" >made</EVENT> the <EVENT eid="e9" class="REPORTING" >disclosure</EVENT> <SIGNAL sid="s147" >in</SIGNAL> a <ENAMEX TYPE="ORGANIZATION">Securities and Exchange Commission</ENAMEX> <EVENT eid="e81" class="OCCURRENCE" >filing</EVENT>.</s> 
+
+   <s><SIGNAL sid="s82" >In</SIGNAL> the <EVENT eid="e10" class="OCCURRENCE" >filing</EVENT>, <ENAMEX TYPE="ORGANIZATION">Crane</ENAMEX> <EVENT eid="e11" class="REPORTING" >said</EVENT> that <SIGNAL sid="s83" >in</SIGNAL> <TIMEX3 tid="t84" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PAST_REF" >the past</TIMEX3> it <EVENT eid="e12" class="I_STATE" >considered</EVENT> <EVENT eid="e13" class="I_ACTION" >seeking</EVENT> <EVENT eid="e87" class="STATE" >control</EVENT> of <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX>, of <ENAMEX TYPE="LOCATION">St. Petersburg</ENAMEX>, <ENAMEX TYPE="LOCATION">Fla.</ENAMEX>, through a <EVENT eid="e14" class="OCCURRENCE" >merger</EVENT> or tender <EVENT eid="e15" class="OCCURRENCE" >offer</EVENT> and that it <EVENT eid="e16" class="I_STATE" >expects</EVENT> <SIGNAL sid="s17" >to</SIGNAL> <EVENT eid="e18" class="ASPECTUAL" >continue</EVENT> <SIGNAL sid="s19" >to</SIGNAL> <EVENT eid="e20" class="I_ACTION" >evaluate</EVENT> an <EVENT eid="e21" class="OCCURRENCE" >acquisition</EVENT> <TIMEX3 tid="t88" type="DATE" temporalFunction="false" functionInDocument="NONE" value="FUTURE_REF" >from time to time</TIMEX3>.</s> 
+<s>Crane officials did <SIGNAL sid="s26" >n't</SIGNAL> <EVENT eid="e25" class="OCCURRENCE" >return</EVENT> phone <EVENT eid="e89" class="OCCURRENCE" >calls</EVENT> <EVENT eid="e27" class="I_ACTION" >seeking</EVENT> <EVENT eid="e28" class="OCCURRENCE" >comment</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Crane</ENAMEX> holds <CARDINAL>504,200</CARDINAL> <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> shares, including <CARDINAL>254,200</CARDINAL> <EVENT eid="e30" class="OCCURRENCE" >bought</EVENT> <SIGNAL sid="s90" >from</SIGNAL> <TIMEX3 tid="t91" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-14" anchorTimeID="t85" >Sept. 14</TIMEX3> <SIGNAL sid="s93" >to</SIGNAL> <TIMEX3 tid="t92" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t85" >Thursday</TIMEX3> for <NUMEX TYPE="MONEY">$15.50 to $16.75</NUMEX> each.</s> 
+<s>In <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> composite trading <TIMEX3 tid="t94" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t85" >Friday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> shares <EVENT eid="e31" class="OCCURRENCE" >leaped</EVENT> <NUMEX TYPE="MONEY">$2</NUMEX>, <SIGNAL sid="s98" >to</SIGNAL> <EVENT eid="e95" class="STATE" ><NUMEX TYPE="MONEY">$18.375</NUMEX></EVENT> each, <SIGNAL sid="s32" >while</SIGNAL> <ENAMEX TYPE="ORGANIZATION">Crane</ENAMEX> <EVENT eid="e33" class="OCCURRENCE" >sank</EVENT> <NUMEX TYPE="MONEY">$1.125</NUMEX>, <SIGNAL sid="s97" >to</SIGNAL> <EVENT eid="e96" class="STATE" ><NUMEX TYPE="MONEY">$21.125</NUMEX></EVENT> a share.</s> 
+
+   <s><ENAMEX TYPE="PERSON">John M. McNamara, chief financial officer of <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX></ENAMEX>, <EVENT eid="e34" class="REPORTING" >said</EVENT> the company <EVENT eid="e35" class="STATE" >has</EVENT> no <EVENT eid="e36" class="I_STATE" >comment</EVENT> on <ENAMEX TYPE="ORGANIZATION">Crane</ENAMEX>'s <EVENT eid="e37" class="OCCURRENCE" >filing</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> <TIMEX3 tid="t100" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PAST_REF" >recently</TIMEX3> <EVENT eid="e38" class="OCCURRENCE" >fended</EVENT> off unsolicited overtures from <ENAMEX TYPE="ORGANIZATION">Thermo Electron Corp.</ENAMEX>, a <ENAMEX TYPE="LOCATION">Waltham</ENAMEX>, <ENAMEX TYPE="LOCATION">Mass.</ENAMEX>, maker of biomedical products.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> <EVENT eid="e40" class="REPORTING" >disclosed</EVENT> <SIGNAL sid="s102" >in</SIGNAL> <TIMEX3 tid="t101" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-05" anchorTimeID="t85" >May</TIMEX3> that it was <EVENT eid="e41" class="I_ACTION" >approached</EVENT> for a possible <EVENT eid="e42" class="OCCURRENCE" >acquisition</EVENT> by <ENAMEX TYPE="ORGANIZATION">Thermo Electron</ENAMEX>, which <EVENT eid="e43" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s44" >to</SIGNAL> <EVENT eid="e45" class="OCCURRENCE" >purchase</EVENT> <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX>'s liquid-chromatography line for <NUMEX TYPE="MONEY">$22 million</NUMEX> <SIGNAL sid="s103" >in</SIGNAL> <TIMEX3 tid="t104" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990-02" anchorTimeID="t101" >February</TIMEX3>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Thermo Electron</ENAMEX> <EVENT eid="e47" class="OCCURRENCE" >acquired</EVENT> some <NUMEX TYPE="PERCENT">6%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX>'s common stock <SIGNAL sid="s48" >before</SIGNAL> <EVENT eid="e49" class="OCCURRENCE" >throwing</EVENT> in the towel and <EVENT eid="e50" class="OCCURRENCE" >reducing</EVENT> its stake <SIGNAL sid="s106" >in</SIGNAL> <TIMEX3 mod="START" tid="t105" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09" anchorTimeID="t85" >early September</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Gabelli Group</ENAMEX> <EVENT eid="e52" class="ASPECTUAL" >began</EVENT> <EVENT eid="e53" class="OCCURRENCE" >raising</EVENT> its <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> stake <SIGNAL sid="s107" >in</SIGNAL> <TIMEX3 tid="t108" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-07" anchorTimeID="t85" >July</TIMEX3>, and <EVENT eid="e54" class="STATE" >holds</EVENT> <NUMEX TYPE="PERCENT">14.6%</NUMEX>, <EVENT eid="e109" class="REPORTING" >according</EVENT> to a <TIMEX3 tid="t110" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PAST_REF" ><ENAMEX TYPE="ORGANIZATION">recent</ENAMEX></TIMEX3> SEC filing.</s> 
+<s>It has <SIGNAL sid="s57" >n't</SIGNAL> <EVENT eid="e56" class="OCCURRENCE" >made</EVENT> <EVENT eid="e112" class="OCCURRENCE" >merger</EVENT> <EVENT eid="e58" class="I_ACTION" >overtures</EVENT> to the board.</s> 
+
+   <s><TIMEX3 mod="START" tid="t113" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10" anchorTimeID="t85" >Earlier this month</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> <EVENT eid="e59" class="OCCURRENCE" >signed</EVENT> a letter of <EVENT eid="e61" class="I_STATE" >intent</EVENT> <SIGNAL sid="s62" >to</SIGNAL> <EVENT eid="e63" class="OCCURRENCE" >acquire</EVENT> <ENAMEX TYPE="ORGANIZATION">Automated Custom Systems Inc.</ENAMEX>, <ENAMEX TYPE="LOCATION">Orange</ENAMEX>, <ENAMEX TYPE="LOCATION">Calif.</ENAMEX>, and its sister operation, <ENAMEX TYPE="ORGANIZATION">Environmental Testing Co.</ENAMEX>, in <ENAMEX TYPE="LOCATION">Aurora</ENAMEX>, <ENAMEX TYPE="LOCATION">Colo. 
+</ENAMEX>
+The companies are automotive-emissions-testing concerns.</s> 
+
+   <s>Under the terms, <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> will <EVENT eid="e65" class="OCCURRENCE" >pay</EVENT> an initial <NUMEX TYPE="MONEY">$4 million</NUMEX> for the <EVENT eid="e66" class="OCCURRENCE" >operations</EVENT> and additional <EVENT eid="e67" class="OCCURRENCE" >payments</EVENT> <SIGNAL sid="s116" >during</SIGNAL> <TIMEX3 tid="t114" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P4Y" >the next four years</TIMEX3> based on the earnings performance of the businesses.</s> 
+
+   <s><SIGNAL sid="s117" >In</SIGNAL> <TIMEX3 tid="t115" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P9M" >the <CARDINAL>nine</CARDINAL> months</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Milton Roy</ENAMEX> <EVENT eid="e72" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$6.6 million</NUMEX>, or <NUMEX TYPE="MONEY">$1.18</NUMEX> a share, on <EVENT eid="e118" class="OCCURRENCE" >sales</EVENT> of <NUMEX TYPE="MONEY">$94.3 million</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei422" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei423" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei424" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei425" tense="NONE" eventID="e80" />
+<MAKEINSTANCE aspect="NONE" eiid="ei426" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei427" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei428" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei429" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei430" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei431" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei432" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei433" tense="NONE" eventID="e87" />
+<MAKEINSTANCE aspect="NONE" eiid="ei434" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei435" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei436" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei437" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei438" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei439" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei440" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei441" tense="NONE" eventID="e89" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei442" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei443" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei444" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei445" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei446" tense="NONE" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" eiid="ei447" tense="PAST" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei448" tense="NONE" eventID="e96" />
+<MAKEINSTANCE aspect="NONE" eiid="ei449" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei450" polarity="NEG" tense="PRESENT" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei451" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei452" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei453" tense="PAST" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei454" tense="PAST" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei455" tense="PAST" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei456" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei457" tense="PAST" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei458" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei459" tense="PAST" eventID="e47" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei460" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei461" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei462" tense="PAST" eventID="e52" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei463" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei464" tense="PRESENT" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei465" tense="NONE" eventID="e109" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei466" tense="PRESENT" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei467" tense="NONE" eventID="e112" />
+<MAKEINSTANCE aspect="NONE" eiid="ei468" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei469" tense="PAST" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei470" tense="NONE" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei471" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei472" tense="FUTURE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei473" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei474" tense="NONE" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei475" tense="PAST" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei476" tense="NONE" eventID="e118" />
+<TLINK relatedToTime="t85" eventInstanceID="ei422" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei427" eventInstanceID="ei426" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei422" eventInstanceID="ei427" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei428" signalID="s147" eventInstanceID="ei427" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei429" signalID="s82" eventInstanceID="ei430" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei427" eventInstanceID="ei430" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei428" eventInstanceID="ei429" relType="IDENTITY" />
+<TLINK signalID="s83" relatedToTime="t84" eventInstanceID="ei431" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei434" eventInstanceID="ei432" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei435" eventInstanceID="ei432" relType="BEGUN_BY" />
+<TLINK relatedToTime="t88" eventInstanceID="ei438" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei430" timeID="t88" relType="AFTER" />
+<TLINK relatedToEventInstance="ei440" eventInstanceID="ei441" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei442" eventInstanceID="ei441" relType="SIMULTANEOUS" />
+<TLINK signalID="s90" relatedToTime="t91" eventInstanceID="ei444" relType="BEGUN_BY" />
+<TLINK signalID="s93" relatedToTime="t92" eventInstanceID="ei444" relType="ENDED_BY" />
+<TLINK relatedToTime="t94" eventInstanceID="ei445" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei446" signalID="s98" eventInstanceID="ei445" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei447" signalID="s32" eventInstanceID="ei445" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei448" signalID="s97" eventInstanceID="ei447" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei451" eventInstanceID="ei450" relType="IDENTITY" />
+<TLINK relatedToTime="t100" eventInstanceID="ei453" relType="IS_INCLUDED" />
+<TLINK signalID="s102" relatedToTime="t101" eventInstanceID="ei454" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei455" eventInstanceID="ei457" relType="SIMULTANEOUS" />
+<TLINK signalID="s103" relatedToTime="t104" eventInstanceID="ei458" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei460" signalID="s48" eventInstanceID="ei459" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei461" eventInstanceID="ei460" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei461" signalID="s48" eventInstanceID="ei459" relType="BEFORE" />
+<TLINK signalID="s106" relatedToTime="t105" eventInstanceID="ei461" relType="IS_INCLUDED" />
+<TLINK signalID="s107" relatedToTime="t108" eventInstanceID="ei462" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t85" eventInstanceID="ei464" relType="INCLUDES" />
+<TLINK relatedToTime="t110" eventInstanceID="ei465" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei468" eventInstanceID="ei466" relType="IDENTITY" />
+<TLINK relatedToTime="t85" eventInstanceID="ei466" relType="BEFORE" />
+<TLINK relatedToTime="t113" eventInstanceID="ei469" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei469" eventInstanceID="ei470" relType="BEGUN_BY" />
+<TLINK relatedToTime="t85" eventInstanceID="ei472" relType="AFTER" />
+<TLINK relatedToEventInstance="ei473" eventInstanceID="ei472" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei472" eventInstanceID="ei474" relType="AFTER" />
+<TLINK signalID="s116" relatedToTime="t114" eventInstanceID="ei474" relType="DURING" />
+<TLINK signalID="s117" relatedToTime="t115" eventInstanceID="ei475" relType="DURING" />
+<TLINK relatedToEventInstance="ei476" eventInstanceID="ei475" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei423" eventInstanceID="ei422" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei424" eventInstanceID="ei422" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei425" eventInstanceID="ei424" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei431" eventInstanceID="ei430" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei432" eventInstanceID="ei431" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei433" eventInstanceID="ei432" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei436" eventInstanceID="ei430" relType="EVIDENTIAL" />
+<SLINK signalID="s17" subordinatedEventInstance="ei437" eventInstanceID="ei436" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei439" eventInstanceID="ei438" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei443" eventInstanceID="ei442" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei450" eventInstanceID="ei449" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei452" eventInstanceID="ei451" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei455" eventInstanceID="ei454" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei456" eventInstanceID="ei455" relType="MODAL" />
+<SLINK signalID="s44" subordinatedEventInstance="ei458" eventInstanceID="ei457" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei464" eventInstanceID="ei465" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei467" eventInstanceID="ei466" relType="MODAL" />
+<SLINK signalID="s62" subordinatedEventInstance="ei471" eventInstanceID="ei470" relType="MODAL" />
+<ALINK relatedToEventInstance="ei438" signalID="s19" eventInstanceID="ei437" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei463" eventInstanceID="ei462" relType="INITIATES" />
+</TimeML>

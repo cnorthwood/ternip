@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0186 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0186. </AN>
+<HL> Service Corp. Earnings </HL>
+<DD> <TIMEX3 tid="t25" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> SRV </CO>
+<IN> EARNINGS (ERN) </IN>
+<DATELINE> HOUSTON  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Service Corp. International</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_STATE" >expects</EVENT> <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="REPORTING" >report</EVENT> net <EVENT eid="e18" class="STATE" >income</EVENT> of <NUMEX TYPE="MONEY">15 cents</NUMEX> a share for <TIMEX3 tid="t26" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t25" >the third quarter</TIMEX3>.</s> 
+<s>The company <EVENT eid="e5" class="REPORTING" >said</EVENT> it <EVENT eid="e6" class="I_STATE" >expects</EVENT> <SIGNAL sid="s7" >to</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >release</EVENT> third-quarter results <SIGNAL sid="s19" >in</SIGNAL> <TIMEX3 mod="MID" tid="t27" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11" anchorTimeID="t25" >mid-November</TIMEX3>.</s> 
+
+   <s>The funeral home and cemetery operator <EVENT eid="e10" class="OCCURRENCE" >changed</EVENT> from a fiscal year to a calendar year <SIGNAL sid="s23" >in</SIGNAL> <TIMEX3 tid="t28" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-12" anchorTimeID="t25" >December</TIMEX3>.</s> 
+<s><SIGNAL sid="s24" >In</SIGNAL> <TIMEX3 tid="t30" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q2" anchorTimeID="t25" >the comparable year-ago quarter</TIMEX3>, the <TIMEX3 tid="t31" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q2" anchorTimeID="t30" >second quarter</TIMEX3> ended <TIMEX3 tid="t32" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-10-31" anchorTimeID="t30" >Oct. 31</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Service Corp.</ENAMEX> <EVENT eid="e21" class="OCCURRENCE" >had</EVENT> a <EVENT eid="e13" class="OCCURRENCE" >loss</EVENT> of about <NUMEX TYPE="MONEY">$12.5 million</NUMEX>, or <NUMEX TYPE="MONEY">26 cents</NUMEX> a share, on revenue of <NUMEX TYPE="MONEY">$175.4 million</NUMEX>.</s> 
+<s>Results for <TIMEX3 tid="t33" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q2" anchorTimeID="t31" >that quarter</TIMEX3> included a <EVENT eid="e22" class="STATE" ><NUMEX TYPE="MONEY">$30 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">40 cents</NUMEX> a share, write-down associated with the consolidation of a facility.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei124" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei130" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei131" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei132" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei133" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei134" tense="NONE" eventID="e22" />
+<TLINK relatedToTime="t25" eventInstanceID="ei124" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei133" eventInstanceID="ei132" relType="IDENTITY" />
+<TLINK relatedToTime="t26" eventInstanceID="ei127" relType="DURING" />
+<TLINK relatedToTime="t25" eventInstanceID="ei128" relType="BEFORE" />
+<TLINK relatedToTime="t25" eventInstanceID="ei133" relType="BEFORE" />
+<TLINK signalID="s19" relatedToTime="t27" eventInstanceID="ei130" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t27" eventInstanceID="ei129" relType="BEFORE" />
+<TLINK relatedToTime="t33" eventInstanceID="ei134" relType="DURING" />
+<TLINK relatedToTime="t31" eventInstanceID="ei134" relType="DURING" />
+<TLINK relatedToTime="t32" eventInstanceID="ei133" relType="ENDED_BY" />
+<TLINK signalID="s23" relatedToTime="t28" eventInstanceID="ei131" relType="IS_INCLUDED" />
+<TLINK signalID="s24" relatedToTime="t30" eventInstanceID="ei133" relType="DURING" />
+<TLINK relatedToTime="t31" eventInstanceID="ei133" relType="DURING" />
+<SLINK subordinatedEventInstance="ei125" eventInstanceID="ei124" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei126" eventInstanceID="ei125" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei127" eventInstanceID="ei126" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei129" eventInstanceID="ei128" relType="EVIDENTIAL" />
+<SLINK signalID="s7" subordinatedEventInstance="ei130" eventInstanceID="ei129" relType="MODAL" />
+</TimeML>

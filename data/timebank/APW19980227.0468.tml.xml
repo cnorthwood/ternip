@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> APW<TIMEX3 tid="t14" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-27" >19980227</TIMEX3>.0468 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t13" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-27T07:56:00" >02/27/1998 07:56:00</TIMEX3> </DATE_TIME>
+<HEADER>
+w2373 Cx1f wstm-
+r i Cx13  Cx11  BC-Russia-Kalashnikov'sM 1stLd   02-27 0148
+</HEADER>
+<BODY>
+<SLUG> BC-Russia-Kalashnikov's Museum, 1st Ld </SLUG>
+<HEADLINE>
+Moscow mayor donates funds to build Kalashnikov museum
+</HEADLINE>
+UR Eds: SUBS 3rd graf to conform to AP style. QL
+
+<TEXT>
+<s><ENAMEX TYPE="LOCATION">MOSCOW</ENAMEX> (<ENAMEX TYPE="ORGANIZATION">AP</ENAMEX>) _ The mayor of <ENAMEX TYPE="LOCATION">Moscow</ENAMEX>  has <EVENT eid="e1" class="OCCURRENCE" ><EVENT eid="e18" class="OCCURRENCE" >allocated</EVENT></EVENT> funds  <SIGNAL sid="s66" >to</SIGNAL> <EVENT eid="e2" class="I_ACTION" >help</EVENT>
+<EVENT eid="e3" class="OCCURRENCE" >build</EVENT> a museum in honor of <ENAMEX TYPE="PERSON">Mikhail Kalashnikov</ENAMEX>, the Russian who
+<EVENT eid="e6" class="OCCURRENCE" >gave</EVENT> his name to the world's most widely wielded weapon, <EVENT eid="e91" class="REPORTING" >according</EVENT>
+to a news agency <EVENT eid="e55" class="REPORTING" >report</EVENT> <TIMEX3 tid="t15" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-27" anchorTimeID="t13" >Friday</TIMEX3>.</s>
+<s><ENAMEX TYPE="PERSON">Kalashnikov</ENAMEX> <EVENT eid="e7" class="OCCURRENCE" >designed</EVENT> the AK-47 automatic rifle, famed for its
+reliability and effectiveness.</s> <s>Together with its derivatives, the
+<ENAMEX TYPE="PERSON">Kalashnikov</ENAMEX> rifle  has  been <EVENT eid="e8" class="OCCURRENCE" >used</EVENT> by the police and armies of <CARDINAL>55</CARDINAL>
+countries and an assortment of guerrillas, terrorists and just
+plain thugs around the globe.</s>
+<s><CARDINAL>Seventy-five million</CARDINAL> copies of the rifle  have  been <EVENT eid="e9" class="OCCURRENCE" >built</EVENT> <SIGNAL sid="s88" >since</SIGNAL>
+it <EVENT eid="e10" class="ASPECTUAL" >entered</EVENT> <EVENT eid="e79" class="STATE" >production</EVENT> <SIGNAL sid="s97" >in</SIGNAL> <TIMEX3 tid="t16" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1947-02" >February 1947</TIMEX3>, making it history's most
+widely distributed weapon.</s>
+<s>UR The <ENAMEX TYPE="ORGANIZATION">ITAR-Tass</ENAMEX>, 4th graf pvs
+(pvs/ji)</s>
+</TEXT>
+(PROFILE
+(WS SL:BC-Russia-Kalashnikov's Museum, 1st Ld; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:MEST;)
+(REG:AFRI;)
+(REG:INDI;)
+(REG:ENGL;)
+(REG:ASIA;)
+(LANG:ENGLISH;))
+)
+</BODY>
+<TRAILER>
+<s>AP-NY-<TIMEX3 tid="t17" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-27T07:56" >02-27-98 0756EST</TIMEX3></s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei104" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei105" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei106" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei107" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei108" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei109" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei110" tense="NONE" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei111" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei112" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei113" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei114" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei115" tense="NONE" eventID="e79" />
+<MAKEINSTANCE aspect="NONE" eiid="ei116" tense="NONE" eventID="e2" />
+<TLINK relatedToEventInstance="ei110" eventInstanceID="ei109" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei112" eventInstanceID="ei111" relType="BEFORE" />
+<TLINK relatedToTime="t15" eventInstanceID="ei110" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei104" eventInstanceID="ei108" relType="BEFORE" />
+<TLINK signalID="s97" relatedToTime="t16" eventInstanceID="ei111" relType="BEFORE" />
+<TLINK signalID="s97" relatedToTime="t16" eventInstanceID="ei114" relType="IS_INCLUDED" />
+<TLINK signalID="s97" relatedToTime="t16" eventInstanceID="ei113" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei111" eventInstanceID="ei113" relType="AFTER" />
+<TLINK relatedToEventInstance="ei114" signalID="s88" eventInstanceID="ei113" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei107" eventInstanceID="ei106" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei104" eventInstanceID="ei110" relType="EVIDENTIAL" />
+<SLINK signalID="s66" subordinatedEventInstance="ei116" eventInstanceID="ei104" relType="MODAL" />
+<ALINK relatedToEventInstance="ei115" eventInstanceID="ei114" relType="INITIATES" />
+</TimeML>

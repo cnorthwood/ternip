@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0189 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0189. </AN>
+<HL> Security Pacific Corp. </HL>
+<DD> <TIMEX3 tid="t28" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> SPC LJC </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) </IN>
+<DATELINE> LOS ANGELES  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Security Pacific Corp.</ENAMEX> has <EVENT eid="e1" class="OCCURRENCE" >set</EVENT> its sights on <EVENT eid="e4" class="OCCURRENCE" >buying</EVENT> its second bank holding company <TIMEX3 tid="t29" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t28" >this year</TIMEX3>.</s> 
+
+   <s>Security <EVENT eid="e7" class="REPORTING" >said</EVENT> it <EVENT eid="e8" class="OCCURRENCE" >signed</EVENT> a letter of <EVENT eid="e10" class="I_STATE" >intent</EVENT> <SIGNAL sid="s11" >to</SIGNAL> <EVENT eid="e12" class="OCCURRENCE" >purchase</EVENT> <ENAMEX TYPE="ORGANIZATION">La Jolla Bancorp</ENAMEX>, <EVENT eid="e13" class="I_STATE" >agreeing</EVENT> <SIGNAL sid="s14" >to</SIGNAL> <EVENT eid="e15" class="OCCURRENCE" >pay</EVENT> <NUMEX TYPE="MONEY">$15</NUMEX> of its own stock for each share of <ENAMEX TYPE="LOCATION">La Jolla</ENAMEX>.</s> 
+<s>Based on the <TIMEX3 tid="t30" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t28" >current</TIMEX3> number of <ENAMEX TYPE="LOCATION">La Jolla</ENAMEX> shares, that gives the <EVENT eid="e19" class="OCCURRENCE" >transaction</EVENT> a <EVENT eid="e35" class="STATE" >value of <NUMEX TYPE="MONEY">$104 million</NUMEX></EVENT>.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">La Jolla</ENAMEX> is the parent company of <ENAMEX TYPE="ORGANIZATION">La Jolla Bank amp Trust Co.</ENAMEX>, which <EVENT eid="e20" class="OCCURRENCE" >has</EVENT> <CARDINAL>12</CARDINAL> branches in <ENAMEX TYPE="LOCATION">San Diego County</ENAMEX>.</s> 
+<s><TIMEX3 mod="ON_OR_BEFORE" tid="t33" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-09-30" >As of Sept. 30</TIMEX3>, the bank had <EVENT eid="e26" class="STATE" >assets of <NUMEX TYPE="MONEY">$511 million</NUMEX></EVENT> and <EVENT eid="e27" class="STATE" >deposits of <NUMEX TYPE="MONEY">$469 million</NUMEX></EVENT>, <ENAMEX TYPE="ORGANIZATION">Security Pacific</ENAMEX> <EVENT eid="e22" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><TIMEX3 mod="START" tid="t34" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10" anchorTimeID="t28" >Earlier this month</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Security Pacific</ENAMEX>, which is among the <CARDINAL>10</CARDINAL> largest bank holding companies in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX>, <EVENT eid="e24" class="ASPECTUAL" >completed</EVENT> the <EVENT eid="e25" class="OCCURRENCE" >acquisition</EVENT> of <ENAMEX TYPE="LOCATION">San</ENAMEX> Diego-based <ENAMEX TYPE="ORGANIZATION">Southwest Bancorp.</ENAMEX></s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1990" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1991" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1996" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PRESENT" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e25" />
+<TLINK relatedToTime="t28" eventInstanceID="ei1990" relType="BEFORE" />
+<TLINK relatedToTime="t28" timeID="t34" relType="BEFORE" />
+<TLINK relatedToTime="t30" eventInstanceID="ei1999" relType="DURING" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1998" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei1995" relType="INCLUDES" />
+<TLINK relatedToTime="t29" eventInstanceID="ei1990" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1994" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2004" timeID="t34" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t28" eventInstanceID="ei1992" relType="BEFORE" />
+<TLINK relatedToTime="t33" eventInstanceID="ei2002" relType="ENDED_BY" />
+<TLINK relatedToTime="t33" eventInstanceID="ei2001" relType="ENDED_BY" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2000" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei1994" relType="INCLUDES" />
+<SLINK subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2003" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2003" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="EVIDENTIAL" />
+<SLINK signalID="s11" subordinatedEventInstance="ei1995" eventInstanceID="ei1994" relType="MODAL" />
+<SLINK signalID="s14" subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="CULMINATES" />
+</TimeML>

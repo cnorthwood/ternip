@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0097 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0097. </AN>
+<HL> Hudson's Bay Gives
+@  Terms of Rights Offer
+@  To Raise $337 Million </HL>
+<DD> <TIMEX3 tid="t49" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> T.HBC </CO>
+<IN> BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) </IN>
+<DATELINE> TORONTO  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Hudson</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Bay Co.</ENAMEX> <EVENT eid="e1" class="OCCURRENCE" >announced</EVENT> terms of a previously proposed rights issue that is <EVENT eid="e2" class="I_STATE" >expected</EVENT> <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="OCCURRENCE" >raise</EVENT> about <NUMEX TYPE="MONEY">396 million Canadian dollars</NUMEX> (<ENAMEX TYPE="LOCATION">US</ENAMEX><NUMEX TYPE="MONEY">$337 million</NUMEX>) net of expenses.</s> 
+
+   <s>Proceeds of the offering will be <EVENT eid="e7" class="OCCURRENCE" >used</EVENT> <SIGNAL sid="s8" >to</SIGNAL> <EVENT eid="e9" class="OCCURRENCE" >redeem</EVENT> C$<CARDINAL>264 million</CARDINAL> of preferred shares and <SIGNAL sid="s10" >to</SIGNAL> <EVENT eid="e11" class="OCCURRENCE" >reduce</EVENT> short-term debt, the company <EVENT eid="e12" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">Canada</ENAMEX>'s largest department store operator <EVENT eid="e13" class="REPORTING" >said</EVENT> the rights <EVENT eid="e41" class="OCCURRENCE" >offering</EVENT> will <EVENT eid="e15" class="I_STATE" >entitle</EVENT> holders of its ordinary shares, except residents in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> and <ENAMEX TYPE="LOCATION">Britain</ENAMEX>, <SIGNAL sid="s16" >to</SIGNAL> <EVENT eid="e17" class="OCCURRENCE" >subscribe</EVENT> for <CARDINAL>two</CARDINAL> additional shares for every <CARDINAL>five</CARDINAL> shares held at a price of C$<CARDINAL>31.25</CARDINAL> a share.</s> 
+<s>The <EVENT eid="e42" class="OCCURRENCE" >record</EVENT> date is <TIMEX3 tid="t50" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-08" anchorTimeID="t49" >Nov. 9</TIMEX3>.</s> 
+
+   <s>The company <EVENT eid="e21" class="STATE" >has</EVENT> <CARDINAL>about 31 million</CARDINAL> ordinary shares outstanding.</s> 
+<s>On the <ENAMEX TYPE="ORGANIZATION">Toronto Stock Exchange</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Hudson</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Bay</ENAMEX> shares <EVENT eid="e22" class="OCCURRENCE" >closed</EVENT> at <EVENT eid="e43" class="STATE" >C$<CARDINAL>35</CARDINAL></EVENT>, up <NUMEX TYPE="MONEY">12.5 cents</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Hudson</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Bay</ENAMEX> <EVENT eid="e23" class="REPORTING" >said</EVENT> that <ENAMEX TYPE="ORGANIZATION">Woodbridge Co.</ENAMEX>, which <TIMEX3 tid="t51" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t49" >currently</TIMEX3> <EVENT eid="e24" class="STATE" >holds</EVENT> about <NUMEX TYPE="PERCENT">77%</NUMEX> of the ordinary shares, will <EVENT eid="e25" class="OCCURRENCE" >subscribe</EVENT> for all the shares to which it is entitled and for any shares that are n't otherwise taken up.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Woodbridge</ENAMEX> is a holding company owned by <ENAMEX TYPE="ORGANIZATION">Toronto</ENAMEX>'s <ENAMEX TYPE="LOCATION">Thomson</ENAMEX> family.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Hudson</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Bay</ENAMEX> <EVENT eid="e30" class="REPORTING" >said</EVENT> it will <EVENT eid="e31" class="OCCURRENCE" >redeem</EVENT> <CARDINAL>9.5 million</CARDINAL> Series H preferred shares <SIGNAL sid="s45" >on</SIGNAL> <TIMEX3 tid="t52" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-31" anchorTimeID="t49" >Oct. 31</TIMEX3> at a price of C$<CARDINAL>27.75</CARDINAL> each.</s> 
+<s>The <EVENT eid="e33" class="OCCURRENCE" >move</EVENT> was <EVENT eid="e34" class="I_ACTION" >approved</EVENT> at a special shareholders' <EVENT eid="e35" class="OCCURRENCE" >meeting</EVENT> <TIMEX3 tid="t53" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t49" >yesterday</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Gary Lukassen, chief financial officer</ENAMEX>, <EVENT eid="e36" class="REPORTING" >said</EVENT> <EVENT eid="e188" class="OCCURRENCE" >redemption</EVENT> of the preferred shares, originally <EVENT eid="e38" class="OCCURRENCE" >issued</EVENT> at C$<CARDINAL>25</CARDINAL> each, will <EVENT eid="e39" class="ASPECTUAL" >eliminate</EVENT> dividend <EVENT eid="e40" class="OCCURRENCE" >payments</EVENT> of C$<CARDINAL>17.9 million</CARDINAL> annually.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei213" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei214" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei215" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei216" tense="FUTURE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei217" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei218" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei219" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei220" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei221" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei222" tense="FUTURE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei223" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei224" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei225" tense="PRESENT" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei226" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei227" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei228" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei229" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei230" tense="FUTURE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei231" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei232" tense="FUTURE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei233" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei234" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei235" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei236" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei237" tense="NONE" eventID="e188" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei238" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei239" tense="FUTURE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei240" tense="NONE" eventID="e40" />
+<TLINK relatedToTime="t49" eventInstanceID="ei213" relType="BEFORE" />
+<TLINK relatedToTime="t49" eventInstanceID="ei229" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei227" eventInstanceID="ei226" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei214" eventInstanceID="ei213" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t51" eventInstanceID="ei229" relType="DURING" />
+<TLINK relatedToEventInstance="ei214" timeID="t49" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei223" eventInstanceID="ei224" relType="IDENTITY" />
+<TLINK relatedToTime="t49" eventInstanceID="ei226" relType="BEFORE" />
+<TLINK relatedToTime="t49" eventInstanceID="ei225" relType="INCLUDES" />
+<TLINK relatedToTime="t49" eventInstanceID="ei216" relType="AFTER" />
+<TLINK relatedToEventInstance="ei228" eventInstanceID="ei231" relType="IDENTITY" />
+<TLINK signalID="s45" relatedToTime="t52" eventInstanceID="ei232" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei239" eventInstanceID="ei238" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei239" eventInstanceID="ei237" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei237" eventInstanceID="ei238" relType="BEFORE" />
+<TLINK relatedToTime="t50" eventInstanceID="ei224" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t53" eventInstanceID="ei235" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei231" eventInstanceID="ei236" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t49" eventInstanceID="ei235" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei222" eventInstanceID="ei221" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei223" eventInstanceID="ei222" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei235" eventInstanceID="ei234" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei233" eventInstanceID="ei234" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei232" eventInstanceID="ei233" relType="INCLUDES" />
+<SLINK subordinatedEventInstance="ei230" eventInstanceID="ei228" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei215" eventInstanceID="ei214" relType="MODAL" />
+<SLINK signalID="s8" subordinatedEventInstance="ei217" eventInstanceID="ei216" relType="MODAL" />
+<SLINK signalID="s10" subordinatedEventInstance="ei218" eventInstanceID="ei216" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei216" eventInstanceID="ei219" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei239" eventInstanceID="ei236" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei222" eventInstanceID="ei220" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei232" eventInstanceID="ei231" relType="EVIDENTIAL" />
+<SLINK signalID="s16" subordinatedEventInstance="ei223" eventInstanceID="ei222" relType="MODAL" />
+<ALINK relatedToEventInstance="ei240" eventInstanceID="ei239" relType="TERMINATES" />
+</TimeML>

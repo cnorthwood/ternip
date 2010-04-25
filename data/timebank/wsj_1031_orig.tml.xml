@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0025 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0025. </AN>
+<HL> Business Brief -- Philip Morris Cos.:
+@  Defense Measure Is Adopted
+@  By Foods, Tobacco Concern </HL>
+<DD> <TIMEX3 tid="t23" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> MO </CO>
+<IN> TOBACCO PRODUCTS (TOB)
+FOOD PRODUCTS (FOD) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Philip Morris Cos.</ENAMEX>, <ENAMEX TYPE="LOCATION">New York</ENAMEX>, <EVENT eid="e1" class="OCCURRENCE" >adopted</EVENT> a defense measure <EVENT eid="e3" class="OCCURRENCE" >designed</EVENT> <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e5" class="OCCURRENCE" >make</EVENT> a hostile <EVENT eid="e6" class="OCCURRENCE" >takeover</EVENT> prohibitively expensive.</s> 
+
+   <s>The giant foods, tobacco and brewing company <EVENT eid="e7" class="REPORTING" >said</EVENT> it will <EVENT eid="e8" class="OCCURRENCE" >issue</EVENT> common-share purchase rights to shareholders of <EVENT eid="e9" class="OCCURRENCE" >record</EVENT> <TIMEX3 tid="t24" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-08" anchorTimeID="t23" >Nov. 8</TIMEX3>.</s> 
+<s>Under certain circumstances, the rights <SIGNAL sid="s11" >would</SIGNAL> <EVENT eid="e10" class="I_STATE" >entitle</EVENT> <ENAMEX TYPE="ORGANIZATION">Philip Morris</ENAMEX> holders <SIGNAL sid="s12" >to</SIGNAL> <EVENT eid="e13" class="OCCURRENCE" >buy</EVENT> shares of either the company or its acquirer for half price.</s> 
+
+   <s>The board is <SIGNAL sid="s14" >n't</SIGNAL>  <EVENT eid="e27" class="STATE" >aware</EVENT> of any <EVENT eid="e15" class="I_ACTION" >attempts</EVENT> <SIGNAL sid="s16" >to</SIGNAL> <EVENT eid="e17" class="OCCURRENCE" >take</EVENT> over <ENAMEX TYPE="ORGANIZATION">Philip Morris</ENAMEX>, the company <EVENT eid="e18" class="REPORTING" >said</EVENT>.</s> 
+<s>As of <TIMEX3 tid="t25" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-30" anchorTimeID="t23" >Sept. 30</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Philip Morris</ENAMEX> <EVENT eid="e28" class="STATE" >had</EVENT> <CARDINAL>926 million</CARDINAL> shares outstanding.</s> 
+<s>In composite trading on the <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Philip Morris</ENAMEX> shares <EVENT eid="e20" class="OCCURRENCE" >closed</EVENT> <TIMEX3 tid="t26" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-26" anchorTimeID="t23" >yesterday</TIMEX3> at <NUMEX TYPE="MONEY">$43.50</NUMEX> each, down <NUMEX TYPE="MONEY">$1</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei55" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei56" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei57" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei58" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei59" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei60" tense="FUTURE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei61" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei62" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei63" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei64" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei65" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei66" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei67" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei68" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei69" tense="PAST" eventID="e20" />
+<TLINK relatedToTime="t23" eventInstanceID="ei55" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei69" timeID="t26" relType="INCLUDES" />
+<TLINK relatedToTime="t25" eventInstanceID="ei68" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei64" eventInstanceID="ei65" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei61" timeID="t24" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei59" timeID="t23" relType="AFTER" />
+<TLINK relatedToEventInstance="ei57" eventInstanceID="ei58" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei64" eventInstanceID="ei67" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei66" eventInstanceID="ei65" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei63" eventInstanceID="ei62" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei60" eventInstanceID="ei59" relType="EVIDENTIAL" />
+<SLINK signalID="s4" subordinatedEventInstance="ei57" eventInstanceID="ei56" relType="MODAL" />
+</TimeML>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t14" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-01" >891101</TIMEX3>-0102 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0102. </AN>
+<HL> Dividend News:
+@  Unifirst Corp. </HL>
+<DD> <TIMEX3 tid="t13" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> UNF </CO>
+<IN> DIVIDENDS (DIV)
+EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">UNIFIRST Corp.</ENAMEX> <EVENT eid="e1" class="I_ACTION" >declared</EVENT> a 2-for-<CARDINAL>1</CARDINAL> stock <EVENT eid="e1989" class="OCCURRENCE" >split</EVENT>.</s> 
+<s>The <ENAMEX TYPE="LOCATION">Wilmington</ENAMEX>, <ENAMEX TYPE="LOCATION">Mass.</ENAMEX>, garment service company also <EVENT eid="e2" class="OCCURRENCE" >boosted</EVENT> its quarterly dividend <NUMEX TYPE="PERCENT">20%</NUMEX> to <NUMEX TYPE="MONEY">three cents</NUMEX> a share adjusted for the <EVENT eid="e1990" class="OCCURRENCE" >split</EVENT>.</s> 
+<s>The dividend had <EVENT eid="e1991" class="STATE" >been</EVENT> <NUMEX TYPE="MONEY">five cents</NUMEX> a share.</s> 
+<s>The split and quarterly dividend will be <EVENT eid="e1995" class="STATE" >payable</EVENT> <TIMEX3 tid="t17" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990-01-03" anchorTimeID="t13" >Jan. 3</TIMEX3> to stock of record <TIMEX3 tid="t18" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-16" anchorTimeID="t13" >Nov. 16</TIMEX3>, the company <EVENT eid="e4" class="REPORTING" >said</EVENT>.</s> 
+<s>The <EVENT eid="e2044" class="OCCURRENCE" >split</EVENT>  will <EVENT eid="e5" class="REPORTING" >raise</EVENT> the number of shares <EVENT eid="e1992" class="STATE" >outstanding</EVENT> to <CARDINAL>about 10.2 million</CARDINAL>.</s> 
+<s>Separately, <ENAMEX TYPE="ORGANIZATION">UniFirst</ENAMEX> <EVENT eid="e6" class="REPORTING" >reported</EVENT> that net income <EVENT eid="e7" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">21%</NUMEX> to <NUMEX TYPE="MONEY">$3 million</NUMEX>, or <NUMEX TYPE="MONEY">29 cents</NUMEX> a share adjusted for the <EVENT eid="e2065" class="OCCURRENCE" >split</EVENT>, <SIGNAL sid="s2071" >for</SIGNAL> <TIMEX3 tid="t20" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q4" anchorTimeID="t19" >the fourth quarter</TIMEX3> <EVENT eid="e9" class="ASPECTUAL" >ended</EVENT> <TIMEX3 tid="t19" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-08-26" anchorTimeID="t13" >Aug. 26</TIMEX3>.</s> 
+<s><TIMEX3 mod="APPROX" tid="t2096" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-11-01" anchorTimeID="t13" >A year earlier</TIMEX3> <ENAMEX TYPE="ORGANIZATION">UniFirst</ENAMEX> <EVENT eid="e10" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$2.4 million</NUMEX>, or <NUMEX TYPE="MONEY">24 cents</NUMEX> a share adjusted for the <EVENT eid="e1994" class="OCCURRENCE" >split</EVENT>.</s> 
+<s>Sales <EVENT eid="e12" class="OCCURRENCE" >rose</EVENT> to <NUMEX TYPE="MONEY">$52.4 million</NUMEX> from <NUMEX TYPE="MONEY">$50.1 million</NUMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2107" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2108" tense="NONE" eventID="e1989" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2109" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2110" tense="NONE" eventID="e1990" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2111" tense="PAST" eventID="e1991" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2112" tense="FUTURE" eventID="e1995" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2113" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2114" tense="NONE" eventID="e2044" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2115" tense="FUTURE" eventID="e5" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2116" tense="NONE" eventID="e1992" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2117" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2118" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2119" tense="NONE" eventID="e2065" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2120" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2121" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2122" tense="NONE" eventID="e1994" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2123" tense="PAST" eventID="e12" />
+<TLINK relatedToEventInstance="ei2116" eventInstanceID="ei2115" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2108" eventInstanceID="ei2114" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2115" eventInstanceID="ei2114" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2114" eventInstanceID="ei2119" relType="IDENTITY" />
+<TLINK relatedToTime="t13" eventInstanceID="ei2117" relType="BEFORE" />
+<TLINK relatedToTime="t13" eventInstanceID="ei2113" relType="BEFORE" />
+<TLINK signalID="s2071" relatedToTime="t20" eventInstanceID="ei2118" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t17" eventInstanceID="ei2112" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2108" eventInstanceID="ei2111" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2110" eventInstanceID="ei2108" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2107" eventInstanceID="ei2109" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t13" eventInstanceID="ei2123" relType="BEFORE" />
+<TLINK relatedToTime="t13" eventInstanceID="ei2107" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2120" timeID="t20" relType="ENDED_BY" />
+<TLINK relatedToTime="t19" eventInstanceID="ei2120" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2108" eventInstanceID="ei2107" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2121" timeID="t2096" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2114" eventInstanceID="ei2122" relType="IDENTITY" />
+<SLINK subordinatedEventInstance="ei2118" eventInstanceID="ei2117" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2112" eventInstanceID="ei2113" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2108" eventInstanceID="ei2107" relType="FACTIVE" />
+</TimeML>

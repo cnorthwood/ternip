@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0153 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0153. </AN>
+<HL> Diversified Investment Group </HL>
+<DD> <TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> DING STSS </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> PHILADELPHIA  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Diversified Investment Group Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s3" >to</SIGNAL> be <EVENT eid="e4" class="OCCURRENCE" >acquired</EVENT> by <ENAMEX TYPE="ORGANIZATION">Star States Corp.</ENAMEX> for stock <EVENT eid="e5" class="OCCURRENCE" >valued</EVENT> at <NUMEX TYPE="MONEY">$13.75</NUMEX> a share, or about <NUMEX TYPE="MONEY">$24.4 million</NUMEX>.</s> 
+
+   <s>Diversified, the holding company for <ENAMEX TYPE="ORGANIZATION">Fidelity Federal Savings amp Loan Association</ENAMEX>, <EVENT eid="e6" class="REPORTING" >said</EVENT> the <EVENT eid="e7" class="OCCURRENCE" >agreement</EVENT> also <EVENT eid="e8" class="OCCURRENCE" >gives</EVENT> <ENAMEX TYPE="ORGANIZATION">Star States</ENAMEX> the <EVENT eid="e9" class="I_STATE" >option</EVENT> <SIGNAL sid="s10" >to</SIGNAL> <EVENT eid="e11" class="OCCURRENCE" >acquire</EVENT> <CARDINAL>588,300</CARDINAL> of <ENAMEX TYPE="ORGANIZATION">Diversified</ENAMEX>'s <CARDINAL>1,774,326</CARDINAL> shares outstanding "under certain circumstances."</s> 
+
+   <s>The <EVENT eid="e12" class="OCCURRENCE" >acquisition</EVENT> <SIGNAL sid="s14" >would</SIGNAL> <EVENT eid="e13" class="OCCURRENCE" >give</EVENT> <ENAMEX TYPE="LOCATION">Wilmington</ENAMEX>, <ENAMEX TYPE="LOCATION">Del.</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Star States</ENAMEX> <EVENT eid="e25" class="STATE" >access</EVENT> to the <ENAMEX TYPE="LOCATION">Pennsylvania</ENAMEX> market.</s> 
+
+   <s>The <EVENT eid="e16" class="STATE" >agreement</EVENT> is <EVENT eid="e26" class="I_STATE" >subject</EVENT> to regulatory <EVENT eid="e17" class="OCCURRENCE" >approval</EVENT> and <EVENT eid="e18" class="OCCURRENCE" >resolution</EVENT> of lawsuits <EVENT eid="e20" class="OCCURRENCE" >brought</EVENT> by certain <ENAMEX TYPE="ORGANIZATION">Diversified</ENAMEX> holders in connection with the proposed <EVENT eid="e22" class="OCCURRENCE" >merger</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei114" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei115" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei116" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei117" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei118" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei119" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei120" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei121" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei124" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="PRESENT" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei130" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei131" tense="NONE" eventID="e22" />
+<TLINK relatedToEventInstance="ei116" eventInstanceID="ei131" relType="INCLUDES" />
+<TLINK relatedToTime="t27" eventInstanceID="ei114" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei117" eventInstanceID="ei116" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei114" eventInstanceID="ei118" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei120" eventInstanceID="ei119" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei115" eventInstanceID="ei119" relType="AFTER" />
+<TLINK relatedToEventInstance="ei121" eventInstanceID="ei119" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei116" eventInstanceID="ei123" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei124" eventInstanceID="ei123" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei125" eventInstanceID="ei123" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei115" eventInstanceID="ei126" relType="AFTER" />
+<TLINK relatedToEventInstance="ei119" eventInstanceID="ei126" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei129" eventInstanceID="ei130" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei115" eventInstanceID="ei114" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei116" eventInstanceID="ei115" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei120" eventInstanceID="ei118" relType="EVIDENTIAL" />
+<SLINK signalID="s10" subordinatedEventInstance="ei122" eventInstanceID="ei121" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei128" eventInstanceID="ei127" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei129" eventInstanceID="ei127" relType="MODAL" />
+</TimeML>

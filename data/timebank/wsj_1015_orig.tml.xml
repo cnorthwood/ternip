@@ -1,0 +1,296 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0041 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0041. </AN>
+<HL> World Markets:
+@  Tokyo Shares Post a Second Consecutive Drop;
+@  London Exchange Gains, but Frankfurt Declines
+@  ----
+@  A Wall Street Journal News Roundup </HL>
+<DD> <TIMEX3 tid="t209" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> EUROP CANDA JAPAN FREST </CO>
+<IN> STOCK MARKET, OFFERINGS (STK)
+COMMODITY NEWS, FARM PRODUCTS (CMD)
+PRECIOUS METALS, STONES, GOLD, SILVER (PCS) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="LOCATION">Tokyo</ENAMEX> stocks <EVENT eid="e1" class="OCCURRENCE" >closed</EVENT> easier for the <TIMEX3 tid="t210" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t209" >second consecutive day</TIMEX3>, <EVENT eid="e2" class="ASPECTUAL" >finishing</EVENT> at the intraday low on index-linked investment trust fund <EVENT eid="e3" class="OCCURRENCE" >selling</EVENT> toward the end of the afternoon <EVENT eid="e5" class="OCCURRENCE" >session</EVENT>.</s> 
+<s>Stocks <EVENT eid="e6" class="OCCURRENCE" >rose</EVENT> in <ENAMEX TYPE="LOCATION">London</ENAMEX>, but <EVENT eid="e7" class="OCCURRENCE" >fell</EVENT> again in <ENAMEX TYPE="LOCATION">Frankfurt</ENAMEX>.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">Tokyo</ENAMEX>'s Nikkei index <EVENT eid="e9" class="OCCURRENCE" >fell</EVENT> <CARDINAL>84.15</CARDINAL> points to <CARDINAL><EVENT eid="e211" class="STATE" >35442.40</EVENT></CARDINAL>.</s> 
+<s>Trading <EVENT eid="e212" class="STATE" >was</EVENT> active.</s> 
+<s>Volume on the first section was <EVENT eid="e13" class="OCCURRENCE" >estimated</EVENT> at <CARDINAL>1 billion</CARDINAL> shares, up from <CARDINAL>914 million</CARDINAL> <TIMEX3 tid="t219" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-24" anchorTimeID="t209" >Tuesday</TIMEX3>.</s> 
+<s>The <ENAMEX TYPE="LOCATION">Tokyo</ENAMEX> stock price index of first section issues was down <CARDINAL>8.65</CARDINAL> at <CARDINAL>2672.57</CARDINAL>.</s> 
+
+   <s>In early <EVENT eid="e15" class="OCCURRENCE" >trading</EVENT> in <ENAMEX TYPE="LOCATION">Tokyo</ENAMEX> <TIMEX3 tid="t217" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t209" >Thursday</TIMEX3>, the Nikkei index <EVENT eid="e17" class="OCCURRENCE" >rose</EVENT> <CARDINAL>145.45</CARDINAL> points to <CARDINAL><EVENT eid="e218" class="STATE" >35587.85</EVENT></CARDINAL>.</s> 
+
+   <s>On Wednesday, the <EVENT eid="e18" class="OCCURRENCE" >market</EVENT> <EVENT eid="e19" class="OCCURRENCE" >opened</EVENT> bullishly with high turnover, <EVENT eid="e20" class="OCCURRENCE" >ignoring</EVENT> the volatility in <ENAMEX TYPE="LOCATION">New York</ENAMEX> stocks.</s> 
+<s>But losers were <EVENT eid="e21" class="OCCURRENCE" >spread</EVENT> <SIGNAL sid="s22" >in</SIGNAL> a broad range by the end of the <EVENT eid="e23" class="OCCURRENCE" >session</EVENT>.</s> 
+<s>A trader <EVENT eid="e24" class="REPORTING" >said</EVENT> that the more an issue <EVENT eid="e25" class="OCCURRENCE" >gained</EVENT> recently, the sharper the <EVENT eid="e26" class="OCCURRENCE" >loss</EVENT> <EVENT eid="e27" class="OCCURRENCE" >sustained</EVENT> Wednesday.</s> 
+
+   <s>A trader at <ENAMEX TYPE="ORGANIZATION">Yamaichi Securities</ENAMEX> <EVENT eid="e28" class="REPORTING" >said</EVENT> the <EVENT eid="e29" class="OCCURRENCE" >market</EVENT>'s mood was undercut by the continuing fall of <ENAMEX TYPE="ORGANIZATION">Nippon Telegraph amp Telephone</ENAMEX> shares, which <EVENT eid="e30" class="OCCURRENCE" >declined</EVENT> to their lowest level since the begining of this year.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">NTT</ENAMEX> <EVENT eid="e31" class="OCCURRENCE" >lost</EVENT> <NUMEX TYPE="MONEY">30,000 yen to 1,380,000 yen</NUMEX> (<NUMEX TYPE="MONEY">$9,756</NUMEX>).</s> 
+
+   <s>Some traders <EVENT eid="e32" class="OCCURRENCE" >noted</EVENT> individual investors <EVENT eid="e33" class="OCCURRENCE" >dumped</EVENT> <ENAMEX TYPE="ORGANIZATION">NTT</ENAMEX> shares amid <EVENT eid="e34" class="OCCURRENCE" >growing</EVENT> expectation for a division of the company as <EVENT eid="e35" class="OCCURRENCE" >suggested</EVENT> by a recent government-sponsored panel.</s> 
+
+   <s>Dealers <EVENT eid="e36" class="REPORTING" >said</EVENT> they also <EVENT eid="e37" class="OCCURRENCE" >took</EVENT> profits <SIGNAL sid="s38" >to</SIGNAL> <EVENT eid="e39" class="OCCURRENCE" >reduce</EVENT> <EVENT eid="e40" class="OCCURRENCE" >holdings</EVENT> <SIGNAL sid="s42" >in</SIGNAL> their own <EVENT eid="e41" class="OCCURRENCE" >account</EVENT> <SIGNAL sid="s43" >at</SIGNAL> the end of the October <EVENT eid="e44" class="OCCURRENCE" >transaction</EVENT> period.</s> 
+
+   <s>Among pharmaceutical shares, <ENAMEX TYPE="ORGANIZATION">Chugai</ENAMEX> <EVENT eid="e45" class="OCCURRENCE" >lost</EVENT> <NUMEX TYPE="MONEY">60 yen to 2,290 yen</NUMEX> (<NUMEX TYPE="MONEY">$16.20</NUMEX>), and <ENAMEX TYPE="ORGANIZATION">Mochida</ENAMEX> <EVENT eid="e46" class="OCCURRENCE" >fell</EVENT> <CARDINAL>150</CARDINAL> to <CARDINAL>4,290</CARDINAL>.</s> 
+
+   <s>Other losing issues <EVENT eid="e47" class="OCCURRENCE" >included</EVENT> Showa Shell, which <EVENT eid="e48" class="OCCURRENCE" >fell</EVENT> <CARDINAL>40</CARDINAL> to <CARDINAL>1,520</CARDINAL>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Toyota Motor</ENAMEX> <EVENT eid="e49" class="OCCURRENCE" >fell</EVENT> <CARDINAL>40</CARDINAL> to <CARDINAL>2,680</CARDINAL>.</s> 
+
+   <s>Sekisui House, which <EVENT eid="e50" class="OCCURRENCE" >gained</EVENT> <CARDINAL>150</CARDINAL> Tuesday, <EVENT eid="e51" class="OCCURRENCE" >lost</EVENT> <CARDINAL>70</CARDINAL> to 2640.</s> 
+<s>Daiwa House also <EVENT eid="e52" class="ASPECTUAL" >ended</EVENT> easier, but Misawa Home was firmer.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Pioneer Electronic</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Sony</ENAMEX>, both of which <EVENT eid="e53" class="OCCURRENCE" >dominated</EVENT> <EVENT eid="e54" class="OCCURRENCE" >buying</EVENT> earlier this month, <EVENT eid="e55" class="OCCURRENCE" >continued</EVENT> to fall Wednesday.</s> 
+<s><ENAMEX TYPE="LOCATION">Pioneer</ENAMEX> was down <CARDINAL>90</CARDINAL> at <CARDINAL>5,810</CARDINAL>, and <ENAMEX TYPE="ORGANIZATION">Sony</ENAMEX> <EVENT eid="e56" class="OCCURRENCE" >lost</EVENT> <CARDINAL>40</CARDINAL> to <CARDINAL>8,550</CARDINAL>, down <NUMEX TYPE="PERCENT">10%</NUMEX> <SIGNAL sid="s58" >from</SIGNAL> its <EVENT eid="e57" class="OCCURRENCE" >record</EVENT> <EVENT eid="e59" class="OCCURRENCE" >set</EVENT> Oct. 11.</s> 
+
+   <s>London share prices <EVENT eid="e60" class="OCCURRENCE" >closed</EVENT> modestly higher largely <SIGNAL sid="s62" >on</SIGNAL> technical <EVENT eid="e61" class="OCCURRENCE" >factors</EVENT>, although the <EVENT eid="e63" class="OCCURRENCE" >market</EVENT> was <EVENT eid="e64" class="OCCURRENCE" >underpinned</EVENT> near the end of the <EVENT eid="e65" class="OCCURRENCE" >session</EVENT> by <ENAMEX TYPE="LOCATION">Wall Street</ENAMEX>'s firmer trend.</s> 
+
+   <s>The <ENAMEX TYPE="ORGANIZATION">Financial Times</ENAMEX> 100-share index <EVENT eid="e66" class="ASPECTUAL" >finished</EVENT> at <CARDINAL>2161.9</CARDINAL>, up <CARDINAL>12.6</CARDINAL> points.</s> 
+<s>The 30-share <EVENT eid="e67" class="OCCURRENCE" >index</EVENT> <EVENT eid="e68" class="ASPECTUAL" >ended</EVENT> <CARDINAL>12.6</CARDINAL> points higher at <CARDINAL>1751.9</CARDINAL>.</s> 
+<s>Volume was thin <SIGNAL sid="s69" >at</SIGNAL> <CARDINAL>374.6 million</CARDINAL> shares traded <EVENT eid="e70" class="OCCURRENCE" >,</EVENT> down from <CARDINAL>405.4 million</CARDINAL> Tuesday.</s> 
+
+   <s>Dealers <EVENT eid="e71" class="REPORTING" >said</EVENT> the <EVENT eid="e72" class="OCCURRENCE" >market</EVENT> <EVENT eid="e73" class="OCCURRENCE" >gained</EVENT> some late steam <SIGNAL sid="s75" >on</SIGNAL> a <EVENT eid="e74" class="OCCURRENCE" >flurry</EVENT> of <EVENT eid="e76" class="OCCURRENCE" >buying</EVENT> by market-makers <EVENT eid="e77" class="OCCURRENCE" >looking</EVENT> <SIGNAL sid="s78" >at</SIGNAL> blue-chip issues and stocks <EVENT eid="e79" class="PERCEPTION" >viewed</EVENT> as <EVENT eid="e80" class="OCCURRENCE" >oversold</EVENT> <SIGNAL sid="s82" >during</SIGNAL> the <EVENT eid="e81" class="OCCURRENCE" >market</EVENT>'s recent downtrend.</s> 
+
+   <s>Outside what essentially <EVENT eid="e83" class="OCCURRENCE" >amounted</EVENT> to a bookkeeping <EVENT eid="e84" class="OCCURRENCE" >exercise</EVENT>, dealers <EVENT eid="e85" class="REPORTING" >said</EVENT> <ENAMEX TYPE="LOCATION">London</ENAMEX> dealings were largely <EVENT eid="e86" class="OCCURRENCE" >dulled</EVENT> by the <EVENT eid="e87" class="OCCURRENCE" >absence</EVENT> of active interest beyond the market-makers.</s> 
+
+   <s>The late buying was <EVENT eid="e88" class="OCCURRENCE" >drawn</EVENT> into the <ENAMEX TYPE="LOCATION">London</ENAMEX> market, dealers <EVENT eid="e89" class="OCCURRENCE" >added</EVENT>, after <ENAMEX TYPE="LOCATION">Wall Street</ENAMEX> <EVENT eid="e90" class="OCCURRENCE" >showed</EVENT> <EVENT eid="e91" class="OCCURRENCE" >signs</EVENT> of stability <EVENT eid="e92" class="OCCURRENCE" >following</EVENT> its rocky <EVENT eid="e93" class="OCCURRENCE" >opening</EVENT>.</s> 
+
+   <s>Stocks that <EVENT eid="e94" class="OCCURRENCE" >suffered</EVENT> on the day were those with active <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> operations, dealers <EVENT eid="e95" class="OCCURRENCE" >noted</EVENT>.</s> 
+<s>Among them were <ENAMEX TYPE="ORGANIZATION">B.A.T Industries</ENAMEX>, which <EVENT eid="e96" class="OCCURRENCE" >settled</EVENT> <NUMEX TYPE="MONEY">6 pence</NUMEX> a share lower at <CARDINAL>753</CARDINAL> (<NUMEX TYPE="MONEY">$12.10</NUMEX>).</s> 
+<s><ENAMEX TYPE="PERSON">Hanson</ENAMEX>, with <CARDINAL>15 million</CARDINAL> shares <EVENT eid="e97" class="OCCURRENCE" >traded</EVENT>, <EVENT eid="e98" class="OCCURRENCE" >closed</EVENT> <CARDINAL>2.5</CARDINAL> lower at <CARDINAL>212.5</CARDINAL>.</s> 
+
+   <s>Dealers <EVENT eid="e99" class="REPORTING" >said</EVENT> the shares were <EVENT eid="e100" class="OCCURRENCE" >hit</EVENT> by fears of a <EVENT eid="e101" class="OCCURRENCE" >slowdown</EVENT> in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> economy.</s> 
+
+   <s><EVENT eid="e102" class="OCCURRENCE" >Cable</EVENT> amp <ENAMEX TYPE="ORGANIZATION">Wireless</ENAMEX> <EVENT eid="e103" class="OCCURRENCE" >benefited</EVENT> <SIGNAL sid="s105" >from</SIGNAL> a market <EVENT eid="e104" class="OCCURRENCE" >squeeze</EVENT>, <EVENT eid="e106" class="OCCURRENCE" >bouncing</EVENT> <CARDINAL>13</CARDINAL> to <CARDINAL>498</CARDINAL> in moderately active volume.</s> 
+
+   <s>Jaguar was <EVENT eid="e107" class="OCCURRENCE" >boosted</EVENT> <CARDINAL>21</CARDINAL> to <CARDINAL>715</CARDINAL> on follow-through <EVENT eid="e108" class="OCCURRENCE" >buying</EVENT> after <ENAMEX TYPE="ORGANIZATION">Ford Motor</ENAMEX>'s <EVENT eid="e109" class="OCCURRENCE" >announcement</EVENT> Tuesday that it <SIGNAL sid="s111" >might</SIGNAL> be <EVENT eid="e110" class="OCCURRENCE" >prepared</EVENT> <SIGNAL sid="s112" >to</SIGNAL> <EVENT eid="e113" class="OCCURRENCE" >mount</EVENT> a full <EVENT eid="e114" class="OCCURRENCE" >bid</EVENT> for the <ENAMEX TYPE="LOCATION">U.K.</ENAMEX> luxury auto maker.</s> 
+<s>It was further <EVENT eid="e115" class="OCCURRENCE" >helped</EVENT> by <ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX>, which <EVENT eid="e116" class="OCCURRENCE" >announced</EVENT> after <ENAMEX TYPE="LOCATION">London</ENAMEX>'s <EVENT eid="e117" class="OCCURRENCE" >close</EVENT> that it had <EVENT eid="e118" class="OCCURRENCE" >raised</EVENT> its <EVENT eid="e119" class="OCCURRENCE" >stake</EVENT> to <NUMEX TYPE="PERCENT">12%</NUMEX> from just under <NUMEX TYPE="PERCENT">11%</NUMEX> on Tuesday.</s> 
+
+   <s>Frankfurt prices <EVENT eid="e120" class="OCCURRENCE" >closed</EVENT> sharply lower <SIGNAL sid="s122" >in</SIGNAL> thin <EVENT eid="e121" class="OCCURRENCE" >dealings</EVENT>, <EVENT eid="e123" class="OCCURRENCE" >hurt</EVENT> by the roller-coaster <EVENT eid="e124" class="OCCURRENCE" >session</EVENT> on <ENAMEX TYPE="LOCATION">Wall Street</ENAMEX> Tuesday and worries about wage <EVENT eid="e125" class="OCCURRENCE" >demands</EVENT> by the largest West German trade union.</s> 
+<s>The German stock <EVENT eid="e126" class="OCCURRENCE" >index</EVENT> <EVENT eid="e127" class="OCCURRENCE" >tumbled</EVENT> <CARDINAL>26.29</CARDINAL> <SIGNAL sid="s128" >to</SIGNAL> <EVENT eid="e129" class="ASPECTUAL" >end</EVENT> at <CARDINAL>1481.08</CARDINAL>.</s> 
+
+   <s>"It was dead, listless, depressing and negative," <EVENT eid="e130" class="REPORTING" >said</EVENT> one trader at a <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> bank in <ENAMEX TYPE="LOCATION">Frankfurt</ENAMEX>.</s> 
+<s>"There was little turnover and nothing <SIGNAL sid="s131" >to</SIGNAL> <EVENT eid="e132" class="OCCURRENCE" >stimulate</EVENT> the <EVENT eid="e133" class="OCCURRENCE" >market</EVENT>."</s> 
+
+   <s>Equities <EVENT eid="e134" class="OCCURRENCE" >tumbled</EVENT> <SIGNAL sid="s136" >at</SIGNAL> the <EVENT eid="e135" class="OCCURRENCE" >opening</EVENT> as Tuesday's <EVENT eid="e137" class="OCCURRENCE" >gyrations</EVENT> on <ENAMEX TYPE="LOCATION">Wall Street</ENAMEX>, where the Dow Jones Industrial Average <EVENT eid="e138" class="OCCURRENCE" >recovered</EVENT> most of an 80-point <EVENT eid="e139" class="OCCURRENCE" >loss</EVENT>, fueled fears of another stock market <EVENT eid="e140" class="OCCURRENCE" >crash</EVENT>, brokers <EVENT eid="e141" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>Tough <EVENT eid="e142" class="OCCURRENCE" >talk</EVENT> <SIGNAL sid="s143" >from</SIGNAL> trade union officials at the conference of the powerful IG Metall metals worker union in <ENAMEX TYPE="LOCATION">West Berlin</ENAMEX> <EVENT eid="e144" class="OCCURRENCE" >raised</EVENT> the specter of nationwide <EVENT eid="e145" class="OCCURRENCE" >strikes</EVENT> next spring, they <EVENT eid="e146" class="REPORTING" >said</EVENT>.</s> 
+<s>For the 1990 wage <EVENT eid="e147" class="OCCURRENCE" >negotiations</EVENT>, the IG Metall is <EVENT eid="e148" class="OCCURRENCE" >demanding</EVENT> a further <EVENT eid="e149" class="OCCURRENCE" >cut</EVENT> in the German workweek and steep wage <EVENT eid="e150" class="OCCURRENCE" >increases</EVENT>, which <SIGNAL sid="s152" >could</SIGNAL> sharply <EVENT eid="e151" class="OCCURRENCE" >increase</EVENT> the costs for German <EVENT eid="e153" class="OCCURRENCE" >industry</EVENT>.</s> 
+
+   <s>"All the positive <EVENT eid="e154" class="OCCURRENCE" >figures</EVENT> on the economy are out already, and people are <EVENT eid="e155" class="OCCURRENCE" >focusing</EVENT> more <SIGNAL sid="s157" >on</SIGNAL> the <EVENT eid="e156" class="OCCURRENCE" >dangers</EVENT> for next year, mostly the wage <EVENT eid="e158" class="OCCURRENCE" >talks</EVENT> and the {parliamentary} <EVENT eid="e159" class="OCCURRENCE" >elections</EVENT>," the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> trader <EVENT eid="e160" class="REPORTING" >said</EVENT>.</s> 
+<s>The <EVENT eid="e161" class="OCCURRENCE" >market</EVENT> also <EVENT eid="e162" class="OCCURRENCE" >shrugged</EVENT> off positive <EVENT eid="e163" class="OCCURRENCE" >factors</EVENT>, such as higher bond prices and a <EVENT eid="e164" class="OCCURRENCE" >slowdown</EVENT> <SIGNAL sid="s165" >in</SIGNAL> monetary growth in September, traders <EVENT eid="e166" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>They <EVENT eid="e167" class="REPORTING" >said</EVENT> they <EVENT eid="e168" class="I_STATE" >expect</EVENT> the bearish mood <SIGNAL sid="s169" >to</SIGNAL> <EVENT eid="e170" class="OCCURRENCE" >persist</EVENT> a <SIGNAL sid="s171" >while</SIGNAL> longer, as trading volume is <EVENT eid="e172" class="OCCURRENCE" >falling</EVENT> toward the end of the year and the <EVENT eid="e173" class="OCCURRENCE" >market</EVENT> is <EVENT eid="e174" class="OCCURRENCE" >becoming</EVENT> more volatile.</s> 
+
+   <s>In the auto sector, Bayerische Motoren Werke <EVENT eid="e175" class="OCCURRENCE" >plunged</EVENT> <NUMEX TYPE="MONEY">14.5 marks to 529 marks</NUMEX> (<NUMEX TYPE="MONEY">$288</NUMEX>), Daimler-Benz <EVENT eid="e176" class="OCCURRENCE" >dropped</EVENT> <CARDINAL>10.5</CARDINAL> to <CARDINAL>700</CARDINAL>, and Volkswagen <EVENT eid="e177" class="OCCURRENCE" >slumped</EVENT> <CARDINAL>9</CARDINAL> to <CARDINAL>435.5</CARDINAL>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Continental</ENAMEX> <EVENT eid="e178" class="OCCURRENCE" >gave</EVENT> up some of its recent gains, <EVENT eid="e179" class="OCCURRENCE" >dropping</EVENT> <CARDINAL>8</CARDINAL> to <CARDINAL>338</CARDINAL>, as <EVENT eid="e180" class="OCCURRENCE" >rumors</EVENT> of an impending takeover <EVENT eid="e181" class="OCCURRENCE" >attempt</EVENT> for the tiremaker <EVENT eid="e182" class="OCCURRENCE" >faded</EVENT>, brokers <EVENT eid="e183" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Deutsche Bank</ENAMEX> <EVENT eid="e184" class="OCCURRENCE" >plummeted</EVENT> <CARDINAL>12</CARDINAL> to <CARDINAL>645</CARDINAL>, <EVENT eid="e185" class="OCCURRENCE" >hurt</EVENT> by the general mood.</s> 
+<s>Other banks were slightly more resilient, with <ENAMEX TYPE="ORGANIZATION">Dresdner Bank</ENAMEX> <EVENT eid="e186" class="OCCURRENCE" >shedding</EVENT> <CARDINAL>4.8</CARDINAL> to <CARDINAL>320</CARDINAL>, and Commerzbank <EVENT eid="e187" class="OCCURRENCE" >slipping</EVENT> <CARDINAL>2.5</CARDINAL> to <CARDINAL>246.5</CARDINAL>.</s> 
+
+   <s>Meanwhile, <ENAMEX TYPE="LOCATION">Wall Street</ENAMEX>'s volatility <EVENT eid="e188" class="OCCURRENCE" >unnerved</EVENT> investors <SIGNAL sid="s190" >in</SIGNAL> other <EVENT eid="e189" class="OCCURRENCE" >markets</EVENT>.</s> 
+<s>Share prices <EVENT eid="e191" class="OCCURRENCE" >closed</EVENT> lower in <ENAMEX TYPE="LOCATION">Paris</ENAMEX>, <ENAMEX TYPE="LOCATION">Zurich</ENAMEX>, <ENAMEX TYPE="LOCATION">Brussels</ENAMEX>, <ENAMEX TYPE="LOCATION">Milan</ENAMEX> and <ENAMEX TYPE="LOCATION">Stockholm</ENAMEX>, and mixed in <ENAMEX TYPE="LOCATION">Amsterdam</ENAMEX>.</s> 
+
+   <s>Among <ENAMEX TYPE="LOCATION">Pacific</ENAMEX> markets, prices <EVENT eid="e192" class="OCCURRENCE" >closed</EVENT> lower in <ENAMEX TYPE="LOCATION">Sydney</ENAMEX>, <ENAMEX TYPE="LOCATION">Seoul</ENAMEX>, <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX>, <ENAMEX TYPE="LOCATION">Manila</ENAMEX>, <ENAMEX TYPE="LOCATION">Singapore</ENAMEX> and <ENAMEX TYPE="LOCATION">Wellington</ENAMEX>.</s> 
+<s><EVENT eid="e193" class="OCCURRENCE" >Trading</EVENT> in <ENAMEX TYPE="LOCATION">Taipei</ENAMEX> was <EVENT eid="e194" class="OCCURRENCE" >suspended</EVENT> for a national holiday.</s> 
+
+   <s>---
+
+   Here are price trends on the world's major stock <EVENT eid="e195" class="OCCURRENCE" >markets</EVENT>, as <EVENT eid="e196" class="OCCURRENCE" >calculated</EVENT> by <ENAMEX TYPE="PERSON">Morgan Stanley Capital International Perspective</ENAMEX>, <ENAMEX TYPE="PERSON">Geneva</ENAMEX>.</s> 
+<s><SIGNAL sid="s197" >To</SIGNAL> <EVENT eid="e198" class="OCCURRENCE" >make</EVENT> them directly comparable, each <EVENT eid="e199" class="OCCURRENCE" >index</EVENT> is <EVENT eid="e200" class="OCCURRENCE" >based</EVENT> <SIGNAL sid="s202" >on</SIGNAL> the <EVENT eid="e201" class="OCCURRENCE" >close</EVENT> of 1969 equaling <CARDINAL>100</CARDINAL>.</s> 
+<s>The percentage <EVENT eid="e203" class="OCCURRENCE" >change</EVENT> is since year-end.</s> 
+<s>@ % This 
+@ Oct 23 Oct <CARDINAL>20</CARDINAL> Year 
+@<ENAMEX TYPE="LOCATION">U.S.</ENAMEX> ....................</s> <s>317.1 319.1 + <CARDINAL>23.8</CARDINAL> 
+@<ENAMEX TYPE="LOCATION">Britain</ENAMEX>..................</s> <s>654.3 651.7 + <CARDINAL>19.8</CARDINAL> 
+@<ENAMEX TYPE="LOCATION">Canada</ENAMEX>...................</s> <s>427.8 432.4 + <CARDINAL>16.5</CARDINAL> 
+@<ENAMEX TYPE="LOCATION">Japan</ENAMEX>....................</s> <s>1555.7 1550.4 + <CARDINAL>9.5</CARDINAL> 
+@<ENAMEX TYPE="LOCATION">France</ENAMEX>...................</s> <s>531.2 530.4 + 20.0 
+@<ENAMEX TYPE="LOCATION">Germany</ENAMEX>..................</s> <s><CARDINAL>242.4</CARDINAL> <CARDINAL>242.8</CARDINAL> + <CARDINAL>16.6</CARDINAL> 
+@<ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX>................</s> <s>2070.9 2048.0 + <CARDINAL>2.0</CARDINAL> 
+@<ENAMEX TYPE="LOCATION">Switzerland</ENAMEX>..............</s> <s>220.7 221.3 + <CARDINAL>27.6</CARDINAL> 
+@<ENAMEX TYPE="LOCATION">Australia</ENAMEX>................</s> <s><CARDINAL>333.1</CARDINAL> <CARDINAL>334.5</CARDINAL> + <CARDINAL>14.7</CARDINAL> 
+@World <EVENT eid="e204" class="OCCURRENCE" >index</EVENT>..............</s> <s>534.9 535.2 + <CARDINAL>8.2</CARDINAL></s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei220" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei221" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei222" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei223" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei224" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei225" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei226" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei227" tense="NONE" eventID="e211" />
+<MAKEINSTANCE aspect="NONE" eiid="ei228" tense="NONE" eventID="e212" />
+<MAKEINSTANCE aspect="NONE" eiid="ei229" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei230" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei231" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei232" tense="NONE" eventID="e218" />
+<MAKEINSTANCE aspect="NONE" eiid="ei233" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei234" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei235" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei236" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei237" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei238" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei239" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei240" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei241" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei242" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei243" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei244" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei245" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei246" tense="PAST" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei247" tense="PAST" eventID="e33" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei248" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei249" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei250" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei251" tense="PAST" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei252" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei253" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei254" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei255" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei256" tense="PAST" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei257" tense="PAST" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei258" tense="PAST" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei259" tense="PAST" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei260" tense="PAST" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei261" tense="PAST" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei262" tense="PAST" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei263" tense="PAST" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei264" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei265" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei266" tense="PAST" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei267" tense="PAST" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei268" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei269" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei270" tense="PAST" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei271" tense="NONE" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei272" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei273" tense="PAST" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei274" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei275" tense="PAST" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei276" tense="NONE" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei277" tense="PAST" eventID="e68" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei278" tense="NONE" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei279" tense="PAST" eventID="e71" />
+<MAKEINSTANCE aspect="NONE" eiid="ei280" tense="NONE" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei281" tense="PAST" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei282" tense="NONE" eventID="e74" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei283" tense="NONE" eventID="e76" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei284" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei285" tense="NONE" eventID="e79" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei286" tense="NONE" eventID="e80" />
+<MAKEINSTANCE aspect="NONE" eiid="ei287" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei288" tense="PAST" eventID="e83" />
+<MAKEINSTANCE aspect="NONE" eiid="ei289" tense="NONE" eventID="e84" />
+<MAKEINSTANCE aspect="NONE" eiid="ei290" tense="PAST" eventID="e85" />
+<MAKEINSTANCE aspect="NONE" eiid="ei291" tense="PAST" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" eiid="ei292" tense="NONE" eventID="e87" />
+<MAKEINSTANCE aspect="NONE" eiid="ei293" tense="PAST" eventID="e88" />
+<MAKEINSTANCE aspect="NONE" eiid="ei294" tense="PAST" eventID="e89" />
+<MAKEINSTANCE aspect="NONE" eiid="ei295" tense="PAST" eventID="e90" />
+<MAKEINSTANCE aspect="NONE" eiid="ei296" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei297" tense="NONE" eventID="e92" />
+<MAKEINSTANCE aspect="NONE" eiid="ei298" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei299" tense="NONE" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei300" tense="PAST" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" eiid="ei301" tense="PAST" eventID="e96" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei302" tense="NONE" eventID="e97" />
+<MAKEINSTANCE aspect="NONE" eiid="ei303" tense="PAST" eventID="e98" />
+<MAKEINSTANCE aspect="NONE" eiid="ei304" tense="PAST" eventID="e99" />
+<MAKEINSTANCE aspect="NONE" eiid="ei305" tense="PAST" eventID="e100" />
+<MAKEINSTANCE aspect="NONE" eiid="ei306" tense="NONE" eventID="e101" />
+<MAKEINSTANCE aspect="NONE" eiid="ei307" tense="NONE" eventID="e102" />
+<MAKEINSTANCE aspect="NONE" eiid="ei308" tense="PAST" eventID="e103" />
+<MAKEINSTANCE aspect="NONE" eiid="ei309" tense="NONE" eventID="e104" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei310" tense="NONE" eventID="e106" />
+<MAKEINSTANCE aspect="NONE" eiid="ei311" tense="PAST" eventID="e107" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei312" tense="NONE" eventID="e108" />
+<MAKEINSTANCE aspect="NONE" eiid="ei313" tense="NONE" eventID="e109" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei314" tense="PAST" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei315" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei316" tense="NONE" eventID="e114" />
+<MAKEINSTANCE aspect="NONE" eiid="ei317" tense="PAST" eventID="e115" />
+<MAKEINSTANCE aspect="NONE" eiid="ei318" tense="PAST" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei319" tense="NONE" eventID="e117" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei320" tense="PAST" eventID="e118" />
+<MAKEINSTANCE aspect="NONE" eiid="ei321" tense="NONE" eventID="e119" />
+<MAKEINSTANCE aspect="NONE" eiid="ei322" tense="PAST" eventID="e120" />
+<MAKEINSTANCE aspect="NONE" eiid="ei323" tense="NONE" eventID="e121" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei324" tense="NONE" eventID="e123" />
+<MAKEINSTANCE aspect="NONE" eiid="ei325" tense="NONE" eventID="e124" />
+<MAKEINSTANCE aspect="NONE" eiid="ei326" tense="NONE" eventID="e125" />
+<MAKEINSTANCE aspect="NONE" eiid="ei327" tense="NONE" eventID="e126" />
+<MAKEINSTANCE aspect="NONE" eiid="ei328" tense="PAST" eventID="e127" />
+<MAKEINSTANCE aspect="NONE" eiid="ei329" tense="NONE" eventID="e129" />
+<MAKEINSTANCE aspect="NONE" eiid="ei330" tense="PAST" eventID="e130" />
+<MAKEINSTANCE aspect="NONE" eiid="ei331" tense="NONE" eventID="e132" />
+<MAKEINSTANCE aspect="NONE" eiid="ei332" tense="NONE" eventID="e133" />
+<MAKEINSTANCE aspect="NONE" eiid="ei333" tense="PAST" eventID="e134" />
+<MAKEINSTANCE aspect="NONE" eiid="ei334" tense="NONE" eventID="e135" />
+<MAKEINSTANCE aspect="NONE" eiid="ei335" tense="NONE" eventID="e137" />
+<MAKEINSTANCE aspect="NONE" eiid="ei336" tense="PAST" eventID="e138" />
+<MAKEINSTANCE aspect="NONE" eiid="ei337" tense="NONE" eventID="e139" />
+<MAKEINSTANCE aspect="NONE" eiid="ei338" tense="NONE" eventID="e140" />
+<MAKEINSTANCE aspect="NONE" eiid="ei339" tense="PAST" eventID="e141" />
+<MAKEINSTANCE aspect="NONE" eiid="ei340" tense="NONE" eventID="e142" />
+<MAKEINSTANCE aspect="NONE" eiid="ei341" tense="PAST" eventID="e144" />
+<MAKEINSTANCE aspect="NONE" eiid="ei342" tense="NONE" eventID="e145" />
+<MAKEINSTANCE aspect="NONE" eiid="ei343" tense="PAST" eventID="e146" />
+<MAKEINSTANCE aspect="NONE" eiid="ei344" tense="NONE" eventID="e147" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei345" tense="PRESENT" eventID="e148" />
+<MAKEINSTANCE aspect="NONE" eiid="ei346" tense="NONE" eventID="e149" />
+<MAKEINSTANCE aspect="NONE" eiid="ei347" tense="NONE" eventID="e150" />
+<MAKEINSTANCE aspect="NONE" eiid="ei348" tense="PAST" eventID="e151" />
+<MAKEINSTANCE aspect="NONE" eiid="ei349" tense="NONE" eventID="e153" />
+<MAKEINSTANCE aspect="NONE" eiid="ei350" tense="NONE" eventID="e154" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei351" tense="PRESENT" eventID="e155" />
+<MAKEINSTANCE aspect="NONE" eiid="ei352" tense="NONE" eventID="e156" />
+<MAKEINSTANCE aspect="NONE" eiid="ei353" tense="NONE" eventID="e158" />
+<MAKEINSTANCE aspect="NONE" eiid="ei354" tense="NONE" eventID="e159" />
+<MAKEINSTANCE aspect="NONE" eiid="ei355" tense="PAST" eventID="e160" />
+<MAKEINSTANCE aspect="NONE" eiid="ei356" tense="NONE" eventID="e161" />
+<MAKEINSTANCE aspect="NONE" eiid="ei357" tense="PAST" eventID="e162" />
+<MAKEINSTANCE aspect="NONE" eiid="ei358" tense="NONE" eventID="e163" />
+<MAKEINSTANCE aspect="NONE" eiid="ei359" tense="NONE" eventID="e164" />
+<MAKEINSTANCE aspect="NONE" eiid="ei360" tense="PAST" eventID="e166" />
+<MAKEINSTANCE aspect="NONE" eiid="ei361" tense="PAST" eventID="e167" />
+<MAKEINSTANCE aspect="NONE" eiid="ei362" tense="PRESENT" eventID="e168" />
+<MAKEINSTANCE aspect="NONE" eiid="ei363" tense="NONE" eventID="e170" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei364" tense="PRESENT" eventID="e172" />
+<MAKEINSTANCE aspect="NONE" eiid="ei365" tense="NONE" eventID="e173" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei366" tense="PRESENT" eventID="e174" />
+<MAKEINSTANCE aspect="NONE" eiid="ei367" tense="PAST" eventID="e175" />
+<MAKEINSTANCE aspect="NONE" eiid="ei368" tense="PAST" eventID="e176" />
+<MAKEINSTANCE aspect="NONE" eiid="ei369" tense="PAST" eventID="e177" />
+<MAKEINSTANCE aspect="NONE" eiid="ei370" tense="PAST" eventID="e178" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei371" tense="NONE" eventID="e179" />
+<MAKEINSTANCE aspect="NONE" eiid="ei372" tense="NONE" eventID="e180" />
+<MAKEINSTANCE aspect="NONE" eiid="ei373" tense="NONE" eventID="e181" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei374" tense="NONE" eventID="e182" />
+<MAKEINSTANCE aspect="NONE" eiid="ei375" tense="PAST" eventID="e183" />
+<MAKEINSTANCE aspect="NONE" eiid="ei376" tense="PAST" eventID="e184" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei377" tense="NONE" eventID="e185" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei378" tense="NONE" eventID="e186" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei379" tense="NONE" eventID="e187" />
+<MAKEINSTANCE aspect="NONE" eiid="ei380" tense="PAST" eventID="e188" />
+<MAKEINSTANCE aspect="NONE" eiid="ei381" tense="NONE" eventID="e189" />
+<MAKEINSTANCE aspect="NONE" eiid="ei382" tense="PAST" eventID="e191" />
+<MAKEINSTANCE aspect="NONE" eiid="ei383" tense="PAST" eventID="e192" />
+<MAKEINSTANCE aspect="NONE" eiid="ei384" tense="NONE" eventID="e193" />
+<MAKEINSTANCE aspect="NONE" eiid="ei385" tense="PAST" eventID="e194" />
+<MAKEINSTANCE aspect="NONE" eiid="ei386" tense="NONE" eventID="e195" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei387" tense="NONE" eventID="e196" />
+<MAKEINSTANCE aspect="NONE" eiid="ei388" tense="NONE" eventID="e198" />
+<MAKEINSTANCE aspect="NONE" eiid="ei389" tense="NONE" eventID="e199" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei390" tense="PRESENT" eventID="e200" />
+<MAKEINSTANCE aspect="NONE" eiid="ei391" tense="NONE" eventID="e201" />
+<MAKEINSTANCE aspect="NONE" eiid="ei392" tense="NONE" eventID="e203" />
+<MAKEINSTANCE aspect="NONE" eiid="ei393" tense="NONE" eventID="e204" />
+</TimeML>

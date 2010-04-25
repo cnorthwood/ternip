@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0059 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0059. </AN>
+<HL> International Brief -- N.V. DSM:
+@  Third-Period Net Rose 63%
+@  Because of Lower Charges </HL>
+<DD> <TIMEX3 tid="t33" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> EUROP N.DSM </CO>
+<IN> EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">N.V. DSM</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> net income <SIGNAL sid="s35" >in</SIGNAL> the <TIMEX3 tid="t36" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t33" >third quarter</TIMEX3> <EVENT eid="e2" class="OCCURRENCE" >jumped</EVENT> <NUMEX TYPE="PERCENT">63%</NUMEX> as the company <EVENT eid="e73" class="OCCURRENCE" >had</EVENT> substantially lower extraordinary <EVENT eid="e3" class="OCCURRENCE" >charges</EVENT> <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e5" class="OCCURRENCE" >account</EVENT> for a restructuring program.</s> 
+
+   <s>The Dutch chemical group <EVENT eid="e6" class="REPORTING" >said</EVENT> net income <EVENT eid="e7" class="OCCURRENCE" >gained</EVENT> <SIGNAL sid="s39" >to</SIGNAL> <EVENT eid="e40" class="STATE" ><NUMEX TYPE="MONEY">235 million guilders</NUMEX></EVENT> (<NUMEX TYPE="MONEY">$113.2 million</NUMEX>), or <NUMEX TYPE="MONEY">6.70 guilders</NUMEX> a share, <SIGNAL sid="s41" >from</SIGNAL> <EVENT eid="e42" class="STATE" ><NUMEX TYPE="MONEY">144 million guilders</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">4.10 guilders</NUMEX> a share, <TIMEX3 mod="APPROX" tid="t43" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t33" >a year ago</TIMEX3>.</s> 
+
+   <s>The <NUMEX TYPE="PERCENT">32%</NUMEX> state-owned <ENAMEX TYPE="ORGANIZATION">DSM</ENAMEX> <EVENT eid="e8" class="OCCURRENCE" >had</EVENT> <NUMEX TYPE="MONEY">eight million guilders</NUMEX> of extraordinary <EVENT eid="e9" class="OCCURRENCE" >charges</EVENT> <SIGNAL sid="s44" >in</SIGNAL> <TIMEX3 tid="t45" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t33" >the latest quarter</TIMEX3>, mainly <SIGNAL sid="s46" >to</SIGNAL> <EVENT eid="e10" class="REPORTING" >reflect</EVENT> one-time <EVENT eid="e47" class="OCCURRENCE" >losses</EVENT> in connection with the <EVENT eid="e12" class="OCCURRENCE" >disposal</EVENT> of some operations.</s> 
+<s>The <EVENT eid="e14" class="OCCURRENCE" >charges</EVENT> were <EVENT eid="e15" class="OCCURRENCE" >offset</EVENT> in part by a <EVENT eid="e48" class="OCCURRENCE" >gain</EVENT> from the <EVENT eid="e17" class="OCCURRENCE" >sale</EVENT> of the company's construction division.</s> 
+
+   <s><TIMEX3 tid="t49" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t33" >Last year</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">DSM</ENAMEX> <EVENT eid="e19" class="OCCURRENCE" >had</EVENT> <NUMEX TYPE="MONEY">71 million guilders</NUMEX> of extraordinary <EVENT eid="e20" class="OCCURRENCE" >charges</EVENT> for the restructuring program and other transactions.</s> 
+
+   <s>The earnings <EVENT eid="e51" class="OCCURRENCE" >growth</EVENT> also was <EVENT eid="e22" class="OCCURRENCE" >fueled</EVENT> by the company's ability to <EVENT eid="e24" class="OCCURRENCE" >cut</EVENT> net financing spending by half <SIGNAL sid="s53" >to</SIGNAL> around <EVENT eid="e54" class="STATE" ><NUMEX TYPE="MONEY">15 million guilders</NUMEX></EVENT>.</s> 
+<s>Also, substantially lower Dutch corporate tax rates <EVENT eid="e26" class="OCCURRENCE" >helped</EVENT> the company <EVENT eid="e27" class="ASPECTUAL" >keep</EVENT> its tax outlay flat relative to earnings growth, the company <EVENT eid="e29" class="REPORTING" >added</EVENT>.</s> 
+
+   <s>Sales, however , were <SIGNAL sid="s56" >little</SIGNAL> <EVENT eid="e31" class="OCCURRENCE" >changed</EVENT> at <NUMEX TYPE="MONEY">2.46 billion guilders</NUMEX>, compared with <NUMEX TYPE="MONEY">2.42 billion guilders</NUMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1989" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PAST" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="NONE" eventID="e31" />
+<TLINK relatedToEventInstance="ei1989" eventInstanceID="ei2016" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1989" timeID="t33" relType="AFTER" />
+<TLINK signalID="s35" relatedToTime="t36" eventInstanceID="ei1990" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei1992" eventInstanceID="ei1991" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1991" eventInstanceID="ei1990" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t33" timeID="t36" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1989" eventInstanceID="ei1994" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei1996" signalID="s39" eventInstanceID="ei1995" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei1997" signalID="s41" eventInstanceID="ei1995" relType="IAFTER" />
+<TLINK relatedToTime="t43" eventInstanceID="ei1997" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t33" timeID="t43" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1991" eventInstanceID="ei1998" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei1998" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1992" eventInstanceID="ei1999" relType="IDENTITY" />
+<TLINK signalID="s44" relatedToTime="t45" eventInstanceID="ei1999" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t36" timeID="t45" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2002" eventInstanceID="ei2001" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei2003" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2003" eventInstanceID="ei2004" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2003" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2005" relType="IAFTER" />
+<TLINK relatedToTime="t33" timeID="t49" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2007" timeID="t49" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2007" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2003" eventInstanceID="ei2008" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei2009" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1995" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2009" eventInstanceID="ei2010" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2011" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2012" signalID="s53" eventInstanceID="ei2011" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2013" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2014" eventInstanceID="ei2013" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei1989" eventInstanceID="ei2015" relType="IAFTER" />
+<SLINK subordinatedEventInstance="ei1990" eventInstanceID="ei1989" relType="EVIDENTIAL" />
+<SLINK signalID="s4" subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1995" eventInstanceID="ei1994" relType="EVIDENTIAL" />
+<SLINK signalID="s46" subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2013" eventInstanceID="ei2015" relType="EVIDENTIAL" />
+</TimeML>

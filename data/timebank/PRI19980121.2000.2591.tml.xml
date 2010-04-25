@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> PRI<TIMEX3 tid="t32" type="DATE" temporalFunction="true" functionInDocument="CREATION_TIME" value="1998-01-21" >19980121</TIMEX3>.2000.2591 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="PRI_The_World" air_date="19980121:2000">
+<section startTime="2591.95" type="report" endTime="2655.51">
+<TEXT>
+<turn startTime="2591.95" speaker="unknown" endTime="2594.429" spkrType="unknown">
+ <s>Now for <TIMEX3 tid="t33" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-01-21" anchorTimeID="t32" >today</TIMEX3>'s geography <EVENT eid="e1985" class="OCCURRENCE" >quiz</EVENT>.</s>
+</turn>
+<turn startTime="2601.005" speaker="unknown" endTime="2603.828" spkrType="unknown">
+ <s>We're <EVENT eid="e1980" class="ASPECTUAL" >off</EVENT> <SIGNAL sid="s3" >in</SIGNAL> <EVENT eid="e2" class="OCCURRENCE" >search</EVENT> of an ancient and exotic city.</s>
+</turn>
+<turn startTime="2603.828" speaker="unknown" endTime="2610.805" spkrType="unknown">
+ <s>An officially <EVENT eid="e4" class="OCCURRENCE" >sanctioned</EVENT> one, too.</s>
+ <s>UNESCO <EVENT eid="e5" class="I_ACTION" >declared</EVENT> it a <EVENT eid="e1981" class="OCCURRENCE" >protected</EVENT> site for its beauty and its
+ historical significance.</s>
+</turn>
+<turn startTime="2610.805" speaker="unknown" endTime="2624.890" spkrType="unknown">
+ <s>The city <SIGNAL sid="s7" >could</SIGNAL> have <EVENT eid="e6" class="I_ACTION" >used</EVENT> some special <EVENT eid="e8" class="STATE" >protection</EVENT> <SIGNAL sid="s35" >in</SIGNAL> <CARDINAL><TIMEX3 tid="t34" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1979" >nineteen seventy-nine</TIMEX3></CARDINAL>
+ when the <ENAMEX TYPE="LOCATION">Soviet Union</ENAMEX> <EVENT eid="e10" class="OCCURRENCE" >invaded</EVENT> <ENAMEX TYPE="LOCATION">Afghanistan</ENAMEX>.</s>
+ <s>Most of the city's monuments were <EVENT eid="e11" class="OCCURRENCE" >destroyed</EVENT>, including a
+ magnificent tiled mosque, which <EVENT eid="e12" class="OCCURRENCE" >dominated</EVENT> the skyline for
+ <TIMEX3 mod="BEFORE" tid="t1982" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PXC" >centuries</TIMEX3>.</s>
+</turn>
+<turn startTime="2624.890" speaker="unknown" endTime="2636.125" spkrType="unknown">
+ <s>The people here are famous throughout <ENAMEX TYPE="LOCATION">central Asia</ENAMEX> for their
+ skill in fashioning pottery and tile, glass too.</s>
+ <s>Some families have <EVENT eid="e1989" class="OCCURRENCE" >kept</EVENT> their glass working secrets <SIGNAL sid="s1990" >for</SIGNAL> <TIMEX3 mod="MORE_THAN" tid="t1991" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P2L" ><CARDINAL>more
+ than two thousand</CARDINAL> years</TIMEX3>.</s>
+</turn>
+<turn startTime="2636.125" speaker="unknown" endTime="2644.898" spkrType="unknown">
+ <s>Even though this city is in <ENAMEX TYPE="LOCATION">Afghanistan</ENAMEX>, most people here <EVENT eid="e19" class="I_ACTION" >speak</EVENT> a
+ <EVENT eid="e1987" class="STATE" >dialect</EVENT> of the Persian <EVENT eid="e1988" class="STATE" >language</EVENT>, and <EVENT eid="e22" class="STATE" >have</EVENT> long standing
+ cultural <EVENT eid="e1983" class="OCCURRENCE" >ties</EVENT> with neighboring <ENAMEX TYPE="LOCATION">Iran</ENAMEX>.</s>
+</turn>
+<turn startTime="2644.898" speaker="unknown" endTime="2649.681" spkrType="unknown">
+ <s><EVENT eid="e25" class="I_STATE" >Think</EVENT> you <EVENT eid="e26" class="OCCURRENCE" >got</EVENT> it?</s>
+ <s>Well, frankly, I do n't <EVENT eid="e27" class="OCCURRENCE" > </EVENT>, but the <EVENT eid="e29" class="OCCURRENCE" >answer</EVENT> is <EVENT eid="e30" class="OCCURRENCE" >coming</EVENT> up
+ in just a <TIMEX3 tid="t1986" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PXM" >few minutes</TIMEX3>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e1985" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e1980" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2001" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e1981" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei2004" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2005" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="PRESENT" eventID="e1989" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e1987" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e1988" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e1983" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="PRESENT" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2019" tense="PRESENT" eventID="e30" />
+<TLINK relatedToEventInstance="ei2008" timeID="t1982" relType="DURING" />
+<TLINK relatedToEventInstance="ei2006" timeID="t34" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2012" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2002" eventInstanceID="ei2001" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2002" timeID="t32" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2001" timeID="t32" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2005" timeID="t34" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1998" timeID="t33" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2007" timeID="t34" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2019" timeID="t1986" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2006" relType="DURING" />
+<TLINK signalID="s1990" relatedToTime="t1991" eventInstanceID="ei2009" relType="DURING" />
+<SLINK subordinatedEventInstance="ei2004" eventInstanceID="ei2005" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2010" eventInstanceID="ei2011" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2014" eventInstanceID="ei2013" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2003" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2016" eventInstanceID="ei2015" relType="FACTIVE" />
+<ALINK relatedToEventInstance="ei1999" eventInstanceID="ei2000" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2018" eventInstanceID="ei2019" relType="INITIATES" />
+</TimeML>

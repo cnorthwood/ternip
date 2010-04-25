@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0124 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0124. </AN>
+<HL> Dividend News:
+@  Goody Products Inc. </HL>
+<DD> <TIMEX3 tid="t8" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> GOOD </CO>
+<IN> DIVIDENDS (DIV) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">GOODY PRODUCTS Inc.</ENAMEX> <EVENT eid="e9" class="OCCURRENCE" >cut</EVENT> its quarterly dividend <SIGNAL sid="s11" >to</SIGNAL> <EVENT eid="e12" class="STATE" ><NUMEX TYPE="MONEY">five cents</NUMEX></EVENT> a share <SIGNAL sid="s13" >from</SIGNAL> <EVENT eid="e14" class="STATE" ><NUMEX TYPE="MONEY">11.5 cents</NUMEX></EVENT> a share.</s> 
+<s>The <EVENT eid="e10" class="OCCURRENCE" >reduced</EVENT> dividend is <EVENT eid="e15" class="OCCURRENCE" >payable</EVENT> <TIMEX3 tid="t18" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990-01-02" anchorTimeID="t17" >Jan. 2</TIMEX3> to stock of <EVENT eid="e2" class="STATE" >record</EVENT> <TIMEX3 tid="t17" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-15" anchorTimeID="t8" >Dec. 15</TIMEX3>.</s> 
+<s>The <ENAMEX TYPE="LOCATION">Kearny</ENAMEX>, <ENAMEX TYPE="LOCATION">N.J.</ENAMEX>-based maker of hair accessories and other cosmetic products <EVENT eid="e3" class="REPORTING" >said</EVENT> it <EVENT eid="e4" class="OCCURRENCE" >cut</EVENT> the dividend due to its <TIMEX3 tid="t26" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t8" >third-quarter</TIMEX3> <EVENT eid="e5" class="OCCURRENCE" >loss</EVENT> of <NUMEX TYPE="MONEY">$992,000</NUMEX>, or <NUMEX TYPE="MONEY">15 cents</NUMEX> a share.</s> 
+<s><SIGNAL sid="s132" >In</SIGNAL> <TIMEX3 tid="t134" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t26" >the year-ago quarter</TIMEX3>, the company <EVENT eid="e6" class="REPORTING" >reported</EVENT> net income of <NUMEX TYPE="MONEY">$1.9 million</NUMEX>, or <NUMEX TYPE="MONEY">29 cents</NUMEX> a share.</s> 
+<s>The company also <EVENT eid="e7" class="ASPECTUAL" >adopted</EVENT> an anti-<EVENT eid="e30" class="OCCURRENCE" >takeover</EVENT> <EVENT eid="e31" class="OCCURRENCE" >plan</EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei135" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei136" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei137" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei138" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei139" tense="FUTURE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei140" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei141" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei142" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei143" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei144" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei145" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei146" polarity="NEG" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei147" tense="NONE" eventID="e31" />
+<TLINK relatedToEventInstance="ei147" eventInstanceID="ei145" relType="BEGINS" />
+<TLINK relatedToEventInstance="ei135" timeID="t8" relType="AFTER" />
+<TLINK relatedToEventInstance="ei136" signalID="s11" eventInstanceID="ei135" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei137" signalID="s13" eventInstanceID="ei135" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei136" eventInstanceID="ei138" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei139" eventInstanceID="ei138" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t18" eventInstanceID="ei139" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei139" eventInstanceID="ei140" relType="BEFORE" />
+<TLINK relatedToTime="t17" eventInstanceID="ei140" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t8" timeID="t18" relType="AFTER" />
+<TLINK relatedToTime="t17" timeID="t18" relType="AFTER" />
+<TLINK relatedToTime="t8" eventInstanceID="ei141" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei135" eventInstanceID="ei142" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei142" eventInstanceID="ei143" relType="BEFORE" />
+<TLINK relatedToTime="t26" eventInstanceID="ei143" relType="ENDS" />
+<TLINK eventInstanceID="ei144" relType="ENDS" />
+<TLINK relatedToTime="t8" eventInstanceID="ei145" relType="BEFORE" />
+<TLINK relatedToTime="t8" eventInstanceID="ei145" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei142" eventInstanceID="ei141" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei146" eventInstanceID="ei147" relType="MODAL" />
+</TimeML>

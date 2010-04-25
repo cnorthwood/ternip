@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891031-0006 </DOCNO>
+<DD> = 891031 </DD>
+<AN> 891031-0006. </AN>
+<HL> International Brief -- Ratners Group PLC:
+@  British Jeweler's U.S. Unit
+@  Agrees to Buy Weisfield's </HL>
+<DD> <TIMEX3 tid="t41" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-31" >10/31/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> RATNY WEIS </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Ratners Group PLC</ENAMEX>'s <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> subsidiary has <EVENT eid="e1" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >acquire</EVENT> jewelry retailer <ENAMEX TYPE="ORGANIZATION">Weisfield's Inc.</ENAMEX> for <NUMEX TYPE="MONEY">$50</NUMEX> a share, or about <NUMEX TYPE="MONEY">$55 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Weisfield's</ENAMEX> shares <EVENT eid="e4" class="OCCURRENCE" >soared</EVENT> on the <EVENT eid="e5" class="OCCURRENCE" >announcement</EVENT> <TIMEX3 tid="t42" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-30" anchorTimeID="t41" >yesterday</TIMEX3>, closing up <NUMEX TYPE="MONEY">$11</NUMEX> to <EVENT eid="e9" class="OCCURRENCE" >close</EVENT> at <EVENT eid="e43" class="STATE" ><NUMEX TYPE="MONEY">$50</NUMEX></EVENT> in national over-the-counter <EVENT eid="e10" class="OCCURRENCE" >trading</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Weisfield's</ENAMEX> <EVENT eid="e12" class="REPORTING" >said</EVENT> they <EVENT eid="e13" class="ASPECTUAL" >reached</EVENT> an <EVENT eid="e14" class="I_STATE" >agreement</EVENT> in principle for the <EVENT eid="e15" class="OCCURRENCE" >acquisition</EVENT> of <ENAMEX TYPE="ORGANIZATION">Weisfield's</ENAMEX> by <ENAMEX TYPE="ORGANIZATION">Sterling Inc. 
+</ENAMEX>
+The companies <EVENT eid="e16" class="REPORTING" >said</EVENT> the <EVENT eid="e17" class="OCCURRENCE" >acquisition</EVENT> is <EVENT eid="e134" class="STATE" >subject</EVENT> to a definitive <EVENT eid="e18" class="I_STATE" >agreement</EVENT>.</s> 
+<s>They <EVENT eid="e19" class="REPORTING" >said</EVENT> they <EVENT eid="e20" class="I_STATE" >expect</EVENT> the <EVENT eid="e21" class="OCCURRENCE" >transaction</EVENT> to be <EVENT eid="e23" class="ASPECTUAL" >completed</EVENT> <SIGNAL sid="s44" >by</SIGNAL> <TIMEX3 tid="t45" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-15" anchorTimeID="t41" >Dec. 15</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Weisfield's</ENAMEX>, based in <ENAMEX TYPE="LOCATION">Seattle</ENAMEX>, <ENAMEX TYPE="LOCATION">Wash.</ENAMEX>, currently operates <CARDINAL>87</CARDINAL> specialty jewelry stores in <CARDINAL>nine</CARDINAL> states.</s> 
+<s><SIGNAL sid="s49" >In</SIGNAL> <TIMEX3 tid="t47" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" >the fiscal year</TIMEX3> <SIGNAL sid="s46" >ended</SIGNAL> <TIMEX3 tid="t48" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-01-31" anchorTimeID="t41" >Jan. 31</TIMEX3>, the company <EVENT eid="e28" class="REPORTING" >reported</EVENT> <EVENT eid="e53" class="OCCURRENCE" >sales</EVENT> of <NUMEX TYPE="MONEY">$59.5 million</NUMEX> and pretax <EVENT eid="e51" class="STATE" >profit</EVENT> of <NUMEX TYPE="MONEY">$2.9 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX>, which controls <NUMEX TYPE="PERCENT">25%</NUMEX> of the British jewelry market, <SIGNAL sid="s32" >would</SIGNAL> <EVENT eid="e31" class="OCCURRENCE" >increase</EVENT> the number of its <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> stores <SIGNAL sid="s57" >to</SIGNAL> <EVENT eid="e54" class="STATE" ><CARDINAL>about 450</CARDINAL> stores</EVENT> <SIGNAL sid="s56" >from</SIGNAL> <CARDINAL><EVENT eid="e55" class="STATE" >360</EVENT></CARDINAL>.</s> 
+<s>It has <EVENT eid="e33" class="REPORTING" >said</EVENT> it <EVENT eid="e34" class="I_STATE" >hopes</EVENT> <SIGNAL sid="s35" >to</SIGNAL> <EVENT eid="e36" class="I_STATE" >control</EVENT> <NUMEX TYPE="PERCENT">5%</NUMEX> of jewelry <EVENT eid="e64" class="STATE" >business</EVENT> in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> <SIGNAL sid="s59" >by</SIGNAL> <TIMEX3 tid="t60" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1992" >1992</TIMEX3>; <TIMEX3 tid="t62" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PRESENT_REF" >currently</TIMEX3> it <EVENT eid="e38" class="I_STATE" >controls</EVENT> <EVENT eid="e65" class="STATE" >about <NUMEX TYPE="PERCENT">2%</NUMEX></EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1993" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e134" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="PRESENT" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2011" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="NONE" eventID="e55" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2018" tense="PRESENT" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="PRESENT" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2020" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="NONE" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="PRESENT" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="NONE" eventID="e65" />
+<TLINK relatedToTime="t41" eventInstanceID="ei1993" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1995" relType="AFTER" />
+<TLINK relatedToTime="t42" eventInstanceID="ei1996" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei1995" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei1998" eventInstanceID="ei1997" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei1998" eventInstanceID="ei1995" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1999" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1997" eventInstanceID="ei1999" relType="ENDED_BY" />
+<TLINK relatedToTime="t41" eventInstanceID="ei2000" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2000" eventInstanceID="ei2004" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2003" eventInstanceID="ei2005" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2007" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2002" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2008" relType="IDENTITY" />
+<TLINK signalID="s44" relatedToTime="t45" eventInstanceID="ei2011" relType="ENDED_BY" />
+<TLINK relatedToTime="t41" eventInstanceID="ei2012" relType="BEFORE" />
+<TLINK relatedToTime="t48" eventInstanceID="ei2012" relType="AFTER" />
+<TLINK signalID="s49" relatedToTime="t47" eventInstanceID="ei2013" relType="DURING" />
+<TLINK signalID="s46" relatedToTime="t48" eventInstanceID="ei2013" relType="ENDED_BY" />
+<TLINK signalID="s49" relatedToTime="t47" eventInstanceID="ei2014" relType="DURING" />
+<TLINK signalID="s46" relatedToTime="t48" eventInstanceID="ei2014" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2016" signalID="s57" eventInstanceID="ei2015" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2017" signalID="s56" eventInstanceID="ei2015" relType="BEGUN_BY" />
+<TLINK relatedToTime="t41" eventInstanceID="ei2018" relType="BEFORE" />
+<TLINK signalID="s59" relatedToTime="t60" eventInstanceID="ei2020" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2022" timeID="t62" relType="INCLUDES" />
+<SLINK signalID="s2" subordinatedEventInstance="ei1994" eventInstanceID="ei1993" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2003" eventInstanceID="ei2002" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2006" eventInstanceID="ei2004" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2009" eventInstanceID="ei2008" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2011" eventInstanceID="ei2009" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2013" eventInstanceID="ei2012" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2019" eventInstanceID="ei2018" relType="EVIDENTIAL" />
+<SLINK signalID="s35" subordinatedEventInstance="ei2020" eventInstanceID="ei2019" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2021" eventInstanceID="ei2020" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2023" eventInstanceID="ei2022" relType="FACTIVE" />
+<ALINK relatedToEventInstance="ei2002" eventInstanceID="ei2001" relType="CULMINATES" />
+<ALINK relatedToEventInstance="ei2010" eventInstanceID="ei2011" relType="CULMINATES" />
+</TimeML>

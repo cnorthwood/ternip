@@ -1,0 +1,54 @@
+(lp1
+(iFSA
+FSA
+(dp2
+S'fsaname'
+p3
+NsS'finalStates'
+p4
+(lp5
+I2
+asS'alphabet'
+p6
+NsS'_isTrimmed'
+p7
+I1
+sS'label'
+p8
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_t_o_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_]"
+sS'states'
+p9
+(lp10
+I0
+aI2
+aI1
+asS'initialState'
+p11
+I0
+sS'_arcMetadata'
+p12
+(dsS'_isSorted'
+p13
+I1
+sS'transitions'
+p14
+(lp15
+(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I0
+I1
+S"{'text': 'to', 'nodeType': 'Token'}"
+ta(I1
+I1
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+ta(I1
+I2
+S"{'nodeType': 'Token', 'pos': ['VB', 'VBP']}"
+tasS'_isDeterminized'
+p16
+I1
+sS'_isMinimized'
+p17
+I1
+sba.

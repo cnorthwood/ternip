@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0087 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0087. </AN>
+<HL> New Securities Issues </HL>
+<DD> <TIMEX3 tid="t28" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> SUNW T.CM EUROP F </CO>
+<IN> BOND MARKET NEWS (BON) </IN>
+<TEXT>
+   <s>The following were among <TIMEX3 tid="t29" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t28" >Friday</TIMEX3>'s <EVENT eid="e1" class="OCCURRENCE" >offerings</EVENT> and <EVENT eid="e30" class="OCCURRENCE" >pricings</EVENT> in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> and non-U.S.</s> <s>capital markets, with terms and syndicate manager, as <EVENT eid="e3" class="REPORTING" >compiled</EVENT> by Dow Jones Capital Markets Report: 
+@ <ENAMEX TYPE="ORGANIZATION">CORPORATES 
+
+   Sun Microsystems Inc.</ENAMEX> -- <NUMEX TYPE="MONEY">$125 million</NUMEX> of <CARDINAL>6</CARDINAL> <NUMEX TYPE="PERCENT">3/8%</NUMEX> convertible subordinated debentures <EVENT eid="e31" class="STATE" >due</EVENT> <TIMEX3 tid="t32" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1999-10-15" >Oct. 15, 1999</TIMEX3>, <EVENT eid="e4" class="OCCURRENCE" >priced</EVENT> at <CARDINAL>84.90</CARDINAL> <SIGNAL sid="s5" >to</SIGNAL> <EVENT eid="e42" class="I_STATE" >yield</EVENT> <EVENT eid="e39" class="STATE" ><NUMEX TYPE="PERCENT">7.51%</NUMEX></EVENT>.</s> 
+<s>The debentures are convertible into common stock <EVENT eid="e35" class="STATE" >at <NUMEX TYPE="MONEY">$25</NUMEX> a share</EVENT>, representing a <NUMEX TYPE="PERCENT">24%</NUMEX> conversion premium over <TIMEX3 tid="t33" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t28" >Thursday</TIMEX3>'s <EVENT eid="e34" class="OCCURRENCE" >closing</EVENT> <EVENT eid="e100" class="STATE" >price</EVENT>.</s> 
+<s><EVENT eid="e10" class="OCCURRENCE" >Rated</EVENT> single-B-1 by <ENAMEX TYPE="ORGANIZATION">Moody</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Investors Service Inc.</ENAMEX> and single-B-plus by <ENAMEX TYPE="ORGANIZATION">Standard amp Poor's Corp.</ENAMEX>, the issue will be <EVENT eid="e11" class="OCCURRENCE" >sold</EVENT> through underwriters led by <ENAMEX TYPE="LOCATION">Goldman</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Sachs amp Co. 
+
+   Hertz Corp.</ENAMEX> -- <NUMEX TYPE="MONEY">$100 million</NUMEX> of senior notes <EVENT eid="e36" class="STATE" >due</EVENT> <TIMEX3 tid="t37" type="DATE" temporalFunction="false" functionInDocument="NONE" value="2009-11-01" >Nov. 1, 2009</TIMEX3>, <EVENT eid="e14" class="STATE" >priced</EVENT> at par <SIGNAL sid="s38" >to</SIGNAL> <EVENT eid="e41" class="I_STATE" >yield</EVENT> <EVENT eid="e40" class="STATE" ><NUMEX TYPE="PERCENT">9%</NUMEX></EVENT>.</s> 
+<s>The issue, which is puttable back to the company <SIGNAL sid="s43" >in</SIGNAL> <TIMEX3 tid="t44" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1999" >1999</TIMEX3>, was <EVENT eid="e17" class="OCCURRENCE" >priced</EVENT> at a spread of <CARDINAL>110</CARDINAL> basis points above the <ENAMEX TYPE="ORGANIZATION">Treasury</ENAMEX>'s 10-year note.</s> 
+<s><EVENT eid="e21" class="STATE" >Rated</EVENT> single-A-3 by <ENAMEX TYPE="ORGANIZATION">Moody</ENAMEX>'s and triple-B by <ENAMEX TYPE="ORGANIZATION">SampP</ENAMEX>, the issue will be <EVENT eid="e22" class="OCCURRENCE" >sold</EVENT> through underwriters led by <ENAMEX TYPE="PERSON">Merrill Lynch Capital Markets</ENAMEX>.</s> 
+<s>@ <ENAMEX TYPE="ORGANIZATION">EUROBONDS 
+
+   Canadian Imperial Bank of Commerce (<ENAMEX TYPE="LOCATION">Canada</ENAMEX>)</ENAMEX> -- <NUMEX TYPE="MONEY">10 billion yen</NUMEX> of <NUMEX TYPE="PERCENT">5.7%</NUMEX> bonds <EVENT eid="e46" class="STATE" >due</EVENT> <TIMEX3 tid="t47" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1992-11-17" >Nov. 17, 1992</TIMEX3>, <EVENT eid="e25" class="STATE" >priced</EVENT> at <CARDINAL>101</CARDINAL> <CARDINAL>1/4</CARDINAL> <SIGNAL sid="s26" >to</SIGNAL> <EVENT eid="e27" class="I_STATE" >yield</EVENT> <EVENT eid="e48" class="STATE" ><NUMEX TYPE="PERCENT">5.75%</NUMEX></EVENT> less full fees, via <ENAMEX TYPE="ORGANIZATION">LTCB International Ltd. Fees</ENAMEX> <CARDINAL>1</CARDINAL> <CARDINAL>3/8</CARDINAL>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2002" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2004" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e100" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2010" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="FUTURE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2013" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2017" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="FUTURE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2020" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="NONE" eventID="e48" />
+<TLINK relatedToEventInstance="ei2022" eventInstanceID="ei2021" relType="ENDED_BY" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2000" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2001" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2002" relType="BEFORE" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2003" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t32" eventInstanceID="ei2003" relType="ENDED_BY" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2004" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2005" relType="ENDED_BY" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2007" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t33" eventInstanceID="ei2008" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2009" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2009" eventInstanceID="ei2007" relType="AFTER" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2010" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2010" relType="BEFORE" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2012" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t37" eventInstanceID="ei2012" relType="ENDED_BY" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2013" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2015" eventInstanceID="ei2014" relType="ENDED_BY" />
+<TLINK signalID="s43" relatedToTime="t44" eventInstanceID="ei2012" relType="BEGUN_BY" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2016" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2017" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2018" eventInstanceID="ei2017" relType="BEFORE" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2019" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t47" eventInstanceID="ei2019" relType="ENDED_BY" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2020" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei2000" eventInstanceID="ei2002" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2002" relType="EVIDENTIAL" />
+<SLINK signalID="s5" subordinatedEventInstance="ei2005" eventInstanceID="ei2004" relType="MODAL" />
+<SLINK signalID="s38" subordinatedEventInstance="ei2014" eventInstanceID="ei2013" relType="MODAL" />
+<SLINK signalID="s26" subordinatedEventInstance="ei2021" eventInstanceID="ei2020" relType="MODAL" />
+</TimeML>

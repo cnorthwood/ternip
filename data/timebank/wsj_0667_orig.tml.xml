@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0030 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0030. </AN>
+<HL> Shoney's to Report
+@  Write-Off in Quarter
+@  Totaling $2.5 Million </HL>
+<DD> <TIMEX3 tid="t40" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> SHN </CO>
+<DATELINE> NASHVILLE, Tenn.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Shoney's Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it will <EVENT eid="e2" class="REPORTING" >report</EVENT> a <EVENT eid="e3" class="OCCURRENCE" >write-off</EVENT> of <NUMEX TYPE="MONEY">$2.5 million</NUMEX>, or <NUMEX TYPE="MONEY">seven cents</NUMEX> a share, for its <TIMEX3 tid="t41" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q4" anchorTimeID="t40" >fourth quarter</TIMEX3> <SIGNAL sid="s43" >ended</SIGNAL> <TIMEX3 tid="t42" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-29" anchorTimeID="t40" >yesterday</TIMEX3>.</s> 
+<s>The restaurant operator <EVENT eid="e5" class="OCCURRENCE" >cited</EVENT> transaction <EVENT eid="e44" class="STATE" >costs</EVENT> from its <TIMEX3 tid="t47" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988" >1988</TIMEX3> <EVENT eid="e45" class="OCCURRENCE" >recapitalization</EVENT> as a result of a <NUMEX TYPE="MONEY">$160 million</NUMEX> <EVENT eid="e46" class="OCCURRENCE" >restructuring</EVENT> of its bank debt.</s> 
+
+   <s>The <EVENT eid="e8" class="OCCURRENCE" >write-off</EVENT> will be <EVENT eid="e9" class="REPORTING" >reported</EVENT> as an extraordinary item in the company's <TIMEX3 tid="t49" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989" >1989</TIMEX3> <EVENT eid="e48" class="OCCURRENCE" >operating</EVENT> <EVENT eid="e10" class="STATE" >results</EVENT>.</s> 
+
+   <s>In addition, the effective interest <EVENT eid="e51" class="STATE" >rate</EVENT> on the <NUMEX TYPE="MONEY">$410 million</NUMEX> of total remaining bank debt <SIGNAL sid="s12" >after</SIGNAL> the <EVENT eid="e50" class="OCCURRENCE" >restructuring</EVENT> is <NUMEX TYPE="PERCENT">10.66%</NUMEX>.</s> 
+<s>The combined <EVENT eid="e52" class="STATE" >effect</EVENT> of these <EVENT eid="e13" class="OCCURRENCE" >changes</EVENT> is <EVENT eid="e14" class="I_STATE" >expected</EVENT> <SIGNAL sid="s15" >to</SIGNAL> <EVENT eid="e16" class="OCCURRENCE" >save</EVENT> the company about <NUMEX TYPE="MONEY">$4 million</NUMEX> in interest expenses <TIMEX3 tid="t53" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990" anchorTimeID="t40" >next year</TIMEX3>, or <NUMEX TYPE="MONEY">six cents</NUMEX> a share.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Shoney's</ENAMEX> <EVENT eid="e19" class="REPORTING" >said</EVENT> the latest <EVENT eid="e57" class="OCCURRENCE" >restructuring</EVENT> <EVENT eid="e58" class="OCCURRENCE" >affected</EVENT> bank indebtedness that was <EVENT eid="e22" class="OCCURRENCE" >incurred</EVENT> <SIGNAL sid="s23" >to</SIGNAL> <EVENT eid="e24" class="OCCURRENCE" >finance</EVENT> <NUMEX TYPE="MONEY">$585 million</NUMEX> of the company's <NUMEX TYPE="MONEY">$728 million</NUMEX> <EVENT eid="e56" class="OCCURRENCE" >recapitalization</EVENT> that <EVENT eid="e198" class="OCCURRENCE" >took</EVENT> place <SIGNAL sid="s55" >in</SIGNAL> <TIMEX3 tid="t54" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988" >1988</TIMEX3>.</s> 
+
+   <s>The company has <EVENT eid="e26" class="OCCURRENCE" >made</EVENT> <EVENT eid="e27" class="OCCURRENCE" >payments</EVENT> of <NUMEX TYPE="MONEY">$175 million</NUMEX> against the original <NUMEX TYPE="MONEY">$585 million</NUMEX> of bank debt <EVENT eid="e28" class="OCCURRENCE" >incurred</EVENT> in connection with the <EVENT eid="e59" class="OCCURRENCE" >recapitalization</EVENT>.</s> 
+<s>These payments consisted of <NUMEX TYPE="MONEY">$54 million</NUMEX> in scheduled payments and <NUMEX TYPE="MONEY">$121 million</NUMEX> in prepayments, funded by <NUMEX TYPE="MONEY">$82.8 million</NUMEX> from operating cash flow, zero-coupon subordinated debt and assets sales.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="FUTURE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1999" tense="FUTURE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2006" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="PAST" eventID="e198" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2015" tense="PRESENT" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2017" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e59" />
+<TLINK relatedToEventInstance="ei2017" eventInstanceID="ei2018" relType="BEFORE" />
+<TLINK relatedToTime="t40" eventInstanceID="ei1991" relType="BEFORE" />
+<TLINK relatedToTime="t41" eventInstanceID="ei1993" relType="IS_INCLUDED" />
+<TLINK signalID="s43" relatedToTime="t42" timeID="t41" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei1991" eventInstanceID="ei1994" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1995" relType="AFTER" />
+<TLINK relatedToTime="t47" eventInstanceID="ei1996" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1997" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei1998" relType="IDENTITY" />
+<TLINK relatedToTime="t40" eventInstanceID="ei1999" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2001" eventInstanceID="ei2000" relType="BEFORE" />
+<TLINK relatedToTime="t49" eventInstanceID="ei2000" relType="DURING" />
+<TLINK relatedToEventInstance="ei2001" eventInstanceID="ei1998" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2003" signalID="s12" eventInstanceID="ei2002" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2005" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1998" eventInstanceID="ei2005" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2002" eventInstanceID="ei2005" relType="INCLUDES" />
+<TLINK relatedToTime="t53" eventInstanceID="ei2007" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1991" eventInstanceID="ei2008" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2009" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2010" relType="BEFORE" />
+<TLINK signalID="s55" relatedToTime="t54" eventInstanceID="ei2013" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2014" eventInstanceID="ei2013" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2016" eventInstanceID="ei2015" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2015" eventInstanceID="ei2017" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei1992" eventInstanceID="ei1991" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1995" eventInstanceID="ei1994" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1998" eventInstanceID="ei1999" relType="EVIDENTIAL" />
+<SLINK signalID="s15" subordinatedEventInstance="ei2007" eventInstanceID="ei2004" relType="MODAL" />
+<SLINK signalID="s15" subordinatedEventInstance="ei2007" eventInstanceID="ei2006" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2010" eventInstanceID="ei2008" relType="EVIDENTIAL" />
+<SLINK signalID="s23" subordinatedEventInstance="ei2012" eventInstanceID="ei2011" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2013" eventInstanceID="ei2012" relType="FACTIVE" />
+</TimeML>

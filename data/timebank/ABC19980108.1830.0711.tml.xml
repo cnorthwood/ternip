@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> ABC<TIMEX3 tid="t82" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-01-08" >19980108</TIMEX3>.1830.0711 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="ABC_World_News_Tonight" air_date="19980108:1830">
+<section startTime="711.36" type="report" endTime="856.00">
+<TEXT>
+<turn startTime="711.36" speaker="unknown" endTime="747.095" spkrType="unknown">
+ <s>On the other hand, it's <EVENT eid="e1" class="OCCURRENCE" >turning</EVENT> out to be another <EVENT eid="e84" class="STATE" >very bad</EVENT> financial <TIMEX3 tid="t83" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1W" >week</TIMEX3>
+ for <ENAMEX TYPE="LOCATION">Asia</ENAMEX>.</s> <s>The financial <EVENT eid="e3" class="OCCURRENCE" >assistance</EVENT> from the <ENAMEX TYPE="ORGANIZATION">World Bank</ENAMEX> and the
+ <ENAMEX TYPE="ORGANIZATION">International Monetary Fund</ENAMEX> are <SIGNAL sid="s5" >not</SIGNAL> <EVENT eid="e4" class="OCCURRENCE" >helping</EVENT>.</s> <s>In <TIMEX3 tid="t85" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P1D" anchorTimeID="t82" >the last <CARDINAL>twenty four</CARDINAL> hours</TIMEX3>, the
+ value of the Indonesian stock market has <EVENT eid="e7" class="OCCURRENCE" >fallen</EVENT> by <NUMEX TYPE="PERCENT">twelve percent</NUMEX>.</s> <s>The Indonesian
+ currency has <EVENT eid="e9" class="OCCURRENCE" >lost</EVENT>
+ <NUMEX TYPE="PERCENT">twenty six percent</NUMEX> of its value.</s> <s>In <ENAMEX TYPE="LOCATION">Singapore</ENAMEX>, stocks <EVENT eid="e10" class="OCCURRENCE" >hit</EVENT> a <TIMEX3 tid="t86" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P5Y" anchorTimeID="t82" ><CARDINAL>five</CARDINAL> year</TIMEX3> low.</s> <s>In the
+ <ENAMEX TYPE="LOCATION">Philippines</ENAMEX>, a <TIMEX3 tid="t87" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P4Y" anchorTimeID="t82" ><CARDINAL>four</CARDINAL> year</TIMEX3> low.</s> <s>And in <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX>, a <NUMEX TYPE="PERCENT">three percent</NUMEX> <EVENT eid="e147" class="OCCURRENCE" >drop</EVENT>.</s> <s>More
+ <EVENT eid="e153" class="OCCURRENCE" >problems</EVENT> in <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX> for a place, for an economy, that many experts <EVENT eid="e11" class="I_STATE" >thought</EVENT> was
+ once <EVENT eid="e152" class="STATE" >invincible</EVENT>.</s> <s>Here's <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">ABC</ENAMEX>'s Jim Laurie</ENAMEX>.</s>
+</turn>
+<turn startTime="747.095" speaker="unknown" endTime="766.675" spkrType="unknown">
+ <s>Not that long ago, <SIGNAL sid="s13" >before</SIGNAL> the Chinese <EVENT eid="e12" class="OCCURRENCE" >takeover</EVENT>, the <EVENT eid="e14" class="OCCURRENCE" >news</EVENT> about real estate
+ here was that the sky was the limit the highest prices in the world.</s> <s>So
+ <SIGNAL sid="s15" >when</SIGNAL> <ENAMEX TYPE="PERSON">Wong Kwan</ENAMEX>
+ <EVENT eid="e16" class="OCCURRENCE" >spent</EVENT> <NUMEX TYPE="MONEY">seventy million dollars</NUMEX> for this house, he <EVENT eid="e17" class="I_STATE" >thought</EVENT> it was a
+ great <EVENT eid="e18" class="OCCURRENCE" >deal</EVENT>.</s> <s>He <EVENT eid="e19" class="OCCURRENCE" >sold</EVENT> the property to <CARDINAL>five</CARDINAL> buyers and <EVENT eid="e20" class="REPORTING" >said</EVENT> he<SIGNAL sid="s22" >'d</SIGNAL> <EVENT eid="e21" class="OCCURRENCE" >double</EVENT> his
+ money.</s>
+</turn>
+<turn startTime="766.675" speaker="unknown" endTime="770.078" spkrType="unknown">
+ <s>In <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX>, <EVENT eid="e190" class="STATE" >is</EVENT> always belongs to the seller's market.</s>
+</turn>
+<turn startTime="770.078" speaker="unknown" endTime="792.032" spkrType="unknown">
+ <s><TIMEX3 tid="t196" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t82" >Now</TIMEX3> with new <EVENT eid="e26" class="OCCURRENCE" >construction</EVENT> under <EVENT eid="e27" class="OCCURRENCE" >way</EVENT>, <CARDINAL>three</CARDINAL> of his buyers have <EVENT eid="e28" class="OCCURRENCE" >backed</EVENT> out.</s>
+ <s>And <ENAMEX TYPE="PERSON">Wong Kwan</ENAMEX> will be lucky to <EVENT eid="e30" class="OCCURRENCE" >break</EVENT> even.</s> <s>All across <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX>, the
+ property market has <EVENT eid="e32" class="OCCURRENCE" >crashed</EVENT>.</s> <s><ENAMEX TYPE="PERSON">Pamela Pak</ENAMEX>
+ <EVENT eid="e33" class="OCCURRENCE" >owns</EVENT> <CARDINAL>eight</CARDINAL> condominiums here.</s>
+ <s><ENAMEX TYPE="PERSON">Pak</ENAMEX> <SIGNAL sid="s35" >ca</SIGNAL> <SIGNAL sid="s36" >n't</SIGNAL> <EVENT eid="e34" class="OCCURRENCE" >find</EVENT> buyers.</s> <s>She <EVENT eid="e37" class="REPORTING" >estimates</EVENT> her properties, <EVENT eid="e88" class="STATE" >worth</EVENT> a <NUMEX TYPE="MONEY">hundred thirty million dollars</NUMEX> in <TIMEX3 tid="t89" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1997-10" anchorTimeID="t82" >October</TIMEX3>, are <EVENT eid="e91" class="STATE" >worth</EVENT> only half that <TIMEX3 tid="t90" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t82" >now</TIMEX3>.</s>
+</turn>
+<turn startTime="792.032" speaker="unknown" endTime="801.255" spkrType="unknown">
+ <s>They <EVENT eid="e39" class="I_STATE" >believe</EVENT> ah it will be always up <EVENT eid="e40" class="OCCURRENCE" >going</EVENT> up and up ah forever.</s> <s><SIGNAL sid="s92" >Nobody</SIGNAL> <EVENT eid="e41" class="I_STATE" >believe</EVENT>
+ this any more.</s>
+</turn>
+<turn startTime="801.255" speaker="unknown" endTime="813.913" spkrType="unknown">
+ <s>Of all of <ENAMEX TYPE="LOCATION">Asia</ENAMEX>'s economies, <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX> is the most robust.</s> <s>But in <TIMEX3 tid="t98" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P3M" anchorTimeID="t82" >the past
+ three months</TIMEX3>, stocks have <EVENT eid="e42" class="OCCURRENCE" >plunged</EVENT>, interest rates have <EVENT eid="e43" class="OCCURRENCE" >soared</EVENT> and the
+ <EVENT eid="e44" class="OCCURRENCE" >downturn</EVENT> all across <ENAMEX TYPE="LOCATION">Asia</ENAMEX> <EVENT eid="e45" class="OCCURRENCE" >means</EVENT> that people are <SIGNAL sid="s47" >not</SIGNAL> <EVENT eid="e46" class="OCCURRENCE" >spending</EVENT> here.</s>
+</turn>
+<turn startTime="814.858" speaker="unknown" endTime="835.625" spkrType="unknown">
+ <s>Hotels <EVENT eid="e279" class="STATE" >are</EVENT> only <NUMEX TYPE="PERCENT">thirty percent</NUMEX> full.</s> <s>You <SIGNAL sid="s284" >can</SIGNAL> <EVENT eid="e48" class="OCCURRENCE" >get</EVENT> <NUMEX TYPE="PERCENT">seventy percent</NUMEX> <EVENT eid="e50" class="OCCURRENCE" >discounts</EVENT> at the
+ shopping malls.</s> <s><NUMEX TYPE="MONEY">Three thousand dollar</NUMEX> pearls for <NUMEX TYPE="MONEY">eight hundred dollars</NUMEX>.</s> <s>A <NUMEX TYPE="MONEY">two hundred dollar</NUMEX> wool jacket for <NUMEX TYPE="MONEY">fifty dollars</NUMEX>.</s>
+ <s>Still, there <EVENT eid="e295" class="STATE" >are</EVENT> few buyers.</s> <s>And at the big brokerage houses, <SIGNAL sid="s306" >after</SIGNAL> <TIMEX3 tid="t99" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P10Y" ><CARDINAL>ten</CARDINAL>
+ years</TIMEX3> of <EVENT eid="e52" class="OCCURRENCE" >boom</EVENT>, they're <EVENT eid="e53" class="OCCURRENCE" >talking</EVENT> <SIGNAL sid="s315" >about</SIGNAL> <EVENT eid="e54" class="OCCURRENCE" >layoffs</EVENT>.</s>
+</turn>
+<turn startTime="835.625" speaker="unknown" endTime="843.452" spkrType="unknown">
+ <s>I <EVENT eid="e55" class="I_STATE" >think</EVENT> that the mood <EVENT eid="e322" class="STATE" >is</EVENT> fairly gloomy, and I <EVENT eid="e56" class="I_STATE" >think</EVENT> it's <SIGNAL sid="s58" >not</SIGNAL> <EVENT eid="e57" class="OCCURRENCE" >going</EVENT> to
+ <EVENT eid="e59" class="OCCURRENCE" >change</EVENT> for <TIMEX3 tid="t100" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P2Y" >a couple of years</TIMEX3>.</s>
+</turn>
+<turn startTime="843.452" speaker="unknown" endTime="856.00" spkrType="unknown">
+ <s>So for <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX>, it's <EVENT eid="e60" class="OCCURRENCE" >time</EVENT>, as investment bankers like to say, to <EVENT eid="e64" class="OCCURRENCE" >reposition</EVENT>.</s> <s>To either <EVENT eid="e65" class="OCCURRENCE" >hold</EVENT> on tight or <EVENT eid="e66" class="OCCURRENCE" >get</EVENT> out, as much of <ENAMEX TYPE="LOCATION">Asia</ENAMEX> <EVENT eid="e67" class="OCCURRENCE" >goes</EVENT> into
+ <EVENT eid="e368" class="OCCURRENCE" >recession</EVENT>.</s> <s><ENAMEX TYPE="PERSON">Jim Laurie</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">ABC News</ENAMEX>, <ENAMEX TYPE="LOCATION">Hong Kong</ENAMEX>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei375" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei376" tense="NONE" eventID="e84" />
+<MAKEINSTANCE aspect="NONE" eiid="ei377" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei378" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei379" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei380" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei381" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei382" tense="NONE" eventID="e147" />
+<MAKEINSTANCE aspect="NONE" eiid="ei383" tense="NONE" eventID="e153" />
+<MAKEINSTANCE aspect="NONE" eiid="ei384" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei385" tense="NONE" eventID="e152" />
+<MAKEINSTANCE aspect="NONE" eiid="ei386" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei387" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei388" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei389" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei390" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei391" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei392" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei393" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei394" tense="PRESENT" eventID="e190" />
+<MAKEINSTANCE aspect="NONE" eiid="ei395" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei396" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei397" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei398" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei399" tense="PRESENT" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei400" tense="PRESENT" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei401" tense="PRESENT" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei402" tense="PRESENT" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei403" tense="PAST" eventID="e88" />
+<MAKEINSTANCE aspect="NONE" eiid="ei404" tense="PRESENT" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei405" tense="PRESENT" eventID="e39" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei406" tense="FUTURE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei407" tense="PRESENT" eventID="e41" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei408" tense="PRESENT" eventID="e42" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei409" tense="PRESENT" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei410" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei411" tense="PRESENT" eventID="e45" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei412" tense="PRESENT" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei413" tense="PRESENT" eventID="e279" />
+<MAKEINSTANCE aspect="NONE" eiid="ei414" tense="PRESENT" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei415" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei416" tense="PRESENT" eventID="e295" />
+<MAKEINSTANCE aspect="NONE" eiid="ei417" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei418" tense="PRESENT" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei419" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei420" tense="PRESENT" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei421" tense="PRESENT" eventID="e322" />
+<MAKEINSTANCE aspect="NONE" eiid="ei422" tense="PRESENT" eventID="e56" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei423" tense="PRESENT" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei424" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei425" tense="PRESENT" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" modality="to" eiid="ei426" tense="NONE" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei427" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei428" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei429" tense="PRESENT" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei430" tense="NONE" eventID="e368" />
+<TLINK relatedToEventInstance="ei376" eventInstanceID="ei375" relType="BEGINS" />
+<TLINK relatedToTime="t83" eventInstanceID="ei376" relType="DURING" />
+<TLINK relatedToEventInstance="ei378" eventInstanceID="ei377" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei379" timeID="t85" relType="INCLUDES" />
+<TLINK relatedToTime="t85" eventInstanceID="ei380" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei381" timeID="t85" relType="INCLUDES" />
+<TLINK relatedToTime="t82" timeID="t86" relType="BEFORE" />
+<TLINK relatedToTime="t82" timeID="t87" relType="BEFORE" />
+<TLINK relatedToTime="t82" timeID="t85" relType="ENDED_BY" />
+<TLINK relatedToTime="t85" eventInstanceID="ei382" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t82" eventInstanceID="ei383" relType="DURING" />
+<TLINK relatedToEventInstance="ei386" signalID="s13" eventInstanceID="ei387" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei388" signalID="s15" eventInstanceID="ei389" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei388" eventInstanceID="ei391" relType="AFTER" />
+<TLINK relatedToTime="t82" eventInstanceID="ei394" relType="DURING" />
+<TLINK relatedToTime="t196" eventInstanceID="ei396" relType="DURING" />
+<TLINK relatedToEventInstance="ei397" eventInstanceID="ei395" relType="BEFORE" />
+<TLINK relatedToTime="t82" eventInstanceID="ei398" relType="AFTER" />
+<TLINK relatedToTime="t82" eventInstanceID="ei399" relType="BEFORE" />
+<TLINK relatedToTime="t82" eventInstanceID="ei400" relType="DURING" />
+<TLINK relatedToTime="t82" eventInstanceID="ei401" relType="DURING" />
+<TLINK relatedToTime="t82" eventInstanceID="ei402" relType="DURING" />
+<TLINK relatedToTime="t89" eventInstanceID="ei403" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t90" eventInstanceID="ei404" relType="DURING" />
+<TLINK relatedToTime="t82" eventInstanceID="ei405" relType="BEFORE" />
+<TLINK relatedToTime="t82" eventInstanceID="ei407" relType="DURING" />
+<TLINK relatedToEventInstance="ei408" timeID="t98" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei409" timeID="t98" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei411" eventInstanceID="ei410" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei412" eventInstanceID="ei410" relType="BEFORE" />
+<TLINK relatedToTime="t82" eventInstanceID="ei413" relType="DURING" />
+<TLINK relatedToEventInstance="ei415" eventInstanceID="ei414" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t82" eventInstanceID="ei414" relType="DURING" />
+<TLINK relatedToTime="t82" eventInstanceID="ei416" relType="DURING" />
+<TLINK relatedToEventInstance="ei417" timeID="t99" relType="INCLUDES" />
+<TLINK signalID="s306" relatedToTime="t99" eventInstanceID="ei418" relType="AFTER" />
+<TLINK relatedToEventInstance="ei419" eventInstanceID="ei418" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei424" eventInstanceID="ei423" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t100" eventInstanceID="ei423" relType="DURING" />
+<TLINK relatedToTime="t82" eventInstanceID="ei425" relType="DURING" />
+<TLINK relatedToTime="t82" eventInstanceID="ei427" relType="AFTER" />
+<TLINK relatedToTime="t82" eventInstanceID="ei428" relType="AFTER" />
+<TLINK relatedToEventInstance="ei430" eventInstanceID="ei429" relType="BEGINS" />
+<TLINK relatedToTime="t82" eventInstanceID="ei429" relType="DURING" />
+<SLINK subordinatedEventInstance="ei385" eventInstanceID="ei384" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei390" eventInstanceID="ei389" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei393" eventInstanceID="ei392" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei404" eventInstanceID="ei402" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei406" eventInstanceID="ei405" relType="MODAL" />
+<SLINK signalID="s315" subordinatedEventInstance="ei419" eventInstanceID="ei418" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei421" eventInstanceID="ei420" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei423" eventInstanceID="ei422" relType="MODAL" />
+<ALINK relatedToEventInstance="ei395" eventInstanceID="ei396" relType="INITIATES" />
+</TimeML>

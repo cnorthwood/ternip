@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0006 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0006. </AN>
+<HL> Upjohn Offers
+@  Plan to Reduce
+@  Its Work Force
+@  ----
+@  By Bradley A. Stertz
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t78" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> UPJ </CO>
+<IN> DRUG MANUFACTURERS (DRG) </IN>
+<DATELINE> KALAMAZOO, Mich.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Upjohn Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it will <EVENT eid="e2" class="OCCURRENCE" >offer</EVENT> an early retirement package to as many as <CARDINAL>1,100</CARDINAL> employees in a cost-<EVENT eid="e98" class="OCCURRENCE" >cutting</EVENT> <EVENT eid="e3" class="I_ACTION" >move</EVENT> <EVENT eid="e5" class="I_STATE" >expected</EVENT> <SIGNAL sid="s6" >to</SIGNAL> <EVENT eid="e7" class="ASPECTUAL" >result</EVENT> <SIGNAL sid="s129" >in</SIGNAL> a <TIMEX3 tid="t79" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q4" anchorTimeID="t78" >fourth-quarter</TIMEX3> <EVENT eid="e80" class="OCCURRENCE" >charge</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Upjohn</ENAMEX> officials <EVENT eid="e8" class="REPORTING" >said</EVENT> they <SIGNAL sid="s10" >could</SIGNAL> <SIGNAL sid="s11" >n't</SIGNAL> <EVENT eid="e9" class="I_ACTION" >estimate</EVENT> the size of the <EVENT eid="e81" class="OCCURRENCE" >charge</EVENT> until they <EVENT eid="e12" class="I_ACTION" >determine</EVENT> which employees, and how many, will <EVENT eid="e14" class="OCCURRENCE" >participate</EVENT> in the retirement plan.</s> 
+<s>But the pharmaceutical company <EVENT eid="e16" class="REPORTING" >said</EVENT> it "<EVENT eid="e17" class="I_STATE" >anticipates</EVENT> the long-term savings resulting from the plan's implementation will more than <EVENT eid="e91" class="OCCURRENCE" >offset</EVENT> short-term costs."</s> 
+
+   <s>The program, available to <ENAMEX TYPE="ORGANIZATION">Upjohn</ENAMEX> employees 55 years old or older, <SIGNAL sid="s25" >could</SIGNAL> <EVENT eid="e24" class="OCCURRENCE" >increase</EVENT> an individual's retirement benefits <NUMEX TYPE="PERCENT">10%</NUMEX> to <NUMEX TYPE="PERCENT">20%</NUMEX>.</s> 
+<s>In addition, <ENAMEX TYPE="ORGANIZATION">Upjohn</ENAMEX> is <EVENT eid="e29" class="OCCURRENCE" >offering</EVENT> a one-time retirement bonus equal to <CARDINAL>six</CARDINAL> months of base pay.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Chairman Theodore Cooper</ENAMEX> <EVENT eid="e31" class="REPORTING" >called</EVENT> the program part of the company's <TIMEX3 tid="t190" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P2Y" anchorTimeID="t78" >two-year</TIMEX3> <EVENT eid="e189" class="I_ACTION" >strategy</EVENT> <SIGNAL sid="s32" >to</SIGNAL> <EVENT eid="e33" class="I_ACTION" >implement</EVENT> budget <EVENT eid="e94" class="STATE" >constraints</EVENT> and "an effective headcount-control <EVENT eid="e217" class="OCCURRENCE" >program</EVENT>."</s> 
+
+   <s>But some analysts <EVENT eid="e34" class="I_ACTION" >questioned</EVENT> how much of an <EVENT eid="e35" class="OCCURRENCE" >impact</EVENT> the retirement package will <EVENT eid="e36" class="OCCURRENCE" >have</EVENT>, because <SIGNAL sid="s240" >few</SIGNAL> jobs will <EVENT eid="e38" class="ASPECTUAL" >end</EVENT> up being <EVENT eid="e86" class="OCCURRENCE" >eliminated</EVENT>.</s> 
+<s>"It's a cosmetic <EVENT eid="e39" class="OCCURRENCE" >move</EVENT>," <EVENT eid="e40" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Jonathan S. Gelles of Wertheim Schroder amp Co.</ENAMEX> 
+
+   According to <ENAMEX TYPE="ORGANIZATION">Upjohn</ENAMEX>'s <EVENT eid="e282" class="REPORTING" >estimates</EVENT>, only <NUMEX TYPE="PERCENT">50%</NUMEX> to <NUMEX TYPE="PERCENT">60%</NUMEX> of the <CARDINAL>1,100</CARDINAL> eligible employees will <EVENT eid="e42" class="OCCURRENCE" >take</EVENT> <EVENT eid="e87" class="OCCURRENCE" >advantage</EVENT> of the plan.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Upjohn further</ENAMEX> <EVENT eid="e43" class="OCCURRENCE" >estimated</EVENT> that about <NUMEX TYPE="PERCENT">50%</NUMEX> of the employees who <EVENT eid="e44" class="OCCURRENCE" >leave</EVENT> for early retirement <SIGNAL sid="s47" >may</SIGNAL> be <EVENT eid="e46" class="OCCURRENCE" >replaced</EVENT>.</s> 
+<s>As a result, <ENAMEX TYPE="ORGANIZATION">Upjohn</ENAMEX> will likely <EVENT eid="e50" class="OCCURRENCE" >trim</EVENT> only <CARDINAL>about 275</CARDINAL> to <CARDINAL>350</CARDINAL> of its <CARDINAL>more than 21,000</CARDINAL> jobs world-wide.</s> 
+
+   <s>In composite trading on the <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> <TIMEX3 tid="t92" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-02" anchorTimeID="t78" >yesterday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Upjohn</ENAMEX> shares <EVENT eid="e53" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="MONEY">87.5 cents to $38.875</NUMEX> apiece.</s> 
+
+   <s>An <ENAMEX TYPE="ORGANIZATION">Upjohn</ENAMEX> spokesman <EVENT eid="e54" class="REPORTING" >said</EVENT> he had " <EVENT eid="e55" class="I_ACTION" >heard</EVENT> <SIGNAL sid="s89" >nothing</SIGNAL>" <SIGNAL sid="s56" >to</SIGNAL> <EVENT eid="e57" class="I_ACTION" >suggest</EVENT> the early retirement package was <EVENT eid="e58" class="OCCURRENCE" >spurred</EVENT> by shareholder pressure or a potential bidder for the company, which occasionally has <EVENT eid="e88" class="STATE" >been</EVENT> the <EVENT eid="e361" class="STATE" >target</EVENT> of <EVENT eid="e90" class="OCCURRENCE" >takeover</EVENT> <EVENT eid="e60" class="I_ACTION" >speculation</EVENT>.</s> 
+<s>The company <TIMEX3 mod="BEFORE" tid="t372" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-10-01" anchorTimeID="t78" >earlier this year</TIMEX3> <EVENT eid="e61" class="OCCURRENCE" >adopted</EVENT> a shareholder-rights plan <SIGNAL sid="s62" >to</SIGNAL> <EVENT eid="e63" class="OCCURRENCE" >ward</EVENT> off unwanted suitors.</s> 
+
+   <s>The spokesman <EVENT eid="e64" class="REPORTING" >said</EVENT> it <EVENT eid="e397" class="STATE" >is</EVENT> the first early retirement plan <EVENT eid="e65" class="I_ACTION" >offered</EVENT> under its two-year cost-control strategy.</s> 
+<s><TIMEX3 tid="t404" type="TIME" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t78" >Earlier</TIMEX3> staff-reduction <EVENT eid="e66" class="OCCURRENCE" >moves</EVENT> have <EVENT eid="e67" class="OCCURRENCE" >trimmed</EVENT> <CARDINAL>about 300</CARDINAL> jobs, the spokesman <EVENT eid="e69" class="REPORTING" >said</EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei421" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei422" tense="FUTURE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei423" tense="NONE" eventID="e98" />
+<MAKEINSTANCE aspect="NONE" eiid="ei424" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei425" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei426" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei427" tense="NONE" eventID="e80" />
+<MAKEINSTANCE aspect="NONE" eiid="ei428" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei429" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei430" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei431" tense="PRESENT" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei432" tense="FUTURE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei433" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei434" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei435" tense="FUTURE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei436" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei437" tense="PRESENT" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei438" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei439" tense="NONE" eventID="e189" />
+<MAKEINSTANCE aspect="NONE" eiid="ei440" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei441" tense="NONE" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei442" tense="NONE" eventID="e217" />
+<MAKEINSTANCE aspect="NONE" eiid="ei443" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei444" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei445" tense="FUTURE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei446" tense="FUTURE" eventID="e38" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei447" tense="NONE" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" eiid="ei448" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei449" tense="PAST" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei450" tense="NONE" eventID="e282" />
+<MAKEINSTANCE aspect="NONE" eiid="ei451" tense="FUTURE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei452" tense="NONE" eventID="e87" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei453" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei454" tense="PRESENT" eventID="e44" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei455" tense="PRESENT" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei456" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei457" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei458" tense="PAST" eventID="e54" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei459" tense="PAST" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei460" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei461" tense="PAST" eventID="e58" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei462" tense="PRESENT" eventID="e88" />
+<MAKEINSTANCE aspect="NONE" eiid="ei463" tense="NONE" eventID="e361" />
+<MAKEINSTANCE aspect="NONE" eiid="ei464" tense="NONE" eventID="e90" />
+<MAKEINSTANCE aspect="NONE" eiid="ei465" tense="NONE" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei466" tense="PAST" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei467" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei468" tense="PAST" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei469" tense="PRESENT" eventID="e397" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei470" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei471" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei472" tense="PRESENT" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei473" tense="PAST" eventID="e69" />
+<TLINK relatedToEventInstance="ei421" timeID="t78" relType="AFTER" />
+<TLINK relatedToEventInstance="ei424" eventInstanceID="ei422" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t79" eventInstanceID="ei427" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei421" eventInstanceID="ei428" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei431" eventInstanceID="ei429" relType="AFTER" />
+<TLINK relatedToEventInstance="ei421" eventInstanceID="ei433" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei432" eventInstanceID="ei436" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t78" eventInstanceID="ei432" relType="AFTER" />
+<TLINK relatedToEventInstance="ei422" eventInstanceID="ei437" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei428" eventInstanceID="ei438" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t190" eventInstanceID="ei439" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t78" timeID="t190" relType="INCLUDES" />
+<TLINK relatedToTime="t78" eventInstanceID="ei443" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei421" eventInstanceID="ei443" relType="AFTER" />
+<TLINK relatedToEventInstance="ei445" eventInstanceID="ei444" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei446" eventInstanceID="ei443" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei443" eventInstanceID="ei449" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei424" eventInstanceID="ei448" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei452" eventInstanceID="ei451" relType="IDENTITY" />
+<TLINK relatedToTime="t78" eventInstanceID="ei451" relType="AFTER" />
+<TLINK relatedToEventInstance="ei428" eventInstanceID="ei450" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei453" eventInstanceID="ei450" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei455" eventInstanceID="ei454" relType="BEFORE" />
+<TLINK relatedToTime="t78" eventInstanceID="ei454" relType="AFTER" />
+<TLINK relatedToEventInstance="ei422" eventInstanceID="ei454" relType="AFTER" />
+<TLINK relatedToEventInstance="ei455" eventInstanceID="ei456" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t78" timeID="t92" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei457" timeID="t92" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei428" eventInstanceID="ei458" relType="IAFTER" />
+<TLINK relatedToTime="t78" eventInstanceID="ei462" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei463" eventInstanceID="ei462" relType="IDENTITY" />
+<TLINK relatedToTime="t78" timeID="t372" relType="BEFORE" />
+<TLINK relatedToTime="t372" eventInstanceID="ei466" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei421" timeID="t372" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei428" eventInstanceID="ei468" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei470" eventInstanceID="ei469" relType="IDENTITY" />
+<TLINK relatedToTime="t78" timeID="t404" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei471" timeID="t404" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei472" eventInstanceID="ei471" relType="IBEFORE" />
+<SLINK subordinatedEventInstance="ei472" eventInstanceID="ei473" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei422" eventInstanceID="ei421" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei423" eventInstanceID="ei424" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei424" eventInstanceID="ei425" relType="MODAL" />
+<SLINK signalID="s6" subordinatedEventInstance="ei426" eventInstanceID="ei424" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei429" eventInstanceID="ei428" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei430" eventInstanceID="ei429" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei432" eventInstanceID="ei431" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei434" eventInstanceID="ei433" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei435" eventInstanceID="ei434" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei439" eventInstanceID="ei438" relType="EVIDENTIAL" />
+<SLINK signalID="s32" subordinatedEventInstance="ei440" eventInstanceID="ei439" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei441" eventInstanceID="ei440" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei442" eventInstanceID="ei440" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei445" eventInstanceID="ei443" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei448" eventInstanceID="ei449" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei451" eventInstanceID="ei450" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei455" eventInstanceID="ei453" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei459" eventInstanceID="ei458" relType="EVIDENTIAL" />
+<SLINK signalID="s56" subordinatedEventInstance="ei460" eventInstanceID="ei459" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei461" eventInstanceID="ei460" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei465" eventInstanceID="ei463" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei464" eventInstanceID="ei465" relType="MODAL" />
+<SLINK signalID="s62" subordinatedEventInstance="ei467" eventInstanceID="ei466" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei469" eventInstanceID="ei468" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei427" signalID="s129" eventInstanceID="ei426" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei447" eventInstanceID="ei446" relType="CULMINATES" />
+</TimeML>

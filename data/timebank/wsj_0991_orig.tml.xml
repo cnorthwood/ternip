@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0066 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0066. </AN>
+<HL> Total Assets Protection Inc. </HL>
+<DD> <TIMEX3 tid="t19" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> TAPP </CO>
+<DATELINE> ARLINGTON, Texas  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Total Assets Protection Inc.</ENAMEX>, <EVENT eid="e1" class="OCCURRENCE" >rebounding</EVENT> from its <SIGNAL sid="s16" >earlier</SIGNAL> <EVENT eid="e2" class="OCCURRENCE" >loss</EVENT>, <EVENT eid="e4" class="I_STATE" >expects</EVENT> <SIGNAL sid="s5" >to</SIGNAL> <EVENT eid="e6" class="REPORTING" >report</EVENT> <EVENT eid="e17" class="STATE" >earnings</EVENT> from <EVENT eid="e7" class="OCCURRENCE" >operations</EVENT> of about <NUMEX TYPE="MONEY">$200,000</NUMEX> <SIGNAL sid="s18" >for</SIGNAL> <TIMEX3 tid="t20" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t19" >the third quarter</TIMEX3>, <ENAMEX TYPE="PERSON">J.C. Matlock, chairman</ENAMEX>, <EVENT eid="e9" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>Net income includes an extraordinary <EVENT eid="e21" class="STATE" >gain</EVENT> of about <NUMEX TYPE="MONEY">$100,000</NUMEX> from the <EVENT eid="e11" class="OCCURRENCE" >reversal</EVENT> of bad debt and interest income.</s> 
+<s>Revenue was about <NUMEX TYPE="MONEY">$4.5 million</NUMEX>.</s> 
+<s><SIGNAL sid="s22" >In</SIGNAL> <TIMEX3 tid="t23" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988-Q3" >the 1988 third quarter</TIMEX3>, the company <EVENT eid="e13" class="REPORTING" >posted</EVENT> a net loss of <EVENT eid="e24" class="STATE" ><NUMEX TYPE="MONEY">$876,706</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">22 cents</NUMEX> a share, on revenue of about <NUMEX TYPE="MONEY">$5.1 million</NUMEX>.</s> 
+
+   <s>Total <ENAMEX TYPE="ORGANIZATION">Assets</ENAMEX> plans and designs computer centers, computer security systems and computer backup systems.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei85" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei86" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei87" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei88" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei89" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei90" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei91" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei92" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei93" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei94" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei95" tense="NONE" eventID="e24" />
+<TLINK relatedToTime="t19" eventInstanceID="ei87" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei90" eventInstanceID="ei89" relType="AFTER" />
+<TLINK relatedToEventInstance="ei85" eventInstanceID="ei87" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei86" signalID="s16" eventInstanceID="ei85" relType="AFTER" />
+<TLINK signalID="s18" relatedToTime="t20" eventInstanceID="ei89" relType="DURING" />
+<TLINK relatedToEventInstance="ei93" eventInstanceID="ei92" relType="AFTER" />
+<TLINK signalID="s22" relatedToTime="t23" eventInstanceID="ei95" relType="ENDS" />
+<TLINK relatedToTime="t19" eventInstanceID="ei91" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei87" eventInstanceID="ei91" relType="EVIDENTIAL" />
+<SLINK signalID="s5" subordinatedEventInstance="ei88" eventInstanceID="ei87" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei89" eventInstanceID="ei88" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei95" eventInstanceID="ei94" relType="EVIDENTIAL" />
+</TimeML>

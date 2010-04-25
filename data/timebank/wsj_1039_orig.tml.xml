@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0017 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0017. </AN>
+<HL> Business Brief -- Amdahl Corp.:
+@  Computer Firm's Earnings
+@  Fell 37% in Third Quarter </HL>
+<DD> <TIMEX3 tid="t15" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> AMH </CO>
+<IN> EARNINGS (ERN)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Amdahl Corp.</ENAMEX>, a maker of mainframe computers, <EVENT eid="e1" class="REPORTING" >reported</EVENT> a sharp <EVENT eid="e16" class="OCCURRENCE" >decline</EVENT> in net <EVENT eid="e31" class="OCCURRENCE" >income</EVENT> for its <TIMEX3 tid="t17" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t15" >third quarter</TIMEX3>, <EVENT eid="e2" class="OCCURRENCE" >citing</EVENT> <EVENT eid="e18" class="OCCURRENCE" >pricecutting</EVENT> by competitors and adverse effects from a strong <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> dollar.</s> 
+
+   <s>Net income <EVENT eid="e3" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="PERCENT">37%</NUMEX> <SIGNAL sid="s50" >to</SIGNAL> <EVENT eid="e19" class="STATE" ><NUMEX TYPE="MONEY">$32.9 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">30 cents</NUMEX> a share, <SIGNAL sid="s55" >from</SIGNAL> <EVENT eid="e20" class="STATE" ><NUMEX TYPE="MONEY">$52.2 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">48 cents</NUMEX> a share, in <TIMEX3 tid="t21" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t17" >the year-ago period</TIMEX3>.</s> 
+<s>Revenue <EVENT eid="e4" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">15%</NUMEX> <SIGNAL sid="s68" >to</SIGNAL> <EVENT eid="e70" class="STATE" ><NUMEX TYPE="MONEY">$534.3 million</NUMEX></EVENT> <SIGNAL sid="s69" >from</SIGNAL> <EVENT eid="e71" class="STATE" ><NUMEX TYPE="MONEY">$464.7 million</NUMEX></EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Amdahl</ENAMEX>'s <EVENT eid="e5" class="OCCURRENCE" >results</EVENT> were somewhat worse than <EVENT eid="e6" class="I_STATE" >expected</EVENT>.</s> 
+<s><ENAMEX TYPE="PERSON">Jay Stevens</ENAMEX>, an analyst with <ENAMEX TYPE="PERSON">Dean Witter Reynolds</ENAMEX>, <EVENT eid="e7" class="REPORTING" >said</EVENT> he <EVENT eid="e8" class="I_STATE" >expected</EVENT> the <ENAMEX TYPE="LOCATION">Sunnyvale</ENAMEX>, <ENAMEX TYPE="LOCATION">Calif.</ENAMEX>, company <SIGNAL sid="s96" >to</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >earn</EVENT> <NUMEX TYPE="MONEY">35 cents</NUMEX> a share for <TIMEX3 tid="t22" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t17" >the quarter</TIMEX3> and <EVENT eid="e11" class="REPORTING" >said</EVENT> the firm's weaker <EVENT eid="e114" class="OCCURRENCE" >profit</EVENT> was partly the <EVENT eid="e12" class="OCCURRENCE" >result</EVENT> of <EVENT eid="e111" class="STATE" >increased</EVENT> competition from <ENAMEX TYPE="ORGANIZATION">International Business Machines Corp.</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Amdahl</ENAMEX>'s principal competitor for mainframe sales.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei121" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei124" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei125" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei130" tense="NONE" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei131" tense="NONE" eventID="e71" />
+<MAKEINSTANCE aspect="NONE" eiid="ei132" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei133" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei134" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei135" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei136" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei137" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei138" tense="NONE" eventID="e114" />
+<MAKEINSTANCE aspect="NONE" eiid="ei139" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei140" tense="NONE" eventID="e111" />
+<TLINK relatedToEventInstance="ei138" eventInstanceID="ei140" relType="BEFORE" />
+<TLINK relatedToTime="t15" eventInstanceID="ei121" relType="BEFORE" />
+<TLINK relatedToTime="t17" eventInstanceID="ei123" relType="ENDS" />
+<TLINK relatedToEventInstance="ei125" eventInstanceID="ei124" relType="AFTER" />
+<TLINK relatedToEventInstance="ei121" eventInstanceID="ei124" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei127" signalID="s50" eventInstanceID="ei126" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei128" signalID="s55" eventInstanceID="ei126" relType="AFTER" />
+<TLINK relatedToEventInstance="ei128" timeID="t21" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei130" signalID="s68" eventInstanceID="ei129" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei131" signalID="s69" eventInstanceID="ei129" relType="AFTER" />
+<TLINK relatedToEventInstance="ei123" eventInstanceID="ei132" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei132" eventInstanceID="ei133" relType="BEFORE" />
+<TLINK relatedToTime="t22" eventInstanceID="ei136" relType="ENDS" />
+<TLINK relatedToEventInstance="ei134" eventInstanceID="ei137" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei138" eventInstanceID="ei139" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei122" eventInstanceID="ei121" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei135" eventInstanceID="ei134" relType="EVIDENTIAL" />
+<SLINK signalID="s96" subordinatedEventInstance="ei136" eventInstanceID="ei135" relType="MODAL" />
+</TimeML>

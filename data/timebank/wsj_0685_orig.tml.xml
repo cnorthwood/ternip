@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0010 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0010. </AN>
+<HL> CNW Acquisition Completed </HL>
+<DD> <TIMEX3 tid="t11" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CNW </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+TRANSPORTATION, TRUCK AND SHIP LINES, RAILROADS (TRA) </IN>
+<DATELINE> CHICAGO  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">CNW Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> the final step in the <EVENT eid="e3" class="OCCURRENCE" >acquisition</EVENT> of the company has been <EVENT eid="e5" class="ASPECTUAL" >completed</EVENT> with the <EVENT eid="e6" class="OCCURRENCE" >merger</EVENT> of <ENAMEX TYPE="ORGANIZATION">CNW</ENAMEX> with a subsidiary of <ENAMEX TYPE="ORGANIZATION">Chicago amp North Western Holdings Corp.</ENAMEX> 
+
+   As <EVENT eid="e13" class="REPORTING" >reported</EVENT>, <ENAMEX TYPE="ORGANIZATION">CNW</ENAMEX> <EVENT eid="e7" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s8" >to</SIGNAL> be <EVENT eid="e9" class="OCCURRENCE" >acquired</EVENT> by a group of investors led by <ENAMEX TYPE="ORGANIZATION">Blackstone Capital Partners Limited Partnership</ENAMEX> for <NUMEX TYPE="MONEY">$50</NUMEX> a share, or about <NUMEX TYPE="MONEY">$950 million</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei53" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei54" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei55" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei56" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei57" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei58" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei59" tense="NONE" eventID="e9" />
+<TLINK relatedToTime="t11" eventInstanceID="ei57" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei53" timeID="t11" relType="AFTER" />
+<TLINK relatedToEventInstance="ei56" eventInstanceID="ei54" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei54" eventInstanceID="ei59" relType="IDENTITY" />
+<SLINK subordinatedEventInstance="ei55" eventInstanceID="ei53" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei58" eventInstanceID="ei57" relType="EVIDENTIAL" />
+<SLINK signalID="s8" subordinatedEventInstance="ei59" eventInstanceID="ei58" relType="MODAL" />
+<ALINK relatedToEventInstance="ei54" eventInstanceID="ei55" relType="CULMINATES" />
+</TimeML>

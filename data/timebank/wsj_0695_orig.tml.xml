@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0045 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891030-0045. </AN>
+<HL> Business Brief -- Rally's Inc.:
+@  Investor Group Is Seeking
+@  More Than 50% of Stock </HL>
+<DD> <TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> GPO RLLY </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s>A group of investors led by <ENAMEX TYPE="ORGANIZATION">Giant Group Ltd.</ENAMEX> and its <ENAMEX TYPE="PERSON">chairman, Burt Sugarman</ENAMEX>, <EVENT eid="e2" class="REPORTING" >said</EVENT> it <EVENT eid="e28" class="I_ACTION" >filed</EVENT> with federal antitrust regulators <SIGNAL sid="s63" >for</SIGNAL> <EVENT eid="e29" class="I_ACTION" >clearance</EVENT> <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e5" class="OCCURRENCE" >buy</EVENT> more than <NUMEX TYPE="PERCENT">50%</NUMEX> of the stock of <ENAMEX TYPE="ORGANIZATION">Rally's Inc.</ENAMEX>, a fast-food company based in <ENAMEX TYPE="LOCATION">Louisville</ENAMEX>, <ENAMEX TYPE="LOCATION">Ky. 
+
+   Rally</ENAMEX>'s operates and franchises <CARDINAL>about 160</CARDINAL> fast-food restaurants throughout the U.S. 
+The company <EVENT eid="e9" class="OCCURRENCE" >went</EVENT> public <SIGNAL sid="s78" >earlier</SIGNAL> <TIMEX3 tid="t79" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-10" anchorTimeID="t27" >this month</TIMEX3>, <EVENT eid="e10" class="OCCURRENCE" >offering</EVENT> <CARDINAL>1,745,000</CARDINAL> shares of common stock at <NUMEX TYPE="MONEY">$15</NUMEX> a share.</s> 
+<s>Giant has interests in cement making and newsprint.</s> 
+
+   <s>The investor group includes <ENAMEX TYPE="ORGANIZATION">Restaurant Investment Partnership</ENAMEX>, a <ENAMEX TYPE="LOCATION">California</ENAMEX> general partnership, and <CARDINAL>three</CARDINAL> <ENAMEX TYPE="ORGANIZATION">Rally's</ENAMEX> directors: <ENAMEX TYPE="PERSON">Mr. Sugarman</ENAMEX>, <ENAMEX TYPE="PERSON">James M. Trotter III</ENAMEX> and <ENAMEX TYPE="PERSON">William E. Trotter II</ENAMEX>.</s> 
+<s>The group currently holds <CARDINAL>3,027,330</CARDINAL> <ENAMEX TYPE="ORGANIZATION">Rally's</ENAMEX> shares, or <NUMEX TYPE="PERCENT">45.2%</NUMEX> of its commmon shares outstanding.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Giant Group</ENAMEX> <EVENT eid="e16" class="STATE" >owned</EVENT> <NUMEX TYPE="PERCENT">22%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Rally's</ENAMEX> shares <SIGNAL sid="s18" >before</SIGNAL> the initial public <EVENT eid="e17" class="OCCURRENCE" >offering</EVENT>.</s> 
+
+   <s>A second group of <CARDINAL>three</CARDINAL> company directors, aligned with <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Rally's</ENAMEX> founder James Patterson</ENAMEX>, also is <EVENT eid="e20" class="I_ACTION" >seeking</EVENT> <EVENT eid="e32" class="STATE" >control</EVENT> of the fast-food chain.</s> 
+<s>It is estimated that the <ENAMEX TYPE="PERSON">Patterson</ENAMEX> group <EVENT eid="e33" class="STATE" >controls</EVENT> more than <NUMEX TYPE="PERCENT">40%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Rally's</ENAMEX> stock.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Rally</ENAMEX> officials were<SIGNAL sid="s35" >n't</SIGNAL> <EVENT eid="e34" class="STATE" >available</EVENT> <SIGNAL sid="s23" >to</SIGNAL> <EVENT eid="e24" class="OCCURRENCE" >comment</EVENT> <SIGNAL sid="s139" >late</SIGNAL> <TIMEX3 tid="t37" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t27" >yesterday</TIMEX3>.</s> 
+
+   <s><SIGNAL sid="s42" >For</SIGNAL> <TIMEX3 tid="t39" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" >the year</TIMEX3> <SIGNAL sid="s41" >ended</SIGNAL> <TIMEX3 tid="t40" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-07-02" anchorTimeID="t27" >July 2</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Rally</ENAMEX> <EVENT eid="e26" class="OCCURRENCE" >had</EVENT> net income of <NUMEX TYPE="MONEY">$2.4 million</NUMEX>, or <NUMEX TYPE="MONEY">34 cents</NUMEX> a share, on revenue of <NUMEX TYPE="MONEY">$52.9 million</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei151" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei152" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei153" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei154" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei155" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei156" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei157" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei158" tense="PRESENT" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei159" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei160" tense="PRESENT" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei163" tense="PAST" eventID="e26" />
+<TLINK relatedToTime="t37" eventInstanceID="ei161" relType="DURING" />
+<TLINK signalID="s41" relatedToTime="t40" timeID="t39" relType="ENDED_BY" />
+<TLINK signalID="s42" relatedToTime="t39" eventInstanceID="ei163" relType="DURING" />
+<TLINK relatedToEventInstance="ei150" timeID="t27" relType="AFTER" />
+<TLINK relatedToTime="t79" eventInstanceID="ei154" relType="SIMULTANEOUS" />
+<TLINK signalID="s78" timeID="t79" relType="DURING" />
+<TLINK relatedToEventInstance="ei155" eventInstanceID="ei154" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei157" signalID="s18" eventInstanceID="ei156" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei155" eventInstanceID="ei157" relType="IDENTITY" />
+<TLINK relatedToTime="t27" eventInstanceID="ei158" relType="INCLUDES" />
+<TLINK relatedToTime="t27" timeID="t79" relType="INCLUDES" />
+<TLINK relatedToTime="t27" eventInstanceID="ei160" relType="DURING" />
+<TLINK signalID="s139" timeID="t37" relType="DURING" />
+<SLINK subordinatedEventInstance="ei151" eventInstanceID="ei150" relType="EVIDENTIAL" />
+<SLINK signalID="s63" subordinatedEventInstance="ei152" eventInstanceID="ei151" relType="MODAL" />
+<SLINK signalID="s4" subordinatedEventInstance="ei153" eventInstanceID="ei152" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei159" eventInstanceID="ei158" relType="MODAL" />
+<SLINK signalID="s23" subordinatedEventInstance="ei162" eventInstanceID="ei161" relType="MODAL" />
+</TimeML>

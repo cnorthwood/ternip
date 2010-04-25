@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0031 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0031. </AN>
+<HL> Business Brief -- Savin Corp.:
+@  Office Products Firm Posts
+@  Net Loss for Third Quarter </HL>
+<DD> <TIMEX3 tid="t29" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> SVB </CO>
+<IN> EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Savin Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >reported</EVENT> a <TIMEX3 tid="t30" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t29" >third-quarter</TIMEX3> net <EVENT eid="e2" class="OCCURRENCE" >loss</EVENT> of <NUMEX TYPE="MONEY">$35.2 million</NUMEX>, or <NUMEX TYPE="MONEY">31 cents</NUMEX> a share, compared with <TIMEX3 tid="t31" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t30" >year-earlier</TIMEX3> <EVENT eid="e32" class="OCCURRENCE" >profit</EVENT> of <NUMEX TYPE="MONEY">$3.8 million</NUMEX>, or <NUMEX TYPE="MONEY">one cent</NUMEX> a share.</s> 
+
+   <s>A spokesman for the Stamford, Conn.based company <EVENT eid="e4" class="REPORTING" >said</EVENT> operations had a <EVENT eid="e6" class="OCCURRENCE" >loss</EVENT> of <NUMEX TYPE="MONEY">$5.5 million</NUMEX> for <TIMEX3 tid="t33" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t30" >the quarter</TIMEX3>; in addition, the <EVENT eid="e9" class="OCCURRENCE" >loss</EVENT> was <EVENT eid="e10" class="OCCURRENCE" >magnified</EVENT> by nonrecurring charges totaling <NUMEX TYPE="MONEY">$23.5 million</NUMEX> and <NUMEX TYPE="MONEY">$8.2 million</NUMEX> in asset-valuation adjustments that he described as "unusual."</s> 
+<s>The charges were partly <EVENT eid="e18" class="OCCURRENCE" >offset</EVENT> by a <NUMEX TYPE="MONEY">$2 million</NUMEX> <EVENT eid="e40" class="OCCURRENCE" >gain</EVENT> on the <EVENT eid="e19" class="OCCURRENCE" >sale</EVENT> of investments of <CARDINAL>two</CARDINAL> joint ventures, he <EVENT eid="e23" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>Revenue <EVENT eid="e24" class="OCCURRENCE" >declined</EVENT> <NUMEX TYPE="PERCENT">8%</NUMEX> <SIGNAL sid="s34" >to</SIGNAL> <EVENT eid="e35" class="STATE" ><NUMEX TYPE="MONEY">$85.7 million</NUMEX></EVENT>, <SIGNAL sid="s37" >from</SIGNAL> <NUMEX TYPE="MONEY">$93.3 million</NUMEX> <TIMEX3 tid="t38" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t30" >a year earlier</TIMEX3>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Savin</ENAMEX> <EVENT eid="e25" class="REPORTING" >cited</EVENT> "a general <EVENT eid="e137" class="OCCURRENCE" >softening</EVENT> in the demand for office products in the market segments in which <ENAMEX TYPE="ORGANIZATION">Savin</ENAMEX> competes."</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei148" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei149" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei151" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei152" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei153" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei154" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei155" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei156" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei157" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei158" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei159" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei160" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="NONE" eventID="e137" />
+<TLINK relatedToEventInstance="ei148" eventInstanceID="ei162" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei148" timeID="t29" relType="AFTER" />
+<TLINK relatedToTime="t30" eventInstanceID="ei149" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t31" eventInstanceID="ei150" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t29" eventInstanceID="ei151" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei148" eventInstanceID="ei151" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t33" eventInstanceID="ei152" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t30" timeID="t33" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei152" eventInstanceID="ei149" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei149" eventInstanceID="ei153" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei154" eventInstanceID="ei153" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei153" eventInstanceID="ei155" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei156" eventInstanceID="ei155" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei157" eventInstanceID="ei156" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei151" eventInstanceID="ei158" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei160" signalID="s34" eventInstanceID="ei159" relType="ENDED_BY" />
+<TLINK signalID="s37" relatedToTime="t38" relType="BEGUN_BY" />
+<TLINK relatedToTime="t38" timeID="t38" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t30" eventInstanceID="ei159" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei149" eventInstanceID="ei148" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei150" eventInstanceID="ei148" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei152" eventInstanceID="ei151" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei155" eventInstanceID="ei158" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei162" eventInstanceID="ei161" relType="EVIDENTIAL" />
+</TimeML>

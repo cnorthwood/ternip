@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891101-0008 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0008. </AN>
+<HL> Business Brief -- Rally's Inc.:
+@  Shareholder Rights Program
+@  Is Set by Fast-Food Firm </HL>
+<DD> <TIMEX3 tid="t22" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> RLLY </CO>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Rally's Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" >adopted</EVENT> a shareholders rights plan <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="OCCURRENCE" >protect</EVENT> shareholders from an inadequately priced takeover offer.</s> 
+
+   <s>The plan provides for the distribution of one common stock-purchase right as a dividend for each share of common outstanding.</s> 
+<s>Each right entitles shareholders to buy one-half share of common for <NUMEX TYPE="MONEY">$30</NUMEX>.</s> 
+
+   <s><TIMEX3 mod="START" tid="t23" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11" anchorTimeID="t22" >Earlier this month</TIMEX3>, a group led by <CARDINAL>three</CARDINAL> of the company's <ENAMEX TYPE="PERSON">directors, Burt Sugarman</ENAMEX>, <ENAMEX TYPE="PERSON">James M. Trotter III</ENAMEX> and <ENAMEX TYPE="PERSON">Willam E. Trotter II</ENAMEX>, <EVENT eid="e12" class="REPORTING" >indicated</EVENT> it <EVENT eid="e24" class="STATE" >had</EVENT> a <NUMEX TYPE="PERCENT">45.2%</NUMEX> <EVENT eid="e13" class="STATE" >stake</EVENT> in the <ENAMEX TYPE="LOCATION">Louisville</ENAMEX>, <ENAMEX TYPE="LOCATION">Ky.</ENAMEX>, fast-food company and that it <EVENT eid="e14" class="I_STATE" >planned</EVENT> <SIGNAL sid="s15" >to</SIGNAL> <EVENT eid="e16" class="I_ACTION" >seek</EVENT> a <EVENT eid="e26" class="STATE" >majority</EVENT> of seats on <ENAMEX TYPE="ORGANIZATION">Rally's</ENAMEX> nine-member board.</s> 
+
+   <s>The company <EVENT eid="e17" class="REPORTING" >said</EVENT> it was " <EVENT eid="e18" class="I_STATE" >concerned</EVENT> about the announced <EVENT eid="e19" class="I_ACTION" >intent</EVENT> <SIGNAL sid="s20" >to</SIGNAL> <EVENT eid="e21" class="I_ACTION" >acquire</EVENT> <EVENT eid="e27" class="STATE" >control</EVENT> of the company" by a <ENAMEX TYPE="PERSON">Sugarman</ENAMEX>-led group.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei90" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei91" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei92" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei93" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei94" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei95" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei96" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei97" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei98" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei99" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei100" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei101" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei102" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei103" tense="NONE" eventID="e27" />
+<TLINK relatedToTime="t22" eventInstanceID="ei90" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei93" timeID="t23" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei95" eventInstanceID="ei94" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei90" eventInstanceID="ei99" relType="IDENTITY" />
+<SLINK signalID="s3" subordinatedEventInstance="ei92" eventInstanceID="ei91" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei94" eventInstanceID="ei93" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei96" eventInstanceID="ei93" relType="EVIDENTIAL" />
+<SLINK signalID="s15" subordinatedEventInstance="ei97" eventInstanceID="ei96" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei98" eventInstanceID="ei97" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei100" eventInstanceID="ei99" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei101" eventInstanceID="ei100" relType="FACTIVE" />
+<SLINK signalID="s20" subordinatedEventInstance="ei102" eventInstanceID="ei101" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei103" eventInstanceID="ei102" relType="MODAL" />
+</TimeML>

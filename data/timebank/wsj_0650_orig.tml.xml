@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0048 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0048. </AN>
+<HL> Sun Microsystems Debentures </HL>
+<DD> <TIMEX3 tid="t18" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> SUNW </CO>
+<IN> BOND MARKET NEWS (BON) </IN>
+<DATELINE> MOUNTAIN VIEW, Calif.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Sun Microsystems Inc.</ENAMEX>, a computer maker, <EVENT eid="e1" class="REPORTING" >announced</EVENT> the <EVENT eid="e13" class="STATE" >effectiveness</EVENT> of its registration statement for <NUMEX TYPE="MONEY">$125 million</NUMEX> of <CARDINAL>6</CARDINAL> <NUMEX TYPE="PERCENT">3/8%</NUMEX> convertible subordinated debentures <EVENT eid="e12" class="STATE" >due</EVENT> <TIMEX3 tid="t14" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1999-10-15" >Oct. 15, 1999</TIMEX3>.</s> 
+
+   <s>The company <EVENT eid="e3" class="REPORTING" >said</EVENT> the debentures are being <EVENT eid="e5" class="OCCURRENCE" >issued</EVENT> at an issue price of <NUMEX TYPE="MONEY">$849</NUMEX> for each <NUMEX TYPE="MONEY">$1,000</NUMEX> principal amount and are <EVENT eid="e17" class="STATE" >convertible</EVENT> at any time <SIGNAL sid="s15" >prior to</SIGNAL> <EVENT eid="e16" class="STATE" >maturity</EVENT> at a conversion price of <NUMEX TYPE="MONEY">$25</NUMEX> a share.</s> 
+
+   <s>The debentures are available through <ENAMEX TYPE="ORGANIZATION">Goldman, Sachs amp Co.</ENAMEX></s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei57" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei58" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei59" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei60" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei61" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei62" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei63" tense="NONE" eventID="e16" />
+<TLINK relatedToEventInstance="ei63" signalID="s15" eventInstanceID="ei62" relType="BEFORE" />
+<TLINK relatedToTime="t18" eventInstanceID="ei57" relType="BEFORE" />
+<TLINK relatedToTime="t14" eventInstanceID="ei59" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei57" eventInstanceID="ei60" relType="IDENTITY" />
+<SLINK subordinatedEventInstance="ei58" eventInstanceID="ei57" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei59" eventInstanceID="ei57" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei61" eventInstanceID="ei60" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei62" eventInstanceID="ei60" relType="EVIDENTIAL" />
+</TimeML>

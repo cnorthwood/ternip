@@ -1,0 +1,444 @@
+
+=======================
+ Timex annotation tool
+=======================
+
+Version 0.3 / 2007-03-02
+University of Amsterdam / Information and Language Processing Systems Group
+http://ilps.science.uva.nl/Resources/timextag/
+
+
+This timex annotation tool handles recognition and/or normalization
+of temporal expressions in English text, according to the TIDES TIMEX2
+standard.  The program is written in Python.
+
+
+Required software
+-----------------
+
+* Python 2.3
+
+* libxml2 2.6 with Python binding
+
+* LibSVM 2.81 with Python binding;
+  available from http://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+* Perl 5.8
+
+* Charniak natural language parser;
+  available from ftp://ftp.cs.brown.edu/pub/nlparser/
+  (We used an older release from 2001, but parser05Aug16 will also work)
+
+* Valentin Jijkoun's dependency extraction tools for Charniak parses
+  (included with this package)
+
+
+Overview
+--------
+
+The task of recognition and normalization is split into a number
+of steps.  These steps can be run either individually or all together.
+
+* Step 1: Structured timex recognition/normalization.
+  A set of regular expressions is applied to the plain text of the document
+  to recognize and normalize structured fully qualified timexes.  We use this
+  to get timexes from document headers and footers that we cannot parse.
+  This step also determines the document timestamp to be used for further
+  timex normalization.
+
+* Step 2: Model-based recognition.
+  An SVM classifier identifies positive timex phrases based on full sentence
+  parses of the document.  In case a timex recognized in this step collides
+  with a timex from step 1 (identical span or improperly nested span);
+  the timex from step 1 is dropped and the step 2 timex is kept.
+
+* Step 3: Semantic classification.
+  An SVM classifier sorts the step 2 recognized timexes into six classes:
+  point, duration, generic point, generic duration, recurrence or non-valued.
+
+* Step 4: Pre-normalization.
+  The text content of the timexes is matched against a set of patterns.
+  There is a different set of patterns for each semantic class.  A successful
+  match provides a rule to compute the prenormalized value.  If a timex
+  does not match any pattern, it falls back to a non-valued timex.
+  Some patterns also produce values for the MOD or ANCHOR_DIR attributes.
+
+* Step 5: Direction classification.
+  An SVM classifier sorts the timexes with semantic class "point" into
+  three direction classes: before, same or after.
+
+* Step 6: Final normalization.
+  The prenormalized value is turned into a VAL attribute.  For point
+  timexes, this may involve a computation where the PRENORM value
+  is combined with a reference time under influence of the direction class.
+  If needed, the ANCHOR_VAL attribute is set to a truncated form of
+  the document timestamp.
+
+
+Input formats
+-------------
+
+Input documents commonly consists of plain text with XML-ish markup
+that identifies headers and text sections.  A preprocessing step must be done
+to convert such documents into the format used by our tagging system,
+and to parse the document bodies.  Scripts to perform preprocessing
+are included in the package.
+
+Depending on the selected processing steps, our tagging system requires
+up to 3 kinds of input:
+
+* Plain document text.
+  The full text of the document, including headers, with all markup
+  elements stripped out (and entities converted).
+  The default encoding is ASCII; support for latin1/utf8 is in place
+  but has not really been tested.
+
+* Stand-off markup.
+  A stand-off XML file with XIRAF-style rstart/rend alignment.
+  We use TIMEX2 elements to describe timexes.
+  We use the TEXT element to locate the document body, the DATE_TIME element
+  to locate the document timestamp, the DOCNO element to disable timex
+  recognition in the document name.
+
+* Sentence parses (for machine learned recognition and classification).
+  Charniak parses of the text sections in XML format as produced
+  by Valentin's dependency extraction tool, re-aligned to the full
+  document text using XIRAF-style rstart/rend attributes.
+
+
+Output formats
+--------------
+
+The tagging system outputs stand-off XML with XIRAF-style rstart/rend
+alignment.
+
+The output contains TIMEX2 elements to describe the timex spans processed
+by the tagger.  The following attributes are used with TIMEX2 elements:
+* val, set, mod, anchor_dir, anchor_val as described by the standard;
+* tmxclass specifies the semantic class (specific to our system)
+* dirclass specifies the direction class (specific to our system)
+* prenorm specifies the result of prenormalization (specific to our system).
+
+In addition, relevant input markup (reftime, DOCID, TEXT) is reproduced
+in the output so that the output can be fed back into the tagger for
+subsequent annotation steps.  Other markup elements from the input are
+not reproduced in the output.
+
+
+Usage
+-----
+
+Command line arguments specifying input can refer either to a file
+(to process a single document) or to a directory (to process a collection
+of documents).  When specifying directories, each kind of input (text,
+markup and parses) must be in a separate directory, and files corresponding
+to the same document must have identical file names.
+
+For example, a document named "test_doc" may consist of the following files:
+ - documents/txt/test_doc (plain text)
+ - documents/xml/test_doc (stand-off XML markup)
+ - documents/parse/test_doc (sentence parses)
+
+To run the complete pipeline of annotation steps:
+
+  timextool.py
+    --inputtxt txtFileOrDir
+    --inputxml markupFileOrDir
+    --inputparses parseFileOrDir
+    --struct --timestamp --recog --tmxclass --prenorm --dirclass --norm
+    --outputxml outputFileOrDir
+    [ --recogmodel basefilename ]
+    [ --tmxclassmodel basefilename ]
+    [ --dirclassmodel basefilename ]
+
+The set "--struct --timestamp --recog --tmxclass --prenorm --dirclass --norm"
+may be abbreviated as "--all".  Each of the 7 options enables a specific
+annotation step.  Running a subset of steps is done by listing just
+the desired subset of options.
+
+Default classification models, trained on the TERN 2004 train corpus,
+are included in the package.  Different models may be selected by
+specifying them on the command line.
+
+When running a subset of steps, the input markup must contain all
+prerequisite information.  For example, when running only --prenorm,
+the input must contain TIMEX2 elements with tmxclass attributes.
+
+If the input contains information of a kind that is also produced
+by one of the selected annotation steps, that kind of input is
+discarded before the run.  For example, --recog discards all TIMEX2 elements
+from the input, and --norm discards all VAL attributes from the input.
+For this reason, it is not possible to run --struct and --recog
+as separate subsequent steps, because they cancel each others output
+unless they run together.
+
+
+Pre/post-processing
+-------------------
+
+Documents that contain inline SGML/XML markup, must be split into
+separate files for text and stand-off markup.  A tool for splitting
+SGML documents is included.
+
+To split a single SGML document:
+  splitSgml.py document.sgml document.xml document.txt
+
+To split a collection of SGML documents:
+  mkdir txtdir xmldir
+  cd sgmldir
+  for f in *.sgml ; do
+    splitSgml.py $f ../xmldir/${f%.sgml} ../txtdir/${f%.sgml} 
+  done
+
+The TEXT section of documents must be parsed with the Charniak parser.
+A script to run the parser and re-align its output is included.
+
+To parse a collection of documents (after splitting):
+  mkdir parsedir
+  parseCharniak.py txtdir xmldir parsedir
+
+For many purposes, our output format is not directly usable but can
+be easily converted into something useful.  For example, we provide
+a script that merges TIMEX2 elements from our output into an original
+SGML document.
+
+To merge timex annotations with the original markup of a document collection:
+  mkdir mergedir
+  mergeSgmlWithXmlTimexes.py 'sgmldir/*.sgml' 'xmldir/*' mergedir
+
+
+Training new models
+-------------------
+
+New models for recognition, semantic classification or direction
+classification can be trained from an example collection.  Examples are taken
+from the TIMEX2 elements in the stand-off XML markup.  Our classifiers only
+work on parsed phrases, therefore TIMEX2 elements which do not exactly align
+with a single phrase or word are ignored during training.
+
+Each model is stored as a pair of files: one with extension ".map"
+(meta data and feature map) and one with extension ".svm" (libSVM model).
+
+To train recognition, only the extent of the TIMEX2 elements is used.
+Each TIMEX2 element that matches a single parsed phrase/word of correct
+type becomes a positive example.  Each parsed phrase/word of correct type
+that does not align with a TIMEX2 element becomes a negative example.
+
+Syntax for training recognition:
+
+  timextool.py
+    --inputtxt txtFileOrDir
+    --inputxml markupFileOrDir
+    --inputparses parseFileOrDir
+    --trainrecog --recogmodel basefilename
+
+To train semantic classification, example values of the tmxclass attribute
+are required.  This attribute is non-standard and usually not present in
+training material.  Therefore we derive the example value of tmxclass from
+the gold value of the VAL and SET attributes using a simple deterministic
+algorithm.
+
+Syntax for training semantic classification:
+
+  timextool.py
+    --inputtxt txtFileOrDir
+    --inputxml markupFileOrDir
+    --inputparses parseFileOrDir
+    --infertmxclass --traintmxclass --tmxclassmodel basefilename
+
+To train direction classification, example values of the dirclass attribute
+are required.  This attribute is non-standard and usually not present in
+training material.  Therefore we derive the example value of dirclass from
+the gold value of the VAL attribute, the document timestamp and the
+prenormalization result.  Only timexes of semantic classes "point" and
+"genpoint" are considered.  Prenormalization should be enabled as well,
+because it affects reference tracking.
+
+Syntax for training direction classification:
+
+  timextool.py
+    --inputtxt txtFileOrDir
+    --inputxml markupFileOrDir
+    --inputparses parseFileOrDir
+    --infertmxclass --prenorm --inferdirclass
+    --traindirclass --dirclassmodel basefilename
+
+
+Advanced usage options
+----------------------
+
+The --filelist option makes it possible to process a subset of a document
+collection.  It reads a list of document names from a plain text file
+(one document per line).  The --inputtxt, --inputxml and --inputparses
+options are still needed to specify the directory names, but from those
+directories only the listed documents will be processed.
+
+Our machine learned classifiers can only process timex spans that align
+exactly with a parsed constituent of correct type.  This is never a problem
+when the machine learned recognizer is being used, since the recognizer
+is limited by the same (even slightly tighter) restrictions and will thus
+never recognize a timex that can not be classified.  But when output from
+an external recognizer (for example, gold standard recognition data) is
+fed into our system, there will in general be timexes that the classifiers
+can not process.  For evaluation purposes, it may be convenient to have
+these non-aligned timexes removed from the output so that they do not
+affect the computed normalization accuracy.  The --forcealign option
+does exactly that: it filters input timexes and keeps only the ones that
+align exactly with a parsed constituent of correct type.
+
+When running either final normalization (--norm) or direction class
+inference (--inferdirclass), a reference tracking model is needed to
+determine the temporal anchor of anaphoric point timexes.  Three of
+these models are currently implemented: "timestamp" always uses the
+document timestamp, "recent" uses the most recent point timex whenever
+possible, and "heuristic" makes a smart choice between the timestamp and
+a recent timex.  The "heuristic" model is the default and performs best,
+but a different model can be selected through the --reftracking option.
+
+The system can display error rates and confusion of the classifiers
+with respect to the inferred class labels.  This feature is activated
+by enabling classification and inference together in the same run.
+For example, the combination --tmxclass --infertmxclass will compute
+the error rates of machine learned semantic classification with respect
+to inferred semantic class labels.
+
+
+Internals and features
+----------------------
+
+The annotation system is implemented as number of Python modules:
+
+* timextool.py     Main program.
+
+* timexdoc.py      Data structure for documents and spans;
+                   code for reading/writing documents as files.
+
+* timexstruct.py   Recognition and normalization of structured timexes;
+                   selection of the document timestamp.
+
+* timexrecog.py    Model-based timex recognition.
+
+* timexclass.py    Semantic classification and direction classification.
+
+* timexref.py      Reference tracking for anaphoric timexes.
+
+* timexnorm.py     Prenormalization and final normalization.
+
+* patternmatch.py  System for cascaded regular expression matching.
+
+* timexval.py      Data structure for normalized timex values;
+                   code for date arithmetic.
+
+* timexwords.py    List of special words for feature extraction and
+                   normalization patterns.
+
+Objects of class TimexDocument are used to hold all relevant data and
+annotations for some document.  Each annotation step is implemented as
+a function which accepts a document object and adds its own annotations
+to the object.  At the end of the processing pipeline, the annotations
+may be written to an XML file.
+
+Recognition of structured timexes (--struct) is done by running a number
+of regular expressions on the plain document text.  Normalizing these
+timexes is trivial.  One of the normalized timexes is selected to be
+the document timestamp (--timestamp); a timex that was marked up with
+a DATE_TIME or STORY_REF_TIME indication is the preferred candidate for
+document timestamp.
+
+Model-based recognition (--recog) is essentially a binary classification
+problem.  Parsed phrases of type NP, PP, ADVP and ADJP and single words
+with tag JJ, NN, NNP, CD and RB are considered as candidate timexes.
+
+The following binary features are extracted from each candidate:
+ - bag of words
+ - first word and POS tag
+ - second word
+ - two words of left context
+ - phrase type
+ - phrase head word and POS tag
+ - external head and POS tag
+ - dependency relation label
+
+The following real-valued features are extracted from each candidate:
+ - probability of a positive timex given the first two words of the span
+ - probability of a positive timex given the first word and preceding word
+
+Words are looked up in a list of special words; a word that occurs in the
+list is replaced by a category label (for example, "week" becomes "UNIT",
+"Monday" becomes "DAYNAME"), otherwise the lower case version of the word
+is used.
+
+Features are mapped to integers.  During training, features that occur in
+only one document are dropped from the training set (our creative way
+of dealing with rare features).  The feature map is stored in a pickle file.
+
+A binary SVM classifier is trained to classify candidate timexes into
+positive/negative instances.  We use a linear kernel with parameter C=1.
+
+Semantic classification (--tmxclass) is essentially a multi-class
+classification problem.  LibSVM supports a multi-class problems by
+automatically reducing it to a number of binary classification problems
+using one-vs-one reduction.  Feature extraction and word lookup is the
+same as for recognition, except that the two real-valued features are not
+used.  The SVMs are trained with a linear kernel and parameter C=1.
+
+Direction classification (--dirclass) works exactly like semantic
+classification, except that two additional types of features are extracted:
+ - If a day name occurs in the timex, a feature is produced which says
+   whether it is the same day as the document timestamp or occurs before
+   or after the day-of-week implied by the document timestamp.
+   A similar thing is done when the timex contains a month name and when
+   the timex contains a 4-digit year.
+ - The dependency graph is traced upwards (from argument to head), starting
+   with the head of the candidate phrase, until a verb is reached.
+   This verb and all verbs that have a direct dependency relation to it,
+   are collected.  Features are produced for this bag of verbs.
+
+Pre-normalization (--prenorm) is done by matching the timex string against
+a set of patterns until a match is found.  There is a separate set of patterns
+for each semantic class.  Some semantic classes use additional patterns to
+predict the MOD and/or ANCHOR_DIR attributes.
+
+Each pre-normalization pattern is a finite cascade of regular expressions
+over the tokens in the timex string.  An atom in these regular expressions
+can refer either to a literal token string, to a word category defined
+in the list of special words, or to an earlier regular expression.
+Connected to each regular expression is a fragment of Python code
+that produces a value from the matching tokens.  This value is passed
+up to higher levels of regular expressions.  The value returned by the
+top-level matching pattern is used to produce the prenormalized value.
+
+Final normalization (--norm) is non-trivial only for point timexes that are
+not fully qualified.  For other timexes, the final VAL is equal to the
+prenormalized value.  The prenormalized value is merged with a fully
+qualified reference time.  If prenormalization decides that the timex phrase
+must refer to a local context ("that night" etc), we use the most recent
+fully qualified timex as reference time; in all other cases, we use the
+document timestamp as reference time.  If merging the values is ambiguous,
+we try to solve the ambiguity by satisfying the predicted direction class.
+For example, when merging a full date with a day name, there are in general
+at least two possible outcomes: one with dirclass "before" and one with
+dirclass "after".
+
+In addition, final normalization assigns a value to the ANCHOR_VAL attribute
+if case the ANCHOR_DIR attribute was set in the prenormalization step.
+The value assigned is always the document timestamp, possibly truncated to
+the same precision as the timex.
+
+
+Baseline classifiers
+--------------------
+
+To evaluate the performance of our machine learned classifiers, we
+implemented baseline classifiers for the two classification tasks.
+
+The semantic baseline classifier (--basetmxclass) assigns a semantic class
+based on the syntactic head of the timex and the occurrence of certain
+keywords in the timex.
+
+The direction baseline classifier (--basedirclass) assigns a direction
+class based on word patterns, the occurrence of a day name or month name,
+or the tense of neigbouring verbs.  If it can not reach a decision, it
+assigns 'before'.
+
+--

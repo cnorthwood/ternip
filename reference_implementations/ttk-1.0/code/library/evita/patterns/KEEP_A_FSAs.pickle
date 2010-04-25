@@ -1,0 +1,91 @@
+(lp1
+(iFSA
+FSA
+(dp2
+S'fsaname'
+p3
+NsS'finalStates'
+p4
+(lp5
+I2
+asS'alphabet'
+p6
+NsS'_isTrimmed'
+p7
+I1
+sS'label'
+p8
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_R_B_R_'_,_ _'_R_B_S_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_P_R_P_'_,_ _'_R_P_'_,_ _'_I_N_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_N_o_u_n_C_h_u_n_k_'_}_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_J_J_R_'_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_J_J_'_}_]"
+sS'states'
+p9
+(lp10
+I0
+aI1
+aI2
+asS'initialState'
+p11
+I0
+sS'_arcMetadata'
+p12
+(dsS'_isSorted'
+p13
+I1
+sS'transitions'
+p14
+(lp15
+(I0
+I1
+S"{'nodeType': 'NounChunk'}"
+ta(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': 'Token', 'pos': ['RB', 'RBR', 'RBS', 'WDT', 'DT', 'PRP', 'RP', 'IN']}"
+ta(I1
+I1
+S"{'nodeType': 'AdjectiveToken', 'pos': 'JJR'}"
+ta(I1
+I2
+S"{'nodeType': 'AdjectiveToken', 'pos': 'JJ'}"
+tasS'_isDeterminized'
+p16
+I1
+sS'_isMinimized'
+p17
+I1
+sba(iFSA
+FSA
+(dp18
+g3
+Nsg4
+(lp19
+I2
+asg6
+Nsg7
+I1
+sg8
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_R_B_R_'_,_ _'_R_B_S_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_P_R_P_'_,_ _'_R_P_'_,_ _'_I_N_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_N_o_u_n_C_h_u_n_k_'_}_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_J_J_R_'_}_]"
+sg9
+(lp20
+I0
+aI1
+aI2
+asg11
+I0
+sg12
+(dsg13
+I1
+sg14
+(lp21
+(I0
+I1
+S"{'nodeType': 'NounChunk'}"
+ta(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': 'Token', 'pos': ['RB', 'RBR', 'RBS', 'WDT', 'DT', 'PRP', 'RP', 'IN']}"
+ta(I1
+I2
+S"{'nodeType': 'AdjectiveToken', 'pos': 'JJR'}"
+tasg16
+I1
+sg17
+I1
+sba.

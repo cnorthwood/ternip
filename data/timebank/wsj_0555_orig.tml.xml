@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0145 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0145. </AN>
+<HL> Waxman Industries Debentures </HL>
+<DD> <TIMEX3 tid="t12" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> WAX </CO>
+<IN> BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) </IN>
+<DATELINE> BEDFORD HEIGHTS, Ohio  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Waxman Industries Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> holders of <NUMEX TYPE="MONEY">$6,542,000</NUMEX> face amount of its <CARDINAL>6</CARDINAL> <NUMEX TYPE="PERCENT">1/4%</NUMEX> convertible subordinated debentures, <EVENT eid="e11" class="STATE" >due</EVENT> <TIMEX3 tid="t13" type="DATE" temporalFunction="false" functionInDocument="NONE" value="2007-03-15" >March 15, 2007</TIMEX3>, have <EVENT eid="e2" class="I_ACTION" >elected</EVENT> <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="OCCURRENCE" >convert</EVENT> the debt into <CARDINAL>about 683,000</CARDINAL> common shares.</s> 
+
+   <s>The conversion price is <NUMEX TYPE="MONEY">$9.58</NUMEX> a share.</s> 
+
+   <s>The company <EVENT eid="e6" class="REPORTING" >said</EVENT> the holders <EVENT eid="e7" class="STATE" >represent</EVENT> <NUMEX TYPE="PERCENT">52%</NUMEX> of the face amount of the debentures.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Waxman</ENAMEX> sells a variety of hardware products for the home repair market.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei44" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei45" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei46" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei47" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei48" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei49" tense="PRESENT" eventID="e7" />
+<TLINK relatedToTime="t12" eventInstanceID="ei44" relType="BEFORE" />
+<TLINK relatedToTime="t13" eventInstanceID="ei45" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei44" eventInstanceID="ei46" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei44" eventInstanceID="ei48" relType="IDENTITY" />
+<SLINK subordinatedEventInstance="ei46" eventInstanceID="ei44" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei47" eventInstanceID="ei46" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei49" eventInstanceID="ei48" relType="EVIDENTIAL" />
+</TimeML>

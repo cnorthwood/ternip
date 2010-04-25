@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0089 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0089. </AN>
+<HL> Financing Business:
+@  Healthdyne Inc. </HL>
+<DD> <TIMEX3 tid="t22" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> HDYN </CO>
+<IN> STOCK MARKET, OFFERINGS (STK)
+INITIAL STOCK OFFERINGS (INI) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">HEALTHDYNE Inc.</ENAMEX>, <ENAMEX TYPE="LOCATION">Atlanta</ENAMEX>, <EVENT eid="e1" class="REPORTING" >said</EVENT> its subsidiary, <ENAMEX TYPE="ORGANIZATION">Home Nutritional Services Inc.</ENAMEX>, <EVENT eid="e2" class="OCCURRENCE" >registered</EVENT> with the <ENAMEX TYPE="ORGANIZATION">Securities and Exchange Commission</ENAMEX> an initial public <EVENT eid="e3" class="OCCURRENCE" >offering</EVENT> of <CARDINAL>four million</CARDINAL> shares of common.</s> 
+<s>The in-home health care services provider <EVENT eid="e4" class="REPORTING" >said</EVENT> it will <EVENT eid="e5" class="OCCURRENCE" >sell</EVENT> <CARDINAL>1.8 million</CARDINAL> of the new shares, while <ENAMEX TYPE="ORGANIZATION">Home Nutritional Services</ENAMEX> will <EVENT eid="e7" class="OCCURRENCE" >sell</EVENT> the remaining <CARDINAL>2.2 million</CARDINAL>.</s> 
+<s>The company <EVENT eid="e8" class="I_STATE" >estimates</EVENT> the offering price at <EVENT eid="e21" class="STATE" >between <NUMEX TYPE="MONEY">$14</NUMEX> and <NUMEX TYPE="MONEY">$16</NUMEX></EVENT> a share.</s> 
+<s>The company <EVENT eid="e9" class="REPORTING" >said</EVENT> it <EVENT eid="e10" class="I_STATE" >expects</EVENT> to <EVENT eid="e12" class="OCCURRENCE" >use</EVENT> the proceeds <SIGNAL sid="s13" >to</SIGNAL> <EVENT eid="e14" class="OCCURRENCE" >repay</EVENT> certain bank debt and for general corporate purposes, including <EVENT eid="e15" class="OCCURRENCE" >establishing</EVENT> new operating centers and possible <EVENT eid="e16" class="OCCURRENCE" >acquisitions</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Home Nutritional</ENAMEX> <TIMEX3 tid="t23" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t22" >currently</TIMEX3> <EVENT eid="e17" class="STATE" >has</EVENT> <CARDINAL>10 million</CARDINAL> shares outstanding.</s> 
+<s>It will <EVENT eid="e24" class="STATE" >have</EVENT> <CARDINAL>11.8 million</CARDINAL> shares outstanding <SIGNAL sid="s19" >after</SIGNAL> the <EVENT eid="e18" class="OCCURRENCE" >offering</EVENT>, with <ENAMEX TYPE="ORGANIZATION">Healthdyne</ENAMEX> <EVENT eid="e20" class="STATE" >owning</EVENT> about <NUMEX TYPE="PERCENT">65%</NUMEX> of the total.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei112" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei113" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei114" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei115" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei116" tense="FUTURE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei117" tense="FUTURE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei118" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei119" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei120" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei121" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei124" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="FUTURE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="NONE" eventID="e20" />
+<TLINK relatedToEventInstance="ei127" eventInstanceID="ei129" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t22" eventInstanceID="ei112" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei114" eventInstanceID="ei113" relType="BEGINS" />
+<TLINK relatedToEventInstance="ei112" eventInstanceID="ei115" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei117" eventInstanceID="ei116" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t22" eventInstanceID="ei118" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei112" eventInstanceID="ei120" relType="IDENTITY" />
+<TLINK relatedToTime="t23" eventInstanceID="ei126" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei128" signalID="s19" eventInstanceID="ei127" relType="AFTER" />
+<TLINK relatedToEventInstance="ei126" eventInstanceID="ei127" relType="AFTER" />
+<TLINK relatedToEventInstance="ei128" signalID="s19" eventInstanceID="ei129" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei113" eventInstanceID="ei112" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei116" eventInstanceID="ei115" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei119" eventInstanceID="ei118" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei121" eventInstanceID="ei120" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei122" eventInstanceID="ei121" relType="MODAL" />
+<SLINK signalID="s13" subordinatedEventInstance="ei123" eventInstanceID="ei122" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei124" eventInstanceID="ei122" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei125" eventInstanceID="ei122" relType="MODAL" />
+</TimeML>

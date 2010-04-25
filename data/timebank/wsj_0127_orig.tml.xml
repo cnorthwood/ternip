@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t24" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0064 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0064. </AN>
+<HL> International Brief -- Reed International PLC:
+@  Net Income for 6 Months
+@  Fell 5% to $141.9 Million </HL>
+<DD> <TIMEX3 tid="t23" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> U.REE </CO>
+<IN> EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Reed International PLC</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> that net <EVENT eid="e2014" class="OCCURRENCE" >income</EVENT> <SIGNAL sid="s2019" >for</SIGNAL> <TIMEX3 tid="t31" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P6M" >the <CARDINAL>six</CARDINAL> months</TIMEX3> <EVENT eid="e2" class="ASPECTUAL" >ended</EVENT> <TIMEX3 tid="t25" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-01" anchorTimeID="t23" >Oct. 1</TIMEX3> <EVENT eid="e3" class="OCCURRENCE" >slipped</EVENT> <NUMEX TYPE="PERCENT">5%</NUMEX> to #<CARDINAL>89.7 million</CARDINAL> (<NUMEX TYPE="MONEY">$141.9 million</NUMEX>), or <NUMEX TYPE="MONEY">16 pence</NUMEX> a share, from #<CARDINAL>94.8 million</CARDINAL> (<NUMEX TYPE="MONEY">$149.9 million</NUMEX>), or <NUMEX TYPE="MONEY">17.3 pence</NUMEX> a share.</s> 
+
+   <s>The British paper, packaging and publishing concern, <EVENT eid="e4" class="REPORTING" >said</EVENT> profit from continuing lines <EVENT eid="e7" class="I_ACTION" >fell</EVENT> <NUMEX TYPE="PERCENT">10%</NUMEX> to #<CARDINAL>118 million</CARDINAL> from #<CARDINAL>130.6 million</CARDINAL>.</s> 
+
+   <s>While there were no one-time <EVENT eid="e2000" class="OCCURRENCE" >gains</EVENT> or <EVENT eid="e2001" class="OCCURRENCE" >losses</EVENT> in <TIMEX3 tid="t26" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t23" >the latest period</TIMEX3>, there was a one-time <EVENT eid="e2003" class="OCCURRENCE" >gain</EVENT> of #<CARDINAL>18 million</CARDINAL> in the <TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1998" >1988</TIMEX3> period.</s> 
+<s>And while there was no <EVENT eid="e2005" class="OCCURRENCE" >profit</EVENT> <TIMEX3 tid="t28" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t23" >this year</TIMEX3> from discontinued <EVENT eid="e10" class="OCCURRENCE" >operations</EVENT>, <TIMEX3 tid="t29" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t23" >last year</TIMEX3> they <EVENT eid="e12" class="OCCURRENCE" >contributed</EVENT> #<CARDINAL>34 million</CARDINAL>, <SIGNAL sid="s13" >before</SIGNAL> <EVENT eid="e2008" class="OCCURRENCE" >tax</EVENT>.</s> 
+
+   <s>Pretax profit <EVENT eid="e14" class="I_ACTION" >fell</EVENT> <NUMEX TYPE="PERCENT">3.7%</NUMEX> to #<CARDINAL>128 million</CARDINAL> from #<CARDINAL>133 million</CARDINAL> and was <EVENT eid="e2009" class="STATE" >below</EVENT> analysts' expectations of #<CARDINAL>130 million</CARDINAL> to #<CARDINAL>135 million</CARDINAL>, but shares <EVENT eid="e15" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="MONEY">6 pence to 388 pence</NUMEX> <SIGNAL sid="s17" >in</SIGNAL> early <EVENT eid="e16" class="OCCURRENCE" >trading</EVENT> <TIMEX3 tid="t30" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t23" >yesterday</TIMEX3> in <ENAMEX TYPE="LOCATION">London</ENAMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Reed</ENAMEX>  is <EVENT eid="e18" class="OCCURRENCE" >paying</EVENT> an interim dividend of <NUMEX TYPE="MONEY">4.6 pence</NUMEX>, <EVENT eid="e2124" class="STATE" >up</EVENT> <NUMEX TYPE="PERCENT">15%</NUMEX> from <NUMEX TYPE="MONEY">4 pence</NUMEX> <TIMEX3 tid="t2127" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-11-02" anchorTimeID="t23" >a year earlier</TIMEX3>.</s> 
+
+   <s>Sales <EVENT eid="e19" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="PERCENT">20%</NUMEX> to #<CARDINAL>722 million</CARDINAL>.</s> 
+
+   <s>Earnings  were <EVENT eid="e20" class="OCCURRENCE" >hurt</EVENT> by <EVENT eid="e2136" class="OCCURRENCE" >disposal</EVENT> of operations <SIGNAL sid="s21" >in</SIGNAL> its <EVENT eid="e2140" class="OCCURRENCE" >restructuring</EVENT>, <ENAMEX TYPE="ORGANIZATION">Reed</ENAMEX> <EVENT eid="e22" class="REPORTING" >said</EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2151" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2152" tense="NONE" eventID="e2014" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2153" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2154" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2155" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2156" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2157" polarity="NEG" tense="NONE" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2158" polarity="NEG" tense="NONE" eventID="e2001" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2159" tense="NONE" eventID="e2003" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2160" polarity="NEG" tense="NONE" eventID="e2005" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2161" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2162" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2163" tense="NONE" eventID="e2008" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2164" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2165" tense="PAST" eventID="e2009" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2166" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2167" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2168" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2169" tense="PRESENT" eventID="e2124" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2170" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2171" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2172" tense="NONE" eventID="e2136" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2173" tense="NONE" eventID="e2140" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2174" tense="PAST" eventID="e22" />
+<TLINK relatedToEventInstance="ei2173" signalID="s21" eventInstanceID="ei2172" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2172" eventInstanceID="ei2171" relType="AFTER" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2170" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2168" eventInstanceID="ei2169" relType="BEFORE" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2168" relType="INCLUDES" />
+<TLINK relatedToTime="t30" eventInstanceID="ei2167" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2167" signalID="s17" eventInstanceID="ei2166" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2151" relType="BEFORE" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2165" relType="BEFORE" />
+<TLINK signalID="s2019" relatedToTime="t31" eventInstanceID="ei2152" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2153" timeID="t25" relType="IDENTITY" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2157" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2153" timeID="t31" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2151" eventInstanceID="ei2154" relType="BEFORE" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2164" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2163" signalID="s13" eventInstanceID="ei2162" relType="BEFORE" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2162" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2161" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2160" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2158" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2155" relType="BEFORE" />
+<TLINK relatedToTime="t27" eventInstanceID="ei2159" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei2171" eventInstanceID="ei2174" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2154" eventInstanceID="ei2151" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2156" eventInstanceID="ei2155" relType="EVIDENTIAL" />
+</TimeML>

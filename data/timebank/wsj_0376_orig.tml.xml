@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891031-0138 </DOCNO>
+<DD> = 891031 </DD>
+<AN> 891031-0138. </AN>
+<HL> International:
+@  Courtaulds PLC
+@  Plans to Spin Off
+@  Textiles Business
+@  ----
+@  By Craig Forman
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t89" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-31" >10/31/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> COU </CO>
+<IN> DIVIDENDS (DIV)
+STOCK MARKET, OFFERINGS (STK)
+TEXTILES AND APPAREL (TEX) </IN>
+<DATELINE> LONDON  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Courtaulds PLC</ENAMEX> <EVENT eid="e1" class="I_ACTION" >announced</EVENT> <EVENT eid="e85" class="I_STATE" >plans</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >spin</EVENT> off its textiles operations to existing shareholders in a <EVENT eid="e86" class="OCCURRENCE" >restructuring</EVENT> <SIGNAL sid="s7" >to</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >boost</EVENT> shareholder value.</s> 
+
+   <s>The British chemical and textile company's plan, which requires shareholder approval, <SIGNAL sid="s12" >would</SIGNAL> <EVENT eid="e11" class="OCCURRENCE" >create</EVENT> a new, listed <ENAMEX TYPE="LOCATION">U.K.</ENAMEX> stock with a probable market capitalization between #<CARDINAL>300 million</CARDINAL> (<NUMEX TYPE="MONEY">$473 million</NUMEX>) and #<CARDINAL>400 million</CARDINAL>, analysts <EVENT eid="e15" class="REPORTING" >said</EVENT>.</s> 
+<s>The <EVENT eid="e16" class="OCCURRENCE" >establishment</EVENT> of the separate company, to be called <ENAMEX TYPE="ORGANIZATION">Courtaulds Textiles</ENAMEX>, could be effective <SIGNAL sid="s88" >as early as</SIGNAL> <TIMEX3 tid="t90" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990-Q1" anchorTimeID="t89" >next year's first quarter</TIMEX3>.</s> 
+
+   <s>Investors <EVENT eid="e20" class="OCCURRENCE" >welcomed</EVENT> the <EVENT eid="e21" class="OCCURRENCE" >move</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX>' shares <EVENT eid="e22" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="MONEY">15 pence <SIGNAL sid="s92" >to</SIGNAL> <EVENT eid="e91" class="STATE" >362 pence</EVENT></NUMEX>, valuing the entire company at about #<CARDINAL>1.44 billion</CARDINAL>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX>' <EVENT eid="e93" class="OCCURRENCE" >spinoff</EVENT> reflects pressure on British industry to boost share prices beyond the reach of corporate raiders.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX>' <EVENT eid="e94" class="OCCURRENCE" >restructuring</EVENT> is among the largest thus far in <ENAMEX TYPE="LOCATION">Britain</ENAMEX>, though it is dwarfed by <ENAMEX TYPE="ORGANIZATION">B.A.T Industries PLC</ENAMEX>'s <EVENT eid="e95" class="I_STATE" >plans</EVENT> <SIGNAL sid="s30" >to</SIGNAL> <EVENT eid="e31" class="OCCURRENCE" >spin</EVENT> roughly off #<CARDINAL>4 billion</CARDINAL> in assets <SIGNAL sid="s32" >to</SIGNAL> <EVENT eid="e33" class="I_ACTION" >help</EVENT> <EVENT eid="e34" class="OCCURRENCE" >fend</EVENT> off a takeover bid from Anglo-French financier <ENAMEX TYPE="PERSON">Sir James Goldsmith</ENAMEX>.</s> 
+<s>The divested <ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX> textile operations <EVENT eid="e96" class="STATE" >had</EVENT> operating <EVENT eid="e97" class="STATE" >profit</EVENT> of #<CARDINAL>50 million</CARDINAL> on #<CARDINAL>980 million</CARDINAL> in revenue <SIGNAL sid="s98" >in</SIGNAL> <TIMEX3 tid="t99" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" >the year</TIMEX3> <SIGNAL sid="s101" >ended</SIGNAL> <TIMEX3 tid="t100" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-03-31" anchorTimeID="t89" >March 31</TIMEX3>.</s> 
+
+   <s>Some analysts have <EVENT eid="e37" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX>' <EVENT eid="e38" class="OCCURRENCE" >moves</EVENT> <SIGNAL sid="s40" >could</SIGNAL> <EVENT eid="e39" class="OCCURRENCE" >boost</EVENT> the company's value by <NUMEX TYPE="PERCENT">5%</NUMEX> to <NUMEX TYPE="PERCENT">10%</NUMEX>, because the <CARDINAL>two</CARDINAL> entities <EVENT eid="e102" class="STATE" >separately</EVENT> will <EVENT eid="e41" class="OCCURRENCE" >carry</EVENT> a higher price earnings multiple than they <EVENT eid="e42" class="OCCURRENCE" >did</EVENT> <EVENT eid="e103" class="STATE" >combined</EVENT>.</s> 
+<s>In addition, <ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX> <EVENT eid="e45" class="REPORTING" >said</EVENT> the <EVENT eid="e46" class="OCCURRENCE" >moves</EVENT> are logical because they will <EVENT eid="e47" class="I_STATE" >allow</EVENT> both the chemicals and textile businesses <SIGNAL sid="s49" >to</SIGNAL> <EVENT eid="e104" class="OCCURRENCE" >focus</EVENT> more closely on core activities.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX> has been <EVENT eid="e105" class="STATE" >under pressure</EVENT> <SIGNAL sid="s53" >to</SIGNAL> <EVENT eid="e54" class="OCCURRENCE" >enhance</EVENT> shareholder value <SIGNAL sid="s107" >since</SIGNAL> takeover speculators -- including Australian financier <ENAMEX TYPE="PERSON">Kerry Packer</ENAMEX> -- <EVENT eid="e55" class="OCCURRENCE" >surfaced</EVENT> holding small stakes <TIMEX3 tid="t108" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t89" >last year</TIMEX3>.</s> 
+<s>Though <ENAMEX TYPE="PERSON">Mr. Packer</ENAMEX> has <SIGNAL sid="s311" >since</SIGNAL> <EVENT eid="e58" class="OCCURRENCE" >sold</EVENT> his stake, <ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX> is <EVENT eid="e60" class="OCCURRENCE" >moving</EVENT> <SIGNAL sid="s61" >to</SIGNAL> <EVENT eid="e62" class="ASPECTUAL" >keep</EVENT> its institutional shareholders <EVENT eid="e110" class="STATE" >happy</EVENT>.</s> 
+<s>Even without a specific takeover <EVENT eid="e63" class="OCCURRENCE" >threat</EVENT>, <ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX> is <EVENT eid="e64" class="OCCURRENCE" >giving</EVENT> shareholders "<EVENT eid="e65" class="OCCURRENCE" >choice</EVENT> and value," <EVENT eid="e66" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Julia Blake</ENAMEX>, an analyst at <ENAMEX TYPE="LOCATION">London</ENAMEX> stockbrokers Barclays de Zoete Wedd.</s> 
+
+   <s>In a statement, the company said: "Both parts can only realize their full potential and be appropriately valued by the market if they are separately quoted companies.</s> 
+<s>The sharper definition and the autonomy which each will thereby gain will benefit shareholders, customers and employees."</s> 
+
+   <s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Courtaulds</ENAMEX> Chairman and Chief Executive Sir Christopher Hogg</ENAMEX> will <EVENT eid="e77" class="STATE" >remain</EVENT> in both posts at the surviving chemical company <SIGNAL sid="s119" >after</SIGNAL> the <EVENT eid="e118" class="OCCURRENCE" >spinoff</EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1989" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="NONE" eventID="e85" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" modality="could be effective" eiid="ei1996" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PAST" eventID="e96" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e97" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2009" tense="PRESENT" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e102" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="FUTURE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="PAST" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e103" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PAST" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="FUTURE" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="NONE" eventID="e104" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2020" tense="PRESENT" eventID="e105" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="PAST" eventID="e55" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2023" tense="PAST" eventID="e58" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2024" tense="PRESENT" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2025" tense="NONE" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2026" tense="NONE" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2027" polarity="NEG" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2028" tense="PRESENT" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2029" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2030" tense="PAST" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="FUTURE" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2032" tense="NONE" eventID="e118" />
+<TLINK relatedToTime="t89" eventInstanceID="ei1989" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1992" eventInstanceID="ei1991" relType="IS_INCLUDED" />
+<TLINK signalID="s88" relatedToTime="t90" eventInstanceID="ei1996" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t89" eventInstanceID="ei1997" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2000" signalID="s92" eventInstanceID="ei1999" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei1991" eventInstanceID="ei2001" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1992" eventInstanceID="ei2002" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei2003" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2007" relType="IDENTITY" />
+<TLINK relatedToTime="t89" eventInstanceID="ei2007" relType="BEFORE" />
+<TLINK signalID="s98" relatedToTime="t99" eventInstanceID="ei2007" relType="DURING" />
+<TLINK signalID="s101" relatedToTime="t100" eventInstanceID="ei2007" relType="ENDED_BY" />
+<TLINK relatedToTime="t89" eventInstanceID="ei2009" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2010" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2013" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2011" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2012" eventInstanceID="ei2013" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2014" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2015" eventInstanceID="ei2014" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t89" eventInstanceID="ei2016" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2017" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2019" signalID="s49" eventInstanceID="ei2018" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2018" eventInstanceID="ei2017" relType="IDENTITY" />
+<TLINK relatedToTime="t89" eventInstanceID="ei2020" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2022" signalID="s107" eventInstanceID="ei2020" relType="BEGUN_BY" />
+<TLINK relatedToTime="t108" eventInstanceID="ei2022" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2022" signalID="s311" eventInstanceID="ei2023" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei2023" eventInstanceID="ei2024" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2027" eventInstanceID="ei2028" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2029" eventInstanceID="ei2028" relType="IDENTITY" />
+<TLINK relatedToTime="t89" eventInstanceID="ei2030" relType="BEFORE" />
+<TLINK relatedToTime="t89" eventInstanceID="ei2031" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2032" signalID="s119" eventInstanceID="ei2031" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei1990" eventInstanceID="ei1989" relType="EVIDENTIAL" />
+<SLINK signalID="s2" subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="MODAL" />
+<SLINK signalID="s7" subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1994" eventInstanceID="ei1995" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1998" eventInstanceID="ei1997" relType="FACTIVE" />
+<SLINK signalID="s30" subordinatedEventInstance="ei2004" eventInstanceID="ei2003" relType="MODAL" />
+<SLINK signalID="s32" subordinatedEventInstance="ei2005" eventInstanceID="ei2004" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2006" eventInstanceID="ei2005" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2011" eventInstanceID="ei2009" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2017" eventInstanceID="ei2016" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2018" eventInstanceID="ei2016" relType="EVIDENTIAL" />
+<SLINK signalID="s53" subordinatedEventInstance="ei2021" eventInstanceID="ei2020" relType="MODAL" />
+<SLINK signalID="s61" subordinatedEventInstance="ei2025" eventInstanceID="ei2024" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2028" eventInstanceID="ei2030" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2026" eventInstanceID="ei2025" relType="CONTINUES" />
+</TimeML>

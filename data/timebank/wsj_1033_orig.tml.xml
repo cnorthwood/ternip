@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0023 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0023. </AN>
+<HL> Business Brief -- Esselte AB:
+@  Bid to Buy Remaining 22%
+@  Of Unit Is Made by Firm </HL>
+<DD> <TIMEX3 tid="t30" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> S.ESL ESB </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Esselte AB</ENAMEX>, the <ENAMEX TYPE="LOCATION">Stockholm</ENAMEX> office supplies company, as <EVENT eid="e31" class="I_STATE" >expected</EVENT>, <EVENT eid="e1" class="I_ACTION" >proposed</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >acquire</EVENT> the <NUMEX TYPE="PERCENT">22%</NUMEX> it <EVENT eid="e4" class="OCCURRENCE" >does</EVENT><SIGNAL sid="s42" >n't</SIGNAL> <EVENT eid="e52" class="STATE" >own</EVENT> of its <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> unit, <ENAMEX TYPE="ORGANIZATION">Esselte Business Systems Inc.</ENAMEX> 
+
+   The price in the <EVENT eid="e6" class="OCCURRENCE" >proposal</EVENT> is <NUMEX TYPE="MONEY">$43.50</NUMEX> for each of the <CARDINAL>4.9 million</CARDINAL> shares the parent <EVENT eid="e8" class="OCCURRENCE" >does</EVENT><SIGNAL sid="s63" >n't</SIGNAL> <EVENT eid="e70" class="STATE" >own</EVENT>, or <NUMEX TYPE="MONEY">$213.2 million</NUMEX>.</s> 
+
+   <s>In <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> composite <EVENT eid="e73" class="OCCURRENCE" >trading</EVENT>, <ENAMEX TYPE="ORGANIZATION">Esselte</ENAMEX> <EVENT eid="e9" class="OCCURRENCE" >closed</EVENT> <TIMEX3 tid="t78" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-25" anchorTimeID="t30" >yesterday</TIMEX3> at <NUMEX TYPE="MONEY">$43.50</NUMEX> a share, up <NUMEX TYPE="MONEY">$1</NUMEX>.</s> 
+
+   <s>A committee of outside directors for the <ENAMEX TYPE="LOCATION">Garden City</ENAMEX>, <ENAMEX TYPE="LOCATION">N.Y.</ENAMEX>, unit is <EVENT eid="e10" class="OCCURRENCE" >evaluating</EVENT> the <EVENT eid="e11" class="OCCURRENCE" >proposal</EVENT>; the parent <EVENT eid="e12" class="I_ACTION" >asked</EVENT> it <SIGNAL sid="s13" >to</SIGNAL> <EVENT eid="e14" class="OCCURRENCE" >respond</EVENT> <SIGNAL sid="s100" >by</SIGNAL> <TIMEX3 tid="t91" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-31" anchorTimeID="t30" >Oct. 31</TIMEX3>.</s> 
+<s>The unit <EVENT eid="e15" class="REPORTING" >said</EVENT> it can <EVENT eid="e16" class="OCCURRENCE" >provide</EVENT> no <EVENT eid="e18" class="STATE" >assurance</EVENT> a <EVENT eid="e19" class="OCCURRENCE" >transaction</EVENT> will <EVENT eid="e20" class="OCCURRENCE" >occur</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Esselte AB</ENAMEX> <EVENT eid="e21" class="OCCURRENCE" >sold</EVENT> the minority stake <TIMEX3 tid="t140" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1984" anchorTimeID="t30" >five years ago</TIMEX3> in a <NUMEX TYPE="MONEY">$40 million</NUMEX> international share <EVENT eid="e143" class="OCCURRENCE" >offering</EVENT>.</s> 
+<s>The unit, which is the holding company for <ENAMEX TYPE="ORGANIZATION">Esselte</ENAMEX>'s non-Swedish units, <EVENT eid="e23" class="OCCURRENCE" >accounted</EVENT> for <NUMEX TYPE="PERCENT">58%</NUMEX> of sales and <NUMEX TYPE="PERCENT">71%</NUMEX> of operating profit <TIMEX3 tid="t148" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t30" >last year</TIMEX3>.</s> 
+
+   <s>Separately, <ENAMEX TYPE="ORGANIZATION">Esselte Business Systems</ENAMEX> <EVENT eid="e24" class="REPORTING" >reported</EVENT> <TIMEX3 tid="t162" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t30" >third-quarter</TIMEX3> net income <EVENT eid="e25" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="PERCENT">5.9%</NUMEX> <SIGNAL sid="s174" >to</SIGNAL> <EVENT eid="e169" class="STATE" ><NUMEX TYPE="MONEY">$9.5 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">46 cents</NUMEX> a share, <SIGNAL sid="s177" >from</SIGNAL> <EVENT eid="e178" class="STATE" ><NUMEX TYPE="MONEY">$10.1 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">49 cents</NUMEX> a share, in the <TIMEX3 tid="t167" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t30" >year-ago period</TIMEX3>.</s> 
+<s>Sales <EVENT eid="e27" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">2.9%</NUMEX> to <NUMEX TYPE="MONEY">$329.2 million</NUMEX> from <NUMEX TYPE="MONEY">$320 million</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1989" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="PRESENT" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PRESENT" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1999" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" modality="can" eiid="ei2004" polarity="NEG" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="FUTURE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e143" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="NONE" eventID="e169" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e178" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="PAST" eventID="e27" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1989" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei1992" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1994" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1995" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1998" eventInstanceID="ei1997" relType="ENDED_BY" />
+<TLINK relatedToTime="t30" eventInstanceID="ei1999" relType="DURING" />
+<TLINK relatedToTime="t78" eventInstanceID="ei1998" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1994" eventInstanceID="ei2000" relType="IDENTITY" />
+<TLINK signalID="s100" relatedToTime="t91" eventInstanceID="ei2002" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2006" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t140" eventInstanceID="ei2008" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2009" relType="INCLUDES" />
+<TLINK relatedToTime="t148" eventInstanceID="ei2010" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2012" eventInstanceID="ei2011" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2012" timeID="t162" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2013" signalID="s174" eventInstanceID="ei2012" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2012" signalID="s177" eventInstanceID="ei2014" relType="BEFORE" />
+<TLINK relatedToTime="t167" eventInstanceID="ei2014" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2013" timeID="t162" relType="INCLUDES" />
+<TLINK relatedToTime="t162" eventInstanceID="ei2015" relType="IS_INCLUDED" />
+<SLINK signalID="s2" subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="MODAL" />
+<SLINK signalID="s13" subordinatedEventInstance="ei2002" eventInstanceID="ei2001" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2004" eventInstanceID="ei2003" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2012" eventInstanceID="ei2011" relType="EVIDENTIAL" />
+</TimeML>

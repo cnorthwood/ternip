@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> NYT<TIMEX3 tid="t43" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1998-02-12" >19980212</TIMEX3>.0019 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t41" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-12T01:58:00" >02/12/1998 01:58:00</TIMEX3> </DATE_TIME>
+<HEADER>
+A4195 Cx1f taf-z
+u a Cx13  Cx11  BC-NY-LAUNDRY-MURDER-NYT     02-12 0207
+</HEADER>
+<BODY>
+<SLUG> BC-NY-LAUNDRY-MURDER-NYT </SLUG>
+<HEADLINE>
+WOMAN KILLED AT BROOKLYN LAUNDROMAT
+</HEADLINE>
+(lh) QL
+UR c.1998 N.Y. Times News Service LR  QC  QL
+
+<TEXT>
+<s><ENAMEX TYPE="ORGANIZATION">NEW YORK _ A Brooklyn</ENAMEX> woman who  was <EVENT eid="e1" class="OCCURRENCE" >watching</EVENT> her clothes dry in
+a laundromat  was <EVENT eid="e2" class="OCCURRENCE" >killed</EVENT> <TIMEX3 tid="t44" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1998-02-12TEV" anchorTimeID="t41" >Thursday evening</TIMEX3> <SIGNAL sid="s3" >when</SIGNAL> <CARDINAL>two</CARDINAL> would-be robbers
+<EVENT eid="e4" class="OCCURRENCE" >emptied</EVENT> their pistols into the store, the police <EVENT eid="e6" class="REPORTING" >said</EVENT>.</s>
+<s>The men <EVENT eid="e7" class="OCCURRENCE" >appeared</EVENT> in the store at <CARDINAL>469</CARDINAL> Vermont St. in <ENAMEX TYPE="LOCATION">Brownsville</ENAMEX>
+<TIMEX3 mod="APPROX" tid="t46" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1998-02-12T19:15" anchorTimeID="t44" >around 7:15 p.m.</TIMEX3>, <SIGNAL sid="s48" >after</SIGNAL> the victim, <ENAMEX TYPE="PERSON">Linda Sanders, <CARDINAL>35</CARDINAL></ENAMEX>,  had <EVENT eid="e9" class="ASPECTUAL" >finished</EVENT>
+her <EVENT eid="e49" class="OCCURRENCE" >cleaning</EVENT> and  was <EVENT eid="e10" class="OCCURRENCE" >waiting</EVENT> for her clothes  <SIGNAL sid="s98" >to</SIGNAL> <EVENT eid="e11" class="OCCURRENCE" >dry</EVENT>, detectives
+<EVENT eid="e12" class="REPORTING" >said</EVENT>.</s>
+<s>``It <EVENT eid="e13" class="PERCEPTION" >looks</EVENT> as though they <EVENT eid="e14" class="OCCURRENCE" >panicked</EVENT>,'' a detective, <EVENT eid="e15" class="OCCURRENCE" >speaking</EVENT> on
+condition of anonymity, <EVENT eid="e17" class="REPORTING" >said</EVENT> of the robbers.</s> <s>``They <EVENT eid="e18" class="I_ACTION" >intended</EVENT>  to <EVENT eid="e19" class="OCCURRENCE" >rob</EVENT>
+the place.</s> <s>There were <CARDINAL>four or five</CARDINAL> people inside, and they just <EVENT eid="e20" class="ASPECTUAL" >started</EVENT> <EVENT eid="e50" class="OCCURRENCE" >firing</EVENT>.''</s>
+<s><ENAMEX TYPE="PERSON">Ms. Sanders</ENAMEX>  was <EVENT eid="e21" class="OCCURRENCE" >hit</EVENT> several times and  was <EVENT eid="e22" class="I_ACTION" >pronounced</EVENT> <EVENT eid="e51" class="STATE" >dead</EVENT> at the
+scene.</s> <s>The other customers <EVENT eid="e25" class="OCCURRENCE" >fled</EVENT>, and the police <EVENT eid="e26" class="REPORTING" >said</EVENT> it did <SIGNAL sid="s28" >not</SIGNAL> <EVENT eid="e27" class="I_ACTION" >appear</EVENT> that anyone else was <EVENT eid="e29" class="OCCURRENCE" >injured</EVENT>.</s>
+<s>The men <EVENT eid="e30" class="OCCURRENCE" >took</EVENT> <SIGNAL sid="s52" >no</SIGNAL> money from their victim or from the
+establishment, <EVENT eid="e34" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Detective Joseph Pentangelo, a <ENAMEX TYPE="ORGANIZATION">Police
+Department</ENAMEX> spokesman</ENAMEX>.</s>
+<s><ENAMEX TYPE="PERSON">Victor Miranda</ENAMEX>, who <EVENT eid="e35" class="OCCURRENCE" >lives</EVENT> in <ENAMEX TYPE="PERSON">Ms. Sanders</ENAMEX>' apartment building at
+<CARDINAL>405</CARDINAL> Williams Ave., <EVENT eid="e36" class="REPORTING" >said</EVENT> the laundry machines in the building  were <EVENT eid="e39" class="OCCURRENCE" >removed</EVENT> <TIMEX3 tid="t47" type="DATE" temporalFunction="true" functionInDocument="NONE" value="199X" anchorTimeID="t41" >a few years ago</TIMEX3> <SIGNAL sid="s53" >to</SIGNAL> <EVENT eid="e40" class="I_ACTION" >make</EVENT> room for management offices.</s>
+</TEXT>
+</BODY>
+<TRAILER>
+<s>NYT-<TIMEX3 tid="t42" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-12T01:58" >02-12-98 0158EST</TIMEX3></s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei210" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei211" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei212" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei213" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei214" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei215" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei216" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei217" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei218" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei219" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei220" tense="PRESENT" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei221" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei222" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei223" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei224" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei225" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei226" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei227" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei228" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei229" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei230" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei231" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei232" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei233" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei234" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei235" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei236" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei237" tense="PRESENT" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei238" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei239" tense="PAST" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei240" tense="NONE" eventID="e40" />
+<TLINK relatedToTime="t41" eventInstanceID="ei237" relType="DURING" />
+<TLINK relatedToTime="t47" eventInstanceID="ei239" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei238" eventInstanceID="ei239" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei211" eventInstanceID="ei210" relType="ENDED_BY" />
+<TLINK relatedToTime="t44" eventInstanceID="ei211" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t44" eventInstanceID="ei210" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei212" signalID="s3" eventInstanceID="ei211" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t41" eventInstanceID="ei213" relType="BEFORE" />
+<TLINK relatedToTime="t46" eventInstanceID="ei214" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei215" signalID="s48" eventInstanceID="ei214" relType="AFTER" />
+<TLINK relatedToEventInstance="ei215" eventInstanceID="ei217" relType="AFTER" />
+<TLINK relatedToTime="t41" eventInstanceID="ei219" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei223" eventInstanceID="ei222" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei212" eventInstanceID="ei227" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei227" eventInstanceID="ei228" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei228" eventInstanceID="ei229" relType="AFTER" />
+<TLINK relatedToEventInstance="ei226" eventInstanceID="ei231" relType="AFTER" />
+<TLINK relatedToTime="t41" eventInstanceID="ei232" relType="BEFORE" />
+<SLINK signalID="s53" subordinatedEventInstance="ei240" eventInstanceID="ei239" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei237" eventInstanceID="ei238" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei211" eventInstanceID="ei213" relType="EVIDENTIAL" />
+<SLINK signalID="s98" subordinatedEventInstance="ei218" eventInstanceID="ei217" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei214" eventInstanceID="ei219" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei221" eventInstanceID="ei220" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei220" eventInstanceID="ei223" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei225" eventInstanceID="ei224" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei230" eventInstanceID="ei229" relType="EVIDENTIAL" />
+<SLINK signalID="s28" subordinatedEventInstance="ei233" eventInstanceID="ei232" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei234" eventInstanceID="ei233" relType="MODAL" />
+<SLINK signalID="s52" subordinatedEventInstance="ei235" eventInstanceID="ei236" relType="NEG_EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei216" eventInstanceID="ei215" relType="CULMINATES" />
+<ALINK relatedToEventInstance="ei227" eventInstanceID="ei226" relType="INITIATES" />
+</TimeML>

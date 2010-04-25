@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> APW<TIMEX3 tid="t20" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1998-02-27" >19980227</TIMEX3>.0476 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t19" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-27T08:02:00" >02/27/1998 08:02:00</TIMEX3> </DATE_TIME>
+<HEADER>
+w2381 Cx1f wstm-
+u i Cx13  Cx11  BC-WorldCourt-Lockerbie 5thLd   02-27 0169
+</HEADER>
+<BODY>
+<SLUG> BC-World Court-Lockerbie, 5th Ld </SLUG>
+<HEADLINE>
+World Court declares jurisdiction in Lockerbie dispute
+</HEADLINE>
+UR Eds: RECASTS lead to clarify; ADDS detail of U.S. and British
+objections in 3rd graf. QL
+UR AP Photo staffing QL
+UR By MIKE CORDER QC
+UR Associated Press Writer QC
+
+<TEXT>
+<s>THE HAGUE, <ENAMEX TYPE="LOCATION">Netherlands</ENAMEX> (<ENAMEX TYPE="ORGANIZATION">AP</ENAMEX>) _ The <ENAMEX TYPE="ORGANIZATION">World Court</ENAMEX> <TIMEX3 tid="t21" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-27" anchorTimeID="t19" >Friday</TIMEX3> <EVENT eid="e1" class="OCCURRENCE" >rejected</EVENT>
+<ENAMEX TYPE="LOCATION">U.S.</ENAMEX> and British <EVENT eid="e1996" class="OCCURRENCE" >objections</EVENT> to a <ENAMEX TYPE="ORGANIZATION">Libyan World Court</ENAMEX> case that  has <EVENT eid="e2" class="I_ACTION" >blocked</EVENT> the <EVENT eid="e1997" class="OCCURRENCE" >trial</EVENT> of <CARDINAL>two</CARDINAL> Libyans <EVENT eid="e3" class="I_STATE" >suspected</EVENT> of <EVENT eid="e4" class="OCCURRENCE" >blowing</EVENT> up a <ENAMEX TYPE="PERSON">Pan Am</ENAMEX>
+jumbo jet over <ENAMEX TYPE="LOCATION">Scotland</ENAMEX> in <TIMEX3 tid="t22" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988" >1988</TIMEX3>.</s>
+<s><ENAMEX TYPE="LOCATION">Libya</ENAMEX>, which <EVENT eid="e5" class="OCCURRENCE" >brought</EVENT> the case to the <ENAMEX TYPE="ORGANIZATION">United Nations</ENAMEX>' highest
+judicial body in its <EVENT eid="e6" class="OCCURRENCE" >dispute</EVENT> with the <ENAMEX TYPE="LOCATION">United States</ENAMEX> and <ENAMEX TYPE="LOCATION">Britain</ENAMEX>,
+<EVENT eid="e8" class="I_ACTION" >hailed</EVENT> the <EVENT eid="e1998" class="OCCURRENCE" >ruling</EVENT> and <EVENT eid="e9" class="REPORTING" >said</EVENT> it would <EVENT eid="e10" class="I_ACTION" >press</EVENT> anew for a <EVENT eid="e1999" class="OCCURRENCE" >trial</EVENT> in a
+third neutral country.</s>
+<s>Both <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> and British officials <EVENT eid="e12" class="OCCURRENCE" >filed</EVENT> objections to the court's
+jurisdiction in <TIMEX3 tid="t23" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1995" >1995</TIMEX3>, <EVENT eid="e13" class="I_ACTION" >claiming</EVENT> <ENAMEX TYPE="ORGANIZATION">Security Council</ENAMEX> <EVENT eid="e2078" class="OCCURRENCE" >resolutions</EVENT> <EVENT eid="e14" class="OCCURRENCE" >imposed</EVENT>
+on Lybia  <SIGNAL sid="s2073" >to</SIGNAL> <EVENT eid="e15" class="OCCURRENCE" >force</EVENT> the suspects' extradition <EVENT eid="e16" class="OCCURRENCE" >overruled</EVENT> a <TIMEX3 tid="t24" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1971" >1971</TIMEX3>
+Convention which gives <ENAMEX TYPE="LOCATION">Libya</ENAMEX> the right  to try the men.</s>
+<s>The decision, <ENAMEX TYPE="PERSON">3rd</ENAMEX> graf pvs.</s>
+</TEXT>
+(PROFILE
+(WS SL:BC-World Court-Lockerbie, 5th Ld; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(LANG:ENGLISH;))
+)
+</BODY>
+<TRAILER>
+<s>AP-NY-<TIMEX3 tid="t25" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-27T08:02" >02-27-98 0802EST</TIMEX3></s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2091" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2092" tense="NONE" eventID="e1996" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2093" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2094" tense="NONE" eventID="e1997" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2095" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2096" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2097" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2098" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2099" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2100" tense="NONE" eventID="e1998" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2101" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2102" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2103" tense="NONE" eventID="e1999" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2104" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2105" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2106" tense="NONE" eventID="e2078" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2107" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2108" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2109" tense="PAST" eventID="e16" />
+<TLINK relatedToTime="t19" eventInstanceID="ei2101" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2104" eventInstanceID="ei2106" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2106" eventInstanceID="ei2107" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2091" timeID="t21" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2091" eventInstanceID="ei2092" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2092" eventInstanceID="ei2093" relType="DURING" />
+<TLINK relatedToEventInstance="ei2092" eventInstanceID="ei2095" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2096" timeID="t22" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2098" eventInstanceID="ei2097" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2091" eventInstanceID="ei2100" relType="IDENTITY" />
+<TLINK relatedToTime="t23" eventInstanceID="ei2104" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2104" eventInstanceID="ei2105" relType="IS_INCLUDED" />
+<SLINK signalID="s2073" subordinatedEventInstance="ei2108" eventInstanceID="ei2107" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2109" eventInstanceID="ei2105" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2094" eventInstanceID="ei2093" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2096" eventInstanceID="ei2095" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2100" eventInstanceID="ei2099" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2102" eventInstanceID="ei2101" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2103" eventInstanceID="ei2102" relType="MODAL" />
+</TimeML>

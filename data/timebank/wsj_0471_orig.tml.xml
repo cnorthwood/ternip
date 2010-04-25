@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891031-0040 </DOCNO>
+<DD> = 891031 </DD>
+<AN> 891031-0040. </AN>
+<HL> Business Brief -- Dataproducts Inc.:
+@  Lawsuit Is Filed to Block
+@  DPC's Hostile Tender Offer </HL>
+<DD> <TIMEX3 tid="t34" type="DATE" temporalFunction="true" functionInDocument="CREATION_TIME" value="1989-10-31" >10/31/89 </TIMEX3></DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> DPC </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Dataproducts Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="ASPECTUAL" >filed</EVENT> a <EVENT eid="e3" class="OCCURRENCE" >lawsuit</EVENT> in <ENAMEX TYPE="ORGANIZATION">Delaware Chancery Court</ENAMEX> <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e5" class="ASPECTUAL" >block</EVENT> a <EVENT eid="e35" class="OCCURRENCE" >tender offer</EVENT> by <ENAMEX TYPE="ORGANIZATION">DPC Acquisition Partners</ENAMEX>, <EVENT eid="e7" class="REPORTING" >alleging</EVENT> that the hostile <EVENT eid="e8" class="OCCURRENCE" >offer</EVENT> <EVENT eid="e9" class="OCCURRENCE" >violates</EVENT> a standstill <EVENT eid="e10" class="OCCURRENCE" >agreement</EVENT> <SIGNAL sid="s11" >between</SIGNAL> the <CARDINAL>two</CARDINAL> concerns.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">DPC</ENAMEX>, an investor group <EVENT eid="e12" class="OCCURRENCE" >led</EVENT> by <ENAMEX TYPE="LOCATION">New York</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Crescott Investment Associates</ENAMEX>, had itself <EVENT eid="e14" class="ASPECTUAL" >filed</EVENT> a <EVENT eid="e15" class="OCCURRENCE" >suit</EVENT> <SIGNAL sid="s16" >in</SIGNAL> state court in <ENAMEX TYPE="LOCATION">Los Angeles</ENAMEX> <EVENT eid="e17" class="I_ACTION" >seeking</EVENT> <SIGNAL sid="s18" >to</SIGNAL> <EVENT eid="e19" class="ASPECTUAL" >nullify</EVENT> the <EVENT eid="e20" class="OCCURRENCE" >agreement</EVENT>.</s> 
+<s><TIMEX3 mod="START" tid="t39" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t34" >Earlier this year</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Dataproducts</ENAMEX> had <EVENT eid="e21" class="OCCURRENCE" >rejected</EVENT> a <NUMEX TYPE="MONEY">$15</NUMEX> a share <EVENT eid="e22" class="OCCURRENCE" >offer</EVENT> from <ENAMEX TYPE="ORGANIZATION">DPC</ENAMEX>, <EVENT eid="e23" class="REPORTING" >saying</EVENT> it was <SIGNAL sid="s25" >n't</SIGNAL> adequately <EVENT eid="e24" class="OCCURRENCE" >financed</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">DPC</ENAMEX> <TIMEX3 mod="BEFORE" tid="t40" type="TIME" temporalFunction="true" functionInDocument="NONE" value="P1W" anchorTimeID="t34" >last week </TIMEX3><EVENT eid="e26" class="ASPECTUAL" >launched</EVENT> a new, <NUMEX TYPE="MONEY">$10</NUMEX>-a-share <EVENT eid="e27" class="OCCURRENCE" >offer</EVENT> for the <ENAMEX TYPE="LOCATION">Woodland Hills</ENAMEX>, <ENAMEX TYPE="LOCATION">Calif.</ENAMEX>-based computer printer maker.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">DPC</ENAMEX> <EVENT eid="e28" class="REPORTING" >said</EVENT> it <SIGNAL sid="s30" >could</SIGNAL> <SIGNAL sid="s31" >n't</SIGNAL> <EVENT eid="e29" class="OCCURRENCE" >comment</EVENT> <SIGNAL sid="s33" >on</SIGNAL> the <EVENT eid="e32" class="OCCURRENCE" >suit</EVENT>.</s>
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei119" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei120" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei121" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei124" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei128" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei129" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei130" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei131" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei132" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei133" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei134" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei135" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei136" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei137" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei138" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei139" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei140" tense="PAST" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei141" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei142" tense="NONE" eventID="e32" />
+<TLINK relatedToEventInstance="ei119" timeID="t34" relType="AFTER" />
+<TLINK relatedToEventInstance="ei121" eventInstanceID="ei122" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei127" eventInstanceID="ei126" relType="AFTER" />
+<TLINK relatedToEventInstance="ei124" eventInstanceID="ei121" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei125" eventInstanceID="ei126" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei127" eventInstanceID="ei125" relType="AFTER" />
+<TLINK relatedToEventInstance="ei128" timeID="t34" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei129" timeID="t34" relType="AFTER" />
+<TLINK relatedToEventInstance="ei131" eventInstanceID="ei130" relType="BEGINS" />
+<TLINK relatedToEventInstance="ei133" eventInstanceID="ei127" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei125" eventInstanceID="ei123" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei139" eventInstanceID="ei123" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei134" timeID="t39" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei134" eventInstanceID="ei136" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei138" timeID="t40" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei135" eventInstanceID="ei134" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei119" eventInstanceID="ei120" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei124" eventInstanceID="ei125" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei131" eventInstanceID="ei132" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei136" eventInstanceID="ei137" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei141" eventInstanceID="ei142" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei140" eventInstanceID="ei141" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei121" eventInstanceID="ei120" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei122" eventInstanceID="ei123" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei129" eventInstanceID="ei130" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei132" eventInstanceID="ei133" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei138" eventInstanceID="ei139" relType="INITIATES" />
+</TimeML>

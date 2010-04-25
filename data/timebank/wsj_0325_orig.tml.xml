@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891101-0039 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0039. </AN>
+<HL> Business Brief -- Coast Savings Financial Inc.:
+@  Thrift Company Posts Loss;
+@  Restructuring Program Cited </HL>
+<DD> <TIMEX3 tid="t29" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-01" >11/01/89 </TIMEX3></DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CSA </CO>
+<IN> EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Coast Savings Financial Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >reported</EVENT> a <TIMEX3 tid="t31" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t29" >third-quarter</TIMEX3> <EVENT eid="e37" class="STATE" >loss</EVENT>, <EVENT eid="e2" class="REPORTING" >citing</EVENT> a previously announced capital restructuring program.</s> 
+
+   <s>The <ENAMEX TYPE="LOCATION">Los Angeles</ENAMEX> thrift holding company <EVENT eid="e4" class="REPORTING" >said</EVENT> it <EVENT eid="e38" class="STATE" >had</EVENT> a loss of <NUMEX TYPE="MONEY">$92.2 million</NUMEX>, or <NUMEX TYPE="MONEY">$6.98</NUMEX> a share, for <TIMEX3 tid="t48" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t31" >the quarter</TIMEX3> <SIGNAL sid="s39" >ended</SIGNAL> <TIMEX3 tid="t32" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-30" anchorTimeID="t29" >Sept. 30</TIMEX3>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Coast</ENAMEX> <EVENT eid="e7" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$10.2 million</NUMEX>, or <NUMEX TYPE="MONEY">67 cents</NUMEX> a share, <SIGNAL sid="s54" >in</SIGNAL> <TIMEX3 tid="t49" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t31" >the year-ago quarter</TIMEX3>.</s> 
+<s>The <TIMEX3 tid="t51" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t49" >year-ago</TIMEX3> <EVENT eid="e41" class="STATE" >results</EVENT>  have  been <EVENT eid="e8" class="OCCURRENCE" >restated</EVENT>  <SIGNAL sid="s55" >to</SIGNAL> <EVENT eid="e9" class="I_STATE" >comply</EVENT> with government <EVENT eid="e42" class="STATE" >regulations</EVENT>.</s> 
+
+   <s>The restructuring <EVENT eid="e44" class="I_STATE" >program</EVENT>  is <EVENT eid="e10" class="I_STATE" >designed</EVENT>  <SIGNAL sid="s56" >to</SIGNAL> <EVENT eid="e11" class="I_ACTION" >increase</EVENT> the company's tangible capital <EVENT eid="e43" class="STATE" >ratio</EVENT>.</s> 
+<s>It includes <EVENT eid="e13" class="OCCURRENCE" >removing</EVENT> <NUMEX TYPE="MONEY">$242 million</NUMEX> in good will from the books, <EVENT eid="e15" class="OCCURRENCE" >issuing</EVENT> <NUMEX TYPE="MONEY">$150 million</NUMEX> in preferred stock and <EVENT eid="e17" class="ASPECTUAL" >commencing</EVENT> an exchange <EVENT eid="e45" class="OCCURRENCE" >offer</EVENT> for <NUMEX TYPE="MONEY">$52 million</NUMEX> in convertible bonds.</s> 
+
+   <s><SIGNAL sid="s53" >During</SIGNAL> <TIMEX3 tid="t52" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t31" >the third quarter</TIMEX3>, the company <EVENT eid="e20" class="OCCURRENCE" >charged</EVENT> about <NUMEX TYPE="MONEY">$46 million</NUMEX> against earnings in reducing goodwill, <EVENT eid="e23" class="OCCURRENCE" >added</EVENT> <NUMEX TYPE="MONEY">$20 million</NUMEX> to its general loan loss reserves and <EVENT eid="e24" class="I_ACTION" >established</EVENT> a <NUMEX TYPE="MONEY">$30 million</NUMEX> <EVENT eid="e46" class="STATE" >reserve</EVENT> for its high-yield bond portfolio.</s> 
+<s>The company <EVENT eid="e25" class="REPORTING" >said</EVENT> its junk-bond portfolio <SIGNAL sid="s27" >after</SIGNAL> these <EVENT eid="e26" class="OCCURRENCE" >moves</EVENT>  had  been <EVENT eid="e28" class="OCCURRENCE" >reduced</EVENT> to less than <NUMEX TYPE="PERCENT">1%</NUMEX> of assets.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei199" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei200" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei201" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei202" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei203" tense="PAST" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei204" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei205" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei206" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei207" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei208" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei209" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei210" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei211" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei212" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei213" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei214" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei215" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei216" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei217" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei218" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei219" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei220" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei221" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei222" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei223" tense="PAST" eventID="e28" />
+<TLINK relatedToEventInstance="ei204" eventInstanceID="ei205" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei205" eventInstanceID="ei206" relType="AFTER" />
+<TLINK relatedToEventInstance="ei210" eventInstanceID="ei209" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei213" eventInstanceID="ei209" relType="INCLUDES" />
+<TLINK relatedToTime="t31" eventInstanceID="ei200" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei214" eventInstanceID="ei209" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei215" eventInstanceID="ei209" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei206" eventInstanceID="ei209" relType="IDENTITY" />
+<TLINK signalID="s53" relatedToTime="t52" eventInstanceID="ei217" relType="IS_INCLUDED" />
+<TLINK signalID="s53" relatedToTime="t52" eventInstanceID="ei218" relType="IS_INCLUDED" />
+<TLINK signalID="s53" relatedToTime="t52" eventInstanceID="ei219" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei202" eventInstanceID="ei221" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei222" signalID="s27" eventInstanceID="ei223" relType="AFTER" />
+<TLINK relatedToEventInstance="ei205" timeID="t51" relType="INCLUDES" />
+<TLINK signalID="s54" relatedToTime="t49" eventInstanceID="ei204" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei199" eventInstanceID="ei202" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei203" eventInstanceID="ei204" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei199" eventInstanceID="ei199" relType="BEFORE" />
+<TLINK signalID="s39" relatedToTime="t32" eventInstanceID="ei203" relType="ENDED_BY" />
+<TLINK relatedToTime="t48" eventInstanceID="ei203" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei201" eventInstanceID="ei199" relType="SIMULTANEOUS" />
+<SLINK signalID="s55" subordinatedEventInstance="ei207" eventInstanceID="ei206" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei208" eventInstanceID="ei207" relType="FACTIVE" />
+<SLINK signalID="s56" subordinatedEventInstance="ei211" eventInstanceID="ei210" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei212" eventInstanceID="ei211" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei200" eventInstanceID="ei199" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei220" eventInstanceID="ei219" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei223" eventInstanceID="ei221" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei203" eventInstanceID="ei202" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei216" eventInstanceID="ei215" relType="INITIATES" />
+</TimeML>

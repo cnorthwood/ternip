@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0027 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0027. </AN>
+<HL> National Intergroup
+@  To Report Charge
+@  For Third Quarter </HL>
+<DD> <TIMEX3 tid="t51" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> NII </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> PITTSBURGH  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">National Intergroup Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_STATE" >expects</EVENT> <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="REPORTING" >report</EVENT> a <EVENT eid="e48" class="STATE" >charge</EVENT> of <NUMEX TYPE="MONEY">$5.3 million</NUMEX> related to the <EVENT eid="e6" class="OCCURRENCE" >sale</EVENT> of its aluminum unit's extrusion division <SIGNAL sid="s49" >for</SIGNAL> <TIMEX3 tid="t52" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" >the third quarter</TIMEX3>.</s> 
+
+   <s>The company <EVENT eid="e7" class="REPORTING" >said</EVENT> it has <EVENT eid="e8" class="I_ACTION" >agreed</EVENT> <SIGNAL sid="s9" >to</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >sell</EVENT> the extrusion division for <NUMEX TYPE="MONEY">$15 million</NUMEX> to <ENAMEX TYPE="ORGANIZATION">R.D. Werner Co.</ENAMEX>, a closely held firm based in <ENAMEX TYPE="LOCATION">Greenville</ENAMEX>, <ENAMEX TYPE="LOCATION">Pa.</ENAMEX> 
+
+   The <EVENT eid="e123" class="STATE" >charge</EVENT> is offset by an after-tax <EVENT eid="e54" class="STATE" >gain</EVENT> of about <NUMEX TYPE="MONEY">$30 million</NUMEX> <SIGNAL sid="s55" >in</SIGNAL> <TIMEX3 tid="t53" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t52" >the quarter</TIMEX3> from the <SIGNAL sid="s56" >previously</SIGNAL> <EVENT eid="e57" class="REPORTING" >announced</EVENT> <EVENT eid="e14" class="I_STATE" >pact</EVENT> <SIGNAL sid="s16" >to</SIGNAL> <EVENT eid="e17" class="OCCURRENCE" >sell</EVENT> <ENAMEX TYPE="ORGANIZATION">National Aluminum</ENAMEX>'s rolling division.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">National Intergroup</ENAMEX> <SIGNAL sid="s58" >in</SIGNAL> <TIMEX3 tid="t59" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t52" >the year-ago third quarter</TIMEX3> <EVENT eid="e19" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$22.5 million</NUMEX>, or <NUMEX TYPE="MONEY">97 cents</NUMEX> a share, including a <EVENT eid="e60" class="OCCURRENCE" >gain</EVENT> of <NUMEX TYPE="MONEY">$18 million</NUMEX> from the <EVENT eid="e20" class="OCCURRENCE" >sale</EVENT> of a steel tube company.</s> 
+<s>Revenue was <NUMEX TYPE="MONEY">$778.6 million</NUMEX>.</s> 
+
+   <s>The company also <EVENT eid="e22" class="REPORTING" >said</EVENT> it <EVENT eid="e23" class="ASPECTUAL" >continues</EVENT> <SIGNAL sid="s24" >to</SIGNAL> <EVENT eid="e25" class="I_ACTION" >explore</EVENT> all options concerning the possible <EVENT eid="e28" class="OCCURRENCE" >sale</EVENT> of <ENAMEX TYPE="ORGANIZATION">National Aluminum</ENAMEX>'s <NUMEX TYPE="PERCENT">54.5%</NUMEX> stake in an aluminum smelter in <ENAMEX TYPE="LOCATION">Hawesville</ENAMEX>, <ENAMEX TYPE="LOCATION">Ky.</ENAMEX> 
+
+   The <EVENT eid="e31" class="OCCURRENCE" >sale</EVENT> of the extrusion division is <EVENT eid="e198" class="I_STATE" >subject</EVENT> to audit <EVENT eid="e34" class="OCCURRENCE" >adjustments</EVENT> for working capital changes through the closing.</s> 
+
+   <s>The <EVENT eid="e39" class="STATE" >agreement</EVENT> also provides for potential <EVENT eid="e41" class="OCCURRENCE" >payments</EVENT> of additional proceeds to <ENAMEX TYPE="ORGANIZATION">National Aluminum</ENAMEX> <SIGNAL sid="s221" >over</SIGNAL> <TIMEX3 tid="t220" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P2Y" anchorTimeID="t51" >the next two years</TIMEX3>, depending on the plant's shipping <EVENT eid="e66" class="STATE" >levels</EVENT>.</s> 
+
+   <s>The extrusion unit produces bare and painted custom extrusions for building products and construction industries.</s> 
+<s><SIGNAL sid="s67" >In</SIGNAL> <TIMEX3 tid="t68" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="1989" >fiscal 1989</TIMEX3>, it <EVENT eid="e69" class="STATE" >had</EVENT> <EVENT eid="e70" class="STATE" >sales</EVENT> of about <NUMEX TYPE="MONEY">$40 million</NUMEX> and an operating <EVENT eid="e47" class="STATE" >loss</EVENT> of <NUMEX TYPE="MONEY">$1.5 million</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1996" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e123" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2000" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="NONE" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PRESENT" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="PRESENT" eventID="e198" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" modality="depending on" eiid="ei2015" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PAST" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="NONE" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e47" />
+<TLINK signalID="s67" relatedToTime="t68" eventInstanceID="ei2017" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t51" eventInstanceID="ei1990" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei1994" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1994" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1993" relType="BEFORE" />
+<TLINK signalID="s49" relatedToTime="t52" eventInstanceID="ei1993" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1995" relType="IDENTITY" />
+<TLINK signalID="s55" relatedToTime="t53" eventInstanceID="ei1999" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei1998" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei2001" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2000" signalID="s56" eventInstanceID="ei1998" relType="AFTER" />
+<TLINK signalID="s58" relatedToTime="t59" eventInstanceID="ei2003" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2003" eventInstanceID="ei2004" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei2006" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1994" eventInstanceID="ei2010" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1994" eventInstanceID="ei2010" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2012" relType="BEFORE" />
+<TLINK relatedToTime="t51" eventInstanceID="ei2011" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei2013" relType="IDENTITY" />
+<TLINK signalID="s221" relatedToTime="t220" eventInstanceID="ei2014" relType="DURING" />
+<TLINK relatedToEventInstance="ei2014" eventInstanceID="ei2015" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2017" eventInstanceID="ei2016" relType="IDENTITY" />
+<TLINK signalID="s67" relatedToTime="t68" eventInstanceID="ei2018" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei1992" eventInstanceID="ei1991" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1996" eventInstanceID="ei1995" relType="EVIDENTIAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="EVIDENTIAL" />
+<SLINK signalID="s16" subordinatedEventInstance="ei2002" eventInstanceID="ei2001" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2007" eventInstanceID="ei2006" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2009" eventInstanceID="ei2008" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2012" eventInstanceID="ei2011" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2014" eventInstanceID="ei2013" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2008" signalID="s24" eventInstanceID="ei2007" relType="CONTINUES" />
+</TimeML>

@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0018 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0018. </AN>
+<HL> Business Brief -- Benjamin Franklin Federal SampL:
+@  Thrift Plans to Restructure
+@  After Loss in Third Quarter </HL>
+<DD> <TIMEX3 tid="t45" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> BENJ </CO>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Benjamin Franklin Federal Savings amp Loan Association</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_STATE" >plans</EVENT> <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="OCCURRENCE" >restructure</EVENT> <SIGNAL sid="s58" >in the wake of</SIGNAL> a <TIMEX3 tid="t59" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t45" >third-quarter</TIMEX3> <EVENT eid="e6" class="OCCURRENCE" >loss</EVENT> of <NUMEX TYPE="MONEY">$7.7 million</NUMEX>, or <NUMEX TYPE="MONEY">$1.01</NUMEX> a share, <EVENT eid="e7" class="OCCURRENCE" >reflecting</EVENT> an <NUMEX TYPE="MONEY">$11 million</NUMEX> <EVENT eid="e8" class="OCCURRENCE" >addition</EVENT> to loan-loss reserves.</s> 
+
+   <s>The <ENAMEX TYPE="LOCATION">Portland</ENAMEX>, <ENAMEX TYPE="LOCATION">Ore.</ENAMEX>, thrift <EVENT eid="e9" class="REPORTING" >said</EVENT> the restructuring <SIGNAL sid="s11" >should</SIGNAL> <EVENT eid="e10" class="I_ACTION" >help</EVENT> it <EVENT eid="e12" class="OCCURRENCE" >meet</EVENT> new capital standards from the <ENAMEX TYPE="ORGANIZATION">Financial Institution Reform</ENAMEX>, <ENAMEX TYPE="LOCATION">Recovery</ENAMEX> and Enforcement Act.</s> 
+<s><TIMEX3 tid="t96" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t45" >A year ago</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Benjamin Franklin</ENAMEX> had <EVENT eid="e14" class="OCCURRENCE" >profit</EVENT> of <NUMEX TYPE="MONEY">$1.8 million</NUMEX>, or <NUMEX TYPE="MONEY">23 cents</NUMEX> a share.</s> 
+
+   <s>In over-the-counter <EVENT eid="e15" class="OCCURRENCE" >trading</EVENT> <TIMEX3 tid="t101" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-26" anchorTimeID="t45" >yesterday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Benjamin Franklin</ENAMEX> <EVENT eid="e16" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="MONEY">25 cents to $4.25</NUMEX>.</s> 
+
+   <s>The company <EVENT eid="e17" class="REPORTING" >said</EVENT> the restructuring's initial phase will <EVENT eid="e18" class="OCCURRENCE" >feature</EVENT> a gradual reduction in assets and staff positions.</s> 
+<s>The <EVENT eid="e131" class="I_ACTION" >plan</EVENT> <SIGNAL sid="s21" >may</SIGNAL> <EVENT eid="e20" class="OCCURRENCE" >include</EVENT> <EVENT eid="e22" class="OCCURRENCE" >selling</EVENT> branches, <EVENT eid="e23" class="OCCURRENCE" >consolidating</EVENT> or <EVENT eid="e24" class="OCCURRENCE" >eliminating</EVENT> departments, and <EVENT eid="e25" class="OCCURRENCE" >winding</EVENT> down or <EVENT eid="e26" class="OCCURRENCE" >disposing</EVENT> of unprofitable units <TIMEX3 mod="EQUAL_OR_LESS" tid="t140" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P18M" >within <CARDINAL>18</CARDINAL> months</TIMEX3>.</s> 
+
+   <s>Initially, the company <EVENT eid="e27" class="REPORTING" >said</EVENT> it will <EVENT eid="e28" class="OCCURRENCE" >close</EVENT> its commercial real-estate lending division, and <EVENT eid="e29" class="ASPECTUAL" >stop</EVENT> <EVENT eid="e30" class="ASPECTUAL" >originating</EVENT> new leases at its commercial lease subsidiary.</s> 
+
+   <s>Details of the restructuring wo <SIGNAL sid="s32" >n't</SIGNAL> be <EVENT eid="e31" class="OCCURRENCE" >made</EVENT> final <SIGNAL sid="s33" >until</SIGNAL> regulators <EVENT eid="e34" class="OCCURRENCE" >approve</EVENT> the regulations <EVENT eid="e36" class="OCCURRENCE" >mandated</EVENT> by the new federal act, the company <EVENT eid="e38" class="REPORTING" >said</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1989" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1993" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1998" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="FUTURE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e131" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PRESENT" eventID="e20" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2005" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2006" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2007" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2008" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2009" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="FUTURE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2013" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="FUTURE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2016" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="PAST" eventID="e38" />
+<TLINK relatedToTime="t59" eventInstanceID="ei1992" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1992" signalID="s58" eventInstanceID="ei1991" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1989" eventInstanceID="ei1993" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei1994" relType="BEFORE" />
+<TLINK relatedToTime="t45" eventInstanceID="ei1989" relType="BEFORE" />
+<TLINK relatedToTime="t96" eventInstanceID="ei1998" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t101" eventInstanceID="ei1999" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei2000" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2006" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2007" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2008" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2003" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2009" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t140" eventInstanceID="ei2004" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2012" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2015" signalID="s33" eventInstanceID="ei2014" relType="AFTER" />
+<TLINK relatedToTime="t45" eventInstanceID="ei2016" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei1990" eventInstanceID="ei1989" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1996" eventInstanceID="ei1995" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2002" eventInstanceID="ei2001" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2011" eventInstanceID="ei2010" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2012" eventInstanceID="ei2010" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2014" eventInstanceID="ei2017" relType="EVIDENTIAL" />
+</TimeML>

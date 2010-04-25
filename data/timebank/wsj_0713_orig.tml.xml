@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0182 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0182. </AN>
+<HL> Dresdner Bank Acquisition </HL>
+<DD> <TIMEX3 tid="t26" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> EUROP DRSDY F.SGF </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) </IN>
+<DATELINE> FRANKFURT, West Germany  </DATELINE>
+<TEXT>
+   <s>West German and French authorities have <EVENT eid="e1" class="OCCURRENCE" >cleared</EVENT> <ENAMEX TYPE="ORGANIZATION">Dresdner Bank AG</ENAMEX>'s <EVENT eid="e2" class="OCCURRENCE" >takeover</EVENT> of a majority stake in <ENAMEX TYPE="ORGANIZATION">Banque Internationale de Placement (BIP)</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Dresdner Bank</ENAMEX> <EVENT eid="e4" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>The <EVENT eid="e5" class="OCCURRENCE" >approval</EVENT>, which had been <EVENT eid="e6" class="I_STATE" >expected</EVENT>, <EVENT eid="e7" class="OCCURRENCE" >permits</EVENT> <ENAMEX TYPE="LOCATION">West Germany</ENAMEX>'s second-largest bank <SIGNAL sid="s8" >to</SIGNAL> <EVENT eid="e9" class="OCCURRENCE" >acquire</EVENT> shares of the French investment bank.</s> 
+
+   <s>In a first step, <ENAMEX TYPE="ORGANIZATION">Dresdner Bank</ENAMEX> will <EVENT eid="e11" class="OCCURRENCE" >buy</EVENT> <NUMEX TYPE="PERCENT">32.99%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">BIP</ENAMEX> for <NUMEX TYPE="MONEY">1,015 French francs</NUMEX> (<NUMEX TYPE="MONEY">$162</NUMEX>) a share, or <NUMEX TYPE="MONEY">528 million francs</NUMEX> (<NUMEX TYPE="MONEY">$84.7 million</NUMEX>).</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Dresdner Bank</ENAMEX> <EVENT eid="e12" class="REPORTING" >said</EVENT> it will also <EVENT eid="e13" class="OCCURRENCE" >buy</EVENT> all shares <EVENT eid="e14" class="OCCURRENCE" >tendered</EVENT> by shareholders on the <ENAMEX TYPE="ORGANIZATION">Paris Stock Exchange</ENAMEX> at the same price <SIGNAL sid="s23" >from</SIGNAL> <TIMEX3 tid="t27" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t26" >today</TIMEX3> <SIGNAL sid="s24" >through</SIGNAL> <TIMEX3 tid="t28" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-17" anchorTimeID="t26" >Nov. 17</TIMEX3>.</s> 
+<s>In addition, the bank <EVENT eid="e22" class="STATE" >has</EVENT> an <EVENT eid="e18" class="STATE" >option</EVENT> <SIGNAL sid="s19" >to</SIGNAL> <EVENT eid="e20" class="OCCURRENCE" >buy</EVENT> a <NUMEX TYPE="PERCENT">30.84%</NUMEX> stake in <ENAMEX TYPE="ORGANIZATION">BIP</ENAMEX> from Societe Generale <SIGNAL sid="s25" >after</SIGNAL> <TIMEX3 mod="AFTER" tid="t29" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1990-01-01" >Jan. 1, 1990</TIMEX3> at <NUMEX TYPE="MONEY">1,015 francs</NUMEX> a share.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei120" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei121" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei124" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="FUTURE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="FUTURE" eventID="e13" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei130" cardinality="every" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei131" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei132" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei133" tense="NONE" eventID="e20" />
+<TLINK signalID="s25" relatedToTime="t29" eventInstanceID="ei133" relType="AFTER" />
+<TLINK relatedToEventInstance="ei125" eventInstanceID="ei123" relType="IDENTITY" />
+<TLINK relatedToTime="t26" eventInstanceID="ei123" relType="BEFORE" />
+<TLINK relatedToTime="t26" eventInstanceID="ei120" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei121" eventInstanceID="ei120" relType="AFTER" />
+<TLINK relatedToEventInstance="ei132" eventInstanceID="ei131" relType="IDENTITY" />
+<TLINK relatedToTime="t26" eventInstanceID="ei131" relType="INCLUDES" />
+<TLINK signalID="s24" relatedToTime="t28" eventInstanceID="ei130" relType="ENDED_BY" />
+<TLINK signalID="s23" relatedToTime="t27" eventInstanceID="ei130" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei130" signalID="s14" eventInstanceID="ei129" relType="IAFTER" />
+<TLINK relatedToTime="t26" eventInstanceID="ei127" relType="AFTER" />
+<TLINK relatedToEventInstance="ei123" eventInstanceID="ei124" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei120" eventInstanceID="ei123" relType="IDENTITY" />
+<SLINK signalID="s8" subordinatedEventInstance="ei126" eventInstanceID="ei125" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei123" eventInstanceID="ei124" relType="MODAL" />
+<SLINK signalID="s19" subordinatedEventInstance="ei133" eventInstanceID="ei132" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei120" eventInstanceID="ei122" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei129" eventInstanceID="ei128" relType="EVIDENTIAL" />
+</TimeML>

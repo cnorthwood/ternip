@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> ABC<TIMEX3 tid="t52" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-01-14" >19980114</TIMEX3>.1830.0611 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="ABC_World_News_Tonight" air_date="19980114:1830">
+<section startTime="611.88" type="report" endTime="690.12">
+<TEXT>
+<turn startTime="611.88" speaker="unknown" endTime="627.888" spkrType="unknown">
+ <s>In <ENAMEX TYPE="LOCATION">Washington</ENAMEX> <TIMEX3 tid="t53" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-01-14" anchorTimeID="t52" >today</TIMEX3>, the <ENAMEX TYPE="ORGANIZATION">Federal Aviation Administration</ENAMEX> <EVENT eid="e1" class="OCCURRENCE" >released</EVENT> air
+ traffic control tapes from <TIMEX3 tid="t54" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1998-XX-XXTNI" anchorTimeID="t52" >the night</TIMEX3> the <ENAMEX TYPE="ORGANIZATION">TWA</ENAMEX> Flight eight hundred <EVENT eid="e2" class="OCCURRENCE" >went</EVENT> down.</s> <s>There's
+ nothing new on why the plane <EVENT eid="e3" class="OCCURRENCE" >exploded</EVENT>, but you cannot miss the moment.</s>
+ <s><ENAMEX TYPE="ORGANIZATION">ABC</ENAMEX>'s <ENAMEX TYPE="ORGANIZATION">Lisa Stark</ENAMEX> has more.</s>
+</turn>
+<turn startTime="627.888" speaker="unknown" endTime="634.842" spkrType="unknown">
+ <s>There was no <EVENT eid="e57" class="STATE" >hint of trouble</EVENT> <SIGNAL sid="s11" >in</SIGNAL> the last <EVENT eid="e10" class="OCCURRENCE" >conversation</EVENT> between controllers
+ and <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">TWA</ENAMEX> pilot Steven Snyder</ENAMEX></s>
+</turn>
+<turn startTime="634.842" speaker="unknown" endTime="637.405" spkrType="unknown">
+ <s><ENAMEX TYPE="ORGANIZATION">TWA</ENAMEX>
+ <CARDINAL>eight hundred</CARDINAL> climb <EVENT eid="e13" class="OCCURRENCE" >maintain</EVENT> <CARDINAL>one five thousand</CARDINAL>.</s>
+</turn>
+<turn startTime="637.405" speaker="unknown" endTime="642.363" spkrType="unknown">
+ <s><ENAMEX TYPE="ORGANIZATION">TWA</ENAMEX>'s <CARDINAL>eight hundred</CARDINAL> heavy climb and <EVENT eid="e15" class="OCCURRENCE" >maintain</EVENT> <CARDINAL>one five thousand</CARDINAL> leavin- <CARDINAL>three thousand</CARDINAL>.</s>
+</turn>
+<turn startTime="642.363" speaker="unknown" endTime="646.733" spkrType="unknown">
+ <s>But <TIMEX3 tid="t58" temporalFunction="false" type="DURATION" functionInDocument="NONE" value="PT1M30S" >a minute and a half</TIMEX3> <SIGNAL sid="s59" >later</SIGNAL>, a pilot from a nearby flight <EVENT eid="e18" class="REPORTING" >calls</EVENT> in.</s>
+</turn>
+<turn startTime="646.733" speaker="unknown" endTime="651.943" spkrType="unknown">
+ <s>Ah, we just <EVENT eid="e19" class="PERCEPTION" >saw</EVENT> an <EVENT eid="e20" class="OCCURRENCE" >explosion</EVENT> up ahead of us here
+ <CARDINAL>about sixteen thousand</CARDINAL> feet or
+ something like that.</s> <s>It just <EVENT eid="e21" class="OCCURRENCE" >went</EVENT> down.</s>
+</turn>
+<turn startTime="651.943" speaker="unknown" endTime="656.187" spkrType="unknown">
+ <s>The controller at <ENAMEX TYPE="LOCATION">Boston</ENAMEX> center <EVENT eid="e22" class="I_ACTION" >tries</EVENT> <SIGNAL sid="s23" >to</SIGNAL> <EVENT eid="e24" class="OCCURRENCE" >raise</EVENT> <ENAMEX TYPE="ORGANIZATION">TWA</ENAMEX> <CARDINAL>eight hundred</CARDINAL>.</s>
+</turn>
+<turn startTime="656.187" speaker="unknown" endTime="658.897" spkrType="unknown">
+ <s><ENAMEX TYPE="ORGANIZATION">TWA</ENAMEX> <CARDINAL>eight hundred</CARDINAL>, <SIGNAL sid="s25" >if</SIGNAL> you <EVENT eid="e26" class="PERCEPTION" >hear</EVENT> center, <EVENT eid="e60" class="OCCURRENCE" >ident</EVENT>.</s>
+</turn>
+<turn startTime="658.897" speaker="unknown" endTime="664.716" spkrType="unknown">
+ <s>There is no <EVENT eid="e61" class="OCCURRENCE" >response</EVENT>.</s> <s><SIGNAL sid="s63" >Later</SIGNAL>, the controller <EVENT eid="e28" class="OCCURRENCE" >asks</EVENT> the <ENAMEX TYPE="ORGANIZATION">Eastwind</ENAMEX> pilot for
+ more details.</s>
+</turn>
+<turn startTime="664.716" speaker="unknown" endTime="672.552" spkrType="unknown">
+ <s>Ah yes, sir.</s> <s>It- It just <EVENT eid="e30" class="OCCURRENCE" >blew</EVENT> up in the air, and <SIGNAL sid="s64" >then</SIGNAL> we <EVENT eid="e33" class="PERCEPTION" >saw</EVENT> <CARDINAL>two</CARDINAL> fireballs <EVENT eid="e34" class="OCCURRENCE" >go</EVENT>
+ down to the, to the water, and there was a big small, ah, smoke, from ah , <EVENT eid="e36" class="OCCURRENCE" >coming</EVENT> up from that.</s>
+</turn>
+<turn startTime="672.552" speaker="unknown" endTime="679.023" spkrType="unknown">
+ <s>At one point, <SIGNAL sid="s37" >when</SIGNAL> it <EVENT eid="e38" class="I_STATE" >became</EVENT> <EVENT eid="e65" class="I_STATE" >clear</EVENT> controllers could not <EVENT eid="e235" class="OCCURRENCE" >contact</EVENT>   the plane,
+ someone <EVENT eid="e43" class="OCCURRENCE" >said</EVENT> a prayer.</s>
+</turn>
+<turn startTime="679.023" speaker="unknown" endTime="681.166" spkrType="unknown">
+ <s><ENAMEX TYPE="ORGANIZATION">TWA</ENAMEX> <CARDINAL>eight hundred</CARDINAL>, center</s>
+</turn>
+<turn startTime="681.166" speaker="unknown" endTime="683.439" spkrType="unknown">
+ <s>I think that was him.</s>
+</turn>
+<turn startTime="683.439" speaker="unknown" endTime="685.204" spkrType="unknown">
+ <s>I think so.</s>
+</turn>
+<turn startTime="685.204" speaker="unknown" endTime="686.402" spkrType="unknown">
+ <s>God bless him.</s>
+</turn>
+<turn startTime="686.402" speaker="unknown" endTime="690.12" spkrType="unknown">
+ <s><ENAMEX TYPE="ORGANIZATION">Lisa Stark ABC</ENAMEX> news <ENAMEX TYPE="LOCATION">Washington</ENAMEX></s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei252" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei253" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei254" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei255" polarity="NEG" tense="PAST" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei256" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei257" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei258" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei259" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei260" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei261" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei262" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei263" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei264" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei265" tense="PRESENT" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei266" tense="PRESENT" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei267" polarity="NEG" tense="PRESENT" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei268" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei269" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei270" tense="PAST" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei271" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei272" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei273" tense="PAST" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei274" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" modality="could" eiid="ei275" polarity="NEG" tense="PAST" eventID="e235" />
+<MAKEINSTANCE aspect="NONE" eiid="ei276" tense="PAST" eventID="e43" />
+<TLINK relatedToEventInstance="ei273" signalID="s37" eventInstanceID="ei276" relType="AFTER" />
+<TLINK relatedToEventInstance="ei252" timeID="t53" relType="INCLUDES" />
+<TLINK relatedToTime="t52" timeID="t53" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei253" timeID="t54" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei253" eventInstanceID="ei252" relType="AFTER" />
+<TLINK relatedToEventInstance="ei253" eventInstanceID="ei254" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei256" signalID="s11" eventInstanceID="ei255" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei257" eventInstanceID="ei258" relType="AFTER" />
+<TLINK relatedToEventInstance="ei256" signalID="s59" eventInstanceID="ei259" relType="AFTER" />
+<TLINK relatedToEventInstance="ei262" eventInstanceID="ei261" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei254" eventInstanceID="ei261" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei262" eventInstanceID="ei253" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei259" eventInstanceID="ei263" relType="AFTER" />
+<TLINK relatedToEventInstance="ei265" eventInstanceID="ei266" relType="AFTER" />
+<TLINK relatedToEventInstance="ei263" eventInstanceID="ei267" relType="AFTER" />
+<TLINK relatedToEventInstance="ei267" signalID="s63" eventInstanceID="ei268" relType="AFTER" />
+<TLINK relatedToEventInstance="ei262" eventInstanceID="ei269" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei261" eventInstanceID="ei269" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei270" signalID="s64" eventInstanceID="ei269" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei271" eventInstanceID="ei272" relType="AFTER" />
+<TLINK relatedToEventInstance="ei274" eventInstanceID="ei273" relType="ENDED_BY" />
+<TLINK signalID="s59" relatedToTime="t58" eventInstanceID="ei256" relType="BEGINS" />
+<TLINK signalID="s59" relatedToTime="t58" eventInstanceID="ei259" relType="ENDS" />
+<SLINK subordinatedEventInstance="ei257" eventInstanceID="ei256" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei258" eventInstanceID="ei256" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei260" eventInstanceID="ei259" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei261" eventInstanceID="ei260" relType="EVIDENTIAL" />
+<SLINK signalID="s23" subordinatedEventInstance="ei264" eventInstanceID="ei263" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei271" eventInstanceID="ei270" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei275" eventInstanceID="ei274" relType="FACTIVE" />
+</TimeML>

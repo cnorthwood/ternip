@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0135 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0135. </AN>
+<HL> Norton Net Declined
+@  6% in Third Quarter </HL>
+<DD> <TIMEX3 tid="t49" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> NRT </CO>
+<IN> EARNINGS (ERN)
+INDUSTRIAL EQUIPMENT, MACHINE TOOLS (IND) </IN>
+<DATELINE> WORCESTER, Mass.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Norton Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> net income for <TIMEX3 tid="t50" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t49" >the third quarter</TIMEX3> <EVENT eid="e2" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="PERCENT">6%</NUMEX> <SIGNAL sid="s51" >to</SIGNAL> <EVENT eid="e30" class="STATE" ><NUMEX TYPE="MONEY">$20.6 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">98 cents</NUMEX> a share, <SIGNAL sid="s41" >from</SIGNAL> <EVENT eid="e31" class="STATE" ><NUMEX TYPE="MONEY">$22 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">$1.03</NUMEX> a share.</s> 
+
+   <s>Operating profit for the abrasives, engineering materials and petroleum services concern was <NUMEX TYPE="MONEY">$19.2 million</NUMEX>, or <NUMEX TYPE="MONEY">91 cents</NUMEX> a share, up <NUMEX TYPE="PERCENT">3%</NUMEX> from <NUMEX TYPE="MONEY">$18.7 million</NUMEX>, or <NUMEX TYPE="MONEY">87 cents</NUMEX> a share.</s> 
+
+   <s>The company had a tax credit of <NUMEX TYPE="MONEY">$1.4 million</NUMEX>.</s> 
+<s><SIGNAL sid="s52" >In</SIGNAL> <TIMEX3 tid="t53" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t49" >the year-earlier quarter</TIMEX3>, the tax credit was <EVENT eid="e32" class="STATE" ><NUMEX TYPE="MONEY">$3.3 million</NUMEX></EVENT>.</s> 
+<s>Sales <EVENT eid="e7" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">8%</NUMEX> <SIGNAL sid="s42" >to</SIGNAL> <EVENT eid="e54" class="STATE" ><NUMEX TYPE="MONEY">$368.5 million</NUMEX></EVENT> <SIGNAL sid="s43" >from</SIGNAL> <EVENT eid="e34" class="STATE" ><NUMEX TYPE="MONEY">$340.7 million</NUMEX></EVENT>.</s> 
+
+   <s>Operating profit in the company's abrasives segment <EVENT eid="e8" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">16%</NUMEX> while operating profit in the engineering materials segment <EVENT eid="e11" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">2%</NUMEX>.</s> 
+<s>However, the company's petroleum services segment, while profitable, was <EVENT eid="e13" class="OCCURRENCE" >hurt</EVENT> by high financing costs associated with the company's <EVENT eid="e35" class="OCCURRENCE" >buy-out</EVENT> of a <NUMEX TYPE="PERCENT">50%</NUMEX> stake in <ENAMEX TYPE="ORGANIZATION">Eastman Christensen Co.</ENAMEX> from <ENAMEX TYPE="ORGANIZATION">Texas Eastern Corp.</ENAMEX> <TIMEX3 tid="t55" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-06" anchorTimeID="t49" >last June</TIMEX3>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Norton</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Texas Eastern</ENAMEX> had each held a <NUMEX TYPE="PERCENT">50%</NUMEX> stake in <ENAMEX TYPE="LOCATION">Eastman</ENAMEX> in a joint venture.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Norton</ENAMEX> <EVENT eid="e21" class="REPORTING" >announced</EVENT> <TIMEX3 mod="START" tid="t56" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10" anchorTimeID="t49" >earlier this month</TIMEX3> that it was <EVENT eid="e22" class="I_ACTION" >exploring</EVENT> the possible <EVENT eid="e23" class="OCCURRENCE" >sale</EVENT> of all or part of <ENAMEX TYPE="ORGANIZATION">Eastman Christensen</ENAMEX>.</s> 
+
+   <s><SIGNAL sid="s44" >For</SIGNAL> <TIMEX3 tid="t57" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P9M" >the <CARDINAL>nine</CARDINAL> months</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Norton</ENAMEX> had <EVENT eid="e37" class="STATE" >net</EVENT> of <NUMEX TYPE="MONEY">$81.2 million</NUMEX>, or <NUMEX TYPE="MONEY">$3.87</NUMEX> a share, and a tax <EVENT eid="e38" class="STATE" >credit</EVENT> of <NUMEX TYPE="MONEY">$4.4 million</NUMEX>.</s> 
+<s><SIGNAL sid="s46" >In</SIGNAL> <TIMEX3 tid="t60" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P9M" >the year-earlier period</TIMEX3>, the company had <EVENT eid="e26" class="OCCURRENCE" >net</EVENT> of <NUMEX TYPE="MONEY">$77.2 million</NUMEX>, or <NUMEX TYPE="MONEY">$3.68</NUMEX> a share, and a tax <EVENT eid="e27" class="OCCURRENCE" >credit</EVENT> of <NUMEX TYPE="MONEY">$7.7 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Norton</ENAMEX> had operating profit of <NUMEX TYPE="MONEY">$76.8 million</NUMEX>, or <NUMEX TYPE="MONEY">$3.66</NUMEX> a share, up <NUMEX TYPE="PERCENT">11%</NUMEX> from <NUMEX TYPE="MONEY">$69.5 million</NUMEX>, or <NUMEX TYPE="MONEY">$3.31</NUMEX> a share.</s> 
+
+   <s>Sales <EVENT eid="e29" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">8%</NUMEX> <SIGNAL sid="s47" >to</SIGNAL> <EVENT eid="e39" class="STATE" ><NUMEX TYPE="MONEY">$1.15 billion</NUMEX></EVENT> <SIGNAL sid="s48" >from</SIGNAL> <EVENT eid="e40" class="STATE" ><NUMEX TYPE="MONEY">$1.06 billion</NUMEX></EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei195" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei196" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei197" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei198" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei199" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei200" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei201" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei202" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei203" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei204" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei205" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei206" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei207" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei208" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei209" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei210" tense="PAST" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei211" tense="PAST" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei212" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei213" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei214" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei215" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei216" tense="NONE" eventID="e40" />
+<TLINK relatedToEventInstance="ei195" timeID="t49" relType="AFTER" />
+<TLINK relatedToEventInstance="ei198" signalID="s41" timeID="t50" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei197" signalID="s51" timeID="t50" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei196" timeID="t50" relType="DURING" />
+<TLINK relatedToEventInstance="ei198" signalID="s41" eventInstanceID="ei196" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei197" signalID="s51" eventInstanceID="ei196" relType="ENDED_BY" />
+<TLINK signalID="s52" relatedToTime="t53" eventInstanceID="ei199" relType="DURING" />
+<TLINK relatedToEventInstance="ei202" signalID="s43" eventInstanceID="ei200" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei201" signalID="s42" eventInstanceID="ei200" relType="ENDED_BY" />
+<TLINK relatedToTime="t49" eventInstanceID="ei200" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei204" eventInstanceID="ei203" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t55" eventInstanceID="ei206" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei205" eventInstanceID="ei206" relType="BEFORE" />
+<TLINK relatedToTime="t49" eventInstanceID="ei207" relType="BEFORE" />
+<TLINK relatedToTime="t56" eventInstanceID="ei207" relType="IS_INCLUDED" />
+<TLINK signalID="s44" relatedToTime="t57" eventInstanceID="ei210" relType="DURING" />
+<TLINK signalID="s44" relatedToTime="t57" eventInstanceID="ei211" relType="DURING" />
+<TLINK signalID="s46" relatedToTime="t60" eventInstanceID="ei212" relType="DURING" />
+<TLINK signalID="s46" relatedToTime="t60" eventInstanceID="ei213" relType="DURING" />
+<TLINK relatedToEventInstance="ei216" signalID="s48" eventInstanceID="ei214" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei215" signalID="s47" eventInstanceID="ei214" relType="ENDED_BY" />
+<SLINK subordinatedEventInstance="ei196" eventInstanceID="ei195" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei208" eventInstanceID="ei207" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei209" eventInstanceID="ei208" relType="MODAL" />
+</TimeML>

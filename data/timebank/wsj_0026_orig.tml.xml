@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0167 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0167. </AN>
+<HL> Duty-Free Status Cleared
+@  For Certain Watch Imports </HL>
+<DD> <TIMEX3 tid="t36" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<IN> MONETARY NEWS, FOREIGN EXCHANGE, TRADE (MON) </IN>
+<GV> EXECUTIVE (EXE) </GV>
+<DATELINE> WASHINGTON  </DATELINE>
+<TEXT>
+   <s>The <ENAMEX TYPE="ORGANIZATION">White House</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">President Bush</ENAMEX>  has <EVENT eid="e2" class="I_ACTION" >approved</EVENT> duty-free <EVENT eid="e25" class="STATE" >treatment</EVENT> for imports of certain types of watches that are n't <EVENT eid="e3" class="OCCURRENCE" >produced</EVENT> in "significant quantities" in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX>, the <ENAMEX TYPE="LOCATION">Virgin Islands</ENAMEX> and other <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> possessions.</s> 
+
+   <s>The <EVENT eid="e26" class="OCCURRENCE" >action</EVENT> <EVENT eid="e5" class="OCCURRENCE" >came</EVENT> in response to a petition <EVENT eid="e6" class="OCCURRENCE" >filed</EVENT> by <ENAMEX TYPE="ORGANIZATION">Timex Inc.</ENAMEX> for changes in the <ENAMEX TYPE="ORGANIZATION">U.S. Generalized System</ENAMEX> of Preferences for imports from developing nations.</s> 
+<s><SIGNAL sid="s28" >Previously</SIGNAL> , watch imports  were <EVENT eid="e10" class="I_ACTION" >denied</EVENT> such duty-free <EVENT eid="e29" class="STATE" >treatment</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Timex</ENAMEX>  had <EVENT eid="e11" class="OCCURRENCE" >requested</EVENT> duty-free treatment for many types of watches, covered by <CARDINAL>58</CARDINAL> different <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> tariff classifications.</s> 
+<s>The <ENAMEX TYPE="ORGANIZATION">White House</ENAMEX> <EVENT eid="e13" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Mr. Bush</ENAMEX> <EVENT eid="e14" class="I_ACTION" >decided</EVENT>  <SIGNAL sid="s30" >to</SIGNAL> <EVENT eid="e15" class="OCCURRENCE" >grant</EVENT> duty-free status for <CARDINAL>18</CARDINAL> categories, but <EVENT eid="e16" class="I_ACTION" >turned</EVENT> down such <EVENT eid="e31" class="STATE" >treatment</EVENT> for other types of watches "because of the potential for material injury  to watch producers located in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> and the <ENAMEX TYPE="LOCATION">Virgin Islands</ENAMEX>."</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Timex</ENAMEX> is a major <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> <EVENT eid="e32" class="STATE" >producer</EVENT> and <EVENT eid="e33" class="STATE" >seller</EVENT> of watches, including low-priced battery-operated watches assembled in the <ENAMEX TYPE="LOCATION">Philippines</ENAMEX> and other developing nations covered by the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> tariff preferences.</s> 
+
+   <s>U.S. trade officials <EVENT eid="e22" class="REPORTING" >said</EVENT> the <ENAMEX TYPE="LOCATION">Philippines</ENAMEX> and <ENAMEX TYPE="LOCATION">Thailand</ENAMEX> would be the main <EVENT eid="e123" class="STATE" >beneficiaries</EVENT> of the president's <EVENT eid="e34" class="OCCURRENCE" >action</EVENT>.</s> 
+
+   <s>Imports of the types of watches that <TIMEX3 tid="t38" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t36" >now</TIMEX3> will be <EVENT eid="e39" class="STATE" >eligible</EVENT> for duty-free treatment <EVENT eid="e23" class="I_ACTION" >totaled</EVENT> about <NUMEX TYPE="MONEY">$37.3 million</NUMEX> in <TIMEX3 tid="t37" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988" >1988</TIMEX3>, a relatively small share of the <NUMEX TYPE="MONEY">$1.5 billion</NUMEX> in <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> watch imports that year, <EVENT eid="e40" class="REPORTING" >according</EVENT> to an aide to <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">U.S. Trade</ENAMEX> Representative Carla Hills</ENAMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1989" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1990" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" polarity="NEG" tense="PRESENT" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1995" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1998" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PRESENT" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="NONE" eventID="e123" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="FUTURE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e40" />
+<TLINK relatedToTime="t36" eventInstanceID="ei2005" relType="DURING" />
+<TLINK relatedToEventInstance="ei1989" timeID="t36" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1993" eventInstanceID="ei2008" relType="IDENTITY" />
+<TLINK relatedToTime="t36" eventInstanceID="ei2004" relType="DURING" />
+<TLINK relatedToTime="t36" eventInstanceID="ei1999" relType="BEFORE" />
+<TLINK relatedToTime="t36" eventInstanceID="ei1992" relType="DURING" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1993" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1994" eventInstanceID="ei1993" relType="BEGUN_BY" />
+<TLINK relatedToTime="t38" eventInstanceID="ei2009" relType="DURING" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1994" relType="AFTER" />
+<TLINK relatedToTime="t36" eventInstanceID="ei2006" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1993" signalID="s28" eventInstanceID="ei1996" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2008" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1998" relType="BEFORE" />
+<TLINK relatedToTime="t37" eventInstanceID="ei2010" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei1990" eventInstanceID="ei1989" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2007" eventInstanceID="ei2006" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2003" eventInstanceID="ei2002" relType="COUNTER_FACTIVE" />
+<SLINK signalID="s30" subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2010" eventInstanceID="ei2011" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1997" eventInstanceID="ei1996" relType="COUNTER_FACTIVE" />
+</TimeML>

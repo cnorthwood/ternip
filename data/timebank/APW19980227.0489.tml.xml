@@ -1,0 +1,124 @@
+<?xml version="1.0" ?><TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> APW19980227.0489 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t40" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-02-27" >02/27/1998</TIMEX3> 08:13:00 </DATE_TIME>
+<HEADER>
+w2394 Cx1f wstm-
+u i Cx13  Cx11  BC-OAU-Rwanda     02-27 0216
+</HEADER>
+<BODY>
+<SLUG> BC-OAU-Rwanda </SLUG>
+<HEADLINE>
+OAU to investigate Rwandan genocide
+</HEADLINE>
+
+<TEXT>
+<s><NG><HEAD><ENAMEX TYPE="LOCATION">ADDIS ABABA</ENAMEX></HEAD></NG>, <NG><HEAD><ENAMEX TYPE="LOCATION">Ethiopia</ENAMEX></HEAD></NG> (<NG><HEAD><ENAMEX TYPE="ORGANIZATION">AP</ENAMEX></HEAD></NG>) <VG-VBG>_</VG-VBG> <NG>The <HEAD><ENAMEX TYPE="ORGANIZATION">Organization of African Unity</ENAMEX></HEAD></NG>
+<EVENT eid="e2" class="OCCURRENCE" ><VG>said</VG></EVENT> <TIMEX3 tid="t41" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-27" anchorTimeID="t40" ><NG><TIMEX TYPE="DATE">Friday</TIMEX></NG></TIMEX3> <NG>it</NG> <VG>would <EVENT eid="e3" class="I_ACTION" >investigate></EVENT></VG> <NG>the Hutu-organized <EVENT eid="e4" class="OCCURRENCE" ><HEAD>genocide</HEAD></EVENT></NG> <PG>of</PG>
+<NG><CARDINAL>more than 500,000</CARDINAL> minority <HEAD>Tutsis</HEAD></NG> <PG>in</PG> <NG><HEAD><ENAMEX TYPE="LOCATION">Rwanda</ENAMEX></HEAD></NG> <TIMEX3 mod="EQUAL_OR_LESS" tid="t42" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1994" anchorTimeID="t40" ><RG>nearly</RG> <NG><TIMEX TYPE="DATE">four years ago</TIMEX></NG></TIMEX3>.</s>
+<s><NG><HEAD>Foreign ministers</HEAD></NG> <PG>of</PG> <NG>member-states <EVENT eid="e5" class="OCCURRENCE" ><HEAD>meeting</HEAD></EVENT></NG> <PG>in</PG> <NG>the Ethiopian
+<HEAD>capital</HEAD></NG> <EVENT eid="e6" class="I_ACTION" ><VG>agreed</VG></EVENT> <VG-INF><SIGNAL sid="s46" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >set</EVENT> up</VG-INF> <NG>a seven-member <HEAD>panel</HEAD></NG> <VG-INF><SIGNAL sid="s47" >to</SIGNAL> <EVENT eid="e8" class="I_ACTION" >investigate</EVENT></VG-INF> who
+<VG><EVENT eid="e9" class="OCCURRENCE" >shot</EVENT> down</VG> <NG><HEAD><ENAMEX TYPE="PERSON">Rwandan President Juvenal Habyarimana</ENAMEX></HEAD></NG>'s <NG><HEAD>plane</HEAD></NG> <SIGNAL sid="s48" ><PG>on</PG></SIGNAL> <TIMEX3 tid="t43" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1994-04-06" ><NG><TIMEX TYPE="DATE">April 6,
+1994</TIMEX></NG></TIMEX3>.</s>
+<s><NG>The <EVENT eid="e10" class="OCCURRENCE" ><HEAD>assassination</HEAD></EVENT></NG> <VG><EVENT eid="e11" class="I_ACTION" >touched</EVENT> off</VG> <NG>a murderous <HEAD><EVENT eid="e12" class="OCCURRENCE" >rampage</EVENT></HEAD></NG> <PG>by</PG> <NG>Hutu
+security <HEAD>forces</HEAD></NG> and <NG><HEAD>civilians</HEAD></NG>, who <VG-VBN><EVENT eid="e14" class="OCCURRENCE" >slaughtered</EVENT> mainly</VG-VBN> <NG><HEAD>Tutsis</HEAD></NG> but
+<NG>also <HEAD>Hutus</HEAD></NG> who <EVENT eid="e15" class="I_STATE" ><VG>favored</VG></EVENT> <EVENT eid="e16" class="OCCURRENCE" ><NG><HEAD>reconciliation</HEAD></NG></EVENT> <PG>with</PG> <NG>the <HEAD>minority</HEAD></NG>.</s> <s><NG>It</NG> <VG>also
+<EVENT eid="e17" class="ASPECTUAL" >reignited</EVENT></VG> <NG>the civil <EVENT eid="e18" class="OCCURRENCE" ><HEAD>war</HEAD></EVENT></NG>.</s>
+<s><NG>The <HEAD>panel</HEAD></NG> <VG>also will <EVENT eid="e19" class="I_ACTION" >look</EVENT></VG> <PG>at</PG> <NG>the <EVENT eid="e20" class="OCCURRENCE" ><HEAD>exodus</HEAD></EVENT></NG> <PG>of</PG> <NG><CARDINAL>about 2 million</CARDINAL> <HEAD>Rwanda
+Hutus</HEAD></NG> <PG>to</PG> <VG-VBG>neighboring</VG-VBG> <NG><HEAD>countries</HEAD></NG> where <NG>they</NG> <EVENT eid="e22" class="STATE" ><VG>lived</VG></EVENT> <PG>in</PG> <NG><ENAMEX TYPE="LOCATION">U.N.-run</ENAMEX> refugee
+<HEAD>camps</HEAD></NG> <SIGNAL sid="s49" ><PG>for</PG></SIGNAL> <TIMEX3 tid="t44" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P2Y6M" ><CARDINAL>2</CARDINAL> <NG><CARDINAL>1/2</CARDINAL> <HEAD>years</HEAD></NG></TIMEX3>.</s>
+<s><NG>The <EVENT eid="e24" class="OCCURRENCE" ><HEAD>investigation</HEAD></EVENT></NG> <VG>will <EVENT eid="e25" class="I_ACTION" >consider</EVENT></VG> <NG>the <EVENT eid="e26" class="STATE" ><HEAD>role</HEAD></EVENT></NG> <PG>of</PG> ``<NG>internal and
+external <HEAD>forces</HEAD></NG> <SIGNAL sid="s51" ><PG>prior to</PG></SIGNAL> <NG>the <EVENT eid="e27" class="OCCURRENCE" ><HEAD>genocide</HEAD></EVENT></NG> and <SIGNAL sid="s52" ><RG>subsequently</RG></SIGNAL>, and <NG>the
+<EVENT eid="e28" class="STATE" ><HEAD>role</HEAD></EVENT></NG> <PG>of</PG> <NG>the <HEAD><ENAMEX TYPE="ORGANIZATION">United Nations</ENAMEX></HEAD></NG> and <NG>its <HEAD>agencies</HEAD></NG> and <NG>the <HEAD><ENAMEX TYPE="ORGANIZATION">OAU</ENAMEX></HEAD></NG> <SIGNAL sid="s53" ><RG>before</RG>,
+<PG>during</PG> and <PG>after</PG></SIGNAL> <NG>the <EVENT eid="e29" class="OCCURRENCE" ><HEAD>genocide</HEAD></EVENT></NG>,'' <NG>the <HEAD><ENAMEX TYPE="ORGANIZATION">OAU</ENAMEX></HEAD></NG> <EVENT eid="e30" class="REPORTING" ><VG>said</VG></EVENT>.</s>
+<s><NG>The <HEAD>panel</HEAD></NG> <VG>will be <EVENT eid="e31" class="STATE" >based</EVENT></VG> <PG>in</PG> <NG><HEAD><ENAMEX TYPE="LOCATION">Addis Ababa</ENAMEX></HEAD></NG>, and <VG>will <EVENT eid="e32" class="ASPECTUAL" >finish</EVENT></VG> <NG>its
+<EVENT eid="e33" class="OCCURRENCE" ><HEAD>investigation</HEAD></EVENT></NG> <SIGNAL sid="s54" ><PG>within</PG></SIGNAL> <TIMEX3 mod="EQUAL_OR_LESS" tid="t45" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" ><NG>a <HEAD>year</HEAD></NG></TIMEX3>, <NG>it</NG> <EVENT eid="e34" class="REPORTING" ><VG>said</VG></EVENT>.</s> <s><NG>It</NG> <VG>is</VG> <VG-INF>to be <EVENT eid="e35" class="STATE" >funded</EVENT></VG-INF> <PG>by</PG>
+<NG>voluntary <EVENT eid="e36" class="OCCURRENCE" ><HEAD>contributions</HEAD></EVENT></NG> from <PG>within</PG> and <PG>outside</PG> <NG>the <HEAD>continent</HEAD></NG>.</s>
+<s>(<NG><HEAD>aa-kjd</HEAD></NG>)</s>
+</TEXT>
+(PROFILE
+(WS SL:BC-OAU-Rwanda; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(REG:AFRI;)
+(LANG:ENGLISH;))
+)
+</BODY>
+<TRAILER>
+<s><NG>AP-NY-02-27-98</NG> <NG><TIMEX TYPE="TIME">0813EST</TIMEX></NG></s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2055" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2056" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2057" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2058" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2059" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2060" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2061" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2062" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2063" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2064" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2065" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2066" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2067" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2068" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2069" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2070" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2071" tense="FUTURE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2072" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2073" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2074" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2075" tense="FUTURE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2076" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2077" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2078" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2079" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2080" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2081" tense="FUTURE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2082" tense="FUTURE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2083" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2084" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2085" tense="FUTURE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2086" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2087" tense="NONE" eventID="e26" />
+<TLINK eventInstanceID="ei2055" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2058" eventInstanceID="ei2057" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2055" eventInstanceID="ei2058" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2059" eventInstanceID="ei2058" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2063" signalID="s48" eventInstanceID="ei2062" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2063" eventInstanceID="ei2062" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2064" eventInstanceID="ei2063" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2065" eventInstanceID="ei2064" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2066" eventInstanceID="ei2065" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2065" eventInstanceID="ei2067" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2069" eventInstanceID="ei2063" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2070" eventInstanceID="ei2069" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2073" eventInstanceID="ei2072" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2074" signalID="s49" eventInstanceID="ei2073" relType="DURING" />
+<TLINK relatedToEventInstance="ei2061" eventInstanceID="ei2074" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2071" eventInstanceID="ei2074" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2075" eventInstanceID="ei2074" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2077" signalID="s51" eventInstanceID="ei2076" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2077" signalID="s52" eventInstanceID="ei2087" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2079" signalID="s53" eventInstanceID="ei2078" relType="INCLUDES" />
+<TLINK relatedToTime="t40" eventInstanceID="ei2081" relType="AFTER" />
+<TLINK relatedToTime="t40" eventInstanceID="ei2082" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2084" signalID="s54" eventInstanceID="ei2083" relType="DURING" />
+<TLINK relatedToEventInstance="ei2074" eventInstanceID="ei2083" relType="IDENTITY" />
+<TLINK relatedToTime="t40" eventInstanceID="ei2085" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2086" eventInstanceID="ei2085" relType="INCLUDES" />
+<SLINK subordinatedEventInstance="ei2056" eventInstanceID="ei2055" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2057" eventInstanceID="ei2056" relType="FACTIVE" />
+<SLINK signalID="s46" subordinatedEventInstance="ei2060" eventInstanceID="ei2059" relType="MODAL" />
+<SLINK signalID="s47" subordinatedEventInstance="ei2061" eventInstanceID="ei2060" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2062" eventInstanceID="ei2061" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2068" eventInstanceID="ei2067" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2072" eventInstanceID="ei2071" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2076" eventInstanceID="ei2075" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2075" eventInstanceID="ei2080" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2081" eventInstanceID="ei2084" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2083" eventInstanceID="ei2084" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2083" eventInstanceID="ei2082" relType="CULMINATES" />
+</TimeML>

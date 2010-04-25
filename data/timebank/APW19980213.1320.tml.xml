@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> APW19980213.1320 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t41" type="TIME" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-02-13T14:35:00" >02/13/1998 14:35:00</TIMEX3> </DATE_TIME>
+<HEADER>
+w2122 Cx1f wstm-
+r f Cx13  Cx11  BC-Australia-India-Qanta     02-13 0223
+</HEADER>
+<BODY>
+<SLUG> BC-Australia-India-Qantas,0225 </SLUG>
+<HEADLINE>
+Qantas to run daily flights between Australia and India
+</HEADLINE>
+
+<TEXT>
+<s><ENAMEX TYPE="LOCATION">CANBERRA</ENAMEX>, <ENAMEX TYPE="LOCATION">Australia</ENAMEX> (<ENAMEX TYPE="ORGANIZATION">AP</ENAMEX>) <ENAMEX TYPE="ORGANIZATION">_ Qantas</ENAMEX>  will  almost <EVENT eid="e1" class="OCCURRENCE" >double</EVENT> its flights
+between <ENAMEX TYPE="LOCATION">Australia</ENAMEX> and <ENAMEX TYPE="LOCATION">India</ENAMEX> <SIGNAL sid="s57" >by</SIGNAL> <TIMEX3 tid="t43" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-08" anchorTimeID="t41" >August</TIMEX3> in the <EVENT eid="e2" class="OCCURRENCE" >search</EVENT> for new markets
+<EVENT eid="e27" class="STATE" >untouched</EVENT> by the crippling Asian financial <EVENT eid="e26" class="OCCURRENCE" >crisis</EVENT>.</s>
+<s>This <EVENT eid="e28" class="OCCURRENCE" >move</EVENT> comes barely <TIMEX3 tid="t44" temporalFunction="false" type="DURATION" functionInDocument="NONE" value="P1M" >a month</TIMEX3> <SIGNAL sid="s58" >after</SIGNAL> <ENAMEX TYPE="ORGANIZATION">Qantas</ENAMEX> <EVENT eid="e5" class="ASPECTUAL" >suspended</EVENT> a number
+of <EVENT eid="e29" class="STATE" >services</EVENT> between <ENAMEX TYPE="LOCATION">Australia</ENAMEX>, <ENAMEX TYPE="LOCATION">Indonesia</ENAMEX>, <ENAMEX TYPE="LOCATION">Thailand</ENAMEX> and <ENAMEX TYPE="LOCATION">Malaysia</ENAMEX> <SIGNAL sid="s59" >in
+the wake of</SIGNAL> the Asian economic <EVENT eid="e30" class="OCCURRENCE" >crisis</EVENT>.</s>
+<s>The airline  has  also <EVENT eid="e7" class="ASPECTUAL" >cut</EVENT> all <EVENT eid="e31" class="OCCURRENCE" >flights</EVENT> to <ENAMEX TYPE="LOCATION">South Korea</ENAMEX>.</s>
+<s>Qantas <EVENT eid="e8" class="I_STATE" >plans</EVENT> daily <EVENT eid="e32" class="OCCURRENCE" >flights</EVENT> between <ENAMEX TYPE="LOCATION">Sydney</ENAMEX> and <ENAMEX TYPE="LOCATION">Bombay</ENAMEX>, up from
+the <TIMEX3 tid="t46" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t41" >current</TIMEX3> <CARDINAL>four</CARDINAL> <EVENT eid="e33" class="OCCURRENCE" >flights</EVENT> a week,  <SIGNAL sid="s60" >to</SIGNAL> <EVENT eid="e9" class="I_ACTION" >boost</EVENT> business and tourism <EVENT eid="e34" class="STATE" >ties</EVENT>
+with <ENAMEX TYPE="LOCATION">India</ENAMEX>, the airline <EVENT eid="e10" class="REPORTING" >announced</EVENT> <TIMEX3 tid="t47" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-13" anchorTimeID="t41" >Friday</TIMEX3>.</s>
+<s>In a joint <EVENT eid="e35" class="OCCURRENCE" >statement</EVENT> with <ENAMEX TYPE="PERSON">Tourism Minister Andrew Thomson</ENAMEX>, it
+<EVENT eid="e11" class="REPORTING" >said</EVENT> <CARDINAL>two</CARDINAL> new <EVENT eid="e229" class="OCCURRENCE" >flights</EVENT> would <EVENT eid="e12" class="OCCURRENCE" >leave</EVENT> <ENAMEX TYPE="LOCATION">Bombay</ENAMEX> <SIGNAL sid="s63" >on</SIGNAL> <TIMEX3 tid="t190" type="SET" temporalFunction="true" anchorTimeID="t189" functionInDocument="NONE" quant="" freq="P7D" value="XXXX-WXX-1TNI" >Monday</TIMEX3> and <TIMEX3 tid="t189" type="SET" quant="" freq="P7D" temporalFunction="false" functionInDocument="NONE" value="XXXX-WXX-2TNI" >Tuesday
+nights</TIMEX3> <SIGNAL sid="s64" >from</SIGNAL> <TIMEX3 tid="t56" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-03-30" anchorTimeID="t41" >March 30</TIMEX3>, with the third <EVENT eid="e65" class="OCCURRENCE" >departing</EVENT> <TIMEX3 tid="t54" type="SET" temporalFunction="false" freq="P1W" quant="each" functionInDocument="NONE" value="XXXX-WXX-4" >each Thursday</TIMEX3> <SIGNAL sid="s256" >from</SIGNAL>
+<TIMEX3 tid="t55" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-08-06" anchorTimeID="t41" >August 6</TIMEX3>.</s>
+<s>This  will <EVENT eid="e14" class="OCCURRENCE" >add</EVENT> nearly <CARDINAL>700</CARDINAL> seats a week on the route.</s>
+<s><ENAMEX TYPE="PERSON">Thomson</ENAMEX>, in <EVENT eid="e36" class="STATE" ><ENAMEX TYPE="LOCATION">India</ENAMEX></EVENT>  <SIGNAL sid="s67" >to</SIGNAL> <EVENT eid="e16" class="OCCURRENCE" >talk</EVENT> to tourism leaders, <EVENT eid="e17" class="REPORTING" >said</EVENT> the flights
+would <EVENT eid="e18" class="I_STATE" >provide</EVENT> extra <EVENT eid="e37" class="STATE" >support</EVENT> to the growing tourism market.</s>
+<s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Qantas</ENAMEX>' <ENAMEX TYPE="LOCATION">India</ENAMEX> manager Khursheed Lam</ENAMEX> <EVENT eid="e20" class="REPORTING" >said</EVENT> the airline  was <EVENT eid="e21" class="OCCURRENCE" >working</EVENT> closely with the <ENAMEX TYPE="ORGANIZATION">Australian Tourist Commission</ENAMEX>  <SIGNAL sid="s68" >to</SIGNAL> <EVENT eid="e22" class="I_ACTION" >develop</EVENT> greater
+<EVENT eid="e38" class="STATE" >awareness</EVENT> of <ENAMEX TYPE="LOCATION">Australia</ENAMEX> in the Indian market.</s>
+<s><ENAMEX TYPE="ORGANIZATION">Qantas</ENAMEX>  will  also <EVENT eid="e25" class="I_ACTION" >appoint</EVENT> a <ENAMEX TYPE="LOCATION">Bombay</ENAMEX>-based public relations
+<EVENT eid="e39" class="STATE" >consultant</EVENT>.</s>
+</TEXT>
+(PROFILE
+(WS SL:BC-Australia-India-Qantas; CT:f;
+(REG:MEST;)
+(REG:INDI;)
+(REG:ENGL;)
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(LANG:ENGLISH;))
+)
+</BODY>
+<TRAILER>
+<s>AP-NY-02-13-98 1435EST</s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei321" tense="FUTURE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei322" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei323" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei324" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei325" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei326" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei327" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei328" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei329" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei330" cardinality="EVERY" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei331" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei332" cardinality="7" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei333" cardinality="4" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei334" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei335" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei336" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei337" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei338" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei339" tense="NONE" eventID="e229" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei340" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei341" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei342" tense="FUTURE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei343" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei344" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei345" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei346" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei347" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei348" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei349" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei350" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei351" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei352" tense="FUTURE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei353" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei354" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei355" tense="NONE" eventID="e229" />
+<TLINK signalID="s57" relatedToTime="t43" eventInstanceID="ei321" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei324" eventInstanceID="ei323" relType="BEGUN_BY" />
+<TLINK relatedToTime="t41" eventInstanceID="ei324" relType="AFTER" />
+<TLINK relatedToEventInstance="ei321" eventInstanceID="ei325" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei326" signalID="s58" eventInstanceID="ei325" relType="AFTER" />
+<TLINK relatedToEventInstance="ei328" signalID="s59" eventInstanceID="ei326" relType="AFTER" />
+<TLINK relatedToEventInstance="ei326" eventInstanceID="ei329" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei333" timeID="t46" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei333" eventInstanceID="ei332" relType="INCLUDES" />
+<TLINK relatedToTime="t47" eventInstanceID="ei336" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei336" eventInstanceID="ei337" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei338" eventInstanceID="ei337" relType="INCLUDES" />
+<TLINK signalID="s63" relatedToTime="t191" eventInstanceID="ei340" relType="IS_INCLUDED" />
+<TLINK signalID="s63" relatedToTime="t191" eventInstanceID="ei354" relType="IS_INCLUDED" />
+<TLINK signalID="s64" relatedToTime="t56" eventInstanceID="ei340" relType="BEGUN_BY" />
+<TLINK signalID="s64" relatedToTime="t56" eventInstanceID="ei354" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei332" eventInstanceID="ei339" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei332" eventInstanceID="ei355" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei354" eventInstanceID="ei339" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei354" eventInstanceID="ei339" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei332" eventInstanceID="ei341" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t54" eventInstanceID="ei341" relType="IS_INCLUDED" />
+<TLINK signalID="s256" relatedToTime="t55" eventInstanceID="ei341" relType="BEGUN_BY" />
+<TLINK relatedToTime="t41" eventInstanceID="ei342" relType="AFTER" />
+<TLINK relatedToTime="t41" eventInstanceID="ei343" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei345" eventInstanceID="ei343" relType="INCLUDES" />
+<TLINK relatedToTime="t41" eventInstanceID="ei348" relType="BEFORE" />
+<TLINK relatedToTime="t41" eventInstanceID="ei352" relType="AFTER" />
+<TLINK signalID="s58" relatedToTime="t44" eventInstanceID="ei326" relType="BEGINS" />
+<TLINK signalID="s58" relatedToTime="t44" eventInstanceID="ei325" relType="ENDS" />
+<SLINK subordinatedEventInstance="ei353" eventInstanceID="ei352" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei322" eventInstanceID="ei321" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei332" eventInstanceID="ei331" relType="MODAL" />
+<SLINK signalID="s60" subordinatedEventInstance="ei334" eventInstanceID="ei331" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei335" eventInstanceID="ei334" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei331" eventInstanceID="ei336" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei340" eventInstanceID="ei338" relType="EVIDENTIAL" />
+<SLINK signalID="s67" subordinatedEventInstance="ei344" eventInstanceID="ei343" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei346" eventInstanceID="ei345" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei347" eventInstanceID="ei346" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei349" eventInstanceID="ei348" relType="EVIDENTIAL" />
+<SLINK signalID="s68" subordinatedEventInstance="ei350" eventInstanceID="ei349" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei351" eventInstanceID="ei350" relType="MODAL" />
+<ALINK relatedToEventInstance="ei327" eventInstanceID="ei326" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei330" eventInstanceID="ei329" relType="TERMINATES" />
+</TimeML>

@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891101-0020 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0020. </AN>
+<HL> Publishing Firm Hires
+@  Financial Adviser
+@  To Weigh Alternatives </HL>
+<DD> <TIMEX3 tid="t40" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> PSSP </CO>
+<IN> EARNINGS (ERN)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> LOS ANGELES  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Price Stern Sloan Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" >hired</EVENT> an investment banking firm <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="I_ACTION" >assist</EVENT> in <EVENT eid="e5" class="OCCURRENCE" >evaluating</EVENT> restructuring or merger alternatives and <EVENT eid="e6" class="REPORTING" >reported</EVENT> a net <EVENT eid="e7" class="STATE" >loss</EVENT> of <NUMEX TYPE="MONEY">$8.1 million</NUMEX>, or <NUMEX TYPE="MONEY">$2.14</NUMEX> a share, <SIGNAL sid="s43" >for</SIGNAL> <TIMEX3 tid="t41" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t40" >the third quarter</TIMEX3> <SIGNAL sid="s2025" >ended</SIGNAL> <TIMEX3 tid="t42" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-30" anchorTimeID="t40" >Sept. 30</TIMEX3>.</s> 
+
+   <s>These results compare with net income of <EVENT eid="e44" class="STATE" ><NUMEX TYPE="MONEY">$1.8 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">44 cents</NUMEX> a share, for <TIMEX3 tid="t46" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t41" >the corresponding period last year</TIMEX3>.</s> 
+<s><TIMEX3 tid="t47" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t41" >This quarter</TIMEX3><SIGNAL sid="s2036" >'s</SIGNAL> <EVENT eid="e11" class="STATE" >loss</EVENT> includes pretax <EVENT eid="e13" class="OCCURRENCE" >charges</EVENT> of <NUMEX TYPE="MONEY">$4.9 million</NUMEX> on the proposed discontinuation of the company's troubled British subsidiary, and <NUMEX TYPE="MONEY">$3.7 million</NUMEX> of other write-offs the company <EVENT eid="e17" class="REPORTING" >said</EVENT> were non-recurring and principally related to inventory, publishing advances and pre-publication costs.</s> 
+<s>The publishing concern <EVENT eid="e21" class="REPORTING" >said</EVENT> it <EVENT eid="e22" class="OCCURRENCE" >retained</EVENT> the investment banking firm of <ENAMEX TYPE="LOCATION">Donaldson</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Lufkin amp Jenrette Securities Inc.</ENAMEX> <SIGNAL sid="s48" >to</SIGNAL> <EVENT eid="e23" class="OCCURRENCE" >act</EVENT> as its financial adviser, <EVENT eid="e24" class="I_ACTION" >assisting</EVENT> in the <EVENT eid="e25" class="OCCURRENCE" >evaluation</EVENT> of various financial and strategic alternatives, including debt refinancing, raising capital, recapitalization, a merger or sale of the company.</s> 
+
+   <s>The company also <EVENT eid="e30" class="OCCURRENCE" >retained</EVENT> <ENAMEX TYPE="PERSON">attorney Martin P. Levin</ENAMEX>, a director of the company and former head of the <ENAMEX TYPE="ORGANIZATION">Times-Mirror Publishing Group</ENAMEX>, as an adviser.</s> 
+
+   <s>Net sales for <TIMEX3 tid="t49" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t40" >this year's third quarter</TIMEX3> were <EVENT eid="e50" class="STATE" ><NUMEX TYPE="MONEY">$14 million</NUMEX></EVENT>, down <SIGNAL sid="s52" >from</SIGNAL> <EVENT eid="e51" class="STATE" ><NUMEX TYPE="MONEY">$21.4 million</NUMEX></EVENT> <TIMEX3 tid="t53" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t40" >last year</TIMEX3>.</s> 
+<s>The company <EVENT eid="e31" class="I_ACTION" >attributed</EVENT> the <EVENT eid="e32" class="OCCURRENCE" >decrease</EVENT> in part to the <EVENT eid="e54" class="OCCURRENCE" >exclusion</EVENT> of the company's British sales from the current year's figures as a result of the subsidiary's <EVENT eid="e56" class="STATE" >status</EVENT> as a proposed discontinued operation and, in part, to lower <EVENT eid="e55" class="STATE" >sales</EVENT> in certain key foreign and domestic accounts.</s> 
+<s>U.K. sales <SIGNAL sid="s59" >for</SIGNAL> <TIMEX3 tid="t58" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t41" >last year's quarter</TIMEX3> were <EVENT eid="e57" class="STATE" >about <NUMEX TYPE="MONEY">$3 million</NUMEX></EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2141" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2142" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2143" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2144" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2145" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2146" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2147" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2148" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2149" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2150" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2151" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2152" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2153" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2154" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2155" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2156" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2157" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2158" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2159" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2160" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2161" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2162" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2163" tense="NONE" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2164" tense="NONE" eventID="e57" />
+<TLINK signalID="s59" relatedToTime="t58" eventInstanceID="ei2164" relType="DURING" />
+<TLINK relatedToTime="t40" eventInstanceID="ei2141" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2145" eventInstanceID="ei2141" relType="SIMULTANEOUS" />
+<TLINK signalID="s43" relatedToTime="t41" eventInstanceID="ei2146" relType="DURING" />
+<TLINK signalID="s2025" relatedToTime="t42" eventInstanceID="ei2146" relType="ENDED_BY" />
+<TLINK relatedToTime="t46" eventInstanceID="ei2147" relType="DURING" />
+<TLINK relatedToEventInstance="ei2148" signalID="s2036" timeID="t47" relType="DURING" />
+<TLINK relatedToEventInstance="ei2146" eventInstanceID="ei2148" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2149" eventInstanceID="ei2148" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2148" eventInstanceID="ei2150" relType="INCLUDES" />
+<TLINK relatedToTime="t40" eventInstanceID="ei2151" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2154" eventInstanceID="ei2153" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2152" eventInstanceID="ei2156" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t49" eventInstanceID="ei2157" relType="DURING" />
+<TLINK relatedToEventInstance="ei2158" signalID="s52" timeID="t49" relType="BEGUN_BY" />
+<TLINK relatedToTime="t53" eventInstanceID="ei2158" relType="DURING" />
+<TLINK relatedToEventInstance="ei2158" signalID="s52" eventInstanceID="ei2160" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei2157" eventInstanceID="ei2160" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2160" eventInstanceID="ei2161" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2161" eventInstanceID="ei2162" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2161" eventInstanceID="ei2163" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei2142" eventInstanceID="ei2141" relType="EVIDENTIAL" />
+<SLINK signalID="s3" subordinatedEventInstance="ei2143" eventInstanceID="ei2142" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2144" eventInstanceID="ei2143" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2146" eventInstanceID="ei2145" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2152" eventInstanceID="ei2151" relType="EVIDENTIAL" />
+<SLINK signalID="s48" subordinatedEventInstance="ei2153" eventInstanceID="ei2152" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2155" eventInstanceID="ei2154" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2160" eventInstanceID="ei2159" relType="FACTIVE" />
+</TimeML>

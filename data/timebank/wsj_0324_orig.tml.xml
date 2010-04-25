@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891101-0040 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0040. </AN>
+<HL> Business Brief -- QVC Network Inc.:
+@  Acquisition of CVN Cos.
+@  Is Completed by Company </HL>
+<DD> <TIMEX3 tid="t9" type="DATE" temporalFunction="true" functionInDocument="CREATION_TIME" value="1989-11-01" >11/01/89 </TIMEX3></DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> QVCN CAVN </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDIA, PUBLISHING, BROADCASTING, ELECTRONIC PUBLISHING (MED)
+RETAILING (RET) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">QVC Network Inc.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" >completed</EVENT> its <EVENT eid="e10" class="OCCURRENCE" >acquisition</EVENT> of <ENAMEX TYPE="ORGANIZATION">CVN Cos.</ENAMEX> for about <NUMEX TYPE="MONEY">$423 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">QVC</ENAMEX> <EVENT eid="e3" class="I_ACTION" >agreed</EVENT>  to <EVENT eid="e4" class="OCCURRENCE" >pay</EVENT> <NUMEX TYPE="MONEY">$19</NUMEX> and one-eighth <ENAMEX TYPE="ORGANIZATION">QVC</ENAMEX> share for each of <ENAMEX TYPE="ORGANIZATION">CVN</ENAMEX>'s <CARDINAL>20 million</CARDINAL> fully diluted shares.</s> 
+
+   <s>The <EVENT eid="e11" class="OCCURRENCE" >acquisition</EVENT> <EVENT eid="e5" class="OCCURRENCE" >brings</EVENT> together the <CARDINAL>two</CARDINAL> largest competitors to <ENAMEX TYPE="ORGANIZATION">Home Shopping Network Inc.</ENAMEX>, which <TIMEX3 tid="t49" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989" >now</TIMEX3> <EVENT eid="e59" class="STATE" >reaches</EVENT> more viewers than any other company in the video shopping industry.</s> 
+<s>Among them, <ENAMEX TYPE="ORGANIZATION">Home Shopping</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">QVC</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">CVN</ENAMEX> already <EVENT eid="e12" class="STATE" >control</EVENT> most of that young and fast-growing market, which <TIMEX3 tid="t64" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988" >last year</TIMEX3> <EVENT eid="e13" class="OCCURRENCE" >had</EVENT> <EVENT eid="e14" class="OCCURRENCE" >sales</EVENT> of about <NUMEX TYPE="MONEY">$1.4 billion</NUMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="PRESENT" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e14" />
+<TLINK relatedToTime="t9" eventInstanceID="ei1990" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1992" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1990" timeID="t49" relType="IDENTITY" />
+<TLINK relatedToTime="t49" eventInstanceID="ei1998" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t49" eventInstanceID="ei1997" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1999" timeID="t64" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2000" eventInstanceID="ei1999" relType="IDENTITY" />
+<SLINK subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei1993" eventInstanceID="ei1990" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei1992" eventInstanceID="ei1991" relType="CULMINATES" />
+<ALINK relatedToEventInstance="ei1994" eventInstanceID="ei1993" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei1996" eventInstanceID="ei1995" relType="CULMINATES" />
+</TimeML>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0143 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0143. </AN>
+<HL> Dividend News:
+@  AEP Industries Inc. </HL>
+<DD> <TIMEX3 tid="t17" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> AEPI </CO>
+<IN> DIVIDENDS (DIV) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">AEP INDUSTRIES Inc.</ENAMEX> directors <EVENT eid="e1" class="I_ACTION" >authorized</EVENT> a 3-for-<CARDINAL>2</CARDINAL> <EVENT eid="e2" class="OCCURRENCE" >split</EVENT> of the common, <EVENT eid="e12" class="STATE" >payable</EVENT> <TIMEX3 tid="t18" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-07" anchorTimeID="t17" >Dec. 7</TIMEX3> to stock of <EVENT eid="e3" class="STATE" >record</EVENT> <TIMEX3 tid="t19" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-22" anchorTimeID="t17" >Nov. 22</TIMEX3>.</s> 
+<s>The <EVENT eid="e4" class="OCCURRENCE" >split</EVENT> was <EVENT eid="e5" class="I_STATE" >aimed</EVENT> at <EVENT eid="e7" class="I_ACTION" >boosting</EVENT> the stock's <EVENT eid="e13" class="STATE" >liquidity</EVENT>, <EVENT eid="e8" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Brendan Barba, chairman of the <ENAMEX TYPE="LOCATION">Moonachie</ENAMEX></ENAMEX>, <ENAMEX TYPE="LOCATION">N.J.</ENAMEX>, maker of plastic film products.</s> 
+<s><SIGNAL sid="s16" >After</SIGNAL> the <EVENT eid="e9" class="OCCURRENCE" >split</EVENT>, the company will <EVENT eid="e14" class="STATE" >have</EVENT> <CARDINAL>more than 4.7 million</CARDINAL> shares outstanding.</s> 
+<s>In national over-the-counter <EVENT eid="e10" class="OCCURRENCE" >trading</EVENT> <TIMEX3 tid="t20" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t17" >yesterday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">AEP</ENAMEX> shares <EVENT eid="e11" class="OCCURRENCE" >closed</EVENT> <EVENT eid="e15" class="STATE" >at <NUMEX TYPE="MONEY">$21.25</NUMEX></EVENT>, down <NUMEX TYPE="MONEY">50 cents</NUMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei95" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei96" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei97" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei98" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei99" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei100" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei101" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei102" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei103" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei104" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei105" tense="FUTURE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei106" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei107" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei108" tense="NONE" eventID="e15" />
+<TLINK relatedToTime="t17" eventInstanceID="ei95" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei99" eventInstanceID="ei96" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei104" eventInstanceID="ei99" relType="IDENTITY" />
+<TLINK relatedToTime="t17" eventInstanceID="ei106" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei96" eventInstanceID="ei97" relType="BEFORE" />
+<TLINK relatedToTime="t18" eventInstanceID="ei97" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei96" eventInstanceID="ei98" relType="AFTER" />
+<TLINK relatedToTime="t19" eventInstanceID="ei98" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei100" eventInstanceID="ei99" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei108" eventInstanceID="ei107" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei107" eventInstanceID="ei106" relType="ENDED_BY" />
+<TLINK relatedToTime="t20" eventInstanceID="ei106" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei104" signalID="s16" eventInstanceID="ei105" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei96" eventInstanceID="ei95" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei101" eventInstanceID="ei100" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei100" eventInstanceID="ei103" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei102" eventInstanceID="ei101" relType="MODAL" />
+</TimeML>

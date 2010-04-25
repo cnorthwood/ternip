@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> ed<TIMEX3 tid="t14" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-01-11" >980111</TIMEX3>.1130.0089 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="CNN_Headline_News" air_date="">
+<section startTime="89.143" type="report" endTime="169.690">
+<TEXT>
+<turn startTime="89.143" speaker="Sachi_Koto" endTime="125.580" spkrtype="female">
+ <s>The lights are <EVENT eid="e21" class="STATE" >out</EVENT> and the heat is <EVENT eid="e22" class="STATE" >off</EVENT> and those vital signs are <SIGNAL sid="s24" >not</SIGNAL> <EVENT eid="e25" class="STATE" >likely</EVENT>  to <EVENT eid="e1" class="OCCURRENCE" >change</EVENT> much <SIGNAL sid="s26" >over</SIGNAL> <TIMEX3 tid="t15" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PXD" anchorTimeID="t14" >the next several days</TIMEX3> for p- people in parts of the <ENAMEX TYPE="LOCATION">northeastern US</ENAMEX> and <ENAMEX TYPE="LOCATION">eastern Canada</ENAMEX>.</s> 
+<turn sec="99.933">
+ <s>A powerful ice storm <EVENT eid="e2" class="ASPECTUAL" >continues</EVENT>  to <EVENT eid="e3" class="STATE" >maintain</EVENT> its <EVENT eid="e27" class="STATE" >grip</EVENT>.</s>
+<turn sec="103.294">
+ <s><TIMEX3 tid="t16" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-01-10" anchorTimeID="t14" >Yesterday</TIMEX3> <ENAMEX TYPE="PERSON"><ENAMEX TYPE="LOCATION">New York</ENAMEX> governor George Pataki</ENAMEX> <EVENT eid="e4" class="OCCURRENCE" >toured</EVENT> <CARDINAL>five</CARDINAL> counties that  have  been <EVENT eid="e5" class="ASPECTUAL" >declared</EVENT> <SIGNAL sid="s28" >under</SIGNAL> a <EVENT eid="e29" class="STATE" >state of emergency</EVENT>.</s> <s>He <EVENT eid="e6" class="ASPECTUAL" >added</EVENT> one more <TIMEX3 tid="t17" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-01-11" anchorTimeID="t14" >today</TIMEX3>.</s>
+<turn sec="111.361">
+ <s>Helicopters  are <EVENT eid="e7" class="OCCURRENCE" >flying</EVENT> over <ENAMEX TYPE="LOCATION">northern New York</ENAMEX> <TIMEX3 tid="t18" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-01-11" anchorTimeID="t14" >today</TIMEX3> <EVENT eid="e8" class="I_ACTION" >trying</EVENT>  to <EVENT eid="e9" class="OCCURRENCE" >locate</EVENT> people <EVENT eid="e10" class="OCCURRENCE" >stranded</EVENT> without food, heat or medicine.</s>
+<turn sec="118.286">
+ <s>In <ENAMEX TYPE="LOCATION">Maine</ENAMEX>, about a half million people <SIGNAL sid="s31" >still</SIGNAL> do<SIGNAL sid="s30" >n't</SIGNAL> <EVENT eid="e32" class="STATE" >have</EVENT> <EVENT eid="e33" class="STATE" >power</EVENT> and they 're going to <SIGNAL sid="s123" >have  to</SIGNAL> <EVENT eid="e12" class="STATE" >live</EVENT> without it <SIGNAL sid="s36" >for</SIGNAL> <TIMEX3 tid="t20" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PXD" anchorTimeID="t14" >a while</TIMEX3>.</s>
+</turn></turn></turn></turn></turn></TEXT></section></bn_episode_trans></BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei152" tense="PRESENT" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei153" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei154" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei155" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei156" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei157" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei158" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei159" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei160" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei163" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei164" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei165" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei166" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei167" tense="PRESENT" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei168" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei169" tense="FUTURE" eventID="e12" />
+<TLINK relatedToTime="t14" eventInstanceID="ei167" relType="IS_INCLUDED" />
+<TLINK signalID="s36" relatedToTime="t20" eventInstanceID="ei169" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t14" eventInstanceID="ei169" relType="AFTER" />
+<TLINK relatedToEventInstance="ei166" eventInstanceID="ei165" relType="AFTER" />
+<TLINK relatedToEventInstance="ei159" timeID="t16" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei158" eventInstanceID="ei157" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei164" eventInstanceID="ei163" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t18" eventInstanceID="ei163" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t14" eventInstanceID="ei163" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t14" timeID="t17" relType="IDENTITY" />
+<TLINK relatedToTime="t14" eventInstanceID="ei152" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t14" eventInstanceID="ei153" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t14" eventInstanceID="ei160" relType="BEFORE" />
+<TLINK relatedToTime="t14" timeID="t16" relType="BEFORE" />
+<TLINK relatedToTime="t14" eventInstanceID="ei154" relType="IS_INCLUDED" />
+<TLINK signalID="s26" relatedToTime="t15" eventInstanceID="ei155" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t14" eventInstanceID="ei156" relType="IS_INCLUDED" />
+<SLINK signalID="s30" subordinatedEventInstance="ei168" eventInstanceID="ei167" relType="NEGATIVE" />
+<SLINK subordinatedEventInstance="ei165" eventInstanceID="ei164" relType="MODAL" />
+<SLINK signalID="s24" subordinatedEventInstance="ei155" eventInstanceID="ei154" relType="COUNTER_FACTIVE" />
+<ALINK relatedToEventInstance="ei161" signalID="s28" eventInstanceID="ei160" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei157" eventInstanceID="ei156" relType="CONTINUES" />
+</TimeML>

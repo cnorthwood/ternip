@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> VOA<TIMEX3 tid="t95" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-03-31" >19980331</TIMEX3>.1700.1533 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="VOA" air_date="19980331:1700">
+<section startTime="1533.71" type="report" endTime="1681.59">
+<TEXT>
+<turn startTime="1533.71" speaker="unknown" endTime="1595.853" spkrType="unknown">
+ <s>The <ENAMEX TYPE="LOCATION">US</ENAMEX> government recently <EVENT eid="e1" class="OCCURRENCE" >announced</EVENT> new regulations <EVENT eid="e3" class="I_STATE" >designed</EVENT> <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e5" class="OCCURRENCE" >change</EVENT>
+ the way transplant organs are made available to sick patients.</s> <s>Under the new
+ guidelines, donor organs will be made available to the sickest people
+ first, wherever they live in the country.</s> <s>Currently, transplant organs are rationed through a regional system of distribution.</s>
+ <s>The private group that <EVENT eid="e11" class="OCCURRENCE" >runs</EVENT> the current system, United Network for Organ
+ Sharing, or <ENAMEX TYPE="ORGANIZATION">UNOS</ENAMEX>, objects to the new regulations.</s> <s><ENAMEX TYPE="ORGANIZATION">UNOS</ENAMEX> <EVENT eid="e13" class="REPORTING" >says</EVENT> the regulations
+ <EVENT eid="e15" class="OCCURRENCE" >put</EVENT> the federal government in charge of <EVENT eid="e16" class="OCCURRENCE" >deciding</EVENT> who <EVENT eid="e17" class="OCCURRENCE" >gets</EVENT> <EVENT eid="e18" class="OCCURRENCE" >transplants</EVENT> and
+ that many hospital transplant centers <SIGNAL sid="s20" >would</SIGNAL> be <EVENT eid="e19" class="OCCURRENCE" >forced</EVENT> <SIGNAL sid="s21" >to</SIGNAL> <EVENT eid="e22" class="OCCURRENCE" >close</EVENT>.</s>
+ <s>Health and <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Human</ENAMEX> Services Secretary Do- Donna Shalala</ENAMEX> <EVENT eid="e23" class="REPORTING" >says</EVENT> patients who <EVENT eid="e24" class="I_STATE" >need</EVENT>
+ an organ <EVENT eid="e25" class="OCCURRENCE" >transplant</EVENT> <SIGNAL sid="s27" >should</SIGNAL> <SIGNAL sid="s28" >not</SIGNAL> <EVENT eid="e26" class="OCCURRENCE" >have</EVENT> <SIGNAL sid="s29" >to</SIGNAL> <EVENT eid="e30" class="OCCURRENCE" >take</EVENT> a chance that an organ will <EVENT eid="e31" class="OCCURRENCE" >become</EVENT>
+ available in their local area, nor should patients <EVENT eid="e32" class="I_STATE" >have</EVENT> to <EVENT eid="e34" class="OCCURRENCE" >travel</EVENT> <SIGNAL sid="s35" >to</SIGNAL> transplant centers far from their homes <SIGNAL sid="s37" >to</SIGNAL> <EVENT eid="e38" class="OCCURRENCE" >improve</EVENT> their chances of <EVENT eid="e39" class="OCCURRENCE" >getting</EVENT>
+ an organ.</s> <s>UNOS <ENAMEX TYPE="PERSON">spokeswoman Donna Henry Wright</ENAMEX> <EVENT eid="e40" class="REPORTING" >says</EVENT> the new policy <SIGNAL sid="s41" >would</SIGNAL> <SIGNAL sid="s42" >not</SIGNAL> necessarily <EVENT eid="e116" class="STATE" >be</EVENT> more fair or effective because allowances are already <EVENT eid="e43" class="OCCURRENCE" >made</EVENT> for the most
+ needy patients.</s>
+</turn>
+<turn startTime="1595.853" speaker="unknown" endTime="1620.527" spkrType="unknown">
+ <s>The sickest patients are already <EVENT eid="e44" class="OCCURRENCE" >treated</EVENT> first.</s> <s>There are <SIGNAL sid="s117" >not</SIGNAL> huge <EVENT eid="e45" class="OCCURRENCE" >waiting</EVENT> uh
+ disparit- <EVENT eid="e46" class="OCCURRENCE" >waiting</EVENT> time disparities amongst the very uh sickest patients.</s>
+ <s>It's between <CARDINAL>two</CARDINAL> to <CARDINAL>six</CARDINAL> days for every one uh of the sickest patients across the
+ country.</s> <s>um So it's a- it's a fallacy that they're <EVENT eid="e48" class="OCCURRENCE" >doing</EVENT> this because um the sickest
+ patients are <SIGNAL sid="s51" >n't</SIGNAL> being <EVENT eid="e52" class="OCCURRENCE" >served</EVENT>.</s>
+</turn>
+<turn startTime="1620.527" speaker="unknown" endTime="1632.513" spkrType="unknown">
+ <s><ENAMEX TYPE="PERSON">Doctor James Burdick</ENAMEX>, the Professor of <ENAMEX TYPE="ORGANIZATION">Transplant Surgery at Johns Hopkins
+ University Hospital</ENAMEX> in <ENAMEX TYPE="LOCATION">Baltimore</ENAMEX>, <ENAMEX TYPE="LOCATION">Maryland</ENAMEX>, and former President of <ENAMEX TYPE="ORGANIZATION">UNOS</ENAMEX>,
+ <EVENT eid="e53" class="REPORTING" >said</EVENT> the current system has <EVENT eid="e54" class="OCCURRENCE" >evolved</EVENT> over <TIMEX3 tid="t103" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="PXY" >several years</TIMEX3> and it <EVENT eid="e55" class="OCCURRENCE" >works</EVENT> well.</s>
+</turn>
+<turn startTime="1632.513" speaker="unknown" endTime="1663.384" spkrType="unknown">
+ <s>You may, <TIMEX3 tid="t105" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t95" >in a year or <CARDINAL>two</CARDINAL></TIMEX3>, <EVENT eid="e56" class="OCCURRENCE" >save</EVENT> a few more lives <SIGNAL sid="s57" >if</SIGNAL> you <EVENT eid="e58" class="OCCURRENCE" >do</EVENT> sickest first.</s>
+ <s>But the number of patients <EVENT eid="e59" class="OCCURRENCE" >waiting</EVENT> then <EVENT eid="e60" class="I_ACTION" >begins</EVENT> <SIGNAL sid="s61" >to</SIGNAL> <EVENT eid="e62" class="OCCURRENCE" >increase</EVENT>, um and, in fact, um over
+ the <TIMEX3 tid="t106" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="PXY" >years</TIMEX3> many more patients who are about to die of liver tra- uh without a liver
+ <EVENT eid="e65" class="OCCURRENCE" >transplant</EVENT> <SIGNAL sid="s66" >would</SIGNAL>  <EVENT eid="e67" class="OCCURRENCE" >accumulate</EVENT>.</s>
+ <s>If you <EVENT eid="e68" class="OCCURRENCE" >do</EVENT> the uh alternative extreme, you do <SIGNAL sid="s70" >n't</SIGNAL> <EVENT eid="e69" class="OCCURRENCE" >save</EVENT> as many lives in the
+ <TIMEX3 tid="t118" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="PXY" >early years</TIMEX3>, by a small fraction.</s> <s>Our system <EVENT eid="e119" class="STATE" >is</EVENT> balanced, it's right in the
+ middle.</s> <s>And, therefore, it <EVENT eid="e120" class="STATE" >works</EVENT> very well.</s>
+</turn>
+<turn startTime="1663.384" speaker="unknown" endTime="1681.59" spkrType="unknown">
+ <s>Nationwide, there are <CARDINAL>about ten thousand</CARDINAL> patients <EVENT eid="e72" class="OCCURRENCE" >waiting</EVENT> for liver <EVENT eid="e73" class="OCCURRENCE" >transplants</EVENT>
+ each <TIMEX3 tid="t107" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" >year</TIMEX3> and only <CARDINAL>four thousand</CARDINAL> organs <EVENT eid="e74" class="OCCURRENCE" >become</EVENT> available for <EVENT eid="e75" class="OCCURRENCE" >transplants</EVENT>.</s>
+ <s><ENAMEX TYPE="PERSON">Secretary Shalala</ENAMEX> <EVENT eid="e76" class="REPORTING" >says</EVENT> <ENAMEX TYPE="ORGANIZATION">UNOS</ENAMEX> <TIMEX3 tid="t108" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1997-10" anchorTimeID="t95" >five months ago</TIMEX3>, or <EVENT eid="e77" class="OCCURRENCE" >gave</EVENT> them <TIMEX3 tid="t109" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P5M" ><CARDINAL>five</CARDINAL> months</TIMEX3> <SIGNAL sid="s78" >to</SIGNAL> <EVENT eid="e79" class="OCCURRENCE" >develop</EVENT> a new <EVENT eid="e111" class="I_STATE" >plan</EVENT> <SIGNAL sid="s80" >to</SIGNAL> <EVENT eid="e81" class="OCCURRENCE" >distribute</EVENT> livers which are <SIGNAL sid="s82" >in</SIGNAL> the shortest supply.</s>
+ <s>This is <ENAMEX TYPE="ORGANIZATION">VOA</ENAMEX> Today.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei267" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei268" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei269" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei270" tense="PRESENT" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei271" tense="PRESENT" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei272" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei273" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei274" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei275" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei276" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei277" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei278" tense="PRESENT" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei279" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei280" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei281" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei282" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei283" tense="FUTURE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei284" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei285" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei286" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei287" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei288" tense="PRESENT" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei289" tense="NONE" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei290" tense="PRESENT" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei291" tense="PRESENT" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei292" tense="PRESENT" eventID="e45" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei293" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei294" tense="PRESENT" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei295" tense="PAST" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei296" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei297" tense="PRESENT" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei298" tense="PRESENT" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei299" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei300" tense="PRESENT" eventID="e58" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei301" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei302" tense="PRESENT" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei303" tense="NONE" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei304" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei305" tense="PAST" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei306" tense="PRESENT" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei307" tense="PRESENT" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei308" tense="PRESENT" eventID="e119" />
+<MAKEINSTANCE aspect="NONE" eiid="ei309" tense="PRESENT" eventID="e120" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei310" tense="NONE" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei311" tense="NONE" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei312" tense="NONE" eventID="e74" />
+<MAKEINSTANCE aspect="NONE" eiid="ei313" tense="NONE" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei314" tense="PRESENT" eventID="e76" />
+<MAKEINSTANCE aspect="NONE" eiid="ei315" tense="PAST" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei316" tense="NONE" eventID="e79" />
+<MAKEINSTANCE aspect="NONE" eiid="ei317" tense="NONE" eventID="e111" />
+<MAKEINSTANCE aspect="NONE" eiid="ei318" tense="NONE" eventID="e81" />
+<TLINK relatedToTime="t95" eventInstanceID="ei267" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei267" eventInstanceID="ei268" relType="DURING" />
+<TLINK relatedToTime="t95" eventInstanceID="ei270" relType="DURING" />
+<TLINK relatedToTime="t95" eventInstanceID="ei271" relType="DURING" />
+<TLINK relatedToEventInstance="ei272" eventInstanceID="ei273" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei274" eventInstanceID="ei275" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei278" eventInstanceID="ei279" relType="DURING" />
+<TLINK relatedToEventInstance="ei281" eventInstanceID="ei282" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei281" eventInstanceID="ei283" relType="AFTER" />
+<TLINK relatedToEventInstance="ei284" eventInstanceID="ei285" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei285" eventInstanceID="ei287" relType="AFTER" />
+<TLINK relatedToTime="t95" eventInstanceID="ei288" relType="DURING" />
+<TLINK relatedToTime="t95" eventInstanceID="ei290" relType="DURING" />
+<TLINK relatedToTime="t95" eventInstanceID="ei291" relType="DURING" />
+<TLINK relatedToTime="t95" eventInstanceID="ei292" relType="DURING" />
+<TLINK relatedToEventInstance="ei292" eventInstanceID="ei293" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei294" eventInstanceID="ei295" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei297" timeID="t103" relType="INCLUDES" />
+<TLINK relatedToTime="t95" eventInstanceID="ei298" relType="DURING" />
+<TLINK relatedToTime="t105" eventInstanceID="ei299" relType="INCLUDES" />
+<TLINK relatedToTime="t105" eventInstanceID="ei299" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei299" eventInstanceID="ei300" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei300" eventInstanceID="ei301" relType="AFTER" />
+<TLINK relatedToEventInstance="ei300" eventInstanceID="ei301" relType="DURING" />
+<TLINK relatedToEventInstance="ei300" eventInstanceID="ei302" relType="AFTER" />
+<TLINK relatedToTime="t106" eventInstanceID="ei300" relType="BEFORE" />
+<TLINK relatedToTime="t106" eventInstanceID="ei304" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t106" eventInstanceID="ei305" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei306" eventInstanceID="ei307" relType="AFTER" />
+<TLINK relatedToEventInstance="ei307" timeID="t118" relType="INCLUDES" />
+<TLINK relatedToTime="t95" eventInstanceID="ei308" relType="DURING" />
+<TLINK relatedToTime="t95" eventInstanceID="ei309" relType="DURING" />
+<TLINK relatedToEventInstance="ei310" timeID="t107" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei310" eventInstanceID="ei312" relType="AFTER" />
+<TLINK relatedToEventInstance="ei312" eventInstanceID="ei313" relType="AFTER" />
+<TLINK relatedToEventInstance="ei314" timeID="t108" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei315" eventInstanceID="ei316" relType="AFTER" />
+<TLINK relatedToEventInstance="ei316" eventInstanceID="ei317" relType="AFTER" />
+<TLINK relatedToEventInstance="ei317" eventInstanceID="ei318" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei269" eventInstanceID="ei268" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei272" eventInstanceID="ei271" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei274" eventInstanceID="ei273" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei277" eventInstanceID="ei276" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei281" eventInstanceID="ei278" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei279" eventInstanceID="ei280" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei278" eventInstanceID="ei284" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei285" eventInstanceID="ei286" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei286" eventInstanceID="ei287" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei285" eventInstanceID="ei286" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei288" eventInstanceID="ei289" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei297" eventInstanceID="ei296" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei311" eventInstanceID="ei310" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei284" eventInstanceID="ei278" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei315" eventInstanceID="ei314" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei303" eventInstanceID="ei302" relType="INITIATES" />
+</TimeML>

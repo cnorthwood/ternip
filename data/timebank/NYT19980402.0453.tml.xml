@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> NYT19980402.0453 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t43" type="TIME" temporalFunction="true" functionInDocument="CREATION_TIME" value="1998-04-02T22:52:00" >04/02/1998 22:52:00</TIMEX3> </DATE_TIME>
+<HEADER>
+A0786 ampCx1f taf-z
+u a ampCx13  ampCx11  BC-NJ-WOMEN-MURDER-PROBE     04-02 0319
+</HEADER>
+<BODY>
+<SLUG> BC-NJ-WOMEN-MURDER-PROBE-NYT </SLUG>
+<HEADLINE>
+TASK FORCE TO STUDY CASES OF 14 SLAIN WOMEN
+</HEADLINE>
+(lb) ampQL
+ampUR By DAVID M. HERSZENHORN ampLR  ampQC  ampQL
+ampUR c.1998 N.Y. Times News Service ampLR  ampQC  ampQL
+
+<TEXT>
+<s><ENAMEX TYPE="ORGANIZATION">NEWARK</ENAMEX>, <ENAMEX TYPE="LOCATION">N.J. _ A new Essex County</ENAMEX> task force <EVENT eid="e1" class="ASPECTUAL" >began</EVENT> <EVENT eid="e45" class="OCCURRENCE" >delving</EVENT>
+<TIMEX3 tid="t46" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-04-02" anchorTimeID="t43" >Thursday</TIMEX3> into the <EVENT eid="e2" class="OCCURRENCE" >slayings</EVENT> of <CARDINAL>14</CARDINAL> black women <SIGNAL sid="s80" >over</SIGNAL> <TIMEX3 tid="t48" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P5Y" anchorTimeID="t43" >the last five
+years</TIMEX3> in the <ENAMEX TYPE="ORGANIZATION">Newark</ENAMEX> area, as law-enforcement officials <EVENT eid="e4" class="REPORTING" >acknowledged</EVENT>
+that they <EVENT eid="e5" class="I_STATE" >needed</EVENT>  <SIGNAL sid="s101" >to</SIGNAL> <EVENT eid="e6" class="I_ACTION" >work</EVENT> harder  <SIGNAL sid="s106" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >solve</EVENT> the cases of <EVENT eid="e67" class="OCCURRENCE" >murdered</EVENT>
+women.</s>
+<s>The police and prosecutors <EVENT eid="e8" class="REPORTING" >said</EVENT> they  had <EVENT eid="e9" class="OCCURRENCE" >identified</EVENT> different
+suspects in <CARDINAL>six</CARDINAL> of the cases and had yet to <EVENT eid="e10" class="OCCURRENCE" >find</EVENT> any pattern
+linking the <EVENT eid="e50" class="OCCURRENCE" >killings</EVENT> or the victims, several of whom  were <EVENT eid="e12" class="I_STATE" >believed</EVENT>
+to be <EVENT eid="e51" class="STATE" >prostitutes</EVENT>.</s>
+<s>State, county and local law-enforcement officials  have <EVENT eid="e13" class="REPORTING" >expressed</EVENT>
+concerns <SIGNAL sid="s2014" >in</SIGNAL> <TIMEX3 mod="APPROX" tid="t52" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t43" >recent months</TIMEX3> about a possible pattern of <EVENT eid="e53" class="OCCURRENCE" >murdered</EVENT>
+women and a disproportionate number of <EVENT eid="e54" class="STATE" >unsolved</EVENT> cases.</s>
+<s><EVENT eid="e2025" class="REPORTING" >Citing</EVENT> an example, <ENAMEX TYPE="PERSON">Sgt. Derek Glenn, a spokesman for the <ENAMEX TYPE="ORGANIZATION">Newark
+Police Department</ENAMEX></ENAMEX>, <EVENT eid="e14" class="REPORTING" >said</EVENT> that of <CARDINAL><SIGNAL sid="s56" >nine</SIGNAL></CARDINAL> women who  had  been <EVENT eid="e15" class="OCCURRENCE" >killed</EVENT> <TIMEX3 tid="t64" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1997" anchorTimeID="t43" >last
+year</TIMEX3>, suspects  had  been <EVENT eid="e17" class="OCCURRENCE" >arrested</EVENT> <SIGNAL sid="s19" >in</SIGNAL> only <CARDINAL><SIGNAL sid="s57" >four</SIGNAL></CARDINAL> <EVENT eid="e18" class="OCCURRENCE" >cases</EVENT>.</s> <s>But over all,
+<EVENT eid="e59" class="OCCURRENCE" >arrests</EVENT>  were <EVENT eid="e2065" class="OCCURRENCE" >made</EVENT> in more than <NUMEX TYPE="PERCENT">60 percent</NUMEX> of <EVENT eid="e2060" class="OCCURRENCE" >murder</EVENT> cases, he <EVENT eid="e21" class="REPORTING" >said</EVENT>.</s>
+<s><CARDINAL>Eight</CARDINAL> of the <CARDINAL>14</CARDINAL> <EVENT eid="e2072" class="OCCURRENCE" >killings</EVENT> since <TIMEX3 tid="t63" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1993" >1993</TIMEX3> were already under
+<EVENT eid="e2093" class="STATE" >investigation</EVENT> by the <ENAMEX TYPE="ORGANIZATION">Newark Police Department</ENAMEX>, <ENAMEX TYPE="PERSON">Glenn</ENAMEX> <EVENT eid="e22" class="REPORTING" >said</EVENT>.</s> <s>Of the
+<CARDINAL>eight</CARDINAL> victims, <CARDINAL>three</CARDINAL>  were <EVENT eid="e23" class="OCCURRENCE" >stabbed</EVENT>, <CARDINAL>two</CARDINAL>  were <EVENT eid="e24" class="OCCURRENCE" >strangled</EVENT>, <CARDINAL>two</CARDINAL>  were <EVENT eid="e25" class="I_ACTION" >beaten</EVENT> to death and one  was <EVENT eid="e26" class="OCCURRENCE" >asphyxiated</EVENT>, he <EVENT eid="e27" class="REPORTING" >said</EVENT>, and these
+different methods of killing and other evidence <EVENT eid="e29" class="PERCEPTION" >seem</EVENT>  to <EVENT eid="e30" class="REPORTING" >indicate</EVENT>
+that the <CARDINAL><SIGNAL sid="s2149" >eight</SIGNAL></CARDINAL> <EVENT eid="e2148" class="OCCURRENCE" >cases</EVENT> are not <EVENT eid="e31" class="STATE" >related</EVENT>.</s>
+<s>But with the task-force <EVENT eid="e66" class="OCCURRENCE" >investigation</EVENT> just <EVENT eid="e33" class="ASPECTUAL" >getting</EVENT> under way,
+officials have been <EVENT eid="e2164" class="I_STATE" >careful</EVENT> not <SIGNAL sid="s2174" >to</SIGNAL> <EVENT eid="e34" class="REPORTING" >draw</EVENT> any firm conclusions,
+<EVENT eid="e35" class="OCCURRENCE" >leaving</EVENT> open the possibility of a serial killer in some of the
+cases.</s> <s>There have been no <EVENT eid="e36" class="OCCURRENCE" >arrests</EVENT> in any of the <EVENT eid="e65" class="OCCURRENCE" >slayings</EVENT>.</s>
+<s>``I have <SIGNAL sid="s39" >n't</SIGNAL> <EVENT eid="e38" class="PERCEPTION" >seen</EVENT> a pattern yet ,  '' <EVENT eid="e40" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Patricia Hurt</ENAMEX>, the <ENAMEX TYPE="LOCATION">Essex
+County</ENAMEX> prosecutor, who <EVENT eid="e41" class="OCCURRENCE" >created</EVENT> the task force on <TIMEX3 tid="t61" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-03-31" anchorTimeID="t43" >Tuesday</TIMEX3>.</s> <s>``The
+type of lifestyle these women <EVENT eid="e60" class="STATE" >have</EVENT> is extremely dangerous,'' she
+<EVENT eid="e42" class="REPORTING" >said</EVENT>.</s>
+</TEXT>
+</BODY>
+<TRAILER>
+<s>NYT-04-02-98 2252EST</s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2217" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2218" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2219" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2220" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2221" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2222" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2223" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2224" tense="NONE" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2225" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2226" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2227" polarity="NEG" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2228" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2229" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2230" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2231" tense="PRESENT" eventID="e13" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2232" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2233" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2234" tense="NONE" eventID="e2025" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2235" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2236" cardinality="9" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2237" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2238" cardinality="4" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2239" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2240" tense="PAST" eventID="e2065" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2241" tense="NONE" eventID="e2060" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2242" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2243" cardinality="8" tense="NONE" eventID="e2072" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2244" tense="PAST" eventID="e2093" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2245" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2246" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2247" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2248" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2249" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2250" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2251" tense="PRESENT" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2252" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2253" cardinality="8" tense="NONE" eventID="e2148" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2254" polarity="NEG" tense="PRESENT" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2255" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2256" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2257" tense="NONE" eventID="e2164" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2258" polarity="NEG" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2259" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2260" polarity="NEG" tense="PRESENT" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2261" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2262" tense="PRESENT" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2263" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2264" tense="PAST" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2265" tense="PRESENT" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2266" tense="PAST" eventID="e42" />
+<TLINK relatedToEventInstance="ei2263" eventInstanceID="ei2266" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t46" eventInstanceID="ei2217" relType="IS_INCLUDED" />
+<TLINK signalID="s80" relatedToTime="t48" eventInstanceID="ei2219" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t43" timeID="t48" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2217" signalID="s4" eventInstanceID="ei2220" relType="DURING" />
+<TLINK relatedToEventInstance="ei2219" eventInstanceID="ei2224" relType="IDENTITY" />
+<TLINK relatedToTime="t43" eventInstanceID="ei2225" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2226" eventInstanceID="ei2225" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2225" eventInstanceID="ei2227" relType="DURING" />
+<TLINK relatedToEventInstance="ei2219" eventInstanceID="ei2228" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2225" eventInstanceID="ei2229" relType="DURING" />
+<TLINK signalID="s2014" relatedToTime="t52" eventInstanceID="ei2231" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2231" eventInstanceID="ei2232" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2231" eventInstanceID="ei2233" relType="DURING" />
+<TLINK relatedToEventInstance="ei2235" eventInstanceID="ei2234" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t43" eventInstanceID="ei2235" relType="BEFORE" />
+<TLINK relatedToTime="t64" eventInstanceID="ei2236" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2236" eventInstanceID="ei2238" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2236" eventInstanceID="ei2237" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2235" eventInstanceID="ei2237" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2240" eventInstanceID="ei2239" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2241" eventInstanceID="ei2239" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2235" eventInstanceID="ei2242" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t63" eventInstanceID="ei2243" relType="AFTER" />
+<TLINK relatedToTime="t43" eventInstanceID="ei2243" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2243" eventInstanceID="ei2219" relType="INCLUDES" />
+<TLINK relatedToTime="t43" eventInstanceID="ei2244" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2243" eventInstanceID="ei2246" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2243" eventInstanceID="ei2247" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2243" eventInstanceID="ei2248" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2243" eventInstanceID="ei2249" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t43" eventInstanceID="ei2250" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2250" eventInstanceID="ei2245" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2250" eventInstanceID="ei2251" relType="DURING" />
+<TLINK relatedToEventInstance="ei2243" eventInstanceID="ei2253" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2257" eventInstanceID="ei2259" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2261" eventInstanceID="ei2219" relType="IDENTITY" />
+<TLINK relatedToTime="t61" eventInstanceID="ei2264" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t43" eventInstanceID="ei2265" relType="DURING" />
+<SLINK subordinatedEventInstance="ei2221" eventInstanceID="ei2220" relType="EVIDENTIAL" />
+<SLINK signalID="s101" subordinatedEventInstance="ei2222" eventInstanceID="ei2221" relType="MODAL" />
+<SLINK signalID="s106" subordinatedEventInstance="ei2223" eventInstanceID="ei2222" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2226" eventInstanceID="ei2225" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2227" eventInstanceID="ei2225" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2230" eventInstanceID="ei2229" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2236" eventInstanceID="ei2235" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2240" eventInstanceID="ei2242" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2244" eventInstanceID="ei2245" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2243" eventInstanceID="ei2245" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2252" eventInstanceID="ei2251" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2254" eventInstanceID="ei2252" relType="EVIDENTIAL" />
+<SLINK signalID="s2174" subordinatedEventInstance="ei2258" eventInstanceID="ei2257" relType="MODAL" />
+<SLINK signalID="s39" subordinatedEventInstance="ei2262" eventInstanceID="ei2263" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2265" eventInstanceID="ei2266" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2218" eventInstanceID="ei2217" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2255" eventInstanceID="ei2256" relType="INITIATES" />
+</TimeML>

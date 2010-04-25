@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0069 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0069. </AN>
+<HL> Young's Market Co. to Merge </HL>
+<DD> <TIMEX3 tid="t15" type="DATE" temporalFunction="true" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89 </TIMEX3></DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> LOS ANGELES  </DATELINE>
+<TEXT>
+   <s>Young's <ENAMEX TYPE="ORGANIZATION">Market Co.</ENAMEX>, a wholesaler of spirits, wines and other goods, <EVENT eid="e1" class="REPORTING" >said</EVENT> it  will <EVENT eid="e2" class="OCCURRENCE" >merge</EVENT> with a new corporation <EVENT eid="e3" class="OCCURRENCE" >formed</EVENT> by the <ENAMEX TYPE="PERSON">Underwood</ENAMEX> family, which controls <ENAMEX TYPE="LOCATION">Young</ENAMEX>'s.</s> 
+
+   <s>Under terms of the <EVENT eid="e11" class="OCCURRENCE" >agreement</EVENT>, shareholders other than the Underwoods  will <EVENT eid="e5" class="OCCURRENCE" >receive</EVENT> <NUMEX TYPE="MONEY">$3,500</NUMEX> a share <SIGNAL sid="s7" >at</SIGNAL> <EVENT eid="e6" class="OCCURRENCE" >closing</EVENT>, which  is <EVENT eid="e8" class="OCCURRENCE" >expected</EVENT> <SIGNAL sid="s12" >in</SIGNAL> <TIMEX3 tid="t13" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12" >December</TIMEX3>.</s> 
+<s>The <ENAMEX TYPE="PERSON">Underwood</ENAMEX> family <EVENT eid="e9" class="REPORTING" >said</EVENT> that holders of more than a majority of the stock of the company  have <EVENT eid="e10" class="OCCURRENCE" >approved</EVENT> the <EVENT eid="e14" class="OCCURRENCE" >transaction</EVENT> by written consent.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei81" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei82" tense="FUTURE" eventID="e2" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei83" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei84" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei85" tense="FUTURE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei86" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei87" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei88" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei89" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei90" tense="NONE" eventID="e14" />
+<TLINK relatedToEventInstance="ei82" eventInstanceID="ei90" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei88" eventInstanceID="ei89" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei81" eventInstanceID="ei88" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t15" eventInstanceID="ei81" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei86" timeID="t13" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei86" eventInstanceID="ei85" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei83" eventInstanceID="ei82" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei90" eventInstanceID="ei89" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei82" eventInstanceID="ei84" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei85" eventInstanceID="ei84" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei82" eventInstanceID="ei81" relType="EVIDENTIAL" />
+</TimeML>

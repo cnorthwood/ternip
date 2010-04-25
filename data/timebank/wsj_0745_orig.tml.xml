@@ -1,0 +1,256 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0150 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0150. </AN>
+<HL> GM Seeks to Buy Up to 15% of Jaguar,
+@  Heating Up Its Skirmishing With Ford
+@  ----
+@  By Joann S. Lublin
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t157" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> GM JAGRY F EUROP </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+AUTOMOBILES (AUT) </IN>
+<DATELINE> LONDON  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">General Motors Corp.</ENAMEX> <EVENT eid="e1" class="I_STATE" >wants</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >buy</EVENT> as much as <NUMEX TYPE="PERCENT">15%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Jaguar PLC</ENAMEX>, <EVENT eid="e4" class="OCCURRENCE" >marking</EVENT> its first <EVENT eid="e5" class="OCCURRENCE" >salvo</EVENT> in a possible full-scale <EVENT eid="e6" class="OCCURRENCE" >battle</EVENT> against <ENAMEX TYPE="ORGANIZATION">Ford Motor Co.</ENAMEX> <SIGNAL sid="s148" >for</SIGNAL> <EVENT eid="e147" class="STATE" >control</EVENT> of the British car maker.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">GM</ENAMEX> <EVENT eid="e8" class="I_ACTION" >sought</EVENT> U.S. antitrust <EVENT eid="e159" class="I_STATE" >clearance</EVENT> <TIMEX3 tid="t158" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-W42" anchorTimeID="t157" >last week</TIMEX3> <SIGNAL sid="s9" >to</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >purchase</EVENT> more than <NUMEX TYPE="MONEY">$15 million</NUMEX> worth <ENAMEX TYPE="ORGANIZATION">of Jaguar</ENAMEX> shares but does n't <EVENT eid="e11" class="STATE" >own</EVENT> any <TIMEX3 tid="t161" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t157" >yet</TIMEX3>, <EVENT eid="e149" class="REPORTING" >according</EVENT> to <ENAMEX TYPE="ORGANIZATION">GM</ENAMEX> officials here and at the company's <ENAMEX TYPE="LOCATION">Detroit</ENAMEX> headquarters.</s> 
+<s>The No. 1 <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> auto maker then <EVENT eid="e13" class="REPORTING" >wrote</EVENT> <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> that it <EVENT eid="e14" class="I_STATE" >intends</EVENT> "<SIGNAL sid="s15" >to</SIGNAL> <EVENT eid="e16" class="OCCURRENCE" >go</EVENT> to that <EVENT eid="e150" class="STATE" ><NUMEX TYPE="PERCENT">15%</NUMEX>" level</EVENT> <SIGNAL sid="s151" >once</SIGNAL> it <EVENT eid="e17" class="OCCURRENCE" >wins</EVENT> the U.S. <EVENT eid="e152" class="I_STATE" >clearance</EVENT> <SIGNAL sid="s18" >to</SIGNAL> <EVENT eid="e19" class="OCCURRENCE" >go</EVENT> <EVENT eid="e153" class="STATE" >beyond <NUMEX TYPE="MONEY">$15 million</NUMEX></EVENT>, a <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> spokesman <EVENT eid="e20" class="REPORTING" >said</EVENT> <TIMEX3 tid="t163" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t157" >yesterday</TIMEX3>.</s> 
+
+   <s>The <ENAMEX TYPE="ORGANIZATION">GM</ENAMEX> <EVENT eid="e154" class="OCCURRENCE" >move</EVENT> <SIGNAL sid="s155" >follows</SIGNAL> <TIMEX3 tid="t164" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-24" anchorTimeID="t157" >Tuesday</TIMEX3>'s <EVENT eid="e22" class="REPORTING" >declaration</EVENT> by <ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX>, which holds an unwelcome <NUMEX TYPE="PERCENT">12.45%</NUMEX> stake in <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX>, that it is <EVENT eid="e25" class="I_STATE" >prepared</EVENT> <SIGNAL sid="s26" >to</SIGNAL> <EVENT eid="e27" class="OCCURRENCE" >bid</EVENT> for the entire company.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">GM</ENAMEX> is close to <EVENT eid="e29" class="ASPECTUAL" >completing</EVENT> a friendly <EVENT eid="e30" class="OCCURRENCE" >deal</EVENT> with <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> that is likely to <EVENT eid="e2073" class="I_STATE" >involve</EVENT> an eventual <NUMEX TYPE="PERCENT">30%</NUMEX> stake and joint manufacturing <EVENT eid="e2075" class="OCCURRENCE" >ventures</EVENT>.</s> 
+<s>Speculative investors, <EVENT eid="e35" class="OCCURRENCE" >betting</EVENT> on an imminent <EVENT eid="e36" class="OCCURRENCE" >clash</EVENT> <ENAMEX TYPE="ORGANIZATION">between Ford</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">GM</ENAMEX>, <EVENT eid="e38" class="OCCURRENCE" >pushed</EVENT> up <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX>'s share price <EVENT eid="e310" class="STATE" ><NUMEX TYPE="MONEY">five pence</NUMEX></EVENT> (<NUMEX TYPE="MONEY">eight U.S. cents</NUMEX>) <SIGNAL sid="s2088" >to</SIGNAL> a near-record <EVENT eid="e311" class="STATE" ><NUMEX TYPE="MONEY">720 pence</NUMEX></EVENT> (<NUMEX TYPE="MONEY">$11.60</NUMEX>) in late <EVENT eid="e39" class="OCCURRENCE" >trading</EVENT> on <ENAMEX TYPE="LOCATION">London</ENAMEX>'s stock exchange <TIMEX3 tid="t313" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t157" >yesterday</TIMEX3>.</s> 
+<s>Since <TIMEX3 tid="t314" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-24" anchorTimeID="t157" >Tuesday</TIMEX3>, the shares have <EVENT eid="e42" class="OCCURRENCE" >gained</EVENT> nearly <NUMEX TYPE="PERCENT">4%</NUMEX>.</s> 
+
+   <s>But an all-out bidding <EVENT eid="e2091" class="OCCURRENCE" >war</EVENT> between the world's top auto giants for <ENAMEX TYPE="LOCATION">Britain</ENAMEX>'s leading luxury-car maker seems unlikely.</s> 
+<s>"We will not <EVENT eid="e46" class="OCCURRENCE" >go</EVENT> over a certain level," <EVENT eid="e48" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">David N. McCammon</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX>'s vice president for <ENAMEX TYPE="ORGANIZATION">finance</ENAMEX>, at a news <EVENT eid="e316" class="OCCURRENCE" >conference</EVENT> <TIMEX3 tid="t315" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t157" >yesterday</TIMEX3> in <ENAMEX TYPE="LOCATION">Dearborn</ENAMEX>, <ENAMEX TYPE="LOCATION">Mich.</ENAMEX>
+"There's some price at which we'd <EVENT eid="e50" class="ASPECTUAL" >stop</EVENT> <EVENT eid="e52" class="OCCURRENCE" >bidding</EVENT>."</s> 
+<s>He would n't <EVENT eid="e53" class="OCCURRENCE" >specify</EVENT> what it was.</s> 
+
+   <s>And powerful political <EVENT eid="e318" class="STATE" >pressures</EVENT> may <EVENT eid="e56" class="I_ACTION" >convince</EVENT> the Conservative government <SIGNAL sid="s58" >to</SIGNAL> <EVENT eid="e59" class="OCCURRENCE" >keep</EVENT> its so-called golden share, which limits any individual holding to <NUMEX TYPE="PERCENT">15%</NUMEX>, <SIGNAL sid="s62" >until</SIGNAL> the <EVENT eid="e322" class="OCCURRENCE" >restriction</EVENT> <EVENT eid="e63" class="ASPECTUAL" >expires</EVENT> <SIGNAL sid="s326" >on</SIGNAL> <TIMEX3 tid="t325" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1990-12-31" >Dec. 31, 1990</TIMEX3>.</s> 
+
+   <s>"I really do n't <EVENT eid="e64" class="I_STATE" >see</EVENT> the government <EVENT eid="e66" class="OCCURRENCE" >doing</EVENT> something that <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> does n't <EVENT eid="e67" class="I_STATE" >want</EVENT> <SIGNAL sid="s328" >over</SIGNAL> <TIMEX3 tid="t327" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P14M" >the next 14 months</TIMEX3>," <EVENT eid="e69" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Kenneth Warren</ENAMEX>, a Conservative member <ENAMEX TYPE="ORGANIZATION">of Parliament</ENAMEX> and chairman of the <ENAMEX TYPE="ORGANIZATION">Select Committee on Trade</ENAMEX> and <ENAMEX TYPE="LOCATION">Industry</ENAMEX> in <ENAMEX TYPE="ORGANIZATION"><ENAMEX TYPE="LOCATION">Britain</ENAMEX>'s House</ENAMEX> of <ENAMEX TYPE="ORGANIZATION">Commons</ENAMEX>.</s> 
+<s>"The golden share is a single share, but it is the magic share."</s> 
+
+   <s>The government <EVENT eid="e70" class="OCCURRENCE" >retained</EVENT> the single share <SIGNAL sid="s71" >after</SIGNAL> <EVENT eid="e72" class="OCCURRENCE" >selling</EVENT> its stake in <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> <SIGNAL sid="s329" >in</SIGNAL> <TIMEX3 tid="t330" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1984" >1984</TIMEX3> -- part of a nationalistic practice of protecting former government-owned enterprises to deflect criticism of privatization.</s> 
+<s>The <NUMEX TYPE="PERCENT">15%</NUMEX> restriction covers any would-be suitor, British or foreign.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX> is <EVENT eid="e1988" class="I_STATE" >willing</EVENT> <SIGNAL sid="s1989" >to</SIGNAL> <EVENT eid="e82" class="OCCURRENCE" >bid</EVENT> for <NUMEX TYPE="PERCENT">100%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX>'s shares <SIGNAL sid="s2202" >if</SIGNAL> both the government and <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> shareholders <EVENT eid="e84" class="I_ACTION" >agree</EVENT> <SIGNAL sid="s85" >to</SIGNAL> <EVENT eid="e86" class="OCCURRENCE" >relax</EVENT> the anti-takeover barrier prematurely.</s> 
+<s>As <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX>'s biggest holder and <ENAMEX TYPE="LOCATION">Britain</ENAMEX>'s biggest car maker, <ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX> could <EVENT eid="e87" class="OCCURRENCE" >turn</EVENT> up the heat by <EVENT eid="e89" class="I_ACTION" >convening</EVENT> a special shareholders' <EVENT eid="e90" class="OCCURRENCE" >meeting</EVENT> and <EVENT eid="e91" class="I_ACTION" >urging</EVENT> holders <SIGNAL sid="s1990" >to</SIGNAL> <EVENT eid="e1985" class="OCCURRENCE" >drop</EVENT> the limits <TIMEX3 mod="START" tid="t1991" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t157" >early</TIMEX3>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX> might <EVENT eid="e92" class="OCCURRENCE" >succeed</EVENT> because many shareholders are speculators <EVENT eid="e1986" class="I_STATE" >keen</EVENT> for a full <EVENT eid="e94" class="OCCURRENCE" >bid</EVENT> or institutional investors <EVENT eid="e1987" class="I_STATE" >unhappy</EVENT> over <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> management's <EVENT eid="e95" class="I_ACTION" >handling</EVENT> of its <TIMEX3 tid="t1992" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t157" >current</TIMEX3> financial <EVENT eid="e1994" class="STATE" >difficulties</EVENT>.</s> 
+
+   <s>The government probably would n't <EVENT eid="e97" class="OCCURRENCE" >give</EVENT> in readily to a hostile foray by <ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX>, however.</s> 
+<s>It has <EVENT eid="e101" class="OCCURRENCE" >relinquished</EVENT> a golden share only once <SIGNAL sid="s102" >before</SIGNAL> -- <SIGNAL sid="s1996" >during</SIGNAL> <ENAMEX TYPE="ORGANIZATION">British Petroleum Co.</ENAMEX>'s #<CARDINAL>2.5 billion</CARDINAL> (<NUMEX TYPE="MONEY">$4 billion</NUMEX>) <EVENT eid="e103" class="OCCURRENCE" >takeover</EVENT> of <ENAMEX TYPE="ORGANIZATION">Britoil PLC</ENAMEX> <SIGNAL sid="s1997" >in</SIGNAL> <TIMEX3 tid="t1998" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1988" >1988</TIMEX3>.</s> 
+
+   <s>In <EVENT eid="e104" class="OCCURRENCE" >wooing</EVENT> British lawmakers, <ENAMEX TYPE="ORGANIZATION">GM</ENAMEX> has <EVENT eid="e105" class="I_ACTION" >pointed</EVENT> out that its <EVENT eid="e1999" class="I_STATE" >willingness</EVENT> <SIGNAL sid="s106" >to</SIGNAL> <EVENT eid="e107" class="OCCURRENCE" >settle</EVENT> for a minority stake would <EVENT eid="e109" class="ASPECTUAL" >keep</EVENT> <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> <EVENT eid="e2000" class="STATE" >British-owned</EVENT> and <EVENT eid="e2001" class="STATE" >independent</EVENT>.</s> 
+<s><TIMEX3 tid="t2007" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-WXX" anchorTimeID="t157" >This week</TIMEX3>, the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> auto giant <EVENT eid="e111" class="OCCURRENCE" >paid</EVENT> for <CARDINAL>10</CARDINAL> <ENAMEX TYPE="ORGANIZATION">House of Commons</ENAMEX> members and <CARDINAL>two</CARDINAL> <ENAMEX TYPE="ORGANIZATION">House</ENAMEX> of Lords members <SIGNAL sid="s112" >to</SIGNAL> <EVENT eid="e113" class="OCCURRENCE" >fly</EVENT> to <ENAMEX TYPE="LOCATION">Detroit</ENAMEX> and <EVENT eid="e114" class="OCCURRENCE" >tour</EVENT> its operations there.</s> 
+<s>While the <EVENT eid="e116" class="OCCURRENCE" >visit</EVENT> was unrelated to <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX>, <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">GM</ENAMEX> Chairman Roger Smith</ENAMEX> <EVENT eid="e117" class="OCCURRENCE" >answered</EVENT> the legislators' <EVENT eid="e118" class="OCCURRENCE" >questions</EVENT> about it <SIGNAL sid="s2003" >over</SIGNAL> <EVENT eid="e2385" class="OCCURRENCE" >lunch</EVENT> <TIMEX3 tid="t2386" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-24" anchorTimeID="t157" >Tuesday</TIMEX3>.</s> 
+<s>He <EVENT eid="e119" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> "should n't be <EVENT eid="e120" class="OCCURRENCE" >smothered</EVENT> by anyone else , " <EVENT eid="e123" class="REPORTING" >recalled</EVENT> one participant.</s> 
+
+   <s>Politics also influences the government's thinking on the anti-takeover restriction.</s> 
+<s>The Conservatives do n't dare jeopardize marginal <ENAMEX TYPE="PERSON">Tory</ENAMEX> seats in <ENAMEX TYPE="LOCATION">Coventry</ENAMEX>, where <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> has headquarters, nor can the government easily back down on promised protection for a privatized company while it proceeds with controversial plans to privatize most of <ENAMEX TYPE="LOCATION">Britain</ENAMEX>'s water and electricity industries.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Prime Minister Margaret Thatcher</ENAMEX> might , however , be <EVENT eid="e2011" class="I_STATE" >receptive</EVENT> to any <EVENT eid="e138" class="I_ACTION" >request</EVENT> by <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> Chairman Sir John Egan</ENAMEX> for the restriction's early <EVENT eid="e139" class="OCCURRENCE" >removal</EVENT> <SIGNAL sid="s140" >to</SIGNAL> <EVENT eid="e141" class="I_ACTION" >let</EVENT> <ENAMEX TYPE="ORGANIZATION">GM</ENAMEX> <EVENT eid="e142" class="OCCURRENCE" >amass</EVENT> more than <NUMEX TYPE="PERCENT">15%</NUMEX> or <EVENT eid="e143" class="I_ACTION" >mount</EVENT> a friendly suitor <EVENT eid="e2012" class="OCCURRENCE" >bid</EVENT> against <ENAMEX TYPE="ORGANIZATION">Ford</ENAMEX>.</s> 
+<s>In the end, <ENAMEX TYPE="PERSON">Sir John</ENAMEX> -- rather than the government or <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> shareholders -- may hold the key that unlocks the golden share.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2451" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2452" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2453" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2454" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2455" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2456" tense="NONE" eventID="e147" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2457" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2458" tense="NONE" eventID="e159" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2459" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2460" polarity="NEG" tense="PRESENT" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2461" tense="NONE" eventID="e149" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2462" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2463" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2464" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2465" tense="NONE" eventID="e150" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2466" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2467" tense="NONE" eventID="e152" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2468" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2469" tense="NONE" eventID="e153" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2470" tense="PAST" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2471" tense="NONE" eventID="e154" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2472" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2473" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2474" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="PROGRESSIVE" modality="close" eiid="ei2475" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2476" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" modality="likely" eiid="ei2477" tense="NONE" eventID="e2073" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2478" tense="NONE" eventID="e2075" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2479" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2480" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2481" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2482" tense="NONE" eventID="e310" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2483" tense="NONE" eventID="e311" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2484" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2485" tense="PRESENT" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" modality="unlikely" eiid="ei2486" polarity="NEG" tense="NONE" eventID="e2091" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2487" polarity="NEG" tense="FUTURE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2488" tense="PAST" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2489" tense="NONE" eventID="e316" />
+<MAKEINSTANCE aspect="NONE" modality="'d" eiid="ei2490" tense="PAST" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2491" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2492" polarity="NEG" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2493" tense="NONE" eventID="e318" />
+<MAKEINSTANCE aspect="NONE" modality="may" eiid="ei2494" tense="PRESENT" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2495" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2496" tense="NONE" eventID="e322" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2497" tense="PRESENT" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2498" polarity="NEG" tense="PRESENT" eventID="e64" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2499" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2500" polarity="NEG" tense="PRESENT" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2501" tense="PAST" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2502" tense="PAST" eventID="e70" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2503" tense="NONE" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2504" tense="NONE" eventID="e1988" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2505" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2506" tense="PRESENT" eventID="e84" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2507" tense="NONE" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" modality="could" eiid="ei2508" tense="PAST" eventID="e87" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2509" tense="NONE" eventID="e89" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2510" tense="NONE" eventID="e90" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2511" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2512" tense="NONE" eventID="e1985" />
+<MAKEINSTANCE aspect="NONE" modality="might" eiid="ei2513" tense="PAST" eventID="e92" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2514" tense="NONE" eventID="e1986" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2515" tense="NONE" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2516" tense="NONE" eventID="e1987" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2517" tense="NONE" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2518" tense="NONE" eventID="e1994" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2519" polarity="NEG" tense="PAST" eventID="e97" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2520" tense="PRESENT" eventID="e101" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2521" tense="NONE" eventID="e103" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2522" tense="NONE" eventID="e104" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2523" tense="PRESENT" eventID="e105" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2524" tense="NONE" eventID="e1999" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2525" tense="NONE" eventID="e107" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2526" tense="PAST" eventID="e109" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2527" tense="NONE" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2528" tense="NONE" eventID="e2001" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2529" tense="NONE" eventID="e111" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2530" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2531" tense="NONE" eventID="e114" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2532" tense="NONE" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2533" tense="PAST" eventID="e117" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2534" tense="NONE" eventID="e118" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2535" tense="NONE" eventID="e2385" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2536" tense="PAST" eventID="e119" />
+<MAKEINSTANCE aspect="NONE" modality="should" eiid="ei2537" polarity="NEG" tense="PAST" eventID="e120" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2538" tense="NONE" eventID="e123" />
+<MAKEINSTANCE aspect="NONE" modality="might" eiid="ei2539" tense="NONE" eventID="e2011" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2540" tense="NONE" eventID="e138" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2541" tense="NONE" eventID="e139" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2542" tense="NONE" eventID="e141" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2543" tense="PAST" eventID="e142" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2544" tense="NONE" eventID="e143" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2545" tense="NONE" eventID="e2012" />
+<TLINK relatedToEventInstance="ei2545" eventInstanceID="ei2544" relType="BEGINS" />
+<TLINK relatedToTime="t157" eventInstanceID="ei2451" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2453" eventInstanceID="ei2451" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2454" eventInstanceID="ei2453" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2455" eventInstanceID="ei2454" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t158" eventInstanceID="ei2457" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t161" eventInstanceID="ei2460" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2457" eventInstanceID="ei2462" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2465" eventInstanceID="ei2464" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2466" signalID="s151" eventInstanceID="ei2463" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2469" eventInstanceID="ei2468" relType="ENDED_BY" />
+<TLINK relatedToTime="t157" eventInstanceID="ei2470" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2451" eventInstanceID="ei2471" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2472" signalID="s155" eventInstanceID="ei2471" relType="AFTER" />
+<TLINK relatedToTime="t164" eventInstanceID="ei2472" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2481" eventInstanceID="ei2479" relType="INCLUDES" />
+<TLINK relatedToTime="t157" eventInstanceID="ei2481" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2482" eventInstanceID="ei2481" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei2483" signalID="s2088" eventInstanceID="ei2481" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2484" eventInstanceID="ei2481" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t313" eventInstanceID="ei2484" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2485" timeID="t314" relType="BEGINS" />
+<TLINK relatedToEventInstance="ei2489" eventInstanceID="ei2488" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t315" eventInstanceID="ei2489" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t157" eventInstanceID="ei2489" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2477" eventInstanceID="ei2476" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2494" eventInstanceID="ei2493" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2497" signalID="s62" eventInstanceID="ei2495" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2496" eventInstanceID="ei2497" relType="ENDS" />
+<TLINK signalID="s326" relatedToTime="t325" eventInstanceID="ei2497" relType="IS_INCLUDED" />
+<TLINK signalID="s328" relatedToTime="t327" eventInstanceID="ei2499" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2503" signalID="s71" eventInstanceID="ei2502" relType="AFTER" />
+<TLINK signalID="s329" relatedToTime="t330" eventInstanceID="ei2503" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t157" eventInstanceID="ei2504" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2505" eventInstanceID="ei2506" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2509" eventInstanceID="ei2508" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2511" eventInstanceID="ei2508" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2510" eventInstanceID="ei2511" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t1991" eventInstanceID="ei2512" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2513" eventInstanceID="ei2514" relType="BEFORE" />
+<TLINK relatedToTime="t157" eventInstanceID="ei2514" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2516" eventInstanceID="ei2514" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2518" timeID="t1992" relType="INCLUDES" />
+<TLINK signalID="s102" relatedToTime="t157" eventInstanceID="ei2520" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2521" signalID="s1996" eventInstanceID="ei2520" relType="IS_INCLUDED" />
+<TLINK signalID="s1997" relatedToTime="t1998" eventInstanceID="ei2521" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2523" eventInstanceID="ei2522" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2526" eventInstanceID="ei2524" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2529" timeID="t2007" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2530" eventInstanceID="ei2532" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2531" eventInstanceID="ei2532" relType="INCLUDES" />
+<TLINK relatedToTime="t157" eventInstanceID="ei2532" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2534" eventInstanceID="ei2533" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2532" eventInstanceID="ei2534" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2535" signalID="s2003" eventInstanceID="ei2533" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t2386" eventInstanceID="ei2535" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2533" eventInstanceID="ei2536" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2533" eventInstanceID="ei2538" relType="AFTER" />
+<SLINK signalID="s2" subordinatedEventInstance="ei2452" eventInstanceID="ei2451" relType="MODAL" />
+<SLINK signalID="s148" subordinatedEventInstance="ei2456" eventInstanceID="ei2455" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2458" eventInstanceID="ei2457" relType="MODAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei2459" eventInstanceID="ei2458" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2457" eventInstanceID="ei2461" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2460" eventInstanceID="ei2461" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2463" eventInstanceID="ei2462" relType="EVIDENTIAL" />
+<SLINK signalID="s15" subordinatedEventInstance="ei2464" eventInstanceID="ei2463" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2467" eventInstanceID="ei2466" relType="MODAL" />
+<SLINK signalID="s18" subordinatedEventInstance="ei2468" eventInstanceID="ei2467" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2462" eventInstanceID="ei2470" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2473" eventInstanceID="ei2472" relType="EVIDENTIAL" />
+<SLINK signalID="s26" subordinatedEventInstance="ei2474" eventInstanceID="ei2473" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2480" eventInstanceID="ei2479" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2487" eventInstanceID="ei2488" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2478" eventInstanceID="ei2477" relType="FACTIVE" />
+<SLINK signalID="s58" subordinatedEventInstance="ei2495" eventInstanceID="ei2494" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2499" eventInstanceID="ei2498" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2499" eventInstanceID="ei2500" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2498" eventInstanceID="ei2501" relType="EVIDENTIAL" />
+<SLINK signalID="s1989" subordinatedEventInstance="ei2505" eventInstanceID="ei2504" relType="MODAL" />
+<SLINK signalID="s85" subordinatedEventInstance="ei2507" eventInstanceID="ei2506" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2510" eventInstanceID="ei2509" relType="MODAL" />
+<SLINK signalID="s1990" subordinatedEventInstance="ei2512" eventInstanceID="ei2511" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2515" eventInstanceID="ei2514" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2517" eventInstanceID="ei2516" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2518" eventInstanceID="ei2517" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2526" eventInstanceID="ei2523" relType="EVIDENTIAL" />
+<SLINK signalID="s106" subordinatedEventInstance="ei2525" eventInstanceID="ei2524" relType="MODAL" />
+<SLINK signalID="s112" subordinatedEventInstance="ei2530" eventInstanceID="ei2529" relType="MODAL" />
+<SLINK signalID="s112" subordinatedEventInstance="ei2531" eventInstanceID="ei2529" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2537" eventInstanceID="ei2536" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2536" eventInstanceID="ei2538" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2540" eventInstanceID="ei2539" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2541" eventInstanceID="ei2540" relType="MODAL" />
+<SLINK signalID="s140" subordinatedEventInstance="ei2542" eventInstanceID="ei2541" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2543" eventInstanceID="ei2542" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2544" eventInstanceID="ei2542" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2476" eventInstanceID="ei2475" relType="CULMINATES" />
+<ALINK relatedToEventInstance="ei2491" eventInstanceID="ei2490" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei2527" eventInstanceID="ei2526" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei2528" eventInstanceID="ei2526" relType="CONTINUES" />
+</TimeML>

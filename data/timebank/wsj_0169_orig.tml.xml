@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0021 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0021. </AN>
+<HL> Business Brief -- Ratners Group PLC:
+@  Bid for Another Jeweler
+@  Is Raised to $62.1 Million </HL>
+<DD> <TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> RATNY WEIS </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Ratners Group PLC</ENAMEX>, a fast-growing, acquisition-minded <ENAMEX TYPE="LOCATION">London</ENAMEX>-based jeweler, <EVENT eid="e1" class="OCCURRENCE" >raised</EVENT> its price for <ENAMEX TYPE="LOCATION">Seattle</ENAMEX>-based specialty jeweler <ENAMEX TYPE="ORGANIZATION">Weisfield's Inc.</ENAMEX> <SIGNAL sid="s29" >to</SIGNAL> <EVENT eid="e32" class="STATE" ><NUMEX TYPE="MONEY">$57.50</NUMEX></EVENT> a share, or <NUMEX TYPE="MONEY">$62.1 million</NUMEX>, <SIGNAL sid="s30" >from</SIGNAL> <EVENT eid="e33" class="STATE" ><NUMEX TYPE="MONEY">$50</NUMEX></EVENT> a share, or <NUMEX TYPE="MONEY">$55 million</NUMEX>, <SIGNAL sid="s2" >after</SIGNAL> another concern <EVENT eid="e3" class="REPORTING" >said</EVENT> it <SIGNAL sid="s5" >would</SIGNAL> be prepared to <EVENT eid="e7" class="OCCURRENCE" >outbid</EVENT> <ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX>'s initial <EVENT eid="e8" class="OCCURRENCE" >offer</EVENT>.</s> 
+<s>The other concern was n't identified.</s> 
+
+   <s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX>'s chairman, Gerald Ratner</ENAMEX>, <EVENT eid="e11" class="REPORTING" >said</EVENT> the deal remains of "substantial <EVENT eid="e37" class="STATE" >benefit</EVENT> to <ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX>."</s> 
+<s>In <ENAMEX TYPE="LOCATION">London</ENAMEX> <SIGNAL sid="s13" >at</SIGNAL> <TIMEX3 mod="MID" tid="t28" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01TAF" anchorTimeID="t27" >mid-afternoon yesterday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX>'s shares were <EVENT eid="e34" class="STATE" >up</EVENT> <NUMEX TYPE="MONEY">2 pence</NUMEX> (<NUMEX TYPE="MONEY">1.26 cents</NUMEX>), at <NUMEX TYPE="MONEY">260 pence</NUMEX> (<NUMEX TYPE="MONEY">$1.64</NUMEX>).</s> 
+
+   <s>The <EVENT eid="e91" class="OCCURRENCE" >sweetened</EVENT> <EVENT eid="e14" class="OCCURRENCE" >offer</EVENT> <EVENT eid="e15" class="STATE" >has</EVENT> <EVENT eid="e16" class="OCCURRENCE" >acceptances</EVENT> from more than <NUMEX TYPE="PERCENT">50%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Weisfield's</ENAMEX> shareholders, and it is <EVENT eid="e17" class="I_STATE" >scheduled</EVENT> for <EVENT eid="e18" class="OCCURRENCE" >completion</EVENT> <SIGNAL sid="s35" >by</SIGNAL> <TIMEX3 tid="t36" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-10" anchorTimeID="t27" >Dec. 10</TIMEX3>.</s> 
+
+   <s>The <EVENT eid="e19" class="OCCURRENCE" >acquisition</EVENT> of 87-store <ENAMEX TYPE="ORGANIZATION">Weisfield's</ENAMEX> <EVENT eid="e38" class="OCCURRENCE" >raises</EVENT> <ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX>'s U.S. presence to <CARDINAL>450</CARDINAL> stores.</s> 
+<s>About <NUMEX TYPE="PERCENT">30%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Ratners</ENAMEX>'s profit <TIMEX3 tid="t101" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t27" >already</TIMEX3> is <EVENT eid="e20" class="OCCURRENCE" >derived</EVENT> from the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX></s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei151" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei152" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei153" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei154" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei155" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei156" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei157" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei158" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei159" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei160" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="PRESENT" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei163" tense="PRESENT" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei164" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei165" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei166" tense="PRESENT" eventID="e38" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei167" tense="PRESENT" eventID="e20" />
+<TLINK relatedToEventInstance="ei167" timeID="t101" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei150" timeID="t27" relType="AFTER" />
+<TLINK relatedToEventInstance="ei151" signalID="s29" eventInstanceID="ei150" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei152" signalID="s30" eventInstanceID="ei150" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei153" signalID="s2" eventInstanceID="ei150" relType="AFTER" />
+<TLINK relatedToEventInstance="ei155" eventInstanceID="ei154" relType="AFTER" />
+<TLINK relatedToTime="t27" eventInstanceID="ei156" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei150" eventInstanceID="ei156" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei158" signalID="s13" timeID="t28" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei150" eventInstanceID="ei159" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei151" eventInstanceID="ei160" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei161" eventInstanceID="ei160" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei162" eventInstanceID="ei161" relType="AFTER" />
+<TLINK relatedToEventInstance="ei163" timeID="t27" relType="IS_INCLUDED" />
+<TLINK signalID="s35" relatedToTime="t36" eventInstanceID="ei164" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei160" eventInstanceID="ei165" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei166" eventInstanceID="ei165" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei165" eventInstanceID="ei167" relType="BEFORE" />
+<TLINK relatedToTime="t27" timeID="t101" relType="INCLUDES" />
+<SLINK signalID="s5" subordinatedEventInstance="ei154" eventInstanceID="ei153" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei157" eventInstanceID="ei156" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei164" eventInstanceID="ei163" relType="MODAL" />
+</TimeML>

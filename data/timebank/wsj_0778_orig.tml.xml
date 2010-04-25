@@ -1,0 +1,300 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0117 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0117. </AN>
+<HL> Law:
+@  U.S. Threats to Seize Fees
+@  Scare Lawyers From Cases
+@  ----
+@  By Laurie P. Cohen
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t232" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CRZYQ </CO>
+<IN> LAW AND LEGAL AFFAIRS (LAW)
+BANKRUPTCIES (BCY) </IN>
+<GV> JUSTICE DEPARTMENT (JUS)
+SECURITIES AND EXCHANGE COMMISSION (SEC) </GV>
+<TEXT>
+   <s>The government is <EVENT eid="e1" class="OCCURRENCE" >sharpening</EVENT> its newest weapon against white-collar defendants: the <EVENT eid="e200" class="I_STATE" >power</EVENT> <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="I_ACTION" >prevent</EVENT> them from <EVENT eid="e6" class="OCCURRENCE" >paying</EVENT> their legal bills.</s> 
+<s>And defense lawyers are <EVENT eid="e8" class="I_ACTION" >warning</EVENT> that they wo n't <EVENT eid="e9" class="OCCURRENCE" >stick</EVENT> around <SIGNAL sid="s11" >if</SIGNAL> they do n't get <EVENT eid="e14" class="STATE" >paid</EVENT>.</s> 
+
+   <s>The issue has come to a boil in <ENAMEX TYPE="LOCATION">Newark</ENAMEX>, <ENAMEX TYPE="LOCATION">N.J.</ENAMEX>, where federal prosecutors have <EVENT eid="e16" class="I_ACTION" >warned</EVENT> lawyers for <ENAMEX TYPE="ORGANIZATION">Eddie Antar</ENAMEX> that <SIGNAL sid="s17" >if</SIGNAL> the founder and former chairman of <ENAMEX TYPE="ORGANIZATION">Crazy Eddie Inc.</ENAMEX> is <EVENT eid="e18" class="OCCURRENCE" >indicted</EVENT>, the government may <EVENT eid="e19" class="OCCURRENCE" >move</EVENT> <SIGNAL sid="s21" >to</SIGNAL> <EVENT eid="e22" class="OCCURRENCE" >seize</EVENT> the money that Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> is <EVENT eid="e24" class="OCCURRENCE" >using</EVENT> <SIGNAL sid="s25" >to</SIGNAL> <EVENT eid="e26" class="OCCURRENCE" >pay</EVENT> legal fees.</s> 
+
+   <s>The <EVENT eid="e27" class="OCCURRENCE" >warning</EVENT> by the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> attorney's office <SIGNAL sid="s201" >follows</SIGNAL> <CARDINAL>two</CARDINAL> <EVENT eid="e29" class="OCCURRENCE" >decisions</EVENT> by the <ENAMEX TYPE="ORGANIZATION">U.S. Supreme Court</ENAMEX> <TIMEX3 tid="t233" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-06" anchorTimeID="t232" >last June</TIMEX3>.</s> 
+<s>In those cases, the high court <EVENT eid="e31" class="I_ACTION" >ruled</EVENT> that federal law <EVENT eid="e33" class="OCCURRENCE" >gives</EVENT> prosecutors broad <EVENT eid="e203" class="I_STATE" >authority</EVENT> <SIGNAL sid="s204" >to</SIGNAL> <EVENT eid="e35" class="OCCURRENCE" >seize</EVENT> assets of people accused of racketeering and drug-related crimes, including fees paid to lawyers before an indictment.</s> 
+
+   <s><SIGNAL sid="s205" >If</SIGNAL> the government <EVENT eid="e42" class="I_ACTION" >succeeds</EVENT> in <EVENT eid="e44" class="OCCURRENCE" >seizing</EVENT> Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>'s assets, he could be <EVENT eid="e45" class="STATE" >left</EVENT> without top-flight legal representation, because his attorneys are likely to <EVENT eid="e48" class="ASPECTUAL" >quit</EVENT>, <EVENT eid="e206" class="REPORTING" >according</EVENT> to individuals familiar with the case.</s> 
+<s>A <EVENT eid="e50" class="OCCURRENCE" >seizure</EVENT> also would <EVENT eid="e51" class="OCCURRENCE" >make</EVENT> the case the <EVENT eid="e207" class="STATE" >largest</EVENT> -- and one of the first -- in which lawyers' fees have been confiscated in a prosecution unrelated to drugs.</s> 
+
+   <s>"The people who suffer in the short run are defendants, but the people who suffer in the long run are all of the people, because there wo n't be a vigorous private bar to defend the Bill of Rights," <EVENT eid="e66" class="REPORTING" >says</EVENT> <ENAMEX TYPE="PERSON">Gerald Lefcourt</ENAMEX>, a criminal defense attorney who <EVENT eid="e67" class="REPORTING" >says</EVENT> he has <EVENT eid="e68" class="OCCURRENCE" >turned</EVENT> down a number of cases <SIGNAL sid="s70" >to</SIGNAL> <EVENT eid="e71" class="I_ACTION" >avoid</EVENT> possible fee <EVENT eid="e72" class="OCCURRENCE" >seizures</EVENT>.</s> 
+
+   <s>Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> is being <EVENT eid="e73" class="I_ACTION" >investigated</EVENT> by a federal grand jury in <ENAMEX TYPE="PERSON">Newark</ENAMEX>, where prosecutors have <EVENT eid="e74" class="REPORTING" >told</EVENT> him that they may <TIMEX3 tid="t234" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t232" >soon</TIMEX3> <EVENT eid="e75" class="I_ACTION" >seek</EVENT> an <EVENT eid="e77" class="OCCURRENCE" >indictment</EVENT> on racketeering and securities fraud charges.</s> 
+<s>Under the Racketeer Influenced and Corrupt Organizations law, or <ENAMEX TYPE="LOCATION">RICO</ENAMEX>, the government <EVENT eid="e84" class="STATE" >has</EVENT> the authority <SIGNAL sid="s85" >to</SIGNAL> <EVENT eid="e86" class="I_ACTION" >seek</EVENT> <SIGNAL sid="s87" >to</SIGNAL> <EVENT eid="e88" class="OCCURRENCE" >freeze</EVENT> or <EVENT eid="e89" class="OCCURRENCE" >seize</EVENT> a defendant's assets <SIGNAL sid="s91" >before</SIGNAL> <EVENT eid="e90" class="OCCURRENCE" >trial</EVENT>.</s> 
+
+   <s><EVENT eid="e208" class="REPORTING" >According</EVENT> to individuals familiar with Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>'s case, prosecutors <EVENT eid="e93" class="OCCURRENCE" >issued</EVENT> their warning <TIMEX3 tid="t235" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-WXX" anchorTimeID="t232" >this week</TIMEX3> <SIGNAL sid="s209" >after</SIGNAL> one of Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>'s attorneys <EVENT eid="e95" class="I_ACTION" >asked</EVENT> whether legal fees might be <EVENT eid="e210" class="I_STATE" >subject</EVENT> <SIGNAL sid="s97" >to</SIGNAL> <EVENT eid="e98" class="OCCURRENCE" >seizure</EVENT>.</s> 
+<s>In a letter, prosecutors <EVENT eid="e100" class="REPORTING" >told</EVENT> Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>'s lawyers that because of the <ENAMEX TYPE="ORGANIZATION"><TIMEX3 tid="t236" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t232" >recent</TIMEX3> Supreme Court</ENAMEX> <EVENT eid="e214" class="OCCURRENCE" >rulings</EVENT>, they could <EVENT eid="e101" class="I_STATE" >expect</EVENT> that any fees collected from Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> may be <EVENT eid="e104" class="OCCURRENCE" >seized</EVENT>.</s> 
+<s>Prosecutors have <EVENT eid="e106" class="REPORTING" >told</EVENT> Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>'s attorneys that they <EVENT eid="e107" class="I_STATE" >believe</EVENT> Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>'s allegedly ill-gotten gains are so great that any money he has used to pay attorneys <EVENT eid="e112" class="STATE" >derives</EVENT> from illegal <EVENT eid="e113" class="OCCURRENCE" >activities</EVENT>.</s> 
+<s>Therefore, they <EVENT eid="e114" class="REPORTING" >said</EVENT>, the money can be <EVENT eid="e116" class="OCCURRENCE" >taken</EVENT> from the lawyers even <SIGNAL sid="s215" >after</SIGNAL> they are <EVENT eid="e118" class="OCCURRENCE" >paid</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Justin Feldman</ENAMEX> and <ENAMEX TYPE="PERSON">Jack Arseneault</ENAMEX>, attorneys for Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>, both <EVENT eid="e119" class="I_ACTION" >declined</EVENT> to <EVENT eid="e121" class="OCCURRENCE" >comment</EVENT> on the matter.</s> 
+
+   <s>In <ENAMEX TYPE="PERSON"><ENAMEX TYPE="LOCATION">Newark</ENAMEX>, <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> Attorney Samuel A. Alito</ENAMEX> <EVENT eid="e123" class="REPORTING" >said</EVENT>, "I do n't <EVENT eid="e124" class="I_STATE" >think</EVENT> there's any legal <EVENT eid="e126" class="STATE" >reason</EVENT> <SIGNAL sid="s635" >to</SIGNAL> <EVENT eid="e216" class="I_ACTION" >limit</EVENT> <EVENT eid="e217" class="STATE" >forfeiture</EVENT> of attorney's fees to drug cases."</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Alito</ENAMEX> <EVENT eid="e128" class="REPORTING" >said</EVENT> his office "just <EVENT eid="e129" class="I_ACTION" >responded</EVENT> to an attorney's <EVENT eid="e130" class="I_ACTION" >question</EVENT> about whether we would <EVENT eid="e131" class="OCCURRENCE" >go</EVENT> after attorney's fees, and that is different from actually doing it, although we <EVENT eid="e218" class="I_STATE" >reserve</EVENT> that <EVENT eid="e219" class="STATE" >right</EVENT>."</s> 
+
+   <s>Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> was <EVENT eid="e137" class="OCCURRENCE" >charged</EVENT> <TIMEX3 tid="t237" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09" anchorTimeID="t232" >last month</TIMEX3> <SIGNAL sid="s220" >in</SIGNAL> a civil <EVENT eid="e138" class="OCCURRENCE" >suit</EVENT> <EVENT eid="e140" class="OCCURRENCE" >filed</EVENT> in federal court in <ENAMEX TYPE="PERSON">Newark</ENAMEX> by the <ENAMEX TYPE="ORGANIZATION">Securities and Exchange Commission</ENAMEX>.</s> 
+<s><SIGNAL sid="s221" >In</SIGNAL> that <EVENT eid="e142" class="OCCURRENCE" >suit</EVENT>, the SEC <EVENT eid="e143" class="I_ACTION" >accused</EVENT> Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> of <EVENT eid="e144" class="I_ACTION" >engaging</EVENT> in a "massive financial <EVENT eid="e145" class="OCCURRENCE" >fraud</EVENT>" <SIGNAL sid="s146" >to</SIGNAL> <EVENT eid="e147" class="OCCURRENCE" >overstate</EVENT> the earnings of <ENAMEX TYPE="ORGANIZATION">Crazy Eddie</ENAMEX>, <ENAMEX TYPE="LOCATION">Edison</ENAMEX>, <ENAMEX TYPE="LOCATION">N.J.</ENAMEX>, <SIGNAL sid="s239" >over</SIGNAL> <TIMEX3 tid="t238" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P3Y" >a three-year period</TIMEX3>.</s> 
+<s>Through his lawyers, Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> has <EVENT eid="e148" class="OCCURRENCE" >denied</EVENT> <EVENT eid="e149" class="OCCURRENCE" >allegations</EVENT> <SIGNAL sid="s151" >in</SIGNAL> the SEC <EVENT eid="e150" class="OCCURRENCE" >suit</EVENT> and <SIGNAL sid="s153" >in</SIGNAL> civil <EVENT eid="e152" class="OCCURRENCE" >suits</EVENT> <SIGNAL sid="s222" >previously</SIGNAL> <EVENT eid="e154" class="OCCURRENCE" >filed</EVENT> by shareholders against Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> and others.</s> 
+
+   <s>The SEC has <EVENT eid="e155" class="I_ACTION" >alleged</EVENT> that Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX> <EVENT eid="e156" class="I_STATE" >aimed</EVENT> <SIGNAL sid="s157" >to</SIGNAL> <EVENT eid="e158" class="OCCURRENCE" >pump</EVENT> up the company's stock price through false financial <EVENT eid="e159" class="STATE" >statements</EVENT> in order <SIGNAL sid="s163" >to</SIGNAL> <EVENT eid="e164" class="OCCURRENCE" >sell</EVENT> his stake and <EVENT eid="e166" class="OCCURRENCE" >reap</EVENT> huge profits.</s> 
+<s>Mr. <ENAMEX TYPE="ORGANIZATION">Antar</ENAMEX>, the SEC <EVENT eid="e167" class="REPORTING" >said</EVENT>, <EVENT eid="e168" class="OCCURRENCE" >made</EVENT> more than <NUMEX TYPE="MONEY">$60 million</NUMEX> from the <EVENT eid="e169" class="OCCURRENCE" >sale</EVENT> of his shares <SIGNAL sid="s223" >between</SIGNAL> <TIMEX3 tid="t240" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1985" >1985</TIMEX3> <SIGNAL sid="s224" >and</SIGNAL> <TIMEX3 tid="t241" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1987" >1987</TIMEX3>.</s> 
+
+   <s>The <ENAMEX TYPE="ORGANIZATION">Justice Department</ENAMEX> has <EVENT eid="e171" class="OCCURRENCE" >emphasized</EVENT> that the government's fee-forfeiture power is to be <EVENT eid="e173" class="OCCURRENCE" >used</EVENT> sparingly.</s> 
+<s><EVENT eid="e226" class="REPORTING" >According</EVENT> to department policy, prosecutors must make a strong <EVENT eid="e176" class="I_ACTION" >showing</EVENT> that lawyers' fees <EVENT eid="e177" class="OCCURRENCE" >came</EVENT> from assets tainted by illegal profits <SIGNAL sid="s180" >before</SIGNAL> any <EVENT eid="e179" class="I_ACTION" >attempts</EVENT> at <EVENT eid="e181" class="OCCURRENCE" >seizure</EVENT> are <EVENT eid="e183" class="I_ACTION" >made</EVENT>.</s> 
+
+   <s>Still, criminal defense lawyers <EVENT eid="e184" class="I_STATE" >worry</EVENT> that defendants are being <EVENT eid="e185" class="I_STATE" >deprived</EVENT> of their Sixth Amendment <EVENT eid="e227" class="STATE" >right</EVENT> to counsel and a fair <EVENT eid="e188" class="OCCURRENCE" >trial</EVENT> <SIGNAL sid="s189" >if</SIGNAL> the government can <EVENT eid="e190" class="OCCURRENCE" >seize</EVENT> lawyers' fees.</s> 
+<s>They also <EVENT eid="e228" class="I_STATE" >worry</EVENT> that <SIGNAL sid="s192" >if</SIGNAL> the government <EVENT eid="e193" class="I_ACTION" >applies</EVENT> asset-forfeiture laws broadly, the best defense lawyers will be <EVENT eid="e230" class="I_STATE" >unwilling</EVENT> <SIGNAL sid="s195" >to</SIGNAL> <EVENT eid="e196" class="OCCURRENCE" >take</EVENT> criminal cases unless they are <EVENT eid="e198" class="I_STATE" >assured</EVENT> of being <EVENT eid="e199" class="OCCURRENCE" >paid</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1988" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1989" tense="NONE" eventID="e200" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1992" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" polarity="NEG" tense="FUTURE" eventID="e9" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1994" polarity="NEG" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1995" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" modality="may" eiid="ei1997" tense="PRESENT" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei1999" tense="PRESENT" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2000" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PRESENT" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e203" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PRESENT" eventID="e42" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2008" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" modality="could" eiid="ei2009" tense="PAST" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e206" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2013" tense="PAST" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e207" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="PRESENT" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PRESENT" eventID="e67" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2017" tense="PRESENT" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e71" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="NONE" eventID="e72" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2020" tense="PRESENT" eventID="e73" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2021" tense="PRESENT" eventID="e74" />
+<MAKEINSTANCE aspect="NONE" modality="may" eiid="ei2022" tense="PRESENT" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2024" tense="PRESENT" eventID="e84" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2025" tense="NONE" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2026" tense="NONE" eventID="e88" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2027" tense="NONE" eventID="e89" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2028" tense="NONE" eventID="e90" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2029" tense="NONE" eventID="e208" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2030" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="PAST" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" modality="might" eiid="ei2032" tense="NONE" eventID="e210" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2033" tense="NONE" eventID="e98" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2034" tense="PAST" eventID="e100" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2035" tense="NONE" eventID="e214" />
+<MAKEINSTANCE aspect="NONE" modality="could" eiid="ei2036" tense="PAST" eventID="e101" />
+<MAKEINSTANCE aspect="NONE" modality="may" eiid="ei2037" tense="PRESENT" eventID="e104" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2038" tense="PRESENT" eventID="e106" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2039" tense="PRESENT" eventID="e107" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2040" tense="PRESENT" eventID="e112" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2041" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2042" tense="PAST" eventID="e114" />
+<MAKEINSTANCE aspect="NONE" modality="can" eiid="ei2043" tense="PRESENT" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2044" tense="PRESENT" eventID="e118" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2045" tense="PAST" eventID="e119" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2046" tense="NONE" eventID="e121" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2047" tense="PAST" eventID="e123" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2048" tense="PRESENT" eventID="e124" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2049" polarity="NEG" tense="NONE" eventID="e126" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2050" tense="NONE" eventID="e216" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2051" tense="NONE" eventID="e217" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2052" tense="PAST" eventID="e128" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2053" tense="PAST" eventID="e129" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2054" tense="NONE" eventID="e130" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei2055" tense="PAST" eventID="e131" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2056" tense="PRESENT" eventID="e218" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2057" tense="NONE" eventID="e219" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2058" tense="PAST" eventID="e137" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2059" tense="NONE" eventID="e138" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2060" tense="NONE" eventID="e140" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2061" tense="NONE" eventID="e142" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2062" tense="PAST" eventID="e143" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2063" tense="NONE" eventID="e144" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2064" tense="NONE" eventID="e145" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2065" tense="NONE" eventID="e147" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2066" tense="PRESENT" eventID="e148" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2067" tense="NONE" eventID="e149" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2068" tense="NONE" eventID="e150" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2069" tense="NONE" eventID="e152" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2070" tense="NONE" eventID="e154" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2071" tense="PRESENT" eventID="e155" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2072" tense="PAST" eventID="e156" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2073" tense="NONE" eventID="e158" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2074" tense="NONE" eventID="e159" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2075" tense="NONE" eventID="e164" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2076" tense="NONE" eventID="e166" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2077" tense="PAST" eventID="e167" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2078" tense="NONE" eventID="e168" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2079" tense="NONE" eventID="e169" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2080" tense="PRESENT" eventID="e171" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2081" tense="PRESENT" eventID="e173" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2082" tense="NONE" eventID="e226" />
+<MAKEINSTANCE aspect="NONE" modality="must" eiid="ei2083" tense="NONE" eventID="e176" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2084" tense="PAST" eventID="e177" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2085" tense="NONE" eventID="e179" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2086" tense="NONE" eventID="e181" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2087" tense="PRESENT" eventID="e183" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2088" tense="PRESENT" eventID="e184" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2089" tense="PRESENT" eventID="e185" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2090" tense="NONE" eventID="e227" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2091" tense="NONE" eventID="e188" />
+<MAKEINSTANCE aspect="NONE" modality="can" eiid="ei2092" tense="PRESENT" eventID="e190" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2093" tense="PRESENT" eventID="e228" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2094" tense="PRESENT" eventID="e193" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2095" tense="NONE" eventID="e230" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2096" tense="NONE" eventID="e196" />
+<MAKEINSTANCE aspect="NONE" modality="unless" eiid="ei2097" tense="PRESENT" eventID="e198" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2098" tense="NONE" eventID="e199" />
+<TLINK relatedToTime="t232" eventInstanceID="ei1988" relType="INCLUDES" />
+<TLINK relatedToTime="t232" eventInstanceID="ei1989" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1989" eventInstanceID="ei1988" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2096" eventInstanceID="ei2097" relType="BEFORE" />
+<TLINK relatedToTime="t232" eventInstanceID="ei1992" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei1988" eventInstanceID="ei1992" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei1994" eventInstanceID="ei1993" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1997" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1999" eventInstanceID="ei1998" relType="ENDS" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei2001" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2002" signalID="s201" eventInstanceID="ei2001" relType="AFTER" />
+<TLINK relatedToTime="t233" eventInstanceID="ei2002" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2001" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2003" eventInstanceID="ei2002" relType="IDENTITY" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2002" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2005" eventInstanceID="ei2004" relType="BEGINS" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2088" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2009" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2010" eventInstanceID="ei2009" relType="INCLUDES" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2011" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2012" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2012" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2014" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2016" eventInstanceID="ei2015" relType="IDENTITY" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2016" relType="BEFORE" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2020" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2087" eventInstanceID="ei2085" relType="IDENTITY" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2021" relType="BEFORE" />
+<TLINK relatedToTime="t234" eventInstanceID="ei2022" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2024" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2094" eventInstanceID="ei2096" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2028" signalID="s91" eventInstanceID="ei2026" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2028" signalID="s91" eventInstanceID="ei2027" relType="BEFORE" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2029" relType="BEFORE" />
+<TLINK relatedToTime="t235" eventInstanceID="ei2030" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2031" signalID="s209" eventInstanceID="ei2030" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2031" eventInstanceID="ei2034" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2030" eventInstanceID="ei2034" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2035" eventInstanceID="ei2036" relType="AFTER" />
+<TLINK relatedToTime="t236" eventInstanceID="ei2035" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2034" eventInstanceID="ei2038" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2040" eventInstanceID="ei2041" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2038" eventInstanceID="ei2042" relType="IDENTITY" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2042" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2044" signalID="s215" eventInstanceID="ei2043" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2042" eventInstanceID="ei2045" relType="AFTER" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2047" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2047" eventInstanceID="ei2052" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2054" eventInstanceID="ei2053" relType="AFTER" />
+<TLINK relatedToTime="t237" eventInstanceID="ei2058" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2088" eventInstanceID="ei2093" relType="IDENTITY" />
+<TLINK relatedToTime="t237" eventInstanceID="ei2059" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2059" signalID="s220" eventInstanceID="ei2058" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2060" eventInstanceID="ei2059" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2061" signalID="s221" eventInstanceID="ei2062" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2064" eventInstanceID="ei2063" relType="BEFORE" />
+<TLINK signalID="s239" relatedToTime="t238" eventInstanceID="ei2063" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2063" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2058" eventInstanceID="ei2066" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2062" eventInstanceID="ei2066" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2068" signalID="s151" eventInstanceID="ei2067" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2069" signalID="s153" eventInstanceID="ei2067" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2066" signalID="s222" eventInstanceID="ei2070" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2060" signalID="s222" eventInstanceID="ei2070" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2073" eventInstanceID="ei2074" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2074" eventInstanceID="ei2072" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2071" eventInstanceID="ei2077" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2079" eventInstanceID="ei2078" relType="AFTER" />
+<TLINK signalID="s223" relatedToTime="t240" eventInstanceID="ei2079" relType="BEGUN_BY" />
+<TLINK signalID="s224" relatedToTime="t241" eventInstanceID="ei2079" relType="ENDED_BY" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2077" relType="BEFORE" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2080" relType="BEFORE" />
+<TLINK relatedToTime="t232" eventInstanceID="ei2082" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2092" eventInstanceID="ei2089" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2085" signalID="s180" eventInstanceID="ei2083" relType="BEFORE" />
+<SLINK signalID="s3" subordinatedEventInstance="ei1990" eventInstanceID="ei1989" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1991" eventInstanceID="ei1990" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei1993" eventInstanceID="ei1992" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei1997" eventInstanceID="ei1995" relType="EVIDENTIAL" />
+<SLINK signalID="s21" subordinatedEventInstance="ei1998" eventInstanceID="ei1997" relType="MODAL" />
+<SLINK signalID="s25" subordinatedEventInstance="ei2000" eventInstanceID="ei1999" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2091" eventInstanceID="ei2089" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2004" eventInstanceID="ei2003" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2089" eventInstanceID="ei2088" relType="FACTIVE" />
+<SLINK signalID="s204" subordinatedEventInstance="ei2006" eventInstanceID="ei2005" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2008" eventInstanceID="ei2007" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2009" eventInstanceID="ei2011" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2017" eventInstanceID="ei2016" relType="EVIDENTIAL" />
+<SLINK signalID="s70" subordinatedEventInstance="ei2018" eventInstanceID="ei2017" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2019" eventInstanceID="ei2018" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2098" eventInstanceID="ei2097" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2022" eventInstanceID="ei2021" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2023" eventInstanceID="ei2022" relType="MODAL" />
+<SLINK signalID="s85" subordinatedEventInstance="ei2025" eventInstanceID="ei2024" relType="MODAL" />
+<SLINK signalID="s87" subordinatedEventInstance="ei2026" eventInstanceID="ei2025" relType="MODAL" />
+<SLINK signalID="s87" subordinatedEventInstance="ei2027" eventInstanceID="ei2025" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2030" eventInstanceID="ei2029" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2032" eventInstanceID="ei2031" relType="MODAL" />
+<SLINK signalID="s97" subordinatedEventInstance="ei2033" eventInstanceID="ei2032" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2036" eventInstanceID="ei2034" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2090" eventInstanceID="ei2089" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2037" eventInstanceID="ei2036" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2039" eventInstanceID="ei2038" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2040" eventInstanceID="ei2039" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2043" eventInstanceID="ei2042" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2046" eventInstanceID="ei2045" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2048" eventInstanceID="ei2047" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2049" eventInstanceID="ei2048" relType="MODAL" />
+<SLINK signalID="s635" subordinatedEventInstance="ei2050" eventInstanceID="ei2049" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2051" eventInstanceID="ei2050" relType="FACTIVE" />
+<SLINK signalID="s195" subordinatedEventInstance="ei2096" eventInstanceID="ei2095" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2086" eventInstanceID="ei2085" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2095" eventInstanceID="ei2093" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2053" eventInstanceID="ei2052" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2055" eventInstanceID="ei2054" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2056" eventInstanceID="ei2052" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2057" eventInstanceID="ei2056" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2063" eventInstanceID="ei2062" relType="MODAL" />
+<SLINK signalID="s146" subordinatedEventInstance="ei2065" eventInstanceID="ei2064" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2067" eventInstanceID="ei2066" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2072" eventInstanceID="ei2071" relType="MODAL" />
+<SLINK signalID="s157" subordinatedEventInstance="ei2073" eventInstanceID="ei2072" relType="MODAL" />
+<SLINK signalID="s163" subordinatedEventInstance="ei2075" eventInstanceID="ei2074" relType="MODAL" />
+<SLINK signalID="s163" subordinatedEventInstance="ei2076" eventInstanceID="ei2074" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2078" eventInstanceID="ei2077" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2081" eventInstanceID="ei2080" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2083" eventInstanceID="ei2082" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2084" eventInstanceID="ei2083" relType="MODAL" />
+</TimeML>

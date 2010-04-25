@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t27" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0019 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0019. </AN>
+<HL> Business Brief -- Valley Federal SampL:
+@  California SampL Had Charge,
+@  Loss in the Third Quarter </HL>
+<DD> <TIMEX3 tid="t26" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> VFED </CO>
+<IN> EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Valley Federal Savings amp Loan Association</ENAMEX> <EVENT eid="e1" class="OCCURRENCE" >took</EVENT> an <NUMEX TYPE="MONEY">$89.9 million</NUMEX> <EVENT eid="e1994" class="OCCURRENCE" >charge</EVENT> <SIGNAL sid="s1991" >as</SIGNAL> it <EVENT eid="e2" class="REPORTING" >reported</EVENT> a <TIMEX3 tid="t28" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t26" >third-quarter</TIMEX3> <EVENT eid="e1995" class="OCCURRENCE" >loss</EVENT> of <NUMEX TYPE="MONEY">$70.7 million</NUMEX>, or <NUMEX TYPE="MONEY">$12.09</NUMEX> a share.</s> 
+
+   <s>The <ENAMEX TYPE="LOCATION">Van Nuys</ENAMEX>, <ENAMEX TYPE="LOCATION">Calif.</ENAMEX>, thrift <EVENT eid="e3" class="OCCURRENCE" >had</EVENT> net <EVENT eid="e1996" class="OCCURRENCE" >income</EVENT> of <NUMEX TYPE="MONEY">$132,000</NUMEX>, or <NUMEX TYPE="MONEY">three cents</NUMEX> a share, <TIMEX3 tid="t29" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t26" >a year ago</TIMEX3>.</s> 
+
+   <s>The bulk of the pretax <EVENT eid="e1993" class="OCCURRENCE" >charge</EVENT> is a <NUMEX TYPE="MONEY">$62 million</NUMEX> <EVENT eid="e4" class="OCCURRENCE" >write-off</EVENT> of capitalized servicing at the mobile home financing subsidiary, which the company <EVENT eid="e5" class="REPORTING" >said</EVENT> had been a big <EVENT eid="e6" class="OCCURRENCE" >drain</EVENT> on <EVENT eid="e2056" class="OCCURRENCE" >earnings</EVENT>.</s> 
+<s>The company <EVENT eid="e7" class="REPORTING" >said</EVENT> the one-time <EVENT eid="e1999" class="OCCURRENCE" >provision</EVENT> <SIGNAL sid="s9" >would</SIGNAL>  substantially <EVENT eid="e8" class="OCCURRENCE" >eliminate</EVENT> all <TIMEX3 tid="t30" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t26" >future</TIMEX3> <EVENT eid="e2000" class="OCCURRENCE" >losses</EVENT> at the unit.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Valley Federal</ENAMEX> <SIGNAL sid="s2099" >also</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >added</EVENT> <NUMEX TYPE="MONEY">$18 million</NUMEX>  to realestate loan reserves and <EVENT eid="e12" class="OCCURRENCE" >eliminated</EVENT> <NUMEX TYPE="MONEY">$9.9 million</NUMEX> of good will.</s> 
+
+   <s>The thrift <EVENT eid="e14" class="REPORTING" >said</EVENT> that "<SIGNAL sid="s16" >after</SIGNAL> these <EVENT eid="e15" class="OCCURRENCE" >charges</EVENT> and <EVENT eid="e2126" class="I_ACTION" >assuming</EVENT> <SIGNAL sid="s2135" >no</SIGNAL> dramatic <EVENT eid="e1997" class="OCCURRENCE" >fluctuation</EVENT> in interest rates, the association <EVENT eid="e2001" class="I_STATE" >expects</EVENT>  <SIGNAL sid="s2142" >to</SIGNAL> <EVENT eid="e20" class="OCCURRENCE" >achieve</EVENT> near record <EVENT eid="e1998" class="OCCURRENCE" >earnings</EVENT> <SIGNAL sid="s2153" >in</SIGNAL> <TIMEX3 tid="t31" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1990" >1990</TIMEX3>."</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Valley Federal</ENAMEX>  is  <TIMEX3 tid="t2003" type="TIME" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t26" >currently</TIMEX3> being <EVENT eid="e21" class="OCCURRENCE" >examined</EVENT> by regulators.</s> 
+<s>New loans <EVENT eid="e22" class="ASPECTUAL" >continue</EVENT>  to <EVENT eid="e23" class="OCCURRENCE" >slow</EVENT>; they were <NUMEX TYPE="MONEY">$6.6 million</NUMEX> <SIGNAL sid="s2185" >in</SIGNAL> <TIMEX3 tid="t32" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t26" >the quarter</TIMEX3> compared with <NUMEX TYPE="MONEY">$361.8 million</NUMEX> <TIMEX3 tid="t33" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t26" >a year ago</TIMEX3>.</s> 
+<s>The thrift <EVENT eid="e25" class="STATE" >has</EVENT> <EVENT eid="e2002" class="STATE" >assets</EVENT> of <NUMEX TYPE="MONEY">$3.2 billion</NUMEX>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2202" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2203" tense="NONE" eventID="e1994" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2204" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2205" tense="NONE" eventID="e1995" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2206" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2207" tense="NONE" eventID="e1996" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2208" tense="NONE" eventID="e1993" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2209" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2210" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2211" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2212" tense="NONE" eventID="e2056" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2213" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2214" tense="NONE" eventID="e1999" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2215" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2216" tense="NONE" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2217" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2218" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2219" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2220" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2221" tense="NONE" eventID="e2126" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2222" tense="NONE" eventID="e1997" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2223" tense="PRESENT" eventID="e2001" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2224" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2225" tense="NONE" eventID="e1998" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2226" tense="PRESENT" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2227" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2228" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2229" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2230" tense="NONE" eventID="e2002" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2229" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2230" eventInstanceID="ei2229" relType="IDENTITY" />
+<TLINK relatedToTime="t29" timeID="t33" relType="IDENTITY" />
+<TLINK relatedToTime="t28" timeID="t32" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2227" timeID="t2003" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2226" timeID="t2003" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2220" signalID="s16" eventInstanceID="ei2223" relType="AFTER" />
+<TLINK relatedToTime="t26" timeID="t27" relType="IDENTITY" />
+<TLINK relatedToTime="t26" timeID="t2003" relType="INCLUDES" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2213" relType="AFTER" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2219" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2217" signalID="s2099" eventInstanceID="ei2218" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2202" signalID="s2099" eventInstanceID="ei2217" relType="SIMULTANEOUS" />
+<TLINK signalID="s2153" relatedToTime="t31" eventInstanceID="ei2224" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2216" timeID="t30" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2203" eventInstanceID="ei2202" relType="IDENTITY" />
+<TLINK relatedToTime="t26" timeID="t30" relType="AFTER" />
+<TLINK relatedToTime="t30" eventInstanceID="ei2215" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2204" signalID="s1991" eventInstanceID="ei2202" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t26" eventInstanceID="ei2204" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2205" timeID="t28" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2207" eventInstanceID="ei2206" relType="IDENTITY" />
+<TLINK relatedToTime="t29" eventInstanceID="ei2206" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t26" timeID="t29" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2203" eventInstanceID="ei2208" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2209" eventInstanceID="ei2208" relType="INCLUDES" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2212" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2210" eventInstanceID="ei2213" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei2221" eventInstanceID="ei2219" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2216" eventInstanceID="ei2215" relType="COUNTER_FACTIVE" />
+<SLINK signalID="s2135" subordinatedEventInstance="ei2222" eventInstanceID="ei2221" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2223" eventInstanceID="ei2219" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2225" eventInstanceID="ei2224" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2205" eventInstanceID="ei2204" relType="EVIDENTIAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei2215" eventInstanceID="ei2214" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2211" eventInstanceID="ei2210" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2212" eventInstanceID="ei2211" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei2214" eventInstanceID="ei2213" relType="EVIDENTIAL" />
+<SLINK signalID="s2142" subordinatedEventInstance="ei2224" eventInstanceID="ei2223" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2228" eventInstanceID="ei2227" relType="CONTINUES" />
+</TimeML>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0055 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0055. </AN>
+<HL> Business Brief -- Oshkosh Truck Corp.:
+@  Firm Says Net Fell Sharply
+@  In Its Fiscal Fourth Quarter </HL>
+<DD> <TIMEX3 tid="t2022" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> OTRKB </CO>
+<IN> EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Oshkosh Truck Corp.</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Oshkosh</ENAMEX>, <ENAMEX TYPE="LOCATION">Wis.</ENAMEX>, <EVENT eid="e17" class="REPORTING" >estimated</EVENT> earnings for its <TIMEX3 tid="t2027" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1998-Q4" anchorTimeID="t2022" >fourth quarter</TIMEX3> <SIGNAL sid="s20" >ended</SIGNAL> <TIMEX3 tid="t2023" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09" anchorTimeID="t2022" >Sept. 30</TIMEX3> <EVENT eid="e2" class="OCCURRENCE" >fell</EVENT> <NUMEX TYPE="PERCENT">50%</NUMEX> to <NUMEX TYPE="PERCENT">75%</NUMEX> below the year-earlier <NUMEX TYPE="MONEY">$4.5 million</NUMEX>, or <NUMEX TYPE="MONEY">51 cents</NUMEX> a share.</s> 
+
+   <s>The truck maker <EVENT eid="e3" class="REPORTING" >said</EVENT> the significant <EVENT eid="e21" class="OCCURRENCE" >drop</EVENT> in net income  will <EVENT eid="e4" class="I_ACTION" >result</EVENT> in lower earnings for <TIMEX3 tid="t2024" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989" anchorTimeID="t2022" >the fiscal year</TIMEX3>.</s> 
+<s><SIGNAL sid="s22" >In</SIGNAL> <TIMEX3 tid="t37" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989" >fiscal 1988</TIMEX3>, the company <EVENT eid="e5" class="OCCURRENCE" >earned</EVENT> <NUMEX TYPE="MONEY">$17.3 million</NUMEX>, or <NUMEX TYPE="MONEY">$1.92</NUMEX> a share, on revenue of <NUMEX TYPE="MONEY">$352.9 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Oshkosh Truck</ENAMEX> <EVENT eid="e6" class="REPORTING" >attributed</EVENT> the <EVENT eid="e26" class="OCCURRENCE" >downturn</EVENT> in its earnings to higher <EVENT eid="e29" class="OCCURRENCE" >start-up</EVENT> costs of its new chassis division, a softer motor-home market and higher administrative costs of compliance with government contractor regulations.</s> 
+
+   <s>The company <EVENT eid="e7" class="REPORTING" >said</EVENT> it is <SIGNAL sid="s38" >in the process of</SIGNAL> <EVENT eid="e10" class="OCCURRENCE" >phasing</EVENT> out <ENAMEX TYPE="PERSON">John Deere</ENAMEX>, its current source of production for midsized motor home chassis.</s> 
+<s><SIGNAL sid="s30" >In anticipation of</SIGNAL> the<EVENT eid="e27" class="OCCURRENCE" > start-up</EVENT> of its new factory, the company <EVENT eid="e11" class="REPORTING" >said</EVENT> a larger-than-normal chassis supply  has  been <EVENT eid="e12" class="OCCURRENCE" >built</EVENT>  to <EVENT eid="e13" class="I_ACTION" >carry</EVENT> it <SIGNAL sid="s15" >through</SIGNAL> the <EVENT eid="e14" class="OCCURRENCE" >transition</EVENT> period.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2078" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2079" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2080" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2081" tense="NONE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2082" tense="FUTURE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2083" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2084" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2085" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2086" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2087" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2088" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2089" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2090" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2091" tense="PRESENT" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2092" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2093" tense="NONE" eventID="e14" />
+<TLINK relatedToTime="t2022" eventInstanceID="ei2078" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2078" eventInstanceID="ei2080" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2082" eventInstanceID="ei2081" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2083" signalID="s22" timeID="t37" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2086" eventInstanceID="ei2085" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2078" eventInstanceID="ei2087" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2088" eventInstanceID="ei2089" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2087" eventInstanceID="ei2090" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2093" eventInstanceID="ei2088" relType="SIMULTANEOUS" />
+<TLINK signalID="s20" relatedToTime="t2023" timeID="t2027" relType="ENDED_BY" />
+<TLINK relatedToTime="t2024" eventInstanceID="ei2082" relType="IS_INCLUDED" />
+<TLINK signalID="s38" relatedToTime="t2022" eventInstanceID="ei2088" relType="DURING" />
+<TLINK relatedToEventInstance="ei2090" signalID="s30" eventInstanceID="ei2091" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2093" signalID="s15" eventInstanceID="ei2092" relType="INCLUDES" />
+<SLINK subordinatedEventInstance="ei2079" eventInstanceID="ei2078" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2082" eventInstanceID="ei2080" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2085" eventInstanceID="ei2084" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2088" eventInstanceID="ei2087" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2091" eventInstanceID="ei2090" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2092" eventInstanceID="ei2091" relType="MODAL" />
+</TimeML>

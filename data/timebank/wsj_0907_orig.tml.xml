@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0152 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0152. </AN>
+<HL> Chandler Insurance Earnings </HL>
+<DD> <TIMEX3 tid="t21" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CHANF </CO>
+<DATELINE> GRAND CAYMAN, Cayman Islands  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Chandler Insurance Co.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_STATE" >expects</EVENT> to <EVENT eid="e4" class="REPORTING" >report</EVENT> <TIMEX3 tid="t22" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t21" >third-quarter</TIMEX3> net income <EVENT eid="e5" class="OCCURRENCE" >jumped</EVENT> <NUMEX TYPE="PERCENT">97%</NUMEX> to <NUMEX TYPE="MONEY">$2.8 million</NUMEX>, or <NUMEX TYPE="MONEY">51 cents</NUMEX> a share.</s> 
+
+   <s><SIGNAL sid="s24" >In</SIGNAL> <TIMEX3 tid="t60" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t22" >the year-earlier quarter</TIMEX3>, the automobile and trucking insurer <EVENT eid="e6" class="STATE" >had</EVENT> <EVENT eid="e25" class="STATE" >earnings</EVENT> of <NUMEX TYPE="MONEY">$1.4 million</NUMEX>, or <NUMEX TYPE="MONEY">48 cents</NUMEX> a share on a restated basis, on revenue of <NUMEX TYPE="MONEY">$16.5 million</NUMEX>.</s> 
+<s>In an <EVENT eid="e7" class="OCCURRENCE" >interview</EVENT>, <ENAMEX TYPE="PERSON">W. Brent LeGere, chairman and chief executive officer</ENAMEX>, <EVENT eid="e8" class="REPORTING" >said</EVENT> he <EVENT eid="e9" class="I_STATE" >expects</EVENT> revenue <SIGNAL sid="s27" >in</SIGNAL> <TIMEX3 tid="t26" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t21" >the latest quarter</TIMEX3> to <EVENT eid="e11" class="OCCURRENCE" >total</EVENT> about <NUMEX TYPE="MONEY">$28 million</NUMEX>.</s> 
+<s>The earnings-per-share figures reflect a <NUMEX TYPE="PERCENT">25%</NUMEX> stock <EVENT eid="e29" class="STATE" >dividend</EVENT> <SIGNAL sid="s30" >in</SIGNAL> <TIMEX3 tid="t31" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-06" >June 1989</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Mr. LeGere</ENAMEX> <EVENT eid="e14" class="I_ACTION" >attributed</EVENT> the earnings <EVENT eid="e15" class="OCCURRENCE" >increase</EVENT> to <EVENT eid="e17" class="OCCURRENCE" >growth</EVENT> in the company's longhaul trucking insurance lines and the <EVENT eid="e32" class="I_STATE" >ability</EVENT> <SIGNAL sid="s19" >to</SIGNAL> <EVENT eid="e20" class="ASPECTUAL" >keep</EVENT> premium rates <EVENT eid="e33" class="STATE" >firm</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei130" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei131" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei132" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei133" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei134" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei135" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei136" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei137" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei138" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei139" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei140" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei141" tense="NONE" eventID="e33" />
+<TLINK relatedToTime="t21" eventInstanceID="ei131" relType="BEFORE" />
+<TLINK relatedToTime="t21" eventInstanceID="ei125" relType="BEFORE" />
+<TLINK relatedToTime="t22" eventInstanceID="ei128" relType="DURING" />
+<TLINK signalID="s24" relatedToTime="t60" eventInstanceID="ei129" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei130" eventInstanceID="ei129" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei132" eventInstanceID="ei131" relType="INCLUDES" />
+<TLINK signalID="s27" relatedToTime="t26" eventInstanceID="ei134" relType="ENDS" />
+<TLINK signalID="s30" relatedToTime="t31" eventInstanceID="ei135" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei131" eventInstanceID="ei136" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei138" eventInstanceID="ei137" relType="AFTER" />
+<TLINK relatedToEventInstance="ei139" eventInstanceID="ei137" relType="AFTER" />
+<TLINK relatedToEventInstance="ei138" eventInstanceID="ei139" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei126" eventInstanceID="ei125" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei127" eventInstanceID="ei126" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei128" eventInstanceID="ei127" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei133" eventInstanceID="ei132" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei134" eventInstanceID="ei133" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei137" eventInstanceID="ei136" relType="FACTIVE" />
+<SLINK signalID="s19" subordinatedEventInstance="ei140" eventInstanceID="ei139" relType="MODAL" />
+<ALINK relatedToEventInstance="ei141" eventInstanceID="ei140" relType="CONTINUES" />
+</TimeML>

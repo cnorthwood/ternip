@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0188 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0188. </AN>
+<HL> Pacific First Financial Corp. </HL>
+<DD> <TIMEX3 tid="t9" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> PFFS T.RYL </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+SAVINGS AND LOANS, THRIFTS, CREDIT UNIONS (SAL) </IN>
+<DATELINE> SEATTLE  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Pacific First Financial Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> shareholders <EVENT eid="e2" class="OCCURRENCE" >approved</EVENT> its <EVENT eid="e8" class="OCCURRENCE" >acquisition</EVENT> by <ENAMEX TYPE="ORGANIZATION">Royal Trustco Ltd.</ENAMEX> of <ENAMEX TYPE="LOCATION">Toronto</ENAMEX> for <NUMEX TYPE="MONEY">$27</NUMEX> a share, or <NUMEX TYPE="MONEY">$212 million</NUMEX>.</s> 
+
+   <s>The thrift holding company <EVENT eid="e4" class="REPORTING" >said</EVENT> it <EVENT eid="e5" class="I_STATE" >expects</EVENT>  to <EVENT eid="e6" class="OCCURRENCE" >obtain</EVENT> regulatory <EVENT eid="e19" class="OCCURRENCE" >approval</EVENT> and <EVENT eid="e7" class="ASPECTUAL" >complete</EVENT> the <EVENT eid="e20" class="OCCURRENCE" >transaction</EVENT> <SIGNAL sid="s12" >by</SIGNAL> <TIMEX3 tid="t10" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-31" anchorTimeID="t9" >year-end</TIMEX3>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei73" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei74" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei75" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei76" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei77" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei78" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei79" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei80" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei81" tense="NONE" eventID="e20" />
+<TLINK signalID="s12" relatedToTime="t10" eventInstanceID="ei80" relType="BEFORE" />
+<TLINK relatedToTime="t9" eventInstanceID="ei73" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei73" eventInstanceID="ei74" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei75" eventInstanceID="ei74" relType="AFTER" />
+<TLINK relatedToEventInstance="ei73" eventInstanceID="ei76" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei81" eventInstanceID="ei80" relType="ENDS" />
+<SLINK subordinatedEventInstance="ei74" eventInstanceID="ei73" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei77" eventInstanceID="ei76" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei78" eventInstanceID="ei77" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei79" eventInstanceID="ei78" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei80" eventInstanceID="ei77" relType="MODAL" />
+</TimeML>

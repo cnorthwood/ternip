@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> APW<TIMEX3 tid="t30" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1998-04-18" >19980418</TIMEX3>.0210 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t28" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-04-18T06:07:00" >04/18/1998 06:07:00</TIMEX3> </DATE_TIME>
+<HEADER>
+w1416 Cx1f wstm-
+r i Cx13  Cx11  BC-Hungary-Astronaut     04-18 0248
+</HEADER>
+<BODY>
+<SLUG> BC-Hungary-Astronaut </SLUG>
+<HEADLINE>
+First and only Hungarian astronaut moving to the United States
+</HEADLINE>
+
+<TEXT>
+<s><ENAMEX TYPE="LOCATION">BUDAPEST</ENAMEX>, <ENAMEX TYPE="LOCATION">Hungary</ENAMEX> (<ENAMEX TYPE="ORGANIZATION">AP</ENAMEX>) _ Tired of  being sidelined, <ENAMEX TYPE="PERSON">Hungarian
+astronaut Bertalan Farkas</ENAMEX>  is <EVENT eid="e2" class="OCCURRENCE" >leaving</EVENT> for the <ENAMEX TYPE="LOCATION">United States</ENAMEX>  <SIGNAL sid="s1997" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >start</EVENT>
+a new career, he <EVENT eid="e4" class="REPORTING" >said</EVENT> <TIMEX3 tid="t31" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-04-18" anchorTimeID="t28" >Saturday</TIMEX3>.</s>
+<s>``Being <CARDINAL>48</CARDINAL> is too early  to  be retired,'' a <ENAMEX TYPE="PERSON">fit-looking Farkas</ENAMEX>
+<EVENT eid="e7" class="REPORTING" >said</EVENT> on state TV's morning talk show.</s>
+<s>With <ENAMEX TYPE="PERSON">American astronaut Jon McBride</ENAMEX>, <ENAMEX TYPE="PERSON">Farkas</ENAMEX> <EVENT eid="e8" class="OCCURRENCE" >set</EVENT> up an
+American-Hungarian joint venture <EVENT eid="e9" class="STATE" >called</EVENT> <ENAMEX TYPE="ORGANIZATION">Orion</ENAMEX> 1980, manufacturing
+space-travel related technology.</s>
+<s><ENAMEX TYPE="PERSON">Farkas</ENAMEX>  will <EVENT eid="e11" class="OCCURRENCE" >move</EVENT> to the company's <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> headquarters.</s>
+<s><ENAMEX TYPE="PERSON">Farkas</ENAMEX>, an air force captain,  was <EVENT eid="e12" class="OCCURRENCE" >sent</EVENT> into space on board the
+Soyuz <CARDINAL>36</CARDINAL> on <TIMEX3 tid="t33" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1980-05-26" >May 26, 1980</TIMEX3>.</s> <s>He <EVENT eid="e14" class="OCCURRENCE" >spent</EVENT> <TIMEX3 tid="t34" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P6D" ><CARDINAL>six</CARDINAL> days</TIMEX3> aboard the Salyut <CARDINAL>6</CARDINAL>
+spacecraft with <CARDINAL>three</CARDINAL> Soviet astronauts, <ENAMEX TYPE="PERSON">Valery Kubasov</ENAMEX>, <ENAMEX TYPE="PERSON">Leonid
+Popov</ENAMEX> and <ENAMEX TYPE="PERSON">Valery Riumin</ENAMEX>.</s>
+<s><ENAMEX TYPE="PERSON">McBride, <CARDINAL>54</CARDINAL></ENAMEX>, of <ENAMEX TYPE="LOCATION">Lewisburg</ENAMEX>, <ENAMEX TYPE="LOCATION">West Virginia</ENAMEX>, was <EVENT eid="e2000" class="STATE" >part</EVENT> of a
+seven-member crew aboard the Orbiter Challenger in <TIMEX3 tid="t35" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1984-10" >October 1984</TIMEX3> and
+<SIGNAL sid="s2001" >later</SIGNAL> <EVENT eid="e15" class="I_ACTION" >served</EVENT> as <EVENT eid="e2008" class="STATE" >assistant administrator</EVENT> for congressional relations
+for <ENAMEX TYPE="ORGANIZATION">NASA</ENAMEX>.</s>
+<s><ENAMEX TYPE="PERSON">Farkas</ENAMEX> <EVENT eid="e16" class="I_ACTION" >expressed</EVENT> the <EVENT eid="e2003" class="I_STATE" >hope</EVENT> he  <TIMEX3 tid="t36" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t28" >one day</TIMEX3> <EVENT eid="e17" class="ASPECTUAL" >follow</EVENT> in the
+footsteps of fellow <ENAMEX TYPE="PERSON">astronaut John Glenn</ENAMEX>, who at <CARDINAL>77</CARDINAL> is about  to <EVENT eid="e21" class="OCCURRENCE" >go</EVENT>
+into space again.</s>
+<s>On <TIMEX3 tid="t37" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1995-05-22" >May 22, 1995</TIMEX3>, <ENAMEX TYPE="PERSON">Farkas</ENAMEX>  was <EVENT eid="e22" class="I_ACTION" >made</EVENT> a <EVENT eid="e2007" class="STATE" >brigadier general</EVENT>, and <TIMEX3 tid="t38" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1996" anchorTimeID="t37" >the
+following year</TIMEX3> he  was <EVENT eid="e23" class="I_ACTION" >appointed</EVENT> <EVENT eid="e2010" class="STATE" >military attache</EVENT> at the Hungarian
+embassy in <ENAMEX TYPE="LOCATION">Washington</ENAMEX>.</s>
+<s>However , <EVENT eid="e24" class="OCCURRENCE" >cited</EVENT> by <ENAMEX TYPE="LOCATION">District of Columbia</ENAMEX> traffic police in
+<TIMEX3 tid="t39" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1997-12" anchorTimeID="t28" >December</TIMEX3> for <EVENT eid="e25" class="OCCURRENCE" >driving</EVENT> under the influence of alcohol, <ENAMEX TYPE="PERSON">Farkas</ENAMEX>  was <EVENT eid="e26" class="OCCURRENCE" >ordered</EVENT> home and <EVENT eid="e27" class="OCCURRENCE" >retired</EVENT>.</s>
+<s>(<ENAMEX TYPE="ORGANIZATION">ab</ENAMEX>/<ENAMEX TYPE="LOCATION">dc</ENAMEX>)</s>
+</TEXT>
+(PROFILE
+(WS SL:BC-Hungary-Astronaut; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(LANG:ENGLISH;))
+)
+</BODY>
+<TRAILER>
+<s>AP-NY-<TIMEX3 tid="t29" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-04-18T06:07" >04-18-98 0607EDT</TIMEX3></s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2126" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2127" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2128" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2129" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2130" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2131" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2132" tense="FUTURE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2133" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2134" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2135" tense="PAST" eventID="e2000" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2136" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2137" tense="NONE" eventID="e2008" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2138" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2139" tense="NONE" eventID="e2003" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2140" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2141" tense="FUTURE" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2142" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2143" tense="NONE" eventID="e2007" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2144" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2145" tense="NONE" eventID="e2010" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2146" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2147" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2148" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2149" tense="PAST" eventID="e27" />
+<TLINK relatedToEventInstance="ei2128" eventInstanceID="ei2126" relType="AFTER" />
+<TLINK relatedToTime="t31" eventInstanceID="ei2128" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2129" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2148" eventInstanceID="ei2149" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2131" eventInstanceID="ei2130" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2130" relType="BEFORE" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2132" relType="AFTER" />
+<TLINK relatedToTime="t33" eventInstanceID="ei2133" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t34" eventInstanceID="ei2134" relType="DURING" />
+<TLINK relatedToTime="t35" eventInstanceID="ei2135" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2135" signalID="s2001" eventInstanceID="ei2136" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2140" timeID="t36" relType="INCLUDES" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2138" relType="BEFORE" />
+<TLINK relatedToTime="t28" eventInstanceID="ei2141" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2142" timeID="t37" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2144" timeID="t38" relType="INCLUDES" />
+<TLINK relatedToTime="t39" eventInstanceID="ei2146" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2146" eventInstanceID="ei2147" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2146" eventInstanceID="ei2148" relType="AFTER" />
+<SLINK signalID="s1997" subordinatedEventInstance="ei2127" eventInstanceID="ei2126" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2137" eventInstanceID="ei2136" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2139" eventInstanceID="ei2138" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2140" eventInstanceID="ei2139" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2143" eventInstanceID="ei2142" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei2145" eventInstanceID="ei2144" relType="FACTIVE" />
+</TimeML>

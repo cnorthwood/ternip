@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0050 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0050. </AN>
+<HL> Provigo Will Sell Non-Food Operations
+@  To Concentrate on Grocery Business
+@  ----
+@  By G. Pierre Goad
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t140" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> T.PGI WNEWS </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> MONTREAL  </DATELINE>
+<TEXT>
+   <s>In a stunning <EVENT eid="e1" class="OCCURRENCE" >shift</EVENT> in direction, <ENAMEX TYPE="ORGANIZATION">Provigo Inc.</ENAMEX> <EVENT eid="e3" class="REPORTING" >said</EVENT> it will <EVENT eid="e4" class="OCCURRENCE" >sell</EVENT> all its non-food operations <SIGNAL sid="s6" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >concentrate</EVENT> solely on its retail and wholesale grocery business.</s> 
+<s>The non-food operations <EVENT eid="e12" class="OCCURRENCE" >accounted</EVENT> for about <NUMEX TYPE="PERCENT">27%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>'s <NUMEX TYPE="MONEY">7.38 billion Canadian dollars</NUMEX> (<ENAMEX TYPE="LOCATION">US</ENAMEX><NUMEX TYPE="MONEY">$6.3 billion</NUMEX>) in sales in <TIMEX3 tid="t177" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t140" >the latest fiscal year</TIMEX3>.</s> 
+
+   <s>In a related <EVENT eid="e14" class="OCCURRENCE" >move</EVENT>, <ENAMEX TYPE="PERSON">Pierre Lortie, chairman and chief executive</ENAMEX>, <EVENT eid="e15" class="OCCURRENCE" >resigned</EVENT>.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Lortie</ENAMEX> <EVENT eid="e16" class="OCCURRENCE" >joined</EVENT> <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX> <SIGNAL sid="s142" >in</SIGNAL> <TIMEX3 tid="t141" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1985" >1985</TIMEX3> and <EVENT eid="e17" class="OCCURRENCE" >spearheaded</EVENT> the company's <EVENT eid="e18" class="OCCURRENCE" >drive</EVENT> <SIGNAL sid="s19" >to</SIGNAL> <EVENT eid="e20" class="OCCURRENCE" >grow</EVENT> outside its traditional food business.</s> 
+<s>He <SIGNAL sid="s23" >could</SIGNAL> <SIGNAL sid="s24" >n't</SIGNAL> be <EVENT eid="e22" class="OCCURRENCE" >reached</EVENT> for <EVENT eid="e25" class="OCCURRENCE" >comment</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Bertin Nadeau</ENAMEX>, newly <EVENT eid="e26" class="OCCURRENCE" >appointed</EVENT> chairman and interim chief executive of <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>, <SIGNAL sid="s28" >would</SIGNAL> <SIGNAL sid="s29" >n't</SIGNAL> <EVENT eid="e27" class="REPORTING" >say</EVENT> <SIGNAL sid="s30" >if</SIGNAL> <ENAMEX TYPE="PERSON">Mr. Lortie</ENAMEX> was <EVENT eid="e31" class="I_ACTION" >asked</EVENT> <SIGNAL sid="s32" >to</SIGNAL> <EVENT eid="e33" class="OCCURRENCE" >leave</EVENT>.</s> 
+<s>"Mr. <ENAMEX TYPE="ORGANIZATION">
+Lortie</ENAMEX> <EVENT eid="e34" class="OCCURRENCE" >felt</EVENT> less pertinent," <ENAMEX TYPE="PERSON">Mr. Nadeau</ENAMEX> <EVENT eid="e35" class="REPORTING" >said</EVENT>, <EVENT eid="e242" class="OCCURRENCE" >given</EVENT> the <EVENT eid="e37" class="I_ACTION" >decision</EVENT> <SIGNAL sid="s38" >to</SIGNAL> <EVENT eid="e39" class="OCCURRENCE" >dump</EVENT> <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>'s non-food operations.</s> 
+<s>"At this stage it was <EVENT eid="e41" class="OCCURRENCE" >felt</EVENT> I was perhaps more pertinent as chief executive."</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Nadeau</ENAMEX> also is chairman and chief executive of <ENAMEX TYPE="ORGANIZATION">Unigesco Inc.</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>'s <EVENT eid="e42" class="STATE" >controlling</EVENT> shareholder.</s> 
+
+   <s>At a news conference, <ENAMEX TYPE="PERSON">Mr. Nadeau</ENAMEX> <EVENT eid="e43" class="REPORTING" >said</EVENT> the <EVENT eid="e44" class="OCCURRENCE" >sale</EVENT> of the <CARDINAL>three</CARDINAL> non-food businesses, which <EVENT eid="e275" class="STATE" >account</EVENT> for nearly half the company's C$<CARDINAL>900 million</CARDINAL> in assets, <SIGNAL sid="s48" >should</SIGNAL> be <EVENT eid="e47" class="ASPECTUAL" >completed</EVENT> in a "matter of months."</s> 
+<s>The <CARDINAL>three</CARDINAL> units are a nationwide pharmaceutical and health-products distributor, a small sporting-goods chain, and a combination catalog showroom and toy-store chain.</s> 
+
+   <s>Investors and analysts <EVENT eid="e50" class="OCCURRENCE" >applauded</EVENT> the <EVENT eid="e51" class="OCCURRENCE" >news</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX> was the most active industrial stock on the <ENAMEX TYPE="ORGANIZATION">Montreal Exchange</ENAMEX>, where it <EVENT eid="e52" class="OCCURRENCE" >closed</EVENT> at <EVENT eid="e143" class="STATE" >C$<CARDINAL>9.75</CARDINAL></EVENT> (<EVENT eid="e144" class="STATE" ><ENAMEX TYPE="LOCATION">US</ENAMEX><NUMEX TYPE="MONEY">$8.32</NUMEX></EVENT>), up <NUMEX TYPE="MONEY">75 Canadian cents</NUMEX>.</s> 
+
+   <s>"I <EVENT eid="e53" class="I_STATE" >think</EVENT> it's a pretty positive <EVENT eid="e146" class="OCCURRENCE" >development</EVENT>," <EVENT eid="e55" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Ross Cowan</ENAMEX>, a financial analyst with <ENAMEX TYPE="ORGANIZATION">Levesque Beaubien Geoffrion Inc.</ENAMEX>, of the <EVENT eid="e56" class="OCCURRENCE" >decision</EVENT> <SIGNAL sid="s57" >to</SIGNAL> <EVENT eid="e58" class="OCCURRENCE" >concentrate</EVENT> on groceries.</s> 
+<s>Mr. <ENAMEX TYPE="ORGANIZATION">Lortie</ENAMEX>'s <EVENT eid="e59" class="OCCURRENCE" >departure</EVENT>, while sudden, was <EVENT eid="e61" class="PERCEPTION" >seen</EVENT> as <EVENT eid="e328" class="STATE" >inevitable</EVENT> in light of the <EVENT eid="e63" class="OCCURRENCE" >shift</EVENT> in strategy.</s> 
+<s>"The non-food operations were <ENAMEX TYPE="ORGANIZATION">largely</ENAMEX> Mr. <ENAMEX TYPE="ORGANIZATION">Lortie</ENAMEX>'s creation {and} his strategy did <SIGNAL sid="s67" >n't</SIGNAL> <EVENT eid="e66" class="OCCURRENCE" >work</EVENT>," <EVENT eid="e68" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Steven Holt</ENAMEX>, a financial analyst with <ENAMEX TYPE="ORGANIZATION">Midland Doherty Ltd. 
+
+   Provigo</ENAMEX>'s profit record over <TIMEX3 tid="t147" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P2Y" anchorTimeID="t140" >the past two years</TIMEX3> <EVENT eid="e70" class="OCCURRENCE" >tarnished</EVENT> the company's and Mr. <ENAMEX TYPE="ORGANIZATION">Lortie</ENAMEX>'s reputations.</s> 
+<s>For <TIMEX3 tid="t148" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P6M" >the <CARDINAL>six</CARDINAL> months</TIMEX3> <EVENT eid="e71" class="ASPECTUAL" >ended</EVENT> <TIMEX3 tid="t149" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-08-12" anchorTimeID="t140" >Aug. 12</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX> <EVENT eid="e72" class="OCCURRENCE" >posted</EVENT> net income of <EVENT eid="e152" class="STATE" >C$<CARDINAL>6.5 million</CARDINAL></EVENT>, or <NUMEX TYPE="MONEY">eight Canadian cents</NUMEX> a share, compared with <EVENT eid="e153" class="STATE" >C$<CARDINAL>18.1 million</CARDINAL></EVENT>, or <NUMEX TYPE="MONEY">21 Canadian cents</NUMEX> a share, <TIMEX3 tid="t150" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-08-12" anchorTimeID="t149" >a year earlier</TIMEX3>.</s> 
+<s>Sales were <EVENT eid="e154" class="STATE" >C$<CARDINAL>4.2 billion</CARDINAL></EVENT> compared with <EVENT eid="e155" class="STATE" >C$<CARDINAL>3.7 billion</CARDINAL></EVENT>.</s> 
+<s><TIMEX3 tid="t151" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09" anchorTimeID="t140" >Last month</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Canadian Bond Rating Service</ENAMEX> <EVENT eid="e76" class="OCCURRENCE" >downgraded</EVENT> <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>'s commercial paper and debentures because of its lackluster <EVENT eid="e79" class="OCCURRENCE" >performance</EVENT>.</s> 
+
+   <s>Analysts are <EVENT eid="e157" class="I_STATE" >skeptical</EVENT> <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX> will be able <SIGNAL sid="s80" >to</SIGNAL> <EVENT eid="e81" class="OCCURRENCE" >sell</EVENT> the non-food businesses as a group for at least book value, and are <EVENT eid="e84" class="I_STATE" >expecting</EVENT> <EVENT eid="e158" class="OCCURRENCE" >write-downs</EVENT>.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Nadeau</ENAMEX> <EVENT eid="e85" class="REPORTING" >said</EVENT> he <SIGNAL sid="s87" >could</SIGNAL> <SIGNAL sid="s88" >n't</SIGNAL> yet <EVENT eid="e86" class="REPORTING" >say</EVENT> <SIGNAL sid="s89" >if</SIGNAL> the sale prices <SIGNAL sid="s91" >would</SIGNAL> <EVENT eid="e90" class="OCCURRENCE" >match</EVENT> book values.</s> 
+<s>He <EVENT eid="e92" class="REPORTING" >said</EVENT> all <CARDINAL>three</CARDINAL> non-food operations are <EVENT eid="e156" class="STATE" >profitable</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Mr. Nadeau</ENAMEX> <EVENT eid="e94" class="REPORTING" >said</EVENT> <EVENT eid="e95" class="OCCURRENCE" >discussions</EVENT> are under <EVENT eid="e96" class="OCCURRENCE" >way</EVENT> with potential purchasers of each of the units.</s> 
+<s>He <EVENT eid="e97" class="OCCURRENCE" >declined</EVENT> <SIGNAL sid="s98" >to</SIGNAL> <EVENT eid="e99" class="REPORTING" >confirm</EVENT> or <EVENT eid="e100" class="OCCURRENCE" >deny</EVENT> <EVENT eid="e101" class="OCCURRENCE" >reports</EVENT> that <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX> executive Henri Roy</ENAMEX> is <EVENT eid="e102" class="I_ACTION" >trying</EVENT> <SIGNAL sid="s103" >to</SIGNAL> <EVENT eid="e104" class="OCCURRENCE" >put</EVENT> together a management <EVENT eid="e159" class="OCCURRENCE" >buy-out</EVENT> of the catalogue showroom unit.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Roy</ENAMEX> <SIGNAL sid="s106" >could</SIGNAL> <SIGNAL sid="s107" >n't</SIGNAL> be <EVENT eid="e105" class="OCCURRENCE" >reached</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Yvon Bussieres</ENAMEX> was <EVENT eid="e108" class="I_ACTION" >named</EVENT> <EVENT eid="e457" class="STATE" >senior executive vice president</EVENT> and <EVENT eid="e161" class="STATE" >chief operating officer</EVENT> of <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>, a new position.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Bussieres</ENAMEX> was president and chief operating officer of <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>'s <ENAMEX TYPE="LOCATION">Quebec</ENAMEX> retail and wholesale grocery unit.</s> 
+<s><ENAMEX TYPE="PERSON">Mr. Nadeau</ENAMEX> <EVENT eid="e110" class="REPORTING" >said</EVENT> he <EVENT eid="e111" class="I_STATE" >intends</EVENT> <SIGNAL sid="s112" >to</SIGNAL> <EVENT eid="e113" class="STATE" >remain</EVENT> <ENAMEX TYPE="ORGANIZATION">Provigo</ENAMEX>'s chief executive only <SIGNAL sid="s115" >until</SIGNAL> the non-food businesses are <EVENT eid="e116" class="OCCURRENCE" >sold</EVENT>, <SIGNAL sid="s480" >after</SIGNAL> a which a new chief executive will be <EVENT eid="e117" class="OCCURRENCE" >named</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei1989" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1990" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1991" tense="FUTURE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1992" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1993" tense="PAST" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1994" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1995" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1996" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1997" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1998" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei1999" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2000" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2001" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2002" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2005" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2006" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PAST" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2008" tense="NONE" eventID="e242" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="PAST" eventID="e41" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2012" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="PAST" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="PRESENT" eventID="e275" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2016" tense="PAST" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="PAST" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="PAST" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2020" tense="NONE" eventID="e143" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="NONE" eventID="e144" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="PRESENT" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="NONE" eventID="e146" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2024" tense="PAST" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2025" tense="NONE" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2026" tense="NONE" eventID="e58" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2027" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2028" tense="PAST" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2029" tense="NONE" eventID="e328" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2030" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="PAST" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2032" tense="PAST" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2033" tense="PAST" eventID="e70" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2034" tense="NONE" eventID="e71" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2035" tense="PAST" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2036" tense="NONE" eventID="e152" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2037" tense="NONE" eventID="e153" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2038" tense="NONE" eventID="e154" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2039" tense="NONE" eventID="e155" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2040" tense="PAST" eventID="e76" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2041" tense="NONE" eventID="e79" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2042" tense="PRESENT" eventID="e157" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2043" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2044" tense="PRESENT" eventID="e84" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2045" tense="NONE" eventID="e158" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2046" tense="PAST" eventID="e85" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2047" tense="PAST" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2048" tense="PAST" eventID="e90" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2049" tense="PAST" eventID="e92" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2050" tense="PRESENT" eventID="e156" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2051" tense="PAST" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2052" tense="NONE" eventID="e95" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2053" tense="NONE" eventID="e96" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2054" tense="PAST" eventID="e97" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2055" tense="NONE" eventID="e99" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2056" tense="NONE" eventID="e100" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2057" tense="NONE" eventID="e101" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2058" tense="PRESENT" eventID="e102" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2059" tense="NONE" eventID="e104" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2060" tense="NONE" eventID="e159" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2061" tense="PAST" eventID="e105" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2062" tense="PAST" eventID="e108" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2063" tense="NONE" eventID="e457" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2064" tense="NONE" eventID="e161" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2065" tense="PAST" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2066" tense="PRESENT" eventID="e111" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2067" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2068" tense="PRESENT" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2069" tense="FUTURE" eventID="e117" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1989" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei1991" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei1994" relType="SIMULTANEOUS" />
+<TLINK signalID="s142" relatedToTime="t141" eventInstanceID="ei1996" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei1996" eventInstanceID="ei1997" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1998" eventInstanceID="ei1997" relType="BEGINS" />
+<TLINK relatedToTime="t140" eventInstanceID="ei2000" relType="BEFORE" />
+<TLINK relatedToTime="t140" eventInstanceID="ei2002" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei2002" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei2006" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2006" eventInstanceID="ei2008" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2009" eventInstanceID="ei2008" relType="BEFORE" />
+<TLINK relatedToTime="t177" eventInstanceID="ei1993" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2011" relType="BEFORE" />
+<TLINK relatedToTime="t140" eventInstanceID="ei2012" relType="DURING" />
+<TLINK relatedToTime="t140" eventInstanceID="ei2015" relType="DURING" />
+<TLINK relatedToEventInstance="ei2018" eventInstanceID="ei2017" relType="AFTER" />
+<TLINK relatedToEventInstance="ei1990" eventInstanceID="ei2018" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2019" eventInstanceID="ei2020" relType="DURING" />
+<TLINK relatedToEventInstance="ei2020" eventInstanceID="ei2021" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2009" eventInstanceID="ei2025" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei1995" eventInstanceID="ei2027" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2027" eventInstanceID="ei2028" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2029" eventInstanceID="ei2030" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2033" timeID="t147" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2034" timeID="t148" relType="ENDED_BY" />
+<TLINK relatedToTime="t149" eventInstanceID="ei2034" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2036" eventInstanceID="ei2035" relType="AFTER" />
+<TLINK relatedToTime="t150" eventInstanceID="ei2037" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2036" eventInstanceID="ei2038" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t150" eventInstanceID="ei2039" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2040" timeID="t151" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2040" eventInstanceID="ei2041" relType="BEFORE" />
+<TLINK relatedToTime="t140" eventInstanceID="ei2050" relType="DURING" />
+<TLINK relatedToEventInstance="ei2053" eventInstanceID="ei2052" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2056" eventInstanceID="ei2055" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2057" eventInstanceID="ei2058" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2060" eventInstanceID="ei2059" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2068" signalID="s115" eventInstanceID="ei2067" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2068" signalID="s480" eventInstanceID="ei2069" relType="AFTER" />
+<SLINK signalID="s6" subordinatedEventInstance="ei1992" eventInstanceID="ei1991" relType="MODAL" />
+<SLINK signalID="s19" subordinatedEventInstance="ei1999" eventInstanceID="ei1998" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2001" eventInstanceID="ei2000" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2004" eventInstanceID="ei2003" relType="EVIDENTIAL" />
+<SLINK signalID="s32" subordinatedEventInstance="ei2005" eventInstanceID="ei2004" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2006" eventInstanceID="ei2007" relType="EVIDENTIAL" />
+<SLINK signalID="s38" subordinatedEventInstance="ei2010" eventInstanceID="ei2009" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2016" eventInstanceID="ei2013" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2023" eventInstanceID="ei2022" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2022" eventInstanceID="ei2024" relType="EVIDENTIAL" />
+<SLINK signalID="s57" subordinatedEventInstance="ei2026" eventInstanceID="ei2025" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2029" eventInstanceID="ei2028" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2031" eventInstanceID="ei2032" relType="EVIDENTIAL" />
+<SLINK signalID="s80" subordinatedEventInstance="ei2043" eventInstanceID="ei2042" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2045" eventInstanceID="ei2044" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2047" eventInstanceID="ei2046" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2048" eventInstanceID="ei2047" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2050" eventInstanceID="ei2049" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2053" eventInstanceID="ei2051" relType="EVIDENTIAL" />
+<SLINK signalID="s98" subordinatedEventInstance="ei2055" eventInstanceID="ei2054" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2057" eventInstanceID="ei2056" relType="NEG_EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2056" eventInstanceID="ei2054" relType="NEG_EVIDENTIAL" />
+<SLINK signalID="s103" subordinatedEventInstance="ei2059" eventInstanceID="ei2058" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2063" eventInstanceID="ei2062" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2064" eventInstanceID="ei2062" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2066" eventInstanceID="ei2065" relType="EVIDENTIAL" />
+<SLINK signalID="s112" subordinatedEventInstance="ei2067" eventInstanceID="ei2066" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2014" eventInstanceID="ei2016" relType="CULMINATES" />
+</TimeML>

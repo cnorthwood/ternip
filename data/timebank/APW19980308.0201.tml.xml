@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> APW19980308.0201 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t63" type="DATE" temporalFunction="true" functionInDocument="CREATION_TIME" value="1998-03-08" >03/08/1998</TIMEX3> 06:26:00 </DATE_TIME>
+<HEADER>
+w2106 Cx1f wstm-
+r i Cx13  Cx11  BC-Turkey-Yugoslavia-Kos     03-08 0243
+</HEADER>
+<BODY>
+<SLUG> BC-Turkey-Yugoslavia-Kosovo,0242 </SLUG>
+<HEADLINE>
+Ethnic Albanians in Turkey protest Serb attacks in Kosovo
+</HEADLINE>
+UR AP Photos IST101-102 QL
+
+<TEXT>
+<s><ENAMEX TYPE="LOCATION">ISTANBUL</ENAMEX>, <ENAMEX TYPE="LOCATION">Turkey</ENAMEX> (<ENAMEX TYPE="ORGANIZATION">AP</ENAMEX>) _ Some 1,500 ethnic Albanians <EVENT eid="e2" class="OCCURRENCE" >marched</EVENT>
+<TIMEX3 tid="t68" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-03-08" >Sunday</TIMEX3> in downtown <ENAMEX TYPE="LOCATION">Istanbul</ENAMEX>, <EVENT eid="e62" class="I_ACTION" >burning</EVENT> Serbian flags <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e47" class="I_STATE" >protest</EVENT> the
+<EVENT eid="e75" class="OCCURRENCE" >killings</EVENT> of ethnic Albanians by Serb police in <ENAMEX TYPE="LOCATION">southern Serb Kosovo</ENAMEX>
+province.</s>
+<s>The police <EVENT eid="e76" class="I_ACTION" >barred</EVENT> the crowd <SIGNAL sid="s9" >from</SIGNAL> <EVENT eid="e49" class="OCCURRENCE" >reaching</EVENT> the Yugoslavian
+consulate in downtown <ENAMEX TYPE="LOCATION">Istanbul</ENAMEX>, but <EVENT eid="e77" class="I_ACTION" >allowed</EVENT> them <SIGNAL sid="s12" >to</SIGNAL> <EVENT eid="e13" class="STATE" >demonstrate</EVENT> on
+nearby streets.</s>
+<s>``<EVENT eid="e14" class="ASPECTUAL" >Stop</EVENT> the <EVENT eid="e50" class="OCCURRENCE" >bloodshed</EVENT> in <ENAMEX TYPE="LOCATION">Kosovo</ENAMEX>,'' the protesters <EVENT eid="e116" class="REPORTING" >chanted</EVENT>.</s>
+<s><TIMEX3 tid="t69" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t68" >Meanwhile</TIMEX3> in the capital, <ENAMEX TYPE="LOCATION">Ankara</ENAMEX>, a few <CARDINAL>hundred</CARDINAL> ethnic Albanians
+<EVENT eid="e18" class="OCCURRENCE" >laid</EVENT> a black wreath at the gate of Yugoslavian embassy.</s>
+<s>Ethnic Albanians comprise <NUMEX TYPE="PERCENT">90 percent</NUMEX> of the population <ENAMEX TYPE="ORGANIZATION">in
+Kosovo</ENAMEX>, but Serbs maintain control through a large military and
+police presence.</s> <s>Serbian police <EVENT eid="e22" class="REPORTING" >say</EVENT> they are <EVENT eid="e23" class="I_ACTION" >trying</EVENT> <SIGNAL sid="s24" >to</SIGNAL> <EVENT eid="e25" class="ASPECTUAL" >eliminate</EVENT>
+the pro-independence <ENAMEX TYPE="ORGANIZATION">Kosovo Liberation Army</ENAMEX> and <EVENT eid="e27" class="ASPECTUAL" >restore</EVENT> <EVENT eid="e28" class="STATE" >order</EVENT>.</s>
+<s><CARDINAL>At least 51</CARDINAL> people were <EVENT eid="e29" class="REPORTING" >reported</EVENT> <EVENT eid="e30" class="OCCURRENCE" >killed</EVENT> <SIGNAL sid="s32" >in</SIGNAL> <EVENT eid="e31" class="OCCURRENCE" >clashes</EVENT> between Serb
+police and ethnic Albanians in the troubled region <SIGNAL sid="s70" >in</SIGNAL> <TIMEX3 tid="t71" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t68" >recent days</TIMEX3>.</s>
+<s><ENAMEX TYPE="LOCATION">Turkey</ENAMEX>, <EVENT eid="e34" class="I_STATE" >worried</EVENT> about civil <EVENT eid="e35" class="OCCURRENCE" >war</EVENT> in <ENAMEX TYPE="LOCATION">Kosovo</ENAMEX> <EVENT eid="e72" class="ASPECTUAL" >spilling</EVENT> to the whole
+<ENAMEX TYPE="LOCATION">Balkans</ENAMEX>, <EVENT eid="e36" class="I_ACTION" >urged</EVENT> all Balkan states <SIGNAL sid="s37" >to</SIGNAL> <EVENT eid="e38" class="OCCURRENCE" >sign</EVENT> a joint <EVENT eid="e39" class="OCCURRENCE" >declaration</EVENT> that
+the <ENAMEX TYPE="LOCATION">Kosovo</ENAMEX> crisis be <EVENT eid="e40" class="OCCURRENCE" >solved</EVENT> peacefully and <SIGNAL sid="s74" >without</SIGNAL> any <EVENT eid="e41" class="OCCURRENCE" >change</EVENT> of
+borders.</s>
+<s>Turks feel they have special ties to the whole region, which
+they ruled for hundreds of years during the Ottoman Empire.</s> <s>They
+also share Islam with the ethnic Albanians.</s>
+</TEXT>
+(PROFILE
+(WS SL:BC-Turkey-Yugoslavia-Kosovo; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(REG:MEST;)
+(LANG:ENGLISH;))
+)
+</BODY>
+<TRAILER>
+<s>AP-NY-03-08-98 0626EST</s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei193" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei194" tense="NONE" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei195" tense="NONE" eventID="e47" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei196" tense="NONE" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei197" tense="PAST" eventID="e76" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei198" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei199" tense="PAST" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei200" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei201" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei202" tense="NONE" eventID="e50" />
+<MAKEINSTANCE aspect="NONE" eiid="ei203" tense="PAST" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei204" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei205" tense="PRESENT" eventID="e22" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei206" tense="PRESENT" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei207" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei208" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei209" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei210" tense="PAST" eventID="e29" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei211" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei212" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei213" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei214" tense="NONE" eventID="e35" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei215" tense="PRESENT" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei216" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei217" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei218" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei219" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei220" tense="NONE" eventID="e41" />
+<TLINK relatedToTime="t68" eventInstanceID="ei193" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei194" eventInstanceID="ei193" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei199" eventInstanceID="ei197" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei220" signalID="s74" eventInstanceID="ei219" relType="INCLUDES" />
+<TLINK relatedToTime="t69" eventInstanceID="ei204" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei208" eventInstanceID="ei207" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei212" signalID="s32" eventInstanceID="ei211" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t71" eventInstanceID="ei212" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei216" eventInstanceID="ei213" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei219" eventInstanceID="ei218" relType="INCLUDES" />
+<SLINK signalID="s4" subordinatedEventInstance="ei195" eventInstanceID="ei194" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei196" eventInstanceID="ei195" relType="MODAL" />
+<SLINK signalID="s9" subordinatedEventInstance="ei198" eventInstanceID="ei197" relType="COUNTER_FACTIVE" />
+<SLINK signalID="s12" subordinatedEventInstance="ei200" eventInstanceID="ei199" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei201" eventInstanceID="ei203" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei206" eventInstanceID="ei205" relType="EVIDENTIAL" />
+<SLINK signalID="s24" subordinatedEventInstance="ei207" eventInstanceID="ei206" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei211" eventInstanceID="ei210" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei214" eventInstanceID="ei213" relType="MODAL" />
+<SLINK signalID="s37" subordinatedEventInstance="ei217" eventInstanceID="ei216" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei218" eventInstanceID="ei217" relType="FACTIVE" />
+<ALINK relatedToEventInstance="ei202" eventInstanceID="ei201" relType="TERMINATES" />
+<ALINK relatedToEventInstance="ei209" eventInstanceID="ei208" relType="REINITIATES" />
+<ALINK relatedToEventInstance="ei215" eventInstanceID="ei214" relType="INITIATES" />
+</TimeML>

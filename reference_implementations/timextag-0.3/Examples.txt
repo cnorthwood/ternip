@@ -1,0 +1,207 @@
+
+================================================
+ Getting started with the timex annotation tool
+================================================
+
+This document is a step-by-step description of a number of experiments
+with the timex annotation tool.  It explains how to produce most
+of the results reported in "A Cascaded Machine Learning Approach to
+Interpreting Temporal Expressions", Ahn et al, NAACL-HLT-2007.
+
+We use the TERN 2004 document collection, which consists of 511 documents
+for training and 192 documents for testing.  If a different collection
+is used, some additional pre/post processing may be needed.
+
+
+Setting up software
+-------------------
+
+The examples in this document assume that you run the software in
+a Unix/Linux environment with an sh-compatible shell, and that Perl
+and Python are installed.
+
+Our system requires the Charniak natural language parser. The full paths
+of the parser and its data directory can be specified through environment
+variables. For example:
+
+ $ export CHARNIAKBIN=/path/to/charniak/parseIt
+ $ export CHARNIAKDATA=/path/to/charniak/DATA/EN/
+
+We use a Perl program by Valentin Jijkoun to extract dependency information
+from the output of the Charniak parser. That program is included in this
+package under the directory "deptools". Its full path should be specified
+to the rest of the system through an environment variable:
+
+ $ export CHARNIAK_DEP_PARSER=/path/to/deptools/charniak-dep-parser
+
+Our system requires the LibSVM Python module. That module is part of
+the LibSVM distribution, and should be installed somewhere such that
+Python knows how to find it (for example, by adding its location to
+the PYTHONPATH variable).
+
+
+Preparation: Split and parse all documents
+------------------------------------------
+
+The TERN collection is initially in SGML format, with each document in a
+separate file.  Of the SGML markup provided, we use only the following
+elements:
+ - <TEXT> (to identify the document body), 
+ - <TIMEX2> (gold standard annotations used for training and evaluation)
+ - <STORY_REF_TIME> or <DATE_TIME> (document reference time used for training)
+
+The first step is to split these SGML files into pairs of plain text
+and stand-off XML files. Let's assume that the TERN SGML files are in
+directories terntrain_sgml and terntest_sgml:
+
+ $ mkdir terntrain_txt terntrain_xml
+ $ cd terntrain_sgml
+ $ for f in *.sgml ; do
+     splitSgml.py $f ../terntrain_xml/${f%.sgml} ../terntrain_txt/${f%.sgml}
+   done
+ $ cd ..
+ $ mkdir terntest_txt terntest_xml
+ $ cd terntest_sgml
+ $ for f in *.sgml ; do
+     splitSgml.py $f ../terntest_xml/${f%.sgml} ../terntest_txt/${f%.sgml}
+   done
+ $ cd ..
+
+We parse all TEXT sections (this will take several hours):
+
+ $ mkdir terntrain_parses
+ $ parseCharniak.py terntrain_txt terntrain_xml terntrain_parses
+ $ mkdir terntest_parses
+ $ parseCharniak.py terntest_txt terntest_xml terntest_parses
+
+
+Experiment: Timex recognition
+-----------------------------
+
+A classifier for timex recognition is trained, using the gold standard
+annotation of the training documents.  (This step may be skipped, since
+our system includes a recognition model trained on the TERN collection.)
+
+ $ timextool.py --inputtxt terntrain_txt --inputxml terntrain_xml  \
+     --inputparses terntrain_parses  --trainrecog                  \
+     --recogmodel recog_model
+
+The trained recognition model is used to recognize timexes in the
+test collection.  Recognized timexes are written to the output
+in stand-off XML format, one file per document.  (You may leave out
+the --recogmodel option in order to use the default recognition model.)
+
+ $ mkdir testrecog_xml
+ $ timextool.py --inputtxt terntest_txt --inputxml terntest_xml  \
+     --inputparses terntest_parses --outputxml testrecog_xml     \
+     --recog --recogmodel recog_model
+
+Our evaluation script can now compute precision and recall of the
+recognizer:
+
+ $ evalScore.py testrecog_xml terntest_xml
+
+Of course we also want to run the official TERN score script (which
+computes slightly different results).  The stand-off XML output is not
+directly usable for this purpose; we first need to convert it back into
+SGML by merging the stand-off annotations with the original SGML documents.
+The TERN score script can then compare the merged SGML documents to the
+gold standard annotations:
+
+ $ mkdir testrecog_sgml
+ $ mergeSgmlWithXmlTimexes.py 'terntest_sgml/*.sgml' 'testrecog_xml/*'  \
+     testrecog_sgml
+ $ cat terntest_sgml/*.sgml > terntest_all.sgml
+ $ cat testrecog_sgml/* > testrecog_all.sgml
+ $ TEXT_only_scorer.pl terntest_all.sgml testrecog_all.sgml
+
+So far we only recognized timexes in the TEXT sections.  We can also
+attempt to recognize timexes in headers and footers and compute the
+performance over the full documents.  We run the annotation system again
+with the --struct option to enable pattern based recognition of structured
+timexes:
+
+ $ mkdir testrecogdoc_xml
+ $ timextool.py --inputtxt terntest_txt --inputxml terntest_xml  \
+     --inputparses terntest_parses --outputxml testrecogdoc_xml  \
+     --struct --recog --recogmodel recog_model
+
+And evaluate performance over the full documents:
+
+ $ evalScore.py --select all testrecogdoc_xml terntest_xml
+ $ mkdir testrecogdoc_sgml
+ $ mergeSgmlWithXmlTimexes.py 'terntest_sgml/*.sgml' 'testrecogdoc_xml/*'  \
+     testrecogdoc_sgml
+ $ cat testrecogdoc_sgml/* > testrecogdoc_all.sgml
+ $ new_score_timex2.pl terntest_all.sgml testrecogdoc_all.sgml
+
+
+Experiment: Semantic classification
+-----------------------------------
+
+A classifier for semantic classification is trained based on semantic
+class labels inferred from gold standard annotations in the training set.
+
+ $ timextool.py --inputtxt terntrain_txt --inputxml terntrain_xml    \
+     --inputparses terntrain_parses --infertmxclass --traintmxclass  \
+     --tmxclassmodel tmxclass_model
+
+The trained classifier is used to tag (already recognized) timexes with
+semantic class labels.  To focus on the semantic classification task, we
+will use gold standard recognition (ie. we don't enable our recognizer).
+
+ $ mkdir testtmx_xml
+ $ timextool.py --inputtxt terntest_txt --inputxml terntest_xml  \
+     --inputparses terntest_parses --outputxml testtmx_xml       \
+     --infertmxclass --tmxclass --tmxclassmodel tmxclass_model
+
+The command above will automaticall compare the class labels assigned
+by the trained classifier to the inferred class labels.  At the end of
+the run, it displays the confusion matrix and total error rate.
+
+
+Experiment: Direction classification
+------------------------------------
+
+A classifier for direction classification is trained based on direction
+class labels inferred from gold standard annotations in the training set.
+Direction class inference requires semantic class labels as well as
+output from the prenormalization stage, so these options must be enabled
+as well.
+
+ $ timextool.py --inputtxt terntrain_txt --inputxml terntrain_xml  \
+     --inputparses terntrain_parses --infertmxclass --prenorm      \
+     --inferdirclass --traindirclass --dirclassmodel dirclass_model
+
+The trained classifier is used to tag timexes with direction labels.
+We again instruct the system to also infer direction labels so that
+we may evaluate the performance of the trained classifier:
+
+ $ mkdir testdir_xml
+ $ timextool.py --inputtxt terntest_txt --inputxml terntest_xml  \
+     --inputparses terntest_parses --outputxml testdir_xml       \
+     --infertmxclass --prenorm --inferdirclass --dirclass        \
+     --dirclassmodel dirclass_model
+
+
+Experiment: End-to-end processing
+---------------------------------
+
+To run the full system on the test collection:
+
+ $ mkdir testfull_xml
+ $ timextool.py --inputtxt terntest_txt --inputxml terntest_xml  \
+     --inputparses terntest_parses --outputxml testfull_xml      \
+     --struct --timestamp --recog --tmxclass --dirclass --prenorm --norm  \
+     --tmxclassmodel tmxclass_model --dirclassmodel dirclass_model
+
+Evaluate performance with the TERN scripts:
+
+ $ mkdir testfull_sgml
+ $ mergeSgmlWithXmlTimexes.py 'terntest_sgml/*.sgml' 'testfull_xml/*'  \
+     testfull_sgml
+ $ cat testfull_sgml/* > testfull_all.sgml
+ $ TEXT_only_scorer.pl terntest_all.sgml testfull_all.sgml
+ $ new_score_timex2.pl terntest_all.sgml testfull_all.sgml
+
+--

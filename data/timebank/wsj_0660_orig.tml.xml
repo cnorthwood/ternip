@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0037 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0037. </AN>
+<HL> International Brief -- Erbamont N.V.:
+@  Montedison Agrees to Buy
+@  Rest of Stock for $37 Each </HL>
+<DD> <TIMEX3 tid="t28" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> MNT ERB </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Montedison S.p.A.</ENAMEX> definitively <EVENT eid="e1" class="I_STATE" >agreed</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >buy</EVENT> all of the publicly held shares of <ENAMEX TYPE="ORGANIZATION">Erbamont N.V.</ENAMEX> for <NUMEX TYPE="MONEY">$37</NUMEX> each.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Montedison</ENAMEX> <TIMEX3 tid="t29" type="DATE" temporalFunction="false" functionInDocument="NONE" value="PRESENT_REF" >now</TIMEX3> <EVENT eid="e4" class="STATE" >owns</EVENT> about <NUMEX TYPE="PERCENT">72%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX>'s shares outstanding.</s> 
+
+   <s>The companies <EVENT eid="e5" class="REPORTING" >said</EVENT> the <EVENT eid="e30" class="I_STATE" >accord</EVENT> was unanimously <EVENT eid="e6" class="I_ACTION" >approved</EVENT> by a special committee of <ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX> directors unaffiliated with <ENAMEX TYPE="ORGANIZATION">Montedison</ENAMEX>.</s> 
+
+   <s>Under the pact, Montedision will <EVENT eid="e8" class="OCCURRENCE" >make</EVENT> a $37-a-share tender <EVENT eid="e9" class="OCCURRENCE" >offer</EVENT> for <ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX> stock outstanding.</s> 
+<s>The tender <EVENT eid="e10" class="OCCURRENCE" >offer</EVENT> will be <SIGNAL sid="s32" >followed by</SIGNAL> the <EVENT eid="e12" class="OCCURRENCE" >sale</EVENT> of all of <ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX>'s assets, subject to all of its liabilities, to <ENAMEX TYPE="ORGANIZATION">Montedison</ENAMEX>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX> will <SIGNAL sid="s33" >then</SIGNAL> be <EVENT eid="e14" class="OCCURRENCE" >liquidated</EVENT>, with any <EVENT eid="e15" class="STATE" >remaining</EVENT> <ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX> holders <EVENT eid="e16" class="OCCURRENCE" >receiving</EVENT> a distribution of <NUMEX TYPE="MONEY">$37</NUMEX> a share.</s> 
+
+   <s>The companies <EVENT eid="e17" class="REPORTING" >said</EVENT> the transaction is being <EVENT eid="e19" class="OCCURRENCE" >structured</EVENT> this way because the laws of the <ENAMEX TYPE="LOCATION">Netherlands Antilles</ENAMEX>, under which <ENAMEX TYPE="ORGANIZATION">Erbamont</ENAMEX> is organized, do <SIGNAL sid="s24" >n't</SIGNAL> <EVENT eid="e23" class="I_STATE" >provide</EVENT> for merger transactions.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei137" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei138" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei139" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei140" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei141" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei142" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei143" tense="FUTURE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei144" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei145" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei146" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei147" tense="FUTURE" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei148" tense="NONE" eventID="e15" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei149" tense="NONE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei151" tense="PRESENT" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei152" tense="PRESENT" eventID="e23" />
+<TLINK relatedToEventInstance="ei151" eventInstanceID="ei152" relType="BEFORE" />
+<TLINK relatedToTime="t28" eventInstanceID="ei137" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei139" timeID="t29" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei137" timeID="t29" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei138" eventInstanceID="ei139" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei137" eventInstanceID="ei140" relType="AFTER" />
+<TLINK relatedToTime="t28" eventInstanceID="ei140" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei141" eventInstanceID="ei142" relType="BEGINS" />
+<TLINK relatedToTime="t28" eventInstanceID="ei143" relType="AFTER" />
+<TLINK relatedToEventInstance="ei144" eventInstanceID="ei143" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei144" eventInstanceID="ei145" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei146" signalID="s32" eventInstanceID="ei145" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei147" signalID="s33" eventInstanceID="ei146" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei149" signalID="s33" eventInstanceID="ei146" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei146" eventInstanceID="ei148" relType="AFTER" />
+<TLINK relatedToEventInstance="ei149" eventInstanceID="ei148" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei140" eventInstanceID="ei150" relType="IDENTITY" />
+<SLINK signalID="s2" subordinatedEventInstance="ei138" eventInstanceID="ei137" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei142" eventInstanceID="ei140" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei151" eventInstanceID="ei150" relType="EVIDENTIAL" />
+</TimeML>

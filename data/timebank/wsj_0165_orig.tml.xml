@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t26" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-02" >891102</TIMEX3>-0026 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0026. </AN>
+<HL> Marketing Brief -- Heritage Media Corp.:
+@  Firm to Buy Rest of Shares
+@  Of POP Radio in a Swap </HL>
+<DD> <TIMEX3 tid="t25" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> HTG POPX </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Heritage Media Corp.</ENAMEX>, <ENAMEX TYPE="LOCATION">New York</ENAMEX>, <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="I_ACTION" >offered</EVENT>  to <EVENT eid="e3" class="OCCURRENCE" >buy</EVENT> the shares of <ENAMEX TYPE="ORGANIZATION">POP Radio Corp.</ENAMEX> it  does n't  already own in a stock <EVENT eid="e6" class="OCCURRENCE" >swap</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Heritage</ENAMEX>, which owns <NUMEX TYPE="PERCENT">51%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">POP</ENAMEX>'s <CARDINAL>3.6 million</CARDINAL> shares outstanding, <EVENT eid="e9" class="REPORTING" >said</EVENT> it  will <EVENT eid="e10" class="OCCURRENCE" >exchange</EVENT> one share of a new preferred stock for each <ENAMEX TYPE="ORGANIZATION">POP</ENAMEX> common share it  does n't  already own.</s> 
+<s>Depending upon how many warrants and options  are <EVENT eid="e14" class="OCCURRENCE" >exercised</EVENT> <SIGNAL sid="s28" >prior</SIGNAL> to <EVENT eid="e29" class="ASPECTUAL" >completion</EVENT> of the <EVENT eid="e30" class="OCCURRENCE" >transaction</EVENT>, <ENAMEX TYPE="ORGANIZATION">Heritage</ENAMEX> <SIGNAL sid="s16" >would</SIGNAL> <EVENT eid="e15" class="OCCURRENCE" >issue</EVENT> between <CARDINAL>1.8 million</CARDINAL> and <CARDINAL>2.35 million</CARDINAL> preferred shares, a <ENAMEX TYPE="ORGANIZATION">Heritage</ENAMEX> spokesman <EVENT eid="e17" class="REPORTING" >estimated</EVENT>.</s> 
+<s>In national over-the-counter trading <TIMEX3 tid="t27" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-01" anchorTimeID="t25" >yesterday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">POP</ENAMEX> <EVENT eid="e18" class="OCCURRENCE" >plunged</EVENT> <NUMEX TYPE="MONEY">$4 to $14.75</NUMEX>.</s> 
+
+   <s>The preferred stock, which would have a dividend rate of <NUMEX TYPE="MONEY">$1.76</NUMEX> a year, would be convertible into <ENAMEX TYPE="ORGANIZATION">Heritage</ENAMEX> common at a rate of <CARDINAL>four</CARDINAL> common shares for each preferred.</s> 
+<s><ENAMEX TYPE="LOCATION">New York</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">POP Radio</ENAMEX> <EVENT eid="e20" class="OCCURRENCE" >provides</EVENT>, through a national, in-store network, a customized music, information and advertising service which <EVENT eid="e21" class="OCCURRENCE" >simulates</EVENT> live radio.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Heritage</ENAMEX> owns and <EVENT eid="e32" class="OCCURRENCE" >operates</EVENT> television and radio stations and in-store advertising and promotion programs.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei67" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei68" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei69" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei70" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei71" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei72" tense="FUTURE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei73" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei74" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei75" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei76" tense="FUTURE" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei77" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei78" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei79" tense="PRESENT" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei80" tense="PRESENT" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei81" tense="PRESENT" eventID="e32" />
+<TLINK relatedToTime="t27" eventInstanceID="ei78" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei74" signalID="s28" eventInstanceID="ei73" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei70" eventInstanceID="ei69" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei68" eventInstanceID="ei67" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei69" eventInstanceID="ei68" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei72" eventInstanceID="ei71" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei75" eventInstanceID="ei74" relType="CULMINATES" />
+</TimeML>

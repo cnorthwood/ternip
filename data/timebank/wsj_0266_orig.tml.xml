@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891101-0099 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0099. </AN>
+<HL> Letters to the Editor:
+@  Innovators Overlooked </HL>
+<DD> <TIMEX3 tid="t34" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<IN> MUTUAL AND MONEY-MARKET FUNDS (FND) </IN>
+<TEXT>
+   <s>I was <EVENT eid="e41" class="I_STATE" >pleased</EVENT> <SIGNAL sid="s1" >to</SIGNAL> <EVENT eid="e2" class="OCCURRENCE" >note</EVENT> that your <TIMEX3 tid="t42" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-23" anchorTimeID="t34" >Oct. 23</TIMEX3> <ENAMEX TYPE="ORGANIZATION">Centennial Journal</ENAMEX> item <EVENT eid="e3" class="OCCURRENCE" >recognized</EVENT> the money-fund concept as one of the significant events of the past century.</s> 
+<s>Actually, <TIMEX3 mod="APPROX" endPoint="t42" tid="t39" temporalFunction="false" type="DURATION" functionInDocument="NONE" value="P2Y" >about two years ago</TIMEX3>, the <ENAMEX TYPE="ORGANIZATION">Journal</ENAMEX> <EVENT eid="e4" class="OCCURRENCE" >listed</EVENT> the <EVENT eid="e5" class="ASPECTUAL" >creation</EVENT> of the money fund as one of the <CARDINAL>10</CARDINAL> most significant events in the world of finance <SIGNAL sid="s24" >in</SIGNAL> <TIMEX3 tid="t40" type="DATE" temporalFunction="false" functionInDocument="NONE" value="19XX" >the 20th century</TIMEX3>.</s> 
+<s>But the <ENAMEX TYPE="ORGANIZATION">Reserve Fund</ENAMEX>, <ENAMEX TYPE="LOCATION">America</ENAMEX>'s first money fund, was <SIGNAL sid="s10" >not</SIGNAL> <EVENT eid="e9" class="OCCURRENCE" >named</EVENT>, <SIGNAL sid="s26" >nor</SIGNAL> were the creators of the money-fund concept, <ENAMEX TYPE="PERSON">Harry Brown</ENAMEX> and myself.</s> 
+<s>We <EVENT eid="e11" class="OCCURRENCE" >innovated</EVENT> telephone <EVENT eid="e29" class="OCCURRENCE" >redemptions</EVENT>, daily dividends, total <EVENT eid="e30" class="OCCURRENCE" >elimination</EVENT> of share certificates and the constant <NUMEX TYPE="MONEY">$1</NUMEX> pershare <EVENT eid="e31" class="OCCURRENCE" >pricing</EVENT>, all of which were painfully <EVENT eid="e15" class="I_ACTION" >thought</EVENT> out and not the result of some <EVENT eid="e32" class="STATE" >inadvertence</EVENT> on the part of the SEC.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">BRUCE R. BENT 
+
+</ENAMEX>
+   President 
+
+   The <ENAMEX TYPE="ORGANIZATION">Reserve Fund 
+
+   New York</ENAMEX></s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="PAST" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei124" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei128" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei130" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei131" tense="NONE" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei132" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei133" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei134" polarity="NEG" tense="NONE" eventID="e32" />
+<TLINK relatedToTime="t34" eventInstanceID="ei123" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei123" eventInstanceID="ei125" relType="BEFORE" />
+<TLINK relatedToTime="t42" eventInstanceID="ei125" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei125" eventInstanceID="ei126" relType="BEFORE" />
+<TLINK signalID="s24" relatedToTime="t40" eventInstanceID="ei127" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei126" eventInstanceID="ei128" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei126" eventInstanceID="ei128" relType="IS_INCLUDED" />
+<TLINK signalID="s24" relatedToTime="t40" eventInstanceID="ei129" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei130" eventInstanceID="ei129" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei131" eventInstanceID="ei129" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei132" eventInstanceID="ei129" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei129" eventInstanceID="ei134" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei129" eventInstanceID="ei133" relType="BEFORE" />
+<TLINK relatedToTime="t39" eventInstanceID="ei126" relType="BEGINS" />
+<TLINK relatedToTime="t39" eventInstanceID="ei125" relType="ENDS" />
+<SLINK signalID="s1" subordinatedEventInstance="ei124" eventInstanceID="ei123" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei127" eventInstanceID="ei126" relType="FACTIVE" />
+</TimeML>

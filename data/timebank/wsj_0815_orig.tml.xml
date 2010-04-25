@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891027-0079 </DOCNO>
+<DD> = 891027 </DD>
+<AN> 891027-0079. </AN>
+<HL> Di Giorgio Corp. Seeks
+@  To Sell Certain Units </HL>
+<DD> <TIMEX3 tid="t26" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-27" >10/27/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> DIG </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<DATELINE> SAN FRANCISCO  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Di Giorgio Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it's <EVENT eid="e2" class="ASPECTUAL" >continuing</EVENT> <EVENT eid="e3" class="OCCURRENCE" >talks</EVENT> with potential buyers of certain units, but has <EVENT eid="e4" class="OCCURRENCE" >reached</EVENT> no <EVENT eid="e5" class="I_STATE" >agreement</EVENT> on any <EVENT eid="e6" class="OCCURRENCE" >deals</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Di Giorgio</ENAMEX>, a food wholesaler and building products maker, is <EVENT eid="e8" class="I_STATE" >seeking</EVENT> <EVENT eid="e25" class="OCCURRENCE" >alternatives</EVENT> to an <EVENT eid="e79" class="OCCURRENCE" >unsolicited</EVENT> $32-a-share tender <EVENT eid="e9" class="OCCURRENCE" >offer</EVENT> of <ENAMEX TYPE="ORGANIZATION">DIG Acquisition Corp.</ENAMEX>, a unit of <ENAMEX TYPE="ORGANIZATION">Rose Partners Limited Partnership</ENAMEX>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">DIG</ENAMEX> is the vehicle being <EVENT eid="e10" class="OCCURRENCE" >used</EVENT> <SIGNAL sid="s11" >to</SIGNAL> <EVENT eid="e12" class="I_ACTION" >pursue</EVENT> <SIGNAL sid="s102" >to</SIGNAL> <EVENT eid="e13" class="OCCURRENCE" >acquisition</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="PERSON">Robert Mellor</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Di Giorgio</ENAMEX>'s executive vice president, <EVENT eid="e15" class="REPORTING" >said</EVENT> the company <EVENT eid="e16" class="I_STATE" >stands</EVENT> <SIGNAL sid="s17" >to</SIGNAL> <EVENT eid="e18" class="OCCURRENCE" >reap</EVENT> more money through the <EVENT eid="e20" class="OCCURRENCE" >sale</EVENT> of individual units to others than by <EVENT eid="e22" class="I_ACTION" >accepting</EVENT> <ENAMEX TYPE="ORGANIZATION">DIG</ENAMEX>'s <EVENT eid="e23" class="OCCURRENCE" >offer</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei132" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei133" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei134" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei135" polarity="NEG" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei136" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei137" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei138" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei139" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei140" tense="NONE" eventID="e79" />
+<MAKEINSTANCE aspect="NONE" eiid="ei141" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei142" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei143" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei144" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei145" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei146" tense="PRESENT" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei147" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei148" tense="NONE" eventID="e20" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei149" polarity="NEG" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="NONE" eventID="e23" />
+<TLINK relatedToTime="t26" eventInstanceID="ei132" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei134" eventInstanceID="ei135" relType="AFTER" />
+<TLINK relatedToEventInstance="ei136" eventInstanceID="ei135" relType="ENDED_BY" />
+<TLINK relatedToTime="t26" eventInstanceID="ei138" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei133" eventInstanceID="ei138" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei141" eventInstanceID="ei138" relType="AFTER" />
+<TLINK relatedToEventInstance="ei141" eventInstanceID="ei140" relType="BEFORE" />
+<TLINK relatedToTime="t26" eventInstanceID="ei142" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei148" eventInstanceID="ei147" relType="AFTER" />
+<TLINK relatedToEventInstance="ei149" eventInstanceID="ei147" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei133" eventInstanceID="ei132" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei135" eventInstanceID="ei132" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei137" eventInstanceID="ei136" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei139" eventInstanceID="ei138" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei141" eventInstanceID="ei140" relType="FACTIVE" />
+<SLINK signalID="s11" subordinatedEventInstance="ei143" eventInstanceID="ei142" relType="MODAL" />
+<SLINK signalID="s102" subordinatedEventInstance="ei144" eventInstanceID="ei143" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei146" eventInstanceID="ei145" relType="EVIDENTIAL" />
+<SLINK signalID="s17" subordinatedEventInstance="ei147" eventInstanceID="ei146" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei150" eventInstanceID="ei149" relType="FACTIVE" />
+<ALINK relatedToEventInstance="ei134" eventInstanceID="ei133" relType="CONTINUES" />
+</TimeML>

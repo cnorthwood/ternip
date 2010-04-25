@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891102-0018 </DOCNO>
+<DD> = 891102 </DD>
+<AN> 891102-0018. </AN>
+<HL> Business Brief -- First of America Bank Corp.:
+@  Midwest Financial Group
+@  Acquired for $250 Million </HL>
+<DD> <TIMEX3 tid="t28" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-02" >11/02/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> FABK </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">First of America Bank Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="ASPECTUAL" >completed</EVENT> its <EVENT eid="e3" class="OCCURRENCE" >acquisition</EVENT> of <ENAMEX TYPE="ORGANIZATION">Midwest Financial Group Inc.</ENAMEX> for about <NUMEX TYPE="MONEY">$250 million</NUMEX>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">First</ENAMEX> of <ENAMEX TYPE="LOCATION">America</ENAMEX>, which <TIMEX3 mod="APPROX" tid="t41" type="TIME" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t28" >now</TIMEX3> <EVENT eid="e4" class="OCCURRENCE" >has</EVENT> <CARDINAL>45</CARDINAL> banks and <NUMEX TYPE="MONEY">$12.5 billion</NUMEX> in assets, <EVENT eid="e5" class="REPORTING" >announced</EVENT> an <EVENT eid="e6" class="I_ACTION" >agreement</EVENT> <SIGNAL sid="s7" >to</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >acquire</EVENT> the <ENAMEX TYPE="LOCATION">Peoria</ENAMEX>, <ENAMEX TYPE="LOCATION">Ill.</ENAMEX>, bank holding company <SIGNAL sid="s66" >in</SIGNAL> <TIMEX3 tid="t67" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1990-01" anchorTimeID="t28" >January</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Midwest Financial</ENAMEX> has <NUMEX TYPE="MONEY">$2.3 billion</NUMEX> in assets and <CARDINAL>eight</CARDINAL> banks.</s> 
+<s>The <ENAMEX TYPE="ORGANIZATION">Midwest Financial</ENAMEX> subsidiary banks will <EVENT eid="e11" class="ASPECTUAL" >continue</EVENT> <SIGNAL sid="s12" >to</SIGNAL> <EVENT eid="e13" class="OCCURRENCE" >operate</EVENT> under their current names <SIGNAL sid="s74" >until</SIGNAL> <TIMEX3 mod="APPROX" tid="t75" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1990-Q1" anchorTimeID="t28" >early 1990</TIMEX3>, <SIGNAL sid="s15" >when</SIGNAL> each will <EVENT eid="e16" class="OCCURRENCE" >adopt</EVENT> the <ENAMEX TYPE="ORGANIZATION">First</ENAMEX> of <ENAMEX TYPE="LOCATION">America</ENAMEX> name.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">Kalamazoo</ENAMEX>, <ENAMEX TYPE="LOCATION">Mich.</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">First</ENAMEX> of <ENAMEX TYPE="LOCATION">America</ENAMEX> <EVENT eid="e17" class="REPORTING" >said</EVENT> it will <EVENT eid="e18" class="OCCURRENCE" >eliminate</EVENT> the <CARDINAL>13</CARDINAL> management positions of the former <ENAMEX TYPE="ORGANIZATION">Midwest Financial</ENAMEX> parent company.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">First</ENAMEX> of <ENAMEX TYPE="LOCATION">America</ENAMEX> <EVENT eid="e19" class="REPORTING" >said</EVENT> some of the managers will <EVENT eid="e20" class="OCCURRENCE" >take</EVENT> other jobs with <ENAMEX TYPE="ORGANIZATION">First</ENAMEX> of <ENAMEX TYPE="LOCATION">America</ENAMEX>.</s> 
+<s>But it <EVENT eid="e22" class="REPORTING" >said</EVENT> that <EVENT eid="e124" class="OCCURRENCE" >severance</EVENT> <EVENT eid="e23" class="OCCURRENCE" >payments</EVENT> to those executives <SIGNAL sid="s133" >not</SIGNAL> <EVENT eid="e24" class="OCCURRENCE" >staying</EVENT> with the company will <EVENT eid="e25" class="OCCURRENCE" >reduce</EVENT> <ENAMEX TYPE="ORGANIZATION">First</ENAMEX> of <ENAMEX TYPE="LOCATION">America</ENAMEX>'s operating results for 1989 by <NUMEX TYPE="MONEY">$3 million to $4 million</NUMEX>, or <NUMEX TYPE="MONEY">15 cents to 20 cents</NUMEX> a share.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei148" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei149" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei151" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei152" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei153" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei154" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei155" tense="FUTURE" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei156" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei157" tense="FUTURE" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei158" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei159" tense="FUTURE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei160" tense="PAST" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="FUTURE" eventID="e20" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei163" tense="NONE" eventID="e124" />
+<MAKEINSTANCE aspect="NONE" eiid="ei164" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei165" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei166" tense="FUTURE" eventID="e25" />
+<TLINK relatedToEventInstance="ei166" eventInstanceID="ei164" relType="IBEFORE" />
+<TLINK relatedToEventInstance="ei148" timeID="t28" relType="AFTER" />
+<TLINK relatedToTime="t28" timeID="t41" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei151" timeID="t41" relType="INCLUDES" />
+<TLINK relatedToTime="t28" eventInstanceID="ei152" relType="BEFORE" />
+<TLINK signalID="s66" relatedToTime="t67" eventInstanceID="ei154" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t28" eventInstanceID="ei155" relType="AFTER" />
+<TLINK signalID="s74" relatedToTime="t75" eventInstanceID="ei156" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei157" signalID="s15" timeID="t75" relType="BEGINS" />
+<TLINK relatedToTime="t28" eventInstanceID="ei158" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei158" eventInstanceID="ei160" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei158" eventInstanceID="ei162" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei164" eventInstanceID="ei163" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei163" eventInstanceID="ei165" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei149" eventInstanceID="ei148" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei153" eventInstanceID="ei152" relType="EVIDENTIAL" />
+<SLINK signalID="s7" subordinatedEventInstance="ei154" eventInstanceID="ei153" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei159" eventInstanceID="ei158" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei161" eventInstanceID="ei160" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei166" eventInstanceID="ei162" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei150" eventInstanceID="ei149" relType="CULMINATES" />
+<ALINK relatedToEventInstance="ei156" signalID="s12" eventInstanceID="ei155" relType="CONTINUES" />
+</TimeML>

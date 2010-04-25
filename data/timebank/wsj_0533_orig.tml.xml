@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0168 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0168. </AN>
+<HL> Two Rival Bidders
+@  Extend Offers
+@  To Buy Connaught
+@  ----
+@  By Suzanne McGee
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t101" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> CSESF F.INM Z.CIG CHIR EUROP RHPOY CANDA </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDICAL AND BIOTECHNOLOGY (MTC) </IN>
+<DATELINE> TORONTO  </DATELINE>
+<TEXT>
+   <s><CARDINAL>Two</CARDINAL> rival bidders for <ENAMEX TYPE="ORGANIZATION">Connaught BioSciences</ENAMEX> <EVENT eid="e1" class="OCCURRENCE" >extended</EVENT> their <EVENT eid="e2" class="I_ACTION" >offers</EVENT> <SIGNAL sid="s3" >to</SIGNAL> <EVENT eid="e4" class="OCCURRENCE" >acquire</EVENT> the <ENAMEX TYPE="ORGANIZATION">Toronto</ENAMEX>-based vaccine manufacturer <TIMEX3 tid="t102" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t101" >Friday</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Institut Merieux S.A.</ENAMEX>, which <EVENT eid="e5" class="OCCURRENCE" >offered</EVENT> <NUMEX TYPE="MONEY">942 million Canadian dollars</NUMEX> (<ENAMEX TYPE="LOCATION">US</ENAMEX><NUMEX TYPE="MONEY">$801.2 million</NUMEX>), or C$<CARDINAL>37</CARDINAL> a share for <ENAMEX TYPE="ORGANIZATION">Connaught</ENAMEX>, <EVENT eid="e6" class="REPORTING" >said</EVENT> it <SIGNAL sid="s8" >would</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >extend</EVENT> its <EVENT eid="e9" class="OCCURRENCE" >bid</EVENT>, <EVENT eid="e108" class="I_STATE" >due</EVENT> <SIGNAL sid="s114" >to</SIGNAL> <EVENT eid="e109" class="OCCURRENCE" >expire</EVENT> <TIMEX3 tid="t103" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t101" >last Thursday</TIMEX3>, to <TIMEX3 tid="t104" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-06" anchorTimeID="t101" >Nov. 6</TIMEX3>.</s> 
+
+   <s>A C$30-a-share <EVENT eid="e12" class="OCCURRENCE" >bid</EVENT> by <ENAMEX TYPE="ORGANIZATION">Ciba-Geigy Ltd.</ENAMEX>, a pharmaceutical company based in <ENAMEX TYPE="LOCATION">Basel</ENAMEX>, <ENAMEX TYPE="LOCATION">Switzerland</ENAMEX>, and <ENAMEX TYPE="LOCATION">California</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Chiron Corp.</ENAMEX>, a bioresearch concern, was <EVENT eid="e14" class="OCCURRENCE" >extended</EVENT> to <TIMEX3 tid="t107" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-16" anchorTimeID="t101" >Nov. 16</TIMEX3>.</s> 
+<s>It had been <EVENT eid="e110" class="I_STATE" >due</EVENT> <SIGNAL sid="s113" >to</SIGNAL> <EVENT eid="e111" class="OCCURRENCE" >expire</EVENT> <TIMEX3 tid="t112" type="TIME" temporalFunction="true" functionInDocument="NONE" value="1989-10-27TEV" anchorTimeID="t101" >Friday evening</TIMEX3>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Merieux</ENAMEX> <SIGNAL sid="s280" >previously</SIGNAL> <EVENT eid="e17" class="REPORTING" >said</EVENT> it <SIGNAL sid="s19" >would</SIGNAL> <EVENT eid="e18" class="I_ACTION" >ensure</EVENT> its bid <EVENT eid="e21" class="ASPECTUAL" >remained</EVENT> <EVENT eid="e116" class="STATE" >open</EVENT> <SIGNAL sid="s299" >pending</SIGNAL> a final <EVENT eid="e118" class="I_ACTION" >decision</EVENT> by Canadian regulators on whether <SIGNAL sid="s120" >to</SIGNAL> <EVENT eid="e119" class="I_ACTION" >approve</EVENT> the <EVENT eid="e26" class="OCCURRENCE" >takeover</EVENT>.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Merieux</ENAMEX>, a vaccine and bioresearch firm based in <ENAMEX TYPE="LOCATION">Lyon</ENAMEX>, <ENAMEX TYPE="LOCATION">France</ENAMEX>, is controlled <NUMEX TYPE="PERCENT">50.1%</NUMEX> by state-owned <ENAMEX TYPE="ORGANIZATION">Rhone Poulenc S.A.</ENAMEX> 
+
+   The Canadian government <SIGNAL sid="s314" >previously</SIGNAL> <EVENT eid="e30" class="REPORTING" >said</EVENT> <ENAMEX TYPE="ORGANIZATION">Merieux</ENAMEX>'s bid did <SIGNAL sid="s33" >n't</SIGNAL> <EVENT eid="e32" class="I_STATE" >offer</EVENT> enough "net <EVENT eid="e121" class="STATE" >benefit</EVENT>" to <ENAMEX TYPE="LOCATION">Canada</ENAMEX> to be approved, and <EVENT eid="e36" class="OCCURRENCE" >gave</EVENT> <ENAMEX TYPE="ORGANIZATION">Merieux</ENAMEX> an <SIGNAL sid="s123" >until</SIGNAL> <TIMEX3 mod="MID" tid="t122" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11" anchorTimeID="t101" >mid-November</TIMEX3> to <EVENT eid="e38" class="OCCURRENCE" >submit</EVENT> additional information.</s> 
+
+   <s>Merieux officials <EVENT eid="e40" class="REPORTING" >said</EVENT> <TIMEX3 tid="t124" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-WXX" anchorTimeID="t101" >last week</TIMEX3> that they are "highly <EVENT eid="e125" class="I_STATE" >confident</EVENT>" the offer will be <EVENT eid="e42" class="OCCURRENCE" >approved</EVENT> <SIGNAL sid="s126" >once</SIGNAL> it <EVENT eid="e43" class="OCCURRENCE" >submits</EVENT> details of its proposed investments to federal regulators.</s> 
+
+   <s>Both <EVENT eid="e46" class="OCCURRENCE" >offers</EVENT> are conditional on regulatory approvals and enough shares being tendered to give the bidders a majority of <ENAMEX TYPE="ORGANIZATION">Connaught</ENAMEX>'s shares outstanding.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Institut Merieux</ENAMEX>, which already holds a <NUMEX TYPE="PERCENT">12.5%</NUMEX> stake in <ENAMEX TYPE="ORGANIZATION">Connaught</ENAMEX>, <EVENT eid="e54" class="REPORTING" >said</EVENT> that at the <EVENT eid="e55" class="ASPECTUAL" >close</EVENT> of <EVENT eid="e57" class="OCCURRENCE" >business</EVENT> <TIMEX3 tid="t127" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t101" >Thursday</TIMEX3>, <CARDINAL>5,745,188</CARDINAL> shares <ENAMEX TYPE="ORGANIZATION">of Connaught</ENAMEX> and C$<CARDINAL>44.3 million</CARDINAL> face amount of debentures, convertible into <CARDINAL>1,826,596</CARDINAL> common shares, had been <EVENT eid="e60" class="OCCURRENCE" >tendered</EVENT> to its <EVENT eid="e61" class="OCCURRENCE" >offer</EVENT>.</s> 
+<s>At the <EVENT eid="e62" class="ASPECTUAL" >close</EVENT> of <EVENT eid="e63" class="OCCURRENCE" >business</EVENT> <TIMEX3 tid="t128" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-26" anchorTimeID="t101" >Thursday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Ciba-Geigy</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Chiron</ENAMEX> <EVENT eid="e64" class="REPORTING" >said</EVENT> <CARDINAL>11,580</CARDINAL> common shares had been <EVENT eid="e65" class="OCCURRENCE" >tendered</EVENT> to their <EVENT eid="e66" class="OCCURRENCE" >offer</EVENT>.</s> 
+<s>At last <EVENT eid="e67" class="REPORTING" >report</EVENT>, <ENAMEX TYPE="ORGANIZATION">Connaught</ENAMEX> <EVENT eid="e129" class="STATE" >had</EVENT> <EVENT eid="e130" class="STATE" ><CARDINAL>21.8 million</CARDINAL> shares</EVENT> outstanding.</s> 
+
+   <s>Separately, the <ENAMEX TYPE="ORGANIZATION">Ontario Supreme Court</ENAMEX> <EVENT eid="e68" class="REPORTING" >said</EVENT> it will <EVENT eid="e69" class="I_ACTION" >postpone</EVENT> indefinitely a <EVENT eid="e70" class="STATE" >ruling</EVENT> on the lawsuit <EVENT eid="e73" class="OCCURRENCE" >launched</EVENT> by the <ENAMEX TYPE="ORGANIZATION">University of Toronto</ENAMEX> against <ENAMEX TYPE="ORGANIZATION">Connaught</ENAMEX> in connection with the <ENAMEX TYPE="ORGANIZATION">Merieux</ENAMEX> bid.</s> 
+
+   <s>In a statement prepared by lawyers for the university and <ENAMEX TYPE="ORGANIZATION">Connaught</ENAMEX>, the parties <EVENT eid="e78" class="REPORTING" >said</EVENT> they <EVENT eid="e79" class="I_ACTION" >agreed</EVENT> that as a result of <EVENT eid="e81" class="I_STATE" >reaching</EVENT> a C415 million research <EVENT eid="e131" class="STATE" >accord</EVENT>, "It is unnecessary that there be a judgment on the merits {of the case} at this time."</s> 
+
+   <s>Lawyers for the <CARDINAL>two</CARDINAL> sides weren't immediately available for comment.</s> 
+
+   <s>The university had <EVENT eid="e88" class="I_ACTION" >sought</EVENT> an injunction <EVENT eid="e90" class="I_ACTION" >blocking</EVENT> <ENAMEX TYPE="ORGANIZATION">Connaught</ENAMEX>'s board from <EVENT eid="e92" class="I_ACTION" >recommending</EVENT> or <EVENT eid="e93" class="I_ACTION" >supporting</EVENT> an <EVENT eid="e94" class="OCCURRENCE" >offer</EVENT> for the company by <ENAMEX TYPE="ORGANIZATION">Merieux</ENAMEX>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei478" cardinality="2" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei479" cardinality="2" tense="NONE" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei480" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei481" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei482" tense="PAST" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei483" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei484" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei485" tense="NONE" eventID="e108" />
+<MAKEINSTANCE aspect="NONE" eiid="ei486" tense="NONE" eventID="e109" />
+<MAKEINSTANCE aspect="NONE" eiid="ei487" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei488" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei489" tense="PAST" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei490" tense="NONE" eventID="e111" />
+<MAKEINSTANCE aspect="NONE" eiid="ei491" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei492" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei493" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei494" tense="NONE" eventID="e116" />
+<MAKEINSTANCE aspect="NONE" eiid="ei495" tense="NONE" eventID="e118" />
+<MAKEINSTANCE aspect="NONE" eiid="ei496" tense="NONE" eventID="e119" />
+<MAKEINSTANCE aspect="NONE" eiid="ei497" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei498" tense="PAST" eventID="e30" />
+<MAKEINSTANCE aspect="NONE" eiid="ei499" tense="PAST" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei500" tense="NONE" eventID="e121" />
+<MAKEINSTANCE aspect="NONE" eiid="ei501" tense="PAST" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei502" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei503" tense="PAST" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei504" tense="PRESENT" eventID="e125" />
+<MAKEINSTANCE aspect="NONE" eiid="ei505" tense="FUTURE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei506" tense="PRESENT" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei507" cardinality="2" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei508" tense="PAST" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei509" tense="NONE" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei510" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei511" tense="PAST" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei512" tense="NONE" eventID="e61" />
+<MAKEINSTANCE aspect="NONE" eiid="ei513" tense="NONE" eventID="e62" />
+<MAKEINSTANCE aspect="NONE" eiid="ei514" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei515" tense="PAST" eventID="e64" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei516" tense="PAST" eventID="e65" />
+<MAKEINSTANCE aspect="NONE" eiid="ei517" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei518" tense="NONE" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei519" tense="PAST" eventID="e129" />
+<MAKEINSTANCE aspect="NONE" eiid="ei520" tense="NONE" eventID="e130" />
+<MAKEINSTANCE aspect="NONE" eiid="ei521" tense="PAST" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei522" tense="FUTURE" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei523" tense="NONE" eventID="e70" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei524" tense="NONE" eventID="e73" />
+<MAKEINSTANCE aspect="NONE" eiid="ei525" tense="PAST" eventID="e78" />
+<MAKEINSTANCE aspect="NONE" eiid="ei526" tense="PAST" eventID="e79" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei527" tense="NONE" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei528" tense="NONE" eventID="e131" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei529" tense="PAST" eventID="e88" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei530" tense="NONE" eventID="e90" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei531" tense="NONE" eventID="e92" />
+<MAKEINSTANCE aspect="NONE" eiid="ei532" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="NONE" eiid="ei533" tense="NONE" eventID="e94" />
+<TLINK relatedToTime="t101" eventInstanceID="ei478" relType="BEFORE" />
+<TLINK relatedToTime="t102" eventInstanceID="ei478" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei479" eventInstanceID="ei481" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t101" eventInstanceID="ei482" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei482" eventInstanceID="ei481" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei478" eventInstanceID="ei483" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei481" eventInstanceID="ei484" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei485" eventInstanceID="ei484" relType="INCLUDES" />
+<TLINK relatedToTime="t103" eventInstanceID="ei486" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei486" eventInstanceID="ei484" relType="ENDED_BY" />
+<TLINK relatedToTime="t104" eventInstanceID="ei486" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei479" eventInstanceID="ei487" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei478" eventInstanceID="ei488" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei489" eventInstanceID="ei487" relType="INCLUDES" />
+<TLINK relatedToTime="t112" eventInstanceID="ei490" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t107" eventInstanceID="ei490" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t102" eventInstanceID="ei485" relType="ENDED_BY" />
+<TLINK relatedToTime="t102" eventInstanceID="ei485" relType="BEGUN_BY" />
+<TLINK relatedToTime="t102" eventInstanceID="ei489" relType="ENDED_BY" />
+<TLINK relatedToTime="t102" eventInstanceID="ei489" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei482" signalID="s280" eventInstanceID="ei491" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei495" signalID="s299" eventInstanceID="ei494" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei491" signalID="s314" eventInstanceID="ei498" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei501" eventInstanceID="ei498" relType="SIMULTANEOUS" />
+<TLINK signalID="s123" relatedToTime="t122" eventInstanceID="ei502" relType="BEFORE" />
+<TLINK relatedToTime="t124" eventInstanceID="ei503" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei506" signalID="s126" eventInstanceID="ei505" relType="AFTER" />
+<TLINK relatedToEventInstance="ei479" eventInstanceID="ei507" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei509" eventInstanceID="ei511" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t128" eventInstanceID="ei514" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t128" eventInstanceID="ei513" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t127" eventInstanceID="ei509" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t127" eventInstanceID="ei510" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei513" eventInstanceID="ei515" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei520" eventInstanceID="ei519" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei524" eventInstanceID="ei522" relType="AFTER" />
+<TLINK relatedToEventInstance="ei527" eventInstanceID="ei526" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei533" eventInstanceID="ei531" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei479" eventInstanceID="ei478" relType="FACTIVE" />
+<SLINK signalID="s3" subordinatedEventInstance="ei480" eventInstanceID="ei479" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei483" eventInstanceID="ei482" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei484" eventInstanceID="ei483" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei487" eventInstanceID="ei488" relType="FACTIVE" />
+<SLINK signalID="s114" subordinatedEventInstance="ei486" eventInstanceID="ei485" relType="MODAL" />
+<SLINK signalID="s114" subordinatedEventInstance="ei486" eventInstanceID="ei485" relType="MODAL" />
+<SLINK signalID="s113" subordinatedEventInstance="ei490" eventInstanceID="ei489" relType="MODAL" />
+<SLINK signalID="s113" subordinatedEventInstance="ei490" eventInstanceID="ei489" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei492" eventInstanceID="ei491" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei493" eventInstanceID="ei492" relType="MODAL" />
+<SLINK signalID="s120" subordinatedEventInstance="ei496" eventInstanceID="ei495" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei497" eventInstanceID="ei496" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei499" eventInstanceID="ei498" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei500" eventInstanceID="ei499" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei502" eventInstanceID="ei501" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei504" eventInstanceID="ei503" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei505" eventInstanceID="ei504" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei511" eventInstanceID="ei508" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei512" eventInstanceID="ei511" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei516" eventInstanceID="ei515" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei517" eventInstanceID="ei516" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei519" eventInstanceID="ei518" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei522" eventInstanceID="ei521" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei523" eventInstanceID="ei522" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei526" eventInstanceID="ei525" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei528" eventInstanceID="ei527" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei530" eventInstanceID="ei529" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei531" eventInstanceID="ei530" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei532" eventInstanceID="ei530" relType="COUNTER_FACTIVE" />
+<SLINK subordinatedEventInstance="ei533" eventInstanceID="ei532" relType="FACTIVE" />
+<ALINK relatedToEventInstance="ei494" eventInstanceID="ei493" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei510" eventInstanceID="ei509" relType="TERMINATES" />
+</TimeML>

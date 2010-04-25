@@ -1,0 +1,22 @@
+#!/bin/sh
+CHARNIAKBIN=${CHARNIAKBIN:-/home/lit/tools/charniak/parseIt}
+CHARNIAKDATA=${CHARNIAKDATA:-/home/lit/tools/charniak/DATA/}
+CHARNIAKOPTS=${CHARNIAKOPTS:--l100}
+DEPDIR=${DEPDIR:-`dirname $0`}
+export DEPDIR
+tmp="/tmp/${USER}_charniak.$$"
+cat "$@" | cut -f 1 | sed 's/^/<s> /; s/$/ <\/s>/' >"$tmp.raw"
+ulimit -s unlimited
+$CHARNIAKBIN $CHANIAKOPTS $CHARNIAKDATA "$tmp.raw" |
+    $DEPDIR/convert/wsj2dep.pl |
+    $DEPDIR/convert/shuffle-deps.pl >"$tmp.deps"
+nsent_deps=`grep '<sentence ' "$tmp.deps" | wc -l`
+nsent=`wc -l <"$tmp.raw"`
+if test $nsent_deps -ne $nsent ; then
+    echo "After parsing: $nsent_deps instead of $nsent" >&2
+fi
+echo '<?xml version="1.0"?>'
+echo '<charniak-deps>'
+cat "$tmp.deps"
+echo '</charniak-deps>'
+rm -f -- "$tmp".*

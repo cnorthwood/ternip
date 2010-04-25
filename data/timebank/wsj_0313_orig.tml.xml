@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891101-0051 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0051. </AN>
+<HL> Business Brief -- Murphy Oil Corp.:
+@  Ocean Drilling Unit to Sell
+@  Contract-Drilling Operation </HL>
+<DD> <TIMEX3 tid="t61" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> ODR MUR </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+EARNINGS (ERN) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Ocean Drilling amp Exploration Co.</ENAMEX> will <EVENT eid="e1" class="OCCURRENCE" >sell</EVENT> its contract-drilling business, and <EVENT eid="e3" class="OCCURRENCE" >took</EVENT> a <NUMEX TYPE="MONEY">$50.9 million</NUMEX> <EVENT eid="e4" class="STATE" >loss</EVENT> from discontinued <EVENT eid="e5" class="OCCURRENCE" >operations</EVENT> <SIGNAL sid="s43" >in</SIGNAL> <TIMEX3 tid="t62" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t61" >the third quarter</TIMEX3> because of the <EVENT eid="e45" class="I_STATE" >planned</EVENT> <EVENT eid="e7" class="OCCURRENCE" >sale</EVENT>.</s> 
+
+   <s>The New Orleans oil and gas exploration and diving operations company <EVENT eid="e9" class="REPORTING" >added</EVENT> that it does <SIGNAL sid="s11" >n't</SIGNAL> <EVENT eid="e10" class="I_STATE" >expect</EVENT> any further adverse financial <EVENT eid="e12" class="OCCURRENCE" >impact</EVENT> from the <EVENT eid="e64" class="OCCURRENCE" >restructuring</EVENT>.</s> 
+
+   <s><SIGNAL sid="s46" >In</SIGNAL> <TIMEX3 tid="t63" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t61" >the third quarter</TIMEX3>, the company, which is <NUMEX TYPE="PERCENT">61%</NUMEX>-owned by <ENAMEX TYPE="ORGANIZATION">Murphy Oil Corp.</ENAMEX> of <ENAMEX TYPE="LOCATION">Arkansas</ENAMEX>, <EVENT eid="e48" class="STATE" >had</EVENT> a net <EVENT eid="e15" class="STATE" >loss</EVENT> of <NUMEX TYPE="MONEY">$46.9 million</NUMEX>, or <NUMEX TYPE="MONEY">91 cents</NUMEX> a share, compared with a restated <EVENT eid="e17" class="STATE" >loss</EVENT> of <NUMEX TYPE="MONEY">$9 million</NUMEX>, or <NUMEX TYPE="MONEY">18 cents</NUMEX> a share, <TIMEX3 tid="t65" temporalFunction="false" type="DURATION" functionInDocument="NONE" value="P1Y" >a year ago</TIMEX3>.</s> 
+<s><TIMEX3 tid="t66" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t62" >The latest period</TIMEX3> <EVENT eid="e51" class="STATE" >had</EVENT> <EVENT eid="e52" class="STATE" >profit</EVENT> from continuing <EVENT eid="e18" class="OCCURRENCE" >operations</EVENT> of <NUMEX TYPE="MONEY">$4 million</NUMEX>.</s> 
+<s>Revenue <EVENT eid="e21" class="OCCURRENCE" >gained</EVENT> <NUMEX TYPE="PERCENT">13%</NUMEX> <SIGNAL sid="s55" >to</SIGNAL> <EVENT eid="e53" class="STATE" ><NUMEX TYPE="MONEY">$77.3 million</NUMEX></EVENT> <SIGNAL sid="s56" >from</SIGNAL> <EVENT eid="e54" class="STATE" ><NUMEX TYPE="MONEY">$68.5 million</NUMEX></EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Ocean Drilling</ENAMEX> <EVENT eid="e22" class="REPORTING" >said</EVENT> it will <EVENT eid="e23" class="OCCURRENCE" >offer</EVENT> <NUMEX TYPE="PERCENT">15%</NUMEX> to <NUMEX TYPE="PERCENT">20%</NUMEX> of the contract-drilling business through an initial public <EVENT eid="e25" class="OCCURRENCE" >offering</EVENT> <SIGNAL sid="s57" >in</SIGNAL> <TIMEX3 tid="t67" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t61" >the near future</TIMEX3>.</s> 
+<s>It has long been <EVENT eid="e27" class="I_ACTION" >rumored</EVENT> that <ENAMEX TYPE="ORGANIZATION">Ocean Drilling</ENAMEX> would <EVENT eid="e59" class="OCCURRENCE" >sell</EVENT> the unit <SIGNAL sid="s30" >to</SIGNAL> <EVENT eid="e31" class="OCCURRENCE" >concentrate</EVENT> on its core oil and gas business.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Ocean Drilling</ENAMEX> <EVENT eid="e33" class="REPORTING" >said</EVENT> it wo <SIGNAL sid="s35" >n't</SIGNAL> <EVENT eid="e34" class="OCCURRENCE" >hold</EVENT> any shares of the new company <SIGNAL sid="s36" >after</SIGNAL> the <EVENT eid="e60" class="OCCURRENCE" >restructuring</EVENT>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei223" tense="FUTURE" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei224" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei225" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei226" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei227" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei228" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei229" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei230" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei231" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei232" tense="NONE" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei233" tense="PAST" eventID="e48" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei234" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei235" tense="NONE" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei236" tense="PAST" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei237" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei238" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei239" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei240" tense="NONE" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei241" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei242" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei243" tense="FUTURE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei244" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei245" tense="PRESENT" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" modality="would" eiid="ei246" tense="NONE" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei247" tense="NONE" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei248" tense="PAST" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei249" tense="FUTURE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei250" tense="NONE" eventID="e60" />
+<TLINK relatedToTime="t61" eventInstanceID="ei223" relType="AFTER" />
+<TLINK relatedToTime="t61" eventInstanceID="ei224" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei225" eventInstanceID="ei224" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei225" eventInstanceID="ei226" relType="BEFORE" />
+<TLINK signalID="s43" relatedToTime="t62" eventInstanceID="ei226" relType="DURING" />
+<TLINK relatedToEventInstance="ei226" eventInstanceID="ei227" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei223" eventInstanceID="ei228" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei231" eventInstanceID="ei232" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei228" eventInstanceID="ei232" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei233" signalID="s46" timeID="t63" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei234" eventInstanceID="ei233" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei234" eventInstanceID="ei235" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei237" eventInstanceID="ei236" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei236" timeID="t66" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei236" eventInstanceID="ei238" relType="BEFORE" />
+<TLINK relatedToTime="t66" eventInstanceID="ei239" relType="DURING" />
+<TLINK relatedToEventInstance="ei241" signalID="s56" eventInstanceID="ei239" relType="BEGUN_BY" />
+<TLINK relatedToEventInstance="ei240" signalID="s55" eventInstanceID="ei239" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei229" eventInstanceID="ei242" relType="IDENTITY" />
+<TLINK relatedToTime="t61" eventInstanceID="ei242" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei244" eventInstanceID="ei243" relType="INCLUDES" />
+<TLINK signalID="s57" relatedToTime="t67" eventInstanceID="ei244" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t61" eventInstanceID="ei245" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei242" eventInstanceID="ei248" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei250" signalID="s36" eventInstanceID="ei249" relType="AFTER" />
+<TLINK relatedToEventInstance="ei232" eventInstanceID="ei250" relType="IDENTITY" />
+<TLINK relatedToTime="t65" eventInstanceID="ei235" relType="BEGINS" />
+<TLINK relatedToTime="t65" eventInstanceID="ei234" relType="ENDS" />
+<SLINK subordinatedEventInstance="ei228" eventInstanceID="ei227" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei230" eventInstanceID="ei229" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei231" eventInstanceID="ei230" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei243" eventInstanceID="ei242" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei246" eventInstanceID="ei245" relType="MODAL" />
+<SLINK signalID="s30" subordinatedEventInstance="ei247" eventInstanceID="ei246" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei249" eventInstanceID="ei248" relType="EVIDENTIAL" />
+</TimeML>

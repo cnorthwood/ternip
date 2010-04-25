@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> CNN<TIMEX3 tid="t19" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-02-23" >19980223</TIMEX3>.1130.0960 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="CNN_Headline_News" air_date="19980223:1130">
+<section startTime="960.65" type="report" endTime="1009.48">
+<TEXT>
+<turn startTime="960.65" speaker="unknown" endTime="979.039" spkrType="unknown">
+ <s>Despite the <TIMEX3 tid="t20" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t19" >recent</TIMEX3> possibility of military <EVENT eid="e26" class="OCCURRENCE" >conflict</EVENT> with <ENAMEX TYPE="LOCATION">Iraq</ENAMEX>, oil prices  have  been <EVENT eid="e1" class="OCCURRENCE" >falling</EVENT>, that's because of a worldwide <EVENT eid="e27" class="OCCURRENCE" >glut</EVENT> of oil.</s>
+ <s><TIMEX3 tid="t21" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t19" >Now</TIMEX3> with a diplomatic <EVENT eid="e28" class="OCCURRENCE" >solution</EVENT> to the <EVENT eid="e29" class="OCCURRENCE" >crisis</EVENT> seemingly at <EVENT eid="e32" class="STATE" >hand</EVENT>, get <EVENT eid="e34" class="I_ACTION" >set</EVENT> <SIGNAL sid="s35" >for</SIGNAL> oil prices from the Brent north sea variety  to light swede crude to <EVENT eid="e33" class="OCCURRENCE" >fall</EVENT> further.</s>
+</turn>
+<turn startTime="979.039" speaker="unknown" endTime="996.959" spkrType="unknown">
+ <s>Oil prices  have <EVENT eid="e37" class="OCCURRENCE" >come</EVENT> <EVENT eid="e36" class="STATE" >down</EVENT> from <TIMEX3 mod="MID" tid="t22" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1997-10" anchorTimeID="t19" >the middle of October</TIMEX3> from a <NUMEX TYPE="MONEY">twenty-two dollar</NUMEX> barrel <EVENT eid="e9" class="OCCURRENCE" >level</EVENT> down to the <NUMEX TYPE="MONEY">fourteen dollars</NUMEX> we 're <EVENT eid="e10" class="PERCEPTION" >seeing</EVENT> <TIMEX3 tid="t23" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-23" anchorTimeID="t19" >today</TIMEX3>.</s>
+ <s>that 's <EVENT eid="e11" class="OCCURRENCE" >built</EVENT> up a heck of a momentum and that momentum  will <EVENT eid="e12" class="I_ACTION" >look</EVENT>  to <EVENT eid="e13" class="OCCURRENCE" >increase</EVENT>.</s>
+ <s>ah next up is that <NUMEX TYPE="MONEY">thirteen dollar</NUMEX> a barrel level we <EVENT eid="e14" class="PERCEPTION" >saw</EVENT> <SIGNAL sid="s114" >in</SIGNAL> <TIMEX3 tid="t24" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1994-WI" >the winter of <CARDINAL>nineteen ninety-four</CARDINAL></TIMEX3>.</s>
+</turn>
+<turn startTime="996.959" speaker="unknown" endTime="1009.48" spkrType="unknown">
+ <s><EVENT eid="e38" class="OCCURRENCE" >Weakened</EVENT> oil prices  have  <SIGNAL sid="s123" >already</SIGNAL> <EVENT eid="e15" class="I_ACTION" >made</EVENT> life <EVENT eid="e130" class="STATE" >easier</EVENT> for motorists at the gas
+ pump.</s>
+ <s>Gas prices <EVENT eid="e18" class="OCCURRENCE" >fell</EVENT> nearly <NUMEX TYPE="MONEY">two cents</NUMEX> a gallon <SIGNAL sid="s137" >over</SIGNAL> <TIMEX3 tid="t25" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P2W" anchorTimeID="t19" >the last two weeks</TIMEX3>.</s> <s>That <EVENT eid="e39" class="REPORTING" >according</EVENT> to the Lundberg survey of <CARDINAL>ten thousand</CARDINAL> gas stations nationwide.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei148" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei149" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei150" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei151" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei152" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei153" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei154" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei155" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei156" tense="PRESENT" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei157" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei158" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei159" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei160" tense="PRESENT" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei161" tense="FUTURE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei162" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei163" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei164" tense="NONE" eventID="e38" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei165" tense="PRESENT" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei166" tense="NONE" eventID="e130" />
+<MAKEINSTANCE aspect="NONE" eiid="ei167" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei168" tense="NONE" eventID="e39" />
+<TLINK relatedToTime="t25" timeID="t19" relType="IAFTER" />
+<TLINK relatedToEventInstance="ei157" eventInstanceID="ei156" relType="BEGINS" />
+<TLINK relatedToTime="t19" eventInstanceID="ei161" relType="AFTER" />
+<TLINK relatedToTime="t19" eventInstanceID="ei164" relType="DURING" />
+<TLINK signalID="s137" relatedToTime="t25" eventInstanceID="ei167" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei166" eventInstanceID="ei165" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei165" signalID="s123" eventInstanceID="ei164" relType="BEFORE" />
+<TLINK relatedToTime="t19" eventInstanceID="ei160" relType="BEFORE" />
+<TLINK relatedToTime="t19" eventInstanceID="ei156" relType="BEFORE" />
+<TLINK signalID="s114" relatedToTime="t24" eventInstanceID="ei163" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t23" eventInstanceID="ei159" relType="DURING" />
+<TLINK relatedToTime="t20" eventInstanceID="ei148" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t19" eventInstanceID="ei149" relType="DURING" />
+<TLINK relatedToTime="t19" eventInstanceID="ei150" relType="DURING" />
+<TLINK relatedToEventInstance="ei153" timeID="t21" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei148" eventInstanceID="ei152" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei158" timeID="t22" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei153" eventInstanceID="ei151" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei153" eventInstanceID="ei154" relType="BEGUN_BY" />
+<SLINK subordinatedEventInstance="ei167" eventInstanceID="ei168" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei162" eventInstanceID="ei161" relType="MODAL" />
+<SLINK signalID="s35" subordinatedEventInstance="ei155" eventInstanceID="ei154" relType="MODAL" />
+<ALINK relatedToEventInstance="ei152" eventInstanceID="ei151" relType="TERMINATES" />
+</TimeML>

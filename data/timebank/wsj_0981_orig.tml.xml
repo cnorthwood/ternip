@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0077 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0077. </AN>
+<HL> MGM Grand to Pay
+@  $93 Million, Stock
+@  For Resort Site
+@  ----
+@  By David J. Jefferson
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t94" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> MGMG RAM </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+REAL ESTATE, REITS, LAND DEVELOPMENT (REL)
+CASINOS AND GAMBLING (CNO)
+STOCK MARKET, OFFERINGS (STK) </IN>
+<DATELINE> BEVERLY HILLS, Calif.  </DATELINE>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">MGM Grand Inc.</ENAMEX> has <EVENT eid="e1" class="I_STATE" >agreed</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >pay</EVENT> <NUMEX TYPE="MONEY">$93 million</NUMEX> and nearly <CARDINAL>1.8 million</CARDINAL> common shares <SIGNAL sid="s4" >to</SIGNAL> <EVENT eid="e5" class="OCCURRENCE" >buy</EVENT> <CARDINAL>117</CARDINAL> acres of land along the <ENAMEX TYPE="LOCATION">Las Vegas</ENAMEX>, <ENAMEX TYPE="LOCATION">Nev.</ENAMEX>, <ENAMEX TYPE="LOCATION">Strip</ENAMEX> as a site for its planned movie-studio and theme-park resort.</s> 
+
+   <s>Of the total purchase price, <NUMEX TYPE="MONEY">$50 million</NUMEX> cash and <NUMEX TYPE="MONEY">$30 million</NUMEX> in stock (nearly <CARDINAL>1.8 million</CARDINAL> shares) <SIGNAL sid="s9" >would</SIGNAL> be <EVENT eid="e8" class="OCCURRENCE" >paid</EVENT> <SIGNAL sid="s10" >to</SIGNAL> <EVENT eid="e11" class="OCCURRENCE" >buy</EVENT> the existing 700-room <ENAMEX TYPE="ORGANIZATION">Marina Hotel amp Casino</ENAMEX> from <ENAMEX TYPE="LOCATION">Southwest Securities</ENAMEX>, a <ENAMEX TYPE="LOCATION">Nevada</ENAMEX> limited partnership.</s> 
+<s>The remaining properties to be <EVENT eid="e13" class="OCCURRENCE" >acquired</EVENT> are the <ENAMEX TYPE="ORGANIZATION">Tropicana Country Club amp Golf Course</ENAMEX>, a facility jointly owned by <ENAMEX TYPE="ORGANIZATION">Ramada Inc.</ENAMEX>, of <ENAMEX TYPE="LOCATION">Phoenix</ENAMEX>, <ENAMEX TYPE="LOCATION">Ariz.</ENAMEX>, and the <ENAMEX TYPE="PERSON">Jaffe</ENAMEX> family, and a small parcel owned by <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">MGM Grand</ENAMEX> director James D. Aljian</ENAMEX>.</s> 
+
+   <s>The purchase price was <EVENT eid="e17" class="OCCURRENCE" >disclosed</EVENT> in a preliminary prospectus <EVENT eid="e18" class="OCCURRENCE" >issued</EVENT> in connection with <ENAMEX TYPE="ORGANIZATION">MGM Grand</ENAMEX>'s planned offering of <CARDINAL>six million</CARDINAL> common shares.</s> 
+<s>The luxury airline and casino company, <NUMEX TYPE="PERCENT">98.6%</NUMEX>-owned by investor <ENAMEX TYPE="PERSON">Kirk Kerkorian</ENAMEX> and his <ENAMEX TYPE="ORGANIZATION">Tracinda Corp.</ENAMEX>, <SIGNAL sid="s93" >earlier</SIGNAL> <TIMEX3 tid="t95" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10" anchorTimeID="t94" >this month</TIMEX3> <EVENT eid="e22" class="I_ACTION" >announced</EVENT> its <EVENT eid="e23" class="I_STATE" >agreements</EVENT> <SIGNAL sid="s24" >to</SIGNAL> <EVENT eid="e25" class="OCCURRENCE" >acquire</EVENT> the properties, but did <SIGNAL sid="s27" >n't</SIGNAL> <EVENT eid="e26" class="OCCURRENCE" >disclose</EVENT> the purchase price.</s> 
+
+   <s>The proposed stock <EVENT eid="e28" class="I_ACTION" >offering</EVENT> and <EVENT eid="e29" class="OCCURRENCE" >issuance</EVENT> of nearly <CARDINAL>1.8 million</CARDINAL> common shares in connection with the land purchase will <EVENT eid="e32" class="OCCURRENCE" >bring</EVENT> <ENAMEX TYPE="ORGANIZATION">MGM Grand</ENAMEX>'s total shares outstanding <SIGNAL sid="s98" >to</SIGNAL> <CARDINAL><EVENT eid="e97" class="STATE" >28.7 million</EVENT></CARDINAL>, of which <NUMEX TYPE="PERCENT">72%</NUMEX> will be <EVENT eid="e33" class="STATE" >owned</EVENT> by <ENAMEX TYPE="PERSON">Mr. Kerkorian</ENAMEX> and <ENAMEX TYPE="ORGANIZATION">Tracinda</ENAMEX>, <EVENT eid="e100" class="REPORTING" >according</EVENT> to the prospectus.</s> 
+
+   <s>In over-the-counter <EVENT eid="e34" class="OCCURRENCE" >trading</EVENT>, <ENAMEX TYPE="ORGANIZATION">MGM Grand</ENAMEX> was <EVENT eid="e35" class="OCCURRENCE" >bid</EVENT> at <NUMEX TYPE="MONEY">$17.50</NUMEX> a share.</s> 
+
+   <s>Proceeds from the offering are <EVENT eid="e38" class="I_STATE" >expected</EVENT> <SIGNAL sid="s39" >to</SIGNAL> be <EVENT eid="e40" class="OCCURRENCE" >used</EVENT> <SIGNAL sid="s2134" >for</SIGNAL> <EVENT eid="e41" class="OCCURRENCE" >remodeling</EVENT> the company's <ENAMEX TYPE="ORGANIZATION">Desert Inn</ENAMEX> resort in <ENAMEX TYPE="LOCATION">Las Vegas</ENAMEX>, <EVENT eid="e101" class="OCCURRENCE" >refurbishing</EVENT> certain aircraft of the <ENAMEX TYPE="ORGANIZATION">MGM Grand Air</ENAMEX> unit, and <SIGNAL sid="s42" >to</SIGNAL> <EVENT eid="e43" class="OCCURRENCE" >acquire</EVENT> the property for the new resort.</s> 
+<s>The company <EVENT eid="e44" class="REPORTING" >said</EVENT> it <EVENT eid="e45" class="I_STATE" >estimates</EVENT> the <ENAMEX TYPE="ORGANIZATION">Desert Inn</ENAMEX> <EVENT eid="e102" class="OCCURRENCE" >remodeling</EVENT> will <EVENT eid="e46" class="STATE" >cost</EVENT> about <NUMEX TYPE="MONEY">$32 million</NUMEX>, and the <EVENT eid="e103" class="OCCURRENCE" >refurbishment</EVENT> of the <CARDINAL>three</CARDINAL> DC-8-62 aircraft, <EVENT eid="e47" class="OCCURRENCE" >made</EVENT> by <ENAMEX TYPE="ORGANIZATION">McDonnell Douglas Corp.</ENAMEX>, will <EVENT eid="e48" class="OCCURRENCE" >cost</EVENT> around <NUMEX TYPE="MONEY">$24.5 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">MGM Grand</ENAMEX> <EVENT eid="e49" class="REPORTING" >said</EVENT> the latest stock offering wo <SIGNAL sid="s52" >n't</SIGNAL> <EVENT eid="e51" class="OCCURRENCE" >cover</EVENT> the <NUMEX TYPE="MONEY">$600 million</NUMEX> or more <EVENT eid="e2187" class="STATE" >cost</EVENT> of <EVENT eid="e2188" class="OCCURRENCE" >building</EVENT> the proposed resort and theme park, and <EVENT eid="e54" class="OCCURRENCE" >added</EVENT> it will <EVENT eid="e55" class="I_STATE" >need</EVENT> <SIGNAL sid="s56" >to</SIGNAL> <EVENT eid="e57" class="I_ACTION" >seek</EVENT> additional financing, either through bank borrowings or debt and equity offerings, <SIGNAL sid="s62" >at</SIGNAL> <TIMEX3 tid="t104" type="DATE" temporalFunction="true" functionInDocument="NONE" value="FUTURE_REF" anchorTimeID="t94" >a later date</TIMEX3>.</s> 
+<s><EVENT eid="e63" class="OCCURRENCE" >Construction</EVENT> is <EVENT eid="e64" class="STATE" >set</EVENT> <SIGNAL sid="s65" >to</SIGNAL> <EVENT eid="e66" class="ASPECTUAL" >begin</EVENT> <SIGNAL sid="s106" >in</SIGNAL> <TIMEX3 mod="START" tid="t105" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1991" >early 1991</TIMEX3>.</s> 
+
+   <s>The resort  will include the <ENAMEX TYPE="ORGANIZATION">MGM Grand Hotel</ENAMEX>, a multi-spired, castle-like facility that  will include <CARDINAL>5,000</CARDINAL> rooms and <CARDINAL>85,000</CARDINAL> square feet of casino space.</s> 
+<s>The facility will be <EVENT eid="e69" class="OCCURRENCE" >marketed</EVENT> toward families, and room rates will be <EVENT eid="e107" class="STATE" >between <NUMEX TYPE="MONEY">$35</NUMEX> and <NUMEX TYPE="MONEY">$55</NUMEX> a night</EVENT>, <ENAMEX TYPE="ORGANIZATION">MGM Grand</ENAMEX> <EVENT eid="e70" class="REPORTING" >said</EVENT>.</s> 
+
+   <s>The prospectus did <SIGNAL sid="s72" >n't</SIGNAL> <EVENT eid="e71" class="STATE" >include</EVENT> many details about the studio and theme park, although conceptual drawings, <EVENT eid="e75" class="OCCURRENCE" >released</EVENT> <TIMEX3 tid="t108" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10" anchorTimeID="t94" >this month</TIMEX3>, <EVENT eid="e76" class="REPORTING" >show</EVENT> that it <SIGNAL sid="s78" >may</SIGNAL> <EVENT eid="e77" class="STATE" >feature</EVENT> several "themed" areas similar to those found at parks built by <ENAMEX TYPE="ORGANIZATION">Walt Disney Co.</ENAMEX></s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2275" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2276" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2277" tense="NONE" eventID="e5" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2278" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2279" tense="NONE" eventID="e11" />
+<MAKEINSTANCE aspect="PERFECTIVE" modality="to" eiid="ei2280" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2281" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2282" tense="NONE" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2283" tense="PAST" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2284" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2285" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2286" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2287" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2288" tense="NONE" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2289" tense="FUTURE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2290" tense="NONE" eventID="e97" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2291" tense="FUTURE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2292" tense="NONE" eventID="e100" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2293" tense="NONE" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2294" tense="PAST" eventID="e35" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2295" tense="PRESENT" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2296" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2297" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2298" tense="NONE" eventID="e101" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2299" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2300" tense="PAST" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2301" tense="PRESENT" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2302" tense="NONE" eventID="e102" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2303" tense="FUTURE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2304" tense="NONE" eventID="e103" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2305" tense="NONE" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2306" tense="FUTURE" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2307" tense="PAST" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2308" tense="FUTURE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2309" tense="NONE" eventID="e2187" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2310" tense="NONE" eventID="e2188" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2311" tense="PAST" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2312" tense="FUTURE" eventID="e55" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2313" tense="NONE" eventID="e57" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2314" tense="NONE" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2315" tense="PRESENT" eventID="e64" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2316" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2317" tense="FUTURE" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2318" tense="NONE" eventID="e107" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2319" tense="PAST" eventID="e70" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2320" tense="PAST" eventID="e71" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2321" tense="NONE" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2322" tense="PRESENT" eventID="e76" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2323" tense="NONE" eventID="e77" />
+<TLINK relatedToEventInstance="ei2275" timeID="t94" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2276" eventInstanceID="ei2278" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2277" eventInstanceID="ei2279" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2277" eventInstanceID="ei2280" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2282" eventInstanceID="ei2281" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2282" relType="BEFORE" />
+<TLINK signalID="s93" relatedToTime="t94" eventInstanceID="ei2283" relType="BEFORE" />
+<TLINK relatedToTime="t95" eventInstanceID="ei2283" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2277" eventInstanceID="ei2285" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2275" eventInstanceID="ei2284" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2281" signalID="s93" eventInstanceID="ei2286" relType="BEFORE" />
+<TLINK relatedToTime="t95" eventInstanceID="ei2286" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2289" eventInstanceID="ei2287" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2289" eventInstanceID="ei2288" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2290" signalID="s98" eventInstanceID="ei2289" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2290" eventInstanceID="ei2291" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2282" eventInstanceID="ei2292" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2292" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2294" eventInstanceID="ei2293" relType="INCLUDES" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2295" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2302" eventInstanceID="ei2303" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2304" eventInstanceID="ei2306" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2305" eventInstanceID="ei2304" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2300" eventInstanceID="ei2307" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2307" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2310" eventInstanceID="ei2309" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2308" eventInstanceID="ei2309" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2307" eventInstanceID="ei2311" relType="IS_INCLUDED" />
+<TLINK signalID="s62" relatedToTime="t104" eventInstanceID="ei2312" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2315" relType="INCLUDES" />
+<TLINK signalID="s106" relatedToTime="t105" eventInstanceID="ei2316" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2317" relType="AFTER" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2318" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2307" eventInstanceID="ei2319" relType="IDENTITY" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2320" relType="INCLUDES" />
+<TLINK relatedToTime="t94" eventInstanceID="ei2322" relType="INCLUDES" />
+<TLINK relatedToTime="t108" eventInstanceID="ei2321" relType="IS_INCLUDED" />
+<SLINK subordinatedEventInstance="ei2323" eventInstanceID="ei2322" relType="EVIDENTIAL" />
+<SLINK signalID="s2" subordinatedEventInstance="ei2276" eventInstanceID="ei2275" relType="MODAL" />
+<SLINK signalID="s4" subordinatedEventInstance="ei2277" eventInstanceID="ei2276" relType="MODAL" />
+<SLINK signalID="s10" subordinatedEventInstance="ei2279" eventInstanceID="ei2278" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2284" eventInstanceID="ei2283" relType="FACTIVE" />
+<SLINK signalID="s24" subordinatedEventInstance="ei2285" eventInstanceID="ei2284" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2290" eventInstanceID="ei2292" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2291" eventInstanceID="ei2292" relType="EVIDENTIAL" />
+<SLINK signalID="s39" subordinatedEventInstance="ei2296" eventInstanceID="ei2295" relType="MODAL" />
+<SLINK signalID="s2134" subordinatedEventInstance="ei2297" eventInstanceID="ei2296" relType="MODAL" />
+<SLINK signalID="s2134" subordinatedEventInstance="ei2298" eventInstanceID="ei2296" relType="MODAL" />
+<SLINK signalID="s42" subordinatedEventInstance="ei2299" eventInstanceID="ei2296" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2301" eventInstanceID="ei2300" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2303" eventInstanceID="ei2301" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2306" eventInstanceID="ei2301" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2308" eventInstanceID="ei2307" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2312" eventInstanceID="ei2311" relType="EVIDENTIAL" />
+<SLINK signalID="s56" subordinatedEventInstance="ei2313" eventInstanceID="ei2312" relType="MODAL" />
+<SLINK signalID="s65" subordinatedEventInstance="ei2316" eventInstanceID="ei2315" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2317" eventInstanceID="ei2319" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2318" eventInstanceID="ei2319" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2314" eventInstanceID="ei2316" relType="INITIATES" />
+</TimeML>

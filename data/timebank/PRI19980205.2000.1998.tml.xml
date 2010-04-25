@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> PRI<TIMEX3 tid="t37" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-02-05" >19980205</TIMEX3>.2000.1998 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="PRI_The_World" air_date="19980205:2000">
+<section startTime="1998.07" type="report" endTime="2041.08">
+<TEXT>
+<turn startTime="1998.07" speaker="unknown" endTime="2010.218" spkrType="unknown">
+ <s>Thousands of people in <ENAMEX TYPE="LOCATION">Germany</ENAMEX> have been <EVENT eid="e1" class="OCCURRENCE" >demonstrating</EVENT>
+ <TIMEX3 tid="t38" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-02-05" anchorTimeID="t37" >today</TIMEX3> against the <EVENT eid="e39" class="STATE" >high level of unemployment</EVENT> in the country.</s>
+ <s>Latest figures show a sharp <EVENT eid="e4" class="OCCURRENCE" >rise</EVENT>, with <EVENT eid="e40" class="STATE" >nearly <CARDINAL>five million</CARDINAL>
+ <ENAMEX TYPE="LOCATION">Germans</ENAMEX></EVENT> out of work.</s>
+ <s><ENAMEX TYPE="PERSON">Caroline Wyatt</ENAMEX> reports.</s>
+</turn>
+<turn startTime="2010.218" speaker="unknown" endTime="2041.08" spkrType="unknown">
+ <s><EVENT eid="e6" class="OCCURRENCE" >Chanting</EVENT> <ENAMEX TYPE="PERSON">Helmut Kohl</ENAMEX> must <EVENT eid="e7" class="OCCURRENCE" >go</EVENT> the unemployed <EVENT eid="e9" class="OCCURRENCE" >took</EVENT> to the
+ streets of the German capital, <ENAMEX TYPE="LOCATION">Berlin</ENAMEX>, <EVENT eid="e41" class="I_ACTION" >mirroring</EVENT> <EVENT eid="e10" class="OCCURRENCE" >protests</EVENT>
+ around the country.</s>
+ <s>Joblessness is <TIMEX3 tid="t42" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t37" >now</TIMEX3> <EVENT eid="e43" class="STATE" >at its highest level</EVENT> in <ENAMEX TYPE="LOCATION">Germany</ENAMEX> <SIGNAL sid="s13" >since</SIGNAL> the
+ second world <EVENT eid="e12" class="OCCURRENCE" >war</EVENT>.</s>
+ <s>With the general <EVENT eid="e14" class="OCCURRENCE" >election</EVENT> due <TIMEX3 tid="t44" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-09" anchorTimeID="t37" >this September</TIMEX3>, record figures
+ could n't have <EVENT eid="e19" class="OCCURRENCE" >come</EVENT> at <EVENT eid="e48" class="STATE" >a worst time</EVENT> for <ENAMEX TYPE="PERSON">Chancellor Kohl</ENAMEX>.</s>
+ <s>His <EVENT eid="e22" class="I_ACTION" >promise</EVENT> <SIGNAL sid="s23" >to</SIGNAL> <EVENT eid="e24" class="OCCURRENCE" >half</EVENT> unemployment <SIGNAL sid="s46" >by</SIGNAL> <TIMEX3 tid="t45" type="DATE" temporalFunction="false" functionInDocument="NONE" value="2000" >the year two thousand</TIMEX3> has <TIMEX3 tid="t47" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t37" >now</TIMEX3> been <EVENT eid="e25" class="ASPECTUAL" >abandoned</EVENT>.</s>
+ <s>And the German electorate appears increasingly <EVENT eid="e49" class="I_STATE" >eager</EVENT> <SIGNAL sid="s27" >to</SIGNAL> <EVENT eid="e28" class="OCCURRENCE" >dispense</EVENT> with the services of <ENAMEX TYPE="LOCATION">Europe</ENAMEX>'s longest serving leader.</s>
+ <s><ENAMEX TYPE="PERSON">Caroline Wyatt</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">BBC</ENAMEX> news, <ENAMEX TYPE="LOCATION">Bonn</ENAMEX>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei2001" tense="PRESENT" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2002" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2003" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2004" tense="NONE" eventID="e40" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2005" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" modality="must" eiid="ei2006" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2007" tense="PAST" eventID="e9" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2008" tense="NONE" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2009" tense="NONE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2010" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2011" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2012" tense="NONE" eventID="e14" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2013" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2014" tense="NONE" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2015" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2017" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="NONE" eventID="e28" />
+<TLINK relatedToTime="t38" eventInstanceID="ei2001" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t37" eventInstanceID="ei2002" relType="INCLUDES" />
+<TLINK relatedToTime="t37" timeID="t38" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2002" eventInstanceID="ei2003" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2003" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2004" eventInstanceID="ei2002" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2001" eventInstanceID="ei2007" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2007" eventInstanceID="ei2005" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2008" eventInstanceID="ei2007" relType="DURING" />
+<TLINK relatedToEventInstance="ei2010" timeID="t42" relType="DURING" />
+<TLINK relatedToEventInstance="ei2011" signalID="s13" eventInstanceID="ei2010" relType="AFTER" />
+<TLINK relatedToTime="t44" eventInstanceID="ei2012" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t44" timeID="t38" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2012" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToTime="t38" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2014" eventInstanceID="ei2013" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t42" eventInstanceID="ei2014" relType="DURING" />
+<TLINK relatedToTime="t42" timeID="t47" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2017" timeID="t47" relType="INCLUDES" />
+<TLINK signalID="s46" relatedToTime="t45" eventInstanceID="ei2016" relType="ENDED_BY" />
+<TLINK relatedToTime="t47" eventInstanceID="ei2018" relType="DURING" />
+<SLINK signalID="s27" subordinatedEventInstance="ei2019" eventInstanceID="ei2018" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2006" eventInstanceID="ei2005" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2009" eventInstanceID="ei2008" relType="FACTIVE" />
+<SLINK signalID="s23" subordinatedEventInstance="ei2016" eventInstanceID="ei2015" relType="MODAL" />
+<ALINK relatedToEventInstance="ei2015" eventInstanceID="ei2017" relType="TERMINATES" />
+</TimeML>

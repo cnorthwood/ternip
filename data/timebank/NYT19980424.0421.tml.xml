@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> NYT<TIMEX3 tid="t72" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-04-24" >19980424</TIMEX3>.0421 </DOCNO>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t73" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-04-24T21:49:00" >04/24/1998 21:49:00</TIMEX3> </DATE_TIME>
+<HEADER>
+A3813 Cx1f taf-z
+u k Cx13  Cx11  BC-EDIT-GENDER-STEREOTYP     04-24 0430
+</HEADER>
+<BODY>
+<SLUG> BC-EDIT-GENDER-STEREOTYPES-NYT </SLUG>
+<HEADLINE>
+EDITORIAL: THE COURT RETREATS ON STEREOTYPES
+</HEADLINE>
+UR (af) LR  QL
+UR c.1998 N.Y. Times News Service QC  LR  QL
+
+<TEXT>
+<s>The <ENAMEX TYPE="ORGANIZATION">New York Times</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> in an editorial <SIGNAL sid="s1997" >on</SIGNAL> <TIMEX3 tid="t74" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-04-25" >Saturday, April 25</TIMEX3>:
+The <ENAMEX TYPE="ORGANIZATION">Supreme Court</ENAMEX> <EVENT eid="e4" class="OCCURRENCE" >took</EVENT> a detour <TIMEX3 tid="t75" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1998-W17" anchorTimeID="t73" >this week</TIMEX3> from the core
+principle of gender fairness it <EVENT eid="e5" class="OCCURRENCE" >vindicated</EVENT> <TIMEX3 tid="t76" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1996" anchorTimeID="t73" >two years ago</TIMEX3> <SIGNAL sid="s7" >in</SIGNAL> its
+<EVENT eid="e2031" class="OCCURRENCE" >ruling</EVENT> <EVENT eid="e8" class="I_ACTION" >invalidating</EVENT> the <EVENT eid="e2040" class="OCCURRENCE" >use</EVENT> of sexual stereotypes  to justify
+denying women admission to the <ENAMEX TYPE="ORGANIZATION">Virginia Military Institute</ENAMEX>.</s> <s>By a
+6-3 vote, the court <EVENT eid="e11" class="OCCURRENCE" >upheld</EVENT> a discriminatory immigration law that
+gives a child born overseas to an unmarried American woman a better
+chance at citizenship than a child born to an unmarried American
+man.</s>
+<s>Under the statute, a child born abroad to an unwed American
+mother  is  automatically considered a <ENAMEX TYPE="LOCATION">U.S.</ENAMEX> citizen.</s> <s>But the child of
+an unwed American father has no citizenship rights unless the
+father takes the affirmative step of acknowledging paternity and
+formally agrees  to provide support until the child turns <CARDINAL>18</CARDINAL>.</s>
+<s>The majority's views  were <EVENT eid="e24" class="OCCURRENCE" >expressed</EVENT> in <CARDINAL>three</CARDINAL> separate opinions,
+the most disquieting of which  was <EVENT eid="e25" class="OCCURRENCE" >written</EVENT> by a liberal member,
+<ENAMEX TYPE="ORGANIZATION">Justice John Paul Stevens</ENAMEX>, and <EVENT eid="e26" class="OCCURRENCE" >joined</EVENT> by a conservative, Chief
+Justice William Rehnquist.</s> <s>The <EVENT eid="e1999" class="I_STATE" >opinion</EVENT>, which <EVENT eid="e27" class="I_STATE" >found</EVENT> the gender
+distinction <EVENT eid="e1998" class="STATE" >reasonable</EVENT>, <EVENT eid="e28" class="I_STATE" >relied</EVENT> heavily on outmoded generalities
+about family roles, including the flawed presumption that mothers
+have a closer relationship to their children than fathers do.</s> <s>As
+<ENAMEX TYPE="ORGANIZATION">Justice Stephen Breyer</ENAMEX> <EVENT eid="e32" class="OCCURRENCE" >asked</EVENT> <SIGNAL sid="s34" >in</SIGNAL> a strong <EVENT eid="e33" class="OCCURRENCE" >dissent</EVENT>, ``what sense does
+it make''  to apply citizenship barriers ``only to fathers and not
+to mothers in <TIMEX3 tid="t79" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t73" >today</TIMEX3>'s world _ where paternity can  readily be proved
+and where women and men both are likely  to earn a living in the
+workplace?''
+Justices Sandra Day <ENAMEX TYPE="LOCATION">O'Connor</ENAMEX> and <ENAMEX TYPE="PERSON">Anthony Kennedy</ENAMEX> <SIGNAL sid="s2000" >seemed</SIGNAL> to <EVENT eid="e43" class="I_ACTION" >agree</EVENT>
+that the law <EVENT eid="e44" class="OCCURRENCE" >amounted</EVENT> to unconstitutional sex discrimination.</s> <s>But<SIGNAL sid="s2001" >instead</SIGNAL> of <EVENT eid="e45" class="I_ACTION" >providing</EVENT> the votes  to <EVENT eid="e46" class="OCCURRENCE" >strike</EVENT> it down, they <EVENT eid="e47" class="I_ACTION" >chose</EVENT>  to <EVENT eid="e48" class="OCCURRENCE" >uphold</EVENT> it on the flimsy ground that because the sex of the parent
+and not the child made the difference under the law, the plaintiff
+did not have <EVENT eid="e51" class="I_STATE" >standing</EVENT>  to <EVENT eid="e52" class="OCCURRENCE" >bring</EVENT> the case.</s> <s>The <ENAMEX TYPE="ORGANIZATION">Justice Department</ENAMEX>,
+which <EVENT eid="e53" class="OCCURRENCE" >supported</EVENT> the statute, did <SIGNAL sid="s55" >not</SIGNAL> <EVENT eid="e54" class="OCCURRENCE" >cover</EVENT> itself with glory
+either.</s> <s>The department <EVENT eid="e56" class="OCCURRENCE" >retreated</EVENT> from its position in the <ENAMEX TYPE="ORGANIZATION">VMI</ENAMEX> case
+<SIGNAL sid="s58" >when</SIGNAL> it <EVENT eid="e59" class="OCCURRENCE" >argued</EVENT> that the government <SIGNAL sid="s61" >could</SIGNAL> <SIGNAL sid="s62" >not</SIGNAL> <EVENT eid="e60" class="OCCURRENCE" >make</EVENT> <EVENT eid="e2004" class="OCCURRENCE" >policy</EVENT> based on
+stereotypes ``even <SIGNAL sid="s64" >when</SIGNAL> those stereotypes <EVENT eid="e65" class="OCCURRENCE" >reflect</EVENT> <TIMEX3 tid="t77" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t73" >current</TIMEX3>
+realities.''</s>
+<s>As for the court, it <EVENT eid="e66" class="I_ACTION" >managed</EVENT> with its splintered ruling  to <EVENT eid="e67" class="OCCURRENCE" >cast</EVENT>
+doubt both on the constitutionality of the immigration provisions
+it upheld and on its true commitment to fighting gender
+stereotypes.</s>
+</TEXT>
+</BODY>
+<TRAILER>
+<s>NYT-<TIMEX3 tid="t78" type="TIME" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1998-04-24T21:49" >04-24-98 2149EDT</TIMEX3></s>
+</TRAILER>
+
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2115" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2116" tense="PAST" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2117" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2118" tense="NONE" eventID="e2031" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2119" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2120" tense="NONE" eventID="e2040" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2121" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2122" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2123" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2124" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2125" tense="NONE" eventID="e1999" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2126" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2127" tense="NONE" eventID="e1998" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2128" tense="NONE" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2129" tense="PAST" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2130" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2131" tense="PRESENT" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2132" tense="PAST" eventID="e44" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2133" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2134" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2135" tense="PAST" eventID="e47" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2136" tense="NONE" eventID="e48" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2137" polarity="NEG" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2138" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2139" tense="PAST" eventID="e53" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2140" tense="PAST" eventID="e54" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2141" tense="PAST" eventID="e56" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2142" tense="PAST" eventID="e59" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2143" tense="PAST" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2144" tense="NONE" eventID="e2004" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2145" tense="NONE" eventID="e65" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2146" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2147" tense="NONE" eventID="e67" />
+<TLINK relatedToEventInstance="ei2144" eventInstanceID="ei2143" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2145" signalID="s64" eventInstanceID="ei2143" relType="SIMULTANEOUS" />
+<TLINK signalID="s1997" relatedToTime="t74" eventInstanceID="ei2115" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t75" eventInstanceID="ei2116" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t76" eventInstanceID="ei2117" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2116" signalID="s7" eventInstanceID="ei2118" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2118" eventInstanceID="ei2119" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2130" signalID="s34" eventInstanceID="ei2129" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2142" signalID="s58" eventInstanceID="ei2141" relType="SIMULTANEOUS" />
+<SLINK subordinatedEventInstance="ei2147" eventInstanceID="ei2146" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2116" eventInstanceID="ei2115" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2127" eventInstanceID="ei2126" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2132" eventInstanceID="ei2131" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2134" eventInstanceID="ei2133" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2136" eventInstanceID="ei2135" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2138" eventInstanceID="ei2137" relType="MODAL" />
+</TimeML>

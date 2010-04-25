@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891030-0035 </DOCNO>
+<DD> = 891030 </DD>
+<AN> 891030-0035. </AN>
+<HL> Business Brief -- Jayark Corp.:
+@  Firm Agrees to Buy Kofcoh
+@  For Cash, Debt and Stock </HL>
+<DD> <TIMEX3 tid="t31" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-30" >10/30/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> JAYA </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Jayark Corp.</ENAMEX> <EVENT eid="e1" class="I_STATE" >agreed</EVENT> <SIGNAL sid="s2" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >pay</EVENT> <NUMEX TYPE="MONEY">$4 million</NUMEX> in cash, <NUMEX TYPE="MONEY">$2 million</NUMEX> of <NUMEX TYPE="PERCENT">12%</NUMEX> convertible debentures, and <CARDINAL>1.6 million</CARDINAL> common shares <SIGNAL sid="s6" >to</SIGNAL> <EVENT eid="e7" class="OCCURRENCE" >acquire</EVENT> closely held <ENAMEX TYPE="ORGANIZATION">Kofcoh Imports Inc.</ENAMEX> 
+
+   In over-the-counter <EVENT eid="e9" class="OCCURRENCE" >trading</EVENT> <TIMEX3 tid="t32" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-27" anchorTimeID="t31" >Friday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Jayark</ENAMEX> was <EVENT eid="e10" class="OCCURRENCE" >quoted</EVENT> at <NUMEX TYPE="MONEY">87.5 cents</NUMEX> bid , down <NUMEX TYPE="MONEY">15.625 cents</NUMEX>.</s> 
+<s>At the market price, the transaction has a total indicated value of <NUMEX TYPE="MONEY">$7.4 million</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Kofcoh</ENAMEX> is a <ENAMEX TYPE="LOCATION">New York</ENAMEX> holding company for <ENAMEX TYPE="ORGANIZATION">Rosalco Inc.</ENAMEX>, which imports furniture and other items.</s> 
+<s><ENAMEX TYPE="PERSON">David L. Koffman, president and chief executive officer of <ENAMEX TYPE="ORGANIZATION">Jayark</ENAMEX></ENAMEX>, <EVENT eid="e33" class="STATE" >holds</EVENT> about <NUMEX TYPE="PERCENT">40%</NUMEX> of <ENAMEX TYPE="ORGANIZATION">Kofcoh</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">Jayark</ENAMEX> <EVENT eid="e16" class="REPORTING" >said</EVENT>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Jayark</ENAMEX>, <ENAMEX TYPE="LOCATION">New York</ENAMEX>, distributes and rents audio-visual equipment and prints promotional ads for retailers.</s> 
+<s><SIGNAL sid="s37" >In</SIGNAL> <TIMEX3 tid="t36" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-Q2" anchorTimeID="t35" >the quarter</TIMEX3> <SIGNAL sid="s38" >ended</SIGNAL> <TIMEX3 tid="t35" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-07-31" anchorTimeID="t31" >July 31</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Jayark</ENAMEX> <EVENT eid="e39" class="STATE" >had</EVENT> an average of <CARDINAL>5.6 million</CARDINAL> shares outstanding.</s> 
+
+   <s>The <EVENT eid="e22" class="OCCURRENCE" >transaction</EVENT> is <EVENT eid="e41" class="I_STATE" >subject to</EVENT> <EVENT eid="e23" class="I_ACTION" >approval</EVENT> by a panel of disinterested directors, the company <EVENT eid="e24" class="REPORTING" >said</EVENT>, <EVENT eid="e25" class="REPORTING" >adding</EVENT> that shareholder <EVENT eid="e26" class="OCCURRENCE" >approval</EVENT> is <SIGNAL sid="s28" >n't</SIGNAL> <EVENT eid="e27" class="I_STATE" >needed</EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei116" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei117" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="NONE" eiid="ei118" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei119" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei120" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei121" tense="PRESENT" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei122" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei123" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei124" tense="NONE" eventID="e22" />
+<MAKEINSTANCE aspect="NONE" eiid="ei125" tense="PRESENT" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei126" tense="NONE" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei127" tense="PAST" eventID="e24" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei128" tense="NONE" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei129" tense="NONE" eventID="e26" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei130" tense="PRESENT" eventID="e27" />
+<TLINK relatedToTime="t31" eventInstanceID="ei116" relType="BEFORE" />
+<TLINK relatedToTime="t32" eventInstanceID="ei119" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei120" eventInstanceID="ei119" relType="INCLUDES" />
+<TLINK signalID="s38" relatedToTime="t35" timeID="t36" relType="ENDED_BY" />
+<TLINK signalID="s37" relatedToTime="t36" eventInstanceID="ei123" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t31" eventInstanceID="ei125" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei127" eventInstanceID="ei128" relType="IDENTITY" />
+<SLINK subordinatedEventInstance="ei129" eventInstanceID="ei130" relType="MODAL" />
+<SLINK signalID="s2" subordinatedEventInstance="ei117" eventInstanceID="ei116" relType="MODAL" />
+<SLINK signalID="s6" subordinatedEventInstance="ei118" eventInstanceID="ei117" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei121" eventInstanceID="ei122" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei126" eventInstanceID="ei125" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei124" eventInstanceID="ei126" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei125" eventInstanceID="ei127" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei130" eventInstanceID="ei128" relType="EVIDENTIAL" />
+</TimeML>

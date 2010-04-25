@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0014 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0014. </AN>
+<HL> Dividend News:
+@  Avon Rent-a-Car amp Truck Corp. </HL>
+<DD> <TIMEX3 tid="t30" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> AVON </CO>
+<IN> DIVIDENDS (DIV) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">AVON RENT-A-CAR amp TRUCK Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" >declared</EVENT> a dividend of one warrant for each <CARDINAL>three</CARDINAL> shares of common stock.</s> 
+<s>Currently, <ENAMEX TYPE="ORGANIZATION">Avon</ENAMEX>, based in <ENAMEX TYPE="LOCATION">Santa Monica</ENAMEX>, <ENAMEX TYPE="LOCATION">Calif.</ENAMEX>, <EVENT eid="e5" class="OCCURRENCE" >has</EVENT> <CARDINAL>3.3 million</CARDINAL> common shares outstanding.</s> 
+<s><CARDINAL>About 1.1 million</CARDINAL> Class C warrants were <EVENT eid="e7" class="OCCURRENCE" >issued</EVENT>, the company <EVENT eid="e8" class="REPORTING" >said</EVENT>.</s> 
+<s>Each of the Class C warrants will <EVENT eid="e10" class="OCCURRENCE" >enable</EVENT> the holders <SIGNAL sid="s11" >to</SIGNAL> <EVENT eid="e12" class="OCCURRENCE" >purchase</EVENT> one share of common stock at <NUMEX TYPE="MONEY">$5.50</NUMEX>.</s> 
+<s>The warrants <SIGNAL sid="s15" >may</SIGNAL> be <EVENT eid="e14" class="OCCURRENCE" >exercised</EVENT> until <TIMEX3 tid="t31" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P90D" ><CARDINAL>90</CARDINAL> days</TIMEX3> <SIGNAL sid="s16" >after</SIGNAL> their <EVENT eid="e32" class="OCCURRENCE" >issue</EVENT> date.</s> 
+<s><ENAMEX TYPE="ORGANIZATION">Avon</ENAMEX> also <EVENT eid="e17" class="REPORTING" >said</EVENT> it will <EVENT eid="e18" class="OCCURRENCE" >issue</EVENT> an additional <CARDINAL>243,677</CARDINAL> of the Class C warrants to holders of its Class A, Class B and unclassified warrants.</s> 
+<s>Issuance of those warrants will be at the rate of one-third warrant for each warrant exercised.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei81" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei82" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei83" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei84" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei85" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei86" tense="FUTURE" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei87" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei88" tense="PRESENT" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei89" tense="NONE" eventID="e32" />
+<MAKEINSTANCE aspect="NONE" eiid="ei90" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei91" tense="FUTURE" eventID="e18" />
+<TLINK relatedToEventInstance="ei84" eventInstanceID="ei89" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei81" timeID="t30" relType="AFTER" />
+<TLINK relatedToTime="t30" eventInstanceID="ei83" relType="DURING" />
+<TLINK relatedToEventInstance="ei89" eventInstanceID="ei88" relType="AFTER" />
+<TLINK relatedToTime="t31" eventInstanceID="ei88" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei89" signalID="s16" timeID="t31" relType="AFTER" />
+<SLINK subordinatedEventInstance="ei82" eventInstanceID="ei81" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei84" eventInstanceID="ei85" relType="EVIDENTIAL" />
+<SLINK signalID="s11" subordinatedEventInstance="ei87" eventInstanceID="ei86" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei91" eventInstanceID="ei90" relType="EVIDENTIAL" />
+</TimeML>

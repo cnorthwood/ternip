@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0045 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0045. </AN>
+<HL> Delta Air Net Rose
+@  By 33% to Record
+@  In Fiscal 1st Period
+@  ----
+@  By Bridget O'Brian
+@  Staff Reporter of The Wall Street Journal </HL>
+<DD> <TIMEX3 tid="t57" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> DAL AWAL </CO>
+<IN> EARNINGS (ERN)
+AIRLINES (AIR) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">Delta Air Lines</ENAMEX> earnings <EVENT eid="e1" class="OCCURRENCE" >soared</EVENT> <NUMEX TYPE="PERCENT">33%</NUMEX> to a record in <TIMEX3 tid="t58" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q1" anchorTimeID="t57" >the fiscal first quarter</TIMEX3>, <EVENT eid="e3" class="OCCURRENCE" >bucking</EVENT> the industry trend toward <EVENT eid="e4" class="OCCURRENCE" >declining</EVENT> profits.</s> 
+
+   <s>The <ENAMEX TYPE="LOCATION">Atlanta</ENAMEX>-based airline, the third largest in the <ENAMEX TYPE="LOCATION">U.S.</ENAMEX>, <EVENT eid="e5" class="OCCURRENCE" >attributed</EVENT> the <EVENT eid="e6" class="OCCURRENCE" >increase</EVENT> to higher passenger <EVENT eid="e7" class="OCCURRENCE" >traffic</EVENT>, new international routes and reduced <EVENT eid="e8" class="OCCURRENCE" >service</EVENT> by rival <ENAMEX TYPE="ORGANIZATION">Eastern Airlines</ENAMEX>, which is in bankruptcy <EVENT eid="e9" class="OCCURRENCE" >proceedings</EVENT> <SIGNAL sid="s61" >in the wake of</SIGNAL> a <EVENT eid="e12" class="OCCURRENCE" >strike</EVENT> that <EVENT eid="e13" class="I_ACTION" >began</EVENT> <TIMEX3 tid="t60" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-SP" anchorTimeID="t57" >last spring</TIMEX3>.</s> 
+
+   <s>For <TIMEX3 tid="t65" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-QX" anchorTimeID="t63" >the quarter</TIMEX3> <EVENT eid="e14" class="ASPECTUAL" >ended</EVENT> <TIMEX3 tid="t63" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-09-30" anchorTimeID="t57" >Sept. 30</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Delta</ENAMEX> <EVENT eid="e15" class="OCCURRENCE" >posted</EVENT> net income of <EVENT eid="e93" class="STATE" ><NUMEX TYPE="MONEY">$133.1 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">$2.53</NUMEX> a share, up from <EVENT eid="e94" class="STATE" ><NUMEX TYPE="MONEY">$100 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">$2.03</NUMEX> a share, <TIMEX3 tid="t64" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988-09-30" anchorTimeID="t63" >a year earlier</TIMEX3>.</s> 
+
+   <s>Revenue <EVENT eid="e16" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">15%</NUMEX> <SIGNAL sid="s67" >to</SIGNAL> <EVENT eid="e66" class="STATE" ><NUMEX TYPE="MONEY">$2.17 billion</NUMEX></EVENT> <SIGNAL sid="s68" >from</SIGNAL> <EVENT eid="e69" class="STATE" ><NUMEX TYPE="MONEY">$1.89 billion</NUMEX></EVENT>.</s> 
+<s>During <TIMEX3 tid="t70" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-QX" anchorTimeID="t65" >the quarter</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Delta</ENAMEX> <EVENT eid="e17" class="OCCURRENCE" >issued</EVENT> <CARDINAL>2.5 million</CARDINAL> shares of common stock to <ENAMEX TYPE="ORGANIZATION">Swissair</ENAMEX>, and <EVENT eid="e18" class="OCCURRENCE" >repurchased</EVENT> <CARDINAL>1.1 million</CARDINAL> shares for <EVENT eid="e19" class="OCCURRENCE" >use</EVENT> in a company employee stock ownership plan.</s> 
+
+   <s>"The key to <ENAMEX TYPE="ORGANIZATION">Delta</ENAMEX>'s record earnings <EVENT eid="e21" class="ASPECTUAL" >continued</EVENT> <SIGNAL sid="s22" >to</SIGNAL> <EVENT eid="e71" class="STATE" >be</EVENT> excellent passenger revenue growth," <EVENT eid="e23" class="REPORTING" >said</EVENT> <ENAMEX TYPE="PERSON">Thomas Roeck, chief financial officer</ENAMEX>.</s> 
+<s>Passenger <EVENT eid="e24" class="OCCURRENCE" >traffic</EVENT> <EVENT eid="e25" class="OCCURRENCE" >jumped</EVENT> <NUMEX TYPE="PERCENT">14%</NUMEX> in the quarter, <SIGNAL sid="s26" >while</SIGNAL> profit per passenger <EVENT eid="e27" class="OCCURRENCE" >grew</EVENT> <NUMEX TYPE="PERCENT">2%</NUMEX>.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Delta</ENAMEX> has <EVENT eid="e28" class="OCCURRENCE" >benefited</EVENT> more than other carriers from the weakness of <ENAMEX TYPE="ORGANIZATION">Eastern Airlines</ENAMEX>, which <EVENT eid="e29" class="OCCURRENCE" >shares</EVENT> the <ENAMEX TYPE="LOCATION">Atlanta</ENAMEX> hub.</s> 
+<s>Although <ENAMEX TYPE="ORGANIZATION">Eastern</ENAMEX> is <EVENT eid="e72" class="STATE" >back</EVENT> to about <NUMEX TYPE="PERCENT">80%</NUMEX> of its pre-strike schedule <TIMEX3 tid="t73" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t57" >now</TIMEX3>, the <ENAMEX TYPE="ORGANIZATION">Texas Air Corp.</ENAMEX> subsidiary was only <EVENT eid="e31" class="ASPECTUAL" >beginning</EVENT> <SIGNAL sid="s32" >to</SIGNAL> <EVENT eid="e33" class="OCCURRENCE" >get</EVENT> back on its feet <SIGNAL sid="s95" >during</SIGNAL> <TIMEX3 tid="t74" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-QX" anchorTimeID="t70" >the quarter</TIMEX3>.</s> 
+
+   <s>Separately, <ENAMEX TYPE="ORGANIZATION">America West Airlines</ENAMEX>, <ENAMEX TYPE="LOCATION">Phoenix</ENAMEX>, <ENAMEX TYPE="LOCATION">Ariz.</ENAMEX>, <EVENT eid="e34" class="REPORTING" >reported</EVENT> <TIMEX3 tid="t79" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1989-Q3" anchorTimeID="t57" >third-quarter</TIMEX3> profit <EVENT eid="e35" class="OCCURRENCE" >jumped</EVENT> <NUMEX TYPE="PERCENT">45%</NUMEX> to <EVENT eid="e75" class="STATE" ><NUMEX TYPE="MONEY">$5.8 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">28 cents</NUMEX> a share, from <EVENT eid="e76" class="STATE" ><NUMEX TYPE="MONEY">$4 million</NUMEX></EVENT>, or <NUMEX TYPE="MONEY">24 cents</NUMEX> a share, <TIMEX3 tid="t88" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t79" >a year earlier</TIMEX3>.</s> 
+<s>The latest <EVENT eid="e36" class="OCCURRENCE" >results</EVENT> include a <NUMEX TYPE="MONEY">$2.6 million</NUMEX> one-time <EVENT eid="e77" class="OCCURRENCE" >payment</EVENT> from a "foreign entity."</s> 
+<s><ENAMEX TYPE="ORGANIZATION">America West</ENAMEX> <SIGNAL sid="s39" >would</SIGNAL> <SIGNAL sid="s40" >n't</SIGNAL> <EVENT eid="e38" class="OCCURRENCE" >identify</EVENT> the entity, but <EVENT eid="e41" class="REPORTING" >said</EVENT> the <EVENT eid="e42" class="OCCURRENCE" >payment</EVENT> was for the foreign company's <EVENT eid="e43" class="OCCURRENCE" >use</EVENT> of certain tax benefits in connection with <ENAMEX TYPE="ORGANIZATION">America West</ENAMEX> plane purchases.</s> 
+<s><TIMEX3 tid="t80" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1988-Q3" anchorTimeID="t79" >Year-earlier</TIMEX3> <EVENT eid="e44" class="OCCURRENCE" >results</EVENT> included an extraordinary <EVENT eid="e82" class="OCCURRENCE" >gain</EVENT> of <NUMEX TYPE="MONEY">$1.6 million</NUMEX> <SIGNAL sid="s84" >from</SIGNAL> a <EVENT eid="e83" class="OCCURRENCE" >buy-back</EVENT> of convertible subordinated debentures.</s> 
+
+   <s>Revenue <EVENT eid="e48" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">21%</NUMEX> to <EVENT eid="e85" class="STATE" ><NUMEX TYPE="MONEY">$243.4 million</NUMEX></EVENT> from <EVENT eid="e86" class="STATE" ><NUMEX TYPE="MONEY">$201.2 million</NUMEX></EVENT>.</s> 
+<s>For <TIMEX3 tid="t87" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="P9M" anchorTimeID="t57" >the <CARDINAL>nine</CARDINAL> months</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">America West</ENAMEX> <EVENT eid="e49" class="OCCURRENCE" >posted</EVENT> earnings of <NUMEX TYPE="MONEY">$18.9 million</NUMEX>, or <NUMEX TYPE="MONEY">97 cents</NUMEX> a share, compared with a <EVENT eid="e51" class="OCCURRENCE" >loss</EVENT> of <NUMEX TYPE="MONEY">$9.7 million</NUMEX>, or <NUMEX TYPE="MONEY">74 cents</NUMEX> a share, a <TIMEX3 tid="t89" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1988" anchorTimeID="t57" >year earlier</TIMEX3>.</s> 
+<s>Revenue <EVENT eid="e52" class="OCCURRENCE" >rose</EVENT> <NUMEX TYPE="PERCENT">27%</NUMEX> to <EVENT eid="e91" class="STATE" ><NUMEX TYPE="MONEY">$715.1 million</NUMEX></EVENT> from <EVENT eid="e92" class="STATE" ><NUMEX TYPE="MONEY">$563.8 million</NUMEX></EVENT>.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2013" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2014" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2015" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2016" tense="PAST" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2017" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2018" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2019" tense="NONE" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2020" tense="NONE" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2021" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2022" tense="PAST" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2023" tense="PAST" eventID="e14" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2024" tense="PAST" eventID="e15" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2025" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2026" tense="NONE" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2027" tense="PAST" eventID="e16" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2028" tense="NONE" eventID="e66" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2029" tense="NONE" eventID="e69" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2030" tense="PAST" eventID="e17" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2031" tense="PAST" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2032" tense="NONE" eventID="e19" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2033" tense="PAST" eventID="e21" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2034" tense="NONE" eventID="e71" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2035" tense="PAST" eventID="e23" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2036" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2037" tense="PAST" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2038" tense="PAST" eventID="e27" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2039" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2040" tense="PRESENT" eventID="e29" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2041" tense="PRESENT" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2042" tense="PAST" eventID="e31" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2043" tense="NONE" eventID="e33" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2044" tense="PAST" eventID="e34" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2045" tense="PAST" eventID="e35" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2046" tense="NONE" eventID="e75" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2047" tense="NONE" eventID="e76" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2048" tense="NONE" eventID="e36" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2049" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2050" tense="PAST" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2051" tense="PAST" eventID="e41" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2052" tense="NONE" eventID="e42" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2053" tense="NONE" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2054" tense="NONE" eventID="e44" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2055" tense="NONE" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2056" tense="NONE" eventID="e83" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2057" tense="PAST" eventID="e48" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2058" tense="NONE" eventID="e85" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2059" tense="NONE" eventID="e86" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2060" tense="PAST" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2061" tense="NONE" eventID="e51" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2062" tense="PAST" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2063" tense="NONE" eventID="e91" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2064" tense="NONE" eventID="e92" />
+<TLINK relatedToTime="t70" eventInstanceID="ei2031" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2044" relType="BEFORE" />
+<TLINK relatedToTime="t65" eventInstanceID="ei2023" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2018" eventInstanceID="ei2013" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t73" eventInstanceID="ei2041" relType="DURING" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2016" eventInstanceID="ei2019" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2023" timeID="t63" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2019" eventInstanceID="ei2013" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2013" timeID="t58" relType="INCLUDES" />
+<TLINK relatedToTime="t65" eventInstanceID="ei2024" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2019" eventInstanceID="ei2020" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2024" eventInstanceID="ei2025" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2020" signalID="s61" eventInstanceID="ei2021" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2037" signalID="s26" eventInstanceID="ei2038" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2014" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2036" eventInstanceID="ei2037" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2026" timeID="t64" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2027" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2015" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2039" eventInstanceID="ei2038" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2017" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei2027" signalID="s67" eventInstanceID="ei2028" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2040" timeID="t57" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2022" timeID="t60" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2013" eventInstanceID="ei2016" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2027" signalID="s68" eventInstanceID="ei2029" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2016" eventInstanceID="ei2017" relType="BEFORE" />
+<TLINK relatedToTime="t70" eventInstanceID="ei2030" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2041" relType="DURING" />
+<TLINK relatedToTime="t57" timeID="t73" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2016" eventInstanceID="ei2018" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2042" signalID="s95" timeID="t74" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2044" timeID="t79" relType="BEFORE" />
+<TLINK relatedToTime="t79" eventInstanceID="ei2045" relType="ENDS" />
+<TLINK relatedToEventInstance="ei2045" eventInstanceID="ei2046" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2045" eventInstanceID="ei2047" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2047" timeID="t88" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei2048" timeID="t57" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2048" eventInstanceID="ei2049" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2050" eventInstanceID="ei2051" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2052" eventInstanceID="ei2053" relType="BEFORE" />
+<TLINK relatedToTime="t80" eventInstanceID="ei2054" relType="ENDS" />
+<TLINK relatedToTime="t80" eventInstanceID="ei2055" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2055" signalID="s84" eventInstanceID="ei2056" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2057" timeID="t57" relType="AFTER" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2048" relType="BEFORE" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2048" relType="BEFORE" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2048" relType="BEFORE" />
+<TLINK relatedToTime="t57" eventInstanceID="ei2013" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2057" eventInstanceID="ei2058" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2057" eventInstanceID="ei2059" relType="BEFORE" />
+<TLINK relatedToTime="t87" timeID="t57" relType="AFTER" />
+<TLINK relatedToTime="t87" eventInstanceID="ei2060" relType="ENDS" />
+<TLINK relatedToTime="t87" eventInstanceID="ei2061" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2061" timeID="t89" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei2062" eventInstanceID="ei2063" relType="AFTER" />
+<TLINK relatedToEventInstance="ei2062" eventInstanceID="ei2064" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei2062" timeID="t89" relType="ENDS" />
+<SLINK subordinatedEventInstance="ei2032" eventInstanceID="ei2031" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2033" eventInstanceID="ei2035" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2051" eventInstanceID="ei2052" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2021" eventInstanceID="ei2022" relType="INITIATES" />
+<ALINK relatedToEventInstance="ei2034" signalID="s22" eventInstanceID="ei2033" relType="CONTINUES" />
+<ALINK relatedToEventInstance="ei2043" signalID="s32" eventInstanceID="ei2042" relType="INITIATES" />
+</TimeML>

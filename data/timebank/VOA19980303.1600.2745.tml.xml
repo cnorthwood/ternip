@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> VOA<TIMEX3 tid="t105" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1998-03-03" >19980303</TIMEX3>.1600.2745 </DOCNO>
+<DOCTYPE SOURCE="broadcast news"> NEWS STORY </DOCTYPE>
+<BODY>
+<bn_episode_trans program="VOA" air_date="19980303:1600">
+<section startTime="2745.90" type="report" endTime="2930.00">
+<TEXT>
+<turn startTime="2745.90" speaker="unknown" endTime="2774.114" spkrType="unknown">
+ <s>While the <EVENT eid="e1" class="OCCURRENCE" >expansion</EVENT> of the Internet has been a <EVENT eid="e2" class="OCCURRENCE" >blessing</EVENT> for researchers,
+ students and the just plain curious, the new opportunities <EVENT eid="e3" class="OCCURRENCE" >mentioned</EVENT> by <ENAMEX TYPE="PERSON">Mr.
+ Gates</ENAMEX> are also being <EVENT eid="e4" class="OCCURRENCE" >used</EVENT> by some rather unsavory characters.</s> <s>A new report
+ <EVENT eid="e6" class="REPORTING" >says</EVENT> there has been a dramatic <EVENT eid="e7" class="OCCURRENCE" >rise</EVENT> in the <EVENT eid="e102" class="OCCURRENCE" >growth</EVENT> of hate groups in the
+ <ENAMEX TYPE="LOCATION">United States</ENAMEX> <SIGNAL sid="s103" >over</SIGNAL> <TIMEX3 tid="t168" type="DURATION" temporalFunction="true" functionInDocument="NONE" value="1997" anchorTimeID="t105" >the past year</TIMEX3>.</s> <s>And many of them are <EVENT eid="e10" class="OCCURRENCE" >using</EVENT> the Internet <SIGNAL sid="s11" >to</SIGNAL> <EVENT eid="e12" class="OCCURRENCE" >spread</EVENT> their messages of racial superiority.</s>
+ <s><ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION">VOA</ENAMEX>'s Jim Teple</ENAMEX> has details from our southeast news bureau.</s>
+</turn>
+<turn startTime="2774.114" speaker="unknown" endTime="2811.068" spkrType="unknown">
+ <s>The <ENAMEX TYPE="ORGANIZATION">Southern Poverty Law Center</ENAMEX>, a civil rights monitoring group based in
+ <ENAMEX TYPE="LOCATION">Montgomery</ENAMEX>, <ENAMEX TYPE="LOCATION">Alabama</ENAMEX>, has long <EVENT eid="e107" class="OCCURRENCE" >monitored</EVENT> such groups as the Ku Klux Klan.</s>
+ <s><TIMEX3 tid="t109" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t105" >More recently</TIMEX3> it has <EVENT eid="e18" class="I_ACTION" >followed</EVENT> the <EVENT eid="e110" class="OCCURRENCE" >growth</EVENT> of the militia movement and church
+ groups that preach a message of white supremacy and anti-semitism.</s>
+ <s>The new study written by <ENAMEX TYPE="PERSON">Mark Potach</ENAMEX>, who edits the <ENAMEX TYPE="ORGANIZATION">Southern Poverty Law
+ Center</ENAMEX>'s Intelligence Report, <EVENT eid="e25" class="I_ACTION" >warns</EVENT> that such groups <EVENT eid="e26" class="OCCURRENCE" >grew</EVENT> rapidly <TIMEX3 tid="t111" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1997" anchorTimeID="t105" >last
+ year</TIMEX3>, mostly by <EVENT eid="e27" class="OCCURRENCE" >recruiting</EVENT> younger members.</s> <s><ENAMEX TYPE="PERSON">Mr. Potach</ENAMEX> <EVENT eid="e28" class="REPORTING" >says</EVENT> the <EVENT eid="e113" class="OCCURRENCE" >growth</EVENT> is
+ <EVENT eid="e112" class="STATE" >surprising</EVENT> since membership in hate groups usually declines during periods of economic
+ prosperity.</s>
+</turn>
+<turn startTime="2811.068" speaker="unknown" endTime="2819.997" spkrType="unknown">
+ <s>We in fact have <EVENT eid="e34" class="PERCEPTION" >seen</EVENT> hate group numbers <EVENT eid="e37" class="OCCURRENCE" >dropping</EVENT> <SIGNAL sid="s114" >through</SIGNAL> <TIMEX3 tid="t115" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="199X" >the nineties</TIMEX3>, uh but
+ <TIMEX3 tid="t116" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1997" anchorTimeID="t111" >this year</TIMEX3> they <EVENT eid="e38" class="OCCURRENCE" >jumped</EVENT> up uh <NUMEX TYPE="PERCENT">twenty percent</NUMEX>, quite a dramatic <EVENT eid="e39" class="OCCURRENCE" >rise</EVENT>.</s>
+</turn>
+<turn startTime="2819.997" speaker="unknown" endTime="2833.715" spkrType="unknown">
+ <s><ENAMEX TYPE="PERSON">Mark Potach</ENAMEX> <EVENT eid="e40" class="REPORTING" >says</EVENT> over <CARDINAL>four hundred</CARDINAL> hate groups have been <EVENT eid="e42" class="OCCURRENCE" >identified</EVENT> and many are <EVENT eid="e43" class="I_STATE" >becoming</EVENT> increasingly <EVENT eid="e118" class="I_STATE" >successful</EVENT> at <EVENT eid="e45" class="OCCURRENCE" >recruiting</EVENT> younger members through the
+ <EVENT eid="e46" class="OCCURRENCE" >use</EVENT> of Internet web pages and the <EVENT eid="e48" class="OCCURRENCE" >promotion</EVENT> of racist rock music.</s>
+</turn>
+<turn startTime="2833.715" speaker="unknown" endTime="2864.387" spkrType="unknown">
+ <s>The Internet has certainly <EVENT eid="e49" class="I_STATE" >helped</EVENT> uh hate mongers <SIGNAL sid="s51" >to</SIGNAL> <EVENT eid="e52" class="OCCURRENCE" >organize</EVENT> and uh <SIGNAL sid="s53" >to</SIGNAL> <EVENT eid="e54" class="STATE" >feel</EVENT> that
+ they are part of a larger community, even if uh they are essentially uh, you
+ know, angry people sitting in their bedrooms uh all alone.</s>
+ <s>Uh, in addition, white power racist music has <EVENT eid="e60" class="I_STATE" >become</EVENT> uh quite
+ <EVENT eid="e119" class="STATE" >popular</EVENT> in certain sectors.</s> <s>Uh, there are over <CARDINAL>fifty thousand</CARDINAL> CDs <TIMEX3 tid="t120" type="DURATION" temporalFunction="false" functionInDocument="NONE" value="P1Y" >a year</TIMEX3>
+ <EVENT eid="e61" class="OCCURRENCE" >sold</EVENT> with uh lyrics that are quite uh unbelievable.</s>
+</turn>
+<turn startTime="2864.387" speaker="unknown" endTime="2882.812" spkrType="unknown">
+ <s>Many of these new members are <EVENT eid="e63" class="OCCURRENCE" >joining</EVENT> chapters of the so called <ENAMEX TYPE="ORGANIZATION">Christian
+ Identity Movement</ENAMEX> which cites <ENAMEX TYPE="PERSON">Biblical</ENAMEX> scripture as a foundation for a
+ belief in white supremacy and anti-semitism.</s> <s><ENAMEX TYPE="PERSON">Mark Potach</ENAMEX> <EVENT eid="e67" class="REPORTING" >says</EVENT> such members are also intensely <EVENT eid="e68" class="OCCURRENCE" >attracted</EVENT> to apocalyptical fantasies.</s>
+</turn>
+<turn startTime="2882.812" speaker="unknown" endTime="2900.921" spkrType="unknown">
+ <s>The <EVENT eid="e72" class="I_STATE" >approach</EVENT> of <TIMEX3 tid="t121" type="DATE" temporalFunction="false" functionInDocument="NONE" value="2000" >the year two thousand</TIMEX3> has many of these groups in a kind of
+ <EVENT eid="e122" class="STATE" >millennial frenzy</EVENT>.</s> <s>Uh, uh a- they <EVENT eid="e74" class="I_STATE" >believe</EVENT>, or at least many of them <EVENT eid="e75" class="I_STATE" >believe</EVENT>,
+ uh that they are <EVENT eid="e76" class="I_STATE" >approaching</EVENT> the <EVENT eid="e123" class="OCCURRENCE" >Battle</EVENT> of Armageddon in which they will be pitted against the uh kind of Satanic forces <EVENT eid="e77" class="I_ACTION" >trying</EVENT> <SIGNAL sid="s79" >to</SIGNAL> <EVENT eid="e80" class="OCCURRENCE" >take</EVENT> over the world.</s>
+</turn>
+<turn startTime="2900.921" speaker="unknown" endTime="2930.00" spkrType="unknown">
+ <s><ENAMEX TYPE="PERSON">Mr. Potach</ENAMEX> <EVENT eid="e81" class="REPORTING" >notes</EVENT> older, more traditional groups like the Ku Klux Klan are also <EVENT eid="e82" class="OCCURRENCE" >opening</EVENT> new chapters, thanks in part to their <EVENT eid="e124" class="I_STATE" >ability</EVENT> <SIGNAL sid="s86" >to</SIGNAL> <EVENT eid="e87" class="OCCURRENCE" >use</EVENT> new
+ technologies like the Internet.</s> <s>The <ENAMEX TYPE="ORGANIZATION">Federal Bureau of Investigation</ENAMEX> <EVENT eid="e89" class="REPORTING" >says</EVENT>
+ it <EVENT eid="e90" class="OCCURRENCE" >received</EVENT> <CARDINAL>more than eight thousand</CARDINAL> <EVENT eid="e125" class="REPORTING" >reports</EVENT> of hate group <EVENT eid="e93" class="OCCURRENCE" >crimes</EVENT> <TIMEX3 tid="t126" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1997" anchorTimeID="t105" >last
+ year</TIMEX3>.</s> <s>Law enforcement authorities <EVENT eid="e94" class="REPORTING" >say</EVENT> such reports are likely to <EVENT eid="e97" class="OCCURRENCE" >increase</EVENT>
+ as police departments are <TIMEX3 tid="t129" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PRESENT_REF" anchorTimeID="t105" >now</TIMEX3> <EVENT eid="e98" class="ASPECTUAL" >beginning</EVENT> to more accurately <EVENT eid="e130" class="REPORTING" >report</EVENT> hate
+ <EVENT eid="e100" class="OCCURRENCE" >crimes</EVENT> than they <EVENT eid="e101" class="REPORTING" >have</EVENT> <SIGNAL sid="s131" >in</SIGNAL> <TIMEX3 tid="t133" type="DATE" temporalFunction="true" functionInDocument="NONE" value="PAST_REF" anchorTimeID="t105" >the past</TIMEX3>.</s>
+ <s><ENAMEX TYPE="PERSON">Jim Teple</ENAMEX>, <ENAMEX TYPE="ORGANIZATION">VOA News</ENAMEX>, <ENAMEX TYPE="LOCATION">Miami</ENAMEX>.</s>
+</turn>
+</TEXT>
+</section>
+</bn_episode_trans>
+</BODY>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei50001" tense="NONE" eventID="e1" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50002" tense="PRESENT" eventID="e2" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50003" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50004" tense="PRESENT" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50005" tense="PRESENT" eventID="e6" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50006" tense="PRESENT" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50007" tense="NONE" eventID="e102" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50008" tense="PRESENT" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50009" tense="NONE" eventID="e12" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50010" tense="PRESENT" eventID="e107" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50011" tense="PRESENT" eventID="e18" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50012" tense="NONE" eventID="e110" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50013" tense="PRESENT" eventID="e25" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50014" tense="PAST" eventID="e26" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50015" tense="NONE" eventID="e27" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50016" tense="PRESENT" eventID="e28" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50017" tense="NONE" eventID="e113" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50018" tense="PRESENT" eventID="e112" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50019" tense="PRESENT" eventID="e34" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50020" tense="NONE" eventID="e37" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50021" tense="PAST" eventID="e38" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50022" tense="NONE" eventID="e39" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50023" tense="PRESENT" eventID="e40" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50024" tense="PRESENT" eventID="e42" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50025" tense="PRESENT" eventID="e43" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50026" tense="NONE" eventID="e118" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50027" tense="NONE" eventID="e45" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50028" tense="NONE" eventID="e46" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50029" tense="NONE" eventID="e48" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50030" tense="PRESENT" eventID="e49" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50031" tense="NONE" eventID="e52" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50032" tense="NONE" eventID="e54" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50033" tense="PRESENT" eventID="e60" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50034" tense="NONE" eventID="e119" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50035" cardinality="50000" tense="NONE" eventID="e61" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50036" tense="PRESENT" eventID="e63" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50037" tense="PRESENT" eventID="e67" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50038" tense="PRESENT" eventID="e68" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50039" tense="NONE" eventID="e72" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50040" tense="NONE" eventID="e122" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50041" tense="PRESENT" eventID="e74" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50042" tense="PRESENT" eventID="e75" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50043" tense="PRESENT" eventID="e76" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50044" tense="NONE" eventID="e123" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50045" tense="NONE" eventID="e77" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50046" tense="NONE" eventID="e80" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50047" tense="PRESENT" eventID="e81" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50048" tense="PRESENT" eventID="e82" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50049" tense="NONE" eventID="e124" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50050" tense="NONE" eventID="e87" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50051" tense="PRESENT" eventID="e89" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50052" tense="PAST" eventID="e90" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50053" tense="NONE" eventID="e125" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50054" tense="NONE" eventID="e93" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50055" tense="PRESENT" eventID="e94" />
+<MAKEINSTANCE aspect="NONE" modality="likely to" eiid="ei50056" tense="NONE" eventID="e97" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei50057" tense="PRESENT" eventID="e98" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50058" tense="NONE" eventID="e130" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50059" tense="NONE" eventID="e100" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei50060" tense="PRESENT" eventID="e101" />
+<TLINK signalID="s131" relatedToTime="t133" eventInstanceID="ei50060" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50001" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50001" eventInstanceID="ei50002" relType="IDENTITY" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50003" relType="BEFORE" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50004" relType="INCLUDES" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50005" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50007" eventInstanceID="ei50006" relType="IS_INCLUDED" />
+<TLINK signalID="s103" relatedToTime="t168" eventInstanceID="ei50006" relType="DURING" />
+<TLINK relatedToEventInstance="ei50008" eventInstanceID="ei50004" relType="IDENTITY" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50010" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50005" eventInstanceID="ei50010" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50011" timeID="t109" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei50005" eventInstanceID="ei50013" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t111" eventInstanceID="ei50014" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei50014" eventInstanceID="ei50015" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50005" eventInstanceID="ei50016" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei50014" eventInstanceID="ei50017" relType="IDENTITY" />
+<TLINK signalID="s114" relatedToTime="t115" eventInstanceID="ei50020" relType="DURING" />
+<TLINK relatedToEventInstance="ei50021" timeID="t116" relType="DURING" />
+<TLINK relatedToEventInstance="ei50021" eventInstanceID="ei50022" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei50016" eventInstanceID="ei50023" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei50026" eventInstanceID="ei50025" relType="ENDED_BY" />
+<TLINK relatedToEventInstance="ei50028" eventInstanceID="ei50027" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei50029" eventInstanceID="ei50027" relType="INCLUDES" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50030" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50030" eventInstanceID="ei50033" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei50034" eventInstanceID="ei50033" relType="ENDED_BY" />
+<TLINK relatedToTime="t120" eventInstanceID="ei50035" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50036" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei50023" eventInstanceID="ei50037" relType="IDENTITY" />
+<TLINK relatedToEventInstance="ei50040" eventInstanceID="ei50039" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50041" eventInstanceID="ei50039" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50042" eventInstanceID="ei50041" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei50044" eventInstanceID="ei50045" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei50046" eventInstanceID="ei50044" relType="INCLUDES" />
+<TLINK relatedToEventInstance="ei50046" eventInstanceID="ei50045" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei50037" eventInstanceID="ei50047" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei50048" eventInstanceID="ei50049" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei50037" eventInstanceID="ei50051" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t105" eventInstanceID="ei50052" relType="BEFORE" />
+<TLINK relatedToTime="t126" eventInstanceID="ei50054" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei50051" eventInstanceID="ei50055" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei50056" eventInstanceID="ei50057" relType="BEFORE" />
+<TLINK relatedToTime="t129" eventInstanceID="ei50057" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei50058" eventInstanceID="ei50060" relType="BEFORE" />
+<TLINK relatedToTime="t129" eventInstanceID="ei50060" relType="BEFORE" />
+<SLINK subordinatedEventInstance="ei50002" eventInstanceID="ei50003" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50006" eventInstanceID="ei50005" relType="EVIDENTIAL" />
+<SLINK signalID="s11" subordinatedEventInstance="ei50009" eventInstanceID="ei50008" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei50012" eventInstanceID="ei50011" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei50014" eventInstanceID="ei50013" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50018" eventInstanceID="ei50016" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50017" eventInstanceID="ei50016" relType="FACTIVE" />
+<SLINK subordinatedEventInstance="ei50019" eventInstanceID="ei50016" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50020" eventInstanceID="ei50019" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50024" eventInstanceID="ei50023" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50025" eventInstanceID="ei50023" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50027" eventInstanceID="ei50026" relType="MODAL" />
+<SLINK signalID="s51" subordinatedEventInstance="ei50031" eventInstanceID="ei50030" relType="MODAL" />
+<SLINK signalID="s53" subordinatedEventInstance="ei50032" eventInstanceID="ei50030" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei50038" eventInstanceID="ei50037" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50043" eventInstanceID="ei50042" relType="MODAL" />
+<SLINK signalID="s79" subordinatedEventInstance="ei50046" eventInstanceID="ei50045" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei50048" eventInstanceID="ei50047" relType="EVIDENTIAL" />
+<SLINK signalID="s86" subordinatedEventInstance="ei50050" eventInstanceID="ei50049" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei50052" eventInstanceID="ei50051" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50054" eventInstanceID="ei50053" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50056" eventInstanceID="ei50055" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei50059" eventInstanceID="ei50058" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei50058" eventInstanceID="ei50057" relType="INITIATES" />
+</TimeML>

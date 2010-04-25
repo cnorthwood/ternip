@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xml:lang="en"
+			version="1.1">
+
+  <xs:annotation>
+    <xs:documentation xml:lang="en-us">
+      TimeML schema
+      <a href="http://www.timeml.org/">TANGO</a>
+    </xs:documentation>
+  </xs:annotation>
+
+	<xs:simpleType name="TimeMLID">
+	    <xs:annotation>
+	      <xs:documentation xml:lang="en-us">
+		A <b>TimeMLID</b> is a sequence of lowercase letters followed by a number (decimal digits).
+	      </xs:documentation>
+	    </xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-z]+\p{Nd}+" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="EventID">
+    <xs:annotation>
+      <xs:documentation xml:lang="en-us">
+        A <b>EventID</b> is an <b>e</b> followed by a number (decimal digits).
+      </xs:documentation>
+    </xs:annotation>
+		<xs:restriction base="TimeMLID">
+			<xs:pattern value="e\p{Nd}+" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="EventInstanceID">
+    <xs:annotation>
+      <xs:documentation xml:lang="en-us">
+        A <b>EventInstanceID</b> is an <b>ei</b> followed by a number (decimal digits).
+      </xs:documentation>
+    </xs:annotation>
+		<xs:restriction base="TimeMLID">
+			<xs:pattern value="ei\p{Nd}+" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="TimeID">
+    <xs:annotation>
+      <xs:documentation xml:lang="en-us">
+        A <b>TimeID</b> is an <b>t</b> followed by a number (decimal digits).
+      </xs:documentation>
+    </xs:annotation>
+		<xs:restriction base="TimeMLID">
+			<xs:pattern value="t\p{Nd}+" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="SignalID">
+    <xs:annotation>
+      <xs:documentation xml:lang="en-us">
+        A <b>SignalID</b> is an <b>s</b> followed by a number (decimal digits).
+      </xs:documentation>
+    </xs:annotation>
+		<xs:restriction base="TimeMLID">
+			<xs:pattern value="s\p{Nd}+" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+		<xs:simpleType name="LinkID">
+	    <xs:annotation>
+	      <xs:documentation xml:lang="en-us">
+	        A <b>LinkID</b> is an <b>l</b> followed by a number (decimal digits).
+	      </xs:documentation>
+	    </xs:annotation>
+			<xs:restriction base="TimeMLID">
+				<xs:pattern value="l\p{Nd}+" />
+			</xs:restriction>
+	</xs:simpleType>
+
+
+	<xs:simpleType name="Probability">
+	    <xs:annotation>
+      <xs:documentation xml:lang="en-us">
+        The <b>Probability</b> of an annotation is a number between 0.0 and 1.0.
+      </xs:documentation>
+    </xs:annotation>
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0" />
+			<xs:maxInclusive value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<xs:simpleType name="Date">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9X]{4}(-[0-9X]{1,2}(-[0-9X]{1,2})?)?" />			
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="Time">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([0-9X]{4}-[0-9X]{1,2}-[0-9X]{1,2})?T(([0-9]{2}(:[0-9]{2}(:[0-9]{2})?)?)|(MO|MI|AF|EV|NI|DT))" />			
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="WeekDate">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9X]{4}-W[0-9X]{1,2}(-([1-7X]|WE))?"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="WeekTime">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9X]{4}-W[0-9X]{1,2}-[1-7X]T(([0-9]{2}(:[0-9]{2}(:[0-9]{2})?)?)|(MO|MI|AF|EV|NI|DT))"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<xs:simpleType name="Season">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9X]{4}-(SP|SU|WI|FA)"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="PartOfYear">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9X]{4}-(H[1-2X]|Q[1-4X])"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="PaPrFu">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PAST_REF"/>
+			<xs:enumeration value="PRESENT_REF"/>
+			<xs:enumeration value="FUTURE_REF"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<xs:simpleType name="Duration">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="P((((\p{Nd}+|X{1,2})Y)?((\p{Nd}+|X{1,2})M)?((\p{Nd}+|X{1,2})D)?(T((\p{Nd}+|X{1,2})H)?((\p{Nd}+|X{1,2})M)?((\p{Nd}+|X{1,2})S)?)?)|((\p{Nd}+|X{1,2}))(W|L|E|C|Q))"/>
+			<xs:minLength value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="TimeML">
+
+		<xs:unique name="link_id">
+			<xs:selector xpath="TLINK|SLINK|ALINK" />
+			<xs:field xpath="@lid" />
+		</xs:unique>
+
+		<xs:key name="event_id">
+			<xs:selector xpath="EVENT" />
+			<xs:field xpath="@eid" />
+		</xs:key>
+
+		<xs:key name="time_id">
+			<xs:selector xpath="TIMEX3" />
+			<xs:field xpath="@tid" />
+		</xs:key>
+
+		<xs:key name="signal_id">
+			<xs:selector xpath="SIGNAL" />
+			<xs:field xpath="@sid" />
+		</xs:key>
+
+		<xs:key name="event_instance_id">
+			<xs:selector xpath="MAKEINSTANCE" />
+			<xs:field xpath="@eiid" />
+		</xs:key>
+		
+<!--  	these keyrefs assume that no other (non-TimeML) 
+		elements occur within the TimeML root tag.  
+		Only use them if non-TimeML tags have been removed.
+
+		<xs:keyref name="event_id_ref_mi" refer="event_id">
+			<xs:selector xpath="MAKEINSTANCE" />
+			<xs:field xpath="@eventID" />
+		</xs:keyref>
+
+		<xs:keyref name="signal_id_ref_mi" refer="signal_id">
+			<xs:selector xpath="MAKEINSTANCE" />
+			<xs:field xpath="@signalID" />
+		</xs:keyref>
+
+
+		<xs:keyref name="time_id_ref_tx_ati" refer="time_id">
+			<xs:selector xpath="TIMEX3" />
+			<xs:field xpath="@anchorTimeID" />
+		</xs:keyref>
+
+		<xs:keyref name="signal_id_ref_tl" refer="signal_id">
+			<xs:selector xpath="TLINK" />
+			<xs:field xpath="@signalID" />
+		</xs:keyref>
+
+		<xs:keyref name="time_id_ref_tl_ti" refer="time_id">
+			<xs:selector xpath="TLINK" />
+			<xs:field xpath="@timeID" />
+		</xs:keyref>
+
+		<xs:keyref name="time_id_ref_tl_rtt" refer="time_id">
+			<xs:selector xpath="TLINK" />
+			<xs:field xpath="@relatedToTime" />
+		</xs:keyref>
+
+		<xs:keyref name="time_id_ref_tx_bp" refer="time_id">
+			<xs:selector xpath="TIMEX3" />
+			<xs:field xpath="@beginPoint" />
+		</xs:keyref>
+
+		<xs:keyref name="time_id_ref_tx_ep" refer="time_id">
+			<xs:selector xpath="TIMEX3" />
+			<xs:field xpath="@endPoint" />
+		</xs:keyref>
+
+		<xs:keyref name="event_instance_id_ref_tl-eid" refer="event_instance_id">
+			<xs:selector xpath="TLINK" />
+			<xs:field xpath="@eventInstanceID" />
+		</xs:keyref>
+
+		<xs:keyref name="event_instance_id_ref_tl-rte" refer="event_instance_id">
+			<xs:selector xpath="TLINK" />
+			<xs:field xpath="@relatedToEventInstance" />
+		</xs:keyref>
+
+		<xs:keyref name="signal_id_ref_sl" refer="signal_id">
+			<xs:selector xpath="SLINK" />
+			<xs:field xpath="@signalID" />
+		</xs:keyref>
+
+		<xs:keyref name="event_instance_id_ref_sl-eid" refer="event_instance_id">
+			<xs:selector xpath="SLINK" />
+			<xs:field xpath="@eventInstanceID" />
+		</xs:keyref>
+
+		<xs:keyref name="event_instance_id_ref_sl-sei" refer="event_instance_id">
+			<xs:selector xpath="SLINK" />
+			<xs:field xpath="@subordinatedEventInstance" />
+		</xs:keyref>
+
+
+		<xs:keyref name="signal_id_ref_al" refer="signal_id">
+			<xs:selector xpath="ALINK" />
+			<xs:field xpath="@signalID" />
+		</xs:keyref>
+
+		<xs:keyref name="event_instance_id_ref_al-eid" refer="event_instance_id">
+			<xs:selector xpath="ALINK" />
+			<xs:field xpath="@eventInstanceID" />
+		</xs:keyref>
+
+		<xs:keyref name="event_id_ref_al-rte" refer="event_instance_id">
+			<xs:selector xpath="ALINK" />
+			<xs:field xpath="@relatedToEventInstance" />
+		</xs:keyref>
+-->
+	</xs:element>
+
+
+	<xs:element name="EVENT">
+		<xs:complexType mixed="true">
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:any namespace="##any" minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+			</xs:sequence> 
+			<xs:attribute name="eid" type="EventID" use="required" />
+
+			<xs:attribute name="class" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="OCCURRENCE" />
+						<xs:enumeration value="PERCEPTION" />
+						<xs:enumeration value="REPORTING" />
+						<xs:enumeration value="ASPECTUAL" />
+						<xs:enumeration value="STATE" />
+						<xs:enumeration value="I_STATE" />
+						<xs:enumeration value="I_ACTION" />
+						<xs:enumeration value="MODAL" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="TIMEX3">
+		<xs:complexType mixed="true">
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:any namespace="##any" minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+			</xs:sequence> 
+
+			<xs:attribute name="tid" type="TimeID" use="required" />
+
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="DATE" />
+						<xs:enumeration value="TIME" />
+						<xs:enumeration value="DURATION" />
+						<xs:enumeration value="SET" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="functionInDocument" default="NONE">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="CREATION_TIME" />
+						<xs:enumeration value="EXPIRATION_TIME" />
+						<xs:enumeration value="MODIFICATION_TIME" />
+						<xs:enumeration value="PUBLICATION_TIME" />
+						<xs:enumeration value="RELEASE_TIME" />
+						<xs:enumeration value="RECEPTION_TIME" />
+						<xs:enumeration value="NONE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="temporalFunction" type="xs:boolean" default="false" />
+
+			<xs:attribute name="value" use="required">
+				<xs:simpleType>
+					<xs:union memberTypes="Date Time WeekDate WeekTime Season PartOfYear PaPrFu Duration"/>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="valueFromFunction" type="xs:IDREF" />
+
+			<xs:attribute name="mod">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="BEFORE" />
+						<xs:enumeration value="AFTER" />
+						<xs:enumeration value="ON_OR_BEFORE" />
+						<xs:enumeration value="ON_OR_AFTER" />
+						<xs:enumeration value="LESS_THAN" />
+						<xs:enumeration value="MORE_THAN" />
+						<xs:enumeration value="EQUAL_OR_LESS" />
+						<xs:enumeration value="EQUAL_OR_MORE" />
+						<xs:enumeration value="START" />
+						<xs:enumeration value="MID" />
+						<xs:enumeration value="END" />
+						<xs:enumeration value="APPROX" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="anchorTimeID" type="TimeID" />
+
+			<xs:attribute name="beginPoint" type="TimeID"/>
+			
+			<xs:attribute name="endPoint" type="TimeID"/>
+			
+			<xs:attribute name="quant" type="xs:string"/>
+
+			<xs:attribute name="freq" type="Duration"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="SIGNAL">
+		<xs:complexType mixed="true">
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<xs:any namespace="##any" minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+			</xs:sequence> 
+			<xs:attribute name="sid" type="SignalID" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="MAKEINSTANCE">
+		<xs:complexType>
+			<xs:attribute name="eiid" type="EventInstanceID" use="required" />
+			<xs:attribute name="eventID" type="EventID" use="required" />
+			<xs:attribute name="signalID" type="SignalID" />
+			<xs:attribute name="cardinality" type="xs:string" />
+			<xs:attribute name="modality" type="xs:string" />
+			<xs:attribute name="polarity" default="POS">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="NEG" />
+						<xs:enumeration value="POS" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="tense" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PAST" />
+						<xs:enumeration value="PRESENT" />
+						<xs:enumeration value="FUTURE" />
+						<xs:enumeration value="NONE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="aspect" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="PROGRESSIVE" />
+						<xs:enumeration value="PERFECTIVE" />
+						<xs:enumeration value="PERFECTIVE_PROGRESSIVE" />
+						<xs:enumeration value="NONE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="TLINK">
+		<xs:complexType>
+			<xs:attribute name="lid" type="LinkID" />
+			<xs:attribute name="origin" type="xs:string"/>
+			<xs:attribute name="eventInstanceID" type="EventInstanceID" />
+			<xs:attribute name="timeID" type="TimeID" />
+			<xs:attribute name="signalID" type="SignalID" />
+			<xs:attribute name="relatedToTime" type="TimeID" />
+			<xs:attribute name="relatedToEventInstance" type="EventInstanceID" />
+			<xs:attribute name="relType" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="BEFORE" />
+						<xs:enumeration value="AFTER" />
+						<xs:enumeration value="INCLUDES" />
+						<xs:enumeration value="IS_INCLUDED" />
+						<xs:enumeration value="DURING" />
+						<xs:enumeration value="SIMULTANEOUS" />
+						<xs:enumeration value="IAFTER" />
+						<xs:enumeration value="IBEFORE" />
+						<xs:enumeration value="IDENTITY" />
+						<xs:enumeration value="BEGINS" />
+						<xs:enumeration value="ENDS" />
+						<xs:enumeration value="BEGUN_BY" />
+						<xs:enumeration value="ENDED_BY" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="magnitude" type="TimeID" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SLINK">
+		<xs:complexType>
+			<xs:attribute name="lid" type="LinkID" />
+			<xs:attribute name="origin" type="xs:string"/>
+			<xs:attribute name="eventInstanceID" type="EventInstanceID" />
+			<xs:attribute name="subordinatedEventInstance" type="EventInstanceID" use="required" />
+			<xs:attribute name="signalID" type="SignalID" />
+			<xs:attribute name="relType" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="MODAL" />
+						<xs:enumeration value="NEGATIVE" />
+						<xs:enumeration value="EVIDENTIAL" />
+						<xs:enumeration value="NEG_EVIDENTIAL" />
+						<xs:enumeration value="FACTIVE" />
+						<xs:enumeration value="COUNTER_FACTIVE" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ALINK">
+		<xs:complexType>
+			<xs:attribute name="lid" type="LinkID" />
+			<xs:attribute name="origin" type="xs:string"/>
+			<xs:attribute name="eventInstanceID" type="EventInstanceID" use="required" />
+			<xs:attribute name="signalID" type="SignalID" />
+			<xs:attribute name="relatedToEventInstance" type="EventInstanceID" use="required" />
+			<xs:attribute name="relType" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="INITIATES" />
+						<xs:enumeration value="CULMINATES" />
+						<xs:enumeration value="TERMINATES" />
+						<xs:enumeration value="CONTINUES" />
+						<xs:enumeration value="REINITIATES" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="CONFIDENCE">
+		<xs:complexType>
+			<xs:attribute name="tagType" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="EVENT" />
+						<xs:enumeration value="TIMEX3" />
+						<xs:enumeration value="SIGNAL" />
+						<xs:enumeration value="MAKEINSTANCE" />
+						<xs:enumeration value="TLINK" />
+						<xs:enumeration value="SLINK" />
+						<xs:enumeration value="ALINK" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="tagID" type="TimeMLID" use="required" />
+			<xs:attribute name="attributeName">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="anchorTimeID"/>
+						<xs:enumeration value="aspect"/>
+						<xs:enumeration value="beginPoint"/>
+						<xs:enumeration value="cardinality"/>
+						<xs:enumeration value="class"/>
+						<xs:enumeration value="endPoint"/>
+						<xs:enumeration value="eventID"/>
+						<xs:enumeration value="eventInstanceID"/>
+						<xs:enumeration value="freq"/>
+						<xs:enumeration value="functionInDocument"/>
+						<xs:enumeration value="lid"/>
+						<xs:enumeration value="mod"/>
+						<xs:enumeration value="modality"/>
+						<xs:enumeration value="negation"/>
+						<xs:enumeration value="origin"/>
+						<xs:enumeration value="quant"/>
+						<xs:enumeration value="relType"/>
+						<xs:enumeration value="relatedToEventInstance"/>
+						<xs:enumeration value="signalID"/>
+						<xs:enumeration value="subordinatedEventInstance"/>
+						<xs:enumeration value="temporalFunction"/>
+						<xs:enumeration value="tense"/>
+						<xs:enumeration value="timeID"/>
+						<xs:enumeration value="type"/>
+						<xs:enumeration value="value"/>
+						<xs:enumeration value="valueFromFunction"/>					
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="confidenceValue" type="Probability" use="required" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

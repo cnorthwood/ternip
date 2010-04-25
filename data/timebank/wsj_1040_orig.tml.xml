@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ891026-0016 </DOCNO>
+<DD> = 891026 </DD>
+<AN> 891026-0016. </AN>
+<HL> Dividend News:
+@  Oneida Ltd. </HL>
+<DD> <TIMEX3 tid="t15" type="DATE" temporalFunction="false" functionInDocument="CREATION_TIME" value="1989-10-26" >10/26/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> OCQ </CO>
+<IN> DIVIDENDS (DIV) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">ONEIDA Ltd.</ENAMEX> <EVENT eid="e1" class="OCCURRENCE" >declared</EVENT> a <NUMEX TYPE="PERCENT">10%</NUMEX> stock dividend, <EVENT eid="e24" class="STATE" >payable</EVENT> <TIMEX3 tid="t16" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-12-15" anchorTimeID="t15" >Dec. 15</TIMEX3> to stock of record <TIMEX3 tid="t17" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-11-17" anchorTimeID="t15" >Nov. 17</TIMEX3>.</s> 
+<s>The <ENAMEX TYPE="ORGANIZATION">Oneida</ENAMEX>, <ENAMEX TYPE="LOCATION">N.Y.</ENAMEX>, maker of consumer, food-service and industrial products also <EVENT eid="e3" class="OCCURRENCE" >declared</EVENT> a quarterly cash dividend of <NUMEX TYPE="MONEY">12 cents</NUMEX> a share, with the same payable and record dates.</s> 
+<s>The cash dividend <EVENT eid="e4" class="OCCURRENCE" >paid</EVENT> on the common stock also will <EVENT eid="e6" class="OCCURRENCE" >apply</EVENT> to the new shares, the company <EVENT eid="e7" class="REPORTING" >said</EVENT>.</s> 
+<s>The move rewards shareholders and <SIGNAL sid="s9" >should</SIGNAL> <EVENT eid="e8" class="OCCURRENCE" >improve</EVENT> the stock's liquidity, <ENAMEX TYPE="ORGANIZATION">Oneida</ENAMEX> <EVENT eid="e10" class="REPORTING" >said</EVENT>.</s> 
+<s>The company <EVENT eid="e11" class="OCCURRENCE" >has</EVENT> <CARDINAL>about 8.8 million</CARDINAL> shares outstanding.</s> 
+<s>In <ENAMEX TYPE="ORGANIZATION">New York Stock Exchange</ENAMEX> composite trading <TIMEX3 tid="t63" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1989-10-25" anchorTimeID="t15" >yesterday</TIMEX3>, <ENAMEX TYPE="ORGANIZATION">Oneida</ENAMEX>'s shares <EVENT eid="e12" class="OCCURRENCE" >closed</EVENT> at <NUMEX TYPE="MONEY">$18.375</NUMEX> a share, unchanged.</s> 
+
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei66" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei67" tense="NONE" eventID="e24" />
+<MAKEINSTANCE aspect="NONE" eiid="ei68" tense="PAST" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei69" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei70" tense="FUTURE" eventID="e6" />
+<MAKEINSTANCE aspect="NONE" eiid="ei71" tense="PAST" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei72" tense="PAST" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei73" tense="PAST" eventID="e10" />
+<MAKEINSTANCE aspect="NONE" eiid="ei74" tense="PRESENT" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei75" tense="PAST" eventID="e12" />
+<TLINK relatedToTime="t63" eventInstanceID="ei75" relType="IS_INCLUDED" />
+<TLINK relatedToTime="t15" eventInstanceID="ei66" relType="BEFORE" />
+<TLINK relatedToTime="t16" eventInstanceID="ei67" relType="BEGUN_BY" />
+<TLINK relatedToTime="t17" eventInstanceID="ei67" relType="AFTER" />
+<TLINK relatedToTime="t15" eventInstanceID="ei68" relType="BEFORE" />
+<TLINK relatedToEventInstance="ei70" eventInstanceID="ei69" relType="SIMULTANEOUS" />
+<TLINK relatedToTime="t15" eventInstanceID="ei74" relType="DURING" />
+<SLINK subordinatedEventInstance="ei70" eventInstanceID="ei71" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei69" eventInstanceID="ei71" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei72" eventInstanceID="ei73" relType="EVIDENTIAL" />
+</TimeML>

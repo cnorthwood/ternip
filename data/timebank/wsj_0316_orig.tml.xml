@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimeML1.1.xsd" >
+<DOCNO> WSJ<TIMEX3 tid="t15" type="DATE" temporalFunction="false" functionInDocument="NONE" value="1989-11-01" >891101</TIMEX3>-0048 </DOCNO>
+<DD> = 891101 </DD>
+<AN> 891101-0048. </AN>
+<HL> Business Brief -- First Security Corp.:
+@  Tentative Accord Formed
+@  To Buy Deseret Bancorp. </HL>
+<DD> <TIMEX3 tid="t14" type="DATE" temporalFunction="false" functionInDocument="PUBLICATION_TIME" value="1989-11-01" >11/01/89</TIMEX3> </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<CO> FSCO </CO>
+<IN> TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) </IN>
+<TEXT>
+   <s><ENAMEX TYPE="ORGANIZATION">First Security Corp.</ENAMEX> <EVENT eid="e1" class="REPORTING" >said</EVENT> it tentatively <EVENT eid="e2" class="I_ACTION" >agreed</EVENT>  <SIGNAL sid="s1991" >to</SIGNAL> <EVENT eid="e3" class="OCCURRENCE" >acquire</EVENT> <ENAMEX TYPE="ORGANIZATION">Deseret Bancorp.</ENAMEX> for stock <EVENT eid="e4" class="STATE" >valued</EVENT> at about <NUMEX TYPE="MONEY">$18 million</NUMEX>.</s> 
+
+   <s>Terms <EVENT eid="e5" class="I_ACTION" >call</EVENT> for <ENAMEX TYPE="ORGANIZATION">First Security</ENAMEX>  <SIGNAL sid="s1992" >to</SIGNAL> <EVENT eid="e6" class="OCCURRENCE" >issue</EVENT> <CARDINAL>about 0.55</CARDINAL> share of its stock for each <ENAMEX TYPE="ORGANIZATION">Deseret</ENAMEX> share <EVENT eid="e7" class="STATE" >held</EVENT>, or a total of <CARDINAL>about 550,000</CARDINAL> <ENAMEX TYPE="ORGANIZATION">First Security</ENAMEX> shares.</s> 
+<s>It <EVENT eid="e8" class="STATE" >has</EVENT> <CARDINAL>about 12.3 million</CARDINAL> shares outstanding.</s> 
+
+   <s><ENAMEX TYPE="ORGANIZATION">Deseret</ENAMEX>, with about <NUMEX TYPE="MONEY">$100 million</NUMEX> in assets, is the parent of the <ENAMEX TYPE="ORGANIZATION">Deseret Bank</ENAMEX>, which <EVENT eid="e9" class="STATE" >has</EVENT> <CARDINAL>six</CARDINAL> offices and headquarters at <ENAMEX TYPE="LOCATION">Pleasant Grove</ENAMEX>, <ENAMEX TYPE="LOCATION">Utah</ENAMEX>.</s> 
+<s>The purchase price is <EVENT eid="e2041" class="STATE" >equal</EVENT> to <CARDINAL>about 1.65</CARDINAL> times <ENAMEX TYPE="ORGANIZATION">Deseret</ENAMEX>'s roughly <NUMEX TYPE="MONEY">$10.7 million</NUMEX> book value, or assets less liabilities.</s> 
+
+   <s><ENAMEX TYPE="LOCATION">Salt Lake City</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">First Security</ENAMEX>, with <NUMEX TYPE="MONEY">$5.4 billion</NUMEX> in assets, <EVENT eid="e11" class="REPORTING" >said</EVENT> the <EVENT eid="e2050" class="OCCURRENCE" >agreement</EVENT> is <EVENT eid="e2057" class="STATE" >subject</EVENT> <SIGNAL sid="s2058" >to</SIGNAL> shareholder and regulatory <EVENT eid="e2056" class="OCCURRENCE" >approval</EVENT>, and that it <EVENT eid="e12" class="I_STATE" >hopes</EVENT>  <SIGNAL sid="s2081" >to</SIGNAL> <EVENT eid="e13" class="OCCURRENCE" >complete</EVENT> the <EVENT eid="e1993" class="OCCURRENCE" >transaction</EVENT> <TIMEX3 mod="START" tid="t16" type="DATE" temporalFunction="true" functionInDocument="NONE" value="1990" anchorTimeID="t14" >early next year</TIMEX3>.</s> 
+</TEXT>
+
+<MAKEINSTANCE aspect="NONE" eiid="ei2094" tense="PAST" eventID="e1" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2095" tense="PAST" eventID="e2" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2096" tense="NONE" eventID="e3" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2097" tense="NONE" eventID="e4" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2098" tense="PRESENT" eventID="e5" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2099" tense="NONE" eventID="e6" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei2100" tense="NONE" eventID="e7" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2101" tense="PRESENT" eventID="e8" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2102" tense="PRESENT" eventID="e9" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2103" tense="NONE" eventID="e2041" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2104" tense="PAST" eventID="e11" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2105" tense="NONE" eventID="e2050" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2106" tense="NONE" eventID="e2057" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2107" tense="NONE" eventID="e2056" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2108" tense="PRESENT" eventID="e12" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2109" tense="NONE" eventID="e13" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2110" tense="NONE" eventID="e1993" />
+<TLINK relatedToEventInstance="ei2095" eventInstanceID="ei2098" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2099" eventInstanceID="ei2100" relType="BEFORE" />
+<TLINK relatedToTime="t14" eventInstanceID="ei2101" relType="DURING" />
+<TLINK relatedToTime="t14" eventInstanceID="ei2102" relType="DURING" />
+<TLINK relatedToTime="t16" eventInstanceID="ei2109" relType="IS_INCLUDED" />
+<TLINK relatedToEventInstance="ei2096" eventInstanceID="ei2097" relType="SIMULTANEOUS" />
+<TLINK relatedToEventInstance="ei2094" eventInstanceID="ei2095" relType="BEFORE" />
+<TLINK relatedToTime="t14" eventInstanceID="ei2094" relType="BEFORE" />
+<TLINK relatedToTime="t14" eventInstanceID="ei2104" relType="BEFORE" />
+<TLINK relatedToTime="t14" eventInstanceID="ei2103" relType="DURING" />
+<SLINK signalID="s1992" subordinatedEventInstance="ei2099" eventInstanceID="ei2098" relType="MODAL" />
+<SLINK signalID="s1991" subordinatedEventInstance="ei2096" eventInstanceID="ei2095" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2095" eventInstanceID="ei2094" relType="EVIDENTIAL" />
+<SLINK signalID="s2081" subordinatedEventInstance="ei2109" eventInstanceID="ei2108" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2108" eventInstanceID="ei2104" relType="EVIDENTIAL" />
+<SLINK subordinatedEventInstance="ei2105" eventInstanceID="ei2106" relType="MODAL" />
+<SLINK signalID="s2058" subordinatedEventInstance="ei2106" eventInstanceID="ei2107" relType="MODAL" />
+<SLINK subordinatedEventInstance="ei2106" eventInstanceID="ei2104" relType="EVIDENTIAL" />
+<ALINK relatedToEventInstance="ei2110" eventInstanceID="ei2109" relType="CULMINATES" />
+</TimeML>
