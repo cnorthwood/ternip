@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891030-0167 
+ = 891030 
+ 891030-0167. 
+ Conseco to Redeem Preferred 
+ <TIMEX3 tid="t14" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CNC 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) 
+ CARMEL, Ind.  
+
+   <s>Conseco Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it is <EVENT eid="e2" class="I_ACTION" stem="call" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">calling</EVENT> for the <EVENT eid="e3" class="OCCURRENCE" stem="redemption" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">redemption</EVENT> on <TIMEX3 tid="t15" type="DATE" value="1989-12-07" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">Dec. 7</TIMEX3> of all the 800,000 remaining shares outstanding of its $1.875 Series A convertible preferred stock at $26.805 a share.</s> 
+
+   <s>The insurance concern <EVENT eid="e5" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> all conversion <EVENT eid="e16" class="STATE" stem="right" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rights</EVENT> on the stock will <EVENT eid="e7" class="ASPECTUAL" stem="terminate" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">terminate</EVENT> on <TIMEX3 tid="t18" type="DATE" value="1989-11-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">Nov. 30</TIMEX3>.</s> 
+<s>Until <TIMEX3 tid="t22" type="DATE" value="1989-11-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t18">then</TIMEX3>, Conseco <EVENT eid="e8" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the stock <EVENT eid="e9" class="STATE" stem="remain" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">remains</EVENT> convertible into common stock at the rate of 1.439 shares of common stock for each share of preferred stock, which is equivalent to a conversion price of $17.50 a common share.</s> 
+<s>In New York Stock Exchange trading <TIMEX3 tid="t19" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">Friday</TIMEX3>, Conseco <EVENT eid="e12" class="OCCURRENCE" stem="close" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">closed</EVENT> at <EVENT eid="e20" class="STATE" stem="$19.50" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$19.50</EVENT>, down 25 cents.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t15" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t15" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e5" relatedToTime="t18" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e8" relatedToTime="t22" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e9" relatedToTime="t22" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e12" relatedToTime="t19" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e2" relatedToTime="t14" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e1" relatedToTime="t14" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e5" relatedToTime="t14" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e8" relatedToTime="t14" task="B"/>
+<TLINK lid="l11" relType="OVERLAP" eventID="e9" relatedToTime="t14" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e12" relatedToTime="t14" task="B"/>
+</TempEval>

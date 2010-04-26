@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891027-0109 
+ = 891027 
+ 891027-0109. 
+ American Medical
+@  International Bought
+@  By IMA Holdings 
+ <TIMEX3 tid="t92" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ AMI Z.CSU WNEWS 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+HEALTH CARE PROVIDERS, MEDICINE, DENTISTRY (HEA) 
+ LOS ANGELES  
+
+   <s>IMA Holdings Corp. <EVENT eid="e1" class="ASPECTUAL" stem="complete" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">completed</EVENT> its $3 billion <EVENT eid="e2" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of American Medical International Inc., <EVENT eid="e3" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">purchasing</EVENT> 63 million shares, or 86%, of the Los Angeles-based health-care services concern for $26.50 a share.</s> 
+<s>The price also includes assumption of about $1.4 billion in debt.</s> 
+
+   <s>IMA is a group that includes First Boston Corp. and the Pritzker family of Chicago through the leveraged buy-out fund Harry Gray Melvyn Klein amp Partners.</s> 
+<s>Harry J. Gray and Melvyn N. Klein, along with five other IMA designees, were <EVENT eid="e9" class="OCCURRENCE" stem="name" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">named</EVENT> to <EVENT eid="e11" class="OCCURRENCE" stem="join" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">join</EVENT> American Medical's 10-member board.</s> 
+
+   <s>The <EVENT eid="e12" class="ASPECTUAL" stem="completion" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">completion</EVENT> of the <EVENT eid="e72" class="OCCURRENCE" stem="merger" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">merger</EVENT> <EVENT eid="e13" class="I_ACTION" stem="agreement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">agreement</EVENT> follows <TIMEX3 tid="t91" type="DURATION" value="PXM" temporalFunction="false" functionInDocument="NONE">months</TIMEX3> of <EVENT eid="e15" class="OCCURRENCE" stem="twist" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">twists</EVENT> and <EVENT eid="e16" class="OCCURRENCE" stem="turn" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">turns</EVENT>.</s> 
+<s>In <TIMEX3 tid="t93" type="DATE" value="1989-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t92">January</TIMEX3>, American Medical <EVENT eid="e17" class="OCCURRENCE" stem="bring" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">brought</EVENT> in a new chief executive officer, Richard A. Gilleland, 45, who will <EVENT eid="e18" class="STATE" stem="remain" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">remain</EVENT> as chairman, president and chief executive.</s> 
+<s><TIMEX3 tid="t96" type="DURATION" value="PXD" temporalFunction="true" functionInDocument="NONE" beginPoint="t93">A few days</TIMEX3> later, American Medical <EVENT eid="e19" class="I_ACTION" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> sharply lower <EVENT eid="e76" class="STATE" stem="earnings" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">earnings</EVENT>, <EVENT eid="e20" class="OCCURRENCE" stem="take" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">taking</EVENT> charges of $24 million for insurance reserves and <EVENT eid="e22" class="ASPECTUAL" stem="cancel" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">canceled</EVENT> real estate <EVENT eid="e77" class="STATE" stem="lease" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">leases</EVENT>.</s> 
+
+   <s>In <TIMEX3 tid="t97" type="DATE" value="1989-03" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t92">March</TIMEX3>, American Medical <EVENT eid="e23" class="OCCURRENCE" stem="receive" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">received</EVENT> a $24-a-share <EVENT eid="e24" class="I_ACTION" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> to <EVENT eid="e26" class="OCCURRENCE" stem="take" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">take</EVENT> the company private from an investor group including large holder M. Lee Pearce.</s> 
+<s>It also was <EVENT eid="e28" class="I_ACTION" stem="consider" aspect="PROGRESSIVE" tense="PAST" polarity="POS" pos="VERB">considering</EVENT> a <EVENT eid="e80" class="OCCURRENCE" stem="restructuring" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">restructuring</EVENT> to <EVENT eid="e30" class="I_ACTION" stem="help" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e31" class="OCCURRENCE" stem="boost" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">boost</EVENT> the stock price.</s> 
+<s>A group including several members of the the Bass family of Texas <EVENT eid="e32" class="I_ACTION" stem="urge" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">urged</EVENT> the company to <EVENT eid="e34" class="OCCURRENCE" stem="take" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">take</EVENT> some steps to <EVENT eid="e36" class="OCCURRENCE" stem="maximize" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">maximize</EVENT> shareholder value.</s> 
+
+   <s><TIMEX3 tid="t98" type="DATE" value="1989-04" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t97">The following month</TIMEX3>, the company <EVENT eid="e37" class="OCCURRENCE" stem="put" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">put</EVENT> itself up for <EVENT eid="e38" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT>.</s> 
+<s>It <EVENT eid="e39" class="OCCURRENCE" stem="receive" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">received</EVENT> more <EVENT eid="e40" class="I_ACTION" stem="offer" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">offers</EVENT>, but the <EVENT eid="e41" class="OCCURRENCE" stem="auction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">auction</EVENT> was surprisingly <EVENT eid="e42" class="OCCURRENCE" stem="win" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">won</EVENT> by IMA, which <EVENT eid="e43" class="OCCURRENCE" stem="bid" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">bid</EVENT> $28 a share and <EVENT eid="e44" class="I_ACTION" stem="ask" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">asked</EVENT> Mr. Gilleland to <EVENT eid="e84" class="STATE" stem="stay" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">stay</EVENT> on as an equity participant.</s> 
+<s>He <EVENT eid="e47" class="REPORTING" stem="indicate" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">indicated</EVENT> that some assets might be <EVENT eid="e48" class="OCCURRENCE" stem="sell" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">sold</EVENT> off to <EVENT eid="e51" class="OCCURRENCE" stem="service" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">service</EVENT> the debt.</s> 
+
+   <s>Then, after <EVENT eid="e53" class="OCCURRENCE" stem="extending" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">extending</EVENT> its offer four times <EVENT eid="e55" class="I_ACTION" stem="wait" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">waiting</EVENT> for a congressional tax <EVENT eid="e56" class="OCCURRENCE" stem="ruling" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">ruling</EVENT>, IMA <TIMEX3 tid="t99" type="DATE" value="1989-10" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t92">early this month</TIMEX3> <EVENT eid="e57" class="OCCURRENCE" stem="lower" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">lowered</EVENT> its offer to $26.50 a share amid turbulence in the junk bond market.</s> 
+<s>American Medical <EVENT eid="e61" class="I_ACTION" stem="accept" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">accepted</EVENT> the <EVENT eid="e62" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT>, meanwhile <EVENT eid="e63" class="REPORTING" stem="indicate" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">indicating</EVENT> it had <EVENT eid="e64" class="OCCURRENCE" stem="hear" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">heard</EVENT> from two other suitors.</s> 
+<s>But they never <EVENT eid="e65" class="OCCURRENCE" stem="materialize" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">materialized</EVENT> and IMA <EVENT eid="e66" class="ASPECTUAL" stem="complete" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">completed</EVENT> the <EVENT eid="e67" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">purchase</EVENT> <TIMEX3 tid="t100" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t92">yesterday</TIMEX3>.</s> 
+
+   <s>Other new board members include John S. Harrison and Mark A. Adley of First Boston, James F. Lyons, William S. Goldberg and Harold S. Handelsman.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e13" relatedToTime="t91" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e18" relatedToTime="t93" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e19" relatedToTime="t96" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e20" relatedToTime="t96" task="A"/>
+<TLINK lid="l5" relType="OVERLAP-OR-AFTER" eventID="e26" relatedToTime="t97" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e24" relatedToTime="t97" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e38" relatedToTime="t98" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e67" relatedToTime="t100" task="A"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e2" relatedToTime="t92" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e3" relatedToTime="t92" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e13" relatedToTime="t92" task="B"/>
+<TLINK lid="l12" relType="AFTER" eventID="e18" relatedToTime="t92" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e19" relatedToTime="t92" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e20" relatedToTime="t92" task="B"/>
+<TLINK lid="l15" relType="VAGUE" eventID="e26" relatedToTime="t92" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e24" relatedToTime="t92" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e30" relatedToTime="t92" task="B"/>
+<TLINK lid="l18" relType="VAGUE" eventID="e31" relatedToTime="t92" task="B"/>
+<TLINK lid="l19" relType="VAGUE" eventID="e34" relatedToTime="t92" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e38" relatedToTime="t92" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e43" relatedToTime="t92" task="B"/>
+<TLINK lid="l22" relType="BEFORE" eventID="e40" relatedToTime="t92" task="B"/>
+<TLINK lid="l23" relType="VAGUE" eventID="e48" relatedToTime="t92" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e62" relatedToTime="t92" task="B"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e67" relatedToTime="t92" task="B"/>
+</TempEval>

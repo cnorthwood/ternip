@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891101-0032 
+ = 891101 
+ 891101-0032. 
+ International Brief -- Coates Brothers PLC:
+@  Orkem Bids $7.43 a Share
+@  For Stake It Doesn't Own 
+ <TIMEX3 tid="t39" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ F.ORK EUROP U.CTB 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+CHEMICALS, PLASTICS (CHM) 
+
+   <s>Orkem S.A., a French state-controlled chemical manufacturer, is <EVENT eid="e1" class="OCCURRENCE" stem="make" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">making</EVENT> a friendly <EVENT eid="e2" class="OCCURRENCE" stem="bid" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">bid</EVENT> of 470 pence ($7.43) a share for the 59.2% of U.K. specialty chemical group Coates Brothers PLC which it does n't already <EVENT eid="e3" class="STATE" stem="own" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">own</EVENT>, the two sides <EVENT eid="e5" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>The <EVENT eid="e6" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT>, which values the whole of Coates at #301 million, has already been <EVENT eid="e8" class="I_ACTION" stem="accept" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">accepted</EVENT> by Coates executives and other shareholders owning 12.4% of the company.</s> 
+<s>The <EVENT eid="e10" class="OCCURRENCE" stem="acceptance" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acceptances</EVENT> <EVENT eid="e11" class="OCCURRENCE" stem="give" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">give</EVENT> Orkem a controlling 53.2% <EVENT eid="e42" class="STATE" stem="stake" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">stake</EVENT> in the company.</s> 
+
+   <s>Orkem and Coates <EVENT eid="e12" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t50" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">last Wednesday</TIMEX3> that the two were <EVENT eid="e13" class="I_STATE" stem="consider" aspect="PROGRESSIVE" tense="PAST" polarity="POS" pos="VERB">considering</EVENT> a <EVENT eid="e14" class="OCCURRENCE" stem="merger" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">merger</EVENT>, through Orkem's British subsidiary, Orkem Coatings U.K. Ltd. 
+
+   Orkem, France's third-largest chemical group, <EVENT eid="e15" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it would <EVENT eid="e16" class="OCCURRENCE" stem="fund" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">fund</EVENT> the <EVENT eid="e18" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> through internal resources.</s> 
+<s>The <EVENT eid="e19" class="OCCURRENCE" stem="takeover" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">takeover</EVENT> would be followed by a <EVENT eid="e45" class="OCCURRENCE" stem="restructuring" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">restructuring</EVENT> of Orkem's U.K. unit, including the <EVENT eid="e22" class="OCCURRENCE" stem="addition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">addition</EVENT> of related Orkem businesses and possibly further <EVENT eid="e24" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisitions</EVENT>.</s> 
+<s>Orkem <EVENT eid="e25" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it eventually would <EVENT eid="e26" class="I_ACTION" stem="seek" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">seek</EVENT> to <EVENT eid="e29" class="OCCURRENCE" stem="make" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">make</EVENT> a public share <EVENT eid="e30" class="OCCURRENCE" stem="offering" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offering</EVENT> in its U.K. business.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e12" relatedToTime="t50" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e15" relatedToTime="t50" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e18" relatedToTime="t50" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e2" relatedToTime="t39" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e5" relatedToTime="t39" task="B"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e1" relatedToTime="t39" task="B"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e6" relatedToTime="t39" task="B"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e11" relatedToTime="t39" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e12" relatedToTime="t39" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e15" relatedToTime="t39" task="B"/>
+<TLINK lid="l11" relType="AFTER" eventID="e18" relatedToTime="t39" task="B"/>
+<TLINK lid="l12" relType="AFTER" eventID="e24" relatedToTime="t39" task="B"/>
+<TLINK lid="l13" relType="AFTER" eventID="e26" relatedToTime="t39" task="B"/>
+<TLINK lid="l14" relType="AFTER" eventID="e29" relatedToTime="t39" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e25" relatedToTime="t39" task="B"/>
+</TempEval>

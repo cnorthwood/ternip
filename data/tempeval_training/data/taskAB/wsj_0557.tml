@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0143 
+ = 891030 
+ 891030-0143. 
+ RJR Is Selling
+@  Candy Brands
+@  For $370 Million
+@  ----
+@  By Peter Waldman
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t78" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ RJR Z.NES 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+FOOD PRODUCTS (FOD) 
+
+   <s>RJR Nabisco Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="I_STATE" stem="agree" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e4" class="OCCURRENCE" stem="sell" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">sell</EVENT> its Baby Ruth, Butterfinger and Pearson candy businesses to Nestle S.A.'s Nestle Foods unit for $370 million.</s> 
+
+   <s>The <EVENT eid="e5" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT>, at a higher <EVENT eid="e121" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">price</EVENT> than some analysts had <EVENT eid="e7" class="I_STATE" stem="expect" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">expected</EVENT>, <EVENT eid="e8" class="I_ACTION" stem="help" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">helps</EVENT> the food and tobacco giant <EVENT eid="e72" class="OCCURRENCE" stem="raise" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">raise</EVENT> funds to <EVENT eid="e10" class="OCCURRENCE" stem="pay" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">pay</EVENT> debt and <EVENT eid="e11" class="OCCURRENCE" stem="boost" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">boosts</EVENT> Nestle's 7% share of the U.S. candy market to <EVENT eid="e73" class="STATE" stem="about 12%" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">about 12%</EVENT>.</s> 
+
+   <s>The candy businesses <EVENT eid="e75" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e76" class="STATE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sales</EVENT> of about $154 million <TIMEX3 tid="t79" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">last year</TIMEX3>, which was roughly 12% of total revenue for RJR's Planters LifeSavers unit, <EVENT eid="e80" class="REPORTING" stem="accord" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">according</EVENT> to a memorandum <EVENT eid="e14" class="OCCURRENCE" stem="distribute" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">distributed</EVENT> by RJR's owner, Kohlberg Kravis Roberts amp Co., to bankers <TIMEX3 tid="t82" type="DATE" value="1988-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">last December</TIMEX3>.</s> 
+
+   <s>The Nestle acquisition includes a candy plant in Franklin Park, Ill., which employs about 800 workers.</s> 
+
+   <s>The <EVENT eid="e17" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT>, which had been <EVENT eid="e18" class="I_STATE" stem="expect" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">expected</EVENT>, is part of KKR's <EVENT eid="e83" class="I_STATE" stem="program" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">program</EVENT> to <EVENT eid="e20" class="OCCURRENCE" stem="pay" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">pay</EVENT> down $5 billion of a $6 billion bridge loan by <TIMEX3 tid="t85" type="DATE" value="1990-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">February</TIMEX3>.</s> 
+<s>Roughly $2 billion of that debt has already been <EVENT eid="e21" class="OCCURRENCE" stem="repay" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">repaid</EVENT> from previous asset sales, and RJR <EVENT eid="e23" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e24" class="OCCURRENCE" stem="use" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">use</EVENT> another $2 billion from the pending, two-part <EVENT eid="e25" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of most of its Del Monte unit.</s> 
+<s>That <EVENT eid="e26" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT>, however , could still <EVENT eid="e89" class="OCCURRENCE" stem="fall" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">fall</EVENT> through if financing problems <EVENT eid="e29" class="OCCURRENCE" stem="develop" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">develop</EVENT>.</s> 
+<s>Thus, it remains crucial for RJR to obtain top dollar for its smaller assets like the candy brands.</s> 
+
+   <s>Louis Gerstner Jr., chairman and chief executive officer of New York-based RJR, called the sale a "significant step" in the company's divestiture program, as well as a "a strategic divestiture."</s> 
+<s>Since KKR <EVENT eid="e38" class="OCCURRENCE" stem="buy" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">bought</EVENT> RJR in <TIMEX3 tid="t91" type="DATE" value="1989-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">February</TIMEX3> for $25 billion of debt, it has <EVENT eid="e39" class="I_STATE" stem="agree" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e41" class="OCCURRENCE" stem="sell" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">sell</EVENT> nearly $5 billion of RJR assets.</s> 
+<s>RJR's executives have <EVENT eid="e42" class="REPORTING" stem="say" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">said</EVENT> they will <EVENT eid="e43" class="OCCURRENCE" stem="dispense" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">dispense</EVENT> with certain brands, in particular, that are n't  <EVENT eid="e93" class="STATE" stem="leader" aspect="NONE" tense="PRESENT" polarity="NEG" pos="NOUN">leaders</EVENT> in their markets.</s> 
+<s>"RJR Nabisco and Planters LifeSavers will <EVENT eid="e94" class="OCCURRENCE" stem="concentrate" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">concentrate</EVENT> more on our own core businesses," Mr. Gerstner <EVENT eid="e50" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t95" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">Friday</TIMEX3>.</s> 
+
+   <s>Baby Ruth and Butterfinger are both among the top-selling 15 chocolate bars in the U.S., but RJR's overall share of the roughly $5.1 billion market is less than 5%.</s> 
+<s>Nestle's <EVENT eid="e96" class="STATE" stem="share" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">share</EVENT> of 7% before <TIMEX3 tid="t99" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">Friday</TIMEX3>'s <EVENT eid="e52" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">purchases</EVENT> is far below the shares of market leaders Hershey Foods Corp. and Mars Inc., which have about 40% and 36% of the market, respectively.</s> 
+
+   <s>"This means Nestle is now in the candybar business in a big way," <EVENT eid="e61" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Lisbeth Echeandia, publisher of Orlando, Fla.-based Confectioner Magazine.</s> 
+<s>"For them, it makes all kinds of sense.</s> 
+<s>They've been <EVENT eid="e64" class="OCCURRENCE" stem="give" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">given</EVENT> a mandate from Switzerland" to <EVENT eid="e67" class="I_ACTION" stem="expand" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">expand</EVENT> their U.S. chocolate <EVENT eid="e100" class="OCCURRENCE" stem="operation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">operations</EVENT>.</s> 
+<s>Nestle S.A. is based in Vevey, Switzerland.</s> 
+
+   <s>The new candy bars, "<EVENT eid="e69" class="OCCURRENCE" stem="make" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">make</EVENT> an important <EVENT eid="e70" class="OCCURRENCE" stem="contribution" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">contribution</EVENT> to our Nestle Foods commitment to this very important strategic unit," <EVENT eid="e71" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> C. Alan MacDonald, president of Nestle Foods in Purchase, N.Y.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e75" relatedToTime="t82" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e75" relatedToTime="t79" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e80" relatedToTime="t82" task="A"/>
+<TLINK lid="l4" relType="VAGUE" eventID="e80" relatedToTime="t79" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e76" relatedToTime="t82" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e76" relatedToTime="t79" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e18" relatedToTime="t85" task="A"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e20" relatedToTime="t85" task="A"/>
+<TLINK lid="l9" relType="VAGUE" eventID="e17" relatedToTime="t85" task="A"/>
+<TLINK lid="l10" relType="AFTER" eventID="e39" relatedToTime="t91" task="A"/>
+<TLINK lid="l11" relType="AFTER" eventID="e41" relatedToTime="t91" task="A"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e38" relatedToTime="t91" task="A"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e50" relatedToTime="t95" task="A"/>
+<TLINK lid="l14" relType="OVERLAP" eventID="e52" relatedToTime="t99" task="A"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e2" relatedToTime="t78" task="B"/>
+<TLINK lid="l16" relType="AFTER" eventID="e4" relatedToTime="t78" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e1" relatedToTime="t78" task="B"/>
+<TLINK lid="l18" relType="AFTER" eventID="e10" relatedToTime="t78" task="B"/>
+<TLINK lid="l19" relType="AFTER" eventID="e5" relatedToTime="t78" task="B"/>
+<TLINK lid="l20" relType="OVERLAP" eventID="e8" relatedToTime="t78" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e7" relatedToTime="t78" task="B"/>
+<TLINK lid="l22" relType="OVERLAP" eventID="e11" relatedToTime="t78" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e75" relatedToTime="t78" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e80" relatedToTime="t78" task="B"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e76" relatedToTime="t78" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e18" relatedToTime="t78" task="B"/>
+<TLINK lid="l27" relType="AFTER" eventID="e20" relatedToTime="t78" task="B"/>
+<TLINK lid="l28" relType="AFTER" eventID="e17" relatedToTime="t78" task="B"/>
+<TLINK lid="l29" relType="OVERLAP" eventID="e23" relatedToTime="t78" task="B"/>
+<TLINK lid="l30" relType="AFTER" eventID="e24" relatedToTime="t78" task="B"/>
+<TLINK lid="l31" relType="AFTER" eventID="e25" relatedToTime="t78" task="B"/>
+<TLINK lid="l32" relType="AFTER" eventID="e26" relatedToTime="t78" task="B"/>
+<TLINK lid="l33" relType="AFTER" eventID="e89" relatedToTime="t78" task="B"/>
+<TLINK lid="l34" relType="OVERLAP" eventID="e39" relatedToTime="t78" task="B"/>
+<TLINK lid="l35" relType="VAGUE" eventID="e41" relatedToTime="t78" task="B"/>
+<TLINK lid="l36" relType="BEFORE" eventID="e38" relatedToTime="t78" task="B"/>
+<TLINK lid="l37" relType="BEFORE" eventID="e42" relatedToTime="t78" task="B"/>
+<TLINK lid="l38" relType="BEFORE" eventID="e50" relatedToTime="t78" task="B"/>
+<TLINK lid="l39" relType="BEFORE" eventID="e52" relatedToTime="t78" task="B"/>
+<TLINK lid="l40" relType="BEFORE" eventID="e61" relatedToTime="t78" task="B"/>
+<TLINK lid="l41" relType="BEFORE" eventID="e64" relatedToTime="t78" task="B"/>
+<TLINK lid="l42" relType="BEFORE" eventID="e71" relatedToTime="t78" task="B"/>
+<TLINK lid="l43" relType="OVERLAP" eventID="e69" relatedToTime="t78" task="B"/>
+</TempEval>

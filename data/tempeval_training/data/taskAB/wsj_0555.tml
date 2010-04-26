@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0145 
+ = 891030 
+ 891030-0145. 
+ Waxman Industries Debentures 
+ <TIMEX3 tid="t12" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ WAX 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) 
+ BEDFORD HEIGHTS, Ohio  
+
+   <s>Waxman Industries Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> holders of $6,542,000 face amount of its 6 1/4% convertible subordinated debentures, <EVENT eid="e11" class="STATE" stem="due" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">due</EVENT> <TIMEX3 tid="t13" type="DATE" value="2007-03-15" temporalFunction="false" functionInDocument="NONE">March 15, 2007</TIMEX3>, have <EVENT eid="e2" class="I_ACTION" stem="elect" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">elected</EVENT> to <EVENT eid="e4" class="OCCURRENCE" stem="convert" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">convert</EVENT> the debt into about 683,000 common shares.</s> 
+
+   <s>The conversion price is $9.58 a share.</s> 
+
+   <s>The company <EVENT eid="e6" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the holders <EVENT eid="e7" class="STATE" stem="represent" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">represent</EVENT> 52% of the face amount of the debentures.</s> 
+
+   <s>Waxman sells a variety of hardware products for the home repair market.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e1" relatedToTime="t13" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t12" task="B"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e6" relatedToTime="t12" task="B"/>
+</TempEval>

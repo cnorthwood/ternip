@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891101-0035 
+ = 891101 
+ 891101-0035. 
+ Business Brief -- Coda Energy Inc.:
+@  Oil and Gas Firm Arranges
+@  $50 Million Credit Facility 
+ <TIMEX3 tid="t19" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CODA 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Coda Energy Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="arrange" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">arranged</EVENT> a $50 million credit facility with NCNB Texas National Bank, a unit of NCNB Corp., of Charlotte, N.C. 
+   The Dallas oil and gas concern <EVENT eid="e4" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that $10 million of the facility would  be <EVENT eid="e5" class="OCCURRENCE" stem="use" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">used</EVENT>  to <EVENT eid="e7" class="OCCURRENCE" stem="consolidate" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">consolidate</EVENT> the company's $8.1 million of existing bank debt,  to <EVENT eid="e9" class="OCCURRENCE" stem="repurchase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">repurchase</EVENT> 4 million of its 4.9 million shares outstanding of Series D convertible preferred stock, and  to <EVENT eid="e10" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">purchase</EVENT> a 10% net-profits interest in certain oil and gas properties from one of its existing lenders, National Canada Corp. 
+The remaining $40 million can  be <EVENT eid="e12" class="OCCURRENCE" stem="use" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">used</EVENT> over <TIMEX3 tid="t21" type="DURATION" value="P3Y" temporalFunction="false" functionInDocument="NONE">three years</TIMEX3> for oil and gas acquisitions, the company <EVENT eid="e14" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Ted Eubank, Coda's president, <EVENT eid="e15" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the loan carries an interest rate of prime plus one percentage point, with 85% of the company's net oil and gas revenue <TIMEX3 tid="t22" type="SET" value="P1M" temporalFunction="false" functionInDocument="NONE" quant="each">each month</TIMEX3> <EVENT eid="e17" class="OCCURRENCE" stem="dedicate" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">dedicated</EVENT> to repayment.</s> 
+<s>The company <EVENT eid="e23" class="OCCURRENCE" stem="put" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">put</EVENT> up "virtually all" of its oil and gas properties as collateral, he <EVENT eid="e18" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e1" relatedToTime="t21" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e10" relatedToTime="t21" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e14" relatedToTime="t21" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e4" relatedToTime="t21" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e12" relatedToTime="t21" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e5" relatedToTime="t21" task="A"/>
+<TLINK lid="l7" relType="VAGUE" eventID="e15" relatedToTime="t22" task="A"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e1" relatedToTime="t19" task="B"/>
+<TLINK lid="l9" relType="AFTER" eventID="e10" relatedToTime="t19" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e14" relatedToTime="t19" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e4" relatedToTime="t19" task="B"/>
+<TLINK lid="l12" relType="AFTER" eventID="e12" relatedToTime="t19" task="B"/>
+<TLINK lid="l13" relType="AFTER" eventID="e5" relatedToTime="t19" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e15" relatedToTime="t19" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e18" relatedToTime="t19" task="B"/>
+</TempEval>

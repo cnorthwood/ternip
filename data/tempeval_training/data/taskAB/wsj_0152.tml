@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891102-0039 
+ = 891102 
+ 891102-0039. 
+ Business Brief -- Dow Jones amp Co.:
+@  Offer for Telerate Common
+@  Is Extended Until Nov. 9 
+ <TIMEX3 tid="t25" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ DJ TLR 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDIA, PUBLISHING, BROADCASTING, ELECTRONIC PUBLISHING (MED) 
+
+   <s>Dow Jones amp Co. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="I_ACTION" stem="extend" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">extended</EVENT> its $18-a-share <EVENT eid="e3" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> for Telerate Inc. common stock until <TIMEX3 tid="t27" type="DATE" value="1989-11-09T17:00" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t25">5 p.m. EST Nov. 9</TIMEX3>.</s> 
+
+   <s>The <EVENT eid="e4" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT>, valued at about $576 million for the 33% of Telerate that Dow Jones does n't already own, had been <EVENT eid="e8" class="I_ACTION" stem="set" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">set</EVENT> to <EVENT eid="e10" class="OCCURRENCE" stem="expire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">expire</EVENT> <TIMEX3 tid="t28" type="DATE" value="1989-11-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t25">Nov. 6</TIMEX3>.</s> 
+
+   <s>Dow Jones, which owns about 64 million of Telerate's 95 million common shares outstanding, <EVENT eid="e12" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that about 24,000 shares have been <EVENT eid="e13" class="OCCURRENCE" stem="tender" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">tendered</EVENT> under its <EVENT eid="e14" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT>.</s> 
+
+   <s>Telerate's two independent directors have <EVENT eid="e15" class="OCCURRENCE" stem="reject" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">rejected</EVENT> the <EVENT eid="e16" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> as inadequate.</s> 
+<s>In composite trading on the New York Stock Exchange, Telerate shares <EVENT eid="e18" class="OCCURRENCE" stem="close" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">closed</EVENT> at $19.50, up 12.5 cents.</s> 
+
+   <s>Telerate provides an electronic financial information network.</s> 
+<s>Dow Jones publishes The Wall Street Journal, Barron's magazine, and community newspapers and operates financial news services and computer data bases.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e1" relatedToTime="t27" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e3" relatedToTime="t27" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e8" relatedToTime="t28" task="A"/>
+<TLINK lid="l4" relType="OVERLAP-OR-AFTER" eventID="e4" relatedToTime="t28" task="A"/>
+<TLINK lid="l5" relType="AFTER" eventID="e1" relatedToTime="t25" task="B"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e3" relatedToTime="t25" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e8" relatedToTime="t25" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e4" relatedToTime="t25" task="B"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e14" relatedToTime="t25" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e12" relatedToTime="t25" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e16" relatedToTime="t25" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e18" relatedToTime="t25" task="B"/>
+</TempEval>

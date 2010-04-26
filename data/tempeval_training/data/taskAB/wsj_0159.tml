@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891102-0032 
+ = 891102 
+ 891102-0032. 
+ Business Brief -- Dunkin' Donuts Inc.:
+@  DD Acquisition Extended
+@  Its $45-a-Share Takeover Bid 
+<TIMEX3 tid="t39" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME"> 11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ UNI.A DUNK T.CAO 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+RESTAURANTS, SUPERMARKETS AND DRUGSTORES (RFD) 
+
+   <s>DD Acquisition Corp., a partnership of Unicorp Canada Corp.'s Kingsbridge Capital Group and Cara Operations Ltd., <EVENT eid="e2" class="OCCURRENCE" stem="extend" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">extended</EVENT> to <TIMEX3 tid="t41" type="DATE" value="1989-11-20" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">Nov. 20</TIMEX3> its $45-a-share offer for all Dunkin' Donuts Inc. shares outstanding.</s> 
+
+   <s>The <EVENT eid="e207" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT>, which was <EVENT eid="e49" class="I_STATE" stem="due" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">due</EVENT> to <EVENT eid="e6" class="OCCURRENCE" stem="expire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">expire</EVENT> <TIMEX3 tid="t44" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">yesterday</TIMEX3>, is <EVENT eid="e45" class="I_STATE" stem="conditional" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">conditional</EVENT> on 50.1% of Dunkin' common shares, on a fully diluted basis, being <EVENT eid="e7" class="OCCURRENCE" stem="tender" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">tendered</EVENT> and on the <EVENT eid="e8" class="OCCURRENCE" stem="withdrawal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">withdrawal</EVENT> of the company's poison pill rights plan.</s> 
+
+   <s>Acquisition has <EVENT eid="e11" class="OCCURRENCE" stem="launch" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">launched</EVENT> a <EVENT eid="e113" class="I_ACTION" stem="suit" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">suit</EVENT> in a Delaware court <EVENT eid="e13" class="I_ACTION" stem="seek" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">seeking</EVENT> the <EVENT eid="e14" class="OCCURRENCE" stem="withdrawal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">withdrawal</EVENT> of Dunkin's poison pill rights and employee stock ownership plans, which it <EVENT eid="e50" class="REPORTING" stem="claim" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">claims</EVENT> were <EVENT eid="e208" class="OCCURRENCE" stem="put" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">put</EVENT> in place to <EVENT eid="e18" class="OCCURRENCE" stem="deter" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">deter</EVENT> bidders.</s> 
+<s>Acquisition <EVENT eid="e20" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> 2.2 million shares, or about 38.5% of the shares outstanding, have been <EVENT eid="e21" class="OCCURRENCE" stem="tender" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">tendered</EVENT> under its offer.</s> 
+<s>The partners <EVENT eid="e23" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> they <TIMEX3 tid="t51" type="TIME" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">already</TIMEX3> <EVENT eid="e24" class="STATE" stem="hold" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">hold</EVENT> 15% of all shares outstanding.</s> 
+
+   <s>Dunkin' has <EVENT eid="e25" class="I_ACTION" stem="set" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">set</EVENT> <TIMEX3 tid="t52" type="DATE" value="1989-11-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">Nov. 10</TIMEX3> as the deadline for the <EVENT eid="e26" class="OCCURRENCE" stem="receipt" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">receipt</EVENT> of any competing bids.</s> 
+<s>DD Acquisition <EVENT eid="e28" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e29" class="OCCURRENCE" stem="extension" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">extension</EVENT> is to <EVENT eid="e206" class="I_ACTION" stem="allow" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">allow</EVENT> this process to be <EVENT eid="e34" class="ASPECTUAL" stem="complete" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">completed</EVENT>.</s> 
+<s>Dunkin' is based in Randolph, Mass. 
+Cara, a food services chain operator and Unicorp, a holding company, are based in Toronto.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e207" relatedToTime="t44" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e23" relatedToTime="t51" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e24" relatedToTime="t51" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e25" relatedToTime="t52" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e207" relatedToTime="t39" task="B"/>
+<TLINK lid="l6" relType="BEFORE-OR-OVERLAP" eventID="e13" relatedToTime="t39" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e20" relatedToTime="t39" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e23" relatedToTime="t39" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e24" relatedToTime="t39" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e25" relatedToTime="t39" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e28" relatedToTime="t39" task="B"/>
+</TempEval>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0124 
+ = 891102 
+ 891102-0124. 
+ Dividend News:
+@  Goody Products Inc. 
+ <TIMEX3 tid="t8" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ GOOD 
+ DIVIDENDS (DIV) 
+
+   <s>GOODY PRODUCTS Inc. <EVENT eid="e9" mainevent="YES" class="OCCURRENCE" stem="cut" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">cut</EVENT> its quarterly dividend to <EVENT eid="e33" mainevent="NO" class="STATE" stem="five" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">five</EVENT> cents a share from <EVENT eid="e32" mainevent="NO" class="STATE" stem="11.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">11.5</EVENT> cents a share.</s> 
+<s>The <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="reduced" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">reduced</EVENT> dividend is <EVENT eid="e15" mainevent="YES" class="OCCURRENCE" stem="payable" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">payable</EVENT> <TIMEX3 tid="t18" type="DATE" value="1990-01-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t8">Jan. 2</TIMEX3> to stock of <EVENT eid="e2" mainevent="NO" class="STATE" stem="record" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">record</EVENT> <TIMEX3 tid="t17" type="DATE" value="1989-12-15" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t8">Dec. 15</TIMEX3>.</s> 
+<s>The Kearny, N.J.-based maker of hair accessories and other cosmetic products <EVENT eid="e3" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="cut" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">cut</EVENT> the dividend due to its <TIMEX3 tid="t26" type="TIME" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t8">third-quarter</TIMEX3> <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $992,000, or 15 cents a share.</s> 
+<s>In <TIMEX3 tid="t134" type="TIME" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t8">the year-ago quarter</TIMEX3>, the company <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> net income of $1.9 million, or 29 cents a share.</s> 
+<s>The company also <EVENT eid="e7" mainevent="YES" class="I_ACTION" stem="adopt" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">adopted</EVENT> an anti-<EVENT eid="e30" mainevent="NO" class="OCCURRENCE" stem="takeover" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">takeover</EVENT> <EVENT eid="e31" mainevent="NO" class="OCCURRENCE" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plan</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e6" eventID="e3" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e3" eventID="e15" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e15" eventID="e9" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e7" eventID="e6" task="C"/>
+
+</TempEval>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891102-0015 
+ = 891102 
+ 891102-0015. 
+ Marketing Brief -- Sony Corp.:
+@  Japanese Concern Completes
+@  Offer for Columbia Pictures 
+ <TIMEX3 tid="t32" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SNE KPE GPEC WCI TL 
+ RECREATION, ENTERTAINMENT, TOYS, MOVIES, PHOTOGRAPHY, SPORTS (REC)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDIA, PUBLISHING, BROADCASTING, ELECTRONIC PUBLISHING (MED) 
+
+   <s>Sony Corp. <EVENT eid="e1" mainevent="YES" class="ASPECTUAL" stem="complete" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">completed</EVENT> its tender <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> for Columbia Pictures Entertainment Inc., with Columbia shareholders <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="tender" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">tendering</EVENT> 99.3% of all common shares outstanding by the <TIMEX3 tid="t38" type="DATE" value="1989-10-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t32">Tuesday</TIMEX3> deadline.</s> 
+
+   <s>Sony Columbia Acquisition Corp., <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="form" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">formed</EVENT> for the Columbia deal, will formally <EVENT eid="e5" mainevent="NO" class="I_ACTION" stem="take" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">take</EVENT> <EVENT eid="e6" mainevent="NO" class="STATE" stem="ownership" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">ownership</EVENT> of the movie studio later <TIMEX3 tid="t34" type="DATE" value="1989-11" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t32">this month</TIMEX3>, a spokesman <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>Sony is <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="pay" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">paying</EVENT> $27 a share, or $3.55 billion, cash and is <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="assume" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">assuming</EVENT> $1.4 billion of long-term debt.</s> 
+
+   <s>Still <EVENT eid="e35" mainevent="YES" class="STATE" stem="unresolved" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">unresolved</EVENT> is Sony's <EVENT eid="e11" mainevent="NO" class="I_ACTION" stem="effort" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">effort</EVENT> to <EVENT eid="e13" mainevent="NO" class="I_ACTION" stem="hire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">hire</EVENT> producers Jon Peters and Peter Guber to <EVENT eid="e15" mainevent="NO" class="STATE" stem="run" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">run</EVENT> the studio.</s> 
+<s>Sony's <EVENT eid="e36" mainevent="NO" class="I_ACTION" stem="planned" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">planned</EVENT> <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of Guber/Peters Entertainment Co. for $200 million is <EVENT eid="e17" mainevent="YES" class="I_STATE" stem="schedule" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">scheduled</EVENT> to <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="close" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">close</EVENT> <TIMEX3 tid="t40" type="DATE" value="1989-11-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t32">Monday</TIMEX3>.</s> 
+<s>Guber/Peters has been <EVENT eid="e20" mainevent="YES" class="STATE" stem="lock" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">locked</EVENT> in <EVENT eid="e21" mainevent="NO" class="I_ACTION" stem="litigation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">litigation</EVENT> with Warner Communications Inc. in an <EVENT eid="e22" mainevent="NO" class="I_ACTION" stem="attempt" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">attempt</EVENT> to <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="get" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">get</EVENT> out of an exclusive production contract with Warner.</s> 
+<s>Both sides are in <EVENT eid="e27" mainevent="YES" class="I_ACTION" stem="talk" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">talks</EVENT> to <EVENT eid="e30" mainevent="NO" class="ASPECTUAL" stem="settle" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">settle</EVENT> the <EVENT eid="e31" mainevent="NO" class="OCCURRENCE" stem="dispute" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">dispute</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE-OR-OVERLAP" relatedToEvent="e8" eventID="e7" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e20" eventID="e17" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e7" eventID="e1" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e17" eventID="e35" task="C"/>
+<TLINK lid="l5" relType="OVERLAP-OR-AFTER" relatedToEvent="e35" eventID="e8" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e27" eventID="e20" task="C"/>
+
+</TempEval>

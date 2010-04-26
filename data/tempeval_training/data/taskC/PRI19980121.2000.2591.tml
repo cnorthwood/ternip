@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ PRI<TIMEX3 tid="t32" type="DATE" value="1998-01-21" temporalFunction="false" functionInDocument="CREATION_TIME">19980121</TIMEX3>.2000.2591 
+ NEWS STORY 
+
+
+
+
+
+ <s>Now for <TIMEX3 tid="t33" type="DATE" value="1998-01-21" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t32">today</TIMEX3>'s geography <EVENT eid="e1985" mainevent="YES" class="OCCURRENCE" stem="quiz" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">quiz</EVENT>.</s>
+
+
+ <s>We're <EVENT eid="e1980" mainevent="YES" class="I_ACTION" stem="off" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER">off</EVENT> in <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="search" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">search</EVENT> of an ancient and exotic city.</s>
+
+
+ <s>An officially <EVENT eid="e4" mainevent="YES" class="OCCURRENCE" stem="sanctioned" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">sanctioned</EVENT> one, too.</s>
+ <s>UNESCO <EVENT eid="e5" mainevent="YES" class="I_ACTION" stem="declare" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">declared</EVENT> it a <EVENT eid="e1981" mainevent="NO" class="OCCURRENCE" stem="protected" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">protected</EVENT> site for its beauty and its
+ historical significance.</s>
+
+
+ <s>The city could have <EVENT eid="e6" mainevent="YES" class="I_ACTION" stem="use" tense="NONE" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">used</EVENT> some special <EVENT eid="e8" mainevent="NO" class="STATE" stem="protection" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">protection</EVENT> in <TIMEX3 tid="t34" type="DATE" value="1979" temporalFunction="false" functionInDocument="NONE">nineteen seventy-nine</TIMEX3>
+ when the Soviet Union <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="invade" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">invaded</EVENT> Afghanistan.</s>
+ <s>Most of the city's monuments were <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="destroy" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">destroyed</EVENT>, including a
+ magnificent tiled mosque, which <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="dominate" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">dominated</EVENT> the skyline for
+ <TIMEX3 tid="t1982" type="DURATION" value="PXC" temporalFunction="false" functionInDocument="NONE">centuries</TIMEX3>.</s>
+
+
+ <s>The people here are famous throughout central Asia for their
+ skill in fashioning pottery and tile, glass too.</s>
+ <s>Some families have <EVENT eid="e1989" mainevent="YES" class="OCCURRENCE" stem="keep" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">kept</EVENT> their glass working secrets for <TIMEX3 tid="t1991" type="DURATION" value="P2L" mod="MORE_THAN" temporalFunction="false" functionInDocument="NONE">more
+ than two thousand years</TIMEX3>.</s>
+
+
+ <s>Even though this city is in Afghanistan, most people here <EVENT eid="e19" mainevent="YES" class="I_ACTION" stem="speak" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">speak</EVENT> a
+ dialect of the Persian language, and <EVENT eid="e22" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> long standing
+ cultural <EVENT eid="e1983" mainevent="NO" class="OCCURRENCE" stem="tie" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">ties</EVENT> with neighboring Iran.</s>
+
+
+ <s><EVENT eid="e25" mainevent="YES" class="I_STATE" stem="think" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">Think</EVENT> you <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="get" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">got</EVENT> it?</s>
+ <s>Well, frankly, I do n't  , but the <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="answer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">answer</EVENT> is <EVENT eid="e30" mainevent="YES" class="OCCURRENCE" stem="come" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">coming</EVENT> up
+ in just <TIMEX3 tid="t1986" type="DURATION" value="PXM" temporalFunction="false" functionInDocument="NONE">a few minutes</TIMEX3>.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e4" eventID="e1980" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e5" eventID="e4" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e1980" eventID="e1985" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e25" eventID="e19" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e6" eventID="e5" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e11" eventID="e6" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e19" eventID="e1989" task="C"/>
+<TLINK lid="l8" relType="BEFORE" relatedToEvent="e30" eventID="e25" task="C"/>
+
+</TempEval>

@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ VOA<TIMEX3 tid="t95" type="DATE" value="1998-03-31" temporalFunction="false" functionInDocument="CREATION_TIME">19980331</TIMEX3>.1700.1533 
+ NEWS STORY 
+
+
+
+
+
+ <s>The US government recently <EVENT eid="e1" class="REPORTING" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> new regulations <EVENT eid="e3" class="I_STATE" stem="design" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">designed</EVENT> to <EVENT eid="e5" class="OCCURRENCE" stem="change" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">change</EVENT>
+ the way transplant organs are made available to sick patients.</s> <s>Under the new
+ guidelines, donor organs will be made available to the sickest people
+ first, wherever they live in the country.</s> <s>Currently, transplant organs are rationed through a regional system of distribution.</s>
+ <s>The private group that <EVENT eid="e11" class="OCCURRENCE" stem="run" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">runs</EVENT> the current system, United Network for Organ
+ Sharing, or UNOS, objects to the new regulations.</s> <s>UNOS <EVENT eid="e13" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> the regulations
+ <EVENT eid="e15" class="OCCURRENCE" stem="put" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">put</EVENT> the federal government in charge of <EVENT eid="e16" class="OCCURRENCE" stem="decide" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">deciding</EVENT> who <EVENT eid="e17" class="OCCURRENCE" stem="get" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">gets</EVENT> <EVENT eid="e18" class="OCCURRENCE" stem="transplant" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transplants</EVENT> and
+ that many hospital transplant centers would be <EVENT eid="e19" class="OCCURRENCE" stem="force" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">forced</EVENT> to <EVENT eid="e22" class="OCCURRENCE" stem="close" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">close</EVENT>.</s>
+ <s>Health and Human Services Secretary Do- Donna Shalala <EVENT eid="e23" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> patients who <EVENT eid="e24" class="I_STATE" stem="need" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">need</EVENT>
+ an organ <EVENT eid="e25" class="OCCURRENCE" stem="transplant" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transplant</EVENT> should not have to <EVENT eid="e30" class="OCCURRENCE" stem="take" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">take</EVENT> a chance that an organ will <EVENT eid="e31" class="OCCURRENCE" stem="become" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">become</EVENT>
+ available in their local area, nor should patients have to <EVENT eid="e34" class="OCCURRENCE" stem="travel" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">travel</EVENT> to transplant centers far from their homes to <EVENT eid="e38" class="OCCURRENCE" stem="improve" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">improve</EVENT> their chances of <EVENT eid="e39" class="OCCURRENCE" stem="get" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">getting</EVENT>
+ an organ.</s> <s>UNOS spokeswoman Donna Henry Wright <EVENT eid="e40" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> the new policy would not necessarily be more <EVENT eid="e121" class="STATE" stem="fair" aspect="NONE" tense="NONE" polarity="NEG" pos="ADJECTIVE">fair</EVENT> or <EVENT eid="e122" class="STATE" stem="effective" aspect="NONE" tense="NONE" polarity="NEG" pos="ADJECTIVE">effective</EVENT> because allowances are already <EVENT eid="e43" class="OCCURRENCE" stem="make" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">made</EVENT> for the most
+ needy patients.</s>
+
+
+ <s>The sickest patients are already <EVENT eid="e44" class="OCCURRENCE" stem="treat" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">treated</EVENT> first.</s> <s>There are not huge <EVENT eid="e45" class="OCCURRENCE" stem="wait" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">waiting</EVENT> uh
+ disparit- waiting time disparities amongst the very uh sickest patients.</s>
+ <s>It's between two to six days for every one uh of the sickest patients across the
+ country.</s> <s>um So it's a- it's a fallacy that they're <EVENT eid="e48" class="OCCURRENCE" stem="do" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">doing</EVENT> this because um the sickest
+ patients are n't being <EVENT eid="e52" class="OCCURRENCE" stem="serve" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">served</EVENT>.</s>
+
+
+ <s>Doctor James Burdick, the Professor of Transplant Surgery at Johns Hopkins
+ University Hospital in Baltimore, Maryland, and former President of UNOS,
+ <EVENT eid="e53" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the current system has <EVENT eid="e54" class="OCCURRENCE" stem="evolve" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">evolved</EVENT> over <TIMEX3 tid="t103" type="DURATION" value="PXY" temporalFunction="false" functionInDocument="NONE">several years</TIMEX3> and it <EVENT eid="e55" class="OCCURRENCE" stem="work" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">works</EVENT> well.</s>
+
+
+  <s>You may, in <TIMEX3 tid="t105" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t95">a year or two</TIMEX3>, <EVENT eid="e56" class="OCCURRENCE" stem="save" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">save</EVENT> a few more lives if you <EVENT eid="e58" class="OCCURRENCE" stem="do" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">do</EVENT> sickest first.</s>
+ <s>But the number of patients <EVENT eid="e59" class="OCCURRENCE" stem="wait" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">waiting</EVENT> then <EVENT eid="e60" class="I_ACTION" stem="begin" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">begins</EVENT> to <EVENT eid="e62" class="OCCURRENCE" stem="increase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">increase</EVENT>, um and, in fact, um over
+ <TIMEX3 tid="t106" type="DURATION" value="PXY" temporalFunction="false" functionInDocument="NONE">the years</TIMEX3> many more patients who are about to die of liver tra- uh without a liver
+ <EVENT eid="e65" class="OCCURRENCE" stem="transplant" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transplant</EVENT> would  <EVENT eid="e67" class="OCCURRENCE" stem="accumulate" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">accumulate</EVENT>.</s>
+ <s>If you <EVENT eid="e68" class="OCCURRENCE" stem="do" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">do</EVENT> the uh alternative extreme, you do n't <EVENT eid="e69" class="OCCURRENCE" stem="save" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">save</EVENT> as many lives in <TIMEX3 tid="t118" type="DURATION" value="PXY" temporalFunction="false" functionInDocument="NONE">the
+ early years</TIMEX3>, by a small fraction.</s> <s>Our system <EVENT eid="e119" class="STATE" stem="be" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">is</EVENT> balanced, it's right in the
+ middle.</s> <s>And, therefore, it <EVENT eid="e120" class="STATE" stem="work" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">works</EVENT> very well.</s>
+
+
+ <s>Nationwide, there are about ten thousand patients <EVENT eid="e72" class="OCCURRENCE" stem="wait" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">waiting</EVENT> for liver <EVENT eid="e73" class="OCCURRENCE" stem="transplant" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transplants</EVENT>
+ <TIMEX3 tid="t107" type="SET" value="P1Y" temporalFunction="false" functionInDocument="NONE" quant="EACH">each year</TIMEX3> and only four thousand organs <EVENT eid="e74" class="OCCURRENCE" stem="become" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">become</EVENT> available for <EVENT eid="e75" class="OCCURRENCE" stem="transplant" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transplants</EVENT>.</s>
+ <s>Secretary Shalala <EVENT eid="e76" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> UNOS <TIMEX3 tid="t108" type="DATE" value="1997-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t95">five months ago</TIMEX3>, or <EVENT eid="e77" class="OCCURRENCE" stem="give" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">gave</EVENT> them <TIMEX3 tid="t109" type="DURATION" value="P5M" temporalFunction="false" functionInDocument="NONE">five months</TIMEX3> to <EVENT eid="e79" class="OCCURRENCE" stem="develop" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">develop</EVENT> a new <EVENT eid="e111" class="I_STATE" stem="plan" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">plan</EVENT> to <EVENT eid="e81" class="OCCURRENCE" stem="distribute" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">distribute</EVENT> livers which are in the shortest supply.</s>
+ <s>This is VOA Today.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e53" relatedToTime="t103" task="A"/>
+<TLINK lid="l2" relType="VAGUE" eventID="e60" relatedToTime="t106" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e62" relatedToTime="t106" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e74" relatedToTime="t107" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e77" relatedToTime="t109" task="A"/>
+<TLINK lid="l6" relType="VAGUE" eventID="e77" relatedToTime="t108" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e111" relatedToTime="t109" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e111" relatedToTime="t108" task="A"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e76" relatedToTime="t109" task="A"/>
+<TLINK lid="l10" relType="VAGUE" eventID="e76" relatedToTime="t108" task="A"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e1" relatedToTime="t95" task="B"/>
+<TLINK lid="l12" relType="AFTER" eventID="e5" relatedToTime="t95" task="B"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e13" relatedToTime="t95" task="B"/>
+<TLINK lid="l14" relType="AFTER" eventID="e22" relatedToTime="t95" task="B"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e23" relatedToTime="t95" task="B"/>
+<TLINK lid="l16" relType="VAGUE" eventID="e30" relatedToTime="t95" task="B"/>
+<TLINK lid="l17" relType="VAGUE" eventID="e31" relatedToTime="t95" task="B"/>
+<TLINK lid="l18" relType="OVERLAP" eventID="e43" relatedToTime="t95" task="B"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e40" relatedToTime="t95" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e53" relatedToTime="t95" task="B"/>
+<TLINK lid="l21" relType="VAGUE" eventID="e60" relatedToTime="t95" task="B"/>
+<TLINK lid="l22" relType="VAGUE" eventID="e62" relatedToTime="t95" task="B"/>
+<TLINK lid="l23" relType="OVERLAP" eventID="e74" relatedToTime="t95" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e77" relatedToTime="t95" task="B"/>
+<TLINK lid="l25" relType="VAGUE" eventID="e111" relatedToTime="t95" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e76" relatedToTime="t95" task="B"/>
+</TempEval>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891102-0064 
+ = 891102 
+ 891102-0064. 
+ International Brief -- Reed International PLC:
+@  Net Income for 6 Months
+@  Fell 5% to $141.9 Million 
+ <TIMEX3 tid="t23" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ U.REE 
+ EARNINGS (ERN) 
+
+   <s>Reed International PLC <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that net <EVENT eid="e2014" class="OCCURRENCE" stem="income" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">income</EVENT> for <TIMEX3 tid="t31" type="DURATION" value="P6M" temporalFunction="true" functionInDocument="NONE" endPoint="t25">the six months</TIMEX3> <EVENT eid="e2" class="ASPECTUAL" stem="end" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">ended</EVENT> <TIMEX3 tid="t25" type="DATE" value="1989-10-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">Oct. 1</TIMEX3> <EVENT eid="e3" class="OCCURRENCE" stem="slip" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">slipped</EVENT> 5% to #89.7 million ($141.9 million), or 16 pence a share, from #94.8 million ($149.9 million), or 17.3 pence a share.</s> 
+
+   <s>The British paper, packaging and publishing concern, <EVENT eid="e4" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> profit from continuing lines <EVENT eid="e7" class="I_ACTION" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> 10% to #118 million from #130.6 million.</s> 
+
+   <s>While there were no one-time <EVENT eid="e2000" class="OCCURRENCE" stem="gain" aspect="NONE" tense="PAST" polarity="NEG" pos="NOUN">gains</EVENT> or <EVENT eid="e2001" class="OCCURRENCE" stem="loss" aspect="NONE" tense="PAST" polarity="NEG" pos="NOUN">losses</EVENT> in <TIMEX3 tid="t26" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">the latest period</TIMEX3>, there was a one-time <EVENT eid="e2003" class="OCCURRENCE" stem="gain" aspect="NONE" tense="PAST" polarity="POS" pos="NOUN">gain</EVENT> of #18 million in the <TIMEX3 tid="t27" type="DATE" value="1998" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3> period.</s> 
+<s>And while there was no <EVENT eid="e2005" class="OCCURRENCE" stem="profit" aspect="NONE" tense="PAST" polarity="NEG" pos="NOUN">profit</EVENT> <TIMEX3 tid="t28" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">this year</TIMEX3> from discontinued <EVENT eid="e10" class="OCCURRENCE" stem="operation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">operations</EVENT>, <TIMEX3 tid="t29" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">last year</TIMEX3> they <EVENT eid="e12" class="OCCURRENCE" stem="contribute" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">contributed</EVENT> #34 million, before <EVENT eid="e2008" class="OCCURRENCE" stem="tax" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">tax</EVENT>.</s> 
+
+   <s>Pretax profit <EVENT eid="e14" class="I_ACTION" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> 3.7% to #128 million from #133 million and was <EVENT eid="e2009" class="STATE" stem="below" aspect="NONE" tense="PAST" polarity="POS" pos="ADJECTIVE">below</EVENT> analysts' expectations of #130 million to #135 million, but shares <EVENT eid="e15" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 6 pence to 388 pence in early <EVENT eid="e16" class="OCCURRENCE" stem="trading" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">trading</EVENT> <TIMEX3 tid="t30" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">yesterday</TIMEX3> in London.</s> 
+
+   <s>Reed  is <EVENT eid="e18" class="OCCURRENCE" stem="pay" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">paying</EVENT> an interim dividend of 4.6 pence, <EVENT eid="e2124" class="STATE" stem="up" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">up</EVENT> 15% from 4 pence <TIMEX3 tid="t2127" type="DATE" value="1988-11-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">a year earlier</TIMEX3>.</s> 
+
+   <s>Sales <EVENT eid="e19" class="OCCURRENCE" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> 20% to #722 million.</s> 
+
+   <s>Earnings  were <EVENT eid="e20" class="OCCURRENCE" stem="hurt" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">hurt</EVENT> by <EVENT eid="e2136" class="OCCURRENCE" stem="disposal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">disposal</EVENT> of operations in its <EVENT eid="e2140" class="OCCURRENCE" stem="restructure" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">restructuring</EVENT>, Reed <EVENT eid="e22" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e1" relatedToTime="t31" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e1" relatedToTime="t25" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e2003" relatedToTime="t26" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e2003" relatedToTime="t27" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e2000" relatedToTime="t26" task="A"/>
+<TLINK lid="l6" relType="AFTER" eventID="e2000" relatedToTime="t27" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e2001" relatedToTime="t26" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e2001" relatedToTime="t27" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e16" relatedToTime="t30" task="A"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e14" relatedToTime="t30" task="A"/>
+<TLINK lid="l11" relType="OVERLAP" eventID="e15" relatedToTime="t30" task="A"/>
+<TLINK lid="l12" relType="AFTER" eventID="e18" relatedToTime="t2127" task="A"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e1" relatedToTime="t23" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e4" relatedToTime="t23" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e7" relatedToTime="t23" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e2003" relatedToTime="t23" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e2000" relatedToTime="t23" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e2001" relatedToTime="t23" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e16" relatedToTime="t23" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e14" relatedToTime="t23" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e15" relatedToTime="t23" task="B"/>
+<TLINK lid="l22" relType="OVERLAP" eventID="e18" relatedToTime="t23" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e19" relatedToTime="t23" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e22" relatedToTime="t23" task="B"/>
+</TempEval>

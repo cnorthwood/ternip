@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ CNN<TIMEX3 tid="t104" type="DATE" value="1998-02-13" temporalFunction="false" functionInDocument="CREATION_TIME">19980213</TIMEX3>.2130.0155 
+ NEWS STORY 
+
+
+
+
+
+ <s>President Clinton <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> he is <EVENT eid="e2" mainevent="NO" class="I_STATE" stem="commit" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">committed</EVENT> to a possible <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="strike" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">strike</EVENT> against Iraq,
+ despite <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="objection" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">objections</EVENT> from other countries.</s>
+ <s>Steve Hurst has that.</s>
+
+
+ <s>The US military <EVENT eid="e103" mainevent="NO" class="OCCURRENCE" stem="buildup" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">buildup</EVENT> in the Persian gulf <EVENT eid="e6" mainevent="YES" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continues</EVENT> apace, more
+ planes <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="head" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">headed</EVENT> from the united states and senior officials <EVENT eid="e9" mainevent="NO" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> Iraq's
+ president Saddam Hussein can <EVENT eid="e10" mainevent="NO" class="I_STATE" stem="expect" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">expect</EVENT> punishing air <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="strike" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">strikes</EVENT> to <EVENT eid="e15" mainevent="NO" class="ASPECTUAL" stem="continue" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> well
+ into <TIMEX3 tid="t105" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t104">the future</TIMEX3> if he does n't <EVENT eid="e17" mainevent="NO" class="ASPECTUAL" stem="stop" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">stop</EVENT> <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="build" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">building</EVENT> biological and chemical
+ weapons.</s>
+
+
+ <s>Saddam will <EVENT eid="e21" mainevent="YES" class="I_STATE" stem="know" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">know</EVENT> by our <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="action" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">actions</EVENT> and our <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="warning" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">warning</EVENT> that we will be <EVENT eid="e24" mainevent="NO" class="I_STATE" stem="prepare" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">prepared</EVENT> to <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="act" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">act</EVENT> again if we have <EVENT eid="e28" mainevent="NO" class="STATE" stem="evidence" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">evidence</EVENT> he is <EVENT eid="e29" mainevent="NO" class="I_ACTION" stem="try" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">trying</EVENT> to <EVENT eid="e31" mainevent="NO" class="OCCURRENCE" stem="rebuild" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">rebuild</EVENT> his weapons of mass
+ destruction capabilities.</s>
+
+
+ <s>In a bit of television diplomacy, Iraq's deputy foreign minister <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="respond" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">responded</EVENT>
+ from Baghdad in <TIMEX3 tid="t111" type="DURATION" value="PT1H" mod="LESS_THAN" temporalFunction="false" functionInDocument="NONE">less than one hour</TIMEX3>, <EVENT eid="e35" mainevent="YES" class="REPORTING" stem="say" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">saying</EVENT> Washington would <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="break" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">break</EVENT>
+ international law by <EVENT eid="e39" mainevent="NO" class="OCCURRENCE" stem="attack" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">attacking</EVENT> without UN <EVENT eid="e113" mainevent="NO" class="OCCURRENCE" stem="approval" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">approval</EVENT>.</s>
+
+
+ <s>The united states is not <EVENT eid="e40" mainevent="YES" class="I_STATE" stem="authorize" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">authorized</EVENT> to <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="use" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">use</EVENT> force before <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="go" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">going</EVENT> to the
+ council.</s>
+
+
+ <s>President Clinton, meantime, <EVENT eid="e46" mainevent="YES" class="REPORTING" stem="gloss" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">glossed</EVENT> over stern <EVENT eid="e47" mainevent="NO" class="I_ACTION" stem="warning" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">warnings</EVENT> from Moscow on
+ <TIMEX3 tid="t116" type="DATE" value="1998-02-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t104">Thursday</TIMEX3> that US air <EVENT eid="e117" mainevent="NO" class="OCCURRENCE" stem="strike" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">strikes</EVENT> against Iraq could <EVENT eid="e118" mainevent="NO" class="OCCURRENCE" stem="do" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">do</EVENT> serious <EVENT eid="e50" mainevent="NO" class="STATE" stem="harm" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">harm</EVENT> to
+ relations with the Kremlin.</s>
+
+
+ <s>We're <EVENT eid="e52" mainevent="YES" class="I_ACTION" stem="try" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">trying</EVENT> to <EVENT eid="e54" mainevent="NO" class="OCCURRENCE" stem="find" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">find</EVENT> a diplomatic solution.</s>
+ <s>And I <EVENT eid="e56" mainevent="YES" class="I_STATE" stem="hope" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">hope</EVENT> that, whatever <EVENT eid="e57" mainevent="NO" class="OCCURRENCE" stem="happen" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">happens</EVENT> <TIMEX3 tid="t119" type="DATE" value="1998-02-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t104">today</TIMEX3>, that our relationships with Russia
+ will <EVENT eid="e58" mainevent="NO" class="ASPECTUAL" stem="continue" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> to be <EVENT eid="e120" mainevent="NO" class="STATE" stem="productive" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">productive</EVENT> and <EVENT eid="e121" mainevent="NO" class="STATE" stem="constructive" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">constructive</EVENT> and <EVENT eid="e122" mainevent="NO" class="STATE" stem="strong" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">strong</EVENT>, because that's
+ very important to the future of our peoples.</s>
+
+
+ <s>One contrary view of the issue <EVENT eid="e60" mainevent="YES" class="OCCURRENCE" stem="present" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">presented</EVENT> itself to the president as he
+ <EVENT eid="e61" mainevent="NO" class="OCCURRENCE" stem="arrive" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">arrived</EVENT> in Philadelphia later in <TIMEX3 tid="t126" type="DATE" value="1998-02-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t119">the day</TIMEX3>.</s>
+ <s>Nevertheless, the president <EVENT eid="e62" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Washington would <EVENT eid="e63" mainevent="NO" class="OCCURRENCE" stem="use" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">use</EVENT> force if diplomacy
+ <EVENT eid="e67" mainevent="NO" class="I_ACTION" stem="fail" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">fails</EVENT> to <EVENT eid="e128" mainevent="NO" class="I_ACTION" stem="force" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">force</EVENT> Saddam Hussein to <EVENT eid="e129" mainevent="NO" class="OCCURRENCE" stem="back" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">back</EVENT> down.</s>
+ <s>The Russian foreign minister, meanwhile , <EVENT eid="e68" mainevent="NO" class="I_ACTION" stem="seek" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">sought</EVENT> to <EVENT eid="e70" mainevent="NO" class="OCCURRENCE" stem="soften" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">soften</EVENT> the harsh words
+ of his military counterpart, <EVENT eid="e72" mainevent="YES" class="REPORTING" stem="say" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">saying</EVENT> on <TIMEX3 tid="t133" type="DATE" value="1998-02-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t104">Friday</TIMEX3> that Russia <TIMEX3 tid="t135" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t133">now</TIMEX3> <EVENT eid="e73" mainevent="NO" class="I_STATE" stem="feel" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">feels</EVENT> the
+ US must <EVENT eid="e74" mainevent="NO" class="OCCURRENCE" stem="hold" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">hold</EVENT> off at least until UN secretary general Kofi Annan <EVENT eid="e137" mainevent="NO" class="OCCURRENCE" stem="visit" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">visits</EVENT>
+ Baghdad in a last-ditch effort at diplomacy.</s>
+ <s>Annan has no <EVENT eid="e78" mainevent="NO" class="OCCURRENCE" stem="trip" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trip</EVENT> <EVENT eid="e141" mainevent="YES" class="I_STATE" stem="plan" tense="PASTPART" aspect="NONE" polarity="NEG" pos="VERB">planned</EVENT> so far.</s>
+ <s>Meanwhile, secretary of state Madeleine Albright, Berger and defense
+ secretary William Cohen <EVENT eid="e80" mainevent="YES" class="I_ACTION" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> <EVENT eid="e144" mainevent="NO" class="I_STATE" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plans</EVENT> to <EVENT eid="e82" mainevent="NO" class="OCCURRENCE" stem="travel" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">travel</EVENT> to an unnamed city
+ in the US heartland <TIMEX3 tid="t145" type="DATE" value="1998-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t104">next week</TIMEX3>, to <EVENT eid="e84" mainevent="NO" class="I_ACTION" stem="explain" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">explain</EVENT> to the American people just why
+ military force will be <EVENT eid="e146" mainevent="NO" class="STATE" stem="necessary" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">necessary</EVENT> if diplomacy <EVENT eid="e87" mainevent="NO" class="OCCURRENCE" stem="fail" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">fails</EVENT>.</s>
+ <s>Steve Hurst, CNN, the state department.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e141" eventID="e72" task="C"/>
+<TLINK lid="l2" relType="BEFORE-OR-OVERLAP" relatedToEvent="e35" eventID="e21" task="C"/>
+<TLINK lid="l3" relType="BEFORE-OR-OVERLAP" relatedToEvent="e21" eventID="e6" task="C"/>
+<TLINK lid="l4" relType="VAGUE" relatedToEvent="e72" eventID="e62" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e56" eventID="e52" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e62" eventID="e60" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e52" eventID="e46" task="C"/>
+<TLINK lid="l8" relType="VAGUE" relatedToEvent="e60" eventID="e56" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e46" eventID="e40" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e40" eventID="e35" task="C"/>
+<TLINK lid="l11" relType="OVERLAP" relatedToEvent="e80" eventID="e141" task="C"/>
+
+</TempEval>

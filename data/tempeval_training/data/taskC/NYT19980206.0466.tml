@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ NYT19980206.0466 
+ NEWS STORY 
+ <TIMEX3 tid="t28" type="TIME" value="1998-02-06T22:29:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/06/1998 22:29:00</TIMEX3> 
+
+A6982 Cx1f taf-z
+u w Cx13  Cx11  BC-CLINTON-CURRIE-NYT LR      02-06 0277
+
+
+ BC-CLINTON-CURRIE-NYT 
+
+STATEMENTS CONCERNING MRS. CURRIE
+
+UR (bl) LR  QL
+UR c.1998 N.Y. Times News Service LR  QC   QL
+
+
+<s>WASHINGTON _ Following are <EVENT eid="e2" mainevent="NO" class="REPORTING" stem="statement" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">statements</EVENT> <EVENT eid="e3" mainevent="YES" class="REPORTING" stem="make" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">made</EVENT> <TIMEX3 tid="t30" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Friday</TIMEX3> and <TIMEX3 tid="t31" type="DATE" value="1998-02-05" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Thursday</TIMEX3>
+by Lawrence Wechsler, a lawyer for the White House secretary, Betty
+Currie; the White House; White House spokesman Mike McCurry, and
+President Clinton in response to an <EVENT eid="e43" mainevent="NO" class="REPORTING" stem="article" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">article</EVENT> in The New York Times
+on <TIMEX3 tid="t32" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Friday</TIMEX3> about her <EVENT eid="e44" mainevent="NO" class="REPORTING" stem="statement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">statements</EVENT> regarding a <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="meeting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">meeting</EVENT> with the
+president:
+Wechsler on <TIMEX3 tid="t33" type="DATE" value="1998-02-05" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Thursday</TIMEX3>
+``Without <EVENT eid="e5" mainevent="NO" class="I_ACTION" stem="comment" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">commenting</EVENT> on the <EVENT eid="e6" mainevent="NO" class="I_ACTION" stem="allegation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">allegations</EVENT> <EVENT eid="e8" mainevent="NO" class="I_ACTION" stem="raise" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">raised</EVENT> in this article,
+to the extent that there is any <EVENT eid="e48" mainevent="NO" class="I_STATE" stem="implication" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">implication</EVENT> or <EVENT eid="e49" mainevent="NO" class="I_ACTION" stem="suggestion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">suggestion</EVENT> that Mrs.
+Currie was <EVENT eid="e50" mainevent="NO" class="I_STATE" stem="aware" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE">aware</EVENT> of any legal or ethical <EVENT eid="e51" mainevent="NO" class="STATE" stem="impropriety" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">impropriety</EVENT> by anyone,
+that <EVENT eid="e52" mainevent="NO" class="I_STATE" stem="implication" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">implication</EVENT> or <EVENT eid="e53" mainevent="NO" class="I_ACTION" stem="suggestion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">suggestion</EVENT> is entirely <EVENT eid="e54" mainevent="NO" class="STATE" stem="inaccurate" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">inaccurate</EVENT>.''</s>
+<s>White House on <TIMEX3 tid="t34" type="DATE" value="1998-02-05" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Thursday</TIMEX3>
+``For <TIMEX3 tid="t35" type="DURATION" value="PXW" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t34">the past few weeks</TIMEX3> we 've  been <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="subject" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">subjected</EVENT> to false <EVENT eid="e56" mainevent="NO" class="REPORTING" stem="leak" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">leaks</EVENT>
+<EVENT eid="e57" mainevent="NO" class="I_ACTION" stem="design" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">designed</EVENT>  to <EVENT eid="e13" mainevent="NO" class="I_ACTION" stem="mislead" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">mislead</EVENT> both reporters and the American public.</s> <s>We're not going  to <EVENT eid="e16" mainevent="YES" class="I_ACTION" stem="dignify" tense="FUTURE" aspect="NONE" polarity="NEG" pos="VERB">dignify</EVENT> the <TIMEX3 tid="t36" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t34">latest</TIMEX3> false <EVENT eid="e58" mainevent="NO" class="REPORTING" stem="leak" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">leak</EVENT> with a <EVENT eid="e59" mainevent="NO" class="I_ACTION" stem="response" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">response</EVENT>.''</s>
+<s>McCurry on <TIMEX3 tid="t37" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Friday</TIMEX3>
+``I <EVENT eid="e17" mainevent="YES" class="I_ACTION" stem="want" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">want</EVENT> to be absolutely <EVENT eid="e60" mainevent="NO" class="I_STATE" stem="clear" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">clear</EVENT>, to the extent there is any
+<EVENT eid="e61" mainevent="NO" class="I_STATE" stem="implication" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">implication</EVENT> or the slightest <EVENT eid="e62" mainevent="NO" class="I_ACTION" stem="suggestion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">suggestion</EVENT> that Mrs. Currie <EVENT eid="e18" mainevent="NO" class="I_STATE" stem="believe" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">believes</EVENT>
+that the President or anyone else <EVENT eid="e19" mainevent="NO" class="I_ACTION" stem="try" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">tried</EVENT>  to <EVENT eid="e20" mainevent="NO" class="I_ACTION" stem="influence" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">influence</EVENT> her
+<EVENT eid="e63" mainevent="NO" class="I_STATE" stem="recollection" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">recollection</EVENT>, that is absolutely <EVENT eid="e64" mainevent="NO" class="STATE" stem="false" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">false</EVENT> and a <EVENT eid="e65" mainevent="NO" class="REPORTING" stem="mischaracterization" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">mischaracterization</EVENT> of
+the facts.</s> <s>I  am <EVENT eid="e21" mainevent="YES" class="I_STATE" stem="shock" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">shocked</EVENT> and <EVENT eid="e66" mainevent="NO" class="I_STATE" stem="dismay" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">dismayed</EVENT> by the numerous <EVENT eid="e67" mainevent="NO" class="REPORTING" stem="leak" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">leaks</EVENT>
+regarding Mrs. Currie's grand jury <EVENT eid="e69" mainevent="NO" class="REPORTING" stem="testimony" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">testimony</EVENT>.''</s>
+<s>Clinton on <TIMEX3 tid="t38" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Friday</TIMEX3>.</s>
+<s>``Once again, I never <EVENT eid="e23" mainevent="YES" class="I_ACTION" stem="ask" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">asked</EVENT> anybody  to <EVENT eid="e24" mainevent="NO" class="I_ACTION" stem="do" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">do</EVENT> anything but <EVENT eid="e25" mainevent="NO" class="I_ACTION" stem="tell" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">tell</EVENT> the
+truth.</s> <s>I <EVENT eid="e26" mainevent="YES" class="I_STATE" stem="know" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">know</EVENT> about the <EVENT eid="e79" mainevent="NO" class="REPORTING" stem="story" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">stories</EVENT> <TIMEX3 tid="t39" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t38">today</TIMEX3>.</s> <s>I was <EVENT eid="e80" mainevent="YES" class="I_STATE" stem="please" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">pleased</EVENT> that Ms.
+Currie's lawyers <EVENT eid="e27" mainevent="NO" class="I_ACTION" stem="state" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">stated</EVENT> unambiguously <TIMEX3 tid="t40" type="TIME" value="1998-02-06TMO" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t38">this morning</TIMEX3> _ unambiguously
+_ that she's not <EVENT eid="e81" mainevent="NO" class="I_STATE" stem="aware" tense="PRESENT" aspect="NONE" polarity="NEG" pos="ADJECTIVE">aware</EVENT> of any unethical <EVENT eid="e83" mainevent="NO" class="OCCURRENCE" stem="conduct" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">conduct</EVENT>.</s>
+
+
+
+<s>NYT-02-06-98 2229EST</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e16" eventID="e11" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e80" eventID="e26" task="C"/>
+<TLINK lid="l3" relType="VAGUE" relatedToEvent="e26" eventID="e23" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e17" eventID="e16" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e21" eventID="e17" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e11" eventID="e3" task="C"/>
+
+</TempEval>

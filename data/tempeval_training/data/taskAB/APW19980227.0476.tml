@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ APW19980227.0476 
+ NEWS STORY 
+ <TIMEX3 tid="t19" type="TIME" value="1998-02-27T08:02:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/27/1998 08:02:00</TIMEX3> 
+
+w2381 Cx1f wstm-
+u i Cx13  Cx11  BC-WorldCourt-Lockerbie 5thLd   02-27 0169
+
+
+ BC-World Court-Lockerbie, 5th Ld 
+
+World Court declares jurisdiction in Lockerbie dispute
+
+UR Eds: RECASTS lead to clarify; ADDS detail of U.S. and British
+objections in 3rd graf. QL
+UR AP Photo staffing QL
+UR By MIKE CORDER QC
+UR Associated Press Writer QC
+
+
+<s>THE HAGUE, Netherlands (AP) _ The World Court <TIMEX3 tid="t21" type="DATE" value="1998-02-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">Friday</TIMEX3> <EVENT eid="e1" class="OCCURRENCE" stem="reject" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rejected</EVENT>
+U.S. and British <EVENT eid="e1996" class="OCCURRENCE" stem="objection" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">objections</EVENT> to a Libyan World Court case that  has <EVENT eid="e2" class="I_ACTION" stem="block" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">blocked</EVENT> the <EVENT eid="e1997" class="OCCURRENCE" stem="trial" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">trial</EVENT> of two Libyans <EVENT eid="e3" class="I_STATE" stem="suspect" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">suspected</EVENT> of <EVENT eid="e4" class="OCCURRENCE" stem="blow" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">blowing</EVENT> up a Pan Am
+jumbo jet over Scotland in <TIMEX3 tid="t22" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3>.</s>
+<s>Libya, which <EVENT eid="e5" class="OCCURRENCE" stem="bring" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">brought</EVENT> the case to the United Nations' highest
+judicial body in its <EVENT eid="e6" class="OCCURRENCE" stem="dispute" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">dispute</EVENT> with the United States and Britain,
+<EVENT eid="e8" class="I_ACTION" stem="hail" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">hailed</EVENT> the <EVENT eid="e1998" class="OCCURRENCE" stem="ruling" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">ruling</EVENT> and <EVENT eid="e9" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it would <EVENT eid="e10" class="I_ACTION" stem="press" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">press</EVENT> anew for a <EVENT eid="e1999" class="OCCURRENCE" stem="trial" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">trial</EVENT> in a
+third neutral country.</s>
+<s>Both U.S. and British officials <EVENT eid="e12" class="OCCURRENCE" stem="file" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">filed</EVENT> objections to the court's
+jurisdiction in <TIMEX3 tid="t23" type="DATE" value="1995" temporalFunction="false" functionInDocument="NONE">1995</TIMEX3>, <EVENT eid="e13" class="I_ACTION" stem="claim" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">claiming</EVENT> Security Council <EVENT eid="e2078" class="OCCURRENCE" stem="resolution" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">resolutions</EVENT> <EVENT eid="e14" class="OCCURRENCE" stem="impose" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">imposed</EVENT>
+on Lybia  to <EVENT eid="e15" class="OCCURRENCE" stem="force" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">force</EVENT> the suspects' extradition <EVENT eid="e16" class="OCCURRENCE" stem="overrule" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">overruled</EVENT> a <TIMEX3 tid="t24" type="DATE" value="1971" temporalFunction="false" functionInDocument="NONE">1971</TIMEX3>
+Convention which gives Libya the right  to try the men.</s>
+<s>The decision, 3rd graf pvs.</s>
+
+(PROFILE
+(WS SL:BC-World Court-Lockerbie, 5th Ld; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(LANG:ENGLISH;))
+)
+
+
+<s>AP-NY-02-27-98 0802EST</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e9" relatedToTime="t19" task="B"/>
+</TempEval>

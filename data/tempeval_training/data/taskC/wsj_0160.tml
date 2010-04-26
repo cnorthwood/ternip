@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0031 
+ = 891102 
+ 891102-0031. 
+ Business Brief -- Savin Corp.:
+@  Office Products Firm Posts
+@  Net Loss for Third Quarter 
+ <TIMEX3 tid="t29" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SVB 
+ EARNINGS (ERN) 
+
+   <s>Savin Corp. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> a <TIMEX3 tid="t30" type="TIME" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t29">third-quarter</TIMEX3> net <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $35.2 million, or 31 cents a share, compared with <TIMEX3 tid="t31" type="TIME" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">year-earlier</TIMEX3> <EVENT eid="e32" mainevent="NO" class="OCCURRENCE" stem="profit" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">profit</EVENT> of $3.8 million, or one cent a share.</s> 
+
+   <s>A spokesman for the Stamford, Conn.based company <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> operations had a <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $5.5 million for <TIMEX3 tid="t33" type="TIME" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">the quarter</TIMEX3>; in addition, the <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> was <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="magnify" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">magnified</EVENT> by nonrecurring charges totaling $23.5 million and $8.2 million in asset-valuation adjustments that he described as "unusual."</s> 
+<s>The charges were partly <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="offset" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">offset</EVENT> by a $2 million <EVENT eid="e40" mainevent="NO" class="OCCURRENCE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT> on the <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of investments of two joint ventures, he <EVENT eid="e23" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Revenue <EVENT eid="e24" mainevent="YES" class="OCCURRENCE" stem="decline" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">declined</EVENT> 8% to <EVENT eid="e138" mainevent="NO" class="STATE" stem="$85.7" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$85.7</EVENT> million, from $93.3 million <TIMEX3 tid="t38" type="TIME" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">a year earlier</TIMEX3>.</s> 
+<s>Savin <EVENT eid="e25" mainevent="YES" class="REPORTING" stem="cite" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">cited</EVENT> "a general <EVENT eid="e137" mainevent="NO" class="OCCURRENCE" stem="softening" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">softening</EVENT> in the demand for office products in the market segments in which Savin competes."</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e4" eventID="e1" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e25" eventID="e24" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e24" eventID="e23" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e23" eventID="e4" task="C"/>
+
+</TempEval>

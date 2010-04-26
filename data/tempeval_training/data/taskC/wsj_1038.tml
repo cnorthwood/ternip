@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0018 
+ = 891026 
+ 891026-0018. 
+ Business Brief -- Benjamin Franklin Federal SampL:
+@  Thrift Plans to Restructure
+@  After Loss in Third Quarter 
+ <TIMEX3 tid="t45" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ BENJ 
+
+   <s>Benjamin Franklin Federal Savings amp Loan Association <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="I_STATE" stem="plan" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">plans</EVENT> to <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="restructure" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">restructure</EVENT> in the wake of a <TIMEX3 tid="t59" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t45">third-quarter</TIMEX3> <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $7.7 million, or $1.01 a share, <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="reflect" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">reflecting</EVENT> an $11 million <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="addition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">addition</EVENT> to loan-loss reserves.</s> 
+
+   <s>The Portland, Ore., thrift <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the restructuring should <EVENT eid="e10" mainevent="NO" class="I_ACTION" stem="help" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">help</EVENT> it <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="meet" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">meet</EVENT> new capital standards from the Financial Institution Reform, Recovery and Enforcement Act.</s> 
+<s><TIMEX3 tid="t96" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t45">A year ago</TIMEX3>, Benjamin Franklin had <EVENT eid="e14" mainevent="YES" class="OCCURRENCE" stem="profit" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">profit</EVENT> of $1.8 million, or 23 cents a share.</s> 
+
+   <s>In over-the-counter <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> <TIMEX3 tid="t101" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t45">yesterday</TIMEX3>, Benjamin Franklin <EVENT eid="e16" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 25 cents to $4.25.</s> 
+
+   <s>The company <EVENT eid="e17" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the restructuring's initial phase will <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="feature" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">feature</EVENT> a gradual reduction in assets and staff positions.</s> 
+<s>The <EVENT eid="e131" mainevent="NO" class="I_ACTION" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plan</EVENT> may <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="include" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">include</EVENT> <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="selling" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">selling</EVENT> branches, <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="consolidating" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">consolidating</EVENT> or <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="eliminating" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">eliminating</EVENT> departments, and <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="winding" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">winding</EVENT> down or <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="disposing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">disposing</EVENT> of unprofitable units <TIMEX3 tid="t140" type="DURATION" value="P18M" mod="EQUAL_OR_LESS" temporalFunction="true" functionInDocument="NONE" beginPoint="t45">within 18 months</TIMEX3>.</s> 
+
+   <s>Initially, the company <EVENT eid="e27" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="close" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">close</EVENT> its commercial real-estate lending division, and <EVENT eid="e29" mainevent="NO" class="ASPECTUAL" stem="stop" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">stop</EVENT> <EVENT eid="e30" mainevent="NO" class="ASPECTUAL" stem="originate" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">originating</EVENT> new leases at its commercial lease subsidiary.</s> 
+
+   <s>Details of the restructuring wo n't be <EVENT eid="e31" mainevent="NO" class="OCCURRENCE" stem="make" tense="FUTURE" aspect="NONE" polarity="NEG" pos="VERB">made</EVENT> final until regulators <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="approve" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">approve</EVENT> the regulations <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="mandate" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">mandated</EVENT> by the new federal act, the company <EVENT eid="e38" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e20" eventID="e17" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e9" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="BEFORE-OR-OVERLAP" relatedToEvent="e38" eventID="e27" task="C"/>
+<TLINK lid="l4" relType="VAGUE" relatedToEvent="e17" eventID="e16" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e14" eventID="e9" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e27" eventID="e20" task="C"/>
+<TLINK lid="l7" relType="BEFORE" relatedToEvent="e16" eventID="e14" task="C"/>
+
+</TempEval>

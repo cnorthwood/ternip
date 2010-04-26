@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891030-0149 
+ = 891030 
+ 891030-0149. 
+ Trustcorp Inc. to Change Name 
+ <TIMEX3 tid="t14" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TTCO SOCI 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) 
+ TOLEDO, Ohio  
+
+   <s>Trustcorp Inc. will <EVENT eid="e1" class="OCCURRENCE" stem="become" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">become</EVENT> Society Bank amp Trust when its <EVENT eid="e3" class="OCCURRENCE" stem="merger" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">merger</EVENT> is <EVENT eid="e4" class="ASPECTUAL" stem="complete" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">completed</EVENT> with Society Corp. of Cleveland, the bank <EVENT eid="e5" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Society Corp., which is also a bank, <EVENT eid="e6" class="I_ACTION" stem="agree" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">agreed</EVENT> in <TIMEX3 tid="t15" type="DATE" value="1989-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">June</TIMEX3> to <EVENT eid="e8" class="OCCURRENCE" stem="buy" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">buy</EVENT> Trustcorp for 12.4 million shares of stock with a market value of about $450 million.</s> 
+<s>The <EVENT eid="e9" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT> is <EVENT eid="e10" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e12" class="ASPECTUAL" stem="close" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">close</EVENT> <TIMEX3 tid="t17" type="DATE" value="1989-12" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">around year end</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e8" relatedToTime="t15" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e6" relatedToTime="t15" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e10" relatedToTime="t17" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e12" relatedToTime="t17" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e1" relatedToTime="t14" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e5" relatedToTime="t14" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e8" relatedToTime="t14" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e6" relatedToTime="t14" task="B"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e10" relatedToTime="t14" task="B"/>
+<TLINK lid="l10" relType="AFTER" eventID="e12" relatedToTime="t14" task="B"/>
+</TempEval>

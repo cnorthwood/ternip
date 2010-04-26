@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+APW19990410.0123 
+<TIMEX3 tid="t1" type="TIME" value="1999-04-10T6:27" temporalFunction="false" functionInDocument="CREATION_TIME">1999-04-10 06:27:43</TIMEX3> 
+
+usa 
+Rifle Found Near Dead Doctor's Home 
+
+	AMHERST, N.Y. (AP) -- A rifle <EVENT eid="e1" class="OCCURRENCE">found</EVENT> near the home of a slain  
+abortion doctor may <EVENT eid="e2" class="OCCURRENCE">yield</EVENT> important clues for investigators <EVENT eid="e3" class="I_ACTION">trying</EVENT> 
+to <EVENT eid="e4" class="OCCURRENCE">track</EVENT> down the gunman. 
+
+
+	Dr. Barnett Slepian was <EVENT eid="e5" class="OCCURRENCE">killed</EVENT> in his kitchen by a sniper's  
+bullet <TIMEX3 tid="t2" type="DATE" value="1998-FA" temporalFunction="true" functionInDocument="NONE">last fall</TIMEX3>. Investigators <EVENT eid="e6" class="REPORTING">said</EVENT> <TIMEX3 tid="t3" type="DATE" value="1999-04-09" temporalFunction="true" functionInDocument="NONE">Friday</TIMEX3> they <EVENT eid="e7" class="OCCURRENCE">found</EVENT> a rifle 
+<EVENT eid="e8" class="STATE">buried</EVENT> near his home in the Buffalo suburb of Amherst. 
+
+
+	The gun was <EVENT eid="e9" class="I_ACTION">sent</EVENT> to the FBI laboratory in Washington to  
+<EVENT eid="e10" class="I_ACTION">determine</EVENT> whether it was <EVENT eid="e11" class="OCCURRENCE">used</EVENT> to <EVENT eid="e12" class="OCCURRENCE">kill</EVENT> Slepian. 
+
+
+	``If it<EVENT eid="e13" class="STATE">'s</EVENT> not too badly rusted, they may be <EVENT eid="e14" class="I_STATE">able</EVENT> to <EVENT eid="e15" class="OCCURRENCE">match</EVENT> the  
+bullet back to the weapon,'' <EVENT eid="e16" class="REPORTING">said</EVENT> Walter Rowe, forensics sciences 
+professor at George Washington University. 
+
+	The rifle might also <EVENT eid="e17" class="STATE">have</EVENT> clothing fibers, fingerprints or a  
+serial number that can be <EVENT eid="e18" class="OCCURRENCE">traced</EVENT> to the buyer, Rowe <EVENT eid="e19" class="REPORTING">said</EVENT>. 
+
+
+	<EVENT eid="e20" class="STATE">Buried</EVENT> a foot beneath the ground, the weapon was <EVENT eid="e21" class="OCCURRENCE">unearthed</EVENT>  
+<SIGNAL sid="s1">during</SIGNAL> a <EVENT eid="e22" class="OCCURRENCE">search</EVENT> of a heavily wooded, four-acre area <TIMEX3 tid="t4" type="DATE" value="1999-04-08" temporalFunction="true" functionInDocument="NONE">Thursday</TIMEX3>. 
+Investigators did not <EVENT eid="e23" class="REPORTING">say</EVENT> how close the weapon <EVENT eid="e24" class="STATE">was</EVENT> to the house. 
+
+
+	Anti-abortion protester James Kopp is being <EVENT eid="e25" class="OCCURRENCE">sought</EVENT> as a material  
+witness in the <EVENT eid="e26" class="OCCURRENCE">shooting</EVENT>. 
+
+	Investigators <EVENT eid="e27" class="REPORTING">said</EVENT> Kopp's car was <EVENT eid="e28" class="PERCEPTION">seen</EVENT> in the neighborhood <SIGNAL sid="s2">in</SIGNAL>  
+the <TIMEX3 tid="t5" type="DATE" value="1998-FA" temporalFunction="true" functionInDocument="NONE">days</TIMEX3> <SIGNAL sid="s3">before</SIGNAL> the <EVENT eid="e29" class="OCCURRENCE">slaying</EVENT>. Kopp <EVENT eid="e30" class="OCCURRENCE">vanished</EVENT> <SIGNAL sid="s4">after</SIGNAL> the <EVENT eid="e31" class="OCCURRENCE">shooting</EVENT>, and 
+the car was <EVENT eid="e32" class="PERCEPTION">found</EVENT> <EVENT eid="e33" class="OCCURRENCE">abandoned</EVENT> at the Newark, N.J., airport <SIGNAL sid="s5">in</SIGNAL> 
+<TIMEX3 tid="t6" type="DATE" value="1998-12" temporalFunction="true" functionInDocument="NONE">December</TIMEX3>. 
+
+
+	Officials <EVENT eid="e34" class="REPORTING">said</EVENT> DNA test results <EVENT eid="e35" class="OCCURRENCE">showed</EVENT> a likelihood that a  
+strand of hair <EVENT eid="e36" class="OCCURRENCE">discovered</EVENT> behind Slepian's home <EVENT eid="e37" class="OCCURRENCE">came</EVENT> from Kopp. 
+
+
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN" modality="may"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PRESENT" aspect="NONE" polarity="NEG" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE" modality="may"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN" modality="might"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN" modality="can"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PAST" aspect="NONE" polarity="NEG" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l1" relType="AFTER" timeID="t1" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l2" relType="BEFORE" timeID="t1" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l3" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l5" relType="BEFORE" timeID="t1" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l6" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei5" origin="USER"/>
+<TLINK lid="l7" relType="INCLUDES" timeID="t3" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l8" relType="AFTER" timeID="t3" relatedToEventInstance="ei7" origin="USER"/>
+<TLINK lid="l9" relType="AFTER" timeID="t3" relatedToEventInstance="ei8" origin="USER"/>
+<TLINK lid="l10" relType="AFTER" timeID="t1" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l14" relType="BEFORE" timeID="t1" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l15" relType="AFTER" timeID="t1" relatedToEventInstance="ei11" origin="USER"/>
+<TLINK lid="l16" relType="AFTER" timeID="t1" relatedToEventInstance="ei12" origin="USER"/>
+<TLINK lid="l17" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei13" origin="USER"/>
+<TLINK lid="l18" relType="BEFORE" timeID="t1" relatedToEventInstance="ei14" origin="USER"/>
+<TLINK lid="l20" relType="BEFORE" timeID="t1" relatedToEventInstance="ei15" origin="USER"/>
+<TLINK lid="l21" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei16" origin="USER"/>
+<TLINK lid="l22" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei17" origin="USER"/>
+<TLINK lid="l23" relType="BEFORE" timeID="t1" relatedToEventInstance="ei18" origin="USER"/>
+<TLINK lid="l24" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei19" origin="USER"/>
+<TLINK lid="l26" relType="AFTER" timeID="t4" relatedToEventInstance="ei20" origin="USER"/>
+<TLINK lid="l27" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei21" origin="USER"/>
+<TLINK lid="l28" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei22" origin="USER"/>
+<TLINK lid="l29" relType="DURING" eventInstanceID="ei21" relatedToEventInstance="ei22" signalID="s1" origin="USER"/>
+<TLINK lid="l30" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei23" origin="USER"/>
+<TLINK lid="l31" relType="AFTER" timeID="t1" relatedToEventInstance="ei24" origin="USER"/>
+<TLINK lid="l33" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei25" origin="USER"/>
+<TLINK lid="l34" relType="AFTER" timeID="t1" relatedToEventInstance="ei26" origin="USER"/>
+<TLINK lid="l35" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei27" origin="USER"/>
+<TLINK lid="l37" relType="INCLUDES" timeID="t5" relatedToEventInstance="ei28" signalID="s2" origin="USER"/>
+<TLINK lid="l38" relType="BEFORE" timeID="t5" relatedToEventInstance="ei29" signalID="s3" origin="USER"/>
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei28" relatedToEventInstance="ei29" signalID="s3" origin="USER"/>
+<TLINK lid="l40" relType="AFTER" timeID="t1" relatedToEventInstance="ei30" origin="USER"/>
+<TLINK lid="l41" relType="AFTER" timeID="t1" relatedToEventInstance="ei31" origin="USER"/>
+<TLINK lid="l42" relType="AFTER" eventInstanceID="ei30" relatedToEventInstance="ei31" signalID="s4" origin="USER"/>
+<TLINK lid="l43" relType="INCLUDES" timeID="t6" relatedToEventInstance="ei32" signalID="s5" origin="USER"/>
+<TLINK lid="l44" relType="AFTER" timeID="t6" relatedToEventInstance="ei33" origin="USER"/>
+<TLINK lid="l46" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei34" origin="USER"/>
+<TLINK lid="l48" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei35" origin="USER"/>
+<TLINK lid="l49" relType="AFTER" timeID="t1" relatedToEventInstance="ei36" origin="USER"/>
+<TLINK lid="l50" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei37" origin="USER"/>
+<SLINK lid="l4" relType="MODAL" eventInstanceID="ei3" subordinatedEventInstance="ei4" syntax="USER"/>
+<SLINK lid="l11" relType="MODAL" eventInstanceID="ei9" subordinatedEventInstance="ei10" syntax="USER"/>
+<SLINK lid="l12" relType="FACTIVE" eventInstanceID="ei10" subordinatedEventInstance="ei11" syntax="USER"/>
+<SLINK lid="l13" relType="MODAL" eventInstanceID="ei11" subordinatedEventInstance="ei12" syntax="USER"/>
+<SLINK lid="l19" relType="MODAL" eventInstanceID="ei14" subordinatedEventInstance="ei15" syntax="USER"/>
+<SLINK lid="l32" relType="EVIDENTIAL" eventInstanceID="ei23" subordinatedEventInstance="ei24" syntax="USER"/>
+<SLINK lid="l36" relType="EVIDENTIAL" eventInstanceID="ei27" subordinatedEventInstance="ei28" syntax="USER"/>
+<SLINK lid="l45" relType="FACTIVE" eventInstanceID="ei32" subordinatedEventInstance="ei33" syntax="USER"/>
+<SLINK lid="l47" relType="EVIDENTIAL" eventInstanceID="ei34" subordinatedEventInstance="ei35" syntax="USER"/>
+
+</TimeML>

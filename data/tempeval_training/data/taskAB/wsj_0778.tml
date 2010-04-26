@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891027-0117 
+ = 891027 
+ 891027-0117. 
+ Law:
+@  U.S. Threats to Seize Fees
+@  Scare Lawyers From Cases
+@  ----
+@  By Laurie P. Cohen
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t232" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CRZYQ 
+ LAW AND LEGAL AFFAIRS (LAW)
+BANKRUPTCIES (BCY) 
+ JUSTICE DEPARTMENT (JUS)
+SECURITIES AND EXCHANGE COMMISSION (SEC) 
+
+   <s>The government is <EVENT eid="e1" class="OCCURRENCE" stem="sharpen" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">sharpening</EVENT> its newest weapon against white-collar defendants: the <EVENT eid="e200" class="I_STATE" stem="power" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">power</EVENT> to <EVENT eid="e4" class="I_ACTION" stem="prevent" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">prevent</EVENT> them from <EVENT eid="e6" class="OCCURRENCE" stem="pay" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">paying</EVENT> their legal bills.</s> 
+<s>And defense lawyers are <EVENT eid="e8" class="I_ACTION" stem="warn" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">warning</EVENT> that they wo n't <EVENT eid="e9" class="OCCURRENCE" stem="stick" aspect="NONE" tense="FUTURE" polarity="NEG" pos="VERB">stick</EVENT> around if they do n't get <EVENT eid="e14" class="STATE" stem="paid" aspect="NONE" tense="NONE" polarity="NEG" pos="ADJECTIVE">paid</EVENT>.</s> 
+
+   <s>The issue has come to a boil in Newark, N.J., where federal prosecutors have <EVENT eid="e16" class="I_ACTION" stem="warn" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">warned</EVENT> lawyers for Eddie Antar that if the founder and former chairman of Crazy Eddie Inc. is <EVENT eid="e18" class="OCCURRENCE" stem="indict" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">indicted</EVENT>, the government may <EVENT eid="e19" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">move</EVENT> to <EVENT eid="e22" class="OCCURRENCE" stem="seize" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seize</EVENT> the money that Mr. Antar is <EVENT eid="e24" class="OCCURRENCE" stem="use" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">using</EVENT> to <EVENT eid="e26" class="OCCURRENCE" stem="pay" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">pay</EVENT> legal fees.</s> 
+
+   <s>The <EVENT eid="e27" class="OCCURRENCE" stem="warning" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">warning</EVENT> by the U.S. attorney's office follows two <EVENT eid="e29" class="OCCURRENCE" stem="decision" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">decisions</EVENT> by the U.S. Supreme Court <TIMEX3 tid="t233" type="DATE" value="1989-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t232">last June</TIMEX3>.</s> 
+<s>In those cases, the high court <EVENT eid="e31" class="I_ACTION" stem="rule" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">ruled</EVENT> that federal law <EVENT eid="e33" class="OCCURRENCE" stem="give" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">gives</EVENT> prosecutors broad <EVENT eid="e203" class="I_STATE" stem="authority" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">authority</EVENT> to <EVENT eid="e35" class="OCCURRENCE" stem="seize" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seize</EVENT> assets of people accused of racketeering and drug-related crimes, including fees paid to lawyers before an indictment.</s> 
+
+   <s>If the government <EVENT eid="e42" class="I_ACTION" stem="succeed" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">succeeds</EVENT> in <EVENT eid="e44" class="OCCURRENCE" stem="seizing" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">seizing</EVENT> Mr. Antar's assets, he could be <EVENT eid="e45" class="STATE" stem="leave" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">left</EVENT> without top-flight legal representation, because his attorneys are likely to <EVENT eid="e48" class="ASPECTUAL" stem="quit" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">quit</EVENT>, <EVENT eid="e206" class="REPORTING" stem="accord" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">according</EVENT> to individuals familiar with the case.</s> 
+<s>A <EVENT eid="e50" class="OCCURRENCE" stem="seizure" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">seizure</EVENT> also would <EVENT eid="e51" class="OCCURRENCE" stem="make" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">make</EVENT> the case the <EVENT eid="e207" class="STATE" stem="largest" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">largest</EVENT> -- and one of the first -- in which lawyers' fees have been confiscated in a prosecution unrelated to drugs.</s> 
+
+   <s>"The people who suffer in the short run are defendants, but the people who suffer in the long run are all of the people, because there wo n't be a vigorous private bar to defend the Bill of Rights," <EVENT eid="e66" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> Gerald Lefcourt, a criminal defense attorney who <EVENT eid="e67" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> he has <EVENT eid="e68" class="OCCURRENCE" stem="turn" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">turned</EVENT> down a number of cases to <EVENT eid="e71" class="I_ACTION" stem="avoid" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">avoid</EVENT> possible fee <EVENT eid="e72" class="OCCURRENCE" stem="seizure" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">seizures</EVENT>.</s> 
+
+   <s>Mr. Antar is being <EVENT eid="e73" class="I_ACTION" stem="investigate" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">investigated</EVENT> by a federal grand jury in Newark, where prosecutors have <EVENT eid="e74" class="REPORTING" stem="tell" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">told</EVENT> him that they may <TIMEX3 tid="t234" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t232">soon</TIMEX3> <EVENT eid="e75" class="I_ACTION" stem="seek" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">seek</EVENT> an <EVENT eid="e77" class="OCCURRENCE" stem="indictment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">indictment</EVENT> on racketeering and securities fraud charges.</s> 
+<s>Under the Racketeer Influenced and Corrupt Organizations law, or RICO, the government <EVENT eid="e84" class="STATE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> the authority to <EVENT eid="e86" class="I_ACTION" stem="seek" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seek</EVENT> to <EVENT eid="e88" class="OCCURRENCE" stem="freeze" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">freeze</EVENT> or <EVENT eid="e89" class="OCCURRENCE" stem="seize" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seize</EVENT> a defendant's assets before <EVENT eid="e90" class="OCCURRENCE" stem="trial" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">trial</EVENT>.</s> 
+
+   <s><EVENT eid="e208" class="REPORTING" stem="according" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">According</EVENT> to individuals familiar with Mr. Antar's case, prosecutors <EVENT eid="e93" class="OCCURRENCE" stem="issue" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">issued</EVENT> their warning <TIMEX3 tid="t235" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t232">this week</TIMEX3> after one of Mr. Antar's attorneys <EVENT eid="e95" class="I_ACTION" stem="ask" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">asked</EVENT> whether legal fees might be <EVENT eid="e210" class="I_STATE" stem="subject" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">subject</EVENT> to <EVENT eid="e98" class="OCCURRENCE" stem="seizure" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seizure</EVENT>.</s> 
+<s>In a letter, prosecutors <EVENT eid="e100" class="REPORTING" stem="tell" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">told</EVENT> Mr. Antar's lawyers that because of the <TIMEX3 tid="t236" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t232">recent</TIMEX3> Supreme Court <EVENT eid="e214" class="OCCURRENCE" stem="ruling" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rulings</EVENT>, they could <EVENT eid="e101" class="I_STATE" stem="expect" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">expect</EVENT> that any fees collected from Mr. Antar may be <EVENT eid="e104" class="OCCURRENCE" stem="seize" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">seized</EVENT>.</s> 
+<s>Prosecutors have <EVENT eid="e106" class="REPORTING" stem="tell" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">told</EVENT> Mr. Antar's attorneys that they <EVENT eid="e107" class="I_STATE" stem="believe" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">believe</EVENT> Mr. Antar's allegedly ill-gotten gains are so great that any money he has used to pay attorneys <EVENT eid="e112" class="STATE" stem="derive" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">derives</EVENT> from illegal <EVENT eid="e113" class="OCCURRENCE" stem="activity" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">activities</EVENT>.</s> 
+<s>Therefore, they <EVENT eid="e114" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>, the money can be <EVENT eid="e116" class="OCCURRENCE" stem="take" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">taken</EVENT> from the lawyers even after they are <EVENT eid="e118" class="OCCURRENCE" stem="pay" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">paid</EVENT>.</s> 
+
+   <s>Justin Feldman and Jack Arseneault, attorneys for Mr. Antar, both <EVENT eid="e119" class="I_ACTION" stem="decline" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">declined</EVENT> to <EVENT eid="e121" class="OCCURRENCE" stem="comment" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">comment</EVENT> on the matter.</s> 
+
+   <s>In Newark, U.S. Attorney Samuel A. Alito <EVENT eid="e123" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>, "I do n't <EVENT eid="e124" class="I_STATE" stem="think" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">think</EVENT> there's any legal <EVENT eid="e126" class="STATE" stem="reason" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">reason</EVENT> to <EVENT eid="e216" class="I_ACTION" stem="limit" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">limit</EVENT> <EVENT eid="e217" class="STATE" stem="forfeiture" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">forfeiture</EVENT> of attorney's fees to drug cases."</s> 
+<s>Mr. Alito <EVENT eid="e128" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> his office "just <EVENT eid="e129" class="I_ACTION" stem="respond" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">responded</EVENT> to an attorney's <EVENT eid="e130" class="I_ACTION" stem="question" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">question</EVENT> about whether we would <EVENT eid="e131" class="OCCURRENCE" stem="go" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">go</EVENT> after attorney's fees, and that is different from actually doing it, although we <EVENT eid="e218" class="I_STATE" stem="reserve" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">reserve</EVENT> that <EVENT eid="e219" class="STATE" stem="right" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">right</EVENT>."</s> 
+
+   <s>Mr. Antar was <EVENT eid="e137" class="OCCURRENCE" stem="charge" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">charged</EVENT> <TIMEX3 tid="t237" type="DATE" value="1989-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t232">last month</TIMEX3> in a civil <EVENT eid="e138" class="OCCURRENCE" stem="suit" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">suit</EVENT> <EVENT eid="e140" class="OCCURRENCE" stem="file" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">filed</EVENT> in federal court in Newark by the Securities and Exchange Commission.</s> 
+<s>In that <EVENT eid="e142" class="OCCURRENCE" stem="suit" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">suit</EVENT>, the SEC <EVENT eid="e143" class="I_ACTION" stem="accuse" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">accused</EVENT> Mr. Antar of <EVENT eid="e144" class="I_ACTION" stem="engaging" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">engaging</EVENT> in a "massive financial <EVENT eid="e145" class="OCCURRENCE" stem="fraud" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">fraud</EVENT>" to <EVENT eid="e147" class="OCCURRENCE" stem="overstate" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">overstate</EVENT> the earnings of Crazy Eddie, Edison, N.J., over <TIMEX3 tid="t238" type="DURATION" value="P3Y" temporalFunction="false" functionInDocument="NONE">a three-year period</TIMEX3>.</s> 
+<s>Through his lawyers, Mr. Antar has <EVENT eid="e148" class="REPORTING" stem="deny" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">denied</EVENT> <EVENT eid="e149" class="OCCURRENCE" stem="allegation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">allegations</EVENT> in the SEC <EVENT eid="e150" class="OCCURRENCE" stem="suit" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">suit</EVENT> and in civil <EVENT eid="e152" class="OCCURRENCE" stem="suit" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">suits</EVENT> previously <EVENT eid="e154" class="OCCURRENCE" stem="file" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">filed</EVENT> by shareholders against Mr. Antar and others.</s> 
+
+   <s>The SEC has <EVENT eid="e155" class="I_ACTION" stem="allege" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">alleged</EVENT> that Mr. Antar <EVENT eid="e156" class="I_STATE" stem="aim" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">aimed</EVENT> to <EVENT eid="e158" class="OCCURRENCE" stem="pump" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">pump</EVENT> up the company's stock price through false financial <EVENT eid="e159" class="STATE" stem="statement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">statements</EVENT> in order to <EVENT eid="e164" class="OCCURRENCE" stem="sell" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">sell</EVENT> his stake and <EVENT eid="e166" class="OCCURRENCE" stem="reap" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">reap</EVENT> huge profits.</s> 
+<s>Mr. Antar, the SEC <EVENT eid="e167" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>, <EVENT eid="e168" class="OCCURRENCE" stem="make" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">made</EVENT> more than $60 million from the <EVENT eid="e169" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of his shares between <TIMEX3 tid="t240" type="DATE" value="1985" temporalFunction="false" functionInDocument="NONE">1985</TIMEX3> and <TIMEX3 tid="t241" type="DATE" value="1987" temporalFunction="false" functionInDocument="NONE">1987</TIMEX3>.</s> 
+
+   <s>The Justice Department has <EVENT eid="e171" class="REPORTING" stem="emphasize" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">emphasized</EVENT> that the government's fee-forfeiture power is to be <EVENT eid="e173" class="OCCURRENCE" stem="use" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">used</EVENT> sparingly.</s> 
+<s><EVENT eid="e226" class="REPORTING" stem="according" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">According</EVENT> to department policy, prosecutors must make a strong <EVENT eid="e176" class="I_ACTION" stem="showing" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">showing</EVENT> that lawyers' fees <EVENT eid="e177" class="OCCURRENCE" stem="come" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">came</EVENT> from assets tainted by illegal profits before any <EVENT eid="e179" class="I_ACTION" stem="attempt" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">attempts</EVENT> at <EVENT eid="e181" class="OCCURRENCE" stem="seizure" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">seizure</EVENT> are <EVENT eid="e183" class="I_ACTION" stem="make" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">made</EVENT>.</s> 
+
+   <s>Still, criminal defense lawyers <EVENT eid="e184" class="I_STATE" stem="worry" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">worry</EVENT> that defendants are being <EVENT eid="e185" class="I_STATE" stem="deprive" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">deprived</EVENT> of their Sixth Amendment <EVENT eid="e227" class="STATE" stem="right" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">right</EVENT> to counsel and a fair <EVENT eid="e188" class="OCCURRENCE" stem="trial" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">trial</EVENT> if the government can <EVENT eid="e190" class="OCCURRENCE" stem="seize" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">seize</EVENT> lawyers' fees.</s> 
+<s>They also <EVENT eid="e228" class="I_STATE" stem="worry" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">worry</EVENT> that if the government <EVENT eid="e193" class="I_ACTION" stem="apply" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">applies</EVENT> asset-forfeiture laws broadly, the best defense lawyers will be <EVENT eid="e230" class="I_STATE" stem="unwilling" aspect="NONE" tense="FUTURE" polarity="POS" pos="ADJECTIVE">unwilling</EVENT> to <EVENT eid="e196" class="OCCURRENCE" stem="take" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">take</EVENT> criminal cases unless they are <EVENT eid="e198" class="I_STATE" stem="assure" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">assured</EVENT> of being <EVENT eid="e199" class="OCCURRENCE" stem="pay" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">paid</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e75" relatedToTime="t234" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e74" relatedToTime="t234" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e101" relatedToTime="t236" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e100" relatedToTime="t236" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e137" relatedToTime="t237" task="A"/>
+<TLINK lid="l6" relType="OVERLAP-OR-AFTER" eventID="e168" relatedToTime="t240" task="A"/>
+<TLINK lid="l7" relType="BEFORE-OR-OVERLAP" eventID="e168" relatedToTime="t241" task="A"/>
+<TLINK lid="l8" relType="OVERLAP-OR-AFTER" eventID="e169" relatedToTime="t240" task="A"/>
+<TLINK lid="l9" relType="BEFORE-OR-OVERLAP" eventID="e169" relatedToTime="t241" task="A"/>
+<TLINK lid="l10" relType="AFTER" eventID="e167" relatedToTime="t240" task="A"/>
+<TLINK lid="l11" relType="AFTER" eventID="e167" relatedToTime="t241" task="A"/>
+<TLINK lid="l12" relType="VAGUE" eventID="e6" relatedToTime="t232" task="B"/>
+<TLINK lid="l13" relType="AFTER" eventID="e19" relatedToTime="t232" task="B"/>
+<TLINK lid="l14" relType="OVERLAP-OR-AFTER" eventID="e26" relatedToTime="t232" task="B"/>
+<TLINK lid="l15" relType="OVERLAP-OR-AFTER" eventID="e24" relatedToTime="t232" task="B"/>
+<TLINK lid="l16" relType="OVERLAP" eventID="e33" relatedToTime="t232" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e206" relatedToTime="t232" task="B"/>
+<TLINK lid="l18" relType="AFTER" eventID="e45" relatedToTime="t232" task="B"/>
+<TLINK lid="l19" relType="AFTER" eventID="e51" relatedToTime="t232" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e67" relatedToTime="t232" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e66" relatedToTime="t232" task="B"/>
+<TLINK lid="l22" relType="VAGUE" eventID="e75" relatedToTime="t232" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e74" relatedToTime="t232" task="B"/>
+<TLINK lid="l24" relType="OVERLAP" eventID="e84" relatedToTime="t232" task="B"/>
+<TLINK lid="l25" relType="OVERLAP" eventID="e86" relatedToTime="t232" task="B"/>
+<TLINK lid="l26" relType="BEFORE-OR-OVERLAP" eventID="e101" relatedToTime="t232" task="B"/>
+<TLINK lid="l27" relType="BEFORE" eventID="e100" relatedToTime="t232" task="B"/>
+<TLINK lid="l28" relType="OVERLAP" eventID="e107" relatedToTime="t232" task="B"/>
+<TLINK lid="l29" relType="BEFORE" eventID="e106" relatedToTime="t232" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e114" relatedToTime="t232" task="B"/>
+<TLINK lid="l31" relType="AFTER" eventID="e116" relatedToTime="t232" task="B"/>
+<TLINK lid="l32" relType="VAGUE" eventID="e118" relatedToTime="t232" task="B"/>
+<TLINK lid="l33" relType="BEFORE" eventID="e119" relatedToTime="t232" task="B"/>
+<TLINK lid="l34" relType="BEFORE" eventID="e123" relatedToTime="t232" task="B"/>
+<TLINK lid="l35" relType="BEFORE" eventID="e124" relatedToTime="t232" task="B"/>
+<TLINK lid="l36" relType="BEFORE" eventID="e128" relatedToTime="t232" task="B"/>
+<TLINK lid="l37" relType="AFTER" eventID="e131" relatedToTime="t232" task="B"/>
+<TLINK lid="l38" relType="BEFORE" eventID="e137" relatedToTime="t232" task="B"/>
+<TLINK lid="l39" relType="BEFORE" eventID="e164" relatedToTime="t232" task="B"/>
+<TLINK lid="l40" relType="BEFORE" eventID="e168" relatedToTime="t232" task="B"/>
+<TLINK lid="l41" relType="BEFORE" eventID="e169" relatedToTime="t232" task="B"/>
+<TLINK lid="l42" relType="BEFORE" eventID="e167" relatedToTime="t232" task="B"/>
+<TLINK lid="l43" relType="AFTER" eventID="e173" relatedToTime="t232" task="B"/>
+<TLINK lid="l44" relType="AFTER" eventID="e183" relatedToTime="t232" task="B"/>
+<TLINK lid="l45" relType="VAGUE" eventID="e177" relatedToTime="t232" task="B"/>
+<TLINK lid="l46" relType="AFTER" eventID="e199" relatedToTime="t232" task="B"/>
+<TLINK lid="l47" relType="AFTER" eventID="e196" relatedToTime="t232" task="B"/>
+</TempEval>

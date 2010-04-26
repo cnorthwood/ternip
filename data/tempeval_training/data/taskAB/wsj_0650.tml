@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0048 
+ = 891030 
+ 891030-0048. 
+ Sun Microsystems Debentures 
+ <TIMEX3 tid="t18" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SUNW 
+ BOND MARKET NEWS (BON) 
+ MOUNTAIN VIEW, Calif.  
+
+   <s>Sun Microsystems Inc., a computer maker, <EVENT eid="e1" class="REPORTING" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> the <EVENT eid="e13" class="STATE" stem="effectiveness" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">effectiveness</EVENT> of its registration statement for $125 million of 6 3/8% convertible subordinated debentures <EVENT eid="e12" class="STATE" stem="due" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">due</EVENT> <TIMEX3 tid="t14" type="DATE" value="1999-10-15" temporalFunction="false" functionInDocument="NONE">Oct. 15, 1999</TIMEX3>.</s> 
+
+   <s>The company <EVENT eid="e3" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the debentures are being <EVENT eid="e5" class="OCCURRENCE" stem="issue" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">issued</EVENT> at an issue price of $849 for each $1,000 principal amount and are <EVENT eid="e17" class="STATE" stem="convertible" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">convertible</EVENT> at any time prior to <EVENT eid="e16" class="STATE" stem="maturity" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">maturity</EVENT> at a conversion price of $25 a share.</s> 
+
+   <s>The debentures are available through Goldman, Sachs amp Co.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e1" relatedToTime="t14" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t18" task="B"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e3" relatedToTime="t18" task="B"/>
+</TempEval>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0045 
+ = 891027 
+ 891030-0045. 
+ Business Brief -- Rally's Inc.:
+@  Investor Group Is Seeking
+@  More Than 50% of Stock 
+ <TIMEX3 tid="t27" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ GPO RLLY 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>A group of investors led by Giant Group Ltd. and its chairman, Burt Sugarman, <EVENT eid="e2" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e28" class="I_ACTION" stem="file" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">filed</EVENT> with federal antitrust regulators for <EVENT eid="e29" class="I_ACTION" stem="clearance" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">clearance</EVENT> to <EVENT eid="e5" class="OCCURRENCE" stem="buy" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">buy</EVENT> more than 50% of the stock of Rally's Inc., a fast-food company based in Louisville, Ky. 
+
+   Rally's operates and franchises about 160 fast-food restaurants throughout the U.S. 
+The company <EVENT eid="e9" class="OCCURRENCE" stem="go" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">went</EVENT> public earlier <TIMEX3 tid="t79" type="TIME" value="1989-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">this month</TIMEX3>, <EVENT eid="e10" class="OCCURRENCE" stem="offer" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">offering</EVENT> 1,745,000 shares of common stock at $15 a share.</s> 
+<s>Giant has interests in cement making and newsprint.</s> 
+
+   <s>The investor group includes Restaurant Investment Partnership, a California general partnership, and three Rally's directors: Mr. Sugarman, James M. Trotter III and William E. Trotter II.</s> 
+<s>The group currently holds 3,027,330 Rally's shares, or 45.2% of its commmon shares outstanding.</s> 
+<s>Giant Group <EVENT eid="e16" class="STATE" stem="own" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">owned</EVENT> 22% of Rally's shares before the initial public <EVENT eid="e17" class="OCCURRENCE" stem="offering" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offering</EVENT>.</s> 
+
+   <s>A second group of three company directors, aligned with Rally's founder James Patterson, also is <EVENT eid="e20" class="I_ACTION" stem="seek" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">seeking</EVENT> <EVENT eid="e32" class="STATE" stem="control" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">control</EVENT> of the fast-food chain.</s> 
+<s>It is estimated that the Patterson group <EVENT eid="e33" class="STATE" stem="control" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">controls</EVENT> more than 40% of Rally's stock.</s> 
+
+   <s>Rally officials weren't <EVENT eid="e34" class="STATE" stem="available" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">available</EVENT> to <EVENT eid="e24" class="OCCURRENCE" stem="comment" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">comment</EVENT> <TIMEX3 tid="t37" type="DATE" value="1989-10-26" mod="END" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">late yesterday</TIMEX3>.</s> 
+
+   <s>For <TIMEX3 tid="t39" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t40">the year</TIMEX3> ended <TIMEX3 tid="t40" type="DATE" value="1989-07-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">July 2</TIMEX3>, Rally <EVENT eid="e26" class="OCCURRENCE" stem="have" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> net income of $2.4 million, or 34 cents a share, on revenue of $52.9 million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e2" relatedToTime="t79" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e10" relatedToTime="t79" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e9" relatedToTime="t79" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e5" relatedToTime="t79" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e26" relatedToTime="t39" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e26" relatedToTime="t40" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e2" relatedToTime="t27" task="B"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e10" relatedToTime="t27" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e9" relatedToTime="t27" task="B"/>
+<TLINK lid="l10" relType="AFTER" eventID="e5" relatedToTime="t27" task="B"/>
+<TLINK lid="l11" relType="OVERLAP" eventID="e20" relatedToTime="t27" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e26" relatedToTime="t27" task="B"/>
+</TempEval>

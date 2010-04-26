@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0041 
+ = 891102 
+ 891102-0041. 
+ Business Brief -- Primerica Corp.:
+@  A.L. Williams Corp. Merges
+@  Into Firm on Holders' Vote 
+ <TIMEX3 tid="t20" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ PA 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>A.L. Williams Corp.  was <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="merge" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">merged</EVENT> into Primerica Corp., New York, after a special <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="meeting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">meeting</EVENT> of Williams shareholders <EVENT eid="e4" mainevent="NO" class="I_ACTION" stem="clear" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">cleared</EVENT> the <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT>, the companies <EVENT eid="e5" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Primerica, which  had <EVENT eid="e6" mainevent="NO" class="STATE" stem="own" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">owned</EVENT> nearly 70% of Williams,  will <EVENT eid="e7" mainevent="YES" class="OCCURRENCE" stem="pay" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> about 16.7 million shares, <TIMEX3 tid="t25" type="TIME" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t20">currently</TIMEX3> <EVENT eid="e8" mainevent="NO" class="STATE" stem="value" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">valued</EVENT> at almost $472 million, for the rest of Williams.</s> 
+<s>The financial-services company  will <EVENT eid="e9" mainevent="YES" class="OCCURRENCE" stem="pay" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> 0.82 share for each Williams share.</s> 
+
+   <s>Williams shares, which were  to  be <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="delisted" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">delisted</EVENT> from the New York Stock Exchange after the <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="close" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">close</EVENT> of composite trading <TIMEX3 tid="t21" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t20">yesterday</TIMEX3>, <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> at $23.25, off 12.5 cents.</s> 
+<s>Primerica <EVENT eid="e12" mainevent="YES" class="I_ACTION" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> at $28.25, down 50 cents.</s> 
+
+   <s>Williams, Duluth, Ga., is an insurance and financial-services holding company.</s> 
+<s>Its subsidiaries' services  are marketed by closely held A.L. Williams amp Associates.</s> 
+<s>Primerica, as expected, also <EVENT eid="e27" mainevent="YES" class="OCCURRENCE" stem="acquire" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">acquired</EVENT> certain assets of the agency and <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="assume" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">assumed</EVENT> certain of its liabilities.</s> 
+<s>Terms were n't <EVENT eid="e18" mainevent="YES" class="REPORTING" stem="disclose" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">disclosed</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e11" eventID="e9" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e18" eventID="e27" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e9" eventID="e7" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e12" eventID="e11" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e7" eventID="e5" task="C"/>
+
+</TempEval>

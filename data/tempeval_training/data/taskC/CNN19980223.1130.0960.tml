@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ CNN<TIMEX3 tid="t19" type="DATE" value="1998-02-23" temporalFunction="false" functionInDocument="CREATION_TIME">19980223</TIMEX3>.1130.0960 
+ NEWS STORY 
+
+
+
+
+
+ <s>Despite the <TIMEX3 tid="t20" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">recent</TIMEX3> possibility of military <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="conflict" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">conflict</EVENT> with Iraq, oil prices  have  been <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">falling</EVENT>, that's because of a worldwide <EVENT eid="e27" mainevent="NO" class="OCCURRENCE" stem="glut" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">glut</EVENT> of oil.</s>
+ <s><TIMEX3 tid="t21" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">Now</TIMEX3> with a diplomatic <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="solution" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">solution</EVENT> to the <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="crisis" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">crisis</EVENT> seemingly at <EVENT eid="e32" mainevent="NO" class="STATE" stem="hand" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">hand</EVENT>, get <EVENT eid="e34" mainevent="YES" class="I_ACTION" stem="set" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">set</EVENT> for oil prices from the Brent north sea variety  to light swede crude to <EVENT eid="e33" mainevent="NO" class="OCCURRENCE" stem="fall" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">fall</EVENT> further.</s>
+
+
+ <s>Oil prices  have <EVENT eid="e37" mainevent="YES" class="OCCURRENCE" stem="come" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">come</EVENT> down from <TIMEX3 tid="t22" type="DATE" value="1997-10" mod="MID" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">the middle of October</TIMEX3> from a twenty-two dollar barrel <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="level" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">level</EVENT> down to the fourteen dollars we 're <EVENT eid="e10" mainevent="NO" class="PERCEPTION" stem="see" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">seeing</EVENT> <TIMEX3 tid="t23" type="DATE" value="1998-02-23" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">today</TIMEX3>.</s>
+ <s>that 's <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="build" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">built</EVENT> up a heck of a momentum and that momentum  will <EVENT eid="e12" mainevent="NO" class="I_ACTION" stem="look" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">look</EVENT>  to <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="increase" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">increase</EVENT>.</s>
+ <s>ah next up is that thirteen dollar a barrel level we <EVENT eid="e14" mainevent="YES" class="PERCEPTION" stem="see" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">saw</EVENT> in <TIMEX3 tid="t24" type="DATE" value="1994-WI" temporalFunction="false" functionInDocument="NONE">the winter of nineteen ninety-four</TIMEX3>.</s>
+
+
+ <s><EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="weakened" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">Weakened</EVENT> oil prices  have  already <EVENT eid="e15" mainevent="YES" class="I_ACTION" stem="make" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">made</EVENT> life easier for motorists at the gas
+ pump.</s>
+ <s>Gas prices <EVENT eid="e18" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> nearly two cents a gallon over <TIMEX3 tid="t25" type="DURATION" value="P2W" temporalFunction="true" functionInDocument="NONE" endPoint="t19">the last two weeks</TIMEX3>.</s> <s>That <EVENT eid="e39" mainevent="YES" class="REPORTING" stem="accord" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">according</EVENT> to the Lundberg survey of ten thousand gas stations nationwide.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e11" eventID="e37" task="C"/>
+<TLINK lid="l2" relType="OVERLAP-OR-AFTER" relatedToEvent="e18" eventID="e15" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e34" eventID="e1" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e15" eventID="e14" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e39" eventID="e18" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e37" eventID="e34" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e14" eventID="e11" task="C"/>
+
+</TempEval>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ PRI<TIMEX3 tid="t37" type="DATE" value="1998-02-13" temporalFunction="false" functionInDocument="CREATION_TIME">19980213</TIMEX3>.2000.0313 
+ NEWS STORY 
+
+
+
+
+
+ <s>Officials in California  are <EVENT eid="e1" class="I_ACTION" stem="warn" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">warning</EVENT> residents that oncoming <EVENT eid="e40" class="OCCURRENCE" stem="rain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rains</EVENT>  will <EVENT eid="e3" class="OCCURRENCE" stem="cause" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">cause</EVENT> dangerous and unpredictable <EVENT eid="e41" class="OCCURRENCE" stem="landslide" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">landslides</EVENT>.</s> <s>From member station KQED, Auncil
+ Martinez <EVENT eid="e42" class="REPORTING" stem="report" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">reports</EVENT>.</s>
+
+
+ <s>Experts <EVENT eid="e5" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">say</EVENT> the ground  is  so <EVENT eid="e6" class="STATE" stem="saturate" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">saturated</EVENT> it cannot <EVENT eid="e8" class="OCCURRENCE" stem="absorb" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">absorb</EVENT> any more water.</s> <s>So
+ that <EVENT eid="e9" class="I_STATE" stem="mean" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">means</EVENT> soil will <EVENT eid="e43" class="OCCURRENCE" stem="fall" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">fall</EVENT> off in chunks and <EVENT eid="e11" class="OCCURRENCE" stem="destroy" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">destroy</EVENT> anything in its path.</s>
+ <s>In Los Angeles that lesson  was brought home <TIMEX3 tid="t38" type="DATE" value="1998-02-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t37">today</TIMEX3> when tons of earth <EVENT eid="e16" class="OCCURRENCE" stem="cascade" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">cascaded</EVENT> down a hillside, <EVENT eid="e17" class="OCCURRENCE" stem="rip" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">ripping</EVENT> two houses from their foundations.</s> <s>No one  was <EVENT eid="e18" class="OCCURRENCE" stem="hurt" aspect="NONE" tense="PAST" polarity="NEG" pos="ADJECTIVE">hurt</EVENT>, but firefighters <EVENT eid="e19" class="I_ACTION" stem="order" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">ordered</EVENT> the <EVENT eid="e45" class="OCCURRENCE" stem="evacuation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">evacuation</EVENT> of nearby homes and <EVENT eid="e20" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> they'll <EVENT eid="e21" class="OCCURRENCE" stem="monitor" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">monitor</EVENT> the shifting ground.</s> <s>In the northern California town of Rio Nido,
+ officials <EVENT eid="e23" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">say</EVENT> a football field sized slab of hillside could  still <EVENT eid="e25" class="OCCURRENCE" stem="break" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">break</EVENT> loose at
+ <TIMEX3 tid="t39" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t37">any time</TIMEX3> and <EVENT eid="e29" class="OCCURRENCE" stem="destroy" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">destroy</EVENT> an entire neighborhood.</s> <s>And in San Francisco, a mansion
+ overlooking the Pacific Ocean and the Golden Gate Bridge  is <EVENT eid="e31" class="OCCURRENCE" stem="slip" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">slipping</EVENT> toward
+ the sea.</s> <s>Forecasters <EVENT eid="e32" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">say</EVENT> the picture  will <EVENT eid="e33" class="ASPECTUAL" stem="get" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">get</EVENT> worse because more <EVENT eid="e47" class="STATE" stem="rain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rains</EVENT> are
+ on the way.</s> <s>For NPR news, I'm Auncil Martinez <EVENT eid="e36" class="REPORTING" stem="reporting" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">reporting</EVENT>.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e23" relatedToTime="t39" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e42" relatedToTime="t37" task="B"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e5" relatedToTime="t37" task="B"/>
+<TLINK lid="l4" relType="AFTER" eventID="e43" relatedToTime="t37" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e20" relatedToTime="t37" task="B"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e23" relatedToTime="t37" task="B"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e32" relatedToTime="t37" task="B"/>
+</TempEval>

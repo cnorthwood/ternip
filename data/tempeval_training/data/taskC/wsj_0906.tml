@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0153 
+ = 891026 
+ 891026-0153. 
+ Diversified Investment Group 
+ <TIMEX3 tid="t27" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ DING STSS 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ PHILADELPHIA  
+
+   <s>Diversified Investment Group Inc. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> to be <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="acquired" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">acquired</EVENT> by Star States Corp. for stock <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="value" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">valued</EVENT> at $13.75 a share, or about $24.4 million.</s> 
+
+   <s>Diversified, the holding company for Fidelity Federal Savings amp Loan Association, <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT> also <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="give" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">gives</EVENT> Star States the <EVENT eid="e9" mainevent="NO" class="I_STATE" stem="option" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">option</EVENT> to <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquire</EVENT> 588,300 of Diversified's 1,774,326 shares outstanding "under certain circumstances."</s> 
+
+   <s>The <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> would <EVENT eid="e13" mainevent="YES" class="OCCURRENCE" stem="give" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">give</EVENT> Wilmington, Del.-based Star States <EVENT eid="e25" mainevent="NO" class="STATE" stem="access" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">access</EVENT> to the Pennsylvania market.</s> 
+
+   <s>The <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT> is <EVENT eid="e26" mainevent="YES" class="I_STATE" stem="subject" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">subject</EVENT> to regulatory <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="approval" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">approval</EVENT> and <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="resolution" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">resolution</EVENT> of lawsuits <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="bring" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">brought</EVENT> by certain Diversified holders in connection with the proposed <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="merger" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">merger</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e26" eventID="e13" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e6" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e13" eventID="e6" task="C"/>
+
+</TempEval>

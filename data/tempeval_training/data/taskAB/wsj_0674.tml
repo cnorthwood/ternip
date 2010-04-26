@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0022 
+ = 891030 
+ 891030-0022. 
+ Jim Pattison to Seek
+@  Control of Innopac 
+ <TIMEX3 tid="t41" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ T.INA 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+EARNINGS (ERN) 
+ VANCOUVER, British Columbia  
+
+   <s>Jim Pattison Industries Ltd., one of a group of closely held companies owned by entrepreneur James Pattison, <EVENT eid="e2" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it "<EVENT eid="e3" class="I_STATE" stem="intend" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">intends</EVENT> to <EVENT eid="e5" class="I_ACTION" stem="seek" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seek</EVENT> <EVENT eid="e40" class="STATE" stem="control" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">control</EVENT>" of 30%-owned Innopac Inc., a Toronto packaging concern.</s> 
+
+   <s>Jim Pattison Industries, a holding company with annual sales of about C$1.9 billion, largely from car dealerships and grocery stores, did n't <EVENT eid="e7" class="REPORTING" stem="elaborate" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">elaborate</EVENT> on the <EVENT eid="e9" class="OCCURRENCE" stem="statement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">statement</EVENT>, and a company official <EVENT eid="e11" class="I_ACTION" stem="decline" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">declined</EVENT> further <EVENT eid="e12" class="OCCURRENCE" stem="comment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">comment</EVENT>.</s> 
+
+   <s>The company <EVENT eid="e13" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <TIMEX3 tid="t42" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">currently</TIMEX3> <EVENT eid="e14" class="STATE" stem="hold" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">holds</EVENT> about 4.2 million of Innopac's 13.8 million common shares outstanding, which <EVENT eid="e43" class="STATE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">have</EVENT> an aggregate market value of about 137.8 million Canadian dollars (US$117.3 million).</s> 
+
+   <s>Separately, Innopac <EVENT eid="e15" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> a <TIMEX3 tid="t44" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">fourth-quarter</TIMEX3> <EVENT eid="e16" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of about C$2.6 million, or 18 Canadian cents a share, reflecting inventory <EVENT eid="e45" class="OCCURRENCE" stem="write-downs" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">write-downs</EVENT>.</s> 
+<s>The <EVENT eid="e18" class="STATE" stem="result" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">results</EVENT> <EVENT eid="e19" class="OCCURRENCE" stem="make" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">made</EVENT> net income for <TIMEX3 tid="t49" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t50">the year</TIMEX3> ended <TIMEX3 tid="t50" type="DATE" value="1989-08-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">Aug. 31</TIMEX3> <EVENT eid="e162" class="STATE" stem="c$2.7 million" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">C$2.7 million</EVENT>, or 20 Canadian cents a share, down from <EVENT eid="e54" class="STATE" stem="c$9.7 million" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">C$9.7 million</EVENT>, or 70 Canadian cents a share <TIMEX3 tid="t52" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">last year</TIMEX3>.</s> 
+<s><EVENT eid="e56" class="STATE" stem="revenue" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">Revenue</EVENT> was C$291.6 million, up from <EVENT eid="e57" class="STATE" stem="c$252 million" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">C$252 million</EVENT> in <TIMEX3 tid="t58" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3>.</s> 
+
+   <s>Martin Fabi, Innopac's president and chief executive, <EVENT eid="e21" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Innopac <EVENT eid="e22" class="I_STATE" stem="view" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">viewed</EVENT> Mr. Pattison's <EVENT eid="e23" class="OCCURRENCE" stem="decision" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">decision</EVENT> to <EVENT eid="e25" class="I_ACTION" stem="seek" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seek</EVENT> <EVENT eid="e62" class="STATE" stem="control" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">control</EVENT> as a "very positive" <EVENT eid="e26" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">move</EVENT>.</s> 
+<s>"I'm <EVENT eid="e63" class="I_STATE" stem="happy" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">happy</EVENT> that he <EVENT eid="e64" class="STATE" stem="feel" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">feels</EVENT> positively about our company," he <EVENT eid="e28" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>Mr. Fabi wouldn't <EVENT eid="e29" class="REPORTING" stem="say" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">say</EVENT> directly whether Mr. Pattison has <EVENT eid="e30" class="REPORTING" stem="disclose" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">disclosed</EVENT> potential terms for his <EVENT eid="e68" class="I_STATE" stem="planned" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">planned</EVENT> <EVENT eid="e31" class="OCCURRENCE" stem="bid" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">bid</EVENT> for control.</s> 
+
+   <s>Among other things, Innopac is involved in recycling polystyrene foam products that are often used by fast food chains, such as McDonald's Corp., for food packaging.</s> 
+<s>A joint venture involving units of Innopac and Mobil Corp. <TIMEX3 tid="t69" type="DATE" value="1989" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">earlier this year</TIMEX3> <EVENT eid="e37" class="OCCURRENCE" stem="open" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">opened</EVENT> the first U.S. polystyrene recycling plant, in Leominster, Mass.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e43" relatedToTime="t42" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e13" relatedToTime="t42" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e14" relatedToTime="t42" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e16" relatedToTime="t44" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e15" relatedToTime="t44" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e19" relatedToTime="t50" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e19" relatedToTime="t49" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e19" relatedToTime="t52" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e18" relatedToTime="t50" task="A"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e18" relatedToTime="t49" task="A"/>
+<TLINK lid="l11" relType="AFTER" eventID="e18" relatedToTime="t52" task="A"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e2" relatedToTime="t41" task="B"/>
+<TLINK lid="l13" relType="AFTER" eventID="e5" relatedToTime="t41" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e11" relatedToTime="t41" task="B"/>
+<TLINK lid="l15" relType="BEFORE-OR-OVERLAP" eventID="e43" relatedToTime="t41" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e13" relatedToTime="t41" task="B"/>
+<TLINK lid="l17" relType="OVERLAP" eventID="e14" relatedToTime="t41" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e16" relatedToTime="t41" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e15" relatedToTime="t41" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e19" relatedToTime="t41" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e18" relatedToTime="t41" task="B"/>
+<TLINK lid="l22" relType="BEFORE" eventID="e21" relatedToTime="t41" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e26" relatedToTime="t41" task="B"/>
+<TLINK lid="l24" relType="OVERLAP" eventID="e25" relatedToTime="t41" task="B"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e28" relatedToTime="t41" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e29" relatedToTime="t41" task="B"/>
+<TLINK lid="l27" relType="AFTER" eventID="e31" relatedToTime="t41" task="B"/>
+</TempEval>

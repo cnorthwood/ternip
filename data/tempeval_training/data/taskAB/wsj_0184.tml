@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891102-0006 
+ = 891102 
+ 891102-0006. 
+ Upjohn Offers
+@  Plan to Reduce
+@  Its Work Force
+@  ----
+@  By Bradley A. Stertz
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t78" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ UPJ 
+ DRUG MANUFACTURERS (DRG) 
+ KALAMAZOO, Mich.  
+
+   <s>Upjohn Co. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e2" class="OCCURRENCE" stem="offer" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">offer</EVENT> an early retirement package to as many as 1,100 employees in a cost-cutting <EVENT eid="e3" class="I_ACTION" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">move</EVENT> <EVENT eid="e5" class="I_STATE" stem="expect" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e7" class="ASPECTUAL" stem="result" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">result</EVENT> in a <TIMEX3 tid="t79" type="DURATION" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">fourth-quarter</TIMEX3> <EVENT eid="e80" class="OCCURRENCE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charge</EVENT>.</s> 
+
+   <s>Upjohn officials <EVENT eid="e8" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> they could n't <EVENT eid="e9" class="I_ACTION" stem="estimate" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">estimate</EVENT> the <EVENT eid="e398" class="STATE" stem="size" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">size</EVENT> of the <EVENT eid="e81" class="STATE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charge</EVENT> until they <EVENT eid="e12" class="I_ACTION" stem="determine" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">determine</EVENT> which employees, and how many, will <EVENT eid="e14" class="OCCURRENCE" stem="participate" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">participate</EVENT> in the retirement plan.</s> 
+<s>But the pharmaceutical company <EVENT eid="e16" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it "<EVENT eid="e17" class="I_STATE" stem="anticipate" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">anticipates</EVENT> the long-term savings resulting from the plan's implementation will more than <EVENT eid="e91" class="OCCURRENCE" stem="offset" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">offset</EVENT> short-term costs."</s> 
+
+   <s>The program, available to Upjohn employees 55 years old or older, could <EVENT eid="e24" class="OCCURRENCE" stem="increase" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">increase</EVENT> an individual's retirement benefits 10% to 20%.</s> 
+<s>In addition, Upjohn is <EVENT eid="e29" class="OCCURRENCE" stem="offer" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">offering</EVENT> a one-time retirement bonus equal to six months of base pay.</s> 
+
+   <s>Chairman Theodore Cooper <EVENT eid="e31" class="REPORTING" stem="call" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">called</EVENT> the program part of the company's <TIMEX3 tid="t190" type="DURATION" value="P2Y" temporalFunction="false" functionInDocument="NONE">two-year</TIMEX3> <EVENT eid="e189" class="I_ACTION" stem="strategy" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">strategy</EVENT> to <EVENT eid="e33" class="I_ACTION" stem="implement" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">implement</EVENT> budget <EVENT eid="e94" class="STATE" stem="constraint" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">constraints</EVENT> and "an effective headcount-control <EVENT eid="e217" class="OCCURRENCE" stem="program" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">program</EVENT>."</s> 
+
+   <s>But some analysts <EVENT eid="e34" class="I_ACTION" stem="question" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">questioned</EVENT> how much of an <EVENT eid="e35" class="OCCURRENCE" stem="impact" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">impact</EVENT> the retirement package will <EVENT eid="e36" class="OCCURRENCE" stem="have" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">have</EVENT>, because few jobs will <EVENT eid="e38" class="ASPECTUAL" stem="end" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">end</EVENT> up being <EVENT eid="e86" class="OCCURRENCE" stem="eliminate" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">eliminated</EVENT>.</s> 
+<s>"It's a cosmetic <EVENT eid="e39" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">move</EVENT>," <EVENT eid="e40" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Jonathan S. Gelles of Wertheim Schroder amp Co. 
+
+   According to Upjohn's <EVENT eid="e282" class="I_ACTION" stem="estimate" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">estimates</EVENT>, only 50% to 60% of the 1,100 eligible employees will <EVENT eid="e42" class="OCCURRENCE" stem="take" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">take</EVENT> <EVENT eid="e87" class="OCCURRENCE" stem="advantage" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">advantage</EVENT> of the plan.</s> 
+<s>Upjohn further <EVENT eid="e43" class="I_ACTION" stem="estimate" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">estimated</EVENT> that about 50% of the employees who <EVENT eid="e44" class="OCCURRENCE" stem="leave" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">leave</EVENT> for early retirement may be <EVENT eid="e46" class="OCCURRENCE" stem="replace" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">replaced</EVENT>.</s> 
+<s>As a result, Upjohn will likely <EVENT eid="e50" class="OCCURRENCE" stem="trim" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">trim</EVENT> only about 275 to 350 of its more than 21,000 jobs world-wide.</s> 
+
+   <s>In composite trading on the New York Stock Exchange <TIMEX3 tid="t92" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">yesterday</TIMEX3>, Upjohn shares <EVENT eid="e53" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 87.5 cents to $38.875 apiece.</s> 
+
+   <s>An Upjohn spokesman <EVENT eid="e54" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> he had " <EVENT eid="e399" class="PERCEPTION" stem="hear" aspect="PERFECTIVE" tense="PAST" polarity="NEG" pos="VERB">heard</EVENT> nothing" to <EVENT eid="e57" class="I_STATE" stem="suggest" aspect="NONE" tense="INFINITIVE" polarity="NEG" pos="VERB">suggest</EVENT> the early retirement package was <EVENT eid="e58" class="OCCURRENCE" stem="spur" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">spurred</EVENT> by shareholder pressure or a potential bidder for the company, which occasionally has been the <EVENT eid="e361" class="STATE" stem="target" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="NOUN">target</EVENT> of <EVENT eid="e90" class="OCCURRENCE" stem="takeover" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">takeover</EVENT> <EVENT eid="e60" class="I_ACTION" stem="speculation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">speculation</EVENT>.</s> 
+<s>The company <TIMEX3 tid="t372" type="DATE" value="1989" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">earlier this year</TIMEX3> <EVENT eid="e61" class="OCCURRENCE" stem="adopt" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">adopted</EVENT> a shareholder-rights plan to <EVENT eid="e63" class="OCCURRENCE" stem="ward" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">ward</EVENT> off unwanted suitors.</s> 
+
+   <s>The spokesman <EVENT eid="e64" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it is the first early retirement plan <EVENT eid="e65" class="I_ACTION" stem="offer" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">offered</EVENT> under its two-year cost-control strategy.</s> 
+<s><TIMEX3 tid="t404" type="TIME" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">Earlier</TIMEX3> staff-reduction <EVENT eid="e66" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">moves</EVENT> have <EVENT eid="e67" class="OCCURRENCE" stem="trim" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">trimmed</EVENT> about 300 jobs, the spokesman <EVENT eid="e69" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t79" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e3" relatedToTime="t79" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e1" relatedToTime="t79" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e80" relatedToTime="t79" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e5" relatedToTime="t79" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e7" relatedToTime="t79" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e31" relatedToTime="t190" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e53" relatedToTime="t92" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e66" relatedToTime="t404" task="A"/>
+<TLINK lid="l10" relType="AFTER" eventID="e69" relatedToTime="t404" task="A"/>
+<TLINK lid="l11" relType="AFTER" eventID="e2" relatedToTime="t78" task="B"/>
+<TLINK lid="l12" relType="AFTER" eventID="e3" relatedToTime="t78" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e1" relatedToTime="t78" task="B"/>
+<TLINK lid="l14" relType="AFTER" eventID="e80" relatedToTime="t78" task="B"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e5" relatedToTime="t78" task="B"/>
+<TLINK lid="l16" relType="AFTER" eventID="e7" relatedToTime="t78" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e81" relatedToTime="t78" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e8" relatedToTime="t78" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e16" relatedToTime="t78" task="B"/>
+<TLINK lid="l20" relType="AFTER" eventID="e24" relatedToTime="t78" task="B"/>
+<TLINK lid="l21" relType="OVERLAP" eventID="e29" relatedToTime="t78" task="B"/>
+<TLINK lid="l22" relType="BEFORE" eventID="e31" relatedToTime="t78" task="B"/>
+<TLINK lid="l23" relType="AFTER" eventID="e36" relatedToTime="t78" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e40" relatedToTime="t78" task="B"/>
+<TLINK lid="l25" relType="OVERLAP" eventID="e39" relatedToTime="t78" task="B"/>
+<TLINK lid="l26" relType="AFTER" eventID="e42" relatedToTime="t78" task="B"/>
+<TLINK lid="l27" relType="AFTER" eventID="e44" relatedToTime="t78" task="B"/>
+<TLINK lid="l28" relType="BEFORE" eventID="e53" relatedToTime="t78" task="B"/>
+<TLINK lid="l29" relType="OVERLAP" eventID="e54" relatedToTime="t78" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e64" relatedToTime="t78" task="B"/>
+<TLINK lid="l31" relType="BEFORE" eventID="e65" relatedToTime="t78" task="B"/>
+<TLINK lid="l32" relType="BEFORE" eventID="e66" relatedToTime="t78" task="B"/>
+<TLINK lid="l33" relType="BEFORE" eventID="e69" relatedToTime="t78" task="B"/>
+</TempEval>

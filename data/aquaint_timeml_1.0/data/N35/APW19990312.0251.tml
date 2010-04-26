@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOC>
+<DOCNO> APW19990312.0251 </DOCNO>
+<DATE_TIME> <TIMEX3 tid="t1" type="TIME" functionInDocument="CREATION_TIME" temporalFunction="false" value="1999-03-12T10:34">1999-03-12 10:34:13</TIMEX3> </DATE_TIME>
+<BODY>
+<CATEGORY> international </CATEGORY>
+<HEADLINE> NATO Adds Three New Members </HEADLINE>
+<TEXT>
+<P>
+	INDEPENDENCE, MO. (AP)-- Poland, Hungary and the Czech Republic  
+<TIMEX3 tid="t2" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-03-12">today</TIMEX3> <EVENT eid="e1" class="STATE">became</EVENT> full-fledged members of NATO, <TIMEX3 tid="t4" type="DURATION" functionInDocument="NONE" temporalFunction="true" value="PXY" beginPoint="e2" endPoint="t2">less than a decade</TIMEX3> <SIGNAL sid="s1">after</SIGNAL> 
+<EVENT eid="e2" class="OCCURRENCE">exchanging</EVENT> communist rule for democracy and <EVENT eid="e3" class="OCCURRENCE">shedding</EVENT> their Cold War 
+military ties to the Soviet Union. 
+</P>
+<P>
+	Secretary of State Madeleine Albright <EVENT eid="e4" class="OCCURRENCE">accepted</EVENT> admission papers  
+from the three countries' foreign ministers, <EVENT eid="e5" class="I_ACTION">marking</EVENT> their formal 
+<EVENT eid="e6" class="OCCURRENCE">entry</EVENT> into the 50-year-old alliance. ``Hallelujah,'' Albright 
+<EVENT eid="e7" class="REPORTING">exclaimed</EVENT>. 
+</P>
+<P>
+	``Hungary has <EVENT eid="e9" class="OCCURRENCE">come</EVENT> home. We <EVENT eid="e10" class="STATE">are</EVENT> back in the family,'' <EVENT eid="e11" class="REPORTING">said</EVENT>  
+Hungarian Foreign Minister Janos Martonyi. 
+</P>
+<P>
+	In a touch of symbolism, the <EVENT eid="e12" class="OCCURRENCE">ceremony</EVENT> <EVENT eid="e13" class="OCCURRENCE">took</EVENT> place at the Harry S.  
+Truman Library. It was <SIGNAL sid="s2">during</SIGNAL> the Truman <EVENT eid="e15" class="OCCURRENCE">presidency</EVENT> that the North 
+Atlantic Treaty Organization was <EVENT eid="e16" class="OCCURRENCE">founded</EVENT> to <EVENT eid="e17" class="ASPECTUAL">halt</EVENT> the westward 
+<EVENT eid="e82" class="OCCURRENCE">spread</EVENT> of Soviet-led communism. 
+</P>
+<P>
+	Ironically, NATO's three newest members just <TIMEX3 tid="t6" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1989-XX" anchorTimeID="t1">a decade ago</TIMEX3> <EVENT eid="e18" class="STATE">were</EVENT>  
+still under the Soviet umbrella. 
+</P>
+<P>
+	Czech Foreign Minister Jan Kavan <EVENT eid="e19" class="REPORTING">said</EVENT> he <EVENT eid="e20" class="STATE">was</EVENT> in nearby Kansas  
+City <EVENT eid="e21" class="OCCURRENCE">working</EVENT> with the anti-Soviet undergound <SIGNAL sid="s3">in</SIGNAL> <TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1968-XX">1968</TIMEX3> <SIGNAL sid="s4">when</SIGNAL> Russian 
+troops <EVENT eid="e22" class="OCCURRENCE">swept</EVENT> through Praque in the <EVENT eid="e23" class="OCCURRENCE">occupation</EVENT> of Czechoslovakia. 
+</P>
+<P>
+	``It is for me very symbolic that it is precisely here that we  
+<TIMEX3 tid="t8" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-03-12">today</TIMEX3> <EVENT eid="e24" class="OCCURRENCE">accept</EVENT> the guarantee that my country never again will <EVENT eid="e25" class="STATE">become</EVENT> 
+the powerless victim of foreign invasion,'' Kavan said. 
+</P>
+<P>
+	In <EVENT eid="e26" class="I_STATE">looking</EVENT> ahead to even greater <EVENT eid="e27" class="OCCURRENCE">expansion</EVENT> of NATO, Polish  
+Foreign Minister Bronislaw Geremek <EVENT eid="e28" class="REPORTING">said</EVENT>, ``We should <EVENT eid="e29" class="ASPECTUAL">keep</EVENT> the door 
+of the alliance open for those who have <EVENT eid="e30" class="OCCURRENCE">fought</EVENT> for freedom ... 
+Another curtain should never <EVENT eid="e31" class="OCCURRENCE">descend</EVENT> on Europe.'' 
+</P>
+<P>
+	There were 12 original members of NATO at the time of its  
+<EVENT eid="e32" class="OCCURRENCE">founding</EVENT>. <SIGNAL sid="s11">Since</SIGNAL> <TIMEX3 tid="t9" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1949-XX">1949</TIMEX3>, it has been <EVENT eid="e33" class="OCCURRENCE">expanded</EVENT> to include Greece and 
+Turkey <SIGNAL sid="s6">in</SIGNAL> <TIMEX3 tid="t10" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1952-XX">1952</TIMEX3>, Germany <SIGNAL sid="s7">in</SIGNAL> <TIMEX3 tid="t11" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1955-XX">1955</TIMEX3> and Spain <SIGNAL sid="s8">in</SIGNAL> <TIMEX3 tid="t12" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1982-XX">1982</TIMEX3>. The new 
+additions <EVENT eid="e34" class="OCCURRENCE">bring</EVENT> the total to 19 and many other hopefuls are <EVENT eid="e81" class="STATE">waiting</EVENT> 
+in the wings: Slovenia, Romania, Bulgaria, Slovakia, Lithuania, 
+Estonia and Latvia. 
+</P>
+<P>
+	Just what NATO will <EVENT eid="e35" class="OCCURRENCE">do</EVENT> with these eager applicants is not clear.  
+The issue is <EVENT eid="e36" class="I_STATE">expected</EVENT> to <EVENT eid="e37" class="OCCURRENCE">dominate</EVENT> a NATO <EVENT eid="e38" class="OCCURRENCE">summit</EVENT> set for Washington 
+<SIGNAL sid="s10">in</SIGNAL> <TIMEX3 tid="t13" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-04">April</TIMEX3>. 
+</P>
+<P>
+	NATO's mission has <EVENT eid="e39" class="OCCURRENCE">changed</EVENT> dramatically <SIGNAL sid="s12">since</SIGNAL> its <EVENT eid="e40" class="OCCURRENCE">founding</EVENT> <SIGNAL sid="s13">in</SIGNAL>  
+<TIMEX3 tid="t14" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1949-XX">1949</TIMEX3>, a time <SIGNAL sid="s14">when</SIGNAL> the West <EVENT eid="e41" class="STATE">was</EVENT> intent on <EVENT eid="e42" class="ASPECTUAL">halting</EVENT> the westward 
+<EVENT eid="e83" class="OCCURRENCE">spread</EVENT> of Soviet-led communism -- a threat Winston Churchill <EVENT eid="e43" class="I_ACTION">warned</EVENT> 
+about in his famous ``Iron Curtain'' speech <EVENT eid="e44" class="OCCURRENCE">delivered</EVENT> <SIGNAL sid="s15">on</SIGNAL> <TIMEX3 tid="t15" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1946-03-05">March 5, 
+1946</TIMEX3>, at Westminster College in Fulton, Mo., 130 miles east of 
+here. 
+</P>
+<P>
+	Now the alliance's mission is more ill-defined. NATO warplanes  
+<EVENT eid="e45" class="I_ACTION">helped</EVENT> <EVENT eid="e46" class="ASPECTUAL">end</EVENT> the <EVENT eid="e84" class="OCCURRENCE">war</EVENT> in Bosnia <TIMEX3 tid="t16" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1995" anchorTimeID="t1">almost four years ago</TIMEX3> and now are 
+<EVENT eid="e47" class="I_STATE">poised</EVENT> to <EVENT eid="e48" class="OCCURRENCE">intervene</EVENT> in Yugoslavia <SIGNAL sid="s16">should</SIGNAL> peace <EVENT eid="e49" class="OCCURRENCE">efforts</EVENT> in the 
+province of Kosovo <EVENT eid="e50" class="OCCURRENCE">fail</EVENT>. 
+</P>
+<P>
+	<TIMEX3 tid="t17" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1989-XX" anchorTimeID="t1">A decade ago</TIMEX3>, the military planning of Poland, Hungary and the  
+Czech Republic was <EVENT eid="e51" class="OCCURRENCE">built</EVENT> around the possibility of a ground assault 
+toward the west. As NATO allies, the goal <EVENT eid="e52" class="STATE">is</EVENT> much smaller armies 
+<EVENT eid="e53" class="I_STATE">capable</EVENT> of meeting a variety of contingencies. 
+</P>
+<P>
+	The State Department <EVENT eid="e54" class="REPORTING">says</EVENT> the three new members ``<EVENT eid="e55" class="I_ACTION">enhance</EVENT> NATO's  
+ability to fulfill its core mission of collective defense, <EVENT eid="e56" class="OCCURRENCE">respond</EVENT> 
+to a range of security challenges and <EVENT eid="e57" class="OCCURRENCE">reduce</EVENT> the possibility of 
+another major conflict in Europe of the kind that has <EVENT eid="e58" class="OCCURRENCE">claimed</EVENT> so 
+many American lives.'' 
+</P>
+<P>
+	NATO Secretary General Javier Solana <EVENT eid="e59" class="REPORTING">says</EVENT>, ``The <EVENT eid="e60" class="OCCURRENCE">accession</EVENT> of  
+the Czech Republic, Hungary and Poland ... is perhaps the clearest 
+<EVENT eid="e61" class="OCCURRENCE">demonstration</EVENT> of the fact that Europe is <EVENT eid="e62" class="OCCURRENCE">growing</EVENT> closer together.'' 
+</P>
+<P>
+	``<EVENT eid="e63" class="OCCURRENCE">Extending</EVENT> membership to these three democracies <EVENT eid="e64" class="I_ACTION">helps</EVENT> to  
+<EVENT eid="e65" class="OCCURRENCE">stabilize</EVENT> a region that historically has been the staging ground 
+for many of the <EVENT eid="e66" class="OCCURRENCE">disasters</EVENT> of <TIMEX3 tid="t20" type="DATE" functionInDocument="NONE" temporalFunction="true" value="P100Y" anchorTimeID="t1">this century</TIMEX3>.'' 
+</P>
+<P>
+	But many Russians -- and some Americans -- <EVENT eid="e67" class="STATE">are</EVENT> wary about the  
+eastward encroachment of NATO. Former Soviet leader Mikhail 
+Gorbachev <EVENT eid="e68" class="REPORTING">says</EVENT> the push east <EVENT eid="e69" class="I_ACTION">signifies</EVENT> a <EVENT eid="e70" class="OCCURRENCE">rejection</EVENT> of the common 
+European security system that was <EVENT eid="e71" class="OCCURRENCE">discussed</EVENT> <SIGNAL sid="s17">at</SIGNAL> the <EVENT eid="e72" class="ASPECTUAL">end</EVENT> of the Cold 
+War. 
+</P>
+<P>
+	Russian Foreign Minister Igor Ivanov <EVENT eid="e73" class="REPORTING">calls</EVENT> <EVENT eid="e74" class="OCCURRENCE">extending</EVENT> NATO  
+membership into Eastern Europe ``a <EVENT eid="e75" class="OCCURRENCE">movement</EVENT> in the wrong 
+direction.'' 
+</P>
+<P>
+	``All European states must <EVENT eid="e76" class="OCCURRENCE">cooperate</EVENT> in creating a joint  
+security system,'' he was <EVENT eid="e77" class="OCCURRENCE">quoted</EVENT> as <EVENT eid="e78" class="REPORTING">saying</EVENT>. ``All European states 
+must <EVENT eid="e79" class="OCCURRENCE">work</EVENT> together in the interests of all countries rather than of 
+separate groups.'' 
+</P>
+</TEXT>
+</BODY>
+</DOC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei2" eventID="e2" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei3" eventID="e3" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei4" eventID="e4" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei5" eventID="e5" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei6" eventID="e6" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei7" eventID="e7" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei9" eventID="e9" tense="PRESENT" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei10" eventID="e10" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei11" eventID="e11" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei12" eventID="e12" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei13" eventID="e13" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei15" eventID="e15" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei16" eventID="e16" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei17" eventID="e17" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei18" eventID="e18" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei19" eventID="e19" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei20" eventID="e20" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei21" eventID="e21" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei22" eventID="e22" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei23" eventID="e23" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei24" eventID="e24" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei25" eventID="e25" tense="FUTURE" aspect="NONE" pos="UNKNOWN" polarity="NEG"/><MAKEINSTANCE eiid="ei26" eventID="e26" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei27" eventID="e27" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei28" eventID="e28" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei29" eventID="e29" tense="PRESENT" aspect="NONE" pos="UNKNOWN" modality="should" polarity="POS"/><MAKEINSTANCE eiid="ei30" eventID="e30" tense="PAST" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei31" eventID="e31" tense="PRESENT" aspect="NONE" pos="UNKNOWN" modality="should" polarity="NEG"/><MAKEINSTANCE eiid="ei32" eventID="e32" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei33" eventID="e33" tense="PRESENT" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei34" eventID="e34" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei35" eventID="e35" tense="FUTURE" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei36" eventID="e36" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei37" eventID="e37" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei38" eventID="e38" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei39" eventID="e39" tense="PRESENT" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei40" eventID="e40" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei41" eventID="e41" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei42" eventID="e42" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei43" eventID="e43" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei44" eventID="e44" tense="NONE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei45" eventID="e45" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei46" eventID="e46" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei47" eventID="e47" tense="NONE" aspect="NONE" pos="ADJECTIVE" polarity="POS"/><MAKEINSTANCE eiid="ei48" eventID="e48" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei49" eventID="e49" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei50" eventID="e50" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei51" eventID="e51" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei52" eventID="e52" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei53" eventID="e53" tense="NONE" aspect="NONE" pos="ADJECTIVE" polarity="POS"/><MAKEINSTANCE eiid="ei54" eventID="e54" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei55" eventID="e55" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei56" eventID="e56" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei57" eventID="e57" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei58" eventID="e58" tense="PRESENT" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei59" eventID="e59" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei60" eventID="e60" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei61" eventID="e61" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei62" eventID="e62" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei63" eventID="e63" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei64" eventID="e64" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei65" eventID="e65" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei66" eventID="e66" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei67" eventID="e67" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei68" eventID="e68" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei69" eventID="e69" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei70" eventID="e70" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei71" eventID="e71" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei72" eventID="e72" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei73" eventID="e73" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei74" eventID="e74" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei75" eventID="e75" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei76" eventID="e76" tense="PRESENT" aspect="NONE" pos="UNKNOWN" modality="must" polarity="POS"/><MAKEINSTANCE eiid="ei77" eventID="e77" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei78" eventID="e78" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei79" eventID="e79" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei81" eventID="e81" tense="PRESENT" aspect="PROGRESSIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei82" eventID="e82" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei84" eventID="e83" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei85" eventID="e84" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><TLINK lid="l18" timeID="t1" relatedToEventInstance="ei1" relType="INCLUDES" origin="USER"/><TLINK lid="l19" timeID="t2" relatedToEventInstance="ei1" relType="INCLUDES" origin="USER"/><TLINK lid="l20" eventInstanceID="ei1" signalID="s1" relatedToEventInstance="ei2" relType="AFTER" origin="USER"/><TLINK lid="l21" eventInstanceID="ei2" relatedToTime="t4" relType="BEGINS" origin="USER"/><TLINK lid="l22" eventInstanceID="ei2" relatedToEventInstance="ei3" relType="SIMULTANEOUS" origin="USER"/><TLINK lid="l23" eventInstanceID="ei3" relatedToTime="t4" relType="BEGINS" origin="USER"/><TLINK lid="l24" timeID="t1" relatedToEventInstance="ei4" relType="INCLUDES" origin="USER"/><TLINK lid="l25" timeID="t1" relatedToEventInstance="ei5" relType="INCLUDES" origin="USER"/><TLINK lid="l26" timeID="t1" relatedToEventInstance="ei6" relType="INCLUDES" origin="USER"/><TLINK lid="l27" timeID="t1" relatedToEventInstance="ei7" relType="INCLUDES" origin="USER"/><TLINK lid="l28" timeID="t1" relatedToEventInstance="ei9" relType="INCLUDES" origin="USER"/><TLINK lid="l29" timeID="t1" relatedToEventInstance="ei10" relType="INCLUDES" origin="USER"/><TLINK lid="l30" timeID="t1" relatedToEventInstance="ei11" relType="INCLUDES" origin="USER"/><TLINK lid="l31" timeID="t1" relatedToEventInstance="ei12" relType="INCLUDES" origin="USER"/><TLINK lid="l32" timeID="t1" relatedToEventInstance="ei13" relType="INCLUDES" origin="USER"/><TLINK lid="l33" eventInstanceID="ei12" relatedToEventInstance="ei13" relType="IDENTITY" origin="USER"/><TLINK lid="l34" timeID="t1" relatedToEventInstance="ei15" relType="AFTER" origin="USER"/><TLINK lid="l35" timeID="t1" relatedToEventInstance="ei16" relType="AFTER" origin="USER"/><TLINK lid="l36" eventInstanceID="ei15" signalID="s2" relatedToEventInstance="ei16" relType="INCLUDES" origin="USER"/><TLINK lid="l37" timeID="t6" relatedToEventInstance="ei18" relType="INCLUDES" origin="USER"/><TLINK lid="l38" timeID="t1" relatedToEventInstance="ei19" relType="INCLUDES" origin="USER"/><TLINK lid="l39" timeID="t7" relatedToEventInstance="ei20" relType="INCLUDES" origin="USER"/><TLINK lid="l40" timeID="t7" signalID="s3" relatedToEventInstance="ei21" relType="INCLUDES" origin="USER"/><TLINK lid="l41" timeID="t7" signalID="s4" relatedToEventInstance="ei22" relType="INCLUDES" origin="USER"/><TLINK lid="l42" timeID="t7" relatedToEventInstance="ei23" relType="INCLUDES" origin="USER"/><TLINK lid="l43" timeID="t8" relatedToEventInstance="ei24" relType="INCLUDES" origin="USER"/><TLINK lid="l44" timeID="t8" relatedToEventInstance="ei25" relType="BEGINS" origin="USER"/><TLINK lid="l45" timeID="t1" relatedToEventInstance="ei26" relType="INCLUDES" origin="USER"/><TLINK lid="l46" timeID="t1" relatedToEventInstance="ei27" relType="BEGINS" origin="USER"/><TLINK lid="l47" timeID="t1" relatedToEventInstance="ei28" relType="INCLUDES" origin="USER"/><TLINK lid="l48" timeID="t1" relatedToEventInstance="ei29" relType="BEGINS" origin="USER"/><TLINK lid="l49" timeID="t1" relatedToEventInstance="ei30" relType="AFTER" origin="USER"/><TLINK lid="l50" timeID="t1" relatedToEventInstance="ei31" relType="BEGINS" origin="USER"/><TLINK lid="l51" timeID="t1" relatedToEventInstance="ei32" relType="AFTER" origin="USER"/><TLINK lid="l52" timeID="t9" signalID="s11" relatedToEventInstance="ei33" relType="BEGINS" origin="USER"/><TLINK lid="l53" timeID="t10" signalID="s6" relatedToEventInstance="ei33" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l54" timeID="t11" signalID="s7" relatedToEventInstance="ei33" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l55" timeID="t12" signalID="s8" relatedToEventInstance="ei33" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l56" timeID="t1" relatedToEventInstance="ei34" relType="INCLUDES" origin="USER"/><TLINK lid="l57" timeID="t1" relatedToEventInstance="ei81" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l58" timeID="t1" relatedToEventInstance="ei35" relType="BEFORE" origin="USER"/><TLINK lid="l59" timeID="t1" relatedToEventInstance="ei36" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l60" timeID="t13" relatedToEventInstance="ei37" relType="INCLUDES" origin="USER"/><TLINK lid="l61" timeID="t13" signalID="s10" relatedToEventInstance="ei38" relType="INCLUDES" origin="USER"/><TLINK lid="l62" timeID="t14" signalID="s13" relatedToEventInstance="ei40" relType="INCLUDES" origin="USER"/><TLINK lid="l63" eventInstanceID="ei40" signalID="s12" relatedToEventInstance="ei39" relType="BEFORE" origin="USER"/><TLINK lid="l64" timeID="t14" signalID="s14" relatedToEventInstance="ei41" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l65" timeID="t15" relatedToEventInstance="ei43" relType="INCLUDES" origin="USER"/><TLINK lid="l66" timeID="t15" signalID="s15" relatedToEventInstance="ei44" relType="INCLUDES" origin="USER"/><TLINK lid="l67" timeID="t16" relatedToEventInstance="ei45" relType="INCLUDES" origin="USER"/><TLINK lid="l68" timeID="t16" relatedToEventInstance="ei46" relType="INCLUDES" origin="USER"/><TLINK lid="l69" timeID="t16" relatedToEventInstance="ei85" relType="IAFTER" origin="USER"/><TLINK lid="l70" timeID="t1" relatedToEventInstance="ei47" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l71" timeID="t1" relatedToEventInstance="ei49" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l72" timeID="t17" relatedToEventInstance="ei51" relType="INCLUDES" origin="USER"/><TLINK lid="l73" timeID="t1" relatedToEventInstance="ei52" relType="BEGINS" origin="USER"/><TLINK lid="l74" timeID="t1" relatedToEventInstance="ei53" relType="BEFORE" origin="USER"/><TLINK lid="l75" timeID="t1" relatedToEventInstance="ei54" relType="INCLUDES" origin="USER"/><TLINK lid="l76" timeID="t1" relatedToEventInstance="ei58" relType="AFTER" origin="USER"/><TLINK lid="l77" timeID="t1" relatedToEventInstance="ei59" relType="INCLUDES" origin="USER"/><TLINK lid="l78" timeID="t1" relatedToEventInstance="ei60" relType="INCLUDES" origin="USER"/><TLINK lid="l79" eventInstanceID="ei60" relatedToEventInstance="ei61" relType="SIMULTANEOUS" origin="USER"/><TLINK lid="l80" timeID="t1" relatedToEventInstance="ei62" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l81" timeID="t1" relatedToEventInstance="ei63" relType="BEGINS" origin="USER"/><TLINK lid="l82" timeID="t1" relatedToEventInstance="ei64" relType="BEGINS" origin="USER"/><TLINK lid="l83" timeID="t20" relatedToEventInstance="ei66" relType="INCLUDES" origin="USER"/><TLINK lid="l84" timeID="t1" relatedToEventInstance="ei67" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l85" timeID="t1" relatedToEventInstance="ei68" relType="INCLUDES" origin="USER"/><TLINK lid="l86" timeID="t1" relatedToEventInstance="ei69" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l87" timeID="t1" relatedToEventInstance="ei72" relType="AFTER" origin="USER"/><TLINK lid="l88" eventInstanceID="ei72" signalID="s17" relatedToEventInstance="ei71" relType="INCLUDES" origin="USER"/><TLINK lid="l89" timeID="t1" relatedToEventInstance="ei73" relType="INCLUDES" origin="USER"/><TLINK lid="l91" timeID="t1" relatedToEventInstance="ei74" relType="INCLUDES" origin="USER"/><TLINK lid="l92" timeID="t1" relatedToEventInstance="ei76" relType="BEFORE" origin="USER"/><TLINK lid="l93" timeID="t1" relatedToEventInstance="ei77" relType="INCLUDES" origin="USER"/><TLINK lid="l94" timeID="t1" relatedToEventInstance="ei78" relType="INCLUDES" origin="USER"/><TLINK lid="l95" eventInstanceID="ei77" relatedToEventInstance="ei78" relType="IAFTER" origin="USER"/><TLINK lid="l96" timeID="t1" relatedToEventInstance="ei79" relType="BEFORE" origin="USER"/><SLINK lid="l4" eventInstanceID="ei5" subordinatedEventInstance="ei6" relType="MODAL"/><SLINK lid="l5" eventInstanceID="ei16" subordinatedEventInstance="ei17" relType="MODAL"/><SLINK lid="l6" eventInstanceID="ei26" subordinatedEventInstance="ei27" relType="MODAL"/><SLINK lid="l7" eventInstanceID="ei36" subordinatedEventInstance="ei37" relType="MODAL"/><SLINK lid="l8" eventInstanceID="ei41" subordinatedEventInstance="ei42" relType="MODAL"/><SLINK lid="l9" eventInstanceID="ei45" subordinatedEventInstance="ei46" relType="MODAL"/><SLINK lid="l10" eventInstanceID="ei47" subordinatedEventInstance="ei48" relType="MODAL"/><SLINK lid="l11" eventInstanceID="ei49" subordinatedEventInstance="ei50" signalID="s16" relType="CONDITIONAL"/><SLINK lid="l12" eventInstanceID="ei49" subordinatedEventInstance="ei50" signalID="s16" relType="CONDITIONAL"/><SLINK lid="l13" eventInstanceID="ei54" subordinatedEventInstance="ei55" relType="EVIDENTIAL"/><SLINK lid="l14" eventInstanceID="ei54" subordinatedEventInstance="ei56" relType="EVIDENTIAL"/><SLINK lid="l15" eventInstanceID="ei54" subordinatedEventInstance="ei57" relType="EVIDENTIAL"/><SLINK lid="l16" eventInstanceID="ei64" subordinatedEventInstance="ei65" relType="MODAL"/><SLINK lid="l17" eventInstanceID="ei69" subordinatedEventInstance="ei70" relType="MODAL"/><SLINK lid="l90" eventInstanceID="ei73" subordinatedEventInstance="ei75" relType="EVIDENTIAL"/><SLINK lid="l97" eventInstanceID="ei78" subordinatedEventInstance="ei76" relType="EVIDENTIAL"/><SLINK lid="l98" eventInstanceID="ei78" subordinatedEventInstance="ei79" relType="EVIDENTIAL"/><ALINK lid="l1" eventInstanceID="ei17" relatedToEventInstance="ei82" relType="TERMINATES"/><ALINK lid="l2" eventInstanceID="ei42" relatedToEventInstance="ei84" relType="TERMINATES"/><ALINK lid="l3" eventInstanceID="ei46" relatedToEventInstance="ei85" relType="TERMINATES"/></TimeML>

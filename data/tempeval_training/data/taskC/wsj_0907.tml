@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891026-0152 
+ = 891026 
+ 891026-0152. 
+ Chandler Insurance Earnings 
+ <TIMEX3 tid="t21" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CHANF 
+ GRAND CAYMAN, Cayman Islands  
+
+   <s>Chandler Insurance Co. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e4" mainevent="NO" class="REPORTING" stem="report" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">report</EVENT> <TIMEX3 tid="t22" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">third-quarter</TIMEX3> net income <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="jump" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">jumped</EVENT> 97% to $2.8 million, or 51 cents a share.</s> 
+
+   <s>In <TIMEX3 tid="t60" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t22">the year-earlier quarter</TIMEX3>, the automobile and trucking insurer <EVENT eid="e6" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e25" mainevent="NO" class="STATE" stem="earnings" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">earnings</EVENT> of $1.4 million, or 48 cents a share on a restated basis, on revenue of $16.5 million.</s> 
+<s>In an <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="interview" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">interview</EVENT>, W. Brent LeGere, chairman and chief executive officer, <EVENT eid="e8" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> he <EVENT eid="e9" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> revenue in <TIMEX3 tid="t26" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">the latest quarter</TIMEX3> to <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="total" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">total</EVENT> about $28 million.</s> 
+<s>The earnings-per-share figures reflect a 25% stock <EVENT eid="e29" mainevent="YES" class="OCCURRENCE" stem="dividend" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">dividend</EVENT> in <TIMEX3 tid="t31" type="DATE" value="1989-06" temporalFunction="false" functionInDocument="NONE">June 1989</TIMEX3>.</s> 
+
+   <s>Mr. LeGere <EVENT eid="e14" mainevent="YES" class="I_ACTION" stem="attribute" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">attributed</EVENT> the earnings <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">increase</EVENT> to <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> in the company's longhaul trucking insurance lines and the <EVENT eid="e32" mainevent="NO" class="I_STATE" stem="ability" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">ability</EVENT> to <EVENT eid="e20" mainevent="NO" class="ASPECTUAL" stem="keep" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">keep</EVENT> premium rates <EVENT eid="e33" mainevent="NO" class="STATE" stem="firm" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">firm</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e14" eventID="e29" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e8" eventID="e6" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e6" eventID="e1" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e29" eventID="e8" task="C"/>
+
+</TempEval>

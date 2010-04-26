@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891102-0026 
+ = 891102 
+ 891102-0026. 
+ Marketing Brief -- Heritage Media Corp.:
+@  Firm to Buy Rest of Shares
+@  Of POP Radio in a Swap 
+ <TIMEX3 tid="t25" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ HTG POPX 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Heritage Media Corp., New York, <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="I_ACTION" stem="offer" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">offered</EVENT>  to <EVENT eid="e3" class="OCCURRENCE" stem="buy" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">buy</EVENT> the shares of POP Radio Corp. it  does n't  already own in a stock <EVENT eid="e6" class="OCCURRENCE" stem="swap" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">swap</EVENT>.</s> 
+
+   <s>Heritage, which owns 51% of POP's 3.6 million shares outstanding, <EVENT eid="e9" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it  will <EVENT eid="e10" class="OCCURRENCE" stem="exchange" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">exchange</EVENT> one share of a new preferred stock for each POP common share it  does n't  already own.</s> 
+<s>Depending upon how many warrants and options  are <EVENT eid="e14" class="OCCURRENCE" stem="exercise" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">exercised</EVENT> prior to <EVENT eid="e29" class="ASPECTUAL" stem="completion" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">completion</EVENT> of the <EVENT eid="e30" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT>, Heritage would <EVENT eid="e15" class="OCCURRENCE" stem="issue" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">issue</EVENT> between 1.8 million and 2.35 million preferred shares, a Heritage spokesman <EVENT eid="e17" class="REPORTING" stem="estimate" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">estimated</EVENT>.</s> 
+<s>In national over-the-counter trading <TIMEX3 tid="t27" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t25">yesterday</TIMEX3>, POP <EVENT eid="e18" class="OCCURRENCE" stem="plunge" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">plunged</EVENT> $4 to $14.75.</s> 
+
+   <s>The preferred stock, which would have a dividend rate of $1.76 a year, would be convertible into Heritage common at a rate of four common shares for each preferred.</s> 
+<s>New York-based POP Radio <EVENT eid="e20" class="OCCURRENCE" stem="provide" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">provides</EVENT>, through a national, in-store network, a customized music, information and advertising service which <EVENT eid="e21" class="OCCURRENCE" stem="simulate" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">simulates</EVENT> live radio.</s> 
+<s>Heritage owns and <EVENT eid="e32" class="OCCURRENCE" stem="operate" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">operates</EVENT> television and radio stations and in-store advertising and promotion programs.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t25" task="B"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t25" task="B"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e3" relatedToTime="t25" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e9" relatedToTime="t25" task="B"/>
+</TempEval>

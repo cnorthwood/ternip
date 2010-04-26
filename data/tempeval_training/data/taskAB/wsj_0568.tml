@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891030-0132 
+ = 891030 
+ 891030-0132. 
+ Unisys' $648.2 Million 3rd-Period Loss
+@  Shows Intensified Fight for Turnaround
+@  ----
+@  By Paul B. Carroll
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t208" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ UIS 
+ EARNINGS (ERN)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR) 
+
+   <s>Unisys Corp.'s <EVENT eid="e1" class="I_ACTION" stem="announcement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">announcement</EVENT> <TIMEX3 tid="t209" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">Friday</TIMEX3> of a $648.2 million <EVENT eid="e2" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> for <TIMEX3 tid="t211" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">the third quarter</TIMEX3> showed that the company is <EVENT eid="e212" class="OCCURRENCE" stem="move" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">moving</EVENT> even faster than <EVENT eid="e5" class="I_STATE" stem="expect" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e7" class="OCCURRENCE" stem="take" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">take</EVENT> <EVENT eid="e2065" class="OCCURRENCE" stem="write-off" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">write-offs</EVENT> on its various problems and <EVENT eid="e9" class="I_ACTION" stem="prepare" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">prepare</EVENT> for a <EVENT eid="e213" class="OCCURRENCE" stem="turnaround" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">turnaround</EVENT> <TIMEX3 tid="t214" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">next year</TIMEX3>.</s> 
+
+   <s>At the same time, the sheer size of the <EVENT eid="e11" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT>, coupled with a slowing of <EVENT eid="e13" class="OCCURRENCE" stem="order" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">orders</EVENT>, <EVENT eid="e14" class="OCCURRENCE" stem="make" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">made</EVENT> some securities analysts <EVENT eid="e16" class="I_STATE" stem="wonder" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">wonder</EVENT> just how <EVENT eid="e216" class="STATE" stem="strong" aspect="NONE" tense="FUTURE" polarity="POS" pos="ADJECTIVE">strong</EVENT> that turnaround will be at the computer maker and defense-electronics concern.</s> 
+
+   <s>"Unisys is <EVENT eid="e17" class="I_STATE" stem="get" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">getting</EVENT> <EVENT eid="e18" class="STATE" stem="clobber" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">clobbered</EVENT>.</s> 
+<s>Just clobbered," <EVENT eid="e20" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Ulric Weil, an analyst at Weil amp Associates who had once been <EVENT eid="e2785" class="STATE" stem="high" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="ADJECTIVE">high</EVENT> on the company.</s> 
+<s>"The quarter was terrible, and the future looks anything but encouraging."</s> 
+
+   <s>Unisys, whose revenue <EVENT eid="e22" class="OCCURRENCE" stem="inch" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">inched</EVENT> up 3.7% in <TIMEX3 tid="t2135" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t211">the quarter</TIMEX3> to <EVENT eid="e2786" class="STATE" stem="$2.35" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$2.35</EVENT> billion from <EVENT eid="e2787" class="STATE" stem="$2.27" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$2.27</EVENT> billion in <TIMEX3 tid="t225" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t211">the year-earlier quarter</TIMEX3>, <EVENT eid="e226" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> an operating <EVENT eid="e23" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of about $30 million.</s> 
+<s>On top of that, the Blue Bell, Pa., concern <EVENT eid="e24" class="OCCURRENCE" stem="take" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">took</EVENT> a $230 million <EVENT eid="e227" class="OCCURRENCE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charge</EVENT> related to the <EVENT eid="e26" class="OCCURRENCE" stem="layoff" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">layoffs</EVENT> of 8,000 employees.</s> 
+<s>That is at the high end of the range of 7,000 to 8,000 employees that Unisys <EVENT eid="e28" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t228" type="DATE" value="1989-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">a month ago</TIMEX3> would be <EVENT eid="e29" class="STATE" stem="lay" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">laid</EVENT> off.</s> 
+<s>Unisys <EVENT eid="e31" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that should <EVENT eid="e32" class="I_STATE" stem="help" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">help</EVENT> it <EVENT eid="e34" class="OCCURRENCE" stem="save" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">save</EVENT> $500 million a year in costs, again at the high end of the previously <EVENT eid="e230" class="REPORTING" stem="report" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">reported</EVENT> range of $400 million to $500 million.</s> 
+
+   <s>The company also <EVENT eid="e37" class="OCCURRENCE" stem="take" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">took</EVENT> a <EVENT eid="e38" class="OCCURRENCE" stem="write-off" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">write-off</EVENT> of $150 million to <EVENT eid="e40" class="OCCURRENCE" stem="cover" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">cover</EVENT> <EVENT eid="e229" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">losses</EVENT> on some fixed-price defense contracts, as some new managers <EVENT eid="e43" class="OCCURRENCE" stem="take" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">took</EVENT> a hard <EVENT eid="e44" class="OCCURRENCE" stem="look" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">look</EVENT> at the prospects for that slow-growing <EVENT eid="e45" class="OCCURRENCE" stem="business" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">business</EVENT>.</s> 
+<s>In addition, Unisys <EVENT eid="e47" class="OCCURRENCE" stem="set" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">set</EVENT> up an unspecified reserve -- apparently $60 million to $70 million -- to <EVENT eid="e49" class="OCCURRENCE" stem="cover" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">cover</EVENT> the minimum amount it will have to <EVENT eid="e52" class="OCCURRENCE" stem="pay" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">pay</EVENT> the government because of its <EVENT eid="e53" class="OCCURRENCE" stem="involvement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">involvement</EVENT> in the defense-procurement <EVENT eid="e54" class="OCCURRENCE" stem="scandal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">scandal</EVENT>.</s> 
+<s>Unisys also <EVENT eid="e56" class="REPORTING" stem="note" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">noted</EVENT> that it <EVENT eid="e57" class="OCCURRENCE" stem="pay" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">paid</EVENT> $78.8 million in taxes during <TIMEX3 tid="t235" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t211">the quarter</TIMEX3>, even though tax payments normally would be minimal in a quarter that produced such a big loss.</s> 
+
+   <s>The tax <EVENT eid="e63" class="OCCURRENCE" stem="payment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">payments</EVENT> will <EVENT eid="e64" class="OCCURRENCE" stem="leave" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">leave</EVENT> Unisys with $225 million in loss carry-forwards that will <EVENT eid="e67" class="ASPECTUAL" stem="cut" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">cut</EVENT> tax <EVENT eid="e68" class="OCCURRENCE" stem="payment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">payments</EVENT> in <TIMEX3 tid="t237" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">future quarters</TIMEX3>.</s> 
+<s>In addition, Unisys <EVENT eid="e70" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2328" class="OCCURRENCE" stem="reduce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reduced</EVENT> computer inventories a further $100 million during <TIMEX3 tid="t239" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t211">the quarter</TIMEX3>, <EVENT eid="e73" class="OCCURRENCE" stem="leave" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">leaving</EVENT> it within $100 million of its <EVENT eid="e240" class="I_STATE" stem="goal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">goal</EVENT> of a <EVENT eid="e241" class="STATE" stem="reduction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">reduction</EVENT> of $500 million by <TIMEX3 tid="t243" type="DATE" value="1989" mod="END" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">the end of the year</TIMEX3>.</s> 
+
+   <s>Still, Unisys <EVENT eid="e76" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> its European business was <EVENT eid="e244" class="STATE" stem="weak" aspect="NONE" tense="PAST" polarity="POS" pos="ADJECTIVE">weak</EVENT> during <TIMEX3 tid="t246" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t211">the quarter</TIMEX3>, a worrisome sign given that the company has <EVENT eid="e80" class="I_STATE" stem="rely" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">relied</EVENT> on solid results overseas to <EVENT eid="e84" class="I_ACTION" stem="overcome" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">overcome</EVENT> <EVENT eid="e247" class="STATE" stem="weakness" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">weakness</EVENT> in the U.S. over <TIMEX3 tid="t249" type="DATE" value="PAST_REF" temporalFunction="false" functionInDocument="NONE">the past several quarters</TIMEX3>.</s> 
+
+   <s>The company also <EVENT eid="e85" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> slower <EVENT eid="e250" class="STATE" stem="growth" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">growth</EVENT> in another important business: systems that use the Unix operating system.</s> 
+<s>That would be a huge <EVENT eid="e2410" class="STATE" stem="problem" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">problem</EVENT> if it were to <EVENT eid="e2409" class="ASPECTUAL" stem="continue" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">continue</EVENT>, because Unisys is <EVENT eid="e2405" class="OCCURRENCE" stem="bet" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">betting</EVENT> its business on the <EVENT eid="e2406" class="I_STATE" stem="assumption" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">assumption</EVENT> that customers <EVENT eid="e2407" class="I_STATE" stem="want" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">want</EVENT> to <EVENT eid="e2408" class="OCCURRENCE" stem="move" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">move</EVENT> away from using operating systems that run on only one manufacturer's equipment and toward systems -- mainly Unix -- that work on almost anyone's machines.</s> 
+
+   <s>In addition, Unisys must <EVENT eid="e105" class="I_ACTION" stem="deal" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">deal</EVENT> with its increasingly oppressive debt <EVENT eid="e253" class="STATE" stem="load" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">load</EVENT>.</s> 
+<s>Debt has <EVENT eid="e107" class="OCCURRENCE" stem="rise" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">risen</EVENT> to around <EVENT eid="e2788" class="STATE" stem="$4" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$4</EVENT> billion, or about 50% of total capitalization.</s> 
+<s>That means Unisys must <EVENT eid="e110" class="OCCURRENCE" stem="pay" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">pay</EVENT> about $100 million in interest <TIMEX3 tid="t256" type="SET" value="P1Q" temporalFunction="false" functionInDocument="NONE" quant="every">every quarter</TIMEX3>, on top of $27 million in dividends on preferred stock.</s> 
+
+   <s>Jim Unruh, Unisys's president, <EVENT eid="e115" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> he is <EVENT eid="e116" class="OCCURRENCE" stem="approach" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">approaching</EVENT> next year with caution.</s> 
+<s>He <EVENT eid="e118" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the strength of the world-wide economy is <EVENT eid="e1991" class="STATE" stem="suspect" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">suspect</EVENT>, and does n't see much revenue growth in the cards.</s> 
+
+   <s>He also <EVENT eid="e124" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that the price wars <EVENT eid="e126" class="OCCURRENCE" stem="flare" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">flaring</EVENT> up in parts of the computer industry will <EVENT eid="e128" class="ASPECTUAL" stem="continue" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">continue</EVENT> through <TIMEX3 tid="t259" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">next year</TIMEX3>.</s> 
+<s>He <EVENT eid="e129" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e1992" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">move</EVENT> toward standard operating systems means customers are n't <EVENT eid="e1993" class="OCCURRENCE" stem="locked" aspect="NONE" tense="PRESENT" polarity="NEG" pos="ADJECTIVE">locked</EVENT> into buying from their traditional computer supplier and can force prices down.</s> 
+<s>That, he <EVENT eid="e138" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>, is why Unisys is <EVENT eid="e139" class="OCCURRENCE" stem="overhaul" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">overhauling</EVENT> its whole business: It <EVENT eid="e141" class="I_STATE" stem="need" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">needs</EVENT> to <EVENT eid="e143" class="OCCURRENCE" stem="prepare" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">prepare</EVENT> for a world in which profit margins will be <EVENT eid="e1995" class="STATE" stem="lower" aspect="NONE" tense="FUTURE" polarity="POS" pos="ADJECTIVE">lower</EVENT> than computer companies have been <EVENT eid="e145" class="OCCURRENCE" stem="use" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">used</EVENT> to.</s> 
+
+   <s>"We've <EVENT eid="e146" class="OCCURRENCE" stem="approach" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">approached</EVENT> this not as a response to a temporary condition in the industry but as a fundamental change the industry is going through," Mr. Unruh <EVENT eid="e152" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>"The information-systems industry is still going to be a high-growth <EVENT eid="e1997" class="STATE" stem="business" aspect="NONE" tense="FUTURE" polarity="POS" pos="NOUN">business</EVENT>, and we're <EVENT eid="e1996" class="I_STATE" stem="confident" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">confident</EVENT> that we <EVENT eid="e157" class="STATE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">have</EVENT> tremendous assets as a company.</s> 
+<s>But we do n't <EVENT eid="e158" class="I_STATE" stem="minimize" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">minimize</EVENT> the <EVENT eid="e160" class="OCCURRENCE" stem="challenge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">challenges</EVENT> of <TIMEX3 tid="t1998" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">the near term</TIMEX3>."</s> 
+
+   <s>Securities analysts were even more <EVENT eid="e1999" class="STATE" stem="cautious" aspect="NONE" tense="PAST" polarity="POS" pos="ADJECTIVE">cautious</EVENT>, having been <EVENT eid="e162" class="OCCURRENCE" stem="burn" aspect="PERFECTIVE" tense="PASTPART" polarity="POS" pos="VERB">burned</EVENT> repeatedly on Unisys <TIMEX3 tid="t2000" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">this year</TIMEX3>.</s> 
+<s>Some had <EVENT eid="e163" class="I_ACTION" stem="predict" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">predicted</EVENT> <EVENT eid="e2784" class="OCCURRENCE" stem="earnings" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">earnings</EVENT> of more than <EVENT eid="e2789" class="STATE" stem="$4" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$4</EVENT> a share for <TIMEX3 tid="t2003" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">this year</TIMEX3>, up from <TIMEX3 tid="t2008" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">last year</TIMEX3>'s fully diluted <EVENT eid="e2790" class="STATE" stem="$3.27" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$3.27</EVENT> a share on earnings of $680.6 million.</s> 
+<s>But the company <EVENT eid="e165" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t2009" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">Friday</TIMEX3> that it <EVENT eid="e166" class="OCCURRENCE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e2010" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">losses</EVENT> of $673.3 million through <TIMEX3 tid="t2012" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" endPoint="t208">the first nine months</TIMEX3>, compared with <EVENT eid="e2015" class="STATE" stem="earnings" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">earnings</EVENT> <TIMEX3 tid="t2013" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">a year</TIMEX3> earlier of $382.2 million, or $2.22 a share fully diluted, as revenue <EVENT eid="e169" class="OCCURRENCE" stem="inch" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">inched</EVENT> up 1.4% to <EVENT eid="e2791" class="STATE" stem="$7.13" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$7.13</EVENT> billion from <EVENT eid="e2792" class="STATE" stem="$7.03" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$7.03</EVENT> billion.</s> 
+<s>And Unisys is <EVENT eid="e170" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e172" class="OCCURRENCE" stem="do" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">do</EVENT> little better than break even in <TIMEX3 tid="t2021" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">the fourth quarter</TIMEX3>.</s> 
+
+   <s>So Steve Milunovich at First Boston <EVENT eid="e174" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> he is <EVENT eid="e175" class="OCCURRENCE" stem="cut" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">cutting</EVENT> his <EVENT eid="e2710" class="STATE" stem="earnings" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">earnings</EVENT> <EVENT eid="e2709" class="I_STATE" stem="estimate" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">estimate</EVENT> for <TIMEX3 tid="t2022" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">next year</TIMEX3> to <EVENT eid="e2793" class="STATE" stem="$2" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$2</EVENT> a share from <EVENT eid="e2027" class="STATE" stem="$3" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$3</EVENT>.</s> 
+<s>"I was feeling like I was too high to begin with," he said.</s> 
+
+   <s>Mr. Weil of Weil amp Associates <EVENT eid="e180" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> he will <EVENT eid="e181" class="STATE" stem="remain" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">remain</EVENT> at $1 a share for <TIMEX3 tid="t2029" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">next year</TIMEX3> but <EVENT eid="e182" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> he <EVENT eid="e183" class="I_STATE" stem="wonder" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">wonders</EVENT> whether even that low target is <EVENT eid="e2794" class="STATE" stem="at" aspect="NONE" tense="PRESENT" polarity="POS" pos="PREPOSITION">at</EVENT> risk.</s> 
+<s>"The break-even point for <TIMEX3 tid="t2034" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">next year</TIMEX3> is much <EVENT eid="e2032" class="STATE" stem="lower" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">lower</EVENT>, but is it <EVENT eid="e2795" class="STATE" stem="low" aspect="NONE" tense="PRESENT" polarity="POS" pos="OTHER">low</EVENT> enough?" he <EVENT eid="e187" class="I_ACTION" stem="ask" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">asked</EVENT>.</s> 
+
+   <s>Reflecting the <EVENT eid="e2035" class="STATE" stem="concern" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">concern</EVENT>, Unisys stock <EVENT eid="e189" class="OCCURRENCE" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> a further 75 cents to <EVENT eid="e2036" class="STATE" stem="$16.25" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="OTHER">$16.25</EVENT> in composite trading <TIMEX3 tid="t2038" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t208">Friday</TIMEX3> on the New York Stock Exchange.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t214" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e2" relatedToTime="t211" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e2" relatedToTime="t209" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e5" relatedToTime="t214" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e5" relatedToTime="t211" task="A"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e5" relatedToTime="t209" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e212" relatedToTime="t214" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e212" relatedToTime="t211" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e212" relatedToTime="t209" task="A"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e7" relatedToTime="t214" task="A"/>
+<TLINK lid="l11" relType="AFTER" eventID="e7" relatedToTime="t211" task="A"/>
+<TLINK lid="l12" relType="AFTER" eventID="e7" relatedToTime="t209" task="A"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e23" relatedToTime="t2135" task="A"/>
+<TLINK lid="l14" relType="AFTER" eventID="e23" relatedToTime="t225" task="A"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e226" relatedToTime="t2135" task="A"/>
+<TLINK lid="l16" relType="AFTER" eventID="e226" relatedToTime="t225" task="A"/>
+<TLINK lid="l17" relType="OVERLAP" eventID="e28" relatedToTime="t228" task="A"/>
+<TLINK lid="l18" relType="OVERLAP" eventID="e57" relatedToTime="t235" task="A"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e64" relatedToTime="t237" task="A"/>
+<TLINK lid="l20" relType="AFTER" eventID="e70" relatedToTime="t239" task="A"/>
+<TLINK lid="l21" relType="AFTER" eventID="e70" relatedToTime="t243" task="A"/>
+<TLINK lid="l22" relType="OVERLAP" eventID="e73" relatedToTime="t239" task="A"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e73" relatedToTime="t243" task="A"/>
+<TLINK lid="l24" relType="AFTER" eventID="e76" relatedToTime="t249" task="A"/>
+<TLINK lid="l25" relType="AFTER" eventID="e76" relatedToTime="t246" task="A"/>
+<TLINK lid="l26" relType="OVERLAP" eventID="e110" relatedToTime="t256" task="A"/>
+<TLINK lid="l27" relType="OVERLAP" eventID="e128" relatedToTime="t259" task="A"/>
+<TLINK lid="l28" relType="BEFORE" eventID="e124" relatedToTime="t259" task="A"/>
+<TLINK lid="l29" relType="OVERLAP" eventID="e2010" relatedToTime="t2013" task="A"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e2010" relatedToTime="t2009" task="A"/>
+<TLINK lid="l31" relType="OVERLAP" eventID="e2010" relatedToTime="t2012" task="A"/>
+<TLINK lid="l32" relType="AFTER" eventID="e166" relatedToTime="t2013" task="A"/>
+<TLINK lid="l33" relType="BEFORE" eventID="e166" relatedToTime="t2009" task="A"/>
+<TLINK lid="l34" relType="OVERLAP" eventID="e166" relatedToTime="t2012" task="A"/>
+<TLINK lid="l35" relType="AFTER" eventID="e165" relatedToTime="t2013" task="A"/>
+<TLINK lid="l36" relType="OVERLAP" eventID="e165" relatedToTime="t2009" task="A"/>
+<TLINK lid="l37" relType="AFTER" eventID="e165" relatedToTime="t2012" task="A"/>
+<TLINK lid="l38" relType="BEFORE" eventID="e170" relatedToTime="t2021" task="A"/>
+<TLINK lid="l39" relType="BEFORE" eventID="e174" relatedToTime="t2022" task="A"/>
+<TLINK lid="l40" relType="BEFORE" eventID="e182" relatedToTime="t2029" task="A"/>
+<TLINK lid="l41" relType="OVERLAP" eventID="e181" relatedToTime="t2029" task="A"/>
+<TLINK lid="l42" relType="BEFORE" eventID="e180" relatedToTime="t2029" task="A"/>
+<TLINK lid="l43" relType="OVERLAP" eventID="e189" relatedToTime="t2038" task="A"/>
+<TLINK lid="l44" relType="BEFORE" eventID="e2" relatedToTime="t208" task="B"/>
+<TLINK lid="l45" relType="BEFORE" eventID="e5" relatedToTime="t208" task="B"/>
+<TLINK lid="l46" relType="OVERLAP" eventID="e212" relatedToTime="t208" task="B"/>
+<TLINK lid="l47" relType="AFTER" eventID="e7" relatedToTime="t208" task="B"/>
+<TLINK lid="l48" relType="BEFORE" eventID="e14" relatedToTime="t208" task="B"/>
+<TLINK lid="l49" relType="BEFORE" eventID="e11" relatedToTime="t208" task="B"/>
+<TLINK lid="l50" relType="BEFORE" eventID="e20" relatedToTime="t208" task="B"/>
+<TLINK lid="l51" relType="BEFORE" eventID="e23" relatedToTime="t208" task="B"/>
+<TLINK lid="l52" relType="BEFORE" eventID="e226" relatedToTime="t208" task="B"/>
+<TLINK lid="l53" relType="BEFORE" eventID="e227" relatedToTime="t208" task="B"/>
+<TLINK lid="l54" relType="BEFORE" eventID="e24" relatedToTime="t208" task="B"/>
+<TLINK lid="l55" relType="BEFORE" eventID="e28" relatedToTime="t208" task="B"/>
+<TLINK lid="l56" relType="BEFORE" eventID="e230" relatedToTime="t208" task="B"/>
+<TLINK lid="l57" relType="BEFORE" eventID="e31" relatedToTime="t208" task="B"/>
+<TLINK lid="l58" relType="OVERLAP" eventID="e32" relatedToTime="t208" task="B"/>
+<TLINK lid="l59" relType="BEFORE" eventID="e37" relatedToTime="t208" task="B"/>
+<TLINK lid="l60" relType="BEFORE" eventID="e229" relatedToTime="t208" task="B"/>
+<TLINK lid="l61" relType="BEFORE" eventID="e43" relatedToTime="t208" task="B"/>
+<TLINK lid="l62" relType="AFTER" eventID="e52" relatedToTime="t208" task="B"/>
+<TLINK lid="l63" relType="BEFORE" eventID="e47" relatedToTime="t208" task="B"/>
+<TLINK lid="l64" relType="BEFORE" eventID="e57" relatedToTime="t208" task="B"/>
+<TLINK lid="l65" relType="AFTER" eventID="e64" relatedToTime="t208" task="B"/>
+<TLINK lid="l66" relType="BEFORE" eventID="e70" relatedToTime="t208" task="B"/>
+<TLINK lid="l67" relType="BEFORE" eventID="e73" relatedToTime="t208" task="B"/>
+<TLINK lid="l68" relType="BEFORE" eventID="e76" relatedToTime="t208" task="B"/>
+<TLINK lid="l69" relType="BEFORE" eventID="e85" relatedToTime="t208" task="B"/>
+<TLINK lid="l70" relType="AFTER" eventID="e2408" relatedToTime="t208" task="B"/>
+<TLINK lid="l71" relType="AFTER" eventID="e2407" relatedToTime="t208" task="B"/>
+<TLINK lid="l72" relType="OVERLAP" eventID="e2409" relatedToTime="t208" task="B"/>
+<TLINK lid="l73" relType="BEFORE" eventID="e107" relatedToTime="t208" task="B"/>
+<TLINK lid="l74" relType="OVERLAP" eventID="e110" relatedToTime="t208" task="B"/>
+<TLINK lid="l75" relType="BEFORE" eventID="e115" relatedToTime="t208" task="B"/>
+<TLINK lid="l76" relType="BEFORE" eventID="e118" relatedToTime="t208" task="B"/>
+<TLINK lid="l77" relType="AFTER" eventID="e128" relatedToTime="t208" task="B"/>
+<TLINK lid="l78" relType="BEFORE" eventID="e124" relatedToTime="t208" task="B"/>
+<TLINK lid="l79" relType="BEFORE" eventID="e129" relatedToTime="t208" task="B"/>
+<TLINK lid="l80" relType="BEFORE" eventID="e1992" relatedToTime="t208" task="B"/>
+<TLINK lid="l81" relType="BEFORE" eventID="e138" relatedToTime="t208" task="B"/>
+<TLINK lid="l82" relType="OVERLAP" eventID="e145" relatedToTime="t208" task="B"/>
+<TLINK lid="l83" relType="BEFORE" eventID="e152" relatedToTime="t208" task="B"/>
+<TLINK lid="l84" relType="OVERLAP" eventID="e157" relatedToTime="t208" task="B"/>
+<TLINK lid="l85" relType="BEFORE" eventID="e2010" relatedToTime="t208" task="B"/>
+<TLINK lid="l86" relType="BEFORE" eventID="e166" relatedToTime="t208" task="B"/>
+<TLINK lid="l87" relType="BEFORE" eventID="e165" relatedToTime="t208" task="B"/>
+<TLINK lid="l88" relType="OVERLAP" eventID="e170" relatedToTime="t208" task="B"/>
+<TLINK lid="l89" relType="BEFORE" eventID="e174" relatedToTime="t208" task="B"/>
+<TLINK lid="l90" relType="BEFORE" eventID="e182" relatedToTime="t208" task="B"/>
+<TLINK lid="l91" relType="AFTER" eventID="e181" relatedToTime="t208" task="B"/>
+<TLINK lid="l92" relType="BEFORE" eventID="e180" relatedToTime="t208" task="B"/>
+<TLINK lid="l93" relType="BEFORE" eventID="e189" relatedToTime="t208" task="B"/>
+</TempEval>

@@ -1,0 +1,264 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891027-0114 
+ = 891027 
+ 891027-0114. 
+ Chip by Intel
+@  Contains Flaw
+@  In Calculating
+@  ---
+@  `Bugs' Could Stall Makers
+@  Of Certain Computers;
+@  Most Users Unaffected
+@  ----
+@  By Stephen Kreider Yoder
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t277" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ INTC IBM CPQ 
+ SEMICONDUCTORS, INTEGRATED CHIPS (SEM)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR) 
+
+   <s>Intel Corp.'s most powerful computer chip <EVENT eid="e1" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> flaws that could <EVENT eid="e2" mainevent="NO" class="I_ACTION" stem="delay" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">delay</EVENT> several computer makers' marketing <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="effort" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">efforts</EVENT>, but the "bugs" are n't <EVENT eid="e5" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">expected</EVENT> to <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="hurt" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">hurt</EVENT> Intel and most computer makers.</s> 
+
+   <s>Computer experts familiar with the flaws, found in Intel's 80486 chip, <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> the defects do n't <EVENT eid="e11" mainevent="NO" class="STATE" stem="affect" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">affect</EVENT> the average user and are likely to be <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="clear" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">cleared</EVENT> up before most computers using the chip as their "brains" <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="appear" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">appear</EVENT> on the market <TIMEX3 tid="t278" type="DATE" value="1990-XX-XX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">sometime next year</TIMEX3>.</s> 
+
+   <s>Intel <EVENT eid="e19" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> that <TIMEX3 tid="t279" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">last week</TIMEX3> a customer <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="discover" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">discovered</EVENT> two <EVENT eid="e373" mainevent="NO" class="STATE" stem="flaw" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">flaws</EVENT> in its 80486 microprocessor chip's "floating-point unit", a set of circuits that do certain calculations.</s> 
+<s>On <TIMEX3 tid="t280" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">Friday</TIMEX3>, Intel <EVENT eid="e24" mainevent="YES" class="ASPECTUAL" stem="begin" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">began</EVENT> <EVENT eid="e25" mainevent="NO" class="I_ACTION" stem="notify" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">notifying</EVENT> customers about the <EVENT eid="e404" mainevent="NO" class="STATE" stem="bug" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bugs</EVENT> which <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="cause" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">cause</EVENT> the chip to <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="give" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">give</EVENT> wrong <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="answer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">answers</EVENT> for some mathematical calculations.</s> 
+
+   <s>But while International Business Machines Corp. and Compaq Computer Corp. <EVENT eid="e32" mainevent="NO" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> the bugs will <EVENT eid="e33" mainevent="NO" class="I_ACTION" stem="delay" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">delay</EVENT> <EVENT eid="e231" mainevent="NO" class="OCCURRENCE" stem="product" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">products</EVENT>, most big computer makers <EVENT eid="e34" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the flaws do n't <EVENT eid="e35" mainevent="NO" class="STATE" stem="affect" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">affect</EVENT> them.</s> 
+<s>"Bugs like this are just a normal <EVENT eid="e233" mainevent="NO" class="STATE" stem="part" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">part</EVENT> of product development," <EVENT eid="e38" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Richard Archuleta, director of Hewlett-Packard Co.'s advanced systems development.</s> 
+<s>Hewlett <EVENT eid="e41" mainevent="YES" class="I_ACTION" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> <TIMEX3 tid="t281" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">last week</TIMEX3> that it <EVENT eid="e42" mainevent="NO" class="I_STATE" stem="plan" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">planned</EVENT> to <EVENT eid="e44" mainevent="NO" class="OCCURRENCE" stem="ship" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">ship</EVENT> a computer based on the 486 chip <TIMEX3 tid="t282" type="DATE" value="1990" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">early next year</TIMEX3>.</s> 
+<s>"These bugs do n't <EVENT eid="e46" mainevent="NO" class="STATE" stem="affect" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">affect</EVENT> our schedule at all," he <EVENT eid="e49" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Likewise, AST Research Inc. and Sun Microsystems Inc. <EVENT eid="e50" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the bugs wo n't <EVENT eid="e51" mainevent="NO" class="I_ACTION" stem="delay" tense="FUTURE" aspect="NONE" polarity="NEG" pos="VERB">delay</EVENT> their <EVENT eid="e53" mainevent="NO" class="OCCURRENCE" stem="development" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">development</EVENT> of 486-based machines.</s> 
+<s>"We have n't <EVENT eid="e54" mainevent="NO" class="OCCURRENCE" stem="modify" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">modified</EVENT> our schedules in any way," <EVENT eid="e59" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> a Sun spokesman.</s> 
+<s>To <EVENT eid="e61" mainevent="NO" class="OCCURRENCE" stem="switch" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">switch</EVENT> to another vendor's chips, "would not definitely be an <EVENT eid="e64" mainevent="NO" class="STATE" stem="option" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">option</EVENT>," he <EVENT eid="e65" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Nonetheless, <EVENT eid="e235" mainevent="NO" class="STATE" stem="concern" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">concern</EVENT> about the chip may have been <EVENT eid="e240" mainevent="YES" class="STATE" stem="responsible" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="ADJECTIVE">responsible</EVENT> for a <EVENT eid="e236" mainevent="NO" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decline</EVENT> of 87.5 cents in Intel's stock to <EVENT eid="e237" mainevent="NO" class="STATE" stem="$32 a share" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">$32 a share</EVENT> <TIMEX3 tid="t283" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">yesterday</TIMEX3> in over-the-counter <EVENT eid="e67" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT>, on volume of 3,609,800 shares, and partly <EVENT eid="e241" mainevent="NO" class="STATE" stem="responsible" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">responsible</EVENT> for a <EVENT eid="e242" mainevent="NO" class="OCCURRENCE" stem="drop" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">drop</EVENT> in Compaq's stock in New York Stock Exchange composite <EVENT eid="e243" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> on <TIMEX3 tid="t284" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">Wednesday</TIMEX3>.</s> 
+<s><TIMEX3 tid="t285" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">Yesterday</TIMEX3>, Compaq <EVENT eid="e69" mainevent="YES" class="OCCURRENCE" stem="plunge" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">plunged</EVENT> further, <EVENT eid="e247" mainevent="NO" class="OCCURRENCE" stem="closing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">closing</EVENT> at <EVENT eid="e248" mainevent="NO" class="STATE" stem="$100 a share" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">$100 a share</EVENT>, off $8.625 a share, on volume of 2,633,700 shares.</s> 
+
+   <s>Most of Compaq's <EVENT eid="e249" mainevent="NO" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decline</EVENT> is being <EVENT eid="e70" mainevent="YES" class="I_ACTION" stem="attribute" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">attributed</EVENT> to a third-quarter earnings <EVENT eid="e71" mainevent="NO" class="OCCURRENCE" stem="report" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">report</EVENT> that came in at the low end of analysts' expectations.</s> 
+
+   <s>Intel <EVENT eid="e74" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it had <EVENT eid="e75" mainevent="NO" class="OCCURRENCE" stem="correct" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">corrected</EVENT> the <EVENT eid="e671" mainevent="NO" class="STATE" stem="problem" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">problems</EVENT> and would <EVENT eid="e76" mainevent="NO" class="ASPECTUAL" stem="start" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">start</EVENT> <EVENT eid="e78" mainevent="NO" class="OCCURRENCE" stem="produce" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">producing</EVENT> bugless chips <TIMEX3 tid="t286" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">next week</TIMEX3>.</s> 
+<s>"We should not be <EVENT eid="e79" mainevent="NO" class="PERCEPTION" stem="see" tense="NONE" aspect="PROGRESSIVE" polarity="NEG" pos="VERB">seeing</EVENT> any more," <EVENT eid="e82" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Bill Rash, Intel's director for the 486 chip.</s> 
+
+   <s>What's more, the bugs only <EVENT eid="e83" mainevent="NO" class="OCCURRENCE" stem="emerge" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">emerge</EVENT> on esoteric applications such as computer-aided design and scientific calculations, he <EVENT eid="e88" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, and then very seldom.</s> 
+<s>"These errata do not <EVENT eid="e90" mainevent="NO" class="STATE" stem="affect" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">affect</EVENT> business programs," he <EVENT eid="e92" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>The bugs will <EVENT eid="e93" mainevent="NO" class="OCCURRENCE" stem="cause" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">cause</EVENT> <EVENT eid="e253" mainevent="NO" class="STATE" stem="problem" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">problems</EVENT> in "specific and rare circumstances that will not occur in typical applications" such as word-processing and spreadsheets, <EVENT eid="e99" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Michael Slater, editor of the Microprocessor Report, an industry newsletter.</s> 
+
+   <s>Sun, Hewlett-Packard and others <EVENT eid="e102" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> Intel isn't wholly to blame for the snafu.</s> 
+<s>The real culprits, they <EVENT eid="e105" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, are computer makers such as IBM that have <EVENT eid="e106" mainevent="NO" class="OCCURRENCE" stem="jump" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">jumped</EVENT> the gun to <EVENT eid="e108" mainevent="NO" class="OCCURRENCE" stem="unveil" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">unveil</EVENT> 486-based products.</s> 
+<s>"The reason this is getting so much visibility is that some <EVENT eid="e111" mainevent="NO" class="ASPECTUAL" stem="start" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">started</EVENT> <EVENT eid="e112" mainevent="NO" class="OCCURRENCE" stem="ship" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">shipping</EVENT> and <EVENT eid="e113" mainevent="NO" class="I_ACTION" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> early <EVENT eid="e254" mainevent="NO" class="STATE" stem="availability" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">availability</EVENT>," <EVENT eid="e114" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Hewlett-Packard's Mr. Archuleta.</s> 
+<s>"You can do that but you're taking a risk.</s> 
+<s>Those companies are paying the price for taking the risk."</s> 
+
+   <s>In <TIMEX3 tid="t287" type="DATE" value="1989-09" mod="END" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">late September</TIMEX3>, IBM <EVENT eid="e122" mainevent="YES" class="ASPECTUAL" stem="begin" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">began</EVENT> <EVENT eid="e123" mainevent="NO" class="OCCURRENCE" stem="ship" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">shipping</EVENT> a plug-in card that converts its PS/2 model 70-A21 from a 80386 machine to an 80486 machine.</s> 
+<s>An IBM spokeswoman <EVENT eid="e126" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company <EVENT eid="e127" mainevent="NO" class="REPORTING" stem="tell" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">told</EVENT> customers <TIMEX3 tid="t288" type="DATE" value="1989-10-23" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">Monday</TIMEX3> about the <EVENT eid="e258" mainevent="NO" class="STATE" stem="bug" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bugs</EVENT> and temporarily <EVENT eid="e128" mainevent="NO" class="ASPECTUAL" stem="stop" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">stopped</EVENT> <EVENT eid="e129" mainevent="NO" class="OCCURRENCE" stem="ship" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">shipping</EVENT> the product.</s> 
+
+   <s>IBM <EVENT eid="e130" mainevent="NO" class="I_STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">has</EVENT> no plans to <EVENT eid="e133" mainevent="NO" class="OCCURRENCE" stem="recall" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">recall</EVENT> its add-on cards, the spokeswoman <EVENT eid="e135" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, and could probably <EVENT eid="e136" mainevent="NO" class="OCCURRENCE" stem="circumvent" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">circumvent</EVENT> the bugs without long product <EVENT eid="e138" mainevent="NO" class="OCCURRENCE" stem="delay" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">delays</EVENT>.</s> 
+<s>"We do n't <EVENT eid="e139" mainevent="NO" class="OCCURRENCE" stem="look" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">look</EVENT> at this as a major problem for us," she <EVENT eid="e141" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Compaq, which <EVENT eid="e142" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e143" mainevent="NO" class="OCCURRENCE" stem="discover" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">discovered</EVENT> the bugs, still <EVENT eid="e144" mainevent="YES" class="I_STATE" stem="plan" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">plans</EVENT> to <EVENT eid="e146" mainevent="NO" class="OCCURRENCE" stem="announce" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">announce</EVENT> new 486 products on <TIMEX3 tid="t289" type="DATE" value="1989-11-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">Nov. 6</TIMEX3>.</s> 
+<s>Because of the <EVENT eid="e261" mainevent="NO" class="STATE" stem="glitch" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">glitch</EVENT>, however, the company <EVENT eid="e147" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it does n't <EVENT eid="e148" mainevent="NO" class="I_STATE" stem="know" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">know</EVENT> when its machine will be commercially <EVENT eid="e262" mainevent="NO" class="STATE" stem="available" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE">available</EVENT>.</s> 
+<s>That's a break from Compaq tradition, because the company does n't announce products until they're actually at the dealers.</s> 
+
+   <s>The problem is being <EVENT eid="e154" mainevent="NO" class="OCCURRENCE" stem="ballyhoo" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">ballyhooed</EVENT>, experts <EVENT eid="e155" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT>, because the 486 is Intel's future flagship.</s> 
+<s>Intel's microprocessors are the chips of choice in many of today's personal computers and the 80486 microprocessor is the spearhead of the company's bid to guard that spot in the next generation of machines.</s> 
+
+   <s>"Although these sorts of bugs are not  at all <EVENT eid="e263" mainevent="NO" class="STATE" stem="uncommon" tense="PRESENT" aspect="NONE" polarity="NEG" pos="ADJECTIVE">uncommon</EVENT>, the 486 is an extremely high-profile product," <EVENT eid="e163" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Mr. Slater, the newsletter editor.</s> 
+
+   <s>Intel's 80486 chip is the Corvette of Intel's microprocessors, a super-fast, super-expensive chip that only the most power-hungry computer users are likely to buy for at least several years.</s> 
+
+   <s><EVENT eid="e168" mainevent="YES" class="OCCURRENCE" stem="unveiled" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">Unveiled</EVENT> <TIMEX3 tid="t291" type="DATE" value="1989-04" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">last April</TIMEX3>, the chip crams 1.2 million transistors on a sliver of silicon, more than four times as many as on Intel's earlier model, 80386.</s> 
+<s>Intel clocks the chip's speed at 15 million instructions per second, or MIPs.</s> 
+<s>That's four times as fast as the 386.</s> 
+
+   <s>Machines <EVENT eid="e171" mainevent="NO" class="OCCURRENCE" stem="use" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">using</EVENT> the 486 are <EVENT eid="e172" mainevent="YES" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e174" mainevent="NO" class="OCCURRENCE" stem="challenge" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">challenge</EVENT> higher-priced work stations and minicomputers in applications such as so-called servers, which connect groups of computers together, and in computer-aided design.</s> 
+
+   <s>But while the chip's speed in processing power is dazzling, it's real strength lies in its software inheritance.</s> 
+<s>The 486 is the descendant of a long series of Intel chips that <EVENT eid="e185" mainevent="YES" class="ASPECTUAL" stem="begin" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">began</EVENT> <EVENT eid="e186" mainevent="NO" class="OCCURRENCE" stem="dominate" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">dominating</EVENT> the market ever since IBM <EVENT eid="e188" mainevent="NO" class="OCCURRENCE" stem="pick" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">picked</EVENT> the 16-bit 8088 chip for its first personal computer.</s> <s>(A 16-bit microprocessor processes 16 pieces of data at a time and is slower than newer, 32-bit chips.)</s> <s>Since then, Intel has <EVENT eid="e192" mainevent="YES" class="OCCURRENCE" stem="corner" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">cornered</EVENT> a large part of the market with successive generations of 16-bit and 32-bit chips, all of which can run software written for previous models.</s> 
+
+   <s>That's what will <EVENT eid="e198" mainevent="YES" class="ASPECTUAL" stem="keep" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">keep</EVENT> computer makers <EVENT eid="e199" mainevent="NO" class="OCCURRENCE" stem="come" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">coming</EVENT> in spite of the irritation of bugs.</s> 
+<s>Big personal computer makers and many makers of engineering workstations are <EVENT eid="e200" mainevent="YES" class="OCCURRENCE" stem="develop" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">developing</EVENT> 486-based machines, which are <EVENT eid="e201" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e203" mainevent="NO" class="OCCURRENCE" stem="reach" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">reach</EVENT> the market <TIMEX3 tid="t292" type="DATE" value="1990" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t277">early next year</TIMEX3>.</s> 
+
+   <s>Of the big computer makers, only Apple Computer Co. bases its machines on Motorola chips instead.</s> 
+<s>"The 486 is going to <EVENT eid="e210" mainevent="NO" class="OCCURRENCE" stem="have" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> a big <EVENT eid="e273" mainevent="NO" class="OCCURRENCE" stem="impact" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">impact</EVENT> on the industry," <EVENT eid="e213" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Hewlett-Packard's Mr. Archuleta.</s> 
+<s>"It's going to be the leading edge <EVENT eid="e216" mainevent="YES" class="STATE" stem="technology" tense="FUTURE" aspect="NONE" polarity="POS" pos="NOUN">technology</EVENT> in personal computers for <TIMEX3 tid="t293" type="DURATION" value="PXY" temporalFunction="true" functionInDocument="NONE" beginPoint="t277">the next few years</TIMEX3>.</s> 
+<s>This bug is not going to <EVENT eid="e220" mainevent="YES" class="STATE" stem="have" tense="FUTURE" aspect="NONE" polarity="NEG" pos="VERB">have</EVENT> any affect on that at all."</s> 
+
+   <s>---
+
+   Andy Zipser in Dallas contributed to this article.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e141" eventID="e135" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e200" eventID="e198" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e92" eventID="e88" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e65" eventID="e59" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e144" eventID="e141" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e114" eventID="e105" task="C"/>
+<TLINK lid="l7" relType="VAGUE" relatedToEvent="e19" eventID="e10" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e147" eventID="e144" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e59" eventID="e50" task="C"/>
+<TLINK lid="l10" relType="VAGUE" relatedToEvent="e24" eventID="e19" task="C"/>
+<TLINK lid="l11" relType="OVERLAP" relatedToEvent="e105" eventID="e102" task="C"/>
+<TLINK lid="l12" relType="VAGUE" relatedToEvent="e74" eventID="e70" task="C"/>
+<TLINK lid="l13" relType="OVERLAP" relatedToEvent="e10" eventID="e1" task="C"/>
+<TLINK lid="l14" relType="BEFORE" relatedToEvent="e198" eventID="e192" task="C"/>
+<TLINK lid="l15" relType="OVERLAP" relatedToEvent="e135" eventID="e126" task="C"/>
+<TLINK lid="l16" relType="AFTER" relatedToEvent="e41" eventID="e38" task="C"/>
+<TLINK lid="l17" relType="OVERLAP" relatedToEvent="e82" eventID="e74" task="C"/>
+<TLINK lid="l18" relType="BEFORE" relatedToEvent="e126" eventID="e122" task="C"/>
+<TLINK lid="l19" relType="BEFORE" relatedToEvent="e34" eventID="e24" task="C"/>
+<TLINK lid="l20" relType="OVERLAP" relatedToEvent="e220" eventID="e216" task="C"/>
+<TLINK lid="l21" relType="OVERLAP" relatedToEvent="e88" eventID="e82" task="C"/>
+<TLINK lid="l22" relType="VAGUE" relatedToEvent="e99" eventID="e92" task="C"/>
+<TLINK lid="l23" relType="BEFORE" relatedToEvent="e49" eventID="e41" task="C"/>
+<TLINK lid="l24" relType="OVERLAP" relatedToEvent="e69" eventID="e240" task="C"/>
+<TLINK lid="l25" relType="BEFORE-OR-OVERLAP" relatedToEvent="e70" eventID="e69" task="C"/>
+<TLINK lid="l26" relType="OVERLAP" relatedToEvent="e38" eventID="e34" task="C"/>
+<TLINK lid="l27" relType="VAGUE" relatedToEvent="e102" eventID="e99" task="C"/>
+<TLINK lid="l28" relType="BEFORE" relatedToEvent="e216" eventID="e213" task="C"/>
+<TLINK lid="l29" relType="VAGUE" relatedToEvent="e50" eventID="e49" task="C"/>
+<TLINK lid="l30" relType="BEFORE" relatedToEvent="e240" eventID="e65" task="C"/>
+
+</TempEval>

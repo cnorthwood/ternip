@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ NYT19980212.0019 
+ NEWS STORY 
+ <TIMEX3 tid="t41" type="TIME" value="1998-02-12T01:58:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/12/1998 01:58:00</TIMEX3> 
+
+A4195 Cx1f taf-z
+u a Cx13  Cx11  BC-NY-LAUNDRY-MURDER-NYT     02-12 0207
+
+
+ BC-NY-LAUNDRY-MURDER-NYT 
+
+WOMAN KILLED AT BROOKLYN LAUNDROMAT
+
+(lh) QL
+UR c.1998 N.Y. Times News Service LR  QC  QL
+
+
+<s>NEW YORK _ A Brooklyn woman who  was <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="watch" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB">watching</EVENT> her clothes dry in
+a laundromat  was <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="kill" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">killed</EVENT> <TIMEX3 tid="t44" type="TIME" value="1998-02-12TEV" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">Thursday evening</TIMEX3> when two would-be robbers
+<EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="empty" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">emptied</EVENT> their pistols into the store, the police <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s>
+<s>The men <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="appear" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">appeared</EVENT> in the store at 469 Vermont St. in Brownsville
+<TIMEX3 tid="t46" type="TIME" value="1998-02-12T19:15" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t44">around 7:15 p.m.</TIMEX3>, after the victim, Linda Sanders, 35,  had <EVENT eid="e9" mainevent="NO" class="ASPECTUAL" stem="finish" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">finished</EVENT>
+her <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="cleaning" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">cleaning</EVENT> and  was <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="wait" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">waiting</EVENT> for her clothes  to <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="dry" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">dry</EVENT>, detectives
+<EVENT eid="e12" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s>
+<s>``It <EVENT eid="e13" mainevent="NO" class="PERCEPTION" stem="look" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">looks</EVENT> as though they <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="panic" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">panicked</EVENT>,'' a detective, <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="speak" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">speaking</EVENT> on
+condition of anonymity, <EVENT eid="e17" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> of the robbers.</s> <s>``They <EVENT eid="e18" mainevent="YES" class="I_ACTION" stem="intend" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">intended</EVENT>  to <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="rob" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">rob</EVENT>
+the place.</s> <s>There were four or five people inside, and they just <EVENT eid="e20" mainevent="YES" class="ASPECTUAL" stem="start" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">started</EVENT> <EVENT eid="e50" mainevent="NO" class="OCCURRENCE" stem="firing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">firing</EVENT>.''</s>
+<s>Ms. Sanders  was <EVENT eid="e21" mainevent="YES" class="OCCURRENCE" stem="hit" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hit</EVENT> several times and  was <EVENT eid="e22" mainevent="NO" class="I_ACTION" stem="pronounce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">pronounced</EVENT> <EVENT eid="e51" mainevent="NO" class="STATE" stem="dead" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">dead</EVENT> at the
+scene.</s> <s>The other customers <EVENT eid="e25" mainevent="YES" class="OCCURRENCE" stem="flee" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fled</EVENT>, and the police <EVENT eid="e26" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it did not <EVENT eid="e27" mainevent="NO" class="I_ACTION" stem="appear" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">appear</EVENT> that anyone else was <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="injure" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">injured</EVENT>.</s>
+<s>The men <EVENT eid="e30" mainevent="NO" class="OCCURRENCE" stem="take" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">took</EVENT> no money from their victim or from the
+establishment, <EVENT eid="e34" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Detective Joseph Pentangelo, a Police
+Department spokesman.</s>
+<s>Victor Miranda, who <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="live" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">lives</EVENT> in Ms. Sanders' apartment building at
+405 Williams Ave., <EVENT eid="e36" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the laundry machines in the building  were <EVENT eid="e39" mainevent="NO" class="OCCURRENCE" stem="remove" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">removed</EVENT> <TIMEX3 tid="t47" type="DATE" value="199X" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">a few years ago</TIMEX3> to <EVENT eid="e40" mainevent="NO" class="I_ACTION" stem="make" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">make</EVENT> room for management offices.</s>
+
+
+
+<s>NYT-02-12-98 0158EST</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e34" eventID="e25" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e18" eventID="e17" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e25" eventID="e21" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e12" eventID="e6" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e21" eventID="e20" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e20" eventID="e18" task="C"/>
+<TLINK lid="l7" relType="VAGUE" relatedToEvent="e36" eventID="e34" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e17" eventID="e12" task="C"/>
+
+</TempEval>

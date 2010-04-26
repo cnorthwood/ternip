@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891027-0090 
+ = 891027 
+ 891027-0090. 
+ Dividend News:
+@  CMS Energy Corp. 
+ <TIMEX3 tid="t13" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CMS 
+ DIVIDENDS (DIV)
+EARNINGS (ERN) 
+
+   <s>CMS ENERGY Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> management would <EVENT eid="e3" class="I_ACTION" stem="recommend" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">recommend</EVENT> to its board <TIMEX3 tid="t14" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">today</TIMEX3> that its common stock dividend be <EVENT eid="e5" class="OCCURRENCE" stem="reinstate" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">reinstated</EVENT> at a "modest level" <TIMEX3 tid="t77" type="DATE" value="1989-11-01" mod="ON_OR_AFTER" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">later this year</TIMEX3>.</s> 
+<s>The Dearborn, Mich., energy company <EVENT eid="e6" class="ASPECTUAL" stem="stop" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">stopped</EVENT> <EVENT eid="e7" class="OCCURRENCE" stem="pay" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">paying</EVENT> a dividend in <TIMEX3 tid="t69" type="DATE" value="1984-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">the third quarter of 1984</TIMEX3> because of <EVENT eid="e8" class="OCCURRENCE" stem="trouble" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">troubles</EVENT> at its Midland nuclear plant.</s> 
+<s>In addition, CMS <EVENT eid="e10" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> <TIMEX3 tid="t15" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">third-quarter</TIMEX3> net of <EVENT eid="e144" class="STATE" stem="$68.2" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$68.2</EVENT> million, or 83 cents a share, <EVENT eid="e121" class="STATE" stem="up" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">up</EVENT> from <EVENT eid="e145" class="STATE" stem="$66.8" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$66.8</EVENT> million, or 81 cents a share, <TIMEX3 tid="t21" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t15">a year ago</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e1" relatedToTime="t77" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t14" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e7" relatedToTime="t69" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e10" relatedToTime="t21" task="A"/>
+<TLINK lid="l5" relType="AFTER" eventID="e10" relatedToTime="t15" task="A"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e1" relatedToTime="t13" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e7" relatedToTime="t13" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e10" relatedToTime="t13" task="B"/>
+</TempEval>

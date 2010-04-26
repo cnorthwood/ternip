@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891027-0144 
+ = 891027 
+ 891027-0144. 
+ Dime Savings Bank Purchase 
+ <TIMEX3 tid="t23" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ DME STPT 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+SAVINGS AND LOANS, THRIFTS, CREDIT UNIONS (SAL) 
+ GARDEN CITY, N.Y.  
+
+   <s>Dime Savings Bank of New York was <EVENT eid="e1" mainevent="NO" class="I_ACTION" stem="clear" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">cleared</EVENT> by the Federal Deposit Insurance Corp. to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquire</EVENT> Starpointe Savings Bank of Somerset, N.J., the banks <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Starpointe holders, who <EVENT eid="e5" mainevent="NO" class="I_ACTION" stem="approve" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">approved</EVENT> the <EVENT eid="e20" mainevent="NO" class="STATE" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plan</EVENT> <TIMEX3 tid="t24" type="DATE" value="1989-04" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">last April</TIMEX3>, will <EVENT eid="e6" mainevent="YES" class="OCCURRENCE" stem="receive" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">receive</EVENT> $21 in cash a share, or a total $63 million.</s> 
+<s>The FDIC <EVENT eid="e9" mainevent="YES" class="I_ACTION" stem="clear" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">cleared</EVENT> the <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="move" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">move</EVENT> <TIMEX3 tid="t25" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">yesterday</TIMEX3>, and the banks must <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="wait" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">wait</EVENT> <TIMEX3 tid="t26" type="DURATION" value="P30D" mod="EQUAL_OR_MORE" temporalFunction="false" functionInDocument="NONE">at least 30 days</TIMEX3> before <EVENT eid="e14" mainevent="NO" class="ASPECTUAL" stem="closing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">closing</EVENT> the <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">purchase</EVENT>.</s> 
+<s>A closing date has n't been <EVENT eid="e16" mainevent="YES" class="OCCURRENCE" stem="set" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">set</EVENT>.</s> 
+<s>The thrifts <EVENT eid="e18" mainevent="YES" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> to the <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT> in <TIMEX3 tid="t27" type="DATE" value="1988-08" temporalFunction="false" functionInDocument="NONE">August 1988</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e18" eventID="e16" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e9" eventID="e6" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e16" eventID="e9" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e6" eventID="e4" task="C"/>
+
+</TempEval>

@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOC>
+<DOCNO> XIE19981203.0008 </DOCNO>
+<DATE_TIME> <TIMEX3 tid="t1" type="DATE" value="1998-12-03" temporalFunction="false" functionInDocument="CREATION_TIME">1998-12-03</TIMEX3> </DATE_TIME>
+<BODY>
+<HEADLINE> NATO Enlargement Ratification Process Concludes </HEADLINE>
+<TEXT>
+<P>
+BRUSSELS, December 2 (Xinhua) -- The ratification <EVENT eid="e8" class="STATE">process</EVENT> of
+NATO enlargement <EVENT eid="e1" class="OCCURRENCE">concluded</EVENT> <SIGNAL sid="s1">on</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="1998-12-02" temporalFunction="true" functionInDocument="NONE">Wednesday</TIMEX3> <SIGNAL sid="s2">after</SIGNAL> the Netherlands <EVENT eid="e2" class="OCCURRENCE">gave</EVENT>
+its go-ahead.
+</P>
+<P>
+Poland, Hungary and the Czech Republic have been <EVENT eid="e3" class="OCCURRENCE">accepted</EVENT> as
+members of the Western military alliance <SIGNAL sid="s3">after</SIGNAL> the upper house of
+the Dutch parliament <EVENT eid="e4" class="OCCURRENCE">voted</EVENT> in favor of their inclusion.
+</P>
+<P>
+All the political parties in the upper house, with the
+exception of the Greens, <EVENT eid="e5" class="I_ACTION">agreed</EVENT> on the enlargement <EVENT eid="e9" class="STATE">process</EVENT>,
+according to reports <EVENT eid="e6" class="OCCURRENCE">reaching</EVENT> here.
+</P>
+<P>
+The lower house already <EVENT eid="e7" class="I_ACTION">approved</EVENT> the enlargement <EVENT eid="e10" class="OCCURRENCE">move</EVENT> <SIGNAL sid="s4">in</SIGNAL> early
+<TIMEX3 tid="t3" type="DATE" value="1998-10" temporalFunction="true" functionInDocument="NONE">October</TIMEX3> this year.
+</P>
+<P>
+The ratification <EVENT eid="e11" class="STATE">process</EVENT> <EVENT eid="e12" class="ASPECTUAL">began</EVENT> <SIGNAL sid="s5">in</SIGNAL> <TIMEX3 tid="t4" type="DATE" value="1998-02" temporalFunction="true" functionInDocument="NONE">February</TIMEX3> this year with
+Canada <EVENT eid="e13" class="STATE">being</EVENT> the first NATO member state <EVENT eid="e14" class="ASPECTUAL">starting</EVENT> the ratification
+<EVENT eid="e15" class="OCCURRENCE">process</EVENT>.
+</P>
+<P>
+It was <EVENT eid="e16" class="OCCURRENCE">followed</EVENT> by Denmark, Norway, Germany, France, Greece,
+Luxembourg, Spain, Britain, the United States, Iceland, Belgium,
+Italy, Portugal and Turkey.
+</P>
+<P>
+NATO <EVENT eid="e17" class="I_ACTION">decided</EVENT> at <TIMEX3 tid="t5" type="DATE" value="1997" temporalFunction="true" functionInDocument="NONE">last year</TIMEX3>'s Madrid <EVENT eid="e18" class="OCCURRENCE">summit</EVENT> to <EVENT eid="e19" class="OCCURRENCE">invite</EVENT> the three
+eastern European countries to <EVENT eid="e20" class="ASPECTUAL">start</EVENT> accession <EVENT eid="e21" class="OCCURRENCE">talks</EVENT>.
+</P>
+<P>
+Poland, Hungary and the Czech Republic are <EVENT eid="e22" class="I_STATE">scheduled</EVENT> to <EVENT eid="e23" class="STATE">become</EVENT>
+full members of NATO <SIGNAL sid="s6">in</SIGNAL> <TIMEX3 tid="t6" type="DATE" value="1999-04" temporalFunction="true" functionInDocument="NONE">April</TIMEX3> next year when the alliance
+<EVENT eid="e24" class="OCCURRENCE">celebrates</EVENT> its 50th anniversary in Washington. 
+</P>
+</TEXT>
+</BODY>
+</DOC>
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l1" relType="ENDS" timeID="t2" relatedToEventInstance="ei8" origin="USER"/>
+<TLINK lid="l2" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei1" signalID="s1" origin="USER"/>
+<TLINK lid="l3" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" signalID="s2" origin="USER"/>
+<TLINK lid="l5" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l6" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei4" signalID="s3" origin="USER"/>
+<TLINK lid="l8" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei5" origin="USER"/>
+<TLINK lid="l9" relType="ENDS" timeID="t2" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l11" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l12" relType="INCLUDES" timeID="t3" relatedToEventInstance="ei7" signalID="s4" origin="USER"/>
+<TLINK lid="l13" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l15" relType="BEGINS" timeID="t4" relatedToEventInstance="ei11" origin="USER"/>
+<TLINK lid="l16" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei12" signalID="s5" origin="USER"/>
+<TLINK lid="l18" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei13" origin="USER"/>
+<TLINK lid="l19" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei14" origin="USER"/>
+<TLINK lid="l20" relType="BEGINS" timeID="t4" relatedToEventInstance="ei15" origin="USER"/>
+<TLINK lid="l22" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei16" origin="USER"/>
+<TLINK lid="l23" relType="INCLUDES" timeID="t5" relatedToEventInstance="ei17" origin="USER"/>
+<TLINK lid="l24" relType="INCLUDES" timeID="t5" relatedToEventInstance="ei18" origin="USER"/>
+<TLINK lid="l25" relType="INCLUDES" timeID="t5" relatedToEventInstance="ei19" origin="USER"/>
+<TLINK lid="l27" relType="IS_INCLUDED" timeID="t5" relatedToEventInstance="ei20" origin="USER"/>
+<TLINK lid="l29" relType="IS_INCLUDED" timeID="t5" relatedToEventInstance="ei21" origin="USER"/>
+<TLINK lid="l30" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei22" origin="USER"/>
+<TLINK lid="l33" relType="INCLUDES" timeID="t6" relatedToEventInstance="ei23" signalID="s6" origin="USER"/>
+<TLINK lid="l34" relType="INCLUDES" timeID="t6" relatedToEventInstance="ei24" origin="USER"/>
+<SLINK lid="l10" relType="FACTIVE" eventInstanceID="ei5" subordinatedEventInstance="ei9" syntax="USER"/>
+<SLINK lid="l14" relType="FACTIVE" eventInstanceID="ei7" subordinatedEventInstance="ei10" syntax="USER"/>
+<SLINK lid="l26" relType="FACTIVE" eventInstanceID="ei17" subordinatedEventInstance="ei19" syntax="USER"/>
+<SLINK lid="l31" relType="FACTIVE" eventInstanceID="ei17" subordinatedEventInstance="ei20" syntax="USER"/>
+<SLINK lid="l32" relType="FACTIVE" eventInstanceID="ei22" subordinatedEventInstance="ei23" syntax="USER"/>
+<ALINK lid="l17" relType="INITIATES" eventInstanceID="ei12" relatedToEventInstance="ei11" syntax="USER"/>
+<ALINK lid="l21" relType="INITIATES" eventInstanceID="ei14" relatedToEventInstance="ei15" syntax="USER"/>
+<ALINK lid="l28" relType="INITIATES" eventInstanceID="ei20" relatedToEventInstance="ei21" syntax="USER"/>
+
+</TimeML>

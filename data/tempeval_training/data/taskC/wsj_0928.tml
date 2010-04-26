@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0130 
+ = 891026 
+ 891026-0130. 
+ Sun Microsystems Inc.
+@  Posts 1st-Quarter Net
+@  Totaling $5.2 Million 
+ <TIMEX3 tid="t61" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SUNW 
+ EARNINGS (ERN)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR) 
+ MOUNTAIN VIEW, Calif.  
+
+   <s>Sun Microsystems Inc., <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="snap" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">snapping</EVENT> back to profitability after its first quarterly <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> as a public firm, <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $5.2 million, or seven cents a share, in <TIMEX3 tid="t64" type="DATE" value="1989-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the fiscal first quarter</TIMEX3>.</s> 
+
+   <s>Sun, a maker of computer workstations, <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> sales of <EVENT eid="e240" mainevent="NO" class="STATE" stem="$538.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$538.5</EVENT> million for <TIMEX3 tid="t68" type="DURATION" value="P1Q" temporalFunction="true" functionInDocument="NONE" endPoint="t69">the quarter</TIMEX3> ended <TIMEX3 tid="t69" type="DATE" value="1989-09-29" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">Sept. 29</TIMEX3>, up 39% from <EVENT eid="e241" mainevent="NO" class="STATE" stem="$388.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$388.5</EVENT> million <TIMEX3 tid="t73" type="DATE" value="1988-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t68">a year earlier</TIMEX3>.</s> 
+<s>In <TIMEX3 tid="t74" type="DATE" value="1988-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t64">the 1988 period</TIMEX3>, the company <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $20.6 million, or 26 cents a share.</s> 
+
+   <s>Sun's results were slightly better than expectations.</s> 
+<s>Earlier <TIMEX3 tid="t77" type="DATE" value="1989-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">this month</TIMEX3>, the company <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e11" mainevent="NO" class="I_STATE" stem="expect" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="break" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">break</EVENT> even for <TIMEX3 tid="t78" type="DURATION" value="1989-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t64">the quarter</TIMEX3> on sales of $530 million.</s> 
+
+   <s>In a <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="statement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">statement</EVENT>, Scott McNealy, Sun's chief executive officer, <EVENT eid="e16" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company's performance was <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="hamper" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hampered</EVENT> by problems tied to the <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="introduction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">introduction</EVENT> of a major new family of computers in <TIMEX3 tid="t83" type="DATE" value="1988-04" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">April</TIMEX3>.</s> 
+<s>One of those new computers, called Sparcstation 1, <EVENT eid="e239" mainevent="NO" class="I_STATE" stem="account" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">accounted</EVENT> for nearly half of the 28,000 systems Sun <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="ship" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">shipped</EVENT> in <TIMEX3 tid="t84" type="DATE" value="1989-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t64">the quarter</TIMEX3>, he <EVENT eid="e24" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>More than two-thirds of the systems <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="shipped" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">shipped</EVENT>, meanwhile , were products <EVENT eid="e26" mainevent="YES" class="OCCURRENCE" stem="introduce" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">introduced</EVENT> in <TIMEX3 tid="t87" type="DATE" value="1989-04" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">April</TIMEX3>.</s> 
+
+   <s>But <EVENT eid="e88" mainevent="NO" class="STATE" stem="problem" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">problems</EVENT> in manufacturing, forecasting demand and getting the bugs out of a new management information system <EVENT eid="e32" mainevent="YES" class="OCCURRENCE" stem="make" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">made</EVENT> it extremely difficult for Sun to <EVENT eid="e34" mainevent="NO" class="I_ACTION" stem="meet" tense="INFINITIVE" aspect="NONE" polarity="NEG" pos="VERB">meet</EVENT> <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="demand" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">demand</EVENT> for its newest computers well into <TIMEX3 tid="t89" type="DATE" value="1989-SU" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the summer</TIMEX3>.</s> 
+<s>These <EVENT eid="e91" mainevent="NO" class="STATE" stem="problem" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">problems</EVENT> also <EVENT eid="e36" mainevent="YES" class="OCCURRENCE" stem="result" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">resulted</EVENT> in Sun <EVENT eid="e37" mainevent="NO" class="REPORTING" stem="reporting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">reporting</EVENT> a $20.3 million <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> for <TIMEX3 tid="t94" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">its fourth quarter</TIMEX3> ended <TIMEX3 tid="t95" type="DATE" value="1989-06-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">June 30</TIMEX3>.</s> 
+
+   <s>Mr. McNealy <EVENT eid="e40" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the issues that <EVENT eid="e41" mainevent="NO" class="OCCURRENCE" stem="hurt" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">hurt</EVENT> Sun's performance earlier <TIMEX3 tid="t96" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">this year</TIMEX3> are now " largely" behind the firm, and he <EVENT eid="e44" mainevent="NO" class="I_ACTION" stem="indicate" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">indicated</EVENT> that Sun's profitability should <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">increase</EVENT> throughout <TIMEX3 tid="t99" type="DURATION" value="P1Y" temporalFunction="false" functionInDocument="NONE">the fiscal year</TIMEX3>.</s> 
+
+   <s>Sun also <EVENT eid="e47" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> a <EVENT eid="e100" mainevent="NO" class="STATE" stem="record" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">record</EVENT> backlog of orders.</s> 
+<s>While this indicates continued strong <EVENT eid="e50" mainevent="NO" class="OCCURRENCE" stem="demand" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">demand</EVENT> for the company's desk-top computers, Sun <EVENT eid="e51" mainevent="NO" class="I_STATE" stem="face" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">faces</EVENT> increasing <EVENT eid="e53" mainevent="NO" class="OCCURRENCE" stem="competition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">competition</EVENT> from Digital Equipment Corp. and Hewlett-Packard Co. <TIMEX3 tid="t101" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">Recently</TIMEX3>, analysts have <EVENT eid="e54" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">said</EVENT> Sun also is <EVENT eid="e102" mainevent="NO" class="I_STATE" stem="vulnerable" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">vulnerable</EVENT> to <EVENT eid="e55" mainevent="NO" class="OCCURRENCE" stem="competition" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">competition</EVENT> from International Business Machines Corp., which <EVENT eid="e56" mainevent="NO" class="I_STATE" stem="plan" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">plans</EVENT> to <EVENT eid="e58" mainevent="NO" class="OCCURRENCE" stem="introduce" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">introduce</EVENT> a group of workstations <TIMEX3 tid="t103" type="DATE" value="1990" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">early next year</TIMEX3>, and Next Inc.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e26" eventID="e24" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e8" eventID="e6" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e24" eventID="e16" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e40" eventID="e36" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e6" eventID="e4" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e36" eventID="e32" task="C"/>
+<TLINK lid="l7" relType="BEFORE" relatedToEvent="e32" eventID="e26" task="C"/>
+<TLINK lid="l8" relType="VAGUE" relatedToEvent="e47" eventID="e40" task="C"/>
+<TLINK lid="l9" relType="BEFORE" relatedToEvent="e54" eventID="e47" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e16" eventID="e10" task="C"/>
+
+</TempEval>

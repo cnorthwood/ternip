@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0066 
+ = 891026 
+ 891026-0066. 
+ Total Assets Protection Inc. 
+ <TIMEX3 tid="t19" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TAPP 
+ ARLINGTON, Texas  
+
+   <s>Total Assets Protection Inc., <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="rebound" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">rebounding</EVENT> from its earlier <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT>, <EVENT eid="e4" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e6" mainevent="NO" class="REPORTING" stem="report" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">report</EVENT> <EVENT eid="e17" mainevent="NO" class="STATE" stem="earnings" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">earnings</EVENT> from <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT> of about $200,000 for <TIMEX3 tid="t20" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">the third quarter</TIMEX3>, J.C. Matlock, chairman, <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Net income includes an extraordinary <EVENT eid="e21" mainevent="YES" class="STATE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT> of about $100,000 from the <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="reversal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">reversal</EVENT> of bad debt and interest income.</s> 
+<s>Revenue was about $4.5 million.</s> 
+<s>In <TIMEX3 tid="t23" type="DATE" value="1988-Q3" temporalFunction="false" functionInDocument="NONE">the 1988 third quarter</TIMEX3>, the company <EVENT eid="e13" mainevent="YES" class="REPORTING" stem="post" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">posted</EVENT> a net loss of <EVENT eid="e24" mainevent="NO" class="STATE" stem="$876,706" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$876,706</EVENT>, or 22 cents a share, on revenue of about $5.1 million.</s> 
+
+   <s>Total Assets plans and designs computer centers, computer security systems and computer backup systems.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e21" eventID="e9" task="C"/>
+
+</TempEval>

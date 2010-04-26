@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891025-0157 
+ = 891025 
+ 891025-0157. 
+ Advanced Medical Makes Purchase 
+ <TIMEX3 tid="t11" type="DATE" value="1989-10-25" temporalFunction="false" functionInDocument="CREATION_TIME">10/25/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ AMA HENG 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDICAL AND BIOTECHNOLOGY (MTC) 
+ SAN FRANCISCO  
+
+   <s>Advanced Medical Technologies Inc. <EVENT eid="e2" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e3" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">purchased</EVENT> 93% of a unit of Henley Group Inc. 
+
+   Advanced Medical <EVENT eid="e4" class="OCCURRENCE" stem="pay" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">paid</EVENT> $106 million in cash for its share in a unit of Henley's Fisher Scientific subsidiary.</s> 
+<s>The unit makes intravenous pumps used by hospitals and <EVENT eid="e9" class="OCCURRENCE" stem="have" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> more than $110 million in <EVENT eid="e30" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sales</EVENT> <TIMEX3 tid="t31" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t11">last year</TIMEX3>, according to Advanced Medical.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e9" relatedToTime="t31" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e30" relatedToTime="t31" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e2" relatedToTime="t11" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e4" relatedToTime="t11" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e3" relatedToTime="t11" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e9" relatedToTime="t11" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e30" relatedToTime="t11" task="B"/>
+</TempEval>

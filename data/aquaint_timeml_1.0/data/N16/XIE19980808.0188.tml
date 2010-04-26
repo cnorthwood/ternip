@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ XIE19980808.0188 
+ 1998-08-08 
+
+ Cuba Condemns Bomb Blasts in Kenya, Tanzania 
+
+
+HAVANA, <TIMEX3 tid="t1" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="CREATION_TIME">August 7</TIMEX3> (Xinhua) -- The Cuban government <TIMEX3 tid="t2" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="NONE">Friday</TIMEX3>
+<EVENT eid="e1" class="OCCURRENCE">condemned</EVENT> the two bomb <EVENT eid="e12" class="OCCURRENCE">explosions</EVENT> near U.S. embassies in Kenya and
+Tanzania.
+
+
+The Foreign Ministry <EVENT eid="e2" class="REPORTING">said</EVENT> in a statement that the Cuban
+government is against such kind of terrorist <EVENT eid="e14" class="OCCURRENCE">attacks</EVENT>, which <EVENT eid="e3" class="OCCURRENCE">pose</EVENT>
+potential threats to every country.
+
+
+The Cuban government also <EVENT eid="e4" class="OCCURRENCE">expressed</EVENT> its condolences to the
+families of the victims.
+
+
+Two bombs <EVENT eid="e5" class="OCCURRENCE">exploded</EVENT> outside U.S. embassies in Kenya and Tanzania
+<TIMEX3 tid="t3" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="NONE">Friday</TIMEX3>, <EVENT eid="e6" class="OCCURRENCE">killing</EVENT> at least 81 people and injuring more than 1,700
+others.
+
+
+At least 74, including eight Americans, were <EVENT eid="e8" class="OCCURRENCE">killed</EVENT> in Nairobi,
+the capital of Kenya, and more then 1,640 were <EVENT eid="e9" class="OCCURRENCE">wounded</EVENT>. At least
+seven were <EVENT eid="e10" class="REPORTING">reported</EVENT> dead in the Tanzanian capital of Dar es
+Salaam, and 72 others were <EVENT eid="e11" class="OCCURRENCE">hurt</EVENT>. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<TLINK lid="l1" relType="IDENTITY" timeID="t2" relatedToTime="t3" origin="USER"/>
+<TLINK lid="l2" relType="IDENTITY" timeID="t3" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l3" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t2" origin="USER"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l5" relType="DURING" eventInstanceID="ei2" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l6" relType="IDENTITY" eventInstanceID="ei14" relatedToEventInstance="ei12" origin="USER"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l9" relType="DURING" eventInstanceID="ei4" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l10" relType="IDENTITY" eventInstanceID="ei5" relatedToEventInstance="ei12" origin="USER"/>
+<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t3" origin="USER"/>
+<TLINK lid="l12" relType="IBEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l14" relType="SIMULTANEOUS" eventInstanceID="ei9" relatedToEventInstance="ei8" origin="USER"/>
+<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei10" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei11" relatedToEventInstance="ei9" origin="USER"/>
+
+</TimeML>

@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ APW19980322.0749 
+ NEWS STORY 
+ <TIMEX3 tid="t125" type="TIME" value="1998-03-22T14:57:00" temporalFunction="false" functionInDocument="CREATION_TIME">03/22/1998 14:57:00</TIMEX3> 
+
+w1834 Cx1f wstm-
+r i Cx13  Cx11  BC-NorthernIreland 1stLd-Writethru   03-22 0720
+
+
+ BC-Northern Ireland, 1st Ld-Writethru 
+
+Police find bomb on eve of Sinn Fein's return to peace talks
+
+UR Eds: NEW throughout; RAISES reference to bomb; UPDATES with protest
+against Protestant marches, comment from Sinn Fein leader; trims
+pvs QL
+UR By SHAWN POGATCHNIK QC
+UR Associated Press Writer QC
+
+
+<s>BELFAST, Northern Ireland (AP) _ Police <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="seize" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">seized</EVENT> a car bomb under
+construction <TIMEX3 tid="t126" type="DATE" value="1998-03-22" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">Sunday</TIMEX3> in a town bordering Northern Ireland on the eve
+of the <EVENT eid="e4" mainevent="NO" class="ASPECTUAL" stem="return" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">return</EVENT> to peace <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="talk" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">talks</EVENT> by the IRA-allied Sinn Fein party.</s>
+<s>Chief Superintendent Al McHugh <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e174" mainevent="NO" class="OCCURRENCE" stem="bomb" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bomb</EVENT> <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="discover" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">discovered</EVENT> in the
+Irish Republic was destined for an unknown target in Northern
+Ireland and ``would have <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="cause" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="VERB">caused</EVENT> massive <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="destruction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">destruction</EVENT>.''</s>
+<s>The <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="discovery" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">discovery</EVENT> <EVENT eid="e13" mainevent="YES" class="I_STATE" stem="appear" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">appeared</EVENT> to be the latest <EVENT eid="e15" mainevent="NO" class="I_ACTION" stem="attempt" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">attempt</EVENT> by extremists
+opposed to the IRA's <TIMEX3 tid="t127" type="DURATION" value="P8M" temporalFunction="false" functionInDocument="NONE">8-month-old</TIMEX3> <EVENT eid="e147" mainevent="NO" class="STATE" stem="truce" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">truce</EVENT> to <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="undermine" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">undermine</EVENT> the peace
+process, <EVENT eid="e21" mainevent="NO" class="I_ACTION" stem="set" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">set</EVENT> to <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="resume" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">resume</EVENT> <TIMEX3 tid="t128" type="DATE" value="1998-03-23" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">Monday</TIMEX3> in Belfast.</s>
+<s>Extremists have <EVENT eid="e24" mainevent="YES" class="OCCURRENCE" stem="bomb" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">bombed</EVENT> two predominantly pro-British Protestant
+towns and fired mortar shells at a police station since Sinn Fein
+was <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="expel" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">expelled</EVENT> from peace talks on <TIMEX3 tid="t129" type="DATE" value="1998-02-20" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">Feb. 20</TIMEX3> in <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="punishment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">punishment</EVENT> for two
+<EVENT eid="e30" mainevent="NO" class="OCCURRENCE" stem="killing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">killings</EVENT> blamed on the Irish Republican Army.</s>
+<s>Police <EVENT eid="e32" mainevent="YES" class="OCCURRENCE" stem="find" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">found</EVENT> more than 1,300 pounds (600 kgs) of
+fertilizer-based explosives <TIMEX3 tid="t130" type="DATE" value="1998-03-22" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">Sunday</TIMEX3> in a shed in Dundalk, 50 miles
+(80 kms) south of Belfast.</s>
+<s>They <EVENT eid="e33" mainevent="YES" class="OCCURRENCE" stem="arrest" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">arrested</EVENT> two men in connection with the bomb factory, which
+also contained circuitry, detonating cord and the Mitsubishi truck
+that would have <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="carry" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="VERB">carried</EVENT> the bomb.</s>
+<s>The British and Irish governments, which <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="cosponsor" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">cosponsor</EVENT> the
+multi-party talks that are <EVENT eid="e40" mainevent="NO" class="I_STATE" stem="suppose" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">supposed</EVENT> to <EVENT eid="e42" mainevent="NO" class="OCCURRENCE" stem="conclude" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">conclude</EVENT> by <TIMEX3 tid="t131" type="DATE" value="1998-05" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">May</TIMEX3>, <EVENT eid="e43" mainevent="YES" class="I_ACTION" stem="invite" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">invited</EVENT>
+Sinn Fein to <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="rejoin" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">rejoin</EVENT> <TIMEX3 tid="t2023" type="DATE" value="1998-03-08" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">two weeks ago</TIMEX3>.</s>
+<s>But Sinn Fein leader Gerry Adams <EVENT eid="e46" mainevent="YES" class="ASPECTUAL" stem="keep" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">kept</EVENT> his party out pending
+<EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="meeting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">meetings</EVENT> with British Prime Minister Tony Blair <TIMEX3 tid="t132" type="DATE" value="1998-03-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">10 days ago</TIMEX3> and
+President Clinton <TIMEX3 tid="t134" type="DATE" value="1998-W12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">last week</TIMEX3>.</s>
+<s>``We were unjustly <EVENT eid="e50" mainevent="NO" class="OCCURRENCE" stem="push" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">pushed</EVENT> out of the <EVENT eid="e51" mainevent="NO" class="OCCURRENCE" stem="talk" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">talks</EVENT> in <TIMEX3 tid="t135" type="DATE" value="1998-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">February</TIMEX3> but we
+are back,'' Adams <EVENT eid="e52" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t136" type="DATE" value="1998-03-22" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">Sunday</TIMEX3>.</s>
+<s>He <EVENT eid="e53" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the north's substantial Catholic minority <EVENT eid="e54" mainevent="NO" class="I_ACTION" stem="demand" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">demanded</EVENT> a
+<EVENT eid="e290" mainevent="NO" class="OCCURRENCE" stem="settlement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">settlement</EVENT> that would <EVENT eid="e55" mainevent="NO" class="I_ACTION" stem="promote" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">promote</EVENT> Northern Ireland's eventual
+<EVENT eid="e57" mainevent="NO" class="OCCURRENCE" stem="unification" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">unification</EVENT> with the Irish Republic.</s>
+<s>``Nationalists in the north are not  a minority in someone else's
+country.</s> <s>We are Irish citizens, <EVENT eid="e59" mainevent="NO" class="OCCURRENCE" stem="live" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">living</EVENT> in our own country,'' Adams
+<EVENT eid="e60" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, <EVENT eid="e61" mainevent="NO" class="REPORTING" stem="add" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">adding</EVENT>: ``Nationalists <EVENT eid="e62" mainevent="NO" class="I_STATE" stem="want" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">want</EVENT> to <EVENT eid="e64" mainevent="NO" class="OCCURRENCE" stem="move" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">move</EVENT> towards Irish unity and
+see this process as a bridge in that direction.''</s>
+<s>But the north's pro-British Protestant majority is bitterly <EVENT eid="e67" mainevent="YES" class="I_STATE" stem="oppose" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">opposed</EVENT> to <EVENT eid="e68" mainevent="NO" class="OCCURRENCE" stem="unite" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">uniting</EVENT> Ireland and instead <EVENT eid="e69" mainevent="NO" class="I_STATE" stem="want" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">wants</EVENT> a strong <EVENT eid="e1994" mainevent="NO" class="STATE" stem="government" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">government</EVENT>
+for Northern Ireland, which has been <EVENT eid="e70" mainevent="NO" class="OCCURRENCE" stem="rule" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">ruled</EVENT> directly by London since
+<TIMEX3 tid="t137" type="DATE" value="1972" temporalFunction="false" functionInDocument="NONE">1972</TIMEX3>.</s>
+<s>Northern Ireland's biggest Protestant party, the Ulster
+Unionists, is <EVENT eid="e72" mainevent="YES" class="I_ACTION" stem="threaten" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">threatening</EVENT> to <EVENT eid="e74" mainevent="NO" class="I_ACTION" stem="push" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">push</EVENT> for Sinn Fein's <EVENT eid="e75" mainevent="NO" class="OCCURRENCE" stem="expulsion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">expulsion</EVENT> once
+again.</s> <s>They <EVENT eid="e76" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> IRA commanders are <EVENT eid="e152" mainevent="NO" class="STATE" stem="responsible" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">responsible</EVENT> for the recent bomb
+<EVENT eid="e78" mainevent="NO" class="OCCURRENCE" stem="attack" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">attacks</EVENT>.</s>
+<s>Also <TIMEX3 tid="t138" type="DATE" value="1998-02-22" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">Sunday</TIMEX3>, more than 2,000 Catholic protesters <EVENT eid="e79" mainevent="YES" class="OCCURRENCE" stem="rally" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rallied</EVENT> in
+Portadown against the annual parades by the Orange Order, Northern
+Ireland's dominant Protestant fraternal group.</s>
+<s><EVENT eid="e80" mainevent="NO" class="OCCURRENCE" stem="confrontations" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">Confrontations</EVENT> among Catholic protesters, Protestant marchers
+and the police have <EVENT eid="e81" mainevent="YES" class="OCCURRENCE" stem="provoke" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">provoked</EVENT> widespread <EVENT eid="e82" mainevent="NO" class="OCCURRENCE" stem="violence" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">violence</EVENT> in Northern
+Ireland for <TIMEX3 tid="t154" type="SET" value="XXXX-SU" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125" freq="3Y">the past three summers</TIMEX3>.</s> <s>The crucible is Portadown, 30
+miles (50 kms) southwest of Belfast, where Orangemen march each
+July from their rural church back downtown _ through the town's
+main Catholic area.</s>
+<s>Protesters from several Catholic communities <EVENT eid="e83" mainevent="YES" class="OCCURRENCE" stem="crowd" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">crowded</EVENT> into
+Portadown's Catholic Garvaghy Road to <EVENT eid="e85" mainevent="NO" class="PERCEPTION" stem="hear" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">hear</EVENT> speakers <EVENT eid="e86" mainevent="NO" class="I_ACTION" stem="demand" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">demand</EVENT>
+<EVENT eid="e87" mainevent="NO" class="OCCURRENCE" stem="negotiation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">negotiations</EVENT> with Orange Order leaders, and <EVENT eid="e156" mainevent="NO" class="I_ACTION" stem="pledge" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">pledge</EVENT> to <EVENT eid="e89" mainevent="NO" class="OCCURRENCE" stem="participate" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">participate</EVENT>
+in each others' road-blocking <EVENT eid="e90" mainevent="NO" class="OCCURRENCE" stem="protest" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">protests</EVENT> <TIMEX3 tid="t144" type="DATE" value="1998-SU" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">this summer</TIMEX3>.</s>
+<s>``Small nationalist communities are not going to be <EVENT eid="e94" mainevent="NO" class="OCCURRENCE" stem="left" tense="PRESENT" aspect="NONE" polarity="NEG" pos="ADJECTIVE">left</EVENT> on
+their own <TIMEX3 tid="t145" type="DATE" value="1998-SU" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">this summer</TIMEX3>,'' <EVENT eid="e95" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Gerard Rice, a former IRA prisoner
+who leads anti-Orange protests in a Catholic neighborhood of south
+Belfast.</s>
+<s>Riot police in armored cars, shields and helmets <EVENT eid="e97" mainevent="YES" class="I_ACTION" stem="prevent" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">prevented</EVENT> a few
+hundred Protestants, many <EVENT eid="e98" mainevent="NO" class="OCCURRENCE" stem="wave" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">waving</EVENT> British and Ulster flags, from
+<EVENT eid="e100" mainevent="NO" class="OCCURRENCE" stem="interfere" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">interfering</EVENT> with the Catholics as they <EVENT eid="e101" mainevent="NO" class="OCCURRENCE" stem="march" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">marched</EVENT> within Portadown's
+few Catholic streets.</s>
+<s><TIMEX3 tid="t146" type="DATE" value="1998-03-22" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t125">Earlier Sunday</TIMEX3>, police and militant Protestants <EVENT eid="e102" mainevent="YES" class="OCCURRENCE" stem="clash" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">clashed</EVENT> in a
+religiously polarized part of north Belfast.</s>
+<s>Police <EVENT eid="e104" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> an unmarked police car was <EVENT eid="e105" mainevent="NO" class="OCCURRENCE" stem="hit" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hit</EVENT> with gasoline bombs
+from the Protestant side.</s> <s>Riot police <EVENT eid="e107" mainevent="YES" class="OCCURRENCE" stem="respond" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">responded</EVENT> with a volley of
+plastic bullets that <EVENT eid="e110" mainevent="NO" class="OCCURRENCE" stem="scatter" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">scattered</EVENT> a 50-strong mob.</s>
+<s>An elderly Catholic man was <EVENT eid="e111" mainevent="YES" class="OCCURRENCE" stem="hospitalize" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hospitalized</EVENT> from <EVENT eid="e112" mainevent="NO" class="OCCURRENCE" stem="cut" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">cuts</EVENT> after a
+Protestant gasoline bomb <EVENT eid="e115" mainevent="NO" class="OCCURRENCE" stem="land" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">landed</EVENT> in his back yard.</s> <s>Police <EVENT eid="e116" mainevent="YES" class="OCCURRENCE" stem="arrest" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">arrested</EVENT>
+six Protestants on suspicion of rioting.</s>
+<s>(sp/eml)</s>
+
+(PROFILE
+(WS SL:BC-Northern Ireland, 1st Ld-Writethru; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:MEST;)
+(REG:AFRI;)
+(REG:INDI;)
+(REG:ENGL;)
+(REG:ASIA;)
+(LANG:ENGLISH;))
+)
+
+
+<s>AP-NY-03-22-98 1457EST</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="VAGUE" relatedToEvent="e116" eventID="e111" task="C"/>
+<TLINK lid="l2" relType="VAGUE" relatedToEvent="e111" eventID="e107" task="C"/>
+<TLINK lid="l3" relType="VAGUE" relatedToEvent="e95" eventID="e83" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e107" eventID="e104" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e81" eventID="e79" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e52" eventID="e46" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e43" eventID="e33" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e53" eventID="e52" task="C"/>
+<TLINK lid="l9" relType="BEFORE" relatedToEvent="e104" eventID="e102" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e72" eventID="e67" task="C"/>
+<TLINK lid="l11" relType="BEFORE" relatedToEvent="e33" eventID="e32" task="C"/>
+<TLINK lid="l12" relType="BEFORE" relatedToEvent="e46" eventID="e43" task="C"/>
+<TLINK lid="l13" relType="BEFORE" relatedToEvent="e6" eventID="e1" task="C"/>
+<TLINK lid="l14" relType="AFTER" relatedToEvent="e24" eventID="e13" task="C"/>
+<TLINK lid="l15" relType="AFTER" relatedToEvent="e13" eventID="e6" task="C"/>
+<TLINK lid="l16" relType="VAGUE" relatedToEvent="e97" eventID="e95" task="C"/>
+<TLINK lid="l17" relType="OVERLAP" relatedToEvent="e67" eventID="e60" task="C"/>
+<TLINK lid="l18" relType="AFTER" relatedToEvent="e102" eventID="e97" task="C"/>
+<TLINK lid="l19" relType="BEFORE" relatedToEvent="e32" eventID="e24" task="C"/>
+<TLINK lid="l20" relType="OVERLAP" relatedToEvent="e79" eventID="e76" task="C"/>
+<TLINK lid="l21" relType="OVERLAP" relatedToEvent="e76" eventID="e72" task="C"/>
+
+</TempEval>

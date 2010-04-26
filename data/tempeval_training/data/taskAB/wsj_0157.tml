@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891102-0034 
+ = 891102 
+ 891102-0034. 
+ Business Brief -- Tony Lama Co.:
+@  Equus Investment II Seeks
+@  To Change Offer for Firm 
+ <TIMEX3 tid="t26" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TLAM 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Tony Lama Co. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that Equus Investment II Limited Partnership  has <EVENT eid="e2" class="I_ACTION" stem="propose" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">proposed</EVENT> <EVENT eid="e2030" class="OCCURRENCE" stem="change" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">changing</EVENT> the <EVENT eid="e1995" class="I_ACTION" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> for the company to $13.65 in cash and stock from an all-cash <EVENT eid="e4" class="I_ACTION" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT>.</s> 
+
+   <s>Under terms of the new <EVENT eid="e2046" class="I_ACTION" stem="proposal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">proposal</EVENT>, Equus, managed by Equus Capital Corp., Houston, would <EVENT eid="e7" class="OCCURRENCE" stem="pay" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">pay</EVENT> $12 cash and one new preferred share with a liquidation preference of $1.65 a share for each of Tony Lama's 2.1 million shares outstanding.</s> 
+<s><TIMEX3 tid="t1999" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t26">Previously</TIMEX3>, it <EVENT eid="e9" class="I_ACTION" stem="offer" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">offered</EVENT> $13.65 a share in cash, or $29 million.</s> 
+
+   <s>The El Paso, Texas, maker of Western boots and leather accessories <EVENT eid="e10" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the preferred stock would <EVENT eid="e11" class="OCCURRENCE" stem="accrue" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">accrue</EVENT> dividends at a 12% rate, but would n't  be <EVENT eid="e14" class="OCCURRENCE" stem="pay" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">paid</EVENT> for <TIMEX3 tid="t28" type="DURATION" value="P2Y" temporalFunction="true" functionInDocument="NONE" beginPoint="t26">the first two years</TIMEX3>.</s> 
+<s>The stock would  be <EVENT eid="e17" class="OCCURRENCE" stem="redeem" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">redeemed</EVENT> in <TIMEX3 tid="t29" type="DATE" value="1994" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t26">five years</TIMEX3>, subject to terms of the surviving company's debt.</s> 
+
+   <s>Neither Equus nor Tony Lama <EVENT eid="e19" class="REPORTING" stem="give" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">gave</EVENT> a reason for the <EVENT eid="e2031" class="ASPECTUAL" stem="changed" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">changed</EVENT> <EVENT eid="e2000" class="I_ACTION" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> and Tony Lama could n't  be reached for <EVENT eid="e2001" class="REPORTING" stem="comment" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">comment</EVENT>.</s> 
+<s>However, Tony Lama <EVENT eid="e23" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it would  promptly <EVENT eid="e24" class="OCCURRENCE" stem="submit" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">submit</EVENT> the <EVENT eid="e2002" class="I_ACTION" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> to a special committee of the company's board.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e9" relatedToTime="t1999" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e10" relatedToTime="t28" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e14" relatedToTime="t28" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e1995" relatedToTime="t26" task="B"/>
+<TLINK lid="l5" relType="AFTER" eventID="e2030" relatedToTime="t26" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e1" relatedToTime="t26" task="B"/>
+<TLINK lid="l7" relType="AFTER" eventID="e7" relatedToTime="t26" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e9" relatedToTime="t26" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e10" relatedToTime="t26" task="B"/>
+<TLINK lid="l10" relType="AFTER" eventID="e14" relatedToTime="t26" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e2000" relatedToTime="t26" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e19" relatedToTime="t26" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e23" relatedToTime="t26" task="B"/>
+<TLINK lid="l14" relType="OVERLAP" eventID="e2002" relatedToTime="t26" task="B"/>
+</TempEval>

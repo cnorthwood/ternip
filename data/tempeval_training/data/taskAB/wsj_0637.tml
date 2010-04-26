@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891030-0061 
+ = 891030 
+ 891030-0061. 
+ Labatt Plans to Place
+@  New Preferred Shares 
+ <TIMEX3 tid="t34" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ T.LBT 
+ LONDON, Ontario  
+
+   <s>John Labatt Ltd. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="I_STATE" stem="plan" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">plans</EVENT> a private <EVENT eid="e3" class="OCCURRENCE" stem="placement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">placement</EVENT> of 150 million Canadian dollars (US$127.5 million) in preferred shares, to be <EVENT eid="e6" class="ASPECTUAL" stem="complete" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">completed</EVENT> <TIMEX3 tid="t72" type="DATE" value="1989-11-01" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t34">around Nov. 1</TIMEX3>.</s> 
+
+   <s>Proceeds will be <EVENT eid="e7" class="I_ACTION" stem="use" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">used</EVENT> to <EVENT eid="e9" class="OCCURRENCE" stem="reduce" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">reduce</EVENT> short-term debt at the beer and food concern, <EVENT eid="e10" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Robert Vaux, vice president, finance.</s> 
+
+   <s>The preferred shares will <EVENT eid="e12" class="OCCURRENCE" stem="carry" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">carry</EVENT> a floating annual dividend equal to 72% of the 30-day bankers' acceptance rate until <TIMEX3 tid="t37" type="DATE" value="1994-12-31" temporalFunction="false" functionInDocument="NONE">Dec. 31, 1994</TIMEX3>.</s> 
+<s>Thereafter, the rate will be <EVENT eid="e13" class="OCCURRENCE" stem="renegotiated" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">renegotiated</EVENT>.</s> 
+<s>Mr. Vaux <EVENT eid="e14" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that if no <EVENT eid="e16" class="OCCURRENCE" stem="agreement" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">agreement</EVENT> is <EVENT eid="e17" class="OCCURRENCE" stem="reach" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">reached</EVENT>, other buyers will be <EVENT eid="e18" class="I_ACTION" stem="seek" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">sought</EVENT> by <EVENT eid="e19" class="OCCURRENCE" stem="bid" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">bid</EVENT> or <EVENT eid="e20" class="OCCURRENCE" stem="auction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">auction</EVENT>.</s> 
+<s>The shares are <EVENT eid="e41" class="STATE" stem="redeemable" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">redeemable</EVENT> after <TIMEX3 tid="t42" type="DATE" value="1994" mod="END" temporalFunction="false" functionInDocument="NONE">the end of 1994</TIMEX3>.</s> 
+
+   <s>Mr. Vaux <EVENT eid="e21" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the share issue is part of a <EVENT eid="e43" class="I_STATE" stem="strategy" aspect="NONE" tense="PRESENT" polarity="POS" pos="NOUN">strategy</EVENT> to <EVENT eid="e23" class="OCCURRENCE" stem="strengthen" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">strengthen</EVENT> Labatt's balance sheet in anticipation of <EVENT eid="e25" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisitions</EVENT> to be <EVENT eid="e27" class="OCCURRENCE" stem="make" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">made</EVENT> during <TIMEX3 tid="t46" type="DURATION" value="PXM" temporalFunction="true" functionInDocument="NONE" beginPoint="t34">the next 12 to 18 months</TIMEX3>.</s> 
+<s>Labatt's <EVENT eid="e28" class="STATE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> no takeover bids outstanding <TIMEX3 tid="t49" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t34">currently</TIMEX3>, he <EVENT eid="e30" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Lead underwriter to the issue is Toronto Dominion Securities Inc.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t72" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t72" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e21" relatedToTime="t46" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e27" relatedToTime="t46" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e25" relatedToTime="t46" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e28" relatedToTime="t49" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e30" relatedToTime="t49" task="A"/>
+<TLINK lid="l8" relType="BEFORE-OR-OVERLAP" eventID="e2" relatedToTime="t34" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e1" relatedToTime="t34" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e10" relatedToTime="t34" task="B"/>
+<TLINK lid="l11" relType="AFTER" eventID="e7" relatedToTime="t34" task="B"/>
+<TLINK lid="l12" relType="OVERLAP" eventID="e16" relatedToTime="t34" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e14" relatedToTime="t34" task="B"/>
+<TLINK lid="l14" relType="AFTER" eventID="e19" relatedToTime="t34" task="B"/>
+<TLINK lid="l15" relType="AFTER" eventID="e18" relatedToTime="t34" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e21" relatedToTime="t34" task="B"/>
+<TLINK lid="l17" relType="AFTER" eventID="e27" relatedToTime="t34" task="B"/>
+<TLINK lid="l18" relType="AFTER" eventID="e25" relatedToTime="t34" task="B"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e28" relatedToTime="t34" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e30" relatedToTime="t34" task="B"/>
+</TempEval>

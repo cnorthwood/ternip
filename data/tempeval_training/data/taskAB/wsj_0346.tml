@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891101-0018 
+ = 891101 
+ 891101-0018. 
+ Business Brief -- Cilcorp Inc.:
+@  Some Assets to Be Acquired
+@  From Hunter Environmental 
+ <TIMEX3 tid="t30" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CER HESI 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Cilcorp Inc., Peoria, Ill., <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="I_ACTION" stem="agree" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">agreed</EVENT>  to <EVENT eid="e3" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> the environmental consulting and analytical service businesses of Hunter Environmental Services Inc. of Southport, Conn. 
+   The utility holding company <EVENT eid="e6" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Hunter  will <EVENT eid="e7" class="OCCURRENCE" stem="receive" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">receive</EVENT> 390,000 shares of a new series of Cilcorp convertible preferred stock with a face value of $39 million for the businesses.</s> 
+<s>Cilcorp  will  also <EVENT eid="e8" class="I_ACTION" stem="assume" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">assume</EVENT> $22 million of Hunter's existing <EVENT eid="e36" class="STATE" stem="debt" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">debt</EVENT>.</s> 
+<s>As part of the <EVENT eid="e37" class="I_ACTION" stem="agreement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">agreement</EVENT>, Cilcorp <EVENT eid="e10" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it  will <EVENT eid="e11" class="OCCURRENCE" stem="pay" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">pay</EVENT> Hunter $4 million in exchange for agreements not to compete.</s> 
+
+   <s>Cilcorp <EVENT eid="e15" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the businesses  to  be <EVENT eid="e16" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquired</EVENT> <EVENT eid="e38" class="OCCURRENCE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e39" class="OCCURRENCE" stem="revenue" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">revenue</EVENT> of $76 million for <TIMEX3 tid="t33" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t32">the year</TIMEX3> ended <TIMEX3 tid="t32" type="DATE" value="1989-03-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">March 31</TIMEX3>.</s> 
+
+   <s>Separately, Cilcorp <EVENT eid="e18" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e19" class="I_STATE" stem="plan" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">plans</EVENT>  to <EVENT eid="e20" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">purchase</EVENT> as many as 1.4 million shares, or 10% of its common stock outstanding from time to time on the open market and through privately negotiated transactions.</s> 
+
+   <s>The company, which <TIMEX3 tid="t34" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">currently</TIMEX3> <EVENT eid="e26" class="OCCURRENCE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> 13.5 million common shares outstanding, <EVENT eid="e27" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e28" class="OCCURRENCE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> no specific <EVENT eid="e41" class="I_ACTION" stem="plan" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">plans</EVENT> for the shares.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e16" relatedToTime="t33" task="A"/>
+<TLINK lid="l2" relType="VAGUE" eventID="e16" relatedToTime="t32" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e38" relatedToTime="t33" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e38" relatedToTime="t32" task="A"/>
+<TLINK lid="l5" relType="AFTER" eventID="e15" relatedToTime="t33" task="A"/>
+<TLINK lid="l6" relType="AFTER" eventID="e15" relatedToTime="t32" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e26" relatedToTime="t34" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e41" relatedToTime="t34" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e28" relatedToTime="t34" task="A"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e27" relatedToTime="t34" task="A"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e2" relatedToTime="t30" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e6" relatedToTime="t30" task="B"/>
+<TLINK lid="l13" relType="AFTER" eventID="e3" relatedToTime="t30" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e1" relatedToTime="t30" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e37" relatedToTime="t30" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e10" relatedToTime="t30" task="B"/>
+<TLINK lid="l17" relType="AFTER" eventID="e11" relatedToTime="t30" task="B"/>
+<TLINK lid="l18" relType="AFTER" eventID="e16" relatedToTime="t30" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e38" relatedToTime="t30" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e15" relatedToTime="t30" task="B"/>
+<TLINK lid="l21" relType="AFTER" eventID="e20" relatedToTime="t30" task="B"/>
+<TLINK lid="l22" relType="OVERLAP" eventID="e19" relatedToTime="t30" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e18" relatedToTime="t30" task="B"/>
+<TLINK lid="l24" relType="OVERLAP" eventID="e26" relatedToTime="t30" task="B"/>
+<TLINK lid="l25" relType="OVERLAP" eventID="e41" relatedToTime="t30" task="B"/>
+<TLINK lid="l26" relType="OVERLAP" eventID="e28" relatedToTime="t30" task="B"/>
+<TLINK lid="l27" relType="BEFORE" eventID="e27" relatedToTime="t30" task="B"/>
+</TempEval>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891026-0136 
+ = 891026 
+ 891026-0136. 
+ Kyle Technology Plans Sale 
+ <TIMEX3 tid="t16" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ KYLE 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ ROISEBURG, Ore.  
+
+   <s>Kyle Technology Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> a Seattle investor has <EVENT eid="e2" class="OCCURRENCE" stem="sign" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">signed</EVENT> a letter of <EVENT eid="e4" class="I_STATE" stem="intent" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">intent</EVENT> to <EVENT eid="e6" class="OCCURRENCE" stem="buy" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">buy</EVENT> the company for about $3.1 million, or $1.20 a share.</s> 
+
+   <s>The investor, Donald A. Wright, <EVENT eid="e7" class="I_STATE" stem="plan" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">plans</EVENT> to <EVENT eid="e9" class="OCCURRENCE" stem="run" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">run</EVENT> the company, <EVENT eid="e10" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> a spokesman for Kyle.</s> 
+
+   <s>The <EVENT eid="e11" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT> has been <EVENT eid="e12" class="I_ACTION" stem="approve" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">approved</EVENT> by Kyle's board, but <EVENT eid="e13" class="I_STATE" stem="require" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">requires</EVENT> the <EVENT eid="e14" class="I_ACTION" stem="approval" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">approval</EVENT> of the company's shareholders.</s> 
+<s>Kyle manufactures electronic components.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e1" relatedToTime="t16" task="B"/>
+<TLINK lid="l2" relType="AFTER" eventID="e6" relatedToTime="t16" task="B"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e7" relatedToTime="t16" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e10" relatedToTime="t16" task="B"/>
+</TempEval>

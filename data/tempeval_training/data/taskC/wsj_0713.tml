@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891027-0182 
+ = 891027 
+ 891027-0182. 
+ Dresdner Bank Acquisition 
+ <TIMEX3 tid="t26" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ EUROP DRSDY F.SGF 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) 
+ FRANKFURT, West Germany  
+
+   <s>West German and French authorities have <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="clear" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">cleared</EVENT> Dresdner Bank AG's <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="takeover" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">takeover</EVENT> of a majority stake in Banque Internationale de Placement (BIP), Dresdner Bank <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>The <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="approval" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">approval</EVENT>, which had been <EVENT eid="e6" mainevent="NO" class="I_STATE" stem="expect" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">expected</EVENT>, <EVENT eid="e7" mainevent="YES" class="OCCURRENCE" stem="permit" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">permits</EVENT> West Germany's second-largest bank to <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquire</EVENT> shares of the French investment bank.</s> 
+
+   <s>In a first step, Dresdner Bank will <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="buy" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> 32.99% of BIP for 1,015 French francs ($162) a share, or 528 million francs ($84.7 million).</s> 
+<s>Dresdner Bank <EVENT eid="e12" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it will also <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="buy" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> all shares <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="tender" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">tendered</EVENT> by shareholders on the Paris Stock Exchange at the same price from <TIMEX3 tid="t27" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t26">today</TIMEX3> through <TIMEX3 tid="t28" type="DATE" value="1989-11-17" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t26">Nov. 17</TIMEX3>.</s> 
+<s>In addition, the bank <EVENT eid="e22" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> an <EVENT eid="e18" mainevent="NO" class="STATE" stem="option" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">option</EVENT> to <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> a 30.84% stake in BIP from Societe Generale after <TIMEX3 tid="t29" type="DATE" value="1990-01-01" temporalFunction="false" functionInDocument="NONE">Jan. 1, 1990</TIMEX3> at 1,015 francs a share.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e22" eventID="e12" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e11" eventID="e7" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e12" eventID="e11" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e7" eventID="e4" task="C"/>
+
+</TempEval>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891026-0048 
+ = 891026 
+ 891026-0048. 
+ Business Brief -- Lawrence Insurance Group Inc.:
+@  Houston Reinsurance Firm
+@  Is Acquired for $28 Million 
+ <TIMEX3 tid="t25" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ LWR 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Lawrence Insurance Group Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">acquired</EVENT> United Republic Reinsurance Co., a Houston property and casualty reinsurance company, from United Savings Association of Texas for $28 million.</s> 
+
+   <s>Lawrence Insurance also <EVENT eid="e3" class="OCCURRENCE" stem="sell" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">sold</EVENT> 3.2 million of its shares for $7.125 each to its parent, Lawrence Group Inc. Lawrence Insurance, <EVENT eid="e4" class="OCCURRENCE" stem="base" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">based</EVENT> in Albany, N.Y., <EVENT eid="e5" class="I_STATE" stem="plan" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">plans</EVENT> to <EVENT eid="e7" class="OCCURRENCE" stem="use" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">use</EVENT> the $22.5 million in proceeds to <EVENT eid="e10" class="I_ACTION" stem="help" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e11" class="OCCURRENCE" stem="finance" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">finance</EVENT> the <EVENT eid="e12" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of United Republic.</s> 
+
+   <s>By <EVENT eid="e13" class="OCCURRENCE" stem="acquiring" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquiring</EVENT> the shares, Lawrence Group <EVENT eid="e14" class="OCCURRENCE" stem="increase" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">increased</EVENT> its stake in Lawrence Insurance to <EVENT eid="e26" class="STATE" stem="93.2%" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">93.2%</EVENT> from <EVENT eid="e27" class="STATE" stem="91.2%" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">91.2%</EVENT>.</s> 
+<s>Lawrence Insurance <EVENT eid="e16" class="OCCURRENCE" stem="underwrite" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">underwrites</EVENT> mostly primary insurance, a company spokesman <EVENT eid="e18" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>A reinsurance company effectively insures insurance companies that wish to spread the risk of a particular policy.</s> 
+
+   <s>Lawrence Group also <EVENT eid="e24" class="OCCURRENCE" stem="own" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">owns</EVENT> Lawrence Agency Corp., Schenectady, N.Y., an insurance agency and brokerage.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t25" task="B"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t25" task="B"/>
+<TLINK lid="l3" relType="AFTER" eventID="e10" relatedToTime="t25" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e3" relatedToTime="t25" task="B"/>
+<TLINK lid="l5" relType="AFTER" eventID="e12" relatedToTime="t25" task="B"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e5" relatedToTime="t25" task="B"/>
+<TLINK lid="l7" relType="AFTER" eventID="e7" relatedToTime="t25" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e14" relatedToTime="t25" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e18" relatedToTime="t25" task="B"/>
+</TempEval>

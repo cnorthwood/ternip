@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0034 
+ = 891102 
+ 891102-0034. 
+ Business Brief -- Tony Lama Co.:
+@  Equus Investment II Seeks
+@  To Change Offer for Firm 
+ <TIMEX3 tid="t26" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TLAM 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Tony Lama Co. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> that Equus Investment II Limited Partnership  has <EVENT eid="e2" mainevent="NO" class="I_ACTION" stem="propose" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">proposed</EVENT> <EVENT eid="e2030" mainevent="NO" class="OCCURRENCE" stem="change" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">changing</EVENT> the <EVENT eid="e1995" mainevent="NO" class="I_ACTION" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> for the company to $13.65 in cash and stock from an all-cash <EVENT eid="e4" mainevent="NO" class="I_ACTION" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT>.</s> 
+
+   <s>Under terms of the new <EVENT eid="e2046" mainevent="NO" class="I_ACTION" stem="proposal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">proposal</EVENT>, Equus, managed by Equus Capital Corp., Houston, would <EVENT eid="e7" mainevent="YES" class="OCCURRENCE" stem="pay" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> $12 cash and one new preferred share with a liquidation preference of $1.65 a share for each of Tony Lama's 2.1 million shares outstanding.</s> 
+<s><TIMEX3 tid="t1999" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t26">Previously</TIMEX3>, it <EVENT eid="e9" mainevent="YES" class="I_ACTION" stem="offer" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">offered</EVENT> $13.65 a share in cash, or $29 million.</s> 
+
+   <s>The El Paso, Texas, maker of Western boots and leather accessories <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the preferred stock would <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="accrue" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">accrue</EVENT> dividends at a 12% rate, but would n't  be <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="pay" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">paid</EVENT> for <TIMEX3 tid="t28" type="DURATION" value="P2Y" temporalFunction="true" functionInDocument="NONE" beginPoint="t26">the first two years</TIMEX3>.</s> 
+<s>The stock would  be <EVENT eid="e17" mainevent="YES" class="OCCURRENCE" stem="redeem" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">redeemed</EVENT> in <TIMEX3 tid="t29" type="DATE" value="1994" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t26">five years</TIMEX3>, subject to terms of the surviving company's debt.</s> 
+
+   <s>Neither Equus nor Tony Lama <EVENT eid="e19" mainevent="YES" class="REPORTING" stem="give" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">gave</EVENT> a reason for the <EVENT eid="e2031" mainevent="NO" class="ASPECTUAL" stem="changed" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">changed</EVENT> <EVENT eid="e2000" mainevent="NO" class="I_ACTION" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> and Tony Lama could n't  be reached for <EVENT eid="e2001" mainevent="NO" class="REPORTING" stem="comment" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">comment</EVENT>.</s> 
+<s>However, Tony Lama <EVENT eid="e23" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it would  promptly <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="submit" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">submit</EVENT> the <EVENT eid="e2002" mainevent="NO" class="I_ACTION" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> to a special committee of the company's board.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e19" eventID="e17" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e23" eventID="e19" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e7" eventID="e1" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e17" eventID="e10" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e9" eventID="e7" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e10" eventID="e9" task="C"/>
+
+</TempEval>

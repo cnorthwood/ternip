@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0016 
+ = 891026 
+ 891026-0016. 
+ Dividend News:
+@  Oneida Ltd. 
+ <TIMEX3 tid="t15" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ OCQ 
+ DIVIDENDS (DIV) 
+
+   <s>ONEIDA Ltd. <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="declare" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">declared</EVENT> a 10% stock dividend, <EVENT eid="e24" mainevent="NO" class="STATE" stem="payable" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">payable</EVENT> <TIMEX3 tid="t16" type="DATE" value="1989-12-15" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t15">Dec. 15</TIMEX3> to stock of record <TIMEX3 tid="t17" type="DATE" value="1989-11-17" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t15">Nov. 17</TIMEX3>.</s> 
+<s>The Oneida, N.Y., maker of consumer, food-service and industrial products also <EVENT eid="e3" mainevent="YES" class="OCCURRENCE" stem="declare" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">declared</EVENT> a quarterly cash dividend of 12 cents a share, with the same payable and record dates.</s> 
+<s>The cash dividend <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="pay" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">paid</EVENT> on the common stock also will <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="apply" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">apply</EVENT> to the new shares, the company <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>The move rewards shareholders and should <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="improve" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">improve</EVENT> the stock's liquidity, Oneida <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>The company <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> about 8.8 million shares outstanding.</s> 
+<s>In New York Stock Exchange composite trading <TIMEX3 tid="t63" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t15">yesterday</TIMEX3>, Oneida's shares <EVENT eid="e12" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> at $18.375 a share, unchanged.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e7" eventID="e3" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e11" eventID="e10" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e3" eventID="e1" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e10" eventID="e7" task="C"/>
+<TLINK lid="l5" relType="OVERLAP-OR-AFTER" relatedToEvent="e12" eventID="e11" task="C"/>
+
+</TempEval>

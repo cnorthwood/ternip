@@ -1,0 +1,303 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ NYT19980206.0460 
+ NEWS STORY 
+ <TIMEX3 tid="t190" type="TIME" value="1998-02-06T22:19:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/06/1998 22:19:00</TIMEX3> 
+
+A6974 Cx1f tta-z
+u f Cx13  Cx11  BC-ECON-REPORT-ART-NYT LR      02-06 0974
+
+
+ BC-ECON-REPORT-ART-NYT 
+
+(REPEATING to correct coding)
+
+UR JANUARY JOB TOTALS UP AT A ROBUST CLIP LR  QL
+UR (ART ADV: Graphic is being sent to NYT graphic clients.
+Non-subscribers can make individual purchase by calling
+212-556-4204.) LR  QL
+UR (JT LR ) QL
+UR By RICHARD W. STEVENSON LR  QC   QL
+UR c.1998 N.Y. Times News Service LR  QC   QL
+
+
+<s>WASHINGTON _ The economy <EVENT eid="e1" class="OCCURRENCE" stem="create" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">created</EVENT> jobs at a surprisingly robust
+pace in <TIMEX3 tid="t191" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">January</TIMEX3>, the government <EVENT eid="e4" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> on <TIMEX3 tid="t193" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">Friday</TIMEX3>, evidence that
+America's economic stamina has <EVENT eid="e6" class="OCCURRENCE" stem="withstand" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">withstood</EVENT> any <EVENT eid="e7" class="OCCURRENCE" stem="disruption" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">disruptions</EVENT> <EVENT eid="e224" class="OCCURRENCE" stem="cause" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">caused</EVENT> so far by the financial <EVENT eid="e228" class="OCCURRENCE" stem="tumult" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">tumult</EVENT> in Asia.</s>
+<s>The Bureau of Labor Statistics <EVENT eid="e9" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the economy <EVENT eid="e10" class="OCCURRENCE" stem="add" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">added</EVENT> 358,000
+jobs <TIMEX3 tid="t195" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">last month</TIMEX3>, far above the 235,000 <EVENT eid="e12" class="OCCURRENCE" stem="forecast" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">forecast</EVENT> by economists.</s>
+<s>It was the third consecutive month that job generation has been
+exceptionally strong.</s> <s>With growing opportunities for work <EVENT eid="e15" class="OCCURRENCE" stem="draw" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">drawing</EVENT>
+more people into the labor force, the unemployment rate <EVENT eid="e17" class="STATE" stem="remain" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">remained</EVENT> at
+4.7 percent <TIMEX3 tid="t196" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">last month</TIMEX3>, just a notch above its quarter-century low.</s>
+<s>The <EVENT eid="e229" class="OCCURRENCE" stem="demand" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">demand</EVENT> for workers also <EVENT eid="e231" class="OCCURRENCE" stem="lead" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">led</EVENT> employers to <EVENT eid="e20" class="OCCURRENCE" stem="raise" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">raise</EVENT> wages again
+<TIMEX3 tid="t198" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">last month</TIMEX3>.</s> <s>Average hourly earnings of production and
+nonsupervisory employees <EVENT eid="e23" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 4 cents, to $12.51.</s> <s>The gain <EVENT eid="e24" class="OCCURRENCE" stem="leave" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">left</EVENT>
+wages 3.8 percent higher than <TIMEX3 tid="t199" type="DATE" value="1997" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">a year earlier</TIMEX3>, <EVENT eid="e26" class="ASPECTUAL" stem="extend" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">extending</EVENT> a <EVENT eid="e2018" class="OCCURRENCE" stem="trend" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">trend</EVENT>
+that has <EVENT eid="e27" class="OCCURRENCE" stem="give" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">given</EVENT> back to workers some of the earning power they <EVENT eid="e28" class="OCCURRENCE" stem="lose" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">lost</EVENT>
+to inflation in <TIMEX3 tid="t200" type="DATE" value="198" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">the last decade</TIMEX3>.</s>
+<s>But economists <EVENT eid="e30" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the wage <EVENT eid="e31" class="OCCURRENCE" stem="increase" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">increase</EVENT> was not enough to <EVENT eid="e32" class="OCCURRENCE" stem="raise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">raise</EVENT>
+any concerns about higher inflation.</s> <s>And because the Federal
+Reserve has <EVENT eid="e34" class="OCCURRENCE" stem="make" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">made</EVENT> clear that it <EVENT eid="e35" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expects</EVENT> the economy to <EVENT eid="e37" class="OCCURRENCE" stem="slow" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">slow</EVENT> in
+<TIMEX3 tid="t201" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">coming months</TIMEX3> as ripple effects from Asia <EVENT eid="e232" class="OCCURRENCE" stem="reach" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">reach</EVENT> the United States,
+investors <EVENT eid="e39" class="OCCURRENCE" stem="disregard" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">disregarded</EVENT> the large jobs gains, <EVENT eid="e40" class="OCCURRENCE" stem="bet" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">betting</EVENT> that neither a
+<EVENT eid="e41" class="OCCURRENCE" stem="rise" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">rise</EVENT> in interest rates nor resurgent <EVENT eid="e43" class="OCCURRENCE" stem="inflation" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">inflation</EVENT> is <EVENT eid="e44" class="I_STATE" stem="loom" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">looming</EVENT>.</s>
+<s>Stocks <EVENT eid="e45" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT>, <EVENT eid="e46" class="OCCURRENCE" stem="push" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">pushing</EVENT> the Dow Jones industrial average up 72.24
+points, to 8,189.49, <EVENT eid="e47" class="OCCURRENCE" stem="leave" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">leaving</EVENT> the index within 70 points of its
+record high <EVENT eid="e356" class="OCCURRENCE" stem="set" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">set</EVENT> on <TIMEX3 tid="t202" type="DATE" value="1997-08-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">Aug. 6</TIMEX3>.</s> <s>In the bond market, a sensitive
+barometer of inflation anxiety, prices <EVENT eid="e52" class="OCCURRENCE" stem="edge" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">edged</EVENT> up , <EVENT eid="e53" class="OCCURRENCE" stem="push" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">pushing</EVENT> down the
+yield on the benchmark 30-year Treasury bond to 5.92 percent from
+5.93 percent.</s>
+<s>``Job <EVENT eid="e55" class="OCCURRENCE" stem="creation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">creation</EVENT> is sturdy and we have effective price
+stability,'' <EVENT eid="e57" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Paul McCulley, an economist at UBS Securities.</s>
+<s>``The bottom line is that we've got a lovely economy.''</s>
+<s>With potential inflation <EVENT eid="e61" class="OCCURRENCE" stem="counterbalance" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">counterbalanced</EVENT> by worries about
+possible price <EVENT eid="e246" class="OCCURRENCE" stem="decline" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">declines</EVENT>, the Fed and its chairman, Alan Greenspan,
+have <EVENT eid="e62" class="I_ACTION" stem="suggest" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">suggested</EVENT> that they <EVENT eid="e63" class="I_ACTION" stem="intend" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">intend</EVENT> to <EVENT eid="e65" class="OCCURRENCE" stem="keep" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">keep</EVENT> interest rates unchanged
+until the economy <EVENT eid="e66" class="OCCURRENCE" stem="tilt" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">tilts</EVENT> clearly in one direction or another.</s>
+<s>The job figures for <TIMEX3 tid="t203" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">January</TIMEX3> <EVENT eid="e69" class="ASPECTUAL" stem="extend" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">extended</EVENT> a <EVENT eid="e70" class="OCCURRENCE" stem="surge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">surge</EVENT> in employment <EVENT eid="e250" class="OCCURRENCE" stem="gain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">gains</EVENT>
+that <EVENT eid="e72" class="ASPECTUAL" stem="begin" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">began</EVENT> <TIMEX3 tid="t204" type="DATE" value="1997-FA" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">last fall</TIMEX3>, just when the labor market had <EVENT eid="e75" class="OCCURRENCE" stem="show" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">showed</EVENT> signs
+of cooling.</s> <s>After <EVENT eid="e78" class="OCCURRENCE" stem="account" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">accounting</EVENT> for a small downward <EVENT eid="e395" class="OCCURRENCE" stem="revision" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">revision</EVENT> <TIMEX3 tid="t205" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">Friday</TIMEX3>
+to <TIMEX3 tid="t206" type="DATE" value="1997-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">December</TIMEX3>'s figures, the economy has been <EVENT eid="e81" class="OCCURRENCE" stem="create" aspect="PERFECTIVE_PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">creating</EVENT> jobs at a rate
+of 358,000 a month for <TIMEX3 tid="t207" type="DURATION" value="P4M" temporalFunction="true" functionInDocument="NONE" endPoint="t190">the last four months</TIMEX3> _ and 381,000 over <TIMEX3 tid="t208" type="DURATION" value="P3M" temporalFunction="true" functionInDocument="NONE" endPoint="t190">the
+last three months</TIMEX3> _ after <EVENT eid="e85" class="OCCURRENCE" stem="averaging" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">averaging</EVENT> 242,000 for <TIMEX3 tid="t212" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" beginPoint="t211">the first nine
+months</TIMEX3> of <TIMEX3 tid="t211" type="DATE" value="1997" temporalFunction="false" functionInDocument="NONE">1997</TIMEX3>.</s>
+<s>The surge in jobs <EVENT eid="e89" class="OCCURRENCE" stem="reflect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">reflects</EVENT> a remarkable confluence of positive
+and self-reinforcing economic forces.</s> <s>Inflation has been almost
+nonexistent, and consumer confidence has been extremely strong.</s>
+<s>After a short, sharp <EVENT eid="e251" class="OCCURRENCE" stem="drop" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">drop</EVENT> when Asia's financial problems first
+<EVENT eid="e93" class="OCCURRENCE" stem="become" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">became</EVENT> clear, the stock market has <EVENT eid="e95" class="OCCURRENCE" stem="rebound" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">rebounded</EVENT> and corporate profits
+have <EVENT eid="e96" class="STATE" stem="remain" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">remained</EVENT> healthy.</s>
+<s>Long-term interest rates, an important indicator of economic
+stability, have <EVENT eid="e98" class="OCCURRENCE" stem="fall" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">fallen</EVENT> in <TIMEX3 tid="t213" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">the last few months</TIMEX3>.</s> <s>Lower rates have <EVENT eid="e99" class="I_ACTION" stem="help" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">helped</EVENT> <EVENT eid="e100" class="OCCURRENCE" stem="invigorate" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">invigorate</EVENT> housing and other interest-sensitive sectors of
+the economy by <EVENT eid="e101" class="OCCURRENCE" stem="make" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">making</EVENT> loans more affordable, and have <EVENT eid="e102" class="I_ACTION" stem="allow" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">allowed</EVENT>
+companies to <EVENT eid="e104" class="ASPECTUAL" stem="continue" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">continue</EVENT> <EVENT eid="e105" class="OCCURRENCE" stem="invest" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">investing</EVENT> heavily in more efficient
+equipment.</s>
+<s>The likelihood that the federal budget will <TIMEX3 tid="t214" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">soon</TIMEX3> <EVENT eid="e107" class="OCCURRENCE" stem="move" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">move</EVENT> from
+deficit into surplus has further <EVENT eid="e109" class="OCCURRENCE" stem="improve" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">improved</EVENT> the outlook.</s> <s>The less
+money the government needs to borrow, the more is freed for private
+investment.</s>
+<s>President Clinton <EVENT eid="e115" class="OCCURRENCE" stem="welcome" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">welcomed</EVENT> the job figures at a news <EVENT eid="e254" class="OCCURRENCE" stem="conference" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">conference</EVENT>
+<TIMEX3 tid="t2181" type="DATE" value="1998-02-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">Friday</TIMEX3>.</s> <s>His advisers <EVENT eid="e117" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the results <EVENT eid="e256" class="OCCURRENCE" stem="reflect" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reflected</EVENT> not just from
+<EVENT eid="e122" class="OCCURRENCE" stem="balance" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">balancing</EVENT> the budget, but also <EVENT eid="e257" class="OCCURRENCE" stem="initiative" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">initiatives</EVENT> like improved access to
+education and training and the opening of foreign markets to trade.</s>
+<s>``There are enormous economic and social benefits from our
+nation's high-employment economy,'' said Janet Yellen, the
+chairwoman of the White House's Council of Economic Advisers.</s>
+<s>Some of the biggest employment gains <EVENT eid="e134" class="OCCURRENCE" stem="come" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">came</EVENT> in the construction
+industry, which <EVENT eid="e137" class="OCCURRENCE" stem="add" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">added</EVENT> 92,000 jobs in <TIMEX3 tid="t215" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">January</TIMEX3>.</s> <s>The increase
+<EVENT eid="e140" class="OCCURRENCE" stem="reflect" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reflected</EVENT> the strength of the housing industry, which has been <EVENT eid="e258" class="OCCURRENCE" stem="help" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">helped</EVENT> not just by declining interest rates but also by unusually
+warm weather.</s>
+<s>Service industries also <EVENT eid="e145" class="OCCURRENCE" stem="show" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">showed</EVENT> solid job gains, as did
+manufacturers, two areas <EVENT eid="e146" class="I_STATE" stem="expect" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">expected</EVENT> to be hardest <EVENT eid="e148" class="OCCURRENCE" stem="hit" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">hit</EVENT> when the
+effects of the Asian crisis <EVENT eid="e151" class="OCCURRENCE" stem="hit" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">hit</EVENT> the American economy.</s> <s>The major
+<EVENT eid="e259" class="OCCURRENCE" stem="harm" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">harm</EVENT> from Asia is likely to come from the <EVENT eid="e155" class="OCCURRENCE" stem="plunge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">plunge</EVENT> in the value of
+many Asian currencies relative to the dollar, a situation that is <EVENT eid="e160" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e162" class="OCCURRENCE" stem="lead" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">lead</EVENT> to a <EVENT eid="e163" class="OCCURRENCE" stem="surge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">surge</EVENT> of inexpensive imports into the United
+States, <EVENT eid="e164" class="OCCURRENCE" stem="hurt" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">hurting</EVENT> American competitors.</s> <s>And the <EVENT eid="e261" class="OCCURRENCE" stem="weakness" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">weakness</EVENT> of the Asian
+economies is also likely to <EVENT eid="e166" class="OCCURRENCE" stem="lead" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">lead</EVENT> to decreased <EVENT eid="e167" class="OCCURRENCE" stem="demand" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">demand</EVENT> for American
+exports.</s>
+<s>``The economy has been <EVENT eid="e168" class="OCCURRENCE" stem="run" aspect="PERFECTIVE_PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">running</EVENT> on the fumes of the strength from
+before the Asia shock,'' McCulley <EVENT eid="e169" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> <s>``Those fumes will <EVENT eid="e171" class="OCCURRENCE" stem="exhaust" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">exhaust</EVENT>
+themselves, and the manufacturing sector is going to <EVENT eid="e174" class="ASPECTUAL" stem="start" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">start</EVENT> getting
+<EVENT eid="e176" class="OCCURRENCE" stem="beat" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">beat</EVENT> up in the spring.''</s>
+<s>The figures <EVENT eid="e178" class="OCCURRENCE" stem="show" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">showed</EVENT> the unemployment rate for adult men <EVENT eid="e179" class="OCCURRENCE" stem="decline" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">declined</EVENT>
+to 3.8 percent <TIMEX3 tid="t218" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">last month</TIMEX3> from 4.1 percent in <TIMEX3 tid="t219" type="DATE" value="1997-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">December</TIMEX3>, the lowest
+figure for almost two decades.</s> <s>The rate for adult women <EVENT eid="e181" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 0.4
+percent, to 4.4 percent.</s>
+<s>For the first time, the Labor Department <EVENT eid="e183" class="OCCURRENCE" stem="break" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">broke</EVENT> out unemployment
+by education level as well as gender, age and race.</s> <s>The analysis
+<EVENT eid="e186" class="OCCURRENCE" stem="show" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">showed</EVENT> unemployment rates <EVENT eid="e187" class="OCCURRENCE" stem="drop" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">dropped</EVENT> steadily with higher levels of
+education.</s> <s>Among people with less than a high school education, the
+<EVENT eid="e2162" class="OCCURRENCE" stem="rate" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rate</EVENT> in <TIMEX3 tid="t222" type="DATE" value="1998-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t190">January</TIMEX3> was 7.2 percent.</s>
+<s>Among high school graduates, the rate was 3.9 percent, and
+college graduates, 1.9 percent.</s>
+
+
+
+<s>NYT-02-06-98 2219EST</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e4" relatedToTime="t193" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e4" relatedToTime="t191" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e9" relatedToTime="t195" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e10" relatedToTime="t195" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e17" relatedToTime="t196" task="A"/>
+<TLINK lid="l6" relType="OVERLAP-OR-AFTER" eventID="e27" relatedToTime="t199" task="A"/>
+<TLINK lid="l7" relType="OVERLAP-OR-AFTER" eventID="e27" relatedToTime="t200" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e24" relatedToTime="t199" task="A"/>
+<TLINK lid="l9" relType="AFTER" eventID="e24" relatedToTime="t200" task="A"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e41" relatedToTime="t201" task="A"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e34" relatedToTime="t201" task="A"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e35" relatedToTime="t201" task="A"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e356" relatedToTime="t202" task="A"/>
+<TLINK lid="l14" relType="AFTER" eventID="e47" relatedToTime="t202" task="A"/>
+<TLINK lid="l15" relType="AFTER" eventID="e45" relatedToTime="t202" task="A"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e72" relatedToTime="t203" task="A"/>
+<TLINK lid="l17" relType="OVERLAP" eventID="e72" relatedToTime="t204" task="A"/>
+<TLINK lid="l18" relType="OVERLAP" eventID="e250" relatedToTime="t203" task="A"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e250" relatedToTime="t204" task="A"/>
+<TLINK lid="l20" relType="OVERLAP" eventID="e98" relatedToTime="t213" task="A"/>
+<TLINK lid="l21" relType="OVERLAP" eventID="e107" relatedToTime="t214" task="A"/>
+<TLINK lid="l22" relType="OVERLAP" eventID="e137" relatedToTime="t215" task="A"/>
+<TLINK lid="l23" relType="BEFORE-OR-OVERLAP" eventID="e134" relatedToTime="t215" task="A"/>
+<TLINK lid="l24" relType="AFTER" eventID="e179" relatedToTime="t219" task="A"/>
+<TLINK lid="l25" relType="OVERLAP" eventID="e179" relatedToTime="t218" task="A"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e4" relatedToTime="t190" task="B"/>
+<TLINK lid="l27" relType="BEFORE" eventID="e9" relatedToTime="t190" task="B"/>
+<TLINK lid="l28" relType="BEFORE" eventID="e10" relatedToTime="t190" task="B"/>
+<TLINK lid="l29" relType="BEFORE" eventID="e17" relatedToTime="t190" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e23" relatedToTime="t190" task="B"/>
+<TLINK lid="l31" relType="BEFORE" eventID="e27" relatedToTime="t190" task="B"/>
+<TLINK lid="l32" relType="BEFORE" eventID="e24" relatedToTime="t190" task="B"/>
+<TLINK lid="l33" relType="BEFORE" eventID="e31" relatedToTime="t190" task="B"/>
+<TLINK lid="l34" relType="BEFORE" eventID="e30" relatedToTime="t190" task="B"/>
+<TLINK lid="l35" relType="AFTER" eventID="e41" relatedToTime="t190" task="B"/>
+<TLINK lid="l36" relType="BEFORE" eventID="e34" relatedToTime="t190" task="B"/>
+<TLINK lid="l37" relType="OVERLAP" eventID="e35" relatedToTime="t190" task="B"/>
+<TLINK lid="l38" relType="BEFORE" eventID="e356" relatedToTime="t190" task="B"/>
+<TLINK lid="l39" relType="BEFORE" eventID="e47" relatedToTime="t190" task="B"/>
+<TLINK lid="l40" relType="BEFORE" eventID="e45" relatedToTime="t190" task="B"/>
+<TLINK lid="l41" relType="BEFORE" eventID="e57" relatedToTime="t190" task="B"/>
+<TLINK lid="l42" relType="AFTER" eventID="e246" relatedToTime="t190" task="B"/>
+<TLINK lid="l43" relType="BEFORE" eventID="e72" relatedToTime="t190" task="B"/>
+<TLINK lid="l44" relType="BEFORE" eventID="e250" relatedToTime="t190" task="B"/>
+<TLINK lid="l45" relType="BEFORE" eventID="e93" relatedToTime="t190" task="B"/>
+<TLINK lid="l46" relType="OVERLAP" eventID="e96" relatedToTime="t190" task="B"/>
+<TLINK lid="l47" relType="BEFORE" eventID="e251" relatedToTime="t190" task="B"/>
+<TLINK lid="l48" relType="BEFORE" eventID="e98" relatedToTime="t190" task="B"/>
+<TLINK lid="l49" relType="OVERLAP" eventID="e101" relatedToTime="t190" task="B"/>
+<TLINK lid="l50" relType="OVERLAP" eventID="e104" relatedToTime="t190" task="B"/>
+<TLINK lid="l51" relType="BEFORE" eventID="e99" relatedToTime="t190" task="B"/>
+<TLINK lid="l52" relType="AFTER" eventID="e107" relatedToTime="t190" task="B"/>
+<TLINK lid="l53" relType="BEFORE" eventID="e117" relatedToTime="t190" task="B"/>
+<TLINK lid="l54" relType="BEFORE" eventID="e137" relatedToTime="t190" task="B"/>
+<TLINK lid="l55" relType="BEFORE" eventID="e134" relatedToTime="t190" task="B"/>
+<TLINK lid="l56" relType="BEFORE" eventID="e258" relatedToTime="t190" task="B"/>
+<TLINK lid="l57" relType="OVERLAP" eventID="e146" relatedToTime="t190" task="B"/>
+<TLINK lid="l58" relType="OVERLAP" eventID="e160" relatedToTime="t190" task="B"/>
+<TLINK lid="l59" relType="BEFORE" eventID="e169" relatedToTime="t190" task="B"/>
+<TLINK lid="l60" relType="BEFORE" eventID="e179" relatedToTime="t190" task="B"/>
+<TLINK lid="l61" relType="BEFORE" eventID="e181" relatedToTime="t190" task="B"/>
+<TLINK lid="l62" relType="BEFORE" eventID="e187" relatedToTime="t190" task="B"/>
+</TempEval>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891030-0037 
+ = 891030 
+ 891030-0037. 
+ International Brief -- Erbamont N.V.:
+@  Montedison Agrees to Buy
+@  Rest of Stock for $37 Each 
+ <TIMEX3 tid="t28" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ MNT ERB 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Montedison S.p.A. definitively <EVENT eid="e1" mainevent="YES" class="I_STATE" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> all of the publicly held shares of Erbamont N.V. for $37 each.</s> 
+
+   <s>Montedison <TIMEX3 tid="t29" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">now</TIMEX3> <EVENT eid="e4" mainevent="YES" class="STATE" stem="own" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">owns</EVENT> about 72% of Erbamont's shares outstanding.</s> 
+
+   <s>The companies <EVENT eid="e5" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e30" mainevent="NO" class="I_STATE" stem="accord" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">accord</EVENT> was unanimously <EVENT eid="e6" mainevent="NO" class="I_ACTION" stem="approve" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">approved</EVENT> by a special committee of Erbamont directors unaffiliated with Montedison.</s> 
+
+   <s>Under the pact, Montedision will <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="make" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">make</EVENT> a $37-a-share tender <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> for Erbamont stock outstanding.</s> 
+<s>The tender <EVENT eid="e10" mainevent="YES" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> will be followed by the <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of all of Erbamont's assets, subject to all of its liabilities, to Montedison.</s> 
+<s>Erbamont will then be <EVENT eid="e14" mainevent="YES" class="OCCURRENCE" stem="liquidate" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">liquidated</EVENT>, with any <EVENT eid="e15" mainevent="NO" class="STATE" stem="remaining" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">remaining</EVENT> Erbamont holders <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="receive" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">receiving</EVENT> a distribution of $37 a share.</s> 
+
+   <s>The companies <EVENT eid="e17" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the transaction is being <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="structure" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">structured</EVENT> this way because the laws of the Netherlands Antilles, under which Erbamont is organized, do n't <EVENT eid="e23" mainevent="NO" class="I_STATE" stem="provide" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">provide</EVENT> for merger transactions.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE-OR-OVERLAP" relatedToEvent="e4" eventID="e1" task="C"/>
+<TLINK lid="l2" relType="OVERLAP-OR-AFTER" relatedToEvent="e5" eventID="e4" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e17" eventID="e14" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e14" eventID="e10" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e10" eventID="e8" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e8" eventID="e5" task="C"/>
+
+</TempEval>

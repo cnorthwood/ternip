@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891030-0143 
+ = 891030 
+ 891030-0143. 
+ RJR Is Selling
+@  Candy Brands
+@  For $370 Million
+@  ----
+@  By Peter Waldman
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t78" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ RJR Z.NES 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+FOOD PRODUCTS (FOD) 
+
+   <s>RJR Nabisco Inc. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="I_STATE" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> its Baby Ruth, Butterfinger and Pearson candy businesses to Nestle S.A.'s Nestle Foods unit for $370 million.</s> 
+
+   <s>The <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT>, at a higher <EVENT eid="e121" mainevent="NO" class="STATE" stem="price" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">price</EVENT> than some analysts had <EVENT eid="e7" mainevent="NO" class="I_STATE" stem="expect" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">expected</EVENT>, <EVENT eid="e8" mainevent="YES" class="I_ACTION" stem="help" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">helps</EVENT> the food and tobacco giant <EVENT eid="e72" mainevent="NO" class="OCCURRENCE" stem="raise" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">raise</EVENT> funds to <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="pay" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> debt and <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="boost" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">boosts</EVENT> Nestle's 7% share of the U.S. candy market to <EVENT eid="e73" mainevent="NO" class="STATE" stem="about 12%" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">about 12%</EVENT>.</s> 
+
+   <s>The candy businesses <EVENT eid="e75" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e76" mainevent="NO" class="STATE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sales</EVENT> of about $154 million <TIMEX3 tid="t79" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">last year</TIMEX3>, which was roughly 12% of total revenue for RJR's Planters LifeSavers unit, <EVENT eid="e80" mainevent="NO" class="REPORTING" stem="accord" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">according</EVENT> to a memorandum <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="distribute" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">distributed</EVENT> by RJR's owner, Kohlberg Kravis Roberts amp Co., to bankers <TIMEX3 tid="t82" type="DATE" value="1988-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">last December</TIMEX3>.</s> 
+
+   <s>The Nestle acquisition includes a candy plant in Franklin Park, Ill., which employs about 800 workers.</s> 
+
+   <s>The <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT>, which had been <EVENT eid="e18" mainevent="NO" class="I_STATE" stem="expect" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">expected</EVENT>, is part of KKR's <EVENT eid="e83" mainevent="YES" class="I_STATE" stem="program" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">program</EVENT> to <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="pay" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> down $5 billion of a $6 billion bridge loan by <TIMEX3 tid="t85" type="DATE" value="1990-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">February</TIMEX3>.</s> 
+<s>Roughly $2 billion of that debt has already been <EVENT eid="e21" mainevent="YES" class="OCCURRENCE" stem="repay" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">repaid</EVENT> from previous asset sales, and RJR <EVENT eid="e23" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="use" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">use</EVENT> another $2 billion from the pending, two-part <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of most of its Del Monte unit.</s> 
+<s>That <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT>, however , could still <EVENT eid="e89" mainevent="YES" class="OCCURRENCE" stem="fall" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">fall</EVENT> through if financing problems <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="develop" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">develop</EVENT>.</s> 
+<s>Thus, it remains crucial for RJR to obtain top dollar for its smaller assets like the candy brands.</s> 
+
+   <s>Louis Gerstner Jr., chairman and chief executive officer of New York-based RJR, called the sale a "significant step" in the company's divestiture program, as well as a "a strategic divestiture."</s> 
+<s>Since KKR <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="buy" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">bought</EVENT> RJR in <TIMEX3 tid="t91" type="DATE" value="1989-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">February</TIMEX3> for $25 billion of debt, it has <EVENT eid="e39" mainevent="YES" class="I_STATE" stem="agree" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e41" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> nearly $5 billion of RJR assets.</s> 
+<s>RJR's executives have <EVENT eid="e42" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">said</EVENT> they will <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="dispense" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">dispense</EVENT> with certain brands, in particular, that are n't  <EVENT eid="e93" mainevent="NO" class="STATE" stem="leader" tense="PRESENT" aspect="NONE" polarity="NEG" pos="NOUN">leaders</EVENT> in their markets.</s> 
+<s>"RJR Nabisco and Planters LifeSavers will <EVENT eid="e94" mainevent="NO" class="OCCURRENCE" stem="concentrate" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">concentrate</EVENT> more on our own core businesses," Mr. Gerstner <EVENT eid="e50" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t95" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">Friday</TIMEX3>.</s> 
+
+   <s>Baby Ruth and Butterfinger are both among the top-selling 15 chocolate bars in the U.S., but RJR's overall share of the roughly $5.1 billion market is less than 5%.</s> 
+<s>Nestle's <EVENT eid="e96" mainevent="YES" class="STATE" stem="share" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">share</EVENT> of 7% before <TIMEX3 tid="t99" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t78">Friday</TIMEX3>'s <EVENT eid="e52" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">purchases</EVENT> is far below the shares of market leaders Hershey Foods Corp. and Mars Inc., which have about 40% and 36% of the market, respectively.</s> 
+
+   <s>"This means Nestle is now in the candybar business in a big way," <EVENT eid="e61" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Lisbeth Echeandia, publisher of Orlando, Fla.-based Confectioner Magazine.</s> 
+<s>"For them, it makes all kinds of sense.</s> 
+<s>They've been <EVENT eid="e64" mainevent="YES" class="OCCURRENCE" stem="give" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">given</EVENT> a mandate from Switzerland" to <EVENT eid="e67" mainevent="NO" class="I_ACTION" stem="expand" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">expand</EVENT> their U.S. chocolate <EVENT eid="e100" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT>.</s> 
+<s>Nestle S.A. is based in Vevey, Switzerland.</s> 
+
+   <s>The new candy bars, "<EVENT eid="e69" mainevent="NO" class="OCCURRENCE" stem="make" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">make</EVENT> an important <EVENT eid="e70" mainevent="NO" class="OCCURRENCE" stem="contribution" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">contribution</EVENT> to our Nestle Foods commitment to this very important strategic unit," <EVENT eid="e71" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> C. Alan MacDonald, president of Nestle Foods in Purchase, N.Y.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e42" eventID="e39" task="C"/>
+<TLINK lid="l2" relType="OVERLAP-OR-AFTER" relatedToEvent="e21" eventID="e83" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e89" eventID="e21" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e75" eventID="e8" task="C"/>
+<TLINK lid="l5" relType="BEFORE-OR-OVERLAP" relatedToEvent="e61" eventID="e96" task="C"/>
+<TLINK lid="l6" relType="VAGUE" relatedToEvent="e50" eventID="e42" task="C"/>
+<TLINK lid="l7" relType="BEFORE-OR-OVERLAP" relatedToEvent="e8" eventID="e1" task="C"/>
+
+</TempEval>

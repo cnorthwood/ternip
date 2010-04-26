@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ XIE19980808.0060 
+ 1998-08-08 14:35 
+
+ Cyprus Condemns Terrorist Bombings in Africa 
+
+
+NICOSIA, <TIMEX3 tid="t1" type="DATE" value="1998-08-08" temporalFunction="false" functionInDocument="PUBLICATION_TIME">August 8</TIMEX3> (Xinhua) -- The Cypriot government <TIMEX3 tid="t2" type="DATE" value="1998-08-08" temporalFunction="false" functionInDocument="NONE">Saturday</TIMEX3>
+strongly <EVENT eid="e1" class="OCCURRENCE">condemned</EVENT> two terrorist bomb <EVENT eid="e10" class="OCCURRENCE">attacks</EVENT> in Kenya and
+Tanzania <TIMEX3 tid="t3" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="NONE">Friday</TIMEX3>, <EVENT eid="e2" class="REPORTING">calling</EVENT> them an "atrocious crime."
+
+
+In a condolence telegram to U.S. President Bill Clinton,
+President Glafcos Clerides <EVENT eid="e3" class="OCCURRENCE">condemned</EVENT> the terrorist <EVENT eid="e12" class="OCCURRENCE">acts</EVENT> and
+<EVENT eid="e4" class="OCCURRENCE">extended</EVENT> his sympathy to the victims' families.
+
+
+Similar telegrams were <EVENT eid="e5" class="OCCURRENCE">sent</EVENT> by the Cyprus government to the
+presidents of Kenya and Tanzania.
+
+
+More than 100 people have <EVENT eid="e17" class="OCCURRENCE">died</EVENT>, eight of them Americans and
+over 1,000 injured since a bomb <EVENT eid="e6" class="OCCURRENCE">ripped</EVENT> through an office building
+next to the U.S. embassy in Nairobi, Kenya <TIMEX3 tid="t4" type="TIME" value="1998-08-07TMO" temporalFunction="false" functionInDocument="NONE">Friday morning</TIMEX3>.
+
+
+Six people were also <EVENT eid="e7" class="OCCURRENCE">killed</EVENT> and at least 58 injured in a car
+bomb <EVENT eid="e13" class="OCCURRENCE">attack</EVENT> <SIGNAL sid="s1">on</SIGNAL> <TIMEX3 tid="t5" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="NONE">Friday</TIMEX3> outside the U.S. embassy in the Tanzanian
+capital Dar-es-Salaam.
+
+
+The two <EVENT eid="e14" class="OCCURRENCE">bombings</EVENT> happened only minutes apart, apparently with
+the U.S. embassies as their targets. No one has <EVENT eid="e9" class="REPORTING">claimed</EVENT>
+responsibility for the <EVENT eid="e16" class="OCCURRENCE">attacks</EVENT>. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" signalID="s1"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l1" relType="INCLUDES" timeID="t3" relatedToTime="t4" origin="USER"/>
+<TLINK lid="l2" relType="IS_INCLUDED" timeID="t4" relatedToTime="t5" origin="USER"/>
+<TLINK lid="l3" relType="IDENTITY" timeID="t3" relatedToTime="t5" origin="USER"/>
+<TLINK lid="l4" relType="BEFORE" timeID="t5" relatedToTime="t2" origin="USER"/>
+<TLINK lid="l5" relType="IDENTITY" timeID="t2" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l6" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t2" origin="USER"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t3" origin="USER"/>
+<TLINK lid="l8" relType="DURING" eventInstanceID="ei2" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l10" relType="IDENTITY" eventInstanceID="ei12" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t4" origin="USER"/>
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei17" origin="USER"/>
+<TLINK lid="l18" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t5" origin="USER"/>
+<TLINK lid="l19" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToTime="t5" origin="USER"/>
+<TLINK lid="l21" relType="IBEFORE" eventInstanceID="ei13" relatedToEventInstance="ei7" origin="USER"/>
+<TLINK lid="l22" relType="SIMULTANEOUS" eventInstanceID="ei13" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l23" relType="IDENTITY" eventInstanceID="ei14" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei14" origin="USER"/>
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l26" relType="AFTER" eventInstanceID="ei9" relatedToEventInstance="ei16" origin="USER"/>
+<TLINK lid="l27" relType="IDENTITY" eventInstanceID="ei16" relatedToEventInstance="ei10" origin="USER"/>
+
+</TimeML>

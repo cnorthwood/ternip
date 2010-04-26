@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ PRI<TIMEX3 tid="t25" type="DATE" value="1998-02-16" temporalFunction="false" functionInDocument="CREATION_TIME">19980216</TIMEX3>.2000.0170 
+ NEWS STORY 
+
+
+
+
+
+ <s>The British government  has  formally <EVENT eid="e1" mainevent="YES" class="I_ACTION" stem="call" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">called</EVENT> for Sinn Fein, the IRA's
+ political wing,  to  be <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="expelled" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">expelled</EVENT> from the multiparty peace <EVENT eid="e37" mainevent="NO" class="OCCURRENCE" stem="talk" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">talks</EVENT> on northern
+ Ireland.</s> <s>The <EVENT eid="e27" mainevent="NO" class="OCCURRENCE" stem="move" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">move</EVENT>  had  been widely <EVENT eid="e57" mainevent="YES" class="I_STATE" stem="expect" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">expected</EVENT> after northern Ireland police
+ <EVENT eid="e6" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> they <EVENT eid="e7" mainevent="NO" class="I_STATE" stem="believe" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">believe</EVENT> the IRA was <EVENT eid="e74" mainevent="NO" class="STATE" stem="behind" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">behind</EVENT> two <EVENT eid="e75" mainevent="NO" class="OCCURRENCE" stem="killing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">killings</EVENT> in Belfast <TIMEX3 tid="t26" type="DATE" value="1998-W07" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t25">last week</TIMEX3>.</s> <s>Sinn
+ Fein chairman Mitchell McLaughlin <EVENT eid="e8" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> the party  will <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="challenge" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">challenge</EVENT> the <EVENT eid="e60" mainevent="NO" class="OCCURRENCE" stem="move" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">move</EVENT> by
+ legal means if they have to.</s>
+
+
+ <s>We 're going  to <EVENT eid="e186" mainevent="YES" class="I_ACTION" stem="fight" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">fight</EVENT> it.</s> <s>And uh we 've  already <EVENT eid="e46" mainevent="YES" class="OCCURRENCE" stem="challenge" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">challenged</EVENT> , very strongly, the uh the <EVENT eid="e191" mainevent="NO" class="REPORTING" stem="term" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">terms</EVENT>
+ in which this  has  been <EVENT eid="e13" mainevent="NO" class="REPORTING" stem="present" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">presented</EVENT>.</s> <s>But we 're <EVENT eid="e14" mainevent="YES" class="OCCURRENCE" stem="challenge" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">challenging</EVENT> it on the ground that uh
+ the RUC uh  have <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="offer" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">offered</EVENT> an opinion, and this opinion  is going  to  be <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="use" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">used</EVENT> as a mechanism for <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="eject" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">ejecting</EVENT> us from the <EVENT eid="e20" mainevent="NO" class="REPORTING" stem="talk" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">talks</EVENT>, and uh that's a very
+ serious.</s>
+
+
+ <s>Any <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="decision" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decision</EVENT>  to <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="expel" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">expel</EVENT> Sinn Fein must  be <EVENT eid="e23" mainevent="YES" class="I_ACTION" stem="agree" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> jointly by the governments
+ of both Britain and the Irish Republic.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e186" eventID="e8" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e57" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e14" eventID="e46" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e8" eventID="e57" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e23" eventID="e14" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e46" eventID="e186" task="C"/>
+
+</TempEval>

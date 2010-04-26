@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891102-0047 
+ = 891102 
+ 891102-0047. 
+ Travelers Profit Rose
+@  11% in Third Quarter
+@  Despite Hugo Claims 
+ <TIMEX3 tid="t27" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TIC 
+ EARNINGS (ERN) 
+ HARTFORD, Conn.  
+
+   <s>Travelers Corp.'s <TIMEX3 tid="t28" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">third-quarter</TIMEX3> net income <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 11%, even though claims stemming from Hurricane Hugo <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="reduce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reduced</EVENT> results $40 million.</s> 
+
+   <s>Net <EVENT eid="e6" mainevent="YES" class="OCCURRENCE" stem="advance" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">advanced</EVENT> to <EVENT eid="e2163" mainevent="NO" class="STATE" stem="$94.2" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$94.2</EVENT> million, or 89 cents a share, from <EVENT eid="e2164" mainevent="NO" class="STATE" stem="$85" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$85</EVENT> million, or 83 cents a share, including net realized investment <EVENT eid="e33" mainevent="NO" class="OCCURRENCE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gains</EVENT> of $31 million, <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="up" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">up</EVENT> from <EVENT eid="e2165" mainevent="NO" class="STATE" stem="$10" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$10</EVENT> million <TIMEX3 tid="t40" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">a year ago</TIMEX3>.</s> 
+<s>But revenue <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="decline" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">declined</EVENT> to <EVENT eid="e2166" mainevent="NO" class="STATE" stem="$3" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$3</EVENT> billion from <EVENT eid="e2167" mainevent="NO" class="STATE" stem="$3.2" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$3.2</EVENT> billion.</s> 
+
+   <s>Travelers <EVENT eid="e45" mainevent="YES" class="I_ACTION" stem="estimate" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">estimated</EVENT> that the California <EVENT eid="e46" mainevent="NO" class="OCCURRENCE" stem="earthquake" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">earthquake</EVENT> <TIMEX3 tid="t47" type="DATE" value="1989-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">last month</TIMEX3> will <EVENT eid="e10" mainevent="NO" class="ASPECTUAL" stem="result" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">result</EVENT> in a <TIMEX3 tid="t48" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">fourth-quarter</TIMEX3> pre-tax <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charge</EVENT> of less than $10 million.</s> 
+
+   <s>The insurer's earnings from commercial property/casualty lines <EVENT eid="e12" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 59% in <TIMEX3 tid="t52" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">the latest quarter</TIMEX3>, while it <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="lose" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">lost</EVENT> $7.2 million in its personal property/casualty business, compared with earnings of <EVENT eid="e2169" mainevent="NO" class="STATE" stem="$6.1" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$6.1</EVENT> million <TIMEX3 tid="t51" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">a year ago</TIMEX3>.</s> 
+
+   <s>Travelers's employee benefits group, which includes its group health insurance operations, <EVENT eid="e19" mainevent="YES" class="REPORTING" stem="post" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">posted</EVENT> <EVENT eid="e2162" mainevent="NO" class="OCCURRENCE" stem="earnings" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">earnings</EVENT> of $24 million, compared with a <EVENT eid="e21" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of <EVENT eid="e2170" mainevent="NO" class="STATE" stem="$3" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$3</EVENT> million <TIMEX3 tid="t56" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">last year</TIMEX3>.</s> 
+
+   <s>In <TIMEX3 tid="t58" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" beginPoint="t59">the first nine months</TIMEX3>, net was <EVENT eid="e2171" mainevent="YES" class="STATE" stem="$306" tense="PAST" aspect="NONE" polarity="POS" pos="OTHER">$306</EVENT> million, compared with a <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $195 million in <TIMEX3 tid="t59" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">the 1988 period</TIMEX3>.</s> 
+<s>The <TIMEX3 tid="t60" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t62">year-ago</TIMEX3> <EVENT eid="e24" mainevent="YES" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> included a $415 million <EVENT eid="e61" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charge</EVENT> in <TIMEX3 tid="t62" type="DATE" value="1988-Q2" temporalFunction="false" functionInDocument="NONE">the 1988 second quarter</TIMEX3> for underperforming real estate and mortgage loans.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e8" eventID="e6" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e19" eventID="e12" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e6" eventID="e1" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e24" eventID="e2171" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e2171" eventID="e19" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e12" eventID="e45" task="C"/>
+<TLINK lid="l7" relType="BEFORE" relatedToEvent="e45" eventID="e8" task="C"/>
+
+</TempEval>

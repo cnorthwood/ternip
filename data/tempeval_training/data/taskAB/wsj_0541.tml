@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0160 
+ = 891030 
+ 891030-0160. 
+ Automatic Data Processing 
+ <TIMEX3 tid="t17" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ AUD 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) 
+ ROSELAND, N.J.  
+
+   <s>Automatic Data Processing Inc. <EVENT eid="e1" class="I_STATE" stem="plan" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">plans</EVENT> to <EVENT eid="e3" class="OCCURRENCE" stem="redeem" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">redeem</EVENT> on <TIMEX3 tid="t18" type="DATE" value="1989-11-16" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t17">Nov. 16</TIMEX3> its $150 million of 6.5% convertible subordinated debentures <EVENT eid="e19" class="STATE" stem="due" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">due</EVENT> <TIMEX3 tid="t20" type="DATE" value="2011-03-01" temporalFunction="false" functionInDocument="NONE">March 1, 2011</TIMEX3>.</s> 
+
+   <s>The computing-services concern will <EVENT eid="e4" class="OCCURRENCE" stem="pay" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">pay</EVENT> $1,059.04 for each $1,000 face amount of debt.</s> 
+<s>The conversion price for the debentures is $41.725 a share.</s> 
+<s>In New York Stock Exchange composite trading <TIMEX3 tid="t21" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t17">Friday</TIMEX3>, Automatic Data <EVENT eid="e6" class="OCCURRENCE" stem="close" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">closed</EVENT> at <EVENT eid="e22" class="STATE" stem="$46.50 a share" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$46.50 a share</EVENT>, down $2.25.</s> 
+
+   <s>If all the debt is <EVENT eid="e7" class="OCCURRENCE" stem="convert" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">converted</EVENT> to common, Automatic Data will <EVENT eid="e8" class="OCCURRENCE" stem="issue" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">issue</EVENT> about 3.6 million shares; <TIMEX3 tid="t24" type="DATE" value="1989-10-23" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t17">last Monday</TIMEX3>, the company <EVENT eid="e25" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> nearly 73 million shares outstanding.</s> 
+
+   <s>Automatic Data is <EVENT eid="e9" class="OCCURRENCE" stem="redeem" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">redeeming</EVENT> the bonds because the after-tax cost of the interest on the bonds is higher than the dividend yield on the common, a spokesman <EVENT eid="e14" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e1" relatedToTime="t20" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e1" relatedToTime="t18" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e6" relatedToTime="t21" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e25" relatedToTime="t24" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e1" relatedToTime="t17" task="B"/>
+<TLINK lid="l6" relType="AFTER" eventID="e4" relatedToTime="t17" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e6" relatedToTime="t17" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e25" relatedToTime="t17" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e14" relatedToTime="t17" task="B"/>
+</TempEval>

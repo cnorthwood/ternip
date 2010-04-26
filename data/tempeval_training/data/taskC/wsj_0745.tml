@@ -1,0 +1,192 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891027-0150 
+ = 891027 
+ 891027-0150. 
+ GM Seeks to Buy Up to 15% of Jaguar,
+@  Heating Up Its Skirmishing With Ford
+@  ----
+@  By Joann S. Lublin
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t157" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ GM JAGRY F EUROP 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+AUTOMOBILES (AUT) 
+ LONDON  
+
+   <s>General Motors Corp. <EVENT eid="e1" mainevent="YES" class="I_STATE" stem="want" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">wants</EVENT> to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> as much as 15% of Jaguar PLC, <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="mark" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">marking</EVENT> its first <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="salvo" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">salvo</EVENT> in a possible full-scale <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="battle" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">battle</EVENT> against Ford Motor Co. for <EVENT eid="e147" mainevent="NO" class="STATE" stem="control" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">control</EVENT> of the British car maker.</s> 
+
+   <s>GM <EVENT eid="e8" mainevent="YES" class="I_ACTION" stem="seek" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">sought</EVENT> U.S. antitrust <EVENT eid="e159" mainevent="NO" class="I_STATE" stem="clearance" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">clearance</EVENT> <TIMEX3 tid="t158" type="DATE" value="1989-W42" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">last week</TIMEX3> to <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">purchase</EVENT> more than $15 million worth of Jaguar shares but does n't <EVENT eid="e11" mainevent="NO" class="STATE" stem="own" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">own</EVENT> any <TIMEX3 tid="t161" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">yet</TIMEX3>, <EVENT eid="e149" mainevent="NO" class="REPORTING" stem="accord" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">according</EVENT> to GM officials here and at the company's Detroit headquarters.</s> 
+<s>The No. 1 U.S. auto maker then <EVENT eid="e13" mainevent="NO" class="REPORTING" stem="write" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">wrote</EVENT> Jaguar that it <EVENT eid="e14" mainevent="NO" class="I_STATE" stem="intend" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">intends</EVENT> "to <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="go" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">go</EVENT> to that <EVENT eid="e150" mainevent="NO" class="STATE" stem="15% level" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">15% level</EVENT> once it <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="win" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">wins</EVENT> the U.S. <EVENT eid="e152" mainevent="NO" class="I_STATE" stem="clearance" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">clearance</EVENT> to <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="go" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">go</EVENT> beyond $15 million, a Jaguar spokesman <EVENT eid="e20" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t163" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">yesterday</TIMEX3>.</s> 
+
+   <s>The GM <EVENT eid="e154" mainevent="YES" class="OCCURRENCE" stem="move" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">move</EVENT> follows <TIMEX3 tid="t164" type="DATE" value="1989-10-24" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">Tuesday</TIMEX3>'s <EVENT eid="e22" mainevent="NO" class="REPORTING" stem="declaration" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">declaration</EVENT> by Ford, which holds an unwelcome 12.45% stake in Jaguar, that it is <EVENT eid="e25" mainevent="NO" class="I_STATE" stem="prepare" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">prepared</EVENT> to <EVENT eid="e27" mainevent="NO" class="OCCURRENCE" stem="bid" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">bid</EVENT> for the entire company.</s> 
+<s>GM is close to <EVENT eid="e29" mainevent="YES" class="ASPECTUAL" stem="complete" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">completing</EVENT> a friendly <EVENT eid="e30" mainevent="NO" class="OCCURRENCE" stem="deal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">deal</EVENT> with Jaguar that is likely to <EVENT eid="e2073" mainevent="NO" class="I_STATE" stem="involve" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">involve</EVENT> an eventual 30% stake and joint manufacturing <EVENT eid="e2075" mainevent="NO" class="OCCURRENCE" stem="venture" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">ventures</EVENT>.</s> 
+<s>Speculative investors, <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="bet" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">betting</EVENT> on an imminent <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="clash" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">clash</EVENT> between Ford and GM, <EVENT eid="e38" mainevent="YES" class="OCCURRENCE" stem="push" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">pushed</EVENT> up Jaguar's share price five pence (eight U.S. cents) to a near-record <EVENT eid="e2386" mainevent="NO" class="STATE" stem="720" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">720</EVENT> pence ($11.60) in late <EVENT eid="e39" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> on London's stock exchange <TIMEX3 tid="t313" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">yesterday</TIMEX3>.</s> 
+<s>Since <TIMEX3 tid="t314" type="DATE" value="1989-10-24" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">Tuesday</TIMEX3>, the shares have <EVENT eid="e42" mainevent="YES" class="OCCURRENCE" stem="gain" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">gained</EVENT> nearly 4%.</s> 
+
+   <s>But an all-out bidding <EVENT eid="e2091" mainevent="YES" class="OCCURRENCE" stem="war" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">war</EVENT> between the world's top auto giants for Britain's leading luxury-car maker seems unlikely.</s> 
+<s>"We will not <EVENT eid="e46" mainevent="NO" class="OCCURRENCE" stem="go" tense="FUTURE" aspect="NONE" polarity="NEG" pos="VERB">go</EVENT> over a certain level," <EVENT eid="e48" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> David N. McCammon, Ford's vice president for finance, at a news <EVENT eid="e316" mainevent="NO" class="OCCURRENCE" stem="conference" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">conference</EVENT> <TIMEX3 tid="t315" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">yesterday</TIMEX3> in Dearborn, Mich.
+"There's some price at which we'd <EVENT eid="e50" mainevent="NO" class="ASPECTUAL" stem="stop" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">stop</EVENT> <EVENT eid="e52" mainevent="NO" class="OCCURRENCE" stem="bidding" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bidding</EVENT>."</s> 
+<s>He would n't <EVENT eid="e53" mainevent="YES" class="OCCURRENCE" stem="specify" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">specify</EVENT> what it was.</s> 
+
+   <s>And powerful political <EVENT eid="e318" mainevent="NO" class="STATE" stem="pressure" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">pressures</EVENT> may <EVENT eid="e56" mainevent="YES" class="I_ACTION" stem="convince" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">convince</EVENT> the Conservative government to <EVENT eid="e59" mainevent="NO" class="OCCURRENCE" stem="keep" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">keep</EVENT> its so-called golden share, which limits any individual holding to 15%, until the <EVENT eid="e322" mainevent="NO" class="OCCURRENCE" stem="restriction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">restriction</EVENT> <EVENT eid="e63" mainevent="NO" class="ASPECTUAL" stem="expire" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expires</EVENT> on <TIMEX3 tid="t325" type="DATE" value="1990-12-31" temporalFunction="false" functionInDocument="NONE">Dec. 31, 1990</TIMEX3>.</s> 
+
+   <s>"I really do n't <EVENT eid="e64" mainevent="NO" class="I_STATE" stem="see" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">see</EVENT> the government <EVENT eid="e66" mainevent="NO" class="OCCURRENCE" stem="doing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">doing</EVENT> something that Jaguar does n't <EVENT eid="e67" mainevent="NO" class="I_STATE" stem="want" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">want</EVENT> over <TIMEX3 tid="t327" type="DURATION" value="P14M" temporalFunction="true" functionInDocument="NONE" beginPoint="t157">the next 14 months</TIMEX3>," <EVENT eid="e69" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Kenneth Warren, a Conservative member of Parliament and chairman of the Select Committee on Trade and Industry in Britain's House of Commons.</s> 
+<s>"The golden share is a single share, but it is the magic share."</s> 
+
+   <s>The government <EVENT eid="e70" mainevent="YES" class="OCCURRENCE" stem="retain" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">retained</EVENT> the single share after <EVENT eid="e72" mainevent="NO" class="OCCURRENCE" stem="sell" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">selling</EVENT> its stake in Jaguar in <TIMEX3 tid="t330" type="DATE" value="1984" temporalFunction="false" functionInDocument="NONE">1984</TIMEX3> -- part of a nationalistic practice of protecting former government-owned enterprises to deflect criticism of privatization.</s> 
+<s>The 15% restriction covers any would-be suitor, British or foreign.</s> 
+
+   <s>Ford is <EVENT eid="e1988" mainevent="YES" class="I_STATE" stem="willing" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">willing</EVENT> to <EVENT eid="e82" mainevent="NO" class="OCCURRENCE" stem="bid" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">bid</EVENT> for 100% of Jaguar's shares if both the government and Jaguar shareholders <EVENT eid="e84" mainevent="NO" class="I_ACTION" stem="agree" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">agree</EVENT> to <EVENT eid="e86" mainevent="NO" class="OCCURRENCE" stem="relax" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">relax</EVENT> the anti-takeover barrier prematurely.</s> 
+<s>As Jaguar's biggest holder and Britain's biggest car maker, Ford could <EVENT eid="e87" mainevent="YES" class="OCCURRENCE" stem="turn" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">turn</EVENT> up the heat by <EVENT eid="e89" mainevent="NO" class="I_ACTION" stem="convening" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">convening</EVENT> a special shareholders' <EVENT eid="e90" mainevent="NO" class="OCCURRENCE" stem="meeting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">meeting</EVENT> and <EVENT eid="e91" mainevent="NO" class="I_ACTION" stem="urging" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">urging</EVENT> holders to <EVENT eid="e1985" mainevent="NO" class="OCCURRENCE" stem="drop" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">drop</EVENT> the limits early.</s> 
+<s>Ford might <EVENT eid="e92" mainevent="YES" class="OCCURRENCE" stem="succeed" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">succeed</EVENT> because many shareholders are speculators <EVENT eid="e1986" mainevent="NO" class="I_STATE" stem="keen" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">keen</EVENT> for a full <EVENT eid="e94" mainevent="NO" class="OCCURRENCE" stem="bid" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bid</EVENT> or institutional investors <EVENT eid="e1987" mainevent="NO" class="I_STATE" stem="unhappy" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">unhappy</EVENT> over Jaguar management's <EVENT eid="e95" mainevent="NO" class="I_ACTION" stem="handling" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">handling</EVENT> of its <TIMEX3 tid="t1992" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">current</TIMEX3> financial <EVENT eid="e1994" mainevent="NO" class="STATE" stem="difficulty" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">difficulties</EVENT>.</s> 
+
+   <s>The government probably would n't <EVENT eid="e97" mainevent="YES" class="OCCURRENCE" stem="give" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">give</EVENT> in readily to a hostile foray by Ford, however.</s> 
+<s>It has <EVENT eid="e101" mainevent="YES" class="OCCURRENCE" stem="relinquish" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">relinquished</EVENT> a golden share only once before -- during British Petroleum Co.'s #2.5 billion ($4 billion) <EVENT eid="e103" mainevent="NO" class="OCCURRENCE" stem="takeover" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">takeover</EVENT> of Britoil PLC in <TIMEX3 tid="t1998" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3>.</s> 
+
+   <s>In <EVENT eid="e104" mainevent="NO" class="OCCURRENCE" stem="wooing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">wooing</EVENT> British lawmakers, GM has <EVENT eid="e105" mainevent="YES" class="I_ACTION" stem="point" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">pointed</EVENT> out that its <EVENT eid="e1999" mainevent="NO" class="I_STATE" stem="willingness" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">willingness</EVENT> to <EVENT eid="e107" mainevent="NO" class="OCCURRENCE" stem="settle" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">settle</EVENT> for a minority stake would <EVENT eid="e109" mainevent="NO" class="ASPECTUAL" stem="keep" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">keep</EVENT> Jaguar <EVENT eid="e2000" mainevent="NO" class="STATE" stem="british-owned" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">British-owned</EVENT> and <EVENT eid="e2001" mainevent="NO" class="STATE" stem="independent" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">independent</EVENT>.</s> 
+<s><TIMEX3 tid="t2007" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">This week</TIMEX3>, the U.S. auto giant <EVENT eid="e111" mainevent="YES" class="OCCURRENCE" stem="pay" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">paid</EVENT> for 10 House of Commons members and two House of Lords members to <EVENT eid="e113" mainevent="NO" class="OCCURRENCE" stem="fly" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">fly</EVENT> to Detroit and <EVENT eid="e114" mainevent="NO" class="OCCURRENCE" stem="tour" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">tour</EVENT> its operations there.</s> 
+<s>While the <EVENT eid="e116" mainevent="NO" class="OCCURRENCE" stem="visit" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">visit</EVENT> was unrelated to Jaguar, GM Chairman Roger Smith <EVENT eid="e117" mainevent="YES" class="OCCURRENCE" stem="answer" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">answered</EVENT> the legislators' <EVENT eid="e118" mainevent="NO" class="OCCURRENCE" stem="question" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">questions</EVENT> about it over <EVENT eid="e2385" mainevent="NO" class="OCCURRENCE" stem="lunch" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">lunch</EVENT> <TIMEX3 tid="t2386" type="DATE" value="1989-10-24" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t157">Tuesday</TIMEX3>.</s> 
+<s>He <EVENT eid="e119" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Jaguar "should n't be <EVENT eid="e120" mainevent="NO" class="OCCURRENCE" stem="smother" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">smothered</EVENT> by anyone else , " <EVENT eid="e123" mainevent="NO" class="REPORTING" stem="recalled" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE">recalled</EVENT> one participant.</s> 
+
+   <s>Politics also influences the government's thinking on the anti-takeover restriction.</s> 
+<s>The Conservatives do n't dare jeopardize marginal Tory seats in Coventry, where Jaguar has headquarters, nor can the government easily back down on promised protection for a privatized company while it proceeds with controversial plans to privatize most of Britain's water and electricity industries.</s> 
+
+   <s>Prime Minister Margaret Thatcher might , however , be <EVENT eid="e2011" mainevent="YES" class="I_STATE" stem="receptive" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">receptive</EVENT> to any <EVENT eid="e138" mainevent="NO" class="I_ACTION" stem="request" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">request</EVENT> by Jaguar Chairman Sir John Egan for the restriction's early <EVENT eid="e139" mainevent="NO" class="OCCURRENCE" stem="removal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">removal</EVENT> to <EVENT eid="e141" mainevent="NO" class="I_ACTION" stem="let" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">let</EVENT> GM <EVENT eid="e142" mainevent="NO" class="OCCURRENCE" stem="amass" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">amass</EVENT> more than 15% or <EVENT eid="e143" mainevent="NO" class="I_ACTION" stem="mount" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">mount</EVENT> a friendly suitor <EVENT eid="e2012" mainevent="NO" class="OCCURRENCE" stem="bid" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bid</EVENT> against Ford.</s> 
+<s>In the end, Sir John -- rather than the government or Jaguar shareholders -- may hold the key that unlocks the golden share.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="VAGUE" relatedToEvent="e111" eventID="e105" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e87" eventID="e1988" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e56" eventID="e53" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e119" eventID="e117" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e69" eventID="e56" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e2091" eventID="e42" task="C"/>
+<TLINK lid="l7" relType="BEFORE" relatedToEvent="e92" eventID="e87" task="C"/>
+<TLINK lid="l8" relType="BEFORE" relatedToEvent="e117" eventID="e111" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e42" eventID="e38" task="C"/>
+<TLINK lid="l10" relType="BEFORE-OR-OVERLAP" relatedToEvent="e97" eventID="e92" task="C"/>
+<TLINK lid="l11" relType="BEFORE" relatedToEvent="e20" eventID="e8" task="C"/>
+<TLINK lid="l12" relType="VAGUE" relatedToEvent="e154" eventID="e20" task="C"/>
+<TLINK lid="l13" relType="AFTER" relatedToEvent="e38" eventID="e29" task="C"/>
+<TLINK lid="l14" relType="BEFORE" relatedToEvent="e29" eventID="e154" task="C"/>
+<TLINK lid="l15" relType="AFTER" relatedToEvent="e101" eventID="e97" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e53" eventID="e48" task="C"/>
+<TLINK lid="l17" relType="BEFORE" relatedToEvent="e105" eventID="e101" task="C"/>
+<TLINK lid="l18" relType="AFTER" relatedToEvent="e48" eventID="e2091" task="C"/>
+<TLINK lid="l19" relType="OVERLAP" relatedToEvent="e8" eventID="e1" task="C"/>
+
+</TempEval>

@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891030-0130 
+ = 891030 
+ 891030-0130. 
+ Crane Co. Holds 8.9%
+@  Of Milton Roy Corp.,
+@  May Seek Control 
+ <TIMEX3 tid="t85" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CR MRC 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ NEW YORK  
+
+   <s>Crane Co. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="STATE" stem="hold" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">holds</EVENT> an 8.9% stake in Milton Roy Corp., an analytical-instruments maker, and may <EVENT eid="e4" mainevent="NO" class="I_STATE" stem="seek" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">seek</EVENT> <EVENT eid="e80" mainevent="NO" class="STATE" stem="control" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">control</EVENT> of the company.</s> 
+
+   <s>Crane, a maker of engineered products for aerospace, construction, defense and other uses, <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="make" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">made</EVENT> the <EVENT eid="e9" mainevent="NO" class="REPORTING" stem="disclosure" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">disclosure</EVENT> in a Securities and Exchange Commission <EVENT eid="e81" mainevent="NO" class="OCCURRENCE" stem="filing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">filing</EVENT>.</s> 
+
+   <s>In the <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="filing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">filing</EVENT>, Crane <EVENT eid="e11" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> that in <TIMEX3 tid="t84" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">the past</TIMEX3> it <EVENT eid="e12" mainevent="NO" class="I_STATE" stem="consider" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">considered</EVENT> <EVENT eid="e13" mainevent="NO" class="I_ACTION" stem="seek" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">seeking</EVENT> <EVENT eid="e87" mainevent="NO" class="STATE" stem="control" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">control</EVENT> of Milton Roy, of St. Petersburg, Fla., through a <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="merger" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">merger</EVENT> or tender <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> and that it <EVENT eid="e16" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e18" mainevent="NO" class="ASPECTUAL" stem="continue" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> to <EVENT eid="e20" mainevent="NO" class="I_ACTION" stem="evaluate" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">evaluate</EVENT> an <EVENT eid="e21" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> <TIMEX3 tid="t88" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">from time to time</TIMEX3>.</s> 
+<s>Crane officials did n't <EVENT eid="e25" mainevent="YES" class="OCCURRENCE" stem="return" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">return</EVENT> phone <EVENT eid="e89" mainevent="NO" class="OCCURRENCE" stem="call" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">calls</EVENT> <EVENT eid="e27" mainevent="NO" class="I_ACTION" stem="seek" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">seeking</EVENT> <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="comment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">comment</EVENT>.</s> 
+
+   <s>Crane holds 504,200 Milton Roy shares, including 254,200 <EVENT eid="e30" mainevent="YES" class="OCCURRENCE" stem="buy" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">bought</EVENT> from <TIMEX3 tid="t91" type="DATE" value="1989-09-14" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">Sept. 14</TIMEX3> to <TIMEX3 tid="t92" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">Thursday</TIMEX3> for $15.50 to $16.75 each.</s> 
+<s>In New York Stock Exchange composite trading <TIMEX3 tid="t94" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">Friday</TIMEX3>, Milton Roy shares <EVENT eid="e31" mainevent="YES" class="OCCURRENCE" stem="leap" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">leaped</EVENT> $2, to <EVENT eid="e95" mainevent="NO" class="STATE" stem="$18.375" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$18.375</EVENT> each, while Crane <EVENT eid="e33" mainevent="NO" class="OCCURRENCE" stem="sink" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">sank</EVENT> $1.125, to <EVENT eid="e96" mainevent="NO" class="STATE" stem="$21.125" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$21.125</EVENT> a share.</s> 
+
+   <s>John M. McNamara, chief financial officer of Milton Roy, <EVENT eid="e34" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company <EVENT eid="e35" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> no <EVENT eid="e36" mainevent="NO" class="I_STATE" stem="comment" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">comment</EVENT> on Crane's <EVENT eid="e37" mainevent="NO" class="OCCURRENCE" stem="filing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">filing</EVENT>.</s> 
+
+   <s>Milton Roy <TIMEX3 tid="t100" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">recently</TIMEX3> <EVENT eid="e38" mainevent="YES" class="OCCURRENCE" stem="fend" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fended</EVENT> off unsolicited overtures from Thermo Electron Corp., a Waltham, Mass., maker of biomedical products.</s> 
+<s>Milton Roy <EVENT eid="e40" mainevent="YES" class="REPORTING" stem="disclose" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">disclosed</EVENT> in <TIMEX3 tid="t101" type="DATE" value="1989-05" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">May</TIMEX3> that it was <EVENT eid="e41" mainevent="NO" class="I_ACTION" stem="approach" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">approached</EVENT> for a possible <EVENT eid="e42" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> by Thermo Electron, which <EVENT eid="e43" mainevent="NO" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">purchase</EVENT> Milton Roy's liquid-chromatography line for $22 million in <TIMEX3 tid="t104" type="DATE" value="1990-02" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">February</TIMEX3>.</s> 
+<s>Thermo Electron <EVENT eid="e47" mainevent="YES" class="OCCURRENCE" stem="acquire" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">acquired</EVENT> some 6% of Milton Roy's common stock before <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="throw" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">throwing</EVENT> in the towel and <EVENT eid="e50" mainevent="NO" class="OCCURRENCE" stem="reduce" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">reducing</EVENT> its stake in <TIMEX3 tid="t105" type="DATE" value="1989-09" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">early September</TIMEX3>.</s> 
+
+   <s>Gabelli Group <EVENT eid="e52" mainevent="YES" class="ASPECTUAL" stem="begin" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">began</EVENT> <EVENT eid="e53" mainevent="NO" class="OCCURRENCE" stem="raise" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">raising</EVENT> its Milton Roy stake in <TIMEX3 tid="t108" type="DATE" value="1989-07" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">July</TIMEX3>, and <EVENT eid="e54" mainevent="NO" class="STATE" stem="hold" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">holds</EVENT> 14.6%, <EVENT eid="e109" mainevent="NO" class="REPORTING" stem="accord" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">according</EVENT> to a <TIMEX3 tid="t110" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">recent</TIMEX3> SEC filing.</s> 
+<s>It has n't <EVENT eid="e56" mainevent="YES" class="OCCURRENCE" stem="make" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">made</EVENT> <EVENT eid="e112" mainevent="NO" class="OCCURRENCE" stem="merger" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">merger</EVENT> <EVENT eid="e58" mainevent="NO" class="I_ACTION" stem="overture" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">overtures</EVENT> to the board.</s> 
+
+   <s><TIMEX3 tid="t113" type="DATE" value="1989-10" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t85">Earlier this month</TIMEX3>, Milton Roy <EVENT eid="e59" mainevent="YES" class="OCCURRENCE" stem="sign" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">signed</EVENT> a letter of <EVENT eid="e61" mainevent="NO" class="I_STATE" stem="intent" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">intent</EVENT> to <EVENT eid="e63" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquire</EVENT> Automated Custom Systems Inc., Orange, Calif., and its sister operation, Environmental Testing Co., in Aurora, Colo. 
+
+The companies are automotive-emissions-testing concerns.</s> 
+
+   <s>Under the terms, Milton Roy will <EVENT eid="e65" mainevent="YES" class="OCCURRENCE" stem="pay" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> an initial $4 million for the <EVENT eid="e66" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT> and additional <EVENT eid="e67" mainevent="NO" class="OCCURRENCE" stem="payment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">payments</EVENT> during <TIMEX3 tid="t114" type="DURATION" value="P4Y" temporalFunction="true" functionInDocument="NONE" beginPoint="t85">the next four years</TIMEX3> based on the earnings performance of the businesses.</s> 
+
+   <s>In <TIMEX3 tid="t115" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the nine months</TIMEX3>, Milton Roy <EVENT eid="e72" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $6.6 million, or $1.18 a share, on <EVENT eid="e118" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sales</EVENT> of $94.3 million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e65" eventID="e59" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e25" eventID="e11" task="C"/>
+<TLINK lid="l3" relType="VAGUE" relatedToEvent="e59" eventID="e56" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e52" eventID="e47" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e72" eventID="e65" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e56" eventID="e52" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e11" eventID="e8" task="C"/>
+<TLINK lid="l8" relType="BEFORE" relatedToEvent="e40" eventID="e38" task="C"/>
+<TLINK lid="l9" relType="AFTER" relatedToEvent="e38" eventID="e34" task="C"/>
+<TLINK lid="l10" relType="BEFORE" relatedToEvent="e31" eventID="e30" task="C"/>
+<TLINK lid="l11" relType="BEFORE" relatedToEvent="e47" eventID="e40" task="C"/>
+<TLINK lid="l12" relType="AFTER" relatedToEvent="e30" eventID="e25" task="C"/>
+<TLINK lid="l13" relType="BEFORE" relatedToEvent="e34" eventID="e31" task="C"/>
+<TLINK lid="l14" relType="OVERLAP" relatedToEvent="e8" eventID="e1" task="C"/>
+
+</TempEval>

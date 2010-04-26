@@ -1,0 +1,241 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0116 
+ = 891030 
+ 891030-0116. 
+ International:
+@  Polly Peck of U.K.
+@  To Buy 51% Stake
+@  In Japanese Firm
+@  ----
+@  By Urban C. Lehner
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t199" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ J.SNE 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+HOME ELECTRONICS, FURNISHINGS, APPLIANCES (HMF) 
+ TOKYO  
+
+   <s>Polly Peck International Inc.'s <EVENT eid="e1" class="I_STATE" stem="agreement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">agreement</EVENT> to <EVENT eid="e3" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> 51% of Sansui Electric Co. proves that foreign companies can acquire Japanese companies -- if the alternative for the Japanese company is extinction.</s> 
+
+   <s>Polly Peck, a fast-growing British conglomerate, will <EVENT eid="e8" class="OCCURRENCE" stem="pay" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">pay</EVENT> 15.6 billion yen ($110 million) for 39 million new shares of Sansui, a well-known maker of high-fidelity audio equipment that <EVENT eid="e9" class="I_STATE" stem="fail" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">failed</EVENT> to <EVENT eid="e11" class="OCCURRENCE" stem="adjust" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">adjust</EVENT> to changing market conditions.</s> 
+<s>Japanese government officials, <EVENT eid="e193" class="I_STATE" stem="eager" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">eager</EVENT> to <EVENT eid="e14" class="OCCURRENCE" stem="rebut" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">rebut</EVENT> foreign <EVENT eid="e195" class="OCCURRENCE" stem="criticism" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">criticism</EVENT> of Japanese <EVENT eid="e16" class="OCCURRENCE" stem="investment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">investments</EVENT> overseas , <EVENT eid="e17" class="I_ACTION" stem="hailed" aspect="NONE" tense="PAST" polarity="POS" pos="ADJECTIVE">hailed</EVENT> the <EVENT eid="e18" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT> as proof foreigners can make similar investments in Japan.</s> 
+<s>Polly Peck's chairman, Asil Nadir, <EVENT eid="e22" class="OCCURRENCE" stem="echo" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">echoed</EVENT> the official Japanese <EVENT eid="e197" class="STATE" stem="view" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">view</EVENT> of the <EVENT eid="e198" class="STATE" stem="accord" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">accord</EVENT>, which was <EVENT eid="e23" class="REPORTING" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> <TIMEX3 tid="t200" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">Friday</TIMEX3>.</s> 
+
+   <s>"The myths that Japan is not open to concerns from outside has, I <EVENT eid="e26" class="I_STATE" stem="think" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">think</EVENT>, been <EVENT eid="e27" class="OCCURRENCE" stem="demolish" aspect="PERFECTIVE" tense="PASTPART" polarity="POS" pos="VERB">demolished</EVENT> at a stroke," Mr. Nadir <EVENT eid="e30" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>But analysts <EVENT eid="e31" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">say</EVENT> Sansui is a special <EVENT eid="e202" class="STATE" stem="case" aspect="NONE" tense="PRESENT" polarity="POS" pos="NOUN">case</EVENT>.</s> 
+<s>It <EVENT eid="e33" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e35" class="REPORTING" stem="post" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">post</EVENT> a <EVENT eid="e36" class="OCCURRENCE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of 6.4 billion yen for <TIMEX3 tid="t204" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t205">the year</TIMEX3> ending <TIMEX3 tid="t205" type="DATE" value="1989-10-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">tomorrow</TIMEX3> and its liabilities <TIMEX3 tid="t207" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">currently</TIMEX3> <EVENT eid="e39" class="STATE" stem="exceed" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">exceed</EVENT> its assets by about 13.8 billion yen.</s> 
+<s>"If you <EVENT eid="e246" class="OCCURRENCE" stem="find" aspect="NONE" tense="PRESENT" polarity="POS" pos="OTHER">find</EVENT> sound, healthy companies in Japan, they are not  <EVENT eid="e247" class="STATE" stem="for" aspect="NONE" tense="PRESENT" polarity="NEG" pos="PREPOSITION">for</EVENT> sale," <EVENT eid="e43" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> George Watanabe, a management-consultant at Tokyo-based Asia Advisory Services Inc. 
+
+   Statistics on acquisitions by foreigners vary in detail, because unlike Sansui, which is listed on the Tokyo and Osaka stock exchanges, most of the Japanese companies acquired by foreigners are privately held.</s> 
+<s>But by all accounts foreign companies have <EVENT eid="e52" class="OCCURRENCE" stem="buy" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">bought</EVENT> only a relative handful of Japanese companies <TIMEX3 tid="t211" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">this year</TIMEX3>, while Japanese companies have <EVENT eid="e54" class="OCCURRENCE" stem="acquire" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">acquired</EVENT> hundreds of foreign companies.</s> 
+
+   <s>Nor do analysts <EVENT eid="e56" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">expect</EVENT> the Sansui deal to <EVENT eid="e58" class="OCCURRENCE" stem="touch" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">touch</EVENT> off a fresh wave of foreign purchases.</s> 
+<s>If the strong yen and the high stock prices of Japanese companies were n't  deterrents enough, webs of cross-shareholdings between friendly Japanese companies and fiercely independent Japanese corporate attitudes <EVENT eid="e62" class="OCCURRENCE" stem="repel" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">repel</EVENT> most would-be acquirers.</s> 
+
+   <s>Usually when a Japanese company is ready to sell, it has few alternatives remaining, and the grim demeanors of Sansui's directors at a joint news conference here left little doubt that this was not  the company's finest hour.</s> 
+<s>Sansui was once one of Japan's premier makers of expensive, high-quality stereo gear for audiophiles.</s> 
+
+   <s>But in <TIMEX3 tid="t216" type="DATE" value="PXY" temporalFunction="true" functionInDocument="NONE" endPoint="t199">recent years</TIMEX3>, the market has <EVENT eid="e71" class="OCCURRENCE" stem="move" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">moved</EVENT> toward less expensive "mini-component" sets, miniaturized amplifiers and receivers and software players that could be stacked on top of each other.</s> 
+
+   <s>Some of Sansui's fellow audio-specialty companies, such as Aiwa Co. and Pioneer Electric Corp., <EVENT eid="e75" class="OCCURRENCE" stem="respond" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">responded</EVENT> to the <EVENT eid="e76" class="OCCURRENCE" stem="challenge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">challenge</EVENT> by quickly <EVENT eid="e77" class="OCCURRENCE" stem="bring" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">bringing</EVENT> out mini-component products of their own, by <EVENT eid="e78" class="OCCURRENCE" stem="move" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">moving</EVENT> heavily into the booming compact disk businesses or by <EVENT eid="e81" class="OCCURRENCE" stem="diversify" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">diversifying</EVENT> into other consumer-electronics fields, including laser disks or portable cassette players.</s> 
+<s>Sansui was late into the mini-component business and <EVENT eid="e85" class="I_STATE" stem="fail" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">failed</EVENT> to <EVENT eid="e87" class="OCCURRENCE" stem="branch" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">branch</EVENT> into other new businesses.</s> 
+
+   <s>As the yen <EVENT eid="e90" class="OCCURRENCE" stem="soar" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">soared</EVENT> in <TIMEX3 tid="t217" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">recent years</TIMEX3>, Sansui's deepening financial problems <EVENT eid="e92" class="I_STATE" stem="become" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">became</EVENT> a vicious circle.</s> 
+<s>While competitors <EVENT eid="e93" class="OCCURRENCE" stem="move" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">moved</EVENT> production offshore in response to the sagging <EVENT eid="e221" class="STATE" stem="competitiveness" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">competitiveness</EVENT> of Japanese factories, Sansui <EVENT eid="e95" class="OCCURRENCE" stem="lack" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">lacked</EVENT> the money to <EVENT eid="e98" class="OCCURRENCE" stem="build" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">build</EVENT> new plants in Southeast Asia.</s> 
+<s>"Our company has not been <EVENT eid="e224" class="I_STATE" stem="able" aspect="PERFECTIVE" tense="PRESENT" polarity="NEG" pos="ADJECTIVE">able</EVENT> to <EVENT eid="e225" class="I_ACTION" stem="cope" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">cope</EVENT> very effectively with" <EVENT eid="e102" class="OCCURRENCE" stem="change" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">changes</EVENT> in the marketplace, <EVENT eid="e105" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Ryosuke Ito, Sansui's president.</s> 
+
+   <s>But even a Japanese company that looks like a dog may turn out to be a good investment for a foreign concern, some management consultants maintain.</s> 
+
+   <s>Yoshihisa Murasawa, a management consultant for Booz-Allen amp Hamilton (Japan) Inc., <EVENT eid="e113" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> his firm will likely be <EVENT eid="e115" class="OCCURRENCE" stem="recommend" aspect="PROGRESSIVE" tense="FUTURE" polarity="POS" pos="VERB">recommending</EVENT> <EVENT eid="e116" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisitions</EVENT> of Japanese companies more often to foreign clients in <TIMEX3 tid="t228" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">the future</TIMEX3>.</s> 
+<s>"Attitudes {toward being acquired} are still negative, but they're <EVENT eid="e119" class="I_STATE" stem="become" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">becoming</EVENT> more positive," Mr. Murasawa <EVENT eid="e120" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>"In some industries, like pharmaceuticals, acquisitions <EVENT eid="e249" class="STATE" stem="make" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">make</EVENT> sense."</s> 
+
+   <s>Whether Polly Peck's <EVENT eid="e125" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> <EVENT eid="e248" class="STATE" stem="make" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">makes</EVENT> sense <EVENT eid="e233" class="I_STATE" stem="remain" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">remains</EVENT> to be <EVENT eid="e130" class="PERCEPTION" stem="see" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seen</EVENT>, but at the news conference, Mr. Nadir <EVENT eid="e131" class="I_ACTION" stem="brim" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">brimmed</EVENT> with self-confidence that he can <EVENT eid="e132" class="OCCURRENCE" stem="turn" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">turn</EVENT> Sansui around.</s> 
+<s>Sansui, he said, is a perfect fit for Polly Peck's electronics operations, which make televisions, videocassette recorders, microwaves and other products on an "original equipment maker" basis for sale under other companies' brand names.</s> 
+
+   <s>He <EVENT eid="e140" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Polly Peck will greatly <EVENT eid="e141" class="OCCURRENCE" stem="expand" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">expand</EVENT> Sansui's product line, <EVENT eid="e143" class="OCCURRENCE" stem="use" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">using</EVENT> Sansui's engineers to <EVENT eid="e145" class="OCCURRENCE" stem="design" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">design</EVENT> the new products, and will <EVENT eid="e146" class="OCCURRENCE" stem="move" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">move</EVENT> Sansui's production of most products other than sophisticated audio gear offshore into Polly Peck's own factories.</s> 
+
+   <s>"Whatever capital it (Sansui) needs so it can <EVENT eid="e149" class="OCCURRENCE" stem="compete" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">compete</EVENT> and <EVENT eid="e151" class="OCCURRENCE" stem="become" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">become</EVENT> a totally global entity capable of competing with the best in the world, that capital will be <EVENT eid="e153" class="OCCURRENCE" stem="inject" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">injected</EVENT>," Mr. Nadir <EVENT eid="e154" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>And while Polly Peck is n't <EVENT eid="e156" class="OCCURRENCE" stem="jettison" aspect="PROGRESSIVE" tense="PRESENT" polarity="NEG" pos="VERB">jettisoning</EVENT> the existent top-management structure of Sansui, it is <EVENT eid="e158" class="OCCURRENCE" stem="bring" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">bringing</EVENT> in a former Toshiba Corp. executive as executive vice president and chief operating officer.</s> 
+
+   <s>Such risk taking is an everyday matter for the brash Mr. Nadir, who is 25% owner of Polly Peck as well as its chairman.</s> 
+<s>He <EVENT eid="e162" class="OCCURRENCE" stem="take" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">took</EVENT> Polly Peck, once a small fabric wholesaler, and <EVENT eid="e163" class="OCCURRENCE" stem="use" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">used</EVENT> it at as a base to <EVENT eid="e165" class="OCCURRENCE" stem="build" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">build</EVENT> a conglomerate that has been <EVENT eid="e166" class="OCCURRENCE" stem="double" aspect="PERFECTIVE_PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">doubling</EVENT> its profits annually since <TIMEX3 tid="t235" type="DATE" value="1980" temporalFunction="false" functionInDocument="NONE">1980</TIMEX3>.</s> 
+<s>In <TIMEX3 tid="t239" type="DATE" value="1989-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">September</TIMEX3>, it <EVENT eid="e167" class="REPORTING" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> <EVENT eid="e240" class="I_STATE" stem="plan" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">plans</EVENT> to <EVENT eid="e169" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> the tropical-fruit business of RJR Nabisco Inc.'s Del Monte foods unit for #557 million ($878 million).</s> 
+
+   <s><TIMEX3 tid="t241" type="DATE" value="1989-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t199">Last month</TIMEX3>, Polly Peck <EVENT eid="e171" class="REPORTING" stem="post" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">posted</EVENT> a 38% <EVENT eid="e172" class="OCCURRENCE" stem="jump" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">jump</EVENT> in pretax profit for the first half to <EVENT eid="e244" class="STATE" stem="#54.8 million" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="OTHER">#54.8 million</EVENT> from <EVENT eid="e245" class="STATE" stem="#39.8 million" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">#39.8 million</EVENT> on a 63% <EVENT eid="e174" class="OCCURRENCE" stem="rise" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rise</EVENT> in sales.</s> 
+
+   <s>---
+
+   Joann S. Lublin in London contributed to this article.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e23" relatedToTime="t200" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e198" relatedToTime="t200" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e36" relatedToTime="t207" task="A"/>
+<TLINK lid="l4" relType="BEFORE-OR-OVERLAP" eventID="e36" relatedToTime="t205" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e36" relatedToTime="t204" task="A"/>
+<TLINK lid="l6" relType="AFTER" eventID="e35" relatedToTime="t207" task="A"/>
+<TLINK lid="l7" relType="AFTER" eventID="e35" relatedToTime="t205" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e35" relatedToTime="t204" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e33" relatedToTime="t207" task="A"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e33" relatedToTime="t205" task="A"/>
+<TLINK lid="l11" relType="OVERLAP" eventID="e33" relatedToTime="t204" task="A"/>
+<TLINK lid="l12" relType="OVERLAP" eventID="e54" relatedToTime="t211" task="A"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e52" relatedToTime="t211" task="A"/>
+<TLINK lid="l14" relType="OVERLAP" eventID="e71" relatedToTime="t216" task="A"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e92" relatedToTime="t217" task="A"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e113" relatedToTime="t228" task="A"/>
+<TLINK lid="l17" relType="OVERLAP" eventID="e116" relatedToTime="t228" task="A"/>
+<TLINK lid="l18" relType="OVERLAP" eventID="e163" relatedToTime="t235" task="A"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e162" relatedToTime="t235" task="A"/>
+<TLINK lid="l20" relType="OVERLAP" eventID="e240" relatedToTime="t239" task="A"/>
+<TLINK lid="l21" relType="OVERLAP-OR-AFTER" eventID="e169" relatedToTime="t239" task="A"/>
+<TLINK lid="l22" relType="OVERLAP" eventID="e167" relatedToTime="t239" task="A"/>
+<TLINK lid="l23" relType="OVERLAP" eventID="e171" relatedToTime="t241" task="A"/>
+<TLINK lid="l24" relType="OVERLAP" eventID="e174" relatedToTime="t241" task="A"/>
+<TLINK lid="l25" relType="OVERLAP-OR-AFTER" eventID="e3" relatedToTime="t199" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e1" relatedToTime="t199" task="B"/>
+<TLINK lid="l27" relType="AFTER" eventID="e8" relatedToTime="t199" task="B"/>
+<TLINK lid="l28" relType="BEFORE" eventID="e23" relatedToTime="t199" task="B"/>
+<TLINK lid="l29" relType="BEFORE" eventID="e198" relatedToTime="t199" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e26" relatedToTime="t199" task="B"/>
+<TLINK lid="l31" relType="BEFORE" eventID="e30" relatedToTime="t199" task="B"/>
+<TLINK lid="l32" relType="OVERLAP" eventID="e31" relatedToTime="t199" task="B"/>
+<TLINK lid="l33" relType="AFTER" eventID="e36" relatedToTime="t199" task="B"/>
+<TLINK lid="l34" relType="AFTER" eventID="e35" relatedToTime="t199" task="B"/>
+<TLINK lid="l35" relType="OVERLAP" eventID="e33" relatedToTime="t199" task="B"/>
+<TLINK lid="l36" relType="BEFORE" eventID="e43" relatedToTime="t199" task="B"/>
+<TLINK lid="l37" relType="BEFORE" eventID="e54" relatedToTime="t199" task="B"/>
+<TLINK lid="l38" relType="BEFORE" eventID="e52" relatedToTime="t199" task="B"/>
+<TLINK lid="l39" relType="OVERLAP" eventID="e56" relatedToTime="t199" task="B"/>
+<TLINK lid="l40" relType="BEFORE" eventID="e71" relatedToTime="t199" task="B"/>
+<TLINK lid="l41" relType="OVERLAP" eventID="e78" relatedToTime="t199" task="B"/>
+<TLINK lid="l42" relType="BEFORE" eventID="e92" relatedToTime="t199" task="B"/>
+<TLINK lid="l43" relType="BEFORE" eventID="e93" relatedToTime="t199" task="B"/>
+<TLINK lid="l44" relType="BEFORE" eventID="e102" relatedToTime="t199" task="B"/>
+<TLINK lid="l45" relType="BEFORE" eventID="e105" relatedToTime="t199" task="B"/>
+<TLINK lid="l46" relType="BEFORE" eventID="e113" relatedToTime="t199" task="B"/>
+<TLINK lid="l47" relType="AFTER" eventID="e116" relatedToTime="t199" task="B"/>
+<TLINK lid="l48" relType="OVERLAP" eventID="e119" relatedToTime="t199" task="B"/>
+<TLINK lid="l49" relType="BEFORE" eventID="e120" relatedToTime="t199" task="B"/>
+<TLINK lid="l50" relType="OVERLAP" eventID="e249" relatedToTime="t199" task="B"/>
+<TLINK lid="l51" relType="BEFORE" eventID="e125" relatedToTime="t199" task="B"/>
+<TLINK lid="l52" relType="OVERLAP" eventID="e233" relatedToTime="t199" task="B"/>
+<TLINK lid="l53" relType="AFTER" eventID="e130" relatedToTime="t199" task="B"/>
+<TLINK lid="l54" relType="OVERLAP" eventID="e248" relatedToTime="t199" task="B"/>
+<TLINK lid="l55" relType="AFTER" eventID="e146" relatedToTime="t199" task="B"/>
+<TLINK lid="l56" relType="AFTER" eventID="e143" relatedToTime="t199" task="B"/>
+<TLINK lid="l57" relType="BEFORE" eventID="e140" relatedToTime="t199" task="B"/>
+<TLINK lid="l58" relType="AFTER" eventID="e151" relatedToTime="t199" task="B"/>
+<TLINK lid="l59" relType="BEFORE" eventID="e154" relatedToTime="t199" task="B"/>
+<TLINK lid="l60" relType="BEFORE" eventID="e163" relatedToTime="t199" task="B"/>
+<TLINK lid="l61" relType="BEFORE" eventID="e162" relatedToTime="t199" task="B"/>
+<TLINK lid="l62" relType="BEFORE" eventID="e240" relatedToTime="t199" task="B"/>
+<TLINK lid="l63" relType="BEFORE" eventID="e169" relatedToTime="t199" task="B"/>
+<TLINK lid="l64" relType="BEFORE" eventID="e167" relatedToTime="t199" task="B"/>
+<TLINK lid="l65" relType="BEFORE" eventID="e171" relatedToTime="t199" task="B"/>
+<TLINK lid="l66" relType="BEFORE" eventID="e174" relatedToTime="t199" task="B"/>
+</TempEval>

@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891102-0040 
+ = 891102 
+ 891102-0040. 
+ Business Brief -- Intelogic Trace Inc.:
+@  Shareholder Sells 18% Stake
+@  In $9.9 Million Buy-Back 
+ <TIMEX3 tid="t53" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ IT DPC 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) 
+
+   <s>Intelogic Trace Inc., San Antonio, Texas, <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="buy" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">bought</EVENT> 2.7 million shares, or about 18%, of its common stock from an unaffiliated shareholder for $3.625 a share, or $9.9 million.</s> 
+
+   <s>The <EVENT eid="e3" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">move</EVENT> <EVENT eid="e4" class="OCCURRENCE" stem="boost" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">boosts</EVENT> Intelogic Chairman Asher Edelman's <EVENT eid="e81" class="STATE" stem="stake" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">stake</EVENT> to 20% from 16.2% and may <EVENT eid="e6" class="I_ACTION" stem="help" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e8" class="I_ACTION" stem="prevent" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">prevent</EVENT> Martin Ackerman from <EVENT eid="e10" class="OCCURRENCE" stem="make" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">making</EVENT> a <EVENT eid="e11" class="OCCURRENCE" stem="run" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">run</EVENT> at the computer-services concern.</s> 
+<s>Mr. Ackerman already is <EVENT eid="e13" class="I_ACTION" stem="seek" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">seeking</EVENT> to <EVENT eid="e15" class="OCCURRENCE" stem="oust" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">oust</EVENT> Mr. Edelman as chairman of Datapoint Corp., an Intelogic affiliate.</s> 
+
+   <s>The <EVENT eid="e16" class="OCCURRENCE" stem="action" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">action</EVENT> <EVENT eid="e17" class="OCCURRENCE" stem="follow" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">followed</EVENT> by <TIMEX3 tid="t60" type="DURATION" value="P1D" temporalFunction="false" functionInDocument="NONE">one day</TIMEX3> an Intelogic <EVENT eid="e57" class="REPORTING" stem="announcement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">announcement</EVENT> that it will <EVENT eid="e18" class="OCCURRENCE" stem="retain" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">retain</EVENT> an investment banker to <EVENT eid="e20" class="OCCURRENCE" stem="explore" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">explore</EVENT> alternatives "to <EVENT eid="e22" class="OCCURRENCE" stem="maximize" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">maximize</EVENT> shareholder value," including the possible <EVENT eid="e23" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of the company.</s> 
+
+   <s>In New York Stock Exchange composite trading <TIMEX3 tid="t58" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t53">yesterday</TIMEX3>, Intelogic shares <EVENT eid="e24" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 37.5 cents to <EVENT eid="e182" class="OCCURRENCE" stem="close" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">close</EVENT> at $2.75.</s> 
+
+   <s>Mr. Edelman <EVENT eid="e27" class="REPORTING" stem="decline" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">declined</EVENT> to <EVENT eid="e29" class="REPORTING" stem="specify" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">specify</EVENT> what <EVENT eid="e30" class="OCCURRENCE" stem="prompt" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">prompted</EVENT> the recent <EVENT eid="e31" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">moves</EVENT>, <EVENT eid="e32" class="REPORTING" stem="say" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">saying</EVENT> they are <EVENT eid="e33" class="I_ACTION" stem="mean" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">meant</EVENT> only to <EVENT eid="e34" class="OCCURRENCE" stem="benefit" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">benefit</EVENT> shareholders when "the company is <EVENT eid="e183" class="STATE" stem="on" aspect="NONE" tense="PRESENT" polarity="POS" pos="PREPOSITION">on</EVENT> a roll."</s> 
+<s>He <EVENT eid="e61" class="REPORTING" stem="add" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">added</EVENT>, "This <EVENT eid="e39" class="OCCURRENCE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> nothing to do with Marty Ackerman and it is not <EVENT eid="e41" class="I_ACTION" stem="design" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">designed</EVENT>, particularly , to <EVENT eid="e43" class="OCCURRENCE" stem="take" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">take</EVENT> the company private."</s> 
+
+   <s>But Mr. Ackerman <EVENT eid="e44" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e64" class="OCCURRENCE" stem="buy-back" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">buy-back</EVENT>, and the above-market price <EVENT eid="e45" class="OCCURRENCE" stem="pay" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">paid</EVENT>, <EVENT eid="e46" class="I_ACTION" stem="prove" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">prove</EVENT> that Mr. Edelman is <EVENT eid="e47" class="I_STATE" stem="run" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">running</EVENT> <EVENT eid="e48" class="I_STATE" stem="scared" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">scared</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e23" relatedToTime="t60" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e182" relatedToTime="t58" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e24" relatedToTime="t58" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e2" relatedToTime="t53" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e1" relatedToTime="t53" task="B"/>
+<TLINK lid="l6" relType="AFTER" eventID="e6" relatedToTime="t53" task="B"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e4" relatedToTime="t53" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e3" relatedToTime="t53" task="B"/>
+<TLINK lid="l9" relType="AFTER" eventID="e10" relatedToTime="t53" task="B"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e13" relatedToTime="t53" task="B"/>
+<TLINK lid="l11" relType="AFTER" eventID="e23" relatedToTime="t53" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e182" relatedToTime="t53" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e24" relatedToTime="t53" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e27" relatedToTime="t53" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e32" relatedToTime="t53" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e31" relatedToTime="t53" task="B"/>
+<TLINK lid="l17" relType="OVERLAP-OR-AFTER" eventID="e43" relatedToTime="t53" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e61" relatedToTime="t53" task="B"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e39" relatedToTime="t53" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e44" relatedToTime="t53" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e45" relatedToTime="t53" task="B"/>
+</TempEval>

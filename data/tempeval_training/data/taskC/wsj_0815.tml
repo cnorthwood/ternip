@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891027-0079 
+ = 891027 
+ 891027-0079. 
+ Di Giorgio Corp. Seeks
+@  To Sell Certain Units 
+ <TIMEX3 tid="t26" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ DIG 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ SAN FRANCISCO  
+
+   <s>Di Giorgio Corp. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it's <EVENT eid="e2" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">continuing</EVENT> <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="talk" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">talks</EVENT> with potential buyers of certain units, but has <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="reach" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">reached</EVENT> no <EVENT eid="e5" mainevent="NO" class="I_STATE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT> on any <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="deal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">deals</EVENT>.</s> 
+
+   <s>Di Giorgio, a food wholesaler and building products maker, is <EVENT eid="e8" mainevent="YES" class="I_STATE" stem="seek" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">seeking</EVENT> <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="alternative" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">alternatives</EVENT> to an <EVENT eid="e79" mainevent="NO" class="OCCURRENCE" stem="unsolicited" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">unsolicited</EVENT> $32-a-share tender <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> of DIG Acquisition Corp., a unit of Rose Partners Limited Partnership.</s> 
+<s>DIG is the vehicle being <EVENT eid="e10" mainevent="YES" class="OCCURRENCE" stem="use" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">used</EVENT> to <EVENT eid="e12" mainevent="NO" class="I_ACTION" stem="pursue" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">pursue</EVENT> to <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquisition</EVENT>.</s> 
+
+   <s>Robert Mellor, Di Giorgio's executive vice president, <EVENT eid="e15" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company <EVENT eid="e16" mainevent="NO" class="I_STATE" stem="stand" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">stands</EVENT> to <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="reap" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">reap</EVENT> more money through the <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of individual units to others than by <EVENT eid="e22" mainevent="NO" class="I_ACTION" stem="accepting" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">accepting</EVENT> DIG's <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP-OR-AFTER" relatedToEvent="e15" eventID="e10" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e10" eventID="e8" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e8" eventID="e1" task="C"/>
+
+</TempEval>

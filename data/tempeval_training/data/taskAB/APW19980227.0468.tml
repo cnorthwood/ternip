@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ APW19980227.0468 
+ NEWS STORY 
+ <TIMEX3 tid="t13" type="TIME" value="1998-02-27T07:56:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/27/1998 07:56:00</TIMEX3> 
+
+w2373 Cx1f wstm-
+r i Cx13  Cx11  BC-Russia-Kalashnikov'sM 1stLd   02-27 0148
+
+
+ BC-Russia-Kalashnikov's Museum, 1st Ld 
+
+Moscow mayor donates funds to build Kalashnikov museum
+
+UR Eds: SUBS 3rd graf to conform to AP style. QL
+
+
+<s>MOSCOW (AP) _ The mayor of Moscow  has <EVENT eid="e1" class="OCCURRENCE" stem="allocate" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">allocated</EVENT> funds  to <EVENT eid="e2" class="I_ACTION" stem="help" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">help</EVENT>
+<EVENT eid="e3" class="OCCURRENCE" stem="build" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">build</EVENT> a museum in honor of Mikhail Kalashnikov, the Russian who
+<EVENT eid="e6" class="OCCURRENCE" stem="give" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">gave</EVENT> his name to the world's most widely wielded weapon, <EVENT eid="e91" class="REPORTING" stem="accord" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">according</EVENT>
+to a news agency <EVENT eid="e55" class="REPORTING" stem="report" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">report</EVENT> <TIMEX3 tid="t15" type="DATE" value="1998-02-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">Friday</TIMEX3>.</s>
+<s>Kalashnikov <EVENT eid="e7" class="OCCURRENCE" stem="design" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">designed</EVENT> the AK-47 automatic rifle, famed for its
+reliability and effectiveness.</s> <s>Together with its derivatives, the
+Kalashnikov rifle  has  been <EVENT eid="e8" class="OCCURRENCE" stem="use" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">used</EVENT> by the police and armies of 55
+countries and an assortment of guerrillas, terrorists and just
+plain thugs around the globe.</s>
+<s>Seventy-five million copies of the rifle  have  been <EVENT eid="e9" class="OCCURRENCE" stem="build" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">built</EVENT> since
+it <EVENT eid="e10" class="ASPECTUAL" stem="enter" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">entered</EVENT> <EVENT eid="e79" class="STATE" stem="production" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">production</EVENT> in <TIMEX3 tid="t16" type="DATE" value="1947-02" temporalFunction="false" functionInDocument="NONE">February 1947</TIMEX3>, making it history's most
+widely distributed weapon.</s>
+<s>UR The ITAR-Tass, 4th graf pvs
+(pvs/ji)</s>
+
+(PROFILE
+(WS SL:BC-Russia-Kalashnikov's Museum, 1st Ld; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:MEST;)
+(REG:AFRI;)
+(REG:INDI;)
+(REG:ENGL;)
+(REG:ASIA;)
+(LANG:ENGLISH;))
+)
+
+
+<s>AP-NY-02-27-98 0756EST</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP-OR-AFTER" eventID="e2" relatedToTime="t15" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e6" relatedToTime="t15" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e91" relatedToTime="t15" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e55" relatedToTime="t15" task="A"/>
+<TLINK lid="l5" relType="OVERLAP-OR-AFTER" eventID="e2" relatedToTime="t13" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e6" relatedToTime="t13" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e91" relatedToTime="t13" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e55" relatedToTime="t13" task="B"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e8" relatedToTime="t13" task="B"/>
+</TempEval>

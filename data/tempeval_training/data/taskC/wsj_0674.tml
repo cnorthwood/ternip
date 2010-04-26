@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891030-0022 
+ = 891030 
+ 891030-0022. 
+ Jim Pattison to Seek
+@  Control of Innopac 
+ <TIMEX3 tid="t41" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ T.INA 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+EARNINGS (ERN) 
+ VANCOUVER, British Columbia  
+
+   <s>Jim Pattison Industries Ltd., one of a group of closely held companies owned by entrepreneur James Pattison, <EVENT eid="e2" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it "<EVENT eid="e3" mainevent="NO" class="I_STATE" stem="intend" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">intends</EVENT> to <EVENT eid="e5" mainevent="NO" class="I_ACTION" stem="seek" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">seek</EVENT> <EVENT eid="e40" mainevent="NO" class="STATE" stem="control" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">control</EVENT>" of 30%-owned Innopac Inc., a Toronto packaging concern.</s> 
+
+   <s>Jim Pattison Industries, a holding company with annual sales of about C$1.9 billion, largely from car dealerships and grocery stores, did n't <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="elaborate" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">elaborate</EVENT> on the <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="statement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">statement</EVENT>, and a company official <EVENT eid="e11" mainevent="NO" class="I_ACTION" stem="decline" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">declined</EVENT> further <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="comment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">comment</EVENT>.</s> 
+
+   <s>The company <EVENT eid="e13" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <TIMEX3 tid="t42" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">currently</TIMEX3> <EVENT eid="e14" mainevent="NO" class="STATE" stem="hold" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">holds</EVENT> about 4.2 million of Innopac's 13.8 million common shares outstanding, which <EVENT eid="e43" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> an aggregate market value of about 137.8 million Canadian dollars (US$117.3 million).</s> 
+
+   <s>Separately, Innopac <EVENT eid="e15" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> a <TIMEX3 tid="t44" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">fourth-quarter</TIMEX3> <EVENT eid="e16" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of about C$2.6 million, or 18 Canadian cents a share, reflecting inventory <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="write-downs" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">write-downs</EVENT>.</s> 
+<s>The <EVENT eid="e18" mainevent="NO" class="STATE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> <EVENT eid="e19" mainevent="YES" class="OCCURRENCE" stem="make" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">made</EVENT> net income for <TIMEX3 tid="t49" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t50">the year</TIMEX3> ended <TIMEX3 tid="t50" type="DATE" value="1989-08-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">Aug. 31</TIMEX3> <EVENT eid="e162" mainevent="NO" class="STATE" stem="c$2.7 million" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">C$2.7 million</EVENT>, or 20 Canadian cents a share, down from <EVENT eid="e54" mainevent="NO" class="STATE" stem="c$9.7 million" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">C$9.7 million</EVENT>, or 70 Canadian cents a share <TIMEX3 tid="t52" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">last year</TIMEX3>.</s> 
+<s><EVENT eid="e56" mainevent="YES" class="STATE" stem="revenue" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">Revenue</EVENT> was C$291.6 million, up from <EVENT eid="e57" mainevent="NO" class="STATE" stem="c$252 million" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">C$252 million</EVENT> in <TIMEX3 tid="t58" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3>.</s> 
+
+   <s>Martin Fabi, Innopac's president and chief executive, <EVENT eid="e21" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Innopac <EVENT eid="e22" mainevent="NO" class="I_STATE" stem="view" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">viewed</EVENT> Mr. Pattison's <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="decision" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decision</EVENT> to <EVENT eid="e25" mainevent="NO" class="I_ACTION" stem="seek" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">seek</EVENT> <EVENT eid="e62" mainevent="NO" class="STATE" stem="control" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">control</EVENT> as a "very positive" <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="move" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">move</EVENT>.</s> 
+<s>"I'm <EVENT eid="e63" mainevent="NO" class="I_STATE" stem="happy" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">happy</EVENT> that he <EVENT eid="e64" mainevent="NO" class="STATE" stem="feel" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">feels</EVENT> positively about our company," he <EVENT eid="e28" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>Mr. Fabi wouldn't <EVENT eid="e29" mainevent="YES" class="REPORTING" stem="say" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">say</EVENT> directly whether Mr. Pattison has <EVENT eid="e30" mainevent="NO" class="REPORTING" stem="disclose" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">disclosed</EVENT> potential terms for his <EVENT eid="e68" mainevent="NO" class="I_STATE" stem="planned" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">planned</EVENT> <EVENT eid="e31" mainevent="NO" class="OCCURRENCE" stem="bid" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bid</EVENT> for control.</s> 
+
+   <s>Among other things, Innopac is involved in recycling polystyrene foam products that are often used by fast food chains, such as McDonald's Corp., for food packaging.</s> 
+<s>A joint venture involving units of Innopac and Mobil Corp. <TIMEX3 tid="t69" type="DATE" value="1989" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">earlier this year</TIMEX3> <EVENT eid="e37" mainevent="YES" class="OCCURRENCE" stem="open" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">opened</EVENT> the first U.S. polystyrene recycling plant, in Leominster, Mass.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e19" eventID="e15" task="C"/>
+<TLINK lid="l2" relType="VAGUE" relatedToEvent="e15" eventID="e13" task="C"/>
+<TLINK lid="l3" relType="VAGUE" relatedToEvent="e21" eventID="e56" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e13" eventID="e7" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e28" eventID="e21" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e29" eventID="e28" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e7" eventID="e2" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e56" eventID="e19" task="C"/>
+
+</TempEval>

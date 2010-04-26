@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891102-0188 
+ = 891102 
+ 891102-0188. 
+ Pacific First Financial Corp. 
+ <TIMEX3 tid="t9" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ PFFS T.RYL 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+SAVINGS AND LOANS, THRIFTS, CREDIT UNIONS (SAL) 
+ SEATTLE  
+
+   <s>Pacific First Financial Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> shareholders <EVENT eid="e2" class="OCCURRENCE" stem="approve" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">approved</EVENT> its <EVENT eid="e8" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> by Royal Trustco Ltd. of Toronto for $27 a share, or $212 million.</s> 
+
+   <s>The thrift holding company <EVENT eid="e4" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e5" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expects</EVENT>  to <EVENT eid="e6" class="OCCURRENCE" stem="obtain" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">obtain</EVENT> regulatory <EVENT eid="e19" class="OCCURRENCE" stem="approval" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">approval</EVENT> and <EVENT eid="e7" class="ASPECTUAL" stem="complete" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">complete</EVENT> the <EVENT eid="e20" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT> by <TIMEX3 tid="t10" type="DATE" value="1989-12-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t9">year-end</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e4" relatedToTime="t10" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e5" relatedToTime="t10" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e8" relatedToTime="t9" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e1" relatedToTime="t9" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e4" relatedToTime="t9" task="B"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e5" relatedToTime="t9" task="B"/>
+</TempEval>

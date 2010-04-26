@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW19980809.0700 
+ NEWS STORY 
+ 08/09/1998 16:30:00 
+
+w1195 &amp;Cx1f; wstm-
+u i &amp;Cx13;  &amp;Cx11;  BC-Tanzania-EmbassyBombi 1stLd   08-09 0145
+
+
+ BC-Tanzania-Embassy Bombing, 1st Ld 
+
+Solid construction may have kept toll low in Tanzania embassy
+
+bombing
+ &amp;UR; Eds: CORRECTS 4th graf to drop extraneous word &amp;QL; 
+ &amp;UR; With Kenya-Embassy Bombings &amp;QL; 
+ &amp;UR; By VIJAY JOSHI &amp;QC; 
+ &amp;UR; Associated Press Writer &amp;QC; 
+
+
+	   DAR ES SALAAM, Tanzania (AP) _ The bomb outside the U.S. Embassy
+in Tanzania was so powerful that it <EVENT eid="e1" class="OCCURRENCE">shook</EVENT> furniture in homes a mile
+away.
+	   But the solid construction of the Israeli-built embassy may have
+<EVENT eid="e3" class="I_ACTION">prevented</EVENT> the carnage of a similar bomb in Kenya, an official <EVENT eid="e4" class="REPORTING">said</EVENT>
+<TIMEX3 tid="t1" type="DATE" value="1998-08-08" temporalFunction="false" functionInDocument="NONE">Saturday</TIMEX3>.
+	   Another reason was the location _ a quiet tree-lined
+neighborhood.
+	   The embassy away from the center of Dar es Salaam, Tanzania's
+laid-back capital of <EVENT eid="e7" class="OCCURRENCE">swaying</EVENT> palms and sparse traffic, is largely
+free from the congestion that <EVENT eid="e8" class="STATE">plagues</EVENT> most other major African
+cities.
+	   In comparison, 5th graf
+	   (vj/dmc/cph)
+
+
+(PROFILE
+(WS SL:BC-Tanzania-Embassy Bombing, 1st Ld; CT:i; 
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(REG:AFRI;)
+(LANG:ENGLISH;))
+)
+
+
+AP-NY-08-09-98 1630EDT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN" modality="MAY"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l4" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei7" origin="USER"/>
+<TLINK lid="l9" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei8" origin="USER"/>
+
+</TimeML>

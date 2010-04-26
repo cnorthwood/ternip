@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891030-0010 
+ = 891030 
+ 891030-0010. 
+ CNW Acquisition Completed 
+ <TIMEX3 tid="t11" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CNW 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+TRANSPORTATION, TRUCK AND SHIP LINES, RAILROADS (TRA) 
+ CHICAGO  
+
+   <s>CNW Corp. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the final step in the <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of the company has been <EVENT eid="e5" mainevent="NO" class="ASPECTUAL" stem="complete" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">completed</EVENT> with the <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="merger" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">merger</EVENT> of CNW with a subsidiary of Chicago amp North Western Holdings Corp. 
+
+   As <EVENT eid="e13" mainevent="NO" class="REPORTING" stem="report" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT>, CNW <EVENT eid="e7" mainevent="NO" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> to be <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">acquired</EVENT> by a group of investors led by Blackstone Capital Partners Limited Partnership for $50 a share, or about $950 million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TempEval>

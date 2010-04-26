@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891027-0127 
+ = 891027 
+ 891027-0127. 
+ Mutual Funds:
+@  Investors Yank Billions From Junk Funds
+@  ----
+@  By Michael Siconolfi
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t173" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TROW 
+ MUTUAL AND MONEY-MARKET FUNDS (FND)
+BOND MARKET NEWS (BON) 
+ NEW YORK  
+
+   <s>Billions of investors' dollars are <EVENT eid="e2" mainevent="YES" class="OCCURRENCE" stem="pour" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">pouring</EVENT> out of the nation's junk-bond mutual funds, <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="undermine" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">undermining</EVENT> a pillar of support in the already reeling junk market.</s> 
+
+   <s><TIMEX3 tid="t174" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">Last week</TIMEX3> alone, an eye-popping $1.6 billion <EVENT eid="e7" mainevent="YES" class="OCCURRENCE" stem="flow" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">flowed</EVENT> out of the junk funds, or nearly 5% of their total assets, <EVENT eid="e167" mainevent="NO" class="REPORTING" stem="accord" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">according</EVENT> to estimates by Dalbar Financial Services Inc., a Boston research firm.</s> 
+
+   <s>In <TIMEX3 tid="t175" type="DURATION" value="P2M" temporalFunction="true" functionInDocument="NONE" endPoint="t173">the past two months</TIMEX3> the nation's 88 junk funds have <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="lose" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">lost</EVENT> a total of about $6 billion -- more than 15% of assets -- through <EVENT eid="e168" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sales</EVENT> or <EVENT eid="e169" mainevent="NO" class="OCCURRENCE" stem="transfer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transfers</EVENT> of junk-fund shares, Dalbar <EVENT eid="e11" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>.</s> 
+<s>It made the estimates based on data collected from more than a dozen big junk funds.</s> 
+
+   <s><EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="interviews" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">Interviews</EVENT> with three major fund groups -- Fidelity Investments, Vanguard Group Inc. and T. Rowe Price Associates Inc. -- <EVENT eid="e17" mainevent="YES" class="REPORTING" stem="confirm" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">confirm</EVENT> the <EVENT eid="e170" mainevent="NO" class="OCCURRENCE" stem="trend" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trend</EVENT>.</s> 
+<s>Their junk funds combined have had net <EVENT eid="e19" mainevent="YES" class="OCCURRENCE" stem="outflows" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">outflows</EVENT> totaling nearly $500 million, or about 13% of their junk fund assets, in <TIMEX3 tid="t176" type="DURATION" value="P2M" temporalFunction="true" functionInDocument="NONE" endPoint="t173">the past two months</TIMEX3>.</s> 
+
+   <s>Some fund managers <EVENT eid="e22" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> negative publicity has <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="exacerbate" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">exacerbated</EVENT> investors' concern about <TIMEX3 tid="t185" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">recent</TIMEX3> <EVENT eid="e179" mainevent="NO" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">declines</EVENT> in junk-bond prices.</s> 
+<s>"People have been seeing headline after headline after headline and saying: `I ca n't take it anymore -- I'm getting out,'" <EVENT eid="e37" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> Kurt Brouwer of Brouwer amp Janachowski, a San Francisco investment adviser.</s> 
+
+   <s>The <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="withdrawal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">withdrawals</EVENT> could <EVENT eid="e39" mainevent="YES" class="STATE" stem="spell" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">spell</EVENT> <EVENT eid="e41" mainevent="NO" class="STATE" stem="trouble" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trouble</EVENT> for the $200 billion junk market.</s> 
+<s>If the heavy <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="outflow" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">outflows</EVENT> <EVENT eid="e44" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT>, fund managers will <EVENT eid="e46" mainevent="YES" class="I_ACTION" stem="face" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">face</EVENT> increasing <EVENT eid="e180" mainevent="NO" class="STATE" stem="pressure" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">pressure</EVENT> to <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> off some of their junk to <EVENT eid="e51" mainevent="NO" class="OCCURRENCE" stem="pay" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> departing investors in <TIMEX3 tid="t186" type="DURATION" value="PXW" temporalFunction="true" functionInDocument="NONE" beginPoint="t173">the weeks ahead</TIMEX3>.</s> 
+<s>Such <EVENT eid="e53" mainevent="NO" class="OCCURRENCE" stem="selling" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">selling</EVENT> could <EVENT eid="e54" mainevent="YES" class="OCCURRENCE" stem="erode" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">erode</EVENT> prices of high-yield junk bonds, already <EVENT eid="e57" mainevent="NO" class="OCCURRENCE" stem="weaken" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">weakened</EVENT> by a <EVENT eid="e182" mainevent="NO" class="OCCURRENCE" stem="rash" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">rash</EVENT> of corporate credit problems.</s> 
+
+   <s>Mutual fund groups have n't <EVENT eid="e58" mainevent="NO" class="OCCURRENCE" stem="lose" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">lost</EVENT> control of much of the outgoing money, <EVENT eid="e61" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> Louis Harvey, Dalbar's president.</s> 
+<s>Mutual fund officials <EVENT eid="e62" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> that investors have <EVENT eid="e63" mainevent="NO" class="OCCURRENCE" stem="transfer" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">transferred</EVENT> most of it into their money market accounts, and to a lesser extent, government-bond funds.</s> 
+<s>So the <EVENT eid="e66" mainevent="YES" class="OCCURRENCE" stem="impact" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">impact</EVENT> on the $950 billion mutual fund industry as a whole probably will be slight.</s> 
+
+   <s>But tremors are likely in the junk-bond market, which has <EVENT eid="e70" mainevent="YES" class="OCCURRENCE" stem="help" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">helped</EVENT> to <EVENT eid="e72" mainevent="NO" class="I_ACTION" stem="finance" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">finance</EVENT> the takeover <EVENT eid="e73" mainevent="NO" class="OCCURRENCE" stem="boom" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">boom</EVENT> of <TIMEX3 tid="t196" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">recent years</TIMEX3>.</s> 
+<s>Mutual funds are the among the largest holders of junk, accounting for more than a quarter of the entire high-yield, high-risk market.</s> 
+<s>The 88 mutual funds investing solely in junk bonds hold assets of about $32 billion.</s> 
+<s>Other funds hold a smattering of junk bonds, too.</s> 
+
+   <s>The $1.5 billion Fidelity High Income Fund has had a net <EVENT eid="e82" mainevent="YES" class="OCCURRENCE" stem="outflow" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">outflow</EVENT> of about $150 million in <TIMEX3 tid="t198" type="DURATION" value="P2M" mod="BEFORE" temporalFunction="true" functionInDocument="NONE" endPoint="t173">the past two months</TIMEX3>.</s> 
+<s>About $60 million <EVENT eid="e83" mainevent="YES" class="OCCURRENCE" stem="stream" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">streamed</EVENT> out <TIMEX3 tid="t199" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">last week</TIMEX3> alone, <EVENT eid="e188" mainevent="NO" class="STATE" stem="double" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">double</EVENT> the <EVENT eid="e190" mainevent="NO" class="STATE" stem="level" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">level</EVENT> of the <TIMEX3 tid="t201" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t200">week</TIMEX3> following <TIMEX3 tid="t200" type="DATE" value="1989-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">last month</TIMEX3>'s Campeau Corp. credit <EVENT eid="e189" mainevent="NO" class="OCCURRENCE" stem="squeeze" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">squeeze</EVENT>.</s> 
+<s>About 98% of the outflow was <EVENT eid="e86" mainevent="NO" class="OCCURRENCE" stem="transfer" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">transferred</EVENT> to other Fidelity funds, <EVENT eid="e87" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> Neal Litvack, a Fidelity vice president, marketing, with most <EVENT eid="e89" mainevent="NO" class="OCCURRENCE" stem="go" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">going</EVENT> into money market funds.</s> 
+
+   <s>"You get a news item, it hits, you have strong redemptions that day and for two days following -- then go back to normal," <EVENT eid="e96" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> Mr. Litvack.</s> 
+<s>The fund, with a cash cushion of more than 10%, has " <EVENT eid="e98" mainevent="NO" class="OCCURRENCE" stem="meet" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">met</EVENT> all the <EVENT eid="e2524" mainevent="NO" class="OCCURRENCE" stem="redemption" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">redemptions</EVENT> without having to <EVENT eid="e102" mainevent="NO" class="OCCURRENCE" stem="sell" tense="PRESPART" aspect="NONE" polarity="NEG" pos="VERB">sell</EVENT> one thing," Mr. Litvack <EVENT eid="e104" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>.</s> 
+<s>He <EVENT eid="e105" mainevent="YES" class="REPORTING" stem="add" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">adds</EVENT>: "Our fund has had {positive} net <EVENT eid="e195" mainevent="NO" class="STATE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sales</EVENT> <TIMEX3 tid="t2332" type="SET" value="P1M" temporalFunction="false" functionInDocument="NONE" quant="EVERY">every month</TIMEX3> for <TIMEX3 tid="t204" type="DURATION" value="P3Y" temporalFunction="true" functionInDocument="NONE">the last three years</TIMEX3> -- until <TIMEX3 tid="t205" type="DATE" value="1989-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">this month</TIMEX3>."</s> 
+
+   <s>Vanguard's $1 billion High Yield Bond Portfolio has <EVENT eid="e109" mainevent="YES" class="PERCEPTION" stem="see" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">seen</EVENT> $161 million <EVENT eid="e110" mainevent="NO" class="OCCURRENCE" stem="flow" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">flow</EVENT> out since <TIMEX3 tid="t206" type="DATE" value="1989-09" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">early September</TIMEX3>; $14 million of that <EVENT eid="e208" mainevent="NO" class="OCCURRENCE" stem="seep" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">seeped</EVENT> out <TIMEX3 tid="t210" type="DATE" value="1989-10-13" temporalFunction="true" functionInDocument="NONE">Friday Oct. 13</TIMEX3> alone.</s> 
+<s>Still, two-thirds of the <EVENT eid="e2371" mainevent="NO" class="OCCURRENCE" stem="outflow" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">outflow</EVENT> has been <EVENT eid="e112" mainevent="NO" class="OCCURRENCE" stem="steer" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">steered</EVENT> into other Vanguard portfolios, <EVENT eid="e113" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> Brian Mattes, a vice president.</s> 
+<s>The fund <TIMEX3 tid="t211" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">now</TIMEX3> <EVENT eid="e116" mainevent="YES" class="STATE" stem="hold" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">holds</EVENT> a cash position of about 15%.</s> 
+
+   <s>At the $932 million T. Rowe Price High Yield Fund, investors <EVENT eid="e117" mainevent="YES" class="OCCURRENCE" stem="yank" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">yanked</EVENT> out about $182 million in <TIMEX3 tid="t213" type="DURATION" value="P2M" temporalFunction="true" functionInDocument="NONE" endPoint="t173">the past two months</TIMEX3>.</s> 
+<s>Those <EVENT eid="e118" mainevent="YES" class="OCCURRENCE" stem="withdrawal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">withdrawals</EVENT>, most of which were <EVENT eid="e119" mainevent="NO" class="OCCURRENCE" stem="transfer" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">transferred</EVENT> to other T. Rowe Price funds, followed little <EVENT eid="e121" mainevent="NO" class="OCCURRENCE" stem="change" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">change</EVENT> in the fund's sales picture <TIMEX3 tid="t214" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">this year</TIMEX3> through <TIMEX3 tid="t216" type="DATE" value="1989-08" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">August</TIMEX3>.</s> 
+<s>"<TIMEX3 tid="t217" type="DURATION" value="P2M" temporalFunction="true" functionInDocument="NONE" endPoint="t173">The last two months</TIMEX3> have been the whole ball <EVENT eid="e124" mainevent="NO" class="OCCURRENCE" stem="game" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="NOUN">game</EVENT>," <EVENT eid="e125" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> Steven Norwitz, a vice president.</s> 
+
+   <s>Junk-fund holders have barely <EVENT eid="e127" mainevent="YES" class="OCCURRENCE" stem="break" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">broken</EVENT> even <TIMEX3 tid="t1997" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">this year</TIMEX3>, as fat interest payments barely <EVENT eid="e129" mainevent="NO" class="OCCURRENCE" stem="manage" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">managed</EVENT> to offset declining prices.</s> 
+<s>Through <TIMEX3 tid="t1998" type="DATE" value="1989-10-19" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">Oct. 19</TIMEX3>, high-yield funds <EVENT eid="e1992" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> an average 0.85% total return (the price change plus dividends on fund shares), <EVENT eid="e1993" mainevent="NO" class="REPORTING" stem="accord" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">according</EVENT> to Lipper Analytical Services Inc. That's even less than the 4.35% total return of the Merrill Lynch High-Yield Index.</s> 
+
+   <s>Fidelity's junk fund has <EVENT eid="e133" mainevent="NO" class="OCCURRENCE" stem="fall" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">fallen</EVENT> 2.08% <TIMEX3 tid="t2000" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">this year</TIMEX3> through <TIMEX3 tid="t2001" type="DATE" value="1989-10-19" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">Oct. 19</TIMEX3>, Lipper <EVENT eid="e134" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>; the Vanguard fund <EVENT eid="e135" mainevent="NO" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 1.84%; and the T. Rowe Price fund <EVENT eid="e137" mainevent="NO" class="OCCURRENCE" stem="edge" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">edged</EVENT> up 0.66%.</s> 
+
+   <s>People who <EVENT eid="e138" mainevent="NO" class="STATE" stem="remain" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">remain</EVENT> in junk funds <TIMEX3 tid="t2003" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE">now</TIMEX3> could <EVENT eid="e140" mainevent="NO" class="OCCURRENCE" stem="get" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">get</EVENT> <EVENT eid="e142" mainevent="NO" class="STATE" stem="hit" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">hit</EVENT> again, some analysts and fund specialists <EVENT eid="e143" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT>.</s> 
+<s>Many funds in <TIMEX3 tid="t2004" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t173">recent weeks and months</TIMEX3> have been <EVENT eid="e144" mainevent="YES" class="OCCURRENCE" stem="sell" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">selling</EVENT> their highest-quality junk issues, such as RJR Nabisco, to <EVENT eid="e146" mainevent="NO" class="OCCURRENCE" stem="raise" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">raise</EVENT> <EVENT eid="e2523" mainevent="NO" class="STATE" stem="cash" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">cash</EVENT> to <EVENT eid="e149" mainevent="NO" class="OCCURRENCE" stem="meet" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">meet</EVENT> <EVENT eid="e1994" mainevent="NO" class="I_STATE" stem="expect" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT> <EVENT eid="e150" mainevent="NO" class="OCCURRENCE" stem="redemption" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">redemptions</EVENT>.</s> 
+
+   <s>Funds might be <EVENT eid="e152" mainevent="YES" class="I_STATE" stem="force" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">forced</EVENT> to <EVENT eid="e155" mainevent="NO" class="I_ACTION" stem="accept" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">accept</EVENT> lower <EVENT eid="e1995" mainevent="NO" class="STATE" stem="price" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">prices</EVENT> if they <EVENT eid="e157" mainevent="NO" class="I_ACTION" stem="expand" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expand</EVENT> their <EVENT eid="e1996" mainevent="NO" class="OCCURRENCE" stem="selling" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">selling</EVENT> to the securities of less-creditworthy borrowers.</s> 
+<s>And then, asset values of the funds could <EVENT eid="e160" mainevent="YES" class="OCCURRENCE" stem="plunge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plunge</EVENT> more than they have so far.</s> 
+
+   <s>Says Michael Hirsch, chief investment officer of Republic National Bank and manager of the FundTrust Group in New York: "It's a time bomb just waiting to go off."</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e134" eventID="e1992" task="C"/>
+<TLINK lid="l2" relType="VAGUE" relatedToEvent="e143" eventID="e134" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e96" eventID="e87" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e46" eventID="e39" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e66" eventID="e62" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e62" eventID="e61" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e19" eventID="e17" task="C"/>
+<TLINK lid="l8" relType="AFTER" relatedToEvent="e70" eventID="e66" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e37" eventID="e22" task="C"/>
+<TLINK lid="l10" relType="VAGUE" relatedToEvent="e160" eventID="e152" task="C"/>
+<TLINK lid="l11" relType="BEFORE" relatedToEvent="e22" eventID="e19" task="C"/>
+<TLINK lid="l12" relType="OVERLAP" relatedToEvent="e7" eventID="e2" task="C"/>
+<TLINK lid="l13" relType="BEFORE" relatedToEvent="e39" eventID="e37" task="C"/>
+<TLINK lid="l14" relType="OVERLAP" relatedToEvent="e104" eventID="e96" task="C"/>
+<TLINK lid="l15" relType="AFTER" relatedToEvent="e1992" eventID="e127" task="C"/>
+<TLINK lid="l16" relType="AFTER" relatedToEvent="e117" eventID="e116" task="C"/>
+<TLINK lid="l17" relType="AFTER" relatedToEvent="e127" eventID="e125" task="C"/>
+<TLINK lid="l18" relType="BEFORE" relatedToEvent="e125" eventID="e118" task="C"/>
+<TLINK lid="l19" relType="AFTER" relatedToEvent="e109" eventID="e105" task="C"/>
+<TLINK lid="l20" relType="BEFORE" relatedToEvent="e54" eventID="e46" task="C"/>
+<TLINK lid="l21" relType="BEFORE" relatedToEvent="e152" eventID="e144" task="C"/>
+<TLINK lid="l22" relType="OVERLAP" relatedToEvent="e116" eventID="e113" task="C"/>
+<TLINK lid="l23" relType="AFTER" relatedToEvent="e61" eventID="e54" task="C"/>
+<TLINK lid="l24" relType="OVERLAP" relatedToEvent="e83" eventID="e82" task="C"/>
+<TLINK lid="l25" relType="BEFORE" relatedToEvent="e11" eventID="e7" task="C"/>
+<TLINK lid="l26" relType="OVERLAP" relatedToEvent="e118" eventID="e117" task="C"/>
+<TLINK lid="l27" relType="BEFORE" relatedToEvent="e113" eventID="e109" task="C"/>
+<TLINK lid="l28" relType="BEFORE" relatedToEvent="e105" eventID="e104" task="C"/>
+<TLINK lid="l29" relType="OVERLAP-OR-AFTER" relatedToEvent="e144" eventID="e143" task="C"/>
+<TLINK lid="l30" relType="BEFORE" relatedToEvent="e87" eventID="e83" task="C"/>
+
+</TempEval>

@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891030-0016 
+ = 891030 
+ 891030-0016. 
+ Business Brief -- Octel Communications Corp.:
+@  Hewlett-Packard Co. Raises
+@  Stake to 8.5% of Common 
+ <TIMEX3 tid="t46" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ HWP OCTL 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Hewlett-Packard Co. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="raise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">raised</EVENT> its stake in Octel Communications Corp. to 8.5% of the common shares outstanding.</s> 
+
+   <s>In a Securities and Exchange Commission <EVENT eid="e53" mainevent="NO" class="REPORTING" stem="filing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">filing</EVENT>, Hewlett-Packard <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it now <EVENT eid="e5" mainevent="NO" class="STATE" stem="hold" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">holds</EVENT> 1,384,119 Octel common shares, including 100,000 shares <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="buy" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">bought</EVENT> from <TIMEX3 tid="t94" type="DATE" value="1989-08-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t46">Aug. 26</TIMEX3> to <TIMEX3 tid="t51" type="DATE" value="1989-10-20" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t46">Oct. 20</TIMEX3> for $23.31 to $24.25 a share.</s> 
+
+   <s>Hewlett-Packard, a Palo Alto, Calif., computer company, <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">acquired</EVENT> the stock "to <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="develop" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">develop</EVENT> and <EVENT eid="e11" mainevent="NO" class="STATE" stem="maintain" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">maintain</EVENT> a strategic partnership in which each company <EVENT eid="e13" mainevent="NO" class="STATE" stem="remain" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">remains</EVENT> independent while <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="working" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">working</EVENT> together to <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="market" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">market</EVENT> and <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="sell" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">sell</EVENT> their products."</s> 
+
+   <s>Octel <EVENT eid="e18" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">purchase</EVENT> was <EVENT eid="e20" mainevent="NO" class="I_STATE" stem="expected" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE">expected</EVENT>.</s> 
+<s>Hewlett-Packard <EVENT eid="e21" mainevent="YES" class="REPORTING" stem="affirm" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">affirmed</EVENT> it does n't <EVENT eid="e22" mainevent="NO" class="I_STATE" stem="plan" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">plan</EVENT> to <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="obtain" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">obtain</EVENT> control of Octel, a Milpitas, Calif., maker of voice-processing systems.</s> 
+
+   <s><EVENT eid="e59" mainevent="NO" class="REPORTING" stem="according" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">According</EVENT> to the <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="filing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">filing</EVENT>, Hewlett-Packard <EVENT eid="e27" mainevent="YES" class="OCCURRENCE" stem="acquire" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">acquired</EVENT> 730,070 common shares from Octel as a result of an <TIMEX3 tid="t57" type="DATE" value="1988-08-10" temporalFunction="false" functionInDocument="NONE">Aug. 10, 1988</TIMEX3>, stock <EVENT eid="e56" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">purchase</EVENT> <EVENT eid="e29" mainevent="NO" class="I_ACTION" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT>.</s> 
+<s>That <EVENT eid="e58" mainevent="NO" class="I_ACTION" stem="accord" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">accord</EVENT> also <EVENT eid="e30" mainevent="YES" class="I_ACTION" stem="call" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">called</EVENT> for Hewlett-Packard to <EVENT eid="e32" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> 730,070 Octel shares in the open market within <TIMEX3 tid="t60" type="DURATION" value="P18M" temporalFunction="false" functionInDocument="NONE">18 months</TIMEX3>.</s> 
+<s>In addition, Hewlett-Packard <EVENT eid="e36" mainevent="YES" class="OCCURRENCE" stem="acquire" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">acquired</EVENT> a <TIMEX3 tid="t61" type="DURATION" value="P2Y" temporalFunction="false" functionInDocument="NONE">two-year</TIMEX3> <EVENT eid="e37" mainevent="NO" class="I_STATE" stem="option" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">option</EVENT> to <EVENT eid="e39" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> an extra 10%, of which half may be <EVENT eid="e40" mainevent="NO" class="OCCURRENCE" stem="sell" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="VERB">sold</EVENT> directly to Hewlett-Packard by Octel.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e4" eventID="e1" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e27" eventID="e21" task="C"/>
+<TLINK lid="l3" relType="BEFORE-OR-OVERLAP" relatedToEvent="e36" eventID="e30" task="C"/>
+<TLINK lid="l4" relType="OVERLAP-OR-AFTER" relatedToEvent="e30" eventID="e27" task="C"/>
+<TLINK lid="l5" relType="BEFORE-OR-OVERLAP" relatedToEvent="e18" eventID="e7" task="C"/>
+<TLINK lid="l6" relType="VAGUE" relatedToEvent="e21" eventID="e18" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e7" eventID="e4" task="C"/>
+
+</TempEval>

@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891030-0125 
+ = 891030 
+ 891030-0125. 
+ Control Data Says It May Repurchase
+@  Debt Soon, Seeks Alliances With Others
+@  ----
+@  By Richard Gibson
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t202" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CDA 
+ COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ MINNEAPOLIS  
+
+   <s>Control Data Corp., which just <TIMEX3 tid="t204" type="DURATION" value="PXM" temporalFunction="true" functionInDocument="NONE" endPoint="t202">months ago</TIMEX3> was <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="hemorrhaging" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB">hemorrhaging</EVENT> financially , <EVENT eid="e2" mainevent="YES" class="I_STATE" stem="think" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">thinks</EVENT> it will be <EVENT eid="e2438" mainevent="NO" class="STATE" stem="healthy" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE">healthy</EVENT> enough <TIMEX3 tid="t206" type="DATE" value="FUTURE_REF" temporalFunction="false" functionInDocument="NONE">soon</TIMEX3> to <EVENT eid="e3" mainevent="NO" class="I_STATE" stem="consider" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">consider</EVENT> <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="repurchasing" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">repurchasing</EVENT> public debt.</s> 
+
+   <s>Moreover, the company, whose go-it-alone approach nearly <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="prove" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">proved</EVENT> fatal, <TIMEX3 tid="t2041" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">now</TIMEX3> <EVENT eid="e7" mainevent="YES" class="I_STATE" stem="see" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">sees</EVENT> <EVENT eid="e208" mainevent="NO" class="OCCURRENCE" stem="alliance" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">alliances</EVENT> with others as the way back to prosperity in what it calls "the data solutions" business.</s> 
+
+   <s>"I'm not saying everything is hunky-dory, but we have <EVENT eid="e15" mainevent="NO" class="ASPECTUAL" stem="complete" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">completed</EVENT> the <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="transition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transition</EVENT>," Robert M. Price, chairman and chief executive, <EVENT eid="e17" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> in an <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="interview" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">interview</EVENT>.</s> 
+<s>"Transition" is a reference to the company's <TIMEX3 tid="t209" type="DURATION" value="P5Y" temporalFunction="false" functionInDocument="NONE">five-year</TIMEX3> <EVENT eid="e210" mainevent="YES" class="OCCURRENCE" stem="restructuring" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">restructuring</EVENT> <EVENT eid="e22" mainevent="NO" class="I_ACTION" stem="effort" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">effort</EVENT>.</s> 
+<s>During <TIMEX3 tid="t213" type="DURATION" value="P5Y" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t209">that time</TIMEX3>, Control Data <EVENT eid="e24" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e214" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">losses</EVENT> of more than $1 billion.</s> 
+
+   <s>Now , following asset sales that <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="shrink" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">shrank</EVENT> revenue by more than one-third <TIMEX3 tid="t2110" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">this year</TIMEX3> alone, Control Data is <EVENT eid="e215" mainevent="YES" class="STATE" stem="flush" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">flush</EVENT> with cash.</s> 
+<s>So its senior executives are <EVENT eid="e28" mainevent="YES" class="I_ACTION" stem="talk" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">talking</EVENT> openly about possibly <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="buy" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">buying</EVENT> back some of the company's $172.5 million in subordinated convertible debentures <TIMEX3 tid="t218" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">next year</TIMEX3>.</s> 
+
+   <s>"We'd <EVENT eid="e221" mainevent="NO" class="I_STATE" stem="like" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">like</EVENT> to <EVENT eid="e33" mainevent="NO" class="ASPECTUAL" stem="continue" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> to <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="reduce" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">reduce</EVENT> debt," President Lawrence Perlman <EVENT eid="e36" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s><EVENT eid="e37" mainevent="NO" class="REPORTING" stem="noting" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">Noting</EVENT> that the company is <EVENT eid="e38" mainevent="NO" class="I_ACTION" stem="offer" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">offering</EVENT> to <EVENT eid="e40" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> back $154.2 million in senior notes <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="pay" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">paying</EVENT> 12 3/4%, he <EVENT eid="e44" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the response will <EVENT eid="e45" mainevent="NO" class="I_STATE" stem="help" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e46" mainevent="NO" class="I_ACTION" stem="determine" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">determine</EVENT> future debt-reduction <EVENT eid="e47" mainevent="NO" class="OCCURRENCE" stem="effort" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">efforts</EVENT>.</s> 
+<s>The <EVENT eid="e48" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> was automatically <EVENT eid="e49" mainevent="NO" class="ASPECTUAL" stem="trigger" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">triggered</EVENT> by the <TIMEX3 tid="t222" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">recent</TIMEX3> <EVENT eid="e50" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of Control Data's Imprimis disk-drive business to Seagate Technology Inc. 
+
+
+   Mr. Perlman, who is also acting chief financial officer and the odds-on favorite to become the next chief executive, <EVENT eid="e55" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company is <EVENT eid="e56" mainevent="NO" class="I_STATE" stem="achieve" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">achieving</EVENT> "modest positive cash <EVENT eid="e57" mainevent="NO" class="STATE" stem="flow" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">flow</EVENT> from <EVENT eid="e58" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT>, and we <EVENT eid="e60" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expect</EVENT> that to <EVENT eid="e62" mainevent="NO" class="ASPECTUAL" stem="continue" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> into <TIMEX3 tid="t224" type="DATE" value="1990" temporalFunction="false" functionInDocument="NONE">1990</TIMEX3>."</s> 
+
+   <s>He <EVENT eid="e63" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company <EVENT eid="e64" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> no <EVENT eid="e225" mainevent="NO" class="I_STATE" stem="intention" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">intention</EVENT> of <EVENT eid="e66" mainevent="NO" class="OCCURRENCE" stem="tap" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">tapping</EVENT> its short-term bank lines "for <TIMEX3 tid="t228" type="DATE" value="1990" temporalFunction="false" functionInDocument="NONE">a good part of 1990</TIMEX3>."</s> 
+<s>Sometime <TIMEX3 tid="t229" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">next year</TIMEX3>, Control Data will " <EVENT eid="e68" mainevent="NO" class="I_ACTION" stem="develop" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">develop</EVENT> a new bank <EVENT eid="e230" mainevent="NO" class="STATE" stem="relationship" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">relationship</EVENT>," Mr. Perlman <EVENT eid="e69" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>In <TIMEX3 tid="t232" type="DURATION" value="PXM" temporalFunction="true" functionInDocument="NONE" endPoint="t202">recent months</TIMEX3> a group of lenders, led by Bank of America, has <EVENT eid="e71" mainevent="YES" class="OCCURRENCE" stem="extend" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">extended</EVENT> Control Data up to $90 million in revolving loans through <TIMEX3 tid="t237" type="DATE" value="1990-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">January</TIMEX3>, as well as $115 million in standby letters of credit.</s> 
+
+   <s>Loan covenants require that the company achieve specified levels of operating earnings and meet a rolling four-quarter profitability test.</s> 
+<s><TIMEX3 tid="t238" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">Last week</TIMEX3> Control Data <EVENT eid="e80" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> <TIMEX3 tid="t239" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">third-quarter</TIMEX3> <EVENT eid="e240" mainevent="NO" class="STATE" stem="earnings" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">earnings</EVENT> of $9.8 million, or 23 cents a share, on revenue of $763 million.</s> 
+<s>Through <TIMEX3 tid="t241" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" endPoint="t202">the first nine months</TIMEX3>, the company <EVENT eid="e242" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> a <EVENT eid="e81" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $484 million, largely reflecting the <EVENT eid="e83" mainevent="NO" class="OCCURRENCE" stem="closing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">closing</EVENT> of its supercomputer unit.</s> 
+
+   <s>While a few assets are still being shopped -- including the sports and entertainment ticketing portion of the company's Ticketron unit -- Mr. Price <EVENT eid="e2338" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> future restructuring would be a question of strategy.</s> 
+<s>"We do n't <EVENT eid="e91" mainevent="YES" class="I_STATE" stem="need" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">need</EVENT> the <EVENT eid="e93" mainevent="NO" class="OCCURRENCE" stem="cash" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">cash</EVENT>."</s> 
+
+   <s>Ticketron's automated wagering business, which operates lotteries in a half dozen states, is not  <EVENT eid="e2439" mainevent="NO" class="STATE" stem="for" tense="PRESENT" aspect="NONE" polarity="NEG" pos="PREPOSITION">for</EVENT> sale, the company <EVENT eid="e100" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>Rather, Mr. Perlman <EVENT eid="e101" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, Control Data <EVENT eid="e102" mainevent="NO" class="I_STATE" stem="intend" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">intends</EVENT> to <EVENT eid="e104" mainevent="NO" class="OCCURRENCE" stem="bid" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">bid</EVENT> for the coming Minnesota lottery contract and is <EVENT eid="e105" mainevent="NO" class="I_ACTION" stem="seek" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">seeking</EVENT> new <EVENT eid="e246" mainevent="NO" class="OCCURRENCE" stem="application" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">applications</EVENT> for the technology overseas, where "there is great interest in games of skill."</s> 
+<s>He would n't <EVENT eid="e110" mainevent="YES" class="OCCURRENCE" stem="elaborate" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">elaborate</EVENT>.</s> 
+
+   <s>Control Data's semiconductor business, VTC Inc., <EVENT eid="e114" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continues</EVENT> to <EVENT eid="e116" mainevent="NO" class="OCCURRENCE" stem="lose" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">lose</EVENT> money, the executives <EVENT eid="e118" mainevent="YES" class="REPORTING" stem="acknowledge" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">acknowledged</EVENT>, but they <EVENT eid="e119" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> they consider some of the technology vital to national defense and so are <EVENT eid="e247" mainevent="NO" class="I_STATE" stem="reluctant" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">reluctant</EVENT> to <EVENT eid="e124" mainevent="NO" class="OCCURRENCE" stem="dispose" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">dispose</EVENT> of it.</s> 
+
+   <s>The company's strategy for keeping its computer products business profitable -- it <TIMEX3 tid="t1991" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">recently</TIMEX3> <EVENT eid="e127" mainevent="YES" class="I_STATE" stem="achieve" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">achieved</EVENT> <EVENT eid="e1992" mainevent="NO" class="STATE" stem="profitability" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">profitability</EVENT> after <TIMEX3 tid="t1994" type="DURATION" value="PXQ" temporalFunction="false" functionInDocument="NONE">several quarters</TIMEX3> of <EVENT eid="e2430" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">losses</EVENT> -- calls for a narrow focus and a lid on expenses.</s> 
+<s>Partly, costs will be <EVENT eid="e132" mainevent="NO" class="OCCURRENCE" stem="hold" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">held</EVENT> down through strategic technology alliances, management <EVENT eid="e2437" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>Control Data <TIMEX3 tid="t1995" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">recently</TIMEX3> <EVENT eid="e135" mainevent="YES" class="REPORTING" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> an <EVENT eid="e136" mainevent="NO" class="STATE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT> with MIPS Computer Systems Inc. to jointly <EVENT eid="e138" mainevent="NO" class="OCCURRENCE" stem="develop" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">develop</EVENT> machines with simplified operating software.</s> 
+
+   <s>James E. Ousley, computer products group president, <EVENT eid="e140" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> such <EVENT eid="e1996" mainevent="NO" class="OCCURRENCE" stem="arrangement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">arrangements</EVENT> could <EVENT eid="e141" mainevent="NO" class="I_STATE" stem="help" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e1998" mainevent="NO" class="OCCURRENCE" stem="slash" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">slash</EVENT> Control Data's computer research and development costs in half by <TIMEX3 tid="t2000" type="DATE" value="1990" mod="END" temporalFunction="false" functionInDocument="NONE">the end of 1990</TIMEX3>.</s> 
+<s>He <EVENT eid="e145" mainevent="YES" class="REPORTING" stem="disclose" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">disclosed</EVENT> that before Control Data <EVENT eid="e147" mainevent="NO" class="OCCURRENCE" stem="scrap" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">scrapped</EVENT> its ETA Systems Inc. supercomputer business <TIMEX3 tid="t2001" type="DATE" value="1989-SP" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t202">this past spring</TIMEX3>, those costs were <EVENT eid="e148" mainevent="NO" class="OCCURRENCE" stem="run" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">running</EVENT> at nearly 35% of group revenue.</s> 
+<s>At the same time four of six design projects were <EVENT eid="e150" mainevent="NO" class="OCCURRENCE" stem="spike" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">spiked</EVENT>, he <EVENT eid="e151" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s><EVENT eid="e152" mainevent="NO" class="I_ACTION" stem="asked" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">Asked</EVENT> how the company <EVENT eid="e153" mainevent="NO" class="I_STATE" stem="hope" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">hopes</EVENT> to <EVENT eid="e155" mainevent="NO" class="OCCURRENCE" stem="expand" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">expand</EVENT> its computer hardware business, Mr. Ousley <EVENT eid="e157" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e158" mainevent="NO" class="I_STATE" stem="see" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">sees</EVENT> good opportunities in systems integration.</s> 
+<s>"We <EVENT eid="e161" mainevent="NO" class="I_STATE" stem="think" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">think</EVENT> we're <EVENT eid="e162" mainevent="NO" class="OCCURRENCE" stem="get" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">getting</EVENT> only 10% of the integration dollars our customers are <EVENT eid="e164" mainevent="NO" class="OCCURRENCE" stem="spend" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">spending</EVENT>," he <EVENT eid="e165" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>"We're in environments that are going to <EVENT eid="e168" mainevent="YES" class="OCCURRENCE" stem="spend" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">spend</EVENT> a lot of money on that."</s> 
+
+   <s>Control Data mainframes are designed for numerically intensive computing users, such as the scientific, engineering and academic communities.</s> 
+<s>Utilities management is a major commercial niche.</s> 
+
+   <s><EVENT eid="e173" mainevent="NO" class="I_ACTION" stem="reviewing" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">Reviewing</EVENT> the company's <EVENT eid="e174" mainevent="NO" class="OCCURRENCE" stem="scrape" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">scrape</EVENT> with disaster, Mr. Price <EVENT eid="e176" mainevent="YES" class="I_ACTION" stem="concede" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">conceded</EVENT> it had <EVENT eid="e177" mainevent="NO" class="I_ACTION" stem="try" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">tried</EVENT> to <EVENT eid="e178" mainevent="NO" class="OCCURRENCE" stem="do" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">do</EVENT> too much on its own.</s> 
+<s>"Absolutely," he said.</s> 
+
+   <s>But while its stock is <EVENT eid="e181" mainevent="NO" class="OCCURRENCE" stem="sell" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">selling</EVENT> at about half Control Data's estimated breakup value, neither Messrs. 
+Perlman nor Price <EVENT eid="e183" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">said</EVENT> he <EVENT eid="e184" mainevent="NO" class="OCCURRENCE" stem="spend" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">spends</EVENT> much time <EVENT eid="e186" mainevent="NO" class="I_STATE" stem="consider" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">considering</EVENT> the possibility of a hostile <EVENT eid="e187" mainevent="NO" class="OCCURRENCE" stem="takeover" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">takeover</EVENT>.</s> 
+<s>"We've been <EVENT eid="e188" mainevent="NO" class="OCCURRENCE" stem="list" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">listed</EVENT> as a candidate for so long it's not <EVENT eid="e2440" mainevent="NO" class="STATE" stem="worth" tense="PRESENT" aspect="NONE" polarity="NEG" pos="ADJECTIVE">worth</EVENT> worrying about," <EVENT eid="e190" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Mr. Price.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e100" eventID="e91" task="C"/>
+<TLINK lid="l2" relType="OVERLAP-OR-AFTER" relatedToEvent="e71" eventID="e69" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e63" eventID="e55" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e2437" eventID="e127" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e118" eventID="e110" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e36" eventID="e28" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e101" eventID="e100" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e157" eventID="e151" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e165" eventID="e157" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e7" eventID="e2" task="C"/>
+<TLINK lid="l11" relType="OVERLAP" relatedToEvent="e69" eventID="e63" task="C"/>
+<TLINK lid="l12" relType="OVERLAP" relatedToEvent="e55" eventID="e44" task="C"/>
+<TLINK lid="l13" relType="AFTER" relatedToEvent="e17" eventID="e7" task="C"/>
+<TLINK lid="l14" relType="OVERLAP" relatedToEvent="e151" eventID="e145" task="C"/>
+<TLINK lid="l15" relType="BEFORE" relatedToEvent="e2338" eventID="e242" task="C"/>
+<TLINK lid="l16" relType="BEFORE" relatedToEvent="e110" eventID="e101" task="C"/>
+<TLINK lid="l17" relType="BEFORE" relatedToEvent="e140" eventID="e135" task="C"/>
+<TLINK lid="l18" relType="OVERLAP" relatedToEvent="e28" eventID="e215" task="C"/>
+<TLINK lid="l19" relType="OVERLAP" relatedToEvent="e44" eventID="e36" task="C"/>
+<TLINK lid="l20" relType="OVERLAP" relatedToEvent="e24" eventID="e210" task="C"/>
+<TLINK lid="l21" relType="OVERLAP" relatedToEvent="e190" eventID="e183" task="C"/>
+<TLINK lid="l22" relType="AFTER" relatedToEvent="e242" eventID="e80" task="C"/>
+<TLINK lid="l23" relType="AFTER" relatedToEvent="e127" eventID="e118" task="C"/>
+<TLINK lid="l24" relType="BEFORE" relatedToEvent="e168" eventID="e165" task="C"/>
+<TLINK lid="l25" relType="AFTER" relatedToEvent="e210" eventID="e17" task="C"/>
+<TLINK lid="l26" relType="OVERLAP" relatedToEvent="e145" eventID="e140" task="C"/>
+<TLINK lid="l27" relType="VAGUE" relatedToEvent="e135" eventID="e2437" task="C"/>
+<TLINK lid="l28" relType="OVERLAP" relatedToEvent="e91" eventID="e2338" task="C"/>
+<TLINK lid="l29" relType="BEFORE" relatedToEvent="e215" eventID="e24" task="C"/>
+
+</TempEval>

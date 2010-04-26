@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ VOA<TIMEX3 tid="t64" type="DATE" value="1998-03-05" temporalFunction="false" functionInDocument="CREATION_TIME">19980305</TIMEX3>.1800.2603 
+ NEWS STORY 
+
+
+
+
+
+ <s>International Women's <EVENT eid="e354" mainevent="YES" class="OCCURRENCE" stem="day" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">Day</EVENT> is <TIMEX3 tid="t66" type="DATE" value="1998-03-08" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t64">this coming Sunday, March eighth</TIMEX3>.</s>
+ <s>A major focus of International Women's Day is the <EVENT eid="e2" mainevent="YES" class="OCCURRENCE" stem="plight" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">plight</EVENT> of Afghan women.</s>
+ <s>Special <EVENT eid="e67" mainevent="NO" class="OCCURRENCE" stem="event" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">events</EVENT> are being <EVENT eid="e3" mainevent="YES" class="I_ACTION" stem="organize" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">organized</EVENT> by the European Commission and
+ individual nations in Europe, North America, and other parts of the world.</s>
+ <s>Lisa Schlein reports from Geneva.</s>
+
+
+ <s>Afghanistan has been <EVENT eid="e355" mainevent="YES" class="STATE" stem="at" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="OTHER">at</EVENT> war for <TIMEX3 tid="t70" type="DURATION" value="P20Y" temporalFunction="false" functionInDocument="NONE">twenty years</TIMEX3>, <EVENT eid="e6" mainevent="NO" class="I_ACTION" stem="leave" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">leaving</EVENT> a large part of the
+ country's male population <EVENT eid="e72" mainevent="NO" class="STATE" stem="dead" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">dead</EVENT> or <EVENT eid="e356" mainevent="NO" class="STATE" stem="in" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION">in</EVENT> exile.</s> <s>The United Nations <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> women
+ and children <EVENT eid="e8" mainevent="NO" class="STATE" stem="make" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">make</EVENT> up about seventy-five percent of the Afghan population.</s> <s>An Afghan
+ refugee in Switzerland, Homira Atimadi, is a senior official of a group called the
+ International Working Group on Afghan Women.</s> <s>The group has branches in
+ Pakistan, Iran, Europe, Australia, and North America.</s> <s>Ms. Atimadi <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>
+ Afghan women have been <EVENT eid="e74" mainevent="NO" class="STATE" stem="victim" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="NOUN">victims</EVENT> of severe <EVENT eid="e75" mainevent="NO" class="OCCURRENCE" stem="violation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">violations</EVENT> of human rights for <TIMEX3 tid="t77" type="DURATION" value="P20Y" temporalFunction="true" functionInDocument="NONE" endPoint="t64">the past twenty
+ years</TIMEX3> and she <EVENT eid="e12" mainevent="NO" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> she <EVENT eid="e13" mainevent="NO" class="I_STATE" stem="see" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">sees</EVENT> no <EVENT eid="e78" mainevent="NO" class="ASPECTUAL" stem="end" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">end</EVENT> to the <EVENT eid="e79" mainevent="NO" class="STATE" stem="misery" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">misery</EVENT>.</s> <s>She <EVENT eid="e15" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> security under
+ the fundamentalist Taleban government is <EVENT eid="e80" mainevent="NO" class="STATE" stem="better" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">better</EVENT>, but everything else is <EVENT eid="e81" mainevent="NO" class="STATE" stem="worse" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">worse</EVENT>.</s>
+
+
+ <s>Women do not <EVENT eid="e18" mainevent="YES" class="I_STATE" stem="become" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">become</EVENT> <EVENT eid="e82" mainevent="NO" class="STATE" stem="victim" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">victims</EVENT> of armed <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="attack" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">attack</EVENT>, but they do not have the
+ <EVENT eid="e85" mainevent="NO" class="I_STATE" stem="right" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">right</EVENT> to <EVENT eid="e21" mainevent="NO" class="OCCURRENCE" stem="work" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">work</EVENT>.</s> <s>And <TIMEX3 tid="t87" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t64">today</TIMEX3>, the right to work is <EVENT eid="e90" mainevent="YES" class="STATE" stem="equal" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">equal</EVENT> to r- the right to survival.</s>
+
+
+ <s>Ms. Atimadi <EVENT eid="e23" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> the <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="war" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">war</EVENT> has <EVENT eid="e25" mainevent="NO" class="I_ACTION" stem="create" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">created</EVENT> a nation of widows.</s> <s>Women have <EVENT eid="e26" mainevent="YES" class="I_STATE" stem="become" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">become</EVENT>
+ the sole <EVENT eid="e27" mainevent="NO" class="STATE" stem="support" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">support</EVENT> of their families.</s> <s>Yet, the Taliban have <EVENT eid="e28" mainevent="YES" class="I_ACTION" stem="forbid" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">forbidden</EVENT> them to
+ <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="work" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">work</EVENT>.</s> <s>She <EVENT eid="e30" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> this <EVENT eid="e31" mainevent="NO" class="OCCURRENCE" stem="put" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">puts</EVENT> the very existence of women's families <EVENT eid="e358" mainevent="NO" class="STATE" stem="at" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION">at</EVENT> risk.</s>
+ <s>She <EVENT eid="e34" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> the <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="plight" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plight</EVENT> of women in urban areas is <EVENT eid="e94" mainevent="NO" class="STATE" stem="greater" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER">greater</EVENT> than that which exists
+ in rural parts of the country.</s> <s>In cities, such as the capital Kabul, women
+ are totally <EVENT eid="e95" mainevent="YES" class="I_STATE" stem="dependent" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">dependent</EVENT> on international <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="aid" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">aid</EVENT> for <EVENT eid="e353" mainevent="NO" class="STATE" stem="survival" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">survival</EVENT>.</s> <s>Ms. Atimadi <EVENT eid="e40" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> the
+ women of Kabul <EVENT eid="e351" mainevent="NO" class="STATE" stem="symbolize" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">symbolize</EVENT> the suffering of all the women in Afghanistan.</s>
+
+
+ <s>The <EVENT eid="e96" mainevent="NO" class="I_STATE" stem="aim" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">aim</EVENT> is to <EVENT eid="e97" mainevent="YES" class="OCCURRENCE" stem="bring" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">bring</EVENT> in not only the focus on women's right to education,
+ access to work, but <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="look" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">look</EVENT> beyond that and <EVENT eid="e46" mainevent="NO" class="OCCURRENCE" stem="look" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">look</EVENT> at the roots of, uh of these
+ problems.</s> <s>These are only the symptoms of the problems that are <EVENT eid="e48" mainevent="YES" class="I_ACTION" stem="face" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">facing</EVENT>
+ Afghanistan.</s> <s>For women in Afghanistan to be <EVENT eid="e352" mainevent="YES" class="I_STATE" stem="able" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">able</EVENT> to <EVENT eid="e51" mainevent="NO" class="OCCURRENCE" stem="realize" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">realize</EVENT> their rights,
+ there have to be <EVENT eid="e101" mainevent="NO" class="STATE" stem="condition" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">conditions</EVENT> of peace and justice.</s>
+
+
+ <s>Ms. Atimadi <EVENT eid="e55" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> that is the primary <EVENT eid="e359" mainevent="NO" class="STATE" stem="focus" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">focus</EVENT> of her group, peace and
+ justice.</s> <s>She <EVENT eid="e57" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> her group is <EVENT eid="e104" mainevent="NO" class="I_ACTION" stem="appeal" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">appealing</EVENT> to individuals, to the international
+ community, and to the combatants and people of Afghanistan to <EVENT eid="e60" mainevent="NO" class="ASPECTUAL" stem="stop" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">stop</EVENT> the
+ <EVENT eid="e105" mainevent="NO" class="OCCURRENCE" stem="bloodletting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">bloodletting</EVENT> which has <EVENT eid="e61" mainevent="NO" class="I_ACTION" stem="tear" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">torn</EVENT> the country apart.</s>
+ <s>Lisa Schlein for VOA News, Geneva.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP-OR-AFTER" relatedToEvent="e26" eventID="e23" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e90" eventID="e18" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e57" eventID="e55" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e7" eventID="e355" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e48" eventID="e97" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e40" eventID="e95" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e15" eventID="e10" task="C"/>
+<TLINK lid="l8" relType="VAGUE" relatedToEvent="e97" eventID="e40" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e23" eventID="e90" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e352" eventID="e48" task="C"/>
+<TLINK lid="l11" relType="OVERLAP" relatedToEvent="e34" eventID="e30" task="C"/>
+<TLINK lid="l12" relType="OVERLAP" relatedToEvent="e28" eventID="e26" task="C"/>
+<TLINK lid="l13" relType="OVERLAP" relatedToEvent="e55" eventID="e352" task="C"/>
+<TLINK lid="l14" relType="OVERLAP-OR-AFTER" relatedToEvent="e18" eventID="e15" task="C"/>
+<TLINK lid="l15" relType="OVERLAP" relatedToEvent="e2" eventID="e354" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e95" eventID="e34" task="C"/>
+<TLINK lid="l17" relType="OVERLAP" relatedToEvent="e3" eventID="e2" task="C"/>
+<TLINK lid="l18" relType="BEFORE-OR-OVERLAP" relatedToEvent="e30" eventID="e28" task="C"/>
+
+</TempEval>

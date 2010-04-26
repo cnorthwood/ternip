@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891101-0048 
+ = 891101 
+ 891101-0048. 
+ Business Brief -- First Security Corp.:
+@  Tentative Accord Formed
+@  To Buy Deseret Bancorp. 
+ <TIMEX3 tid="t14" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ FSCO 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>First Security Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it tentatively <EVENT eid="e2" class="I_ACTION" stem="agree" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">agreed</EVENT>  to <EVENT eid="e3" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> Deseret Bancorp. for stock <EVENT eid="e4" class="STATE" stem="value" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">valued</EVENT> at about $18 million.</s> 
+
+   <s>Terms <EVENT eid="e5" class="I_ACTION" stem="call" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">call</EVENT> for First Security  to <EVENT eid="e6" class="OCCURRENCE" stem="issue" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">issue</EVENT> about 0.55 share of its stock for each Deseret share <EVENT eid="e7" class="STATE" stem="hold" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">held</EVENT>, or a total of about 550,000 First Security shares.</s> 
+<s>It <EVENT eid="e8" class="STATE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> about 12.3 million shares outstanding.</s> 
+
+   <s>Deseret, with about $100 million in assets, is the parent of the Deseret Bank, which <EVENT eid="e9" class="STATE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> six offices and headquarters at Pleasant Grove, Utah.</s> 
+<s>The purchase price is <EVENT eid="e2041" class="STATE" stem="equal" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">equal</EVENT> to about 1.65 times Deseret's roughly $10.7 million book value, or assets less liabilities.</s> 
+
+   <s>Salt Lake City-based First Security, with $5.4 billion in assets, <EVENT eid="e11" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e2050" class="OCCURRENCE" stem="agreement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">agreement</EVENT> is <EVENT eid="e2057" class="I_STATE" stem="subject" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">subject</EVENT> to shareholder and regulatory <EVENT eid="e2056" class="OCCURRENCE" stem="approval" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">approval</EVENT>, and that it <EVENT eid="e12" class="I_STATE" stem="hope" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">hopes</EVENT>  to <EVENT eid="e13" class="OCCURRENCE" stem="complete" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">complete</EVENT> the <EVENT eid="e1993" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT> <TIMEX3 tid="t16" type="DATE" value="1990" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">early next year</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE-OR-OVERLAP" eventID="e2050" relatedToTime="t16" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e11" relatedToTime="t16" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e2" relatedToTime="t14" task="B"/>
+<TLINK lid="l4" relType="AFTER" eventID="e3" relatedToTime="t14" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e1" relatedToTime="t14" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e5" relatedToTime="t14" task="B"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e7" relatedToTime="t14" task="B"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e8" relatedToTime="t14" task="B"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e9" relatedToTime="t14" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e2050" relatedToTime="t14" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e11" relatedToTime="t14" task="B"/>
+</TempEval>

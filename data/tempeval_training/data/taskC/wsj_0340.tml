@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891101-0024 
+ = 891101 
+ 891101-0024. 
+ International Brief -- Cie. de Navigation Mixte:
+@  Credit Lyonnais Unit Buys
+@  Stock to Help Defeat Bid 
+ <TIMEX3 tid="t22" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ F.CNM F.CLC F.CFP 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+INSURANCE (INS)
+FOOD PRODUCTS (FOD) 
+
+   <s>The portfolio unit of the French bank group Credit Lyonnais <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="tell" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">told</EVENT> stock market regulators that it <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="buy" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">bought</EVENT> 43,000 shares of Cie. de Navigation Mixte, apparently to <EVENT eid="e3" mainevent="NO" class="I_ACTION" stem="help" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="fend" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">fend</EVENT> off an unwelcome takeover bid for the company.</s> 
+
+   <s><TIMEX3 tid="t23" type="DATE" value="1989-10-31" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t22">Earlier yesterday</TIMEX3>, the Societe de Bourses Francaises was <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="tell" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">told</EVENT> that a unit of Framatome S.A. also <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="buy" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">bought</EVENT> Navigation Mixte shares, this <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">purchase</EVENT> covering more than 160,000 shares.</s> 
+
+   <s>Both companies are allies of Navigation Mixte in its <EVENT eid="e24" mainevent="YES" class="STATE" stem="fight" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">fight</EVENT> against a hostile takeover bid <EVENT eid="e13" mainevent="NO" class="ASPECTUAL" stem="launch" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">launched</EVENT> <TIMEX3 tid="t61" type="DATE" value="1989-WXX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t22">last week</TIMEX3> by Cie. 
+Financiere de Paribas at 1,850 French francs ($297) a share.</s> 
+<s>Navigation Mixte's chairman had <EVENT eid="e14" mainevent="YES" class="I_STATE" stem="suggest" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">suggested</EVENT> that friendly institutions were likely to <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> its stock as soon as <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> <EVENT eid="e18" mainevent="NO" class="ASPECTUAL" stem="open" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">opened</EVENT> <TIMEX3 tid="t26" type="DATE" value="1989-11-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t22">Monday</TIMEX3>.</s> 
+
+   <s>The Credit Lyonnais purchase, for 33,000 regular common shares and 10,000 newly created shares, is valued at about slightly more than 80 million French francs.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e24" eventID="e6" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e6" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e14" eventID="e24" task="C"/>
+
+</TempEval>

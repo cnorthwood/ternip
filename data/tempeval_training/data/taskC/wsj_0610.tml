@@ -1,0 +1,260 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891030-0089 
+ = 891030 
+ 891030-0089. 
+ Kellogg Pours Water on Plans to Build Big Cereal Plant
+@  ----
+@  By Richard Gibson
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t192" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ K 
+ FOOD PRODUCTS (FOD) 
+
+   <s>This has n't been Kellogg Co.'s year.</s> 
+<s>The oat-bran <EVENT eid="e190" mainevent="NO" class="OCCURRENCE" stem="craze" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">craze</EVENT> has <EVENT eid="e189" mainevent="YES" class="OCCURRENCE" stem="cost" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">cost</EVENT> the world's largest cereal maker market share.</s> 
+<s>The company's president <EVENT eid="e3" mainevent="YES" class="OCCURRENCE" stem="quit" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">quit</EVENT> suddenly.</s> 
+<s>And <TIMEX3 tid="t296" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">now</TIMEX3> Kellogg is indefinitely <EVENT eid="e4" mainevent="YES" class="ASPECTUAL" stem="suspend" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">suspending</EVENT> <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="work" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">work</EVENT> on what was to be a <EVENT eid="e1060" mainevent="NO" class="STATE" stem="$1" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="OTHER">$1</EVENT> billion cereal plant.</s> 
+
+   <s>The company <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it was <EVENT eid="e8" mainevent="NO" class="I_ACTION" stem="delay" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB">delaying</EVENT> <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="construction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">construction</EVENT> because of <TIMEX3 tid="t193" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">current</TIMEX3> market <EVENT eid="e191" mainevent="NO" class="STATE" stem="condition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">conditions</EVENT>.</s> 
+<s>But the Memphis, Tenn., facility wasn't to <EVENT eid="e10" mainevent="YES" class="ASPECTUAL" stem="begin" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">begin</EVENT> <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="turn" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">turning</EVENT> out product until <TIMEX3 tid="t196" type="DATE" value="1993" temporalFunction="false" functionInDocument="NONE">1993</TIMEX3>, so the <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="decision" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decision</EVENT> may reveal a more pessimistic long-term <EVENT eid="e197" mainevent="NO" class="OCCURRENCE" stem="outlook" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">outlook</EVENT> as well.</s> 
+
+   <s>Kellogg, which has n't been as <EVENT eid="e198" mainevent="NO" class="STATE" stem="successful" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="ADJECTIVE">successful</EVENT> in <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="capitalize" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">capitalizing</EVENT> on the public's health-oriented desire for oat bran as rival General Mills Inc., has been <EVENT eid="e18" mainevent="YES" class="OCCURRENCE" stem="lose" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">losing</EVENT> share in the $6 billion ready-to-eat cereal market.</s> 
+<s>Kellogg's <TIMEX3 tid="t200" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">current</TIMEX3> share is <EVENT eid="e19" mainevent="YES" class="I_STATE" stem="believe" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">believed</EVENT> to be slightly under <EVENT eid="e1048" mainevent="NO" class="STATE" stem="40%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">40%</EVENT> while General Mills' share is about <EVENT eid="e1049" mainevent="NO" class="STATE" stem="27%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">27%</EVENT>.</s> 
+
+   <s><EVENT eid="e22" mainevent="NO" class="STATE" stem="led" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">Led</EVENT> by its oat-based Cheerios line, General Mills has <EVENT eid="e24" mainevent="YES" class="OCCURRENCE" stem="gain" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">gained</EVENT> an estimated 2% share so far <TIMEX3 tid="t419" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">this year</TIMEX3>, mostly at the expense of Kellogg.</s> 
+<s>Each share point is worth about $60 million in sales.</s> 
+
+   <s>Analysts <EVENT eid="e28" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> much of Kellogg's <EVENT eid="e204" mainevent="NO" class="OCCURRENCE" stem="erosion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">erosion</EVENT> has been in such core brands as Corn Flakes, Rice Krispies and Frosted Flakes, which represent nearly one-third of its sales volume.</s> 
+<s>Kellogg is so <EVENT eid="e206" mainevent="NO" class="I_STATE" stem="anxious" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">anxious</EVENT> to <EVENT eid="e32" mainevent="NO" class="OCCURRENCE" stem="turn" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">turn</EVENT> around Corn Flakes sales that it <TIMEX3 tid="t207" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">soon</TIMEX3> will <EVENT eid="e33" mainevent="NO" class="ASPECTUAL" stem="begin" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">begin</EVENT> <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="sell" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">selling</EVENT> boxes for as little as 99 cents, trade sources <EVENT eid="e35" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT>.</s> 
+
+   <s>"Cheerios and Honey Nut Cheerios have <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="eat" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">eaten</EVENT> away sales normally <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="go" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">going</EVENT> to Kellogg's corn-based lines simply because they are <EVENT eid="e40" mainevent="NO" class="STATE" stem="make" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">made</EVENT> of oats," <EVENT eid="e41" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> Merrill Lynch food analyst William Maguire.</s> 
+<s>"They are not  a <EVENT eid="e1051" mainevent="YES" class="STATE" stem="happy" tense="PRESENT" aspect="NONE" polarity="NEG" pos="ADJECTIVE">happy</EVENT> group of people at Battle Creek <TIMEX3 tid="t209" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">right now</TIMEX3>."</s> 
+<s>Kellogg is based in Battle Creek, Mich., a city that calls itself the breakfast capital of the world.</s> 
+
+   <s>Another analyst, John C. Maxwell Jr. of Wheat, First Securities in Richmond, Va., <TIMEX3 tid="t210" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">recently</TIMEX3> <EVENT eid="e1061" mainevent="YES" class="OCCURRENCE" stem="go" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">went</EVENT> to a "sell" <EVENT eid="e510" mainevent="NO" class="I_ACTION" stem="recommendation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">recommendation</EVENT> on Kellogg stock, which <EVENT eid="e48" mainevent="NO" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> <TIMEX3 tid="t211" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">Friday</TIMEX3> at <EVENT eid="e519" mainevent="NO" class="STATE" stem="$71.75" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$71.75</EVENT>, down 75 cents, in New York Stock Exchange composite <EVENT eid="e528" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT>.</s> 
+<s>"I do n't <EVENT eid="e49" mainevent="YES" class="I_STATE" stem="think" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">think</EVENT> Kellogg can <EVENT eid="e51" mainevent="NO" class="I_STATE" stem="get" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">get</EVENT> back to <EVENT eid="e212" mainevent="NO" class="STATE" stem="40%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">40%</EVENT> <TIMEX3 tid="t214" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">this year</TIMEX3>," he <EVENT eid="e53" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>"Kellogg's main problem is life style.</s> 
+<s>People are <EVENT eid="e215" mainevent="YES" class="OCCURRENCE" stem="read" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">reading</EVENT> the boxes and <EVENT eid="e55" mainevent="NO" class="I_ACTION" stem="decide" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">deciding</EVENT> they <EVENT eid="e56" mainevent="NO" class="I_STATE" stem="want" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">want</EVENT> something that's `<EVENT eid="e216" mainevent="NO" class="STATE" stem="healthy" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">healthy</EVENT>' for you -- oats, bran."</s> 
+<s>Mr. Maxwell <EVENT eid="e57" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> he would n't be <EVENT eid="e58" mainevent="NO" class="OCCURRENCE" stem="surprised" tense="NONE" aspect="NONE" polarity="NEG" pos="ADJECTIVE">surprised</EVENT> if, over <TIMEX3 tid="t220" type="DURATION" value="P2Y" mod="APPROX" temporalFunction="true" functionInDocument="NONE" endPoint="t192">the next two years or so</TIMEX3>, General Mills' share <EVENT eid="e62" mainevent="NO" class="OCCURRENCE" stem="increase" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">increased</EVENT> to 30% or more.</s> 
+
+   <s>In <EVENT eid="e63" mainevent="NO" class="I_ACTION" stem="announce" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">announcing</EVENT> the plant <EVENT eid="e64" mainevent="NO" class="OCCURRENCE" stem="delay" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">delay</EVENT>, Kellogg Chairman William E. LaMothe <EVENT eid="e65" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, "Cereal volume <EVENT eid="e224" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> in the U.S. has not <EVENT eid="e66" mainevent="NO" class="OCCURRENCE" stem="meet" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">met</EVENT> our <EVENT eid="e223" mainevent="NO" class="I_STATE" stem="expectation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">expectations</EVENT> for <TIMEX3 tid="t226" type="DATE" value="1989" temporalFunction="false" functionInDocument="NONE">1989</TIMEX3>."</s> 
+<s>He <EVENT eid="e68" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> <EVENT eid="e69" mainevent="NO" class="OCCURRENCE" stem="construction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">construction</EVENT> would n't <EVENT eid="e70" mainevent="NO" class="ASPECTUAL" stem="resume" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">resume</EVENT> until market conditions <EVENT eid="e73" mainevent="NO" class="OCCURRENCE" stem="warrant" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">warrant</EVENT> it.</s> 
+
+   <s>Kellogg <EVENT eid="e74" mainevent="YES" class="REPORTING" stem="indicate" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">indicated</EVENT> that it <EVENT eid="e75" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> room to <EVENT eid="e77" mainevent="NO" class="OCCURRENCE" stem="grow" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">grow</EVENT> without <EVENT eid="e229" mainevent="NO" class="OCCURRENCE" stem="add" tense="PRESPART" aspect="NONE" polarity="NEG" pos="VERB">adding</EVENT> facilities.</s> 
+<s>The company <EVENT eid="e78" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> five other U.S. plants, including a modern facility at its Battle Creek headquarters known as Building 100, which is to <EVENT eid="e81" mainevent="NO" class="OCCURRENCE" stem="add" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">add</EVENT> bran-processing and rice-processing capacity <TIMEX3 tid="t230" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">next year</TIMEX3>.</s> 
+
+   <s>General Mills, meanwhile , <EVENT eid="e82" mainevent="YES" class="I_STATE" stem="find" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">finds</EVENT> itself <EVENT eid="e83" mainevent="NO" class="I_STATE" stem="constrain" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">constrained</EVENT> from <EVENT eid="e85" mainevent="NO" class="OCCURRENCE" stem="boost" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">boosting</EVENT> sales further because its plants are <EVENT eid="e86" mainevent="NO" class="OCCURRENCE" stem="operate" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">operating</EVENT> at capacity.</s> 
+<s>A large plant in Covington, Ga., is to <EVENT eid="e88" mainevent="YES" class="OCCURRENCE" stem="come" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">come</EVENT> on line <TIMEX3 tid="t233" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">next year</TIMEX3>.</s> 
+
+   <s>A Kellogg officer, who asked not to be named, <EVENT eid="e91" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the Memphis project was " <EVENT eid="e235" mainevent="NO" class="OCCURRENCE" stem="pull" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">pulled</EVENT> in for a <EVENT eid="e93" mainevent="NO" class="OCCURRENCE" stem="reconsideration" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">reconsideration</EVENT> of costs," an indication that the ambitious plans might be <EVENT eid="e95" mainevent="NO" class="OCCURRENCE" stem="scale" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="VERB">scaled</EVENT> back in any future <EVENT eid="e97" mainevent="NO" class="OCCURRENCE" stem="construction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">construction</EVENT>.</s> 
+<s>Initial cost estimates for the plant, which was to have been built in phases, <EVENT eid="e103" mainevent="YES" class="OCCURRENCE" stem="range" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">ranged</EVENT> from $1 billion to $1.2 billion.</s> 
+
+   <s>A company spokesman <EVENT eid="e104" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it was "possible, but highly unlikely," that the plant might never be <EVENT eid="e105" mainevent="NO" class="OCCURRENCE" stem="build" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">built</EVENT>.</s> 
+<s>"As we <EVENT eid="e107" mainevent="NO" class="I_ACTION" stem="regain" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">regain</EVENT> our <EVENT eid="e240" mainevent="NO" class="STATE" stem="leadership" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">leadership</EVENT> level where we have been, and as we <EVENT eid="e108" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> to <EVENT eid="e110" mainevent="NO" class="OCCURRENCE" stem="put" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">put</EVENT> new products into the marketplace and <EVENT eid="e113" mainevent="NO" class="I_STATE" stem="need" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">need</EVENT> additional <EVENT eid="e242" mainevent="NO" class="STATE" stem="capacity" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">capacity</EVENT>, we will <EVENT eid="e114" mainevent="NO" class="I_ACTION" stem="look" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">look</EVENT> at <EVENT eid="e116" mainevent="NO" class="ASPECTUAL" stem="resume" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">resuming</EVENT> our <EVENT eid="e117" mainevent="NO" class="OCCURRENCE" stem="involvement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">involvement</EVENT> with our plan," he <EVENT eid="e118" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>The new facility was to have been the world's most <EVENT eid="e1052" mainevent="YES" class="STATE" stem="advanced" tense="INFINITIVE" aspect="PERFECTIVE" polarity="POS" pos="ADJECTIVE">advanced</EVENT> cereal manufacturing plant, and Kellogg's largest construction <EVENT eid="e120" mainevent="NO" class="OCCURRENCE" stem="project" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">project</EVENT>.</s> 
+<s>The company had <EVENT eid="e121" mainevent="YES" class="OCCURRENCE" stem="retain" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">retained</EVENT> the Fluor Daniel unit of Fluor Corp. as general contractor.</s> 
+
+   <s>But in <TIMEX3 tid="t248" type="DURATION" value="PXW" temporalFunction="true" functionInDocument="NONE" endPoint="t192">recent weeks</TIMEX3>, construction-industry sources <EVENT eid="e122" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> that early preparation work was <EVENT eid="e124" mainevent="NO" class="OCCURRENCE" stem="slow" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB">slowing</EVENT> at the 185-acre site.</s> 
+<s>Subcontractors <EVENT eid="e125" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> they were <EVENT eid="e126" mainevent="NO" class="REPORTING" stem="tell" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">told</EVENT> that equipment <EVENT eid="e249" mainevent="NO" class="OCCURRENCE" stem="order" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">orders</EVENT> would be <EVENT eid="e128" mainevent="NO" class="I_ACTION" stem="delay" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">delayed</EVENT>.</s> 
+<s>Fluor Daniel already has <EVENT eid="e130" mainevent="NO" class="OCCURRENCE" stem="reassigned" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">reassigned</EVENT> most of its work crew, the sources <EVENT eid="e131" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s><TIMEX3 tid="t251" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">Last Friday</TIMEX3>'s <EVENT eid="e132" mainevent="YES" class="OCCURRENCE" stem="announcement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">announcement</EVENT> was the first official word that the project was <EVENT eid="e1053" mainevent="NO" class="STATE" stem="in" tense="PAST" aspect="NONE" polarity="POS" pos="PREPOSITION">in</EVENT> trouble and that the company's plans for a surge in market share may have been overly <EVENT eid="e1054" mainevent="NO" class="STATE" stem="optimistic" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="ADJECTIVE">optimistic</EVENT>.</s> 
+<s>Until <TIMEX3 tid="t257" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">recently</TIMEX3>, Kellogg had been <EVENT eid="e140" mainevent="YES" class="REPORTING" stem="tell" tense="PAST" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">telling</EVENT> its sales force and Wall Street that by <TIMEX3 tid="t258" type="DATE" value="1992" temporalFunction="false" functionInDocument="NONE">1992</TIMEX3> it <EVENT eid="e141" mainevent="NO" class="I_ACTION" stem="intend" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">intended</EVENT> to <EVENT eid="e143" mainevent="NO" class="I_STATE" stem="achieve" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">achieve</EVENT> a <EVENT eid="e260" mainevent="NO" class="STATE" stem="50% share" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">50% share</EVENT> of market, measured in dollar volume.</s> 
+
+   <s>Although he <EVENT eid="e261" mainevent="NO" class="I_ACTION" stem="call" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">called</EVENT> current market conditions "highly competitive," Mr. LaMothe, Kellogg's chairman and chief executive officer, <EVENT eid="e146" mainevent="YES" class="I_STATE" stem="forecast" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">forecast</EVENT> an earnings <EVENT eid="e147" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">increase</EVENT> for <TIMEX3 tid="t264" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">the full year</TIMEX3>.</s> 
+<s><TIMEX3 tid="t265" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">Last year</TIMEX3>, the company <EVENT eid="e148" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $480.4 million, or $3.90 a share, on sales of $4.3 billion.</s> 
+
+   <s>As <EVENT eid="e266" mainevent="NO" class="I_STATE" stem="expect" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT>, Kellogg <EVENT eid="e150" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> lower <TIMEX3 tid="t268" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">third-quarter</TIMEX3> <EVENT eid="e267" mainevent="NO" class="STATE" stem="earnings" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">earnings</EVENT>.</s> 
+<s>Net <EVENT eid="e151" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 16% to <EVENT eid="e1056" mainevent="NO" class="STATE" stem="$123.1" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$123.1</EVENT> million, or $1.02 a share, from <EVENT eid="e1057" mainevent="NO" class="STATE" stem="$145.7" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$145.7</EVENT> million, or $1.18 a share.</s> 
+<s>Sales <EVENT eid="e153" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 4.8% to <EVENT eid="e1058" mainevent="NO" class="STATE" stem="$1.20" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$1.20</EVENT> billion from <EVENT eid="e1059" mainevent="NO" class="STATE" stem="$1.14" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$1.14</EVENT> billion.</s> 
+
+   <s>The company <EVENT eid="e154" mainevent="YES" class="OCCURRENCE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> a one-time <EVENT eid="e278" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charge</EVENT> of $14.8 million in <TIMEX3 tid="t279" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t192">the latest quarter</TIMEX3> covering the <EVENT eid="e156" mainevent="NO" class="OCCURRENCE" stem="disposition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">disposition</EVENT> of certain assets.</s> 
+<s>The company would n't <EVENT eid="e157" mainevent="YES" class="OCCURRENCE" stem="elaborate" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">elaborate</EVENT>, <EVENT eid="e160" mainevent="NO" class="REPORTING" stem="cite" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">citing</EVENT> competitive <EVENT eid="e1045" mainevent="NO" class="OCCURRENCE" stem="reason" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">reasons</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e157" eventID="e154" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e150" eventID="e148" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e131" eventID="e125" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e118" eventID="e104" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e57" eventID="e215" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e1052" eventID="e118" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e41" eventID="e35" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e19" eventID="e18" task="C"/>
+<TLINK lid="l9" relType="BEFORE" relatedToEvent="e4" eventID="e3" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e82" eventID="e78" task="C"/>
+<TLINK lid="l11" relType="AFTER" relatedToEvent="e121" eventID="e1052" task="C"/>
+<TLINK lid="l12" relType="AFTER" relatedToEvent="e103" eventID="e91" task="C"/>
+<TLINK lid="l13" relType="AFTER" relatedToEvent="e148" eventID="e146" task="C"/>
+<TLINK lid="l14" relType="OVERLAP" relatedToEvent="e68" eventID="e65" task="C"/>
+<TLINK lid="l15" relType="AFTER" relatedToEvent="e18" eventID="e10" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e7" eventID="e4" task="C"/>
+<TLINK lid="l17" relType="OVERLAP" relatedToEvent="e1051" eventID="e41" task="C"/>
+<TLINK lid="l18" relType="BEFORE" relatedToEvent="e132" eventID="e131" task="C"/>
+<TLINK lid="l19" relType="BEFORE" relatedToEvent="e154" eventID="e153" task="C"/>
+<TLINK lid="l20" relType="OVERLAP" relatedToEvent="e3" eventID="e189" task="C"/>
+<TLINK lid="l21" relType="AFTER" relatedToEvent="e151" eventID="e150" task="C"/>
+<TLINK lid="l22" relType="OVERLAP" relatedToEvent="e74" eventID="e68" task="C"/>
+<TLINK lid="l23" relType="OVERLAP" relatedToEvent="e78" eventID="e74" task="C"/>
+<TLINK lid="l24" relType="BEFORE" relatedToEvent="e49" eventID="e1061" task="C"/>
+<TLINK lid="l25" relType="OVERLAP" relatedToEvent="e153" eventID="e151" task="C"/>
+<TLINK lid="l26" relType="OVERLAP-OR-AFTER" relatedToEvent="e24" eventID="e19" task="C"/>
+<TLINK lid="l27" relType="OVERLAP-OR-AFTER" relatedToEvent="e140" eventID="e132" task="C"/>
+<TLINK lid="l28" relType="BEFORE" relatedToEvent="e104" eventID="e103" task="C"/>
+<TLINK lid="l29" relType="BEFORE" relatedToEvent="e10" eventID="e7" task="C"/>
+<TLINK lid="l30" relType="AFTER" relatedToEvent="e65" eventID="e57" task="C"/>
+<TLINK lid="l31" relType="OVERLAP" relatedToEvent="e125" eventID="e122" task="C"/>
+<TLINK lid="l32" relType="OVERLAP" relatedToEvent="e35" eventID="e28" task="C"/>
+<TLINK lid="l33" relType="BEFORE" relatedToEvent="e88" eventID="e82" task="C"/>
+<TLINK lid="l34" relType="OVERLAP" relatedToEvent="e146" eventID="e140" task="C"/>
+<TLINK lid="l35" relType="BEFORE" relatedToEvent="e122" eventID="e121" task="C"/>
+<TLINK lid="l36" relType="AFTER" relatedToEvent="e91" eventID="e88" task="C"/>
+
+</TempEval>

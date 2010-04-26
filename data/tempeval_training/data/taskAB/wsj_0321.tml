@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891101-0043 
+ = 891101 
+ 891101-0043. 
+ Business Brief -- StatesWest Airlines:
+@  Offer for Mesa Withdrawn;
+@  Firm to Continue Pursuit 
+ <TIMEX3 tid="t40" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SWAL MESA 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>StatesWest Airlines, Phoenix, Ariz., <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="withdraw" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">withdrew</EVENT> its <EVENT eid="e3" class="I_ACTION" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> to <EVENT eid="e5" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> Mesa Airlines because the Farmington, N.M., carrier did n't <EVENT eid="e6" class="OCCURRENCE" stem="respond" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">respond</EVENT> to its <EVENT eid="e8" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> by the <EVENT eid="e9" class="OCCURRENCE" stem="close" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">close</EVENT> of <EVENT eid="e10" class="OCCURRENCE" stem="business" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">business</EVENT> <TIMEX3 tid="t41" type="DATE" value="1989-10-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t40">yesterday</TIMEX3>, a deadline StatesWest had <EVENT eid="e11" class="OCCURRENCE" stem="set" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">set</EVENT> for a response.</s> 
+
+   <s>However, StatesWest is n't <EVENT eid="e12" class="ASPECTUAL" stem="abandon" aspect="PROGRESSIVE" tense="PRESENT" polarity="NEG" pos="VERB">abandoning</EVENT> its <EVENT eid="e14" class="OCCURRENCE" stem="pursuit" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">pursuit</EVENT> of the much-larger Mesa.</s> 
+<s>StatesWest, which has a 7.25% stake in Mesa, <EVENT eid="e17" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it may <EVENT eid="e18" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">purchase</EVENT> more Mesa stock or <EVENT eid="e20" class="OCCURRENCE" stem="make" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">make</EVENT> a tender <EVENT eid="e21" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> directly to Mesa shareholders.</s> 
+
+   <s>StatesWest had <EVENT eid="e22" class="I_ACTION" stem="propose" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">proposed</EVENT> <EVENT eid="e23" class="OCCURRENCE" stem="acquiring" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquiring</EVENT> Mesa for $7 a share and one share of a new series of StatesWest 6% convertible preferred stock it values at $3 a share.</s> 
+<s>Earlier, Mesa had <EVENT eid="e26" class="I_STATE" stem="reject" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">rejected</EVENT> a general <EVENT eid="e27" class="I_ACTION" stem="proposal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">proposal</EVENT> from StatesWest to <EVENT eid="e29" class="OCCURRENCE" stem="combine" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">combine</EVENT> the two carriers in some way.</s> 
+
+   <s>StatesWest serves 10 cities in California, Arizona and Nevada.</s> 
+<s>Mesa flies to 42 cities in New Mexico, Arizona, Wyoming, Colorado and Texas.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e9" relatedToTime="t41" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e3" relatedToTime="t41" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e5" relatedToTime="t41" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e1" relatedToTime="t41" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e8" relatedToTime="t41" task="A"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e11" relatedToTime="t41" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e9" relatedToTime="t40" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e3" relatedToTime="t40" task="B"/>
+<TLINK lid="l9" relType="AFTER" eventID="e5" relatedToTime="t40" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e1" relatedToTime="t40" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e8" relatedToTime="t40" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e11" relatedToTime="t40" task="B"/>
+<TLINK lid="l13" relType="AFTER" eventID="e20" relatedToTime="t40" task="B"/>
+<TLINK lid="l14" relType="AFTER" eventID="e21" relatedToTime="t40" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e17" relatedToTime="t40" task="B"/>
+<TLINK lid="l16" relType="AFTER" eventID="e18" relatedToTime="t40" task="B"/>
+</TempEval>

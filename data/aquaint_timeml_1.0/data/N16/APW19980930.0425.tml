@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW19980930.0425 
+ NEWS STORY 
+ 09/30/1998 08:45:00 
+
+w1894 &amp;Cx1f; wstm-
+u i &amp;Cx13;  &amp;Cx11;  BC-Kenya-EmbassyBombings     09-30 0284
+
+
+ BC-Kenya-Embassy Bombings 
+
+U.S. medical team seeks to help victims of embassy bombings
+
+ &amp;UR; AP Photo Planned &amp;QL; 
+
+
+	   NAIROBI, Kenya (AP) _ U.S. Surgeon General David Satcher <SIGNAL sid="s1">on</SIGNAL>
+<TIMEX3 tid="t1" type="DATE" value="1998-09-30" temporalFunction="false" functionInDocument="NONE">Wednesday</TIMEX3> <EVENT eid="e1" class="OCCURRENCE">led</EVENT> a team of medical specialists to Africa to <EVENT eid="e2" class="OCCURRENCE">help</EVENT>
+victims of terrorist <EVENT eid="e33" class="OCCURRENCE">attacks</EVENT> on the U.S. embassies in Kenya and
+Tanzania.
+	   ``We <EVENT eid="e3" class="I_STATE">want</EVENT> to <EVENT eid="e4" class="OCCURRENCE">build</EVENT> on the long-term partnership that has existed
+between our countries to <EVENT eid="e6" class="OCCURRENCE">help</EVENT> innocent Kenyans who <EVENT eid="e7" class="OCCURRENCE">suffered</EVENT> in the
+<EVENT eid="e34" class="OCCURRENCE">bombing</EVENT>,'' Satcher <EVENT eid="e8" class="REPORTING">said</EVENT> at a news <EVENT eid="e35" class="OCCURRENCE">conference</EVENT>.
+	   ``At the same time, we <EVENT eid="e9" class="I_STATE">want</EVENT> to <EVENT eid="e10" class="OCCURRENCE">help</EVENT> Kenya prepare to <EVENT eid="e12" class="OCCURRENCE">meet</EVENT> <TIMEX3 tid="t7" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE">future</TIMEX3>
+medical <EVENT eid="e36" class="OCCURRENCE">disasters</EVENT>, regardless of their cause.''
+	   The <EVENT eid="e38" class="OCCURRENCE">bombings</EVENT> <SIGNAL sid="s2">on</SIGNAL> <TIMEX3 tid="t3" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="NONE">Aug. 7</TIMEX3> <EVENT eid="e13" class="OCCURRENCE">killed</EVENT> 259 people, including 12
+Americans, and <EVENT eid="e55" class="OCCURRENCE">injured</EVENT> more than 5,500.
+	   The U.S. team includes plastic surgeons with experience in
+physical reconstruction, and a psychiatrist who <EVENT eid="e16" class="OCCURRENCE">worked</EVENT> in Oklahoma
+City, where 168 people were <EVENT eid="e17" class="OCCURRENCE">killed</EVENT> in a <EVENT eid="e41" class="OCCURRENCE">bombing</EVENT> in <TIMEX3 tid="t4" type="DATE" value="1995" temporalFunction="false" functionInDocument="NONE">1995</TIMEX3>.
+	   The team planned to <EVENT eid="e19" class="OCCURRENCE">leave</EVENT> Nairobi <SIGNAL sid="s3">on</SIGNAL> <TIMEX3 tid="t5" type="DATE" value="1998-10-01" temporalFunction="false" functionInDocument="NONE">Thursday</TIMEX3> for Dar es Salaam.
+	   Besides <EVENT eid="e20" class="OCCURRENCE">meeting</EVENT> the immediate physical and emotional needs of
+<EVENT eid="e43" class="OCCURRENCE">bombing</EVENT> victims, the United States will <EVENT eid="e21" class="I_STATE">consider</EVENT> <EVENT eid="e22" class="I_ACTION">helping</EVENT> <EVENT eid="e23" class="OCCURRENCE">set</EVENT> up a
+disaster response center in Kenya, Satcher <EVENT eid="e24" class="REPORTING">said</EVENT>.
+	   In addition to providing assistance using resources of the U.S.
+Department of Health and Human Services, Satcher <EVENT eid="e27" class="REPORTING">said</EVENT> he will
+<EVENT eid="e28" class="REPORTING">report</EVENT> to Congress on additional needs.
+	   U.S. President Bill Clinton has <EVENT eid="e29" class="OCCURRENCE">requested</EVENT> dlrs 50 million in
+emergency assistance funding from Congress for Tanzania and Kenya.
+	   The U.S. government already has <EVENT eid="e30" class="OCCURRENCE">contributed</EVENT> dlrs 3.2 million in
+assistance to the two countries.
+	   <SIGNAL sid="s4">On</SIGNAL> <TIMEX3 tid="t6" type="DATE" value="1998-09-25" temporalFunction="false" functionInDocument="NONE">Friday</TIMEX3>, the Kenyan government planned to <EVENT eid="e32" class="OCCURRENCE">pay</EVENT> the first 32
+death claims of 100,000 Kenyan shillings (dlrs 1,667) each.
+	   (kjd)
+
+
+(PROFILE
+(WS SL:BC-Kenya-Embassy Bombings; CT:i; 
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(REG:AFRI;)
+(LANG:ENGLISH;))
+)
+
+
+AP-NY-09-30-98 0845EDT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN" signalID="s1"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" signalID="s3"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="FUTURE" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e28" eiid="ei28" tense="FUTURE" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" signalID="s4"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN" signalID="s2"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e55" eiid="ei55" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l2" relType="BEFORE" timeID="t4" relatedToTime="t3" origin="USER"/>
+<TLINK lid="l3" relType="BEFORE" timeID="t3" relatedToTime="t6" origin="USER"/>
+<TLINK lid="l4" relType="BEFORE" timeID="t6" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l5" relType="BEFORE" timeID="t1" relatedToTime="t5" origin="USER"/>
+<TLINK lid="l6" relType="BEFORE" timeID="t5" relatedToTime="t7" origin="USER"/>
+<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei33" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l10" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei35" origin="USER"/>
+<TLINK lid="l11" relType="INCLUDES" eventInstanceID="ei35" relatedToEventInstance="ei8" origin="USER"/>
+<TLINK lid="l12" relType="INCLUDES" eventInstanceID="ei8" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei34" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l17" relType="BEGINS" eventInstanceID="ei34" relatedToEventInstance="ei7" origin="USER"/>
+<TLINK lid="l18" relType="INCLUDES" eventInstanceID="ei8" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l20" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l21" relType="IS_INCLUDED" eventInstanceID="ei12" relatedToTime="t7" origin="USER"/>
+<TLINK lid="l22" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei36" origin="USER"/>
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei36" relatedToTime="t7" origin="USER"/>
+<TLINK lid="l24" relType="IS_INCLUDED" eventInstanceID="ei38" relatedToTime="t3" origin="USER"/>
+<TLINK lid="l25" relType="IAFTER" eventInstanceID="ei13" relatedToEventInstance="ei38" origin="USER"/>
+<TLINK lid="l26" relType="IAFTER" eventInstanceID="ei55" relatedToEventInstance="ei38" origin="USER"/>
+<TLINK lid="l27" relType="SIMULTANEOUS" eventInstanceID="ei13" relatedToEventInstance="ei55" origin="USER"/>
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei41" relatedToTime="t4" origin="USER"/>
+<TLINK lid="l29" relType="IBEFORE" eventInstanceID="ei41" relatedToEventInstance="ei17" origin="USER"/>
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei41" relatedToEventInstance="ei16" origin="USER"/>
+<TLINK lid="l31" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t4" origin="USER"/>
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t5" origin="USER"/>
+<TLINK lid="l33" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l34" relType="AFTER" eventInstanceID="ei20" relatedToEventInstance="ei43" origin="USER"/>
+<TLINK lid="l35" relType="IDENTITY" eventInstanceID="ei43" relatedToEventInstance="ei34" origin="USER"/>
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei20" relatedToEventInstance="ei21" origin="USER"/>
+<TLINK lid="l37" relType="AFTER" eventInstanceID="ei21" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei23" origin="USER"/>
+<TLINK lid="l40" relType="IS_INCLUDED" eventInstanceID="ei24" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l41" relType="IS_INCLUDED" eventInstanceID="ei27" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l42" relType="BEFORE" eventInstanceID="ei27" relatedToEventInstance="ei28" origin="USER"/>
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei29" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei30" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l45" relType="IS_INCLUDED" eventInstanceID="ei32" relatedToTime="t6" origin="USER"/>
+<SLINK lid="l8" relType="MODAL" eventInstanceID="ei1" subordinatedEventInstance="ei2" syntax="USER"/>
+<SLINK lid="l13" relType="MODAL" eventInstanceID="ei3" subordinatedEventInstance="ei4" syntax="USER"/>
+<SLINK lid="l19" relType="MODAL" eventInstanceID="ei9" subordinatedEventInstance="ei10" syntax="USER"/>
+<SLINK lid="l38" relType="MODAL" eventInstanceID="ei21" subordinatedEventInstance="ei22" syntax="USER"/>
+
+</TimeML>

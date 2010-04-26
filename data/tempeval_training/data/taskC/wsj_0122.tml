@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0069 
+ = 891102 
+ 891102-0069. 
+ Young's Market Co. to Merge 
+ <TIMEX3 tid="t15" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89 </TIMEX3>
+ WALL STREET JOURNAL (J) 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ LOS ANGELES  
+
+   <s>Young's Market Co., a wholesaler of spirits, wines and other goods, <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it  will <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="merge" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">merge</EVENT> with a new corporation <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="form" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">formed</EVENT> by the Underwood family, which controls Young's.</s> 
+
+   <s>Under terms of the <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT>, shareholders other than the Underwoods  will <EVENT eid="e5" mainevent="YES" class="OCCURRENCE" stem="receive" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">receive</EVENT> $3,500 a share at <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="closing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">closing</EVENT>, which  is <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT> in <TIMEX3 tid="t13" type="DATE" value="1989-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t15">December</TIMEX3>.</s> 
+<s>The Underwood family <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> that holders of more than a majority of the stock of the company  have <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="approve" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">approved</EVENT> the <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT> by written consent.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e9" eventID="e5" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e5" eventID="e1" task="C"/>
+
+</TempEval>

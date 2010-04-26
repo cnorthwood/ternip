@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891026-0045 
+ = 891026 
+ 891026-0045. 
+ Delta Air Net Rose
+@  By 33% to Record
+@  In Fiscal 1st Period
+@  ----
+@  By Bridget O'Brian
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t57" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ DAL AWAL 
+ EARNINGS (ERN)
+AIRLINES (AIR) 
+
+   <s>Delta Air Lines earnings <EVENT eid="e1" class="OCCURRENCE" stem="soar" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">soared</EVENT> 33% to a record in <TIMEX3 tid="t58" type="DATE" value="1989-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t57">the fiscal first quarter</TIMEX3>, <EVENT eid="e3" class="OCCURRENCE" stem="buck" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">bucking</EVENT> the industry trend toward <EVENT eid="e4" class="OCCURRENCE" stem="declining" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">declining</EVENT> profits.</s> 
+
+   <s>The Atlanta-based airline, the third largest in the U.S., <EVENT eid="e5" class="OCCURRENCE" stem="attribute" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">attributed</EVENT> the <EVENT eid="e6" class="OCCURRENCE" stem="increase" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">increase</EVENT> to higher passenger <EVENT eid="e7" class="OCCURRENCE" stem="traffic" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">traffic</EVENT>, new international routes and reduced <EVENT eid="e8" class="OCCURRENCE" stem="service" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">service</EVENT> by rival Eastern Airlines, which is in bankruptcy <EVENT eid="e9" class="OCCURRENCE" stem="proceeding" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">proceedings</EVENT> in the wake of a <EVENT eid="e12" class="OCCURRENCE" stem="strike" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">strike</EVENT> that <EVENT eid="e13" class="I_ACTION" stem="begin" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">began</EVENT> <TIMEX3 tid="t60" type="DATE" value="1988-SP" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t57">last spring</TIMEX3>.</s> 
+
+   <s>For <TIMEX3 tid="t65" type="DATE" value="1989-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t63">the quarter</TIMEX3> <EVENT eid="e14" class="ASPECTUAL" stem="end" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">ended</EVENT> <TIMEX3 tid="t63" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t57">Sept. 30</TIMEX3>, Delta <EVENT eid="e15" class="OCCURRENCE" stem="post" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">posted</EVENT> net income of <EVENT eid="e96" class="STATE" stem="$133.1" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$133.1</EVENT> million, or $2.53 a share, up from <EVENT eid="e97" class="STATE" stem="$100" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$100</EVENT> million, or $2.03 a share, <TIMEX3 tid="t64" type="DATE" value="1988-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t63">a year earlier</TIMEX3>.</s> 
+
+   <s>Revenue <EVENT eid="e16" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 15% to <EVENT eid="e98" class="STATE" stem="$2.17" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$2.17</EVENT> billion from <EVENT eid="e99" class="STATE" stem="$1.89" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$1.89</EVENT> billion.</s> 
+<s>During <TIMEX3 tid="t70" type="DATE" value="1989-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t65">the quarter</TIMEX3>, Delta <EVENT eid="e17" class="OCCURRENCE" stem="issue" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">issued</EVENT> 2.5 million shares of common stock to Swissair, and <EVENT eid="e18" class="OCCURRENCE" stem="repurchased" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">repurchased</EVENT> 1.1 million shares for <EVENT eid="e19" class="OCCURRENCE" stem="use" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">use</EVENT> in a company employee stock ownership plan.</s> 
+
+   <s>"The key to Delta's record earnings <EVENT eid="e21" class="ASPECTUAL" stem="continue" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">continued</EVENT> to be excellent passenger revenue <EVENT eid="e95" class="OCCURRENCE" stem="growth" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">growth</EVENT>," <EVENT eid="e23" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Thomas Roeck, chief financial officer.</s> 
+<s>Passenger <EVENT eid="e24" class="OCCURRENCE" stem="traffic" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">traffic</EVENT> <EVENT eid="e25" class="OCCURRENCE" stem="jump" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">jumped</EVENT> 14% in the quarter, while profit per passenger <EVENT eid="e27" class="OCCURRENCE" stem="grow" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">grew</EVENT> 2%.</s> 
+
+   <s>Delta has <EVENT eid="e28" class="OCCURRENCE" stem="benefit" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">benefited</EVENT> more than other carriers from the weakness of Eastern Airlines, which <EVENT eid="e29" class="OCCURRENCE" stem="share" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">shares</EVENT> the Atlanta hub.</s> 
+<s>Although Eastern is <EVENT eid="e72" class="STATE" stem="back" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">back</EVENT> to about 80% of its pre-strike schedule <TIMEX3 tid="t73" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t57">now</TIMEX3>, the Texas Air Corp. subsidiary was only <EVENT eid="e31" class="ASPECTUAL" stem="begin" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">beginning</EVENT> to <EVENT eid="e33" class="OCCURRENCE" stem="get" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">get</EVENT> back on its feet during <TIMEX3 tid="t74" type="DATE" value="1989-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t70">the quarter</TIMEX3>.</s> 
+
+   <s>Separately, America West Airlines, Phoenix, Ariz., <EVENT eid="e34" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> <TIMEX3 tid="t79" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t57">third-quarter</TIMEX3> profit <EVENT eid="e35" class="OCCURRENCE" stem="jump" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">jumped</EVENT> 45% to <EVENT eid="e100" class="STATE" stem="$5.8" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$5.8</EVENT> million, or 28 cents a share, from <EVENT eid="e101" class="STATE" stem="$4" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$4</EVENT> million, or 24 cents a share, <TIMEX3 tid="t88" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t79">a year earlier</TIMEX3>.</s> 
+<s>The latest <EVENT eid="e36" class="OCCURRENCE" stem="result" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">results</EVENT> include a $2.6 million one-time <EVENT eid="e77" class="OCCURRENCE" stem="payment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">payment</EVENT> from a "foreign entity."</s> 
+<s>America West would n't <EVENT eid="e38" class="OCCURRENCE" stem="identify" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">identify</EVENT> the entity, but <EVENT eid="e41" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e42" class="OCCURRENCE" stem="payment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">payment</EVENT> was for the foreign company's <EVENT eid="e43" class="OCCURRENCE" stem="use" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">use</EVENT> of certain tax benefits in connection with America West plane purchases.</s> 
+<s><TIMEX3 tid="t80" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t79">Year-earlier</TIMEX3> <EVENT eid="e44" class="OCCURRENCE" stem="result" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">results</EVENT> included an extraordinary <EVENT eid="e82" class="OCCURRENCE" stem="gain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">gain</EVENT> of $1.6 million from a <EVENT eid="e83" class="OCCURRENCE" stem="buy-back" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">buy-back</EVENT> of convertible subordinated debentures.</s> 
+
+   <s>Revenue <EVENT eid="e48" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 21% to <EVENT eid="e102" class="STATE" stem="$243.4" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$243.4</EVENT> million from <EVENT eid="e103" class="STATE" stem="$201.2" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$201.2</EVENT> million.</s> 
+<s>For <TIMEX3 tid="t87" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the nine months</TIMEX3>, America West <EVENT eid="e49" class="OCCURRENCE" stem="post" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">posted</EVENT> earnings of $18.9 million, or 97 cents a share, compared with a <EVENT eid="e51" class="OCCURRENCE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $9.7 million, or 74 cents a share, <TIMEX3 tid="t89" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t57">a year earlier</TIMEX3>.</s> 
+<s>Revenue <EVENT eid="e52" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 27% to <EVENT eid="e104" class="STATE" stem="$715.1" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$715.1</EVENT> million from <EVENT eid="e105" class="STATE" stem="$563.8" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$563.8</EVENT> million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e6" relatedToTime="t60" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e13" relatedToTime="t60" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e15" relatedToTime="t63" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e15" relatedToTime="t65" task="A"/>
+<TLINK lid="l5" relType="AFTER" eventID="e15" relatedToTime="t64" task="A"/>
+<TLINK lid="l6" relType="AFTER" eventID="e19" relatedToTime="t70" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e31" relatedToTime="t73" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e31" relatedToTime="t74" task="A"/>
+<TLINK lid="l9" relType="AFTER" eventID="e34" relatedToTime="t79" task="A"/>
+<TLINK lid="l10" relType="AFTER" eventID="e34" relatedToTime="t88" task="A"/>
+<TLINK lid="l11" relType="OVERLAP" eventID="e82" relatedToTime="t80" task="A"/>
+<TLINK lid="l12" relType="OVERLAP" eventID="e44" relatedToTime="t80" task="A"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e49" relatedToTime="t87" task="A"/>
+<TLINK lid="l14" relType="AFTER" eventID="e49" relatedToTime="t89" task="A"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e51" relatedToTime="t87" task="A"/>
+<TLINK lid="l16" relType="OVERLAP" eventID="e51" relatedToTime="t89" task="A"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e6" relatedToTime="t57" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e13" relatedToTime="t57" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e15" relatedToTime="t57" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e16" relatedToTime="t57" task="B"/>
+<TLINK lid="l21" relType="VAGUE" eventID="e19" relatedToTime="t57" task="B"/>
+<TLINK lid="l22" relType="BEFORE" eventID="e23" relatedToTime="t57" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e21" relatedToTime="t57" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e31" relatedToTime="t57" task="B"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e34" relatedToTime="t57" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e36" relatedToTime="t57" task="B"/>
+<TLINK lid="l27" relType="BEFORE" eventID="e43" relatedToTime="t57" task="B"/>
+<TLINK lid="l28" relType="BEFORE" eventID="e41" relatedToTime="t57" task="B"/>
+<TLINK lid="l29" relType="BEFORE" eventID="e82" relatedToTime="t57" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e44" relatedToTime="t57" task="B"/>
+<TLINK lid="l31" relType="BEFORE" eventID="e48" relatedToTime="t57" task="B"/>
+<TLINK lid="l32" relType="BEFORE" eventID="e49" relatedToTime="t57" task="B"/>
+<TLINK lid="l33" relType="BEFORE" eventID="e51" relatedToTime="t57" task="B"/>
+<TLINK lid="l34" relType="BEFORE" eventID="e52" relatedToTime="t57" task="B"/>
+</TempEval>

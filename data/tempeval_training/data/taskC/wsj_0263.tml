@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891101-0102 
+ = 891101 
+ 891101-0102. 
+ Dividend News:
+@  Unifirst Corp. 
+ <TIMEX3 tid="t13" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ UNF 
+ DIVIDENDS (DIV)
+EARNINGS (ERN) 
+
+   <s>UNIFIRST Corp. <EVENT eid="e1" mainevent="YES" class="I_ACTION" stem="declare" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">declared</EVENT> a 2-for-1 stock <EVENT eid="e1989" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT>.</s> 
+<s>The Wilmington, Mass., garment service company also <EVENT eid="e2" mainevent="YES" class="OCCURRENCE" stem="boost" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">boosted</EVENT> its quarterly dividend 20% to three cents a share adjusted for the <EVENT eid="e1990" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT>.</s> 
+<s>The dividend had been <EVENT eid="e2066" mainevent="YES" class="STATE" stem="five" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="OTHER">five</EVENT> cents a share.</s> 
+<s>The split and quarterly dividend will be <EVENT eid="e1995" mainevent="NO" class="STATE" stem="payable" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE">payable</EVENT> <TIMEX3 tid="t17" type="DATE" value="1990-01-03" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">Jan. 3</TIMEX3> to stock of record <TIMEX3 tid="t18" type="DATE" value="1989-11-16" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">Nov. 16</TIMEX3>, the company <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>The <EVENT eid="e2044" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT>  will <EVENT eid="e5" mainevent="YES" class="OCCURRENCE" stem="raise" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">raise</EVENT> the number of shares outstanding to about 10.2 million.</s> 
+<s>Separately, UniFirst <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> that net income <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 21% to $3 million, or 29 cents a share adjusted for the <EVENT eid="e2065" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT>, for <TIMEX3 tid="t20" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">the fourth quarter</TIMEX3> <EVENT eid="e9" mainevent="NO" class="ASPECTUAL" stem="end" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">ended</EVENT> <TIMEX3 tid="t19" type="DATE" value="1989-08-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">Aug. 26</TIMEX3>.</s> 
+<s><TIMEX3 tid="t2096" type="DATE" value="1988-11-01" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t13">A year earlier</TIMEX3> UniFirst <EVENT eid="e10" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $2.4 million, or 24 cents a share adjusted for the <EVENT eid="e1994" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT>.</s> 
+<s>Sales <EVENT eid="e12" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> to $52.4 million from $50.1 million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e4" eventID="e2066" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e10" eventID="e6" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e12" eventID="e10" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e5" eventID="e4" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e2066" eventID="e2" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e6" eventID="e5" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e2" eventID="e1" task="C"/>
+
+</TempEval>

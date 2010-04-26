@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891027-0159 
+ = 891027 
+ 891027-0159. 
+ Poughkeepsie Savings
+@  Abandons Plan to Sell
+@  South Carolina Offices 
+ <TIMEX3 tid="t61" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ PKPS 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ POUGHKEEPSIE, N.Y.  
+
+   <s>Poughkeepsie Savings Bank <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> a <EVENT eid="e51" mainevent="NO" class="I_STATE" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plan</EVENT> to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> its South Carolina branch offices to First Citizens Bank, of Columbia, S.C., <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> through.</s> 
+
+   <s>Poughkeepsie also <EVENT eid="e5" mainevent="YES" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="post" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">post</EVENT> a one-time charge of $8.3 million, <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="result" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">resulting</EVENT> in a net <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> for <TIMEX3 tid="t62" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the third quarter</TIMEX3>.</s> 
+<s>The charge represents a write-down of the goodwill associated with Poughkeepsie's investment in the banks it is <EVENT eid="e15" mainevent="YES" class="I_ACTION" stem="try" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">trying</EVENT> to <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> and its North Carolina branches as well.</s> 
+
+   <s>The thrift <EVENT eid="e18" mainevent="YES" class="REPORTING" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> the <EVENT eid="e52" mainevent="NO" class="I_STATE" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plan</EVENT> <TIMEX3 tid="t63" type="DATE" value="1989-08-21" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">Aug. 21</TIMEX3>.</s> 
+<s>Among other reasons, high fees regulators imposed on certain transfers of thrift deposits to commercial banks "substantially <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="alter" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">altered</EVENT> the economics of the <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT> for both parties," Poughkeepsie <EVENT eid="e26" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Additionally, the bank is <EVENT eid="e27" mainevent="YES" class="OCCURRENCE" stem="increase" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">increasing</EVENT> its loan-loss <EVENT eid="e174" mainevent="NO" class="STATE" stem="reserve" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">reserves</EVENT> for <TIMEX3 tid="t64" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the third quarter</TIMEX3> by $8.5 million before taxes.</s> 
+
+   <s>In <TIMEX3 tid="t65" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the year-earlier third quarter</TIMEX3>, Poughkeepsie Savings <EVENT eid="e54" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> net <EVENT eid="e55" mainevent="NO" class="STATE" stem="income" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">income</EVENT> of $2.8 million, or 77 cents a share.</s> 
+
+   <s>Poughkeepsie <EVENT eid="e30" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it is <EVENT eid="e31" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">continuing</EVENT> to <EVENT eid="e33" mainevent="NO" class="I_ACTION" stem="try" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">try</EVENT> to <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> itself, under a <TIMEX3 tid="t66" type="DATE" value="1989-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">June</TIMEX3> <EVENT eid="e36" mainevent="NO" class="I_STATE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT> with a dissident-shareholder group.</s> 
+<s>The bank also <EVENT eid="e37" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="effort" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">effort</EVENT> would <EVENT eid="e39" mainevent="NO" class="ASPECTUAL" stem="continue" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> past the <TIMEX3 tid="t67" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">Nov. 1</TIMEX3> deadline <EVENT eid="e42" mainevent="NO" class="OCCURRENCE" stem="set" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">set</EVENT> in that <EVENT eid="e43" mainevent="NO" class="I_STATE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT> and that the <EVENT eid="e44" mainevent="NO" class="OCCURRENCE" stem="litigation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">litigation</EVENT> between the two sides might <EVENT eid="e45" mainevent="NO" class="ASPECTUAL" stem="resume" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">resume</EVENT> as a <EVENT eid="e47" mainevent="NO" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">result</EVENT>.</s> 
+<s>The thrift and the holders had <EVENT eid="e48" mainevent="YES" class="ASPECTUAL" stem="suspend" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">suspended</EVENT> their <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="lawsuit" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">lawsuits</EVENT> as part of the <EVENT eid="e50" mainevent="NO" class="I_STATE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e48" eventID="e37" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e37" eventID="e30" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e30" eventID="e54" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e18" eventID="e15" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e15" eventID="e5" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e26" eventID="e18" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e54" eventID="e27" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e27" eventID="e26" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e5" eventID="e1" task="C"/>
+
+</TempEval>

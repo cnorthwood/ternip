@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891026-0141 
+ = 891026 
+ 891026-0141. 
+ Du Pont Posts
+@  19% Profit Rise
+@  For 3rd Quarter
+@  ----
+@  By Richard Koenig
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t127" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ DD VO 
+ EARNINGS (ERN)
+CHEMICALS, PLASTICS (CHM)
+DIVIDENDS (DIV) 
+
+   <s>Du Pont Co. <EVENT eid="e1" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> that <TIMEX3 tid="t139" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">third-quarter</TIMEX3> profit <EVENT eid="e2" class="OCCURRENCE" stem="grow" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">grew</EVENT> a robust 19% from <TIMEX3 tid="t128" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t139">a year ago</TIMEX3> on the strength of the company's <EVENT eid="e3" class="OCCURRENCE" stem="operation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">operations</EVENT> in various chemicals and fibers, and in petroleum.</s> 
+
+   <s>Du Pont also <EVENT eid="e5" class="OCCURRENCE" stem="raise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">raised</EVENT> its quarterly dividend to <EVENT eid="e132" class="STATE" stem="$1.20" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$1.20</EVENT> a share from <EVENT eid="e131" class="STATE" stem="$1.05" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$1.05</EVENT>, a <EVENT eid="e6" class="OCCURRENCE" stem="change" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">change</EVENT> that will <EVENT eid="e7" class="OCCURRENCE" stem="increase" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">increase</EVENT> the annualized payout to shareholders by some $140 million.</s> 
+
+   <s>Du Pont, unlike companies <EVENT eid="e8" class="STATE" stem="hurt" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">hurt</EVENT> badly by sharp price <EVENT eid="e133" class="OCCURRENCE" stem="decline" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">declines</EVENT> for basic chemicals and plastics, is <EVENT eid="e9" class="OCCURRENCE" stem="benefit" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">benefiting</EVENT> from its broad range of <EVENT eid="e11" class="OCCURRENCE" stem="business" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">businesses</EVENT>.</s> 
+<s>The profit gain was <EVENT eid="e12" class="OCCURRENCE" stem="make" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">made</EVENT> despite a <EVENT eid="e13" class="OCCURRENCE" stem="weakening" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">weakening</EVENT> in the housing market, for which the company is a supplier, and a <EVENT eid="e16" class="OCCURRENCE" stem="strengthening" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">strengthening</EVENT> in the dollar, which <EVENT eid="e19" class="OCCURRENCE" stem="lower" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">lowers</EVENT> the value of overseas earnings when they are translated into dollars.</s> 
+
+   <s>The Wilmington, Del., company <EVENT eid="e24" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> net of $547 million, or $2.36 a share, which was in line with Wall Street <EVENT eid="e136" class="I_STATE" stem="estimate" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">estimates</EVENT>.</s> 
+<s>In <TIMEX3 tid="t140" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t139">the year-earlier period</TIMEX3>, the company <EVENT eid="e27" class="OCCURRENCE" stem="earn" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">earned</EVENT> $461 million, or $1.91 a share.</s> 
+<s>Sales in <TIMEX3 tid="t141" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">the latest quarter</TIMEX3> were <EVENT eid="e726" class="STATE" stem="$8.59" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$8.59</EVENT> billion, up 9.4% from <EVENT eid="e727" class="STATE" stem="$7.85" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$7.85</EVENT> billion.</s> 
+
+   <s>The dividend <EVENT eid="e29" class="OCCURRENCE" stem="increase" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">increase</EVENT> was Du Pont's second <TIMEX3 tid="t148" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">this year</TIMEX3>, an <EVENT eid="e30" class="REPORTING" stem="affirmation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">affirmation</EVENT> of statements by top executives that they <EVENT eid="e32" class="I_STATE" stem="intend" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">intend</EVENT> to <EVENT eid="e34" class="OCCURRENCE" stem="increase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">increase</EVENT> rewards to shareholders.</s> 
+<s>"We have n't <EVENT eid="e36" class="OCCURRENCE" stem="benefit" aspect="PERFECTIVE" tense="PRESENT" polarity="NEG" pos="VERB">benefited</EVENT> the shareholder as much as we <EVENT eid="e38" class="I_STATE" stem="need" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">need</EVENT> to," <EVENT eid="e39" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Edgar Woolard Jr., Du Pont's chairman and chief executive officer, in an <EVENT eid="e40" class="OCCURRENCE" stem="interview" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">interview</EVENT> <TIMEX3 tid="t151" type="DURATION" value="PXM" temporalFunction="true" functionInDocument="NONE" endPoint="t153">several months</TIMEX3> before he <EVENT eid="e42" class="ASPECTUAL" stem="enter" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">entered</EVENT> his <TIMEX3 tid="t152" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">current</TIMEX3> <EVENT eid="e150" class="STATE" stem="position" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">position</EVENT> in <TIMEX3 tid="t153" type="DATE" value="1989-04" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">April</TIMEX3>.</s> 
+
+   <s>The largest beneficiary will be Seagram Co., which owns about 23% of Du Pont.</s> 
+<s>A spokesman for Seagram, the Montreal wine and spirits concern controlled by the Bronfman family, <EVENT eid="e45" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the company will <EVENT eid="e46" class="REPORTING" stem="post" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">post</EVENT> additional pretax <EVENT eid="e725" class="OCCURRENCE" stem="profit" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">profit</EVENT> of about <EVENT eid="e728" class="STATE" stem="$33" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$33</EVENT> million <TIMEX3 tid="t157" type="SET" value="P1Y" temporalFunction="false" functionInDocument="NONE" quant="EVERY">a year</TIMEX3> because of the additional Du Pont dividends.</s> 
+
+   <s>Du Pont also <EVENT eid="e47" class="REPORTING" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> <EVENT eid="e158" class="I_STATE" stem="plan" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">plans</EVENT> for a 3-for-1 stock <EVENT eid="e48" class="OCCURRENCE" stem="split" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">split</EVENT>, although the initial higher dividend will be <EVENT eid="e49" class="OCCURRENCE" stem="pay" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">paid</EVENT> on pre-split shares.</s> 
+<s>Du Pont's stock <EVENT eid="e51" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> $2.50 a share to <EVENT eid="e53" class="OCCURRENCE" stem="close" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">close</EVENT> at <EVENT eid="e159" class="STATE" stem="$117.375" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$117.375</EVENT> in New York Stock Exchange composite trading <TIMEX3 tid="t160" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">yesterday</TIMEX3>.</s> 
+<s>Seagram <EVENT eid="e54" class="OCCURRENCE" stem="close" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">closed</EVENT> at <EVENT eid="e161" class="STATE" stem="$84.75" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$84.75</EVENT>, up 12.5 cents a share in Big Board trading.</s> 
+
+   <s><EVENT eid="e55" class="STATE" stem="leading" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">Leading</EVENT> the gains for Du Pont in <TIMEX3 tid="t163" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">the latest quarter</TIMEX3> was its industrial products segment, where profit <EVENT eid="e57" class="OCCURRENCE" stem="soar" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">soared</EVENT> to <EVENT eid="e729" class="STATE" stem="$155" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$155</EVENT> million from <EVENT eid="e730" class="STATE" stem="$99" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$99</EVENT> million <TIMEX3 tid="t164" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">a year earlier</TIMEX3>.</s> 
+<s>The company <EVENT eid="e58" class="OCCURRENCE" stem="benefit" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">benefited</EVENT> from continued strong <EVENT eid="e59" class="OCCURRENCE" stem="demand" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">demand</EVENT> and higher selling <EVENT eid="e170" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">prices</EVENT> for titanium dioxide, a white pigment used in paints, paper and plastics.</s> 
+
+   <s>James Fallon, a New Providence, N.J., marketing consultant to the chemicals industry, <EVENT eid="e65" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> Du Pont still <EVENT eid="e66" class="STATE" stem="hold" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">holds</EVENT> an edge in making the pigment because the company was "first in with the technology" to lower costs.</s> 
+<s>He <EVENT eid="e70" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Du Pont <EVENT eid="e71" class="STATE" stem="hold" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">holds</EVENT> about 23% of the world-wide market, the largest single share, at a time when growing uses for the pigment have kept it in tight supply, although others are now adding low-cost production capacity.</s> 
+
+   <s>Profit <EVENT eid="e81" class="OCCURRENCE" stem="climb" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">climbed</EVENT> to <EVENT eid="e731" class="STATE" stem="$98" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$98</EVENT> million from <EVENT eid="e732" class="STATE" stem="$71" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$71</EVENT> million in the petroleum segment, as Du Pont's Conoco Inc. oil company was <EVENT eid="e83" class="I_STATE" stem="help" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">helped</EVENT> by crude oil <EVENT eid="e576" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">prices</EVENT> higher than <TIMEX3 tid="t181" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">a year ago</TIMEX3> and by higher natural gas <EVENT eid="e587" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">prices</EVENT> and volume.</s> 
+
+   <s>In the diversifed businesses segment, which includes herbicides, profit <EVENT eid="e88" class="OCCURRENCE" stem="grow" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">grew</EVENT> to <EVENT eid="e733" class="STATE" stem="$64" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$64</EVENT> million from <EVENT eid="e734" class="STATE" stem="$27" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$27</EVENT> million.</s> 
+<s>A spokesman <EVENT eid="e89" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> herbicide <EVENT eid="e188" class="OCCURRENCE" stem="use" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">use</EVENT> in some areas of the U.S. was <EVENT eid="e187" class="I_ACTION" stem="delay" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">delayed</EVENT> <TIMEX3 tid="t190" type="DATE" value="1989" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">earlier in the year</TIMEX3> by heavy <EVENT eid="e191" class="OCCURRENCE" stem="rain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rains</EVENT>, thus <EVENT eid="e93" class="OCCURRENCE" stem="increase" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">increasing</EVENT> sales in <TIMEX3 tid="t193" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">the third quarter</TIMEX3>.</s> 
+
+   <s>In the fibers segment, profit <EVENT eid="e95" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> to <EVENT eid="e735" class="STATE" stem="$180" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$180</EVENT> million from <EVENT eid="e736" class="STATE" stem="$155" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$155</EVENT> million, a gain Du Pont <EVENT eid="e96" class="I_ACTION" stem="attribute" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">attributed</EVENT> to higher <EVENT eid="e97" class="OCCURRENCE" stem="demand" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">demand</EVENT> in the U.S. for most textile products.</s> 
+
+   <s>Two segments <EVENT eid="e98" class="REPORTING" stem="post" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">posted</EVENT> lower <EVENT eid="e198" class="STATE" stem="earnings" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">earnings</EVENT> for <TIMEX3 tid="t200" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">the quarter</TIMEX3>.</s> 
+<s>Profit from coal <EVENT eid="e100" class="OCCURRENCE" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> to <EVENT eid="e737" class="STATE" stem="$41" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$41</EVENT> million from <EVENT eid="e738" class="STATE" stem="$58" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$58</EVENT> million, partly because of a miners' <EVENT eid="e101" class="OCCURRENCE" stem="strike" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">strike</EVENT>.</s> 
+<s>And profit from polymers <EVENT eid="e102" class="OCCURRENCE" stem="drop" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">dropped</EVENT> to <EVENT eid="e739" class="STATE" stem="$107" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$107</EVENT> million from <EVENT eid="e740" class="STATE" stem="$122" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$122</EVENT> million amid what Du Pont called lower demand and selling <EVENT eid="e724" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">prices</EVENT> in certain packaging and industrial markets.</s> 
+
+   <s>For <TIMEX3 tid="t729" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the nine months</TIMEX3>, Du Pont <EVENT eid="e108" class="OCCURRENCE" stem="earn" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">earned</EVENT> $2 billion, or $8.46 a share, up 18% from <EVENT eid="e741" class="STATE" stem="$1.69" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$1.69</EVENT> billion, or $7.03 a share, <TIMEX3 tid="t219" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t200">a year earlier</TIMEX3>.</s> 
+<s>Sales <EVENT eid="e110" class="OCCURRENCE" stem="increase" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">increased</EVENT> 10% to <EVENT eid="e742" class="STATE" stem="$26.54" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$26.54</EVENT> billion from <EVENT eid="e743" class="STATE" stem="$24.05" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$24.05</EVENT> billion.</s> 
+
+   <s>The increased dividend will be <EVENT eid="e111" class="OCCURRENCE" stem="pay" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">paid</EVENT> <TIMEX3 tid="t220" type="DATE" value="1989-12-14" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">Dec. 14</TIMEX3> to holders of <EVENT eid="e222" class="OCCURRENCE" stem="record" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">record</EVENT> <TIMEX3 tid="t221" type="DATE" value="1989-11-15" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">Nov. 15</TIMEX3>.</s> 
+<s>The stock <EVENT eid="e113" class="OCCURRENCE" stem="split" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">split</EVENT>, which is <EVENT eid="e223" class="I_STATE" stem="subject" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">subject</EVENT> to holder <EVENT eid="e116" class="I_ACTION" stem="approval" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">approval</EVENT>, would be <EVENT eid="e117" class="OCCURRENCE" stem="paid" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">paid</EVENT> on a still <EVENT eid="e227" class="I_STATE" stem="unspecified" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">unspecified</EVENT> date in <TIMEX3 tid="t225" type="DATE" value="1990-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">January</TIMEX3> to holders of <EVENT eid="e120" class="OCCURRENCE" stem="record" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">record</EVENT> <TIMEX3 tid="t229" type="DATE" value="1989-12-21" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t127">Dec. 21</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e1" relatedToTime="t128" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e1" relatedToTime="t139" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e27" relatedToTime="t140" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e29" relatedToTime="t148" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e34" relatedToTime="t148" task="A"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e39" relatedToTime="t152" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e39" relatedToTime="t153" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e39" relatedToTime="t151" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e46" relatedToTime="t157" task="A"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e45" relatedToTime="t157" task="A"/>
+<TLINK lid="l11" relType="OVERLAP" eventID="e53" relatedToTime="t160" task="A"/>
+<TLINK lid="l12" relType="OVERLAP" eventID="e51" relatedToTime="t160" task="A"/>
+<TLINK lid="l13" relType="AFTER" eventID="e83" relatedToTime="t181" task="A"/>
+<TLINK lid="l14" relType="AFTER" eventID="e93" relatedToTime="t190" task="A"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e93" relatedToTime="t193" task="A"/>
+<TLINK lid="l16" relType="OVERLAP" eventID="e188" relatedToTime="t190" task="A"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e188" relatedToTime="t193" task="A"/>
+<TLINK lid="l18" relType="AFTER" eventID="e89" relatedToTime="t190" task="A"/>
+<TLINK lid="l19" relType="AFTER" eventID="e89" relatedToTime="t193" task="A"/>
+<TLINK lid="l20" relType="OVERLAP-OR-AFTER" eventID="e98" relatedToTime="t200" task="A"/>
+<TLINK lid="l21" relType="OVERLAP" eventID="e108" relatedToTime="t729" task="A"/>
+<TLINK lid="l22" relType="AFTER" eventID="e108" relatedToTime="t219" task="A"/>
+<TLINK lid="l23" relType="OVERLAP" eventID="e111" relatedToTime="t220" task="A"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e111" relatedToTime="t221" task="A"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e1" relatedToTime="t127" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e6" relatedToTime="t127" task="B"/>
+<TLINK lid="l27" relType="AFTER" eventID="e7" relatedToTime="t127" task="B"/>
+<TLINK lid="l28" relType="BEFORE" eventID="e133" relatedToTime="t127" task="B"/>
+<TLINK lid="l29" relType="BEFORE" eventID="e12" relatedToTime="t127" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e24" relatedToTime="t127" task="B"/>
+<TLINK lid="l31" relType="BEFORE" eventID="e27" relatedToTime="t127" task="B"/>
+<TLINK lid="l32" relType="BEFORE" eventID="e29" relatedToTime="t127" task="B"/>
+<TLINK lid="l33" relType="AFTER" eventID="e34" relatedToTime="t127" task="B"/>
+<TLINK lid="l34" relType="BEFORE" eventID="e39" relatedToTime="t127" task="B"/>
+<TLINK lid="l35" relType="AFTER" eventID="e46" relatedToTime="t127" task="B"/>
+<TLINK lid="l36" relType="BEFORE" eventID="e45" relatedToTime="t127" task="B"/>
+<TLINK lid="l37" relType="OVERLAP" eventID="e158" relatedToTime="t127" task="B"/>
+<TLINK lid="l38" relType="BEFORE" eventID="e47" relatedToTime="t127" task="B"/>
+<TLINK lid="l39" relType="AFTER" eventID="e49" relatedToTime="t127" task="B"/>
+<TLINK lid="l40" relType="BEFORE" eventID="e53" relatedToTime="t127" task="B"/>
+<TLINK lid="l41" relType="BEFORE" eventID="e51" relatedToTime="t127" task="B"/>
+<TLINK lid="l42" relType="BEFORE" eventID="e54" relatedToTime="t127" task="B"/>
+<TLINK lid="l43" relType="OVERLAP" eventID="e66" relatedToTime="t127" task="B"/>
+<TLINK lid="l44" relType="BEFORE" eventID="e65" relatedToTime="t127" task="B"/>
+<TLINK lid="l45" relType="OVERLAP" eventID="e71" relatedToTime="t127" task="B"/>
+<TLINK lid="l46" relType="BEFORE" eventID="e70" relatedToTime="t127" task="B"/>
+<TLINK lid="l47" relType="BEFORE" eventID="e83" relatedToTime="t127" task="B"/>
+<TLINK lid="l48" relType="BEFORE" eventID="e93" relatedToTime="t127" task="B"/>
+<TLINK lid="l49" relType="BEFORE" eventID="e188" relatedToTime="t127" task="B"/>
+<TLINK lid="l50" relType="BEFORE" eventID="e89" relatedToTime="t127" task="B"/>
+<TLINK lid="l51" relType="BEFORE" eventID="e95" relatedToTime="t127" task="B"/>
+<TLINK lid="l52" relType="BEFORE" eventID="e98" relatedToTime="t127" task="B"/>
+<TLINK lid="l53" relType="BEFORE" eventID="e100" relatedToTime="t127" task="B"/>
+<TLINK lid="l54" relType="BEFORE" eventID="e102" relatedToTime="t127" task="B"/>
+<TLINK lid="l55" relType="BEFORE" eventID="e108" relatedToTime="t127" task="B"/>
+<TLINK lid="l56" relType="BEFORE" eventID="e110" relatedToTime="t127" task="B"/>
+<TLINK lid="l57" relType="AFTER" eventID="e111" relatedToTime="t127" task="B"/>
+</TempEval>

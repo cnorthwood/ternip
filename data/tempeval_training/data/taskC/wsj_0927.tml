@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891026-0131 
+ = 891026 
+ 891026-0131. 
+ Who's News:
+@  U.S. Trust Names
+@  Schwarz Chief,
+@  Maurer President
+@  ----
+@  By James T. Areddy
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t88" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ USTC WNEWS 
+ NEW YORK  
+
+   <s>H. Marshall Schwarz was <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="name" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">named</EVENT> chairman and chief executive officer of U.S. Trust Corp., a private-banking firm with assets under management of about $17 billion.</s> 
+
+   <s>Mr. Schwarz, 52 years old, will <EVENT eid="e3" mainevent="YES" class="OCCURRENCE" stem="succeed" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">succeed</EVENT> Daniel P. Davison <TIMEX3 tid="t89" type="DATE" value="1990-02-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">Feb. 1</TIMEX3>, soon after Mr. Davison <EVENT eid="e4" mainevent="NO" class="I_STATE" stem="reach" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">reaches</EVENT> the company's mandatory retirement age of 65.</s> 
+<s>Mr. Schwarz, who is president of U.S. Trust, will be <EVENT eid="e5" mainevent="YES" class="OCCURRENCE" stem="succeed" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">succeeded</EVENT> in that post by Jeffrey S. Maurer, 42, who is executive vice president in charge of the company's asset-management group.</s> 
+
+   <s>U.S. Trust, a 136-year-old institution that is one of the earliest high-net worth banks in the U.S., has <EVENT eid="e8" mainevent="YES" class="I_ACTION" stem="face" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">faced</EVENT> intensifying <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="competition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">competition</EVENT> from other firms that have <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="establish" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">established</EVENT>, and heavily <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="promote" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">promoted</EVENT>, private-banking businesses of their own.</s> 
+<s>As a result, U.S. Trust's earnings have been <EVENT eid="e16" mainevent="YES" class="OCCURRENCE" stem="hurt" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">hurt</EVENT>.</s> 
+
+   <s>But Mr. Schwarz <EVENT eid="e17" mainevent="YES" class="I_ACTION" stem="welcome" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">welcomes</EVENT> the <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="competition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">competition</EVENT> in U.S. Trust's flagship businesses, <EVENT eid="e93" mainevent="NO" class="I_ACTION" stem="call" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">calling</EVENT> it "flattery."</s> 
+<s>Mr. Schwarz <EVENT eid="e22" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT> the <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="competition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">competition</EVENT> "<EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="broaden" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">broadens</EVENT> the base of opportunity for us."</s> 
+<s>Other firms "are <EVENT eid="e25" mainevent="YES" class="OCCURRENCE" stem="deal" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">dealing</EVENT> with the masses.</s> 
+<s>I do n't <EVENT eid="e26" mainevent="NO" class="I_STATE" stem="believe" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">believe</EVENT> they <EVENT eid="e28" mainevent="NO" class="I_STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> the culture" to adequately <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="service" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">service</EVENT> high-net-worth individuals, he <EVENT eid="e30" mainevent="YES" class="REPORTING" stem="add" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">adds</EVENT>.</s> 
+<s>U.S. Trust <TIMEX3 tid="t95" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">recently</TIMEX3> <EVENT eid="e31" mainevent="YES" class="OCCURRENCE" stem="introduce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">introduced</EVENT> certain mutual-fund products, which allow it to serve customers with minimum deposits of $250,000.</s> 
+<s>Previously, the company <EVENT eid="e35" mainevent="YES" class="OCCURRENCE" stem="advertise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">advertised</EVENT> at the $2 million level.</s> 
+
+   <s>"We have always <EVENT eid="e37" mainevent="NO" class="OCCURRENCE" stem="take" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">taken</EVENT> smaller accounts, but <TIMEX3 tid="t97" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">now</TIMEX3> we are <EVENT eid="e39" mainevent="NO" class="OCCURRENCE" stem="look" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">looking</EVENT> for smaller accounts that will grow," Mr. Schwarz <EVENT eid="e42" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>.</s> 
+<s>"Our bread and butter is still the $2 million to $20 million account," he <EVENT eid="e2136" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>.</s> 
+<s>The new services <EVENT eid="e47" mainevent="NO" class="I_STATE" stem="allow" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">allow</EVENT> U.S. Trust to <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="cater" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">cater</EVENT> to the "new wealth," Mr. Schwarz <EVENT eid="e50" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>.</s> 
+
+   <s><TIMEX3 tid="t98" type="DURATION" value="P3M" temporalFunction="false" functionInDocument="NONE">Quarterly</TIMEX3> net income <TIMEX3 tid="t99" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">this year</TIMEX3> has <EVENT eid="e51" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">risen</EVENT> just over comparable periods in <TIMEX3 tid="t104" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3>, when year-end net was <EVENT eid="e2372" mainevent="NO" class="STATE" stem="below" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE">below</EVENT> the <TIMEX3 tid="t2194" type="DATE" value="1987" temporalFunction="false" functionInDocument="NONE">1987</TIMEX3> <EVENT eid="e2197" mainevent="NO" class="STATE" stem="level" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">level</EVENT>.</s> 
+<s>In <TIMEX3 tid="t111" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">this year's third quarter</TIMEX3>, for example, net was <EVENT eid="e2366" mainevent="YES" class="STATE" stem="$10.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$10.5</EVENT> million, or $1.05 a share, compared with <EVENT eid="e2367" mainevent="NO" class="STATE" stem="$10.3" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$10.3</EVENT> million, or $1.02 a share, <TIMEX3 tid="t112" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t111">a year earlier</TIMEX3>.</s> 
+<s>Assets as of <TIMEX3 tid="t113" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">Sept. 30</TIMEX3> <EVENT eid="e54" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> to <EVENT eid="e2368" mainevent="NO" class="STATE" stem="$2.46" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$2.46</EVENT> billion from about <EVENT eid="e2369" mainevent="NO" class="STATE" stem="$2.77" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$2.77</EVENT> billion.</s> 
+<s>"We  will <EVENT eid="e55" mainevent="NO" class="STATE" stem="have" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> a reasonably flat year <TIMEX3 tid="t122" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">this year</TIMEX3>," Mr. Schwarz <EVENT eid="e56" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">says</EVENT>.</s> 
+<s>Mr. Schwarz also <EVENT eid="e57" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> costs associated with U.S. Trust's planned move to midtown Manhattan from Wall Street will <EVENT eid="e60" mainevent="NO" class="ASPECTUAL" stem="continue" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> to be a <EVENT eid="e2370" mainevent="NO" class="OCCURRENCE" stem="drag" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">drag</EVENT> on earnings through <TIMEX3 tid="t116" type="DATE" value="1990" temporalFunction="false" functionInDocument="NONE">1990</TIMEX3>.</s> 
+
+   <s>Mr. Schwarz's great-grandfather <EVENT eid="e62" mainevent="YES" class="OCCURRENCE" stem="found" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">founded</EVENT> the New York toy store F.A.O. Schwarz, but his family no longer <EVENT eid="e64" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">has</EVENT> ties to the company.</s> 
+<s>Mr. Schwarz's father was a U.S. Trust <EVENT eid="e2371" mainevent="YES" class="STATE" stem="trustee" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">trustee</EVENT> until <TIMEX3 tid="t127" type="DATE" value="1974" temporalFunction="false" functionInDocument="NONE">1974</TIMEX3>.</s> 
+
+   <s>U.S. Trust also <EVENT eid="e65" mainevent="YES" class="I_ACTION" stem="create" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">created</EVENT> a four-member office of the chairman, effective <TIMEX3 tid="t131" type="DATE" value="1990-02-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t88">Feb. 1</TIMEX3>.</s> 
+<s>It  will include Messrs. 
+Schwarz and Maurer.</s> 
+<s>Donald M. Roberts, 54, treasurer, and Frederick S. Wonham, 58, who takes responsibility for the funds-service group, were <EVENT eid="e69" mainevent="YES" class="I_ACTION" stem="name" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">named</EVENT> vice chairmen and will <EVENT eid="e71" mainevent="NO" class="OCCURRENCE" stem="serve" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">serve</EVENT> in the office of the chairman.</s> 
+<s>Mr. Roberts <EVENT eid="e72" mainevent="YES" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continues</EVENT> as <EVENT eid="e132" mainevent="NO" class="STATE" stem="treasurer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">treasurer</EVENT>, and Mr. Wonham <EVENT eid="e73" mainevent="NO" class="ASPECTUAL" stem="remain" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">remains</EVENT> <EVENT eid="e133" mainevent="NO" class="STATE" stem="responsible" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">responsible</EVENT> for the offices of comptroller, planning, marketing and general services.</s> 
+
+   <s>Frederick B. Taylor, 48, also was <EVENT eid="e77" mainevent="YES" class="I_ACTION" stem="name" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">named</EVENT> a vice chairman and chief investment <EVENT eid="e135" mainevent="NO" class="STATE" stem="officer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">officer</EVENT>, a new post.</s> 
+<s>He previously <EVENT eid="e2364" mainevent="YES" class="STATE" stem="hold" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">held</EVENT> similar responsibilities.</s> 
+<s>Mr. Taylor also was <EVENT eid="e80" mainevent="YES" class="I_ACTION" stem="name" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">named</EVENT> a <EVENT eid="e136" mainevent="NO" class="STATE" stem="director" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">director</EVENT>, <EVENT eid="e137" mainevent="NO" class="OCCURRENCE" stem="increasing" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">increasing</EVENT> the board to <EVENT eid="e139" mainevent="NO" class="STATE" stem="22" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="OTHER">22</EVENT>, but is not  part of the new office of the chairman.</s> 
+
+   <s>James E. Bacon, 58, executive vice president, who has <EVENT eid="e84" mainevent="NO" class="OCCURRENCE" stem="direct" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">directed</EVENT> the funds-service group, will <EVENT eid="e85" mainevent="YES" class="OCCURRENCE" stem="retire" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">retire</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e42" eventID="e35" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e51" eventID="e50" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e2371" eventID="e62" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e80" eventID="e2364" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e65" eventID="e2371" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e22" eventID="e17" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e2364" eventID="e77" task="C"/>
+<TLINK lid="l8" relType="AFTER" relatedToEvent="e35" eventID="e31" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e25" eventID="e22" task="C"/>
+<TLINK lid="l10" relType="AFTER" relatedToEvent="e31" eventID="e30" task="C"/>
+<TLINK lid="l11" relType="AFTER" relatedToEvent="e62" eventID="e57" task="C"/>
+<TLINK lid="l12" relType="OVERLAP" relatedToEvent="e2366" eventID="e51" task="C"/>
+<TLINK lid="l13" relType="AFTER" relatedToEvent="e8" eventID="e5" task="C"/>
+<TLINK lid="l14" relType="BEFORE" relatedToEvent="e85" eventID="e80" task="C"/>
+<TLINK lid="l15" relType="OVERLAP" relatedToEvent="e72" eventID="e69" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e2136" eventID="e42" task="C"/>
+<TLINK lid="l17" relType="BEFORE" relatedToEvent="e56" eventID="e54" task="C"/>
+<TLINK lid="l18" relType="OVERLAP" relatedToEvent="e50" eventID="e2136" task="C"/>
+<TLINK lid="l19" relType="BEFORE" relatedToEvent="e3" eventID="e1" task="C"/>
+<TLINK lid="l20" relType="OVERLAP" relatedToEvent="e77" eventID="e72" task="C"/>
+<TLINK lid="l21" relType="OVERLAP" relatedToEvent="e5" eventID="e3" task="C"/>
+<TLINK lid="l22" relType="BEFORE-OR-OVERLAP" relatedToEvent="e17" eventID="e16" task="C"/>
+<TLINK lid="l23" relType="OVERLAP" relatedToEvent="e54" eventID="e2366" task="C"/>
+<TLINK lid="l24" relType="OVERLAP" relatedToEvent="e57" eventID="e56" task="C"/>
+<TLINK lid="l25" relType="BEFORE" relatedToEvent="e16" eventID="e8" task="C"/>
+<TLINK lid="l26" relType="OVERLAP" relatedToEvent="e30" eventID="e25" task="C"/>
+
+</TempEval>

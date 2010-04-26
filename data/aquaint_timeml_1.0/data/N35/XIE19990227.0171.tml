@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOC>
+<DOCNO> XIE19990227.0171 </DOCNO>
+<DATE_TIME> <TIMEX3 tid="t1" type="DATE" functionInDocument="CREATION_TIME" temporalFunction="false" value="1999-02-27">1999-02-27</TIMEX3> </DATE_TIME>
+<BODY>
+<HEADLINE> Polish, Czech Presidents Sign NATO Document </HEADLINE>
+<TEXT>
+<P>
+WARSAW, February 26 (Xinhua) -- The presidents of Poland and
+the Czech Republic have <EVENT eid="e1" class="OCCURRENCE">signed</EVENT> papers of accession in simultaneous
+<EVENT eid="e2" class="OCCURRENCE">ceremonies</EVENT> -- <EVENT eid="e3" class="OCCURRENCE">broadcast</EVENT> live on Polish television in Warsaw and
+Prague -- to <EVENT eid="e4" class="STATE">become</EVENT> members of the North Atlantic Treaty
+Organization (NATO).
+</P>
+<P>
+Poland's Aleksander Kwasniewski and Vaclav Havel <EVENT eid="e5" class="OCCURRENCE">signed</EVENT> the
+preparatory documents in their presidential palaces. Polish
+Defense Minister Janusz Onyszkiewicz and other senior military
+officers <EVENT eid="e6" class="STATE">were</EVENT> also present at the <EVENT eid="e7" class="OCCURRENCE">ceremony</EVENT>.
+</P>
+<P>
+Poland, the Czech Republic and Hungary, who were <EVENT eid="e8" class="I_ACTION">invited</EVENT> to
+<EVENT eid="e9" class="OCCURRENCE">join</EVENT> NATO in Madrid <SIGNAL sid="s1">in</SIGNAL> <TIMEX3 tid="t2" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1997-07">July 1997</TIMEX3>, will officially <EVENT eid="e10" class="OCCURRENCE">join</EVENT> NATO <SIGNAL sid="s2">on</SIGNAL>
+<TIMEX3 tid="t3" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-03-12">March 12</TIMEX3> in a <EVENT eid="e11" class="OCCURRENCE">ceremony</EVENT> in Independence, Missouri.
+</P>
+<P>
+Hungarian head of state Arpad Goencz <EVENT eid="e12" class="OCCURRENCE">signed</EVENT> Budapest's
+accession document <SIGNAL sid="s3">on</SIGNAL> <TIMEX3 tid="t4" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-02-10">February 10</TIMEX3>.
+</P>
+<P>
+U.S. Secretary of State Madeleine Albright has <EVENT eid="e13" class="I_ACTION">invited</EVENT> Polish
+Foreign Minister Bronisaw Geremek to <EVENT eid="e14" class="OCCURRENCE">visit</EVENT> the United States. He
+will then <EVENT eid="e15" class="OCCURRENCE">travel</EVENT> to Washington DC <SIGNAL sid="s4">on</SIGNAL> <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-03-12">March 12</TIMEX3> to <EVENT eid="e16" class="OCCURRENCE">submit</EVENT> the
+document. 
+</P>
+</TEXT>
+</BODY>
+</DOC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" tense="PRESENT" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei2" eventID="e2" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei3" eventID="e3" tense="NONE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei4" eventID="e4" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei5" eventID="e5" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei6" eventID="e6" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei7" eventID="e7" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei8" eventID="e8" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei9" eventID="e9" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei10" eventID="e10" tense="FUTURE" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei11" eventID="e11" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei12" eventID="e12" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei13" eventID="e13" tense="PRESENT" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei14" eventID="e14" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei15" eventID="e15" tense="FUTURE" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei16" eventID="e16" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><TLINK lid="l1" timeID="t1" relatedToEventInstance="ei1" relType="INCLUDES" origin="USER"/><TLINK lid="l2" timeID="t1" relatedToEventInstance="ei2" relType="INCLUDES" origin="USER"/><TLINK lid="l3" timeID="t1" relatedToEventInstance="ei3" relType="INCLUDES" origin="USER"/><TLINK lid="l4" timeID="t1" relatedToEventInstance="ei4" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l5" timeID="t1" relatedToEventInstance="ei5" relType="INCLUDES" origin="USER"/><TLINK lid="l6" timeID="t1" relatedToEventInstance="ei6" relType="INCLUDES" origin="USER"/><TLINK lid="l7" timeID="t1" relatedToEventInstance="ei7" relType="INCLUDES" origin="USER"/><TLINK lid="l8" timeID="t2" signalID="s1" relatedToEventInstance="ei8" relType="INCLUDES" origin="USER"/><TLINK lid="l10" timeID="t3" signalID="s2" relatedToEventInstance="ei10" relType="INCLUDES" origin="USER"/><TLINK lid="l11" timeID="t3" relatedToEventInstance="ei11" relType="INCLUDES" origin="USER"/><TLINK lid="l12" timeID="t4" signalID="s3" relatedToEventInstance="ei12" relType="INCLUDES" origin="USER"/><TLINK lid="l13" timeID="t1" relatedToEventInstance="ei13" relType="IS_INCLUDED" origin="USER"/><TLINK lid="l15" timeID="t5" signalID="s4" relatedToEventInstance="ei15" relType="INCLUDES" origin="USER"/><TLINK lid="l16" timeID="t5" relatedToEventInstance="ei16" relType="INCLUDES" origin="USER"/><SLINK lid="l9" eventInstanceID="ei8" subordinatedEventInstance="ei9" relType="FACTIVE"/><SLINK lid="l14" eventInstanceID="ei13" subordinatedEventInstance="ei14" relType="FACTIVE"/></TimeML>

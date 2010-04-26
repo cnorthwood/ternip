@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0155 
+ = 891026 
+ 891026-0155. 
+ Technology amp Health:
+@  Compaq Computer
+@  Posts a 51% Surge
+@  In 3rd-Period Net
+@  ----
+@  By Robert Tomsho
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t50" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CPQ 
+ COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+EARNINGS (ERN) 
+ HOUSTON  
+
+   <s>Compaq Computer Corp. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> that its net income <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 51% in <TIMEX3 tid="t106" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t50">the third quarter</TIMEX3>, <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="bolster" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">bolstered</EVENT> by unusual <EVENT eid="e117" mainevent="NO" class="STATE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gains</EVENT> from its <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="investment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">investment</EVENT> in a disk-drive maker and reflecting continued <EVENT eid="e52" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> in its European <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT>.</s> 
+
+   <s>The computer maker <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> net <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="jump" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">jumped</EVENT> to <EVENT eid="e118" mainevent="NO" class="STATE" stem="$87" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$87</EVENT> million, or $2.02 a share, from <EVENT eid="e119" mainevent="NO" class="STATE" stem="$58" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$58</EVENT> million, or $1.40 a share, <TIMEX3 tid="t58" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t106">a year earlier</TIMEX3>.</s> 
+<s>Sales <EVENT eid="e12" mainevent="YES" class="OCCURRENCE" stem="increase" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">increased</EVENT> 36% to <EVENT eid="e120" mainevent="NO" class="STATE" stem="$683" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$683</EVENT> million from <EVENT eid="e121" mainevent="NO" class="STATE" stem="$502" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$502</EVENT> million.</s> 
+<s><TIMEX3 tid="t64" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t50">The latest quarter</TIMEX3>'s <EVENT eid="e13" mainevent="YES" class="STATE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT>, however , included a pretax <EVENT eid="e66" mainevent="NO" class="STATE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT> of $13.7 million, or 20 cents a share, in the carrying value of the company's <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="investment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">investment</EVENT> in Conner Peripherals Inc. and a $7.6 million <EVENT eid="e67" mainevent="NO" class="STATE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT>, or 11 cents a share, from the <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of one million Conner shares.</s> 
+
+   <s>Net for <TIMEX3 tid="t68" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the nine months</TIMEX3> was <EVENT eid="e122" mainevent="YES" class="STATE" stem="$254" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$254</EVENT> million, or $5.94 a share, up 56% from <EVENT eid="e123" mainevent="NO" class="STATE" stem="$163" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$163</EVENT> million, or $4.06 a share, <TIMEX3 tid="t72" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t64">a year earlier</TIMEX3>.</s> 
+<s>Sales <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 50% to <EVENT eid="e124" mainevent="NO" class="STATE" stem="$2.1" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$2.1</EVENT> billion from <EVENT eid="e125" mainevent="NO" class="STATE" stem="$1.4" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$1.4</EVENT> billion.</s> 
+<s>Net for <TIMEX3 tid="t247" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t50">the year-earlier nine months</TIMEX3> also included a <EVENT eid="e80" mainevent="YES" class="STATE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT> of $9.7 million, or 15 cents a share, in the carrying value of the Conner <EVENT eid="e81" mainevent="NO" class="OCCURRENCE" stem="investment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">investment</EVENT>.</s> 
+
+   <s>Michael Swavely, president of Compaq's North America division, <EVENT eid="e23" mainevent="YES" class="I_ACTION" stem="attribute" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">attributed</EVENT> the company's <TIMEX3 tid="t82" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t50">third-quarter</TIMEX3> <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="performance" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">performance</EVENT> to continued <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">increases</EVENT> in international sales, which accounted for 43% of the company's sales, a 74% <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">increase</EVENT> from <TIMEX3 tid="t83" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t82">a year earlier</TIMEX3>.</s> 
+
+   <s>"Over <TIMEX3 tid="t86" type="DURATION" value="P2Y" mod="APPROX" temporalFunction="true" functionInDocument="NONE" beginPoint="t50">the next couple of years</TIMEX3> we would not be <EVENT eid="e29" mainevent="NO" class="I_STATE" stem="surprised" tense="NONE" aspect="NONE" polarity="NEG" pos="ADJECTIVE">surprised</EVENT> to <EVENT eid="e33" mainevent="NO" class="PERCEPTION" stem="see" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">see</EVENT> Europe and international {sales} <EVENT eid="e34" mainevent="NO" class="STATE" stem="represent" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">represent</EVENT> 50% of the company's revenues," he <EVENT eid="e35" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>During <TIMEX3 tid="t87" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t50">the third quarter</TIMEX3>, Compaq <EVENT eid="e36" mainevent="YES" class="OCCURRENCE" stem="purchase" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">purchased</EVENT> a former Wang Laboratories manufacturing facility in Stirling, Scotland, which will be <EVENT eid="e37" mainevent="NO" class="OCCURRENCE" stem="use" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">used</EVENT> for international service and repair operations.</s> 
+<s>Mr. Swavely <EVENT eid="e40" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the new space will <EVENT eid="e41" mainevent="NO" class="I_STATE" stem="allow" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">allow</EVENT> Compaq to <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="increase" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">increase</EVENT> the manufacturing capacity of its plant in Erskine, Scotland.</s> 
+
+   <s>In New York Stock Exchange composite trading <TIMEX3 tid="t91" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t50">yesterday</TIMEX3>, Compaq shares <EVENT eid="e44" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> $1.625 to <EVENT eid="e90" mainevent="NO" class="STATE" stem="$108.625" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="OTHER">$108.625</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="VAGUE" relatedToEvent="e44" eventID="e40" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e40" eventID="e36" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e122" eventID="e13" task="C"/>
+<TLINK lid="l4" relType="VAGUE" relatedToEvent="e80" eventID="e20" task="C"/>
+<TLINK lid="l5" relType="VAGUE" relatedToEvent="e20" eventID="e122" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e9" eventID="e1" task="C"/>
+<TLINK lid="l7" relType="BEFORE-OR-OVERLAP" relatedToEvent="e13" eventID="e12" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e35" eventID="e23" task="C"/>
+<TLINK lid="l9" relType="AFTER" relatedToEvent="e12" eventID="e9" task="C"/>
+<TLINK lid="l10" relType="BEFORE" relatedToEvent="e23" eventID="e80" task="C"/>
+<TLINK lid="l11" relType="AFTER" relatedToEvent="e36" eventID="e35" task="C"/>
+
+</TempEval>

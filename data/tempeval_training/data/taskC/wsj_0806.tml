@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891027-0089 
+ = 891027 
+ 891027-0089. 
+ Financing Business:
+@  Healthdyne Inc. 
+ <TIMEX3 tid="t22" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ HDYN 
+ STOCK MARKET, OFFERINGS (STK)
+INITIAL STOCK OFFERINGS (INI) 
+
+   <s>HEALTHDYNE Inc., Atlanta, <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its subsidiary, Home Nutritional Services Inc., <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="register" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">registered</EVENT> with the Securities and Exchange Commission an initial public <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="offering" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offering</EVENT> of four million shares of common.</s> 
+<s>The in-home health care services provider <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="sell" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> 1.8 million of the new shares, while Home Nutritional Services will <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="sell" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> the remaining 2.2 million.</s> 
+<s>The company <EVENT eid="e8" mainevent="YES" class="I_STATE" stem="estimate" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">estimates</EVENT> the offering price at <EVENT eid="e21" mainevent="NO" class="STATE" stem="between $14 and $16" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">between $14 and $16</EVENT> a share.</s> 
+<s>The company <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e10" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="use" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">use</EVENT> the proceeds to <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="repay" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">repay</EVENT> certain bank debt and for general corporate purposes, including <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="establishing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">establishing</EVENT> new operating centers and possible <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisitions</EVENT>.</s> 
+<s>Home Nutritional <TIMEX3 tid="t23" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t22">currently</TIMEX3> <EVENT eid="e17" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> 10 million shares outstanding.</s> 
+<s>It will <EVENT eid="e24" mainevent="YES" class="STATE" stem="have" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> 11.8 million shares outstanding after the <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="offering" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offering</EVENT>, with Healthdyne <EVENT eid="e20" mainevent="NO" class="STATE" stem="owning" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">owning</EVENT> about 65% of the total.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e9" eventID="e8" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e4" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e8" eventID="e4" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e24" eventID="e17" task="C"/>
+<TLINK lid="l5" relType="BEFORE-OR-OVERLAP" relatedToEvent="e17" eventID="e9" task="C"/>
+
+</TempEval>

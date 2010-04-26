@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891101-0018 
+ = 891101 
+ 891101-0018. 
+ Business Brief -- Cilcorp Inc.:
+@  Some Assets to Be Acquired
+@  From Hunter Environmental 
+ <TIMEX3 tid="t30" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CER HESI 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Cilcorp Inc., Peoria, Ill., <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT>  to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquire</EVENT> the environmental consulting and analytical service businesses of Hunter Environmental Services Inc. of Southport, Conn. 
+   The utility holding company <EVENT eid="e6" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Hunter  will <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="receive" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">receive</EVENT> 390,000 shares of a new series of Cilcorp convertible preferred stock with a face value of $39 million for the businesses.</s> 
+<s>Cilcorp  will  also <EVENT eid="e8" mainevent="YES" class="I_ACTION" stem="assume" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">assume</EVENT> $22 million of Hunter's existing <EVENT eid="e36" mainevent="NO" class="STATE" stem="debt" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">debt</EVENT>.</s> 
+<s>As part of the <EVENT eid="e37" mainevent="NO" class="I_ACTION" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT>, Cilcorp <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it  will <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="pay" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> Hunter $4 million in exchange for agreements not to compete.</s> 
+
+   <s>Cilcorp <EVENT eid="e15" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the businesses  to  be <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquired</EVENT> <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e39" mainevent="NO" class="OCCURRENCE" stem="revenue" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">revenue</EVENT> of $76 million for <TIMEX3 tid="t33" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t32">the year</TIMEX3> ended <TIMEX3 tid="t32" type="DATE" value="1989-03-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">March 31</TIMEX3>.</s> 
+
+   <s>Separately, Cilcorp <EVENT eid="e18" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e19" mainevent="NO" class="I_STATE" stem="plan" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">plans</EVENT>  to <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">purchase</EVENT> as many as 1.4 million shares, or 10% of its common stock outstanding from time to time on the open market and through privately negotiated transactions.</s> 
+
+   <s>The company, which <TIMEX3 tid="t34" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">currently</TIMEX3> <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> 13.5 million common shares outstanding, <EVENT eid="e27" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> no specific <EVENT eid="e41" mainevent="NO" class="I_ACTION" stem="plan" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">plans</EVENT> for the shares.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="VAGUE" relatedToEvent="e18" eventID="e15" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e15" eventID="e10" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e10" eventID="e8" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e27" eventID="e18" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e8" eventID="e1" task="C"/>
+
+</TempEval>

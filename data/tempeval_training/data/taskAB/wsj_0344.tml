@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891101-0020 
+ = 891101 
+ 891101-0020. 
+ Publishing Firm Hires
+@  Financial Adviser
+@  To Weigh Alternatives 
+ <TIMEX3 tid="t40" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ PSSP 
+ EARNINGS (ERN)
+TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ LOS ANGELES  
+
+   <s>Price Stern Sloan Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="hire" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">hired</EVENT> an investment banking firm to <EVENT eid="e4" class="I_ACTION" stem="assist" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">assist</EVENT> in <EVENT eid="e5" class="OCCURRENCE" stem="evaluate" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">evaluating</EVENT> restructuring or merger alternatives and <EVENT eid="e6" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> a net <EVENT eid="e7" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $8.1 million, or $2.14 a share, for <TIMEX3 tid="t41" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t40">the third quarter</TIMEX3> ended <TIMEX3 tid="t42" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t40">Sept. 30</TIMEX3>.</s> 
+
+   <s>These results <EVENT eid="e62" class="STATE" stem="compare" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">compare</EVENT> with net <EVENT eid="e58" class="OCCURRENCE" stem="income" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">income</EVENT> of $1.8 million, or 44 cents a share, for <TIMEX3 tid="t46" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">the corresponding period last year</TIMEX3>.</s> 
+<s><TIMEX3 tid="t47" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">This quarter</TIMEX3>'s <EVENT eid="e11" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> includes pretax <EVENT eid="e13" class="OCCURRENCE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charges</EVENT> of $4.9 million on the proposed discontinuation of the company's troubled British subsidiary, and $3.7 million of other write-offs the company <EVENT eid="e17" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> were non-recurring and principally related to inventory, publishing advances and pre-publication costs.</s> 
+<s>The publishing concern <EVENT eid="e21" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e22" class="OCCURRENCE" stem="retain" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">retained</EVENT> the investment banking firm of Donaldson, Lufkin amp Jenrette Securities Inc. to <EVENT eid="e23" class="OCCURRENCE" stem="act" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">act</EVENT> as its financial adviser, <EVENT eid="e24" class="I_ACTION" stem="assist" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">assisting</EVENT> in the <EVENT eid="e25" class="OCCURRENCE" stem="evaluation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">evaluation</EVENT> of various financial and strategic alternatives, including debt refinancing, raising capital, recapitalization, a merger or sale of the company.</s> 
+
+   <s>The company also <EVENT eid="e30" class="OCCURRENCE" stem="retain" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">retained</EVENT> attorney Martin P. Levin, a director of the company and former head of the Times-Mirror Publishing Group, as an adviser.</s> 
+
+   <s>Net sales for <TIMEX3 tid="t49" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t40">this year's third quarter</TIMEX3> were <EVENT eid="e59" class="STATE" stem="$14" aspect="NONE" tense="PAST" polarity="POS" pos="OTHER">$14</EVENT> million, down from <EVENT eid="e60" class="STATE" stem="$21.4" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$21.4</EVENT> million <TIMEX3 tid="t53" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t40">last year</TIMEX3>.</s> 
+<s>The company <EVENT eid="e31" class="I_ACTION" stem="attribute" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">attributed</EVENT> the <EVENT eid="e32" class="OCCURRENCE" stem="decrease" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">decrease</EVENT> in part to the <EVENT eid="e54" class="OCCURRENCE" stem="exclusion" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">exclusion</EVENT> of the company's British sales from the current year's figures as a result of the subsidiary's <EVENT eid="e56" class="STATE" stem="status" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">status</EVENT> as a proposed discontinued operation and, in part, to lower <EVENT eid="e55" class="STATE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sales</EVENT> in certain key foreign and domestic accounts.</s> 
+<s>U.K. sales for <TIMEX3 tid="t58" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">last year's quarter</TIMEX3> were about <EVENT eid="e61" class="STATE" stem="$3" aspect="NONE" tense="PAST" polarity="POS" pos="OTHER">$3</EVENT> million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e6" relatedToTime="t41" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e6" relatedToTime="t42" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e1" relatedToTime="t41" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e1" relatedToTime="t42" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e7" relatedToTime="t41" task="A"/>
+<TLINK lid="l6" relType="BEFORE-OR-OVERLAP" eventID="e7" relatedToTime="t42" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e13" relatedToTime="t47" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e17" relatedToTime="t47" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e11" relatedToTime="t47" task="A"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e6" relatedToTime="t40" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e1" relatedToTime="t40" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e7" relatedToTime="t40" task="B"/>
+<TLINK lid="l13" relType="BEFORE-OR-OVERLAP" eventID="e13" relatedToTime="t40" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e17" relatedToTime="t40" task="B"/>
+<TLINK lid="l15" relType="BEFORE-OR-OVERLAP" eventID="e11" relatedToTime="t40" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e21" relatedToTime="t40" task="B"/>
+<TLINK lid="l17" relType="BEFORE-OR-OVERLAP" eventID="e55" relatedToTime="t40" task="B"/>
+</TempEval>

@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891026-0043 
+ = 891026 
+ 891026-0043. 
+ Columbia SampL Posts $226.3 Million Loss
+@  After Writing Down High-Yield Portfolio
+@  ----
+@  By Pauline Yoshihashi
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t163" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CSV 
+ EARNINGS (ERN) 
+ BEVERLY HILLS, Calif.  
+
+   <s>Columbia Savings amp Loan Association, <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="reel" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">reeling</EVENT> from thrift-accounting <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="change" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">changes</EVENT> <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="mandate" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">mandated</EVENT> by Congress and the recent <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="collapse" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">collapse</EVENT> of the junk-bond market, <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> a <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> for <TIMEX3 tid="t164" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">the third quarter</TIMEX3> of $226.3 million, or $11.57 a share.</s> 
+
+   <s>For <TIMEX3 tid="t165" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t164">the quarter a year ago</TIMEX3>, Columbia <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> earnings of $16.3 million, or 37 cents a share.</s> 
+<s>Total assets <EVENT eid="e10" mainevent="YES" class="OCCURRENCE" stem="increase" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">increased</EVENT> to <EVENT eid="e2401" mainevent="NO" class="STATE" stem="$12.7" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$12.7</EVENT> billion in <TIMEX3 tid="t166" type="DATE" value="1989-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">the latest quarter</TIMEX3> from <EVENT eid="e2402" mainevent="NO" class="STATE" stem="$12.4" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$12.4</EVENT> billion <TIMEX3 tid="t167" type="DATE" value="1988-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t166">a year earlier</TIMEX3>.</s> 
+
+   <s>The <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> <EVENT eid="e12" mainevent="YES" class="OCCURRENCE" stem="stem" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">stems</EVENT> from $357.5 million of <EVENT eid="e168" mainevent="NO" class="OCCURRENCE" stem="write-downs" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">write-downs</EVENT> on Columbia's $4.4 billion high-yield investment securities portfolio, which <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="include" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">includes</EVENT> about $3.7 billion of junk bonds, $400 million of preferred stock, and Treasury securities.</s> 
+
+   <s>Columbia <EVENT eid="e15" mainevent="YES" class="OCCURRENCE" stem="owe" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">owes</EVENT> its spectacular <EVENT eid="e2022" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> in <TIMEX3 tid="t169" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">recent years</TIMEX3> to its junk-bond portfolio, the largest of any U.S. thrift.</s> 
+<s>Much of Columbia's junk-bond <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> has been <EVENT eid="e18" mainevent="YES" class="OCCURRENCE" stem="do" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">done</EVENT> through the high-yield department of its Beverly Hills neighbor, Drexel Burnham Lambert Inc. 
+
+   For <TIMEX3 tid="t170" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the nine months</TIMEX3>, losses <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="total" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">totaled</EVENT> <EVENT eid="e2403" mainevent="NO" class="STATE" stem="$212" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$212</EVENT> million, or $10.83 a share, compared with net income of <EVENT eid="e2404" mainevent="NO" class="STATE" stem="$48.7" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$48.7</EVENT> million, or $1.11 a share, <TIMEX3 tid="t172" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">a year earlier</TIMEX3>.</s> 
+
+   <s>The <EVENT eid="e21" mainevent="YES" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> include a $130.2 million <EVENT eid="e1989" mainevent="NO" class="OCCURRENCE" stem="write-down" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">write-down</EVENT> of the securities in the high-yield portfolio to the lower of their cost or market value.</s> 
+
+   <s>Columbia also <EVENT eid="e26" mainevent="YES" class="OCCURRENCE" stem="add" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">added</EVENT> $227.3 million to reserves for <EVENT eid="e1990" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">losses</EVENT> on the portfolio, <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="increase" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">increasing</EVENT> general reserves to <EVENT eid="e2405" mainevent="NO" class="STATE" stem="$300" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$300</EVENT> million, or about 6.7% of the total portfolio, as of <TIMEX3 tid="t1991" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">Sept. 30</TIMEX3>.</s> 
+<s>On <TIMEX3 tid="t1992" type="DATE" value="1989-06-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">June 30</TIMEX3>, loss reserves <EVENT eid="e31" mainevent="YES" class="OCCURRENCE" stem="stand" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">stood</EVENT> at $108.3 million.</s> 
+<s>Thrift officials <EVENT eid="e32" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the $300 million reserve will be <EVENT eid="e33" mainevent="NO" class="OCCURRENCE" stem="adjust" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">adjusted</EVENT> quarterly and will <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="reflect" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">reflect</EVENT> the <EVENT eid="e2099" mainevent="NO" class="STATE" stem="rate" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">rate</EVENT> of dispositions and market <EVENT eid="e2100" mainevent="NO" class="STATE" stem="condition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">conditions</EVENT>.</s> 
+
+   <s>The <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="adjustment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">adjustments</EVENT> <EVENT eid="e37" mainevent="YES" class="OCCURRENCE" stem="result" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">result</EVENT> from the recently <EVENT eid="e1993" mainevent="NO" class="OCCURRENCE" stem="passed" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">passed</EVENT> thrift-industry bailout legislation, which <EVENT eid="e40" mainevent="NO" class="OCCURRENCE" stem="require" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">requires</EVENT> thrifts to <EVENT eid="e42" mainevent="NO" class="OCCURRENCE" stem="divest" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">divest</EVENT> all high-yield bond investments by <TIMEX3 tid="t1994" type="DATE" value="1994" temporalFunction="false" functionInDocument="NONE">1994</TIMEX3>.</s> 
+<s>Previously, Columbia did n't have to <EVENT eid="e47" mainevent="YES" class="OCCURRENCE" stem="adjust" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">adjust</EVENT> the book value of its junk-bond holdings to <EVENT eid="e50" mainevent="NO" class="OCCURRENCE" stem="reflect" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">reflect</EVENT> <EVENT eid="e1997" mainevent="NO" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">declines</EVENT> in market prices, because it <EVENT eid="e52" mainevent="NO" class="OCCURRENCE" stem="hold" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">held</EVENT> the bonds as long-term investments.</s> 
+<s>Because Columbia <TIMEX3 tid="t2151" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">now</TIMEX3> must <EVENT eid="e55" mainevent="NO" class="OCCURRENCE" stem="sell" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> the bonds within <TIMEX3 tid="t1999" type="DURATION" value="P5Y" temporalFunction="false" functionInDocument="NONE">five years</TIMEX3>, accounting rules <EVENT eid="e58" mainevent="YES" class="OCCURRENCE" stem="require" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">require</EVENT> the thrift to <EVENT eid="e60" mainevent="NO" class="OCCURRENCE" stem="value" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">value</EVENT> the bonds at the lower of cost or market prices.</s> 
+
+   <s>For its future strategy, Columbia officials <EVENT eid="e62" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the thrift may <EVENT eid="e2000" mainevent="NO" class="OCCURRENCE" stem="branch" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">branch</EVENT> out into commercial <EVENT eid="e63" mainevent="NO" class="OCCURRENCE" stem="lending" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">lending</EVENT> or <EVENT eid="e65" mainevent="NO" class="OCCURRENCE" stem="managing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">managing</EVENT> outside investments, as well as <EVENT eid="e67" mainevent="NO" class="OCCURRENCE" stem="beef" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">beefing</EVENT> up more traditional thrift <EVENT eid="e68" mainevent="NO" class="OCCURRENCE" stem="activity" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">activities</EVENT>.</s> 
+
+   <s>The quarterly <EVENT eid="e69" mainevent="NO" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> also <EVENT eid="e70" mainevent="YES" class="OCCURRENCE" stem="reflect" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reflected</EVENT> $21.4 million in non-recurring <EVENT eid="e2001" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">losses</EVENT> from commercial real-estate <EVENT eid="e71" mainevent="NO" class="OCCURRENCE" stem="activity" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">activities</EVENT> in California.</s> 
+
+   <s>Thomas Spiegel, Columbia's chairman, <EVENT eid="e73" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> in a <EVENT eid="e74" mainevent="NO" class="OCCURRENCE" stem="statement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">statement</EVENT> that the thrift was " <EVENT eid="e76" mainevent="NO" class="OCCURRENCE" stem="disappoint" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">disappointed</EVENT>" by the effects of the accounting <EVENT eid="e77" mainevent="NO" class="OCCURRENCE" stem="change" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">changes</EVENT>.</s> 
+<s>But he <EVENT eid="e78" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Columbia <EVENT eid="e79" mainevent="NO" class="STATE" stem="remain" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">remains</EVENT> "one of the most strongly capitalized thrifts in the industry," <EVENT eid="e82" mainevent="NO" class="OCCURRENCE" stem="base" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">based</EVENT> on the economic value of its assets and tangible capital.</s> 
+
+   <s>Columbia <EVENT eid="e84" mainevent="YES" class="REPORTING" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> the <EVENT eid="e85" mainevent="NO" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> after the <EVENT eid="e2002" mainevent="NO" class="OCCURRENCE" stem="close" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">close</EVENT> of the stock market.</s> 
+<s>Its shares <EVENT eid="e87" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> at $5.125 each in composite New York Stock Exchange trading, down 37.5 cents.</s> 
+<s>The price of Columbia shares has been <EVENT eid="e88" mainevent="YES" class="OCCURRENCE" stem="cut" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">cut</EVENT> nearly in half since <TIMEX3 tid="t2004" type="DATE" value="1989-08" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">August</TIMEX3>, when they <EVENT eid="e91" mainevent="NO" class="OCCURRENCE" stem="trade" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">traded</EVENT> at about $10, as investors apparently <EVENT eid="e92" mainevent="NO" class="OCCURRENCE" stem="realize" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">realized</EVENT> that the thrift would be <EVENT eid="e93" mainevent="NO" class="OCCURRENCE" stem="force" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="VERB">forced</EVENT> to <EVENT eid="e96" mainevent="NO" class="OCCURRENCE" stem="take" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">take</EVENT> a big <EVENT eid="e2005" mainevent="NO" class="OCCURRENCE" stem="write-down" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">write-down</EVENT>.</s> 
+<s>The stock's <EVENT eid="e2006" mainevent="NO" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decline</EVENT> <EVENT eid="e97" mainevent="YES" class="OCCURRENCE" stem="accelerate" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">accelerated</EVENT> in <TIMEX3 tid="t2007" type="DURATION" value="P2W" temporalFunction="true" functionInDocument="NONE" endPoint="t163">the past two weeks</TIMEX3>, from a price of <EVENT eid="e2008" mainevent="NO" class="STATE" stem="$8" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$8</EVENT> a share on <TIMEX3 tid="t2009" type="DATE" value="1989-10-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">Oct. 9</TIMEX3>.</s> 
+
+   <s>Columbia officials <EVENT eid="e99" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> they do n't <EVENT eid="e100" mainevent="NO" class="OCCURRENCE" stem="know" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">know</EVENT> how quickly they will <EVENT eid="e102" mainevent="NO" class="OCCURRENCE" stem="dispose" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">dispose</EVENT> of the thrift's junk bonds, because federal regulations, such as those that would <EVENT eid="e105" mainevent="NO" class="OCCURRENCE" stem="allow" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">allow</EVENT> thrifts to <EVENT eid="e108" mainevent="NO" class="ASPECTUAL" stem="continue" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">continue</EVENT> <EVENT eid="e109" mainevent="NO" class="OCCURRENCE" stem="hold" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">holding</EVENT> the bonds in separately capitalized subsidiaries, have n't yet been <EVENT eid="e111" mainevent="NO" class="ASPECTUAL" stem="complete" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">completed</EVENT>.</s> 
+
+   <s>Columbia officials also <EVENT eid="e113" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the thrift should n't <EVENT eid="e114" mainevent="NO" class="OCCURRENCE" stem="face" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">face</EVENT> problems <EVENT eid="e117" mainevent="NO" class="OCCURRENCE" stem="meeting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">meeting</EVENT> regulatory capital requirements, despite the large reserves and <EVENT eid="e2010" mainevent="NO" class="OCCURRENCE" stem="write-downs" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">write-downs</EVENT> and stiffer regulatory requirements that should be <EVENT eid="e2406" mainevent="NO" class="STATE" stem="in" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">in</EVENT> place by <TIMEX3 tid="t2012" type="DATE" value="1989" mod="END" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">year's end</TIMEX3>.</s> 
+<s>Its ratio of tangible equity to total assets as of <TIMEX3 tid="t2013" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t163">Sept. 30</TIMEX3> was <EVENT eid="e2398" mainevent="YES" class="STATE" stem="3.6%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">3.6%</EVENT>, and total equity was <EVENT eid="e2399" mainevent="NO" class="STATE" stem="$457.9" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$457.9</EVENT> million.</s> 
+
+   <s>The thrift <EVENT eid="e124" mainevent="YES" class="REPORTING" stem="emphasize" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">emphasized</EVENT> that it <EVENT eid="e125" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> a large portfolio of equity securities <EVENT eid="e128" mainevent="NO" class="OCCURRENCE" stem="issue" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">issued</EVENT> in connection with corporate restructurings and leveraged <EVENT eid="e2015" mainevent="NO" class="OCCURRENCE" stem="buy-outs" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">buy-outs</EVENT>, which <EVENT eid="e130" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> a book value of $90 million.</s> 
+
+   <s>Although many of the <EVENT eid="e131" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transactions</EVENT> related to those securities have n't been <EVENT eid="e134" mainevent="NO" class="OCCURRENCE" stem="complete" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">completed</EVENT>, Columbia <EVENT eid="e136" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the ultimate <EVENT eid="e2397" mainevent="NO" class="OCCURRENCE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT> on the <EVENT eid="e137" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of those assets will <EVENT eid="e139" mainevent="NO" class="STATE" stem="range" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">range</EVENT> from $200 million to $300 million.</s> 
+<s>Columbia also <EVENT eid="e140" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> unrealized <EVENT eid="e2016" mainevent="NO" class="OCCURRENCE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gains</EVENT> in its public equity securities portfolio of more than $70 million.</s> 
+
+   <s>---
+
+   David B. Hilder in New York <EVENT eid="e143" mainevent="YES" class="OCCURRENCE" stem="contribute" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">contributed</EVENT> to this article.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e32" eventID="e31" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e78" eventID="e73" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e37" eventID="e32" task="C"/>
+<TLINK lid="l4" relType="OVERLAP-OR-AFTER" relatedToEvent="e2398" eventID="e113" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e87" eventID="e84" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e62" eventID="e58" task="C"/>
+<TLINK lid="l7" relType="BEFORE" relatedToEvent="e58" eventID="e47" task="C"/>
+<TLINK lid="l8" relType="OVERLAP-OR-AFTER" relatedToEvent="e97" eventID="e88" task="C"/>
+<TLINK lid="l9" relType="VAGUE" relatedToEvent="e84" eventID="e78" task="C"/>
+<TLINK lid="l10" relType="BEFORE" relatedToEvent="e73" eventID="e70" task="C"/>
+<TLINK lid="l11" relType="AFTER" relatedToEvent="e47" eventID="e37" task="C"/>
+<TLINK lid="l12" relType="OVERLAP-OR-AFTER" relatedToEvent="e88" eventID="e87" task="C"/>
+<TLINK lid="l13" relType="AFTER" relatedToEvent="e70" eventID="e62" task="C"/>
+<TLINK lid="l14" relType="VAGUE" relatedToEvent="e12" eventID="e10" task="C"/>
+<TLINK lid="l15" relType="OVERLAP" relatedToEvent="e113" eventID="e99" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e136" eventID="e124" task="C"/>
+<TLINK lid="l17" relType="OVERLAP" relatedToEvent="e143" eventID="e140" task="C"/>
+<TLINK lid="l18" relType="OVERLAP" relatedToEvent="e15" eventID="e12" task="C"/>
+<TLINK lid="l19" relType="BEFORE-OR-OVERLAP" relatedToEvent="e21" eventID="e18" task="C"/>
+<TLINK lid="l20" relType="OVERLAP-OR-AFTER" relatedToEvent="e18" eventID="e15" task="C"/>
+<TLINK lid="l21" relType="AFTER" relatedToEvent="e31" eventID="e26" task="C"/>
+<TLINK lid="l22" relType="VAGUE" relatedToEvent="e140" eventID="e136" task="C"/>
+<TLINK lid="l23" relType="BEFORE-OR-OVERLAP" relatedToEvent="e124" eventID="e2398" task="C"/>
+<TLINK lid="l24" relType="BEFORE-OR-OVERLAP" relatedToEvent="e10" eventID="e9" task="C"/>
+<TLINK lid="l25" relType="AFTER" relatedToEvent="e26" eventID="e21" task="C"/>
+<TLINK lid="l26" relType="BEFORE" relatedToEvent="e99" eventID="e97" task="C"/>
+<TLINK lid="l27" relType="AFTER" relatedToEvent="e9" eventID="e7" task="C"/>
+
+</TempEval>

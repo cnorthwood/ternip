@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW19980810.0907 
+ MISCELLANEOUS TEXT (slug-filter) 
+ 08/10/1998 17:52:00 
+
+w2541 &amp;Cx1f; wstm-
+r i &amp;Cx13;  &amp;Cx11;  BC-EmbassyBombings-Casua     08-10 0130
+
+
+ BC-Embassy Bombings-Casualties-Glance,0129 
+
+Figures on the dead and injured in the twin embassy bombings
+
+ &amp;UR; With BC-Embassy Bombings &amp;QL; 
+ &amp;UR; By The Associated Press &amp;QC; 
+
+
+	   NAIROBI, Kenya (AP) _ The following are the latest figures as of
+<TIMEX3 tid="t1" type="DATE" value="1998-08-10" temporalFunction="false" functionInDocument="NONE">Monday</TIMEX3> for the dead and injured in the <EVENT eid="e3" class="OCCURRENCE">bombings</EVENT> of the U.S.
+Embassies in Nairobi, Kenya, and Dar es Salaam, Tanzania.
+	   The source for the Kenyan figures is the Department of Relief
+and Rehabilitation in the office of President Daniel arap Moi.
+	   The source for the Tanzanian figures is the U.S. Embassy in Dar
+es Salaam.
+ &amp;UR; KENYA:
+	   Total Dead: 192
+	   Americans: 12
+	   <EVENT eid="e5" class="OCCURRENCE">Injured</EVENT>: 4,877
+	   Hospitalized: 542
+	   <EVENT eid="e4" class="OCCURRENCE">Treated</EVENT> and <EVENT eid="e2" class="OCCURRENCE">discharged</EVENT>: 4,257
+ &amp;UR; TANZANIA:
+	   Total dead: 10
+	   Americans: 0
+	   <EVENT eid="e6" class="OCCURRENCE">Injured</EVENT>: 74
+	   Hospitalized: 6
+
+
+(PROFILE
+(WS SL:BC-Embassy Bombings-Casualties-Glance; CT:i; 
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:MEST;)
+(REG:AFRI;)
+(REG:INDI;)
+(REG:ENGL;)
+(REG:ASIA;)
+(LANG:ENGLISH;))
+)
+
+
+AP-NY-08-10-98 1752EDT
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l3" relType="IAFTER" eventInstanceID="ei5" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei4" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l8" relType="IAFTER" eventInstanceID="ei6" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei4" origin="USER"/>
+
+</TimeML>

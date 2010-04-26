@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891101-0072 
+ = 891101 
+ 891101-0072. 
+ Kimberly-Clark Corp.
+@  Net Income Rose 20%
+@  In the Third Quarter 
+ <TIMEX3 tid="t76" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ KMB 
+ EARNINGS (ERN)
+PULP, PAPER, PACKAGING (ALL TYPES) (PUL) 
+ DALLAS  
+
+   <s>Despite continuing problems in its newsprint business, Kimberly-Clark Corp. <EVENT eid="e4" class="REPORTING" stem="post" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">posted</EVENT> a 20% <EVENT eid="e38" class="STATE" stem="gain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">gain</EVENT> in <TIMEX3 tid="t82" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t76">third-quarter</TIMEX3> net <EVENT eid="e37" class="STATE" stem="income" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">income</EVENT>.</s> 
+
+   <s>The consumer-products and newsprint company <EVENT eid="e5" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> net <EVENT eid="e6" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> to <EVENT eid="e249" class="STATE" stem="$108.8" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$108.8</EVENT> million, or $1.35 a share, from <EVENT eid="e250" class="STATE" stem="$90.5" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$90.5</EVENT> million, or $1.12 a share, <TIMEX3 tid="t78" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t82">a year ago</TIMEX3>.</s> 
+<s>Sales <EVENT eid="e8" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 6.2% to <EVENT eid="e251" class="STATE" stem="$1.45" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$1.45</EVENT> billion from <EVENT eid="e252" class="STATE" stem="$1.37" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$1.37</EVENT> billion.</s> 
+
+   <s>After <TIMEX3 tid="t79" type="DATE" value="1989-Q2" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t76">a flat second quarter</TIMEX3> <EVENT eid="e9" class="STATE" stem="tie" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">tied</EVENT> largely to lower newsprint earnings, Kimberly-Clark <EVENT eid="e10" class="I_ACTION" stem="attribute" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">attributed</EVENT> the <EVENT eid="e51" class="OCCURRENCE" stem="gain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">gain</EVENT> to improved <EVENT eid="e11" class="STATE" stem="result" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">results</EVENT> in its consumer businesses in North America, Brazil and Korea.</s> 
+<s>Those <EVENT eid="e55" class="OCCURRENCE" stem="gain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">gains</EVENT> came from higher <EVENT eid="e53" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">prices</EVENT>, particularly for disposable diapers and tissue products, and from increased <EVENT eid="e54" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sales</EVENT>, primarily for feminine-care products, the company <EVENT eid="e17" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>Newsprint results <EVENT eid="e19" class="ASPECTUAL" stem="continue" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">continued</EVENT> to be <EVENT eid="e57" class="STATE" stem="depress" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">depressed</EVENT>, the company <EVENT eid="e56" class="REPORTING" stem="add" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">added</EVENT>, because of industrywide price <EVENT eid="e22" class="OCCURRENCE" stem="discounting" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">discounting</EVENT>.</s> 
+
+   <s>The quarter-to-quarter comparison was also <EVENT eid="e24" class="OCCURRENCE" stem="enhance" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">enhanced</EVENT> by <EVENT eid="e25" class="OCCURRENCE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charges</EVENT> <EVENT eid="e26" class="OCCURRENCE" stem="take" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">taken</EVENT> in <TIMEX3 tid="t85" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t82">the year-earlier period</TIMEX3>, including $11 million related to the <EVENT eid="e28" class="OCCURRENCE" stem="modernization" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">modernization</EVENT> of a pulp and newsprint mill in Alabama.</s> 
+<s>In <TIMEX3 tid="t86" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t82">the 1989 period</TIMEX3> also, interest expense and tax <EVENT eid="e248" class="STATE" stem="rate" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rates</EVENT> were <EVENT eid="e62" class="STATE" stem="lower" aspect="NONE" tense="PAST" polarity="POS" pos="ADJECTIVE">lower</EVENT> than <TIMEX3 tid="t87" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t86">a year ago</TIMEX3>.</s> 
+
+   <s>In <TIMEX3 tid="t88" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" endPoint="t76">the first nine months</TIMEX3>, profit <EVENT eid="e30" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 10% to <EVENT eid="e253" class="STATE" stem="$313.2" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$313.2</EVENT> million, or $3.89 a share, from <EVENT eid="e254" class="STATE" stem="$283.9" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$283.9</EVENT> million, or $3.53 a share.</s> 
+<s>Sales <EVENT eid="e32" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 6.7% to <EVENT eid="e255" class="STATE" stem="$4.27" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$4.27</EVENT> billion from <EVENT eid="e256" class="STATE" stem="$4" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$4</EVENT> billion.</s> 
+
+   <s>In New York Stock Exchange composite trading, Kimberly-Clark <EVENT eid="e33" class="OCCURRENCE" stem="close" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">closed</EVENT> at <EVENT eid="e74" class="STATE" stem="$66.50" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$66.50</EVENT> a share, up $1.50.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e4" relatedToTime="t82" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e38" relatedToTime="t82" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e6" relatedToTime="t78" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e5" relatedToTime="t78" task="A"/>
+<TLINK lid="l5" relType="AFTER" eventID="e11" relatedToTime="t79" task="A"/>
+<TLINK lid="l6" relType="AFTER" eventID="e51" relatedToTime="t79" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e26" relatedToTime="t85" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e25" relatedToTime="t85" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e30" relatedToTime="t88" task="A"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e4" relatedToTime="t76" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e38" relatedToTime="t76" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e6" relatedToTime="t76" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e5" relatedToTime="t76" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e8" relatedToTime="t76" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e11" relatedToTime="t76" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e51" relatedToTime="t76" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e54" relatedToTime="t76" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e55" relatedToTime="t76" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e17" relatedToTime="t76" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e19" relatedToTime="t76" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e56" relatedToTime="t76" task="B"/>
+<TLINK lid="l22" relType="BEFORE" eventID="e26" relatedToTime="t76" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e25" relatedToTime="t76" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e30" relatedToTime="t76" task="B"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e32" relatedToTime="t76" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e33" relatedToTime="t76" task="B"/>
+</TempEval>

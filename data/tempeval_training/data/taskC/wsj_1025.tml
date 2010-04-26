@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0031 
+ = 891026 
+ 891026-0031. 
+ Business Brief -- Sotheby's Holdings Inc.:
+@  Third-Period Loss Narrowed
+@  On Operating Revenue Gain 
+ <TIMEX3 tid="t16" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ BID 
+ EARNINGS (ERN) 
+
+   <s>Sotheby's Holdings Inc., the parent of the auction house Sotheby's, <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its net <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> for the seasonally slow <TIMEX3 tid="t21" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">third quarter</TIMEX3> <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="narrow" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">narrowed</EVENT> from <TIMEX3 tid="t22" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">a year earlier</TIMEX3> on a <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="leap" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">leap</EVENT> in operating revenue.</s> 
+
+   <s>The New York-based company <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> a <TIMEX3 tid="t36" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">third-quarter</TIMEX3> net <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $5.1 million, or 10 cents a share, compared with a <TIMEX3 tid="t37" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t36">year-earlier</TIMEX3> net <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $6.2 million, or 12 cents a share.</s> 
+<s>Operating revenue <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="surge" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">surged</EVENT> 54% in <TIMEX3 tid="t38" type="DATE" value="1989-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">the latest period</TIMEX3> to $42.9 million from $27.7 million.</s> 
+
+   <s>The company <EVENT eid="e12" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> 80% of its auction business is usually <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="conduct" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">conducted</EVENT> in the <TIMEX3 tid="t40" type="SET" value="XXXX-Q2" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41" quant="EVERY">second</TIMEX3> and <TIMEX3 tid="t41" type="SET" value="XXXX-Q4" temporalFunction="false" functionInDocument="NONE" quant="EVERY">fourth quarters</TIMEX3>, with <TIMEX3 tid="t42" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">the current quarter</TIMEX3> having <EVENT eid="e43" mainevent="NO" class="ASPECTUAL" stem="begin" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">begun</EVENT> " extremely well."</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e7" eventID="e1" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e11" eventID="e7" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e12" eventID="e11" task="C"/>
+
+</TempEval>

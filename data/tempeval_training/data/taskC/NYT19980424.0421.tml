@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ NYT19980424.0421 
+ NEWS STORY 
+ <TIMEX3 tid="t73" type="TIME" value="1998-04-24T21:49:00" temporalFunction="false" functionInDocument="CREATION_TIME">04/24/1998 21:49:00</TIMEX3> 
+
+A3813 Cx1f taf-z
+u k Cx13  Cx11  BC-EDIT-GENDER-STEREOTYP     04-24 0430
+
+
+ BC-EDIT-GENDER-STEREOTYPES-NYT 
+
+EDITORIAL: THE COURT RETREATS ON STEREOTYPES
+
+UR (af) LR  QL
+UR c.1998 N.Y. Times News Service QC  LR  QL
+
+
+<s>The New York Times <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> in an editorial on <TIMEX3 tid="t74" type="DATE" value="1998-04-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">Saturday, April 25</TIMEX3>:
+The Supreme Court <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="take" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">took</EVENT> a detour <TIMEX3 tid="t75" type="DATE" value="1998-W17" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">this week</TIMEX3> from the core
+principle of gender fairness it <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="vindicate" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">vindicated</EVENT> <TIMEX3 tid="t76" type="DATE" value="1996" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">two years ago</TIMEX3> in its
+<EVENT eid="e2031" mainevent="NO" class="OCCURRENCE" stem="ruling" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">ruling</EVENT> <EVENT eid="e8" mainevent="NO" class="I_ACTION" stem="invalidate" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">invalidating</EVENT> the <EVENT eid="e2040" mainevent="NO" class="OCCURRENCE" stem="use" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">use</EVENT> of sexual stereotypes  to justify
+denying women admission to the Virginia Military Institute.</s> <s>By a
+6-3 vote, the court <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="uphold" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">upheld</EVENT> a discriminatory immigration law that
+gives a child born overseas to an unmarried American woman a better
+chance at citizenship than a child born to an unmarried American
+man.</s>
+<s>Under the statute, a child born abroad to an unwed American
+mother  is  automatically considered a U.S. citizen.</s> <s>But the child of
+an unwed American father has no citizenship rights unless the
+father takes the affirmative step of acknowledging paternity and
+formally agrees  to provide support until the child turns 18.</s>
+<s>The majority's views  were <EVENT eid="e24" mainevent="YES" class="OCCURRENCE" stem="express" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">expressed</EVENT> in three separate opinions,
+the most disquieting of which  was <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="write" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">written</EVENT> by a liberal member,
+Justice John Paul Stevens, and <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="join" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">joined</EVENT> by a conservative, Chief
+Justice William Rehnquist.</s> <s>The <EVENT eid="e1999" mainevent="NO" class="I_STATE" stem="opinion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">opinion</EVENT>, which <EVENT eid="e27" mainevent="NO" class="I_STATE" stem="find" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">found</EVENT> the gender
+distinction <EVENT eid="e1998" mainevent="NO" class="STATE" stem="reasonable" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">reasonable</EVENT>, <EVENT eid="e28" mainevent="YES" class="I_STATE" stem="rely" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">relied</EVENT> heavily on outmoded generalities
+about family roles, including the flawed presumption that mothers
+have a closer relationship to their children than fathers do.</s> <s>As
+Justice Stephen Breyer <EVENT eid="e32" mainevent="YES" class="OCCURRENCE" stem="ask" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">asked</EVENT> in a strong <EVENT eid="e33" mainevent="NO" class="OCCURRENCE" stem="dissent" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">dissent</EVENT>, ``what sense does
+it make''  to apply citizenship barriers ``only to fathers and not
+to mothers in today's world _ where paternity can  readily be proved
+and where women and men both are likely  to earn a living in the
+workplace?''
+Justices Sandra Day O'Connor and Anthony Kennedy seemed to <EVENT eid="e43" mainevent="NO" class="I_ACTION" stem="agree" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">agree</EVENT>
+that the law <EVENT eid="e44" mainevent="NO" class="OCCURRENCE" stem="amount" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">amounted</EVENT> to unconstitutional sex discrimination.</s> <s>Butinstead of <EVENT eid="e45" mainevent="NO" class="I_ACTION" stem="provide" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">providing</EVENT> the votes  to <EVENT eid="e46" mainevent="NO" class="OCCURRENCE" stem="strike" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">strike</EVENT> it down, they <EVENT eid="e47" mainevent="YES" class="I_ACTION" stem="choose" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">chose</EVENT>  to <EVENT eid="e48" mainevent="NO" class="OCCURRENCE" stem="uphold" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">uphold</EVENT> it on the flimsy ground that because the sex of the parent
+and not the child made the difference under the law, the plaintiff
+did not have <EVENT eid="e51" mainevent="NO" class="I_STATE" stem="standing" tense="NONE" aspect="NONE" polarity="NEG" pos="NOUN">standing</EVENT>  to <EVENT eid="e52" mainevent="NO" class="OCCURRENCE" stem="bring" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">bring</EVENT> the case.</s> <s>The Justice Department,
+which <EVENT eid="e53" mainevent="NO" class="OCCURRENCE" stem="support" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">supported</EVENT> the statute, did not <EVENT eid="e54" mainevent="YES" class="OCCURRENCE" stem="cover" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">cover</EVENT> itself with glory
+either.</s> <s>The department <EVENT eid="e56" mainevent="YES" class="OCCURRENCE" stem="retreat" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">retreated</EVENT> from its position in the VMI case
+when it <EVENT eid="e59" mainevent="NO" class="OCCURRENCE" stem="argue" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">argued</EVENT> that the government could not <EVENT eid="e60" mainevent="NO" class="OCCURRENCE" stem="make" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">make</EVENT> <EVENT eid="e2004" mainevent="NO" class="OCCURRENCE" stem="policy" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">policy</EVENT> based on
+stereotypes ``even when those stereotypes <EVENT eid="e65" mainevent="NO" class="OCCURRENCE" stem="reflect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">reflect</EVENT> <TIMEX3 tid="t77" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">current</TIMEX3>
+realities.''</s>
+<s>As for the court, it <EVENT eid="e66" mainevent="YES" class="I_ACTION" stem="manage" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">managed</EVENT> with its splintered ruling  to <EVENT eid="e67" mainevent="NO" class="OCCURRENCE" stem="cast" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">cast</EVENT>
+doubt both on the constitutionality of the immigration provisions
+it upheld and on its true commitment to fighting gender
+stereotypes.</s>
+
+
+
+<s>NYT-04-24-98 2149EDT</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e56" eventID="e54" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e66" eventID="e56" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e32" eventID="e28" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e28" eventID="e24" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e54" eventID="e47" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e47" eventID="e32" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e11" eventID="e1" task="C"/>
+
+</TempEval>

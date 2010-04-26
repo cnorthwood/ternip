@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891102-0022 
+ = 891102 
+ 891102-0022. 
+ Business Brief -- Meridian National Corp.:
+@  McAlpines Acquire 10.2%
+@  Of Common for $1 Million 
+ <TIMEX3 tid="t21" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ MRCO 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Meridian National Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="sell" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">sold</EVENT> 750,000 shares of its common stock to the McAlpine family interests, for $1 million, or $1.35 a share.</s> 
+<s>The <EVENT eid="e4" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> <EVENT eid="e5" class="OCCURRENCE" stem="represent" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">represents</EVENT> 10.2% of Meridian's shares outstanding.</s> 
+
+   <s>The McAlpine family, which <EVENT eid="e6" class="OCCURRENCE" stem="operate" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">operates</EVENT> a number of multinational companies, including a London-based engineering and construction company, also <EVENT eid="e7" class="OCCURRENCE" stem="lend" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">lent</EVENT> to Meridian National $500,000.</s> 
+<s>That amount is <EVENT eid="e22" class="STATE" stem="convertible" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">convertible</EVENT> into shares of Meridian common stock at $2 a share during its <TIMEX3 tid="t23" type="DURATION" value="P1Y" temporalFunction="false" functionInDocument="NONE">one-year term</TIMEX3>.</s> 
+<s>The loan may be <EVENT eid="e10" class="OCCURRENCE" stem="extend" aspect="PERFECTIVE" tense="NONE" polarity="POS" pos="VERB">extended</EVENT> by the McAlpine group for <TIMEX3 tid="t25" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" beginPoint="t21">an additional year</TIMEX3> with an <EVENT eid="e12" class="OCCURRENCE" stem="increase" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">increase</EVENT> in the <EVENT eid="e27" class="OCCURRENCE" stem="conversion" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">conversion</EVENT> price to $2.50 a share.</s> 
+
+   <s>The <EVENT eid="e14" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of shares to the McAlpine family along with the recent <EVENT eid="e15" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of 750,000 shares of Meridian stock to Haden MacLellan Holding PLC of Surrey, England and a recent public <EVENT eid="e16" class="OCCURRENCE" stem="offering" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offering</EVENT> have <EVENT eid="e17" class="OCCURRENCE" stem="increase" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">increased</EVENT> Meridian's net worth to $8.5 million, <EVENT eid="e18" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> William Feniger, chief executive officer of Toledo, Ohio-based Meridian.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e12" relatedToTime="t25" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e2" relatedToTime="t21" task="B"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e1" relatedToTime="t21" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e4" relatedToTime="t21" task="B"/>
+<TLINK lid="l5" relType="AFTER" eventID="e12" relatedToTime="t21" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e17" relatedToTime="t21" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e14" relatedToTime="t21" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e18" relatedToTime="t21" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e15" relatedToTime="t21" task="B"/>
+</TempEval>

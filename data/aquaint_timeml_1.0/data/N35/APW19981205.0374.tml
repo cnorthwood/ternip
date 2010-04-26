@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOC>
+<DOCNO> APW19981205.0374 </DOCNO>
+<DOCTYPE> NEWS STORY </DOCTYPE>
+<DATE_TIME> <TIMEX3 tid="t1" type="TIME" functionInDocument="CREATION_TIME" temporalFunction="false" value="1998-12-05T9:42">12/05/1998 09:42:00</TIMEX3> </DATE_TIME>
+<HEADER>
+w1008 &amp;Cx1f; wstm-
+r i &amp;Cx13;  &amp;Cx11;  BC-Poland-Germany-NATO     12-05 0152
+</HEADER>
+<BODY>
+<SLUG> BC-Poland-Germany-NATO </SLUG>
+<HEADLINE>
+Poland to participate in preparations for NATO summit
+</HEADLINE>
+ &amp;UR; AP Photos WAR150-1 &amp;QL; 
+
+<TEXT>
+	   WARSAW, Poland (AP) _ Poland, Hungary and the Czech Republic can
+now <EVENT eid="e1" class="OCCURRENCE">participate</EVENT> in NATO strategy <EVENT eid="e24" class="OCCURRENCE">planning</EVENT>, because all NATO member
+states have <EVENT eid="e2" class="I_ACTION">approved</EVENT> their <EVENT eid="e3" class="STATE">joining</EVENT> the alliance, German defense
+minister Rudolf Scharping <EVENT eid="e4" class="REPORTING">said</EVENT> <TIMEX3 tid="t2" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1998-12-05">Saturday</TIMEX3>.
+	   The Netherlands <TIMEX3 tid="t3" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1998-12-XX" anchorTimeID="t1">early this week</TIMEX3> <EVENT eid="e5" class="STATE">became</EVENT> the last country to
+<EVENT eid="e7" class="OCCURRENCE">ratify</EVENT> NATO expansion to include the three former Warsaw Pact
+nations.
+	   The three are <EVENT eid="e8" class="I_STATE">expected</EVENT> to <EVENT eid="e10" class="OCCURRENCE">join</EVENT> <SIGNAL sid="s3">in</SIGNAL> <TIMEX3 tid="t4" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-04">April</TIMEX3>, as part of <EVENT eid="e11" class="OCCURRENCE">marking</EVENT>
+NATO's 50th anniversary. With their membership secure, they also
+can <EVENT eid="e12" class="OCCURRENCE">participate</EVENT> in <EVENT eid="e13" class="I_ACTION">planning</EVENT> for the NATO <EVENT eid="e14" class="OCCURRENCE">summit</EVENT> <SIGNAL sid="s4">in</SIGNAL> <TIMEX3 tid="t5" type="DATE" functionInDocument="NONE" temporalFunction="true" value="1999-04">April</TIMEX3>.
+	   Scharping, <EVENT eid="e15" class="ASPECTUAL">ending</EVENT> a <TIMEX3 tid="t6" type="DURATION" functionInDocument="NONE" temporalFunction="true" value="P2D" beginPoint="t7">two-day</TIMEX3> <TIMEX3 tid="t7" type="DATE" functionInDocument="NONE" temporalFunction="false" value="1998-12-04"></TIMEX3> <EVENT eid="e16" class="OCCURRENCE">visit</EVENT>, <EVENT eid="e17" class="REPORTING">said</EVENT> Poland was well <EVENT eid="e18" class="I_STATE">prepared</EVENT>
+to <EVENT eid="e19" class="OCCURRENCE">join</EVENT> the alliance. Germany has <EVENT eid="e21" class="STATE">been</EVENT> a strong advocate of
+Poland's access to NATO, <EVENT eid="e22" class="REPORTING">saying</EVENT> it will <EVENT eid="e23" class="OCCURRENCE">serve</EVENT> European security and
+stability.
+ &amp;UR; (ms-aet)
+</TEXT>
+(PROFILE
+(WS SL:BC-Poland-Germany-NATO; CT:i; 
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(LANG:ENGLISH;))
+)
+</BODY>
+<TRAILER>
+AP-NY-12-05-98 0942EST
+</TRAILER>
+</DOC>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eiid="ei1" eventID="e1" tense="PRESENT" aspect="NONE" pos="UNKNOWN" modality="can" polarity="POS"/><MAKEINSTANCE eiid="ei2" eventID="e2" tense="PAST" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei3" eventID="e3" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei4" eventID="e4" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei5" eventID="e5" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei7" eventID="e7" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei9" eventID="e8" tense="PRESENT" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei12" eventID="e10" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei13" eventID="e11" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei14" eventID="e12" tense="PRESENT" aspect="NONE" pos="UNKNOWN" modality="can" polarity="POS"/><MAKEINSTANCE eiid="ei15" eventID="e13" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei16" eventID="e14" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei17" eventID="e15" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei18" eventID="e16" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><MAKEINSTANCE eiid="ei19" eventID="e17" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei20" eventID="e18" tense="PAST" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei21" eventID="e19" tense="INFINITIVE" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei23" eventID="e21" tense="PRESENT" aspect="PERFECTIVE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei24" eventID="e22" tense="PRESPART" aspect="NONE" pos="VERB" polarity="POS"/><MAKEINSTANCE eiid="ei25" eventID="e23" tense="FUTURE" aspect="NONE" pos="UNKNOWN" polarity="POS"/><MAKEINSTANCE eiid="ei26" eventID="e24" tense="NONE" aspect="NONE" pos="NOUN" polarity="POS"/><TLINK lid="l2" timeID="t1" relatedToEventInstance="ei1" relType="INCLUDES" origin="USER"/><TLINK lid="l3" eventInstanceID="ei2" relatedToEventInstance="ei1" relType="BEFORE" origin="USER"/><TLINK lid="l5" timeID="t1" relatedToEventInstance="ei2" relType="AFTER" origin="USER"/><TLINK lid="l6" timeID="t2" relatedToEventInstance="ei4" relType="INCLUDES" origin="USER"/><TLINK lid="l7" timeID="t2" relatedToEventInstance="ei4" relType="INCLUDES" origin="USER"/><TLINK lid="l8" eventInstanceID="ei4" relatedToEventInstance="ei2" relType="AFTER" origin="USER"/><TLINK lid="l9" timeID="t3" relatedToEventInstance="ei5" relType="INCLUDES" origin="USER"/><TLINK lid="l11" eventInstanceID="ei5" relatedToEventInstance="ei7" relType="SIMULTANEOUS" origin="USER"/><TLINK lid="l12" timeID="t1" relatedToEventInstance="ei9" relType="INCLUDES" origin="USER"/><TLINK lid="l14" timeID="t4" signalID="s3" relatedToEventInstance="ei12" relType="INCLUDES" origin="USER"/><TLINK lid="l15" timeID="t4" relatedToEventInstance="ei13" relType="INCLUDES" origin="USER"/><TLINK lid="l16" timeID="t1" relatedToEventInstance="ei13" relType="BEFORE" origin="USER"/><TLINK lid="l17" timeID="t1" relatedToEventInstance="ei14" relType="INCLUDES" origin="USER"/><TLINK lid="l20" timeID="t5" signalID="s4" relatedToEventInstance="ei16" relType="INCLUDES" origin="USER"/><TLINK lid="l21" timeID="t6" relatedToEventInstance="ei18" relType="INCLUDES" origin="USER"/><TLINK lid="l23" timeID="t2" relatedToEventInstance="ei19" relType="INCLUDES" origin="USER"/><TLINK lid="l24" timeID="t6" relatedToEventInstance="ei19" relType="DURING" origin="USER"/><TLINK lid="l26" eventInstanceID="ei3" relatedToTime="t4" relType="INCLUDES" origin="USER"/><TLINK lid="l27" timeID="t1" relatedToEventInstance="ei26" relType="BEFORE" origin="USER"/><TLINK lid="l28" timeID="t1" relatedToEventInstance="ei15" relType="BEFORE" origin="USER"/><TLINK lid="l29" timeID="t2" relatedToEventInstance="ei17" relType="AFTER" origin="USER"/><TLINK lid="l32" timeID="t4" relatedToEventInstance="ei21" relType="INCLUDES" origin="USER"/><TLINK lid="l33" timeID="t1" relatedToEventInstance="ei20" relType="AFTER" origin="USER"/><TLINK lid="l35" timeID="t1" relatedToEventInstance="ei23" relType="AFTER" origin="USER"/><TLINK lid="l36" timeID="t1" relatedToEventInstance="ei24" relType="AFTER" origin="USER"/><TLINK lid="l38" timeID="t1" relatedToEventInstance="ei25" relType="BEFORE" origin="USER"/><SLINK lid="l1" eventInstanceID="ei2" subordinatedEventInstance="ei3" relType="MODAL"/><SLINK lid="l10" eventInstanceID="ei1" subordinatedEventInstance="ei26" relType="MODAL"/><SLINK lid="l13" eventInstanceID="ei9" subordinatedEventInstance="ei12" relType="MODAL"/><SLINK lid="l18" eventInstanceID="ei14" subordinatedEventInstance="ei15" relType="MODAL"/><SLINK lid="l19" eventInstanceID="ei15" subordinatedEventInstance="ei16" relType="MODAL"/><SLINK lid="l30" eventInstanceID="ei19" subordinatedEventInstance="ei20" relType="EVIDENTIAL"/><SLINK lid="l31" eventInstanceID="ei20" subordinatedEventInstance="ei21" relType="MODAL"/><SLINK lid="l37" eventInstanceID="ei24" subordinatedEventInstance="ei25" relType="EVIDENTIAL"/><ALINK lid="l22" eventInstanceID="ei18" relatedToEventInstance="ei17" relType="CULMINATES"/></TimeML>

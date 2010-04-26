@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0087 
+ = 891030 
+ 891030-0087. 
+ New Securities Issues 
+ <TIMEX3 tid="t28" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SUNW T.CM EUROP F 
+ BOND MARKET NEWS (BON) 
+
+   <s>The following were among <TIMEX3 tid="t29" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Friday</TIMEX3>'s <EVENT eid="e1" class="OCCURRENCE" stem="offering" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offerings</EVENT> and <EVENT eid="e30" class="OCCURRENCE" stem="pricing" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">pricings</EVENT> in the U.S. and non-U.S.</s> <s>capital markets, with terms and syndicate manager, as <EVENT eid="e3" class="REPORTING" stem="compile" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">compiled</EVENT> by Dow Jones Capital Markets Report: 
+@ CORPORATES 
+
+   Sun Microsystems Inc. -- $125 million of 6 3/8% convertible subordinated debentures <EVENT eid="e31" class="STATE" stem="due" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">due</EVENT> <TIMEX3 tid="t32" type="DATE" value="1999-10-15" temporalFunction="false" functionInDocument="NONE">Oct. 15, 1999</TIMEX3>, <EVENT eid="e4" class="OCCURRENCE" stem="price" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">priced</EVENT> at 84.90 to <EVENT eid="e42" class="I_STATE" stem="yield" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">yield</EVENT> <EVENT eid="e39" class="STATE" stem="7.51%" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">7.51%</EVENT>.</s> 
+<s>The debentures are convertible into common stock <EVENT eid="e101" class="STATE" stem="at" aspect="NONE" tense="NONE" polarity="POS" pos="PREPOSITION">at</EVENT> $25 a share, representing a 24% conversion premium over <TIMEX3 tid="t33" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Thursday</TIMEX3>'s <EVENT eid="e34" class="OCCURRENCE" stem="closing" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">closing</EVENT> <EVENT eid="e100" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">price</EVENT>.</s> 
+<s><EVENT eid="e10" class="OCCURRENCE" stem="rated" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">Rated</EVENT> single-B-1 by Moody's Investors Service Inc. and single-B-plus by Standard amp Poor's Corp., the issue will be <EVENT eid="e11" class="OCCURRENCE" stem="sell" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">sold</EVENT> through underwriters led by Goldman, Sachs amp Co. 
+
+   Hertz Corp. -- $100 million of senior notes <EVENT eid="e36" class="STATE" stem="due" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">due</EVENT> <TIMEX3 tid="t37" type="DATE" value="2009-11-01" temporalFunction="false" functionInDocument="NONE">Nov. 1, 2009</TIMEX3>, <EVENT eid="e14" class="STATE" stem="price" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">priced</EVENT> at par to <EVENT eid="e41" class="I_STATE" stem="yield" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">yield</EVENT> <EVENT eid="e40" class="STATE" stem="9%" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">9%</EVENT>.</s> 
+<s>The issue, which is puttable back to the company in <TIMEX3 tid="t44" type="DATE" value="1999" temporalFunction="false" functionInDocument="NONE">1999</TIMEX3>, was <EVENT eid="e17" class="OCCURRENCE" stem="price" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">priced</EVENT> at a spread of 110 basis points above the Treasury's 10-year note.</s> 
+<s><EVENT eid="e21" class="STATE" stem="rated" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">Rated</EVENT> single-A-3 by Moody's and triple-B by SampP, the issue will be <EVENT eid="e22" class="OCCURRENCE" stem="sell" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">sold</EVENT> through underwriters led by Merrill Lynch Capital Markets.</s> 
+<s>@ EUROBONDS 
+
+   Canadian Imperial Bank of Commerce (Canada) -- 10 billion yen of 5.7% bonds <EVENT eid="e46" class="STATE" stem="due" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">due</EVENT> <TIMEX3 tid="t47" type="DATE" value="1992-11-17" temporalFunction="false" functionInDocument="NONE">Nov. 17, 1992</TIMEX3>, <EVENT eid="e25" class="STATE" stem="price" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">priced</EVENT> at 101 1/4 to <EVENT eid="e27" class="I_STATE" stem="yield" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">yield</EVENT> <EVENT eid="e48" class="STATE" stem="5.75%" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">5.75%</EVENT> less full fees, via LTCB International Ltd. Fees 1 3/8.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e11" relatedToTime="t37" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e11" relatedToTime="t28" task="B"/>
+<TLINK lid="l3" relType="AFTER" eventID="e22" relatedToTime="t28" task="B"/>
+</TempEval>

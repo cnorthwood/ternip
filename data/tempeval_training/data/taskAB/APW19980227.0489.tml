@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ APW19980227.0489 
+ NEWS STORY 
+ <TIMEX3 tid="t40" type="TIME" value="1998-02-27T08:13:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/27/1998 08:13:00</TIMEX3> 
+
+w2394 Cx1f wstm-
+u i Cx13  Cx11  BC-OAU-Rwanda     02-27 0216
+
+
+ BC-OAU-Rwanda 
+
+OAU to investigate Rwandan genocide
+
+
+
+<s>ADDIS ABABA, Ethiopia (AP) _ The Organization of African Unity
+<EVENT eid="e2" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t41" type="DATE" value="1998-02-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t40">Friday</TIMEX3> it would <EVENT eid="e3" class="I_ACTION" stem="investigate" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">investigate</EVENT> the Hutu-organized <EVENT eid="e4" class="OCCURRENCE" stem="genocide" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">genocide</EVENT> of
+more than 500,000 minority Tutsis in Rwanda <TIMEX3 tid="t42" type="DATE" value="1994" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t40">nearly four years ago</TIMEX3>.</s>
+<s>Foreign ministers of member-states <EVENT eid="e5" class="OCCURRENCE" stem="meet" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">meeting</EVENT> in the Ethiopian
+capital <EVENT eid="e6" class="I_ACTION" stem="agree" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e7" class="OCCURRENCE" stem="set" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">set</EVENT> up a seven-member panel to <EVENT eid="e8" class="I_ACTION" stem="investigate" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">investigate</EVENT> who
+<EVENT eid="e9" class="OCCURRENCE" stem="shoot" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">shot</EVENT> down Rwandan President Juvenal Habyarimana's plane on <TIMEX3 tid="t43" type="DATE" value="1994-04-06" temporalFunction="false" functionInDocument="NONE">April 6,
+1994</TIMEX3>.</s>
+<s>The <EVENT eid="e10" class="OCCURRENCE" stem="assassination" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">assassination</EVENT> <EVENT eid="e11" class="I_ACTION" stem="touch" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">touched</EVENT> off a murderous <EVENT eid="e12" class="OCCURRENCE" stem="rampage" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">rampage</EVENT> by Hutu
+security forces and civilians, who <EVENT eid="e14" class="OCCURRENCE" stem="slaughter" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">slaughtered</EVENT> mainly Tutsis but
+also Hutus who <EVENT eid="e15" class="I_STATE" stem="favor" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">favored</EVENT> <EVENT eid="e16" class="OCCURRENCE" stem="reconciliation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">reconciliation</EVENT> with the minority.</s> <s>It also
+<EVENT eid="e17" class="ASPECTUAL" stem="reignite" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reignited</EVENT> the civil <EVENT eid="e18" class="OCCURRENCE" stem="war" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">war</EVENT>.</s>
+<s>The panel also will <EVENT eid="e19" class="I_ACTION" stem="look" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">look</EVENT> at the <EVENT eid="e20" class="OCCURRENCE" stem="exodus" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">exodus</EVENT> of about 2 million Rwanda
+Hutus to neighboring countries where they <EVENT eid="e22" class="STATE" stem="live" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">lived</EVENT> in U.N.-run refugee
+camps for <TIMEX3 tid="t44" type="DURATION" value="P2Y6M" temporalFunction="false" functionInDocument="NONE">2 1/2 years</TIMEX3>.</s>
+<s>The <EVENT eid="e24" class="OCCURRENCE" stem="investigation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">investigation</EVENT> will <EVENT eid="e25" class="I_ACTION" stem="consider" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">consider</EVENT> the <EVENT eid="e26" class="STATE" stem="role" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">role</EVENT> of ``internal and
+external forces prior to the <EVENT eid="e27" class="OCCURRENCE" stem="genocide" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">genocide</EVENT> and subsequently, and the
+<EVENT eid="e28" class="STATE" stem="role" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">role</EVENT> of the United Nations and its agencies and the OAU before,
+during and after the <EVENT eid="e29" class="OCCURRENCE" stem="genocide" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">genocide</EVENT>,'' the OAU <EVENT eid="e30" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s>
+<s>The panel will be <EVENT eid="e31" class="STATE" stem="base" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">based</EVENT> in Addis Ababa, and will <EVENT eid="e32" class="ASPECTUAL" stem="finish" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">finish</EVENT> its
+<EVENT eid="e33" class="OCCURRENCE" stem="investigation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">investigation</EVENT> within <TIMEX3 tid="t45" type="DURATION" value="P1Y" mod="EQUAL_OR_LESS" temporalFunction="false" functionInDocument="NONE">a year</TIMEX3>, it <EVENT eid="e34" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> <s>It is to be <EVENT eid="e35" class="STATE" stem="fund" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">funded</EVENT> by
+voluntary <EVENT eid="e36" class="OCCURRENCE" stem="contribution" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">contributions</EVENT> from within and outside the continent.</s>
+<s>(aa-kjd)</s>
+
+(PROFILE
+(WS SL:BC-OAU-Rwanda; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(REG:AFRI;)
+(LANG:ENGLISH;))
+)
+
+
+<s>AP-NY-02-27-98 0813EST</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e2" relatedToTime="t41" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e2" relatedToTime="t42" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e6" relatedToTime="t43" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e7" relatedToTime="t43" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e34" relatedToTime="t45" task="A"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e2" relatedToTime="t40" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e6" relatedToTime="t40" task="B"/>
+<TLINK lid="l8" relType="AFTER" eventID="e7" relatedToTime="t40" task="B"/>
+<TLINK lid="l9" relType="BEFORE-OR-OVERLAP" eventID="e18" relatedToTime="t40" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e30" relatedToTime="t40" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e34" relatedToTime="t40" task="B"/>
+</TempEval>

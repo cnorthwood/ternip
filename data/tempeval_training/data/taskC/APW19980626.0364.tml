@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ APW19980626.0364 
+ NEWS STORY 
+ <TIMEX3 tid="t39" type="TIME" value="1998-06-26T07:07:00" temporalFunction="false" functionInDocument="CREATION_TIME">06/26/1998 07:07:00</TIMEX3> 
+
+w2640 Cx1f wstm-
+r i Cx13  Cx11  BC-Germany-RightistsFine     06-26 0198
+
+
+ BC-Germany-Rightists Fined 
+
+German far-right party fined for violating donor laws
+
+
+
+<s>BONN, Germany (AP) _ A phony address listed on disclosure forms
+for a French donor  will <EVENT eid="e3" mainevent="NO" class="STATE" stem="cost" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">cost</EVENT> the far-right German People's Union
+about 549,000 marks (dlrs 305,000), parliament <EVENT eid="e5" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> <TIMEX3 tid="t40" type="DATE" value="1998-06-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">Friday</TIMEX3>.</s>
+<s>Parliamentary president Rita Suessmuth <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the People's Union
+correctly <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="list" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">listed</EVENT> Jacques de Mathan as  having <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="donate" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">donated</EVENT> about 274,500
+marks in <TIMEX3 tid="t41" type="DATE" value="1995" temporalFunction="false" functionInDocument="NONE">1995</TIMEX3>, but <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="give" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">gave</EVENT> a false address for him.</s>
+<s>German law <EVENT eid="e10" mainevent="YES" class="I_STATE" stem="require" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">requires</EVENT> parties  to <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="publish" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">publish</EVENT> the name and address of
+anyone who <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="donate" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">donates</EVENT> more than 20,000 marks (dlrs 11,000).</s>
+<s>The anti-foreigner party <EVENT eid="e14" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e15" mainevent="NO" class="I_STATE" stem="want" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">wanted</EVENT>  to <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="protect" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">protect</EVENT> the donor
+from possible <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="attack" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">attacks</EVENT>.</s>
+<s>Suessmuth  <EVENT eid="e36" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> , however, that the law  does not <EVENT eid="e20" mainevent="NO" class="I_STATE" stem="allow" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">allow</EVENT> for
+<EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="provide" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">providing</EVENT> a false address for any reason.</s> <s>The fine is twice the
+donation, as provided for under German party financing laws.</s>
+<s>Party spokesman Bernd Droese <EVENT eid="e25" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the People's Union would <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="challenge" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">challenge</EVENT> the fine in court.</s>
+<s>The extremist party <TIMEX3 tid="t42" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">recently</TIMEX3> <EVENT eid="e28" mainevent="YES" class="OCCURRENCE" stem="take" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">took</EVENT> a surprising 13 percent of the
+vote in <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="election" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">elections</EVENT> in a <EVENT eid="e38" mainevent="NO" class="STATE" stem="depressed" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">depressed</EVENT> eastern German state, and <EVENT eid="e32" mainevent="NO" class="I_STATE" stem="hope" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">hopes</EVENT>  to <EVENT eid="e33" mainevent="NO" class="I_STATE" stem="win" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">win</EVENT> its first seats in the federal parliament <TIMEX3 tid="t43" type="DATE" value="1998-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t39">this September</TIMEX3>.</s>
+<s>UR (pfg-xx)</s>
+
+(PROFILE
+(WS SL:BC-Germany-Rightists Fined; CT:i;
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(LANG:ENGLISH;))
+)
+
+
+<s>AP-NY-06-26-98 0707EDT</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e28" eventID="e25" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e10" eventID="e6" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e36" eventID="e14" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e6" eventID="e5" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e14" eventID="e10" task="C"/>
+
+</TempEval>

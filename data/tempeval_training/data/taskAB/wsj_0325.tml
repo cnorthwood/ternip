@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891101-0039 
+ = 891101 
+ 891101-0039. 
+ Business Brief -- Coast Savings Financial Inc.:
+@  Thrift Company Posts Loss;
+@  Restructuring Program Cited 
+ <TIMEX3 tid="t29" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89 </TIMEX3>
+ WALL STREET JOURNAL (J) 
+ CSA 
+ EARNINGS (ERN) 
+
+   <s>Coast Savings Financial Inc. <EVENT eid="e1" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> a <TIMEX3 tid="t31" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t29">third-quarter</TIMEX3> <EVENT eid="e37" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT>, <EVENT eid="e2" class="REPORTING" stem="cite" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">citing</EVENT> a previously announced capital restructuring program.</s> 
+
+   <s>The Los Angeles thrift holding company <EVENT eid="e4" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e38" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> a loss of $92.2 million, or $6.98 a share, for <TIMEX3 tid="t48" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t31">the quarter</TIMEX3> ended <TIMEX3 tid="t32" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t29">Sept. 30</TIMEX3>.</s> 
+<s>Coast <EVENT eid="e7" class="OCCURRENCE" stem="earn" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">earned</EVENT> $10.2 million, or 67 cents a share, in <TIMEX3 tid="t49" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t31">the year-ago quarter</TIMEX3>.</s> 
+<s>The <TIMEX3 tid="t51" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t49">year-ago</TIMEX3> <EVENT eid="e41" class="STATE" stem="result" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">results</EVENT>  have  been <EVENT eid="e8" class="OCCURRENCE" stem="restate" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">restated</EVENT>  to <EVENT eid="e9" class="I_STATE" stem="comply" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">comply</EVENT> with government <EVENT eid="e42" class="STATE" stem="regulation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">regulations</EVENT>.</s> 
+
+   <s>The restructuring <EVENT eid="e44" class="I_STATE" stem="program" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">program</EVENT>  is <EVENT eid="e10" class="I_STATE" stem="design" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">designed</EVENT>  to <EVENT eid="e11" class="I_ACTION" stem="increase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">increase</EVENT> the company's tangible capital <EVENT eid="e43" class="STATE" stem="ratio" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">ratio</EVENT>.</s> 
+<s>It includes <EVENT eid="e13" class="OCCURRENCE" stem="remove" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">removing</EVENT> $242 million in good will from the books, <EVENT eid="e15" class="OCCURRENCE" stem="issue" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">issuing</EVENT> $150 million in preferred stock and <EVENT eid="e17" class="ASPECTUAL" stem="commence" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">commencing</EVENT> an exchange <EVENT eid="e45" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> for $52 million in convertible bonds.</s> 
+
+   <s>During <TIMEX3 tid="t52" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t31">the third quarter</TIMEX3>, the company <EVENT eid="e20" class="OCCURRENCE" stem="charge" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">charged</EVENT> about $46 million against earnings in reducing goodwill, <EVENT eid="e23" class="OCCURRENCE" stem="add" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">added</EVENT> $20 million to its general loan loss reserves and <EVENT eid="e24" class="I_ACTION" stem="establish" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">established</EVENT> a $30 million <EVENT eid="e46" class="STATE" stem="reserve" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">reserve</EVENT> for its high-yield bond portfolio.</s> 
+<s>The company <EVENT eid="e25" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> its junk-bond portfolio after these <EVENT eid="e26" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">moves</EVENT>  had  been <EVENT eid="e28" class="OCCURRENCE" stem="reduce" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">reduced</EVENT> to less than 1% of assets.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e37" relatedToTime="t31" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e1" relatedToTime="t31" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e4" relatedToTime="t48" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e4" relatedToTime="t32" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e38" relatedToTime="t48" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e38" relatedToTime="t32" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e7" relatedToTime="t49" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e41" relatedToTime="t51" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e23" relatedToTime="t52" task="A"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e20" relatedToTime="t52" task="A"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e37" relatedToTime="t29" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e1" relatedToTime="t29" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e4" relatedToTime="t29" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e38" relatedToTime="t29" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e7" relatedToTime="t29" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e41" relatedToTime="t29" task="B"/>
+<TLINK lid="l17" relType="AFTER" eventID="e11" relatedToTime="t29" task="B"/>
+<TLINK lid="l18" relType="AFTER" eventID="e45" relatedToTime="t29" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e23" relatedToTime="t29" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e20" relatedToTime="t29" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e26" relatedToTime="t29" task="B"/>
+<TLINK lid="l22" relType="BEFORE" eventID="e25" relatedToTime="t29" task="B"/>
+</TempEval>

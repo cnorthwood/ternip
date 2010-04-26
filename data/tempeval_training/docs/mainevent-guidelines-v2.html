@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Main event annotation guidelines</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head><body>
+<h1>Annotation guidelines for main event annotation</h1>
+<p><strong>Amber Stubbs, SeoHyun Im,  Roser Saur&iacute;, Marc Verhagen</strong></p>
+<p>Version 2, December 2006.</p>
+<p></p><hr>
+
+<h2>Basic definitions</h2>
+
+<p>We consider main events within the scope of a sentence. With that
+       in mind, we start by defining the basic notions at
+       play: <i>sentence</i>, and <i>event</i>.</p>
+
+<h3>Sentence</h3>
+
+<p>We adopt the notion of <i>sentence</i> standardly assume in the NLP
+community. That is, as the basic textual unit immediately above the
+phrase which ends with a terminal punctuation mark, such
+as: <b>.</b>, <b>?</b>, or <b>!</b>. Example (1) contains two
+different sentences (delimited by the &lt;s&gt; tag), whereas example (2) has
+only one.
+
+<blockquote>
+  	<p>(1) &lt;s&gt;Australia has been independent since
+	1901.&lt;/s&gt; &lt;s&gt;However, it still recognizes the
+	British monarch as its head of state.&lt;/s&gt;
+  	<p>(2) &lt;s&gt;Australia has been independent since
+	1901, but it still recognizes the
+	British monarch as its head of state.&lt;/s&gt;          
+  </blockquote>
+
+<h3>Event</h3>
+
+<p> <i>Event</i> is a cover term for predicates describing:
+  <ul>
+    <li>Situations that <i>happen</i> or <i>occur</i>. <!--They can be
+    punctual (as the expression underlined in 3) or last for a
+    period of time (4).-->
+
+    <blockquote>
+	<!--<p>(3) Ferdinand Magellan, a Portuguese explorer, first
+          <u>reached</u> the islands in search of spices.</p>-->
+	<p>(3) 11,024 people were <u>evacuated</u> to 18 disaster
+      	relief centers.</p>
+	</blockquote>
+    </li>
+
+    <li><i>States</i> or <i>circumstances</i> in which something
+obtains or holds true (4).
+
+	<blockquote>
+    	<p>(4) After these payments, about $225,000 will
+ 	be <u>available</u> for the 20 million common
+ 	shares <u>outstanding</u>.
+	</blockquote>
+     </li>
+     </ul>	
+
+<p>Events can be denoted by verbs (<i>reach, evacuate</i>), 
+  adjectives (<i>available, outstanding</i>), or nouns (<i>search,
+  payment</i>).</p>  
+
+<p>Events in text are annotated following TimeML annotation
+  guidelines (Saur&iacute; et al., 2005:section 2.1.1). These
+  guidelines cover problematic cases in detail, such as: light verb
+  constructions, complex verb forms (with auxiliaries and/or polarity
+  particles), phrasal verbs, predicative constructions, etc.
+
+<h2>Identifying main events</h2>
+
+<p>There will be only one main event per sentence.
+
+<p>Identifying the main event in a sentence that has only one event is
+  trivial, since this automatically becomes the main event of that
+  sentence.
+  
+<p>In the case of sentences with multiple events (e.g.,
+  example 5), the main event will be determined following very
+  shallow, syntactic-based criteria.
+
+<blockquote>
+    <p>(5) ``We're <u>expecting</u> a major <u>eruption</u>,''
+he <u>said</u> in a telephone <u>interview</u> early today.</p>
+  </blockquote>
+
+<p>Two different situations can be distinguished here:
+
+<h3>Subordination contexts</h3>
+
+<!--<p>Two events are in a subordination relation if one is the matrix
+  predicate of the sentence main clause, and the other is the matrix
+  predicate of a subordinated clause or phrase.-->
+  
+<p>The <b>main event</b> will be the event that is dominant
+  syntactically. This apply to all kinds of subordination. Here, we list
+  the most relevant for reference. 
+
+  <ol>
+    <li><b><i>that</i>-clauses:</b> They are introduced by the
+     conjunction <i>that</i>, although in some cases this can be
+     omitted. Grammatically, they can function in different roles,
+     such as subject (6) or object (7) of certain verbs. In the
+     following examples, the two relevant events are in bold face,
+     with the main one underlined.
+<blockquote>
+          <p>(6) It <b><u>surprised</u></b>
+        me [that Gulshan Lake <b>has</b> so many little bugs and
+        bacteria].
+        <p>(7) He <b><u>told</u></b>
+        reporters [(that) he <b>had</b> no message from Baghdad].
+  </blockquote>
+    
+    </li>
+    <li><b><i>if-</i> and <i>wh-</i>clauses:</b> Introduced
+    by the cojunctions <i>if</i> and <i>whether</i> (8), or by a <i>wh</i>
+    particle (<i>who, where, what, how</i>, etc.) (9). Grammatically,
+    they can function as object or subject of a verb as well.
+
+      <blockquote>
+	<p>(8) Reporters <b><u>asked</u></b> President Bush [whether the interdiction would <b>apply</b> to food].
+	<p>(9) The panel is <b><u>investigating</u></b> [who <b>shot</b> down Rwandan President Juvenal Habyarimana's plane on April 6, 1994]. 
+  </blockquote>
+      
+    </li>
+    <li><b>Relative clauses:</b> They are noun modifiers. In case that
+    the noun head denotes an event and is not subordinated to any other
+    event in the sentence, this noun will be the main
+    event. <!--Situations like this are however rare.-->
+
+      <blockquote>
+        <p>(10) A <b><u>war</u></b> [that is <b>supposed</b> to help feed the
+        desperate people of Afghanistan].
+        </blockquote>
+    </li>
+    <li><b>Small clauses:</b> They are minimal predicate structures
+    with no tense. We are also including here <i>ing-</i>clauses (13).
+      <blockquote>
+        <p>(11) Several neighbors <b><u>heard</u></b> [it <b>happen</b>].
+          <p>(12) Her wife <b><u>convinced</u></b> [him to <b>leave</b>
+          the country].
+          <p>(13) I don't <b><u>see</u></b> things [<b>getting</b> as acrimonious as they do].
+        </blockquote>
+      
+     <li><b>Adverbial clauses:</b> Introduced by subordinating
+    conjunctions expressing: temporal relations (<i>after, before,
+    when, while</i>), purpose (<i>to, in order to, so that</i>), cause
+    (<i>because, since</i>), condition (<i>if, unless</i>), or
+    contrast (<i>although, even though, while</i>), comparison
+    (<i>similar to, like</i>). Note that none of
+    these lists are necessarily exhaustive.
+      <blockquote>
+	<p>(14) He <b><u>stayed</u></b> behind because he
+	couldn't <b>speak</b> French.
+	<p>(15) So when Wong Kwan <b>spent</b> seventy million dollars for this house, he <b><u>thought</u></b> it was a great deal.        
+        </blockquote>
+      
+    </li>
+    <li><b>Comparative clauses:</b> The subordinated clause is
+    introduced by conjunctions <i>as</i> or <i>than</i>.
+      
+      <blockquote>
+        <p>(16) There have been far more <b><u>participants</u></b>
+        this year [than there <b>were</b> last year].
+        <p>(17) He is about as <b><u>old</u></b> [as his
+        father <b>was</b> at his age]. 
+        </blockquote>
+  
+	<p>Two comments need to be made here. First, note that the
+      main events selected here (<i>participants, old</i>) do not
+      denote an event by themselves. They are however annotated as
+      events following the TimeML annotation guidelines (Saur&iacute;
+      et al, 2005), which specify that the copular verb <i>be</i> is
+      never marked as event, but the head of their predicative
+      complement instead.
+	<p>Second, in (17) there are two phrases introduced by the
+	conjunction <i>as</i>. The subordinated phrase is the
+	second one.
+      
+    </li>
+    <li><b>NPs, APs, or PPs headed by an event-denoting element:</b>
+    They can function as subjects, objects, or other arguments of verbal
+    predicates (18-19). They can also be complements of nouns (20) or
+    adjectives (21).
+      <blockquote>
+        <p>(18)[The <b>transaction</b>] has
+        been <b><u>approved</u></b> by Kyle's board.
+        <p>(19) The new Essex County task force
+        is <b><u>delving</u></b> [into the <b>slayings</b> of 14 black
+        women].
+        <p>(20) There was no independent <b><u>confirmation</u></b> [of
+        the <b>fact</b>] by the government-run news agency.
+        <p>(21) The agreement is <b><u>subject</u></b> [to shareholder and regulatory <b>approval</b>].  
+        </blockquote>
+      
+    </li>
+      </ol>
+  
+<h4>Controversial cases</h4>  
+
+<ul>
+<li>In constructions involving <b>aspectual predicates</b> (22) and <b>light
+  verbs</b> (23), the syntacticaclly dominant element is semantically
+  weaker than the subordinated event. We will however annotate the syntactic
+  head as main event, following the general rule set above for
+  contexts of subordination, since the semantic head can be easily
+  recovered by the syntax, as well as any temporal relation that may
+  hold between the main event and the subordinated one.
+
+  <blockquote>
+    <p>(22) A new Essex County task
+        force <b><u>began</u></b> [<b>delving</b> Thursday into the
+        slayings of 14 black women].
+      <p>(23) The chip <b><u>gives</u></b> [wrong <b>answers</b>] for some mathematical calculations.
+    </blockquote>
+  
+<li>In news reports, <b>reporting</b> and <b>perception events</b>
+  seem pragmatically less relevant than the events being reported or
+  perceived --that is, the events denoted by the subordinated
+  complements. Nonetheless, the same general criterion for
+  subordination relations will be applied here, and we will therefore
+  annotate the reporting or perception event as the main event of the
+  sentence. Similar to ligth verbs and aspectual predications, the
+  semantic relations holding between the two events can be generally
+  calculated from the syntactic structure.
+  
+  <blockquote>
+    <p>(24) [But over all, arrests were <b>made</b> in more than
+    60 percent of murder cases], he <b><u>said</u></b>.</p>
+</blockquote>
+
+<li><b>Causal sentences</b> are difficult to annotate from a semantic
+  perspective. What is the main event in the sentence (25),
+  where <i>rains</i>, <i>caused</i>, and <i>flooding</i> are all
+  event-denoting expressions? Deciding among one or another element
+  may be an arbitrary decision. Thus, causal sentences will follow the
+  same syntactic-based rule presented above: the main event will be
+  the syntactic head.
+  
+  <blockquote>
+    <p>(25) The <b>rains</b> <b><u>caused</u></b> the <b>flood</b>.
+    </blockquote>
+  
+</ul>
+
+  
+<h3>Coordination contexts</h3>
+
+<p>The <b>main event</b> will be the first one of the two coordinated
+  events. Some coordinating conjunctions in English are: <i>and, or,
+  but, nor, yet, so, as well as, only, such that</i>.
+
+<blockquote>
+    <p>(26) He <b><u>sold</u></b> the property to five buyers [and] <b>said</b> he'd double his money.</p>
+    <p>(27) Australia has been <b><u>independent</u></b> since 1901,
+    [but] like many Commonwealth nations it still <b>recognizes</b>
+    the British monarch as its head of state.</p>
+    <p>(28) I had <b><u>hoped</u></b> to see her, [only] she did
+    not <b>come</b>.</p>
+    <p>(29) The work started very <b><u>hard</u></b>, [such that] many
+    people were <b>injured</b>.
+
+</blockquote>
+
+<h2>Guidelines basic scheme</h2>
+
+<ol>
+  <li>Annotate only one main event per sentence.</li>
+  <li>In subordination relations, the main event is the dominant
+  syntactically.</li>
+  <li>In coordination relations, the main event is the first one in the
+  sentence string.</li>
+    </ol>
+
+<h2>References</h2>
+
+Saur&iacute;, R., J. Littman, B. Knippen, R. Gaizauskas, A. Setzer,
+J. Pustejovsky. 2005. <i>TimeML Annotation Guidelines</i>. <a href="http://timeml.org/site/publications/timeMLdocs/annguide_1.2.1.pdf">http://www.timeml.org</a>. 
+
+</body></html>

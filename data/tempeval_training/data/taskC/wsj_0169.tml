@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891102-0021 
+ = 891102 
+ 891102-0021. 
+ Business Brief -- Ratners Group PLC:
+@  Bid for Another Jeweler
+@  Is Raised to $62.1 Million 
+ <TIMEX3 tid="t27" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ RATNY WEIS 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Ratners Group PLC, a fast-growing, acquisition-minded London-based jeweler, <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="raise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">raised</EVENT> its price for Seattle-based specialty jeweler Weisfield's Inc. to <EVENT eid="e32" mainevent="NO" class="STATE" stem="$57.50" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="OTHER">$57.50</EVENT> a share, or $62.1 million, from <EVENT eid="e33" mainevent="NO" class="STATE" stem="$50" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$50</EVENT> a share, or $55 million, after another concern <EVENT eid="e3" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it would be prepared to <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="outbid" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">outbid</EVENT> Ratners's initial <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT>.</s> 
+<s>The other concern was n't identified.</s> 
+
+   <s>Ratners's chairman, Gerald Ratner, <EVENT eid="e11" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the deal remains of "substantial <EVENT eid="e37" mainevent="NO" class="STATE" stem="benefit" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">benefit</EVENT> to Ratners."</s> 
+<s>In London at <TIMEX3 tid="t28" type="DATE" value="1989-11-01TAF" mod="MID" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">mid-afternoon yesterday</TIMEX3>, Ratners's shares were <EVENT eid="e34" mainevent="YES" class="STATE" stem="up" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">up</EVENT> 2 pence (1.26 cents), at 260 pence ($1.64).</s> 
+
+   <s>The <EVENT eid="e91" mainevent="NO" class="OCCURRENCE" stem="sweetened" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">sweetened</EVENT> <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="offer" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offer</EVENT> <EVENT eid="e15" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="acceptance" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acceptances</EVENT> from more than 50% of Weisfield's shareholders, and it is <EVENT eid="e17" mainevent="NO" class="I_STATE" stem="schedule" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">scheduled</EVENT> for <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="completion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">completion</EVENT> by <TIMEX3 tid="t36" type="DATE" value="1989-12-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">Dec. 10</TIMEX3>.</s> 
+
+   <s>The <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of 87-store Weisfield's <EVENT eid="e38" mainevent="YES" class="OCCURRENCE" stem="raise" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">raises</EVENT> Ratners's U.S. presence to 450 stores.</s> 
+<s>About 30% of Ratners's profit <TIMEX3 tid="t101" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">already</TIMEX3> is <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="derive" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">derived</EVENT> from the U.S.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="VAGUE" relatedToEvent="e34" eventID="e11" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e38" eventID="e15" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e20" eventID="e38" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e15" eventID="e34" task="C"/>
+
+</TempEval>

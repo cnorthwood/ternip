@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW19980807.0261 
+ NEWS STORY 
+ 08/07/1998 06:18:00 
+
+w2213 &amp;Cx1f; wstm-
+u i &amp;Cx13;  &amp;Cx11;  URGENT     08-07 0122
+
+
+ URGENT 
+
+BC-Kenya-Explosion, 5th Ld-Writethru
+
+ &amp;UR; Explosions rock U.S. embassies in Tanzania, Kenya &amp;QL; 
+ &amp;UR; Eds: UPDATES with explosion near U.S. Embassy in Tanzania. &amp;QL; 
+ &amp;UR; AP Photos Planned &amp;QL; 
+ &amp;UR; By CHEGE MBITIRU &amp;QC; 
+ &amp;UR; Associated Press Writer &amp;QC; 
+
+
+	   NAIROBI, Kenya (AP) _ Suspected bombs <EVENT eid="e1" class="OCCURRENCE">exploded</EVENT> outside the U.S.
+embassies in the Kenyan and Tanzanian capitals <TIMEX3 tid="t1" type="DATE" value="1998-08-07" temporalFunction="false" functionInDocument="NONE">Friday</TIMEX3>, <EVENT eid="e2" class="OCCURRENCE">killing</EVENT>
+dozens of people, witnesses <EVENT eid="e3" class="REPORTING">said</EVENT>.
+	   The American ambassador to Kenya was among hundreds <EVENT eid="e12" class="OCCURRENCE">injured</EVENT>, a
+local TV <EVENT eid="e4" class="REPORTING">said</EVENT>.
+	   ``It was definitely a bomb,'' <EVENT eid="e5" class="REPORTING">said</EVENT> a U.S. Embassy official in
+Nairobi, who <EVENT eid="e6" class="OCCURRENCE">refused</EVENT> to <EVENT eid="e7" class="OCCURRENCE">identify</EVENT> himself. ``You can <EVENT eid="e8" class="PERCEPTION">see</EVENT> a huge
+crater behind the building, and a bomb <EVENT eid="e9" class="OCCURRENCE">went</EVENT> off at the embassy in
+Tanzania at the same time,'' he <EVENT eid="e10" class="REPORTING">said</EVENT>.
+	    &amp;UR; MORE
+
+
+(PROFILE
+(WS SL:URGENT; CT:i; 
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:ENGL;)
+(REG:AFRI;)
+(LANG:ENGLISH;))
+)
+
+
+AP-NY-08-07-98 0618EDT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l2" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" origin="USER"/>
+<TLINK lid="l3" relType="IBEFORE" eventInstanceID="ei1" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l5" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei12" origin="USER"/>
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei12" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei5" origin="USER"/>
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei5" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l9" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei8" origin="USER"/>
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei1" origin="USER"/>
+<SLINK lid="l1" relType="MODAL" eventInstanceID="ei6" subordinatedEventInstance="ei7" syntax="USER"/>
+
+</TimeML>

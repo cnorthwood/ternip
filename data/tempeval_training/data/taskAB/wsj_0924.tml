@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891026-0134 
+ = 891026 
+ 891026-0134. 
+ Dominion Textile Rights Plan 
+ <TIMEX3 tid="t23" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ T.DTX 
+ EARNINGS (ERN) 
+ MONTREAL  
+
+   <s>Dominion Textile Inc. holders <EVENT eid="e1" class="OCCURRENCE" stem="adopt" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">adopted</EVENT> a shareholder-rights plan at the annual <EVENT eid="e2" class="OCCURRENCE" stem="meeting" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">meeting</EVENT>.</s> 
+
+   <s>The so-called poison pill <EVENT eid="e4" class="OCCURRENCE" stem="take" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">took</EVENT> effect <TIMEX3 tid="t24" type="DATE" value="1989-08-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">Aug. 9</TIMEX3> <EVENT eid="e25" class="I_STATE" stem="pending" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">pending</EVENT> <EVENT eid="e5" class="OCCURRENCE" stem="ratification" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">ratification</EVENT> by holders.</s> 
+<s>Rights attached to the company's common shares were <EVENT eid="e7" class="OCCURRENCE" stem="issue" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">issued</EVENT> that are <EVENT eid="e8" class="OCCURRENCE" stem="trigger" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">triggered</EVENT> if a hostile bidder <EVENT eid="e10" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">acquires</EVENT> more than 20% of the shares outstanding.</s> 
+<s>Once <EVENT eid="e11" class="OCCURRENCE" stem="trigger" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">triggered</EVENT>, the rights <EVENT eid="e27" class="I_STATE" stem="allow" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">allow</EVENT> holders to <EVENT eid="e13" class="OCCURRENCE" stem="buy" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">buy</EVENT> additional shares at 50% of the <TIMEX3 tid="t34" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE">then current</TIMEX3> market <EVENT eid="e29" class="STATE" stem="price" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">price</EVENT> or, at the board's discretion, to <EVENT eid="e16" class="OCCURRENCE" stem="receive" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">receive</EVENT> securities or assets.</s> 
+
+   <s>Separately, Dominion Textile <EVENT eid="e18" class="REPORTING" stem="post" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">posted</EVENT> net <EVENT eid="e47" class="STATE" stem="income" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">income</EVENT> of 4.7 million Canadian dollars ($4 million), or 12 Canadian cents a share, for <TIMEX3 tid="t36" type="DATE" value="1989-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">the fiscal-first quarter</TIMEX3> ended <TIMEX3 tid="t38" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">Sept. 30</TIMEX3>.</s> 
+<s>The company <EVENT eid="e41" class="OCCURRENCE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> a net loss of C<EVENT eid="e48" class="STATE" stem="$2.3" aspect="NONE" tense="PAST" polarity="POS" pos="OTHER">$2.3</EVENT> million, or 14 Canadian cents a share, <TIMEX3 tid="t42" type="DATE" value="1988-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t36">a year ago</TIMEX3>.</s> 
+<s>Sales were C<EVENT eid="e49" class="STATE" stem="$348.2" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$348.2</EVENT> million compared with <EVENT eid="e46" class="STATE" stem="c$307.2" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">C$307.2</EVENT> <TIMEX3 tid="t43" type="DATE" value="1988-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t36">a year earlier</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e4" relatedToTime="t24" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e13" relatedToTime="t34" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e18" relatedToTime="t36" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e18" relatedToTime="t38" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e41" relatedToTime="t42" task="A"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e4" relatedToTime="t23" task="B"/>
+<TLINK lid="l7" relType="AFTER" eventID="e10" relatedToTime="t23" task="B"/>
+<TLINK lid="l8" relType="AFTER" eventID="e13" relatedToTime="t23" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e18" relatedToTime="t23" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e41" relatedToTime="t23" task="B"/>
+</TempEval>

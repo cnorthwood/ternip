@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891101-0008 
+ = 891101 
+ 891101-0008. 
+ Business Brief -- Rally's Inc.:
+@  Shareholder Rights Program
+@  Is Set by Fast-Food Firm 
+ <TIMEX3 tid="t22" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ RLLY 
+
+   <s>Rally's Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="adopt" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">adopted</EVENT> a shareholders rights plan to <EVENT eid="e4" class="OCCURRENCE" stem="protect" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">protect</EVENT> shareholders from an inadequately priced takeover offer.</s> 
+
+   <s>The plan provides for the distribution of one common stock-purchase right as a dividend for each share of common outstanding.</s> 
+<s>Each right entitles shareholders to buy one-half share of common for $30.</s> 
+
+   <s><TIMEX3 tid="t23" type="DATE" value="1989-11" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t22">Earlier this month</TIMEX3>, a group led by three of the company's directors, Burt Sugarman, James M. Trotter III and Willam E. Trotter II, <EVENT eid="e12" class="REPORTING" stem="indicate" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">indicated</EVENT> it <EVENT eid="e24" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> a 45.2% <EVENT eid="e13" class="STATE" stem="stake" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">stake</EVENT> in the Louisville, Ky., fast-food company and that it <EVENT eid="e14" class="I_STATE" stem="plan" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">planned</EVENT> to <EVENT eid="e16" class="I_ACTION" stem="seek" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seek</EVENT> a <EVENT eid="e26" class="STATE" stem="majority" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">majority</EVENT> of seats on Rally's nine-member board.</s> 
+
+   <s>The company <EVENT eid="e17" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it was " <EVENT eid="e18" class="I_STATE" stem="concern" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">concerned</EVENT> about the announced <EVENT eid="e19" class="I_ACTION" stem="intent" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">intent</EVENT> to <EVENT eid="e21" class="I_ACTION" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> <EVENT eid="e27" class="STATE" stem="control" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">control</EVENT> of the company" by a Sugarman-led group.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e16" relatedToTime="t23" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e24" relatedToTime="t23" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e14" relatedToTime="t23" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e1" relatedToTime="t22" task="B"/>
+<TLINK lid="l5" relType="BEFORE-OR-OVERLAP" eventID="e16" relatedToTime="t22" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e24" relatedToTime="t22" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e14" relatedToTime="t22" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e17" relatedToTime="t22" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e21" relatedToTime="t22" task="B"/>
+</TempEval>

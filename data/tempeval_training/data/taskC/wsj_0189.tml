@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891102-0001 
+ = 891102 
+ 891102-0001. 
+ Ralston Profit
+@  Declined 47%
+@  In 4th Quarter
+@  ---
+@  By Richard Gibson
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t35" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ RAL 
+ EARNINGS (ERN)
+FOOD PRODUCTS (FOD) 
+
+   <s>Ralston Purina Co. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> a 47% <EVENT eid="e1991" mainevent="NO" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decline</EVENT> in <TIMEX3 tid="t38" type="DURATION" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">fourth-quarter</TIMEX3> <EVENT eid="e2018" mainevent="NO" class="OCCURRENCE" stem="earnings" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">earnings</EVENT>, <EVENT eid="e2" mainevent="NO" class="I_STATE" stem="reflect" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">reflecting</EVENT> restructuring <EVENT eid="e2033" mainevent="NO" class="OCCURRENCE" stem="cost" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">costs</EVENT> as well as a more difficult pet food market.</s> 
+
+   <s>The St. Louis company <EVENT eid="e3" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $45.2 million, or 65 cents a share, compared with $84.9 million, or $1.24 a share, <TIMEX3 tid="t39" type="DATE" value="1988-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t38">a year earlier</TIMEX3>.</s> 
+<s><EVENT eid="e2044" mainevent="YES" class="OCCURRENCE" stem="sales" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">Sales</EVENT> in <TIMEX3 tid="t42" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">the latest period</TIMEX3> were $1.76 billion, a 13% <EVENT eid="e1992" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">increase</EVENT> from <TIMEX3 tid="t43" type="DATE" value="1988-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t42">last year</TIMEX3>'s $1.55 billion.</s> 
+
+   <s>For <TIMEX3 tid="t41" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">the year</TIMEX3> <EVENT eid="e5" mainevent="NO" class="ASPECTUAL" stem="end" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">ended</EVENT> <TIMEX3 tid="t40" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">Sept. 30</TIMEX3>, Ralston <EVENT eid="e6" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $422.5 million, or $6.44 a share, up 8.9% from $387.8 million, or $5.63 a share.</s> 
+<s><TIMEX3 tid="t50" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">This year</TIMEX3>'s <EVENT eid="e1993" mainevent="YES" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> included a <EVENT eid="e1994" mainevent="NO" class="OCCURRENCE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT> of $70.2 million on the <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="disposal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">disposal</EVENT> of seafood operations.</s> 
+<s><EVENT eid="e1995" mainevent="YES" class="OCCURRENCE" stem="sales" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">Sales</EVENT> for <TIMEX3 tid="t44" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">the full year</TIMEX3> were $6.6 billion, up 13% from $5.8 billion.</s> 
+
+   <s>Ralston <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its restructuring <EVENT eid="e1999" mainevent="NO" class="OCCURRENCE" stem="cost" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">costs</EVENT> <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="include" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">include</EVENT> the <EVENT eid="e1996" mainevent="NO" class="OCCURRENCE" stem="phase-out" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">phase-out</EVENT> of a battery facility in Greenville, N.C., the <TIMEX3 tid="t45" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">recent</TIMEX3> <EVENT eid="e1997" mainevent="NO" class="OCCURRENCE" stem="closing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">closing</EVENT> of a Hostess cake bakery in Cincinnati and a <EVENT eid="e1998" mainevent="NO" class="OCCURRENCE" stem="reduction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">reduction</EVENT> in staff throughout the company.</s> 
+<s>The battery plant, which <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="make" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">makes</EVENT> rechargeable nickel cadmium and carbon zinc products,  will  be <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="close" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> over <TIMEX3 tid="t46" type="DATE" value="1990" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">the next year or so</TIMEX3>, a spokesman <EVENT eid="e2000" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Ralston <EVENT eid="e15" mainevent="YES" class="I_STATE" stem="attribute" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">attributed</EVENT> its <TIMEX3 tid="t47" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">fourth-quarter</TIMEX3> <EVENT eid="e2001" mainevent="NO" class="OCCURRENCE" stem="slump" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">slump</EVENT> partly to higher <EVENT eid="e2003" mainevent="NO" class="OCCURRENCE" stem="cost" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">costs</EVENT> of ingredients in the pet food business as well as competitive <EVENT eid="e2002" mainevent="NO" class="OCCURRENCE" stem="pressure" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">pressures</EVENT>, which <EVENT eid="e18" mainevent="NO" class="I_STATE" stem="require" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">required</EVENT> higher advertising <EVENT eid="e2004" mainevent="NO" class="OCCURRENCE" stem="spending" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">spending</EVENT>.</s> 
+<s>For <TIMEX3 tid="t48" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">the year</TIMEX3>, pet food volume was <EVENT eid="e2154" mainevent="NO" class="STATE" stem="flat" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE">flat</EVENT>, the company <EVENT eid="e19" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Its cereal division <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="realize" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">realized</EVENT> higher operating <EVENT eid="e2005" mainevent="NO" class="OCCURRENCE" stem="profit" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">profit</EVENT> on volume <EVENT eid="e21" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">increases</EVENT>, but also <EVENT eid="e2006" mainevent="NO" class="OCCURRENCE" stem="spend" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">spent</EVENT> more on <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="promotion" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">promotion</EVENT>.</s> 
+<s>The Continental Baking business <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="benefit" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">benefited</EVENT> from higher margins on bread and on <EVENT eid="e2007" mainevent="NO" class="STATE" stem="increased" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">increased</EVENT> cake <EVENT eid="e2008" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sales</EVENT>, it <EVENT eid="e30" mainevent="YES" class="REPORTING" stem="add" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">added</EVENT>.</s> 
+
+   <s>Ralston <EVENT eid="e31" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its Eveready battery unit  was <EVENT eid="e32" mainevent="NO" class="OCCURRENCE" stem="hurt" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hurt</EVENT> by <EVENT eid="e33" mainevent="NO" class="ASPECTUAL" stem="continuing" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">continuing</EVENT> economic <EVENT eid="e2009" mainevent="NO" class="OCCURRENCE" stem="problem" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">problems</EVENT> in South America.</s> 
+
+   <s>Ralston shares <EVENT eid="e34" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> <TIMEX3 tid="t49" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">yesterday</TIMEX3> at $80.50, off $1, in New York Stock Exchange composite trading.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e19" eventID="e15" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e20" eventID="e19" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e10" eventID="e1995" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e2000" eventID="e10" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e1995" eventID="e1993" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e2044" eventID="e3" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e3" eventID="e1" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e15" eventID="e2000" task="C"/>
+<TLINK lid="l9" relType="VAGUE" relatedToEvent="e31" eventID="e30" task="C"/>
+<TLINK lid="l10" relType="VAGUE" relatedToEvent="e34" eventID="e31" task="C"/>
+<TLINK lid="l11" relType="BEFORE" relatedToEvent="e30" eventID="e20" task="C"/>
+<TLINK lid="l12" relType="BEFORE" relatedToEvent="e1993" eventID="e6" task="C"/>
+<TLINK lid="l13" relType="OVERLAP" relatedToEvent="e6" eventID="e2044" task="C"/>
+
+</TempEval>

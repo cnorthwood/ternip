@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ ed<TIMEX3 tid="t14" type="DATE" value="1998-01-11" temporalFunction="false" functionInDocument="CREATION_TIME">980111</TIMEX3>.1130.0089 
+ NEWS STORY 
+
+
+
+
+
+ <s>The lights are <EVENT eid="e21" mainevent="YES" class="STATE" stem="out" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">out</EVENT> and the heat is <EVENT eid="e22" mainevent="NO" class="STATE" stem="off" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">off</EVENT> and those vital signs are not <EVENT eid="e25" mainevent="NO" class="STATE" stem="likely" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">likely</EVENT>  to <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="change" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">change</EVENT> much over <TIMEX3 tid="t15" type="DURATION" value="PXD" temporalFunction="true" functionInDocument="NONE" beginPoint="t14">the next several days</TIMEX3> for p- people in parts of the northeastern US and eastern Canada.</s> 
+
+ <s>A powerful ice storm <EVENT eid="e2" mainevent="YES" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continues</EVENT>  to <EVENT eid="e3" mainevent="NO" class="STATE" stem="maintain" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">maintain</EVENT> its <EVENT eid="e27" mainevent="NO" class="STATE" stem="grip" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">grip</EVENT>.</s>
+
+ <s><TIMEX3 tid="t16" type="DATE" value="1998-01-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">Yesterday</TIMEX3> New York governor George Pataki <EVENT eid="e4" mainevent="YES" class="OCCURRENCE" stem="tour" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">toured</EVENT> five counties that  have  been <EVENT eid="e5" mainevent="NO" class="I_ACTION" stem="declare" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">declared</EVENT> under a <EVENT eid="e34" mainevent="NO" class="STATE" stem="state" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">state</EVENT> of emergency.</s> <s>He <EVENT eid="e6" mainevent="YES" class="ASPECTUAL" stem="add" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">added</EVENT> one more <TIMEX3 tid="t17" type="DATE" value="1998-01-11" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">today</TIMEX3>.</s>
+
+ <s>Helicopters  are <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="fly" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">flying</EVENT> over northern New York <TIMEX3 tid="t18" type="DATE" value="1998-01-11" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">today</TIMEX3> <EVENT eid="e8" mainevent="YES" class="I_ACTION" stem="try" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">trying</EVENT>  to <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="locate" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">locate</EVENT> people <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="strand" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">stranded</EVENT> without food, heat or medicine.</s>
+
+ <s>In Maine, about a half million people still don't <EVENT eid="e32" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">have</EVENT> power and they 're going to have  to <EVENT eid="e12" mainevent="NO" class="STATE" stem="live" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">live</EVENT> without it for <TIMEX3 tid="t20" type="DURATION" value="PXD" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">a while</TIMEX3>.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e8" eventID="e6" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e32" eventID="e8" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e6" eventID="e4" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e4" eventID="e2" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e2" eventID="e21" task="C"/>
+
+</TempEval>

@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891102-0166 
+ = 891102 
+ 891102-0166. 
+ Who's News:
+@  Magna International's
+@  Financial Chief Quits;
+@  Chairman Stepping In 
+ <TIMEX3 tid="t65" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ MAGAF WNEWS 
+ TORONTO  
+
+   <s>Magna International Inc.'s chief financial officer, James McAlpine, <EVENT eid="e1" class="OCCURRENCE" stem="resign" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">resigned</EVENT> and its chairman, Frank Stronach, is <EVENT eid="e2" class="OCCURRENCE" stem="step" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">stepping</EVENT> in to <EVENT eid="e5" class="I_ACTION" stem="help" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e60" class="OCCURRENCE" stem="turn" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">turn</EVENT> the automotive-parts manufacturer around, the company <EVENT eid="e6" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Mr. Stronach will <EVENT eid="e7" class="I_ACTION" stem="direct" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">direct</EVENT> an <EVENT eid="e8" class="I_ACTION" stem="effort" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">effort</EVENT> to <EVENT eid="e10" class="OCCURRENCE" stem="reduce" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">reduce</EVENT> overhead and <EVENT eid="e11" class="OCCURRENCE" stem="curb" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">curb</EVENT> capital <EVENT eid="e12" class="OCCURRENCE" stem="spending" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">spending</EVENT> "until a more satisfactory level of profit is <EVENT eid="e14" class="OCCURRENCE" stem="achieve" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">achieved</EVENT> and <EVENT eid="e15" class="OCCURRENCE" stem="maintain" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">maintained</EVENT>," Magna <EVENT eid="e16" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Stephen Akerfeldt, currently vice president finance, will <EVENT eid="e19" class="OCCURRENCE" stem="succeed" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">succeed</EVENT> Mr. McAlpine.</s> 
+
+   <s>An ambitious <EVENT eid="e20" class="OCCURRENCE" stem="expansion" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">expansion</EVENT> has <EVENT eid="e21" class="OCCURRENCE" stem="leave" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">left</EVENT> Magna with excess capacity and a heavy debt load as the automotive industry <EVENT eid="e23" class="ASPECTUAL" stem="enter" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">enters</EVENT> a <EVENT eid="e24" class="OCCURRENCE" stem="downturns" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">downturn</EVENT>.</s> 
+<s>The company has <EVENT eid="e25" class="REPORTING" stem="report" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">reported</EVENT> <EVENT eid="e62" class="OCCURRENCE" stem="decline" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">declines</EVENT> in operating profit in <TIMEX3 tid="t180" type="DURATION" value="P3Y" temporalFunction="true" functionInDocument="NONE" endPoint="t65">each of the past three years</TIMEX3>, despite steady sales <EVENT eid="e187" class="OCCURRENCE" stem="growth" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">growth</EVENT>.</s> 
+
+   <s>Magna <TIMEX3 tid="t66" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t65">recently</TIMEX3> <EVENT eid="e27" class="OCCURRENCE" stem="cut" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">cut</EVENT> its quarterly dividend in half and the company's Class A shares are <EVENT eid="e29" class="OCCURRENCE" stem="wallow" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">wallowing</EVENT> far below their <TIMEX3 tid="t68" type="DURATION" value="P52W" temporalFunction="false" functionInDocument="NONE">52-week</TIMEX3> <EVENT eid="e67" class="OCCURRENCE" stem="high" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">high</EVENT> of 16.125 Canadian dollars (US$13.73).</s> 
+<s>On the Toronto Stock Exchange <TIMEX3 tid="t69" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t65">yesterday</TIMEX3>, Magna shares <EVENT eid="e30" class="OCCURRENCE" stem="close" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">closed</EVENT> up 37.5 Canadian cents to C$9.625.</s> 
+
+   <s>Mr. Stronach, founder and controlling shareholder of Magna, <EVENT eid="e32" class="OCCURRENCE" stem="resign" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">resigned</EVENT> as chief executive officer <TIMEX3 tid="t228" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t65">last year</TIMEX3> to <EVENT eid="e59" class="I_ACTION" stem="seek" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">seek</EVENT> , unsuccessfully, a <EVENT eid="e71" class="STATE" stem="seat" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">seat</EVENT> in Canada's Parliament.</s> 
+
+   <s>Analysts <EVENT eid="e35" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Mr. Stronach <EVENT eid="e36" class="I_STATE" stem="want" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">wants</EVENT> to <EVENT eid="e38" class="ASPECTUAL" stem="resume" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">resume</EVENT> a more influential role in <EVENT eid="e41" class="OCCURRENCE" stem="run" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">running</EVENT> the company.</s> 
+<s>They <EVENT eid="e42" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expect</EVENT> him to <EVENT eid="e44" class="OCCURRENCE" stem="cut" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">cut</EVENT> costs throughout the organization.</s> 
+
+   <s>The company <EVENT eid="e45" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Mr. Stronach will personally <EVENT eid="e46" class="I_ACTION" stem="direct" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">direct</EVENT> the <EVENT eid="e289" class="OCCURRENCE" stem="restructuring" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">restructuring</EVENT>, <EVENT eid="e47" class="OCCURRENCE" stem="assist" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">assisted</EVENT> by Manfred Gingl, president and chief executive.</s> 
+<s>Neither they nor Mr. McAlpine could be <EVENT eid="e48" class="OCCURRENCE" stem="reach" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">reached</EVENT> for comment.</s> 
+
+   <s>Magna <EVENT eid="e51" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Mr. McAlpine <EVENT eid="e52" class="OCCURRENCE" stem="resign" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">resigned</EVENT> to <EVENT eid="e54" class="OCCURRENCE" stem="pursue" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">pursue</EVENT> a consulting career, with Magna as one of his clients.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e62" relatedToTime="t180" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e25" relatedToTime="t180" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e30" relatedToTime="t69" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e59" relatedToTime="t228" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e6" relatedToTime="t65" task="B"/>
+<TLINK lid="l6" relType="OVERLAP-OR-AFTER" eventID="e5" relatedToTime="t65" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e16" relatedToTime="t65" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e21" relatedToTime="t65" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e62" relatedToTime="t65" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e25" relatedToTime="t65" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e30" relatedToTime="t65" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e59" relatedToTime="t65" task="B"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e36" relatedToTime="t65" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e35" relatedToTime="t65" task="B"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e42" relatedToTime="t65" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e45" relatedToTime="t65" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e51" relatedToTime="t65" task="B"/>
+</TempEval>

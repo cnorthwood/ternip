@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891030-0159 
+ = 891030 
+ 891030-0159. 
+ Dow Jones Extends
+@  Tender Offer for Rest
+@  Of Telerate to Nov. 6 
+ <TIMEX3 tid="t86" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ DJ TLR 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+MEDIA, PUBLISHING, BROADCASTING, ELECTRONIC PUBLISHING (MED) 
+ NEW YORK  
+
+   <s>Dow Jones amp Co. <EVENT eid="e1" class="I_ACTION" stem="extend" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">extended</EVENT> its tender <EVENT eid="e2" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> of $18 a share, or about $576 million, for the 33% of Telerate Inc. that it does n't already <EVENT eid="e3" class="OCCURRENCE" stem="own" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">own</EVENT> until <TIMEX3 tid="t87" type="TIME" value="1989-11-06T17" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t86">5 p.m. EST, Nov. 6</TIMEX3>.</s> 
+
+   <s>The <EVENT eid="e5" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT>, which Telerate's two independent directors have <EVENT eid="e6" class="I_ACTION" stem="reject" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">rejected</EVENT> as inadequate, previously had been <EVENT eid="e7" class="OCCURRENCE" stem="schedule" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">scheduled</EVENT> to <EVENT eid="e9" class="OCCURRENCE" stem="expire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">expire</EVENT> at <TIMEX3 tid="t90" type="TIME" value="1989-10-27T24" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t86">midnight Friday</TIMEX3>.</s> 
+<s>Dow Jones <EVENT eid="e10" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e11" class="I_ACTION" stem="extend" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">extended</EVENT> the <EVENT eid="e12" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> to <EVENT eid="e14" class="I_STATE" stem="allow" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">allow</EVENT> shareholders time to <EVENT eid="e17" class="OCCURRENCE" stem="review" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">review</EVENT> a supplement to the Dow Jones tender offer circular that it <EVENT eid="e19" class="OCCURRENCE" stem="mail" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">mailed</EVENT> <TIMEX3 tid="t91" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t86">last Friday</TIMEX3>.</s> 
+
+   <s>The supplement contains various information that has been <EVENT eid="e23" class="OCCURRENCE" stem="file" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">filed</EVENT> with the Securities and Exchange Commission since Dow Jones <EVENT eid="e24" class="OCCURRENCE" stem="launch" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">launched</EVENT> the <EVENT eid="e25" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> on <TIMEX3 tid="t94" type="DATE" value="1989-09-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t86">Sept. 26</TIMEX3>, but it does n't <EVENT eid="e26" class="OCCURRENCE" stem="change" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">change</EVENT> the terms and conditions of the <EVENT eid="e28" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT> except to <EVENT eid="e30" class="OCCURRENCE" stem="extend" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">extend</EVENT> its expiration date.</s> 
+
+   <s>In Delaware Chancery Court litigation, Telerate has <EVENT eid="e31" class="OCCURRENCE" stem="criticize" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">criticized</EVENT> Dow Jones for not <EVENT eid="e32" class="I_ACTION" stem="disclose" aspect="NONE" tense="PRESPART" polarity="NEG" pos="VERB">disclosing</EVENT> that Telerate's management <EVENT eid="e34" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expects</EVENT> the company's revenue to <EVENT eid="e36" class="OCCURRENCE" stem="increase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">increase</EVENT> by 20% annually, while Dow Jones <EVENT eid="e38" class="OCCURRENCE" stem="base" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">based</EVENT> its projections of Telerate's performance on a 12% revenue growth forecast.</s> 
+<s>In the tender offer supplement, Dow Jones <EVENT eid="e44" class="I_ACTION" stem="disclose" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">discloses</EVENT> the different growth <EVENT eid="e45" class="OCCURRENCE" stem="forecast" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">forecasts</EVENT> but <EVENT eid="e46" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> it <EVENT eid="e47" class="I_STATE" stem="view" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">views</EVENT> the 20% growth rate "as a hoped-for <EVENT eid="e104" class="OCCURRENCE" stem="goal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">goal</EVENT>" of Telerate's management "and not as a realistic basis on which to project the company's likely future performance."</s> 
+
+   <s>Telerate shares <EVENT eid="e52" class="OCCURRENCE" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> 50 cents on <TIMEX3 tid="t98" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t86">Friday</TIMEX3> to <EVENT eid="e54" class="OCCURRENCE" stem="close" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">close</EVENT> at <EVENT eid="e99" class="STATE" stem="$20" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$20</EVENT> each in New York Stock Exchange composite trading.</s> 
+<s>Dow Jones shares also <EVENT eid="e55" class="OCCURRENCE" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> 50 cents to <EVENT eid="e57" class="OCCURRENCE" stem="close" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">close</EVENT> at <EVENT eid="e100" class="STATE" stem="$36.125" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">$36.125</EVENT> in Big Board composite trading.</s> 
+
+   <s>Dow Jones has <EVENT eid="e58" class="REPORTING" stem="say" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e59" class="I_STATE" stem="believe" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">believes</EVENT> the $18-a-share price is <EVENT eid="e101" class="STATE" stem="fair" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">fair</EVENT> to Telerate's minority shareholders.</s> 
+<s><TIMEX3 tid="t102" type="DATE" value="1989-WXX" mod="END" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t86">Late last week</TIMEX3>, representatives of Dow Jones and Telerate <EVENT eid="e60" class="ASPECTUAL" stem="begin" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">began</EVENT> <EVENT eid="e61" class="OCCURRENCE" stem="negotiation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">negotiations</EVENT> about the terms of the <EVENT eid="e103" class="OCCURRENCE" stem="offer" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offer</EVENT>, but those <EVENT eid="e63" class="OCCURRENCE" stem="talk" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">talks</EVENT> did n't result in any <EVENT eid="e66" class="OCCURRENCE" stem="change" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">changes</EVENT> in the offer.</s> 
+
+   <s>Telerate provides information about financial markets through an electronic network.</s> 
+<s>Dow Jones, which owns 67% of Telerate, publishes The Wall Street Journal, Barron's magazine, community newspapers and operates financial news services and computer data bases.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t87" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e5" relatedToTime="t90" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e10" relatedToTime="t91" task="A"/>
+<TLINK lid="l4" relType="OVERLAP-OR-AFTER" eventID="e12" relatedToTime="t91" task="A"/>
+<TLINK lid="l5" relType="AFTER" eventID="e26" relatedToTime="t94" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e28" relatedToTime="t94" task="A"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e25" relatedToTime="t94" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e54" relatedToTime="t98" task="A"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e52" relatedToTime="t98" task="A"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e63" relatedToTime="t102" task="A"/>
+<TLINK lid="l11" relType="OVERLAP-OR-AFTER" eventID="e103" relatedToTime="t102" task="A"/>
+<TLINK lid="l12" relType="OVERLAP" eventID="e60" relatedToTime="t102" task="A"/>
+<TLINK lid="l13" relType="AFTER" eventID="e66" relatedToTime="t102" task="A"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e2" relatedToTime="t86" task="B"/>
+<TLINK lid="l15" relType="BEFORE" eventID="e5" relatedToTime="t86" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e10" relatedToTime="t86" task="B"/>
+<TLINK lid="l17" relType="OVERLAP" eventID="e12" relatedToTime="t86" task="B"/>
+<TLINK lid="l18" relType="OVERLAP" eventID="e26" relatedToTime="t86" task="B"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e28" relatedToTime="t86" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e25" relatedToTime="t86" task="B"/>
+<TLINK lid="l21" relType="AFTER" eventID="e36" relatedToTime="t86" task="B"/>
+<TLINK lid="l22" relType="OVERLAP" eventID="e34" relatedToTime="t86" task="B"/>
+<TLINK lid="l23" relType="OVERLAP" eventID="e46" relatedToTime="t86" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e54" relatedToTime="t86" task="B"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e52" relatedToTime="t86" task="B"/>
+<TLINK lid="l26" relType="BEFORE" eventID="e55" relatedToTime="t86" task="B"/>
+<TLINK lid="l27" relType="BEFORE" eventID="e57" relatedToTime="t86" task="B"/>
+<TLINK lid="l28" relType="OVERLAP" eventID="e59" relatedToTime="t86" task="B"/>
+<TLINK lid="l29" relType="BEFORE" eventID="e58" relatedToTime="t86" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e63" relatedToTime="t86" task="B"/>
+<TLINK lid="l31" relType="OVERLAP" eventID="e103" relatedToTime="t86" task="B"/>
+<TLINK lid="l32" relType="BEFORE" eventID="e60" relatedToTime="t86" task="B"/>
+<TLINK lid="l33" relType="BEFORE" eventID="e66" relatedToTime="t86" task="B"/>
+</TempEval>

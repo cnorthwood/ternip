@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ ABC<TIMEX3 tid="t52" type="DATE" value="1998-01-14" temporalFunction="false" functionInDocument="CREATION_TIME">19980114</TIMEX3>.1830.0611 
+ NEWS STORY 
+
+
+
+
+
+ <s>In Washington <TIMEX3 tid="t53" type="DATE" value="1998-01-14" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t52">today</TIMEX3>, the Federal Aviation Administration <EVENT eid="e1" class="OCCURRENCE" stem="release" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">released</EVENT> air
+ traffic control tapes from <TIMEX3 tid="t54" type="TIME" value="1998-XX-XXTNI" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t52">the night</TIMEX3> the TWA Flight eight hundred <EVENT eid="e2" class="OCCURRENCE" stem="go" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">went</EVENT> down.</s> <s>There's
+ nothing new on why the plane <EVENT eid="e3" class="OCCURRENCE" stem="explode" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">exploded</EVENT>, but you cannot miss the moment.</s>
+ <s>ABC's Lisa Stark has more.</s>
+
+
+ <s>There was no <EVENT eid="e236" class="OCCURRENCE" stem="hint" aspect="NONE" tense="PAST" polarity="NEG" pos="NOUN">hint</EVENT> of trouble in the last <EVENT eid="e10" class="OCCURRENCE" stem="conversation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">conversation</EVENT> between controllers
+ and TWA pilot Steven Snyder</s>
+
+
+ <s>TWA
+ eight hundred climb <EVENT eid="e13" class="OCCURRENCE" stem="maintain" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">maintain</EVENT> one five thousand.</s>
+
+
+ <s>TWA's eight hundred heavy climb and <EVENT eid="e15" class="OCCURRENCE" stem="maintain" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">maintain</EVENT> one five thousand leavin- three thousand.</s>
+
+
+ <s>But <TIMEX3 tid="t58" type="DURATION" value="PT1M30S" temporalFunction="false" functionInDocument="NONE">a minute and a half</TIMEX3> later, a pilot from a nearby flight <EVENT eid="e18" class="REPORTING" stem="call" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">calls</EVENT> in.</s>
+
+
+ <s>Ah, we just <EVENT eid="e19" class="PERCEPTION" stem="see" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">saw</EVENT> an <EVENT eid="e20" class="OCCURRENCE" stem="explosion" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">explosion</EVENT> up ahead of us here
+ about sixteen thousand feet or
+ something like that.</s> <s>It just <EVENT eid="e21" class="OCCURRENCE" stem="go" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">went</EVENT> down.</s>
+
+
+ <s>The controller at Boston center <EVENT eid="e22" class="I_ACTION" stem="try" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">tries</EVENT> to <EVENT eid="e24" class="OCCURRENCE" stem="raise" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">raise</EVENT> TWA eight hundred.</s>
+
+
+ <s>TWA eight hundred, if you <EVENT eid="e26" class="PERCEPTION" stem="hear" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">hear</EVENT> center, <EVENT eid="e60" class="OCCURRENCE" stem="ident" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">ident</EVENT>.</s>
+
+
+ <s>There is no <EVENT eid="e61" class="OCCURRENCE" stem="response" aspect="NONE" tense="PRESENT" polarity="NEG" pos="NOUN">response</EVENT>.</s> <s>Later, the controller <EVENT eid="e28" class="OCCURRENCE" stem="ask" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">asks</EVENT> the Eastwind pilot for
+ more details.</s>
+
+
+ <s>Ah yes, sir.</s> <s>It- It just <EVENT eid="e30" class="OCCURRENCE" stem="blow" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">blew</EVENT> up in the air, and then we <EVENT eid="e33" class="PERCEPTION" stem="see" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">saw</EVENT> two fireballs <EVENT eid="e34" class="OCCURRENCE" stem="go" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">go</EVENT>
+ down to the, to the water, and there was a big small, ah, smoke, from ah , <EVENT eid="e36" class="OCCURRENCE" stem="come" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">coming</EVENT> up from that.</s>
+
+
+ <s>At one point, when it <EVENT eid="e38" class="I_STATE" stem="become" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">became</EVENT> clear controllers could not <EVENT eid="e235" class="OCCURRENCE" stem="contact" aspect="NONE" tense="NONE" polarity="NEG" pos="VERB">contact</EVENT>   the plane,
+ someone <EVENT eid="e43" class="OCCURRENCE" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> a prayer.</s>
+
+
+ <s>TWA eight hundred, center</s>
+
+
+ <s>I think that was him.</s>
+
+
+ <s>I think so.</s>
+
+
+ <s>God bless him.</s>
+
+
+ <s>Lisa Stark ABC news Washington</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t53" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e2" relatedToTime="t54" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e18" relatedToTime="t58" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e2" relatedToTime="t52" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e18" relatedToTime="t52" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e19" relatedToTime="t52" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e21" relatedToTime="t52" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e22" relatedToTime="t52" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e33" relatedToTime="t52" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e34" relatedToTime="t52" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e36" relatedToTime="t52" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e43" relatedToTime="t52" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e38" relatedToTime="t52" task="B"/>
+</TempEval>

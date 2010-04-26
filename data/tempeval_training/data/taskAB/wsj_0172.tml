@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891102-0018 
+ = 891102 
+ 891102-0018. 
+ Business Brief -- First of America Bank Corp.:
+@  Midwest Financial Group
+@  Acquired for $250 Million 
+ <TIMEX3 tid="t28" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ FABK 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) 
+
+   <s>First of America Bank Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="ASPECTUAL" stem="complete" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">completed</EVENT> its <EVENT eid="e3" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of Midwest Financial Group Inc. for about $250 million.</s> 
+<s>First of America, which <TIMEX3 tid="t41" type="TIME" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">now</TIMEX3> <EVENT eid="e4" class="STATE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> 45 banks and $12.5 billion in assets, <EVENT eid="e5" class="REPORTING" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> an <EVENT eid="e6" class="I_ACTION" stem="agreement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">agreement</EVENT> to <EVENT eid="e8" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> the Peoria, Ill., bank holding company in <TIMEX3 tid="t67" type="TIME" value="1990-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">January</TIMEX3>.</s> 
+
+   <s>Midwest Financial has $2.3 billion in assets and eight banks.</s> 
+<s>The Midwest Financial subsidiary banks will <EVENT eid="e11" class="ASPECTUAL" stem="continue" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">continue</EVENT> to <EVENT eid="e13" class="OCCURRENCE" stem="operate" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">operate</EVENT> under their current names until <TIMEX3 tid="t75" type="DATE" value="1990" mod="START" temporalFunction="false" functionInDocument="NONE">early 1990</TIMEX3>, when each will <EVENT eid="e16" class="OCCURRENCE" stem="adopt" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">adopt</EVENT> the First of America name.</s> 
+
+   <s>Kalamazoo, Mich.-based First of America <EVENT eid="e17" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e18" class="OCCURRENCE" stem="eliminate" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">eliminate</EVENT> the 13 management positions of the former Midwest Financial parent company.</s> 
+<s>First of America <EVENT eid="e19" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> some of the managers will <EVENT eid="e20" class="OCCURRENCE" stem="take" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">take</EVENT> other jobs with First of America.</s> 
+<s>But it <EVENT eid="e22" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> that <EVENT eid="e124" class="OCCURRENCE" stem="severance" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">severance</EVENT> <EVENT eid="e23" class="OCCURRENCE" stem="payment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">payments</EVENT> to those executives not <EVENT eid="e24" class="OCCURRENCE" stem="stay" aspect="NONE" tense="PRESPART" polarity="NEG" pos="VERB">staying</EVENT> with the company will <EVENT eid="e25" class="OCCURRENCE" stem="reduce" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">reduce</EVENT> First of America's operating results for 1989 by $3 million to $4 million, or 15 cents to 20 cents a share.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e6" relatedToTime="t41" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e6" relatedToTime="t67" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e4" relatedToTime="t41" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e4" relatedToTime="t67" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e5" relatedToTime="t41" task="A"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e5" relatedToTime="t67" task="A"/>
+<TLINK lid="l7" relType="AFTER" eventID="e8" relatedToTime="t41" task="A"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e8" relatedToTime="t67" task="A"/>
+<TLINK lid="l9" relType="BEFORE-OR-OVERLAP" eventID="e11" relatedToTime="t75" task="A"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e3" relatedToTime="t28" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e1" relatedToTime="t28" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e6" relatedToTime="t28" task="B"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e4" relatedToTime="t28" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e5" relatedToTime="t28" task="B"/>
+<TLINK lid="l15" relType="AFTER" eventID="e8" relatedToTime="t28" task="B"/>
+<TLINK lid="l16" relType="AFTER" eventID="e11" relatedToTime="t28" task="B"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e17" relatedToTime="t28" task="B"/>
+<TLINK lid="l18" relType="AFTER" eventID="e20" relatedToTime="t28" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e19" relatedToTime="t28" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e22" relatedToTime="t28" task="B"/>
+</TempEval>

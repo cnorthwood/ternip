@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891026-0085 
+ = 891026 
+ 891026-0085. 
+ Westinghouse
+@  Sees Big Gains
+@  For Next Year
+@  ---
+@  Boost in Operating Margins,
+@  Double-Digit Per-Share
+@  Growth Forecast by Firm
+@  ----
+@  By Gregory Stricharchuk
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t118" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ WX 
+ ELECTRICAL COMPONENTS AND EQUIPMENT (ELQ) 
+ NEW YORK  
+
+   <s>Westinghouse Electric Corp., <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="capitalize" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">capitalizing</EVENT> on a major restructuring program, <EVENT eid="e3" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> operating margins of more than 10% and double-digit per-share earnings <EVENT eid="e117" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> <TIMEX3 tid="t119" type="DATE" value="1990" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t118">next year</TIMEX3>, top officers <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="tell" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">told</EVENT> securities analysts here.</s> 
+
+   <s>John C. Marous, chairman and chief executive officer, also <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company <EVENT eid="e7" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> sales from continuing businesses to <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="rise" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">rise</EVENT> 8.5% annually through <TIMEX3 tid="t121" type="DURATION" value="P3Y" temporalFunction="true" functionInDocument="NONE" beginPoint="t118">the next three years</TIMEX3>.</s> 
+
+   <s>In <TIMEX3 tid="t122" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3>, the company <EVENT eid="e13" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $822.8 million, or $5.66 a share, on sales of $12.49 billion.</s> 
+
+   <s>Since <TIMEX3 tid="t126" type="DATE" value="1983" temporalFunction="false" functionInDocument="NONE">1983</TIMEX3>, Westinghouse has <EVENT eid="e15" mainevent="YES" class="OCCURRENCE" stem="shed" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">shed</EVENT> 70 businesses that it did n't <EVENT eid="e17" mainevent="NO" class="I_STATE" stem="expect" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">expect</EVENT> to <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="produce" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">produce</EVENT> 10% operating margins while <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="acquiring" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquiring</EVENT> 55 businesses.</s> 
+
+   <s>In <TIMEX3 tid="t127" type="DURATION" value="P20M" temporalFunction="true" functionInDocument="NONE" endPoint="t118">the past 20 months</TIMEX3> alone, Paul E. Lego, president and chief operating officer, <EVENT eid="e24" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the divestiture of $300 million of slow-growth, low-profit businesses has been more than <EVENT eid="e467" mainevent="NO" class="OCCURRENCE" stem="offset" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="OTHER">offset</EVENT> by $600 million in profitable acquisitions.</s> 
+
+   <s>Westinghouse <EVENT eid="e31" mainevent="YES" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e33" mainevent="NO" class="OCCURRENCE" stem="meet" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">meet</EVENT> its corporate goals despite a softening in the economy.</s> 
+<s>Even if the gross national product is either <EVENT eid="e130" mainevent="NO" class="STATE" stem="flat" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">flat</EVENT> or <EVENT eid="e468" mainevent="NO" class="STATE" stem="in" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER">in</EVENT> the growth range of 2% to 2.5%, "we can <EVENT eid="e37" mainevent="NO" class="OCCURRENCE" stem="handle" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">handle</EVENT> that," Mr. Marous <EVENT eid="e39" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>GNP is the total value of the nation's output of goods and services.</s> 
+
+   <s>A bright spot is the company's power-generation business, which is <EVENT eid="e44" mainevent="YES" class="I_STATE" stem="experience" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">experiencing</EVENT> a surge of <EVENT eid="e134" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> for the first time in <TIMEX3 tid="t136" type="DURATION" value="PXY" temporalFunction="false" functionInDocument="NONE">years</TIMEX3>.</s> 
+<s>Mr. Marous <EVENT eid="e47" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the business will <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="achieve" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">achieve</EVENT> higher sales <TIMEX3 tid="t137" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t118">this year</TIMEX3> than the company's target goal of 8.5%.</s> 
+
+   <s>While Westinghouse hasn't <EVENT eid="e138" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">had</EVENT> a nuclear power plant <EVENT eid="e51" mainevent="NO" class="OCCURRENCE" stem="order" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">order</EVENT> from a U.S. utility in <TIMEX3 tid="t141" type="DURATION" value="P1E" mod="APPROX" temporalFunction="false" functionInDocument="NONE">about a decade</TIMEX3>, excess capacity is <EVENT eid="e52" mainevent="NO" class="ASPECTUAL" stem="begin" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">beginning</EVENT> to <EVENT eid="e54" mainevent="NO" class="OCCURRENCE" stem="shrink" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">shrink</EVENT>.</s> 
+<s>Mr. Lego <EVENT eid="e55" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the company <EVENT eid="e56" mainevent="NO" class="I_STATE" stem="foresee" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">foresees</EVENT> the <EVENT eid="e142" mainevent="NO" class="I_STATE" stem="need" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">need</EVENT> for a major <EVENT eid="e57" mainevent="NO" class="OCCURRENCE" stem="boost" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">boost</EVENT> in new-generation capability throughout <TIMEX3 tid="t144" type="DURATION" value="199" temporalFunction="false" functionInDocument="NONE">the 1990s</TIMEX3>.</s> 
+
+   <s>Westinghouse also is well <EVENT eid="e58" mainevent="YES" class="I_STATE" stem="position" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">positioned</EVENT> to <EVENT eid="e60" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> steam turbine and gas turbine plants to independent power producers.</s> 
+<s>The company's ability to respond to energy needs world-wide will be <EVENT eid="e65" mainevent="NO" class="OCCURRENCE" stem="enhance" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">enhanced</EVENT> through a <TIMEX3 tid="t145" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t118">recently</TIMEX3> <EVENT eid="e146" mainevent="NO" class="I_ACTION" stem="announced" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">announced</EVENT> <EVENT eid="e66" mainevent="NO" class="OCCURRENCE" stem="venture" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">venture</EVENT> with Mitsubishi Heavy Industries, Mr. Lego <EVENT eid="e68" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>He <EVENT eid="e69" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the independent power segment could <EVENT eid="e70" mainevent="NO" class="OCCURRENCE" stem="grow" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">grow</EVENT> to <EVENT eid="e73" mainevent="NO" class="OCCURRENCE" stem="provide" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">provide</EVENT> as much as 50% of near-term generation capacity, <EVENT eid="e74" mainevent="NO" class="REPORTING" stem="adding" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">adding</EVENT>: "We <EVENT eid="e75" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expect</EVENT> to <EVENT eid="e77" mainevent="NO" class="OCCURRENCE" stem="supply" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">supply</EVENT> a significant share of this market."</s> 
+
+   <s>Westinghouse also <EVENT eid="e79" mainevent="YES" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> its international sales to <TIMEX3 tid="t147" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t118">soon</TIMEX3> <EVENT eid="e81" mainevent="NO" class="OCCURRENCE" stem="grow" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">grow</EVENT> to <EVENT eid="e469" mainevent="NO" class="STATE" stem="25%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">25%</EVENT> of total corporate sales from <EVENT eid="e152" mainevent="NO" class="STATE" stem="20%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">20%</EVENT> <TIMEX3 tid="t150" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t118">last year</TIMEX3>.</s> 
+<s>The company is <EVENT eid="e82" mainevent="YES" class="OCCURRENCE" stem="negotiate" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">negotiating</EVENT> with the Soviets to <EVENT eid="e84" mainevent="NO" class="OCCURRENCE" stem="build" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">build</EVENT> a Thermo King truck-refrigeration plant that would <EVENT eid="e85" mainevent="NO" class="OCCURRENCE" stem="produce" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">produce</EVENT> about 10,000 units annually.</s> 
+
+   <s>Mr. Marous <EVENT eid="e87" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Westinghouse would <EVENT eid="e154" mainevent="NO" class="STATE" stem="own" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">own</EVENT> 70% of the facility.</s> 
+<s>The <EVENT eid="e466" mainevent="NO" class="OCCURRENCE" stem="deal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">deal</EVENT>, which will <EVENT eid="e89" mainevent="NO" class="I_STATE" stem="involve" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">involve</EVENT> an initial $20 million <EVENT eid="e90" mainevent="NO" class="OCCURRENCE" stem="investment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">investment</EVENT>, was <EVENT eid="e91" mainevent="NO" class="OCCURRENCE" stem="strike" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">struck</EVENT> with a <EVENT eid="e155" mainevent="NO" class="OCCURRENCE" stem="handshake" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">handshake</EVENT>, he <EVENT eid="e93" mainevent="YES" class="REPORTING" stem="add" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">added</EVENT>.</s> 
+
+   <s>Company officials also <EVENT eid="e94" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> that any gain from the <EVENT eid="e95" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of Westinghouse's 55% stake in its transmission and distribution venture with the Swiss firm of Asea Brown Boveri will be <EVENT eid="e101" mainevent="NO" class="OCCURRENCE" stem="offset" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">offset</EVENT> by a restructuring charge in <TIMEX3 tid="t157" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t118">the fourth quarter</TIMEX3>.</s> 
+<s>The executives did n't <EVENT eid="e102" mainevent="YES" class="OCCURRENCE" stem="disclose" tense="PAST" aspect="NONE" polarity="NEG" pos="VERB">disclose</EVENT> the size of the expected gain.</s> 
+
+   <s>Capital expenditure in <TIMEX3 tid="t158" type="DATE" value="1990" temporalFunction="false" functionInDocument="NONE">1990</TIMEX3> will <EVENT eid="e105" mainevent="NO" class="OCCURRENCE" stem="rise" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">rise</EVENT> slightly, Mr. Marous <EVENT eid="e106" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, from an <EVENT eid="e161" mainevent="NO" class="I_STATE" stem="estimated" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">estimated</EVENT> <EVENT eid="e470" mainevent="NO" class="STATE" stem="$470" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$470</EVENT> million <TIMEX3 tid="t163" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t118">this year</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e87" eventID="e82" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e6" eventID="e4" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e82" eventID="e79" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e31" eventID="e24" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e68" eventID="e58" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e93" eventID="e87" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e58" eventID="e55" task="C"/>
+<TLINK lid="l8" relType="BEFORE" relatedToEvent="e55" eventID="e138" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e94" eventID="e93" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e39" eventID="e31" task="C"/>
+<TLINK lid="l11" relType="OVERLAP" relatedToEvent="e15" eventID="e13" task="C"/>
+<TLINK lid="l12" relType="VAGUE" relatedToEvent="e106" eventID="e102" task="C"/>
+<TLINK lid="l13" relType="OVERLAP" relatedToEvent="e79" eventID="e69" task="C"/>
+<TLINK lid="l14" relType="AFTER" relatedToEvent="e13" eventID="e6" task="C"/>
+<TLINK lid="l15" relType="AFTER" relatedToEvent="e138" eventID="e47" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e47" eventID="e44" task="C"/>
+<TLINK lid="l17" relType="BEFORE" relatedToEvent="e24" eventID="e15" task="C"/>
+<TLINK lid="l18" relType="OVERLAP" relatedToEvent="e69" eventID="e68" task="C"/>
+<TLINK lid="l19" relType="OVERLAP" relatedToEvent="e102" eventID="e94" task="C"/>
+
+</TempEval>

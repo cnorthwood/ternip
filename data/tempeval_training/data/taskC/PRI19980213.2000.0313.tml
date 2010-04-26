@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ PRI<TIMEX3 tid="t37" type="DATE" value="1998-02-13" temporalFunction="false" functionInDocument="CREATION_TIME">19980213</TIMEX3>.2000.0313 
+ NEWS STORY 
+
+
+
+
+
+ <s>Officials in California  are <EVENT eid="e1" mainevent="YES" class="I_ACTION" stem="warn" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">warning</EVENT> residents that oncoming <EVENT eid="e40" mainevent="NO" class="OCCURRENCE" stem="rain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">rains</EVENT>  will <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="cause" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">cause</EVENT> dangerous and unpredictable <EVENT eid="e41" mainevent="NO" class="OCCURRENCE" stem="landslide" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">landslides</EVENT>.</s> <s>From member station KQED, Auncil
+ Martinez <EVENT eid="e42" mainevent="YES" class="REPORTING" stem="report" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">reports</EVENT>.</s>
+
+
+ <s>Experts <EVENT eid="e5" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> the ground  is  so <EVENT eid="e6" mainevent="NO" class="STATE" stem="saturate" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">saturated</EVENT> it cannot <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="absorb" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">absorb</EVENT> any more water.</s> <s>So
+ that <EVENT eid="e9" mainevent="YES" class="I_STATE" stem="mean" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">means</EVENT> soil will <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="fall" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">fall</EVENT> off in chunks and <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="destroy" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">destroy</EVENT> anything in its path.</s>
+ <s>In Los Angeles that lesson  was brought home <TIMEX3 tid="t38" type="DATE" value="1998-02-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t37">today</TIMEX3> when tons of earth <EVENT eid="e16" mainevent="YES" class="OCCURRENCE" stem="cascade" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">cascaded</EVENT> down a hillside, <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="rip" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">ripping</EVENT> two houses from their foundations.</s> <s>No one  was <EVENT eid="e18" mainevent="YES" class="OCCURRENCE" stem="hurt" tense="PAST" aspect="NONE" polarity="NEG" pos="ADJECTIVE">hurt</EVENT>, but firefighters <EVENT eid="e19" mainevent="NO" class="I_ACTION" stem="order" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">ordered</EVENT> the <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="evacuation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">evacuation</EVENT> of nearby homes and <EVENT eid="e20" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> they'll <EVENT eid="e21" mainevent="NO" class="OCCURRENCE" stem="monitor" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">monitor</EVENT> the shifting ground.</s> <s>In the northern California town of Rio Nido,
+ officials <EVENT eid="e23" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> a football field sized slab of hillside could  still <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="break" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">break</EVENT> loose at
+ <TIMEX3 tid="t39" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t37">any time</TIMEX3> and <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="destroy" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">destroy</EVENT> an entire neighborhood.</s> <s>And in San Francisco, a mansion
+ overlooking the Pacific Ocean and the Golden Gate Bridge  is <EVENT eid="e31" mainevent="YES" class="OCCURRENCE" stem="slip" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">slipping</EVENT> toward
+ the sea.</s> <s>Forecasters <EVENT eid="e32" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">say</EVENT> the picture  will <EVENT eid="e33" mainevent="NO" class="ASPECTUAL" stem="get" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">get</EVENT> worse because more <EVENT eid="e47" mainevent="NO" class="STATE" stem="rain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">rains</EVENT> are
+ on the way.</s> <s>For NPR news, I'm Auncil Martinez <EVENT eid="e36" mainevent="YES" class="REPORTING" stem="reporting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">reporting</EVENT>.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e18" eventID="e16" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e36" eventID="e32" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e32" eventID="e31" task="C"/>
+<TLINK lid="l4" relType="VAGUE" relatedToEvent="e23" eventID="e18" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e9" eventID="e5" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e42" eventID="e1" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e31" eventID="e23" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e5" eventID="e42" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e16" eventID="e9" task="C"/>
+
+</TempEval>

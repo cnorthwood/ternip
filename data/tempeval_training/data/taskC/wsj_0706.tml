@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891027-0189 
+ = 891027 
+ 891027-0189. 
+ Security Pacific Corp. 
+ <TIMEX3 tid="t28" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SPC LJC 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) 
+ LOS ANGELES  
+
+   <s>Security Pacific Corp. has <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="set" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">set</EVENT> its sights on <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="buying" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">buying</EVENT> its second bank holding company <TIMEX3 tid="t29" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">this year</TIMEX3>.</s> 
+
+   <s>Security <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="sign" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">signed</EVENT> a letter of <EVENT eid="e10" mainevent="NO" class="I_STATE" stem="intent" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">intent</EVENT> to <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="purchase" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">purchase</EVENT> La Jolla Bancorp, <EVENT eid="e13" mainevent="NO" class="I_STATE" stem="agree" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">agreeing</EVENT> to <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="pay" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> $15 of its own stock for each share of La Jolla.</s> 
+<s>Based on the <TIMEX3 tid="t30" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">current</TIMEX3> number of La Jolla shares, that gives the <EVENT eid="e19" mainevent="YES" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT> a value of $104 million.</s> 
+
+   <s>La Jolla is the parent company of La Jolla Bank amp Trust Co., which <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> 12 branches in San Diego County.</s> 
+<s>As of <TIMEX3 tid="t33" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Sept. 30</TIMEX3>, the bank <EVENT eid="e37" mainevent="NO" class="STATE" stem="had" tense="PAST" aspect="NONE" polarity="POS" pos="OTHER">had</EVENT> assets of $511 million and deposits of $469 million, Security Pacific <EVENT eid="e22" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s><TIMEX3 tid="t34" type="DATE" value="1989-10" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Earlier this month</TIMEX3>, Security Pacific, which is among the 10 largest bank holding companies in the U.S., <EVENT eid="e24" mainevent="YES" class="ASPECTUAL" stem="complete" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">completed</EVENT> the <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of San Diego-based Southwest Bancorp.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP-OR-AFTER" relatedToEvent="e20" eventID="e19" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e7" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e19" eventID="e7" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e22" eventID="e20" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e24" eventID="e22" task="C"/>
+
+</TempEval>

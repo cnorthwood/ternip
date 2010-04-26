@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891101-0099 
+ = 891101 
+ 891101-0099. 
+ Letters to the Editor:
+@  Innovators Overlooked 
+ <TIMEX3 tid="t34" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ MUTUAL AND MONEY-MARKET FUNDS (FND) 
+
+   <s>I was <EVENT eid="e41" class="I_STATE" stem="please" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">pleased</EVENT> to <EVENT eid="e2" class="I_ACTION" stem="note" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">note</EVENT> that your <TIMEX3 tid="t42" type="DATE" value="1989-10-23" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t34">Oct. 23</TIMEX3> Centennial Journal item <EVENT eid="e3" class="OCCURRENCE" stem="recognize" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">recognized</EVENT> the money-fund concept as one of the significant events of the past century.</s> 
+<s>Actually, <TIMEX3 tid="t39" type="DURATION" value="P2Y" mod="APPROX" temporalFunction="false" functionInDocument="NONE" endPoint="t42">about two years ago</TIMEX3>, the Journal <EVENT eid="e4" class="OCCURRENCE" stem="list" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">listed</EVENT> the <EVENT eid="e5" class="ASPECTUAL" stem="creation" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">creation</EVENT> of the money fund as one of the 10 most significant events in the world of finance in <TIMEX3 tid="t40" type="DATE" value="19XX" temporalFunction="false" functionInDocument="NONE">the 20th century</TIMEX3>.</s> 
+<s>But the Reserve Fund, America's first money fund, was not <EVENT eid="e9" class="OCCURRENCE" stem="name" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">named</EVENT>, nor were the creators of the money-fund concept, Harry Brown and myself.</s> 
+<s>We <EVENT eid="e11" class="OCCURRENCE" stem="innovate" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">innovated</EVENT> telephone <EVENT eid="e29" class="OCCURRENCE" stem="redemption" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">redemptions</EVENT>, daily dividends, total <EVENT eid="e30" class="OCCURRENCE" stem="elimination" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">elimination</EVENT> of share certificates and the constant $1 pershare <EVENT eid="e31" class="OCCURRENCE" stem="pricing" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">pricing</EVENT>, all of which were painfully <EVENT eid="e15" class="I_ACTION" stem="think" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">thought</EVENT> out and not the result of some <EVENT eid="e32" class="STATE" stem="inadvertence" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">inadvertence</EVENT> on the part of the SEC.</s> 
+
+   <s>BRUCE R. BENT 
+
+
+   President 
+
+   The Reserve Fund 
+
+   New York</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e15" relatedToTime="t34" task="B"/>
+</TempEval>

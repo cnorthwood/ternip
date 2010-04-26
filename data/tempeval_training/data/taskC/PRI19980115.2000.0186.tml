@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ PRI<TIMEX3 tid="t28" type="DATE" value="1998-01-15" temporalFunction="false" functionInDocument="CREATION_TIME">19980115</TIMEX3>.2000.0186 
+ NEWS STORY 
+
+
+
+
+
+ <s><TIMEX3 tid="t29" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Former</TIMEX3> savings and loan chief, Charles Keating,  is <EVENT eid="e1" mainevent="YES" class="I_STATE" stem="face" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">facing</EVENT> more legal
+ <EVENT eid="e1997" mainevent="NO" class="STATE" stem="trouble" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">troubles</EVENT> in California.</s>
+ <s>A federal appeals court  has <EVENT eid="e3" mainevent="YES" class="ASPECTUAL" stem="reinstate" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">reinstated</EVENT> his state <EVENT eid="e1998" mainevent="NO" class="STATE" stem="conviction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">convictions</EVENT>
+ for securities <EVENT eid="e2000" mainevent="NO" class="OCCURRENCE" stem="fraud" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">fraud</EVENT>.</s>
+ <s>NPR's Elaine Corey <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> more from San Francisco.</s>
+
+
+ <s>In <TIMEX3 tid="t30" type="DATE" value="1991" temporalFunction="false" functionInDocument="NONE">nineteen ninety-one</TIMEX3> Charles Keating  was <EVENT eid="e5" mainevent="YES" class="OCCURRENCE" stem="convict" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">convicted</EVENT> in state court of
+ <EVENT eid="e7" mainevent="NO" class="I_ACTION" stem="help" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">helping</EVENT>  to <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="defraud" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">defraud</EVENT> thousands of investors who <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="buy" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">bought</EVENT> high risk
+ junk bonds <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="sell" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">sold</EVENT> by Keating's employees at Lincoln savings and
+ loan.</s>
+ <s>The bonds <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="become" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">became</EVENT> worthless when the <EVENT eid="e2037" mainevent="NO" class="STATE" stem="bankrupt" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">bankrupt</EVENT> thrift  was <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="seize" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">seized</EVENT>
+ by government regulators.</s>
+ <s>Keating's <EVENT eid="e2003" mainevent="NO" class="STATE" stem="conviction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">convictions</EVENT>  were <EVENT eid="e14" mainevent="YES" class="OCCURRENCE" stem="throw" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">thrown</EVENT> out in <TIMEX3 tid="t31" type="DATE" value="1996" temporalFunction="false" functionInDocument="NONE">nineteen ninety-six</TIMEX3> on a
+ technicality.</s>
+ <s>And on that basis Keating  was <EVENT eid="e15" mainevent="YES" class="OCCURRENCE" stem="release" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">released</EVENT> from prison before he
+ was <EVENT eid="e2004" mainevent="NO" class="STATE" stem="eligible" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE">eligible</EVENT> for <EVENT eid="e2008" mainevent="NO" class="OCCURRENCE" stem="parole" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">parole</EVENT>.</s>
+ <s><TIMEX3 tid="t32" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Now</TIMEX3> the ninth US circuit court of appeals  has <EVENT eid="e17" mainevent="YES" class="I_ACTION" stem="rule" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">ruled</EVENT> that
+ the original <EVENT eid="e2007" mainevent="NO" class="OCCURRENCE" stem="appeal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">appeal</EVENT>  was <EVENT eid="e18" mainevent="NO" class="STATE" stem="flaw" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">flawed</EVENT> since it <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="bring" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">brought</EVENT> up <EVENT eid="e2195" mainevent="NO" class="STATE" stem="issue" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">issues</EVENT> that
+ had not  been <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="raise" tense="PAST" aspect="PERFECTIVE" polarity="NEG" pos="VERB">raised</EVENT> before.</s>
+ <s>That <EVENT eid="e22" mainevent="YES" class="I_STATE" stem="mean" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">means</EVENT> the <EVENT eid="e2009" mainevent="NO" class="STATE" stem="conviction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">convictions</EVENT> <EVENT eid="e23" mainevent="NO" class="ASPECTUAL" stem="stand" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">stand</EVENT>, a <EVENT eid="e2039" mainevent="NO" class="OCCURRENCE" stem="ruling" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">ruling</EVENT> likely  to <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="send" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">send</EVENT>
+ Keating's lawyers back to state court where they must  <EVENT eid="e2010" mainevent="NO" class="ASPECTUAL" stem="start" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">start</EVENT> over with a new <EVENT eid="e2011" mainevent="NO" class="I_ACTION" stem="appeal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">appeal</EVENT>.</s>
+ <s>Elaine Corey, NPR news, San Francisco.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e11" eventID="e5" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e15" eventID="e14" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e5" eventID="e4" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e17" eventID="e15" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e3" eventID="e1" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e4" eventID="e3" task="C"/>
+<TLINK lid="l7" relType="BEFORE-OR-OVERLAP" relatedToEvent="e22" eventID="e17" task="C"/>
+<TLINK lid="l8" relType="BEFORE" relatedToEvent="e14" eventID="e11" task="C"/>
+
+</TempEval>

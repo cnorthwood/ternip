@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891030-0149 
+ = 891030 
+ 891030-0149. 
+ Trustcorp Inc. to Change Name 
+ <TIMEX3 tid="t14" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ TTCO SOCI 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) 
+ TOLEDO, Ohio  
+
+   <s>Trustcorp Inc. will <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="become" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">become</EVENT> Society Bank amp Trust when its <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="merger" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">merger</EVENT> is <EVENT eid="e4" mainevent="NO" class="ASPECTUAL" stem="complete" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">completed</EVENT> with Society Corp. of Cleveland, the bank <EVENT eid="e5" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Society Corp., which is also a bank, <EVENT eid="e6" mainevent="YES" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> in <TIMEX3 tid="t15" type="DATE" value="1989-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">June</TIMEX3> to <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> Trustcorp for 12.4 million shares of stock with a market value of about $450 million.</s> 
+<s>The <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT> is <EVENT eid="e10" mainevent="YES" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e12" mainevent="NO" class="ASPECTUAL" stem="close" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">close</EVENT> <TIMEX3 tid="t17" type="DATE" value="1989-12" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">around year end</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e10" eventID="e6" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e6" eventID="e5" task="C"/>
+
+</TempEval>

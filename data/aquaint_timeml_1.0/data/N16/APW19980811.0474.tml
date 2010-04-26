@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+
+
+ APW19980811.0474 
+ NEWS STORY 
+ 08/11/1998 09:24:00 
+
+w1286 &amp;Cx1f; wstm-
+r i &amp;Cx13;  &amp;Cx11;  BC-Philippines-EmbassyBo     08-11 0113
+
+
+ BC-Philippines-Embassy Bombings 
+
+Philippine president condemns bombings in Kenya and Tanzania
+
+
+
+	   MANILA, Philippines (AP) _ Philippine President Joseph Estrada
+on <TIMEX3 tid="t4" type="DATE" value="1998-08-11" temporalFunction="false" functionInDocument="NONE">Tuesday</TIMEX3> <EVENT eid="e1" class="OCCURRENCE">condemned</EVENT> the <EVENT eid="e5" class="OCCURRENCE">bombings</EVENT> of the U.S. embassies in Kenya
+and Tanzania and <EVENT eid="e12" class="OCCURRENCE">offered</EVENT> condolences to the victims and their
+families.
+	   ``We <EVENT eid="e2" class="OCCURRENCE">extend</EVENT> our heartfelt sympathies to the victims of these
+<EVENT eid="e6" class="OCCURRENCE">outrages</EVENT> and to their families in Kenya, Tanzania and the United
+States,'' Estrada <EVENT eid="e3" class="REPORTING">said</EVENT> in a statement. ``No cause is so great that
+it can justify wanton <EVENT eid="e9" class="OCCURRENCE">murder</EVENT> and <EVENT eid="e13" class="OCCURRENCE">maiming</EVENT> of the innocent.''
+	   In all, the <EVENT eid="e10" class="OCCURRENCE">bombings</EVENT> in Kenya and Tanzania <TIMEX3 tid="t5" type="DURATION" value="1998-08-04" temporalFunction="false" functionInDocument="NONE" anchorTimeID="t5">last week</TIMEX3> <EVENT eid="e4" class="REPORTING">claimed</EVENT> at
+least 217 lives and <EVENT eid="e14" class="OCCURRENCE">injured</EVENT> nearly 5,000.	
+
+(PROFILE
+(WS SL:BC-Philippines-Embassy Bombings; CT:i; 
+(REG:EURO;)
+(REG:BRIT;)
+(REG:SCAN;)
+(REG:MEST;)
+(REG:AFRI;)
+(REG:INDI;)
+(REG:ENGL;)
+(LANG:ENGLISH;))
+)
+
+
+AP-NY-08-11-98 0924EDT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t4" origin="USER"/>
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t4" origin="USER"/>
+<TLINK lid="l3" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei12" origin="USER"/>
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei12" origin="USER"/>
+<TLINK lid="l5" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l6" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l7" relType="IDENTITY" eventInstanceID="ei9" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei9" relatedToEventInstance="ei13" origin="USER"/>
+<TLINK lid="l9" relType="IDENTITY" eventInstanceID="ei5" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l10" relType="IDENTITY" eventInstanceID="ei5" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l11" relType="IBEFORE" eventInstanceID="ei10" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l12" relType="IBEFORE" eventInstanceID="ei10" relatedToEventInstance="ei14" origin="USER"/>
+<TLINK lid="l13" relType="SIMULTANEOUS" eventInstanceID="ei14" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei12" relatedToEventInstance="ei5" origin="USER"/>
+<TLINK lid="l15" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei5" origin="USER"/>
+<TLINK lid="l16" relType="AFTER" eventInstanceID="ei3" relatedToEventInstance="ei5" origin="USER"/>
+<TLINK lid="l17" relType="AFTER" eventInstanceID="ei4" relatedToEventInstance="ei5" origin="USER"/>
+
+</TimeML>
+

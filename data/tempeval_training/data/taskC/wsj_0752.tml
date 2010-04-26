@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891027-0143 
+ = 891027 
+ 891027-0143. 
+ Dividend News:
+@  AEP Industries Inc. 
+ <TIMEX3 tid="t17" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ AEPI 
+ DIVIDENDS (DIV) 
+
+   <s>AEP INDUSTRIES Inc. directors <EVENT eid="e1" mainevent="YES" class="I_ACTION" stem="authorize" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">authorized</EVENT> a 3-for-2 <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT> of the common, <EVENT eid="e12" mainevent="NO" class="STATE" stem="payable" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">payable</EVENT> <TIMEX3 tid="t18" type="DATE" value="1989-12-07" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t17">Dec. 7</TIMEX3> to stock of <EVENT eid="e3" mainevent="NO" class="STATE" stem="record" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">record</EVENT> <TIMEX3 tid="t19" type="DATE" value="1989-11-22" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t17">Nov. 22</TIMEX3>.</s> 
+<s>The <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT> was <EVENT eid="e5" mainevent="NO" class="I_STATE" stem="aim" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">aimed</EVENT> at <EVENT eid="e7" mainevent="NO" class="I_ACTION" stem="boost" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">boosting</EVENT> the stock's <EVENT eid="e13" mainevent="NO" class="STATE" stem="liquidity" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">liquidity</EVENT>, <EVENT eid="e8" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Brendan Barba, chairman of the Moonachie, N.J., maker of plastic film products.</s> 
+<s>After the <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="split" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">split</EVENT>, the company will <EVENT eid="e14" mainevent="YES" class="STATE" stem="have" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> more than 4.7 million shares outstanding.</s> 
+<s>In national over-the-counter <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> <TIMEX3 tid="t20" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t17">yesterday</TIMEX3>, AEP shares <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> <EVENT eid="e15" mainevent="NO" class="STATE" stem="at $21.25" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">at $21.25</EVENT>, down 50 cents.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e11" eventID="e14" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e14" eventID="e8" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e8" eventID="e1" task="C"/>
+
+</TempEval>

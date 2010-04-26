@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891102-0067 
+ = 891102 
+ 891102-0067. 
+ Who's News:
+@  Citadel Names Walbrecher
+@  As Chief Executive Officer 
+ <TIMEX3 tid="t21" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CDL WNEWS 
+ EARNINGS (ERN) 
+ GLENDALE, Calif.  
+
+   <s>William C. Walbrecher Jr., an executive at San Francisco-based 1st Nationwide Bank, was <EVENT eid="e1" mainevent="YES" class="I_ACTION" stem="name" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">named</EVENT> president and chief executive officer of Citadel Holding Corp. and its principal operating unit, Fidelity Federal Bank.</s> 
+
+   <s>The <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="appointment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">appointment</EVENT> <EVENT eid="e3" mainevent="YES" class="ASPECTUAL" stem="take" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">takes</EVENT> <EVENT eid="e63" mainevent="NO" class="ASPECTUAL" stem="effect" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">effect</EVENT> <TIMEX3 tid="t23" type="DATE" value="1989-11-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">Nov. 13</TIMEX3>.</s> 
+<s>He <EVENT eid="e4" mainevent="YES" class="ASPECTUAL" stem="succeed" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">succeeds</EVENT> James A. Taylor, who <EVENT eid="e5" mainevent="NO" class="ASPECTUAL" stem="step" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">stepped</EVENT> down as chairman, president and chief executive in <TIMEX3 tid="t27" type="TIME" value="1989-03" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">March</TIMEX3> for health reasons.</s> 
+<s>Edward L. Kane <EVENT eid="e7" mainevent="YES" class="ASPECTUAL" stem="succeed" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">succeeded</EVENT> Mr. Taylor as <EVENT eid="e28" mainevent="NO" class="STATE" stem="chairman" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">chairman</EVENT>.</s> 
+
+   <s>Separately, Citadel <EVENT eid="e8" mainevent="YES" class="REPORTING" stem="post" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">posted</EVENT> a <TIMEX3 tid="t29" type="TIME" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">third-quarter</TIMEX3> net <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $2.3 million, or 68 cents a share, versus net <EVENT eid="e30" mainevent="NO" class="OCCURRENCE" stem="income" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">income</EVENT> of $5.3 million, or $1.61 a share, <TIMEX3 tid="t31" type="TIME" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t29">a year earlier</TIMEX3>.</s> 
+
+   <s>The latest <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> <EVENT eid="e11" mainevent="YES" class="REPORTING" stem="include" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">include</EVENT> some unusual <EVENT eid="e32" mainevent="NO" class="OCCURRENCE" stem="write-downs" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">write-downs</EVENT>, which had an after-tax impact of $4.9 million.</s> 
+<s>Those <EVENT eid="e13" mainevent="YES" class="REPORTING" stem="include" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">included</EVENT> costs associated with the potential Valley Federal Savings and Loan Association <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="acquisition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">acquisition</EVENT>, which was <EVENT eid="e15" mainevent="NO" class="ASPECTUAL" stem="terminate" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">terminated</EVENT> on <TIMEX3 tid="t36" type="DATE" value="1989-11-27" temporalFunction="false" functionInDocument="NONE">Sept. 27, 1989</TIMEX3>.</s> 
+<s>In addition, operating <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="result" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">results</EVENT> were <EVENT eid="e18" mainevent="YES" class="OCCURRENCE" stem="hit" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hit</EVENT> by an <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="increase" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">increase</EVENT> in loan and real estate loss reserves.</s> 
+
+   <s>In American Stock Exchange composite trading, Citadel shares <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> <TIMEX3 tid="t37" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">yesterday</TIMEX3> at $45.75, down 25 cents.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e13" eventID="e11" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e3" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e20" eventID="e18" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e7" eventID="e4" task="C"/>
+<TLINK lid="l5" relType="VAGUE" relatedToEvent="e8" eventID="e7" task="C"/>
+<TLINK lid="l6" relType="BEFORE" relatedToEvent="e11" eventID="e8" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e4" eventID="e3" task="C"/>
+<TLINK lid="l8" relType="OVERLAP-OR-AFTER" relatedToEvent="e18" eventID="e13" task="C"/>
+
+</TempEval>

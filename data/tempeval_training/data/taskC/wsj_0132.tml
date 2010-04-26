@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0059 
+ = 891102 
+ 891102-0059. 
+ International Brief -- N.V. DSM:
+@  Third-Period Net Rose 63%
+@  Because of Lower Charges 
+ <TIMEX3 tid="t33" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ EUROP N.DSM 
+ EARNINGS (ERN) 
+
+   <s>N.V. DSM <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> net income in <TIMEX3 tid="t36" type="TIME" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t33">the third quarter</TIMEX3> <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="jump" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">jumped</EVENT> 63% as the company <EVENT eid="e73" mainevent="NO" class="OCCURRENCE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> substantially lower extraordinary <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charges</EVENT> to <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="account" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">account</EVENT> for a restructuring program.</s> 
+
+   <s>The Dutch chemical group <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> net income <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="gain" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">gained</EVENT> to <EVENT eid="e74" mainevent="NO" class="STATE" stem="235" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">235</EVENT> million guilders ($113.2 million), or 6.70 guilders a share, from <EVENT eid="e75" mainevent="NO" class="STATE" stem="144" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">144</EVENT> million guilders, or 4.10 guilders a share, <TIMEX3 tid="t43" type="DATE" value="1988" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t33">a year ago</TIMEX3>.</s> 
+
+   <s>The 32% state-owned DSM <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> eight million guilders of extraordinary <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charges</EVENT> in <TIMEX3 tid="t45" type="TIME" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t33">the latest quarter</TIMEX3>, mainly to <EVENT eid="e10" mainevent="NO" class="REPORTING" stem="reflect" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">reflect</EVENT> one-time <EVENT eid="e47" mainevent="NO" class="OCCURRENCE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">losses</EVENT> in connection with the <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="disposal" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">disposal</EVENT> of some operations.</s> 
+<s>The <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charges</EVENT> were <EVENT eid="e15" mainevent="YES" class="OCCURRENCE" stem="offset" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">offset</EVENT> in part by a <EVENT eid="e48" mainevent="NO" class="OCCURRENCE" stem="gain" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">gain</EVENT> from the <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT> of the company's construction division.</s> 
+
+   <s><TIMEX3 tid="t49" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t33">Last year</TIMEX3>, DSM <EVENT eid="e19" mainevent="YES" class="OCCURRENCE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> 71 million guilders of extraordinary <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charges</EVENT> for the restructuring program and other transactions.</s> 
+
+   <s>The earnings <EVENT eid="e51" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> also was <EVENT eid="e22" mainevent="YES" class="OCCURRENCE" stem="fuel" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fueled</EVENT> by the company's ability to <EVENT eid="e24" mainevent="NO" class="OCCURRENCE" stem="cut" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">cut</EVENT> net financing spending by half to around <EVENT eid="e76" mainevent="NO" class="STATE" stem="15" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">15</EVENT> million guilders.</s> 
+<s>Also, substantially lower Dutch corporate tax rates <EVENT eid="e26" mainevent="YES" class="OCCURRENCE" stem="help" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">helped</EVENT> the company <EVENT eid="e27" mainevent="NO" class="ASPECTUAL" stem="keep" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">keep</EVENT> its tax outlay flat relative to earnings growth, the company <EVENT eid="e29" mainevent="NO" class="REPORTING" stem="add" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">added</EVENT>.</s> 
+
+   <s>Sales, however , were little <EVENT eid="e31" mainevent="YES" class="OCCURRENCE" stem="changed" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE">changed</EVENT> at 2.46 billion guilders, compared with 2.42 billion guilders.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e26" eventID="e22" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e19" eventID="e15" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e8" eventID="e6" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e31" eventID="e26" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e22" eventID="e19" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e15" eventID="e8" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e6" eventID="e1" task="C"/>
+
+</TempEval>

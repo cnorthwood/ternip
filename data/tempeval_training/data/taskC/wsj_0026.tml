@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0167 
+ = 891102 
+ 891102-0167. 
+ Duty-Free Status Cleared
+@  For Certain Watch Imports 
+ <TIMEX3 tid="t36" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ MONETARY NEWS, FOREIGN EXCHANGE, TRADE (MON) 
+ EXECUTIVE (EXE) 
+ WASHINGTON  
+
+   <s>The White House <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> President Bush  has <EVENT eid="e2" mainevent="NO" class="I_ACTION" stem="approve" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">approved</EVENT> duty-free <EVENT eid="e25" mainevent="NO" class="STATE" stem="treatment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">treatment</EVENT> for imports of certain types of watches that are n't <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="produce" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">produced</EVENT> in "significant quantities" in the U.S., the Virgin Islands and other U.S. possessions.</s> 
+
+   <s>The <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="action" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">action</EVENT> <EVENT eid="e5" mainevent="YES" class="OCCURRENCE" stem="come" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">came</EVENT> in response to a petition <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="file" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">filed</EVENT> by Timex Inc. for changes in the U.S. Generalized System of Preferences for imports from developing nations.</s> 
+<s>Previously , watch imports  were <EVENT eid="e10" mainevent="YES" class="I_ACTION" stem="deny" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">denied</EVENT> such duty-free <EVENT eid="e29" mainevent="NO" class="STATE" stem="treatment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">treatment</EVENT>.</s> 
+
+   <s>Timex  had <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="request" tense="PAST" aspect="PERFECTIVE" polarity="POS" pos="VERB">requested</EVENT> duty-free treatment for many types of watches, covered by 58 different U.S. tariff classifications.</s> 
+<s>The White House <EVENT eid="e13" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Mr. Bush <EVENT eid="e14" mainevent="NO" class="I_ACTION" stem="decide" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">decided</EVENT>  to <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="grant" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">grant</EVENT> duty-free status for 18 categories, but <EVENT eid="e16" mainevent="NO" class="I_ACTION" stem="turn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">turned</EVENT> down such <EVENT eid="e31" mainevent="NO" class="STATE" stem="treatment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">treatment</EVENT> for other types of watches "because of the potential for material injury  to watch producers located in the U.S. and the Virgin Islands."</s> 
+
+   <s>Timex is a major U.S. <EVENT eid="e32" mainevent="YES" class="STATE" stem="producer" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">producer</EVENT> and <EVENT eid="e33" mainevent="NO" class="STATE" stem="seller" tense="PRESENT" aspect="NONE" polarity="POS" pos="NOUN">seller</EVENT> of watches, including low-priced battery-operated watches assembled in the Philippines and other developing nations covered by the U.S. tariff preferences.</s> 
+
+   <s>U.S. trade officials <EVENT eid="e22" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the Philippines and Thailand would be the main <EVENT eid="e123" mainevent="NO" class="STATE" stem="beneficiary" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">beneficiaries</EVENT> of the president's <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="action" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">action</EVENT>.</s> 
+
+   <s>Imports of the types of watches that <TIMEX3 tid="t38" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t36">now</TIMEX3> will be <EVENT eid="e39" mainevent="NO" class="STATE" stem="eligible" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE">eligible</EVENT> for duty-free treatment <EVENT eid="e23" mainevent="YES" class="I_ACTION" stem="total" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">totaled</EVENT> about $37.3 million in <TIMEX3 tid="t37" type="DATE" value="1988" temporalFunction="false" functionInDocument="NONE">1988</TIMEX3>, a relatively small share of the $1.5 billion in U.S. watch imports that year, <EVENT eid="e40" mainevent="NO" class="REPORTING" stem="accord" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">according</EVENT> to an aide to U.S. Trade Representative Carla Hills.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e32" eventID="e13" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e22" eventID="e32" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e13" eventID="e11" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e23" eventID="e22" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e11" eventID="e10" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e10" eventID="e5" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e5" eventID="e1" task="C"/>
+
+</TempEval>

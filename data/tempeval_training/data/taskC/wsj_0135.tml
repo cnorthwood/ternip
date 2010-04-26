@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891102-0056 
+ = 891102 
+ 891102-0056. 
+ Business Brief -- Elco Industries Inc.:
+@  Fastener Maker Expects Net
+@  In '90 to Be Below Forecast 
+ <TIMEX3 tid="t22" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ ELCN 
+
+   <s>Elco Industries Inc. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> net income in <TIMEX3 tid="t28" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t27">the year</TIMEX3> <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="end" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">ending</EVENT> <TIMEX3 tid="t27" type="DATE" value="1990-06-30" temporalFunction="false" functionInDocument="NONE">June 30, 1990</TIMEX3>, to <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="fall" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">fall</EVENT> below a recent analyst's estimate of $1.65 a share.</s> 
+
+   <s>The Rockford, Ill., maker of fasteners also <EVENT eid="e5" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e6" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e8" mainevent="NO" class="REPORTING" stem="post" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">post</EVENT> sales in <TIMEX3 tid="t30" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">the current fiscal year</TIMEX3> that are " slightly above" <TIMEX3 tid="t32" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t30">fiscal 1989</TIMEX3> sales of <EVENT eid="e138" mainevent="NO" class="STATE" stem="$155" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$155</EVENT> million.</s> 
+<s>The company <EVENT eid="e10" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its industrial unit <EVENT eid="e11" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continues</EVENT> to <EVENT eid="e33" mainevent="NO" class="STATE" stem="face" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">face</EVENT> margin <EVENT eid="e136" mainevent="NO" class="STATE" stem="pressure" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">pressures</EVENT> and lower <EVENT eid="e137" mainevent="NO" class="STATE" stem="demand" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">demand</EVENT>.</s> 
+
+   <s>In <TIMEX3 tid="t35" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t32">fiscal 1989</TIMEX3>, Elco <EVENT eid="e15" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $7.8 million, or $1.65 a share.</s> 
+<s>The company's stock <EVENT eid="e16" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> $1.125 to <EVENT eid="e36" mainevent="NO" class="STATE" stem="$13.625" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="OTHER">$13.625</EVENT> in over-the-counter trading <TIMEX3 tid="t37" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t22">yesterday</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e15" eventID="e10" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e16" eventID="e15" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e10" eventID="e5" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e5" eventID="e1" task="C"/>
+
+</TempEval>

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891102-0030 
+ = 891102 
+ 891102-0030. 
+ Business Brief -- Hadson Corp.:
+@  Company Expects to Report
+@  Deficit for Third Quarter 
+ <TIMEX3 tid="t27" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ HAD 
+
+   <s>Hadson Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e4" class="REPORTING" stem="report" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">report</EVENT> a <TIMEX3 tid="t28" type="TIME" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t27">third-quarter</TIMEX3> net <EVENT eid="e5" class="OCCURRENCE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $17 million to $19 million because of special reserves and continued low natural-gas prices.</s> 
+
+   <s>The Oklahoma City energy and defense concern <EVENT eid="e7" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e8" class="OCCURRENCE" stem="record" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">record</EVENT> a $7.5 million <EVENT eid="e64" class="STATE" stem="reserve" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">reserve</EVENT> for its defense group, including a $4.7 million <EVENT eid="e65" class="OCCURRENCE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charge</EVENT> related to problems under a fixed-price development contract and $2.8 million in overhead <EVENT eid="e66" class="OCCURRENCE" stem="cost" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">costs</EVENT> that wo n't be <EVENT eid="e12" class="OCCURRENCE" stem="reimburse" aspect="NONE" tense="FUTURE" polarity="NEG" pos="VERB">reimbursed</EVENT>.</s> 
+
+   <s>In addition, Hadson <EVENT eid="e15" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e16" class="OCCURRENCE" stem="write" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">write</EVENT> off about $3.5 million in costs related to international exploration leases where <EVENT eid="e30" class="OCCURRENCE" stem="exploration" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">exploration</EVENT> efforts have been <EVENT eid="e29" class="STATE" stem="unsuccessful" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">unsuccessful</EVENT>.</s> 
+
+   <s>The company also <EVENT eid="e20" class="REPORTING" stem="cite" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">cited</EVENT> interest <EVENT eid="e33" class="OCCURRENCE" stem="cost" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">costs</EVENT> and <EVENT eid="e21" class="OCCURRENCE" stem="amortization" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">amortization</EVENT> of goodwill as factors in the <EVENT eid="e23" class="OCCURRENCE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT>.</s> 
+
+   <s><TIMEX3 tid="t31" type="TIME" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">A year earlier</TIMEX3>, net <EVENT eid="e32" class="STATE" stem="income" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">income</EVENT> was $2.1 million, or six cents a share, on revenue of $169.9 million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP-OR-AFTER" eventID="e2" relatedToTime="t28" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e4" relatedToTime="t28" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e5" relatedToTime="t28" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e1" relatedToTime="t28" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e2" relatedToTime="t27" task="B"/>
+<TLINK lid="l6" relType="AFTER" eventID="e4" relatedToTime="t27" task="B"/>
+<TLINK lid="l7" relType="AFTER" eventID="e5" relatedToTime="t27" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e1" relatedToTime="t27" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e7" relatedToTime="t27" task="B"/>
+<TLINK lid="l10" relType="AFTER" eventID="e65" relatedToTime="t27" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e15" relatedToTime="t27" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e23" relatedToTime="t27" task="B"/>
+</TempEval>

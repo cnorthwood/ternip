@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0108 
+ = 891026 
+ 891026-0108. 
+ GM Hughes
+@  Profit Fell 22%
+@  In Third Period
+@  ---
+@  GMAC Net Slipped 3.1%;
+@  Electronic Data Systems
+@  Says Earnings Rose 16%
+@  ----
+@  By Neal Templin
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t73" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ GM GME GMH 
+ AUTOMOBILES (AUT)
+EARNINGS (ERN) 
+
+   <s>General Motors Corp.'s big defense and automotive electronics unit, GM Hughes Electronics, <EVENT eid="e2" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> net income <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 22% in <TIMEX3 tid="t74" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">the third quarter</TIMEX3>, reflecting declining military spending and slumping GM vehicle <EVENT eid="e75" mainevent="NO" class="OCCURRENCE" stem="production" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">production</EVENT>.</s> 
+
+   <s>Meanwhile, net at GM's finance arm, General Motors Acceptance Corp., <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 3.1%.</s> 
+<s>By contrast, Electronic Data Systems Corp., GM's data processing subsidiary, <EVENT eid="e10" mainevent="YES" class="OCCURRENCE" stem="boost" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">boosted</EVENT> net 16%.</s> 
+
+   <s>GM <EVENT eid="e11" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> down $1.875 at <EVENT eid="e78" mainevent="NO" class="STATE" stem="$44.875" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$44.875</EVENT> in New York Stock Exchange <EVENT eid="e79" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> <TIMEX3 tid="t80" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">yesterday</TIMEX3>.</s> 
+<s><EVENT eid="e82" mainevent="NO" class="STATE" stem="earnings" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">Earnings</EVENT> for GM common stock, reflecting the performance of GM's core automotive <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT>, will be <EVENT eid="e15" mainevent="YES" class="I_ACTION" stem="disclose" tense="FUTURE" aspect="PERFECTIVE" polarity="POS" pos="VERB">disclosed</EVENT> <TIMEX3 tid="t81" type="TIME" value="1989-10-26TMO" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">this morning</TIMEX3>.</s> 
+<s>GM Class H, which represents a dividend interest in Hughes earnings, <EVENT eid="e17" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> at <EVENT eid="e83" mainevent="NO" class="STATE" stem="$29" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$29</EVENT>, up 25 cents in Big Board composite trading.</s> 
+<s>GM Class E, which represents a dividend interest in EDS profit, <EVENT eid="e19" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 75 cents to <EVENT eid="e86" mainevent="NO" class="STATE" stem="$52.25" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$52.25</EVENT> on the Big Board.</s> 
+
+   <s>The earnings <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="drop" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">drop</EVENT> at GM Hughes Electronics is a sign of tough times at both the defense operations of Hughes Aircraft Co. and GM's North American automotive operations, which are a primary customer for the Delco Electronics Corp. side of the GM Hughes unit.</s> 
+
+   <s>Profit at the unit <EVENT eid="e24" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> to <EVENT eid="e393" mainevent="NO" class="STATE" stem="$110.6" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$110.6</EVENT> million, or 37 cents a share, from <EVENT eid="e394" mainevent="NO" class="STATE" stem="$142.4" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$142.4</EVENT> million, or 45 cents a share, largely because of a $24 million one-time <EVENT eid="e91" mainevent="NO" class="OCCURRENCE" stem="charge" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">charge</EVENT> associated with Hughes's previously <EVENT eid="e26" mainevent="NO" class="I_ACTION" stem="announced" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">announced</EVENT> <EVENT eid="e93" mainevent="NO" class="I_STATE" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plan</EVENT> to <EVENT eid="e28" mainevent="NO" class="OCCURRENCE" stem="reduce" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">reduce</EVENT> employment by at least 6,000 people by <TIMEX3 tid="t96" type="DATE" value="1989" mod="END" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">year end</TIMEX3>.</s> 
+<s>Even excluding the charge, however , net <EVENT eid="e32" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 5%.</s> 
+
+   <s>In addition, GM's North American vehicle production <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 8.4% from <TIMEX3 tid="t97" type="DATE" value="1988-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">a year ago</TIMEX3>, which <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="hurt" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hurt</EVENT> Delco Electronic's earnings, a company spokesman <EVENT eid="e37" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>That <EVENT eid="e99" mainevent="YES" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decline</EVENT> was reflected in revenue for the GM Hughes unit, which <EVENT eid="e39" mainevent="NO" class="OCCURRENCE" stem="edge" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">edged</EVENT> down to <EVENT eid="e395" mainevent="NO" class="STATE" stem="$2.58" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$2.58</EVENT> billion from <EVENT eid="e396" mainevent="NO" class="STATE" stem="$2.63" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$2.63</EVENT> billion.</s> 
+
+   <s>In <TIMEX3 tid="t105" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the nine months</TIMEX3>, GM Hughes net <EVENT eid="e40" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 6.6% to <EVENT eid="e397" mainevent="NO" class="STATE" stem="$486.6" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$486.6</EVENT> million, or $1.48 a share, from <EVENT eid="e398" mainevent="NO" class="STATE" stem="$521" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$521</EVENT> million, or $1.58 a share.</s> 
+<s>Revenue <EVENT eid="e41" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 3.5% to <EVENT eid="e399" mainevent="NO" class="STATE" stem="$8.47" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$8.47</EVENT> billion from <EVENT eid="e400" mainevent="NO" class="STATE" stem="$8.18" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$8.18</EVENT> billion.</s> 
+
+   <s>At GMAC, net <EVENT eid="e42" mainevent="YES" class="OCCURRENCE" stem="drop" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">dropped</EVENT> 3.1% to <EVENT eid="e401" mainevent="NO" class="STATE" stem="$234.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$234.5</EVENT> million from <EVENT eid="e402" mainevent="NO" class="STATE" stem="$241.9" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$241.9</EVENT> million.</s> 
+<s>The finance unit <EVENT eid="e43" mainevent="YES" class="I_ACTION" stem="attribute" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">attributed</EVENT> the <EVENT eid="e118" mainevent="NO" class="OCCURRENCE" stem="decline" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">decline</EVENT> to <EVENT eid="e403" mainevent="NO" class="STATE" stem="higher" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">higher</EVENT> borrowing costs compared with <TIMEX3 tid="t120" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">a year earlier</TIMEX3>.</s> 
+<s>GMAC <EVENT eid="e45" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its automotive financing and leasing business <EVENT eid="e48" mainevent="NO" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 35% in the U.S., largely because of dealer and customer incentives <EVENT eid="e49" mainevent="NO" class="OCCURRENCE" stem="use" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">used</EVENT> to <EVENT eid="e51" mainevent="NO" class="OCCURRENCE" stem="boost" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">boost</EVENT> sales.</s> 
+<s>GMAC profits are combined with earnings from the rest of GM's operations and attributed to the company's traditional common stock.</s> 
+
+   <s>In <TIMEX3 tid="t126" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the first nine months</TIMEX3>, GMAC's earnings <EVENT eid="e57" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> 8% to <EVENT eid="e404" mainevent="NO" class="STATE" stem="$859.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$859.5</EVENT> million from <EVENT eid="e405" mainevent="NO" class="STATE" stem="$930.2" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$930.2</EVENT> million.</s> 
+
+   <s>At EDS, <TIMEX3 tid="t129" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t73">third-quarter</TIMEX3> profit <EVENT eid="e58" mainevent="YES" class="OCCURRENCE" stem="jump" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">jumped</EVENT> 16% to a record <EVENT eid="e406" mainevent="NO" class="STATE" stem="$110.9" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$110.9</EVENT> million, or 93 cents a share, from <EVENT eid="e407" mainevent="NO" class="STATE" stem="$95.9" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$95.9</EVENT> million, or 79 cents a share.</s> 
+<s>Revenue <EVENT eid="e60" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 12% to <EVENT eid="e408" mainevent="NO" class="STATE" stem="$1.37" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$1.37</EVENT> billion from <EVENT eid="e409" mainevent="NO" class="STATE" stem="$1.22" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$1.22</EVENT> billion.</s> 
+
+   <s>In <TIMEX3 tid="t144" type="DURATION" value="P9M" temporalFunction="false" functionInDocument="NONE">the nine months</TIMEX3>, EDS <EVENT eid="e61" mainevent="YES" class="OCCURRENCE" stem="earn" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">earned</EVENT> $315.8 million, or $2.62 a share, up 13% from <EVENT eid="e410" mainevent="NO" class="STATE" stem="$280.7" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$280.7</EVENT> million, or $2.30 a share.</s> 
+<s>Revenue <EVENT eid="e62" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> 14% to <EVENT eid="e411" mainevent="NO" class="STATE" stem="$4.03" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$4.03</EVENT> billion from <EVENT eid="e412" mainevent="NO" class="STATE" stem="$3.54" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$3.54</EVENT> billion.</s> 
+<s>Revenue from non-GM accounts was <EVENT eid="e413" mainevent="YES" class="STATE" stem="45%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">45%</EVENT> of EDS's total business in <TIMEX3 tid="t151" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" endPoint="t73">the latest nine months</TIMEX3>, compared with <EVENT eid="e150" mainevent="NO" class="STATE" stem="40%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">40%</EVENT> <TIMEX3 tid="t152" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE">a year earlier</TIMEX3>.</s> 
+<s>The company has <EVENT eid="e67" mainevent="YES" class="REPORTING" stem="say" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e68" mainevent="NO" class="I_STATE" stem="want" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">wants</EVENT> to <EVENT eid="e70" mainevent="NO" class="OCCURRENCE" stem="boost" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">boost</EVENT> non-GM revenue to at least <EVENT eid="e414" mainevent="NO" class="STATE" stem="50%" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">50%</EVENT> of its total business by <TIMEX3 tid="t155" type="DATE" value="1990" mod="END" temporalFunction="false" functionInDocument="NONE">the end of 1990</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e58" eventID="e57" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e37" eventID="e32" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e61" eventID="e60" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e17" eventID="e15" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e10" eventID="e8" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e62" eventID="e61" task="C"/>
+<TLINK lid="l7" relType="OVERLAP" relatedToEvent="e60" eventID="e58" task="C"/>
+<TLINK lid="l8" relType="OVERLAP-OR-AFTER" relatedToEvent="e19" eventID="e17" task="C"/>
+<TLINK lid="l9" relType="OVERLAP" relatedToEvent="e42" eventID="e41" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e41" eventID="e40" task="C"/>
+<TLINK lid="l11" relType="OVERLAP" relatedToEvent="e40" eventID="e99" task="C"/>
+<TLINK lid="l12" relType="BEFORE" relatedToEvent="e43" eventID="e42" task="C"/>
+<TLINK lid="l13" relType="BEFORE" relatedToEvent="e15" eventID="e11" task="C"/>
+<TLINK lid="l14" relType="AFTER" relatedToEvent="e99" eventID="e37" task="C"/>
+<TLINK lid="l15" relType="AFTER" relatedToEvent="e8" eventID="e2" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e413" eventID="e62" task="C"/>
+<TLINK lid="l17" relType="OVERLAP" relatedToEvent="e20" eventID="e19" task="C"/>
+<TLINK lid="l18" relType="OVERLAP" relatedToEvent="e45" eventID="e43" task="C"/>
+<TLINK lid="l19" relType="OVERLAP" relatedToEvent="e32" eventID="e24" task="C"/>
+<TLINK lid="l20" relType="BEFORE" relatedToEvent="e11" eventID="e10" task="C"/>
+<TLINK lid="l21" relType="OVERLAP" relatedToEvent="e24" eventID="e20" task="C"/>
+<TLINK lid="l22" relType="VAGUE" relatedToEvent="e67" eventID="e413" task="C"/>
+
+</TempEval>

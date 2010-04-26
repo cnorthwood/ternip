@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0017 
+ = 891102 
+ 891102-0017. 
+ Business Brief -- Coleco Industries Inc.:
+@  Ailing Toy Maker Submits
+@  Chapter 11 Revamp Plan 
+ <TIMEX3 tid="t24" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CLO 
+ BANKRUPTCIES (BCY) 
+
+   <s>Coleco Industries Inc., a <TIMEX3 tid="t30" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t24">once</TIMEX3> <EVENT eid="e1988" mainevent="NO" class="STATE" stem="high-flying" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">high-flying</EVENT> toy maker whose stock <EVENT eid="e1" mainevent="NO" class="OCCURRENCE" stem="peak" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">peaked</EVENT> at $65 a share in <TIMEX3 tid="t26" type="DATE" value="198" mod="START" temporalFunction="false" functionInDocument="NONE">the early 1980s</TIMEX3>, <EVENT eid="e2" mainevent="YES" class="OCCURRENCE" stem="file" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">filed</EVENT> a Chapter 11 reorganization plan that <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="provide" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">provides</EVENT> just 1.125 cents a share for common stockholders.</s> 
+
+   <s>Under the plan, unsecured creditors, who  are <EVENT eid="e4" mainevent="NO" class="STATE" stem="owe" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">owed</EVENT> about $430 million, would <EVENT eid="e5" mainevent="YES" class="OCCURRENCE" stem="receive" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">receive</EVENT> about $92 million, or 21 cents for each dollar they  are <EVENT eid="e7" mainevent="NO" class="STATE" stem="owe" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">owed</EVENT>.</s> 
+<s>In addition, they  will <EVENT eid="e8" mainevent="YES" class="OCCURRENCE" stem="receive" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">receive</EVENT> stock in the reorganized company, which  will  be <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="name" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">named</EVENT> Ranger Industries Inc. 
+After these <EVENT eid="e1990" mainevent="NO" class="OCCURRENCE" stem="payment" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">payments</EVENT>, about $225,000 will be <EVENT eid="e1991" mainevent="NO" class="STATE" stem="available" tense="FUTURE" aspect="NONE" polarity="POS" pos="ADJECTIVE">available</EVENT> for the 20 million common shares outstanding.</s> 
+
+   <s>The Avon, Conn., company's stock <EVENT eid="e10" mainevent="YES" class="OCCURRENCE" stem="hit" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hit</EVENT> a high in <TIMEX3 tid="t27" type="DATE" value="1983" temporalFunction="false" functionInDocument="NONE">1983</TIMEX3> after it <EVENT eid="e11" mainevent="NO" class="OCCURRENCE" stem="unveil" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">unveiled</EVENT> its Adam home computer, but the product  was <EVENT eid="e12" mainevent="NO" class="STATE" stem="plague" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">plagued</EVENT> with glitches and the company's fortunes <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="plunge" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">plunged</EVENT>.</s> 
+<s>But Coleco <EVENT eid="e14" mainevent="YES" class="OCCURRENCE" stem="bounce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">bounced</EVENT> back with the <EVENT eid="e1993" mainevent="NO" class="OCCURRENCE" stem="introduction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">introduction</EVENT> of the Cabbage Patch dolls, whose sales <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="hit" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">hit</EVENT> $600 million in <TIMEX3 tid="t28" type="DATE" value="1985" temporalFunction="false" functionInDocument="NONE">1985</TIMEX3>.</s> 
+<s>But as the craze <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="die" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">died</EVENT>, Coleco <EVENT eid="e17" mainevent="YES" class="OCCURRENCE" stem="fail" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">failed</EVENT>  to <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="come" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">come</EVENT> up with another winner and <EVENT eid="e19" mainevent="NO" class="OCCURRENCE" stem="file" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">filed</EVENT> for bankruptcy-law <EVENT eid="e1995" mainevent="NO" class="STATE" stem="protection" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">protection</EVENT> in <TIMEX3 tid="t29" type="DATE" value="1988-07" temporalFunction="false" functionInDocument="NONE">July 1988</TIMEX3>.</s> 
+
+   <s>The plan  was <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="file" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">filed</EVENT> jointly with unsecured creditors in federal bankruptcy court in New York and must  be <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="approve" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">approved</EVENT> by the court.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e20" eventID="e17" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e5" eventID="e2" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e17" eventID="e14" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e14" eventID="e10" task="C"/>
+<TLINK lid="l5" relType="AFTER" relatedToEvent="e10" eventID="e8" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e8" eventID="e5" task="C"/>
+
+</TempEval>

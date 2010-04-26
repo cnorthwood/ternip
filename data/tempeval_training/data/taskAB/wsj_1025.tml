@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891026-0031 
+ = 891026 
+ 891026-0031. 
+ Business Brief -- Sotheby's Holdings Inc.:
+@  Third-Period Loss Narrowed
+@  On Operating Revenue Gain 
+ <TIMEX3 tid="t16" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ BID 
+ EARNINGS (ERN) 
+
+   <s>Sotheby's Holdings Inc., the parent of the auction house Sotheby's, <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> its net <EVENT eid="e2" class="OCCURRENCE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> for the seasonally slow <TIMEX3 tid="t21" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">third quarter</TIMEX3> <EVENT eid="e4" class="OCCURRENCE" stem="narrow" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">narrowed</EVENT> from <TIMEX3 tid="t22" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">a year earlier</TIMEX3> on a <EVENT eid="e5" class="OCCURRENCE" stem="leap" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">leap</EVENT> in operating revenue.</s> 
+
+   <s>The New York-based company <EVENT eid="e7" class="REPORTING" stem="report" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">reported</EVENT> a <TIMEX3 tid="t36" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">third-quarter</TIMEX3> net <EVENT eid="e8" class="OCCURRENCE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $5.1 million, or 10 cents a share, compared with a <TIMEX3 tid="t37" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t36">year-earlier</TIMEX3> net <EVENT eid="e10" class="OCCURRENCE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $6.2 million, or 12 cents a share.</s> 
+<s>Operating revenue <EVENT eid="e11" class="OCCURRENCE" stem="surge" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">surged</EVENT> 54% in <TIMEX3 tid="t38" type="DATE" value="1989-QX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">the latest period</TIMEX3> to $42.9 million from $27.7 million.</s> 
+
+   <s>The company <EVENT eid="e12" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> 80% of its auction business is usually <EVENT eid="e14" class="OCCURRENCE" stem="conduct" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">conducted</EVENT> in the <TIMEX3 tid="t40" type="SET" value="XXXX-Q2" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41" quant="EVERY">second</TIMEX3> and <TIMEX3 tid="t41" type="SET" value="XXXX-Q4" temporalFunction="false" functionInDocument="NONE" quant="EVERY">fourth quarters</TIMEX3>, with <TIMEX3 tid="t42" type="DATE" value="1989-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">the current quarter</TIMEX3> having <EVENT eid="e43" class="ASPECTUAL" stem="begin" aspect="PERFECTIVE" tense="PAST" polarity="POS" pos="VERB">begun</EVENT> " extremely well."</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e2" relatedToTime="t21" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e2" relatedToTime="t22" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e1" relatedToTime="t21" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e1" relatedToTime="t22" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e8" relatedToTime="t36" task="A"/>
+<TLINK lid="l6" relType="AFTER" eventID="e8" relatedToTime="t37" task="A"/>
+<TLINK lid="l7" relType="AFTER" eventID="e7" relatedToTime="t36" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e7" relatedToTime="t37" task="A"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e10" relatedToTime="t36" task="A"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e10" relatedToTime="t37" task="A"/>
+<TLINK lid="l11" relType="VAGUE" eventID="e43" relatedToTime="t40" task="A"/>
+<TLINK lid="l12" relType="VAGUE" eventID="e43" relatedToTime="t41" task="A"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e43" relatedToTime="t42" task="A"/>
+<TLINK lid="l14" relType="VAGUE" eventID="e12" relatedToTime="t40" task="A"/>
+<TLINK lid="l15" relType="VAGUE" eventID="e12" relatedToTime="t41" task="A"/>
+<TLINK lid="l16" relType="OVERLAP" eventID="e12" relatedToTime="t42" task="A"/>
+<TLINK lid="l17" relType="BEFORE" eventID="e2" relatedToTime="t16" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e1" relatedToTime="t16" task="B"/>
+<TLINK lid="l19" relType="BEFORE" eventID="e8" relatedToTime="t16" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e7" relatedToTime="t16" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e10" relatedToTime="t16" task="B"/>
+<TLINK lid="l22" relType="BEFORE" eventID="e43" relatedToTime="t16" task="B"/>
+<TLINK lid="l23" relType="BEFORE" eventID="e12" relatedToTime="t16" task="B"/>
+</TempEval>

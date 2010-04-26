@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891030-0167 
+ = 891030 
+ 891030-0167. 
+ Conseco to Redeem Preferred 
+ <TIMEX3 tid="t14" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ CNC 
+ BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) 
+ CARMEL, Ind.  
+
+   <s>Conseco Inc. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it is <EVENT eid="e2" mainevent="NO" class="I_ACTION" stem="call" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">calling</EVENT> for the <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="redemption" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">redemption</EVENT> on <TIMEX3 tid="t15" type="DATE" value="1989-12-07" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">Dec. 7</TIMEX3> of all the 800,000 remaining shares outstanding of its $1.875 Series A convertible preferred stock at $26.805 a share.</s> 
+
+   <s>The insurance concern <EVENT eid="e5" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> all conversion <EVENT eid="e16" mainevent="NO" class="STATE" stem="right" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">rights</EVENT> on the stock will <EVENT eid="e7" mainevent="NO" class="ASPECTUAL" stem="terminate" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">terminate</EVENT> on <TIMEX3 tid="t18" type="DATE" value="1989-11-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">Nov. 30</TIMEX3>.</s> 
+<s>Until <TIMEX3 tid="t22" type="DATE" value="1989-11-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t18">then</TIMEX3>, Conseco <EVENT eid="e8" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the stock <EVENT eid="e9" mainevent="NO" class="STATE" stem="remain" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">remains</EVENT> convertible into common stock at the rate of 1.439 shares of common stock for each share of preferred stock, which is equivalent to a conversion price of $17.50 a common share.</s> 
+<s>In New York Stock Exchange trading <TIMEX3 tid="t19" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">Friday</TIMEX3>, Conseco <EVENT eid="e12" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> at <EVENT eid="e20" mainevent="NO" class="STATE" stem="$19.50" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$19.50</EVENT>, down 25 cents.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e8" eventID="e5" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e12" eventID="e8" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e5" eventID="e1" task="C"/>
+
+</TempEval>

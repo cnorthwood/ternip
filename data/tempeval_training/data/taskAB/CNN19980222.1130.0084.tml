@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ CNN<TIMEX3 tid="t16" type="DATE" value="1998-02-22" temporalFunction="false" functionInDocument="CREATION_TIME">19980222</TIMEX3>.1130.0084 
+ NEWS STORY 
+
+
+
+
+
+ <s>CNN headline news, I'm Sachi Koto.</s>
+ <s>Diplomacy <EVENT eid="e1" class="I_STATE" stem="appear" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">appears</EVENT>  to  be <EVENT eid="e2" class="I_ACTION" stem="make" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">making</EVENT> headway in <EVENT eid="e4" class="I_ACTION" stem="resolve" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">resolving</EVENT> the united nation's
+ <EVENT eid="e96" class="OCCURRENCE" stem="standoff" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">standoff</EVENT> with Iraq.</s>
+ <s>A UN spokesman <EVENT eid="e5" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">says</EVENT> UN secretary general Kofi Annan is <EVENT eid="e142" class="STATE" stem="on" aspect="NONE" tense="PRESENT" polarity="POS" pos="PREPOSITION">on</EVENT> the verge of
+ a breakthrough, but <EVENT eid="e6" class="REPORTING" stem="add" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">added</EVENT> it's not <EVENT eid="e7" class="OCCURRENCE" stem="done" aspect="NONE" tense="PRESENT" polarity="NEG" pos="ADJECTIVE">done</EVENT> yet.</s>
+ <s>Annan <EVENT eid="e8" class="ASPECTUAL" stem="wrap" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">wrapped</EVENT> up a <TIMEX3 tid="t122" type="DURATION" value="PT3H" temporalFunction="false" functionInDocument="NONE">three hour</TIMEX3> <EVENT eid="e35" class="OCCURRENCE" stem="meeting" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">meeting</EVENT> with Iraqi president Saddam Hussein
+ in Baghdad <TIMEX3 tid="t18" type="DATE" value="1998-02-22" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">today</TIMEX3>.</s>
+ <s>He's <EVENT eid="e9" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expected</EVENT>  to <EVENT eid="e73" class="OCCURRENCE" stem="meet" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">meet</EVENT> with Iraqi deputy prime minister Tariq Aziz <TIMEX3 tid="t64" type="DATE" value="1998-02-22TAF" mod="END" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t16">later
+ this afternoon</TIMEX3>.</s> <s>One major sticking point has been Iraq's <EVENT eid="e129" class="I_ACTION" stem="proposal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">proposal</EVENT>  to <EVENT eid="e46" class="OCCURRENCE" stem="open" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">open</EVENT> it's presidential sites for <TIMEX3 tid="t70" type="DURATION" value="P60D" mod="EQUAL_OR_LESS" temporalFunction="false" functionInDocument="NONE">no more than sixty days</TIMEX3>.</s>
+ <s>The UN security council <EVENT eid="e13" class="I_ACTION" stem="insist" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">insists</EVENT> any <EVENT eid="e140" class="I_ACTION" stem="deal" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">deal</EVENT> must <EVENT eid="e14" class="I_STATE" stem="allow" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">allow</EVENT> UN inspectors unrestricted <EVENT eid="e141" class="OCCURRENCE" stem="access" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">access</EVENT> to all suspected weapons sites.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e9" relatedToTime="t64" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e2" relatedToTime="t16" task="B"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e6" relatedToTime="t16" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e5" relatedToTime="t16" task="B"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e9" relatedToTime="t16" task="B"/>
+</TempEval>

@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891031-0138 
+ = 891031 
+ 891031-0138. 
+ International:
+@  Courtaulds PLC
+@  Plans to Spin Off
+@  Textiles Business
+@  ----
+@  By Craig Forman
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t89" type="DATE" value="1989-10-31" temporalFunction="false" functionInDocument="CREATION_TIME">10/31/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ COU 
+ DIVIDENDS (DIV)
+STOCK MARKET, OFFERINGS (STK)
+TEXTILES AND APPAREL (TEX) 
+ LONDON  
+
+   <s>Courtaulds PLC <EVENT eid="e1" class="I_ACTION" stem="announce" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">announced</EVENT> <EVENT eid="e85" class="I_STATE" stem="plan" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">plans</EVENT> to <EVENT eid="e3" class="OCCURRENCE" stem="spin" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">spin</EVENT> off its textiles operations to existing shareholders in a <EVENT eid="e86" class="OCCURRENCE" stem="restructuring" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">restructuring</EVENT> to <EVENT eid="e8" class="OCCURRENCE" stem="boost" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">boost</EVENT> shareholder value.</s> 
+
+   <s>The British chemical and textile company's plan, which requires shareholder approval, would <EVENT eid="e11" class="OCCURRENCE" stem="create" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">create</EVENT> a new, listed U.K. stock with a probable market capitalization between #300 million ($473 million) and #400 million, analysts <EVENT eid="e15" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>The <EVENT eid="e16" class="OCCURRENCE" stem="establishment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">establishment</EVENT> of the separate company, to be called Courtaulds Textiles, could be effective as early as <TIMEX3 tid="t90" type="DATE" value="1990-Q1" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t89">next year's first quarter</TIMEX3>.</s> 
+
+   <s>Investors <EVENT eid="e20" class="OCCURRENCE" stem="welcome" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">welcomed</EVENT> the <EVENT eid="e21" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">move</EVENT>.</s> 
+<s>Courtaulds' shares <EVENT eid="e22" class="OCCURRENCE" stem="rise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">rose</EVENT> 15 pence to <EVENT eid="e120" class="STATE" stem="362" aspect="NONE" tense="NONE" polarity="POS" pos="OTHER">362</EVENT> pence, valuing the entire company at about #1.44 billion.</s> 
+
+   <s>Courtaulds' <EVENT eid="e93" class="OCCURRENCE" stem="spinoff" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">spinoff</EVENT> reflects pressure on British industry to boost share prices beyond the reach of corporate raiders.</s> 
+<s>Courtaulds' <EVENT eid="e94" class="OCCURRENCE" stem="restructuring" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">restructuring</EVENT> is among the largest thus far in Britain, though it is dwarfed by B.A.T Industries PLC's <EVENT eid="e95" class="I_STATE" stem="plan" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">plans</EVENT> to <EVENT eid="e31" class="OCCURRENCE" stem="spin" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">spin</EVENT> roughly off #4 billion in assets to <EVENT eid="e33" class="I_ACTION" stem="help" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">help</EVENT> <EVENT eid="e34" class="OCCURRENCE" stem="fend" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">fend</EVENT> off a takeover bid from Anglo-French financier Sir James Goldsmith.</s> 
+<s>The divested Courtaulds textile operations <EVENT eid="e96" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> operating <EVENT eid="e97" class="STATE" stem="profit" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">profit</EVENT> of #50 million on #980 million in revenue in <TIMEX3 tid="t99" type="DURATION" value="P1Y" temporalFunction="true" functionInDocument="NONE" endPoint="t100">the year</TIMEX3> ended <TIMEX3 tid="t100" type="DATE" value="1989-03-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t89">March 31</TIMEX3>.</s> 
+
+   <s>Some analysts have <EVENT eid="e37" class="REPORTING" stem="say" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">said</EVENT> Courtaulds' <EVENT eid="e38" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">moves</EVENT> could <EVENT eid="e39" class="OCCURRENCE" stem="boost" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">boost</EVENT> the company's value by 5% to 10%, because the two entities separately will <EVENT eid="e41" class="OCCURRENCE" stem="carry" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">carry</EVENT> a higher price earnings multiple than they <EVENT eid="e42" class="OCCURRENCE" stem="do" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">did</EVENT> <EVENT eid="e103" class="STATE" stem="combine" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">combined</EVENT>.</s> 
+<s>In addition, Courtaulds <EVENT eid="e45" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e46" class="OCCURRENCE" stem="move" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">moves</EVENT> are logical because they will <EVENT eid="e47" class="I_STATE" stem="allow" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">allow</EVENT> both the chemicals and textile businesses to <EVENT eid="e104" class="OCCURRENCE" stem="focus" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">focus</EVENT> more closely on core activities.</s> 
+
+   <s>Courtaulds has been <EVENT eid="e119" class="STATE" stem="under" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="PREPOSITION">under</EVENT> pressure to <EVENT eid="e54" class="OCCURRENCE" stem="enhance" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">enhance</EVENT> shareholder value since takeover speculators -- including Australian financier Kerry Packer -- <EVENT eid="e55" class="OCCURRENCE" stem="surface" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">surfaced</EVENT> holding small stakes <TIMEX3 tid="t108" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t89">last year</TIMEX3>.</s> 
+<s>Though Mr. Packer has since <EVENT eid="e58" class="OCCURRENCE" stem="sell" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">sold</EVENT> his stake, Courtaulds is <EVENT eid="e60" class="OCCURRENCE" stem="move" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">moving</EVENT> to <EVENT eid="e62" class="ASPECTUAL" stem="keep" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">keep</EVENT> its institutional shareholders <EVENT eid="e110" class="STATE" stem="happy" aspect="NONE" tense="NONE" polarity="POS" pos="ADJECTIVE">happy</EVENT>.</s> 
+<s>Even without a specific takeover <EVENT eid="e63" class="OCCURRENCE" stem="threat" aspect="NONE" tense="NONE" polarity="NEG" pos="NOUN">threat</EVENT>, Courtaulds is <EVENT eid="e64" class="OCCURRENCE" stem="give" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">giving</EVENT> shareholders "<EVENT eid="e65" class="OCCURRENCE" stem="choice" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">choice</EVENT> and value," <EVENT eid="e66" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> Julia Blake, an analyst at London stockbrokers Barclays de Zoete Wedd.</s> 
+
+   <s>In a statement, the company said: "Both parts can only realize their full potential and be appropriately valued by the market if they are separately quoted companies.</s> 
+<s>The sharper definition and the autonomy which each will thereby gain will benefit shareholders, customers and employees."</s> 
+
+   <s>Courtaulds Chairman and Chief Executive Sir Christopher Hogg will <EVENT eid="e77" class="STATE" stem="remain" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">remain</EVENT> in both posts at the surviving chemical company after the <EVENT eid="e118" class="OCCURRENCE" stem="spinoff" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">spinoff</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e96" relatedToTime="t100" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e96" relatedToTime="t99" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e85" relatedToTime="t89" task="B"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e1" relatedToTime="t89" task="B"/>
+<TLINK lid="l5" relType="AFTER" eventID="e8" relatedToTime="t89" task="B"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e15" relatedToTime="t89" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e21" relatedToTime="t89" task="B"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e22" relatedToTime="t89" task="B"/>
+<TLINK lid="l9" relType="AFTER" eventID="e33" relatedToTime="t89" task="B"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e95" relatedToTime="t89" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e96" relatedToTime="t89" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e37" relatedToTime="t89" task="B"/>
+<TLINK lid="l13" relType="OVERLAP-OR-AFTER" eventID="e39" relatedToTime="t89" task="B"/>
+<TLINK lid="l14" relType="OVERLAP" eventID="e38" relatedToTime="t89" task="B"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e46" relatedToTime="t89" task="B"/>
+<TLINK lid="l16" relType="BEFORE" eventID="e45" relatedToTime="t89" task="B"/>
+<TLINK lid="l17" relType="OVERLAP" eventID="e60" relatedToTime="t89" task="B"/>
+<TLINK lid="l18" relType="BEFORE" eventID="e58" relatedToTime="t89" task="B"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e64" relatedToTime="t89" task="B"/>
+<TLINK lid="l20" relType="BEFORE" eventID="e66" relatedToTime="t89" task="B"/>
+<TLINK lid="l21" relType="OVERLAP-OR-AFTER" eventID="e77" relatedToTime="t89" task="B"/>
+</TempEval>

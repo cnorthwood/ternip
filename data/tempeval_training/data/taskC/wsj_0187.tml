@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891102-0003 
+ = 891102 
+ 891102-0003. 
+ International:
+@  Finland, Big Creditors
+@  To Set Up Company
+@  To Complete Ships 
+ <TIMEX3 tid="t33" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ EUROP CCL 
+ BANKRUPTCIES (BCY)
+TRANSPORTATION, TRUCK AND SHIP LINES, RAILROADS (TRA) 
+ STOCKHOLM  
+
+   <s>The Finnish government and major creditors of bankrupt shipyard Waertsilae Marine Industries Oy <EVENT eid="e1" mainevent="YES" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> in principle  to <EVENT eid="e2" mainevent="NO" class="OCCURRENCE" stem="form" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">form</EVENT> a new company  to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="complete" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">complete</EVENT> most of the troubled shipyard's backlog of 15 ships.</s> 
+
+   <s>The new company  will <EVENT eid="e4" mainevent="NO" class="I_ACTION" stem="attempt" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">attempt</EVENT>  to <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="limit" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">limit</EVENT> the shipyard's losses, participants <EVENT eid="e6" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>"The situation is that the bankruptcy court  will <EVENT eid="e7" mainevent="YES" class="OCCURRENCE" stem="get" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">get</EVENT> out of the shipbuilding business.</s> 
+<s>Everything  will  be taken <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="over" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">over</EVENT> by the new company," <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Christian Andersson, executive vice president of Oy Waertsilae, former parent of Waertsilae Marine.</s> 
+
+   <s>Once its ownership  is <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="finalize" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">finalized</EVENT>, the new company will <EVENT eid="e40" mainevent="YES" class="ASPECTUAL" stem="open" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">open</EVENT> <EVENT eid="e41" mainevent="NO" class="OCCURRENCE" stem="talk" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">talks</EVENT> with state-appointed receivers  to <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> or <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="lease" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">lease</EVENT> Waertsilae Marine's shipyard facilities.</s> 
+<s>Subcontractors  will  be <EVENT eid="e13" mainevent="YES" class="I_ACTION" stem="offer" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">offered</EVENT> a <EVENT eid="e44" mainevent="NO" class="OCCURRENCE" stem="settlement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">settlement</EVENT> and a swift <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="transition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transition</EVENT> to new management  is <EVENT eid="e14" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT>  to <EVENT eid="e15" mainevent="NO" class="I_ACTION" stem="avert" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">avert</EVENT> an <EVENT eid="e46" mainevent="NO" class="OCCURRENCE" stem="exodus" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">exodus</EVENT> of skilled workers from Waertsilae Marine's two big shipyards, government officials <EVENT eid="e16" mainevent="NO" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Under an accord <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="sign" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">signed</EVENT> <TIMEX3 tid="t35" type="DATE" value="1989-11-01" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t33">yesterday</TIMEX3>, the government and Union Bank of Finland would <EVENT eid="e18" mainevent="YES" class="OCCURRENCE" stem="become" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">become</EVENT> major shareholders in the new company, each <EVENT eid="e20" mainevent="NO" class="OCCURRENCE" stem="inject" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">injecting</EVENT> 100 million Finnish markkaa ($23.5 million).</s> 
+<s>Oy Waertsilae is  to <EVENT eid="e21" mainevent="YES" class="OCCURRENCE" stem="contribute" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">contribute</EVENT> 200 million markkaa, most of it as subordinated debt, and <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="take" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">take</EVENT> a minority stake in the new company.</s> 
+
+   <s>Customers <EVENT eid="e23" mainevent="NO" class="STATE" stem="hold" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">holding</EVENT> contracts for Waertsilae Marine's undelivered ships  are <EVENT eid="e24" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT>  to <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="subscribe" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">subscribe</EVENT> most of the remaining 170 million markkaa in share capital, government officials <EVENT eid="e27" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Waertsilae Marine's biggest creditor is Miami-based Carnival Cruise Lines Inc. Carnival, which <EVENT eid="e28" mainevent="NO" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> three ships on <EVENT eid="e227" mainevent="NO" class="STATE" stem="order" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">order</EVENT> from Waertsilae Marine, <EVENT eid="e232" mainevent="YES" class="OCCURRENCE" stem="present" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">presented</EVENT> claims for $1.5 billion damages in the bankruptcy court <TIMEX3 tid="t37" type="DATE" value="1989-W44" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t33">this week</TIMEX3>.</s> 
+
+   <s>Waertsilae Marine's bankruptcy <EVENT eid="e50" mainevent="NO" class="OCCURRENCE" stem="proceeding" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">proceedings</EVENT> <EVENT eid="e32" mainevent="YES" class="ASPECTUAL" stem="begin" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">began</EVENT> <TIMEX3 tid="t36" type="DATE" value="1989-10-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t33">Tuesday</TIMEX3> in a Helsinki court.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e32" eventID="e232" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e6" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e40" eventID="e9" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e7" eventID="e6" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e13" eventID="e40" task="C"/>
+<TLINK lid="l6" relType="AFTER" relatedToEvent="e232" eventID="e27" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e27" eventID="e21" task="C"/>
+<TLINK lid="l8" relType="VAGUE" relatedToEvent="e18" eventID="e13" task="C"/>
+<TLINK lid="l9" relType="AFTER" relatedToEvent="e9" eventID="e7" task="C"/>
+<TLINK lid="l10" relType="VAGUE" relatedToEvent="e21" eventID="e18" task="C"/>
+
+</TempEval>

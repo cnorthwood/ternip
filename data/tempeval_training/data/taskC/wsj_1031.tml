@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891026-0025 
+ = 891026 
+ 891026-0025. 
+ Business Brief -- Philip Morris Cos.:
+@  Defense Measure Is Adopted
+@  By Foods, Tobacco Concern 
+ <TIMEX3 tid="t23" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ MO 
+ TOBACCO PRODUCTS (TOB)
+FOOD PRODUCTS (FOD) 
+
+   <s>Philip Morris Cos., New York, <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="adopt" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">adopted</EVENT> a defense measure <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="design" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">designed</EVENT> to <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="make" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">make</EVENT> a hostile <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="takeover" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">takeover</EVENT> prohibitively expensive.</s> 
+
+   <s>The giant foods, tobacco and brewing company <EVENT eid="e7" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e8" mainevent="NO" class="OCCURRENCE" stem="issue" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">issue</EVENT> common-share purchase rights to shareholders of <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="record" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">record</EVENT> <TIMEX3 tid="t24" type="DATE" value="1989-11-08" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">Nov. 8</TIMEX3>.</s> 
+<s>Under certain circumstances, the rights would <EVENT eid="e10" mainevent="YES" class="I_STATE" stem="entitle" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">entitle</EVENT> Philip Morris holders to <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="buy" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">buy</EVENT> shares of either the company or its acquirer for half price.</s> 
+
+   <s>The board is n't  <EVENT eid="e27" mainevent="NO" class="STATE" stem="aware" tense="PRESENT" aspect="NONE" polarity="NEG" pos="ADJECTIVE">aware</EVENT> of any <EVENT eid="e15" mainevent="NO" class="I_ACTION" stem="attempt" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">attempts</EVENT> to <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="take" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">take</EVENT> over Philip Morris, the company <EVENT eid="e18" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>As of <TIMEX3 tid="t25" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">Sept. 30</TIMEX3>, Philip Morris <EVENT eid="e28" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> 926 million shares outstanding.</s> 
+<s>In composite trading on the New York Stock Exchange, Philip Morris shares <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> <TIMEX3 tid="t26" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t23">yesterday</TIMEX3> at $43.50 each, down $1.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e7" eventID="e1" task="C"/>
+<TLINK lid="l2" relType="OVERLAP-OR-AFTER" relatedToEvent="e28" eventID="e18" task="C"/>
+<TLINK lid="l3" relType="BEFORE-OR-OVERLAP" relatedToEvent="e20" eventID="e28" task="C"/>
+<TLINK lid="l4" relType="AFTER" relatedToEvent="e18" eventID="e10" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e10" eventID="e7" task="C"/>
+
+</TempEval>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891027-0084 
+ = 891027 
+ 891027-0084. 
+ Financing Business:
+@  Blockbuster Entertainment Corp. 
+ <TIMEX3 tid="t41" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ BV 
+ BOND MARKET NEWS (BON) 
+
+   <s>BLOCKBUSTER ENTERTAINMENT CORP. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="raise" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">raised</EVENT> $92 million from an <EVENT eid="e3" class="OCCURRENCE" stem="offering" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offering</EVENT> of liquid yield option notes.</s> 
+<s>The gross proceeds from the <EVENT eid="e6" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of the notes, which will be <EVENT eid="e38" class="OCCURRENCE" stem="due" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">due</EVENT> on <TIMEX3 tid="t42" type="DATE" value="2004-11-01" temporalFunction="false" functionInDocument="NONE">Nov. 1, 2004</TIMEX3>, will be <EVENT eid="e9" class="OCCURRENCE" stem="use" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">used</EVENT> to <EVENT eid="e11" class="OCCURRENCE" stem="reduce" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">reduce</EVENT> existing debt and for general corporate purposes, the company <EVENT eid="e13" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>The debt <EVENT eid="e14" class="OCCURRENCE" stem="reduction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">reduction</EVENT> is <EVENT eid="e15" class="I_STATE" stem="expect" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e17" class="OCCURRENCE" stem="save" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">save</EVENT> the Fort Lauderdale, Fla. home video concern about $2 million a year in interest expense.</s> 
+<s>The zero-coupon subordinated notes have no periodic interest <EVENT eid="e21" class="OCCURRENCE" stem="payments" aspect="NONE" tense="PRESENT" polarity="NEG" pos="VERB">payments</EVENT>.</s> 
+<s>Each note is being <EVENT eid="e24" class="I_ACTION" stem="offer" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">offered</EVENT> at $308.32 per $1,000 principal amount at maturity, representing an 8% yield to maturity.</s> 
+<s>In addition, each note can be <EVENT eid="e29" class="OCCURRENCE" stem="convert" aspect="NONE" tense="NONE" polarity="POS" pos="VERB">converted</EVENT> into Blockbuster Entertainment common stock at a rate of 13.851 shares per note.</s> 
+<s>Merrill Lynch Capital Markets Inc. is the sole underwriter for the <EVENT eid="e33" class="OCCURRENCE" stem="offering" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">offering</EVENT>.</s> 
+<s>The notes will <EVENT eid="e44" class="STATE" stem="have" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">have</EVENT> a principal amount of $300 million at maturity.</s> 
+<s>Blockbuster shares <EVENT eid="e35" class="OCCURRENCE" stem="close" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">closed</EVENT> <TIMEX3 tid="t45" type="DATE" value="1989-10-26" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t41">yesterday</TIMEX3> at $18.75, down $1.125, in New York Stock Exchange trading.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE-OR-OVERLAP" eventID="e6" relatedToTime="t42" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e13" relatedToTime="t42" task="A"/>
+<TLINK lid="l3" relType="OVERLAP-OR-AFTER" eventID="e9" relatedToTime="t42" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e35" relatedToTime="t45" task="A"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e1" relatedToTime="t41" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e6" relatedToTime="t41" task="B"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e13" relatedToTime="t41" task="B"/>
+<TLINK lid="l8" relType="AFTER" eventID="e9" relatedToTime="t41" task="B"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e15" relatedToTime="t41" task="B"/>
+<TLINK lid="l10" relType="OVERLAP" eventID="e24" relatedToTime="t41" task="B"/>
+<TLINK lid="l11" relType="AFTER" eventID="e44" relatedToTime="t41" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e35" relatedToTime="t41" task="B"/>
+</TempEval>

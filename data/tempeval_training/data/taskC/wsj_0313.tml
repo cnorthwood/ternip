@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891101-0051 
+ = 891101 
+ 891101-0051. 
+ Business Brief -- Murphy Oil Corp.:
+@  Ocean Drilling Unit to Sell
+@  Contract-Drilling Operation 
+ <TIMEX3 tid="t61" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ ODR MUR 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+EARNINGS (ERN) 
+
+   <s>Ocean Drilling amp Exploration Co. will <EVENT eid="e1" mainevent="YES" class="OCCURRENCE" stem="sell" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> its contract-drilling business, and <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="take" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">took</EVENT> a $50.9 million <EVENT eid="e4" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> from discontinued <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT> in <TIMEX3 tid="t62" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the third quarter</TIMEX3> because of the <EVENT eid="e45" mainevent="NO" class="I_STATE" stem="planned" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">planned</EVENT> <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sale</EVENT>.</s> 
+
+   <s>The New Orleans oil and gas exploration and diving operations company <EVENT eid="e9" mainevent="YES" class="REPORTING" stem="add" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">added</EVENT> that it does n't <EVENT eid="e10" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB">expect</EVENT> any further adverse financial <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="impact" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">impact</EVENT> from the <EVENT eid="e64" mainevent="NO" class="OCCURRENCE" stem="restructuring" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">restructuring</EVENT>.</s> 
+
+   <s>In <TIMEX3 tid="t63" type="DURATION" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the third quarter</TIMEX3>, the company, which is 61%-owned by Murphy Oil Corp. of Arkansas, <EVENT eid="e48" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> a net <EVENT eid="e15" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $46.9 million, or 91 cents a share, compared with a restated <EVENT eid="e17" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $9 million, or 18 cents a share, <TIMEX3 tid="t65" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t63">a year ago</TIMEX3>.</s> 
+<s><TIMEX3 tid="t66" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">The latest period</TIMEX3> <EVENT eid="e51" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e52" mainevent="NO" class="STATE" stem="profit" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">profit</EVENT> from continuing <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="operation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">operations</EVENT> of $4 million.</s> 
+<s>Revenue <EVENT eid="e21" mainevent="YES" class="OCCURRENCE" stem="gain" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">gained</EVENT> 13% to <EVENT eid="e65" mainevent="NO" class="STATE" stem="$77.3" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$77.3</EVENT> million from <EVENT eid="e66" mainevent="NO" class="STATE" stem="$68.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$68.5</EVENT> million.</s> 
+
+   <s>Ocean Drilling <EVENT eid="e22" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e23" mainevent="NO" class="OCCURRENCE" stem="offer" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">offer</EVENT> 15% to 20% of the contract-drilling business through an initial public <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="offering" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">offering</EVENT> in <TIMEX3 tid="t67" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t61">the near future</TIMEX3>.</s> 
+<s>It has long been <EVENT eid="e27" mainevent="YES" class="I_ACTION" stem="rumor" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">rumored</EVENT> that Ocean Drilling would <EVENT eid="e59" mainevent="NO" class="OCCURRENCE" stem="sell" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> the unit to <EVENT eid="e31" mainevent="NO" class="OCCURRENCE" stem="concentrate" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">concentrate</EVENT> on its core oil and gas business.</s> 
+
+   <s>Ocean Drilling <EVENT eid="e33" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it wo n't <EVENT eid="e34" mainevent="NO" class="OCCURRENCE" stem="hold" tense="FUTURE" aspect="NONE" polarity="NEG" pos="VERB">hold</EVENT> any shares of the new company after the <EVENT eid="e60" mainevent="NO" class="OCCURRENCE" stem="restructuring" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">restructuring</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e21" eventID="e51" task="C"/>
+<TLINK lid="l2" relType="AFTER" relatedToEvent="e9" eventID="e1" task="C"/>
+<TLINK lid="l3" relType="OVERLAP-OR-AFTER" relatedToEvent="e27" eventID="e22" task="C"/>
+<TLINK lid="l4" relType="BEFORE" relatedToEvent="e22" eventID="e21" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e51" eventID="e48" task="C"/>
+<TLINK lid="l6" relType="BEFORE-OR-OVERLAP" relatedToEvent="e33" eventID="e27" task="C"/>
+<TLINK lid="l7" relType="AFTER" relatedToEvent="e48" eventID="e9" task="C"/>
+
+</TempEval>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891102-0023 
+ = 891102 
+ 891102-0023. 
+ Business Brief -- RMS International Inc.:
+@  Financing Sources, Waivers
+@  On Debt Are Being Sought 
+ <TIMEX3 tid="t19" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ RMS 
+ EARNINGS (ERN) 
+
+   <s>RMS International Inc., Hasbrouk Heights, N.J., <EVENT eid="e1" mainevent="NO" class="I_ACTION" stem="face" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">facing</EVENT> a cash-flow <EVENT eid="e1989" mainevent="NO" class="STATE" stem="squeeze" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">squeeze</EVENT>, <EVENT eid="e2" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it  is <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="seek" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">seeking</EVENT> other financing sources and waivers from debenture holders.</s> 
+
+   <s>The company <EVENT eid="e4" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> that because of softening sales it isn't <EVENT eid="e1999" mainevent="NO" class="STATE" stem="in" tense="PRESENT" aspect="NONE" polarity="NEG" pos="OTHER">in</EVENT> compliance with <EVENT eid="e1991" mainevent="NO" class="I_STATE" stem="requirement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">requirements</EVENT> that it <EVENT eid="e7" mainevent="NO" class="STATE" stem="maintain" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">maintain</EVENT> $3 million in working capital.</s> 
+<s>RMS distributes electronic devices and produces power supplies and plastic literature displays.</s> 
+
+   <s>RMS <EVENT eid="e12" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e1994" mainevent="NO" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> a loss of $158,666, or 10 cents a share, in <TIMEX3 tid="t21" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t19">the third quarter</TIMEX3>, compared with a <TIMEX3 tid="t22" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">year-earlier</TIMEX3> <EVENT eid="e1996" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $26,956, or two cents a share.</s> 
+<s>Sales <EVENT eid="e15" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> to $3 million from $2.9 million.</s> 
+
+   <s>For <TIMEX3 tid="t23" type="DURATION" value="P9M" temporalFunction="true" functionInDocument="NONE" endPoint="t21">the nine months</TIMEX3>, the company <EVENT eid="e16" mainevent="YES" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> a net <EVENT eid="e1997" mainevent="NO" class="STATE" stem="loss" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $608,413, or 39 cents a share, compared with <TIMEX3 tid="t24" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t21">year-earlier</TIMEX3> net <EVENT eid="e1998" mainevent="NO" class="STATE" stem="income" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">income</EVENT> of $967,809, or 62 cents a share.</s> 
+<s>Sales <EVENT eid="e18" mainevent="YES" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> to $9.8 million from $8.9 million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" relatedToEvent="e18" eventID="e16" task="C"/>
+<TLINK lid="l2" relType="BEFORE" relatedToEvent="e16" eventID="e15" task="C"/>
+<TLINK lid="l3" relType="AFTER" relatedToEvent="e15" eventID="e12" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e4" eventID="e2" task="C"/>
+
+</TempEval>

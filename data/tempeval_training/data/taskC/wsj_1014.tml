@@ -1,0 +1,217 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891026-0042 
+ = 891026 
+ 891026-0042. 
+ Anheuser-Busch, Slugging It Out, Plans Beer Price Cuts
+@  ----
+@  By James P. Miller
+@  Staff Reporter of The Wall Street Journal 
+ <TIMEX3 tid="t161" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ BUD 
+ BEVERAGES (BVG)
+MARKETING, ADVERTISING (MKT)
+EARNINGS (ERN) 
+
+   <s>Anheuser-Busch Cos. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" mainevent="NO" class="I_STATE" stem="plan" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">plans</EVENT> to aggressively <EVENT eid="e4" mainevent="NO" class="OCCURRENCE" stem="discount" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">discount</EVENT> its major beer brands, <EVENT eid="e5" mainevent="NO" class="OCCURRENCE" stem="set" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">setting</EVENT> the stage for a potentially bruising price <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="war" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">war</EVENT> as the maturing industry's <EVENT eid="e192" mainevent="NO" class="OCCURRENCE" stem="growth" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">growth</EVENT> <EVENT eid="e8" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continues</EVENT> to <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="slow" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">slow</EVENT>.</s> 
+
+   <s>Anheuser, the world's largest brewer and U.S. market leader, has historically been <EVENT eid="e203" mainevent="YES" class="I_STATE" stem="reluctant" tense="NONE" aspect="PERFECTIVE" polarity="POS" pos="ADJECTIVE">reluctant</EVENT> to <EVENT eid="e12" mainevent="NO" class="OCCURRENCE" stem="engage" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">engage</EVENT> in <EVENT eid="e210" mainevent="NO" class="OCCURRENCE" stem="price-cutting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">price-cutting</EVENT> as a means of <EVENT eid="e14" mainevent="NO" class="OCCURRENCE" stem="boosting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">boosting</EVENT> sales volume.</s> 
+<s>With the <EVENT eid="e15" mainevent="NO" class="OCCURRENCE" stem="passing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">passing</EVENT> of the heady <TIMEX3 tid="t227" type="DURATION" value="PXD" temporalFunction="false" functionInDocument="NONE">days</TIMEX3> of <EVENT eid="e16" mainevent="NO" class="OCCURRENCE" stem="swelling" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">swelling</EVENT> industry sales, however, the once-sporadic and brief <EVENT eid="e17" mainevent="NO" class="OCCURRENCE" stem="foray" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">forays</EVENT> into <EVENT eid="e18" mainevent="NO" class="OCCURRENCE" stem="discounting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">discounting</EVENT> are <EVENT eid="e20" mainevent="YES" class="OCCURRENCE" stem="become" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">becoming</EVENT> standard competitive weapons in the beer industry.</s> 
+
+   <s>Over the <TIMEX3 tid="t246" type="DATE" value="1989-SU" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">summer</TIMEX3>, Anheuser competitors <EVENT eid="e24" mainevent="YES" class="I_ACTION" stem="offer" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">offered</EVENT> more and deeper <EVENT eid="e25" mainevent="NO" class="OCCURRENCE" stem="discount" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">discounts</EVENT> than industry observers have <EVENT eid="e26" mainevent="NO" class="PERCEPTION" stem="see" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">seen</EVENT> for a long time.</s> 
+<s>Some experts <TIMEX3 tid="t261" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">now</TIMEX3> <EVENT eid="e28" mainevent="YES" class="OCCURRENCE" stem="predict" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">predict</EVENT> Anheuser's <EVENT eid="e29" mainevent="NO" class="OCCURRENCE" stem="entry" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">entry</EVENT> into the <EVENT eid="e30" mainevent="NO" class="OCCURRENCE" stem="fray" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">fray</EVENT> <EVENT eid="e32" mainevent="NO" class="OCCURRENCE" stem="mean" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">means</EVENT> near-term earnings <EVENT eid="e33" mainevent="NO" class="OCCURRENCE" stem="trouble" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trouble</EVENT> for all the industry players.</s> 
+
+   <s>The St. Louis company <EVENT eid="e34" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> major rivals, Philip Morris Co.'s Miller Brewing unit and Adolph Coors Co. "have been <EVENT eid="e35" mainevent="NO" class="OCCURRENCE" stem="follow" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">following</EVENT> a policy of continuous and deep <EVENT eid="e36" mainevent="NO" class="OCCURRENCE" stem="discounting" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">discounting</EVENT> for <TIMEX3 tid="t283" type="DURATION" value="P18M" mod="EQUAL_OR_MORE" temporalFunction="true" functionInDocument="NONE" endPoint="t161">at least the past 18 months</TIMEX3>" on their premium brands, <EVENT eid="e38" mainevent="NO" class="OCCURRENCE" stem="price" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">pricing</EVENT> their product as much as 25 cents a 12-pack below Anheuser's Budweiser label in many markets.</s> 
+<s>Anheuser <EVENT eid="e42" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it's discounting policy basically would <EVENT eid="e43" mainevent="NO" class="OCCURRENCE" stem="involve" tense="NONE" aspect="NONE" polarity="POS" pos="VERB">involve</EVENT> <EVENT eid="e45" mainevent="NO" class="OCCURRENCE" stem="match" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">matching</EVENT> such <EVENT eid="e46" mainevent="NO" class="OCCURRENCE" stem="move" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">moves</EVENT> by rivals on a market-by-market basis.</s> 
+
+   <s>Anheuser-Busch <EVENT eid="e47" mainevent="YES" class="REPORTING" stem="announce" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">announced</EVENT> its <EVENT eid="e1991" mainevent="NO" class="I_STATE" stem="plan" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plan</EVENT> at the same time it <EVENT eid="e50" mainevent="NO" class="REPORTING" stem="report" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">reported</EVENT> <TIMEX3 tid="t321" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">third-quarter</TIMEX3> net income <EVENT eid="e51" mainevent="NO" class="OCCURRENCE" stem="rise" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">rose</EVENT> a lower-than-anticipated 5.2% to <EVENT eid="e2241" mainevent="NO" class="STATE" stem="$238.3" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$238.3</EVENT> million, or 83 cents a share, from <EVENT eid="e2242" mainevent="NO" class="STATE" stem="$226.5" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$226.5</EVENT> million, or 78 cents.</s> 
+<s>Third-period sales were $2.49 billion, up from last year's $2.34 billion.</s> 
+
+   <s>Anheuser <EVENT eid="e52" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> its new strategy -- <EVENT eid="e53" mainevent="NO" class="OCCURRENCE" stem="start" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">started</EVENT> in some markets <TIMEX3 tid="t354" type="DATE" value="1989-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">last month</TIMEX3> and <EVENT eid="e56" mainevent="NO" class="I_STATE" stem="expect" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">expected</EVENT> to be <EVENT eid="e58" mainevent="NO" class="OCCURRENCE" stem="applied" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">applied</EVENT> soon in selected markets nationwide -- will <EVENT eid="e61" mainevent="NO" class="OCCURRENCE" stem="mean" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">mean</EVENT> lower-than-anticipated earnings for <TIMEX3 tid="t371" type="DATE" value="1989-H2" temporalFunction="false" functionInDocument="NONE">the last half of 1989</TIMEX3> and for <TIMEX3 tid="t370" type="DATE" value="1990" temporalFunction="false" functionInDocument="NONE">1990</TIMEX3>.</s> 
+<s>The <EVENT eid="e62" mainevent="NO" class="OCCURRENCE" stem="projection" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">projection</EVENT> <EVENT eid="e63" mainevent="YES" class="OCCURRENCE" stem="send" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">sent</EVENT> Anheuser shares <EVENT eid="e64" mainevent="NO" class="OCCURRENCE" stem="plunging" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">plunging</EVENT> $4.375 in New York Stock Exchange composite trading <TIMEX3 tid="t394" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">yesterday</TIMEX3>.</s> 
+<s>The stock <EVENT eid="e65" mainevent="YES" class="OCCURRENCE" stem="close" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">closed</EVENT> at $38.50 on heavy volume of about 3.5 million shares.</s> 
+<s>Shares of Coors, the company's sole publicly traded major competitor, <EVENT eid="e66" mainevent="YES" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> $1.50 apiece to <EVENT eid="e405" mainevent="NO" class="STATE" stem="$19.125" tense="NONE" aspect="NONE" polarity="POS" pos="OTHER">$19.125</EVENT> in national over-the-counter trading, apparently on investor concerns over potential <EVENT eid="e410" mainevent="NO" class="OCCURRENCE" stem="fallout" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">fallout</EVENT> from the coming pricing <EVENT eid="e70" mainevent="NO" class="OCCURRENCE" stem="struggle" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">struggle</EVENT>.</s> 
+
+   <s>Anheuser <EVENT eid="e72" mainevent="YES" class="REPORTING" stem="note" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">noted</EVENT> that "beer industry <EVENT eid="e424" mainevent="NO" class="OCCURRENCE" stem="sale" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">sales</EVENT> volume is <TIMEX3 tid="t419" type="DATE" value="1989" temporalFunction="false" functionInDocument="NONE">1989</TIMEX3> is <EVENT eid="e73" mainevent="NO" class="OCCURRENCE" stem="follow" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">following</EVENT> the <EVENT eid="e437" mainevent="NO" class="OCCURRENCE" stem="trend" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trend</EVENT> that has <EVENT eid="e74" mainevent="NO" class="OCCURRENCE" stem="characterize" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">characterized</EVENT> <TIMEX3 tid="t446" type="DATE" value="198" mod="END" temporalFunction="false" functionInDocument="NONE">the last half of the '80s</TIMEX3>, with sales volume being essentially <EVENT eid="e2238" mainevent="NO" class="STATE" stem="flat" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER">flat</EVENT>" while <EVENT eid="e77" mainevent="NO" class="OCCURRENCE" stem="consolidation" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">consolidation</EVENT> <EVENT eid="e78" mainevent="NO" class="OCCURRENCE" stem="create" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">creates</EVENT> fewer, bigger players.</s> 
+
+   <s>"We cannot <EVENT eid="e80" mainevent="NO" class="I_ACTION" stem="permit" tense="NONE" aspect="NONE" polarity="NEG" pos="VERB">permit</EVENT> a further <EVENT eid="e2000" mainevent="NO" class="OCCURRENCE" stem="slowing" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">slowing</EVENT> in our volume trend," Anheuser <EVENT eid="e82" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, <EVENT eid="e83" mainevent="NO" class="REPORTING" stem="add" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">adding</EVENT> it will <EVENT eid="e84" mainevent="NO" class="OCCURRENCE" stem="take" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">take</EVENT> "appropriate competitive pricing <EVENT eid="e85" mainevent="NO" class="OCCURRENCE" stem="action" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">actions</EVENT> to <EVENT eid="e87" mainevent="NO" class="OCCURRENCE" stem="support" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">support</EVENT> our long-term market share growth strategy" for the premium brands.</s> 
+<s>Anheuser <EVENT eid="e88" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e89" mainevent="NO" class="ASPECTUAL" stem="continue" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">continues</EVENT> to <EVENT eid="e91" mainevent="NO" class="OCCURRENCE" stem="hold" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">hold</EVENT> to its <EVENT eid="e2045" mainevent="NO" class="STATE" stem="earlier-announced" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">earlier-announced</EVENT> goal of a 50% U.S. market share by <TIMEX3 tid="t2054" type="DATE" value="199" mod="MID" temporalFunction="false" functionInDocument="NONE">the mid-1990s</TIMEX3>. 
+
+   Beneath the tepid news-release jargon <EVENT eid="e94" mainevent="NO" class="OCCURRENCE" stem="lie" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">lies</EVENT> a powerful threat from the brewing giant, which last year <EVENT eid="e96" mainevent="NO" class="OCCURRENCE" stem="account" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">accounted</EVENT> for about 41% of all U.S. beer sales and is <EVENT eid="e97" mainevent="NO" class="I_STATE" stem="expect" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">expected</EVENT> to <EVENT eid="e99" mainevent="NO" class="PERCEPTION" stem="see" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">see</EVENT> that <EVENT eid="e100" mainevent="NO" class="OCCURRENCE" stem="grow" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">grow</EVENT> to 42.5% in <TIMEX3 tid="t2056" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">the current year</TIMEX3>.</s> 
+<s>"Anheuser is the biggest guy in the bar, and he just <EVENT eid="e102" mainevent="NO" class="OCCURRENCE" stem="decide" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">decided</EVENT> to <EVENT eid="e104" mainevent="NO" class="OCCURRENCE" stem="join" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">join</EVENT> in the barroom <EVENT eid="e105" mainevent="NO" class="OCCURRENCE" stem="brawl" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">brawl</EVENT>," <EVENT eid="e107" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Joseph J. Doyle, an analyst with Smith Barney, Harris Upham amp Co. 
+"It's going to <EVENT eid="e110" mainevent="NO" class="OCCURRENCE" stem="get" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">get</EVENT> bloody."</s> 
+
+   <s>Jerry Steinman, publisher of Beer Marketers Insights, a trade newsletter, <EVENT eid="e112" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> Anheuser's <EVENT eid="e113" mainevent="NO" class="OCCURRENCE" stem="announcement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">announcement</EVENT> <EVENT eid="e114" mainevent="NO" class="OCCURRENCE" stem="mean" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">means</EVENT> "everybody else in the industry is going to <EVENT eid="e2125" mainevent="NO" class="STATE" stem="have" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB">have</EVENT> a difficult time <EVENT eid="e120" mainevent="NO" class="OCCURRENCE" stem="reach" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">reaching</EVENT> their profit objectives."</s> 
+
+   <s>Prudential-Bache Securities Inc. analyst George E. Thompson <EVENT eid="e121" mainevent="YES" class="OCCURRENCE" stem="downplay" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">downplayed</EVENT> the importance of the <EVENT eid="e122" mainevent="NO" class="OCCURRENCE" stem="announcement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">announcement</EVENT>, and <EVENT eid="e123" mainevent="NO" class="OCCURRENCE" stem="call" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">called</EVENT> any comparison between the coming beer-industry tiff and the seemingly unending "cola wars," unwarranted.</s> 
+<s>Mr. Thompson <EVENT eid="e128" mainevent="YES" class="OCCURRENCE" stem="call" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">calls</EVENT> discounting "a loser's game for anyone without a dominant market share," and <EVENT eid="e131" mainevent="NO" class="REPORTING" stem="project" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">projected</EVENT> that Anheuser's statement of intent could simply be a <EVENT eid="e135" mainevent="NO" class="OCCURRENCE" stem="mean" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">means</EVENT> of <EVENT eid="e2164" mainevent="NO" class="I_ACTION" stem="warn" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">warning</EVENT> competitors to <EVENT eid="e137" mainevent="NO" class="OCCURRENCE" stem="ease" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">ease</EVENT> up on <EVENT eid="e2175" mainevent="NO" class="OCCURRENCE" stem="price-cutting" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">price-cutting</EVENT> or face a costly and fruitless <EVENT eid="e138" mainevent="NO" class="OCCURRENCE" stem="battle" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">battle</EVENT>.</s> 
+
+   <s>Mr. Thompson <EVENT eid="e139" mainevent="YES" class="REPORTING" stem="note" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">noted</EVENT> that the disappointing earnings, which <EVENT eid="e140" mainevent="NO" class="OCCURRENCE" stem="fall" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">fell</EVENT> five cents a share short of his own <EVENT eid="e141" mainevent="NO" class="OCCURRENCE" stem="projection" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">projections</EVENT>, <EVENT eid="e142" mainevent="NO" class="OCCURRENCE" stem="contribute" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">contributed</EVENT> to the sell-off by an edgy and currently unforgiving investing public.</s> 
+
+   <s>But Smith Barney's Mr. Doyle, who <TIMEX3 tid="t2196" type="DATE" value="1989-10-25" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">yesterday</TIMEX3> <EVENT eid="e144" mainevent="NO" class="OCCURRENCE" stem="trim" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">trimmed</EVENT> his <TIMEX3 tid="t2201" type="DATE" value="1990" temporalFunction="false" functionInDocument="NONE">1990</TIMEX3> Anheuser earnings projection to $2.95 a share from $3.10, <EVENT eid="e145" mainevent="YES" class="OCCURRENCE" stem="call" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">called</EVENT> the market's reaction "justified."</s> 
+<s>While the <TIMEX3 tid="t2210" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">third-quarter</TIMEX3> earnings were a "moderate <EVENT eid="e148" mainevent="NO" class="OCCURRENCE" stem="disappointment" tense="PAST" aspect="NONE" polarity="POS" pos="NOUN">disappointment</EVENT>," he <EVENT eid="e149" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, "the real bad news is the <EVENT eid="e2239" mainevent="NO" class="STATE" stem="intensity" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER">intensity</EVENT> of price <EVENT eid="e151" mainevent="NO" class="OCCURRENCE" stem="competition" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">competition</EVENT>" in the premium-beer sector.</s> 
+
+   <s><EVENT eid="e2231" mainevent="YES" class="REPORTING" stem="according" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB">According</EVENT> to Mr. Steinman, the newsletter publisher, Anheuser's market share is nearly <EVENT eid="e2240" mainevent="NO" class="STATE" stem="twice" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE">twice</EVENT> that of its nearest competitor, Miller Brewing, which <EVENT eid="e2237" mainevent="NO" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> a 21.2% stake <TIMEX3 tid="t2238" type="DATE" value="1988" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t161">last year</TIMEX3>.</s> 
+<s>It's <EVENT eid="e154" mainevent="YES" class="OCCURRENCE" stem="follow" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">followed</EVENT> by Stroh Brewery Co., which has <EVENT eid="e155" mainevent="NO" class="I_ACTION" stem="agree" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e157" mainevent="NO" class="OCCURRENCE" stem="sell" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">sell</EVENT> its assets to Coors.</s> 
+<s>Both Coors and Stroh have recently been <EVENT eid="e158" mainevent="YES" class="OCCURRENCE" stem="cede" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB">ceding</EVENT> market share to Miller and Anheuser.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e34" eventID="e28" task="C"/>
+<TLINK lid="l2" relType="VAGUE" relatedToEvent="e121" eventID="e112" task="C"/>
+<TLINK lid="l3" relType="BEFORE" relatedToEvent="e28" eventID="e24" task="C"/>
+<TLINK lid="l4" relType="VAGUE" relatedToEvent="e145" eventID="e139" task="C"/>
+<TLINK lid="l5" relType="BEFORE" relatedToEvent="e107" eventID="e88" task="C"/>
+<TLINK lid="l6" relType="OVERLAP" relatedToEvent="e149" eventID="e145" task="C"/>
+<TLINK lid="l7" relType="OVERLAP-OR-AFTER" relatedToEvent="e66" eventID="e65" task="C"/>
+<TLINK lid="l8" relType="OVERLAP" relatedToEvent="e47" eventID="e42" task="C"/>
+<TLINK lid="l9" relType="BEFORE" relatedToEvent="e63" eventID="e52" task="C"/>
+<TLINK lid="l10" relType="OVERLAP" relatedToEvent="e158" eventID="e154" task="C"/>
+<TLINK lid="l11" relType="BEFORE" relatedToEvent="e65" eventID="e63" task="C"/>
+<TLINK lid="l12" relType="AFTER" relatedToEvent="e203" eventID="e1" task="C"/>
+<TLINK lid="l13" relType="VAGUE" relatedToEvent="e2231" eventID="e149" task="C"/>
+<TLINK lid="l14" relType="OVERLAP" relatedToEvent="e154" eventID="e2231" task="C"/>
+<TLINK lid="l15" relType="VAGUE" relatedToEvent="e72" eventID="e66" task="C"/>
+<TLINK lid="l16" relType="OVERLAP" relatedToEvent="e88" eventID="e82" task="C"/>
+<TLINK lid="l17" relType="OVERLAP" relatedToEvent="e82" eventID="e72" task="C"/>
+<TLINK lid="l18" relType="VAGUE" relatedToEvent="e112" eventID="e107" task="C"/>
+<TLINK lid="l19" relType="OVERLAP" relatedToEvent="e139" eventID="e128" task="C"/>
+<TLINK lid="l20" relType="OVERLAP" relatedToEvent="e128" eventID="e121" task="C"/>
+<TLINK lid="l21" relType="BEFORE" relatedToEvent="e20" eventID="e203" task="C"/>
+<TLINK lid="l22" relType="OVERLAP" relatedToEvent="e24" eventID="e20" task="C"/>
+<TLINK lid="l23" relType="OVERLAP" relatedToEvent="e42" eventID="e34" task="C"/>
+
+</TempEval>

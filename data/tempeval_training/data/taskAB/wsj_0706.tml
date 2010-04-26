@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891027-0189 
+ = 891027 
+ 891027-0189. 
+ Security Pacific Corp. 
+ <TIMEX3 tid="t28" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ SPC LJC 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+BANKS (BNK) 
+ LOS ANGELES  
+
+   <s>Security Pacific Corp. has <EVENT eid="e1" class="OCCURRENCE" stem="set" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">set</EVENT> its sights on <EVENT eid="e4" class="OCCURRENCE" stem="buying" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">buying</EVENT> its second bank holding company <TIMEX3 tid="t29" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">this year</TIMEX3>.</s> 
+
+   <s>Security <EVENT eid="e7" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e8" class="OCCURRENCE" stem="sign" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">signed</EVENT> a letter of <EVENT eid="e10" class="I_STATE" stem="intent" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">intent</EVENT> to <EVENT eid="e12" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">purchase</EVENT> La Jolla Bancorp, <EVENT eid="e13" class="I_STATE" stem="agree" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">agreeing</EVENT> to <EVENT eid="e15" class="OCCURRENCE" stem="pay" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">pay</EVENT> $15 of its own stock for each share of La Jolla.</s> 
+<s>Based on the <TIMEX3 tid="t30" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">current</TIMEX3> number of La Jolla shares, that gives the <EVENT eid="e19" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT> a value of $104 million.</s> 
+
+   <s>La Jolla is the parent company of La Jolla Bank amp Trust Co., which <EVENT eid="e20" class="OCCURRENCE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> 12 branches in San Diego County.</s> 
+<s>As of <TIMEX3 tid="t33" type="DATE" value="1989-09-30" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Sept. 30</TIMEX3>, the bank <EVENT eid="e37" class="STATE" stem="had" aspect="NONE" tense="PAST" polarity="POS" pos="OTHER">had</EVENT> assets of $511 million and deposits of $469 million, Security Pacific <EVENT eid="e22" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s><TIMEX3 tid="t34" type="DATE" value="1989-10" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t28">Earlier this month</TIMEX3>, Security Pacific, which is among the 10 largest bank holding companies in the U.S., <EVENT eid="e24" class="ASPECTUAL" stem="complete" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">completed</EVENT> the <EVENT eid="e25" class="OCCURRENCE" stem="acquisition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">acquisition</EVENT> of San Diego-based Southwest Bancorp.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e1" relatedToTime="t29" task="A"/>
+<TLINK lid="l2" relType="AFTER" eventID="e22" relatedToTime="t33" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e25" relatedToTime="t34" task="A"/>
+<TLINK lid="l4" relType="BEFORE" eventID="e1" relatedToTime="t28" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e7" relatedToTime="t28" task="B"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e13" relatedToTime="t28" task="B"/>
+<TLINK lid="l7" relType="AFTER" eventID="e12" relatedToTime="t28" task="B"/>
+<TLINK lid="l8" relType="AFTER" eventID="e15" relatedToTime="t28" task="B"/>
+<TLINK lid="l9" relType="OVERLAP" eventID="e20" relatedToTime="t28" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e22" relatedToTime="t28" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e25" relatedToTime="t28" task="B"/>
+</TempEval>

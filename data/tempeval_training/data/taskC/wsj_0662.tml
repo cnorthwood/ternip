@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+
+<TempEval>
+
+
+
+
+ WSJ891030-0035 
+ = 891030 
+ 891030-0035. 
+ Business Brief -- Jayark Corp.:
+@  Firm Agrees to Buy Kofcoh
+@  For Cash, Debt and Stock 
+ <TIMEX3 tid="t31" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ JAYA 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Jayark Corp. <EVENT eid="e1" mainevent="YES" class="I_STATE" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="pay" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">pay</EVENT> $4 million in cash, $2 million of 12% convertible debentures, and 1.6 million common shares to <EVENT eid="e7" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquire</EVENT> closely held Kofcoh Imports Inc. 
+
+   In over-the-counter <EVENT eid="e9" mainevent="NO" class="OCCURRENCE" stem="trading" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">trading</EVENT> <TIMEX3 tid="t32" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t31">Friday</TIMEX3>, Jayark was <EVENT eid="e10" mainevent="NO" class="OCCURRENCE" stem="quote" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">quoted</EVENT> at 87.5 cents bid , down 15.625 cents.</s> 
+<s>At the market price, the transaction has a total indicated value of $7.4 million.</s> 
+
+   <s>Kofcoh is a New York holding company for Rosalco Inc., which imports furniture and other items.</s> 
+<s>David L. Koffman, president and chief executive officer of Jayark, <EVENT eid="e33" mainevent="NO" class="STATE" stem="hold" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">holds</EVENT> about 40% of Kofcoh, Jayark <EVENT eid="e16" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Jayark, New York, distributes and rents audio-visual equipment and prints promotional ads for retailers.</s> 
+<s>In <TIMEX3 tid="t36" type="DATE" value="1989-Q2" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">the quarter</TIMEX3> ended <TIMEX3 tid="t35" type="DATE" value="1989-07-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t31">July 31</TIMEX3>, Jayark <EVENT eid="e39" mainevent="YES" class="STATE" stem="have" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">had</EVENT> an average of 5.6 million shares outstanding.</s> 
+
+   <s>The <EVENT eid="e22" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT> is <EVENT eid="e42" mainevent="NO" class="I_STATE" stem="subject" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">subject</EVENT> to <EVENT eid="e23" mainevent="NO" class="I_ACTION" stem="approval" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">approval</EVENT> by a panel of disinterested directors, the company <EVENT eid="e24" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT>, <EVENT eid="e25" mainevent="NO" class="REPORTING" stem="add" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB">adding</EVENT> that shareholder <EVENT eid="e26" mainevent="NO" class="OCCURRENCE" stem="approval" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">approval</EVENT> is n't <EVENT eid="e27" mainevent="NO" class="I_STATE" stem="need" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB">needed</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" relatedToEvent="e24" eventID="e39" task="C"/>
+
+</TempEval>

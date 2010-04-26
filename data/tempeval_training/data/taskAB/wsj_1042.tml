@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891026-0014 
+ = 891026 
+ 891026-0014. 
+ Dividend News:
+@  Avon Rent-a-Car amp Truck Corp. 
+ <TIMEX3 tid="t30" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ AVON 
+ DIVIDENDS (DIV) 
+
+   <s>AVON RENT-A-CAR amp TRUCK Corp. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="OCCURRENCE" stem="declare" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">declared</EVENT> a dividend of one warrant for each three shares of common stock.</s> 
+<s>Currently, Avon, based in Santa Monica, Calif., <EVENT eid="e5" class="OCCURRENCE" stem="have" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">has</EVENT> 3.3 million common shares outstanding.</s> 
+<s>About 1.1 million Class C warrants were <EVENT eid="e7" class="OCCURRENCE" stem="issue" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">issued</EVENT>, the company <EVENT eid="e8" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+<s>Each of the Class C warrants will <EVENT eid="e10" class="OCCURRENCE" stem="enable" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">enable</EVENT> the holders to <EVENT eid="e12" class="OCCURRENCE" stem="purchase" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">purchase</EVENT> one share of common stock at $5.50.</s> 
+<s>The warrants may be <EVENT eid="e14" class="OCCURRENCE" stem="exercise" aspect="PERFECTIVE" tense="NONE" polarity="POS" pos="VERB">exercised</EVENT> until <TIMEX3 tid="t31" type="DURATION" value="P90D" temporalFunction="false" functionInDocument="NONE">90 days</TIMEX3> after their <EVENT eid="e32" class="OCCURRENCE" stem="issue" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">issue</EVENT> date.</s> 
+<s>Avon also <EVENT eid="e17" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it will <EVENT eid="e18" class="OCCURRENCE" stem="issue" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">issue</EVENT> an additional 243,677 of the Class C warrants to holders of its Class A, Class B and unclassified warrants.</s> 
+<s>Issuance of those warrants will be at the rate of one-third warrant for each warrant exercised.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e1" relatedToTime="t30" task="B"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e5" relatedToTime="t30" task="B"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e8" relatedToTime="t30" task="B"/>
+<TLINK lid="l4" relType="AFTER" eventID="e12" relatedToTime="t30" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e17" relatedToTime="t30" task="B"/>
+</TempEval>

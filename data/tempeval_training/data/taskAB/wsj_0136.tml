@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891102-0055 
+ = 891102 
+ 891102-0055. 
+ Business Brief -- Oshkosh Truck Corp.:
+@  Firm Says Net Fell Sharply
+@  In Its Fiscal Fourth Quarter 
+ <TIMEX3 tid="t2022" type="DATE" value="1989-11-02" temporalFunction="false" functionInDocument="CREATION_TIME">11/02/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ OTRKB 
+ EARNINGS (ERN) 
+
+   <s>Oshkosh Truck Corp., Oshkosh, Wis., <EVENT eid="e17" class="REPORTING" stem="estimate" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">estimated</EVENT> earnings for its <TIMEX3 tid="t2027" type="DATE" value="1998-Q4" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t2022">fourth quarter</TIMEX3> ended <TIMEX3 tid="t2023" type="DATE" value="1989-09" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t2022">Sept. 30</TIMEX3> <EVENT eid="e2" class="OCCURRENCE" stem="fall" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">fell</EVENT> 50% to 75% below the year-earlier $4.5 million, or 51 cents a share.</s> 
+
+   <s>The truck maker <EVENT eid="e3" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> the significant <EVENT eid="e21" class="OCCURRENCE" stem="drop" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">drop</EVENT> in net income  will <EVENT eid="e4" class="I_ACTION" stem="result" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">result</EVENT> in lower earnings for <TIMEX3 tid="t2024" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t2022">the fiscal year</TIMEX3>.</s> 
+<s>In <TIMEX3 tid="t37" type="DATE" value="1989" temporalFunction="false" functionInDocument="NONE">fiscal 1988</TIMEX3>, the company <EVENT eid="e5" class="OCCURRENCE" stem="earn" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">earned</EVENT> $17.3 million, or $1.92 a share, on revenue of $352.9 million.</s> 
+
+   <s>Oshkosh Truck <EVENT eid="e6" class="REPORTING" stem="attribute" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">attributed</EVENT> the <EVENT eid="e26" class="OCCURRENCE" stem="downturns" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">downturn</EVENT> in its earnings to higher <EVENT eid="e29" class="OCCURRENCE" stem="start-up" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">start-up</EVENT> costs of its new chassis division, a softer motor-home market and higher administrative costs of compliance with government contractor regulations.</s> 
+
+   <s>The company <EVENT eid="e7" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it is in the process of <EVENT eid="e10" class="OCCURRENCE" stem="phase" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">phasing</EVENT> out John Deere, its current source of production for midsized motor home chassis.</s> 
+<s>In anticipation of the<EVENT eid="e27" class="OCCURRENCE" stem=" start-up" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN"> start-up</EVENT> of its new factory, the company <EVENT eid="e11" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> a larger-than-normal chassis supply  has  been <EVENT eid="e12" class="OCCURRENCE" stem="build" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">built</EVENT>  to <EVENT eid="e13" class="I_ACTION" stem="carry" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">carry</EVENT> it through the <EVENT eid="e14" class="OCCURRENCE" stem="transition" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transition</EVENT> period.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" eventID="e2" relatedToTime="t2027" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e2" relatedToTime="t2023" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e21" relatedToTime="t2024" task="A"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e4" relatedToTime="t2024" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e3" relatedToTime="t2024" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e5" relatedToTime="t37" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e2" relatedToTime="t2022" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e21" relatedToTime="t2022" task="B"/>
+<TLINK lid="l9" relType="AFTER" eventID="e4" relatedToTime="t2022" task="B"/>
+<TLINK lid="l10" relType="BEFORE" eventID="e3" relatedToTime="t2022" task="B"/>
+<TLINK lid="l11" relType="BEFORE" eventID="e5" relatedToTime="t2022" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e7" relatedToTime="t2022" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e11" relatedToTime="t2022" task="B"/>
+</TempEval>

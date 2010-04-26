@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOC>
+<DOCNO> APW19990216.0198 </DOCNO>
+<DATE_TIME> <TIMEX3 tid="t1" type="TIME" value="1999-02-16T12:55" temporalFunction="false" functionInDocument="CREATION_TIME">1999-02-16 12:55:33</TIMEX3> </DATE_TIME>
+<BODY>
+<CATEGORY> washington </CATEGORY>
+<HEADLINE> Independence, Mo., NATO Event Set </HEADLINE>
+<TEXT>
+<P>
+	WASHINGTON (AP) -- Secretary of State Madeleine Albright has  
+<EVENT eid="e1" class="OCCURRENCE">invited</EVENT> the foreign ministers of Poland, the Czech Republic and 
+Hungary to a <EVENT eid="e2" class="OCCURRENCE">ceremony</EVENT> in Independence, Mo., <SIGNAL sid="s1">on</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="1999-03-12" temporalFunction="true" functionInDocument="NONE">March 12</TIMEX3> to <EVENT eid="e3" class="I_ACTION">mark</EVENT> the 
+<EVENT eid="e4" class="OCCURRENCE">accession</EVENT> of the three countries into the NATO alliance. 
+</P>
+<P>
+	The <EVENT eid="e5" class="OCCURRENCE">ceremony</EVENT> will <EVENT eid="e6" class="OCCURRENCE">take</EVENT> place at the Truman Presidential Library.  
+</P>
+<P>
+	The venue was <EVENT eid="e7" class="I_ACTION">chosen</EVENT> to honor the <EVENT eid="e9" class="REPORTING">announcement</EVENT> by President  
+Truman of the <EVENT eid="e10" class="OCCURRENCE">creation</EVENT> of NATO <TIMEX3 tid="t4" type="DATE" value="1949-XX" temporalFunction="true" functionInDocument="NONE">50 years ago</TIMEX3>, the State Department 
+<EVENT eid="e11" class="REPORTING">said</EVENT>. 
+</P>
+</TEXT>
+</BODY>
+</DOC>
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="FUTURE" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<TLINK lid="l2" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l3" relType="BEFORE" timeID="t1" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l4" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei2" signalID="s1" origin="USER"/>
+<TLINK lid="l5" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l6" relType="AFTER" timeID="t2" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l7" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei5" origin="USER"/>
+<TLINK lid="l8" relType="IDENTITY" eventInstanceID="ei5" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l9" relType="AFTER" timeID="t2" relatedToEventInstance="ei7" origin="USER"/>
+<TLINK lid="l10" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l11" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l13" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei11" origin="USER"/>
+<SLINK lid="l1" relType="MODAL" eventInstanceID="ei4" subordinatedEventInstance="ei3" syntax="USER"/>
+<SLINK lid="l12" relType="EVIDENTIAL" eventInstanceID="ei9" subordinatedEventInstance="ei10" syntax="USER"/>
+
+</TimeML>

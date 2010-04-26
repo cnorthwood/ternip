@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ WSJ891030-0035 
+ = 891030 
+ 891030-0035. 
+ Business Brief -- Jayark Corp.:
+@  Firm Agrees to Buy Kofcoh
+@  For Cash, Debt and Stock 
+ <TIMEX3 tid="t31" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ JAYA 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>Jayark Corp. <EVENT eid="e1" class="I_STATE" stem="agree" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e3" class="OCCURRENCE" stem="pay" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">pay</EVENT> $4 million in cash, $2 million of 12% convertible debentures, and 1.6 million common shares to <EVENT eid="e7" class="OCCURRENCE" stem="acquire" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">acquire</EVENT> closely held Kofcoh Imports Inc. 
+
+   In over-the-counter <EVENT eid="e9" class="OCCURRENCE" stem="trading" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">trading</EVENT> <TIMEX3 tid="t32" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t31">Friday</TIMEX3>, Jayark was <EVENT eid="e10" class="OCCURRENCE" stem="quote" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">quoted</EVENT> at 87.5 cents bid , down 15.625 cents.</s> 
+<s>At the market price, the transaction has a total indicated value of $7.4 million.</s> 
+
+   <s>Kofcoh is a New York holding company for Rosalco Inc., which imports furniture and other items.</s> 
+<s>David L. Koffman, president and chief executive officer of Jayark, <EVENT eid="e33" class="STATE" stem="hold" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">holds</EVENT> about 40% of Kofcoh, Jayark <EVENT eid="e16" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>.</s> 
+
+   <s>Jayark, New York, distributes and rents audio-visual equipment and prints promotional ads for retailers.</s> 
+<s>In <TIMEX3 tid="t36" type="DATE" value="1989-Q2" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">the quarter</TIMEX3> ended <TIMEX3 tid="t35" type="DATE" value="1989-07-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t31">July 31</TIMEX3>, Jayark <EVENT eid="e39" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> an average of 5.6 million shares outstanding.</s> 
+
+   <s>The <EVENT eid="e22" class="OCCURRENCE" stem="transaction" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">transaction</EVENT> is <EVENT eid="e42" class="I_STATE" stem="subject" aspect="NONE" tense="PRESENT" polarity="POS" pos="ADJECTIVE">subject</EVENT> to <EVENT eid="e23" class="I_ACTION" stem="approval" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">approval</EVENT> by a panel of disinterested directors, the company <EVENT eid="e24" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT>, <EVENT eid="e25" class="REPORTING" stem="add" aspect="NONE" tense="PRESPART" polarity="POS" pos="VERB">adding</EVENT> that shareholder <EVENT eid="e26" class="OCCURRENCE" stem="approval" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">approval</EVENT> is n't <EVENT eid="e27" class="I_STATE" stem="need" aspect="PERFECTIVE" tense="PRESENT" polarity="NEG" pos="VERB">needed</EVENT>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="VAGUE" eventID="e1" relatedToTime="t32" task="A"/>
+<TLINK lid="l2" relType="VAGUE" eventID="e7" relatedToTime="t32" task="A"/>
+<TLINK lid="l3" relType="OVERLAP" eventID="e9" relatedToTime="t32" task="A"/>
+<TLINK lid="l4" relType="VAGUE" eventID="e3" relatedToTime="t32" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e39" relatedToTime="t36" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e39" relatedToTime="t35" task="A"/>
+<TLINK lid="l7" relType="BEFORE" eventID="e1" relatedToTime="t31" task="B"/>
+<TLINK lid="l8" relType="OVERLAP" eventID="e7" relatedToTime="t31" task="B"/>
+<TLINK lid="l9" relType="BEFORE" eventID="e9" relatedToTime="t31" task="B"/>
+<TLINK lid="l10" relType="AFTER" eventID="e3" relatedToTime="t31" task="B"/>
+<TLINK lid="l11" relType="OVERLAP" eventID="e33" relatedToTime="t31" task="B"/>
+<TLINK lid="l12" relType="BEFORE" eventID="e16" relatedToTime="t31" task="B"/>
+<TLINK lid="l13" relType="BEFORE" eventID="e39" relatedToTime="t31" task="B"/>
+<TLINK lid="l14" relType="BEFORE" eventID="e24" relatedToTime="t31" task="B"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e25" relatedToTime="t31" task="B"/>
+</TempEval>

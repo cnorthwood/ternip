@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+
+
+
+
+<TempEval>
+
+
+
+
+ WSJ891101-0048 
+ = 891101 
+ 891101-0048. 
+ Business Brief -- First Security Corp.:
+@  Tentative Accord Formed
+@  To Buy Deseret Bancorp. 
+ <TIMEX3 tid="t14" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ FSCO 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+
+   <s>First Security Corp. <EVENT eid="e1" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> it tentatively <EVENT eid="e2" mainevent="NO" class="I_ACTION" stem="agree" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">agreed</EVENT>  to <EVENT eid="e3" mainevent="NO" class="OCCURRENCE" stem="acquire" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">acquire</EVENT> Deseret Bancorp. for stock <EVENT eid="e4" mainevent="NO" class="STATE" stem="value" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">valued</EVENT> at about $18 million.</s> 
+
+   <s>Terms <EVENT eid="e5" mainevent="YES" class="I_ACTION" stem="call" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">call</EVENT> for First Security  to <EVENT eid="e6" mainevent="NO" class="OCCURRENCE" stem="issue" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">issue</EVENT> about 0.55 share of its stock for each Deseret share <EVENT eid="e7" mainevent="NO" class="STATE" stem="hold" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB">held</EVENT>, or a total of about 550,000 First Security shares.</s> 
+<s>It <EVENT eid="e8" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> about 12.3 million shares outstanding.</s> 
+
+   <s>Deseret, with about $100 million in assets, is the parent of the Deseret Bank, which <EVENT eid="e9" mainevent="YES" class="STATE" stem="have" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">has</EVENT> six offices and headquarters at Pleasant Grove, Utah.</s> 
+<s>The purchase price is <EVENT eid="e2041" mainevent="YES" class="STATE" stem="equal" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">equal</EVENT> to about 1.65 times Deseret's roughly $10.7 million book value, or assets less liabilities.</s> 
+
+   <s>Salt Lake City-based First Security, with $5.4 billion in assets, <EVENT eid="e11" mainevent="YES" class="REPORTING" stem="say" tense="PAST" aspect="NONE" polarity="POS" pos="VERB">said</EVENT> the <EVENT eid="e2050" mainevent="NO" class="OCCURRENCE" stem="agreement" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">agreement</EVENT> is <EVENT eid="e2057" mainevent="NO" class="I_STATE" stem="subject" tense="PRESENT" aspect="NONE" polarity="POS" pos="ADJECTIVE">subject</EVENT> to shareholder and regulatory <EVENT eid="e2056" mainevent="NO" class="OCCURRENCE" stem="approval" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">approval</EVENT>, and that it <EVENT eid="e12" mainevent="NO" class="I_STATE" stem="hope" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB">hopes</EVENT>  to <EVENT eid="e13" mainevent="NO" class="OCCURRENCE" stem="complete" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB">complete</EVENT> the <EVENT eid="e1993" mainevent="NO" class="OCCURRENCE" stem="transaction" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN">transaction</EVENT> <TIMEX3 tid="t16" type="DATE" value="1990" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t14">early next year</TIMEX3>.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="OVERLAP" relatedToEvent="e9" eventID="e8" task="C"/>
+<TLINK lid="l2" relType="OVERLAP" relatedToEvent="e2041" eventID="e9" task="C"/>
+<TLINK lid="l3" relType="OVERLAP" relatedToEvent="e8" eventID="e5" task="C"/>
+<TLINK lid="l4" relType="OVERLAP" relatedToEvent="e11" eventID="e2041" task="C"/>
+<TLINK lid="l5" relType="OVERLAP" relatedToEvent="e5" eventID="e1" task="C"/>
+
+</TempEval>

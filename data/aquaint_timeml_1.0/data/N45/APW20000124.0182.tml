@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<TimeML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+ APW20000124.0182 
+ NEWS STORY 
+<TIMEX3 tid="t1" type="TIME" value="2000-01-24T19:48" temporalFunction="false" functionInDocument="CREATION_TIME">2000-01-24 19:48</TIMEX3> 
+
+Warrant Issued for U.S. Fugitive 
+
+   HAMILTON (AP) -- Canadian authorities <EVENT eid="e1" class="OCCURRENCE">issued</EVENT> a nationwide arrest warrant
+<TIMEX3 tid="t2" type="DATE" value="2000-01-24" temporalFunction="true" functionInDocument="NONE">Monday</TIMEX3> for James Charles Kopp, a U.S. fugitive <EVENT eid="e2" class="STATE">on</EVENT> the FBI's most wanted list for
+an alleged anti-abortion <EVENT eid="e3" class="OCCURRENCE">murder</EVENT>.
+
+
+	   Kopp also is <EVENT eid="e4" class="I_STATE">wanted</EVENT> for <EVENT eid="e5" class="OCCURRENCE">questioning</EVENT> in at least two other <EVENT eid="e6" class="OCCURRENCE">shootings</EVENT> of
+doctors who <EVENT eid="e7" class="OCCURRENCE">performed</EVENT> abortions.
+
+
+	   The Canadian warrant <EVENT eid="e8" class="OCCURRENCE">issued</EVENT> <TIMEX3 tid="t3" type="DATE" value="2000-01-24" temporalFunction="true" functionInDocument="NONE">Monday</TIMEX3> <EVENT eid="e9" class="OCCURRENCE">charged</EVENT> Kopp with attempted murder in the
+<TIMEX3 tid="t4" type="DATE" value="1995" temporalFunction="false" functionInDocument="NONE">1995</TIMEX3> <EVENT eid="e10" class="OCCURRENCE">shooting</EVENT> of Dr. Hugh Short, who was <EVENT eid="e11" class="OCCURRENCE">wounded</EVENT> in the elbow but <EVENT eid="e12" class="STATE">survived</EVENT> the
+<EVENT eid="e13" class="OCCURRENCE">attack</EVENT> at his home in Ancaster, Ontario.
+
+
+	   ``It <EVENT eid="e14" class="I_ACTION">allows</EVENT> us to <EVENT eid="e15" class="OCCURRENCE">spread</EVENT> his name far and wide across Canada and <EVENT eid="e16" class="REPORTING">say</EVENT> that he
+is <EVENT eid="e17" class="STATE">wanted</EVENT> for attempted murder,'' <EVENT eid="e18" class="REPORTING">said</EVENT> police Inspector Dave Bowen.
+
+	   Kopp, who is from Vermont, was <EVENT eid="e19" class="OCCURRENCE">indicted</EVENT> <TIMEX3 tid="t5" type="DATE" value="1999" temporalFunction="true" functionInDocument="NONE">last year</TIMEX3> in the <TIMEX3 tid="t6" type="DATE" value="1998-10" temporalFunction="false" functionInDocument="NONE">October 1998</TIMEX3>
+<EVENT eid="e20" class="OCCURRENCE">shooting</EVENT> death of Dr. Barnet Slepian, an obstetrician in Buffalo, New York. He
+also is <EVENT eid="e21" class="STATE">wanted</EVENT> in connection with the <EVENT eid="e22" class="OCCURRENCE">shooting</EVENT> of doctors in Winnipeg, Vancouver
+and Rochester, New York.
+
+
+	   Slepian was <EVENT eid="e23" class="OCCURRENCE">killed</EVENT> by a single gunshot <EVENT eid="e24" class="OCCURRENCE">fired</EVENT> from a wooded area through a
+window of his home.
+
+
+	   Kopp <EVENT eid="e25" class="REPORTING">purports</EVENT> to <EVENT eid="e26" class="STATE">be</EVENT> a devout Roman Catholic, and the majority of jobs he has
+<EVENT eid="e27" class="STATE">held</EVENT> <SIGNAL sid="s1">over</SIGNAL> the <TIMEX3 tid="t7" type="DURATION" value="P20Y" temporalFunction="false" functionInDocument="NONE" endPoint="t1">past 20 years</TIMEX3> have been <EVENT eid="e30" class="STATE">related</EVENT> to the anti-abortion movement, the
+U.S. Justice Department <EVENT eid="e29" class="REPORTING">said</EVENT> <TIMEX3 tid="t8" type="DATE" value="1999" temporalFunction="true" functionInDocument="NONE">last year</TIMEX3>. He has been <EVENT eid="e31" class="OCCURRENCE">arrested</EVENT> more than a dozen
+times <SIGNAL sid="s2">during</SIGNAL> abortion <EVENT eid="e32" class="OCCURRENCE">protests</EVENT> in seven states and Italy.
+
+
+	   The FBI <EVENT eid="e33" class="REPORTING">says</EVENT> Kopp has <EVENT eid="e34" class="OCCURRENCE">used</EVENT> 29 aliases. He <EVENT eid="e35" class="STATE">was</EVENT> the 456th person to be <EVENT eid="e36" class="OCCURRENCE">placed</EVENT>
+on the FBI's most wanted list, which <EVENT eid="e37" class="OCCURRENCE">began</EVENT> <SIGNAL sid="s3">in</SIGNAL> <TIMEX3 tid="t9" type="DATE" value="1950" temporalFunction="false" functionInDocument="NONE">1950</TIMEX3>. <SIGNAL sid="s4">Since</SIGNAL> then, 427 fugitives
+have been <EVENT eid="e38" class="OCCURRENCE">taken</EVENT> into custody or <EVENT eid="e39" class="OCCURRENCE">located</EVENT>, 133 of them as a result of citizen
+<EVENT eid="e40" class="OCCURRENCE">assistance</EVENT>, the FBI <EVENT eid="e41" class="REPORTING">said</EVENT>.
+
+
+	   A total of $650,000 is being <EVENT eid="e42" class="OCCURRENCE">offered</EVENT> in the United States for information
+<EVENT eid="e43" class="I_ACTION">leading</EVENT> to Kopp's <EVENT eid="e44" class="OCCURRENCE">arrest</EVENT>.
+
+
+
+AP-NY-01-24-00 1948 
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e3" eiid="ei3" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e4" eiid="ei4" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e5" eiid="ei5" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e6" eiid="ei6" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e7" eiid="ei7" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e8" eiid="ei8" tense="NONE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e9" eiid="ei9" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e10" eiid="ei10" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e11" eiid="ei11" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e12" eiid="ei12" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e13" eiid="ei13" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e14" eiid="ei14" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e15" eiid="ei15" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e16" eiid="ei16" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e17" eiid="ei17" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e18" eiid="ei18" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e19" eiid="ei19" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e20" eiid="ei20" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e21" eiid="ei21" tense="NONE" aspect="NONE" polarity="POS" pos="ADJECTIVE"/>
+<MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e23" eiid="ei23" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e25" eiid="ei25" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e26" eiid="ei26" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e27" eiid="ei27" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e29" eiid="ei29" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e30" eiid="ei30" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e31" eiid="ei31" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e32" eiid="ei32" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e33" eiid="ei33" tense="PRESENT" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e34" eiid="ei34" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e35" eiid="ei35" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e36" eiid="ei36" tense="NONE" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e37" eiid="ei37" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e38" eiid="ei38" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e39" eiid="ei39" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e40" eiid="ei40" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<MAKEINSTANCE eventID="e41" eiid="ei41" tense="PAST" aspect="NONE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e42" eiid="ei42" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="UNKNOWN"/>
+<MAKEINSTANCE eventID="e43" eiid="ei43" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB"/>
+<MAKEINSTANCE eventID="e44" eiid="ei44" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN"/>
+<TLINK lid="l1" relType="INCLUDES" timeID="t2" relatedToEventInstance="ei1" origin="USER"/>
+<TLINK lid="l2" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei2" origin="USER"/>
+<TLINK lid="l3" relType="AFTER" timeID="t1" relatedToEventInstance="ei3" origin="USER"/>
+<TLINK lid="l4" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei4" origin="USER"/>
+<TLINK lid="l6" relType="AFTER" timeID="t1" relatedToEventInstance="ei6" origin="USER"/>
+<TLINK lid="l7" relType="AFTER" timeID="t1" relatedToEventInstance="ei7" origin="USER"/>
+<TLINK lid="l8" relType="INCLUDES" timeID="t3" relatedToEventInstance="ei8" origin="USER"/>
+<TLINK lid="l9" relType="INCLUDES" timeID="t3" relatedToEventInstance="ei9" origin="USER"/>
+<TLINK lid="l10" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei10" origin="USER"/>
+<TLINK lid="l11" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei11" origin="USER"/>
+<TLINK lid="l12" relType="IS_INCLUDED" timeID="t4" relatedToEventInstance="ei12" origin="USER"/>
+<TLINK lid="l13" relType="INCLUDES" timeID="t4" relatedToEventInstance="ei13" origin="USER"/>
+<TLINK lid="l14" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei14" origin="USER"/>
+<TLINK lid="l16" relType="BEFORE" timeID="t1" relatedToEventInstance="ei15" origin="USER"/>
+<TLINK lid="l17" relType="BEFORE" timeID="t1" relatedToEventInstance="ei16" origin="USER"/>
+<TLINK lid="l20" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei17" origin="USER"/>
+<TLINK lid="l21" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei18" origin="USER"/>
+<TLINK lid="l22" relType="INCLUDES" timeID="t5" relatedToEventInstance="ei19" origin="USER"/>
+<TLINK lid="l23" relType="INCLUDES" timeID="t6" relatedToEventInstance="ei20" origin="USER"/>
+<TLINK lid="l24" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei21" origin="USER"/>
+<TLINK lid="l25" relType="AFTER" timeID="t1" relatedToEventInstance="ei22" origin="USER"/>
+<TLINK lid="l26" relType="AFTER" timeID="t1" relatedToEventInstance="ei23" origin="USER"/>
+<TLINK lid="l27" relType="AFTER" timeID="t1" relatedToEventInstance="ei24" origin="USER"/>
+<TLINK lid="l29" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei25" origin="USER"/>
+<TLINK lid="l30" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei26" origin="USER"/>
+<TLINK lid="l31" relType="INCLUDES" timeID="t7" relatedToEventInstance="ei27" signalID="s1" origin="USER"/>
+<TLINK lid="l32" relType="INCLUDES" timeID="t7" relatedToEventInstance="ei30" origin="USER"/>
+<TLINK lid="l33" relType="INCLUDES" timeID="t8" relatedToEventInstance="ei29" origin="USER"/>
+<TLINK lid="l34" relType="AFTER" timeID="t1" relatedToEventInstance="ei31" origin="USER"/>
+<TLINK lid="l35" relType="DURING" eventInstanceID="ei31" relatedToEventInstance="ei32" signalID="s2" origin="USER"/>
+<TLINK lid="l36" relType="AFTER" timeID="t1" relatedToEventInstance="ei32" origin="USER"/>
+<TLINK lid="l37" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei33" origin="USER"/>
+<TLINK lid="l39" relType="AFTER" timeID="t1" relatedToEventInstance="ei34" origin="USER"/>
+<TLINK lid="l40" relType="AFTER" timeID="t1" relatedToEventInstance="ei35" origin="USER"/>
+<TLINK lid="l41" relType="AFTER" timeID="t1" relatedToEventInstance="ei36" origin="USER"/>
+<TLINK lid="l42" relType="INCLUDES" timeID="t9" relatedToEventInstance="ei37" signalID="s3" origin="USER"/>
+<TLINK lid="l43" relType="BEGINS" timeID="t9" relatedToEventInstance="ei38" signalID="s4" origin="USER"/>
+<TLINK lid="l44" relType="BEGINS" timeID="t9" relatedToEventInstance="ei39" signalID="s4" origin="USER"/>
+<TLINK lid="l45" relType="IS_INCLUDED" timeID="t9" relatedToEventInstance="ei40" origin="USER"/>
+<TLINK lid="l46" relType="INCLUDES" timeID="t1" relatedToEventInstance="ei41" origin="USER"/>
+<TLINK lid="l47" relType="IS_INCLUDED" timeID="t1" relatedToEventInstance="ei42" origin="USER"/>
+<TLINK lid="l48" relType="BEFORE" timeID="t1" relatedToEventInstance="ei43" origin="USER"/>
+<TLINK lid="l49" relType="BEFORE" timeID="t1" relatedToEventInstance="ei44" origin="USER"/>
+<SLINK lid="l5" relType="MODAL" eventInstanceID="ei4" subordinatedEventInstance="ei5" syntax="USER"/>
+<SLINK lid="l15" relType="MODAL" eventInstanceID="ei14" subordinatedEventInstance="ei15" syntax="USER"/>
+<SLINK lid="l18" relType="MODAL" eventInstanceID="ei14" subordinatedEventInstance="ei16" syntax="USER"/>
+<SLINK lid="l19" relType="EVIDENTIAL" eventInstanceID="ei16" subordinatedEventInstance="ei17" syntax="USER"/>
+<SLINK lid="l28" relType="EVIDENTIAL" eventInstanceID="ei25" subordinatedEventInstance="ei26" syntax="USER"/>
+<SLINK lid="l38" relType="EVIDENTIAL" eventInstanceID="ei33" subordinatedEventInstance="ei34" syntax="USER"/>
+<SLINK lid="l50" relType="MODAL" eventInstanceID="ei43" subordinatedEventInstance="ei44" syntax="USER"/>
+
+</TimeML>

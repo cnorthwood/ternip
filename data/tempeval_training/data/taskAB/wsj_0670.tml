@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+
+
+
+<TempEval>
+
+
+
+ WSJ891030-0027 
+ = 891030 
+ 891030-0027. 
+ National Intergroup
+@  To Report Charge
+@  For Third Quarter 
+ <TIMEX3 tid="t51" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3> 
+ WALL STREET JOURNAL (J) 
+ NII 
+ TENDER OFFERS, MERGERS, ACQUISITIONS (TNM) 
+ PITTSBURGH  
+
+   <s>National Intergroup Inc. <EVENT eid="e1" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e2" class="I_STATE" stem="expect" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">expects</EVENT> to <EVENT eid="e4" class="REPORTING" stem="report" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">report</EVENT> a <EVENT eid="e48" class="STATE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charge</EVENT> of $5.3 million related to the <EVENT eid="e6" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of its aluminum unit's extrusion division for <TIMEX3 tid="t52" type="DATE" value="1989-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t51">the third quarter</TIMEX3>.</s> 
+
+   <s>The company <EVENT eid="e7" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it has <EVENT eid="e8" class="I_ACTION" stem="agree" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">agreed</EVENT> to <EVENT eid="e10" class="OCCURRENCE" stem="sell" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">sell</EVENT> the extrusion division for $15 million to R.D. Werner Co., a closely held firm based in Greenville, Pa. 
+
+   The <EVENT eid="e123" class="STATE" stem="charge" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">charge</EVENT> is offset by an after-tax <EVENT eid="e54" class="STATE" stem="gain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">gain</EVENT> of about $30 million in <TIMEX3 tid="t53" type="DATE" value="1989-Q3" temporalFunction="false" functionInDocument="NONE" anchorTimeID="t52">the quarter</TIMEX3> from the previously <EVENT eid="e57" class="REPORTING" stem="announce" aspect="NONE" tense="PASTPART" polarity="POS" pos="VERB">announced</EVENT> <EVENT eid="e14" class="I_STATE" stem="pact" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">pact</EVENT> to <EVENT eid="e17" class="OCCURRENCE" stem="sell" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">sell</EVENT> National Aluminum's rolling division.</s> 
+
+   <s>National Intergroup in <TIMEX3 tid="t59" type="DATE" value="1988-Q3" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t52">the year-ago third quarter</TIMEX3> <EVENT eid="e19" class="OCCURRENCE" stem="earn" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">earned</EVENT> $22.5 million, or 97 cents a share, including a <EVENT eid="e60" class="OCCURRENCE" stem="gain" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">gain</EVENT> of $18 million from the <EVENT eid="e20" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of a steel tube company.</s> 
+<s>Revenue was $778.6 million.</s> 
+
+   <s>The company also <EVENT eid="e22" class="REPORTING" stem="say" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">said</EVENT> it <EVENT eid="e23" class="ASPECTUAL" stem="continue" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">continues</EVENT> to <EVENT eid="e25" class="I_ACTION" stem="explore" aspect="NONE" tense="INFINITIVE" polarity="POS" pos="VERB">explore</EVENT> all options concerning the possible <EVENT eid="e28" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of National Aluminum's 54.5% stake in an aluminum smelter in Hawesville, Ky. 
+
+   The <EVENT eid="e31" class="OCCURRENCE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sale</EVENT> of the extrusion division is <EVENT eid="e198" class="I_STATE" stem="subject" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">subject</EVENT> to audit <EVENT eid="e34" class="OCCURRENCE" stem="adjustment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">adjustments</EVENT> for working capital changes through the closing.</s> 
+
+   <s>The <EVENT eid="e39" class="STATE" stem="agreement" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">agreement</EVENT> also provides for potential <EVENT eid="e41" class="OCCURRENCE" stem="payment" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">payments</EVENT> of additional proceeds to National Aluminum over <TIMEX3 tid="t220" type="DURATION" value="P2Y" temporalFunction="true" functionInDocument="NONE" beginPoint="t51">the next two years</TIMEX3>, depending on the plant's shipping <EVENT eid="e66" class="STATE" stem="level" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">levels</EVENT>.</s> 
+
+   <s>The extrusion unit produces bare and painted custom extrusions for building products and construction industries.</s> 
+<s>In <TIMEX3 tid="t68" type="DATE" value="1989" temporalFunction="false" functionInDocument="NONE">fiscal 1989</TIMEX3>, it <EVENT eid="e69" class="STATE" stem="have" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">had</EVENT> <EVENT eid="e70" class="STATE" stem="sale" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">sales</EVENT> of about $40 million and an operating <EVENT eid="e47" class="STATE" stem="loss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">loss</EVENT> of $1.5 million.</s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="AFTER" eventID="e2" relatedToTime="t52" task="A"/>
+<TLINK lid="l2" relType="OVERLAP" eventID="e6" relatedToTime="t52" task="A"/>
+<TLINK lid="l3" relType="AFTER" eventID="e48" relatedToTime="t52" task="A"/>
+<TLINK lid="l4" relType="AFTER" eventID="e4" relatedToTime="t52" task="A"/>
+<TLINK lid="l5" relType="OVERLAP" eventID="e1" relatedToTime="t52" task="A"/>
+<TLINK lid="l6" relType="OVERLAP" eventID="e54" relatedToTime="t53" task="A"/>
+<TLINK lid="l7" relType="VAGUE" eventID="e10" relatedToTime="t53" task="A"/>
+<TLINK lid="l8" relType="AFTER" eventID="e8" relatedToTime="t53" task="A"/>
+<TLINK lid="l9" relType="AFTER" eventID="e123" relatedToTime="t53" task="A"/>
+<TLINK lid="l10" relType="BEFORE-OR-OVERLAP" eventID="e57" relatedToTime="t53" task="A"/>
+<TLINK lid="l11" relType="VAGUE" eventID="e7" relatedToTime="t53" task="A"/>
+<TLINK lid="l12" relType="OVERLAP" eventID="e17" relatedToTime="t53" task="A"/>
+<TLINK lid="l13" relType="OVERLAP" eventID="e20" relatedToTime="t59" task="A"/>
+<TLINK lid="l14" relType="OVERLAP" eventID="e19" relatedToTime="t59" task="A"/>
+<TLINK lid="l15" relType="OVERLAP" eventID="e60" relatedToTime="t59" task="A"/>
+<TLINK lid="l16" relType="BEFORE-OR-OVERLAP" eventID="e39" relatedToTime="t220" task="A"/>
+<TLINK lid="l17" relType="OVERLAP" eventID="e70" relatedToTime="t68" task="A"/>
+<TLINK lid="l18" relType="OVERLAP" eventID="e47" relatedToTime="t68" task="A"/>
+<TLINK lid="l19" relType="OVERLAP" eventID="e69" relatedToTime="t68" task="A"/>
+<TLINK lid="l20" relType="BEFORE-OR-OVERLAP" eventID="e2" relatedToTime="t51" task="B"/>
+<TLINK lid="l21" relType="BEFORE" eventID="e6" relatedToTime="t51" task="B"/>
+<TLINK lid="l22" relType="AFTER" eventID="e48" relatedToTime="t51" task="B"/>
+<TLINK lid="l23" relType="AFTER" eventID="e4" relatedToTime="t51" task="B"/>
+<TLINK lid="l24" relType="BEFORE" eventID="e1" relatedToTime="t51" task="B"/>
+<TLINK lid="l25" relType="BEFORE" eventID="e54" relatedToTime="t51" task="B"/>
+<TLINK lid="l26" relType="AFTER" eventID="e10" relatedToTime="t51" task="B"/>
+<TLINK lid="l27" relType="BEFORE" eventID="e8" relatedToTime="t51" task="B"/>
+<TLINK lid="l28" relType="OVERLAP" eventID="e123" relatedToTime="t51" task="B"/>
+<TLINK lid="l29" relType="BEFORE" eventID="e57" relatedToTime="t51" task="B"/>
+<TLINK lid="l30" relType="BEFORE" eventID="e7" relatedToTime="t51" task="B"/>
+<TLINK lid="l31" relType="BEFORE" eventID="e17" relatedToTime="t51" task="B"/>
+<TLINK lid="l32" relType="BEFORE" eventID="e20" relatedToTime="t51" task="B"/>
+<TLINK lid="l33" relType="BEFORE" eventID="e19" relatedToTime="t51" task="B"/>
+<TLINK lid="l34" relType="BEFORE" eventID="e60" relatedToTime="t51" task="B"/>
+<TLINK lid="l35" relType="OVERLAP" eventID="e23" relatedToTime="t51" task="B"/>
+<TLINK lid="l36" relType="AFTER" eventID="e28" relatedToTime="t51" task="B"/>
+<TLINK lid="l37" relType="AFTER" eventID="e31" relatedToTime="t51" task="B"/>
+<TLINK lid="l38" relType="BEFORE" eventID="e22" relatedToTime="t51" task="B"/>
+<TLINK lid="l39" relType="OVERLAP" eventID="e39" relatedToTime="t51" task="B"/>
+<TLINK lid="l40" relType="BEFORE" eventID="e70" relatedToTime="t51" task="B"/>
+<TLINK lid="l41" relType="BEFORE" eventID="e47" relatedToTime="t51" task="B"/>
+<TLINK lid="l42" relType="BEFORE" eventID="e69" relatedToTime="t51" task="B"/>
+</TempEval>

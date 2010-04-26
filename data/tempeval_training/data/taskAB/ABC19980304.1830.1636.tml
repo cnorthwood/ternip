@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<TempEval>
+
+
+
+ ABC<TIMEX3 tid="t35" type="DATE" value="1998-03-04" temporalFunction="false" functionInDocument="CREATION_TIME">19980304</TIMEX3>.1830.1636 
+ NEWS STORY 
+
+
+
+
+
+ <s>Finally <TIMEX3 tid="t32" type="DATE" value="1998-03-04" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">today</TIMEX3>, we <EVENT eid="e1" class="REPORTING" stem="learn" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">learned</EVENT> that the space agency  has  finally <EVENT eid="e2" class="OCCURRENCE" stem="take" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">taken</EVENT> a giant
+ leap forward.</s> <s>Air Force Lieutenant Colonel Eileen Collins  will  be <EVENT eid="e3" class="I_ACTION" stem="name" aspect="NONE" tense="FUTURE" polarity="POS" pos="VERB">named</EVENT>
+ <EVENT eid="e37" class="STATE" stem="commander" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">commander</EVENT> of the Space Shuttle Columbia for a <EVENT eid="e38" class="OCCURRENCE" stem="mission" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">mission</EVENT> in <TIMEX3 tid="t33" type="DATE" value="1998-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">December</TIMEX3>.</s> <s>Colonel
+ Collins has been the <EVENT eid="e40" class="STATE" stem="co-pilot" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="NOUN">co-pilot</EVENT> before, but <TIMEX3 tid="t111" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">this time</TIMEX3> she's the <EVENT eid="e41" class="STATE" stem="boss" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">boss</EVENT>.</s> <s>Here's
+ ABC's Ned Potter.</s>
+
+
+ <s>Even two hundred miles up in space, there has been a glass ceiling.</s> <s>It wasn't
+ until
+ <TIMEX3 tid="t34" type="DURATION" value="P20Y" temporalFunction="false" functionInDocument="NONE">twenty years</TIMEX3> after the first astronauts  were <EVENT eid="e6" class="OCCURRENCE" stem="choose" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">chosen</EVENT> that NASA finally <EVENT eid="e7" class="OCCURRENCE" stem="include" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">included</EVENT>
+ six women, and they were all scientists, not pilots.</s> <s>No woman has actually
+ been <EVENT eid="e254" class="STATE" stem="in" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="PREPOSITION">in</EVENT> charge of a mission until <TIMEX3 tid="t55" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">now</TIMEX3>.</s>
+
+
+ <s>Just the fact that we 're <EVENT eid="e68" class="OCCURRENCE" stem="do" aspect="PROGRESSIVE" tense="PRESENT" polarity="POS" pos="VERB">doing</EVENT> the job that we 're doing <EVENT eid="e44" class="OCCURRENCE" stem="make" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">makes</EVENT> us role
+ <EVENT eid="e45" class="STATE" stem="model" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">models</EVENT>.</s>
+
+
+ <s><EVENT eid="e256" class="OCCURRENCE" stem="that" aspect="NONE" tense="PAST" polarity="POS" pos="OTHER">That</EVENT> was Eileen Collins, after she <EVENT eid="e10" class="OCCURRENCE" stem="fly" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">flew</EVENT> as the first ever co-pilot.</s> <s>Being
+ commander is different.</s> <s>It means supervising the rest of the crew in
+ training and leading them in flight.</s> <s>It is, in short, the kind of
+ management job many American women say they've had to fight for.</s> <s>In space,
+ some say female pilots  were <EVENT eid="e20" class="OCCURRENCE" stem="hold" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">held</EVENT> up until <TIMEX3 tid="t36" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t35">now</TIMEX3> by the <EVENT eid="e51" class="STATE" stem="lack" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">lack</EVENT> of piloting
+ opportunities for them in the military.</s>
+
+
+ <s>Once Colonel Collins  was <EVENT eid="e22" class="I_ACTION" stem="pick" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">picked</EVENT> as a NASA <EVENT eid="e52" class="STATE" stem="astronaut" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">astronaut</EVENT>, she <EVENT eid="e23" class="OCCURRENCE" stem="follow" aspect="NONE" tense="PAST" polarity="POS" pos="VERB">followed</EVENT> a
+ normal <EVENT eid="e53" class="OCCURRENCE" stem="progression" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">progression</EVENT> within NASA.</s> <s>Nobody <EVENT eid="e24" class="OCCURRENCE" stem="hurry" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">hurried</EVENT> her up.</s> <s>No one <EVENT eid="e25" class="OCCURRENCE" stem="hold" aspect="NONE" tense="PAST" polarity="NEG" pos="VERB">held</EVENT> her
+ back.</s>
+
+
+ <s>Many NASA watchers <EVENT eid="e26" class="REPORTING" stem="say" aspect="NONE" tense="PRESENT" polarity="POS" pos="VERB">say</EVENT> female astronauts  have <EVENT eid="e27" class="OCCURRENCE" stem="become" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">become</EVENT> <EVENT eid="e253" class="STATE" stem="part" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">part</EVENT> of the agency's
+ routine.</s> <s>But they still have <EVENT eid="e28" class="I_ACTION" stem="catching" aspect="NONE" tense="NONE" polarity="POS" pos="NOUN">catching</EVENT> up to do two hundred and thirty four Americans  have <EVENT eid="e30" class="OCCURRENCE" stem="fly" aspect="PERFECTIVE" tense="PRESENT" polarity="POS" pos="VERB">flown</EVENT> in space, only twenty six of them women.</s> <s>Ned Potter, ABC News.</s>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventID="e2" relatedToTime="t32" task="A"/>
+<TLINK lid="l2" relType="BEFORE" eventID="e20" relatedToTime="t36" task="A"/>
+<TLINK lid="l3" relType="BEFORE" eventID="e2" relatedToTime="t35" task="B"/>
+<TLINK lid="l4" relType="OVERLAP" eventID="e44" relatedToTime="t35" task="B"/>
+<TLINK lid="l5" relType="BEFORE" eventID="e20" relatedToTime="t35" task="B"/>
+<TLINK lid="l6" relType="BEFORE" eventID="e25" relatedToTime="t35" task="B"/>
+<TLINK lid="l7" relType="OVERLAP" eventID="e26" relatedToTime="t35" task="B"/>
+<TLINK lid="l8" relType="BEFORE" eventID="e27" relatedToTime="t35" task="B"/>
+</TempEval>
