@@ -53,7 +53,7 @@ class recognition_rule:
         
         self.id         = id
         self._type      = type
-        self._match     = re.compile(match)
+        self._match     = re.compile(match, re.IGNORECASE)
         self._squelch   = squelch
         self.after      = after
         self._posguards = []
@@ -61,9 +61,9 @@ class recognition_rule:
         
         for guard in guards:
             if guard[0] == '!':
-                self._negguards.append(re.compile(guard[1:]))
+                self._negguards.append(re.compile(guard[1:], re.IGNORECASE))
             else:
-                self._posguards.append(re.compile(guard))
+                self._posguards.append(re.compile(guard, re.IGNORECASE))
     
     def apply(self, sent):
         """
@@ -89,7 +89,7 @@ class recognition_rule:
         # End NLTK contribution
         
         # Ensure the guards are satisfied, first any positive ones that are
-        # not satisfied means missing no application
+        # not satisfied means missing this application
         for guard in self._posguards:
             if not guard.search(senttext):
                 return sent

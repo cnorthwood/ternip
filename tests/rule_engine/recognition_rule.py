@@ -104,3 +104,12 @@ class recognition_rule_Test(unittest.TestCase):
                            ('on', 'POS', []),
                            ('Friday', 'POS', [None])])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,0], 'actual result was '+str(sent))
+    
+    def testMatchInsensitive(self):
+        rule = recognition_rule(r'<friday~.+>', 'date')
+        sent = rule.apply([('the', 'POS', []),
+                           ('plane', 'POS', []),
+                           ('leaves', 'POS', []),
+                           ('on', 'POS', []),
+                           ('Friday', 'POS', [])])
+        self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1], 'actual result was '+str(sent))
