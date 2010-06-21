@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import re
+from ternip.timex import timex
 
 class recognition_rule:
     """ A class that represents identification rules """
@@ -50,17 +51,19 @@ class recognition_rule:
         
         # End NLTK contribution
         
-        for guard in guards:
-            if guard[0] == '!':
-                self._negguards = re.compile(guard[1:])
-            else:
-                self._posguards = re.compile(guard)
-        
         self.id         = id
         self._type      = type
         self._match     = re.compile(match)
         self._squelch   = squelch
         self.after      = after
+        self._posguards = []
+        self._negguards = []
+        
+        for guard in guards:
+            if guard[0] == '!':
+                self._negguards.append(re.compile(guard[1:]))
+            else:
+                self._posguards.append(re.compile(guard))
     
     def apply(self, sent):
         """
@@ -69,9 +72,8 @@ class recognition_rule:
         
         sent is a list of tuples (token, POS, [timexes])
         
-        A tuple (sent, timexes) is returned, where sent is in the same form,
-        with additional timexes added to the 3rd element if need be, and timexes
-        are new Timex objects created by this rule.
+        A list in the same form as sent is returned, with additional timexes
+        added to the 3rd element if need be.
         """
         
         # This code is modified from NLTK's text.py for dealing with pattern
@@ -90,9 +92,37 @@ class recognition_rule:
         # not satisfied means missing no application
         for guard in self._posguards:
             if not guard.search(senttext):
-                return (sent, [])
+                return sent
         
         # then any negative ones, which if do hit, mean stop processing
         for guard in self._negguards:
             if guard.search(senttext):
-                return (sent, [])
+                return sent
+        
+        # Now see if this rule actually matches anything
+        for match in self._match.finditer(senttext):
+            
+            # okay, first we need to find which tokens we matched, can do this
+            # by using our token markers
+            ti = senttext.count('<', 0, match.start())
+            tj = senttext.count('<', 0, match.end()) - 1
+            
+            if not self._squelch:
+                t = timex(self._type) # only create a new timex if not squelching
+            
+            for i in range(len(sent)):
+                # now get all tokens in the range and add the new timex if needed
+                (token, pos, ts) = sent[i]
+                if i >= ti and i <= tj:
+                    if self._squelch:
+                        # in the case of this being a squelch rule, remove the
+                        # timexes
+                        ts = []
+                    else:
+                        # otherwise add the new timex to the list of timexes
+                        # associated with this token
+                        ts.append(t)
+                
+                sent[i] = (token, pos, ts)
+        
+        return sent
