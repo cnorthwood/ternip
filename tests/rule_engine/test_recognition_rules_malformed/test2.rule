@@ -1,0 +1,5 @@
+Type: Date
+Type: Time
+Type: Duration
+Match: <(Thursday|Friday)~.+>
+Guard: !<last~.+>

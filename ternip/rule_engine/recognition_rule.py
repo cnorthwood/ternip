@@ -8,8 +8,8 @@ class recognition_rule:
     
     def __init__(self, match,
                        type,
+                       id,
                        guards  = [],
-                       id      = None,
                        after   = [],
                        squelch = False):
         """

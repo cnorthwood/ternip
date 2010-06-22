@@ -1,0 +1,4 @@
+Type: Date
+Squelch: Neither True nor False
+Match: <(Thursday|Friday)~.+>
+Guard: !<last~.+>

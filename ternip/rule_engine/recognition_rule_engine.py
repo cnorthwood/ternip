@@ -29,15 +29,19 @@ class recognition_rule_engine(abstract_rule_engine):
         errors = []
         
         # First, get all rule IDs and then all IDs mentioned as after IDs
-        rule_ids = set([rule.id for rule in self._rules])
+        rule_ids = set()
         after_ids = set()
         for rule in self._rules:
+            if rule.id in rule_ids:
+                errors.append(rule_load_error(rule.id, 'Duplicate ID!'))
+            else:
+                rule_ids.add(rule.id)
             after_ids |= set(rule.after)
         
         # Now check each referred to after ID exists
         for id in after_ids:
             if id not in rule_ids:
-                errors.append(rule_load_error(rule.filename, 'Unknown ID specified in after'))
+                errors.append(rule_load_error(rule.id, 'Unknown ID specified in after'))
         
         # Bulk raise errors
         if len(errors) > 0:
@@ -70,7 +74,7 @@ class recognition_rule_engine(abstract_rule_engine):
         elif (len(d['id']) > 1):
             raise rule_load_error(filename, "Too many 'ID' fields")
         else:
-            id = None
+            id = filename
         
         # Squelch is an optional field, defaulting to False, which accepts
         # either true or false (case-insensitive) as values
@@ -82,11 +86,13 @@ class recognition_rule_engine(abstract_rule_engine):
                 squelch = False
             else:
                 raise rule_load_error(filename, "Squelch must be either 'True' or 'False'")
+        elif (len(d['squelch']) > 1):
+            raise rule_load_error(filename, "Too many 'Squelch' fields")
         else:
             squelch = False
         
         # 'After' and 'Guards' are optional, possibly multi-valued, fields
-        return recognition_rule(match, type, d['guard'], id, d['after'], squelch)
+        return recognition_rule(match, type, id, d['guard'], d['after'], squelch)
     
     def tag(self, sents):
         """

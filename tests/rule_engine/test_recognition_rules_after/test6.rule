@@ -1,0 +1,4 @@
+Type: Date
+Match: <(Thursday|Friday)~.+>
+Guard: !<last~.+>
+After: some-nonexistant-ID
