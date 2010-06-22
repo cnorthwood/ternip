@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import re
-from ternip.timex import timex
+import ternip.timex
 
 class recognition_rule:
     """ A class that represents identification rules """
@@ -10,7 +10,7 @@ class recognition_rule:
                        type,
                        guards  = [],
                        id      = None,
-                       after   = None,
+                       after   = [],
                        squelch = False):
         """
         Create a recognition rule, with a number of optional arguments. All
@@ -108,7 +108,7 @@ class recognition_rule:
             tj = senttext.count('<', 0, match.end()) - 1
             
             if not self._squelch:
-                t = timex(self._type) # only create a new timex if not squelching
+                t = ternip.timex(self._type) # only create a new timex if not squelching
             
             for i in range(len(sent)):
                 # now get all tokens in the range and add the new timex if needed
@@ -117,11 +117,11 @@ class recognition_rule:
                     if self._squelch:
                         # in the case of this being a squelch rule, remove the
                         # timexes
-                        ts = []
+                        ts = set()
                     else:
                         # otherwise add the new timex to the list of timexes
                         # associated with this token
-                        ts.append(t)
+                        ts.add(t)
                 
                 sent[i] = (token, pos, ts)
         

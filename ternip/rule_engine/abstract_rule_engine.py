@@ -19,10 +19,20 @@ class abstract_rule_engine:
         """
         
         rules = []
+        errors = []
         
         # First load simple rules
         for file in glob(os.path.join(path, '*.rule')):
-            rules.append(self._load_rule(file))
+            # don't bail out after one load failure, load them all and report
+            # all at once
+            try:
+                rules.append(self._load_rule(file))
+            except rule_load_error as e:
+                errors.append(e)
+        
+        # now bail out
+        if len(errors) > 0:
+            raise rule_load_errors(errors)
         
         # Then complex rules
         for file in glob(os.path.join(path, '*.pyrule')):
@@ -45,6 +55,30 @@ class abstract_rule_engine:
         
         for line in lines:
             [key, value] = line.split(':', 1)
-            d[key].append(value.strip())
+            d[key.lower()].append(value.strip())
         
         return d
+
+class rule_load_error(Exception):
+    """
+    Error for when a rule fails to load
+    """
+    
+    def __init__(self, filename, errorstr):
+        self._filename = filename
+        self._errorstr = errorstr
+    
+    def __str__(self):
+        return 'Error when loading rule ' + self._filename + ': ' + self._errorstr
+
+class rule_load_errors(Exception):
+    """
+    Error which bundles multiple RuleLoadError's together. Allows for delayed
+    exit on multiple load errors
+    """
+    
+    def __init__(self, errors):
+        self._errors = errors
+    
+    def __str__(self):
+        return '\n'.join([str(error) for error in self._errors])
