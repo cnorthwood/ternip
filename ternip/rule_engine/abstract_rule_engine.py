@@ -15,7 +15,7 @@ class abstract_rule_engine:
         Private function to actually do rule loading. Loads all files ending in
         .py as 'complex' rules (direct Python code), other rules are loaded
         using the documented rule format. For direct Python code, the rule must
-        be a class called 'rule'
+        be a class called 'rule'.
         """
         
         rules = []
@@ -53,7 +53,7 @@ class abstract_rule_engine:
         
         d = defaultdict(list)
         
-        for line in lines:
+        for line in rulelines:
             [key, value] = line.split(':', 1)
             d[key.lower()].append(value.strip())
         

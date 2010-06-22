@@ -1,5 +1,0 @@
-#!/usr/bin/env python
-
-class rule:
-    def __init__(self):
-        print "Rule loaded!"

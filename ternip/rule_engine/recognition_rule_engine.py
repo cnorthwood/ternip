@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from abstract_rule_engine import abstract_rule_engine, rule_load_error, rule_load_errors
-import recognition_rule
+from recognition_rule import recognition_rule
 import os.path
 
 class recognition_rule_engine(abstract_rule_engine):
@@ -13,6 +13,13 @@ class recognition_rule_engine(abstract_rule_engine):
         """
         Initialises this rule engine. Uses the rules located in the supplied
         rule location, which defaults to what is distributed with TERNIP.
+        
+        Complex rules must have a string member called 'id', which is used for
+        after ordering, a list of strings called 'after' (which can be an empty
+        list) which consists of IDs that must have run before this rule.
+        Additionally, a function called 'apply' which takes a list of
+        (token, pos, timexes) tuples and returns them in the same form with
+        potentially modified timexes.
         """
         
         # Load rules
@@ -25,7 +32,7 @@ class recognition_rule_engine(abstract_rule_engine):
         rule_ids = set([rule.id for rule in self._rules])
         after_ids = set()
         for rule in self._rules:
-            after_ids |= rule.after
+            after_ids |= set(rule.after)
         
         # Now check each referred to after ID exists
         for id in after_ids:
@@ -79,7 +86,7 @@ class recognition_rule_engine(abstract_rule_engine):
             squelch = False
         
         # 'After' and 'Guards' are optional, possibly multi-valued, fields
-        return recognition_rule(match, type, d['guards'], id, d['after'], squelch)
+        return recognition_rule(match, type, d['guard'], id, d['after'], squelch)
     
     def tag(self, sents):
         """
@@ -101,7 +108,7 @@ class recognition_rule_engine(abstract_rule_engine):
             sent = [(token, pos, set()) for (token, pos) in sent]
             
             rules_run = set()
-            rules_to_run = set([self._rules])
+            rules_to_run = set(self._rules)
             
             # Apply rules until all rules have been applied
             while rules_to_run:
@@ -114,8 +121,8 @@ class recognition_rule_engine(abstract_rule_engine):
                         if aid not in rules_run:
                             after_ok = False
                     
-                    # Apply this rule, and update our rules to run and run rules
-                    # states
+                    # Apply this rule, and update our states of rules waiting to
+                    # run and rules that have been run
                     if after_ok:
                         sent = rule.apply(sent)
                         rules_run.add(rule.id)
