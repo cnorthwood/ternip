@@ -105,7 +105,7 @@ class recognition_rule:
             # okay, first we need to find which tokens we matched, can do this
             # by using our token markers
             ti = senttext.count('<', 0, match.start())
-            tj = senttext.count('<', 0, match.end()) - 1
+            tj = senttext.count('<', 0, match.end())
             
             if not self._squelch:
                 t = ternip.timex(self._type) # only create a new timex if not squelching
@@ -113,7 +113,7 @@ class recognition_rule:
             for i in range(len(sent)):
                 # now get all tokens in the range and add the new timex if needed
                 (token, pos, ts) = sent[i]
-                if i >= ti and i <= tj:
+                if i >= ti and i < tj:
                     if self._squelch:
                         # in the case of this being a squelch rule, remove the
                         # timexes
