@@ -7,65 +7,71 @@ class recognition_rule_Test(unittest.TestCase):
     
     def testMatch(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test')
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1], 'actual result was '+str(sent))
+        self.assertTrue(success)
     
     def testMatchAppends(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test')
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set([None]))])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,2], 'actual result was '+str(sent))
+        self.assertTrue(success)
     
     def testPosGuard1(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'<plane~.+>'])
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1], 'actual result was '+str(sent))
+        self.assertTrue(success)
     
     def testPosGuard2(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'<train~.+>'])
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,0], 'actual result was '+str(sent))
+        self.assertFalse(success)
     
     def testNegGuard1(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'!<plane~.+>'])
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,0], 'actual result was '+str(sent))
+        self.assertFalse(success)
     
     def testNegGuard2(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'!<train~.+>'])
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1], 'actual result was '+str(sent))
+        self.assertTrue(success)
     
     def testMatchMulti(self):
         rule = recognition_rule(r'<Friday~.+><afternoon~.+>', 'time', 'test')
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
@@ -73,10 +79,11 @@ class recognition_rule_Test(unittest.TestCase):
                            ('afternoon', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1,1], 'actual result was '+str(sent))
         self.assertEquals(sent[4][2], sent[5][2])
+        self.assertTrue(success)
     
     def testMatchMultiMiddle(self):
         rule = recognition_rule(r'<Friday~.+><afternoon~.+>', 'time', 'test')
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
@@ -86,30 +93,34 @@ class recognition_rule_Test(unittest.TestCase):
                            ('Atlanta', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1,1,0,0], 'actual result was '+str(sent))
         self.assertEquals(sent[4][2], sent[5][2])
+        self.assertTrue(success)
     
     def testNoMatch(self):
         rule = recognition_rule(r'<Thursday~.+>', 'date', 'test')
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,0], 'actual result was '+str(sent))
+        self.assertFalse(success)
     
     def testMatchSquelch(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test', squelch=True)
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set([None]))])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,0], 'actual result was '+str(sent))
+        self.assertTrue(success)
     
     def testMatchInsensitive(self):
         rule = recognition_rule(r'<friday~.+>', 'date', 'test')
-        sent = rule.apply([('the', 'POS', set()),
+        (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
                            ('Friday', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1], 'actual result was '+str(sent))
+        self.assertTrue(success)

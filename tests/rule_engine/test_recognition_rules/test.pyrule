@@ -6,4 +6,4 @@ class rule:
     after = []
     
     def apply(self, s):
-        return s
+        return (s, True)

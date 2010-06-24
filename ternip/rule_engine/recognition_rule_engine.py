@@ -99,7 +99,7 @@ class recognition_rule_engine(abstract_rule_engine):
                     # Apply this rule, and update our states of rules waiting to
                     # run and rules that have been run
                     if after_ok:
-                        sent = rule.apply(sent)
+                        (sent, success) = rule.apply(sent)
                         rules_run.add(rule.id)
                         rules_to_run.remove(rule)
             

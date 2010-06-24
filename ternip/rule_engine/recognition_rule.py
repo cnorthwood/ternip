@@ -72,8 +72,10 @@ class recognition_rule:
         
         sent is a list of tuples (token, POS, [timexes])
         
-        A list in the same form as sent is returned, with additional timexes
-        added to the 3rd element if need be.
+        A tuple is returned where the first element is a list in the same form
+        as sent, with additional timexes added to the 3rd element if need be,
+        and the second element in the tuple is whether or not this rule matched
+        anything
         """
         
         # This code is modified from NLTK's text.py for dealing with pattern
@@ -88,16 +90,18 @@ class recognition_rule:
         
         # End NLTK contribution
         
+        success = False
+        
         # Ensure the guards are satisfied, first any positive ones that are
         # not satisfied means missing this application
         for guard in self._posguards:
             if not guard.search(senttext):
-                return sent
+                return (sent, success)
         
         # then any negative ones, which if do hit, mean stop processing
         for guard in self._negguards:
             if guard.search(senttext):
-                return sent
+                return (sent, success)
         
         # Now see if this rule actually matches anything
         for match in self._match.finditer(senttext):
@@ -124,5 +128,7 @@ class recognition_rule:
                         ts.add(t)
                 
                 sent[i] = (token, pos, ts)
+            
+            success = True
         
-        return sent
+        return (sent, success)
