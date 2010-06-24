@@ -8,7 +8,7 @@ import os.path
 class abstract_rule_engine:
     
     def __init__(self):
-        self.rules = []
+        self._rules = []
     
     def load_rules(self, path):
         """
@@ -20,31 +20,119 @@ class abstract_rule_engine:
         errors = []
         
         # First load simple rules
-        for file in glob(os.path.join(path, '*.rule')):
+        for filename in glob(os.path.join(path, '*.rule')):
             # don't bail out after one load failure, load them all and report
             # all at once
+            with open(filename) as fd:
+                try:
+                    self._rules.append(self._load_rule(filename, fd.readlines()))
+                except rule_load_error as e:
+                    errors.append(e)
+        
+        # Then rule blocks
+        for file in glob(os.path.join(path, '*.ruleblock')):
             try:
-                self.rules.append(self._load_rule(file))
-            except rule_load_error as e:
-                errors.append(e)
+                self._rules.append(self._load_block(file))
+            except rule_load_errors as e:
+                for error in e.errors:
+                    errors.append(e)
         
         # Then complex rules
         for file in glob(os.path.join(path, '*.pyrule')):
             (dir, modname) = os.path.split(file)
             modname = modname[:-7]
-            self.rules.append(imp.load_source(modname, file).rule())
+            self._rules.append(imp.load_source(modname, file).rule())
         
         # Now, check the rule's we've just loaded for consistency
+        try:
+            self._check_rule_consistency()
+        except rule_load_errors as e:
+            for error in e.errors:
+                errors.append(e)
+        
+        # Bulk raise any errors that occurred
+        if len(errors) > 0:
+            raise rule_load_errors(errors)
+    
+    def load_rule(self, filename):
+        """ Load a rule, then check for consistency """
+        self._load_rule(filename)
+        self._check_rule_consistency()
+    
+    def load_block(self, filename):
+        """ Load a block of rules, then check for consistency """
+        self._load_block(filename)
+        self._check_rule_consistency()
+    
+    def _load_block(self, filename):
+        """ Load a block of rules """
+        
+        errors = []
+        
+        # split the files up until rules, separated by '---'
+        with open(filename) as fd:
+            parts = []
+            for line in fd:
+                part = []
+                if line.startswith('---'):
+                    parts.append(part)
+                    part = []
+                else:
+                    part.append(line)
+            parts.append(part)
+        
+        header = parts[0]
+        parts = parts[1:]
+        rules = []
+        
+        header = self._parse_rule(header)
+        
+        # 'Block-Type' is a compulsory field with limited acceptable values
+        if (len(header['block-type']) != 1):
+            raise rule_load_error(filename, "There must be exactly 1 'Block-Type' field")
+        else:
+            type = header['block-type'][0].lower()
+            if type == 'run-all':
+                type = 'all'
+            elif type == 'run-until-success':
+                type = 'until-success'
+            else:
+                errors.append(rule_load_error(filename, "Only 'run-all' or 'run-until-success' are valid block types"))
+        
+        # ID is an optional field, which can only exist once
+        if (len(header['id']) == 1):
+            id = header['id'][0]
+        elif (len(header['id']) > 1):
+            errors.append(rule_load_error(filename, "Too many 'ID' fields"))
+        else:
+            id = filename
+        
+        for part in parts:
+            try:
+                rules.append(self._load_rule(filename, part))
+            except rule_load_error as e:
+                errors.append(e)
+        
+        if len(errors) > 0:
+            raise rule_load_errors(errors)
+        else:
+            return rule_block(id, header['after'], type, rules)
+    
+    def _check_rule_consistency(self):
+        """ Check that the rules are internally consistent """
+        
+        errors = []
+        
         # First, get all rule IDs and then all IDs mentioned as after IDs
         rule_ids = dict()
-        for rule in self.rules:
+        for rule in self._rules:
             if rule.id in rule_ids:
                 errors.append(rule_load_error(rule.id, 'Duplicate ID!'))
             else:
                 rule_ids[rule.id] = rule
         
         # Now check each referred to after ID exists
-        for rule in self.rules:
+        for rule in self._rules:
             circular_check = True
             for after in rule.after:
                 if after not in rule_ids:

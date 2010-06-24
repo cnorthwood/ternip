@@ -9,7 +9,10 @@ class rule_block:
         Create a rule block, with some ID, some restrictions on ordering, type
         (which is either 'until-success' or 'all', which means apply rules until
         one is successful, or apply all the rules regardless) and an initial
-        ordered list of rules
+        ordered list of rules.
+        
+        For rules in blocks, ID and after are meaningless, they are run in
+        sequence anyway. Blocks can be ordered like normal rules.
         """
         
         self.id = id
@@ -23,7 +26,12 @@ class rule_block:
     def apply(self, thing):
         """
         Apply rules in this block, in order, to this 'thing', either until one
-        rule is successful, or all rules have been applied
+        rule is successful, or all rules have been applied.
+        
+        For recognition rules, 'thing' is the list of (token, POS, timexes), one
+        sentence at a time (as per regular rules), and for normalisation rules,
+        it is the tuple (before, inside, after, timex) tuple, one timex at a
+        time.
         """
         
         block_success = False

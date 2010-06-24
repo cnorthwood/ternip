@@ -16,14 +16,13 @@ class recognition_rule_engine(abstract_rule_engine):
     potentially modified timexes.
     """
     
-    def _load_rule(self, filename):
+    def _load_rule(self, filename, rulelines):
         """
         Load a 'simple' recognition rule
         """
         
         # get key/value dictionaries
-        with open(filename) as fd:
-            d = self._parse_rule(fd.readlines())
+        d = self._parse_rule(rulelines)
         
         # 'Type' is a compulsory field
         if (len(d['type']) != 1):
@@ -83,7 +82,7 @@ class recognition_rule_engine(abstract_rule_engine):
             sent = [(token, pos, set()) for (token, pos) in sent]
             
             rules_run = set()
-            rules_to_run = set(self.rules)
+            rules_to_run = set(self._rules)
             
             # Apply rules until all rules have been applied
             while rules_to_run:
