@@ -8,17 +8,15 @@ import os.path
 class abstract_rule_engine:
     
     def __init__(self):
-        raise NotImplementedError
+        self.rules = []
     
-    def _load_rules(self, path):
+    def load_rules(self, path):
         """
-        Private function to actually do rule loading. Loads all files ending in
-        .py as 'complex' rules (direct Python code), other rules are loaded
-        using the documented rule format. For direct Python code, the rule must
-        be a class called 'rule'.
+        Do rule loading. Loads all files ending in .py as 'complex' rules
+        (direct Python code), other rules are loaded using the documented rule
+        format. For direct Python code, the rule must be a class called 'rule'.
         """
         
-        rules = []
         errors = []
         
         # First load simple rules
@@ -26,21 +24,42 @@ class abstract_rule_engine:
             # don't bail out after one load failure, load them all and report
             # all at once
             try:
-                rules.append(self._load_rule(file))
+                self.rules.append(self._load_rule(file))
             except rule_load_error as e:
                 errors.append(e)
-        
-        # now bail out
-        if len(errors) > 0:
-            raise rule_load_errors(errors)
         
         # Then complex rules
         for file in glob(os.path.join(path, '*.pyrule')):
             (dir, modname) = os.path.split(file)
             modname = modname[:-7]
-            rules.append(imp.load_source(modname, file).rule())
+            self.rules.append(imp.load_source(modname, file).rule())
         
-        self._rules = rules
+        # Now, check the rule's we've just loaded for consistency
+        # First, get all rule IDs and then all IDs mentioned as after IDs
+        rule_ids = dict()
+        for rule in self.rules:
+            if rule.id in rule_ids:
+                errors.append(rule_load_error(rule.id, 'Duplicate ID!'))
+            else:
+                rule_ids[rule.id] = rule
+        
+        # Now check each referred to after ID exists
+        for rule in self.rules:
+            circular_check = True
+            for after in rule.after:
+                if after not in rule_ids:
+                    errors.append(rule_load_error(rule.id, 'Reference made to non-existant rule'))
+                    # If this happens, don't check for circular references, as
+                    # there are dangling references and it causes errors
+                    circular_check = False
+            
+            # and check each rule for any circular references
+            if circular_check and self._circular_check(rule.id, rule, rule_ids):
+                errors.append(rule_load_error(rule.id, 'Circular dependency - rule must run after itself'))
+        
+        # Bulk raise any errors that occurred
+        if len(errors) > 0:
+            raise rule_load_errors(errors)
     
     def _parse_rule(self, rulelines):
         """
@@ -58,6 +77,17 @@ class abstract_rule_engine:
             d[key.lower()].append(value.strip())
         
         return d
+    
+    def _circular_check(self, search_for, rule, rule_ids):
+        """ Check for any circular references """
+        if search_for in rule.after:
+            return True
+        else:
+            for after in rule.after:
+                res = self._circular_check(search_for, rule_ids[after], rule_ids)
+                if res:
+                    return True
+            return False
 
 class rule_load_error(Exception):
     """

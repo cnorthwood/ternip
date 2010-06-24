@@ -7,63 +7,14 @@ import os.path
 class recognition_rule_engine(abstract_rule_engine):
     """
     A class which does recognition using a rule engine
+    
+    Complex rules must have a string member called 'id', which is used for
+    after ordering, a list of strings called 'after' (which can be an empty
+    list) which consists of IDs that must have run before this rule.
+    Additionally, a function called 'apply' which takes a list of
+    (token, pos, timexes) tuples and returns them in the same form with
+    potentially modified timexes.
     """
-    
-    def __init__(self, rule_location = 'rules/recognition/'):
-        """
-        Initialises this rule engine. Uses the rules located in the supplied
-        rule location, which defaults to what is distributed with TERNIP.
-        
-        Complex rules must have a string member called 'id', which is used for
-        after ordering, a list of strings called 'after' (which can be an empty
-        list) which consists of IDs that must have run before this rule.
-        Additionally, a function called 'apply' which takes a list of
-        (token, pos, timexes) tuples and returns them in the same form with
-        potentially modified timexes.
-        """
-        
-        # Load rules
-        self._load_rules(os.path.normpath(rule_location))
-        
-        # Check that all the IDs specified in 'After' keys actually exist
-        errors = []
-        
-        # First, get all rule IDs and then all IDs mentioned as after IDs
-        rule_ids = dict()
-        for rule in self._rules:
-            if rule.id in rule_ids:
-                errors.append(rule_load_error(rule.id, 'Duplicate ID!'))
-            else:
-                rule_ids[rule.id] = rule
-        
-        # Now check each referred to after ID exists
-        for rule in self._rules:
-            circular_check = True
-            for after in rule.after:
-                if after not in rule_ids:
-                    errors.append(rule_load_error(rule.id, 'Reference made to non-existant rule'))
-                    # If this happens, don't check for circular references, as
-                    # there are dangling references and it causes errors
-                    circular_check = False
-            
-            # and check each rule for any circular references
-            if circular_check and self._circular_check(rule.id, rule, rule_ids):
-                errors.append(rule_load_error(rule.id, 'Circular dependency - rule must run after itself'))
-        
-        # Bulk raise errors
-        if len(errors) > 0:
-            raise rule_load_errors(errors)
-    
-    def _circular_check(self, search_for, rule, rule_ids):
-        """ Check for any circular references """
-        if search_for in rule.after:
-            return True
-        else:
-            for after in rule.after:
-                res = self._circular_check(search_for, rule_ids[after], rule_ids)
-                if res:
-                    return True
-            return False
     
     def _load_rule(self, filename):
         """
@@ -132,7 +83,7 @@ class recognition_rule_engine(abstract_rule_engine):
             sent = [(token, pos, set()) for (token, pos) in sent]
             
             rules_run = set()
-            rules_to_run = set(self._rules)
+            rules_to_run = set(self.rules)
             
             # Apply rules until all rules have been applied
             while rules_to_run:
