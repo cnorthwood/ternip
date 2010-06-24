@@ -26,3 +26,11 @@ class recognition_rule_engine_Test(unittest.TestCase):
             self.assertEquals(len(e.errors), 2, "These errors were raised: " + str(e))
         else:
             self.fail('No exceptions were raised/caught')
+    
+    def testCircularErrors(self):
+        try:
+            r = ternip.rule_engine.recognition_rule_engine('tests/rule_engine/test_recognition_rules_circular/')
+        except ternip.rule_engine.rule_load_errors as e:
+            self.assertEquals(len(e.errors), 2, "These errors were raised: " + str(e))
+        else:
+            self.fail('No exceptions were raised/caught')

@@ -1,0 +1,5 @@
+Type: Date
+Match: <(Thursday|Friday)~.+>
+Guard: !<last~.+>
+ID: B
+After: A

@@ -29,23 +29,41 @@ class recognition_rule_engine(abstract_rule_engine):
         errors = []
         
         # First, get all rule IDs and then all IDs mentioned as after IDs
-        rule_ids = set()
-        after_ids = set()
+        rule_ids = dict()
         for rule in self._rules:
             if rule.id in rule_ids:
                 errors.append(rule_load_error(rule.id, 'Duplicate ID!'))
             else:
-                rule_ids.add(rule.id)
-            after_ids |= set(rule.after)
+                rule_ids[rule.id] = rule
         
         # Now check each referred to after ID exists
-        for id in after_ids:
-            if id not in rule_ids:
-                errors.append(rule_load_error(rule.id, 'Unknown ID specified in after'))
+        for rule in self._rules:
+            circular_check = True
+            for after in rule.after:
+                if after not in rule_ids:
+                    errors.append(rule_load_error(rule.id, 'Reference made to non-existant rule'))
+                    # If this happens, don't check for circular references, as
+                    # there are dangling references and it causes errors
+                    circular_check = False
+            
+            # and check each rule for any circular references
+            if circular_check and self._circular_check(rule.id, rule, rule_ids):
+                errors.append(rule_load_error(rule.id, 'Circular dependency - rule must run after itself'))
         
         # Bulk raise errors
         if len(errors) > 0:
             raise rule_load_errors(errors)
+    
+    def _circular_check(self, search_for, rule, rule_ids):
+        """ Check for any circular references """
+        if search_for in rule.after:
+            return True
+        else:
+            for after in rule.after:
+                res = self._circular_check(search_for, rule_ids[after], rule_ids)
+                if res:
+                    return True
+            return False
     
     def _load_rule(self, filename):
         """
