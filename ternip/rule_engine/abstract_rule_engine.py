@@ -149,7 +149,7 @@ class abstract_rule_engine:
         if len(errors) > 0:
             raise rule_load_errors(errors)
     
-    def _parse_rule(self, rulelines):
+    def _parse_rule(self, filename, rulelines):
         """
         Private function that takes the lines of a 'simple' rule file, parses
         the key/value pairs, and then returns them as a dictionary. Does no kind
@@ -161,8 +161,14 @@ class abstract_rule_engine:
         d = defaultdict(list)
         
         for line in rulelines:
-            [key, value] = line.split(':', 1)
-            d[key.lower()].append(value.strip())
+            
+            # ignore empty lines and comments
+            if line.rstrip() != '' and not line.startswith('#'):
+                try:
+                    [key, value] = line.split(':', 1)
+                except ValueError:
+                    raise rule_load_error(filename, 'Malformed key-value pair on line: ' + line.rstrip())
+                d[key.lower()].append(value.strip())
         
         return d
     

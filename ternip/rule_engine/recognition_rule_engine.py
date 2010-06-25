@@ -22,7 +22,7 @@ class recognition_rule_engine(abstract_rule_engine):
         """
         
         # get key/value dictionaries
-        d = self._parse_rule(rulelines)
+        d = self._parse_rule(filename, rulelines)
         
         # 'Type' is a compulsory field
         if (len(d['type']) != 1):
