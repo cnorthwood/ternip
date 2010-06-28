@@ -22,25 +22,3 @@ class rule_block:
             self.type = type
         else:
             raise rule_load_error(id, "Invalid type, must be either 'until-success' or 'all'")
-    
-    def apply(self, thing):
-        """
-        Apply rules in this block, in order, to this 'thing', either until one
-        rule is successful, or all rules have been applied.
-        
-        For recognition rules, 'thing' is the list of (token, POS, timexes), one
-        sentence at a time (as per regular rules), and for normalisation rules,
-        it is the tuple (before, inside, after, timex) tuple, one timex at a
-        time.
-        """
-        
-        block_success = False
-        
-        for rule in self._rules:
-            (thing, success) = rule.apply(thing)
-            if success:
-                block_success = True
-            if self.type == 'until-success' and success:
-                break
-        
-        return (thing, block_success)

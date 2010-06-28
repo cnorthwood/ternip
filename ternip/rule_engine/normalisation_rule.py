@@ -49,7 +49,7 @@ class normalisation_rule(rule.rule):
         
         # replace our group short form, e.g., {#6} with actual Python code
         # it would be nice to support named groups, but this'll do for now
-        self._value_exp = re.sub(r'{#(\d)+}', r'match.group(\1)', value)
+        self._value_exp = re.sub(r'\{#(\d)+\}', r'match.group(\1)', value)
         
         # Load guards
         self._guards = self._load_guards(guards)

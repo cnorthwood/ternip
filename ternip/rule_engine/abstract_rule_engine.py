@@ -8,6 +8,11 @@ import os.path
 import rule_block
 
 class abstract_rule_engine:
+    """
+    A base class for rule engines to use
+    """
+    
+    _block_type = None
     
     def __init__(self):
         self._rules = []
@@ -145,7 +150,7 @@ class abstract_rule_engine:
         if len(errors) > 0:
             raise rule_load_errors(errors)
         else:
-            return rule_block.rule_block(id, header['after'], type, rules)
+            return self._block_type(id, header['after'], type, rules)
     
     def _check_rule_consistency(self):
         """ Check that the rules are internally consistent """
