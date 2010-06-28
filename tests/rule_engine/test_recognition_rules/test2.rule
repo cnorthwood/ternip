@@ -3,3 +3,5 @@ Match: <(Monday|Tuesday)~.+>
 # Ignore blank lines and comments
 
 
+Before-Guard: <last~.+>
+After-Guard: !^<afternoon~.+>

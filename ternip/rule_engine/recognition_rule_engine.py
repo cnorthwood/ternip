@@ -25,12 +25,14 @@ class recognition_rule_engine(abstract_rule_engine):
         d = self._parse_rule(filename, rulelines)
         
         # Set defaults
-        type    = None
-        match   = None
-        id      = filename
-        squelch = False
-        guards  = []
-        after   = []
+        type          = None
+        match         = None
+        id            = filename
+        squelch       = False
+        guards        = []
+        before_guards = []
+        after_guards  = []
+        after         = []
         
         for key in d:
             
@@ -74,6 +76,10 @@ class recognition_rule_engine(abstract_rule_engine):
                 guards = d[key]
             elif key == 'after':
                 after = d[key]
+            elif key == 'before-guard':
+                before_guards = d[key]
+            elif key == 'after-guard':
+                after_guards = d[key]
             
             # error on unknown fields
             else:

@@ -2,8 +2,9 @@
 
 import re
 import ternip.timex
+import rule
 
-class recognition_rule:
+class recognition_rule(rule.rule):
     """ A class that represents identification rules """
     
     def __init__(self, match,
@@ -43,51 +44,11 @@ class recognition_rule:
         self._match           = re.compile(self._prep_re(match), re.IGNORECASE)
         self._squelch         = squelch
         self.after            = after
-        self._posguards       = []
-        self._negguards       = []
-        self._posbeforeguards = []
-        self._negbeforeguards = []
-        self._posafterguards  = []
-        self._negafterguards  = []
         
-        for guard in guards:
-            if guard[0] == '!':
-                self._negguards.append(re.compile(self._prep_re(guard[1:]), re.IGNORECASE))
-            else:
-                self._posguards.append(re.compile(self._prep_re(guard), re.IGNORECASE))
-        
-        for guard in before_guards:
-            if guard[0] == '!':
-                self._negbeforeguards.append(re.compile(self._prep_re(guard[1:]), re.IGNORECASE))
-            else:
-                self._posbeforeguards.append(re.compile(self._prep_re(guard), re.IGNORECASE))
-        
-        for guard in after_guards:
-            if guard[0] == '!':
-                self._negafterguards.append(re.compile(self._prep_re(guard[1:]), re.IGNORECASE))
-            else:
-                self._posafterguards.append(re.compile(self._prep_re(guard), re.IGNORECASE))
-    
-    def _prep_re(self, exp):
-        """
-        Prepare a regular expression which uses <> for token boundaries
-        """
-        # This code is modified from NLTK's text.py for dealing with pattern
-        # matching with tokenised strings, under the Apache License 2.0
-        
-        # Natural Language Toolkit (NLTK) http://www.nltk.org/
-        # Copyright (C) 2001-2010 NLTK Project
-        # Bird, Steven, Edward Loper and Ewan Klein (2009).
-        # Natural Language Processing with Python.  O'Reilly Media Inc.
-        
-        exp = re.sub(r'\s', '', exp)
-        exp = re.sub(r'<', '(?:<(?:', exp)
-        exp = re.sub(r'>', ')>)', exp)
-        exp = re.sub(r'(?<!\\)\.', '[^>]', exp)
-        
-        # End NLTK contribution
-        
-        return exp
+        # Load guards
+        self._guards = self._load_guards(guards)
+        self._before_guards = self._load_guards(before_guards)
+        self._after_guards = self._load_guards(after_guards)
     
     def apply(self, sent):
         """
@@ -116,16 +77,9 @@ class recognition_rule:
         
         success = False
         
-        # Ensure the guards are satisfied, first any positive ones that are
-        # not satisfied means missing this application
-        for guard in self._posguards:
-            if not guard.search(senttext):
-                return (sent, success)
-        
-        # then any negative ones, which if do hit, mean stop processing
-        for guard in self._negguards:
-            if guard.search(senttext):
-                return (sent, success)
+        # Ensure the sentence-level guards are satisfied
+        if not self._check_guards(senttext, self._guards):
+            return (sent, success)
         
         # Now see if this rule actually matches anything
         for match in self._match.finditer(senttext):
@@ -133,24 +87,12 @@ class recognition_rule:
             guard_sat = True
             
             # Now check before guards
-            for guard in self._posbeforeguards:
-                if not guard.search(senttext[:match.start()]):
-                    guard_sat = False
+            if not self._check_guards(senttext[:match.start()], self._before_guards):
+                guard_sat = False
             
-            # then any negative ones
-            for guard in self._negbeforeguards:
-                if guard.search(senttext[:match.start()]):
-                    guard_sat = False
-            
-            # And after guards
-            for guard in self._posafterguards:
-                if not guard.search(senttext[match.end():]):
-                    guard_sat = False
-            
-            # then any negative ones
-            for guard in self._negafterguards:
-                if guard.search(senttext[match.end():]):
-                    guard_sat = False
+            # and after guards
+            if not self._check_guards(senttext[match.end():], self._after_guards):
+                guard_sat = False
             
             if guard_sat:
                 # okay, first we need to find which tokens we matched, can do this
