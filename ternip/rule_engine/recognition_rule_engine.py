@@ -86,7 +86,7 @@ class recognition_rule_engine(abstract_rule_engine):
             raise rule_load_error(filename, "'Match' is a compulsory field")
         
         # 'After' and 'Guards' are optional, possibly multi-valued, fields
-        return recognition_rule(match, type, id, guards, after, squelch)
+        return recognition_rule(match, type, id, guards, [], [], after, squelch)
     
     def tag(self, sents):
         """

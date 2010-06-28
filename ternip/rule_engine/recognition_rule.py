@@ -9,9 +9,11 @@ class recognition_rule:
     def __init__(self, match,
                        type,
                        id,
-                       guards  = [],
-                       after   = [],
-                       squelch = False):
+                       guards        = [],
+                       after_guards  = [],
+                       before_guards = [],
+                       after         = [],
+                       squelch       = False):
         """
         Create a recognition rule, with a number of optional arguments. All
         regex's are in the form to be used with nltk.TokenSearcher.findall
@@ -36,6 +38,40 @@ class recognition_rule:
         after is a string giving an ID 
         """
         
+        self.id               = id
+        self._type            = type
+        self._match           = re.compile(self._prep_re(match), re.IGNORECASE)
+        self._squelch         = squelch
+        self.after            = after
+        self._posguards       = []
+        self._negguards       = []
+        self._posbeforeguards = []
+        self._negbeforeguards = []
+        self._posafterguards  = []
+        self._negafterguards  = []
+        
+        for guard in guards:
+            if guard[0] == '!':
+                self._negguards.append(re.compile(self._prep_re(guard[1:]), re.IGNORECASE))
+            else:
+                self._posguards.append(re.compile(self._prep_re(guard), re.IGNORECASE))
+        
+        for guard in before_guards:
+            if guard[0] == '!':
+                self._negbeforeguards.append(re.compile(self._prep_re(guard[1:]), re.IGNORECASE))
+            else:
+                self._posbeforeguards.append(re.compile(self._prep_re(guard), re.IGNORECASE))
+        
+        for guard in after_guards:
+            if guard[0] == '!':
+                self._negafterguards.append(re.compile(self._prep_re(guard[1:]), re.IGNORECASE))
+            else:
+                self._posafterguards.append(re.compile(self._prep_re(guard), re.IGNORECASE))
+    
+    def _prep_re(self, exp):
+        """
+        Prepare a regular expression which uses <> for token boundaries
+        """
         # This code is modified from NLTK's text.py for dealing with pattern
         # matching with tokenised strings, under the Apache License 2.0
         
@@ -44,26 +80,14 @@ class recognition_rule:
         # Bird, Steven, Edward Loper and Ewan Klein (2009).
         # Natural Language Processing with Python.  O'Reilly Media Inc.
         
-        match = re.sub(r'\s', '', match)
-        match = re.sub(r'<', '(?:<(?:', match)
-        match = re.sub(r'>', ')>)', match)
-        match = re.sub(r'(?<!\\)\.', '[^>]', match)
+        exp = re.sub(r'\s', '', exp)
+        exp = re.sub(r'<', '(?:<(?:', exp)
+        exp = re.sub(r'>', ')>)', exp)
+        exp = re.sub(r'(?<!\\)\.', '[^>]', exp)
         
         # End NLTK contribution
         
-        self.id         = id
-        self._type      = type
-        self._match     = re.compile(match, re.IGNORECASE)
-        self._squelch   = squelch
-        self.after      = after
-        self._posguards = []
-        self._negguards = []
-        
-        for guard in guards:
-            if guard[0] == '!':
-                self._negguards.append(re.compile(guard[1:], re.IGNORECASE))
-            else:
-                self._posguards.append(re.compile(guard, re.IGNORECASE))
+        return exp
     
     def apply(self, sent):
         """
@@ -106,29 +130,51 @@ class recognition_rule:
         # Now see if this rule actually matches anything
         for match in self._match.finditer(senttext):
             
-            # okay, first we need to find which tokens we matched, can do this
-            # by using our token markers
-            ti = senttext.count('<', 0, match.start())
-            tj = senttext.count('<', 0, match.end())
+            guard_sat = True
             
-            if not self._squelch:
-                t = ternip.timex(self._type) # only create a new timex if not squelching
+            # Now check before guards
+            for guard in self._posbeforeguards:
+                if not guard.search(senttext[:match.start()]):
+                    guard_sat = False
             
-            for i in range(len(sent)):
-                # now get all tokens in the range and add the new timex if needed
-                (token, pos, ts) = sent[i]
-                if i >= ti and i < tj:
-                    if self._squelch:
-                        # in the case of this being a squelch rule, remove the
-                        # timexes
-                        ts = set()
-                    else:
-                        # otherwise add the new timex to the list of timexes
-                        # associated with this token
-                        ts.add(t)
+            # then any negative ones
+            for guard in self._negbeforeguards:
+                if guard.search(senttext[:match.start()]):
+                    guard_sat = False
+            
+            # And after guards
+            for guard in self._posafterguards:
+                if not guard.search(senttext[match.end():]):
+                    guard_sat = False
+            
+            # then any negative ones
+            for guard in self._negafterguards:
+                if guard.search(senttext[match.end():]):
+                    guard_sat = False
+            
+            if guard_sat:
+                # okay, first we need to find which tokens we matched, can do this
+                # by using our token markers
+                ti = senttext.count('<', 0, match.start())
+                tj = senttext.count('<', 0, match.end())
                 
-                sent[i] = (token, pos, ts)
-            
-            success = True
+                if not self._squelch:
+                    t = ternip.timex(self._type) # only create a new timex if not squelching
+                
+                for i in range(len(sent)):
+                    # now get all tokens in the range and add the new timex if needed
+                    (token, pos, ts) = sent[i]
+                    if i >= ti and i < tj:
+                        if self._squelch:
+                            # in the case of this being a squelch rule, remove the
+                            # timexes
+                            ts = set()
+                        else:
+                            # otherwise add the new timex to the list of timexes
+                            # associated with this token
+                            ts.add(t)
+                    
+                    sent[i] = (token, pos, ts)
+                    success = True
         
         return (sent, success)

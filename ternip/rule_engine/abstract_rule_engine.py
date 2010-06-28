@@ -226,8 +226,8 @@ class rule_load_error(Exception):
 
 class rule_load_errors(Exception):
     """
-    Error which bundles multiple RuleLoadError's together. Allows for delayed
-    exit on multiple load errors
+    Error which bundles multiple rule_load_errors together. Allows for delayed
+    exit on multiple load errors.
     """
     
     def __init__(self, errors):
