@@ -1,0 +1,14 @@
+Block-Type: run-all
+Something invalid in the header
+
+---
+
+Type: Date
+Match: <Thursday~.+>
+Guard: !<last~.+>
+
+---
+
+Type: Date
+Match: <Friday~.+>
+Guard: !<last~.+>

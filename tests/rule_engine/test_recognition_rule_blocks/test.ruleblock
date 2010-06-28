@@ -1,0 +1,13 @@
+Block-Type: run-all
+
+---
+
+Type: Date
+Match: <Thursday~.+>
+Guard: !<last~.+>
+
+---
+
+Type: Date
+Match: <Friday~.+>
+Guard: !<last~.+>

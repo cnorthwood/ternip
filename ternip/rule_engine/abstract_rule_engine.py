@@ -5,6 +5,8 @@ from glob import glob
 import imp
 import os.path
 
+import rule_block
+
 class abstract_rule_engine:
     
     def __init__(self):
@@ -12,9 +14,10 @@ class abstract_rule_engine:
     
     def load_rules(self, path):
         """
-        Do rule loading. Loads all files ending in .py as 'complex' rules
-        (direct Python code), other rules are loaded using the documented rule
-        format. For direct Python code, the rule must be a class called 'rule'.
+        Do rule loading. Loads all files ending in .pyrule as 'complex' rules
+        (direct Python code), .rule using the documented rule format, and
+        .ruleblock as blocks which contain sequences of rules.
+        For direct Python code, the rule must be a class called 'rule'.
         """
         
         errors = []
@@ -33,6 +36,8 @@ class abstract_rule_engine:
         for file in glob(os.path.join(path, '*.ruleblock')):
             try:
                 self._rules.append(self._load_block(file))
+            except rule_load_error as e:
+                errors.append(e)
             except rule_load_errors as e:
                 for error in e.errors:
                     errors.append(e)
@@ -72,8 +77,8 @@ class abstract_rule_engine:
         # split the files up until rules, separated by '---'
         with open(filename) as fd:
             parts = []
+            part = []
             for line in fd:
-                part = []
                 if line.startswith('---'):
                     parts.append(part)
                     part = []
@@ -85,7 +90,8 @@ class abstract_rule_engine:
         parts = parts[1:]
         rules = []
         
-        header = self._parse_rule(header)
+        # First block is considered to be the header
+        header = self._parse_rule(filename, header)
         
         # 'Block-Type' is a compulsory field with limited acceptable values
         if (len(header['block-type']) != 1):
@@ -107,16 +113,24 @@ class abstract_rule_engine:
         else:
             id = filename
         
+        # Now load all other parts
         for part in parts:
             try:
                 rules.append(self._load_rule(filename, part))
             except rule_load_error as e:
                 errors.append(e)
         
+        # ID and After are invalid in a rule
+        for rule in rules:
+            if rule.id != filename:
+                errors.append(rule_load_error(filename, "'ID' fields are invalid outside of the block header in a rule block"))
+            if len(rule.after) > 0:
+                errors.append(rule_load_error(filename, "'After' fields are invalid outside of the block header in a rule block"))
+        
         if len(errors) > 0:
             raise rule_load_errors(errors)
         else:
-            return rule_block(id, header['after'], type, rules)
+            return rule_block.rule_block(id, header['after'], type, rules)
     
     def _check_rule_consistency(self):
         """ Check that the rules are internally consistent """

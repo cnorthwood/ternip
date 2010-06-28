@@ -1,0 +1,15 @@
+Block-Type: run-all
+
+---
+
+Type: Date
+Match: <Thursday~.+>
+Guard: !<last~.+>
+ID: Invalid-in-a-block
+
+---
+
+Type: Date
+Match: <Friday~.+>
+Guard: !<last~.+>
+After: Invalid-in-a-block
