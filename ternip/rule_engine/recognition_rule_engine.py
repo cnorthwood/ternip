@@ -24,43 +24,69 @@ class recognition_rule_engine(abstract_rule_engine):
         # get key/value dictionaries
         d = self._parse_rule(filename, rulelines)
         
-        # 'Type' is a compulsory field
-        if (len(d['type']) != 1):
-            raise rule_load_error(filename, "There must be exactly 1 'Type' field")
-        else:
-            type = d['type'][0]
+        # Set defaults
+        type    = None
+        match   = None
+        id      = filename
+        squelch = False
+        guards  = []
+        after   = []
         
-        # 'Match' is a compulsory field
-        if (len(d['match']) != 1):
-            raise rule_load_error(filename, "There must be exactly 1 'Match' field")
-        else:
-            match = d['match'][0]
+        for key in d:
+            
+            # Only one 'Type field allowed
+            if key == 'type':
+                if (len(d[key]) != 1):
+                    raise rule_load_error(filename, "There must be exactly 1 'Type' field")
+                else:
+                    type = d[key][0]
+            
+            # Only one 'Match' field allowed
+            elif key == 'match':
+                if (len(d[key]) != 1):
+                    raise rule_load_error(filename, "There must be exactly 1 'Match' field")
+                else:
+                    match = d[key][0]
         
-        # ID is an optional field, which can only exist once
-        if (len(d['id']) == 1):
-            id = d['id'][0]
-        elif (len(d['id']) > 1):
-            raise rule_load_error(filename, "Too many 'ID' fields")
-        else:
-            id = filename
-        
-        # Squelch is an optional field, defaulting to False, which accepts
-        # either true or false (case-insensitive) as values
-        if (len(d['squelch']) == 1):
-            squelch = d['squelch'][0].lower()
-            if squelch == 'true':
-                squelch = True
-            elif squelch == 'false':
-                squelch = False
+            # No more than one ID key allowed
+            elif key == 'id':
+                if (len(d['id']) == 1):
+                    id = d['id'][0]
+                elif (len(d['id']) > 1):
+                    raise rule_load_error(filename, "Too many 'ID' fields")
+            
+            # Squelch is an optional field, defaulting to False, which accepts
+            # either true or false (case-insensitive) as values
+            elif key == 'squelch':
+                if (len(d['squelch']) == 1):
+                    squelch = d['squelch'][0].lower()
+                    if squelch == 'true':
+                        squelch = True
+                    elif squelch == 'false':
+                        squelch = False
+                    else:
+                        raise rule_load_error(filename, "Squelch must be either 'True' or 'False'")
+                elif (len(d['squelch']) > 1):
+                    raise rule_load_error(filename, "Too many 'Squelch' fields")
+            
+            # set optional fields
+            elif key == 'guard':
+                guards = d[key]
+            elif key == 'after':
+                after = d[key]
+            
+            # error on unknown fields
             else:
-                raise rule_load_error(filename, "Squelch must be either 'True' or 'False'")
-        elif (len(d['squelch']) > 1):
-            raise rule_load_error(filename, "Too many 'Squelch' fields")
-        else:
-            squelch = False
+                raise rule_load_error(filename, "Unknown field '" + key + "'")
+        
+        if type is None:
+            raise rule_load_error(filename, "'Type' is a compulsory field")
+        
+        if match is None:
+            raise rule_load_error(filename, "'Match' is a compulsory field")
         
         # 'After' and 'Guards' are optional, possibly multi-valued, fields
-        return recognition_rule(match, type, id, d['guard'], d['after'], squelch)
+        return recognition_rule(match, type, id, guards, after, squelch)
     
     def tag(self, sents):
         """

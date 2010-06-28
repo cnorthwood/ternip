@@ -20,7 +20,7 @@ class recognition_rule:
         the form <token~POS>, e.g., <about~.+> would match about with any POS
         tag.
         
-        id is an optional value which can be used with other rules to express an
+        id is a unique value other rules can refer to in order to express an
             ordering.
         type can be date, time or duration (TIMEX3 annotation guidelines). This
             is a compulsory value.
