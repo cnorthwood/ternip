@@ -93,25 +93,40 @@ class abstract_rule_engine:
         # First block is considered to be the header
         header = self._parse_rule(filename, header)
         
-        # 'Block-Type' is a compulsory field with limited acceptable values
-        if (len(header['block-type']) != 1):
-            raise rule_load_error(filename, "There must be exactly 1 'Block-Type' field")
-        else:
-            type = header['block-type'][0].lower()
-            if type == 'run-all':
-                type = 'all'
-            elif type == 'run-until-success':
-                type = 'until-success'
-            else:
-                errors.append(rule_load_error(filename, "Only 'run-all' or 'run-until-success' are valid block types"))
+        # Defaults
+        block_type = None
+        id = filename
+        after = []
         
-        # ID is an optional field, which can only exist once
-        if (len(header['id']) == 1):
-            id = header['id'][0]
-        elif (len(header['id']) > 1):
-            errors.append(rule_load_error(filename, "Too many 'ID' fields"))
-        else:
-            id = filename
+        for key in header:
+            
+            # 'Block-Type' is a compulsory field with limited acceptable values
+            if key == 'block-type':
+                if (len(header[key]) != 1):
+                    raise rule_load_error(filename, "There must be exactly 1 'Block-Type' field")
+                else:
+                    type = header[key][0].lower()
+                    if type == 'run-all':
+                        type = 'all'
+                    elif type == 'run-until-success':
+                        type = 'until-success'
+                    else:
+                        errors.append(rule_load_error(filename, "Only 'run-all' or 'run-until-success' are valid block types"))
+            
+            # ID is an optional field, which can only exist once
+            elif key == 'id':
+                if (len(header[key]) == 1):
+                    id = header[key][0]
+                elif (len(header[key]) > 1):
+                    errors.append(rule_load_error(filename, "Too many 'ID' fields"))
+            
+            # After takes multiple, optional values
+            elif key == 'after':
+                after = header[key]
+            
+            # Reject anything else
+            else:
+                errors.append(rule_load_error(filename, "Key '" + key + "' is not valid in a block header"))
         
         # Now load all other parts
         for part in parts:
@@ -120,7 +135,7 @@ class abstract_rule_engine:
             except rule_load_error as e:
                 errors.append(e)
         
-        # ID and After are invalid in a rule
+        # ID and After are invalid in individual rules
         for rule in rules:
             if rule.id != filename:
                 errors.append(rule_load_error(filename, "'ID' fields are invalid outside of the block header in a rule block"))

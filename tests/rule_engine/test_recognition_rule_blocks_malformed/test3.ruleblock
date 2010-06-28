@@ -1,0 +1,14 @@
+Block-Type: run-all
+Welformed: But invalid
+
+---
+
+Type: Date
+Match: <Thursday~.+>
+Guard: !<last~.+>
+
+---
+
+Type: Date
+Match: <Friday~.+>
+Guard: !<last~.+>
