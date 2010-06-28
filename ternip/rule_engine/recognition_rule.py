@@ -23,20 +23,26 @@ class recognition_rule(rule.rule):
         the form <token~POS>, e.g., <about~.+> would match about with any POS
         tag.
         
-        id is a unique value other rules can refer to in order to express an
-            ordering.
-        type can be date, time or duration (TIMEX3 annotation guidelines). This
-            is a compulsory value.
         match is a regex. The text that is matched by this regex is annotated as
             a timex. Compulsory.
-        guard is a list of regexes which must be satisfied for this rule to be
+        type can be date, time or duration (TIMEX3 annotation guidelines). This
+            is a compulsory value.
+        id is a unique value other rules can refer to in order to express an
+            ordering.
+        guards is a list of regexes which must be satisfied for this rule to be
             applied. Defauts to an empty list. If the first character in the
             regex is a !, then it means that it's a negative guard - the guard
             must NOT match for this rule to be applied.
+        after_guards is a list of regexes, like normal guards, but is only
+            matched against the string immediately proceeding a match to check
+            if that is satisfied
+        before_guards is like after_guards, but matches against the string
+            immediately preceeding a match
+        after is a list of IDs which must have preceeded the execution of this
+            rule
         squelch is a Boolean. If true, then if the 'match' regex matches some
             stuff that's already been timex annotated, those timexes are removed
             and no timex is added to the match. Defaults to false.
-        after is a string giving an ID 
         """
         
         self.id               = id
