@@ -19,7 +19,7 @@ class recognition_rule_block(rule_block.rule_block):
             (sent, success) = rule.apply(sent)
             if success:
                 block_success = True
-            if self.type == 'until-success' and success:
+            if self._type == 'until-success' and success:
                 break
         
         return (sent, block_success)

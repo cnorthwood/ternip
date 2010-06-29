@@ -4,6 +4,7 @@ from abstract_rule_engine import abstract_rule_engine, rule_load_error, rule_loa
 from recognition_rule import recognition_rule
 from recognition_rule_block import recognition_rule_block
 import os.path
+import re
 
 class recognition_rule_engine(abstract_rule_engine):
     """
@@ -94,8 +95,11 @@ class recognition_rule_engine(abstract_rule_engine):
         if match is None:
             raise rule_load_error(filename, "'Match' is a compulsory field")
         
-        # 'After' and 'Guards' are optional, possibly multi-valued, fields
-        return recognition_rule(match, type, id, guards, [], [], after, squelch)
+        # Guard against any RE errors
+        try:
+            return recognition_rule(match, type, id, guards, [], [], after, squelch)
+        except re.error as e:
+            raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     
     def tag(self, sents):
         """

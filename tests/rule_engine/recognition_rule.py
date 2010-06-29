@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import unittest
-from ternip.rule_engine.recognition_rule import recognition_rule
+from ternip.rule_engine import recognition_rule
 
 class recognition_rule_Test(unittest.TestCase):
     
