@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 from abstract_rule_engine import abstract_rule_engine, rule_load_error, rule_load_errors
-from recognition_rule import recognition_rule
-from recognition_rule_block import recognition_rule_block
+from normalisation_rule import normalisation_rule
+from normalisation_rule_block import normalisation_rule_block
 import re
 
 class recognition_rule_engine(abstract_rule_engine):
@@ -17,11 +17,11 @@ class recognition_rule_engine(abstract_rule_engine):
     potentially modified timexes.
     """
     
-    _block_type = recognition_rule_block
+    _block_type = normalisation_rule_block
     
     def _load_rule(self, filename, rulelines):
         """
-        Load a 'simple' recognition rule
+        Load a 'simple' normalisation rule
         """
         
         # get key/value dictionaries
@@ -31,7 +31,7 @@ class recognition_rule_engine(abstract_rule_engine):
         type          = None
         match         = None
         id            = filename
-        squelch       = False
+        value         = None
         guards        = []
         before_guards = []
         after_guards  = []
@@ -60,19 +60,12 @@ class recognition_rule_engine(abstract_rule_engine):
                 elif (len(d[key]) > 1):
                     raise rule_load_error(filename, "Too many 'ID' fields")
             
-            # Squelch is an optional field, defaulting to False, which accepts
-            # either true or false (case-insensitive) as values
-            elif key == 'squelch':
+            # No more than one Value key allowed
+            elif key == 'value':
                 if (len(d[key]) == 1):
-                    squelch = d[key][0].lower()
-                    if squelch == 'true':
-                        squelch = True
-                    elif squelch == 'false':
-                        squelch = False
-                    else:
-                        raise rule_load_error(filename, "Squelch must be either 'True' or 'False'")
+                    value = d[key][0]
                 elif (len(d[key]) > 1):
-                    raise rule_load_error(filename, "Too many 'Squelch' fields")
+                    raise rule_load_error(filename, "Too many 'Value' fields")
             
             # set optional fields
             elif key == 'guard':
@@ -96,50 +89,13 @@ class recognition_rule_engine(abstract_rule_engine):
         
         # Guard against any RE errors
         try:
-            return recognition_rule(match, type, id, guards, after_guards, before_guards, after, squelch)
+            return normalisation_rule(match, type, id, value, guards, after_guards, before_guards, after)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     
-    def tag(self, sents):
+    def annotate(self, sents):
         """
-        This function actually does word recognition. It expects content to be
-        split into tokenised, POS tagged, sentences. i.e., a list of lists of
-        tuples ([[(token, pos-tag), ...], ...]). Rules are applied one at a
-        time.
-        
-        What is returned is in the same form, except the token tuples contain a
-        third element consisting of the set of timexes associated with that
-        token.
+        This annotates all the timexes 
         """
         
-        # Apply rules on one sentence at a time
-        r = []
-        for sent in sents:
-            
-            # Add the element to hold Timexes
-            sent = [(token, pos, set()) for (token, pos) in sent]
-            
-            rules_run = set()
-            rules_to_run = set(self._rules)
-            
-            # Apply rules until all rules have been applied
-            while rules_to_run:
-                for rule in rules_to_run.copy():
-                    
-                    # Check that if 'after' is defined, the rules we must run
-                    # after have run
-                    after_ok = True
-                    for aid in rule.after:
-                        if aid not in rules_run:
-                            after_ok = False
-                    
-                    # Apply this rule, and update our states of rules waiting to
-                    # run and rules that have been run
-                    if after_ok:
-                        (sent, success) = rule.apply(sent)
-                        rules_run.add(rule.id)
-                        rules_to_run.remove(rule)
-            
-            r.append(sent)
-        
-        return r
+        pass
