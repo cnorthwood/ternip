@@ -69,17 +69,7 @@ class recognition_rule(rule.rule):
         anything
         """
         
-        # This code is modified from NLTK's text.py for dealing with pattern
-        # matching with tokenised strings, under the Apache License 2.0
-        
-        # Natural Language Toolkit (NLTK) http://www.nltk.org/
-        # Copyright (C) 2001-2010 NLTK Project
-        # Bird, Steven, Edward Loper and Ewan Klein (2009).
-        # Natural Language Processing with Python.  O'Reilly Media Inc.
-        
-        senttext = ''.join('<'+w+'~'+pos+'>' for (w, pos, ts) in sent)
-        
-        # End NLTK contribution
+        senttext = self._toks_to_str(sent)
         
         success = False
         

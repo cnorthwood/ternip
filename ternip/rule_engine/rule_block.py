@@ -19,6 +19,6 @@ class rule_block:
         self.after = after
         self._rules = rules
         if type == 'until-success' or type == 'all':
-            self.type = type
+            self._type = type
         else:
             raise rule_load_error(id, "Invalid type, must be either 'until-success' or 'all'")

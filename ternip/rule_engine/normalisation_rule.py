@@ -55,3 +55,36 @@ class normalisation_rule(rule.rule):
         self._guards = self._load_guards(guards)
         self._before_guards = self._load_guards(before_guards)
         self._after_guards = self._load_guards(after_guards)
+    
+    def apply(self, timex, body, before, after):
+        """
+        Applies this rule to this timex, where body is the full extent covered
+        by this timex, before is the preceeding text in the sentence, and after
+        is the proceeding text in the sentence, in the [(token, POS), ...] form
+        
+        A boolean indicating whether or not application was successful is
+        returned. The timex may also be modified, so should be passed in by
+        reference.
+        """
+        
+        # Check before, after and whole sentence guards
+        if not self._check_guards(self._toks_to_str(before), self._before_guards):
+            return False
+        
+        if not self._check_guards(self._toks_to_str(after), self._after_guards):
+            return False
+        
+        if not self._check_guards(self._toks_to_str(before + body + after), self._guards):
+            return False
+        
+        # Now, check if we match:
+        match = self._match.search(self._toks_to_str(body))
+        
+        # If we do, then calculate attributes for the timex
+        if match:
+            if self._value_exp is not None:
+                timex.value = eval(self._value_exp)
+            return True
+        else:
+            # Rule did not match
+            return False
