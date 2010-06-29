@@ -67,6 +67,10 @@ class normalisation_rule(rule.rule):
         reference.
         """
         
+        # Check this rule type matches the timex type
+        if timex.type != self._type:
+            return False
+        
         # Check before, after and whole sentence guards
         if not self._check_guards(self._toks_to_str(before), self._before_guards):
             return False
