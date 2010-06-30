@@ -98,4 +98,53 @@ class recognition_rule_engine(abstract_rule_engine):
         This annotates all the timexes 
         """
         
-        pass
+        # Timex's can't span sentence boundaries, so consider each sentence
+        # independently
+        for sent in sents:
+            
+            # Now collect all timexes in this sentence
+            timexes = set()
+            for (w, pos, ts) in sent:
+                for t in ts:
+                    timexes.add(t)
+            
+            # Now annotate each timex
+            for timex in timexes:
+                
+                # First find the token extent of this timex
+                tfound = False
+                i = 0
+                for (w, pos, ts) in sent:
+                    if timex in ts:
+                        if tfound == False:
+                            tfound = True
+                            ei = i
+                        ej = i
+                    i = i + 1
+                
+                # Slice up into different extents
+                before = sent[:ei]
+                body = sent[ei:ej]
+                after = sent[ej:]
+                
+                # Now run the rules
+                rules_run = set()
+                rules_to_run = set(self._rules)
+                
+                # Apply rules until all rules have been applied
+                while rules_to_run:
+                    for rule in rules_to_run.copy():
+                        
+                        # Check that if 'after' is defined, the rules we must run
+                        # after have run
+                        after_ok = True
+                        for aid in rule.after:
+                            if aid not in rules_run:
+                                after_ok = False
+                        
+                        # Apply this rule, and update our states of rules waiting to
+                        # run and rules that have been run
+                        if after_ok:
+                            rule.apply(timex, body, before, after)
+                            rules_run.add(rule.id)
+                            rules_to_run.remove(rule)
