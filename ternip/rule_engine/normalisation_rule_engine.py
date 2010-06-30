@@ -120,7 +120,7 @@ class normalisation_rule_engine(abstract_rule_engine):
                             tfound = True
                             ei = i
                         ej = i + 1
-                    i = i + 1
+                    i += 1
                 
                 # Slice up into different extents
                 before = sent[:ei]

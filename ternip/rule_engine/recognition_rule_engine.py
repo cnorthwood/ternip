@@ -104,8 +104,8 @@ class recognition_rule_engine(abstract_rule_engine):
         """
         This function actually does word recognition. It expects content to be
         split into tokenised, POS tagged, sentences. i.e., a list of lists of
-        tuples ([[(token, pos-tag), ...], ...]). Rules are applied one at a
-        time.
+        tuples ([[(token, pos-tag, timexes), ...], ...]). Rules are applied one
+        at a time.
         
         What is returned is in the same form, except the token tuples contain a
         third element consisting of the set of timexes associated with that
@@ -115,9 +115,6 @@ class recognition_rule_engine(abstract_rule_engine):
         # Apply rules on one sentence at a time
         r = []
         for sent in sents:
-            
-            # Add the element to hold Timexes
-            sent = [(token, pos, set()) for (token, pos) in sent]
             
             rules_run = set()
             rules_to_run = set(self._rules)
