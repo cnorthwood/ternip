@@ -5,9 +5,9 @@ from normalisation_rule import normalisation_rule
 from normalisation_rule_block import normalisation_rule_block
 import re
 
-class recognition_rule_engine(abstract_rule_engine):
+class normalisation_rule_engine(abstract_rule_engine):
     """
-    A class which does recognition using a rule engine
+    A class which does normalisation using a rule engine
     
     Complex rules must have a string member called 'id', which is used for
     after ordering, a list of strings called 'after' (which can be an empty
@@ -119,7 +119,7 @@ class recognition_rule_engine(abstract_rule_engine):
                         if tfound == False:
                             tfound = True
                             ei = i
-                        ej = i
+                        ej = i + 1
                     i = i + 1
                 
                 # Slice up into different extents

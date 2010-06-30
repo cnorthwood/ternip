@@ -2,12 +2,27 @@
 
 import unittest
 import ternip.rule_engine
+import ternip
 
-class recognition_rule_engine_Test(unittest.TestCase):
+class normalisation_rule_engine_Test(unittest.TestCase):
     
     def testTag(self):
         e = ternip.rule_engine.normalisation_rule_engine()
         e.load_rules('tests/rule_engine/test_normalisation_rules/')
+        t = ternip.timex(type='date')
+        e.annotate([[('We', 'POS', []),
+             ('took', 'POS', []),
+             ('a', 'POS', []),
+             ('plane', 'POS', []),
+             ('on', 'POS', []),
+             ('the', 'POS', []),
+             ('06', 'POS', [t]),
+             ('th', 'POS', [t]),
+             ('January', 'POS', [t]),
+             ('1996', 'POS', [t]),
+             ('to', 'POS', []),
+             ('Atlanta', 'POS', [])]])
+        self.assertEquals(t.value, '19960106')
     
     def testBadErrors(self):
         r = ternip.rule_engine.normalisation_rule_engine()
