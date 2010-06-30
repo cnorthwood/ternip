@@ -39,7 +39,7 @@ class normalisation_rule_engine(abstract_rule_engine):
         
         for key in d:
             
-            # Only one 'Type field allowed
+            # Only one 'Type' field allowed
             if key == 'type':
                 if (len(d[key]) != 1):
                     raise rule_load_error(filename, "There must be exactly 1 'Type' field")

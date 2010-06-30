@@ -1,0 +1,5 @@
+ID: A
+ID: B
+Value: {#2} + "01" + {#1}
+Type: date
+Match: <(\d+)~.+><th~.+><January~.+><(\d{4})~.+>

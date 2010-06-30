@@ -1,0 +1,4 @@
+Match: <(\d+)~.+><th~.+><January~.+><(\d{4})~.+>
+Value: {#2} + "01" + {#1}
+Type: date
+Type: time
