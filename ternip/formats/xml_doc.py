@@ -1,26 +1,100 @@
 #!/usr/bin/env python
 
+import nltk
 import xml.dom.minidom
 
 class xml_doc:
     """
-    An abstract base class which all XML types can inherit from.
-    
-    This class and the generic timex2 and timex3 child classes can not be
-    created from internal data only as the representations are fairly generic.
-    A more concrete standard is needed, e.g., TimeML.
+    An abstract base class which all XML types can inherit from. This implements
+    almost everything, apart from the conversion of timex objects to and from
+    timex tags in the XML. This is done by child classes 
     """
     
     @staticmethod
-    def create(sents):
+    def _build_xml_from_sents(doc, node, sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
+        """
+        Uses the given node and adds an XML form of sents to it
+        """
+        
+        for i in len(sents):
+            # Now <s> tags for each tag
+            if add_S:
+                s_tag = doc.createElement(add_S)
+            else:
+                s_tag = node
+            s_offset = 0
+            
+            for j in len(sent):
+                (tok, pos, ts) = sents[i][j]
+                
+                # Do we know what token offsets are in order to reinstate them?
+                if tok_offsets is not None:
+                    # Add whitespace between tokens if needed
+                    while s_offset < tok_offsets[i][j]:
+                        s_tag.appendChild(doc.createTextNode(' '))
+                        s_offset += 1
+                
+                # Now add each token, inside a lex tag if need be
+                if add_LEX:
+                    lex_tag = doc.createElement(add_LEX)
+                    
+                    # Set the POS attribute if need be
+                    if pos_attr:
+                        lex_tag.setAttribute(pos_attr, pos)
+                        
+                    s_tag.appendChild(lex_tag)
+                    
+                else:
+                    # Just append text
+                    s_tag.appendChild(doc.createTextNode(tok))
+                
+                # If we're not using token offsets, assume a single space is
+                # what's used
+                if tok_offsets is None:
+                    s_tag.appendChild(doc.createTextNode(' '))
+                else:
+                    # Increase our current sentence offset
+                    s_offset += len(tok)
+            
+            if add_S:
+                s_tag.normalize()
+                node.appendChild(s_tag)
+        
+        if not add_S:
+            node.normalize()
+    
+    @staticmethod
+    def create(sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
         """
         Override this to build a document from internal representation only.
+        The output this produces is pretty generic, as can be expected at this
+        high level. The root node is called 'root' and no DTD is used.
         
         sents is the [[(word, pos, timexes), ...], ...] format.
+        
+        tok_offsets is used to correctly reinsert whitespace lost in
+        tokenisation. It's in the format of a list of lists of integers, where
+        each integer is the offset from the start of the sentence of that token.
+        If set to None (the default), then a single space is assumed between
+        all tokens.
+        
+        If add_S is set to something other than false, then the tags to indicate
+        sentence boundaries are added, with the name of the tag being the value
+        of add_S
+        
+        add_LEX is similar, but for token boundaries
+        
+        pos_attr is similar but refers to the name of the attribute on the LEX
+        (or whatever) tag that holds the POS tag.
         """
-        raise NotImplementedError
+        impl = xml.dom.minidom.getDOMImplementation()
+        doc = impl.createDocument(None, 'root', None)
+        
+        xml_doc._build_xml_from_sents(doc, doc.documentElement, tok_offsets, add_S, add_LEX, pos_attr)
+        
+        return xml_doc(doc)
     
-    def __init__(self, file, nodename=None):
+    def __init__(self, file, nodename=None, has_S=False, has_LEX=False, pos_attr=False):
         """
         Passes in an XML document (as one consecutive string) which is used
         as the basis for this object.
@@ -30,7 +104,22 @@ class xml_doc:
         
         Node name is the name of the "body" of this document to be considered.
         If set to None (it's default), then the root node is considered to be
-        the document body
+        the document body.
+        
+        has_S means that the document uses XML tags to mark sentence boundaries.
+        This defaults to False, but if your XML document does, you should set it
+        to the name of your sentence boundary tag (normally 'S').
+        
+        has_LEX is similar to has_S, but for token boundaries. Again, set this
+        to your tag for token boundaries (not as common, but sometimes it's
+        'lex')
+        
+        pos_attr is the name of the attribute on your LEX (or whatever) tags
+        that indicates the POS tag for that token.
+        
+        The tagger needs tokenised sentences and tokenised and POS tagged tokens
+        in order to be able to tag. If the input does not supply this data, the
+        NLTK is used to fill the blanks.
         """
         
         if isinstance(file, xml.dom.minidom.Document):
@@ -46,13 +135,17 @@ class xml_doc:
                 raise bad_node_name_error()
             self._xml_body = tags[0]
     
-    def reconcile(self, sents, add_S = False, add_LEX = False):
+    def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
         """
         Reconciles this document against the new internal representation. If
-        add_S is set to True, this means add S tags to indicate the sentence
-        boundaries. If add_LEX is set to true, this means LEX tags are also
-        added which contain the POS attribute. This is mainly useful for
-        transforming the TERN documents into something that GUTime can parse.
+        add_S is set to anything other than False, this means tags are indicated
+        to indicate the sentence boundaries, with the tag names being the value
+        of add_S. add_LEX is the same, but for marking token boundaries, and
+        pos_attr is the name of the attribute which holds the POS tag for that
+        token. This is mainly useful for transforming the TERN documents into
+        something that GUTime can parse.
+        
+        If your document already contains S and LEX tags
         """
         raise NotImplementedError
     
