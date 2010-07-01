@@ -6,6 +6,8 @@ from timex3 import timex3
 class timeml(timex3):
     """
     A class which holds a TimeML representation of a document.
+    
+    Suitable for use with the AQUAINT dataset.
     """
     
     @staticmethod

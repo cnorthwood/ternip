@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
-from xml_doc import xml_doc
+import xml_doc
 
-class timex2(xml):
+class timex2(xml_doc.xml_doc):
     """
     A class which takes any random XML document and adds TIMEX2 tags to it.
     """
-    pass
+    
+    _timex_tag_name = 'TIMEX2'

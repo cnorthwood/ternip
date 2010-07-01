@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 
-from xml_doc import xml_doc
+import xml_doc
 
-class timex3(xml):
+class timex3(xml_doc.xml_doc):
     """
     A class which takes any random XML document and adds TIMEX3 tags to it.
+    
+    Suitable for use with Timebank
     """
-    pass
+    
+    _timex_tag_name = 'TIMEX3'

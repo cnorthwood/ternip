@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import xml.dom
 import xml.dom.minidom
 
 class xml_doc:
@@ -34,7 +33,7 @@ class xml_doc:
         the document body
         """
         
-        if isinstance(file, xml.dom.Document):
+        if isinstance(file, xml.dom.minidom.Document):
             self._xml_doc = file
         else:
             self._xml_doc = xml.dom.minidom.parseString(file)
@@ -47,12 +46,48 @@ class xml_doc:
                 raise bad_node_name_error()
             self._xml_body = tags[0]
     
-    def reconcile(self, sents):
+    def reconcile(self, sents, add_S = False, add_LEX = False):
         """
-        Reconciles this document against the new internal representation
-        (basically, add timexes)
+        Reconciles this document against the new internal representation. If
+        add_S is set to True, this means add S tags to indicate the sentence
+        boundaries. If add_LEX is set to true, this means LEX tags are also
+        added which contain the POS attribute. This is mainly useful for
+        transforming the TERN documents into something that GUTime can parse.
         """
         raise NotImplementedError
+    
+    def _strip_timexes(self, doc, node):
+        """
+        Recursively remove TIMEX tags from this node
+        """
+        
+        # Recursive step - depth-first search
+        for child in node.childNodes:
+            
+            # Get the list of nodes which replace this one (if any)
+            rep = self._strip_timexes(doc, child)
+            
+            # If it's a single node that's taking the place of this one (e.g.,
+            # if there was no change, or a timex tag that only had some text
+            # inside it)
+            if len(rep) == 1:
+                node.replaceChild(rep[0], child)
+            else:
+                # There were multiple child nodes, need to insert all of them
+                # where in the same location, in order, where their parent
+                # node was. Unfortunately replaceChild can't do replacement
+                # of a node with multiple nodes.
+                before = child.nextSibling
+                node.removeChild(child)
+                for new_node in rep:
+                    node.insertBefore(new_node, before)
+                node.normalize()
+        
+        # Base step
+        if node.nodeType == node.ELEMENT_NODE and node.tagName == self._timex_tag_name:
+            return [child for child in node.childNodes]
+        else:
+            return [node]
     
     def strip_timexes(self):
         """
@@ -60,7 +95,7 @@ class xml_doc:
         software - we can just feed in the gold standard directly and compare
         the output then.
         """
-        raise NotImplementedError
+        self._strip_timexes(self._xml_doc, self._xml_body)
     
     def get_sents(self):
         """
