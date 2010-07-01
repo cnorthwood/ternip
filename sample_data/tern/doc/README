@@ -1,0 +1,213 @@
+           ACE Time Normalization (TERN) 2004 English Training Data V1.0
+
+                                 February 1, 2005
+
+Introduction
+------------
+
+This release contains the English training data prepared for the
+2004 Time Expression Recognition and Normalization (TERN) Evaluation, 
+sponsored by the Automatic Content Extraction (ACE) program.  The evaluation 
+was held in August 2004 and a workshop in September 2004. Evaluation 
+participants received this data for training purposes, and it is now being 
+released for general use. 
+
+The annotation specifications for this corpus were developed under DARPA's 
+Translingual Information Detection Extraction and Summarization (TIDES) 
+program, with continuing support from ACE.
+
+Corpus Applications
+-------------------
+
+Keywords:  temporal reasoning, information extraction,
+     automatic content extraction, question answering, summarization
+
+The purpose of this corpus and the TERN evaluation is to advance the
+state of the art in the automatic recognition and normalization of 
+natural language temporal expressions.  In most language contexts such 
+expressions are indexical.  For example, with "Monday", "last week", or 
+"three months starting October 1", one must know the narrative reference 
+time in order to pinpoint the time interval being conveyed by the expression.
+In addition, for data exchange purposes, it is essential that the identified
+interval be rendered according to an established standard, i.e., normalized.
+Accurate identification and normalization of temporal expressions is in turn 
+essential for the temporal reasoning being demanded by advanced NLP 
+applications such as question answering, information extraction, and 
+summarization.
+
+Data Profile
+------------
+
+All of the TERN data is text, and is grouped by individual directories 
+according to each source type:
+
+  bnews - Broadcast news data from the TDT-4 Corpus
+
+  nwire - Newswire data from the TDT-4 Corpus
+
+  npaper - Washington Post articles (ace_2002 only)
+
+  arabic_treebank - Data from the Arabic Treebank 1 Corpus 
+    English translations from the MT-2003 translation data set
+
+  chinese_treebank - Data from the Chinese Treebank Version 4
+   English translations from the Chinese Treebank English Parallel Text Corpus
+
+This publication includes both the source data files in sgml format and the
+annotated files, also in sgml format (*.tmx.sgml). 
+
+An md5sum list is provided in each data directory for validation purposes.
+
+Languages
+---------
+
+This release of the TERN data contains only English language files.  The 2004 
+TERN evaluation also made use of Chinese language files, but these are not 
+being released at this time, pending further quality control procedures. 
+
+Corpus Structure and Size
+-------------------------
+
+The data/ directory contains the English corpus, which consists of
+862 files (306K words) distributed in three directories:
+ace_2002, ace_2003, and ace_2004.
+  
+The TIMEX2 annotation in the ace_2002 data set was originally created 
+for the ACE 2002 Relation Detection and Characterization (RDC) evaluation.  
+For this release, the annotations have been updated by two experienced 
+annotators, compared, and then reconciled. It is further divided by source: 
+broadcast news, newspaper, and newswire.  
+The size of this set is as follows:
+
+          words    documents
+bnews     17,922   85
+npaper    14,682   17
+nwire     34,134   78                                  
+TOTAL     66,738  180
+
+The data in ace_2003 contains the training corpus files used in the ACE 2003 
+evaluation. For this release, they have been doubly-annotated for TIMEX2 tags 
+and reconciled.
+The size of this set is as follows:
+
+	 words    documents
+bnews	 34,681   147
+nwire	 58,592   102
+TOTAL	 93,273   249
+
+The data in ace_2004 contains four subdirectories:
+
+The TDT-4 files selected by LDC for the ACE 2004 training data are contained 
+in bnews/ and nwire/.  All of the files were doubly-annotated and reconciled.
+The size of this set is as follows:
+
+	 words    documents
+bnews	 61,621	  222
+nwire	 58,543   116
+TOTAL   120,464	  338
+
+The English translations of Arabic Treebank and Chinese Treebank files 
+selected for ACE 2004 are contained in arabic_treebank/ and 
+chinese_treebank/, respectively. These files have been singly-annotated 
+and second-passed by a second annotator.
+The size of this set is as follows:
+
+		     words	documents
+arabic_treebank	     13,466	58
+chinese_treebank     12,522	37
+TOTAL		     25,988	95
+
+
+DTDs
+----
+
+The dtds/ directory contains two dtds.  Each dtd is based on 
+LDC's srctext.dtd, available from LDC for use with their TDT4 data. 
+It has been modified to accommodate files annotated with TIMEX2 and 
+STORY_REF_TIME tags.
+
+srctext_for_Timex2-2002.dtd is for use with ace_2002 files
+srctext_for_Timex2.dtd is for use with ace_2003 and ace_2004
+   bnews, nwire, and treebank files
+
+NOTE: english/chinese_treebank/chtb_153.eng.* contain two ampersands,
+which some sgml parsers (e.g., NSGMLS) may have difficulties with. 
+
+DOC
+---- 
+
+In addition to this readme, the doc/ directory contains a copy of
+the "TIDES 2003 Standard for the Annotation of Temporal Expressions,"
+which are the annotation guidelines used to create this corpus. 
+
+Bonus Tags
+----------
+
+The English ACE_2002 data contain an additional tag, STORY_REF_TIME,
+which users might find useful in training their systems. This tag
+was originally added as a training aid for the 2002 ACE RDC evaluation 
+participants.  It was NOT a required output for the system.
+
+The STORY_REF_TIME is the typical reference time used by the
+writer/speaker of a given article, and is useful for computing 
+values for indexical expressions (today, yesterday, next Tuesday, 
+two weeks ago...).   Be warned that the reference time can shift 
+throughout an article; the STORY_REF_TIME tag is intended only as a 
+general guide.
+
+Additional Resources
+--------------------
+
+Additional resources, including the evaluation results, interannotator
+agreement measures, annotation guidelines, scoring software, and 
+the annotation software used to create this corpus can be obtained at 
+the following URL:
+
+  http://timex2.mitre.org
+
+For information regarding the ACE program and ACE technology evaluations
+administered by the National Institute of Standards and Technology (NIST),
+visit
+
+  http://www.nist.gov/speech/tests/ace/ace04/index.htm
+
+If you have any questions about this corpus, 
+please contact Lisa Ferro, lferro@mitre.org.
+
+Authors
+--------  
+
+Lisa Ferro <lferro@mitre.org>, Laurie Gerber <gerbl@pacbell.net>, 
+Janet Hitzeman <hitz@mitre.org>, Elizabeth Lima <elima@fas.harvard.edu>, 
+Beth Sundheim <beth.sundheim@navy.mil> 
+
+Copyrights
+----------
+
+Portions 
+Copyright 1998 Los Angeles Times-Washington Post News Service, Inc.
+Copyright 1998, 2000 American Broadcasting Corporation
+Copyright 1998, 2000 Cable News Network, Inc.
+Copyright 1998, 2000 Press Association, Inc.
+Copyright 1998, 2000 New York Times
+Copyright 1998, 2000 National Broadcasting Company, Inc.
+Copyright 1998, 2000 Public Radio International
+Copyright 2000 Xinhua News
+Copyright 2000 SPH AsiaOne Ltd.
+Copyright 2000 China National Radio
+Copyright 2000 China Television System
+Copyright 2000 China TV Program Agency
+Copyright 2000 China Broadcasting System
+
+"The World" is a co-production of Public Radio International and the 
+British Broadcasting Corporation and is produced at WGBH Boston. 
+
+
+---
+
+this readme created February 1, 2005
+
+
+
+
+
