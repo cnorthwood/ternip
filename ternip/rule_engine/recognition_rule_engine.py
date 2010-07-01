@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from abstract_rule_engine import abstract_rule_engine, rule_load_error, rule_load_errors
+from rule_engine import rule_engine, rule_load_error, rule_load_errors
 from recognition_rule import recognition_rule
 from recognition_rule_block import recognition_rule_block
 import re
 
-class recognition_rule_engine(abstract_rule_engine):
+class recognition_rule_engine(rule_engine):
     """
     A class which does recognition using a rule engine
     

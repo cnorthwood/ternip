@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from abstract_rule_engine import abstract_rule_engine, rule_load_error, rule_load_errors
+from rule_engine import rule_engine, rule_load_error, rule_load_errors
 from normalisation_rule import normalisation_rule
 from normalisation_rule_block import normalisation_rule_block
 import re
 
-class normalisation_rule_engine(abstract_rule_engine):
+class normalisation_rule_engine(rule_engine):
     """
     A class which does normalisation using a rule engine
     

@@ -7,7 +7,7 @@ import os.path
 
 import rule_block
 
-class abstract_rule_engine:
+class rule_engine:
     """
     A base class for rule engines to use
     """

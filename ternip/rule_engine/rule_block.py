@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from abstract_rule_engine import rule_load_error
+from rule_engine import rule_load_error
 
 class rule_block:
     
