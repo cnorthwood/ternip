@@ -11,18 +11,16 @@ class xml_doc:
     """
     
     @staticmethod
-    def _build_xml_from_sents(doc, node, sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
+    def _add_words_to_node_from_sents(doc, node, sents, tok_offsets=None):
         """
-        Uses the given node and adds an XML form of sents to it
+        Uses the given node and adds an XML form of sents to it. The node
+        passed in should have no children (be an empty element)
         """
         
+        # Just add text here, then leave it up to reconcile to add all other
+        # tags
+        
         for i in len(sents):
-            # Now <s> tags for each tag
-            if add_S:
-                s_tag = doc.createElement(add_S)
-            else:
-                s_tag = node
-            s_offset = 0
             
             for j in len(sent):
                 (tok, pos, ts) = sents[i][j]
@@ -34,19 +32,8 @@ class xml_doc:
                         s_tag.appendChild(doc.createTextNode(' '))
                         s_offset += 1
                 
-                # Now add each token, inside a lex tag if need be
-                if add_LEX:
-                    lex_tag = doc.createElement(add_LEX)
-                    
-                    # Set the POS attribute if need be
-                    if pos_attr:
-                        lex_tag.setAttribute(pos_attr, pos)
-                        
-                    s_tag.appendChild(lex_tag)
-                    
-                else:
-                    # Just append text
-                    s_tag.appendChild(doc.createTextNode(tok))
+                # Add the text
+                s_tag.appendChild(doc.createTextNode(tok))
                 
                 # If we're not using token offsets, assume a single space is
                 # what's used
@@ -55,13 +42,8 @@ class xml_doc:
                 else:
                     # Increase our current sentence offset
                     s_offset += len(tok)
-            
-            if add_S:
-                s_tag.normalize()
-                node.appendChild(s_tag)
         
-        if not add_S:
-            node.normalize()
+        node.normalize()
     
     @staticmethod
     def create(sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
@@ -90,7 +72,9 @@ class xml_doc:
         impl = xml.dom.minidom.getDOMImplementation()
         doc = impl.createDocument(None, 'root', None)
         
-        xml_doc._build_xml_from_sents(doc, doc.documentElement, tok_offsets, add_S, add_LEX, pos_attr)
+        xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
+        
+        # Now reconcile
         
         return xml_doc(doc)
     

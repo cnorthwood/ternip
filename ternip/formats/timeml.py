@@ -35,6 +35,8 @@ class timeml(timex3):
         impl = xml.dom.minidom.getDOMImplementation()
         doc = impl.createDocument('http://www.timeml.org/site/publications/timeMLdocs/timeml_1.2.1.dtd', 'TimeML', None)
         
-        xml_doc._build_xml_from_sents(doc, doc.documentElement, tok_offsets, add_S, add_LEX, pos_attr)
+        xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
+        
+        # Now reconcile
         
         return timeml(doc)
