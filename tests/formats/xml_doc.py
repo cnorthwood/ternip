@@ -11,6 +11,6 @@ class _xml_doc(ternip.formats.xml_doc.xml_doc):
 class xml_doc_Test(unittest.TestCase):
     
     def test_strip_timexes(self):
-        t = _xml_doc("""<root>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>.</root>""")
+        t = _xml_doc('<root>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>.</root>')
         t.strip_timexes()
-        self.assertEquals(str(t), xml.dom.minidom.parseString("""<root>This is some annotated embedded annotated text.</root>""").toxml())
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root>This is some annotated embedded annotated text.</root>').toxml())
