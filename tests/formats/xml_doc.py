@@ -6,7 +6,8 @@ import xml.dom.minidom
 
 class _xml_doc(ternip.formats.xml_doc.xml_doc):
     
-    _timex_tag_name = 'FOO'
+    def strip_timexes(self):
+        self._strip_tags(self._xml_doc, 'FOO', self._xml_body)
 
 class xml_doc_Test(unittest.TestCase):
     
