@@ -147,8 +147,9 @@ class xml_doc:
             if len(rep) == 1:
                 # If it's a single node that's taking the place of this one (e.g.,
                 # if there was no change, or a timex tag that only had some text
-                # inside it)
-                node.replaceChild(rep[0], child)
+                # inside it), but only if the node's changed
+                if rep[0] is not child:
+                    node.replaceChild(rep[0], child)
             else:
                 # There were multiple child nodes, need to insert all of them
                 # where in the same location, in order, where their parent
