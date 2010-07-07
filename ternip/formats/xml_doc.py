@@ -120,6 +120,10 @@ class xml_doc:
             if len(tags) != 1:
                 raise bad_node_name_error()
             self._xml_body = tags[0]
+        
+        self._has_S = has_S
+        self._has_LEX = has_LEX
+        self._pos_attr = pos_attr
     
     def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
         """
@@ -131,8 +135,37 @@ class xml_doc:
         token. This is mainly useful for transforming the TERN documents into
         something that GUTime can parse.
         
-        If your document already contains S and LEX tags
+        If your document already contains S and LEX tags, they will be stripped,
+        and the new ones added.
         """
+        
+        # Strip old TIMEXes, as they are always added
+        self.strip_timexes()
+        
+        # If S tags are being added, strip the old ones, if there are any.
+        if self._has_S and add_S:
+            self._strip_tags(self._xml_doc, self._has_S, self._xml_body)
+        
+        # If LEX tags are being added, strip the old ones, if there are any.
+        if self._has_LEX and add_LEX:
+            self._strip_tags(self._xml_doc, self._has_LEX, self._xml_body)
+        
+        # First, add S tags if need be. If add_S is none and also has_S is none,
+        # then concatenate all the lists in sents to one massive thing, and
+        # treat the root as the S tag.
+        
+        # If add_LEX = False but has_LEX, change the value of self._pos_attr to
+        # the POS tag in the tuple. If pos_attr != self._pos_attr, then remove
+        # the old one and add the new one. EDGE CASE!
+        
+        # Update what we consider to be our S and LEX tags
+        if add_S:
+            self._has_S = add_S
+        if add_LEX:
+            self._has_LEX = add_LEX
+        if pos_attr:
+            self._pos_attr = pos_attr
+        
         raise NotImplementedError
     
     def _strip_tags(self, doc, tagname, node):
@@ -175,7 +208,7 @@ class xml_doc:
         software - we can just feed in the gold standard directly and compare
         the output then.
         """
-        raise NotImplementedError
+        self._strip_tags(self._xml_doc, self._timex_tag_name, self._xml_body)
     
     def get_sents(self):
         """

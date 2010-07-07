@@ -9,5 +9,4 @@ class timex3(xml_doc.xml_doc):
     Suitable for use with Timebank
     """
     
-    def strip_timexes(self):
-        self._strip_tags(self._xml_doc, 'TIMEX3', self._xml_body)
+    _timex_tag_name = 'TIMEX3'

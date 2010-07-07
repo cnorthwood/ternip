@@ -9,5 +9,4 @@ class timex2(xml_doc.xml_doc):
     Appears to work fine with the TERN data, even though that's technically SGML
     """
     
-    def strip_timexes(self):
-        self._strip_tags(self._xml_doc, 'TIMEX2', self._xml_body)
+    _timex_tag_name = 'TIMEX2'
