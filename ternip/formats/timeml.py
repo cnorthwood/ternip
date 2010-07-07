@@ -35,8 +35,10 @@ class timeml(timex3):
         impl = xml.dom.minidom.getDOMImplementation()
         doc = impl.createDocument('http://www.timeml.org/site/publications/timeMLdocs/timeml_1.2.1.dtd', 'TimeML', None)
         
-        xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
+        # Create a document with just text nodes
+        x = xml_doc(xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets), doc.documentElement)
         
-        # Now reconcile
+        # Now reconcile the S, LEX and TIMEX tags
+        x.reconcile(sents, add_S, add_LEX, pos_attr)
         
         return timeml(doc)

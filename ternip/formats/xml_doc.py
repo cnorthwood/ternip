@@ -72,11 +72,13 @@ class xml_doc:
         impl = xml.dom.minidom.getDOMImplementation()
         doc = impl.createDocument(None, 'root', None)
         
-        xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
+        # Create a document with just text nodes
+        x = xml_doc(xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets), doc.documentElement)
         
-        # Now reconcile
+        # Now reconcile the S, LEX and TIMEX tags
+        x.reconcile(sents, add_S, add_LEX, pos_attr)
         
-        return xml_doc(doc)
+        return x
     
     def __init__(self, file, nodename=None, has_S=False, has_LEX=False, pos_attr=False):
         """
