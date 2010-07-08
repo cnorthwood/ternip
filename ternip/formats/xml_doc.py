@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-import nltk
+import nltk.tokenize
+import nltk.tag
 import xml.dom.minidom
 
 class xml_doc:
@@ -210,18 +211,139 @@ class xml_doc:
         """
         self._strip_tags(self._xml_doc, self._timex_tag_name, self._xml_body)
     
+    def _get_text(self, element):
+        """
+        Given an element, returns only the text only nodes in it concatenated
+        together
+        """
+        
+        text = ""
+        
+        # depth-first search, recursive step
+        for child in element.childNodes:
+            text += self._get_text(child)
+        
+        # base step - text node is what we want to include
+        if element.nodeType == element.TEXT_NODE:
+            text += element.data
+        
+        return text
+    
+    def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):
+        """
+        Given a node (which spans multiple sentences), a list of sentences which
+        have nodes assigned, and those which don't currently have nodes assigned
+        """
+        
+        # Get next not done sent
+        (sent, snodes) = nondone_sents[0]
+        
+        # Align start of node with where we care about
+        text = self._get_text(node)
+        text = text[text.find(sent[senti:senti+1]):]
+        
+        if len(text) > len(sent) - senti and node.nodeType != node.TEXT_NODE:
+            # This node is longer than what's remaining in our sentence, so
+            # try and find a small enough piece.
+            for child in node.childNodes:
+                (done_sents, nondone_sents, senti) = self._nodes_to_sents(child, done_sents, nondone_sents, senti)
+        
+        elif len(text) > len(sent) - senti and node.nodeType == node.TEXT_NODE:
+            # It's a text node! Append the relevant part of this text node to
+            # this sent
+            snodes.append(self._xml_doc.createTextNode(text[:len(sent) - senti]))
+            
+            # Mark this sentence as done, yay!
+            done_sents.append(nondone_sents[0])
+            nondone_sents = nondone_sents[1:]
+            
+            # Now recurse on the next text node
+            (done_sents, nondone_sents, senti) = self._nodes_to_sents(self._xml_doc.createTextNode(text[len(sent) - senti:]), done_sents, nondone_sents, 0)
+        
+        else:
+            # This node is shorter or the same length as what's left in this
+            # sentence! So we can just add this node
+            snodes.append(node)
+            nondone_sents[0] = (sent, snodes)
+            senti += len(text)
+            
+            # Now, if that sentence is complete, then move it from nondone into
+            # done
+            if senti == len(sent):
+                done_sents.append(nondone_sents[0])
+                nondone_sents = nondone_sents[1:]
+                senti = 0
+        
+        return (done_sents, nondone_sents, senti)
+        
     def get_sents(self):
         """
         Returns a representation of this document in the
         [[(word, pos, timexes), ...], ...] format.
+        
+        If there are any TIMEXes in the input document that cross sentence
+        boundaries (and the input is not already broken up into sentences with
+        the S tag), then those TIMEXes are disregarded.
         """
-        raise NotImplementedError
+        
+        # Is this pre-tokenised into sentences?
+        if self._has_S:
+            # easy
+            sents = [(self._get_text(sent), [sent]) for sent in self._xml_body.getElementsByTagName(self._has_S)]
+        else:
+            (sents, ndsents, i) = self._nodes_to_sents(self._xml_body, [], [(sent, []) for sent in nltk.tokenize.sent_tokenize(self._get_text(self._xml_body))], 0)
+            if len(ndsents) > 0:
+                print sents, ndsents, i
+                raise tokenise_error('INTERNAL ERROR: there appears to be sentences not assigned to nodes')
+        
+        # Is this pre-tokenised into tokens?
+        if self._has_LEX:
+            # Go through each node, and find the LEX tags in there
+            tsents = []
+            for (sent, nodes) in sents:
+                toks = []
+                for node in nodes:
+                    if node.nodeType == node.ELEMENT_NODE:
+                        # If this is a LEX tag
+                        if node.tagName == self._has_LEX:
+                            toks.append((self._get_text(node), node))
+                        else:
+                            # get any lex tags which are children of this node
+                            # and add them
+                            for lex in node.getElementsByTagName(self._has_LEX):
+                                toks.append((self._get_text(lex), lex))
+                tsents.append((toks, nodes))
+        else:
+            # Don't need to keep nodes this time, so this is easier than
+            # sentence tokenisation
+            tsents = [([(tok, None) for tok in nltk.tokenize.word_tokenize(sent)], nodes) for (sent, nodes) in sents]
+        
+        # Right, now POS tag. If POS is an attribute on the LEX tag, then just
+        # use that
+        if self._has_LEX and self._pos_attr:
+            psents = [([(tok, tag.getAttribute(self._pos_attr)) for (tok, tag) in sent], nodes) for (sent, nodes) in tsents]
+        else:
+            # use the NLTK
+            psents = [([t for t in nltk.tag.pos_tag([s for (s, a) in sent])], nodes) for (sent, nodes) in tsents]
+        
+        # Now do timexes
+        # TODO
+        
+        return [[(t, pos, []) for (t, pos) in sent] for (sent, node) in psents]
     
     def __str__(self):
         """
         String representation of this document
         """
         return self._xml_doc.toxml()
+
+class tokenise_error(Exception):
+    
+    def __init__(self, s):
+        self._s = s
+    
+    def __str__(self):
+        return str(self._s)
 
 class bad_node_name_error(Exception):
         
