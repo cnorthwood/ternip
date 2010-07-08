@@ -10,18 +10,18 @@ class normalisation_rule_engine_Test(unittest.TestCase):
         e = ternip.rule_engine.normalisation_rule_engine()
         e.load_rules('tests/rule_engine/test_normalisation_rules/')
         t = ternip.timex(type='date')
-        e.annotate([[('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', []),
-             ('06', 'POS', [t]),
-             ('th', 'POS', [t]),
-             ('January', 'POS', [t]),
-             ('1996', 'POS', [t]),
-             ('to', 'POS', []),
-             ('Atlanta', 'POS', [])]], '')
+        e.annotate([[('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set()),
+             ('06', 'POS', set([t])),
+             ('th', 'POS', set([t])),
+             ('January', 'POS', set([t])),
+             ('1996', 'POS', set([t])),
+             ('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]], '')
         self.assertEquals(t.value, '19960106')
     
     def testBadErrors(self):

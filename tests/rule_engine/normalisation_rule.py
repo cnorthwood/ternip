@@ -9,43 +9,43 @@ class normalisation_rule_Test(unittest.TestCase):
     def testApply(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='date')
-        self.assertTrue(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
+        self.assertTrue(rule.apply(t, '', '', [('06', 'POS', set([t])), ('th', 'POS', set([t])), ('January', 'POS', set([t])), ('1996', 'POS', set([t]))], [], [])[0])
         self.assertEquals(t.value, '19960106')
     
     def testApplyInsensitive(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><january~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='date')
-        self.assertTrue(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
+        self.assertTrue(rule.apply(t, '', '', [('06', 'POS', set([t])), ('th', 'POS', set([t])), ('January', 'POS', set([t])), ('1996', 'POS', set([t]))], [], [])[0])
         self.assertEquals(t.value, '19960106')
     
     def testNoApply(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><February~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='date')
-        self.assertFalse(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
+        self.assertFalse(rule.apply(t, '', '', [('06', 'POS', set([t])), ('th', 'POS', set([t])), ('January', 'POS', set([t])), ('1996', 'POS', set([t]))], [], [])[0])
         self.assertEquals(t.value, None)
     
     def testApplyCorrectType(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='time')
-        self.assertFalse(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
+        self.assertFalse(rule.apply(t, '', '', [('06', 'POS', set([t])), ('th', 'POS', set([t])), ('January', 'POS', set([t])), ('1996', 'POS', set([t]))], [], [])[0])
     
     def testPosGuardAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}',
                                   guards = [r'<on~.+><the~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
@@ -55,18 +55,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   guards = [r'<a~.+><train~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
@@ -75,18 +75,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   guards = [r'!<a~.+><train~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
@@ -96,18 +96,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   guards = [r'!<on~.+><the~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
@@ -116,18 +116,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   before_guards = [r'<on~.+><the~.+>$'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
@@ -137,18 +137,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   before_guards = [r'<to~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
@@ -157,18 +157,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   before_guards = [r'!<to~.+><Atlanta~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
@@ -178,18 +178,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   before_guards = [r'!<a~.+><plane~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
@@ -198,18 +198,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   after_guards = [r'<to~.+><Atlanta~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
@@ -219,18 +219,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   after_guards = [r'<a~.+><plane~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
@@ -239,18 +239,18 @@ class normalisation_rule_Test(unittest.TestCase):
                                   after_guards = [r'!<a~.+><plane~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
@@ -260,17 +260,17 @@ class normalisation_rule_Test(unittest.TestCase):
                                   after_guards = [r'!<to~.+><Atlanta~.+>'])
         t = timex(type='date')
         (before, body, after) = (
-            [('We', 'POS', []),
-             ('took', 'POS', []),
-             ('a', 'POS', []),
-             ('plane', 'POS', []),
-             ('on', 'POS', []),
-             ('the', 'POS', [])],
-            [('06', 'POS', []),
-             ('th', 'POS', []),
-             ('January', 'POS', []),
-             ('1996', 'POS', [])],
-            [('to', 'POS', []),
-             ('Atlanta', 'POS', [])]
+            [('We', 'POS', set()),
+             ('took', 'POS', set()),
+             ('a', 'POS', set()),
+             ('plane', 'POS', set()),
+             ('on', 'POS', set()),
+             ('the', 'POS', set())],
+            [('06', 'POS', set()),
+             ('th', 'POS', set()),
+             ('January', 'POS', set()),
+             ('1996', 'POS', set())],
+            [('to', 'POS', set()),
+             ('Atlanta', 'POS', set())]
         )
         self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
