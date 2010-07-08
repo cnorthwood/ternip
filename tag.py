@@ -31,6 +31,7 @@ norm_group.add_option('--normalisation-rules', dest='normalisation_rules', type=
 option_parser.add_option_group(norm_group)
 
 (options, args) = option_parser.parse_args()
+print options
 
 if len(args) != 1:
     # Only parse one file at a time
@@ -41,30 +42,30 @@ if len(args) != 1:
 input_file = args[0]
 
 # Create document for input file
-if options['doc_type'] == 'timex2':
+if options.doc_type == 'timex2':
     with open(input_file) as fd:
-        doc = ternip.formats.timex2(fd.read(), options['has_S'], options['has_LEX'], options['pos_attr'])
-elif options['doc_type'] == 'timex3':
+        doc = ternip.formats.timex2(fd.read(), options.has_S, options.has_LEX, options.pos_attr)
+elif options.doc_type == 'timex3':
     with open(input_file) as fd:
-        doc = ternip.formats.timex3(fd.read(), options['has_S'], options['has_LEX'], options['pos_attr'])
+        doc = ternip.formats.timex3(fd.read(), options.has_S, options.has_LEX, options.pos_attr)
 else:
     option_parser.print_help()
     print "invalid document type specified"
     sys.exit(1)
 
 # Strip TIMEXes from the input document if need be
-if options['strip_timexes']:
+if options.strip_timexes:
     doc.strip_timexes()
 
 # Get internal representation
 sents = doc.get_sents()
 
 # Load correct recognition engine
-if options['recognition_engine'] is None:
+if options.recognition_engine is None:
     recogniser = None
-elif options['recognition_engine'] == 'rule':
+elif options.recognition_engine == 'rule':
     recogniser = ternip.rule_engine.recognition_rule_engine()
-    recogniser.load_rules(options['recognition_rules'])
+    recogniser.load_rules(options.recognition_rules)
 else:
     option_parser.print_help()
     print "invalid recognition engine specified"
@@ -75,11 +76,11 @@ if recogniser is not None:
     sents = recogniser.tag(sents)
 
 # Load correct recognition engine
-if options['normalisation_engine'] is None:
+if options.normalisation_engine is None:
     normaliser = None
-elif options['normalisation_engine'] == 'rule':
+elif options.normalisation_engine == 'rule':
     normaliser = ternip.rule_engine.normalisation_rule_engine()
-    normaliser.load_rules(options['normalisation_rules'])
+    normaliser.load_rules(options.normalisation_rules)
 else:
     option_parser.print_help()
     print "invalid normalisation engine specified"
