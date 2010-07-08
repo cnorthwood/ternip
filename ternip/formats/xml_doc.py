@@ -3,6 +3,7 @@
 import nltk.tokenize
 import nltk.tag
 import xml.dom.minidom
+from collections import defaultdict
 
 class xml_doc:
     """
@@ -106,7 +107,12 @@ class xml_doc:
         
         The tagger needs tokenised sentences and tokenised and POS tagged tokens
         in order to be able to tag. If the input does not supply this data, the
-        NLTK is used to fill the blanks.
+        NLTK is used to fill the blanks. If this input is supplied, it is
+        blindly accepted as reasonably sensible. If there are tokens which are
+        not annotated (for whatever reason), then alignment between XML nodes
+        and the results of the tagging may fail and give undesirable results.
+        Similarly, if tokens are embedded inside other tokens, this will also
+        error in likely undesirable way, and such a tagging is likely erroneous.
         """
         
         if isinstance(file, xml.dom.minidom.Document):
@@ -211,23 +217,37 @@ class xml_doc:
         """
         self._strip_tags(self._xml_doc, self._timex_tag_name, self._xml_body)
     
-    def _get_text(self, element):
+    def _get_text_recurse(self, element, until = None):
         """
         Given an element, returns only the text only nodes in it concatenated
-        together
+        together, up until the node specified by until is reached.
         """
         
+        cont = True
         text = ""
         
-        # depth-first search, recursive step
-        for child in element.childNodes:
-            text += self._get_text(child)
-        
-        # base step - text node is what we want to include
-        if element.nodeType == element.TEXT_NODE:
+        if element == until:
+            # Check if we need to stop
+            cont = False
+        elif element.nodeType == element.TEXT_NODE:
+            # If it's a text node, add the data, and no more recursion
             text += element.data
-        
-        return text
+        else:
+            # depth-first search, recursive step
+            for child in element.childNodes:
+                (cont, t) = self._get_text_recurse(child, until)
+                text += t
+                if not cont:
+                    break
+            
+        return (cont, text)
+    
+    def _get_text(self, element, until = None):
+        """
+        Given an element, returns only the text only nodes in it concatenated
+        together, up until the node specified by until is reached.
+        """
+        return self._get_text_recurse(element, until)[1]
     
     def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):
         """
@@ -240,7 +260,7 @@ class xml_doc:
         
         # Align start of node with where we care about
         text = self._get_text(node)
-        text = text[text.find(sent[senti:senti+1]):]
+        text = text[text.find(sent[senti]):]
         
         if len(text) > len(sent) - senti and node.nodeType != node.TEXT_NODE:
             # This node is longer than what's remaining in our sentence, so
@@ -275,7 +295,27 @@ class xml_doc:
                 senti = 0
         
         return (done_sents, nondone_sents, senti)
+    
+    def _timex_node_token_align(self, text, sent, tokeni):
+        """
+        Given a tokenised sentence and some text, with some starting token
+        offset, figure out which is the token after the last token in this
+        block of text
+        """
+        texti = 0
+        for (token, pos, timexes) in sent[tokeni:]:
+            text_offset = text[texti:].find(sent[tokeni][0][0])
+            if text_offset == -1:
+                # can't align with what's left, so next token must be a boundary
+                break
+            else:
+                # Move our text point along to the end of the current token,
+                # and continue
+                texti += text_offset + len(token)
+                tokeni += 1
         
+        return tokeni
+    
     def get_sents(self):
         """
         Returns a representation of this document in the
@@ -291,6 +331,9 @@ class xml_doc:
             # easy
             sents = [(self._get_text(sent), [sent]) for sent in self._xml_body.getElementsByTagName(self._has_S)]
         else:
+            # Get the text, sentence tokenise it and then assign the content
+            # nodes of a sentence to that sentence. This is used for identifying
+            # LEX tags, if any, and TIMEX tags, if any, later.
             (sents, ndsents, i) = self._nodes_to_sents(self._xml_body, [], [(sent, []) for sent in nltk.tokenize.sent_tokenize(self._get_text(self._xml_body))], 0)
             if len(ndsents) > 0:
                 print sents, ndsents, i
@@ -303,15 +346,14 @@ class xml_doc:
             for (sent, nodes) in sents:
                 toks = []
                 for node in nodes:
-                    if node.nodeType == node.ELEMENT_NODE:
+                    if node.nodeType == node.ELEMENT_NODE and node.tagName == self._has_LEX:
                         # If this is a LEX tag
-                        if node.tagName == self._has_LEX:
-                            toks.append((self._get_text(node), node))
-                        else:
-                            # get any lex tags which are children of this node
-                            # and add them
-                            for lex in node.getElementsByTagName(self._has_LEX):
-                                toks.append((self._get_text(lex), lex))
+                        toks.append((self._get_text(node), node))
+                    elif node.nodeType == node.ELEMENT_NODE or node.nodeType == node.DOCUMENT_NODE:
+                        # get any lex tags which are children of this node
+                        # and add them
+                        for lex in node.getElementsByTagName(self._has_LEX):
+                            toks.append((self._get_text(lex), lex))
                 tsents.append((toks, nodes))
         else:
             # Don't need to keep nodes this time, so this is easier than
@@ -326,10 +368,41 @@ class xml_doc:
             # use the NLTK
             psents = [([t for t in nltk.tag.pos_tag([s for (s, a) in sent])], nodes) for (sent, nodes) in tsents]
         
-        # Now do timexes
-        # TODO
+        # Now do timexes - first get all timex tags in a sent
+        txsents = []
+        for (sent, nodes) in psents:
+            txsent = [(t, pos, set()) for (t, pos) in sent]
+            for node in nodes:
+                if node.nodeType == node.ELEMENT_NODE or node.nodeType == node.DOCUMENT_NODE:
+                    if node.tagName == self._timex_tag_name:
+                        timex_nodes = [node]
+                    else:
+                        timex_nodes = node.getElementsByTagName(self._timex_tag_name)
+                    
+                    # Now, for each timex tag, create a timex object to
+                    # represent it
+                    for timex_node in timex_nodes:
+                        timex = self._timex_from_node(timex_node)
+                        
+                        # Now figure out the extent of it
+                        timex_body = self._get_text(timex_node)
+                        timex_before = self._get_text(node, timex_node)
+                        
+                        # Go through each part of the before text and find the
+                        # first token in the body of the timex
+                        tokeni = self._timex_node_token_align(timex_before, txsent, 0)
+                        
+                        # Now we have the start token, find the end token from
+                        # the body of the timex
+                        tokenj = self._timex_node_token_align(timex_body, txsent, tokeni)
+                        
+                        # Okay, now add this timex to the relevant tokens
+                        for (tok, pos, timexes) in txsent[tokeni:tokenj]:
+                            timexes.add(timex)
+            
+            txsents.append(txsent)
         
-        return [[(t, pos, []) for (t, pos) in sent] for (sent, node) in psents]
+        return txsents
     
     def __str__(self):
         """
