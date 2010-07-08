@@ -34,7 +34,11 @@ class xml_doc_Test(unittest.TestCase):
     def test_to_sents_lex_tags(self):
         t = _xml_doc('<root><s><lex>This</lex> <lex>is</lex> <lex>sentence 1.</lex> <lex>This</lex> <lex>is</lex> <lex>the</lex></s> <s><lex>second</lex> <lex>sentence.</lex></s></root>', has_S='s', has_LEX='lex')
         self.assertEquals(t.get_sents(), [[('This', 'DT', []), ('is', 'VBZ', []), ('sentence 1.', 'NNP', []), ('This', 'DT', []), ('is', 'VBZ', []), ('the', 'DT', [])], [('second', 'JJ', []), ('sentence.', 'NNP', [])]])
-        
+    
+    def test_to_sents_lex_tags_no_S(self):
+        t = _xml_doc('<root><lex>This</lex> <lex>is</lex> <lex>sentence 1.</lex> <lex>This</lex> <lex>is</lex> <lex>the</lex> <lex>second</lex> <lex>sentence.</lex></root>', has_LEX='lex')
+        self.assertEquals(t.get_sents(), [[('This', 'DT', []), ('is', 'VBZ', []), ('sentence 1.', 'NNP', [])], [('This', 'DT', []), ('is', 'VBZ', []), ('the', 'DT', []), ('second', 'JJ', []), ('sentence.', 'NNP', [])]])
+    
     def test_to_sents_pos_attr(self):
         t = _xml_doc('<root><s><lex pos="POS1">This</lex> <lex pos="POS1">is</lex> <lex pos="POS1">sentence 1</lex><lex pos="POS2">.</lex> <lex pos="POS1">This</lex> <lex pos="POS1">is</lex> <lex pos="POS1">the</lex></s> <s><lex pos="POS1">second</lex> <lex pos="POS1">sentence.</lex></s></root>', has_S='s', has_LEX='lex', pos_attr='pos')
         self.assertEquals(t.get_sents(), [[('This', 'POS1', []), ('is', 'POS1', []), ('sentence 1', 'POS1', []), ('.', 'POS2', []), ('This', 'POS1', []), ('is', 'POS1', []), ('the', 'POS1', [])], [('second', 'POS1', []), ('sentence.', 'POS1', [])]])
