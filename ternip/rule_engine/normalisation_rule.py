@@ -56,7 +56,7 @@ class normalisation_rule(rule.rule):
         self._before_guards = self._load_guards(before_guards)
         self._after_guards = self._load_guards(after_guards)
     
-    def apply(self, timex, body, before, after):
+    def apply(self, timex, cur_context, dct, body, before, after):
         """
         Applies this rule to this timex, where body is the full extent covered
         by this timex, before is the preceeding text in the sentence, and after
@@ -69,17 +69,17 @@ class normalisation_rule(rule.rule):
         
         # Check this rule type matches the timex type
         if timex.type != self._type:
-            return False
+            return (False, cur_context)
         
         # Check before, after and whole sentence guards
         if not self._check_guards(self._toks_to_str(before), self._before_guards):
-            return False
+            return (False, cur_context)
         
         if not self._check_guards(self._toks_to_str(after), self._after_guards):
-            return False
+            return (False, cur_context)
         
         if not self._check_guards(self._toks_to_str(before + body + after), self._guards):
-            return False
+            return (False, cur_context)
         
         # Now, check if we match:
         match = self._match.search(self._toks_to_str(body))
@@ -88,7 +88,9 @@ class normalisation_rule(rule.rule):
         if match:
             if self._value_exp is not None:
                 timex.value = eval(self._value_exp)
-            return True
+            
+            # Need to update current time context, if necessary
+            return (True, cur_context)
         else:
             # Rule did not match
-            return False
+            return (False, cur_context)

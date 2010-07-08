@@ -7,7 +7,7 @@ class normalisation_rule_block(rule_block.rule_block):
     A block of normalisation rules
     """
     
-    def apply(self, timex, body, before, after):
+    def apply(self, timex, cur_context, dct, body, before, after):
         """
         Apply rules in this block, in order, to this sentence, either until one
         rule is successful, or all rules have been applied.
@@ -16,10 +16,10 @@ class normalisation_rule_block(rule_block.rule_block):
         block_success = False
         
         for rule in self._rules:
-            success = rule.apply(timex, body, before, after)
+            (success, cur_context) = rule.apply(timex, cur_context, dct, body, before, after)
             if success:
                 block_success = True
             if self._type == 'until-success' and success:
                 break
         
-        return block_success
+        return (block_success, cur_context)

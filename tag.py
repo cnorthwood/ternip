@@ -31,7 +31,6 @@ norm_group.add_option('--normalisation-rules', dest='normalisation_rules', type=
 option_parser.add_option_group(norm_group)
 
 (options, args) = option_parser.parse_args()
-print options
 
 if len(args) != 1:
     # Only parse one file at a time

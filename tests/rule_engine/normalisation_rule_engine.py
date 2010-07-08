@@ -21,7 +21,7 @@ class normalisation_rule_engine_Test(unittest.TestCase):
              ('January', 'POS', [t]),
              ('1996', 'POS', [t]),
              ('to', 'POS', []),
-             ('Atlanta', 'POS', [])]])
+             ('Atlanta', 'POS', [])]], '')
         self.assertEquals(t.value, '19960106')
     
     def testBadErrors(self):

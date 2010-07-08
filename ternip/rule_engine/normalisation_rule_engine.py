@@ -93,13 +93,19 @@ class normalisation_rule_engine(rule_engine):
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     
-    def annotate(self, sents):
+    def annotate(self, sents, dct):
         """
-        This annotates all the timexes 
+        This annotates all the timexes in the sents. dct means the document
+        creation time (in the TIDES-modified ISO8601 format), which some rules
+        may use to determine a context.
         """
         
-        # Timex's can't span sentence boundaries, so consider each sentence
-        # independently
+        # Current context
+        context_dt = dct
+        
+        # Timex's can't span sentence boundaries, but rules can alter the
+        # text context for later sentences, so consider each sentence in turn,
+        # updating the context if need be.
         for sent in sents:
             
             # Now collect all timexes in this sentence
@@ -145,6 +151,6 @@ class normalisation_rule_engine(rule_engine):
                         # Apply this rule, and update our states of rules waiting to
                         # run and rules that have been run
                         if after_ok:
-                            rule.apply(timex, body, before, after)
+                            (success, context_dt) = rule.apply(timex, context_dt, dct, body, before, after)
                             rules_run.add(rule.id)
                             rules_to_run.remove(rule)

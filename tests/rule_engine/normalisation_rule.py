@@ -9,25 +9,25 @@ class normalisation_rule_Test(unittest.TestCase):
     def testApply(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='date')
-        self.assertTrue(rule.apply(t, [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], []))
+        self.assertTrue(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
         self.assertEquals(t.value, '19960106')
     
     def testApplyInsensitive(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><january~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='date')
-        self.assertTrue(rule.apply(t, [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], []))
+        self.assertTrue(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
         self.assertEquals(t.value, '19960106')
     
     def testNoApply(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><February~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='date')
-        self.assertFalse(rule.apply(t, [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], []))
+        self.assertFalse(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
         self.assertEquals(t.value, None)
     
     def testApplyCorrectType(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}')
         t = timex(type='time')
-        self.assertFalse(rule.apply(t, [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], []))
+        self.assertFalse(rule.apply(t, '', '', [('06', 'POS', [t]), ('th', 'POS', [t]), ('January', 'POS', [t]), ('1996', 'POS', [t])], [], [])[0])
     
     def testPosGuardAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}',
@@ -47,7 +47,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertTrue(rule.apply(t, body, before, after))
+        self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
     
     def testPosGuardBlocks(self):
@@ -68,7 +68,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertFalse(rule.apply(t, body, before, after))
+        self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
     def testNegGuardAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}',
@@ -88,7 +88,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertTrue(rule.apply(t, body, before, after))
+        self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
     
     def testNegGuardBlocks(self):
@@ -109,7 +109,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertFalse(rule.apply(t, body, before, after))
+        self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
     def testPosBeforeAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}',
@@ -129,7 +129,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertTrue(rule.apply(t, body, before, after))
+        self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
     
     def testPosBeforeBlocks(self):
@@ -150,7 +150,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertFalse(rule.apply(t, body, before, after))
+        self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
     def testNegBeforeAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}',
@@ -170,7 +170,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertTrue(rule.apply(t, body, before, after))
+        self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
     
     def testNegBeforeBlocks(self):
@@ -191,7 +191,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertFalse(rule.apply(t, body, before, after))
+        self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
     def testPosAfterAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}',
@@ -211,7 +211,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertTrue(rule.apply(t, body, before, after))
+        self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
     
     def testPosAfterBlocks(self):
@@ -232,7 +232,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertFalse(rule.apply(t, body, before, after))
+        self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
         
     def testNegAfterAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', None, r'{#2} + "01" + {#1}',
@@ -252,7 +252,7 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertTrue(rule.apply(t, body, before, after))
+        self.assertTrue(rule.apply(t, '', '', body, before, after)[0])
         self.assertEquals(t.value, '19960106')
     
     def testNegAfterBlocks(self):
@@ -273,4 +273,4 @@ class normalisation_rule_Test(unittest.TestCase):
             [('to', 'POS', []),
              ('Atlanta', 'POS', [])]
         )
-        self.assertFalse(rule.apply(t, body, before, after))
+        self.assertFalse(rule.apply(t, '', '', body, before, after)[0])
