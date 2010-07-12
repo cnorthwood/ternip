@@ -53,3 +53,38 @@ class xml_doc_Test(unittest.TestCase):
     def test_to_sents_timexes(self):
         t = _xml_doc('<root><s><lex pos="POS1">This</lex> <TIMEX><lex pos="POS1">is</lex> <TIMEX><lex pos="POS1">sentence 1</lex></TIMEX></TIMEX><lex pos="POS2">.</lex> <lex pos="POS1">This</lex> <lex pos="POS1">is</lex> <lex pos="POS1">the</lex></s> <s><TIMEX><lex pos="POS1">second</lex></TIMEX> <lex pos="POS1">sentence.</lex></s></root>', has_S='s', has_LEX='lex', pos_attr='pos')
         self.assertEquals([[len(timexes) for (tok, pos, timexes) in sent] for sent in t.get_sents()], [[0, 1, 2, 0, 0, 0, 0], [1, 0]])
+    
+    def test_reconcile_S(self):
+        t = _xml_doc('<root>This is some annotated text.</root>')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><s>This is some annotated text.</s></root>').toxml())
+    
+    def test_reconcile_2S(self):
+        t = _xml_doc('<root>This is some annotated text. This is a second sentence.</root>')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                     [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><s>This is some annotated text.</s> <s>This is a second sentence.</s></root>').toxml())
+    
+    def test_reconcile_2S1(self):
+        t = _xml_doc('<root><reader>This is some annotated text.</reader> This is a second sentence.</root>')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                     [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><reader><s>This is some annotated text.</s></reader> <s>This is a second sentence.</s></root>').toxml())
+    
+    def test_reconcile_2S2(self):
+        t = _xml_doc('<root><reader>This is some annotated</reader> text. This is a second sentence.</root>')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                     [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><s><reader>This is some annotated</reader> text.</s> <s>This is a second sentence.</s></root>').toxml())
+    
+    def test_reconcile_2S3(self):
+        t = _xml_doc('<root>This is some <reader>annotated</reader> text. This is a second sentence.</root>')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                     [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><s>This is some <reader>annotated</reader> text.</s> <s>This is a second sentence.</s></root>').toxml())
+
+    def test_reconcile_2S4(self):
+        t = _xml_doc('<root><reader>This is some annotated text. This is a second sentence.</reader></root>')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                     [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><reader><s>This is some annotated text.</s> <s>This is a second sentence.</s></reader></root>').toxml())

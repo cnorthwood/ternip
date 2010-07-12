@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import ternip
 import nltk.tokenize
 import nltk.tag
 import xml.dom.minidom
@@ -132,49 +133,6 @@ class xml_doc:
         self._has_LEX = has_LEX
         self._pos_attr = pos_attr
     
-    def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
-        """
-        Reconciles this document against the new internal representation. If
-        add_S is set to anything other than False, this means tags are indicated
-        to indicate the sentence boundaries, with the tag names being the value
-        of add_S. add_LEX is the same, but for marking token boundaries, and
-        pos_attr is the name of the attribute which holds the POS tag for that
-        token. This is mainly useful for transforming the TERN documents into
-        something that GUTime can parse.
-        
-        If your document already contains S and LEX tags, they will be stripped,
-        and the new ones added.
-        """
-        
-        # Strip old TIMEXes, as they are always added
-        self.strip_timexes()
-        
-        # If S tags are being added, strip the old ones, if there are any.
-        if self._has_S and add_S:
-            self._strip_tags(self._xml_doc, self._has_S, self._xml_body)
-        
-        # If LEX tags are being added, strip the old ones, if there are any.
-        if self._has_LEX and add_LEX:
-            self._strip_tags(self._xml_doc, self._has_LEX, self._xml_body)
-        
-        # First, add S tags if need be. If add_S is none and also has_S is none,
-        # then concatenate all the lists in sents to one massive thing, and
-        # treat the root as the S tag.
-        
-        # If add_LEX = False but has_LEX, change the value of self._pos_attr to
-        # the POS tag in the tuple. If pos_attr != self._pos_attr, then remove
-        # the old one and add the new one. EDGE CASE!
-        
-        # Update what we consider to be our S and LEX tags
-        if add_S:
-            self._has_S = add_S
-        if add_LEX:
-            self._has_LEX = add_LEX
-        if pos_attr:
-            self._pos_attr = pos_attr
-        
-        raise NotImplementedError
-    
     def _strip_tags(self, doc, tagname, node):
         """
         Recursively remove a tag from this node
@@ -248,6 +206,180 @@ class xml_doc:
         together, up until the node specified by until is reached.
         """
         return self._get_text_recurse(element, until)[1]
+    
+    def _can_align_node_sent(self, node, sent):
+        """
+        Can this sentence be aligned with this node?
+        """
+        
+        text = self._get_text(node)
+        texti = 0
+        
+        # Go through each token and check it can be aligned with somewhere in
+        # the text
+        for i in range(len(sent)):
+            offset = text.find(sent[i][0][0], texti)
+            if offset == -1:
+                # This token can't be aligned, so we say we can't align, but do
+                # say how many tokens were successfully aligned
+                return (False, i, texti)
+            else:
+                texti = offset + len(sent[i][0])
+        
+        return (True, i, texti)
+    
+    def _split_text_for_S(self, node, sents, s_name, align_point):
+        """
+        Given a text node, splits it up into sentences and insert these
+        sentences in to an appropriate point in the parent node
+        """
+        
+        # Don't include leading whitespace in the tag
+        s_start = node.data.find(sents[0][0][0])
+        if s_start > 0:
+            node.parentNode.insertBefore(self._xml_doc.createTextNode(node.data[:s_start]), node)
+        
+        # Create an S tag containing the matched part
+        s_tag = self._xml_doc.createElement(s_name)
+        s_tag.appendChild(self._xml_doc.createTextNode(node.data[s_start:align_point]))
+        
+        # Insert this where this match tag is
+        node.parentNode.insertBefore(s_tag, node)
+        
+        # If there's still some text left, then create a new text node with
+        # what was left, and then insert that where this text node was, and
+        # recurse on it to tag any more sentences, if there are any
+        if align_point < len(node.data):
+            new_child = self._xml_doc.createTextNode(node.data[align_point:])
+            node.parentNode.replaceChild(new_child, node)
+            (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(node, sents[1])
+            if can_align and len(sents) > 1:
+                return self._split_text_for_S(new_child, sents[1:], s_name, text_aligned)
+            else:
+                return sents[1:]
+        else:
+            node.parentNode.removeChild(node)
+            return sents[1:]
+    
+    def _add_S_tags(self, node, sents, s_name):
+        """
+        Given a node, and some sentences, add tags called s_name such that these
+        tags denote sentence boundaries.
+        """
+        
+        # Base case
+        if len(sents) > 0:
+            sent = list(sents[0])
+        else:
+            return []
+        
+        for child in list(node.childNodes):
+            # If this node contains the entirety of this sentence, and isn't a
+            # text node, then recurse on it to break it down
+            (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(child, sent)
+            if can_align and child.nodeType != child.TEXT_NODE:
+                if len(sent) == len(sents[0]):
+                    # Current sent isn't a partial match, continue as per usual
+                    sents = self._add_S_tags(child, sents, s_name)
+                    if len(sents) > 0:
+                        sent = list(sents[0])
+                    else:
+                        return []
+            
+            elif can_align and child.nodeType == child.TEXT_NODE:
+                # If this text node does contain the full sentence so far, then
+                # break up that text node and add the text between <s> tags as
+                # appropriate
+                if len(sent) == len(sents[0]):
+                    sents = self._split_text_for_S(child, sents, s_name, text_aligned)
+                    if len(sents) > 0:
+                        sent = list(sents[0])
+                    else:
+                        return []
+                else:
+                    # If we've matched part of a sentence so far, and this
+                    # text node finishes it off, then break up the text node and
+                    # add the first bit of it to this node. Then recurse on the
+                    # rest of it with the remaining sentences
+                    s_tag.appendChild(self._xml_doc.createTextNode(child.data[:text_aligned]))
+                    new_child = self._xml_doc.createTextNode(child.data[text_aligned:])
+                    node.replaceChild(new_child, child)
+                    (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(new_child, sents[1])
+                    sents = self._split_text_for_S(new_child, sents[1:], s_name, text_aligned)
+                    if len(sents) > 0:
+                        sent = list(sents[0])
+                    else:
+                        return []
+                
+            else:
+                # What we have didn't match the whole sentence, so just add the
+                # entire node and then update how little we have left.
+                # If this is the first incomplete match we've found (that is,
+                # our partial sentence is the same as the full one), then this
+                # is a new sentence
+                if len(sent) == len(sents[0]):
+                    s_tag = self._xml_doc.createElement(s_name)
+                    node.insertBefore(s_tag, child)
+                s_tag.appendChild(child)
+                
+                # update our sentence to a partial match
+                sent = sent[tok_aligned:]
+        
+        return sents
+    
+    def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
+        """
+        Reconciles this document against the new internal representation. If
+        add_S is set to anything other than False, this means tags are indicated
+        to indicate the sentence boundaries, with the tag names being the value
+        of add_S. add_LEX is the same, but for marking token boundaries, and
+        pos_attr is the name of the attribute which holds the POS tag for that
+        token. This is mainly useful for transforming the TERN documents into
+        something that GUTime can parse.
+        
+        If your document already contains S and LEX tags, they will be stripped,
+        and the new ones added.
+        """
+        
+        # Strip old TIMEXes, as they are always added
+        self.strip_timexes()
+        
+        # For XML documents, TIMEXes need unique IDs
+        all_ts = set()
+        for sent in sents:
+            for (tok, pos, ts) in sent:
+                for t in ts:
+                    all_ts.add(t)
+        ternip.add_timex_ids(all_ts)
+        
+        # If LEX tags are being added, strip the old ones, if there are any.
+        if self._has_LEX and add_LEX:
+            self._strip_tags(self._xml_doc, self._has_LEX, self._xml_body)
+        
+        # First, add S tags if need be.
+        if add_S:
+            
+            # First, strip any old ones
+            if self._has_S:
+                self._strip_tags(self._xml_doc, self._has_S, self._xml_body)
+            
+            self._add_S_tags(self._xml_body, sents, add_S)
+            
+            # Update what we consider to be our S tags
+            self._has_S = add_S
+        
+        # If add_S is none and also has_S is none, then concatenate all the
+        # lists in sents to one massive thing, and treat the root as the S tag.
+        
+        # If add_LEX = False but has_LEX, change the value of self._pos_attr to
+        # the POS tag in the tuple. If pos_attr != self._pos_attr, then remove
+        # the old one and add the new one. EDGE CASE!
+        
+        # Update what we consider to be LEX tags
+        if add_LEX:
+            self._has_LEX = add_LEX
+        if pos_attr:
+            self._pos_attr = pos_attr
     
     def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):
         """
@@ -411,6 +543,14 @@ class xml_doc:
         return self._xml_doc.toxml()
 
 class tokenise_error(Exception):
+    
+    def __init__(self, s):
+        self._s = s
+    
+    def __str__(self):
+        return str(self._s)
+
+class nesting_error(Exception):
     
     def __init__(self, s):
         self._s = s
