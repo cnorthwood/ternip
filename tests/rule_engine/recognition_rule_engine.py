@@ -17,7 +17,7 @@ class recognition_rule_engine_Test(unittest.TestCase):
         try:
             r.load_rules('tests/rule_engine/test_recognition_rules_malformed/')
         except ternip.rule_engine.rule_load_errors as e:
-            self.assertEquals(len(e.errors), 8, "These errors were raised: " + str(e))
+            self.assertEquals(len(e.errors), 10, "These errors were raised: " + str(e))
         else:
             self.fail('No exceptions were raised/caught')
     
@@ -51,6 +51,6 @@ class recognition_rule_engine_Test(unittest.TestCase):
         try:
             r.load_rules('tests/rule_engine/test_recognition_rule_blocks_malformed/')
         except ternip.rule_engine.rule_load_errors as e:
-            self.assertEquals(len(e.errors), 4, "These errors were raised: " + str(e))
+            self.assertEquals(len(e.errors), 9, "These errors were raised: " + str(e))
         else:
             self.fail('No exceptions were raised/caught')

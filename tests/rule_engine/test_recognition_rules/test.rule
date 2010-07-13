@@ -1,3 +1,4 @@
 Type: Date
 Match: <(Thursday|Friday)~.+>
 Guard: !<last~.+>
+Squelch: FALSE

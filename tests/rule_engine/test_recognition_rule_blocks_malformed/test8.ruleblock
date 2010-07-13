@@ -1,11 +1,11 @@
 Block-Type: run-all
-ID: A
+After: 2
 
 ---
 
 Type: Date
 Match: <Thursday~.+>
-Guard: !<last~.+>
+Guard: !<last~.+>)))
 
 ---
 

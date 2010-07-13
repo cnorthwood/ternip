@@ -1,0 +1,2 @@
+Match: <(Thursday|Friday)))~.+>
+Guard: !<last~.+>
