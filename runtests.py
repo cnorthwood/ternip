@@ -10,6 +10,8 @@ from tests.rule_engine.normalisation_rule_engine import *
 
 from tests.formats.xml_doc import *
 
+from tests.timex import *
+
 def main():
     unittest.main()
 
