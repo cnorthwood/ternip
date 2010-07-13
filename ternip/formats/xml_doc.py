@@ -264,7 +264,8 @@ class xml_doc:
     def _add_S_tags(self, node, sents, s_name):
         """
         Given a node, and some sentences, add tags called s_name such that these
-        tags denote sentence boundaries.
+        tags denote sentence boundaries. Return any sentences which could not
+        be assigned in this node.
         """
         
         # Base case
@@ -327,6 +328,47 @@ class xml_doc:
         
         return sents
     
+    def _add_LEX_tags(self, node, sent, LEX_name):
+        """
+        Given a node and a sentence, enclose the tokens in that sentence with
+        tags called LEX_name to mark token boundaries.
+        """
+        
+        if len(sent) > 0:
+            # Drill down until we reach a text node, then align tokens so far in
+            # that text node.
+            if node.nodeType == node.TEXT_NODE:
+                tok = sent[0][0]
+                text = self._get_text(node)
+                start = text.find(tok[0])
+                
+                # Include any whitespace
+                if start == -1:
+                    # Could not align in this node, so continue
+                    return sent
+                elif start > 0:
+                    before = self._xml_doc.createTextNode(text[:start])
+                    node.parentNode.insertBefore(before, node)
+                
+                # Now create the LEX tag
+                lex_tag = self._xml_doc.createElement(LEX_name)
+                lex_tag.appendChild(self._xml_doc.createTextNode(text[start:start+len(tok)]))
+                node.parentNode.insertBefore(lex_tag, node)
+                
+                # Replace the text node with the list tail
+                new_text = self._xml_doc.createTextNode(text[start+len(tok):])
+                node.parentNode.replaceChild(new_text, node)
+                
+                # Continue adding for the rest of this LEX node
+                sent = sent[1:]
+                return self._add_LEX_tags(new_text, sent, LEX_name)
+                
+            else:
+                for child in node.childNodes:
+                    sent = self._add_LEX_tags(child, sent, LEX_name)
+        
+        return sent
+    
     def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
         """
         Reconciles this document against the new internal representation. If
@@ -337,8 +379,24 @@ class xml_doc:
         token. This is mainly useful for transforming the TERN documents into
         something that GUTime can parse.
         
-        If your document already contains S and LEX tags, they will be stripped,
-        and the new ones added.
+        If your document already contains S and LEX tags, and add_S/add_LEX is
+        set to add them, old S/LEX tags will be stripped first. If pos_attr is
+        set and the attribute name differs from the old POS attribute name on
+        the lex tag, then the old attribute will be removed.
+        
+        Sentence/token boundaries will not be altered in the final document
+        unless add_S/add_LEX is set. If you have changed the token boundaries in
+        the internal representation from the original form, but are not then
+        adding them back in, reconciliation may give undefined results.
+        
+        There are some inputs which would output invalid XML. For example, if
+        this document has elements which span multiple sentences, but not whole
+        parts of them, then you will be unable to add XML tags and get valid
+        XML, so failure will occur in unexpected ways.
+        
+        If you are adding LEX tags, and your XML document contains tags internal
+        to tokens, then reconciliation will fail, as it expects tokens to be in
+        a continuous piece of whitespace.
         """
         
         # Strip old TIMEXes, as they are always added
@@ -352,10 +410,6 @@ class xml_doc:
                     all_ts.add(t)
         ternip.add_timex_ids(all_ts)
         
-        # If LEX tags are being added, strip the old ones, if there are any.
-        if self._has_LEX and add_LEX:
-            self._strip_tags(self._xml_doc, self._has_LEX, self._xml_body)
-        
         # First, add S tags if need be.
         if add_S:
             
@@ -363,22 +417,58 @@ class xml_doc:
             if self._has_S:
                 self._strip_tags(self._xml_doc, self._has_S, self._xml_body)
             
-            self._add_S_tags(self._xml_body, sents, add_S)
+            # Then add the new ones
+            if len(self._add_S_tags(self._xml_body, sents, add_S)) > 0:
+                raise nesting_error('Unable to add all S tags, possibly due to bad tag nesting')
             
             # Update what we consider to be our S tags
             self._has_S = add_S
         
-        # If add_S is none and also has_S is none, then concatenate all the
-        # lists in sents to one massive thing, and treat the root as the S tag.
+        # Now, get a list of the S nodes, which are used to reconcile individual
+        # tokens
+        if self._has_S:
+            s_nodes = self._xml_body.getElementsByTagName(self._has_S)
+        else:
+            # There are no S tokens in the text. So, going forward, only
+            # consider there being one sentence, which belongs to the root node
+            s_nodes = [self._xml_body]
+            new_sent = []
+            for sent in sents:
+                for part in sent:
+                    new_sent.append(part)
+            sents = [new_sent]
         
-        # If add_LEX = False but has_LEX, change the value of self._pos_attr to
-        # the POS tag in the tuple. If pos_attr != self._pos_attr, then remove
-        # the old one and add the new one. EDGE CASE!
-        
-        # Update what we consider to be LEX tags
+        # Now, add LEX tags if need be
         if add_LEX:
+            
+            # First, strip any old ones
+            if self._has_LEX:
+                self._strip_tags(self._xml_doc, self._has_LEX, self._xml_body)
+            
+            # Now add those LEX tokens
+            for i in range(len(sents)):
+                self._add_LEX_tags(s_nodes[i], sents[i], add_LEX)
+            
+            # Update what we consider to be our LEX tags
             self._has_LEX = add_LEX
-        if pos_attr:
+        
+        # Now, add the POS attribute
+        if pos_attr and self._has_LEX:
+            
+            # Get each LEX tag and add the attribute
+            for i in range(len(sents)):
+                lex_tags = s_nodes[i].getElementsByTagName(self._has_LEX)
+                for j in range(len(sents[i])):
+                    # Strip the existing attribute if need be
+                    try:
+                        lex_tags[j].removeAttribute(self._pos_attr)
+                    except xml.dom.NotFoundErr:
+                        pass
+                    
+                    # Now set the new POS attr
+                    lex_tags[j].setAttribute(pos_attr, sents[i][j][1])
+            
+            # Update what we think is the pos attr
             self._pos_attr = pos_attr
     
     def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):

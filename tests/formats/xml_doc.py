@@ -59,6 +59,12 @@ class xml_doc_Test(unittest.TestCase):
         t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())]], add_S='s')
         self.assertEquals(str(t), xml.dom.minidom.parseString('<root><s>This is some annotated text.</s></root>').toxml())
     
+    def test_reconcile_S_strip(self):
+        t = _xml_doc('<root><t>This is some annotated text.</t> <t>This is a second sentence.</t></root>', has_S='t')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set()),
+                      ('This', 'POS', set()), ('is', 'POS', set())], [('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><s>This is some annotated text. This is</s> <s>a second sentence.</s></root>').toxml())
+    
     def test_reconcile_2S(self):
         t = _xml_doc('<root>This is some annotated text. This is a second sentence.</root>')
         t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
@@ -88,3 +94,18 @@ class xml_doc_Test(unittest.TestCase):
         t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
                      [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
         self.assertEquals(str(t), xml.dom.minidom.parseString('<root><reader><s>This is some annotated text.</s> <s>This is a second sentence.</s></reader></root>').toxml())
+    
+    def test_reconcile_LEX_S(self):
+        t = _xml_doc('<root>This is some annotated text.</root>')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())]], add_S='s', add_LEX='lex')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><s><lex>This</lex> <lex>is</lex> <lex>some</lex> <lex>annotated</lex> <lex>text.</lex></s></root>').toxml())
+    
+    def test_reconcile_LEX_strip(self):
+        t = _xml_doc('<root><t>This</t> <t>is</t> <t>some</t> <t>annotated</t> <t>text</t><t>.</t></root>', has_LEX='t')
+        t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text', 'POS', set()), ('.', 'POS', set())]], add_LEX='lex')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><lex>This</lex> <lex>is</lex> <lex>some</lex> <lex>annotated</lex> <lex>text</lex><lex>.</lex></root>').toxml())
+    
+    def test_reconcile_POS(self):
+        t = _xml_doc('<root>This is some annotated text.</root>')
+        t.reconcile([[('This', 'POS1', set()), ('is', 'POS2', set()), ('some', 'POS3', set()), ('annotated', 'POS4', set()), ('text.', 'POS5', set())]], add_LEX='lex', pos_attr='pos')
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><lex pos="POS1">This</lex> <lex pos="POS2">is</lex> <lex pos="POS3">some</lex> <lex pos="POS4">annotated</lex> <lex pos="POS5">text.</lex></root>').toxml())
