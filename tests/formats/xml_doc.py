@@ -98,6 +98,11 @@ class xml_doc_Test(unittest.TestCase):
                      [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], add_S='s')
         self.assertEquals(str(t), xml.dom.minidom.parseString('<root><reader><s>This is some annotated text.</s> <s>This is a second sentence.</s></reader></root>').toxml())
     
+    def test_reconcile_2S5(self):
+        s = _xml_doc('<root>This is some <p>annotated</p> text. This is <b>a second timex.</b></root>')
+        s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text', 'POS', set()), ('.', 'POS', set())], [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('timex.', 'POS', set())]], add_S='s')
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root><s>This is some <p>annotated</p> text.</s> <s>This is <b>a second timex.</b></s></root>').toxml())
+    
     def test_reconcile_LEX_S(self):
         t = _xml_doc('<root>This is some annotated text.</root>')
         t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())]], add_S='s', add_LEX='lex')
@@ -118,3 +123,17 @@ class xml_doc_Test(unittest.TestCase):
         t = ternip.timex()
         s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t])), ('annotated', 'POS', set([t])), ('text', 'POS', set([t])), ('.', 'POS', set())]])
         self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <TIMEX>some annotated text</TIMEX>.</root>').toxml())
+    
+    def test_reconcile_TIMEX_S(self):
+        s = _xml_doc('<root>This is some annotated text. This is a second timex.</root>')
+        t1 = ternip.timex()
+        t2 = ternip.timex()
+        s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t1])), ('annotated', 'POS', set([t1])), ('text', 'POS', set([t1])), ('.', 'POS', set())], [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set([t2])), ('second', 'POS', set([t2])), ('timex.', 'POS', set([t2]))]], add_S='s')
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root><s>This is <TIMEX>some annotated text</TIMEX>.</s> <s>This is <TIMEX>a second timex.</TIMEX></s></root>').toxml())
+    
+    def test_reconcile_TIMEX_embedded(self):
+        s = _xml_doc('<root>This is some <p>annotated</p> text. This is <b>a second timex.</b></root>')
+        t1 = ternip.timex()
+        t2 = ternip.timex()
+        s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t1])), ('annotated', 'POS', set([t1])), ('text', 'POS', set([t1])), ('.', 'POS', set())], [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set([t2])), ('second', 'POS', set([t2])), ('timex.', 'POS', set([t2]))]], add_S='s')
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root><s>This is <TIMEX>some <p>annotated</p> text</TIMEX>.</s> <s>This is <TIMEX><b>a second timex.</b></TIMEX></s></root>').toxml())

@@ -252,14 +252,90 @@ class xml_doc:
         if align_point < len(node.data):
             new_child = self._xml_doc.createTextNode(node.data[align_point:])
             node.parentNode.replaceChild(new_child, node)
-            (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(node, sents[1])
-            if can_align and len(sents) > 1:
-                return self._split_text_for_S(new_child, sents[1:], s_name, text_aligned)
+            if len(sents) > 1:
+                (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(node, sents[1])
+                if can_align:
+                    return self._split_text_for_S(new_child, sents[1:], s_name, text_aligned)
+                else:
+                    return sents[1:]
             else:
-                return sents[1:]
+                return []
         else:
             node.parentNode.removeChild(node)
             return sents[1:]
+    
+    def _handle_adding_S_tag(self, node, sent, sents, s_tag, s_name):
+        # If this node contains the entirety of this sentence, and isn't a
+        # text node, then recurse on it to break it down
+        (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(node, sent)
+        if can_align and node.nodeType != node.TEXT_NODE:
+            if len(sent) == len(sents[0]):
+                # Current sent isn't a partial match, continue as per usual
+                sents = self._add_S_tags(node, sents, s_name)
+                if len(sents) > 0:
+                    sent = list(sents[0])
+                else:
+                    return (sent, [], s_tag)
+            else:
+                # Add, because if this is a partial match but found a full
+                # node, it contains the rest of the sentence. Or it's a tag
+                # which spans sentence boundaries. The latter is bad.
+                s_tag.appendChild(node)
+        
+        elif can_align and node.nodeType == node.TEXT_NODE:
+            # If this text node does contain the full sentence so far, then
+            # break up that text node and add the text between <s> tags as
+            # appropriate
+            if len(sent) == len(sents[0]):
+                sents = self._split_text_for_S(node, sents, s_name, text_aligned)
+                if len(sents) > 0:
+                    sent = list(sents[0])
+                else:
+                    return (sent, [], s_tag)
+            else:
+                # If we've matched part of a sentence so far, and this
+                # text node finishes it off, then break up the text node and
+                # add the first bit of it to this node. Then recurse on the
+                # rest of it with the remaining sentences
+                s_tag.appendChild(self._xml_doc.createTextNode(node.data[:text_aligned]))
+                new_child = self._xml_doc.createTextNode(node.data[text_aligned:])
+                node.parentNode.replaceChild(new_child, node)
+                (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(new_child, sents[1])
+                if len(sents) > 1:
+                    sent = list(sents[1])
+                    sents = sents[1:]
+                    if can_align:
+                        sents = self._split_text_for_S(new_child, sents, s_name, text_aligned)
+                        if len(sents) > 0:
+                            sent = list(sents[0])
+                        else:
+                            return (sent, [], s_tag)
+                    else:
+                        (sent, sents, s_tag) = self._handle_adding_S_tag(new_child, sent, sents, s_tag, s_name)
+            
+        else:
+            # What we have didn't match the whole sentence, so just add the
+            # entire node and then update how little we have left.
+            # If this is the first incomplete match we've found (that is,
+            # our partial sentence is the same as the full one), then this
+            # is a new sentence
+            if len(sent) == len(sents[0]):
+                s_tag = self._xml_doc.createElement(s_name)
+                node.parentNode.insertBefore(s_tag, node)
+                if node.nodeType == node.TEXT_NODE:
+                    s_start = node.data.find(sent[0][0])
+                    if s_start > 0:
+                        s_tag.parentNode.insertBefore(self._xml_doc.createTextNode(node.data[:s_start]), s_tag)
+                    new_node = self._xml_doc.createTextNode(node.data[s_start:])
+                    node.parentNode.replaceChild(new_node, node)
+                    node = new_node
+            s_tag.appendChild(node)
+            
+            # update our sentence to a partial match
+            sent = sent[tok_aligned:]
+            return (sent, sents, s_tag)
+        
+        return (sent, sents, s_tag)
     
     def _add_S_tags(self, node, sents, s_name):
         """
@@ -274,57 +350,9 @@ class xml_doc:
         else:
             return []
         
+        s_tag = None
         for child in list(node.childNodes):
-            # If this node contains the entirety of this sentence, and isn't a
-            # text node, then recurse on it to break it down
-            (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(child, sent)
-            if can_align and child.nodeType != child.TEXT_NODE:
-                if len(sent) == len(sents[0]):
-                    # Current sent isn't a partial match, continue as per usual
-                    sents = self._add_S_tags(child, sents, s_name)
-                    if len(sents) > 0:
-                        sent = list(sents[0])
-                    else:
-                        return []
-            
-            elif can_align and child.nodeType == child.TEXT_NODE:
-                # If this text node does contain the full sentence so far, then
-                # break up that text node and add the text between <s> tags as
-                # appropriate
-                if len(sent) == len(sents[0]):
-                    sents = self._split_text_for_S(child, sents, s_name, text_aligned)
-                    if len(sents) > 0:
-                        sent = list(sents[0])
-                    else:
-                        return []
-                else:
-                    # If we've matched part of a sentence so far, and this
-                    # text node finishes it off, then break up the text node and
-                    # add the first bit of it to this node. Then recurse on the
-                    # rest of it with the remaining sentences
-                    s_tag.appendChild(self._xml_doc.createTextNode(child.data[:text_aligned]))
-                    new_child = self._xml_doc.createTextNode(child.data[text_aligned:])
-                    node.replaceChild(new_child, child)
-                    (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(new_child, sents[1])
-                    sents = self._split_text_for_S(new_child, sents[1:], s_name, text_aligned)
-                    if len(sents) > 0:
-                        sent = list(sents[0])
-                    else:
-                        return []
-                
-            else:
-                # What we have didn't match the whole sentence, so just add the
-                # entire node and then update how little we have left.
-                # If this is the first incomplete match we've found (that is,
-                # our partial sentence is the same as the full one), then this
-                # is a new sentence
-                if len(sent) == len(sents[0]):
-                    s_tag = self._xml_doc.createElement(s_name)
-                    node.insertBefore(s_tag, child)
-                s_tag.appendChild(child)
-                
-                # update our sentence to a partial match
-                sent = sent[tok_aligned:]
+            (sent, sents, s_tag) = self._handle_adding_S_tag(child, sent, sents, s_tag, s_name)
         
         return sents
     
@@ -391,7 +419,7 @@ class xml_doc:
     
     def _add_timex_child(self, timex, sent, node, start, end):
         i = 0
-        for child in node.childNodes:
+        for child in list(node.childNodes):
             e = self._get_token_extent(child, sent[i:])
             if (i + e) >= start and i < start:
                 if child.nodeType == node.TEXT_NODE:
@@ -404,6 +432,9 @@ class xml_doc:
                         texti = offset + len(tok)
                     # Now whitespace before first token
                     texti = child.data.find(sent[start][0][0], texti)
+                    if texti == -1:
+                        # The start of the TIMEX isn't in this text noed
+                        texti = len(child.data)
                     timex_tag = self._annotate_node_from_timex(timex, self._xml_doc.createElement(self._timex_tag_name))
                     
                     # Found our split point, so now create two nodes
@@ -458,11 +489,12 @@ class xml_doc:
         for child in list(s_node.childNodes):
             extent = self._get_token_extent(child, sent[start_extent:])
             end_extent = start_extent + extent
-            if start_extent < start and end_extent > end:
+            if start_extent < start and end_extent >= end:
                 # This child can completely contain the TIMEX, so recurse on it
                 # unless it's a text node
                 if child.nodeType == child.TEXT_NODE:
                     self._add_timex_child(timex, sent, s_node, start, end)
+                    break
                 else:
                     self._add_timex(timex, sent[start_extent:end_extent], child)
             elif start_extent < start and end_extent < end:
@@ -470,6 +502,7 @@ class xml_doc:
                 # completely hold it, which must mean the parent node is the
                 # highest node which contains the TIMEX
                 self._add_timex_child(timex, sent, s_node, start, end)
+                break
     
     def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
         """
@@ -510,7 +543,8 @@ class xml_doc:
             
             # Then add the new ones
             if len(self._add_S_tags(self._xml_body, sents, add_S)) > 0:
-                raise nesting_error('Unable to add all S tags, possibly due to bad tag nesting')
+                #raise nesting_error('Unable to add all S tags, possibly due to bad tag nesting')
+                pass
             
             # Update what we consider to be our S tags
             self._has_S = add_S
@@ -673,7 +707,6 @@ class xml_doc:
             # LEX tags, if any, and TIMEX tags, if any, later.
             (sents, ndsents, i) = self._nodes_to_sents(self._xml_body, [], [(sent, []) for sent in nltk.tokenize.sent_tokenize(self._get_text(self._xml_body))], 0)
             if len(ndsents) > 0:
-                print sents, ndsents, i
                 raise tokenise_error('INTERNAL ERROR: there appears to be sentences not assigned to nodes')
         
         # Is this pre-tokenised into tokens?
