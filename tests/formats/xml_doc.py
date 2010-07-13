@@ -10,6 +10,9 @@ class _xml_doc(ternip.formats.xml_doc.xml_doc):
     
     def _timex_from_node(self, node):
         return ternip.timex()
+    
+    def _annotate_node_from_timex(self, timex, node):
+        return node
 
 class xml_doc_Test(unittest.TestCase):
     
@@ -109,3 +112,9 @@ class xml_doc_Test(unittest.TestCase):
         t = _xml_doc('<root>This is some annotated text.</root>')
         t.reconcile([[('This', 'POS1', set()), ('is', 'POS2', set()), ('some', 'POS3', set()), ('annotated', 'POS4', set()), ('text.', 'POS5', set())]], add_LEX='lex', pos_attr='pos')
         self.assertEquals(str(t), xml.dom.minidom.parseString('<root><lex pos="POS1">This</lex> <lex pos="POS2">is</lex> <lex pos="POS3">some</lex> <lex pos="POS4">annotated</lex> <lex pos="POS5">text.</lex></root>').toxml())
+    
+    def test_reconcile_TIMEX(self):
+        s = _xml_doc('<root>This is some annotated text.</root>')
+        t = ternip.timex()
+        s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t])), ('annotated', 'POS', set([t])), ('text', 'POS', set([t])), ('.', 'POS', set())]])
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <TIMEX>some annotated text</TIMEX>.</root>').toxml())

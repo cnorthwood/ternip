@@ -369,6 +369,108 @@ class xml_doc:
         
         return sent
     
+    def _get_token_extent(self, node, sent):
+        if node.nodeType == node.TEXT_NODE:
+            i = 0
+            texti = 0
+            text = node.data
+            for (tok, pos, ts) in sent:
+                offset = text.find(tok[0], texti)
+                if offset < 0:
+                    return i
+                else:
+                    i += 1
+                    texti = offset + len(tok)
+        else:
+            i = 0
+            for child in node.childNodes:
+                extent = self._get_token_extent(child, sent)
+                sent = sent[extent:]
+                i += extent
+        return i
+    
+    def _add_timex_child(self, timex, sent, node, start, end):
+        i = 0
+        for child in node.childNodes:
+            e = self._get_token_extent(child, sent[i:])
+            if (i + e) >= start and i < start:
+                if child.nodeType == node.TEXT_NODE:
+                    # get length of bit before TIMEX
+                    texti = 0
+                    for (tok, pos, ts) in sent[i:start]:
+                        offset = child.data.find(tok[0], texti)
+                        if offset == -1:
+                            raise tokenise_error('INTERNAL ERROR: Could not align timex start')
+                        texti = offset + len(tok)
+                    # Now whitespace before first token
+                    texti = child.data.find(sent[start][0][0], texti)
+                    timex_tag = self._annotate_node_from_timex(timex, self._xml_doc.createElement(self._timex_tag_name))
+                    
+                    # Found our split point, so now create two nodes
+                    before_text = self._xml_doc.createTextNode(child.data[:texti])
+                    new_child = self._xml_doc.createTextNode(child.data[texti:])
+                    node.insertBefore(before_text, child)
+                    node.insertBefore(timex_tag, child)
+                    node.replaceChild(new_child, child)
+                    child = new_child
+                    i += self._get_token_extent(before_text, sent[i:])
+                    e = self._get_token_extent(child, sent[i:])
+                else:
+                    raise nesting_error('Can not tag TIMEX without causing invalid XML nesting')
+            
+            if (i + e) <= end and i >= start:
+                timex_tag.appendChild(child)
+            
+            if (i + e) > end and i < end:
+                # This crosses the end boundary
+                if child.nodeType == node.TEXT_NODE:
+                    texti = 0
+                    for (tok, pos, ts) in sent[i:end]:
+                        offset = child.data.find(tok[0], texti)
+                        if offset == -1:
+                            raise tokenise_error('INTERNAL ERROR: Could not align timex end ' + tok + ' ' + child.data)
+                        texti = offset + len(tok)
+                    
+                    # Found our split point, so now create two nodes
+                    new_child = self._xml_doc.createTextNode(child.data[texti:])
+                    timex_tag.appendChild(self._xml_doc.createTextNode(child.data[:texti]))
+                    node.replaceChild(new_child, child)
+                    
+                else:
+                    raise nesting_error('Can not tag TIMEX without causing invalid XML nesting')
+            
+            i += e
+    
+    def _add_timex(self, timex, sent, s_node):
+        # Find start:end indices for this TIMEX
+        start = 0
+        end = 0
+        t_reached = False
+        for (tok, pos, ts) in sent:
+            if timex not in ts and not t_reached:
+                start += 1
+                end += 1
+            if timex in ts:
+                t_reached = True
+                end += 1
+        
+        start_extent = 0
+        for child in list(s_node.childNodes):
+            extent = self._get_token_extent(child, sent[start_extent:])
+            end_extent = start_extent + extent
+            if start_extent < start and end_extent > end:
+                # This child can completely contain the TIMEX, so recurse on it
+                # unless it's a text node
+                if child.nodeType == child.TEXT_NODE:
+                    self._add_timex_child(timex, sent, s_node, start, end)
+                else:
+                    self._add_timex(timex, sent[start_extent:end_extent], child)
+            elif start_extent < start and end_extent < end:
+                # This child contains the start of the TIMEX, but can't
+                # completely hold it, which must mean the parent node is the
+                # highest node which contains the TIMEX
+                self._add_timex_child(timex, sent, s_node, start, end)
+    
     def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
         """
         Reconciles this document against the new internal representation. If
@@ -398,17 +500,6 @@ class xml_doc:
         to tokens, then reconciliation will fail, as it expects tokens to be in
         a continuous piece of whitespace.
         """
-        
-        # Strip old TIMEXes, as they are always added
-        self.strip_timexes()
-        
-        # For XML documents, TIMEXes need unique IDs
-        all_ts = set()
-        for sent in sents:
-            for (tok, pos, ts) in sent:
-                for t in ts:
-                    all_ts.add(t)
-        ternip.add_timex_ids(all_ts)
         
         # First, add S tags if need be.
         if add_S:
@@ -470,6 +561,30 @@ class xml_doc:
             
             # Update what we think is the pos attr
             self._pos_attr = pos_attr
+        
+        # Strip old TIMEXes to avoid duplicates
+        self.strip_timexes()
+        
+        # For XML documents, TIMEXes need unique IDs
+        all_ts = set()
+        for sent in sents:
+            for (tok, pos, ts) in sent:
+                for t in ts:
+                    all_ts.add(t)
+        ternip.add_timex_ids(all_ts)
+        
+        # Now iterate over each sentence
+        for i in range(len(sents)):
+            
+            # Get all timexes in this sentence
+            timexes = set()
+            for (word, pos, ts) in sents[i]:
+                for t in ts:
+                    timexes.add(t)
+            
+            # Now, for each timex, add it to the sentence
+            for timex in timexes:
+                self._add_timex(timex, sents[i], s_nodes[i])
     
     def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):
         """
