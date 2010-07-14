@@ -418,7 +418,7 @@ class xml_doc:
         i = 0
         for child in list(node.childNodes):
             e = self._get_token_extent(child, sent[i:])
-            if (i + e) >= start and i < start:
+            if (i + e) >= start and i <= start:
                 if child.nodeType == node.TEXT_NODE:
                     # get length of bit before TIMEX
                     texti = 0
@@ -430,7 +430,7 @@ class xml_doc:
                     # Now whitespace before first token
                     texti = child.data.find(sent[start][0][0], texti)
                     if texti == -1:
-                        # The start of the TIMEX isn't in this text noed
+                        # The start of the TIMEX isn't in this text node
                         texti = len(child.data)
                     timex_tag = self._annotate_node_from_timex(timex, self._xml_doc.createElement(self._timex_tag_name))
                     
@@ -444,13 +444,19 @@ class xml_doc:
                     i += self._get_token_extent(before_text, sent[i:])
                     e = self._get_token_extent(child, sent[i:])
                 else:
-                    raise nesting_error('Can not tag TIMEX without causing invalid XML nesting')
+                    # Error if this is a non-text node which starts before the
+                    # TIMEX but finishes inside it
+                    if i < start:
+                        raise nesting_error('Can not tag TIMEX without causing invalid XML nesting')
             
-            if (i + e) <= end and i >= start:
+            # This node is completely covered by this TIMEX, so include it
+            # inside the TIMEX, unless the timex is non consuming
+            if (i + e) <= end and i >= start and not timex.non_consuming:
                 timex_tag.appendChild(child)
             
-            if (i + e) > end and i < end:
-                # This crosses the end boundary
+            if (i + e) > end and i < end and not timex.non_consuming:
+                # This crosses the end boundary, so if our TIMEX consumes text
+                # then split the node in half (if it's a text node)
                 if child.nodeType == node.TEXT_NODE:
                     texti = 0
                     for (tok, pos, ts) in sent[i:end]:
@@ -486,7 +492,7 @@ class xml_doc:
         for child in list(s_node.childNodes):
             extent = self._get_token_extent(child, sent[start_extent:])
             end_extent = start_extent + extent
-            if start_extent < start and end_extent >= end:
+            if start_extent <= start and end_extent >= end:
                 # This child can completely contain the TIMEX, so recurse on it
                 # unless it's a text node
                 if child.nodeType == child.TEXT_NODE:

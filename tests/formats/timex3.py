@@ -11,3 +11,5 @@ class timex3_Test(unittest.TestCase):
         t = ternip.formats.timex3('<root>This is some <TIMEX3 attr="timex">annotated <TIMEX3>embedded annotated </TIMEX3>text</TIMEX3>.</root>')
         t.strip_timexes()
         self.assertEquals(str(t), xml.dom.minidom.parseString('<root>This is some annotated embedded annotated text.</root>').toxml())
+    
+    # So attempting to add a TIMEX without a type causes an error

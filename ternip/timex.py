@@ -1,5 +1,24 @@
 #!/usr/bin/env python
 
+# Attribute     TIMEX2      TIMEX3
+#---------------------------------
+# ID            None        X tid ('t' + ID)
+# value         val         value
+# mod           mod         mod
+# type          set         X type
+#               (only if type=set)
+# freq          periodicity freq
+#               ('f' + freq)
+# quant         None        quant
+# granuality    granuality  None
+# comment       comment     comment
+# non_specific  non_specific None
+# temporal_function None    temporalFunction
+# role          None        functionInDocument
+# begin_timex   None        beginPoint (ID of begin_timex)
+# end_timex     None        endPoint (ID of end_timex)
+# context       None        anchorTimeID (ID of context)
+
 class timex:
     """ A temporal expression """
     
@@ -8,9 +27,21 @@ class timex:
                  value = None,
                  id    = None):
         """ Initialise a timex object with some optional values """
-        self.type = type
-        self.value = value
-        self.id = id
+        self.type       = type
+        self.value      = value
+        self.id         = id
+        self.mod        = None
+        self.freq       = None
+        self.quant      = None
+        self.granuality = None
+        self.comment    = None
+        self.non_specific = False
+        self.temporal_function = None
+        self.begin_timex = None
+        self.end_timex  = None
+        self.context    = None
+        self.non_consuming = False
+        
 
 def add_timex_ids(ts):
     """
