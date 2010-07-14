@@ -703,7 +703,9 @@ class xml_doc:
         """
         
         # Collect all TIMEXs so we can later find those outside of a sentence
-        all_timexes = set()
+        all_timex_nodes = set()
+        all_timexes_by_id = dict()
+        all_timexes = []
         
         # Is this pre-tokenised into sentences?
         if self._has_S:
@@ -726,10 +728,10 @@ class xml_doc:
                     # Mark any TIMEX nodes as found before the deep copy
                     if node.nodeType == node.ELEMENT_NODE or node.nodeType == node.DOCUMENT_NODE:
                         for timex_tag in node.getElementsByTagName(self._timex_tag_name):
-                            all_timexes.add(timex_tag)
+                            all_timex_nodes.add(timex_tag)
                     if node.nodeType == node.ELEMENT_NODE:
                         if node.tagName == self._timex_tag_name:
-                            all_timexes.add(node)
+                            all_timex_nodes.add(node)
                     
                     # Clone the node to avoid destroying our original document
                     # and add it to our virtual S node
@@ -776,8 +778,13 @@ class xml_doc:
             # Now, for each timex tag, create a timex object to
             # represent it
             for timex_node in timex_nodes:
-                all_timexes.add(timex_node)
+                all_timex_nodes.add(timex_node)
                 timex = self._timex_from_node(timex_node)
+                
+                # Record a reference to it for resolution of attributes which
+                # refer to other references later
+                all_timexes_by_id[timex.id] = timex
+                all_timexes.append(timex)
                 
                 # Now figure out the extent of it
                 timex_body = self._get_text(timex_node)
@@ -805,17 +812,28 @@ class xml_doc:
         # Now get all TIMEX tags which are not inside <s> tags (and assume
         # they're non-consuming)
         for timex_node in self._xml_body.getElementsByTagName(self._timex_tag_name):
-            if timex_node not in all_timexes:
+            if timex_node not in all_timex_nodes:
                 
                 # Found a TIMEX that has not been seen before
-                all_timexes.add(timex_node)
+                all_timex_nodes.add(timex_node)
                 timex = self._timex_from_node(timex_node)
+                all_timexes_by_id[timex.id] = timex
+                all_timexes.append(timex)
                 
                 # Assume it's non-consuming
                 timex.non_consuming = True
                 
                 # And just add it at the front
                 txsents[0][0][2].add(timex)
+        
+        # Now resolve any dangling references
+        for timex in all_timexes:
+            if timex.begin_timex != None:
+                timex.begin_timex = all_timexes_by_id[timex.begin_timex]
+            if timex.end_timex != None:
+                timex.end_timex = all_timexes_by_id[timex.end_timex]
+            if timex.context != None:
+                timex.context = all_timexes_by_id[timex.context]
         
         return txsents
     

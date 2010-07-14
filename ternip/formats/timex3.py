@@ -2,18 +2,6 @@
 
 # Attribute     TIMEX2      TIMEX3
 #---------------------------------
-# ID            None        X tid ('t' + ID)
-# value         val         value
-# mod           mod         mod
-# type          set         X type
-#               (only if type=set)
-# freq          periodicity freq
-#               ('f' + freq)
-# quant         None        quant
-# granuality    granuality  None
-# comment       comment     comment
-# non_specific  non_specific None
-# temporal_function None    temporalFunction
 # role          None        functionInDocument
 # begin_timex   None        beginPoint (ID of begin_timex)
 # end_timex     None        endPoint (ID of end_timex)
@@ -33,7 +21,49 @@ class timex3(xml_doc.xml_doc):
     _timex_tag_name = 'TIMEX3'
     
     def _timex_from_node(self, node):
-        return ternip.timex()
+        """
+        Given a node representing a TIMEX3 element, return a timex object
+        representing it
+        """
+        t = ternip.timex()
+        
+        if node.hasAttribute('tid'):
+            t.id = int(node.getAttribute('tid')[1:])
+        
+        if node.hasAttribute('value'):
+            t.value = node.getAttribute('value')
+        
+        if node.hasAttribute('mod'):
+            t.mod = node.getAttribute('mod')
+        
+        if node.hasAttribute('type'):
+            t.type = node.getAttribute('type')
+        
+        if node.hasAttribute('freq'):
+            t.freq = node.getAttribute('freq')
+        
+        if node.hasAttribute('quant'):
+            t.quant = node.getAttribute('quant')
+        
+        if node.hasAttribute('comment'):
+            t.comment = node.getAttribute('comment')
+        
+        if node.getAttribute('temporalFunction'):
+            t.temporal_function = True
+        
+        if node.hasAttribute('functionInDocument'):
+            t.document_role = node.getAttribute('functionInDocument')
+        
+        if node.hasAttribute('beginPoint'):
+            t.begin_timex = int(node.getAttribute('beginPoint')[1:])
+        
+        if node.hasAttribute('endPoint'):
+            t.end_timex = int(node.getAttribute('endPoint')[1:])
+        
+        if node.hasAttribute('anchorTimeID'):
+            t.context = int(node.getAttribute('anchorTimeID')[1:])
+        
+        return t
     
     def _annotate_node_from_timex(self, timex, node):
         """
