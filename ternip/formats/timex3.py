@@ -1,12 +1,5 @@
 #!/usr/bin/env python
 
-# Attribute     TIMEX2      TIMEX3
-#---------------------------------
-# role          None        functionInDocument
-# begin_timex   None        beginPoint (ID of begin_timex)
-# end_timex     None        endPoint (ID of end_timex)
-# context       None        anchorTimeID (ID of context)
-
 import xml_doc
 import ternip
 

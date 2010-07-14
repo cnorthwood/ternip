@@ -217,7 +217,7 @@ sub main {
     }
   }
   else {
-    print STDERR "key file is in inline format\n";
+    #print STDERR "key file is in inline format\n";
     $keyfunc = \&inline_next_doc;
   }
 
@@ -243,7 +243,7 @@ sub main {
     }
   }
   else {
-    print STDERR "hypothesis file is in inline format\n";
+    #print STDERR "hypothesis file is in inline format\n";
     $txtfunc = \&inline_next_doc;
   }
 

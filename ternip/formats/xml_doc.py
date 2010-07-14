@@ -164,6 +164,12 @@ class xml_doc:
         else:
             return [node]
     
+    def strip_tag(self, tagname):
+        """
+        Remove this tag from the document.
+        """
+        self._strip_tags(self._xml_doc, tagname, self._xml_body)
+    
     def strip_timexes(self):
         """
         Strips all timexes from this document. Useful if we're evaluating the
@@ -250,7 +256,7 @@ class xml_doc:
             new_child = self._xml_doc.createTextNode(node.data[align_point:])
             node.parentNode.replaceChild(new_child, node)
             if len(sents) > 1:
-                (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(node, sents[1])
+                (can_align, tok_aligned, text_aligned) = self._can_align_node_sent(new_child, sents[1])
                 if can_align:
                     return self._split_text_for_S(new_child, sents[1:], s_name, text_aligned)
                 else:
@@ -547,7 +553,8 @@ class xml_doc:
                 self._strip_tags(self._xml_doc, self._has_S, self._xml_body)
             
             # Then add the new ones
-            if len(self._add_S_tags(self._xml_body, sents, add_S)) > 0:
+            leftover = self._add_S_tags(self._xml_body, sents, add_S)
+            if len(leftover) > 0:
                 #raise nesting_error('Unable to add all S tags, possibly due to bad tag nesting')
                 pass
             

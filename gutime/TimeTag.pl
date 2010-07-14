@@ -17,7 +17,7 @@ SetLexTagName("lex");
 ### variables added by jfrank ####
 #these vars also need to be changed in: TempEx.pm
 my $docTag = "DOC";
-my $tever = 3;		#Timex Version
+my $tever = 2;		#Timex Version
 my $valTagName = "VAL";
 ##
 my $printNCTs = 1;	#if set to 1, prints out non-consuming TIMEXes at the end of the printout

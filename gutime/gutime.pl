@@ -70,7 +70,7 @@ $output =~ s/^\n//;
 $output =~ s/<TIMEX3 tid="t\d+">\n//g;
 #&saveToFile($vfront.$opentag.$DCT.$output.$closetag.$vback, $outputfile);
 &saveToFile($vfront.$opentag.$output.$closetag.$vback, $outputfile);
-`rm -f $tmpfile`;
+unlink($tmpfile);
 
 
 

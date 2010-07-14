@@ -197,7 +197,7 @@ my $unspecTIDVal = &getUnspecifiedTID();
 # some of these vars need to also be changed in: TimeTag.pl
 my $valTagName = "VAL";
 my $tidTagName = "tid";
-my $tever = 3;	#TIMEX version
+my $tever = 2;	#TIMEX version
 
 
 my @nonConsumingTIMEXes;
@@ -2939,17 +2939,17 @@ sub addTIDs{
 	my $string = shift;
 	my $currentTID;
 
-	while ($string =~ /((<TIMEX$tever)([^>]*>))/g){
-		my $curTag = $1;
-		my $firstPart = $2;
-		my $secondPart = $3;
-
-		unless ($curTag =~ / $tidTagName=/i){	#unless tag already has a TID
-			$currentTID = &getUniqueTID();
-			my $newTag = $firstPart . " $tidTagName=\"$currentTID\"" . $secondPart;
-			$string =~ s/$curTag/$newTag/;
-		}
-	}
+	#while ($string =~ /((<TIMEX$tever)([^>]*>))/g){
+	#	my $curTag = $1;
+	#	my $firstPart = $2;
+	#	my $secondPart = $3;
+	#
+	#	unless ($curTag =~ / $tidTagName=/i){	#unless tag already has a TID
+	#		$currentTID = &getUniqueTID();
+	#		my $newTag = $firstPart . " $tidTagName=\"$currentTID\"" . $secondPart;
+	#		$string =~ s/$curTag/$newTag/;
+	#	}
+	#}
 	return $string;
 }
 
