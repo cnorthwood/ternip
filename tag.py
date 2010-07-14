@@ -15,6 +15,7 @@ option_parser = optparse.OptionParser(usage='%prog [options] FILENAME', version=
 io_group = optparse.OptionGroup(option_parser, "Format Options", "Options for dealing with the type of input and output files")
 io_group.add_option('-t', '--doctype', dest='doc_type', type='choice', choices=['timex2','timex3'], help='The format of the document and resulting tags. Supported values: timex2 - XML document resulting in TIMEX2 tags; timex3 - XML document resulting in TIMEX3 tags')
 io_group.add_option('-s', '--strip-timexes', dest='strip_timexes', default=False, action="store_true", help='If set, any timexes in the document are stripped, and then tagging starts afresh. If you don\'t enable this, feed in a document which already has TIMEXes in it and are doing recognition, you may end up with duplicate TIMEX tags.')
+io_group.add_option('-b', '--body-tag', dest='body_tag', default=None, type='string', help='If set, this tag only the contents of this tag is tagged.')
 io_group.add_option('--s-tag', dest='has_S', metavar='S_tag', default=None, type='string', help='If set, this tag name is used to denote sentence boundaries. If unset, NLTK is used to tokenise.')
 io_group.add_option('--lex-tag', dest='has_LEX', metavar='LEX_tag', default=None, type='string', help='If set, this tag name is used to denote token boundaries. If unset, NLTK is used to tokenise.')
 io_group.add_option('--pos-attr', dest='pos_attr', metavar='POS_attr', default=None, type='string', help='If set, then this attribute on the tag set by --lex-tag is used to denote the POS tag of that token. If unset, NLTK is used for POS tagging.')
@@ -43,10 +44,10 @@ input_file = args[0]
 # Create document for input file
 if options.doc_type == 'timex2':
     with open(input_file) as fd:
-        doc = ternip.formats.timex2(fd.read(), options.has_S, options.has_LEX, options.pos_attr)
+        doc = ternip.formats.timex2(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
 elif options.doc_type == 'timex3':
     with open(input_file) as fd:
-        doc = ternip.formats.timex3(fd.read(), options.has_S, options.has_LEX, options.pos_attr)
+        doc = ternip.formats.timex3(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
 else:
     option_parser.print_help()
     print "invalid document type specified"

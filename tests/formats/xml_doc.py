@@ -12,7 +12,7 @@ class _xml_doc(ternip.formats.xml_doc.xml_doc):
         return ternip.timex()
     
     def _annotate_node_from_timex(self, timex, node):
-        return node
+        pass
     
     @staticmethod
     def create(sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):

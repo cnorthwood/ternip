@@ -432,7 +432,9 @@ class xml_doc:
                     if texti == -1:
                         # The start of the TIMEX isn't in this text node
                         texti = len(child.data)
-                    timex_tag = self._annotate_node_from_timex(timex, self._xml_doc.createElement(self._timex_tag_name))
+                    
+                    timex_tag = self._xml_doc.createElement(self._timex_tag_name)
+                    self._annotate_node_from_timex(timex, timex_tag)
                     
                     # Found our split point, so now create two nodes
                     before_text = self._xml_doc.createTextNode(child.data[:texti])
