@@ -20,8 +20,8 @@ def get_f_measure(text):
     i += 2
     return float(lines[i][-5:])
 
-unannotated = glob('sample_data/tern/data/english/ace_2004/nwire/*.sgm')
-annotated = glob('sample_data/tern/data/english/ace_2004/nwire/*.sgml')
+unannotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgm'))
+annotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgml'))
 
 temp = tempfile.mkdtemp()
 
@@ -33,9 +33,9 @@ os.mkdir(ternip_dir)
 
 # Load TERNIP
 recogniser = ternip.rule_engine.recognition_rule_engine()
-recogniser.load_rules('rules/recognition/')
+recogniser.load_rules(os.path.normpath('rules/recognition/'))
 normaliser = ternip.rule_engine.normalisation_rule_engine()
-normaliser.load_rules('rules/normalisation/')
+normaliser.load_rules(os.path.normpath('rules/normalisation/'))
 
 gutime_scores = []
 ternip_scores = []
@@ -62,9 +62,7 @@ for i in range(len(unannotated)):
             fd.write(str(doc)[22:])
         
         # Now run GUTime
-        os.chdir('gutime')
-        print subprocess.Popen(['perl', 'gutime.pl', gutime_in_file, gutime_out_file], stdout=subprocess.PIPE).communicate()[0]
-        os.chdir('..')
+        print subprocess.Popen(['perl', 'gutime.pl', gutime_in_file, gutime_out_file], stdout=subprocess.PIPE, cwd='gutime').communicate()[0]
         
         # Strip LEX and S tags
         with open(gutime_out_file) as fd:
