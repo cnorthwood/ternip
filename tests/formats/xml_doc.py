@@ -13,6 +13,22 @@ class _xml_doc(ternip.formats.xml_doc.xml_doc):
     
     def _annotate_node_from_timex(self, timex, node):
         return node
+    
+    @staticmethod
+    def create(sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
+        impl = xml.dom.minidom.getDOMImplementation()
+        doc = impl.createDocument(None, 'root', None)
+        
+        # Add text to document
+        _xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
+        
+        # Create a document with just text nodes
+        x = _xml_doc(doc)
+        
+        # Now reconcile to add the S, LEX and TIMEX tags
+        x.reconcile(sents, add_S, add_LEX, pos_attr)
+        
+        return x
 
 class xml_doc_Test(unittest.TestCase):
     
@@ -24,6 +40,13 @@ class xml_doc_Test(unittest.TestCase):
     def test_to_sents(self):
         t = _xml_doc('<root>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>. This is the second sentence.</root>')
         self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'VBN', set()), ('embedded', 'VBN', set()), ('annotated', 'VBN', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
+    
+    def test_to_sents_only_node(self):
+        t = _xml_doc('<root>This is outside of the body. <body>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>. This is the second sentence.</body></root>', nodename='body')
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'VBN', set()), ('embedded', 'VBN', set()), ('annotated', 'VBN', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
+    
+    def test_to_sents_only_single_node(self):
+        self.assertRaises(ternip.formats.xml_doc.bad_node_name_error, _xml_doc, '<root>This is outside of the body. <body>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>. This is the second sentence.</body><body>Oh dear.</body></root>', nodename='body')
     
     def test_to_sents_tag_crossing_sentence_boundary(self):
         t = _xml_doc('<root>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text. This is the second </FOO>sentence.</root>')
@@ -137,3 +160,14 @@ class xml_doc_Test(unittest.TestCase):
         t2 = ternip.timex()
         s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t1])), ('annotated', 'POS', set([t1])), ('text', 'POS', set([t1])), ('.', 'POS', set())], [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set([t2])), ('second', 'POS', set([t2])), ('timex.', 'POS', set([t2]))]], add_S='s')
         self.assertEquals(str(s), xml.dom.minidom.parseString('<root><s>This is <TIMEX>some <p>annotated</p> text</TIMEX>.</s> <s>This is <TIMEX><b>a second timex.</b></TIMEX></s></root>').toxml())
+    
+    def test_create_from_sents(self):
+        s = _xml_doc.create([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                             [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]])
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is some annotated text. This is a second sentence.</root>').toxml())
+    
+    def test_create_from_sents_with_offsets(self):
+        s = _xml_doc.create([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                             [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]],
+                tok_offsets=[[2, 7, 11, 16, 28], [36, 41, 45, 46, 53]])
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>  This is  some annotated   text.   This is  asecond sentence.</root>').toxml())

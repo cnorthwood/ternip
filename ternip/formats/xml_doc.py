@@ -23,37 +23,40 @@ class xml_doc:
         # Just add text here, then leave it up to reconcile to add all other
         # tags
         
-        for i in len(sents):
+        s_offset = 0
+        
+        for i in range(len(sents)):
             
-            for j in len(sent):
+            for j in range(len(sents[i])):
                 (tok, pos, ts) = sents[i][j]
                 
                 # Do we know what token offsets are in order to reinstate them?
-                if tok_offsets is not None:
+                if tok_offsets != None:
                     # Add whitespace between tokens if needed
                     while s_offset < tok_offsets[i][j]:
-                        s_tag.appendChild(doc.createTextNode(' '))
+                        node.appendChild(doc.createTextNode(' '))
                         s_offset += 1
                 
                 # Add the text
-                s_tag.appendChild(doc.createTextNode(tok))
+                node.appendChild(doc.createTextNode(tok))
                 
                 # If we're not using token offsets, assume a single space is
-                # what's used
+                # what's used, except if this is the last element.
                 if tok_offsets is None:
-                    s_tag.appendChild(doc.createTextNode(' '))
+                    if not (i == len(sents) - 1 and j == len(sents[i]) - 1):
+                        node.appendChild(doc.createTextNode(' '))
                 else:
                     # Increase our current sentence offset
                     s_offset += len(tok)
         
         node.normalize()
+        return node
     
     @staticmethod
     def create(sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
         """
-        Override this to build a document from internal representation only.
-        The output this produces is pretty generic, as can be expected at this
-        high level. The root node is called 'root' and no DTD is used.
+        This is an abstract function for building XML documents from the
+        internal representation only.
         
         sents is the [[(word, pos, timexes), ...], ...] format.
         
@@ -72,16 +75,7 @@ class xml_doc:
         pos_attr is similar but refers to the name of the attribute on the LEX
         (or whatever) tag that holds the POS tag.
         """
-        impl = xml.dom.minidom.getDOMImplementation()
-        doc = impl.createDocument(None, 'root', None)
-        
-        # Create a document with just text nodes
-        x = xml_doc(xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets), doc.documentElement)
-        
-        # Now reconcile the S, LEX and TIMEX tags
-        x.reconcile(sents, add_S, add_LEX, pos_attr)
-        
-        return x
+        raise NotImplementedError
     
     def __init__(self, file, nodename=None, has_S=False, has_LEX=False, pos_attr=False):
         """

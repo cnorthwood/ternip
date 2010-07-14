@@ -32,13 +32,18 @@ class timeml(timex3):
         pos_attr is similar but refers to the name of the attribute on the LEX
         (or whatever) tag that holds the POS tag.
         """
+        
+        # Create a blank XML document
         impl = xml.dom.minidom.getDOMImplementation()
         doc = impl.createDocument('http://www.timeml.org/site/publications/timeMLdocs/timeml_1.2.1.dtd', 'TimeML', None)
         
-        # Create a document with just text nodes
-        x = xml_doc(xml_doc._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets), doc.documentElement)
+        # Add text to document
+        timeml._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
+        
+        # Now create the object
+        x = timeml(doc)
         
         # Now reconcile the S, LEX and TIMEX tags
         x.reconcile(sents, add_S, add_LEX, pos_attr)
         
-        return timeml(doc)
+        return x
