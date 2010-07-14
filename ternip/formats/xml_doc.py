@@ -56,7 +56,10 @@ class xml_doc:
     def create(sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
         """
         This is an abstract function for building XML documents from the
-        internal representation only.
+        internal representation only. You are not guaranteed to get out of
+        get_sents what you put in here. Sentences and words will be retokenised
+        and retagged unless you explicitly add S and LEX tags and the POS
+        attribute to the document using the optional arguments.
         
         sents is the [[(word, pos, timexes), ...], ...] format.
         
