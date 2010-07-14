@@ -80,6 +80,25 @@ class xml_doc_Test(unittest.TestCase):
         t = _xml_doc('<root><s><lex pos="POS1">This</lex> <TIMEX><lex pos="POS1">is</lex> <TIMEX><lex pos="POS1">sentence 1</lex></TIMEX></TIMEX><lex pos="POS2">.</lex> <lex pos="POS1">This</lex> <lex pos="POS1">is</lex> <lex pos="POS1">the</lex></s> <s><TIMEX><lex pos="POS1">second</lex></TIMEX> <lex pos="POS1">sentence.</lex></s></root>', has_S='s', has_LEX='lex', pos_attr='pos')
         self.assertEquals([[len(timexes) for (tok, pos, timexes) in sent] for sent in t.get_sents()], [[0, 1, 2, 0, 0, 0, 0], [1, 0]])
     
+    def test_to_sents_timexes_nonconsuming(self):
+        t = _xml_doc('<root><TIMEX />This <TIMEX>is <TIMEX>sentence 1</TIMEX></TIMEX>. This is the <TIMEX>second</TIMEX> sentence.</root>')
+        sents = t.get_sents()
+        self.assertEquals([[len(timexes) for (tok, pos, timexes) in sent] for sent in sents], [[1, 1, 2, 2, 0], [0, 0, 0, 1, 0, 0]])
+        txnc = sents[0][0][2].pop()
+        txc = sents[1][3][2].pop()
+        self.assertTrue(txnc.non_consuming)
+        self.assertFalse(txc.non_consuming)
+        self.assertEquals(str(t), xml.dom.minidom.parseString('<root><TIMEX />This <TIMEX>is <TIMEX>sentence 1</TIMEX></TIMEX>. This is the <TIMEX>second</TIMEX> sentence.</root>').toxml())
+    
+    def test_to_sents_timexes_nonconsuming_outsideS(self):
+        t = _xml_doc('<root><TIMEX /><s><lex pos="POS1">This</lex> <TIMEX><lex pos="POS1">is</lex> <TIMEX><lex pos="POS1">sentence 1</lex></TIMEX></TIMEX><lex pos="POS2">.</lex> <lex pos="POS1">This</lex> <lex pos="POS1">is</lex> <lex pos="POS1">the</lex></s> <s><TIMEX><lex pos="POS1">second</lex></TIMEX> <lex pos="POS1">sentence.</lex></s></root>', has_S='s', has_LEX='lex', pos_attr='pos')
+        sents = t.get_sents()
+        self.assertEquals([[len(timexes) for (tok, pos, timexes) in sent] for sent in sents], [[1, 1, 2, 0, 0, 0, 0], [1, 0]])
+        txnc = sents[0][0][2].pop()
+        txc = sents[1][0][2].pop()
+        self.assertTrue(txnc.non_consuming)
+        self.assertFalse(txc.non_consuming)
+    
     def test_reconcile_S(self):
         t = _xml_doc('<root>This is some annotated text.</root>')
         t.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())]], add_S='s')

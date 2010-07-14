@@ -702,25 +702,47 @@ class xml_doc:
         the S tag), then those TIMEXes are disregarded.
         """
         
+        # Collect all TIMEXs so we can later find those outside of a sentence
+        all_timexes = set()
+        
         # Is this pre-tokenised into sentences?
         if self._has_S:
             # easy
-            sents = [(self._get_text(sent), [sent]) for sent in self._xml_body.getElementsByTagName(self._has_S)]
+            sents = [(self._get_text(sent), sent) for sent in self._xml_body.getElementsByTagName(self._has_S)]
         else:
             # Get the text, sentence tokenise it and then assign the content
             # nodes of a sentence to that sentence. This is used for identifying
             # LEX tags, if any, and TIMEX tags, if any, later.
-            (sents, ndsents, i) = self._nodes_to_sents(self._xml_body, [], [(sent, []) for sent in nltk.tokenize.sent_tokenize(self._get_text(self._xml_body))], 0)
+            (nodesents, ndsents, i) = self._nodes_to_sents(self._xml_body, [], [(sent, []) for sent in nltk.tokenize.sent_tokenize(self._get_text(self._xml_body))], 0)
             if len(ndsents) > 0:
                 raise tokenise_error('INTERNAL ERROR: there appears to be sentences not assigned to nodes')
+            
+            # Combine contents under a 'virtual' S tag
+            sents = []
+            for (sent, nodes) in nodesents:
+                s_node = self._xml_doc.createElement('s')
+                sents.append((sent, s_node))
+                for node in nodes:
+                    # Mark any TIMEX nodes as found before the deep copy
+                    if node.nodeType == node.ELEMENT_NODE or node.nodeType == node.DOCUMENT_NODE:
+                        for timex_tag in node.getElementsByTagName(self._timex_tag_name):
+                            all_timexes.add(timex_tag)
+                    if node.nodeType == node.ELEMENT_NODE:
+                        if node.tagName == self._timex_tag_name:
+                            all_timexes.add(node)
+                    
+                    # Clone the node to avoid destroying our original document
+                    # and add it to our virtual S node
+                    s_node.appendChild(node.cloneNode(True))
+            
         
         # Is this pre-tokenised into tokens?
         if self._has_LEX:
             # Go through each node, and find the LEX tags in there
             tsents = []
-            for (sent, nodes) in sents:
+            for (sent, s_node) in sents:
                 toks = []
-                for node in nodes:
+                for node in s_node.childNodes:
                     if node.nodeType == node.ELEMENT_NODE and node.tagName == self._has_LEX:
                         # If this is a LEX tag
                         toks.append((self._get_text(node), node))
@@ -729,7 +751,7 @@ class xml_doc:
                         # and add them
                         for lex in node.getElementsByTagName(self._has_LEX):
                             toks.append((self._get_text(lex), lex))
-                tsents.append((toks, nodes))
+                tsents.append((toks, s_node))
         else:
             # Don't need to keep nodes this time, so this is easier than
             # sentence tokenisation
@@ -745,37 +767,55 @@ class xml_doc:
         
         # Now do timexes - first get all timex tags in a sent
         txsents = []
-        for (sent, nodes) in psents:
+        for (sent, s_node) in psents:
             txsent = [(t, pos, set()) for (t, pos) in sent]
-            for node in nodes:
-                if node.nodeType == node.ELEMENT_NODE or node.nodeType == node.DOCUMENT_NODE:
-                    if node.tagName == self._timex_tag_name:
-                        timex_nodes = [node]
-                    else:
-                        timex_nodes = node.getElementsByTagName(self._timex_tag_name)
-                    
-                    # Now, for each timex tag, create a timex object to
-                    # represent it
-                    for timex_node in timex_nodes:
-                        timex = self._timex_from_node(timex_node)
-                        
-                        # Now figure out the extent of it
-                        timex_body = self._get_text(timex_node)
-                        timex_before = self._get_text(node, timex_node)
-                        
-                        # Go through each part of the before text and find the
-                        # first token in the body of the timex
-                        tokeni = self._timex_node_token_align(timex_before, txsent, 0)
-                        
-                        # Now we have the start token, find the end token from
-                        # the body of the timex
-                        tokenj = self._timex_node_token_align(timex_body, txsent, tokeni)
-                        
-                        # Okay, now add this timex to the relevant tokens
-                        for (tok, pos, timexes) in txsent[tokeni:tokenj]:
-                            timexes.add(timex)
+            
+            # Get all timexes in this sentence
+            timex_nodes = s_node.getElementsByTagName(self._timex_tag_name)
+            
+            # Now, for each timex tag, create a timex object to
+            # represent it
+            for timex_node in timex_nodes:
+                all_timexes.add(timex_node)
+                timex = self._timex_from_node(timex_node)
+                
+                # Now figure out the extent of it
+                timex_body = self._get_text(timex_node)
+                timex_before = self._get_text(s_node, timex_node)
+                
+                # Go through each part of the before text and find the
+                # first token in the body of the timex
+                tokeni = self._timex_node_token_align(timex_before, txsent, 0)
+                
+                # Now we have the start token, find the end token from
+                # the body of the timex
+                tokenj = self._timex_node_token_align(timex_body, txsent, tokeni)
+                
+                # Handle non-consuming TIMEXes
+                if tokeni == tokenj:
+                    timex.non_consuming = True
+                    txsent[tokeni][2].add(timex)
+                else:
+                    # Okay, now add this timex to the relevant tokens
+                    for (tok, pos, timexes) in txsent[tokeni:tokenj]:
+                        timexes.add(timex)
             
             txsents.append(txsent)
+        
+        # Now get all TIMEX tags which are not inside <s> tags (and assume
+        # they're non-consuming)
+        for timex_node in self._xml_body.getElementsByTagName(self._timex_tag_name):
+            if timex_node not in all_timexes:
+                
+                # Found a TIMEX that has not been seen before
+                all_timexes.add(timex_node)
+                timex = self._timex_from_node(timex_node)
+                
+                # Assume it's non-consuming
+                timex.non_consuming = True
+                
+                # And just add it at the front
+                txsents[0][0][2].add(timex)
         
         return txsents
     

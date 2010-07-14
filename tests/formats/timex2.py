@@ -32,3 +32,22 @@ class timex2_Test(unittest.TestCase):
         t.mod = "BEFORE"
         s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t])), ('annotated', 'POS', set([t])), ('text', 'POS', set([t])), ('.', 'POS', set())]])
         self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <TIMEX2 VAL="20100710" MOD="BEFORE" SET="YES">some annotated text</TIMEX2>.</root>').toxml())
+    
+    def test_timex_to_sents(self):
+        d = ternip.formats.timex2('<root>This is <TIMEX2 VAL="20100701" MOD="BEFORE" PERIODICITY="F1M" NON_SPECIFIC="YES" GRANUALITY="G1D" COMMENT="Text">a timex</TIMEX2>.</root>')
+        s = d.get_sents()
+        t = s[0][2][2].pop()
+        self.assertEquals(t.type, None)
+        self.assertEquals(t.value, '20100701')
+        self.assertEquals(t.mod, 'BEFORE')
+        self.assertEquals(t.freq, "1M")
+        self.assertEquals(t.comment, "Text")
+        self.assertEquals(t.granuality, "1D")
+        self.assertTrue(t.non_specific)
+    
+    def test_timex_to_sents_SET(self):
+        d = ternip.formats.timex2('<root>This is <TIMEX2 SET="YES">a timex</TIMEX2>.</root>')
+        s = d.get_sents()
+        t = s[0][2][2].pop()
+        self.assertEquals(t.type, 'set')
+        self.assertFalse(t.non_specific)

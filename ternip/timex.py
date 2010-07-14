@@ -36,7 +36,8 @@ class timex:
         self.granuality = None
         self.comment    = None
         self.non_specific = False
-        self.temporal_function = None
+        self.temporal_function = False
+        self.document_role = None
         self.begin_timex = None
         self.end_timex  = None
         self.context    = None
