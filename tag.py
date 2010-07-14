@@ -88,7 +88,7 @@ else:
 
 # Do normalisation
 if normaliser is not None:
-    normaliser.annotate(sents)
+    normaliser.annotate(sents, "")
     
 # Now apply the changes back to the internal document
 doc.reconcile(sents)
