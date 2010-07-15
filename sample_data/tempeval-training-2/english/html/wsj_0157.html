@@ -1,0 +1,109 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0157</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Tony Lama Co. <etag>[said]</etag><sup>e1</sup> that Equus Investment II Limited Partnership has <etag>[proposed]</etag><sup>e2</sup> <etag>[changing]</etag><sup>e3</sup> the <etag>[offer]</etag><sup>e4</sup> for the company to $13.65 in cash and stock from an all-cash <etag>[transaction]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e8</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e3 AFTER e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Under terms of the new <etag>[proposal]</etag><sup>e6</sup> , Equus , managed by Equus Capital Corp. , Houston , would <etag>[pay]</etag><sup>e8</sup> $12 cash and one new preferred share with a liquidation preference of $1.65 a share for each of Tony Lama 's 2.1 million shares outstanding .</p></table>
+<p class=attributes>e8 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e8 AFTER e9</p>
+<p class=relation>Task F: e6 BEFORE e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line><ttag>[Previously]</ttag><sup>t1999</sup> , it <etag>[offered]</etag><sup>e9</sup> $13.65 a share in cash , or $29 million .</p></table>
+<p class=attributes>t1999 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e9 OVERLAP t1999</p>
+<p class=relation>Task E: e9 BEFORE e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The El Paso , Texas , maker of Western boots and leather accessories <etag>[said]</etag><sup>e10</sup> the preferred stock would <etag>[accrue]</etag><sup>e11</sup> dividends at a 12% rate , but would n 't be <etag>[paid]</etag><sup>e12</sup> for <ttag>[the first two years]<sup>t28</sup></ttag> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t28 { value:P2Y type:DURATION }</p>
+<p class=attributes>e11 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:NEG modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e10 BEFORE t28</p>
+<p class=relation>Task C: e12 OVERLAP t28</p>
+<p class=relation>Task E: e10 BEFORE e13</p>
+<p class=relation>Task F: e10 BEFORE e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The stock would be <etag>[redeemed]</etag><sup>e13</sup> in <ttag>[five years]<sup>t29</sup></ttag> , subject to terms of the surviving company 's debt .</p></table>
+<p class=attributes>e13 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t29 { value:1994 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e13 AFTER e14</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Neither Equus nor Tony Lama <etag>[gave]</etag><sup>e14</sup> a reason for the changed <etag>[offer]</etag><sup>e15</sup> and Tony Lama could n 't be reached for comment .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e14 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e14 OVERLAP e17</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>However , Tony Lama <etag>[said]</etag><sup>e17</sup> it would promptly <etag>[submit]</etag><sup>e18</sup> the offer to a special committee of the company 's board .</p></table>
+<p class=attributes>e18 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task F: e17 BEFORE e18</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0321</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>StatesWest Airlines , Phoenix , Ariz. , <etag>[said]</etag><sup>e1</sup> it <etag>[withdrew]</etag><sup>e2</sup> its <etag>[offer]</etag><sup>e3</sup> to <etag>[acquire]</etag><sup>e4</sup> Mesa Airlines because the Farmington , N.M. , carrier did n 't <etag>[respond]</etag><sup>e5</sup> to its <etag>[offer]</etag><sup>e6</sup> by the <etag>[close]</etag><sup>e7</sup> of business <ttag>[yesterday]</ttag><sup>t41</sup> , a deadline StatesWest had <etag>[set]</etag><sup>e9</sup> for a response .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t41 { value:1989-10-31 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e3 BEFORE t41</p>
+<p class=relation>Task C: e4 AFTER t41</p>
+<p class=relation>Task C: e7 OVERLAP t41</p>
+<p class=relation>Task C: e6 BEFORE t41</p>
+<p class=relation>Task C: e1 AFTER t41</p>
+<p class=relation>Task C: e9 BEFORE t41</p>
+<p class=relation>Task E: e1 OVERLAP e11</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+<p class=relation>Task F: e5 OVERLAP-OR-AFTER e6</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e2 AFTER e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>However , StatesWest is n 't <etag>[abandoning]</etag><sup>e11</sup> its <etag>[pursuit]</etag><sup>e12</sup> of the much-larger Mesa .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e11 OVERLAP e15</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>StatesWest , which has a 7.25% stake in Mesa , <etag>[said]</etag><sup>e15</sup> it may <etag>[purchase]</etag><sup>e16</sup> more Mesa stock or <etag>[make]</etag><sup>e17</sup> a tender <etag>[offer]</etag><sup>e18</sup> directly to Mesa shareholders .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e16 { polarity:POS modality:may pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:may pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e15 AFTER e19</p>
+<p class=relation>Task F: e15 BEFORE e17</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>StatesWest had <etag>[proposed]</etag><sup>e19</sup> <etag>[acquiring]</etag><sup>e20</sup> Mesa for $7 a share and one share of a new series of StatesWest 6% convertible preferred stock it values at $3 a share .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e19 AFTER e22</p>
+<p class=relation>Task F: e19 BEFORE e20</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Earlier , Mesa had <etag>[rejected]</etag><sup>e22</sup> a general <etag>[proposal]</etag><sup>e23</sup> from StatesWest to <etag>[combine]</etag><sup>e24</sup> the two carriers in some way .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:I_STATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e22 AFTER e23</p>
+<p class=relation>Task F: e23 BEFORE e24</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>StatesWest serves 10 cities in California , Arizona and Nevada .</p></table>
+<p/>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Mesa flies to 42 cities in New Mexico , Arizona , Wyoming , Colorado and Texas .</p></table>
+<p/>
+</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0612</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>The following were among <ttag>[Friday]</ttag><sup>t29</sup> 's <etag>[offerings]</etag><sup>e3</sup> and <etag>[pricings]</etag><sup>e4</sup> in the U.S. and non-U.S .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t29 { value:1989-10-27 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 BEFORE e5</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>capital markets , with terms and syndicate manager , as <etag>[compiled]</etag><sup>e5</sup> by Dow Jones Capital Markets Report : @ CORPORATES Sun Microsystems Inc. -- $125 million of 6 3/8% convertible subordinated debentures <etag>[due]</etag><sup>e6</sup> <ttag>[Oct. 15 , 1999]<sup>t32</sup></ttag> , <etag>[priced]</etag><sup>e7</sup> at 84.90 to <etag>[yield]</etag><sup>e8</sup> 7.51% .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t32 { type:DATE value:1999-10-15 }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task F: e5 BEFORE e4</p>
+<p class=relation>Task F: e7 OVERLAP e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The debentures are convertible into common stock at $25 a share , representing a 24% conversion premium over <ttag>[Thursday]</ttag><sup>t33</sup> 's closing price .</p></table>
+<p class=attributes>t33 { value:1989-10-26 type:DATE }</p>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line><etag>[Rated]</etag><sup>e12</sup> single-B-1 by Moody 's Investors Service Inc. and single-B-plus by Standard amp Poor 's Corp. , the issue will be <etag>[sold]</etag><sup>e13</sup> through underwriters led by Goldman , Sachs amp Co. Hertz Corp. -- $100 million of senior notes <etag>[due]</etag><sup>e15</sup> <ttag>[Nov. 1 , 2009]<sup>t37</sup></ttag> , <etag>[priced]</etag><sup>e16</sup> at par to <etag>[yield]</etag><sup>e17</sup> 9% .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p class=attributes>t37 { type:DATE value:2009-11-01 }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t37</p>
+<p class=relation>Task E: e13 AFTER e19</p>
+<p class=relation>Task F: e16 OVERLAP e17</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The issue , which is puttable back to the company in <ttag>[1999]</ttag><sup>t44</sup> , was <etag>[priced]</etag><sup>e19</sup> at a spread of 110 basis points above the Treasury 's 10-year note .</p></table>
+<p class=attributes>t44 { type:DATE value:1999 }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e19 BEFORE e21</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line><etag>[Rated]</etag><sup>e20</sup> single-A-3 by Moody 's and triple-B by SampP , the issue will be <etag>[sold]</etag><sup>e21</sup> through underwriters led by Merrill Lynch Capital Markets .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>@ EUROBONDS Canadian Imperial Bank of Commerce ( Canada ) -- 10 billion yen of 5.7% bonds due <ttag>[Nov. 17 , 1992]<sup>t47</sup></ttag> , <etag>[priced]</etag><sup>e23</sup> at 101 1/4 to <etag>[yield]</etag><sup>e24</sup> 5.75% less full fees , via LTCB International Ltd. Fees 1 3/8 .</p></table>
+<p class=attributes>t47 { type:DATE value:1992-11-17 }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task F: e23 OVERLAP e24</p>
+</div>
+</body>
+</html>

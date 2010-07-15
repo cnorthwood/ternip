@@ -1,0 +1,123 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0144</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Travelers Corp. 's <ttag>[third-quarter]</ttag><sup>t28</sup> net income <etag>[rose]</etag><sup>e2</sup> 11% , even though claims stemming from Hurricane Hugo <etag>[reduced]</etag><sup>e5</sup> results $40 million .</p></table>
+<p class=attributes>t28 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 OVERLAP t28</p>
+<p class=relation>Task E: e2 OVERLAP e7</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Net <etag>[advanced]</etag><sup>e7</sup> to $94.2 million , or 89 cents a share , from $85 million , or 83 cents a share , including net realized investment <etag>[gains]</etag><sup>e9</sup> of $31 million , up from $10 million <ttag>[a year ago]<sup>t40</sup></ttag> .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t40 { value:1988-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e9 AFTER t40</p>
+<p class=relation>Task E: e7 OVERLAP e10</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>But revenue <etag>[declined]</etag><sup>e10</sup> to $3 billion from $3.2 billion .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 BEFORE e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Travelers <etag>[estimated]</etag><sup>e11</sup> that the California earthquake <ttag>[last month]<sup>t47</sup></ttag> will <etag>[result]</etag><sup>e12</sup> in a <ttag>[fourth-quarter]</ttag><sup>t48</sup> pre-tax <etag>[charge]</etag><sup>e13</sup> of less than $10 million .</p></table>
+<p class=attributes>t48 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t47 { value:1989-10 type:DATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task C: e13 AFTER t47</p>
+<p class=relation>Task C: e12 AFTER t47</p>
+<p class=relation>Task E: e11 AFTER e15</p>
+<p class=relation>Task F: e11 BEFORE e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The insurer 's earnings from commercial property/casualty lines <etag>[fell]</etag><sup>e15</sup> 59% in <ttag>[the latest quarter]<sup>t52</sup></ttag> , while it <etag>[lost]</etag><sup>e16</sup> $7.2 million in its personal property/casualty business , compared with <etag>[earnings]</etag><sup>e18</sup> of $6.1 million <ttag>[a year ago]<sup>t51</sup></ttag> .</p></table>
+<p class=attributes>t52 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t51 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e15 OVERLAP t52</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Travelers 's employee benefits group , which includes its group health insurance operations , posted earnings of $24 million , compared with a <etag>[loss]</etag><sup>e23</sup> of $3 million <ttag>[last year]<sup>t56</sup></ttag> .</p></table>
+<p class=attributes>t56 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e23 OVERLAP t56</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>In <ttag>[the first nine months]<sup>t58</sup></ttag> , net was $306 million , compared with a <etag>[loss]</etag><sup>e26</sup> of $195 million in <ttag>[the 1988 period]<sup>t59</sup></ttag> .</p></table>
+<p class=attributes>t59 { type:DATE value:1988 }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t58 { value:P9M type:DURATION }</p>
+<p/>
+<p class=relation>Task C: e26 BEFORE t58</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>The <ttag>[year-ago]</ttag><sup>t60</sup> <etag>[results]</etag><sup>e27</sup> included a $415 million <etag>[charge]</etag><sup>e29</sup> in <ttag>[the 1988 second quarter]<sup>t62</sup></ttag> for underperforming real estate and mortgage loans .</p></table>
+<p class=attributes>t62 { type:DATE value:1988-Q2 }</p>
+<p class=attributes>t60 { value:1988 type:DATE }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e27 OVERLAP t62</p>
+<p class=relation>Task C: e29 OVERLAP t62</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,593 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0610</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>This has n 't been Kellogg Co. 's year .</p></table>
+<p/>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The oat-bran <etag>[craze]</etag><sup>e2</sup> has <etag>[cost]</etag><sup>e3</sup> the world 's largest cereal maker market share .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 OVERLAP e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The company 's president <etag>[quit]</etag><sup>e4</sup> suddenly .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e4 BEFORE e5</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>And <ttag>[now]</ttag><sup>t296</sup> Kellogg is indefinitely <etag>[suspending]</etag><sup>e5</sup> <etag>[work]</etag><sup>e6</sup> on what was to be a $1 billion cereal plant .</p></table>
+<p class=attributes>t296 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:ASPECTUAL }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e5 OVERLAP e9</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company <etag>[said]</etag><sup>e9</sup> it was <etag>[delaying]</etag><sup>e10</sup> <etag>[construction]</etag><sup>e11</sup> because of <ttag>[current]</ttag><sup>t193</sup> market <etag>[conditions]</etag><sup>e12</sup> .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t193 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e9 OVERLAP t193</p>
+<p class=relation>Task E: e9 BEFORE e13</p>
+<p class=relation>Task F: e9 OVERLAP e10</p>
+<p class=relation>Task F: e10 BEFORE e11</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>But the Memphis , Tenn. , facility wasn 't to <etag>[begin]</etag><sup>e13</sup> <etag>[turning]</etag><sup>e14</sup> out product until <ttag>[1993]</ttag><sup>t196</sup> , so the <etag>[decision]</etag><sup>e15</sup> may reveal a more pessimistic long-term outlook as well .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:NEG modality:none pos:VERB tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t196 { type:DATE value:1993 }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t196</p>
+<p class=relation>Task E: e13 AFTER e21</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Kellogg , which has n 't been as <etag>[successful]</etag><sup>e18</sup> in <etag>[capitalizing]</etag><sup>e19</sup> on the public 's health-oriented desire for oat bran as rival General Mills Inc. , has been <etag>[losing]</etag><sup>e21</sup> share in the $6 billion ready-to-eat cereal market .</p></table>
+<p class=attributes>e18 { polarity:NEG modality:NONE pos:ADJECTIVE tense:PRESENT aspect:PERFECTIVE class:STATE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE_PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e21 OVERLAP e22</p>
+<p class=relation>Task F: e18 OVERLAP e19</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Kellogg 's <ttag>[current]</ttag><sup>t200</sup> share is <etag>[believed]</etag><sup>e22</sup> to be slightly under <etag>[40%]</etag><sup>e24</sup> while General Mills ' share is about <etag>[27%]</etag><sup>e26</sup> .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:OTHER tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t200 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:OTHER tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e22 OVERLAP t200</p>
+<p class=relation>Task E: e22 OVERLAP-OR-AFTER e28</p>
+<p class=relation>Task F: e22 VAGUE e24</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line><etag>[Led]</etag><sup>e27</sup> by its oat-based Cheerios line , General Mills has <etag>[gained]</etag><sup>e28</sup> an estimated 2% share so far <ttag>[this year]<sup>t419</sup></ttag> , mostly at the expense of Kellogg .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p class=attributes>t419 { value:1989 type:DATE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e28 OVERLAP t419</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Each share point is worth about $60 million in sales .</p></table>
+<p/>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Analysts <etag>[say]</etag><sup>e30</sup> much of Kellogg 's <etag>[erosion]</etag><sup>e31</sup> has been in such core brands as Corn Flakes , Rice Krispies and Frosted Flakes , which represent nearly one-third of its sales volume .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e30 OVERLAP e39</p>
+<p class=relation>Task F: e30 OVERLAP-OR-AFTER e31</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Kellogg is so <etag>[anxious]</etag><sup>e35</sup> to <etag>[turn]</etag><sup>e36</sup> around Corn Flakes sales that it <ttag>[soon]</ttag><sup>t207</sup> will <etag>[begin]</etag><sup>e37</sup> <etag>[selling]</etag><sup>e38</sup> boxes for as little as 99 cents , trade sources <etag>[say]</etag><sup>e39</sup> .</p></table>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>t207 { value:FUTURE_REF type:DATE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e39 AFTER t207</p>
+<p class=relation>Task C: e38 OVERLAP t207</p>
+<p class=relation>Task C: e37 OVERLAP t207</p>
+<p class=relation>Task E: e39 OVERLAP e44</p>
+<p class=relation>Task F: e39 BEFORE e37</p>
+<p class=relation>Task F: e35 OVERLAP e36</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>" Cheerios and Honey Nut Cheerios have <etag>[eaten]</etag><sup>e40</sup> away sales normally <etag>[going]</etag><sup>e42</sup> to Kellogg 's corn-based lines simply because they are <etag>[made]</etag><sup>e43</sup> of oats , " <etag>[says]</etag><sup>e44</sup> Merrill Lynch food analyst William Maguire .</p></table>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e44 OVERLAP e46</p>
+<p class=relation>Task F: e44 OVERLAP-OR-AFTER e40</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>" They are not a <etag>[happy]</etag><sup>e46</sup> group of people at Battle Creek <ttag>[right now]<sup>t209</sup></ttag> . "</p></table>
+<p class=attributes>t209 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e46 { polarity:NEG modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>Kellogg is based in Battle Creek , Mich. , a city that calls itself the breakfast capital of the world .</p></table>
+<p/>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>Another analyst , John C. Maxwell Jr. of Wheat , First Securities in Richmond , Va. , <ttag>[recently]</ttag><sup>t210</sup> <etag>[went]</etag><sup>e49</sup> to a " sell " recommendation on Kellogg stock , which <etag>[closed]</etag><sup>e50</sup> <ttag>[Friday]</ttag><sup>t211</sup> at $71.75 , down 75 cents , in New York Stock Exchange composite trading .</p></table>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t211 { value:1989-10-27 type:DATE }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t210 { value:PAST_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e49 OVERLAP t210</p>
+<p class=relation>Task C: e50 BEFORE-OR-OVERLAP t210</p>
+<p class=relation>Task E: e49 BEFORE e51</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>" I do n 't <etag>[think]</etag><sup>e51</sup> Kellogg can <etag>[get]</etag><sup>e52</sup> back to 40% <ttag>[this year]<sup>t214</sup></ttag> , " he <etag>[said]</etag><sup>e53</sup> .</p></table>
+<p class=attributes>e52 { polarity:NEG modality:can pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>t214 { value:1989 type:DATE }</p>
+<p class=attributes>e51 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e51 OVERLAP t214</p>
+<p class=relation>Task C: e53 OVERLAP t214</p>
+<p class=relation>Task F: e51 VAGUE e52</p>
+<p class=relation>Task F: e53 NONE e54</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>" Kellogg 's main problem is life style .</p></table>
+<p/>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>People are <etag>[reading]</etag><sup>e54</sup> the boxes and <etag>[deciding]</etag><sup>e55</sup> they <etag>[want]</etag><sup>e56</sup> something that 's ` healthy ' for you -- oats , bran . "</p></table>
+<p class=attributes>e56 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e55 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e54 OVERLAP e57</p>
+<p class=relation>Task F: e55 OVERLAP e56</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>Mr. Maxwell <etag>[said]</etag><sup>e57</sup> he would n 't be <etag>[surprised]</etag><sup>e59</sup> if , over <ttag>[the next two years or so]<sup>t220</sup></ttag> , General Mills ' share <etag>[increased]</etag><sup>e60</sup> to 30% or more .</p></table>
+<p class=attributes>t220 { value:P2Y type:DURATION }</p>
+<p class=attributes>e60 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e57 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e59 { polarity:NEG modality:would pos:ADJECTIVE tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e60 OVERLAP t220</p>
+<p class=relation>Task C: e57 BEFORE t220</p>
+<p class=relation>Task E: e57 AFTER e63</p>
+<p class=relation>Task F: e60 OVERLAP e59</p>
+<p class=relation>Task F: e57 BEFORE e59</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>In <etag>[announcing]</etag><sup>e61</sup> the plant <etag>[delay]</etag><sup>e62</sup> , Kellogg Chairman William E. LaMothe <etag>[said]</etag><sup>e63</sup> , " Cereal volume <etag>[growth]</etag><sup>e64</sup> in the U.S. has not <etag>[met]</etag><sup>e65</sup> our <etag>[expectations]</etag><sup>e66</sup> for <ttag>[1989]</ttag><sup>t226</sup> . "</p></table>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e66 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>t226 { type:DATE value:1989 }</p>
+<p class=attributes>e65 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e63 OVERLAP t226</p>
+<p class=relation>Task C: e61 OVERLAP t226</p>
+<p class=relation>Task E: e63 OVERLAP e67</p>
+<p class=relation>Task F: e63 VAGUE e65</p>
+<p class=relation>Task F: e66 BEFORE e64</p>
+<p class=relation>Task F: e61 AFTER e62</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>He <etag>[said]</etag><sup>e67</sup> <etag>[construction]</etag><sup>e68</sup> would n 't <etag>[resume]</etag><sup>e69</sup> until market conditions <etag>[warrant]</etag><sup>e70</sup> it .</p></table>
+<p class=attributes>e67 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e70 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e68 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e69 { polarity:NEG modality:would pos:VERB tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e67 OVERLAP e71</p>
+<p class=relation>Task F: e67 BEFORE e69</p>
+<p class=relation>Task F: e70 BEFORE e69</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>Kellogg <etag>[indicated]</etag><sup>e71</sup> that it <etag>[has]</etag><sup>e72</sup> room to <etag>[grow]</etag><sup>e74</sup> without <etag>[adding]</etag><sup>e75</sup> facilities .</p></table>
+<p class=attributes>e71 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e75 { polarity:NEG modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e72 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e74 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e71 OVERLAP e76</p>
+<p class=relation>Task F: e71 VAGUE e72</p>
+<p class=relation>Task F: e72 VAGUE e74</p>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>The company <etag>[has]</etag><sup>e76</sup> five other U.S. plants , including a modern facility at its Battle Creek headquarters known as Building 100 , which is to <etag>[add]</etag><sup>e77</sup> bran-processing and rice-processing capacity <ttag>[next year]<sup>t230</sup></ttag> .</p></table>
+<p class=attributes>e77 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t230 { value:1990 type:DATE }</p>
+<p class=attributes>e76 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e77 OVERLAP t230</p>
+<p class=relation>Task C: e76 BEFORE t230</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>General Mills , meanwhile , finds itself <etag>[constrained]</etag><sup>e78</sup> from <etag>[boosting]</etag><sup>e79</sup> sales further because its plants are <etag>[operating]</etag><sup>e80</sup> at capacity .</p></table>
+<p class=attributes>e79 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e78 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:I_STATE }</p>
+<p class=attributes>e80 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e78 VAGUE e79</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line>A large plant in Covington , Ga. , is to <etag>[come]</etag><sup>e81</sup> on line <ttag>[next year]<sup>t233</sup></ttag> .</p></table>
+<p class=attributes>e81 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t233 { value:1990 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e81 OVERLAP t233</p>
+<p class=relation>Task E: e81 AFTER e84</p>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line>A Kellogg officer , who asked not to be named , <etag>[said]</etag><sup>e84</sup> the Memphis project was " <etag>[pulled]</etag><sup>e85</sup> in for a <etag>[reconsideration]</etag><sup>e86</sup> of costs , " an indication that the ambitious plans might be <etag>[scaled]</etag><sup>e88</sup> back in any future <etag>[construction]</etag><sup>e89</sup> .</p></table>
+<p class=attributes>e84 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e89 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e86 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e85 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e88 { polarity:POS modality:might pos:VERB tense:NONE aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e84 AFTER e92</p>
+<p class=relation>Task F: e84 OVERLAP-OR-AFTER e85</p>
+<p class=relation>Task F: e85 BEFORE e86</p>
+</div>
+
+<div id=s27 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>27
+  <td><p class=line>Initial cost estimates for the plant , which was to have been built in phases , <etag>[ranged]</etag><sup>e92</sup> from $1 billion to $1.2 billion .</p></table>
+<p class=attributes>e92 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e92 BEFORE e93</p>
+</div>
+
+<div id=s28 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>28
+  <td><p class=line>A company spokesman <etag>[said]</etag><sup>e93</sup> it was " possible , but highly unlikely , " that the plant might never be <etag>[built]</etag><sup>e97</sup> .</p></table>
+<p class=attributes>e93 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e97 { polarity:NEG modality:might pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e93 OVERLAP e107</p>
+<p class=relation>Task F: e93 AFTER e97</p>
+</div>
+
+<div id=s29 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>29
+  <td><p class=line>" As we <etag>[regain]</etag><sup>e98</sup> our leadership level where we have been , and as we <etag>[continue]</etag><sup>e100</sup> to <etag>[put]</etag><sup>e101</sup> new products into the marketplace and <etag>[need]</etag><sup>e102</sup> additional capacity , we will <etag>[look]</etag><sup>e103</sup> at <etag>[resuming]</etag><sup>e104</sup> our <etag>[involvement]</etag><sup>e105</sup> with our plan , " he <etag>[said]</etag><sup>e107</sup> .</p></table>
+<p class=attributes>e102 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e100 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e101 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e104 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e103 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e105 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e98 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e107 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task F: e103 VAGUE e104</p>
+<p class=relation>Task F: e107 BEFORE e103</p>
+</div>
+
+<div id=s30 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>30
+  <td><p class=line>The new facility was to have been the world 's most advanced cereal manufacturing plant , and Kellogg 's largest construction project .</p></table>
+<p/>
+</div>
+
+<div id=s31 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>31
+  <td><p class=line>The company had <etag>[retained]</etag><sup>e109</sup> the Fluor Daniel unit of Fluor Corp. as general contractor .</p></table>
+<p class=attributes>e109 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e109 BEFORE e110</p>
+</div>
+
+<div id=s32 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>32
+  <td><p class=line>But in <ttag>[recent weeks]<sup>t248</sup></ttag> , construction-industry sources <etag>[reported]</etag><sup>e110</sup> that early preparation work was <etag>[slowing]</etag><sup>e112</sup> at the 185-acre site .</p></table>
+<p class=attributes>e112 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>t248 { value:PXW type:DURATION }</p>
+<p class=attributes>e110 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e110 OVERLAP t248</p>
+<p class=relation>Task E: e110 OVERLAP e113</p>
+<p class=relation>Task F: e110 OVERLAP-OR-AFTER e112</p>
+</div>
+
+<div id=s33 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>33
+  <td><p class=line>Subcontractors <etag>[said]</etag><sup>e113</sup> they were <etag>[told]</etag><sup>e114</sup> that equipment <etag>[orders]</etag><sup>e115</sup> would be <etag>[delayed]</etag><sup>e116</sup> .</p></table>
+<p class=attributes>e113 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e116 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e114 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e115 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e113 OVERLAP e118</p>
+<p class=relation>Task F: e113 AFTER e114</p>
+<p class=relation>Task F: e116 VAGUE e115</p>
+<p class=relation>Task F: e114 AFTER e116</p>
+</div>
+
+<div id=s34 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>34
+  <td><p class=line>Fluor Daniel already has <etag>[reassigned]</etag><sup>e117</sup> most of its work crew , the sources <etag>[said]</etag><sup>e118</sup> .</p></table>
+<p class=attributes>e118 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e117 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e118 BEFORE e119</p>
+<p class=relation>Task F: e118 OVERLAP-OR-AFTER e117</p>
+</div>
+
+<div id=s35 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>35
+  <td><p class=line><ttag>[Last Friday]<sup>t251</sup></ttag> 's <etag>[announcement]</etag><sup>e119</sup> was the first official word that the project was <etag>[in]</etag><sup>e121</sup> trouble and that the company 's plans for a surge in market share may have been overly <etag>[optimistic]</etag><sup>e125</sup> .</p></table>
+<p class=attributes>t251 { value:1989-10-27 type:DATE }</p>
+<p class=attributes>e125 { polarity:POS modality:may pos:ADJECTIVE tense:NONE aspect:PERFECTIVE class:STATE }</p>
+<p class=attributes>e119 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e121 { polarity:POS modality:NONE pos:PREPOSITION tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e119 OVERLAP-OR-AFTER e126</p>
+</div>
+
+<div id=s36 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>36
+  <td><p class=line>Until <ttag>[recently]</ttag><sup>t257</sup> , Kellogg had been <etag>[telling]</etag><sup>e126</sup> its sales force and Wall Street that by <ttag>[1992]</ttag><sup>t258</sup> it <etag>[intended]</etag><sup>e127</sup> to <etag>[achieve]</etag><sup>e128</sup> a 50% share of market , measured in dollar volume .</p></table>
+<p class=attributes>e128 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p class=attributes>t257 { value:PAST_REF type:DATE }</p>
+<p class=attributes>t258 { type:DATE value:1992 }</p>
+<p class=attributes>e127 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e126 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE_PROGRESSIVE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e126 OVERLAP t257</p>
+<p class=relation>Task E: e126 OVERLAP e131</p>
+<p class=relation>Task F: e127 BEFORE-OR-OVERLAP e128</p>
+<p class=relation>Task F: e126 AFTER e127</p>
+</div>
+
+<div id=s37 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>37
+  <td><p class=line>Although he <etag>[called]</etag><sup>e129</sup> current market conditions " highly competitive , " Mr. LaMothe , Kellogg 's chairman and chief executive officer , <etag>[forecast]</etag><sup>e131</sup> an earnings <etag>[increase]</etag><sup>e132</sup> for <ttag>[the full year]<sup>t264</sup></ttag> .</p></table>
+<p class=attributes>e132 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t264 { value:1989 type:DATE }</p>
+<p class=attributes>e131 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e129 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e132 OVERLAP t264</p>
+<p class=relation>Task C: e129 OVERLAP t264</p>
+<p class=relation>Task E: e131 AFTER e133</p>
+<p class=relation>Task F: e131 BEFORE e132</p>
+</div>
+
+<div id=s38 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>38
+  <td><p class=line><ttag>[Last year]<sup>t265</sup></ttag> , the company <etag>[earned]</etag><sup>e133</sup> $480.4 million , or $3.90 a share , on sales of $4.3 billion .</p></table>
+<p class=attributes>t265 { value:1988 type:DATE }</p>
+<p class=attributes>e133 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e133 OVERLAP t265</p>
+<p class=relation>Task E: e133 BEFORE e135</p>
+</div>
+
+<div id=s39 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>39
+  <td><p class=line>As <etag>[expected]</etag><sup>e134</sup> , Kellogg <etag>[reported]</etag><sup>e135</sup> lower <ttag>[third-quarter]</ttag><sup>t268</sup> earnings .</p></table>
+<p class=attributes>e134 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:I_STATE }</p>
+<p class=attributes>e135 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t268 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e134 OVERLAP t268</p>
+<p class=relation>Task C: e135 AFTER t268</p>
+<p class=relation>Task E: e135 AFTER e136</p>
+</div>
+
+<div id=s40 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>40
+  <td><p class=line>Net <etag>[fell]</etag><sup>e136</sup> 16% to $123.1 million , or $1.02 a share , from $145.7 million , or $1.18 a share .</p></table>
+<p class=attributes>e136 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e136 OVERLAP e137</p>
+</div>
+
+<div id=s41 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>41
+  <td><p class=line>Sales <etag>[rose]</etag><sup>e137</sup> 4.8% to $1.20 billion from $1.14 billion .</p></table>
+<p class=attributes>e137 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e137 BEFORE e138</p>
+</div>
+
+<div id=s42 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>42
+  <td><p class=line>The company <etag>[had]</etag><sup>e138</sup> a one-time <etag>[charge]</etag><sup>e139</sup> of $14.8 million in <ttag>[the latest quarter]<sup>t279</sup></ttag> covering the <etag>[disposition]</etag><sup>e141</sup> of certain assets .</p></table>
+<p class=attributes>t279 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e141 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e138 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e139 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e138 OVERLAP t279</p>
+<p class=relation>Task C: e139 OVERLAP t279</p>
+<p class=relation>Task E: e138 BEFORE e142</p>
+</div>
+
+<div id=s43 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>43
+  <td><p class=line>The company would n 't <etag>[elaborate]</etag><sup>e142</sup> , <etag>[citing]</etag><sup>e143</sup> competitive reasons .</p></table>
+<p class=attributes>e142 { polarity:NEG modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e143 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p/>
+</div>
+</body>
+</html>

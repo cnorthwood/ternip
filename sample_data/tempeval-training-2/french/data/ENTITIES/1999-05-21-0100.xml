@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="1999-05-21" />Auto contre cyclo à Delle.
+Les pompiers ont <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="VERB" signalID="PRED=SECOURIR" tense="PAST" vform="PASTPART">secouru</EVENT> David Dietlin, <EVENT aspect="NONE" class="STATE" eid="e5" pos="ADJECTIVE" signalID="PRED=BLESSER" tense="NONE" vform="NONE">blessé</EVENT> légèrement, à la hauteur du 37, rue de la Libération, dans un <EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="NOUN" signalID="PRED=ACCIDENT" tense="NONE" vform="NONE">accident</EVENT> entre une auto et un deux roues. Il a été <EVENT aspect="NONE" class="OCCURRENCE" eid="e4" pos="VERB" signalID="PRED=CONDUIRE" tense="PAST" vform="PASTPART">conduit</EVENT> au centre hospitalier de Belfort.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei3" eventID="e3" /><MAKEINSTANCE eiid="ei4" eventID="e4" /><MAKEINSTANCE eiid="ei5" eventID="e5" /></TimeML>

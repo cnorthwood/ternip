@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><article>
+  <header>
+   <source>Est Républicain/CNRTL</source>
+   <sourceFile>2003-01-15.tei</sourceFile>
+   <filename>0009.txt</filename>
+   <publicationDate>2003-01-15</publicationDate>
+  </header>
+  <TEXT>
+    <TIMEX3 functionInDocument="PUBLICATION_TIME" temporalFunction="FALSE" tid="t5" type="DATE" value="2003-01-15" />
+    Concours de tarot.
+    Le foyer des jeunes de Naives-Rosières <EVENT class="OCCURRENCE" eid="e1">organise</EVENT> un <EVENT class="OCCURRENCE" eid="e3">concours</EVENT> de tarot <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t1" type="DATE" value="2003-1-19">ce dimanche</TIMEX3> à la maison du temps libre. <EVENT class="OCCURRENCE" eid="e4">Inscriptions</EVENT> <SIGNAL sid="s1">à partir de</SIGNAL> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t2" type="TIME" value="2003-01-19T13:30">13 h 30</TIMEX3> (15 € ) ; début des <EVENT cardinality="mod=START" class="OCCURRENCE" eid="e5" nf_morph="NOUN">parties</EVENT> <SIGNAL sid="s2">à</SIGNAL> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t3" type="TIME" value="2003-01-19T14">14 h</TIMEX3>. 1er lot d'une valeur de 150 €, 2e lot de 100 €, 3e lot de 60 €... Personne ne <EVENT class="OCCURRENCE" eid="e2">repartira</EVENT> bredouille, sous réserve de 52 inscriptions.
+  </TEXT>
+</article>
+
+<TLINK lid="l1" origin="USER" relType="AFTER" relatedToTime="t5" timeID="t1" />
+<TLINK lid="l2" origin="USER" relType="OVERLAPS" relatedToTime="t1" timeID="t2" />
+<TLINK lid="l3" origin="USER" relType="AFTER" relatedToTime="t2" timeID="t3" />
+<TLINK lid="l4" origin="USER" relType="OVERLAPS" relatedToTime="t1" timeID="t3" />
+<TLINK eventInstanceID="e1" lid="l5" origin="USER" relType="OVERLAPS" relatedToTime="t5" />
+<TLINK eventInstanceID="e3" lid="l6" origin="USER" relType="OVERLAPS" relatedToTime="t1" />
+<TLINK eventInstanceID="e3" lid="l7" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK eventInstanceID="e3" lid="l8" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e1" lid="l9" origin="USER" relType="BEFORE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e4" lid="l10" origin="USER" relType="BEFORE" relatedToEventInstance="e3" />
+<TLINK lid="l11" origin="USER" relType="BEFORE" relatedToEventInstance="e4" timeID="t2" />
+<TLINK eventInstanceID="e5" lid="l12" origin="USER" relType="AFTER" relatedToTime="t3" />
+<TLINK eventInstanceID="e5" lid="l13" origin="USER" relType="OVERLAPS" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e2" lid="l14" origin="USER" relType="AFTER" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e1" lid="l16" origin="USER" relType="BEFORE" relatedToEventInstance="e3" />
+
+</TimeML>

@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0332</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Orkem S.A. , a French state-controlled chemical manufacturer , is <etag>[making]</etag><sup>e1</sup> a friendly <etag>[bid]</etag><sup>e2</sup> of 470 pence ( $7.43 ) a share for the 59.2% of U.K. specialty chemical group Coates Brothers PLC which it does n 't already <etag>[own]</etag><sup>e3</sup> , the two sides <etag>[said]</etag><sup>e4</sup> .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e4 AFTER e6</p>
+<p class=relation>Task F: e4 OVERLAP e1</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The offer , which values the whole of Coates at #301 million , has already been <etag>[accepted]</etag><sup>e6</sup> by Coates executives and other shareholders owning 12.4% of the company .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e6 BEFORE e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The acceptances <etag>[give]</etag><sup>e8</sup> Orkem a controlling 53.2% stake in the company .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 AFTER e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Orkem and Coates <etag>[said]</etag><sup>e9</sup> <ttag>[last Wednesday]<sup>t50</sup></ttag> that the two were <etag>[considering]</etag><sup>e10</sup> a <etag>[merger]</etag><sup>e11</sup> , through Orkem 's British subsidiary , Orkem Coatings U.K. Ltd. Orkem , France 's third-largest chemical group , <etag>[said]</etag><sup>e12</sup> it would <etag>[fund]</etag><sup>e13</sup> the <etag>[acquisition]</etag><sup>e14</sup> through internal resources .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PROGRESSIVE class:I_STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t50 { value:1989-10-25 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t50</p>
+<p class=relation>Task C: e14 AFTER t50</p>
+<p class=relation>Task C: e9 OVERLAP t50</p>
+<p class=relation>Task E: e9 BEFORE e15</p>
+<p class=relation>Task F: e10 BEFORE e11</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+<p class=relation>Task F: e9 OVERLAP e10</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The <etag>[takeover]</etag><sup>e15</sup> would be followed by a <etag>[restructuring]</etag><sup>e17</sup> of Orkem 's U.K. unit , including the <etag>[addition]</etag><sup>e19</sup> of related Orkem businesses and possibly further <etag>[acquisitions]</etag><sup>e20</sup> .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:would pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e15 AFTER e21</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Orkem <etag>[said]</etag><sup>e21</sup> it eventually would <etag>[seek]</etag><sup>e22</sup> to <etag>[make]</etag><sup>e23</sup> a public share offering in its U.K. business .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e22 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e21 BEFORE e22</p>
+<p class=relation>Task F: e22 BEFORE e23</p>
+</div>
+</body>
+</html>

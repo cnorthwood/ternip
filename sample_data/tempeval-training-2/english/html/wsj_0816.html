@@ -1,0 +1,313 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0816</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Some lousy earnings reports <etag>[whacked]</etag><sup>e1</sup> the stock market , but bond prices <etag>[fell]</etag><sup>e2</sup> only slightly and the dollar <etag>[rose]</etag><sup>e3</sup> a little against most major currencies .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 VAGUE e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Dow Jones Industrial Average <etag>[tumbled]</etag><sup>e4</sup> 39.55 points , to 2613.73 , in active trading .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e4 OVERLAP e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Long-term Treasury bonds <etag>[ended]</etag><sup>e6</sup> slightly higher .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e6 OVERLAP e7</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The dollar <etag>[rose]</etag><sup>e7</sup> modestly against the mark and the yen , but <etag>[soared]</etag><sup>e8</sup> against the pound following the <etag>[resignation]</etag><sup>e10</sup> of Britain 's chancellor of the Exchequer , Nigel Lawson .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e7 AFTER e11</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Analysts have <etag>[complained]</etag><sup>e11</sup> that <ttag>[third-quarter]</ttag><sup>t176</sup> corporate earnings have n 't been very <etag>[good]</etag><sup>e14</sup> , but the effect <etag>[hit]</etag><sup>e16</sup> home particularly hard <ttag>[yesterday]</ttag><sup>t95</sup> .</p></table>
+<p class=attributes>e14 { polarity:NEG modality:NONE pos:ADJECTIVE tense:PRESENT aspect:PERFECTIVE class:STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>t176 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t95 { value:1989-10-26 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e11 BEFORE e17</p>
+<p class=relation>Task F: e11 AFTER e14</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Compaq Computer <etag>[nose-dived]</etag><sup>e17</sup> $8.625 a share , to $100 , and <etag>[pulled]</etag><sup>e18</sup> other technology issues lower after <etag>[reporting]</etag><sup>e19</sup> lower-than-expected earnings after the stock market <etag>[closed]</etag><sup>e20</sup> <ttag>[Wednesday]</ttag><sup>t99</sup> .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p class=attributes>t99 { value:1989-10-25 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e20 OVERLAP t99</p>
+<p class=relation>Task E: e17 BEFORE-OR-OVERLAP e21</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line><ttag>[Later yesterday]<sup>t100</sup></ttag> the nation 's major auto makers <etag>[added]</etag><sup>e21</sup> to the gloom when they each <etag>[reported]</etag><sup>e22</sup> their core auto operations were net <etag>[losers]</etag><sup>e25</sup> in <ttag>[the third quarter]<sup>t103</sup></ttag> .</p></table>
+<p class=attributes>t103 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>t100 { value:1989-10-26 type:TIME }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e22 OVERLAP t100</p>
+<p class=relation>Task C: e21 OVERLAP t100</p>
+<p class=relation>Task E: e21 VAGUE e26</p>
+<p class=relation>Task F: e22 OVERLAP-OR-AFTER e25</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>The less-than-robust <ttag>[third-quarter]</ttag><sup>t104</sup> <etag>[results]</etag><sup>e26</sup> came amid renewed concern about the volatility of stock prices and the role of computer-aided program trading .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t104 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e26 OVERLAP t104</p>
+<p class=relation>Task E: e26 BEFORE e30</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Taken together , the worries <etag>[prompted]</etag><sup>e30</sup> a broad <etag>[sell-off]</etag><sup>e31</sup> of stocks .</p></table>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e30 BEFORE e32</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>The number of stocks on the New York Stock Exchange that <etag>[fell]</etag><sup>e32</sup> in price <ttag>[yesterday]</ttag><sup>t110</sup> exceeded 1,000 , a key measure of underlying sentiment among technical analysts .</p></table>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t110 { value:1989-10-26 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e32 OVERLAP t110</p>
+<p class=relation>Task E: e32 AFTER e34</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Although the government <etag>[said]</etag><sup>e34</sup> the economy <etag>[grew]</etag><sup>e35</sup> an estimated 2.5% in <ttag>[the third quarter]<sup>t112</sup></ttag> , in line with expectations , analysts are increasingly <etag>[predicting]</etag><sup>e36</sup> much more sluggish <etag>[growth]</etag><sup>e37</sup> -- and therefore more corporate earnings <etag>[disappointments]</etag><sup>e38</sup> -- for <ttag>[the fourth quarter]<sup>t116</sup></ttag> .</p></table>
+<p class=attributes>t112 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>t116 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e34 OVERLAP t112</p>
+<p class=relation>Task E: e34 BEFORE e42</p>
+<p class=relation>Task F: e36 BEFORE e38</p>
+<p class=relation>Task F: e34 AFTER e35</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>" There are a lot more downward <etag>[revisions]</etag><sup>e40</sup> of earnings forecasts than upward <etag>[revisions]</etag><sup>e41</sup> , " <etag>[said]</etag><sup>e42</sup> Abby Joseph Cohen , a market strategist at Drexel Burnham Lambert .</p></table>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:NOUN tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e42 OVERLAP e43</p>
+<p class=relation>Task F: e42 OVERLAP e40</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>" People are <etag>[questioning]</etag><sup>e43</sup> corporate profits as a pillar of support for the equity market . "</p></table>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e43 OVERLAP e46</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>The bond market was <etag>[unmoved]</etag><sup>e46</sup> by the economic statistics .</p></table>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e46 OVERLAP e51</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>While bond investors would have <etag>[preferred]</etag><sup>e47</sup> <etag>[growth]</etag><sup>e48</sup> to <etag>[be]</etag><sup>e49</sup> a little slower , they were <etag>[cheered]</etag><sup>e51</sup> by inflation measures in the data that showed prices <etag>[rising]</etag><sup>e54</sup> at a modest annual rate of 2.9% .</p></table>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:STATE }</p>
+<p class=attributes>e47 { polarity:POS modality:would pos:VERB tense:NONE aspect:PERFECTIVE class:I_STATE }</p>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e51 OVERLAP e58</p>
+<p class=relation>Task F: e47 BEFORE-OR-OVERLAP e49</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>That is another small <etag>[encouragement]</etag><sup>e56</sup> for the Federal Reserve to <etag>[lower]</etag><sup>e57</sup> interest rates in <ttag>[coming weeks]<sup>t121</sup></ttag> , they <etag>[reasoned]</etag><sup>e58</sup> .</p></table>
+<p class=attributes>e57 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t121 { value:PXW type:DURATION }</p>
+<p class=attributes>e56 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e58 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e58 VAGUE e60</p>
+<p class=relation>Task F: e56 BEFORE-OR-OVERLAP e57</p>
+<p class=relation>Task F: e58 OVERLAP e56</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>In major market <etag>[activity]</etag><sup>e59</sup> : Stock prices <etag>[fell]</etag><sup>e60</sup> sharply in active trading .</p></table>
+<p class=attributes>e59 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e60 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e60 OVERLAP e63</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>Volume on the New York Stock Exchange <etag>[totaled]</etag><sup>e63</sup> 175.2 million shares .</p></table>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e63 OVERLAP e64</p>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>Declining issues on the Big Board <etag>[outstripped]</etag><sup>e64</sup> gainers 1,141 to 406 .</p></table>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e64 OVERLAP e66</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>Bond prices were barely <etag>[higher]</etag><sup>e66</sup> .</p></table>
+<p class=attributes>e66 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e66 OVERLAP e67</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>The Treasury 's benchmark 30-year <etag>[rose]</etag><sup>e67</sup> fractionally .</p></table>
+<p class=attributes>e67 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>Yield on the issue was 7.88% .</p></table>
+<p/>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>The dollar <etag>[rose]</etag><sup>e70</sup> modestly against most major currencies .</p></table>
+<p class=attributes>e70 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>In late New York trading the dollar was at 1.8400 marks and 142.10 yen compared with 1.8353 marks and 141.52 yen <ttag>[Wednesday]</ttag><sup>t130</sup> .</p></table>
+<p class=attributes>t130 { value:1989-10-25 type:DATE }</p>
+<p/>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>The dollar <etag>[soared]</etag><sup>e73</sup> against the pound , which was at $1.5765 compared with $1.6145 <ttag>[Wednesday]</ttag><sup>t131</sup> .</p></table>
+<p class=attributes>e73 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t131 { value:1989-10-25 type:DATE }</p>
+<p/>
+</div>
+</body>
+</html>

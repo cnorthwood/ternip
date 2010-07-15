@@ -1,0 +1,145 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0679</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Hewlett-Packard Co. <etag>[said]</etag><sup>e1</sup> it <etag>[raised]</etag><sup>e2</sup> its stake in Octel Communications Corp. to 8.5% of the common shares outstanding .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>In a Securities and Exchange Commission filing , Hewlett-Packard <etag>[said]</etag><sup>e3</sup> it now <etag>[holds]</etag><sup>e4</sup> 1,384,119 Octel common shares , including 100,000 shares <etag>[bought]</etag><sup>e5</sup> from <ttag>[Aug. 26]<sup>t94</sup></ttag> to <ttag>[Oct. 20]<sup>t51</sup></ttag> for $23.31 to $24.25 a share .</p></table>
+<p class=attributes>t94 { value:1989-08-26 type:DATE }</p>
+<p class=attributes>t51 { value:1989-10-20 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e4 AFTER t94</p>
+<p class=relation>Task C: e5 OVERLAP-OR-AFTER t94</p>
+<p class=relation>Task C: e3 AFTER t94</p>
+<p class=relation>Task E: e3 OVERLAP e6</p>
+<p class=relation>Task F: e3 OVERLAP e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Hewlett-Packard , a Palo Alto , Calif. , computer company , <etag>[said]</etag><sup>e6</sup> it <etag>[acquired]</etag><sup>e7</sup> the stock " to <etag>[develop]</etag><sup>e8</sup> and <etag>[maintain]</etag><sup>e9</sup> a strategic partnership in which each company <etag>[remains]</etag><sup>e11</sup> independent while <etag>[working]</etag><sup>e13</sup> together to <etag>[market]</etag><sup>e14</sup> and <etag>[sell]</etag><sup>e15</sup> their products . "</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:STATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e6 BEFORE-OR-OVERLAP e16</p>
+<p class=relation>Task F: e6 AFTER e7</p>
+<p class=relation>Task F: e7 BEFORE e9</p>
+<p class=relation>Task F: e13 OVERLAP e15</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Octel <etag>[said]</etag><sup>e16</sup> the <etag>[purchase]</etag><sup>e17</sup> was <etag>[expected]</etag><sup>e18</sup> .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e16 VAGUE e19</p>
+<p class=relation>Task F: e16 AFTER e18</p>
+<p class=relation>Task F: e18 BEFORE e17</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Hewlett-Packard <etag>[affirmed]</etag><sup>e19</sup> it does n 't <etag>[plan]</etag><sup>e20</sup> to <etag>[obtain]</etag><sup>e21</sup> control of Octel , a Milpitas , Calif. , maker of voice-processing systems .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e19 AFTER e23</p>
+<p class=relation>Task F: e19 OVERLAP e20</p>
+<p class=relation>Task F: e20 BEFORE e21</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line><etag>[According]</etag><sup>e22</sup> to the filing , Hewlett-Packard <etag>[acquired]</etag><sup>e23</sup> 730,070 common shares from Octel as a result of an <ttag>[Aug. 10 , 1988]<sup>t57</sup></ttag> , stock purchase <etag>[agreement]</etag><sup>e25</sup> .</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t57 { type:DATE value:1988-08-10 }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e25 OVERLAP t57</p>
+<p class=relation>Task C: e23 AFTER t57</p>
+<p class=relation>Task E: e23 OVERLAP-OR-AFTER e27</p>
+<p class=relation>Task F: e22 VAGUE e23</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>That <etag>[accord]</etag><sup>e26</sup> also <etag>[called]</etag><sup>e27</sup> for Hewlett-Packard to <etag>[buy]</etag><sup>e28</sup> 730,070 Octel shares in the open market within <ttag>[18 months]<sup>t60</sup></ttag> .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t60 { type:DURATION value:P18M }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e26 BEFORE t60</p>
+<p class=relation>Task C: e27 BEFORE t60</p>
+<p class=relation>Task C: e28 OVERLAP t60</p>
+<p class=relation>Task E: e27 BEFORE-OR-OVERLAP e29</p>
+<p class=relation>Task F: e27 BEFORE e28</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>In addition , Hewlett-Packard <etag>[acquired]</etag><sup>e29</sup> a <ttag>[two-year]</ttag><sup>t61</sup> option to <etag>[buy]</etag><sup>e30</sup> an extra 10% , of which half may be <etag>[sold]</etag><sup>e31</sup> directly to Hewlett-Packard by Octel .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e31 { polarity:POS modality:may pos:VERB tense:NONE aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t61 { type:DURATION value:P2Y }</p>
+<p/>
+<p class=relation>Task C: e30 OVERLAP t61</p>
+<p class=relation>Task C: e31 OVERLAP t61</p>
+<p class=relation>Task C: e29 BEFORE t61</p>
+</div>
+</body>
+</html>

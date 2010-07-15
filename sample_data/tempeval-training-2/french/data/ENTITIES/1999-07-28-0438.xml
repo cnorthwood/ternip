@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="1999-07-28" />Le CICV sur Arte <TIMEX3 anchorTimeID="T1" temporalFunction="TRUE" tid="t2" type="DATE" value="1999-07-28TEV" valueFromFunction="TF5">ce soir</TIMEX3>.
+Deux œuvres <EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="VERB" signalID="PRED=RÉALISER" tense="NONE" vform="PASTPART">réalisées</EVENT> au CICV d'Hérimoncourt seront <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="VERB" signalID="PRED=DIFFUSER" tense="FUTURE" vform="PASTPART">diffusées</EVENT> sur Arte dans le cadre de l'<EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="NOUN" signalID="PRED=ÉMISSION" tense="NONE" vform="NONE">émission</EVENT> « Les nuits de la pleine lune » <TIMEX3 anchorTimeID="T1" temporalFunction="TRUE" tid="t5" type="DATE" value="1999-07-28TEV" valueFromFunction="TF5">ce soir</TIMEX3> <SIGNAL sid="s2">à</SIGNAL> <TIMEX3 tid="t6" type="TIME" value="1999-07-28T00:10">00 h 10</TIMEX3>.
+Il s'agit de « Corps flottants » de Robert Cahen et de « Poèmes à l'infect » de Jean-Michel Bruyère.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei2" eventID="e2" /><MAKEINSTANCE eiid="ei3" eventID="e3" /></TimeML>

@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1042</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>AVON RENT-A-CAR amp TRUCK Corp. <etag>[said]</etag><sup>e1</sup> it <etag>[declared]</etag><sup>e2</sup> a dividend of one warrant for each three shares of common stock .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE-OR-OVERLAP e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Currently , Avon , based in Santa Monica , Calif. , <etag>[has]</etag><sup>e3</sup> 3.3 million common shares outstanding .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 OVERLAP-OR-AFTER e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>About 1.1 million Class C warrants were <etag>[issued]</etag><sup>e4</sup> , the company <etag>[said]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e5 BEFORE e6</p>
+<p class=relation>Task F: e5 AFTER e4</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Each of the Class C warrants will <etag>[enable]</etag><sup>e6</sup> the holders to <etag>[purchase]</etag><sup>e7</sup> one share of common stock at $5.50 .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e6 OVERLAP e8</p>
+<p class=relation>Task F: e6 OVERLAP e7</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The warrants may be <etag>[exercised]</etag><sup>e8</sup> until <ttag>[90 days]<sup>t31</sup></ttag> after their issue date .</p></table>
+<p class=attributes>e8 { polarity:POS modality:may pos:VERB tense:NONE aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t31 { type:DURATION value:P90D }</p>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Avon also said it will <etag>[issue]</etag><sup>e10</sup> an additional 243,677 of the Class C warrants to holders of its Class A , Class B and unclassified warrants .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Issuance of those warrants will be at the rate of one-third warrant for each warrant exercised .</p></table>
+<p/>
+</div>
+</body>
+</html>

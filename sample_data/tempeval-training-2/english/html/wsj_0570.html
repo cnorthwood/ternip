@@ -1,0 +1,244 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0570</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Crane Co. <etag>[said]</etag><sup>e1</sup> it <etag>[holds]</etag><sup>e2</sup> an 8.9% stake in Milton Roy Corp. , an analytical-instruments maker , and may <etag>[seek]</etag><sup>e3</sup> control of the company .</p></table>
+<p class=attributes>e3 { polarity:POS modality:may pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Crane , a maker of engineered products for aerospace , construction , defense and other uses , <etag>[made]</etag><sup>e4</sup> the <etag>[disclosure]</etag><sup>e5</sup> in a Securities and Exchange Commission <etag>[filing]</etag><sup>e6</sup> .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e4 OVERLAP e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In the <etag>[filing]</etag><sup>e7</sup> , Crane <etag>[said]</etag><sup>e8</sup> that in <ttag>[the past]<sup>t84</sup></ttag> it <etag>[considered]</etag><sup>e9</sup> <etag>[seeking]</etag><sup>e10</sup> control of Milton Roy , of St. Petersburg , Fla. , through a <etag>[merger]</etag><sup>e11</sup> or tender <etag>[offer]</etag><sup>e12</sup> and that it <etag>[expects]</etag><sup>e13</sup> to <etag>[continue]</etag><sup>e14</sup> to <etag>[evaluate]</etag><sup>e15</sup> an <etag>[acquisition]</etag><sup>e16</sup> <ttag>[from time to time]<sup>t88</sup></ttag> .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t88 { value:FUTURE_REF type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t84 { value:PAST_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e10 BEFORE t88</p>
+<p class=relation>Task C: e13 OVERLAP t88</p>
+<p class=relation>Task C: e16 OVERLAP t88</p>
+<p class=relation>Task C: e12 VAGUE t88</p>
+<p class=relation>Task C: e14 OVERLAP t88</p>
+<p class=relation>Task C: e8 AFTER t88</p>
+<p class=relation>Task E: e8 BEFORE e17</p>
+<p class=relation>Task F: e9 BEFORE e10</p>
+<p class=relation>Task F: e13 OVERLAP e14</p>
+<p class=relation>Task F: e15 BEFORE e16</p>
+<p class=relation>Task F: e8 OVERLAP e13</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Crane officials did n 't <etag>[return]</etag><sup>e17</sup> phone <etag>[calls]</etag><sup>e18</sup> seeking comment .</p></table>
+<p class=attributes>e17 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e17 AFTER e21</p>
+<p class=relation>Task F: e17 AFTER e18</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Crane holds 504,200 Milton Roy shares , including 254,200 <etag>[bought]</etag><sup>e21</sup> from <ttag>[Sept. 14]<sup>t91</sup></ttag> to <ttag>[Thursday]</ttag><sup>t92</sup> for $15.50 to $16.75 each .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t91 { value:1989-09-14 type:DATE }</p>
+<p class=attributes>t92 { value:1989-10-26 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e21 OVERLAP t92</p>
+<p class=relation>Task E: e21 BEFORE e23</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In New York Stock Exchange composite trading <ttag>[Friday]</ttag><sup>t94</sup> , Milton Roy shares <etag>[leaped]</etag><sup>e23</sup> $2 , to $18.375 each , while Crane <etag>[sank]</etag><sup>e24</sup> $1.125 , to $21.125 a share .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t94 { value:1989-10-27 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e23 BEFORE e25</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>John M. McNamara , chief financial officer of Milton Roy , <etag>[said]</etag><sup>e25</sup> the company <etag>[has]</etag><sup>e26</sup> no <etag>[comment]</etag><sup>e27</sup> on Crane 's <etag>[filing]</etag><sup>e28</sup> .</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e27 { polarity:NEG modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e25 AFTER e29</p>
+<p class=relation>Task F: e25 OVERLAP e26</p>
+<p class=relation>Task F: e27 AFTER e28</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Milton Roy <ttag>[recently]</ttag><sup>t100</sup> <etag>[fended]</etag><sup>e29</sup> off unsolicited overtures from Thermo Electron Corp. , a Waltham , Mass. , maker of biomedical products .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t100 { value:PAST_REF type:DATE }</p>
+<p/>
+<p class=relation>Task E: e29 BEFORE e31</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Milton Roy <etag>[disclosed]</etag><sup>e31</sup> in <ttag>[May]</ttag><sup>t101</sup> that it was <etag>[approached]</etag><sup>e32</sup> for a possible <etag>[acquisition]</etag><sup>e33</sup> by Thermo Electron , which <etag>[agreed]</etag><sup>e34</sup> to <etag>[purchase]</etag><sup>e35</sup> Milton Roy 's liquid-chromatography line for $22 million in <ttag>[February]</ttag><sup>t104</sup> .</p></table>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t104 { value:1990-02 type:DATE }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t101 { value:1989-05 type:DATE }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e33 AFTER t101</p>
+<p class=relation>Task C: e35 AFTER t101</p>
+<p class=relation>Task C: e34 BEFORE t101</p>
+<p class=relation>Task E: e31 BEFORE e36</p>
+<p class=relation>Task F: e34 BEFORE e35</p>
+<p class=relation>Task F: e31 AFTER e32</p>
+<p class=relation>Task F: e32 BEFORE e33</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Thermo Electron <etag>[acquired]</etag><sup>e36</sup> some 6% of Milton Roy 's common stock before <etag>[throwing]</etag><sup>e37</sup> in the towel and <etag>[reducing]</etag><sup>e38</sup> its stake in <ttag>[early September]<sup>t105</sup></ttag> .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t105 { value:1989-09 type:DATE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e36 BEFORE t105</p>
+<p class=relation>Task E: e36 AFTER e39</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Gabelli Group <etag>[began]</etag><sup>e39</sup> <etag>[raising]</etag><sup>e40</sup> its Milton Roy stake in <ttag>[July]</ttag><sup>t108</sup> , and <etag>[holds]</etag><sup>e41</sup> 14.6% , <etag>[according]</etag><sup>e42</sup> to a <ttag>[recent]</ttag><sup>t110</sup> SEC filing .</p></table>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>t110 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t108 { value:1989-07 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e41 VAGUE t108</p>
+<p class=relation>Task C: e42 VAGUE t108</p>
+<p class=relation>Task C: e39 OVERLAP t108</p>
+<p class=relation>Task E: e39 BEFORE e44</p>
+<p class=relation>Task F: e42 OVERLAP e41</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>It has n 't <etag>[made]</etag><sup>e44</sup> merger <etag>[overtures]</etag><sup>e45</sup> to the board .</p></table>
+<p class=attributes>e44 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e44 VAGUE e46</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line><ttag>[Earlier this month]<sup>t113</sup></ttag> , Milton Roy <etag>[signed]</etag><sup>e46</sup> a letter of intent to <etag>[acquire]</etag><sup>e47</sup> Automated Custom Systems Inc. , Orange , Calif. , and its sister operation , Environmental Testing Co. , in Aurora , Colo. The companies are automotive-emissions-testing concerns .</p></table>
+<p class=attributes>t113 { value:1989-10 type:DATE }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e47 AFTER t113</p>
+<p class=relation>Task E: e46 BEFORE e49</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Under the terms , Milton Roy will <etag>[pay]</etag><sup>e49</sup> an initial $4 million for the <etag>[operations]</etag><sup>e50</sup> and additional <etag>[payments]</etag><sup>e51</sup> during <ttag>[the next four years]<sup>t114</sup></ttag> based on the earnings performance of the businesses .</p></table>
+<p class=attributes>t114 { value:P4Y type:DURATION }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e49 OVERLAP t114</p>
+<p class=relation>Task E: e49 AFTER e52</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>In <ttag>[the nine months]<sup>t115</sup></ttag> , Milton Roy <etag>[earned]</etag><sup>e52</sup> $6.6 million , or $1.18 a share , on <etag>[sales]</etag><sup>e53</sup> of $94.3 million .</p></table>
+<p class=attributes>t115 { type:DURATION value:P9M }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e53 BEFORE t115</p>
+<p class=relation>Task C: e52 OVERLAP t115</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><article>
+  <header>
+   <source>Est Républicain/CNRTL</source>
+   <sourceFile>2003-01-15.tei</sourceFile>
+   <filename>0002.txt</filename>
+   <publicationDate>2003-01-15</publicationDate>
+  </header>
+  <TEXT>
+    <TIMEX3 functionInDocument="PUBLICATION_TIME" temporalFunction="FALSE" tid="t1" type="DATE" value="2003-01-15" />
+    Le co-pilote nancéien Gilles Piccard <EVENT aspect="NONE" class="STATE" eid="e1" pos="ADJECTIVE" tense="NONE" vform="PASTPART">associé</EVENT> à Jean-Pierre Fontenay, a <EVENT aspect="NONE" class="OCCURRENCE" eid="e10" pos="VERB" tense="PAST" vform="PASTPART">réussi</EVENT> une excellente <EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="NOUN" tense="NONE" vform="NONE">opération</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t2" type="DATE" valueFromFunction="2003-01-14">hier</TIMEX3> <SIGNAL sid="s1">lors de</SIGNAL> la douzième <EVENT aspect="NONE" class="OCCURRENCE" eid="e8" pos="NOUN" tense="NONE" vform="NONE">étape</EVENT> en boucle Siwa-Siwa dans le désert égyptien. Au volant de leur Mitsubishi Pajero, Fontenay-Piccard sont <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t3" type="DATE" valueFromFunction="2003-01-15">désormais</TIMEX3> <EVENT aspect="NONE" class="STATE" eid="e9" pos="ADJECTIVE" tense="PRESENT" vform="NONE">troisièmes</EVENT> et <EVENT aspect="NONE" class="MODAL" eid="e7" pos="VERB" tense="PRESENT" vform="NONE">peuvent</EVENT> <EVENT aspect="NONE" class="OCCURRENCE" eid="e6" modality="POSSIBILITY" pos="VERB" tense="NONE" vform="INFINITIVE">rêver</EVENT> du podium <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t4" type="DATE" valueFromFunction="2003-01-19">dimanche</TIMEX3> à Charm el-Cheikh.
+  </TEXT>
+</article>
+
+<TLINK eventInstanceID="e8" lid="l1" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK lid="l2" origin="USER" relType="BEFORE" relatedToTime="t1" timeID="t2" />
+<TLINK lid="l3" origin="USER" relType="OVERLAPS" relatedToTime="t1" timeID="t3" />
+<TLINK lid="l4" origin="USER" relType="AFTER" relatedToTime="t1" timeID="t4" />
+<TLINK eventInstanceID="e10" lid="l5" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK eventInstanceID="e9" lid="l6" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e10" lid="l7" origin="USER" relType="OVERLAPS" relatedToEventInstance="e1" />
+<TLINK eventInstanceID="e7" lid="l8" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e7" lid="l9" origin="USER" relType="OVERLAPS" relatedToEventInstance="e9" />
+<TLINK lid="l10" origin="USER" relType="BEFORE" relatedToTime="t3" timeID="t2" />
+<TLINK lid="l11" origin="USER" relType="BEFORE" relatedToTime="t4" timeID="t3" />
+<TLINK eventInstanceID="e10" lid="l14" origin="USER" relType="OVERLAPS" relatedToEventInstance="e8" signalID="s1" />
+<TLINK eventInstanceID="e3" lid="l17" origin="USER" relType="OVERLAPS" relatedToEventInstance="e10" />
+<SLINK eventInstanceID="ei10" lid="l13" origin="USER" relType="FACTIVE" subordinatedEventInstance="ei3" />
+<SLINK eventInstanceID="ei7" lid="l15" origin="USER" relType="MODAL" subordinatedEventInstance="ei6" />
+
+</TimeML>

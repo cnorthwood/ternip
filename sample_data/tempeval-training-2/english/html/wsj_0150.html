@@ -1,0 +1,119 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0150</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>A.L. Williams Corp. was <etag>[merged]</etag><sup>e1</sup> into Primerica Corp. , New York , after a special <etag>[meeting]</etag><sup>e2</sup> of Williams shareholders <etag>[cleared]</etag><sup>e3</sup> the <etag>[transaction]</etag><sup>e4</sup> , the companies <etag>[said]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e5 BEFORE e7</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+<p class=relation>Task F: e5 AFTER e1</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Primerica , which had <etag>[owned]</etag><sup>e6</sup> nearly 70% of Williams , will <etag>[pay]</etag><sup>e7</sup> about 16.7 million shares , <ttag>[currently]</ttag><sup>t25</sup> <etag>[valued]</etag><sup>e8</sup> at almost $472 million , for the rest of Williams .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:STATE }</p>
+<p class=attributes>t25 { value:PRESENT_REF type:TIME }</p>
+<p/>
+<p class=relation>Task C: e7 AFTER t25</p>
+<p class=relation>Task E: e7 OVERLAP e9</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The financial-services company will <etag>[pay]</etag><sup>e9</sup> 0.82 share for each Williams share .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e9 AFTER e13</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Williams shares , which were to be <etag>[delisted]</etag><sup>e10</sup> from the New York Stock Exchange after the <etag>[close]</etag><sup>e11</sup> of composite trading <ttag>[yesterday]</ttag><sup>t21</sup> , <etag>[closed]</etag><sup>e13</sup> at $23.25 , off 12.5 cents .</p></table>
+<p class=attributes>t21 { value:1989-11-01 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t21</p>
+<p class=relation>Task C: e11 OVERLAP t21</p>
+<p class=relation>Task E: e13 OVERLAP e14</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Primerica <etag>[closed]</etag><sup>e14</sup> at $28.25 , down 50 cents .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Williams , Duluth , Ga. , is an insurance and financial-services holding company .</p></table>
+<p/>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Its subsidiaries ' services are marketed by closely held A.L. Williams amp Associates .</p></table>
+<p/>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Primerica , as expected , also <etag>[acquired]</etag><sup>e17</sup> certain assets of the agency and <etag>[assumed]</etag><sup>e18</sup> certain of its liabilities .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e17 OVERLAP e19</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Terms were n 't <etag>[disclosed]</etag><sup>e19</sup> .</p></table>
+<p class=attributes>e19 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+</div>
+</body>
+</html>

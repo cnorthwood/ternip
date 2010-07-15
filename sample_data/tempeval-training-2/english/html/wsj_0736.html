@@ -1,0 +1,169 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0736</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Poughkeepsie Savings Bank <etag>[said]</etag><sup>e1</sup> a <etag>[plan]</etag><sup>e2</sup> to <etag>[sell]</etag><sup>e3</sup> its South Carolina branch offices to First Citizens Bank , of Columbia , S.C. , <etag>[fell]</etag><sup>e4</sup> through .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 OVERLAP-OR-AFTER e4</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Poughkeepsie also <etag>[expects]</etag><sup>e5</sup> to <etag>[post]</etag><sup>e6</sup> a one-time charge of $8.3 million , <etag>[resulting]</etag><sup>e8</sup> in a net <etag>[loss]</etag><sup>e9</sup> for <ttag>[the third quarter]<sup>t62</sup></ttag> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t62 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t62</p>
+<p class=relation>Task C: e9 OVERLAP t62</p>
+<p class=relation>Task C: e5 OVERLAP t62</p>
+<p class=relation>Task C: e6 OVERLAP t62</p>
+<p class=relation>Task E: e5 OVERLAP e14</p>
+<p class=relation>Task F: e5 BEFORE e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The charge represents a write-down of the goodwill associated with Poughkeepsie 's investment in the banks it is <etag>[trying]</etag><sup>e14</sup> to <etag>[sell]</etag><sup>e15</sup> and its North Carolina branches as well .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e14 OVERLAP e16</p>
+<p class=relation>Task F: e14 OVERLAP e15</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The thrift <etag>[announced]</etag><sup>e16</sup> the plan <ttag>[Aug. 21]<sup>t63</sup></ttag> .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t63 { value:1989-08-21 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e16 OVERLAP t63</p>
+<p class=relation>Task E: e16 BEFORE e21</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Among other reasons , high fees regulators imposed on certain transfers of thrift deposits to commercial banks " substantially <etag>[altered]</etag><sup>e19</sup> the economics of the <etag>[transaction]</etag><sup>e20</sup> for both parties , " Poughkeepsie <etag>[said]</etag><sup>e21</sup> .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e21 OVERLAP e22</p>
+<p class=relation>Task F: e21 OVERLAP-OR-AFTER e19</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Additionally , the bank is <etag>[increasing]</etag><sup>e22</sup> its loan-loss reserves for <ttag>[the third quarter]<sup>t64</sup></ttag> by $8.5 million before taxes .</p></table>
+<p class=attributes>t64 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e22 OVERLAP t64</p>
+<p class=relation>Task E: e22 AFTER e23</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>In <ttag>[the year-earlier third quarter]<sup>t65</sup></ttag> , Poughkeepsie Savings <etag>[had]</etag><sup>e23</sup> net income of $2.8 million , or 77 cents a share .</p></table>
+<p class=attributes>t65 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e23 OVERLAP t65</p>
+<p class=relation>Task E: e23 BEFORE e24</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Poughkeepsie <etag>[said]</etag><sup>e24</sup> it is <etag>[continuing]</etag><sup>e25</sup> to <etag>[try]</etag><sup>e26</sup> to <etag>[sell]</etag><sup>e27</sup> itself , under a <ttag>[June]</ttag><sup>t66</sup> <etag>[agreement]</etag><sup>e28</sup> with a dissident-shareholder group .</p></table>
+<p class=attributes>t66 { value:1989-06 type:DATE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:ASPECTUAL }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e28 OVERLAP t66</p>
+<p class=relation>Task C: e24 AFTER t66</p>
+<p class=relation>Task C: e25 AFTER t66</p>
+<p class=relation>Task C: e26 AFTER t66</p>
+<p class=relation>Task C: e27 AFTER t66</p>
+<p class=relation>Task E: e24 OVERLAP e29</p>
+<p class=relation>Task F: e24 OVERLAP e25</p>
+<p class=relation>Task F: e26 OVERLAP e27</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>The bank also <etag>[said]</etag><sup>e29</sup> its <etag>[effort]</etag><sup>e30</sup> would <etag>[continue]</etag><sup>e31</sup> past the <ttag>[Nov. 1]<sup>t67</sup></ttag> deadline <etag>[set]</etag><sup>e33</sup> in that <etag>[agreement]</etag><sup>e34</sup> and that the <etag>[litigation]</etag><sup>e35</sup> between the two sides might <etag>[resume]</etag><sup>e36</sup> as a result .</p></table>
+<p class=attributes>t67 { value:1989-11-01 type:DATE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e36 { polarity:POS modality:might pos:VERB tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e31 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task C: e33 BEFORE t67</p>
+<p class=relation>Task C: e34 BEFORE t67</p>
+<p class=relation>Task C: e29 BEFORE t67</p>
+<p class=relation>Task C: e31 OVERLAP t67</p>
+<p class=relation>Task E: e29 AFTER e37</p>
+<p class=relation>Task F: e29 BEFORE e36</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>The thrift and the holders had <etag>[suspended]</etag><sup>e37</sup> their <etag>[lawsuits]</etag><sup>e38</sup> as part of the <etag>[agreement]</etag><sup>e39</sup> .</p></table>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p/>
+</div>
+</body>
+</html>

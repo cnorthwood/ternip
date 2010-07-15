@@ -1,0 +1,132 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0313</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Ocean Drilling amp Exploration Co. will <etag>[sell]</etag><sup>e1</sup> its contract-drilling business , and <etag>[took]</etag><sup>e2</sup> a $50.9 million <etag>[loss]</etag><sup>e3</sup> from discontinued <etag>[operations]</etag><sup>e4</sup> in <ttag>[the third quarter]<sup>t62</sup></ttag> because of the planned <etag>[sale]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t62 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 AFTER t62</p>
+<p class=relation>Task C: e3 AFTER t62</p>
+<p class=relation>Task C: e5 AFTER t62</p>
+<p class=relation>Task C: e1 AFTER t62</p>
+<p class=relation>Task E: e1 AFTER e6</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The New Orleans oil and gas exploration and diving operations company <etag>[added]</etag><sup>e6</sup> that it does n 't <etag>[expect]</etag><sup>e7</sup> any further adverse financial impact from the <etag>[restructuring]</etag><sup>e8</sup> .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e6 AFTER e10</p>
+<p class=relation>Task F: e6 OVERLAP e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In <ttag>[the third quarter]<sup>t63</sup></ttag> , the company , which is 61%-owned by Murphy Oil Corp. of Arkansas , <etag>[had]</etag><sup>e10</sup> a net <etag>[loss]</etag><sup>e11</sup> of $46.9 million , or 91 cents a share , compared with a restated <etag>[loss]</etag><sup>e12</sup> of $9 million , or 18 cents a share , <ttag>[a year ago]<sup>t65</sup></ttag> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t65 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t63 { value:1989-Q3 type:DURATION }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t63</p>
+<p class=relation>Task C: e10 OVERLAP t63</p>
+<p class=relation>Task C: e12 BEFORE t63</p>
+<p class=relation>Task E: e10 OVERLAP e13</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line><ttag>[The latest period]<sup>t66</sup></ttag> <etag>[had]</etag><sup>e13</sup> profit from continuing <etag>[operations]</etag><sup>e14</sup> of $4 million .</p></table>
+<p class=attributes>t66 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t66</p>
+<p class=relation>Task E: e13 OVERLAP e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Revenue <etag>[gained]</etag><sup>e15</sup> 13% to $77.3 million from $68.5 million .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e15 BEFORE e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Ocean Drilling <etag>[said]</etag><sup>e16</sup> it will <etag>[offer]</etag><sup>e17</sup> 15% to 20% of the contract-drilling business through an initial public offering in <ttag>[the near future]<sup>t67</sup></ttag> .</p></table>
+<p class=attributes>t67 { value:FUTURE_REF type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e16 BEFORE t67</p>
+<p class=relation>Task C: e17 OVERLAP t67</p>
+<p class=relation>Task E: e16 OVERLAP-OR-AFTER e18</p>
+<p class=relation>Task F: e16 BEFORE e17</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>It has long been <etag>[rumored]</etag><sup>e18</sup> that Ocean Drilling would <etag>[sell]</etag><sup>e19</sup> the unit to <etag>[concentrate]</etag><sup>e20</sup> on its core oil and gas business .</p></table>
+<p class=attributes>e19 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e18 BEFORE-OR-OVERLAP e21</p>
+<p class=relation>Task F: e19 BEFORE e20</p>
+<p class=relation>Task F: e18 BEFORE e19</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Ocean Drilling <etag>[said]</etag><sup>e21</sup> it wo n 't <etag>[hold]</etag><sup>e22</sup> any shares of the new company after the <etag>[restructuring]</etag><sup>e23</sup> .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e22 { polarity:NEG modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e21 BEFORE e22</p>
+</div>
+</body>
+</html>

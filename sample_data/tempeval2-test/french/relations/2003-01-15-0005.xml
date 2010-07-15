@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><article>
+  <header>
+   <source>Est Républicain/CNRTL</source>
+   <sourceFile>2003-01-15.tei</sourceFile>
+   <filename>0005.txt</filename>
+   <publicationDate>2003-01-15</publicationDate>
+  </header>
+  <TEXT>
+    <TIMEX3 functionInDocument="PUBLICATION_TIME" temporalFunction="FALSE" tid="t3" type="DATE" value="2003-01-15" />
+    Le <EVENT aspect="NONE" class="OCCURRENCE" eid="e6" pos="NOUN" tense="PAST" vform="NONE">redoux</EVENT> <EVENT aspect="NONE" class="I_ACTION" eid="e7" pos="ADJECTIVE" tense="NONE" vform="PASTPART">annoncé</EVENT> <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="NONE" tense="FUTURE" vform="NONE">sauvera</EVENT>-t-il les poireaux des maraîchers meusiens ? En tout cas, au Centre d'aide par le travail (CAT) des « Jardins de Vassincourt », le gel a <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="VERB" tense="PAST" vform="PASTPART">fait</EVENT> ses premières victimes parmi les cultures dites d'hiver : un hectare de choux verts frisés. Les poireaux <EVENT aspect="NONE" class="STATE" eid="e3" pos="NONE" tense="PRESENT" vform="NONE">restent</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t1" type="DATE" value="PRESENT_REF">pour le moment</TIMEX3> <EVENT aspect="NONE" class="STATE" eid="e8" pos="PREPOSITION" tense="PRESENT" vform="NONE">en sursis</EVENT>. Mais Philippe Dausque, le chef des cultures, ne <EVENT aspect="NONE" class="MODAL" eid="e5" polarity="NEG" pos="NONE" tense="PRESENT" vform="NONE">peut</EVENT> <EVENT aspect="NONE" class="I_ACTION" eid="e4" modality="POSSIBILITY" pos="VERB" tense="NONE" vform="INFINITIVE">assurer</EVENT> convenablement ses <EVENT aspect="NONE" class="OCCURRENCE" eid="e9" pos="NOUN" tense="NONE" vform="NONE">livraisons</EVENT>.
+  </TEXT>
+</article>
+
+<TLINK lid="l1" origin="USER" relType="NONE" relatedToTime="t1" timeID="t3" />
+<TLINK eventInstanceID="e7" lid="l2" origin="USER" relType="NONE" relatedToTime="t3" />
+<TLINK eventInstanceID="e7" lid="l3" origin="USER" relType="NONE" relatedToEventInstance="e6" />
+<TLINK lid="l4" origin="USER" relType="NONE" relatedToEventInstance="e6" timeID="t3" />
+<TLINK eventInstanceID="e6" lid="l5" origin="USER" relType="NONE" relatedToEventInstance="e1" />
+<TLINK eventInstanceID="e2" lid="l6" origin="USER" relType="NONE" relatedToTime="t3" />
+<TLINK eventInstanceID="e3" lid="l7" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e8" lid="l8" origin="USER" relType="NONE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e5" lid="l9" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e9" lid="l11" origin="USER" relType="NONE" relatedToEventInstance="e4" />
+<SLINK eventInstanceID="ei4" lid="l13" origin="USER" relType="NONE" subordinatedEventInstance="ei5" />
+
+</TimeML>

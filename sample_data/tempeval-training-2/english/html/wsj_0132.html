@@ -1,0 +1,135 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0132</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>N.V. DSM <etag>[said]</etag><sup>e1</sup> net income in <ttag>[the third quarter]<sup>t36</sup></ttag> <etag>[jumped]</etag><sup>e2</sup> 63% as the company <etag>[had]</etag><sup>e3</sup> substantially lower extraordinary <etag>[charges]</etag><sup>e4</sup> to <etag>[account]</etag><sup>e5</sup> for a restructuring program .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t36 { value:1989-Q3 type:TIME }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e3 OVERLAP t36</p>
+<p class=relation>Task C: e4 OVERLAP t36</p>
+<p class=relation>Task C: e1 AFTER t36</p>
+<p class=relation>Task E: e1 OVERLAP e6</p>
+<p class=relation>Task F: e4 VAGUE e5</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Dutch chemical group <etag>[said]</etag><sup>e6</sup> net income <etag>[gained]</etag><sup>e7</sup> to 235 million guilders ( $113.2 million ) , or 6.70 guilders a share , from 144 million guilders , or 4.10 guilders a share , <ttag>[a year ago]<sup>t43</sup></ttag> .</p></table>
+<p class=attributes>t43 { value:1988 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e6 AFTER t43</p>
+<p class=relation>Task C: e7 AFTER t43</p>
+<p class=relation>Task E: e6 AFTER e8</p>
+<p class=relation>Task F: e6 AFTER e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The 32% state-owned DSM <etag>[had]</etag><sup>e8</sup> eight million guilders of extraordinary <etag>[charges]</etag><sup>e9</sup> in <ttag>[the latest quarter]<sup>t45</sup></ttag> , mainly to <etag>[reflect]</etag><sup>e10</sup> one-time <etag>[losses]</etag><sup>e11</sup> in connection with the <etag>[disposal]</etag><sup>e12</sup> of some operations .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t45 { value:1989-Q3 type:TIME }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e9 OVERLAP t45</p>
+<p class=relation>Task C: e11 VAGUE t45</p>
+<p class=relation>Task C: e8 OVERLAP t45</p>
+<p class=relation>Task E: e8 OVERLAP e13</p>
+<p class=relation>Task F: e9 AFTER e10</p>
+<p class=relation>Task F: e10 AFTER e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The charges were <etag>[offset]</etag><sup>e13</sup> in part by a <etag>[gain]</etag><sup>e14</sup> from the <etag>[sale]</etag><sup>e15</sup> of the company 's construction division .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e13 AFTER e16</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line><ttag>[Last year]<sup>t49</sup></ttag> , DSM <etag>[had]</etag><sup>e16</sup> 71 million guilders of extraordinary <etag>[charges]</etag><sup>e17</sup> for the restructuring program and other transactions .</p></table>
+<p class=attributes>t49 { value:1988 type:DATE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e17 OVERLAP t49</p>
+<p class=relation>Task C: e16 OVERLAP t49</p>
+<p class=relation>Task E: e16 BEFORE e21</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The earnings <etag>[growth]</etag><sup>e20</sup> also was <etag>[fueled]</etag><sup>e21</sup> by the company 's ability to <etag>[cut]</etag><sup>e22</sup> net financing spending by half to around 15 million guilders .</p></table>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e21 OVERLAP e24</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Also , substantially lower Dutch corporate tax rates <etag>[helped]</etag><sup>e24</sup> the company <etag>[keep]</etag><sup>e25</sup> its tax outlay flat relative to earnings growth , the company <etag>[added]</etag><sup>e28</sup> .</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e24 OVERLAP e30</p>
+<p class=relation>Task F: e24 OVERLAP e25</p>
+<p class=relation>Task F: e28 AFTER e24</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Sales , however , were little <etag>[changed]</etag><sup>e30</sup> at 2.46 billion guilders , compared with 2.42 billion guilders .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

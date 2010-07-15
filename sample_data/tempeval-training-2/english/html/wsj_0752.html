@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0752</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>AEP INDUSTRIES Inc. directors <etag>[authorized]</etag><sup>e1</sup> a 3-for-2 <etag>[split]</etag><sup>e2</sup> of the common , payable <ttag>[Dec. 7]<sup>t18</sup></ttag> to stock of record <ttag>[Nov. 22]<sup>t19</sup></ttag> .</p></table>
+<p class=attributes>t18 { value:1989-12-07 type:DATE }</p>
+<p class=attributes>t19 { value:1989-11-22 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e6</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The <etag>[split]</etag><sup>e3</sup> was <etag>[aimed]</etag><sup>e4</sup> at <etag>[boosting]</etag><sup>e5</sup> the stock 's liquidity , <etag>[said]</etag><sup>e6</sup> Brendan Barba , chairman of the Moonachie , N.J. , maker of plastic film products .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e6 BEFORE e8</p>
+<p class=relation>Task F: e6 OVERLAP-OR-AFTER e4</p>
+<p class=relation>Task F: e4 OVERLAP e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>After the <etag>[split]</etag><sup>e7</sup> , the company will <etag>[have]</etag><sup>e8</sup> more than 4.7 million shares outstanding .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e8 AFTER e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In national over-the-counter <etag>[trading]</etag><sup>e9</sup> <ttag>[yesterday]</ttag><sup>t20</sup> , AEP shares <etag>[closed]</etag><sup>e10</sup> at $21.25 , down 50 cents .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t20 { value:1989-10-26 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t20</p>
+<p class=relation>Task C: e9 OVERLAP t20</p>
+</div>
+</body>
+</html>

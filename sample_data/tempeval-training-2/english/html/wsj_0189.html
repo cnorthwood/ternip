@@ -1,0 +1,216 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0189</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Ralston Purina Co. <etag>[reported]</etag><sup>e1</sup> a 47% <etag>[decline]</etag><sup>e2</sup> in <ttag>[fourth-quarter]</ttag><sup>t38</sup> <etag>[earnings]</etag><sup>e3</sup> , <etag>[reflecting]</etag><sup>e4</sup> restructuring <etag>[costs]</etag><sup>e5</sup> as well as a more difficult pet food market .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t38 { value:1989-Q4 type:DURATION }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t38</p>
+<p class=relation>Task C: e2 OVERLAP t38</p>
+<p class=relation>Task E: e1 AFTER e6</p>
+<p class=relation>Task F: e4 AFTER e5</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The St. Louis company <etag>[earned]</etag><sup>e6</sup> $45.2 million , or 65 cents a share , compared with $84.9 million , or $1.24 a share , <ttag>[a year earlier]<sup>t39</sup></ttag> .</p></table>
+<p class=attributes>t39 { value:1988-Q4 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e6 AFTER t39</p>
+<p class=relation>Task E: e6 OVERLAP e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line><etag>[Sales]</etag><sup>e8</sup> in <ttag>[the latest period]<sup>t42</sup></ttag> were $1.76 billion , a 13% <etag>[increase]</etag><sup>e10</sup> from <ttag>[last year]<sup>t43</sup></ttag> 's $1.55 billion .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t43 { value:1988-Q4 type:DATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t42 { value:1989-Q4 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t42</p>
+<p class=relation>Task E: e8 OVERLAP e12</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>For <ttag>[the year]<sup>t41</sup></ttag> <etag>[ended]</etag><sup>e11</sup> <ttag>[Sept. 30]<sup>t40</sup></ttag> , Ralston <etag>[earned]</etag><sup>e12</sup> $422.5 million , or $6.44 a share , up 8.9% from $387.8 million , or $5.63 a share .</p></table>
+<p class=attributes>t41 { value:1989 type:DATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t40 { value:1989-09-30 type:DATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t41</p>
+<p class=relation>Task E: e12 BEFORE e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line><ttag>[This year]<sup>t50</sup></ttag> 's <etag>[results]</etag><sup>e13</sup> included a <etag>[gain]</etag><sup>e15</sup> of $70.2 million on the <etag>[disposal]</etag><sup>e16</sup> of seafood operations .</p></table>
+<p class=attributes>t50 { value:1989 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t50</p>
+<p class=relation>Task C: e15 OVERLAP t50</p>
+<p class=relation>Task E: e13 AFTER e17</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line><etag>[Sales]</etag><sup>e17</sup> for <ttag>[the full year]<sup>t44</sup></ttag> were $6.6 billion , up 13% from $5.8 billion .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t44 { value:1989 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e17 BEFORE e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Ralston <etag>[said]</etag><sup>e19</sup> its restructuring costs <etag>[include]</etag><sup>e20</sup> the <etag>[phase-out]</etag><sup>e21</sup> of a battery facility in Greenville , N.C. , the <ttag>[recent]</ttag><sup>t45</sup> <etag>[closing]</etag><sup>e22</sup> of a Hostess cake bakery in Cincinnati and a <etag>[reduction]</etag><sup>e23</sup> in staff throughout the company .</p></table>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t45 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e19 AFTER t45</p>
+<p class=relation>Task E: e19 OVERLAP e26</p>
+<p class=relation>Task F: e19 OVERLAP e20</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>The battery plant , which <etag>[makes]</etag><sup>e24</sup> rechargeable nickel cadmium and carbon zinc products , will be <etag>[closed]</etag><sup>e25</sup> over <ttag>[the next year or so]<sup>t46</sup></ttag> , a spokesman <etag>[said]</etag><sup>e26</sup> .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t46 { value:1990 type:DATE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e26 BEFORE t46</p>
+<p class=relation>Task C: e25 OVERLAP t46</p>
+<p class=relation>Task C: e24 BEFORE t46</p>
+<p class=relation>Task E: e26 OVERLAP e27</p>
+<p class=relation>Task F: e26 BEFORE e25</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Ralston <etag>[attributed]</etag><sup>e27</sup> its <ttag>[fourth-quarter]</ttag><sup>t47</sup> <etag>[slump]</etag><sup>e28</sup> partly to higher costs of ingredients in the pet food business as well as competitive pressures , which <etag>[required]</etag><sup>e29</sup> higher advertising <etag>[spending]</etag><sup>e30</sup> .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t47 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e27 OVERLAP e33</p>
+<p class=relation>Task F: e27 AFTER e28</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>For <ttag>[the year]<sup>t48</sup></ttag> , pet food volume was <etag>[flat]</etag><sup>e32</sup> , the company <etag>[said]</etag><sup>e33</sup> .</p></table>
+<p class=attributes>t48 { value:1989 type:DATE }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e33 OVERLAP-OR-AFTER t48</p>
+<p class=relation>Task E: e33 AFTER e34</p>
+<p class=relation>Task F: e33 AFTER e32</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Its cereal division <etag>[realized]</etag><sup>e34</sup> higher operating profit on volume <etag>[increases]</etag><sup>e35</sup> , but also <etag>[spent]</etag><sup>e36</sup> more on promotion .</p></table>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e34 BEFORE e39</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>The Continental Baking business <etag>[benefited]</etag><sup>e37</sup> from higher margins on bread and on increased cake <etag>[sales]</etag><sup>e38</sup> , it <etag>[added]</etag><sup>e39</sup> .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e39 VAGUE e40</p>
+<p class=relation>Task F: e39 AFTER e37</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>Ralston <etag>[said]</etag><sup>e40</sup> its Eveready battery unit was <etag>[hurt]</etag><sup>e41</sup> by continuing economic <etag>[problems]</etag><sup>e42</sup> in South America .</p></table>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e40 VAGUE e43</p>
+<p class=relation>Task F: e40 AFTER e41</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Ralston shares <etag>[closed]</etag><sup>e43</sup> <ttag>[yesterday]</ttag><sup>t49</sup> at $80.50 , off $1 , in New York Stock Exchange composite trading .</p></table>
+<p class=attributes>t49 { value:1989-11-01 type:DATE }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e43 OVERLAP t49</p>
+</div>
+</body>
+</html>

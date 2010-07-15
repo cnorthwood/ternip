@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML>
+	<TEXT>
+<TIMEX3 functionInDocument="PUBLICATION_TIME" tid="t1" type="DATE" value="2003-5-30" />
+
+
+Les Algérois étaient <EVENT aspect="NONE" class="STATE" eid="e19" pos="ADJECTIVE" tense="IMPERFECT" vform="NONE">nombreux</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t18" type="DATE" value="2003-5-29 TEV">jeudi
+soir</TIMEX3> dans la rue et les jardins   
+publics de la capitale algérienne dans la <EVENT aspect="NONE" class="I_STATE" eid="e21" pos="NOUN" tense="NONE" vform="NONE">crainte</EVENT> d'une forte <EVENT aspect="NONE" class="OCCURRENCE" eid="e20" pos="NOUN" tense="NONE" vform="NONE">réplique</EVENT>  
+sismique, comme celle qui les a brutalement <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="VERB" tense="PAST" vform="PASTPART">réveillés</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t9" type="DATE" value="2003-5-29 TNI">la nuit  
+dernière</TIMEX3>.
+
+<EVENT aspect="NONE" class="OCCURRENCE" eid="e11" pos="VERB" tense="NONE" vform="PASTPART">Secoués</EVENT> par une violente <EVENT aspect="NONE" class="OCCURRENCE" eid="e17" pos="NOUN" tense="NONE" vform="NONE">secousse</EVENT> d'une magnitude de 5,8 sur l'échelle
+de Richter <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t10" type="DATE" value="2003-5-29">jeudi</TIMEX3> <SIGNAL sid="s1">à</SIGNAL> <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t11" type="TIME" value="2003-5-29T3:15">03 h 15</TIMEX3>
+(<TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t12" type="TIME" value="2003-5-29T2:15">02 h 15 GMT</TIMEX3>), les Algérois sont
+<EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="VERB" tense="PAST" vform="PASTPART">descendus</EVENT>   
+nombreux <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t13" type="DATE" value="2003-5-29 TEV">jeudi soir</TIMEX3> dans les rues d'Alger, a
+<EVENT aspect="NONE" class="REPORTING" eid="e5" pos="VERB" tense="PAST" vform="PASTPART">constaté</EVENT> l'AFP. 
+
+Cette <EVENT aspect="NONE" class="OCCURRENCE" eid="e22" pos="NOUN" tense="NONE" vform="NONE">réplique</EVENT> a été l'une des plus puissantes <EVENT aspect="NONE" class="OCCURRENCE" eid="e15" pos="ADJECTIVE" tense="NONE" vform="PASTPART">enregistrée</EVENT> dans Alger 
+et sa région <SIGNAL sid="s2">depuis</SIGNAL> le <EVENT aspect="NONE" class="OCCURRENCE" eid="e16" pos="NOUN" tense="NONE" vform="NONE">séisme</EVENT> d'une magnitude de 6,8 sur l'échelle de  
+Richter qui a <EVENT aspect="NONE" class="OCCURRENCE" eid="e7" pos="VERB" tense="PAST" vform="PASTPART">fait</EVENT>, <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t14" type="DATE" value="2003-5-21">le 21 mai</TIMEX3>, plus de 2200 morts et quelque 10000  
+blessés. 
+
+<TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t15" type="DATE" value="2003-5-27 TEV">Mardi soir</TIMEX3>, la capitale avait été aussi <EVENT aspect="PERFECTIVE" class="OCCURRENCE" eid="e8" pos="VERB" tense="PAST" vform="PASTPART">secouée</EVENT> par une <EVENT aspect="NONE" class="OCCURRENCE" eid="e23" pos="NOUN" tense="NONE" vform="NONE">réplique</EVENT> de la 
+même magnitude <EVENT aspect="NONE" class="OCCURRENCE" eid="e12" pos="VERB" tense="NONE" vform="PRESPART">créant</EVENT> un fort <EVENT aspect="NONE" class="OCCURRENCE" eid="e18" pos="NOUN" tense="NONE" vform="NONE">mouvement</EVENT> de panique.
+
+Au pied du palais du gouvernement et dans le jardin public proche des 
+familles se sont <EVENT aspect="NONE" class="OCCURRENCE" eid="e9" pos="VERB" tense="NONE" vform="PASTPART">installées</EVENT> <SIGNAL sid="s3">pour</SIGNAL> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t16" type="DATE" value="TNI">la nuit</TIMEX3>. 
+
+Des voitures sont <EVENT aspect="NONE" class="STATE" eid="e10" pos="NONE" tense="NONE" vform="NONE">garées</EVENT> non loin avec des femmes et des enfants 
+<EVENT aspect="NONE" class="STATE" eid="e13" pos="ADJECTIVE" tense="NONE" vform="PASTPART">enroulés</EVENT> dans des couvertures <EVENT aspect="NONE" class="STATE" eid="e14" pos="VERB" tense="NONE" vform="PRESPART">baillant</EVENT> de sommeil <SIGNAL sid="s4">à l'approche de</SIGNAL> 
+<TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t17" type="TIME" value="T00">minuit</TIMEX3>. 
+
+</TEXT>
+
+<TLINK lid="l1" origin="USER" relType="OVERLAPS" relatedToTime="t13" timeID="t18" />
+<TLINK lid="l2" origin="USER" relType="OVERLAPS" relatedToTime="t11" timeID="t12" />
+<TLINK lid="l3" origin="USER" relType="OVERLAPS" relatedToTime="t9" timeID="t12" />
+<TLINK lid="l4" origin="USER" relType="OVERLAPS" relatedToTime="t10" timeID="t18" />
+<TLINK lid="l5" origin="USER" relType="AFTER" relatedToTime="t13" timeID="t1" />
+<TLINK lid="l6" origin="USER" relType="OVERLAPS" relatedToTime="t16" timeID="t17" />
+<TLINK lid="l7" origin="USER" relType="AFTER" relatedToTime="t13" timeID="t16" />
+<TLINK lid="l8" origin="USER" relType="OVERLAP_AFTER" relatedToTime="t10" timeID="t16" />
+<TLINK lid="l9" origin="USER" relType="OVERLAP_BEFORE" relatedToTime="t10" timeID="t9" />
+<TLINK lid="l10" origin="USER" relType="OVERLAPS" relatedToTime="t10" timeID="t12" />
+<TLINK lid="l11" origin="USER" relType="BEFORE" relatedToTime="t15" timeID="t14" />
+<TLINK lid="l12" origin="USER" relType="BEFORE" relatedToTime="t9" timeID="t15" />
+<TLINK eventInstanceID="e19" lid="l13" origin="USER" relType="OVERLAPS" relatedToTime="t13" />
+<TLINK eventInstanceID="e21" lid="l14" origin="USER" relType="OVERLAPS" relatedToEventInstance="e19" />
+<TLINK eventInstanceID="e2" lid="l16" origin="USER" relType="OVERLAPS" relatedToTime="t9" />
+<TLINK eventInstanceID="e11" lid="l17" origin="USER" relType="OVERLAPS" relatedToTime="t12" />
+<TLINK eventInstanceID="e11" lid="l18" origin="USER" relType="OVERLAPS" relatedToEventInstance="e17" />
+<TLINK eventInstanceID="e3" lid="l19" origin="USER" relType="AFTER" relatedToEventInstance="e17" />
+<TLINK eventInstanceID="e2" lid="l20" origin="USER" relType="AFTER" relatedToEventInstance="e11" />
+<TLINK eventInstanceID="e5" lid="l21" origin="USER" relType="AFTER" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e22" lid="l22" origin="USER" relType="OVERLAPS" relatedToEventInstance="e17" />
+<TLINK eventInstanceID="e15" lid="l23" origin="USER" relType="OVERLAPS" relatedToEventInstance="e22" />
+<TLINK eventInstanceID="e16" lid="l24" origin="USER" relType="OVERLAPS" relatedToTime="t14" />
+<TLINK eventInstanceID="e7" lid="l25" origin="USER" relType="OVERLAPS" relatedToEventInstance="e16" />
+<TLINK eventInstanceID="e8" lid="l26" origin="USER" relType="OVERLAPS" relatedToTime="t15" />
+<TLINK eventInstanceID="e23" lid="l27" origin="USER" relType="OVERLAPS" relatedToEventInstance="e8" />
+<TLINK eventInstanceID="e23" lid="l28" origin="USER" relType="OVERLAPS" relatedToEventInstance="e12" />
+<TLINK eventInstanceID="e12" lid="l29" origin="USER" relType="OVERLAPS" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e9" lid="l30" origin="USER" relType="OVERLAPS" relatedToTime="t13" />
+<TLINK eventInstanceID="e10" lid="l31" origin="USER" relType="OVERLAPS" relatedToTime="t13" />
+<TLINK eventInstanceID="e13" lid="l32" origin="USER" relType="OVERLAPS" relatedToTime="t13" />
+<TLINK eventInstanceID="e14" lid="l33" origin="USER" relType="OVERLAPS" relatedToEventInstance="e13" />
+<TLINK lid="l35" origin="USER" relType="AFTER" relatedToTime="t10" timeID="t1" />
+<SLINK eventInstanceID="ei21" lid="l36" origin="USER" relType="MODAL" subordinatedEventInstance="ei20" />
+
+</TimeML>

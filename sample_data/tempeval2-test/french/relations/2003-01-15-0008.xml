@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><article>
+  <header>
+   <source>Est Républicain/CNRTL</source>
+   <sourceFile>2003-01-15.tei</sourceFile>
+   <filename>0008.txt</filename>
+   <publicationDate>2003-01-15</publicationDate>
+  </header>
+  <TEXT>
+    <TIMEX3 functionInDocument="PUBLICATION_TIME" temporalFunction="FALSE" tid="t1" type="DATE" value="2003-01-15" />
+    Aux arbitres de football.
+    Les arbitres de football du secteur de Commercy sont <EVENT aspect="NONE" class="STATE" eid="e1" pos="ADJECTIVE" tense="NONE" vform="PASTPART">invités</EVENT> <SIGNAL sid="s1">à</SIGNAL> <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="VERB" tense="NONE" vform="INFINITIVE">participer</EVENT> <SIGNAL sid="s2">à</SIGNAL> leur <EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="NOUN" tense="NONE" vform="NONE">réunion</EVENT> <TIMEX3 freq="P1M" functionInDocument="NONE" quant="EVERY" temporalFunction="FALSE" tid="t2" type="SET">mensuelle</TIMEX3> <EVENT aspect="NONE" class="STATE" eid="e4" pos="ADJECTIVE" tense="NONE" vform="PASTPART">prévue</EVENT>, <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t3" type="DATE" value="2003-01-18T18:00">samedi 18 janvier, à 18 h</TIMEX3>, salle de la gare routière, à Commercy, sous la <EVENT aspect="NONE" class="STATE" eid="e6" pos="NOUN" tense="NONE" vform="NONE">direction</EVENT> de Jean-Claude Demange, au cours de laquelle sera, comme de tradition, <EVENT aspect="NONE" class="OCCURRENCE" eid="e5" pos="VERB" tense="FUTURE" vform="PASTPART">partagée</EVENT> la galette des rois.
+  </TEXT>
+</article>
+
+<TLINK lid="l1" origin="USER" relType="NONE" relatedToTime="t3" timeID="t1" />
+<TLINK eventInstanceID="e1" lid="l2" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e4" lid="l5" origin="USER" relType="NONE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e4" lid="l6" origin="USER" relType="NONE" relatedToEventInstance="e1" />
+<TLINK eventInstanceID="e6" lid="l7" origin="USER" relType="NONE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e5" lid="l8" origin="USER" relType="NONE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e3" lid="l9" origin="USER" relType="NONE" relatedToTime="t3" />
+<SLINK eventInstanceID="ei1" lid="l3" origin="USER" relType="NONE" signalID="s1" subordinatedEventInstance="ei2" />
+
+</TimeML>

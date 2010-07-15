@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>118_20010602.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Una mujer inglesa de <ttag>[40 años]<sup>t1</sup></ttag> fue <etag>[agredida]</etag><sup>e1</sup> y <etag>[violada]</etag><sup>e2</sup> por dos hombres <ttag>[el Jueves]<sup>t2</sup></ttag> por <ttag>[la tarde]<sup>t3</sup></ttag> en la zona de Els Colls , en Sitges , <etag>[Según]</etag><sup>e3</sup> <etag>[denunció]</etag><sup>e4</sup> la propia víctima ante la Guardia Civil .</p></table>
+<p class=attributes>e2 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>t2 { type:DATE val:2001-05-31 }</p>
+<p class=attributes>t3 { type:TIME val:2001-05-31TAF }</p>
+<p class=attributes>e4 { aspect:PERFECTIVE class:REPORTING mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:REPORTING mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t1 { type:DURATION val:P40Y }</p>
+<p class=attributes>e1 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e2 overlap t2</p>
+<p class=relation>Task C: e1 overlap t2</p>
+<p class=relation>Task D: e2 before t0</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task D: e3 before t0</p>
+<p class=relation>Task D: e1 before t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>El lugar <etag>[es]</etag><sup>e5</sup> un paraje natural cercano a la playa nudista de L'Home Mort .</p></table>
+<p class=attributes>e5 { aspect:IMPERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e5 overlap t0</p>
+</div>
+</body>
+</html>

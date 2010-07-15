@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML>
+<TEXT><TIMEX3 functionInDocument="PUBLICATION_TIME" tid="t15" type="DATE" value="2003-6-23" />
+José Bové a <EVENT aspect="NONE" class="OCCURRENCE" eid="e28" pos="VERB" tense="PAST" vform="PASTPART">passé</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t16" type="DURATION" value="P1NI">une première nuit</TIMEX3> en prison
+José Bové a <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="VERB" tense="PAST" vform="PASTPART">passé</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t1" type="DURATION" value="P1NI">une première nuit</TIMEX3> en prison à Villeneuve-lès-Maguelone (Hérault) près de Montpellier, où il <EVENT aspect="NONE" class="MODAL" eid="e2" pos="VERB" tense="PRESENT" vform="NONE">doit</EVENT> <EVENT aspect="NONE" class="OCCURRENCE" eid="e14" modality="OBLIGATION" pos="VERB" tense="NONE" vform="INFINITIVE">purger</EVENT> une peine de prison ferme de <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t2" type="DURATION" value="P10M">dix mois</TIMEX3> pour des <EVENT aspect="NONE" class="OCCURRENCE" eid="e27" pos="NOUN" tense="NONE" vform="NONE">destructions</EVENT> de plants d'OGM.
+
+<EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="ADJECTIVE" tense="NONE" vform="PASTPART">Arrêté</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t3" type="DATE" value="2003-6-22">dimanche</TIMEX3> <SIGNAL sid="s1">à</SIGNAL> <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t4" type="TIME" value="2003-6-22TMO">l'aube</TIMEX3> dans sa bergerie du Larzac, il <EVENT aspect="NONE" class="OCCURRENCE" eid="e4" pos="VERB" tense="FUTURE" vform="NONE">effectuera</EVENT> <TIMEX3 functionInDocument="NONE" mod="EQUAL_OR_MORE" temporalFunction="FALSE" tid="t5" type="DURATION" value="P6M">au moins six mois</TIMEX3> de prison, s'il ne <EVENT aspect="NONE" class="OCCURRENCE" eid="e5" pos="VERB" tense="PRESENT" vform="NONE">bénéficie</EVENT> pas de la grâce du président de la République, a <EVENT aspect="NONE" class="REPORTING" eid="e6" pos="VERB" tense="PAST" vform="PASTPART">déclaré</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t6" type="DATE" value="2003-6-23">lundi</TIMEX3> à l'AFP son avocat Me François Roux.
+
+Le syndicaliste paysan <EVENT aspect="NONE" class="STATE" eid="e7" pos="VERB" tense="PRESENT" vform="NONE">a</EVENT> droit à une remise de peine de <TIMEX3 freq="P1M" functionInDocument="NONE" quant="EVERY" temporalFunction="FALSE" tid="t7" type="SET" value="P7D">7 jours par mois</TIMEX3> <EVENT aspect="NONE" class="OCCURRENCE" eid="e29" pos="ADJECTIVE" tense="NONE" vform="PASTPART">effectué</EVENT> pour bonne conduite, soit <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t9" type="DURATION" value="P63D">63 jours</TIMEX3> potentiellement, a <EVENT aspect="NONE" class="REPORTING" eid="e8" pos="VERB" tense="PAST" vform="PASTPART">indiqué</EVENT> son défenseur, en <EVENT aspect="NONE" class="REPORTING" eid="e9" pos="VERB" tense="NONE" vform="PRESPART">ajoutant</EVENT> que la traditionnelle amnistie du <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t10" type="DATE" value="2003-7-14">14 juillet</TIMEX3> ne <EVENT aspect="NONE" class="MODAL" eid="e10" mood="CONDITIONAL" polarity="NEG" pos="VERB" tense="PRESENT" vform="NONE">devrait</EVENT> pas <EVENT aspect="NONE" class="OCCURRENCE" eid="e13" modality="PROBABILITY" pos="VERB" tense="NONE" vform="INFINITIVE">excéder</EVENT> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t11" type="DURATION" value="P1.5M">un mois et demi</TIMEX3>.
+
+"Au minimum, José Bové <EVENT aspect="NONE" class="MODAL" eid="e11" mood="CONDITIONAL" pos="VERB" tense="PRESENT" vform="NONE">devrait</EVENT> donc <EVENT aspect="NONE" class="OCCURRENCE" eid="e12" modality="PROBABILITY" pos="VERB" tense="NONE" vform="INFINITIVE">faire</EVENT> <TIMEX3 functionInDocument="NONE" mod="APPROX" temporalFunction="FALSE" tid="t12" type="DURATION" value="P6M">environ six mois</TIMEX3> de prison si Jacques Chirac n'<EVENT aspect="NONE" class="OCCURRENCE" eid="e15" polarity="NEG" pos="VERB" tense="PRESENT" vform="NONE">intervient</EVENT> pas", a <EVENT aspect="NONE" class="REPORTING" eid="e16" pos="VERB" tense="PAST" vform="PASTPART">souligné</EVENT> Me Roux. Par ailleurs, une <EVENT aspect="NONE" class="OCCURRENCE" eid="e30" pos="NOUN" tense="NONE" vform="NONE">demande</EVENT> de liberté conditionnelle ne <EVENT aspect="NONE" class="MODAL" eid="e17" polarity="NEG" pos="VERB" tense="FUTURE" vform="NONE">pourra</EVENT> être <EVENT aspect="PERFECTIVE" class="OCCURRENCE" eid="e18" modality="POSSIBILITY" polarity="POS" pos="VERB" tense="FUTURE" vform="PASTPART">demandée</EVENT> <SIGNAL sid="s2">avant</SIGNAL> que le détenu n'ait <EVENT aspect="NONE" class="OCCURRENCE" eid="e19" mood="SUBJUNCTIVE" pos="VERB" tense="PAST" vform="PASTPART">effectué</EVENT> les deux tiers de sa peine, a-t-il <EVENT aspect="NONE" class="REPORTING" eid="e20" pos="VERB" tense="PAST" vform="PASTPART">précisé</EVENT>.
+
+L'avocat montpellierain, qui <EVENT aspect="NONE" class="MODAL" eid="e21" mood="CONDITIONAL" pos="VERB" tense="PRESENT" vform="NONE">devrait</EVENT> <EVENT aspect="NONE" class="OCCURRENCE" eid="e22" modality="PROBABILITY" pos="VERB" tense="NONE" vform="INFINITIVE">rencontrer</EVENT> son client <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t13" type="DATE" value="2003-6-24TMO">mardi matin</TIMEX3> à la maison d'arrêt, a aussi <EVENT aspect="NONE" class="REPORTING" eid="e23" pos="VERB" tense="PAST" vform="PASTPART">rappelé</EVENT> que le porte-parole de la Confédération paysanne avait <EVENT aspect="PERFECTIVE" class="I_ACTION" eid="e24" pos="VERB" tense="PAST" vform="PASTPART">refusé</EVENT> de <EVENT aspect="NONE" class="OCCURRENCE" eid="e25" pos="VERB" tense="NONE" vform="INFINITIVE">répondre</EVENT> au juge d'application des peines car la question de la grâce présidentielle n'avait pas encore été <EVENT aspect="PERFECTIVE" class="OCCURRENCE" eid="e26" polarity="NEG" pos="VERB" tense="PAST" vform="PASTPART">tranchée</EVENT>.
+
+
+</TEXT>
+
+<TLINK lid="l1" origin="USER" relType="OVERLAPS" relatedToTime="t1" timeID="t16" />
+<TLINK eventInstanceID="e1" lid="l2" origin="USER" relType="OVERLAPS" relatedToEventInstance="e28" />
+<TLINK lid="l3" origin="USER" relType="OVERLAPS" relatedToEventInstance="e1" timeID="t1" />
+<TLINK eventInstanceID="e14" lid="l5" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK lid="l6" origin="USER" relType="OVERLAPS" relatedToTime="t2" timeID="t16" />
+<TLINK lid="l7" origin="USER" relType="OVERLAPS" relatedToTime="t3" timeID="t4" />
+<TLINK eventInstanceID="e27" lid="l8" origin="USER" relType="BEFORE" relatedToEventInstance="e2" />
+<TLINK eventInstanceID="e27" lid="l9" origin="USER" relType="BEFORE" relatedToTime="t4" />
+<TLINK eventInstanceID="e3" lid="l10" origin="USER" relType="OVERLAPS" relatedToTime="t4" />
+<TLINK eventInstanceID="e27" lid="l11" origin="USER" relType="BEFORE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e3" lid="l12" origin="USER" relType="BEFORE" relatedToEventInstance="e4" />
+<TLINK eventInstanceID="e4" lid="l13" origin="USER" relType="OVERLAPS" relatedToTime="t5" />
+<TLINK eventInstanceID="e6" lid="l15" origin="USER" relType="OVERLAPS" relatedToTime="t6" />
+<TLINK eventInstanceID="e6" lid="l16" origin="USER" relType="BEFORE" relatedToEventInstance="e4" />
+<TLINK lid="l17" origin="USER" relType="AFTER" relatedToTime="t6" timeID="t15" />
+<TLINK eventInstanceID="e8" lid="l18" origin="USER" relType="OVERLAPS" relatedToTime="t6" />
+<TLINK eventInstanceID="e8" lid="l19" origin="USER" relType="OVERLAPS" relatedToEventInstance="e7" />
+<TLINK lid="l20" origin="USER" relType="OVERLAPS" relatedToEventInstance="e29" timeID="t7" />
+<TLINK eventInstanceID="e9" lid="l22" origin="USER" relType="AFTER" relatedToEventInstance="e8" />
+<TLINK eventInstanceID="e9" lid="l23" origin="USER" relType="OVERLAPS" relatedToTime="t6" />
+<TLINK eventInstanceID="e16" lid="l29" origin="USER" relType="AFTER" relatedToEventInstance="e9" />
+<TLINK eventInstanceID="e16" lid="l31" origin="USER" relType="BEFORE" relatedToEventInstance="e20" />
+<TLINK eventInstanceID="e30" lid="l32" origin="USER" relType="OVERLAPS" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e23" lid="l37" origin="USER" relType="OVERLAPS" relatedToTime="t6" />
+<TLINK eventInstanceID="e24" lid="l39" origin="USER" relType="BEFORE" relatedToEventInstance="e23" />
+<TLINK eventInstanceID="e24" lid="l40" origin="USER" relType="AFTER" relatedToEventInstance="e27" />
+<TLINK eventInstanceID="e26" lid="l42" origin="USER" relType="BEFORE" relatedToEventInstance="e24" />
+<TLINK eventInstanceID="e22" lid="l43" origin="USER" relType="OVERLAPS" relatedToTime="t13" />
+<TLINK lid="l44" origin="USER" relType="BEFORE" relatedToTime="t6" timeID="t3" />
+<TLINK lid="l45" origin="USER" relType="BEFORE" relatedToTime="t13" timeID="t15" />
+<TLINK lid="l46" origin="USER" relType="BEFORE" relatedToTime="t10" timeID="t13" />
+<TLINK eventInstanceID="e3" lid="l48" origin="USER" relType="BEFORE" relatedToEventInstance="e2" />
+<TLINK eventInstanceID="e7" lid="l49" origin="USER" relType="OVERLAPS" relatedToTime="t6" />
+<SLINK eventInstanceID="ei2" lid="l4" origin="USER" relType="MODAL" subordinatedEventInstance="ei14" />
+<SLINK eventInstanceID="ei5" lid="l14" origin="USER" relType="NEGATIVE" subordinatedEventInstance="ei4" />
+<SLINK eventInstanceID="ei7" lid="l21" origin="USER" relType="MODAL" subordinatedEventInstance="ei29" />
+<SLINK eventInstanceID="ei9" lid="l24" origin="USER" relType="EVIDENTIAL" subordinatedEventInstance="ei10" />
+<SLINK eventInstanceID="ei10" lid="l25" origin="USER" relType="MODAL" subordinatedEventInstance="ei13" />
+<SLINK eventInstanceID="ei11" lid="l27" origin="USER" relType="MODAL" subordinatedEventInstance="ei12" />
+<SLINK eventInstanceID="ei12" lid="l28" origin="USER" relType="CONDITIONAL" subordinatedEventInstance="ei15" />
+<SLINK eventInstanceID="ei16" lid="l30" origin="USER" relType="EVIDENTIAL" subordinatedEventInstance="ei11" />
+<SLINK eventInstanceID="ei20" lid="l33" origin="USER" relType="EVIDENTIAL" subordinatedEventInstance="ei17" />
+<SLINK eventInstanceID="ei17" lid="l34" origin="USER" relType="MODAL" subordinatedEventInstance="ei30" />
+<SLINK eventInstanceID="ei17" lid="l35" origin="USER" relType="CONDITIONAL" subordinatedEventInstance="ei19" />
+<SLINK eventInstanceID="ei21" lid="l38" origin="USER" relType="MODAL" subordinatedEventInstance="ei22" />
+<SLINK eventInstanceID="ei24" lid="l41" origin="USER" relType="NEGATIVE" subordinatedEventInstance="ei25" />
+
+</TimeML>

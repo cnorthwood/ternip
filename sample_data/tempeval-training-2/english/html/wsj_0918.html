@@ -1,0 +1,395 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0918</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Du Pont Co. <etag>[reported]</etag><sup>e1</sup> that <ttag>[third-quarter]</ttag><sup>t139</sup> profit <etag>[grew]</etag><sup>e3</sup> a robust 19% from <ttag>[a year ago]<sup>t128</sup></ttag> on the strength of the company 's <etag>[operations]</etag><sup>e4</sup> in various chemicals and fibers , and in petroleum .</p></table>
+<p class=attributes>t128 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t139 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t139</p>
+<p class=relation>Task E: e1 AFTER e5</p>
+<p class=relation>Task F: e1 AFTER e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Du Pont also <etag>[raised]</etag><sup>e5</sup> its quarterly dividend to $1.20 a share from $1.05 , a <etag>[change]</etag><sup>e7</sup> that will <etag>[increase]</etag><sup>e8</sup> the annualized payout to shareholders by some $140 million .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e5 OVERLAP e12</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Du Pont , unlike companies <etag>[hurt]</etag><sup>e10</sup> badly by sharp price <etag>[declines]</etag><sup>e11</sup> for basic chemicals and plastics , is <etag>[benefiting]</etag><sup>e12</sup> from its broad range of businesses .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e12 OVERLAP e14</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The profit gain was <etag>[made]</etag><sup>e14</sup> despite a <etag>[weakening]</etag><sup>e15</sup> in the housing market , for which the company is a supplier , and a <etag>[strengthening]</etag><sup>e17</sup> in the dollar , which <etag>[lowers]</etag><sup>e18</sup> the value of overseas earnings when they are translated into dollars .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e14 BEFORE e20</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The Wilmington , Del. , company <etag>[reported]</etag><sup>e20</sup> net of $547 million , or $2.36 a share , which was in line with Wall Street <etag>[estimates]</etag><sup>e24</sup> .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e20 AFTER e25</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In <ttag>[the year-earlier period]<sup>t140</sup></ttag> , the company <etag>[earned]</etag><sup>e25</sup> $461 million , or $1.91 a share .</p></table>
+<p class=attributes>t140 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e25 OVERLAP t140</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Sales in <ttag>[the latest quarter]<sup>t141</sup></ttag> were $8.59 billion , up 9.4% from $7.85 billion .</p></table>
+<p class=attributes>t141 { value:1989-Q3 type:DATE }</p>
+<p/>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>The dividend <etag>[increase]</etag><sup>e28</sup> was Du Pont 's second <ttag>[this year]<sup>t148</sup></ttag> , an <etag>[affirmation]</etag><sup>e30</sup> of statements by top executives that they <etag>[intend]</etag><sup>e31</sup> to <etag>[increase]</etag><sup>e32</sup> rewards to shareholders .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t148 { value:1989 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e32 OVERLAP t148</p>
+<p class=relation>Task C: e28 OVERLAP t148</p>
+<p class=relation>Task E: e28 BEFORE e36</p>
+<p class=relation>Task F: e30 OVERLAP e31</p>
+<p class=relation>Task F: e31 BEFORE-OR-OVERLAP e32</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>" We have n 't <etag>[benefited]</etag><sup>e34</sup> the shareholder as much as we <etag>[need]</etag><sup>e35</sup> to , " <etag>[said]</etag><sup>e36</sup> Edgar Woolard Jr. , Du Pont 's chairman and chief executive officer , in an <etag>[interview]</etag><sup>e37</sup> <ttag>[several months]<sup>t151</sup></ttag> before he <etag>[entered]</etag><sup>e38</sup> his <ttag>[current]</ttag><sup>t152</sup> position in <ttag>[April]</ttag><sup>t153</sup> .</p></table>
+<p class=attributes>t152 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t151 { value:PXM type:DURATION }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t153 { value:1989-04 type:DATE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e34 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e36 OVERLAP t151</p>
+<p class=relation>Task F: e35 BEFORE e34</p>
+<p class=relation>Task F: e36 OVERLAP e34</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>The largest beneficiary will be Seagram Co. , which owns about 23% of Du Pont .</p></table>
+<p/>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>A spokesman for Seagram , the Montreal wine and spirits concern controlled by the Bronfman family , <etag>[said]</etag><sup>e42</sup> the company will <etag>[post]</etag><sup>e43</sup> additional pretax <etag>[profit]</etag><sup>e44</sup> of about $33 million <ttag>[a year]<sup>t157</sup></ttag> because of the additional Du Pont dividends .</p></table>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:OTHER tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t157 { value:P1Y type:SET }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e43 OVERLAP t157</p>
+<p class=relation>Task C: e42 OVERLAP t157</p>
+<p class=relation>Task E: e42 VAGUE e45</p>
+<p class=relation>Task F: e43 OVERLAP e44</p>
+<p class=relation>Task F: e42 BEFORE e43</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Du Pont also <etag>[announced]</etag><sup>e45</sup> <etag>[plans]</etag><sup>e46</sup> for a 3-for-1 stock <etag>[split]</etag><sup>e47</sup> , although the initial higher dividend will be <etag>[paid]</etag><sup>e48</sup> on pre-split shares .</p></table>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e45 VAGUE e50</p>
+<p class=relation>Task F: e45 OVERLAP e46</p>
+<p class=relation>Task F: e46 BEFORE e47</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>Du Pont 's stock <etag>[rose]</etag><sup>e50</sup> $2.50 a share to <etag>[close]</etag><sup>e51</sup> at $117.375 in New York Stock Exchange composite trading <ttag>[yesterday]</ttag><sup>t160</sup> .</p></table>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t160 { value:1989-10-25 type:DATE }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e51 OVERLAP t160</p>
+<p class=relation>Task C: e50 OVERLAP t160</p>
+<p class=relation>Task E: e50 BEFORE-OR-OVERLAP e53</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Seagram <etag>[closed]</etag><sup>e53</sup> at $84.75 , up 12.5 cents a share in Big Board trading .</p></table>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e53 AFTER e55</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line><etag>[Leading]</etag><sup>e55</sup> the gains for Du Pont in <ttag>[the latest quarter]<sup>t163</sup></ttag> was its industrial products segment , where profit <etag>[soared]</etag><sup>e59</sup> to $155 million from $99 million <ttag>[a year earlier]<sup>t164</sup></ttag> .</p></table>
+<p class=attributes>t164 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e59 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e55 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:STATE }</p>
+<p class=attributes>t163 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e55 OVERLAP e60</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>The company <etag>[benefited]</etag><sup>e60</sup> from continued strong <etag>[demand]</etag><sup>e61</sup> and higher selling prices for titanium dioxide , a white pigment used in paints , paper and plastics .</p></table>
+<p class=attributes>e60 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e60 BEFORE e63</p>
+<p class=relation>Task F: e60 OVERLAP e61</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>James Fallon , a New Providence , N.J. , marketing consultant to the chemicals industry , <etag>[says]</etag><sup>e63</sup> Du Pont still <etag>[holds]</etag><sup>e64</sup> an edge in making the pigment because the company was " first in with the technology " to lower costs .</p></table>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e63 OVERLAP e69</p>
+<p class=relation>Task F: e63 OVERLAP e64</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>He <etag>[said]</etag><sup>e69</sup> Du Pont <etag>[holds]</etag><sup>e70</sup> about 23% of the world-wide market , the largest single share , at a time when growing uses for the pigment have kept it in tight supply , although others are now adding low-cost production capacity .</p></table>
+<p class=attributes>e69 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e70 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e69 AFTER e74</p>
+<p class=relation>Task F: e69 OVERLAP e70</p>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>Profit <etag>[climbed]</etag><sup>e74</sup> to $98 million from $71 million in the petroleum segment , as Du Pont 's Conoco Inc. oil company was <etag>[helped]</etag><sup>e75</sup> by crude oil prices higher than <ttag>[a year ago]<sup>t181</sup></ttag> and by higher natural gas prices and volume .</p></table>
+<p class=attributes>e74 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t181 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e75 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e75 AFTER t181</p>
+<p class=relation>Task E: e74 OVERLAP e78</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>In the diversifed businesses segment , which includes herbicides , profit <etag>[grew]</etag><sup>e78</sup> to $64 million from $27 million .</p></table>
+<p class=attributes>e78 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e78 BEFORE e79</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>A spokesman <etag>[said]</etag><sup>e79</sup> herbicide <etag>[use]</etag><sup>e80</sup> in some areas of the U.S. was <etag>[delayed]</etag><sup>e81</sup> <ttag>[earlier in the year]<sup>t190</sup></ttag> by heavy <etag>[rains]</etag><sup>e82</sup> , thus <etag>[increasing]</etag><sup>e83</sup> sales in <ttag>[the third quarter]<sup>t193</sup></ttag> .</p></table>
+<p class=attributes>t193 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>t190 { value:1989 type:DATE }</p>
+<p class=attributes>e81 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e83 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e82 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e79 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e80 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e83 OVERLAP t193</p>
+<p class=relation>Task C: e79 AFTER t193</p>
+<p class=relation>Task C: e80 BEFORE t193</p>
+<p class=relation>Task E: e79 AFTER e86</p>
+<p class=relation>Task F: e81 VAGUE e80</p>
+<p class=relation>Task F: e79 AFTER e81</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>In the fibers segment , profit <etag>[rose]</etag><sup>e86</sup> to $180 million from $155 million , a gain Du Pont <etag>[attributed]</etag><sup>e88</sup> to higher <etag>[demand]</etag><sup>e89</sup> in the U.S. for most textile products .</p></table>
+<p class=attributes>e88 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e89 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e86 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e86 BEFORE e90</p>
+<p class=relation>Task F: e88 BEFORE-OR-OVERLAP e89</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>Two segments <etag>[posted]</etag><sup>e90</sup> lower <etag>[earnings]</etag><sup>e91</sup> for <ttag>[the quarter]<sup>t200</sup></ttag> .</p></table>
+<p class=attributes>e90 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e91 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t200 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e90 OVERLAP-OR-AFTER t200</p>
+<p class=relation>Task E: e90 AFTER e93</p>
+<p class=relation>Task F: e90 OVERLAP-OR-AFTER e91</p>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>Profit from coal <etag>[fell]</etag><sup>e93</sup> to $41 million from $58 million , partly because of a miners ' <etag>[strike]</etag><sup>e94</sup> .</p></table>
+<p class=attributes>e93 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e94 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e93 OVERLAP e96</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>And profit from polymers <etag>[dropped]</etag><sup>e96</sup> to $107 million from $122 million amid what Du Pont called lower demand and selling prices in certain packaging and industrial markets .</p></table>
+<p class=attributes>e96 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e96 OVERLAP e99</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line>For <ttag>[the nine months]<sup>t729</sup></ttag> , Du Pont <etag>[earned]</etag><sup>e99</sup> $2 billion , or $8.46 a share , up 18% from $1.69 billion , or $7.03 a share , <ttag>[a year earlier]<sup>t219</sup></ttag> .</p></table>
+<p class=attributes>t219 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>t729 { type:DURATION value:P9M }</p>
+<p class=attributes>e99 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e99 AFTER t219</p>
+<p class=relation>Task E: e99 OVERLAP e101</p>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line>Sales <etag>[increased]</etag><sup>e101</sup> 10% to $26.54 billion from $24.05 billion .</p></table>
+<p class=attributes>e101 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e101 BEFORE e102</p>
+</div>
+
+<div id=s27 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>27
+  <td><p class=line>The increased dividend will be <etag>[paid]</etag><sup>e102</sup> <ttag>[Dec. 14]<sup>t220</sup></ttag> to holders of record <ttag>[Nov. 15]<sup>t221</sup></ttag> .</p></table>
+<p class=attributes>t221 { value:1989-11-15 type:DATE }</p>
+<p class=attributes>e102 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t220 { value:1989-12-14 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e102 BEFORE t221</p>
+<p class=relation>Task E: e102 BEFORE e106</p>
+</div>
+
+<div id=s28 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>28
+  <td><p class=line>The stock <etag>[split]</etag><sup>e103</sup> , which is subject to holder <etag>[approval]</etag><sup>e105</sup> , would be <etag>[paid]</etag><sup>e106</sup> on a still unspecified date in <ttag>[January]</ttag><sup>t225</sup> to holders of record <ttag>[Dec. 21]<sup>t229</sup></ttag> .</p></table>
+<p class=attributes>t229 { value:1989-12-21 type:DATE }</p>
+<p class=attributes>e106 { polarity:POS modality:would pos:ADJECTIVE tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t225 { value:1990-01 type:DATE }</p>
+<p class=attributes>e103 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e105 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e105 BEFORE e103</p>
+</div>
+</body>
+</html>

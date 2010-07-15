@@ -1,0 +1,168 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0674</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Jim Pattison Industries Ltd. , one of a group of closely held companies owned by entrepreneur James Pattison , <etag>[said]</etag><sup>e2</sup> it " <etag>[intends]</etag><sup>e3</sup> to <etag>[seek]</etag><sup>e4</sup> control " of 30%-owned Innopac Inc. , a Toronto packaging concern .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e2 OVERLAP e6</p>
+<p class=relation>Task F: e2 OVERLAP e3</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Jim Pattison Industries , a holding company with annual sales of about C$1.9 billion , largely from car dealerships and grocery stores , did n 't <etag>[elaborate]</etag><sup>e6</sup> on the statement , and a company official <etag>[declined]</etag><sup>e7</sup> further <etag>[comment]</etag><sup>e8</sup> .</p></table>
+<p class=attributes>e6 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e6 OVERLAP e9</p>
+<p class=relation>Task F: e7 BEFORE e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The company <etag>[said]</etag><sup>e9</sup> it <ttag>[currently]</ttag><sup>t42</sup> <etag>[holds]</etag><sup>e10</sup> about 4.2 million of Innopac 's 13.8 million common shares outstanding , which <etag>[have]</etag><sup>e11</sup> an aggregate market value of about 137.8 million Canadian dollars ( US$117.3 million ) .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t42 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t42</p>
+<p class=relation>Task C: e9 OVERLAP t42</p>
+<p class=relation>Task C: e10 OVERLAP t42</p>
+<p class=relation>Task E: e9 VAGUE e13</p>
+<p class=relation>Task F: e9 OVERLAP e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Separately , Innopac <etag>[reported]</etag><sup>e13</sup> a <ttag>[fourth-quarter]</ttag><sup>t44</sup> <etag>[loss]</etag><sup>e14</sup> of about C$2.6 million , or 18 Canadian cents a share , reflecting inventory <etag>[write-downs]</etag><sup>e16</sup> .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t44 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t44</p>
+<p class=relation>Task C: e14 OVERLAP t44</p>
+<p class=relation>Task E: e13 BEFORE e18</p>
+<p class=relation>Task F: e13 OVERLAP-OR-AFTER e14</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The <etag>[results]</etag><sup>e17</sup> <etag>[made]</etag><sup>e18</sup> net income for <ttag>[the year]<sup>t49</sup></ttag> ended <ttag>[Aug. 31]<sup>t50</sup></ttag> C$2.7 million , or 20 Canadian cents a share , down from C$9.7 million , or 70 Canadian cents a share <ttag>[last year]<sup>t52</sup></ttag> .</p></table>
+<p class=attributes>t50 { value:1989-08-31 type:DATE }</p>
+<p class=attributes>t52 { value:1988 type:DATE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t49 { value:P1Y type:DURATION }</p>
+<p/>
+<p class=relation>Task C: e17 AFTER t52</p>
+<p class=relation>Task C: e18 AFTER t52</p>
+<p class=relation>Task E: e18 OVERLAP e21</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line><etag>[Revenue]</etag><sup>e21</sup> was C$291.6 million , up from C$252 million in <ttag>[1988]</ttag><sup>t58</sup> .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t58 { type:DATE value:1988 }</p>
+<p/>
+<p class=relation>Task E: e21 VAGUE e23</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Martin Fabi , Innopac 's president and chief executive , <etag>[said]</etag><sup>e23</sup> Innopac <etag>[viewed]</etag><sup>e24</sup> Mr. Pattison 's <etag>[decision]</etag><sup>e25</sup> to <etag>[seek]</etag><sup>e26</sup> control as a " very positive " <etag>[move]</etag><sup>e27</sup> .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e23 OVERLAP e31</p>
+<p class=relation>Task F: e23 OVERLAP e24</p>
+<p class=relation>Task F: e24 VAGUE e27</p>
+<p class=relation>Task F: e25 BEFORE e26</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>" I 'm <etag>[happy]</etag><sup>e29</sup> that he <etag>[feels]</etag><sup>e30</sup> positively about our company , " he <etag>[said]</etag><sup>e31</sup> .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e31 OVERLAP e32</p>
+<p class=relation>Task F: e29 OVERLAP-OR-AFTER e30</p>
+<p class=relation>Task F: e31 OVERLAP e29</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Mr. Fabi wouldn 't <etag>[say]</etag><sup>e32</sup> directly whether Mr. Pattison has <etag>[disclosed]</etag><sup>e33</sup> potential terms for his planned <etag>[bid]</etag><sup>e34</sup> for control .</p></table>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:REPORTING }</p>
+<p class=attributes>e32 { polarity:NEG modality:would pos:VERB tense:NONE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e33 OVERLAP e34</p>
+<p class=relation>Task F: e32 AFTER e33</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Among other things , Innopac is involved in recycling polystyrene foam products that are often used by fast food chains , such as McDonald 's Corp. , for food packaging .</p></table>
+<p/>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>A joint venture involving units of Innopac and Mobil Corp. <ttag>[earlier this year]<sup>t69</sup></ttag> <etag>[opened]</etag><sup>e40</sup> the first U.S. polystyrene recycling plant , in Leominster , Mass.</p></table>
+<p class=attributes>t69 { value:1989 type:DATE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

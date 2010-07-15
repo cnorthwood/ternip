@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML>
+<TEXT>
+<TIMEX3 functionInDocument="PUBLICATION_TIME" temporalFunction="FALSE" tid="t104" type="DATE" value="PRESENT_REF" />
+Prix Nobel <SIGNAL sid="s3">en</SIGNAL> <TIMEX3 tid="t4" type="DATE" value="1931">1931</TIMEX3>. <SIGNAL sid="s6">Après</SIGNAL> de brillantes <EVENT aspect="NONE" class="OCCURRENCE" eid="e7" pos="NOUN" tense="NONE" vform="NONE">études</EVENT> à l'Université de Columbia, de Paris et de Berlin, il <EVENT aspect="NONE" class="OCCURRENCE" eid="e23" pos="NONE" tense="PRESENT" vform="NONE">enseigne</EVENT> à l'Université de Columbia dont il <EVENT aspect="NONE" class="ASPECTUAL" eid="e31" pos="NONE" tense="FUTURE" vform="NONE">deviendra</EVENT> le <EVENT aspect="NONE" class="STATE" eid="e82" pos="NOUN" tense="NONE" vform="NONE">recteur</EVENT> <SIGNAL sid="s34">en</SIGNAL> <TIMEX3 tid="t35" type="DATE" value="1902">1902</TIMEX3>, position qu'il <EVENT aspect="NONE" class="OCCURRENCE" eid="e40" pos="NONE" tense="FUTURE" vform="NONE">gardera</EVENT> <SIGNAL sid="s42">jusqu'en</SIGNAL> <TIMEX3 tid="t43" type="DATE" value="1945">1945</TIMEX3>. Membre du parti républicain, il est <EVENT aspect="NONE" class="STATE" eid="e83" pos="ADJECTIVE" tense="NONE" vform="NONE">proche</EVENT> de Elihu Root (Nobel <SIGNAL sid="s58">en</SIGNAL> <TIMEX3 tid="t59" type="DATE" value="1910">1910</TIMEX3>) et de Théodore Roosevelt (Nobel <SIGNAL sid="s67">en</SIGNAL> <TIMEX3 tid="t68" type="DATE" value="1911">1911</TIMEX3>). Il <EVENT aspect="NONE" class="OCCURRENCE" eid="e72" pos="NONE" tense="PRESENT" vform="NONE">défend</EVENT> ardemment les Conférences de La Haye et <EVENT aspect="NONE" class="OCCURRENCE" eid="e80" pos="NONE" tense="PRESENT" vform="NONE">préside</EVENT> <SIGNAL sid="s102">de</SIGNAL> <TIMEX3 tid="t82" type="DATE" value="1905">1905</TIMEX3> <SIGNAL sid="s103">à</SIGNAL> <TIMEX3 tid="t84" type="DATE" value="1924">1924</TIMEX3> la branche américaine de la Conciliation internationale, <EVENT aspect="NONE" class="OCCURRENCE" eid="e81" pos="VERB" tense="NONE" vform="PASTPART">créé</EVENT> par d'Estournelles de Constant (Nobel <SIGNAL sid="s101">en</SIGNAL> <TIMEX3 tid="t102" type="DATE" value="1909">1909</TIMEX3>).
+</TEXT>
+
+<TLINK lid="l1" origin="USER" relType="BEFORE" relatedToTime="t82" timeID="t35" />
+<TLINK lid="l2" origin="USER" relType="BEFORE" relatedToTime="t102" timeID="t82" />
+<TLINK lid="l3" origin="USER" relType="BEFORE" relatedToTime="t59" timeID="t102" />
+<TLINK lid="l4" origin="USER" relType="BEFORE" relatedToTime="t68" timeID="t59" />
+<TLINK lid="l5" origin="USER" relType="BEFORE" relatedToTime="t84" timeID="t68" />
+<TLINK lid="l6" origin="USER" relType="BEFORE" relatedToTime="t4" timeID="t84" />
+<TLINK lid="l7" origin="USER" relType="BEFORE" relatedToTime="t43" timeID="t4" />
+<TLINK eventInstanceID="e7" lid="l8" origin="USER" relType="BEFORE" relatedToEventInstance="e23" />
+<TLINK eventInstanceID="e23" lid="l9" origin="USER" relType="OVERLAPS" relatedToEventInstance="e31" />
+<TLINK eventInstanceID="e31" lid="l10" origin="USER" relType="OVERLAPS" relatedToTime="t35" />
+<TLINK eventInstanceID="e31" lid="l11" origin="USER" relType="OVERLAP_BEFORE" relatedToEventInstance="e40" />
+<TLINK eventInstanceID="e40" lid="l12" origin="USER" relType="OVERLAP_BEFORE" relatedToTime="t43" />
+<TLINK lid="l13" origin="USER" relType="OVERLAP_BEFORE" relatedToEventInstance="e80" timeID="t82" />
+<TLINK eventInstanceID="e80" lid="l14" origin="USER" relType="OVERLAP_BEFORE" relatedToTime="t84" />
+<TLINK eventInstanceID="e81" lid="l15" origin="USER" relType="BEFORE" relatedToEventInstance="e80" />
+<TLINK lid="l16" origin="USER" relType="AFTER" relatedToTime="t43" timeID="t104" />
+<TLINK eventInstanceID="e82" lid="l17" origin="USER" relType="OVERLAP_AFTER" relatedToTime="t35" />
+<TLINK eventInstanceID="e72" lid="l18" origin="USER" relType="BEFORE" relatedToTime="t104" />
+<TLINK eventInstanceID="e83" lid="l19" origin="USER" relType="BEFORE" relatedToTime="t104" />
+<TLINK eventInstanceID="e72" lid="l21" origin="USER" relType="BEFORE" relatedToEventInstance="e80" />
+
+</TimeML>

@@ -1,0 +1,85 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>105_20020502.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>En la confluencia de las calles de Giralt y de Colomines se <etag>[instalará]</etag><sup>e1</sup> un pequeño museo arqueológico con los principales restos <etag>[hallados]</etag><sup>e2</sup> en la <etag>[excavación]</etag><sup>e3</sup> de Santa Caterina , donde hasta <ttag>[el siglo XIX]<sup>t1</sup></ttag> <etag>[hubo]</etag><sup>e4</sup> un gran convento con dos iglesias de estilo románico y gótico .</p></table>
+<p class=attributes>e3 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e1 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e2 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:PARTICIPLE }</p>
+<p class=attributes>t1 { type:DATE val:18 }</p>
+<p class=attributes>e4 { aspect:PERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e4 before-or-overlap t1</p>
+<p class=relation>Task D: e3 before t0</p>
+<p class=relation>Task D: e1 after t0</p>
+<p class=relation>Task D: e2 before t0</p>
+<p class=relation>Task D: e4 before t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>El acceso se <etag>[hará]</etag><sup>e5</sup> desde la calle , a través de una escalera que <etag>[descenderá]</etag><sup>e6</sup> hasta una cripta subterránea .</p></table>
+<p class=attributes>e6 { aspect:IMPERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e5 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e6 after t0</p>
+<p class=relation>Task D: e5 after t0</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Allí se <etag>[verá]</etag><sup>e7</sup> el perfil de los cimientos de las dos iglesias .</p></table>
+<p class=attributes>e7 { aspect:IMPERFECTIVE class:PERCEPTION mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e7 after t0</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Los arquitectos han <etag>[diseñado]</etag><sup>e8</sup> en la superficie tres elementos escultóricos que <etag>[recuerdan]</etag><sup>e9</sup> ánforas o restos arqueológicos .</p></table>
+<p class=attributes>e9 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e8 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e9 overlap t0</p>
+<p class=relation>Task D: e8 before t0</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Una base acristalada <etag>[permitirá]</etag><sup>e10</sup> <etag>[echar]</etag><sup>e11</sup> un <etag>[vistazo]</etag><sup>e12</sup> a la cripta .</p></table>
+<p class=attributes>e11 { aspect:IMPERFECTIVE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e10 { aspect:IMPERFECTIVE class:I_STATE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e12 { aspect:NONE class:PERCEPTION mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e11 after t0</p>
+<p class=relation>Task D: e10 after t0</p>
+<p class=relation>Task D: e12 after t0</p>
+</div>
+</body>
+</html>

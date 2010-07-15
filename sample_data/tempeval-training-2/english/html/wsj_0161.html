@@ -1,0 +1,87 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0161</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Hadson Corp. <etag>[said]</etag><sup>e1</sup> it <etag>[expects]</etag><sup>e2</sup> to <etag>[report]</etag><sup>e3</sup> a <ttag>[third-quarter]</ttag><sup>t28</sup> net <etag>[loss]</etag><sup>e4</sup> of $17 million to $19 million because of special reserves and continued low natural-gas prices .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t28 { value:1989-Q3 type:TIME }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e4 OVERLAP t28</p>
+<p class=relation>Task C: e1 BEFORE t28</p>
+<p class=relation>Task C: e2 OVERLAP-OR-AFTER t28</p>
+<p class=relation>Task C: e3 AFTER t28</p>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+<p class=relation>Task F: e3 AFTER e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Oklahoma City energy and defense concern <etag>[said]</etag><sup>e5</sup> it will <etag>[record]</etag><sup>e6</sup> a $7.5 million reserve for its defense group , including a $4.7 million <etag>[charge]</etag><sup>e8</sup> related to problems under a fixed-price development contract and $2.8 million in overhead <etag>[costs]</etag><sup>e10</sup> that wo n 't be <etag>[reimbursed]</etag><sup>e11</sup> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:NEG modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e5 OVERLAP e12</p>
+<p class=relation>Task F: e5 BEFORE e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In addition , Hadson <etag>[said]</etag><sup>e12</sup> it will <etag>[write]</etag><sup>e13</sup> off about $3.5 million in <etag>[costs]</etag><sup>e14</sup> related to international exploration leases where exploration efforts have been unsuccessful .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e12 BEFORE e13</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The company also cited interest costs and <etag>[amortization]</etag><sup>e19</sup> of goodwill as factors in the <etag>[loss]</etag><sup>e20</sup> .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line><ttag>[A year earlier]<sup>t31</sup></ttag> , net <etag>[income]</etag><sup>e21</sup> was $2.1 million , or six cents a share , on revenue of $169.9 million .</p></table>
+<p class=attributes>t31 { value:1988-Q3 type:TIME }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0152</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Dow Jones amp Co. <etag>[said]</etag><sup>e1</sup> it <etag>[extended]</etag><sup>e2</sup> its $18-a-share <etag>[offer]</etag><sup>e3</sup> for Telerate Inc. common stock until <ttag>[5 p.m. EST Nov. 9]<sup>t27</sup></ttag> . The <etag>[offer]</etag><sup>e4</sup> , valued at about $576 million for the 33% of Telerate that Dow Jones does n 't already own , had been <etag>[set]</etag><sup>e7</sup> to <etag>[expire]</etag><sup>e8</sup> <ttag>[Nov. 6]<sup>t28</sup></ttag> . Dow Jones , which owns about 64 million of Telerate 's 95 million common shares outstanding , <etag>[said]</etag><sup>e10</sup> that about 24,000 shares have been <etag>[tendered]</etag><sup>e11</sup> under its <etag>[offer]</etag><sup>e12</sup> .</p></table>
+<p class=attributes>t28 { value:1989-11-06 type:DATE }</p>
+<p class=attributes>t27 { value:1989-11-09T17:00 type:DATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e4 OVERLAP-OR-AFTER t28</p>
+<p class=relation>Task C: e7 BEFORE t28</p>
+<p class=relation>Task C: e1 BEFORE t27</p>
+<p class=relation>Task C: e3 OVERLAP t27</p>
+<p class=relation>Task E: e7 BEFORE e10</p>
+<p class=relation>Task E: e1 AFTER e7</p>
+<p class=relation>Task E: e10 OVERLAP-OR-AFTER e13</p>
+<p class=relation>Task F: e7 BEFORE e8</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e2 OVERLAP e3</p>
+<p class=relation>Task F: e10 AFTER e11</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Telerate 's two independent directors have <etag>[rejected]</etag><sup>e13</sup> the <etag>[offer]</etag><sup>e14</sup> as inadequate .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e13 BEFORE e16</p>
+<p class=relation>Task F: e13 OVERLAP-OR-AFTER e14</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In composite trading on the New York Stock Exchange , Telerate shares <etag>[closed]</etag><sup>e16</sup> at $19.50 , up 12.5 cents .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Telerate provides an electronic financial information network .</p></table>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Dow Jones publishes The Wall Street Journal , Barron 's magazine , and community newspapers and operates financial news services and computer data bases .</p></table>
+<p/>
+</div>
+</body>
+</html>

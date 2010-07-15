@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>121_19991202_d.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Sam Torrance , nuevo <etag>[capitán]</etag><sup>e1</sup> de la Ryder .</p></table>
+<p class=attributes>e1 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e1 overlap t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>El veterano golfista escocés , de <ttag>[46 años]<sup>t1</sup></ttag> , <etag>[será]</etag><sup>e2</sup> el <etag>[responsable]</etag><sup>e3</sup> del equipo europeo para la <ttag>[próxima]</ttag><sup>t2</sup> <etag>[edición]</etag><sup>e4</sup> , que se <etag>[celebrará]</etag><sup>e5</sup> en The Belfry ( Inglaterra ) en <ttag>[el 2001]<sup>t3</sup></ttag> .</p></table>
+<p class=attributes>e2 { aspect:IMPERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e5 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e4 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t2 { type:DATE val:FUTURE_REF }</p>
+<p class=attributes>t3 { type:DATE val:2001 }</p>
+<p class=attributes>t1 { type:DURATION val:P46Y }</p>
+<p/>
+<p class=relation>Task C: e5 overlap t3</p>
+<p class=relation>Task C: e4 overlap t2</p>
+<p class=relation>Task D: e2 overlap-or-after t0</p>
+<p class=relation>Task D: e3 overlap-or-after t0</p>
+<p class=relation>Task D: e5 after t0</p>
+<p class=relation>Task D: e4 after t0</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Torrance <etag>[releva]</etag><sup>e6</sup> al inglés Mark James .</p></table>
+<p class=attributes>e6 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e6 overlap t0</p>
+</div>
+</body>
+</html>

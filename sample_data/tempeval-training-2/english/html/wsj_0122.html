@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0122</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Young 's Market Co. , a wholesaler of spirits , wines and other goods , <etag>[said]</etag><sup>e1</sup> it will <etag>[merge]</etag><sup>e2</sup> with a new corporation <etag>[formed]</etag><sup>e3</sup> by the Underwood family , which controls Young 's .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e6</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Under terms of the <etag>[agreement]</etag><sup>e5</sup> , shareholders other than the Underwoods will <etag>[receive]</etag><sup>e6</sup> $3,500 a share at <etag>[closing]</etag><sup>e7</sup> , which is <etag>[expected]</etag><sup>e8</sup> in <ttag>[December]</ttag><sup>t13</sup> .</p></table>
+<p class=attributes>t13 { value:1989-12 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e5 BEFORE t13</p>
+<p class=relation>Task C: e8 BEFORE t13</p>
+<p class=relation>Task E: e6 AFTER e9</p>
+<p class=relation>Task F: e5 BEFORE-OR-OVERLAP e6</p>
+<p class=relation>Task F: e8 BEFORE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The Underwood family <etag>[said]</etag><sup>e9</sup> that holders of more than a majority of the stock of the company have <etag>[approved]</etag><sup>e10</sup> the <etag>[transaction]</etag><sup>e11</sup> by written consent .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e10 BEFORE e11</p>
+<p class=relation>Task F: e9 AFTER e10</p>
+</div>
+</body>
+</html>

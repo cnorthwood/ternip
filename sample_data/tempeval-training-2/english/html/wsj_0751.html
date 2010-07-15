@@ -1,0 +1,87 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0751</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Dime Savings Bank of New York was <etag>[cleared]</etag><sup>e1</sup> by the Federal Deposit Insurance Corp. to <etag>[acquire]</etag><sup>e2</sup> Starpointe Savings Bank of Somerset , N.J. , the banks <etag>[said]</etag><sup>e3</sup> .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e3 BEFORE e5</p>
+<p class=relation>Task F: e3 OVERLAP-OR-AFTER e1</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Starpointe holders , who <etag>[approved]</etag><sup>e4</sup> the plan <ttag>[last April]<sup>t24</sup></ttag> , will <etag>[receive]</etag><sup>e5</sup> $21 in cash a share , or a total $63 million .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t24 { value:1989-04 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e5 AFTER e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The FDIC <etag>[cleared]</etag><sup>e6</sup> the <etag>[move]</etag><sup>e7</sup> <ttag>[yesterday]</ttag><sup>t25</sup> , and the banks must <etag>[wait]</etag><sup>e8</sup> <ttag>[at least 30 days]<sup>t26</sup></ttag> before <etag>[closing]</etag><sup>e9</sup> the <etag>[purchase]</etag><sup>e10</sup> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:must pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t26 { value:P30D type:DURATION }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t25 { value:1989-10-26 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t26</p>
+<p class=relation>Task C: e7 BEFORE t26</p>
+<p class=relation>Task E: e6 BEFORE e11</p>
+<p class=relation>Task F: e6 OVERLAP e7</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>A closing date has n 't been <etag>[set]</etag><sup>e11</sup> .</p></table>
+<p class=attributes>e11 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e11 AFTER e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The thrifts <etag>[agreed]</etag><sup>e12</sup> to the <etag>[transaction]</etag><sup>e13</sup> in <ttag>[August 1988]<sup>t27</sup></ttag> .</p></table>
+<p class=attributes>t27 { type:DATE value:1988-08 }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t27</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+</div>
+</body>
+</html>

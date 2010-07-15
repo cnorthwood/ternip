@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0924</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Dominion Textile Inc. holders <etag>[adopted]</etag><sup>e1</sup> a shareholder-rights plan at the annual <etag>[meeting]</etag><sup>e3</sup> .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The so-called poison pill <etag>[took]</etag><sup>e4</sup> effect <ttag>[Aug. 9]<sup>t24</sup></ttag> pending <etag>[ratification]</etag><sup>e6</sup> by holders .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t24 { value:1989-08-09 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e4 OVERLAP t24</p>
+<p class=relation>Task E: e4 OVERLAP e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Rights attached to the company 's common shares were <etag>[issued]</etag><sup>e8</sup> that are <etag>[triggered]</etag><sup>e9</sup> if a hostile bidder <etag>[acquires]</etag><sup>e10</sup> more than 20% of the shares outstanding .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 BEFORE e12</p>
+<p class=relation>Task F: e10 BEFORE-OR-OVERLAP e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Once <etag>[triggered]</etag><sup>e11</sup> , the rights <etag>[allow]</etag><sup>e12</sup> holders to <etag>[buy]</etag><sup>e13</sup> additional shares at 50% of the <ttag>[then current]<sup>t34</sup></ttag> market price or , at the board 's discretion , to <etag>[receive]</etag><sup>e14</sup> securities or assets .</p></table>
+<p class=attributes>t34 { type:DATE value:PAST_REF }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t34</p>
+<p class=relation>Task E: e12 AFTER e15</p>
+<p class=relation>Task F: e12 BEFORE-OR-OVERLAP e13</p>
+<p class=relation>Task F: e13 OVERLAP e14</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Separately , Dominion Textile <etag>[posted]</etag><sup>e15</sup> net <etag>[income]</etag><sup>e16</sup> of 4.7 million Canadian dollars ( $4 million ) , or 12 Canadian cents a share , for <ttag>[the fiscal-first quarter]<sup>t36</sup></ttag> ended <ttag>[Sept. 30]<sup>t38</sup></ttag> .</p></table>
+<p class=attributes>t36 { value:1989-Q1 type:DATE }</p>
+<p class=attributes>t38 { value:1989-09-30 type:DATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e15 AFTER t38</p>
+<p class=relation>Task E: e15 AFTER e18</p>
+<p class=relation>Task F: e15 OVERLAP-OR-AFTER e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The company <etag>[had]</etag><sup>e18</sup> a net loss of C$2.3 million , or 14 Canadian cents a share <ttag>[, a year]<sup>t42</sup></ttag> ago .</p></table>
+<p class=attributes>t42 { value:1988-Q1 type:DATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e18 OVERLAP t42</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Sales were C$348.2 million compared with C$307.2 <ttag>[a year earlier]<sup>t43</sup></ttag> .</p></table>
+<p class=attributes>t43 { value:1988-Q1 type:DATE }</p>
+<p/>
+</div>
+</body>
+</html>

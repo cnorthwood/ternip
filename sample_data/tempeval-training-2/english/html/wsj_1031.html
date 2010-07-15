@@ -1,0 +1,90 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1031</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Philip Morris Cos . , New York , <etag>[adopted]</etag><sup>e1</sup> a defense measure <etag>[designed]</etag><sup>e2</sup> to <etag>[make]</etag><sup>e3</sup> a hostile <etag>[takeover]</etag><sup>e4</sup> prohibitively expensive .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e5</p>
+<p class=relation>Task F: e2 OVERLAP e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The giant foods , tobacco and brewing company <etag>[said]</etag><sup>e5</sup> it will <etag>[issue]</etag><sup>e6</sup> common-share purchase rights to shareholders of record <ttag>[Nov. 8]<sup>t24</sup></ttag> . Under certain circumstances , the rights would <etag>[entitle]</etag><sup>e7</sup> Philip Morris holders to <etag>[buy]</etag><sup>e8</sup> shares of either the company or its acquirer for half price .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t24 { value:1989-11-08 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e5 BEFORE t24</p>
+<p class=relation>Task E: e7 AFTER e12</p>
+<p class=relation>Task E: e5 BEFORE e7</p>
+<p class=relation>Task F: e7 OVERLAP e8</p>
+<p class=relation>Task F: e5 BEFORE e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The board is n 't <etag>[aware]</etag><sup>e9</sup> of any <etag>[attempts]</etag><sup>e10</sup> to <etag>[take]</etag><sup>e11</sup> over Philip Morris , the company <etag>[said]</etag><sup>e12</sup> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e9 { polarity:NEG modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e12 OVERLAP-OR-AFTER e13</p>
+<p class=relation>Task F: e10 OVERLAP e11</p>
+<p class=relation>Task F: e9 OVERLAP-OR-AFTER e10</p>
+<p class=relation>Task F: e12 OVERLAP e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>As of <ttag>[Sept. 30]<sup>t25</sup></ttag> , Philip Morris <etag>[had]</etag><sup>e13</sup> 926 million shares outstanding .</p></table>
+<p class=attributes>t25 { value:1989-09-30 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t25</p>
+<p class=relation>Task E: e13 BEFORE-OR-OVERLAP e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In composite trading on the New York Stock Exchange , Philip Morris shares <etag>[closed]</etag><sup>e15</sup> <ttag>[yesterday]</ttag><sup>t26</sup> at $43.50 each , down $1 .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t26 { value:1989-10-25 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e15 OVERLAP t26</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0637</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>John Labatt Ltd. <etag>[said]</etag><sup>e1</sup> it <etag>[plans]</etag><sup>e2</sup> a private <etag>[placement]</etag><sup>e3</sup> of 150 million Canadian dollars ( US$127.5 million ) in preferred shares , to be <etag>[completed]</etag><sup>e4</sup> <ttag>[around Nov. 1]<sup>t72</sup></ttag> . Proceeds will be <etag>[used]</etag><sup>e5</sup> to <etag>[reduce]</etag><sup>e6</sup> short-term debt at the beer and food concern , <etag>[said]</etag><sup>e7</sup> Robert Vaux , vice president , finance .</p></table>
+<p class=attributes>e4 { polarity:POS modality:none pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t72 { value:1989-11-01 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 BEFORE t72</p>
+<p class=relation>Task C: e2 BEFORE t72</p>
+<p class=relation>Task E: e7 BEFORE e8</p>
+<p class=relation>Task E: e1 OVERLAP e7</p>
+<p class=relation>Task F: e5 OVERLAP e6</p>
+<p class=relation>Task F: e7 VAGUE e5</p>
+<p class=relation>Task F: e1 OVERLAP-OR-AFTER e2</p>
+<p class=relation>Task F: e2 BEFORE-OR-OVERLAP e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The preferred shares will <etag>[carry]</etag><sup>e8</sup> a floating annual dividend equal to 72% of the 30-day bankers ' acceptance rate until <ttag>[Dec. 31 , 1994]<sup>t37</sup></ttag> .</p></table>
+<p class=attributes>t37 { type:DATE value:1994-12-31 }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 BEFORE e10</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Thereafter , the rate will be <etag>[renegotiated]</etag><sup>e10</sup> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 AFTER e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Mr. Vaux <etag>[said]</etag><sup>e11</sup> that if no <etag>[agreement]</etag><sup>e12</sup> is <etag>[reached]</etag><sup>e13</sup> , other buyers will be <etag>[sought]</etag><sup>e14</sup> by <etag>[bid]</etag><sup>e15</sup> or <etag>[auction]</etag><sup>e16</sup> .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:NEG modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e11 BEFORE e18</p>
+<p class=relation>Task F: e11 VAGUE e14</p>
+<p class=relation>Task F: e12 BEFORE e14</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The shares are <etag>[redeemable]</etag><sup>e18</sup> after <ttag>[the end of 1994]<sup>t42</sup></ttag> .</p></table>
+<p class=attributes>t42 { value:1994 type:DATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e18 AFTER e19</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Mr. Vaux <etag>[said]</etag><sup>e19</sup> the share issue is part of a <etag>[strategy]</etag><sup>e21</sup> to <etag>[strengthen]</etag><sup>e22</sup> Labatt 's balance sheet in anticipation of <etag>[acquisitions]</etag><sup>e23</sup> to be <etag>[made]</etag><sup>e24</sup> during <ttag>[the next 12 to 18 months]<sup>t46</sup></ttag> .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t46 { value:PXM type:DURATION }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:none pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e23 OVERLAP t46</p>
+<p class=relation>Task C: e24 OVERLAP t46</p>
+<p class=relation>Task C: e19 BEFORE t46</p>
+<p class=relation>Task E: e19 OVERLAP e27</p>
+<p class=relation>Task F: e21 OVERLAP e22</p>
+<p class=relation>Task F: e23 OVERLAP e24</p>
+<p class=relation>Task F: e19 VAGUE e21</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Labatt 's <etag>[has]</etag><sup>e25</sup> no takeover bids outstanding <ttag>[currently]</ttag><sup>t49</sup> , he <etag>[said]</etag><sup>e27</sup> .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t49 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e27 OVERLAP t49</p>
+<p class=relation>Task C: e25 OVERLAP t49</p>
+<p class=relation>Task F: e27 VAGUE e25</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Lead underwriter to the issue is Toronto Dominion Securities Inc.</p></table>
+<p/>
+</div>
+</body>
+</html>

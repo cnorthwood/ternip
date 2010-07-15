@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>APW19980227.0468</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>MOSCOW ( AP ) _ The mayor of Moscow has <etag>[allocated]</etag><sup>e1</sup> funds to <etag>[help]</etag><sup>e2</sup> <etag>[build]</etag><sup>e3</sup> a museum in honor of Mikhail Kalashnikov , the Russian who <etag>[gave]</etag><sup>e4</sup> his name to the world 's most widely wielded weapon , <etag>[according]</etag><sup>e5</sup> to a news agency <etag>[report]</etag><sup>e6</sup> <ttag>[Friday]</ttag><sup>t1</sup> .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1 { value:1998-02-27 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t1</p>
+<p class=relation>Task D: e2 OVERLAP-OR-AFTER t0</p>
+<p class=relation>Task D: e5 BEFORE t0</p>
+<p class=relation>Task D: e4 BEFORE t0</p>
+<p class=relation>Task D: e6 BEFORE t0</p>
+<p class=relation>Task E: e5 AFTER e7</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+<p class=relation>Task F: e2 OVERLAP e3</p>
+<p class=relation>Task F: e5 AFTER e1</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Kalashnikov <etag>[designed]</etag><sup>e7</sup> the AK-47 automatic rifle , famed for its reliability and effectiveness .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e7 BEFORE e9</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Together with its derivatives , the Kalashnikov rifle has been <etag>[used]</etag><sup>e9</sup> by the police and armies of 55 countries and an assortment of guerrillas , terrorists and just plain thugs around the globe .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e9 OVERLAP t0</p>
+<p class=relation>Task E: e9 OVERLAP e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Seventy-five million copies of the rifle have been <etag>[built]</etag><sup>e10</sup> since it <etag>[entered]</etag><sup>e11</sup> <etag>[production]</etag><sup>e12</sup> in <ttag>[February 1947]<sup>t2</sup></ttag> , making it history 's most widely distributed weapon .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t2 { type:DATE value:1947-02 }</p>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>UR The ITAR-Tass , 4th graf pvs ( pvs/ji )</p></table>
+<p/>
+</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0662</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Jayark Corp. <etag>[agreed]</etag><sup>e1</sup> to <etag>[pay]</etag><sup>e2</sup> $4 million in cash , $2 million of 12% convertible debentures , and 1.6 million common shares to <etag>[acquire]</etag><sup>e3</sup> closely held Kofcoh Imports Inc. In over-the-counter <etag>[trading]</etag><sup>e4</sup> <ttag>[Friday]</ttag><sup>t32</sup> , Jayark was <etag>[quoted]</etag><sup>e5</sup> at 87.5 cents bid , down 15.625 cents .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t32 { value:1989-10-27 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e3 VAGUE t32</p>
+<p class=relation>Task C: e4 OVERLAP t32</p>
+<p class=relation>Task C: e1 VAGUE t32</p>
+<p class=relation>Task C: e2 VAGUE t32</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+<p class=relation>Task F: e2 BEFORE-OR-OVERLAP e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>At the market price , the <etag>[transaction]</etag><sup>e6</sup> has a total indicated value of $7.4 million .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Kofcoh is a New York holding company for Rosalco Inc. , which imports furniture and other items .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>David L. Koffman , president and chief executive officer of Jayark , holds about 40% of Kofcoh , Jayark <etag>[said]</etag><sup>e11</sup> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Jayark , New York , distributes and rents audio-visual equipment and prints promotional ads for retailers .</p></table>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In <ttag>[the quarter]<sup>t36</sup></ttag> ended <ttag>[July 31]<sup>t35</sup></ttag> , Jayark had an average of 5.6 million shares outstanding .</p></table>
+<p class=attributes>t36 { value:1989-Q2 type:DATE }</p>
+<p class=attributes>t35 { value:1989-07-31 type:DATE }</p>
+<p/>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>The transaction is subject to <etag>[approval]</etag><sup>e19</sup> by a panel of disinterested directors , the company said , adding that shareholder approval is n 't <etag>[needed]</etag><sup>e24</sup> .</p></table>
+<p class=attributes>e24 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_STATE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e24 VAGUE e19</p>
+</div>
+</body>
+</html>

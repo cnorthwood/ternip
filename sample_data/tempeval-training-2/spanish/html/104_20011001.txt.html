@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>104_20011001.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>El Parlament ha <etag>[aprobado]</etag><sup>e1</sup> , por <etag>[unanimidad]</etag><sup>e2</sup> , una proposición no de ley en la que se <etag>[reclama]</etag><sup>e3</sup> a la Generalitat que , en el plazo de <ttag>[seis meses]<sup>t1</sup></ttag> , <etag>[elabore]</etag><sup>e4</sup> un <etag>[estudio]</etag><sup>e5</sup> sobre la <etag>[viabilidad]</etag><sup>e6</sup> de <etag>[construir]</etag><sup>e7</sup> una línea de ferrocarril entre Sallent ( Bages ) y La Pobla de Lillet .</p></table>
+<p class=attributes>e7 { aspect:IMPERFECTIVE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e5 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e3 { aspect:IMPERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e4 { aspect:IMPERFECTIVE class:I_ACTION mood:SUBJUNCTIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>t1 { type:DURATION val:P6M }</p>
+<p class=attributes>e6 { aspect:NONE class:I_STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e1 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e2 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e4 overlap t1</p>
+<p class=relation>Task D: e7 after t0</p>
+<p class=relation>Task D: e5 after t0</p>
+<p class=relation>Task D: e3 before-or-overlap t0</p>
+<p class=relation>Task D: e4 after t0</p>
+<p class=relation>Task D: e6 after t0</p>
+<p class=relation>Task D: e1 before t0</p>
+<p class=relation>Task D: e2 before t0</p>
+</div>
+</body>
+</html>

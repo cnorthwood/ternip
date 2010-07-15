@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0709</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Service Corp. International <etag>[said]</etag><sup>e1</sup> it <etag>[expects]</etag><sup>e2</sup> to <etag>[report]</etag><sup>e3</sup> net <etag>[income]</etag><sup>e4</sup> of 15 cents a share for <ttag>[the third quarter]<sup>t26</sup></ttag> .</p></table>
+<p class=attributes>t26 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e1 OVERLAP t26</p>
+<p class=relation>Task C: e2 OVERLAP t26</p>
+<p class=relation>Task C: e3 AFTER t26</p>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+<p class=relation>Task F: e3 OVERLAP-OR-AFTER e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The company <etag>[said]</etag><sup>e5</sup> it <etag>[expects]</etag><sup>e6</sup> to <etag>[release]</etag><sup>e7</sup> third-quarter results in <ttag>[mid-November]</ttag><sup>t27</sup> .</p></table>
+<p class=attributes>t27 { value:1989-11 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e5 BEFORE t27</p>
+<p class=relation>Task C: e6 BEFORE t27</p>
+<p class=relation>Task E: e5 AFTER e9</p>
+<p class=relation>Task F: e5 OVERLAP e6</p>
+<p class=relation>Task F: e6 BEFORE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The funeral home and cemetery operator <etag>[changed]</etag><sup>e9</sup> from a fiscal year to a calendar year in <ttag>[December]</ttag><sup>t28</sup> .</p></table>
+<p class=attributes>t28 { value:1988-12 type:DATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e9 OVERLAP t28</p>
+<p class=relation>Task E: e9 AFTER e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In <ttag>[the comparable year-ago quarter]<sup>t30</sup></ttag> , the <ttag>[second quarter]<sup>t31</sup></ttag> ended <ttag>[Oct. 31]<sup>t32</sup></ttag> , Service Corp. <etag>[had]</etag><sup>e11</sup> a <etag>[loss]</etag><sup>e12</sup> of about $12.5 million , or 26 cents a share , on revenue of $175.4 million .</p></table>
+<p class=attributes>t32 { value:1988-10-31 type:DATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t30 { value:1988-Q2 type:DATE }</p>
+<p class=attributes>t31 { value:1988-Q2 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t32</p>
+<p class=relation>Task C: e12 OVERLAP t32</p>
+<p class=relation>Task E: e11 BEFORE e16</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Results for <ttag>[that quarter]<sup>t33</sup></ttag> included a $30 million , or 40 cents a share , <etag>[write-down]</etag><sup>e16</sup> associated with the consolidation of a facility .</p></table>
+<p class=attributes>t33 { value:1988-Q2 type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

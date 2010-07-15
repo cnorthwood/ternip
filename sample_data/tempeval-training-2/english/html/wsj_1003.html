@@ -1,0 +1,467 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1003</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Bethlehem Steel Corp. , <etag>[hammered]</etag><sup>e1</sup> by higher costs and lower shipments to key automotive and service-center customers , <etag>[posted]</etag><sup>e2</sup> a 54% drop in <ttag>[third-quarter]</ttag><sup>t180</sup> profit .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t180 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e2 AFTER t180</p>
+<p class=relation>Task E: e2 VAGUE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Separately , two more of the nation 's top steelmakers -- Armco Inc. and National Intergroup Inc. -- <etag>[reported]</etag><sup>e3</sup> lower operating earnings in their steel businesses , <etag>[marking]</etag><sup>e4</sup> what is generally <etag>[believed]</etag><sup>e5</sup> to be the end of a <ttag>[two-year]</ttag><sup>t283</sup> <etag>[boom]</etag><sup>e6</sup> in the industry .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t283 { type:DURATION value:P2Y }</p>
+<p/>
+<p class=relation>Task C: e3 AFTER t283</p>
+<p class=relation>Task C: e5 AFTER t283</p>
+<p class=relation>Task E: e3 BEFORE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Wall Street analysts <etag>[expect]</etag><sup>e7</sup> the disappointing <etag>[trend]</etag><sup>e8</sup> to <etag>[continue]</etag><sup>e9</sup> into <ttag>[the fourth quarter]<sup>t182</sup></ttag> and through at least the <ttag>[first two quarters of 1990]<sup>t183</sup></ttag> , when the industry will increasingly <etag>[see]</etag><sup>e10</sup> the effect of price <etag>[erosion]</etag><sup>e11</sup> in major product lines , such as rolled sheet used for cars , appliances and construction .</p></table>
+<p class=attributes>t182 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>t183 { type:DATE value:1990-H1 }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:PERCEPTION }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t182</p>
+<p class=relation>Task C: e7 BEFORE t182</p>
+<p class=relation>Task C: e9 OVERLAP t182</p>
+<p class=relation>Task E: e7 OVERLAP e13</p>
+<p class=relation>Task F: e7 BEFORE e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>" It does n 't <etag>[bode]</etag><sup>e12</sup> well for <ttag>[coming quarters]<sup>t190</sup></ttag> , " <etag>[said]</etag><sup>e13</sup> John Jacobson , who follows the steel industry for AUS Consultants .</p></table>
+<p class=attributes>t190 { value:FUTURE_REF type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 BEFORE t190</p>
+<p class=relation>Task E: e13 OVERLAP e15</p>
+<p class=relation>Task F: e13 OVERLAP e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In fact , he <etag>[thinks]</etag><sup>e15</sup> several steelmakers will <etag>[report]</etag><sup>e16</sup> actual <etag>[losses]</etag><sup>e17</sup> through <ttag>[the third quarter of 1990]<sup>t192</sup></ttag> .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t192 { type:DATE value:1990-Q3 }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e17 OVERLAP t192</p>
+<p class=relation>Task C: e15 BEFORE t192</p>
+<p class=relation>Task C: e16 OVERLAP t192</p>
+<p class=relation>Task E: e15 OVERLAP-OR-AFTER e18</p>
+<p class=relation>Task F: e15 BEFORE e16</p>
+<p class=relation>Task F: e16 BEFORE e17</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Bethlehem , the nation 's second largest steelmaker , <etag>[earned]</etag><sup>e18</sup> $46.9 million , or 54 cents a share .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e18 BEFORE-OR-OVERLAP e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>The figures <etag>[include]</etag><sup>e19</sup> $15 million in costs related to a blast furnace <etag>[outage]</etag><sup>e21</sup> and $8 million in losses from unauthorized work <etag>[outages]</etag><sup>e22</sup> at the company 's coal operations .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e19 AFTER e23</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>In the <ttag>[year-ago period]<sup>t196</sup></ttag> , Bethlehem <etag>[earned]</etag><sup>e23</sup> $101.4 million , or $1.27 a share , including a $3.8 million <etag>[gain]</etag><sup>e24</sup> from early retirement of debt .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t196 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e24 OVERLAP t196</p>
+<p class=relation>Task C: e23 OVERLAP t196</p>
+<p class=relation>Task E: e23 BEFORE e25</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line><ttag>[Third-quarter]</ttag><sup>t198</sup> sales <etag>[dropped]</etag><sup>e25</sup> 11% to $1.27 billion from $1.43 billion <ttag>[a year ago]<sup>t199</sup></ttag> .</p></table>
+<p class=attributes>t199 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>t198 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e25 AFTER t199</p>
+<p class=relation>Task E: e25 VAGUE e27</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>In composite trading on the New York Stock Exchange , Bethlehem shares <etag>[rose]</etag><sup>e27</sup> 50 cents to $17.375 .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e27 BEFORE-OR-OVERLAP e28</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Of all the major steelmakers , Bethlehem would <etag>[seem]</etag><sup>e28</sup> to be the most <etag>[vulnerable]</etag><sup>e29</sup> to a <etag>[slowdown]</etag><sup>e30</sup> .</p></table>
+<p class=attributes>e28 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:PERCEPTION }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e28 OVERLAP-OR-AFTER e31</p>
+<p class=relation>Task F: e28 OVERLAP e29</p>
+<p class=relation>Task F: e29 OVERLAP e30</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>It hasn 't <etag>[diversified]</etag><sup>e31</sup> beyond steel , nor has it <etag>[linked]</etag><sup>e32</sup> up with a joint venture partner to <etag>[share]</etag><sup>e33</sup> costs and risks .</p></table>
+<p class=attributes>e32 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e31 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e31 BEFORE e35</p>
+<p class=relation>Task F: e32 OVERLAP e33</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>However , in spite of the difficult industrywide environment of high cost and low volume , Bethlehem " <etag>[had]</etag><sup>e34</sup> pretty good earnings numbers , " <etag>[said]</etag><sup>e35</sup> Michelle Galanter Applebaum , an analyst with Salomon Brothers Inc.</p></table>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e34 OVERLAP t207</p>
+<p class=relation>Task C: e35 AFTER t207</p>
+<p class=relation>Task E: e35 AFTER e40</p>
+<p class=relation>Task F: e35 VAGUE e34</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Ms. Applebaum had <etag>[estimated]</etag><sup>e36</sup> <ttag>[third-quarter]</ttag><sup>t207</sup> earnings of 55 cents a shhha55 cents a share , ents a share , but ssa share , but <etag>[said]</etag><sup>e37</sup> the losses for the unusual items were <etag>[larger]</etag><sup>e38</sup> than <etag>[expected]</etag><sup>e39</sup> .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t207 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e37 AFTER t207</p>
+<p class=relation>Task C: e39 BEFORE t207</p>
+<p class=relation>Task F: e37 VAGUE e38</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>Still , Bethlehem 's core basic steel operations <etag>[experienced]</etag><sup>e40</sup> a steep <etag>[drop]</etag><sup>e41</sup> in operating profit to $58.6 million from $186.4 million <ttag>[a year ago]<sup>t211</sup></ttag> , when the industry <etag>[enjoyed]</etag><sup>e42</sup> strong demand and pricing .</p></table>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t211 { value:1988-10-26 type:DATE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e41 AFTER t211</p>
+<p class=relation>Task E: e40 BEFORE e43</p>
+<p class=relation>Task F: e40 OVERLAP e41</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>The company <etag>[said]</etag><sup>e43</sup> its shipments <etag>[declined]</etag><sup>e44</sup> as a result of a <etag>[reduction]</etag><sup>e45</sup> in inventories by service centers , a lackluster automotive market and <etag>[increasing]</etag><sup>e46</sup> competitive pressures in the construction market .</p></table>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e43 AFTER e47</p>
+<p class=relation>Task F: e43 OVERLAP e44</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>At the same time , production costs , compared with <ttag>[a year ago]<sup>t215</sup></ttag> , were <etag>[boosted]</etag><sup>e47</sup> by higher raw material and employment costs , which <etag>[resulted]</etag><sup>e48</sup> from the company 's new labor <etag>[pact]</etag><sup>e49</sup> effective <ttag>[June 1]<sup>t219</sup></ttag> . " We <etag>[anticipate]</etag><sup>e50</sup> that steel market conditions will <etag>[exhibit]</etag><sup>e51</sup> a further moderate <etag>[decline]</etag><sup>e52</sup> in <ttag>[the fourth quarter]<sup>t220</sup></ttag> as the automotive sector <etag>[remains]</etag><sup>e53</sup> weak and customers <etag>[continue]</etag><sup>e55</sup> to <etag>[adjust]</etag><sup>e56</sup> inventories , " <etag>[said]</etag><sup>e57</sup> Bethlehem Chairman Walter F. Williams .</p></table>
+<p class=attributes>t215 { value:1988-10-26 type:DATE }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t220 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>t219 { value:1990-06-01 type:DATE }</p>
+<p class=attributes>e55 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e56 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e57 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e48 AFTER t215</p>
+<p class=relation>Task C: e47 AFTER t215</p>
+<p class=relation>Task C: e53 OVERLAP t220</p>
+<p class=relation>Task C: e52 OVERLAP t220</p>
+<p class=relation>Task C: e55 OVERLAP t220</p>
+<p class=relation>Task C: e57 BEFORE t220</p>
+<p class=relation>Task E: e47 BEFORE e57</p>
+<p class=relation>Task E: e57 OVERLAP e58</p>
+<p class=relation>Task F: e50 BEFORE e51</p>
+<p class=relation>Task F: e51 OVERLAP e52</p>
+<p class=relation>Task F: e57 OVERLAP e50</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>He <etag>[noted]</etag><sup>e58</sup> , however , that the company 's order entry has <etag>[increased]</etag><sup>e59</sup> from the low levels of <ttag>[the early summer]<sup>t224</sup></ttag> , <etag>[following]</etag><sup>e60</sup> the end of labor <etag>[negotiations]</etag><sup>e61</sup> .</p></table>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t224 { value:1989-SU type:DATE }</p>
+<p class=attributes>e60 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e58 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e59 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e59 AFTER t224</p>
+<p class=relation>Task E: e58 AFTER e63</p>
+<p class=relation>Task F: e58 OVERLAP-OR-AFTER e59</p>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>steel business , <etag>[said]</etag><sup>e62</sup> <ttag>[third-quarter]</ttag><sup>t225</sup> net income <etag>[dropped]</etag><sup>e63</sup> 8% to $33 million , or 35 cents a share , from $36 million , or 39 cents a share in <ttag>[the year-ago quarter]<sup>t227</sup></ttag> .</p></table>
+<p class=attributes>t227 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t225 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e62 AFTER t227</p>
+<p class=relation>Task C: e63 AFTER t227</p>
+<p class=relation>Task E: e63 OVERLAP e64</p>
+<p class=relation>Task F: e62 OVERLAP e63</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>Sales <etag>[dropped]</etag><sup>e64</sup> to $441.1 million from $820.4 million , because the company no longer <etag>[consolidates]</etag><sup>e65</sup> its Eastern Steel division , which is <ttag>[now]</ttag><sup>t730</sup> a joint <etag>[venture]</etag><sup>e66</sup> with Kawasaki Steel Corp. Along with reduced volume , analysts <etag>[said]</etag><sup>e67</sup> the nation 's fifth largest steelmaker was <etag>[hurt]</etag><sup>e68</sup> by <etag>[holding]</etag><sup>e69</sup> higher-cost inventory when raw material costs of such key products as nickel <etag>[dropped]</etag><sup>e70</sup> .</p></table>
+<p class=attributes>e66 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e70 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e65 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t730 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e69 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e68 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e67 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e70 BEFORE t730</p>
+<p class=relation>Task C: e69 BEFORE t730</p>
+<p class=relation>Task C: e67 BEFORE t730</p>
+<p class=relation>Task C: e64 BEFORE t730</p>
+<p class=relation>Task E: e64 OVERLAP e71</p>
+<p class=relation>Task F: e67 OVERLAP e68</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>Operating profit <etag>[dropped]</etag><sup>e71</sup> 46% in its specialty flat-rolled steel segment .</p></table>
+<p class=attributes>e71 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e71 BEFORE e72</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>Moreover , the company <etag>[said]</etag><sup>e72</sup> higher sales and shipments to service centers from its Armco Steel Co. joint venture <etag>[failed]</etag><sup>e73</sup> to <etag>[offset]</etag><sup>e74</sup> weakness in the automotive market , higher production costs and a poorer product mix .</p></table>
+<p class=attributes>e73 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e72 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e74 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e72 BEFORE e75</p>
+<p class=relation>Task F: e73 OVERLAP e74</p>
+<p class=relation>Task F: e72 OVERLAP e73</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>Armco shares <etag>[closed]</etag><sup>e75</sup> unchanged at $10.625 in composite trading on the New York Stock Exchange .</p></table>
+<p class=attributes>e75 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e75 VAGUE e78</p>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>National Intergroup , which <etag>[owns]</etag><sup>e77</sup> 50% of the nation 's sixth largest steelmaker -- National Steel Corp. -- <etag>[posted]</etag><sup>e78</sup> net income for the <ttag>[fiscal second-quarter]<sup>t234</sup></ttag> of $8.6 million , or 33 cents a share , compared with a net loss of $50.3 million .</p></table>
+<p class=attributes>t234 { value:1989-Q2 type:DATE }</p>
+<p class=attributes>e78 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e77 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e78 AFTER t234</p>
+<p class=relation>Task E: e78 AFTER e80</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>Sales <etag>[increased]</etag><sup>e80</sup> in the <ttag>[quarter]</ttag><sup>t236</sup> <etag>[ended]</etag><sup>e81</sup> <ttag>[Sept. 30]<sup>t235</sup></ttag> to $747.8 million from $623.5 million <ttag>[a year ago]<sup>t239</sup></ttag> .</p></table>
+<p class=attributes>t239 { value:1988-QX type:DATE }</p>
+<p class=attributes>e80 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e81 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t236 { value:1989-QX type:DATE }</p>
+<p class=attributes>t235 { value:1989-09-30 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e80 BEFORE-OR-OVERLAP t235</p>
+<p class=relation>Task E: e80 OVERLAP e82</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line><ttag>[The latest period]<sup>t240</sup></ttag> <etag>[includes]</etag><sup>e82</sup> gains of $9.1 million from early retirement of debt and tax loss carry-forward .</p></table>
+<p class=attributes>t240 { value:1989-Q2 type:DATE }</p>
+<p class=attributes>e82 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e82 AFTER e83</p>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line><ttag>[Last year]<sup>t838</sup></ttag> 's results were <etag>[hurt]</etag><sup>e83</sup> by $41.3 million in restructuring charges .</p></table>
+<p class=attributes>t838 { value:1988-Q2 type:DATE }</p>
+<p class=attributes>e83 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e83 BEFORE e84</p>
+</div>
+
+<div id=s27 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>27
+  <td><p class=line>National Intergroup stock <etag>[closed]</etag><sup>e84</sup> at $15 , unchanged in composite trading on the New York Stock Exchange .</p></table>
+<p class=attributes>e84 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e84 VAGUE e86</p>
+</div>
+
+<div id=s28 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>28
+  <td><p class=line>The company <etag>[noted]</etag><sup>e86</sup> that its Fox-Meyer Drug Co. , Ben Franklin Stores Inc. and Permian Corp. operations <etag>[showed]</etag><sup>e87</sup> <etag>[improvements]</etag><sup>e88</sup> as a result of restructuring <etag>[moves]</etag><sup>e89</sup> .</p></table>
+<p class=attributes>e89 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e88 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e86 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e87 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e86 AFTER e90</p>
+<p class=relation>Task F: e86 OVERLAP-OR-AFTER e87</p>
+<p class=relation>Task F: e87 OVERLAP e88</p>
+</div>
+
+<div id=s29 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>29
+  <td><p class=line>However , its equity in the net income of National Steel <etag>[declined]</etag><sup>e90</sup> to $6.3 million from $10.9 million as a result of softer demand and lost orders following prolonged labor <etag>[talks]</etag><sup>e91</sup> and a <etag>[threatened]</etag><sup>e92</sup> <etag>[strike]</etag><sup>e93</sup> .</p></table>
+<p class=attributes>e90 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e92 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e91 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e93 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e90 BEFORE-OR-OVERLAP e94</p>
+<p class=relation>Task F: e92 VAGUE e93</p>
+</div>
+
+<div id=s30 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>30
+  <td><p class=line>National Intergroup is <etag>[negotiating]</etag><sup>e94</sup> for the <etag>[sale]</etag><sup>e95</sup> of its 50% interest in National Steel to <etag>[concentrate]</etag><sup>e96</sup> more fully on drug distribution operations .</p></table>
+<p class=attributes>e94 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e96 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e95 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e94 BEFORE-OR-OVERLAP e95</p>
+<p class=relation>Task F: e95 OVERLAP e96</p>
+</div>
+</body>
+</html>

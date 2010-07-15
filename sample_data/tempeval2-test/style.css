@@ -1,0 +1,60 @@
+
+body { 
+  background-color: #888888;
+  margin: 0px;
+  padding: 2%;
+}
+
+h1 {
+  color: darkred;
+  margin: 10pt;
+  margin-left: 0pt;
+}
+
+h2 {
+  color: darkred;
+  margin: 15pt;
+  margin-left: 0pt;
+}
+
+h3 {
+  margin-top: 20pt;
+}
+
+table { 
+  margin-left: 20pt;
+}
+
+.mainText {
+  background-color: #ffffff;
+  padding: 10pt;
+  padding-left: 15pt;
+}
+
+.example { 
+  font-family: courier;
+  font-size: small;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  padding: 5pt;
+  border: solid thin grey;           
+  background-color: #eeeeee;
+}
+
+.navigation { 
+  font-size: large;
+  margin-bottom: 20pt;            
+}
+
+a{
+  color:#1B6361;
+  text-decoration: none;
+  border-bottom: 1px dotted #1B6361;
+}
+
+a:hover, a:active{
+  color:#1B6361;
+  border-bottom: 1px solid #1B6361;
+}
+
+

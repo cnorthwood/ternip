@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>110_20001202.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Joan Clos <etag>[vio]</etag><sup>e1</sup> obras <ttag>[recién]</ttag><sup>t1</sup> <etag>[acabadas]</etag><sup>e2</sup> en el barrio de Sant Ramon y <etag>[visitó]</etag><sup>e3</sup> la sede de la asociación de vecinos y algunas tiendas .</p></table>
+<p class=attributes>e1 { aspect:PERFECTIVE class:PERCEPTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>t1 { type:DATE val:PAST_REF }</p>
+<p class=attributes>e3 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e2 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:PARTICIPLE }</p>
+<p/>
+<p class=relation>Task C: e2 overlap t1</p>
+<p class=relation>Task D: e1 before t0</p>
+<p class=relation>Task D: e3 before t0</p>
+<p class=relation>Task D: e2 before t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Le <etag>[acompañó]</etag><sup>e4</sup> el concejal de distrito , Jordi Hereu .</p></table>
+<p class=attributes>e4 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e4 before t0</p>
+</div>
+</body>
+</html>

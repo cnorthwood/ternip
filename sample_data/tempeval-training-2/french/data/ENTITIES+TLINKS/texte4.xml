@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML>
+
+
+
+<TEXT>
+<TIMEX3 functionInDocument="PUBLICATION_TIME" tid="t1" type="DATE" value="2007-09-15">15 septembre 2007</TIMEX3>
+AVENIR SCIENCE ET APPLICATIONS TECHNOLOGIQUES
+Depuis sa <EVENT class="OCCURRENCE" eid="e1" pos="NOUN">création</EVENT> en <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t2" type="DATE" value="2002">2002</TIMEX3>, Archimède <EVENT class="STATE" eid="e2" tense="PRESENT">regroupe</EVENT> des étudiants de l'école Polytechnique qui <EVENT class="OCCURRENCE" eid="e3" tense="PRESENT">mettent</EVENT> en commun leurs expériences et leurs idées dans le but de <EVENT class="OCCURRENCE" eid="e5" pos="VERB" vform="INFINITIVE">développer</EVENT> un sous-marin à propulsion humaine. 
+<TIMEX3 freq="P1SU" functionInDocument="NONE" quant="EVERY" temporalFunction="FALSE" tid="t3" type="SET">Chaque été</TIMEX3>, les étudiants <EVENT class="OCCURRENCE" eid="e6" tense="PRESENT">rivalisent</EVENT> avec leurs pairs dans une <EVENT class="OCCURRENCE" eid="e7" pos="NOUN">compétition</EVENT> d'envergure internationale où ils <EVENT class="MODAL" eid="e8" modality="NECESSITY" tense="PRESENT">doivent</EVENT>, à l'intérieur du sous-marin submergé, <EVENT class="OCCURRENCE" eid="e9" pos="VERB" tense="NONE" vform="INFINITIVE">pédaler</EVENT> pour <EVENT class="OCCURRENCE" eid="e10" pos="VERB" vform="INFINITIVE">actionner</EVENT> l'hélice qui <EVENT class="OCCURRENCE" eid="e11" tense="PRESENT">propulse</EVENT> l'engin à des vitesses <EVENT class="STATE" eid="e30" pos="VERB" vform="PRESPART">rivalisant</EVENT> avec celle des cétacés.  
+<EVENT class="OCCURRENCE" eid="e12" pos="VERB" vform="PRESPART">Misant</EVENT> sur une conception novatrice, un design audacieux et un entraînement exceptionnel des différents pilotes, Archimède s'est <EVENT class="OCCURRENCE" eid="e14" pos="VERB" tense="PAST" vform="PASTPART">hissé</EVENT> au premier rang du classement général lors de la <EVENT class="OCCURRENCE" eid="e15" pos="NOUN">compétition</EVENT> Human Powered Submarine Contest 2006, <EVENT class="OCCURRENCE" eid="e16" pos="ADJECTIVE" tense="NONE" vform="PASTPART">tenue</EVENT> en Californie.  
+À la suite de ce <EVENT class="OCCURRENCE" eid="e17" pos="NOUN">succès</EVENT>, l'équipe d'Archimède a été <EVENT class="I_ACTION" eid="e18" pos="VERB" tense="PAST" vform="PASTPART">invitée</EVENT> à <EVENT class="OCCURRENCE" eid="e19" pos="VERB" tense="NONE" vform="INFINITIVE">prendre</EVENT> part à l'<EVENT class="OCCURRENCE" eid="e20" pos="NOUN" tense="NONE">International JEC Show</EVENT>, <EVENT class="OCCURRENCE" eid="e21" pos="ADJECTIVE" tense="NONE" vform="PASTPART">organisé</EVENT> à Paris en <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t4" type="DATE" value="2007-04">avril 2007</TIMEX3>, où elle a <EVENT class="OCCURRENCE" eid="e22" pos="VERB" tense="PAST" vform="PASTPART">exposé</EVENT> le sous-marin à la curiosité de plus de 25 000 visiteurs. 
+Dès leur <EVENT class="OCCURRENCE" eid="e23" pos="NOUN">retour</EVENT>, les 12 étudiants ont <EVENT class="OCCURRENCE" eid="e24" pos="VERB" tense="PAST" vform="PASTPART">repris</EVENT> le travail, s'<EVENT class="OCCURRENCE" eid="e26" pos="VERB" tense="NONE" vform="PRESPART">engageant</EVENT> dans l'<EVENT class="OCCURRENCE" eid="e27" pos="NOUN">amélioration</EVENT> de leur sous-marin afin qu'il <EVENT class="OCCURRENCE" eid="e28" tense="PRESENT">pulvérise</EVENT> le record du monde de vitesse pour ce type d'engin, qui est de 7,192 noeuds.
+</TEXT>
+
+<TLINK lid="l1" origin="USER" relType="BEFORE" relatedToTime="t1" timeID="t4" />
+<TLINK lid="l2" origin="USER" relType="BEFORE" relatedToTime="t4" timeID="t2" />
+<TLINK eventInstanceID="e1" lid="l3" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK eventInstanceID="e2" lid="l4" origin="USER" relType="AFTER" relatedToEventInstance="e1" />
+<TLINK eventInstanceID="e3" lid="l5" origin="USER" relType="OVERLAPS" relatedToEventInstance="e2" />
+<TLINK eventInstanceID="e6" lid="l7" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e6" lid="l8" origin="USER" relType="OVERLAPS" relatedToEventInstance="e7" />
+<TLINK eventInstanceID="e7" lid="l9" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e8" lid="l11" origin="USER" relType="OVERLAPS" relatedToEventInstance="e7" />
+<TLINK eventInstanceID="e9" lid="l12" origin="USER" relType="OVERLAPS" relatedToEventInstance="e10" />
+<TLINK eventInstanceID="e11" lid="l13" origin="USER" relType="OVERLAPS" relatedToEventInstance="e10" />
+<TLINK eventInstanceID="e16" lid="l14" origin="USER" relType="OVERLAPS" relatedToEventInstance="e15" />
+<TLINK eventInstanceID="e14" lid="l15" origin="USER" relType="OVERLAPS" relatedToEventInstance="e15" />
+<TLINK eventInstanceID="e12" lid="l16" origin="USER" relType="BEFORE" relatedToEventInstance="e14" />
+<TLINK eventInstanceID="e12" lid="l17" origin="USER" relType="OVERLAPS" relatedToEventInstance="e15" />
+<TLINK eventInstanceID="e14" lid="l18" origin="USER" relType="OVERLAPS" relatedToEventInstance="e17" />
+<TLINK eventInstanceID="e17" lid="l19" origin="USER" relType="BEFORE" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e19" lid="l21" origin="USER" relType="AFTER" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e19" lid="l22" origin="USER" relType="OVERLAPS" relatedToEventInstance="e20" />
+<TLINK eventInstanceID="e19" lid="l23" origin="USER" relType="OVERLAPS" relatedToEventInstance="e21" />
+<TLINK eventInstanceID="e21" lid="l24" origin="USER" relType="OVERLAPS" relatedToEventInstance="e20" />
+<TLINK eventInstanceID="e22" lid="l25" origin="USER" relType="OVERLAPS" relatedToEventInstance="e20" />
+<TLINK eventInstanceID="e23" lid="l26" origin="USER" relType="AFTER" relatedToEventInstance="e20" />
+<TLINK eventInstanceID="e24" lid="l27" origin="USER" relType="OVERLAPS" relatedToEventInstance="e23" />
+<TLINK eventInstanceID="e26" lid="l28" origin="USER" relType="OVERLAPS" relatedToEventInstance="e24" />
+<TLINK eventInstanceID="e27" lid="l29" origin="USER" relType="OVERLAPS" relatedToEventInstance="e26" />
+<TLINK eventInstanceID="e2" lid="l32" origin="USER" relType="OVERLAPS" relatedToTime="t1" />
+<TLINK eventInstanceID="e21" lid="l33" origin="USER" relType="OVERLAPS" relatedToTime="t4" />
+<TLINK eventInstanceID="e23" lid="l34" origin="USER" relType="BEFORE" relatedToTime="t1" />
+<SLINK eventInstanceID="ei5" lid="l6" origin="USER" relType="MODAL" subordinatedEventInstance="ei3" />
+<SLINK eventInstanceID="ei9" lid="l10" origin="USER" relType="MODAL" subordinatedEventInstance="ei8" />
+<SLINK eventInstanceID="ei27" lid="l30" origin="USER" relType="MODAL" subordinatedEventInstance="ei28" />
+
+</TimeML>

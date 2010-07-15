@@ -1,0 +1,130 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0325</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Coast Savings Financial Inc. <etag>[reported]</etag><sup>e1</sup> a <ttag>[third-quarter]</ttag><sup>t31</sup> <etag>[loss]</etag><sup>e2</sup> , <etag>[citing]</etag><sup>e3</sup> a previously announced capital restructuring program .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t31 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t31</p>
+<p class=relation>Task C: e2 OVERLAP t31</p>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Los Angeles thrift holding company <etag>[said]</etag><sup>e4</sup> it <etag>[had]</etag><sup>e5</sup> a loss of $92.2 million , or $6.98 a share , for <ttag>[the quarter]<sup>t48</sup></ttag> ended <ttag>[Sept. 30]<sup>t32</sup></ttag> .</p></table>
+<p class=attributes>t32 { value:1989-09-30 type:DATE }</p>
+<p class=attributes>t48 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e4 AFTER t32</p>
+<p class=relation>Task C: e5 OVERLAP t32</p>
+<p class=relation>Task E: e4 AFTER e8</p>
+<p class=relation>Task F: e4 AFTER e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Coast <etag>[earned]</etag><sup>e8</sup> $10.2 million , or 67 cents a share , in <ttag>[the year-ago quarter]<sup>t49</sup></ttag> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t49 { value:1988-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t49</p>
+<p class=relation>Task E: e8 BEFORE e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The <ttag>[year-ago]</ttag><sup>t51</sup> <etag>[results]</etag><sup>e9</sup> have been <etag>[restated]</etag><sup>e10</sup> to <etag>[comply]</etag><sup>e11</sup> with government regulations .</p></table>
+<p class=attributes>t51 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e9 OVERLAP t51</p>
+<p class=relation>Task E: e10 OVERLAP e12</p>
+<p class=relation>Task F: e10 OVERLAP e11</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The restructuring program is <etag>[designed]</etag><sup>e12</sup> to <etag>[increase]</etag><sup>e13</sup> the company 's tangible capital ratio .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e12 BEFORE e15</p>
+<p class=relation>Task F: e12 BEFORE-OR-OVERLAP e13</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>It includes <etag>[removing]</etag><sup>e15</sup> $242 million in good will from the books , <etag>[issuing]</etag><sup>e16</sup> $150 million in preferred stock and <etag>[commencing]</etag><sup>e17</sup> an exchange <etag>[offer]</etag><sup>e18</sup> for $52 million in convertible bonds .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e15 AFTER e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>During <ttag>[the third quarter]<sup>t52</sup></ttag> , the company <etag>[charged]</etag><sup>e19</sup> about $46 million against earnings in reducing goodwill , <etag>[added]</etag><sup>e20</sup> $20 million to its general loan loss reserves and <etag>[established]</etag><sup>e21</sup> a $30 million reserve for its high-yield bond portfolio .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t52 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e20 OVERLAP t52</p>
+<p class=relation>Task C: e19 OVERLAP t52</p>
+<p class=relation>Task E: e19 BEFORE e22</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>The company <etag>[said]</etag><sup>e22</sup> its junk-bond portfolio after these <etag>[moves]</etag><sup>e23</sup> had been <etag>[reduced]</etag><sup>e24</sup> to less than 1% of assets .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task F: e22 AFTER e24</p>
+</div>
+</body>
+</html>

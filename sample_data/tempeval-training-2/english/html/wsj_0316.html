@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0316</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>First Security Corp. <etag>[said]</etag><sup>e1</sup> it tentatively <etag>[agreed]</etag><sup>e2</sup> to <etag>[acquire]</etag><sup>e3</sup> Deseret Bancorp .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>for stock valued at about $18 million .</p></table>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Terms <etag>[call]</etag><sup>e4</sup> for First Security to <etag>[issue]</etag><sup>e5</sup> about 0.55 share of its stock for each Deseret share <etag>[held]</etag><sup>e6</sup> , or a total of about 550,000 First Security shares .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e4 OVERLAP e7</p>
+<p class=relation>Task F: e4 BEFORE e5</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>It <etag>[has]</etag><sup>e7</sup> about 12.3 million shares outstanding .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e7 OVERLAP e9</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Deseret , with about $100 million in assets , is the parent of the Deseret Bank , which <etag>[has]</etag><sup>e9</sup> six offices and headquarters at Pleasant Grove , Utah .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The purchase price is equal to about 1.65 times Deseret 's roughly $10.7 million book value , or assets less liabilities .</p></table>
+<p/>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Salt Lake City-based First Security , with $5.4 billion in assets , <etag>[said]</etag><sup>e11</sup> the agreement is <etag>[subject]</etag><sup>e13</sup> to shareholder and regulatory <etag>[approval]</etag><sup>e14</sup> , and that it <etag>[hopes]</etag><sup>e15</sup> to <etag>[complete]</etag><sup>e16</sup> the <etag>[transaction]</etag><sup>e17</sup> <ttag>[early next year]<sup>t16</sup></ttag> .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t16 { value:1990 type:DATE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 BEFORE t16</p>
+<p class=relation>Task F: e15 BEFORE e16</p>
+<p class=relation>Task F: e11 OVERLAP e15</p>
+<p class=relation>Task F: e13 OVERLAP e14</p>
+</div>
+</body>
+</html>

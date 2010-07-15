@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML>
+
+
+
+<TEXT>
+<TIMEX3 functionInDocument="PUBLICATION_TIME" tid="t1" type="DATE" value="2007-06-01">Vendredi 01 juin 2007</TIMEX3>
+Le contrat de Lombardi <EVENT aspect="NONE" class="OCCURRENCE" eid="e20" pos="VERB" tense="NONE" vform="PASTPART">officialisé</EVENT>.
+Comme RDS l'avait <EVENT aspect="PERFECTIVE" class="REPORTING" eid="e1" pos="VERB" tense="PAST" vform="PASTPART">annoncé</EVENT> en primeur en <TIMEX3 functionInDocument="NONE" tid="t2" type="DATE" value="2007-04">avril</TIMEX3>, les Flames de Calgary ont <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="VERB" tense="PAST" vform="PASTPART">signé</EVENT> une <EVENT aspect="NONE" class="OCCURRENCE" eid="e22" pos="NOUN" tense="NONE" vform="NONE">prolongation</EVENT> de contrat de <TIMEX3 functionInDocument="NONE" tid="t3" type="DURATION" value="P3Y">trois ans</TIMEX3> avec Matthew Lombardie, <TIMEX3 functionInDocument="NONE" tid="t4" type="DATE" value="2007-06-01">vendredi</TIMEX3>.
+Les Flames ont également <EVENT aspect="NONE" class="OCCURRENCE" eid="e4" pos="VERB" tense="PAST" vform="PASTPART">conclu</EVENT> un pacte de <TIMEX3 functionInDocument="NONE" tid="t5" type="DURATION" value="P2Y">deux ans</TIMEX3> avec l'attaquant Marcus Nilson.
+Lombardie, qui vient de <EVENT aspect="PERFECTIVE" class="OCCURRENCE" eid="e7" pos="VERB" tense="NONE" vform="INFINITIVE">disputer</EVENT> sa troisième <EVENT aspect="NONE" class="OCCURRENCE" eid="e21" pos="NOUN" tense="NONE" vform="NONE">campagne</EVENT> dans la LNH, a <EVENT aspect="NONE" class="OCCURRENCE" eid="e9" pos="VERB" tense="PAST" vform="PASTPART">établi</EVENT> des sommets personnels avec une <EVENT aspect="NONE" class="OCCURRENCE" eid="e10" pos="NOUN" tense="NONE" vform="NONE">récolte</EVENT> de 20 <EVENT aspect="NONE" class="OCCURRENCE" eid="e11" pos="NOUN" tense="NONE" vform="NONE">buts</EVENT>, 26 <EVENT aspect="NONE" class="OCCURRENCE" eid="e12" pos="NOUN" tense="NONE" vform="NONE">mentions</EVENT> d'assistance, 46 points et <TIMEX3 functionInDocument="NONE" tid="t6" type="DURATION" value="PT48M">48 minutes</TIMEX3> de pénalité en 81 <EVENT aspect="NONE" class="OCCURRENCE" eid="e14" pos="NOUN" tense="NONE" vform="NONE">matchs</EVENT>.
+En 215 <EVENT aspect="NONE" class="OCCURRENCE" eid="e15" pos="NOUN" tense="NONE" vform="NONE">parties</EVENT> dans la LNH, le Montréalais a <EVENT aspect="NONE" class="OCCURRENCE" eid="e16" pos="VERB" tense="PAST" vform="PASTPART">inscrit</EVENT> 42 <EVENT aspect="NONE" class="OCCURRENCE" eid="e23" pos="NOUN" tense="NONE" vform="NONE">buts</EVENT> et <EVENT aspect="NONE" class="OCCURRENCE" eid="e18" pos="VERB" tense="PAST" vform="PASTPART">amassé</EVENT> 59 <EVENT aspect="NONE" class="OCCURRENCE" eid="e24" pos="NOUN" tense="NONE" vform="NONE">aides</EVENT>. 
+</TEXT>
+
+<TLINK lid="l1" origin="USER" relType="OVERLAPS" relatedToTime="t1" timeID="t4" />
+<TLINK lid="l2" origin="USER" relType="BEFORE" relatedToTime="t4" timeID="t2" />
+<TLINK eventInstanceID="e1" lid="l3" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK eventInstanceID="e20" lid="l4" origin="USER" relType="OVERLAPS" relatedToTime="t4" />
+<TLINK eventInstanceID="e2" lid="l5" origin="USER" relType="OVERLAPS" relatedToTime="t4" />
+<TLINK lid="l6" origin="USER" relType="OVERLAPS" relatedToEventInstance="e4" timeID="t4" />
+<TLINK eventInstanceID="e22" lid="l7" origin="USER" relType="AFTER" relatedToEventInstance="e2" />
+<TLINK eventInstanceID="e20" lid="l8" origin="USER" relType="OVERLAPS" relatedToEventInstance="e2" />
+<TLINK eventInstanceID="e7" lid="l9" origin="USER" relType="BEFORE" relatedToTime="t4" />
+<TLINK eventInstanceID="e21" lid="l10" origin="USER" relType="OVERLAPS" relatedToEventInstance="e7" />
+<TLINK eventInstanceID="e9" lid="l11" origin="USER" relType="AFTER" relatedToEventInstance="e7" />
+<TLINK eventInstanceID="e10" lid="l12" origin="USER" relType="OVERLAPS" relatedToEventInstance="e7" />
+<TLINK eventInstanceID="e14" lid="l15" origin="USER" relType="OVERLAPS" relatedToEventInstance="e10" />
+<TLINK eventInstanceID="e16" lid="l17" origin="USER" relType="OVERLAPS" relatedToEventInstance="e15" />
+<TLINK eventInstanceID="e18" lid="l18" origin="USER" relType="OVERLAPS" relatedToEventInstance="e15" />
+<TLINK eventInstanceID="e23" lid="l19" origin="USER" relType="OVERLAPS" relatedToEventInstance="e16" />
+<TLINK eventInstanceID="e24" lid="l20" origin="USER" relType="OVERLAPS" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e15" lid="l22" origin="USER" relType="BEFORE" relatedToTime="t4" />
+<TLINK eventInstanceID="e12" lid="l23" origin="USER" relType="OVERLAPS" relatedToEventInstance="e14" />
+<TLINK eventInstanceID="e11" lid="l24" origin="USER" relType="OVERLAPS" relatedToEventInstance="e14" />
+
+</TimeML>

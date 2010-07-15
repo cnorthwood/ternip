@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><META ANNOTATION_DATE="25 janvier 2002" ANNOTATOR="Jennifer Baldwin" DATE_TIME="vendredi 11 janvier 2002, 13h31" DOCTYPE="NEWS STORY" DOC_ID="ARTICLE15" ORIGINAL_FILE="http://fr.news.yahoo.com/020111/85/2f12h.html" /><BODY><HEADLINE>
+Un tableau de Monet exposé pour la première fois depuis 1889</HEADLINE> 
+
+<TEXT><TIMEX3 functionInDocument="PUBLICATION_TIME" tid="t9" type="DATE" value="2002-1-11" />
+Un tableau de Monet <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="VERB" tense="NONE" vform="PASTPART">exposé</EVENT> pour la première fois depuis <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t10" type="DATE" value="1889">1889</TIMEX3>
+LONDRES (Reuters) - Un tableau de Claude Monet qui n'a pas été <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" polarity="NEG" pos="VERB" tense="PAST" vform="PASTPART">exposé</EVENT> publiquement <SIGNAL sid="s3">depuis</SIGNAL> <TIMEX3 tid="t1" type="DATE" value="1889">1889</TIMEX3> <EVENT aspect="NONE" class="MODAL" eid="e4" mood="CONDITIONAL" pos="NONE" tense="NONE" vform="NONE">devrait</EVENT> être <EVENT aspect="PERFECTIVE" class="OCCURRENCE" eid="e5" modality="PROBABILITY" pos="VERB" tense="NONE" vform="PASTPART">présenté</EVENT> <TIMEX3 temporalFunction="TRUE" tid="t2" type="DATE" value="2002-01-11">ce vendredi</TIMEX3> par la maison d'enchères Christie's, <SIGNAL sid="s4">avant</SIGNAL> d'être <EVENT aspect="PERFECTIVE" class="OCCURRENCE" eid="e6" pos="VERB" tense="NONE" vform="PASTPART">vendu</EVENT> <SIGNAL sid="s5">en</SIGNAL> <TIMEX3 temporalFunction="TRUE" tid="t3" type="DATE" value="2002-02">février</TIMEX3>. La "Prairie de Limetz" <EVENT aspect="NONE" class="MODAL" eid="e7" pos="NONE" tense="PRESENT" vform="NONE">doit</EVENT> <EVENT aspect="NONE" class="OCCURRENCE" eid="e8" modality="PROBABILITY" pos="VERB" tense="NONE" vform="INFINITIVE">faire</EVENT> partie d'une série de <EVENT aspect="NONE" class="OCCURRENCE" eid="e13" pos="NOUN" tense="NONE" vform="NONE">ventes</EVENT> comprenant des oeuvres de Renoir, Manet et Cézanne, et <EVENT aspect="NONE" class="MODAL" eid="e9" mood="CONDITIONAL" pos="NONE" tense="NONE" vform="NONE">devrait</EVENT> <EVENT aspect="NONE" class="OCCURRENCE" eid="e10" modality="PROBABILITY" pos="VERB" tense="NONE" vform="INFINITIVE">atteindre</EVENT> trois millions de livres (environ 4,8 millions d'euros). Le tableau de Monet, <EVENT aspect="NONE" class="OCCURRENCE" eid="e11" pos="VERB" tense="NONE" vform="PASTPART">peint</EVENT> <SIGNAL sid="s6">en</SIGNAL> <TIMEX3 tid="t4" type="DATE" value="1888">1888</TIMEX3>, représente des peupliers, chers au peintre, sur les bords de l'Epte, près de sa maison de la vallée de la Seine. "C'est une des plus importantes <EVENT aspect="NONE" class="OCCURRENCE" eid="e15" pos="NOUN" tense="NONE" vform="NONE">ventes</EVENT> de tableaux impressionnistes <SIGNAL sid="s1">depuis</SIGNAL> <TIMEX3 tid="t5" type="DURATION" value="PXY">de nombreuses, nombreuses années</TIMEX3> ", a <EVENT aspect="NONE" class="REPORTING" eid="e17" pos="VERB" tense="PAST" vform="PASTPART">déclaré</EVENT> une porte-parole de Christie's.</TEXT></BODY>
+
+<TLINK lid="l1" origin="USER" relType="BEFORE" relatedToTime="t1" timeID="t4" />
+<TLINK lid="l2" origin="USER" relType="OVERLAPS" relatedToTime="t10" timeID="t1" />
+<TLINK lid="l3" origin="USER" relType="BEFORE" relatedToTime="t9" timeID="t10" />
+<TLINK lid="l4" origin="USER" relType="BEFORE" relatedToTime="t2" timeID="t10" />
+<TLINK lid="l5" origin="USER" relType="OVERLAPS" relatedToTime="t2" timeID="t9" />
+<TLINK lid="l6" origin="USER" relType="BEFORE" relatedToTime="t3" timeID="t2" />
+<TLINK eventInstanceID="e1" lid="l7" origin="USER" relType="OVERLAPS" relatedToEventInstance="e2" />
+<TLINK eventInstanceID="e1" lid="l8" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK eventInstanceID="e6" lid="l9" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e4" lid="l11" origin="USER" relType="OVERLAPS" relatedToTime="t2" />
+<TLINK eventInstanceID="e13" lid="l12" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e11" lid="l13" origin="USER" relType="OVERLAPS" relatedToTime="t4" />
+<TLINK eventInstanceID="e17" lid="l14" origin="USER" relType="BEFORE" relatedToTime="t9" />
+<TLINK eventInstanceID="e7" lid="l16" origin="USER" relType="OVERLAPS" relatedToTime="t9" />
+<TLINK eventInstanceID="e9" lid="l17" origin="USER" relType="OVERLAPS" relatedToTime="t9" />
+<TLINK eventInstanceID="e15" lid="l18" origin="USER" relType="OVERLAPS" relatedToEventInstance="e13" />
+<TLINK eventInstanceID="ei14" lid="l19" origin="USER" relType="OVERLAPS" relatedToEventInstance="e15" />
+<SLINK eventInstanceID="ei4" lid="l10" origin="USER" relType="MODAL" subordinatedEventInstance="ei5" />
+
+</TimeML>

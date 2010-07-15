@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0534</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Conseco Inc. <etag>[said]</etag><sup>e1</sup> it is <etag>[calling]</etag><sup>e2</sup> for the <etag>[redemption]</etag><sup>e3</sup> on <ttag>[Dec. 7]<sup>t15</sup></ttag> of all the 800,000 remaining shares outstanding of its $1.875 Series A convertible preferred stock at $26.805 a share .</p></table>
+<p class=attributes>t15 { value:1989-12-07 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e1 BEFORE t15</p>
+<p class=relation>Task C: e2 BEFORE t15</p>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The insurance concern <etag>[said]</etag><sup>e4</sup> all conversion rights on the stock will <etag>[terminate]</etag><sup>e5</sup> on <ttag>[Nov. 30]<sup>t18</sup></ttag> .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t18 { value:1989-11-30 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e4 BEFORE t18</p>
+<p class=relation>Task E: e4 OVERLAP e6</p>
+<p class=relation>Task F: e4 BEFORE e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Until <ttag>[then]</ttag><sup>t22</sup> , Conseco <etag>[said]</etag><sup>e6</sup> the stock <etag>[remains]</etag><sup>e7</sup> convertible into common stock at the rate of 1.439 shares of common stock for each share of preferred stock , which is equivalent to a conversion price of $17.50 a common share .</p></table>
+<p class=attributes>t22 { value:1989-11-30 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e6 BEFORE t22</p>
+<p class=relation>Task C: e7 OVERLAP t22</p>
+<p class=relation>Task E: e6 BEFORE e12</p>
+<p class=relation>Task F: e6 OVERLAP e7</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In New York Stock Exchange trading <ttag>[Friday]</ttag><sup>t19</sup> , Conseco <etag>[closed]</etag><sup>e12</sup> at $19.50 , down 25 cents .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t19 { value:1989-10-27 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t19</p>
+</div>
+</body>
+</html>

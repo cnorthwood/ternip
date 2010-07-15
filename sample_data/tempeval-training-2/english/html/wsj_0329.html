@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0329</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Coda Energy Inc. <etag>[said]</etag><sup>e1</sup> it <etag>[arranged]</etag><sup>e2</sup> a $50 million credit facility with NCNB Texas National Bank , a unit of NCNB Corp. , of Charlotte , N.C. The Dallas oil and gas concern <etag>[said]</etag><sup>e3</sup> that $10 million of the facility would be <etag>[used]</etag><sup>e4</sup> to <etag>[consolidate]</etag><sup>e5</sup> the company 's $8.1 million of existing bank debt , to <etag>[repurchase]</etag><sup>e6</sup> 4 million of its 4.9 million shares outstanding of Series D convertible preferred stock , and to <etag>[purchase]</etag><sup>e7</sup> a 10% net-profits interest in certain oil and gas properties from one of its existing lenders , National Canada Corp. The remaining $40 million can be <etag>[used]</etag><sup>e8</sup> over <ttag>[three years]<sup>t21</sup></ttag> for oil and gas acquisitions , the company <etag>[said]</etag><sup>e10</sup> .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t21 { type:DURATION value:P3Y }</p>
+<p class=attributes>e8 { polarity:POS modality:can pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e3 BEFORE t21</p>
+<p class=relation>Task C: e4 OVERLAP t21</p>
+<p class=relation>Task C: e1 BEFORE t21</p>
+<p class=relation>Task C: e7 OVERLAP t21</p>
+<p class=relation>Task C: e10 BEFORE t21</p>
+<p class=relation>Task C: e8 OVERLAP t21</p>
+<p class=relation>Task E: e1 OVERLAP e11</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+<p class=relation>Task F: e4 OVERLAP e7</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e10 BEFORE e8</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Ted Eubank , Coda 's president , <etag>[said]</etag><sup>e11</sup> the loan carries an interest rate of prime plus one percentage point , with 85% of the company 's net oil and gas revenue <ttag>[each month]<sup>t22</sup></ttag> <etag>[dedicated]</etag><sup>e13</sup> to repayment .</p></table>
+<p class=attributes>t22 { value:P1M type:SET }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 VAGUE t22</p>
+<p class=relation>Task E: e11 OVERLAP e16</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The company <etag>[put]</etag><sup>e15</sup> up " virtually all " of its oil and gas properties as collateral , he <etag>[said]</etag><sup>e16</sup> .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e16 AFTER e15</p>
+</div>
+</body>
+</html>

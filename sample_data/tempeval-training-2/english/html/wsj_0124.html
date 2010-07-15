@@ -1,0 +1,130 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0124</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>William C. Walbrecher Jr. , an executive at San Francisco-based 1st Nationwide Bank , was <etag>[named]</etag><sup>e1</sup> president and chief executive officer of Citadel Holding Corp. and its principal operating unit , Fidelity Federal Bank .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e5</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The <etag>[appointment]</etag><sup>e4</sup> <etag>[takes]</etag><sup>e5</sup> <etag>[effect]</etag><sup>e6</sup> <ttag>[Nov. 13]<sup>t23</sup></ttag> .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t23 { value:1989-11-13 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e5 OVERLAP t23</p>
+<p class=relation>Task E: e5 OVERLAP e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>He <etag>[succeeds]</etag><sup>e7</sup> James A. Taylor , who <etag>[stepped]</etag><sup>e8</sup> down as <etag>[chairman]</etag><sup>e9</sup> , president and chief executive in <ttag>[March]</ttag><sup>t27</sup> for health reasons .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t27 { value:1989-03 type:TIME }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Edward L. Kane succeeded Mr. Taylor as chairman .</p></table>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Separately , Citadel <etag>[posted]</etag><sup>e14</sup> a <ttag>[third-quarter]</ttag><sup>t29</sup> net <etag>[loss]</etag><sup>e15</sup> of $2.3 million , or 68 cents a share , versus net <etag>[income]</etag><sup>e16</sup> of $5.3 million , or $1.61 a share , <ttag>[a year earlier]<sup>t31</sup></ttag> .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t31 { value:1988-Q3 type:TIME }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t29 { value:1989-Q3 type:TIME }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e14 AFTER t31</p>
+<p class=relation>Task C: e15 AFTER t31</p>
+<p class=relation>Task E: e14 BEFORE e18</p>
+<p class=relation>Task F: e14 AFTER e15</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The latest <etag>[results]</etag><sup>e17</sup> <etag>[include]</etag><sup>e18</sup> some unusual <etag>[write-downs]</etag><sup>e19</sup> , which had an after-tax impact of $4.9 million .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e18 OVERLAP e21</p>
+<p class=relation>Task F: e17 OVERLAP e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Those <etag>[included]</etag><sup>e21</sup> costs associated with the potential Valley Federal Savings and Loan Association <etag>[acquisition]</etag><sup>e23</sup> , which was <etag>[terminated]</etag><sup>e24</sup> on <ttag>[Sept. 27 , 1989]<sup>t36</sup></ttag> .</p></table>
+<p class=attributes>e23 { polarity:POS modality:potential pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t36 { type:DATE value:1989-11-27 }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task C: e23 BEFORE t36</p>
+<p class=relation>Task E: e21 OVERLAP-OR-AFTER e26</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>In addition , operating <etag>[results]</etag><sup>e25</sup> were <etag>[hit]</etag><sup>e26</sup> by an <etag>[increase]</etag><sup>e27</sup> in loan and real estate loss reserves .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e26 BEFORE e29</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>In American Stock Exchange composite trading , Citadel shares <etag>[closed]</etag><sup>e29</sup> <ttag>[yesterday]</ttag><sup>t37</sup> at $45.75 , down 25 cents .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t37 { value:1989-11-01 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e29 OVERLAP t37</p>
+</div>
+</body>
+</html>

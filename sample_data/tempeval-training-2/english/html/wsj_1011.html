@@ -1,0 +1,221 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1011</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Delta Air Lines earnings <etag>[soared]</etag><sup>e1</sup> 33% to a record in <ttag>[the fiscal first quarter]<sup>t58</sup></ttag> , <etag>[bucking]</etag><sup>e2</sup> the industry trend toward declining profits .</p></table>
+<p class=attributes>t58 { value:1989-Q1 type:DATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Atlanta-based airline , the third largest in the U.S. , <etag>[attributed]</etag><sup>e3</sup> the <etag>[increase]</etag><sup>e4</sup> to higher passenger traffic , new international routes and reduced service by rival Eastern Airlines , which is in bankruptcy <etag>[proceedings]</etag><sup>e5</sup> in the wake of a <etag>[strike]</etag><sup>e6</sup> that <etag>[began]</etag><sup>e7</sup> <ttag>[last spring]<sup>t60</sup></ttag> .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t60 { value:1988-SP type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e4 AFTER t60</p>
+<p class=relation>Task C: e7 OVERLAP t60</p>
+<p class=relation>Task E: e3 AFTER e8</p>
+<p class=relation>Task F: e3 OVERLAP-OR-AFTER e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>For <ttag>[the quarter]<sup>t65</sup></ttag> ended <ttag>[Sept. 30]<sup>t63</sup></ttag> , Delta <etag>[posted]</etag><sup>e8</sup> net income of $133.1 million , or $2.53 a share , up from $100 million , or $2.03 a share , <ttag>[a year earlier]<sup>t64</sup></ttag> .</p></table>
+<p class=attributes>t64 { value:1988-09-30 type:DATE }</p>
+<p class=attributes>t65 { value:1989-QX type:DATE }</p>
+<p class=attributes>t63 { value:1989-09-30 type:DATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e8 AFTER t64</p>
+<p class=relation>Task E: e8 OVERLAP e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e9</sup> 15% to $2.17 billion from $1.89 billion .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e9 OVERLAP e10</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>During <ttag>[the quarter]<sup>t70</sup></ttag> , Delta <etag>[issued]</etag><sup>e10</sup> 2.5 million shares of common stock to Swissair , and <etag>[repurchased]</etag><sup>e11</sup> 1.1 million shares for <etag>[use]</etag><sup>e12</sup> in a company employee stock ownership plan .</p></table>
+<p class=attributes>t70 { value:1989-QX type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e12 AFTER t70</p>
+<p class=relation>Task E: e10 BEFORE e15</p>
+<p class=relation>Task F: e11 BEFORE-OR-OVERLAP e12</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>" The key to Delta 's record earnings <etag>[continued]</etag><sup>e13</sup> to be excellent passenger revenue <etag>[growth]</etag><sup>e14</sup> , " <etag>[said]</etag><sup>e15</sup> Thomas Roeck , chief financial officer .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:OTHER tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e15 AFTER e16</p>
+<p class=relation>Task F: e15 OVERLAP e13</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Passenger traffic <etag>[jumped]</etag><sup>e16</sup> 14% in the quarter , while profit per passenger <etag>[grew]</etag><sup>e17</sup> 2% .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e16 OVERLAP e18</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Delta has <etag>[benefited]</etag><sup>e18</sup> more than other carriers from the weakness of Eastern Airlines , which <etag>[shares]</etag><sup>e19</sup> the Atlanta hub .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e18 OVERLAP e20</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Although Eastern is back to about 80% of its pre-strike schedule <ttag>[now]</ttag><sup>t73</sup> , the Texas Air Corp. subsidiary was only <etag>[beginning]</etag><sup>e20</sup> to <etag>[get]</etag><sup>e21</sup> back on its feet during <ttag>[the quarter]<sup>t74</sup></ttag> .</p></table>
+<p class=attributes>t73 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>t74 { value:1989-QX type:DATE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e20 OVERLAP t74</p>
+<p class=relation>Task E: e20 BEFORE e22</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Separately , America West Airlines , Phoenix , Ariz. , <etag>[reported]</etag><sup>e22</sup> <ttag>[third-quarter]</ttag><sup>t79</sup> profit <etag>[jumped]</etag><sup>e23</sup> 45% to $5.8 million , or 28 cents a share , from $4 million , or 24 cents a share , <ttag>[a year earlier]<sup>t88</sup></ttag> .</p></table>
+<p class=attributes>t79 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t88 { value:1988-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e22 AFTER t88</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>The latest results include a $2.6 million one-time <etag>[payment]</etag><sup>e25</sup> from a " foreign entity . "</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>America West would n 't <etag>[identify]</etag><sup>e26</sup> the entity , but <etag>[said]</etag><sup>e27</sup> the <etag>[payment]</etag><sup>e28</sup> was for the foreign company 's <etag>[use]</etag><sup>e29</sup> of certain tax benefits in connection with America West plane purchases .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e26 { polarity:NEG modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e26 AFTER e31</p>
+<p class=relation>Task F: e27 OVERLAP e28</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line><ttag>[Year-earlier]</ttag><sup>t80</sup> <etag>[results]</etag><sup>e31</sup> included an extraordinary <etag>[gain]</etag><sup>e33</sup> of $1.6 million from a buy-back of convertible subordinated debentures .</p></table>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t80 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e31 OVERLAP t80</p>
+<p class=relation>Task C: e33 OVERLAP t80</p>
+<p class=relation>Task E: e31 OVERLAP-OR-AFTER e34</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e34</sup> 21% to $243.4 million from $201.2 million .</p></table>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e34 BEFORE e35</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>For <ttag>[the nine months]<sup>t87</sup></ttag> , America West <etag>[posted]</etag><sup>e35</sup> earnings of $18.9 million , or 97 cents a share , compared with a <etag>[loss]</etag><sup>e37</sup> of $9.7 million , or 74 cents a share , <ttag>[a year earlier]<sup>t89</sup></ttag> .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t89 { value:1988 type:DATE }</p>
+<p class=attributes>t87 { type:DURATION value:P9M }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e37 OVERLAP t89</p>
+<p class=relation>Task C: e35 AFTER t89</p>
+<p class=relation>Task E: e35 AFTER e38</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e38</sup> 27% to $715.1 million from $563.8 million .</p></table>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

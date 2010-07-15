@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML>
+
+<TEXT>
+<TIMEX3 functionInDocument="PUBLICATION_TIME" tid="t1" type="DATE" value="2007-09-20">20 septembre 2007</TIMEX3>
+AVENIR PERSONNALITÉ 1er CYCLE
+Alexandre Châteauneuf <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="VERB" tense="PRESENT" vform="NONE">découvre</EVENT> la magie de l'engagement lors de son <EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="NOUN" tense="NONE" vform="NONE">passage</EVENT> au Collège Édouard-Montpetit, alors qu'il <EVENT aspect="NONE" class="OCCURRENCE" eid="e4" pos="VERB" tense="PRESENT" vform="NONE">prend</EVENT> part à l'<EVENT aspect="NONE" class="OCCURRENCE" eid="e5" pos="NOUN" tense="NONE" vform="NONE">organisation</EVENT> d'une <EVENT aspect="NONE" class="OCCURRENCE" eid="e6" pos="NOUN" tense="NONE" vform="NONE">mission</EVENT> d'aide humanitaire au Sénégal.  
+<TIMEX3 functionInDocument="NONE" tid="t2" type="DURATION" value="PXW">Les semaines</TIMEX3> qu'il <EVENT aspect="NONE" class="OCCURRENCE" eid="e7" pos="VERB" tense="PRESENT" vform="NONE">passe</EVENT> à <EVENT aspect="NONE" class="OCCURRENCE" eid="e8" pos="VERB" tense="NONE" vform="INFINITIVE">donner</EVENT> des <EVENT aspect="NONE" class="OCCURRENCE" eid="e9" pos="NOUN" tense="NONE" vform="NONE">cours</EVENT> de mathématiques et à <EVENT aspect="NONE" class="OCCURRENCE" eid="e10" pos="VERB" tense="NONE" vform="INFINITIVE">rénover</EVENT> une école <EVENT aspect="NONE" class="OCCURRENCE" eid="e11" pos="VERB" tense="PRESENT" vform="NONE">font</EVENT> <EVENT aspect="NONE" class="OCCURRENCE" eid="e12" pos="VERB" tense="NONE" vform="INFINITIVE">naître</EVENT> en lui le <EVENT aspect="NONE" class="I_STATE" eid="e33" pos="NOUN" tense="NONE" vform="NONE">désir</EVENT> de s'<EVENT aspect="NONE" class="OCCURRENCE" eid="e13" pos="VERB" tense="NONE" vform="INFINITIVE">impliquer</EVENT> activement dans sa propre collectivité.  
+<EVENT aspect="NONE" class="OCCURRENCE" eid="e14" pos="VERB" tense="NONE" vform="PRESPART">Devenant</EVENT> par la suite étudiant au baccalauréat-maîtrise intégré en génie physique à l'École Polytechnique, le jeune homme <EVENT aspect="NONE" class="OCCURRENCE" eid="e15" pos="VERB" tense="FUTURE" vform="NONE">rejoindra</EVENT> l'association étudiante, où il <EVENT aspect="NONE" class="OCCURRENCE" eid="e16" pos="VERB" tense="FUTURE" vform="NONE">travaillera</EVENT> surtout à <EVENT aspect="NONE" class="OCCURRENCE" eid="e17" pos="VERB" tense="NONE" vform="INFINITIVE">restreindre</EVENT> le fardeau fiscal des étudiants par la <EVENT aspect="NONE" class="OCCURRENCE" eid="e18" pos="NOUN" tense="NONE" vform="NONE">diminution</EVENT> des frais administratifs <EVENT aspect="NONE" class="OCCURRENCE" eid="e19" pos="ADJECTIVE" tense="NONE" vform="PASTPART">imposés</EVENT> par l'établissement.  
+Ensuite, Alexandre <EVENT aspect="NONE" class="OCCURRENCE" eid="e20" pos="VERB" tense="PRESENT" vform="NONE">choisit</EVENT> de <EVENT aspect="NONE" class="OCCURRENCE" eid="e21" pos="VERB" tense="NONE" vform="INFINITIVE">participer</EVENT> à l'<EVENT aspect="NONE" class="OCCURRENCE" eid="e22" pos="NOUN" tense="NONE" vform="NONE">organisation</EVENT> de la <EVENT aspect="NONE" class="OCCURRENCE" eid="e23" pos="NOUN" tense="NONE" vform="NONE">mission</EVENT> Poly-Monde 2006 en Pologne et en République tchèque.  
+Fort de cette <EVENT aspect="NONE" class="OCCURRENCE" eid="e34" pos="NOUN" tense="NONE" vform="NONE">expérience</EVENT> et <EVENT aspect="NONE" class="OCCURRENCE" eid="e25" pos="VERB" tense="NONE" vform="PRESPART">faisant</EVENT> preuve de fortes qualités de leader, il <EVENT aspect="NONE" class="STATE" eid="e26" pos="VERB" tense="PRESENT" vform="NONE">occupe</EVENT> ensuite le poste de coordonnateur de la <EVENT aspect="NONE" class="OCCURRENCE" eid="e27" pos="NOUN" tense="NONE" vform="NONE">mission</EVENT> Poly-Inde 2007.  
+<EVENT aspect="NONE" class="STATE" eid="e28" pos="ADJECTIVE" tense="NONE" vform="PASTPART">Intéressé</EVENT> par la politique, Alexandre a aussi <EVENT aspect="NONE" class="OCCURRENCE" eid="e29" pos="VERB" tense="PAST" vform="PASTPART">pris</EVENT> part en <TIMEX3 functionInDocument="NONE" tid="t5" type="DATE" value="2006-12">décembre 2006</TIMEX3> au Parlement jeunesse du Québec, où ses qualités d'orateur lui ont <EVENT aspect="NONE" class="OCCURRENCE" eid="e30" pos="VERB" tense="PAST" vform="PASTPART">valu</EVENT> le titre de recrue de l'année.  
+En <TIMEX3 functionInDocument="NONE" tid="t6" type="DATE" value="2007-03">mars 2007</TIMEX3>, l'École Polytechnique lui <EVENT aspect="NONE" class="OCCURRENCE" eid="e31" pos="VERB" tense="IMPERFECT" vform="NONE">remettait</EVENT> le Profil d'excellence de Vinci, qui <EVENT aspect="NONE" class="STATE" eid="e32" pos="VERB" tense="PRESENT" vform="NONE">souligne</EVENT> l'équilibre entre les études, l'engagement social et l'implication étudiante.
+</TEXT>
+
+<TLINK lid="l1" origin="USER" relType="NONE" relatedToTime="t1" timeID="t6" />
+<TLINK lid="l2" origin="USER" relType="NONE" relatedToTime="t6" timeID="t5" />
+<TLINK eventInstanceID="e1" lid="l3" origin="USER" relType="NONE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e4" lid="l4" origin="USER" relType="NONE" relatedToEventInstance="e5" />
+<TLINK eventInstanceID="e3" lid="l5" origin="USER" relType="NONE" relatedToEventInstance="e4" />
+<TLINK eventInstanceID="e5" lid="l6" origin="USER" relType="NONE" relatedToEventInstance="e6" />
+<TLINK eventInstanceID="e7" lid="l7" origin="USER" relType="NONE" relatedToTime="t2" />
+<TLINK eventInstanceID="e8" lid="l8" origin="USER" relType="NONE" relatedToEventInstance="e9" />
+<TLINK eventInstanceID="e7" lid="l9" origin="USER" relType="NONE" relatedToEventInstance="e8" />
+<TLINK eventInstanceID="e7" lid="l10" origin="USER" relType="NONE" relatedToEventInstance="e10" />
+<TLINK eventInstanceID="e11" lid="l11" origin="USER" relType="NONE" relatedToEventInstance="e12" />
+<TLINK eventInstanceID="e7" lid="l13" origin="USER" relType="NONE" relatedToEventInstance="e11" />
+<TLINK eventInstanceID="e12" lid="l14" origin="USER" relType="NONE" relatedToEventInstance="e33" />
+<TLINK eventInstanceID="e15" lid="l18" origin="USER" relType="NONE" relatedToEventInstance="e14" />
+<TLINK eventInstanceID="e15" lid="l19" origin="USER" relType="NONE" relatedToEventInstance="e16" />
+<TLINK eventInstanceID="e18" lid="l21" origin="USER" relType="NONE" relatedToEventInstance="e17" />
+<TLINK eventInstanceID="e19" lid="l22" origin="USER" relType="NONE" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e20" lid="l23" origin="USER" relType="NONE" relatedToEventInstance="e16" />
+<TLINK eventInstanceID="e20" lid="l24" origin="USER" relType="NONE" relatedToEventInstance="e21" />
+<TLINK eventInstanceID="e21" lid="l25" origin="USER" relType="NONE" relatedToEventInstance="e22" />
+<TLINK eventInstanceID="e22" lid="l26" origin="USER" relType="NONE" relatedToEventInstance="e23" />
+<TLINK eventInstanceID="e34" lid="l27" origin="USER" relType="NONE" relatedToEventInstance="e21" />
+<TLINK eventInstanceID="e34" lid="l28" origin="USER" relType="NONE" relatedToEventInstance="e25" />
+<TLINK eventInstanceID="e26" lid="l30" origin="USER" relType="NONE" relatedToEventInstance="e34" />
+<TLINK eventInstanceID="e26" lid="l31" origin="USER" relType="NONE" relatedToEventInstance="e27" />
+<TLINK eventInstanceID="e29" lid="l32" origin="USER" relType="NONE" relatedToTime="t5" />
+<TLINK eventInstanceID="e29" lid="l33" origin="USER" relType="NONE" relatedToEventInstance="e30" />
+<TLINK eventInstanceID="e31" lid="l34" origin="USER" relType="NONE" relatedToTime="t6" />
+<TLINK eventInstanceID="e28" lid="l35" origin="USER" relType="NONE" relatedToTime="t5" />
+<TLINK eventInstanceID="e32" lid="l36" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK lid="l38" origin="USER" relType="NONE" relatedToTime="t1" timeID="t2" />
+<TLINK eventInstanceID="e14" lid="l39" origin="USER" relType="NONE" relatedToTime="t2" />
+<SLINK eventInstanceID="ei33" lid="l15" origin="USER" relType="NONE" subordinatedEventInstance="ei13" />
+<SLINK eventInstanceID="ei16" lid="l41" origin="USER" relType="NONE" subordinatedEventInstance="ei17" />
+
+</TimeML>

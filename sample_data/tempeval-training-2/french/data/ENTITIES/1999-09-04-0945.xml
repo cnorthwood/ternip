@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="1999-09-04" />YOGA.
+La <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="NOUN" signalID="PRED=REPRISE" tense="NONE" vform="NONE">reprise</EVENT> des <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="NOUN" signalID="PRED=SÉANCE" tense="NONE" vform="NONE">séances</EVENT> de yoga est <EVENT aspect="NONE" class="STATE" eid="e3" pos="ADJECTIVE" signalID="PRED=FIXER" tense="PRESENT" vform="NONE">fixée</EVENT> <SIGNAL sid="s3">au</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="1999-09-16">jeudi 16 septembre</TIMEX3>, <SIGNAL sid="s1">à</SIGNAL> <TIMEX3 tid="t3" type="TIME" value="1999-09-16T18:00">18 h</TIMEX3> et <SIGNAL sid="s2">à</SIGNAL> <TIMEX3 tid="t4" type="TIME" value="1999-09-16T19:30">19 h 30</TIMEX3>, à la salle des fêtes.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei2" eventID="e2" /><MAKEINSTANCE eiid="ei3" eventID="e3" /></TimeML>

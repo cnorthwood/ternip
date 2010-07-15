@@ -1,0 +1,382 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1013</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Columbia Savings amp Loan Association , <etag>[reeling]</etag><sup>e1</sup> from thrift-accounting <etag>[changes]</etag><sup>e2</sup> <etag>[mandated]</etag><sup>e3</sup> by Congress and the recent <etag>[collapse]</etag><sup>e4</sup> of the junk-bond market , <etag>[announced]</etag><sup>e5</sup> a <etag>[loss]</etag><sup>e6</sup> for <ttag>[the third quarter]<sup>t164</sup></ttag> of $226.3 million , or $11.57 a share .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t164 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t164</p>
+<p class=relation>Task C: e5 AFTER t164</p>
+<p class=relation>Task C: e2 BEFORE-OR-OVERLAP t164</p>
+<p class=relation>Task E: e5 AFTER e7</p>
+<p class=relation>Task F: e5 OVERLAP-OR-AFTER e6</p>
+<p class=relation>Task F: e1 OVERLAP e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>For <ttag>[the quarter a year ago]<sup>t165</sup></ttag> , Columbia <etag>[reported]</etag><sup>e7</sup> earnings of $16.3 million , or 37 cents a share .</p></table>
+<p class=attributes>t165 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e7 AFTER t165</p>
+<p class=relation>Task E: e7 BEFORE-OR-OVERLAP e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Total assets <etag>[increased]</etag><sup>e8</sup> to $12.7 billion in <ttag>[the latest quarter]<sup>t166</sup></ttag> from $12.4 billion <ttag>[a year earlier]<sup>t167</sup></ttag> .</p></table>
+<p class=attributes>t167 { value:1988-QX type:DATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t166 { value:1989-QX type:DATE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t166</p>
+<p class=relation>Task E: e8 VAGUE e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The <etag>[loss]</etag><sup>e9</sup> <etag>[stems]</etag><sup>e10</sup> from $357.5 million of <etag>[write-downs]</etag><sup>e11</sup> on Columbia 's $4.4 billion high-yield investment securities portfolio , which includes about $3.7 billion of junk bonds , $400 million of preferred stock , and Treasury securities .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 OVERLAP e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Columbia <etag>[owes]</etag><sup>e12</sup> its spectacular <etag>[growth]</etag><sup>e13</sup> in <ttag>[recent years]<sup>t169</sup></ttag> to its junk-bond portfolio , the largest of any U.S. thrift .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t169 { value:PAST_REF type:DATE }</p>
+<p/>
+<p class=relation>Task E: e12 OVERLAP-OR-AFTER e15</p>
+<p class=relation>Task F: e12 OVERLAP e13</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Much of Columbia 's junk-bond <etag>[trading]</etag><sup>e14</sup> has been <etag>[done]</etag><sup>e15</sup> through the high-yield department of its Beverly Hills neighbor , Drexel Burnham Lambert Inc. For <ttag>[the nine months]<sup>t170</sup></ttag> , losses <etag>[totaled]</etag><sup>e16</sup> $212 million , or $10.83 a share , compared with net income of $48.7 million , or $1.11 a share , <ttag>[a year earlier]<sup>t172</sup></ttag> .</p></table>
+<p class=attributes>t170 { type:DURATION value:P9M }</p>
+<p class=attributes>t172 { value:1988 type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e14 OVERLAP t170</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>The results include a $130.2 million write-down of the securities in the high-yield portfolio to the lower of their cost or market value .</p></table>
+<p/>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Columbia also <etag>[added]</etag><sup>e19</sup> $227.3 million to reserves for <etag>[losses]</etag><sup>e20</sup> on the portfolio , <etag>[increasing]</etag><sup>e21</sup> general reserves to $300 million , or about 6.7% of the total portfolio , as of <ttag>[Sept. 30]<sup>t1991</sup></ttag> .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1991 { value:1989-09-30 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e20 BEFORE t1991</p>
+<p class=relation>Task C: e21 BEFORE t1991</p>
+<p class=relation>Task C: e19 BEFORE t1991</p>
+<p class=relation>Task E: e19 AFTER e22</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>On <ttag>[June 30]<sup>t1992</sup></ttag> , loss reserves <etag>[stood]</etag><sup>e22</sup> at $108.3 million .</p></table>
+<p class=attributes>t1992 { value:1989-06-30 type:DATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e22 BEFORE e23</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Thrift officials <etag>[said]</etag><sup>e23</sup> the $300 million reserve will be <etag>[adjusted]</etag><sup>e24</sup> quarterly and will <etag>[reflect]</etag><sup>e25</sup> the rate of dispositions and market conditions .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e23 AFTER e26</p>
+<p class=relation>Task F: e23 BEFORE e24</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>The adjustments <etag>[result]</etag><sup>e26</sup> from the recently <etag>[passed]</etag><sup>e27</sup> thrift-industry bailout legislation , which <etag>[requires]</etag><sup>e29</sup> thrifts to <etag>[divest]</etag><sup>e30</sup> all high-yield bond investments by <ttag>[1994]</ttag><sup>t1994</sup> .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1994 { type:DATE value:1994 }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e26 BEFORE t1994</p>
+<p class=relation>Task E: e26 AFTER e32</p>
+<p class=relation>Task F: e29 OVERLAP e30</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Previously , Columbia did n 't have to <etag>[adjust]</etag><sup>e32</sup> the book value of its junk-bond holdings to <etag>[reflect]</etag><sup>e33</sup> <etag>[declines]</etag><sup>e34</sup> in market prices , because it <etag>[held]</etag><sup>e35</sup> the bonds as long-term investments .</p></table>
+<p class=attributes>e32 { polarity:NEG modality:have to pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e32 BEFORE e38</p>
+<p class=relation>Task F: e32 BEFORE-OR-OVERLAP e33</p>
+<p class=relation>Task F: e33 OVERLAP e34</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>Because Columbia <ttag>[now]</ttag><sup>t2151</sup> must <etag>[sell]</etag><sup>e37</sup> the bonds within <ttag>[five years]<sup>t1999</sup></ttag> , accounting rules <etag>[require]</etag><sup>e38</sup> the thrift to <etag>[value]</etag><sup>e39</sup> the bonds at the lower of cost or market prices .</p></table>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t2151 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e37 { polarity:POS modality:must pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1999 { type:DURATION value:P5Y }</p>
+<p/>
+<p class=relation>Task C: e37 OVERLAP t1999</p>
+<p class=relation>Task E: e38 OVERLAP e40</p>
+<p class=relation>Task F: e38 OVERLAP e39</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>For its future strategy , Columbia officials <etag>[said]</etag><sup>e40</sup> the thrift may <etag>[branch]</etag><sup>e41</sup> out into commercial lending or managing outside investments , as well as <etag>[beefing]</etag><sup>e42</sup> up more traditional thrift activities .</p></table>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e40 AFTER e43</p>
+<p class=relation>Task F: e40 BEFORE-OR-OVERLAP e41</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>The quarterly results also <etag>[reflected]</etag><sup>e43</sup> $21.4 million in non-recurring losses from commercial real-estate activities in California .</p></table>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e43 BEFORE e44</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>Thomas Spiegel , Columbia 's chairman , <etag>[said]</etag><sup>e44</sup> in a statement that the thrift was " <etag>[disappointed]</etag><sup>e45</sup> " by the effects of the accounting <etag>[changes]</etag><sup>e46</sup> .</p></table>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e44 OVERLAP e47</p>
+<p class=relation>Task F: e44 OVERLAP e45</p>
+<p class=relation>Task F: e45 OVERLAP-OR-AFTER e46</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>But he <etag>[said]</etag><sup>e47</sup> Columbia <etag>[remains]</etag><sup>e48</sup> " one of the most strongly capitalized thrifts in the industry , " based on the economic value of its assets and tangible capital .</p></table>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e47 VAGUE e49</p>
+<p class=relation>Task F: e47 OVERLAP e48</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>Columbia <etag>[announced]</etag><sup>e49</sup> the results after the <etag>[close]</etag><sup>e50</sup> of the stock market .</p></table>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e49 AFTER e51</p>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>Its shares <etag>[closed]</etag><sup>e51</sup> at $5.125 each in composite New York Stock Exchange trading , down 37.5 cents .</p></table>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e51 OVERLAP-OR-AFTER e52</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>The price of Columbia shares has been <etag>[cut]</etag><sup>e52</sup> nearly in half since <ttag>[August]</ttag><sup>t2004</sup> , when they <etag>[traded]</etag><sup>e53</sup> at about $10 , as investors apparently <etag>[realized]</etag><sup>e54</sup> that the thrift would be <etag>[forced]</etag><sup>e55</sup> to <etag>[take]</etag><sup>e56</sup> a big write-down .</p></table>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t2004 { value:1989-08 type:DATE }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e56 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e55 { polarity:POS modality:would pos:VERB tense:NONE aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e56 AFTER t2004</p>
+<p class=relation>Task E: e52 OVERLAP-OR-AFTER e58</p>
+<p class=relation>Task F: e54 BEFORE e55</p>
+<p class=relation>Task F: e55 OVERLAP e56</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>The stock 's <etag>[decline]</etag><sup>e57</sup> <etag>[accelerated]</etag><sup>e58</sup> in <ttag>[the past two weeks]<sup>t2007</sup></ttag> , from a price of $8 a share on <ttag>[Oct. 9]<sup>t2009</sup></ttag> . Columbia officials <etag>[said]</etag><sup>e60</sup> they do n 't <etag>[know]</etag><sup>e61</sup> how quickly they will <etag>[dispose]</etag><sup>e62</sup> of the thrift 's junk bonds , because federal regulations , such as those that would <etag>[allow]</etag><sup>e63</sup> thrifts to <etag>[continue]</etag><sup>e64</sup> <etag>[holding]</etag><sup>e65</sup> the bonds in separately capitalized subsidiaries , have n 't yet been <etag>[completed]</etag><sup>e66</sup> .</p></table>
+<p class=attributes>e60 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t2009 { value:1989-10-09 type:DATE }</p>
+<p class=attributes>e65 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e63 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e61 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t2007 { value:P2W type:DURATION }</p>
+<p class=attributes>e57 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e58 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e66 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task C: e57 AFTER t2009</p>
+<p class=relation>Task E: e60 OVERLAP e67</p>
+<p class=relation>Task E: e58 BEFORE e60</p>
+<p class=relation>Task F: e60 OVERLAP e61</p>
+<p class=relation>Task F: e63 BEFORE-OR-OVERLAP e64</p>
+<p class=relation>Task F: e61 BEFORE e62</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>Columbia officials also <etag>[said]</etag><sup>e67</sup> the thrift should n 't <etag>[face]</etag><sup>e68</sup> problems meeting regulatory capital requirements , despite the large reserves and write-downs and stiffer regulatory requirements that should be in place by year <ttag>['s end]<sup>t2012</sup></ttag> .</p></table>
+<p class=attributes>e68 { polarity:NEG modality:should pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t2012 { value:1989 type:DATE }</p>
+<p class=attributes>e67 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e67 BEFORE t2012</p>
+<p class=relation>Task F: e67 BEFORE-OR-OVERLAP e68</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>Its ratio of tangible equity to total assets as of <ttag>[Sept. 30]<sup>t2013</sup></ttag> was 3.6% , and total equity was $457.9 million .</p></table>
+<p class=attributes>t2013 { value:1989-09-30 type:DATE }</p>
+<p/>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>The thrift <etag>[emphasized]</etag><sup>e72</sup> that it <etag>[has]</etag><sup>e73</sup> a large portfolio of equity securities <etag>[issued]</etag><sup>e74</sup> in connection with corporate restructurings and leveraged <etag>[buy-outs]</etag><sup>e76</sup> , which <etag>[has]</etag><sup>e77</sup> a book value of $90 million .</p></table>
+<p class=attributes>e76 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e74 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e72 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e73 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e77 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e72 OVERLAP e79</p>
+<p class=relation>Task F: e72 VAGUE e73</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>Although many of the transactions related to those securities have n 't been <etag>[completed]</etag><sup>e78</sup> , Columbia <etag>[said]</etag><sup>e79</sup> the ultimate gain on the <etag>[sale]</etag><sup>e80</sup> of those assets will <etag>[range]</etag><sup>e81</sup> from $200 million to $300 million .</p></table>
+<p class=attributes>e78 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e81 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:STATE }</p>
+<p class=attributes>e80 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e79 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e79 VAGUE e82</p>
+<p class=relation>Task F: e79 BEFORE e81</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line>Columbia also <etag>[has]</etag><sup>e82</sup> unrealized gains in its public equity securities portfolio of more than $70 million .</p></table>
+<p class=attributes>e82 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e82 OVERLAP e83</p>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line>--- David B. Hilder in New York <etag>[contributed]</etag><sup>e83</sup> to this article .</p></table>
+<p class=attributes>e83 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

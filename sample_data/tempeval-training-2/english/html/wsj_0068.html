@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0068</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>GOODY PRODUCTS Inc. <etag>[cut]</etag><sup>e1</sup> its quarterly dividend to five cents a share from 11.5 cents a share .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The reduced dividend is <etag>[payable]</etag><sup>e2</sup> <ttag>[Jan. 2]<sup>t18</sup></ttag> to stock of record <ttag>[Dec. 15]<sup>t17</sup></ttag> .</p></table>
+<p class=attributes>t17 { value:1989-12-15 type:DATE }</p>
+<p class=attributes>t18 { value:1990-01-02 type:DATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e2 AFTER e3</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The Kearny , N.J.-based maker of hair accessories and other cosmetic products <etag>[said]</etag><sup>e3</sup> it <etag>[cut]</etag><sup>e4</sup> the dividend due to its <ttag>[third-quarter]</ttag><sup>t26</sup> <etag>[loss]</etag><sup>e5</sup> of $992,000 , or 15 cents a share .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t26 { value:1989-Q3 type:TIME }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e3 AFTER t26</p>
+<p class=relation>Task C: e5 OVERLAP t26</p>
+<p class=relation>Task E: e3 AFTER e6</p>
+<p class=relation>Task F: e3 AFTER e4</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In <ttag>[the year-ago quarter]<sup>t134</sup></ttag> , the company <etag>[reported]</etag><sup>e6</sup> net income of $1.9 million , or 29 cents a share .</p></table>
+<p class=attributes>t134 { value:1988-Q3 type:TIME }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t134</p>
+<p class=relation>Task E: e6 BEFORE e7</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company also <etag>[adopted]</etag><sup>e7</sup> an anti-takeover plan .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+</div>
+</body>
+</html>

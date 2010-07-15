@@ -1,0 +1,211 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0928</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Sun Microsystems Inc. , <etag>[snapping]</etag><sup>e1</sup> back to profitability after its first quarterly <etag>[loss]</etag><sup>e2</sup> as a public firm , <etag>[said]</etag><sup>e3</sup> it <etag>[earned]</etag><sup>e4</sup> $5.2 million , or seven cents a share , in <ttag>[the fiscal first quarter]<sup>t64</sup></ttag> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t64 { value:1989-Q1 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 BEFORE t64</p>
+<p class=relation>Task C: e4 OVERLAP t64</p>
+<p class=relation>Task C: e3 AFTER t64</p>
+<p class=relation>Task E: e3 OVERLAP e5</p>
+<p class=relation>Task F: e3 OVERLAP-OR-AFTER e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Sun , a maker of computer workstations , <etag>[reported]</etag><sup>e5</sup> sales of $538.5 million for <ttag>[the quarter]<sup>t68</sup></ttag> ended <ttag>[Sept. 29]<sup>t69</sup></ttag> , up 39% from $388.5 million <ttag>[a year earlier]<sup>t73</sup></ttag> .</p></table>
+<p class=attributes>t73 { value:1988-QX type:DATE }</p>
+<p class=attributes>t68 { value:P1Q type:DURATION }</p>
+<p class=attributes>t69 { value:1989-09-29 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e5 AFTER t69</p>
+<p class=relation>Task E: e5 AFTER e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In <ttag>[the 1988 period]<sup>t74</sup></ttag> , the company <etag>[earned]</etag><sup>e7</sup> $20.6 million , or 26 cents a share .</p></table>
+<p class=attributes>t74 { value:1988-Q1 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e7 OVERLAP t74</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Sun 's results were slightly better than expectations .</p></table>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Earlier <ttag>[this month]<sup>t77</sup></ttag> , the company <etag>[said]</etag><sup>e10</sup> it <etag>[expected]</etag><sup>e11</sup> to <etag>[break]</etag><sup>e12</sup> even for <ttag>[the quarter]<sup>t78</sup></ttag> on sales of $530 million .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t78 { value:1989-Q1 type:DURATION }</p>
+<p class=attributes>t77 { value:1989-10 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t77</p>
+<p class=relation>Task C: e11 OVERLAP t77</p>
+<p class=relation>Task E: e10 OVERLAP e14</p>
+<p class=relation>Task F: e10 OVERLAP e11</p>
+<p class=relation>Task F: e11 BEFORE e12</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In a statement , Scott McNealy , Sun 's chief executive officer , <etag>[said]</etag><sup>e14</sup> the company 's performance was <etag>[hampered]</etag><sup>e15</sup> by problems tied to the <etag>[introduction]</etag><sup>e17</sup> of a major new family of computers in <ttag>[April]</ttag><sup>t83</sup> .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t83 { value:1988-04 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e14 AFTER t83</p>
+<p class=relation>Task E: e14 OVERLAP e21</p>
+<p class=relation>Task F: e14 OVERLAP-OR-AFTER e15</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>One of those new computers , called Sparcstation 1 , <etag>[accounted]</etag><sup>e19</sup> for nearly half of the 28,000 systems Sun <etag>[shipped]</etag><sup>e20</sup> in <ttag>[the quarter]<sup>t84</sup></ttag> , he <etag>[said]</etag><sup>e21</sup> .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>t84 { value:1989-Q1 type:DATE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e21 AFTER t84</p>
+<p class=relation>Task E: e21 AFTER e24</p>
+<p class=relation>Task F: e19 OVERLAP e20</p>
+<p class=relation>Task F: e21 OVERLAP e19</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>More than two-thirds of the systems <etag>[shipped]</etag><sup>e22</sup> , meanwhile , were products <etag>[introduced]</etag><sup>e24</sup> in <ttag>[April]</ttag><sup>t87</sup> .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t87 { value:1989-04 type:DATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e24 BEFORE e28</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>But problems in manufacturing , forecasting demand and getting the bugs out of a new management information system <etag>[made]</etag><sup>e28</sup> it extremely difficult for Sun to <etag>[meet]</etag><sup>e29</sup> demand for its newest computers well into <ttag>[the summer]<sup>t89</sup></ttag> .</p></table>
+<p class=attributes>t89 { value:1989-SU type:DATE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e29 { polarity:NEG modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e28 OVERLAP t89</p>
+<p class=relation>Task E: e28 BEFORE e30</p>
+<p class=relation>Task F: e28 OVERLAP e29</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>These problems also <etag>[resulted]</etag><sup>e30</sup> in Sun <etag>[reporting]</etag><sup>e31</sup> a $20.3 million <etag>[loss]</etag><sup>e32</sup> for <ttag>[its fourth quarter]<sup>t94</sup></ttag> ended <ttag>[June 30]<sup>t95</sup></ttag> .</p></table>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t94 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>t95 { value:1989-06-30 type:DATE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e32 OVERLAP t94</p>
+<p class=relation>Task C: e30 VAGUE t94</p>
+<p class=relation>Task E: e30 BEFORE e33</p>
+<p class=relation>Task F: e31 AFTER e32</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Mr. McNealy <etag>[said]</etag><sup>e33</sup> the issues that <etag>[hurt]</etag><sup>e34</sup> Sun 's performance earlier <ttag>[this year]<sup>t96</sup></ttag> are now " largely " behind the firm , and he <etag>[indicated]</etag><sup>e35</sup> that Sun 's profitability should <etag>[increase]</etag><sup>e36</sup> throughout <ttag>[the fiscal year]<sup>t99</sup></ttag> .</p></table>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t96 { value:1989 type:DATE }</p>
+<p class=attributes>t99 { type:DURATION value:P1Y }</p>
+<p class=attributes>e36 { polarity:POS modality:should pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e36 OVERLAP t99</p>
+<p class=relation>Task C: e33 OVERLAP t99</p>
+<p class=relation>Task E: e33 VAGUE e37</p>
+<p class=relation>Task F: e35 BEFORE-OR-OVERLAP e36</p>
+<p class=relation>Task F: e33 OVERLAP e34</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Sun also <etag>[reported]</etag><sup>e37</sup> a record backlog of orders .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e37 BEFORE e41</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>While this indicates continued strong <etag>[demand]</etag><sup>e39</sup> for the company 's desk-top computers , Sun <etag>[faces]</etag><sup>e40</sup> increasing competition from Digital Equipment Corp. and Hewlett-Packard Co. <ttag>[Recently]</ttag><sup>t101</sup> , analysts have <etag>[said]</etag><sup>e41</sup> Sun also is <etag>[vulnerable]</etag><sup>e43</sup> to competition from International Business Machines Corp. , which <etag>[plans]</etag><sup>e44</sup> to <etag>[introduce]</etag><sup>e45</sup> a group of workstations <ttag>[early next year]<sup>t103</sup></ttag> , and Next Inc.</p></table>
+<p class=attributes>t101 { value:PAST_REF type:DATE }</p>
+<p class=attributes>t103 { value:1990 type:DATE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:REPORTING }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e44 OVERLAP t101</p>
+<p class=relation>Task C: e41 OVERLAP t101</p>
+<p class=relation>Task F: e44 BEFORE e45</p>
+<p class=relation>Task F: e41 OVERLAP e43</p>
+</div>
+</body>
+</html>

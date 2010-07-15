@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1008</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Lawrence Insurance Group Inc. <etag>[said]</etag><sup>e1</sup> it <etag>[acquired]</etag><sup>e2</sup> United Republic Reinsurance Co. , a Houston property and casualty reinsurance company , from United Savings Association of Texas for $28 million .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 AFTER e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Lawrence Insurance also <etag>[sold]</etag><sup>e3</sup> 3.2 million of its shares for $7.125 each to its parent , Lawrence Group Inc. Lawrence Insurance , based in Albany , N.Y. , <etag>[plans]</etag><sup>e4</sup> to <etag>[use]</etag><sup>e5</sup> the $22.5 million in proceeds to <etag>[help]</etag><sup>e6</sup> <etag>[finance]</etag><sup>e7</sup> the <etag>[acquisition]</etag><sup>e8</sup> of United Republic .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 BEFORE e10</p>
+<p class=relation>Task F: e4 BEFORE-OR-OVERLAP e5</p>
+<p class=relation>Task F: e5 OVERLAP e6</p>
+<p class=relation>Task F: e6 VAGUE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>By <etag>[acquiring]</etag><sup>e9</sup> the shares , Lawrence Group <etag>[increased]</etag><sup>e10</sup> its stake in Lawrence Insurance to 93.2% from 91.2% .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 BEFORE e13</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Lawrence Insurance <etag>[underwrites]</etag><sup>e12</sup> mostly primary insurance , a company spokesman <etag>[said]</etag><sup>e13</sup> .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e13 OVERLAP e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>A reinsurance company effectively insures insurance companies that wish to spread the risk of a particular policy .</p></table>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Lawrence Group also <etag>[owns]</etag><sup>e17</sup> Lawrence Agency Corp. , Schenectady , N.Y. , an insurance agency and brokerage .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

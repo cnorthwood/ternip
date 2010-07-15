@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>128_20001001.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>El consejo de administración de Enagás ha <etag>[nombrado]</etag><sup>e1</sup> a Guzmán Solana <etag>[presidente]</etag><sup>e2</sup> ejecutivo de la compañía en <etag>[sustitución]</etag><sup>e3</sup> de Antoni Brufau , que ha <etag>[renunciado]</etag><sup>e4</sup> al <etag>[cargo]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>e1 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e5 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e2 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e4 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e1 before t0</p>
+<p class=relation>Task D: e5 overlap t0</p>
+<p class=relation>Task D: e2 overlap t0</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task D: e3 overlap t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Solana <etag>[abandonará]</etag><sup>e6</sup> el puesto de <etag>[consejero]</etag><sup>e7</sup> que <etag>[tenía]</etag><sup>e8</sup> hasta <ttag>[ahora]</ttag><sup>t1</sup> .</p></table>
+<p class=attributes>e8 { aspect:IMPERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e6 { aspect:IMPERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>t1 { type:DATE val:PRESENT_REF }</p>
+<p class=attributes>e7 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e8 before-or-overlap t0</p>
+<p class=relation>Task D: e6 after t0</p>
+<p class=relation>Task D: e7 overlap t0</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>La compañía , además , ha <etag>[nombrado]</etag><sup>e9</sup> <etag>[consejero]</etag><sup>e10</sup> a Antonio González-Adalid , vicepresidente ejecutivo de Gas y Electricidad de Repsol YPF .</p></table>
+<p class=attributes>e10 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e9 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e10 overlap t0</p>
+<p class=relation>Task D: e9 before t0</p>
+</div>
+</body>
+</html>

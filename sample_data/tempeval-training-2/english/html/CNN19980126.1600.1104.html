@@ -1,0 +1,154 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>CNN19980126.1600.1104</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Major job cuts at AT and T. The long distance giant <etag>[slashing]</etag><sup>e1</sup> up to eighteen thousand jobs , freezing executive salaries and <etag>[shaking]</etag><sup>e2</sup> up management .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The <etag>[changes]</etag><sup>e3</sup> are part of a one point six billion dollar cost cutting initiative to <etag>[revitalize]</etag><sup>e4</sup> its position in the telecommunications business .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e3 OVERLAP t0</p>
+<p class=relation>Task E: e3 AFTER e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Earlier AT and T also <etag>[announced]</etag><sup>e5</sup> an eighteen percent <etag>[drop]</etag><sup>e6</sup> in profits for <ttag>[the fourth quarter]<sup>t1</sup></ttag> .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1 { value:1997-Q4 type:DURATION }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t1</p>
+<p class=relation>Task D: e6 BEFORE t0</p>
+<p class=relation>Task D: e5 BEFORE t0</p>
+<p class=relation>Task E: e5 BEFORE e7</p>
+<p class=relation>Task F: e5 AFTER e6</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The company 's sales force <etag>[applauded]</etag><sup>e7</sup> the shake up .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e7 OVERLAP e10</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>It 's not something we 're not <etag>[used]</etag><sup>e10</sup> to in the industry .</p></table>
+<p class=attributes>e10 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task D: e10 OVERLAP t0</p>
+<p class=relation>Task E: e10 OVERLAP e11</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>But I <etag>[think]</etag><sup>e11</sup> right <ttag>[now]</ttag><sup>t2</sup> , for AT and T and the people here , it 's fairly <etag>[intense]</etag><sup>e13</sup> as you might w- well imagine .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t2 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task D: e11 OVERLAP t0</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>I mean look at the stock .</p></table>
+<p/>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>You know , since he 's been here the stock <etag>[skyrocketed]</etag><sup>e18</sup> so , Yeah I <etag>[think]</etag><sup>e19</sup> he 's <etag>[doing]</etag><sup>e20</sup> the right thing .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e19 OVERLAP t0</p>
+<p class=relation>Task E: e19 OVERLAP e21</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>I <etag>[think]</etag><sup>e21</sup> it 's a good thing that they ' re finally going to be <etag>[downsizing]</etag><sup>e24</sup> you know some management because there is a whole lot of waste .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e21 OVERLAP t0</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Good news for AT and T <ttag>[today]</ttag><sup>t3</sup> .</p></table>
+<p class=attributes>t3 { value:1998-01-26 type:DATE }</p>
+<p/>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>I <etag>[think]</etag><sup>e26</sup> it 's <etag>[excellent]</etag><sup>e28</sup> for the company .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task D: e26 OVERLAP t0</p>
+<p class=relation>Task E: e26 OVERLAP e29</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>But investors are <etag>[approaching]</etag><sup>e29</sup> the <etag>[changes]</etag><sup>e30</sup> with caution shares of AT and T down nearly four at sixty-one and a half .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e30 BEFORE t0</p>
+</div>
+</body>
+</html>

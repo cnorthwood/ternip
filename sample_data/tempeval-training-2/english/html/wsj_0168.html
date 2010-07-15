@@ -1,0 +1,91 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0168</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Meridian National Corp. <etag>[said]</etag><sup>e1</sup> it <etag>[sold]</etag><sup>e2</sup> 750,000 shares of its common stock to the McAlpine family interests , for $1 million , or $1.35 a share .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The <etag>[sale]</etag><sup>e3</sup> <etag>[represents]</etag><sup>e4</sup> 10.2% of Meridian 's shares outstanding .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e4 OVERLAP e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The McAlpine family , which <etag>[operates]</etag><sup>e5</sup> a number of multinational companies , including a London-based engineering and construction company , also <etag>[lent]</etag><sup>e7</sup> to Meridian National $500,000 .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e7 BEFORE e8</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>That amount is <etag>[convertible]</etag><sup>e8</sup> into shares of Meridian common stock at $2 a share during its <ttag>[one-year term]<sup>t23</sup></ttag> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t23 { type:DURATION value:P1Y }</p>
+<p/>
+<p class=relation>Task E: e8 BEFORE-OR-OVERLAP e10</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The loan may be <etag>[extended]</etag><sup>e10</sup> by the McAlpine group for <ttag>[an additional year]<sup>t25</sup></ttag> with an <etag>[increase]</etag><sup>e11</sup> in the conversion price to $2.50 a share .</p></table>
+<p class=attributes>t25 { value:P1Y type:DURATION }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:may pos:VERB tense:NONE aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t25</p>
+<p class=relation>Task E: e10 AFTER e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The <etag>[sale]</etag><sup>e12</sup> of shares to the McAlpine family along with the recent <etag>[sale]</etag><sup>e13</sup> of 750,000 shares of Meridian stock to Haden MacLellan Holding PLC of Surrey , England and a recent public <etag>[offering]</etag><sup>e14</sup> have <etag>[increased]</etag><sup>e15</sup> Meridian 's net worth to $8.5 million , <etag>[said]</etag><sup>e16</sup> William Feniger , chief executive officer of Toledo , Ohio-based Meridian .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e16 AFTER e15</p>
+</div>
+</body>
+</html>

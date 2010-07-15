@@ -1,0 +1,90 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0541</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Automatic Data Processing Inc. <etag>[plans]</etag><sup>e1</sup> to <etag>[redeem]</etag><sup>e2</sup> on <ttag>[Nov. 16]<sup>t18</sup></ttag> its $150 million of 6.5% convertible subordinated debentures <etag>[due]</etag><sup>e3</sup> <ttag>[March 1 , 2011]<sup>t20</sup></ttag> .</p></table>
+<p class=attributes>t20 { type:DATE value:2011-03-01 }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t18 { value:1989-11-16 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e1 BEFORE t18</p>
+<p class=relation>Task E: e1 BEFORE e4</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The computing-services concern will <etag>[pay]</etag><sup>e4</sup> $1,059.04 for each $1,000 face amount of debt .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The conversion price for the debentures is $41.725 a share .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In New York Stock Exchange composite trading <ttag>[Friday]</ttag><sup>t21</sup> , Automatic Data <etag>[closed]</etag><sup>e7</sup> at $46.50 a share , down $2.25 .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t21 { value:1989-10-27 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e7 OVERLAP t21</p>
+<p class=relation>Task E: e7 BEFORE e9</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>If all the debt is <etag>[converted]</etag><sup>e8</sup> to common , Automatic Data will <etag>[issue]</etag><sup>e9</sup> about 3.6 million shares ; <ttag>[last Monday]<sup>t24</sup></ttag> , the company <etag>[had]</etag><sup>e10</sup> nearly 73 million shares outstanding .</p></table>
+<p class=attributes>t24 { value:1989-10-23 type:DATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t24</p>
+<p class=relation>Task E: e9 AFTER e14</p>
+<p class=relation>Task F: e8 BEFORE e9</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Automatic Data is <etag>[redeeming]</etag><sup>e11</sup> the bonds because the after-tax cost of the interest on the bonds is higher than the dividend yield on the common , a spokesman <etag>[said]</etag><sup>e14</sup> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task F: e14 OVERLAP e11</p>
+</div>
+</body>
+</html>

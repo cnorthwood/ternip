@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1035</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Consolidated Freightways Inc. <etag>[reported]</etag><sup>e1</sup> a 77% <etag>[drop]</etag><sup>e2</sup> in <ttag>[third-quarter]</ttag><sup>t25</sup> net income , <etag>[citing]</etag><sup>e3</sup> expected <etag>[losses]</etag><sup>e4</sup> in its Emery Worldwide shipping business .</p></table>
+<p class=attributes>t25 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t25</p>
+<p class=relation>Task C: e4 OVERLAP t25</p>
+<p class=relation>Task C: e2 OVERLAP t25</p>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 OVERLAP-OR-AFTER e2</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Menlo Park , Calif. , company <etag>[said]</etag><sup>e5</sup> net was $7.4 million , or 22 cents a share , down from $32.3 million , or 86 cents a share , <ttag>[a year ago]<sup>t26</sup></ttag> .</p></table>
+<p class=attributes>t26 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e5 AFTER t26</p>
+<p class=relation>Task E: e5 AFTER e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Revenue <etag>[totaled]</etag><sup>e7</sup> $1.01 billion , a 43% <etag>[increase]</etag><sup>e8</sup> from $704.4 million , <etag>[reflecting]</etag><sup>e9</sup> the company 's <etag>[acquisition]</etag><sup>e10</sup> of Emery <ttag>[earlier this year]<sup>t27</sup></ttag> .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t27 { value:1989 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t27</p>
+<p class=relation>Task C: e8 AFTER t27</p>
+<p class=relation>Task E: e7 BEFORE e13</p>
+<p class=relation>Task F: e9 OVERLAP e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Profit also <etag>[suffered]</etag><sup>e11</sup> because of " intense " <etag>[discounting]</etag><sup>e12</sup> in its long-haul trucking business , the company <etag>[said]</etag><sup>e13</sup> .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e13 AFTER e14</p>
+<p class=relation>Task F: e13 OVERLAP e11</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Analysts had <etag>[expected]</etag><sup>e14</sup> Consolidated to <etag>[post]</etag><sup>e15</sup> a slim profit , and the company 's stock was <etag>[down]</etag><sup>e17</sup> only 25 cents to $30.25 in New York Stock Exchange composite trading <ttag>[yesterday]</ttag><sup>t36</sup> .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:I_STATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t36 { value:1989-10-25 type:DATE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e14 BEFORE t36</p>
+<p class=relation>Task C: e15 OVERLAP t36</p>
+<p class=relation>Task E: e14 BEFORE e21</p>
+<p class=relation>Task F: e14 BEFORE e15</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>" They have to <etag>[continue]</etag><sup>e19</sup> to <etag>[tighten]</etag><sup>e20</sup> their belts , " <etag>[said]</etag><sup>e21</sup> Craig Kloner , an analyst at Goldman , Sachs amp Co.</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e19 { polarity:POS modality:have to pos:VERB tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e21 BEFORE-OR-OVERLAP e19</p>
+</div>
+</body>
+</html>

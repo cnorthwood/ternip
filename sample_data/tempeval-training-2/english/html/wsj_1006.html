@@ -1,0 +1,363 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1006</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>In a stunning <etag>[shift]</etag><sup>e1</sup> in direction , Provigo Inc. <etag>[said]</etag><sup>e2</sup> it will <etag>[sell]</etag><sup>e3</sup> all its non-food operations to <etag>[concentrate]</etag><sup>e4</sup> solely on its retail and wholesale grocery business .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e2 AFTER e6</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+<p class=relation>Task F: e3 OVERLAP e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The non-food operations <etag>[accounted]</etag><sup>e6</sup> for about 27% of Provigo 's 7.38 billion Canadian dollars ( US$6.3 billion ) in sales in <ttag>[the latest fiscal year]<sup>t177</sup></ttag> .</p></table>
+<p class=attributes>t177 { value:1988 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e6 BEFORE e9</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In a related <etag>[move]</etag><sup>e8</sup> , Pierre Lortie , chairman and chief executive , <etag>[resigned]</etag><sup>e9</sup> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e9 AFTER e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Mr. Lortie <etag>[joined]</etag><sup>e10</sup> Provigo in <ttag>[1985]</ttag><sup>t141</sup> and <etag>[spearheaded]</etag><sup>e11</sup> the company 's <etag>[drive]</etag><sup>e12</sup> to <etag>[grow]</etag><sup>e13</sup> outside its traditional food business .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t141 { type:DATE value:1985 }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 BEFORE e15</p>
+<p class=relation>Task F: e12 OVERLAP e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>He could n 't be <etag>[reached]</etag><sup>e15</sup> for comment .</p></table>
+<p class=attributes>e15 { polarity:NEG modality:could pos:VERB tense:NONE aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e15 VAGUE e17</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Bertin Nadeau , newly <etag>[appointed]</etag><sup>e16</sup> chairman and interim chief executive of Provigo , would n 't <etag>[say]</etag><sup>e17</sup> if Mr. Lortie was <etag>[asked]</etag><sup>e18</sup> to <etag>[leave]</etag><sup>e19</sup> .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e17 { polarity:NEG modality:would pos:VERB tense:NONE aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e17 OVERLAP e21</p>
+<p class=relation>Task F: e18 OVERLAP e19</p>
+<p class=relation>Task F: e17 AFTER e18</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>" Mr. Lortie <etag>[felt]</etag><sup>e20</sup> less pertinent , " Mr. Nadeau <etag>[said]</etag><sup>e21</sup> , given the <etag>[decision]</etag><sup>e22</sup> to <etag>[dump]</etag><sup>e23</sup> Provigo 's non-food operations .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e21 AFTER e24</p>
+<p class=relation>Task F: e21 OVERLAP e20</p>
+<p class=relation>Task F: e22 OVERLAP e23</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>" At this stage it was <etag>[felt]</etag><sup>e24</sup> I was perhaps more pertinent as chief executive . "</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Mr. Nadeau also is chairman and chief executive of Unigesco Inc. , Provigo 's controlling shareholder .</p></table>
+<p/>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>At a news conference , Mr. Nadeau <etag>[said]</etag><sup>e29</sup> the <etag>[sale]</etag><sup>e30</sup> of the three non-food businesses , which account for nearly half the company 's C$900 million in assets , should be <etag>[completed]</etag><sup>e31</sup> in a " matter of months . "</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e31 { polarity:POS modality:should pos:VERB tense:NONE aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task F: e29 BEFORE e31</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>The three units are a nationwide pharmaceutical and health-products distributor , a small sporting-goods chain , and a combination catalog showroom and toy-store chain .</p></table>
+<p/>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Investors and analysts <etag>[applauded]</etag><sup>e32</sup> the news .</p></table>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e32 VAGUE e35</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>Provigo was the most active industrial stock on the Montreal Exchange , where it <etag>[closed]</etag><sup>e35</sup> at C$9.75 ( US$8.32 ) , up 75 Canadian cents .</p></table>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e35 VAGUE e39</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>" I <etag>[think]</etag><sup>e36</sup> it 's a pretty positive <etag>[development]</etag><sup>e38</sup> , " <etag>[said]</etag><sup>e39</sup> Ross Cowan , a financial analyst with Levesque Beaubien Geoffrion Inc. , of the <etag>[decision]</etag><sup>e40</sup> to <etag>[concentrate]</etag><sup>e41</sup> on groceries .</p></table>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e39 OVERLAP-OR-AFTER e43</p>
+<p class=relation>Task F: e39 OVERLAP e36</p>
+<p class=relation>Task F: e40 OVERLAP e41</p>
+<p class=relation>Task F: e36 OVERLAP e38</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>Mr. Lortie 's <etag>[departure]</etag><sup>e42</sup> , while sudden , was <etag>[seen]</etag><sup>e43</sup> as <etag>[inevitable]</etag><sup>e44</sup> in light of the <etag>[shift]</etag><sup>e45</sup> in strategy .</p></table>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:PERCEPTION }</p>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e43 OVERLAP e50</p>
+<p class=relation>Task F: e43 OVERLAP e44</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>" The non-food operations were largely Mr. Lortie 's creation { and } his strategy did n 't <etag>[work]</etag><sup>e49</sup> , " <etag>[said]</etag><sup>e50</sup> Steven Holt , a financial analyst with Midland Doherty Ltd. Provigo 's profit record over <ttag>[the past two years]<sup>t147</sup></ttag> <etag>[tarnished]</etag><sup>e52</sup> the company 's and Mr. Lortie 's reputations .</p></table>
+<p class=attributes>t147 { value:P2Y type:DURATION }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e49 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e50 AFTER t147</p>
+<p class=relation>Task E: e50 AFTER e54</p>
+<p class=relation>Task F: e50 OVERLAP-OR-AFTER e49</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>For <ttag>[the six months]<sup>t148</sup></ttag> <etag>[ended]</etag><sup>e53</sup> <ttag>[Aug. 12]<sup>t149</sup></ttag> , Provigo <etag>[posted]</etag><sup>e54</sup> net income of C$6.5 million , or eight Canadian cents a share , compared with C$18.1 million , or 21 Canadian cents a share <ttag>[, a year]<sup>t150</sup></ttag> earlier .</p></table>
+<p class=attributes>t150 { value:1988-08-12 type:DATE }</p>
+<p class=attributes>t148 { value:P6M type:DURATION }</p>
+<p class=attributes>t149 { value:1989-08-12 type:DATE }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e54 AFTER t148</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>Sales were C$4.2 billion compared with C$3.7 billion .</p></table>
+<p/>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line><ttag>[Last month]<sup>t151</sup></ttag> , Canadian Bond Rating Service <etag>[downgraded]</etag><sup>e58</sup> Provigo 's commercial paper and debentures because of its lackluster <etag>[performance]</etag><sup>e59</sup> .</p></table>
+<p class=attributes>t151 { value:1989-09 type:DATE }</p>
+<p class=attributes>e59 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e58 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e58 BEFORE e61</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>Analysts are <etag>[skeptical]</etag><sup>e61</sup> Provigo will be able to <etag>[sell]</etag><sup>e63</sup> the non-food businesses as a group for at least book value , and are <etag>[expecting]</etag><sup>e64</sup> <etag>[write-downs]</etag><sup>e65</sup> .</p></table>
+<p class=attributes>e65 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e61 OVERLAP e66</p>
+<p class=relation>Task F: e61 BEFORE e63</p>
+<p class=relation>Task F: e64 BEFORE e65</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>Mr. Nadeau <etag>[said]</etag><sup>e66</sup> he could n 't yet <etag>[say]</etag><sup>e67</sup> if the sale prices would <etag>[match]</etag><sup>e68</sup> book values .</p></table>
+<p class=attributes>e67 { polarity:NEG modality:could pos:VERB tense:NONE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e66 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e68 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e66 OVERLAP e69</p>
+<p class=relation>Task F: e67 BEFORE e68</p>
+<p class=relation>Task F: e66 OVERLAP e67</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>He <etag>[said]</etag><sup>e69</sup> all three non-food operations are <etag>[profitable]</etag><sup>e71</sup> .</p></table>
+<p class=attributes>e69 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e71 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e69 OVERLAP e72</p>
+<p class=relation>Task F: e69 OVERLAP e71</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>Mr. Nadeau <etag>[said]</etag><sup>e72</sup> <etag>[discussions]</etag><sup>e73</sup> are under way with potential purchasers of each of the units .</p></table>
+<p class=attributes>e73 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e72 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e72 OVERLAP e74</p>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>He <etag>[declined]</etag><sup>e74</sup> to <etag>[confirm]</etag><sup>e75</sup> or <etag>[deny]</etag><sup>e76</sup> <etag>[reports]</etag><sup>e77</sup> that Provigo executive Henri Roy is <etag>[trying]</etag><sup>e78</sup> to <etag>[put]</etag><sup>e79</sup> together a management <etag>[buy-out]</etag><sup>e80</sup> of the catalogue showroom unit .</p></table>
+<p class=attributes>e78 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e79 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e80 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e74 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e75 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e76 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e77 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e74 VAGUE e81</p>
+<p class=relation>Task F: e78 OVERLAP e79</p>
+<p class=relation>Task F: e74 OVERLAP e76</p>
+<p class=relation>Task F: e75 OVERLAP-OR-AFTER e77</p>
+<p class=relation>Task F: e76 OVERLAP-OR-AFTER e77</p>
+<p class=relation>Task F: e77 OVERLAP e78</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>Mr. Roy could n 't be <etag>[reached]</etag><sup>e81</sup> .</p></table>
+<p class=attributes>e81 { polarity:NEG modality:could pos:VERB tense:NONE aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e81 VAGUE e82</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line>Yvon Bussieres was <etag>[named]</etag><sup>e82</sup> senior executive vice president and chief operating officer of Provigo , a new position .</p></table>
+<p class=attributes>e82 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line>Mr. Bussieres was president and chief operating officer of Provigo 's Quebec retail and wholesale grocery unit .</p></table>
+<p/>
+</div>
+
+<div id=s27 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>27
+  <td><p class=line>Mr. Nadeau <etag>[said]</etag><sup>e84</sup> he <etag>[intends]</etag><sup>e85</sup> to <etag>[remain]</etag><sup>e86</sup> Provigo 's chief executive only until the non-food businesses are <etag>[sold]</etag><sup>e87</sup> , after a which a new chief executive will be <etag>[named]</etag><sup>e88</sup> .</p></table>
+<p class=attributes>e84 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e88 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e85 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e87 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e86 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task F: e84 OVERLAP e85</p>
+<p class=relation>Task F: e85 BEFORE-OR-OVERLAP e86</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1025</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Sotheby 's Holdings Inc. , the parent of the auction house Sotheby 's , <etag>[said]</etag><sup>e1</sup> its net <etag>[loss]</etag><sup>e2</sup> for the seasonally slow <ttag>[third quarter]<sup>t21</sup></ttag> <etag>[narrowed]</etag><sup>e3</sup> from <ttag>[a year earlier]<sup>t22</sup></ttag> on a <etag>[leap]</etag><sup>e4</sup> in operating revenue .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t22 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t21 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t22</p>
+<p class=relation>Task C: e2 AFTER t22</p>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The New York-based company <etag>[reported]</etag><sup>e5</sup> a <ttag>[third-quarter]</ttag><sup>t36</sup> net <etag>[loss]</etag><sup>e6</sup> of $5.1 million , or 10 cents a share , compared with a <ttag>[year-earlier]</ttag><sup>t37</sup> net <etag>[loss]</etag><sup>e8</sup> of $6.2 million , or 12 cents a share .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t37 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>t36 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t37</p>
+<p class=relation>Task C: e6 AFTER t37</p>
+<p class=relation>Task C: e5 AFTER t37</p>
+<p class=relation>Task E: e5 AFTER e9</p>
+<p class=relation>Task F: e5 OVERLAP-OR-AFTER e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Operating revenue <etag>[surged]</etag><sup>e9</sup> 54% in <ttag>[the latest period]<sup>t38</sup></ttag> to $42.9 million from $27.7 million .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t38 { value:1989-QX type:DATE }</p>
+<p/>
+<p class=relation>Task E: e9 BEFORE e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The company <etag>[said]</etag><sup>e10</sup> 80% of its auction business is usually <etag>[conducted]</etag><sup>e11</sup> in the <ttag>[second]</ttag><sup>t40</sup> and <ttag>[fourth quarters]<sup>t41</sup></ttag> , with <ttag>[the current quarter]<sup>t42</sup></ttag> having <etag>[begun]</etag><sup>e12</sup> " extremely well . "</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t40 { value:XXXX-Q2 type:SET }</p>
+<p class=attributes>t41 { value:XXXX-Q4 type:SET }</p>
+<p class=attributes>t42 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t42</p>
+<p class=relation>Task C: e10 OVERLAP t42</p>
+<p class=relation>Task F: e10 OVERLAP e11</p>
+</div>
+</body>
+</html>

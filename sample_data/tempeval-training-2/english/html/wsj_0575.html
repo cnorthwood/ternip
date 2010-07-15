@@ -1,0 +1,529 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0575</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Control Data Corp. , which just <ttag>[months ago]<sup>t204</sup></ttag> was <etag>[hemorrhaging]</etag><sup>e1</sup> financially , <etag>[thinks]</etag><sup>e2</sup> it will be <etag>[healthy]</etag><sup>e4</sup> enough <ttag>[soon]</ttag><sup>t206</sup> to <etag>[consider]</etag><sup>e5</sup> <etag>[repurchasing]</etag><sup>e6</sup> public debt .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:ADJECTIVE tense:FUTURE aspect:NONE class:STATE }</p>
+<p class=attributes>t206 { type:DATE value:FUTURE_REF }</p>
+<p class=attributes>t204 { value:PXM type:DURATION }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 AFTER t204</p>
+<p class=relation>Task E: e2 OVERLAP e8</p>
+<p class=relation>Task F: e2 BEFORE e4</p>
+<p class=relation>Task F: e5 BEFORE e6</p>
+<p class=relation>Task F: e4 BEFORE e5</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Moreover , the company , whose go-it-alone approach nearly <etag>[proved]</etag><sup>e7</sup> fatal , <ttag>[now]</ttag><sup>t2041</sup> <etag>[sees]</etag><sup>e8</sup> alliances with others as the way back to prosperity in what it calls " the data solutions " business .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t2041 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t2041</p>
+<p class=relation>Task E: e8 AFTER e16</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>" I 'm not saying everything is hunky-dory , but we have <etag>[completed]</etag><sup>e14</sup> the <etag>[transition]</etag><sup>e15</sup> , " Robert M. Price , chairman and chief executive , <etag>[said]</etag><sup>e16</sup> in an <etag>[interview]</etag><sup>e17</sup> .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e16 AFTER e14</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>" Transition " is a reference to the company 's <ttag>[five-year]</ttag><sup>t209</sup> restructuring <etag>[effort]</etag><sup>e19</sup> .</p></table>
+<p class=attributes>t209 { type:DURATION value:P5Y }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>During <ttag>[that time]<sup>t213</sup></ttag> , Control Data <etag>[had]</etag><sup>e20</sup> losses of more than $1 billion .</p></table>
+<p class=attributes>t213 { value:P5Y type:DURATION }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e20 OVERLAP t213</p>
+<p class=relation>Task E: e20 BEFORE e24</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Now , following asset sales that <etag>[shrank]</etag><sup>e22</sup> revenue by more than one-third <ttag>[this year]<sup>t2110</sup></ttag> alone , Control Data is <etag>[flush]</etag><sup>e24</sup> with cash .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t2110 { value:1989 type:DATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e24 OVERLAP e25</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>So its senior executives are <etag>[talking]</etag><sup>e25</sup> openly about possibly <etag>[buying]</etag><sup>e26</sup> back some of the company 's $172.5 million in subordinated convertible debentures <ttag>[next year]<sup>t218</sup></ttag> .</p></table>
+<p class=attributes>e26 { polarity:POS modality:none pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>t218 { value:1990 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e26 OVERLAP t218</p>
+<p class=relation>Task C: e25 BEFORE t218</p>
+<p class=relation>Task E: e25 OVERLAP e30</p>
+<p class=relation>Task F: e25 BEFORE e26</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>" We 'd <etag>[like]</etag><sup>e27</sup> to <etag>[continue]</etag><sup>e28</sup> to <etag>[reduce]</etag><sup>e29</sup> debt , " President Lawrence Perlman <etag>[said]</etag><sup>e30</sup> .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e30 OVERLAP e35</p>
+<p class=relation>Task F: e27 BEFORE-OR-OVERLAP e28</p>
+<p class=relation>Task F: e30 OVERLAP e27</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line><etag>[Noting]</etag><sup>e31</sup> that the company is <etag>[offering]</etag><sup>e32</sup> to <etag>[buy]</etag><sup>e33</sup> back $154.2 million in senior notes <etag>[paying]</etag><sup>e34</sup> 12 3/4% , he <etag>[said]</etag><sup>e35</sup> the response will <etag>[help]</etag><sup>e37</sup> <etag>[determine]</etag><sup>e38</sup> future debt-reduction <etag>[efforts]</etag><sup>e39</sup> .</p></table>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e35 OVERLAP e46</p>
+<p class=relation>Task F: e38 BEFORE e39</p>
+<p class=relation>Task F: e37 BEFORE e38</p>
+<p class=relation>Task F: e35 BEFORE e37</p>
+<p class=relation>Task F: e31 OVERLAP e32</p>
+<p class=relation>Task F: e32 BEFORE e33</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>The <etag>[offer]</etag><sup>e40</sup> was automatically <etag>[triggered]</etag><sup>e41</sup> by the <ttag>[recent]</ttag><sup>t222</sup> <etag>[sale]</etag><sup>e42</sup> of Control Data 's Imprimis disk-drive business to Seagate Technology Inc. Mr. Perlman , who is also acting chief financial officer and the odds-on favorite to become the next chief executive , <etag>[said]</etag><sup>e46</sup> the company is <etag>[achieving]</etag><sup>e47</sup> " modest positive cash <etag>[flow]</etag><sup>e48</sup> from operations , and we <etag>[expect]</etag><sup>e49</sup> that to <etag>[continue]</etag><sup>e50</sup> into <ttag>[1990]</ttag><sup>t224</sup> . "</p></table>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_STATE }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t224 { type:DATE value:1990 }</p>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t222 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e49 BEFORE t224</p>
+<p class=relation>Task C: e50 OVERLAP t224</p>
+<p class=relation>Task C: e46 BEFORE t224</p>
+<p class=relation>Task C: e40 BEFORE t224</p>
+<p class=relation>Task C: e42 BEFORE t224</p>
+<p class=relation>Task E: e46 OVERLAP e51</p>
+<p class=relation>Task F: e49 BEFORE e50</p>
+<p class=relation>Task F: e47 OVERLAP e48</p>
+<p class=relation>Task F: e46 OVERLAP e47</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>He <etag>[said]</etag><sup>e51</sup> the company <etag>[has]</etag><sup>e52</sup> no intention of <etag>[tapping]</etag><sup>e53</sup> its short-term bank lines " for <ttag>[a good part of 1990]<sup>t228</sup></ttag> . "</p></table>
+<p class=attributes>t228 { type:DATE value:1990 }</p>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e51 BEFORE t228</p>
+<p class=relation>Task C: e52 OVERLAP t228</p>
+<p class=relation>Task E: e51 OVERLAP e55</p>
+<p class=relation>Task F: e51 OVERLAP e52</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Sometime <ttag>[next year]<sup>t229</sup></ttag> , Control Data will " <etag>[develop]</etag><sup>e54</sup> a new bank relationship , " Mr. Perlman <etag>[said]</etag><sup>e55</sup> .</p></table>
+<p class=attributes>t229 { value:1990 type:DATE }</p>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e55 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e55 BEFORE t229</p>
+<p class=relation>Task E: e55 OVERLAP-OR-AFTER e57</p>
+<p class=relation>Task F: e55 BEFORE e54</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>In <ttag>[recent months]<sup>t232</sup></ttag> a group of lenders , led by Bank of America , has <etag>[extended]</etag><sup>e57</sup> Control Data up to $90 million in revolving loans through <ttag>[January]</ttag><sup>t237</sup> , as well as $115 million in standby letters of credit .</p></table>
+<p class=attributes>t232 { value:PXM type:DURATION }</p>
+<p class=attributes>t237 { value:1990-01 type:DATE }</p>
+<p class=attributes>e57 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Loan covenants require that the company achieve specified levels of operating earnings and meet a rolling four-quarter profitability test .</p></table>
+<p/>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line><ttag>[Last week]<sup>t238</sup></ttag> Control Data <etag>[reported]</etag><sup>e61</sup> <ttag>[third-quarter]</ttag><sup>t239</sup> <etag>[earnings]</etag><sup>e62</sup> of $9.8 million , or 23 cents a share , on revenue of $763 million .</p></table>
+<p class=attributes>t238 { value:1989-WXX type:DATE }</p>
+<p class=attributes>t239 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e61 OVERLAP t238</p>
+<p class=relation>Task E: e61 AFTER e63</p>
+<p class=relation>Task F: e61 AFTER e62</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>Through <ttag>[the first nine months]<sup>t241</sup></ttag> , the company <etag>[had]</etag><sup>e63</sup> a <etag>[loss]</etag><sup>e64</sup> of $484 million , largely reflecting the <etag>[closing]</etag><sup>e66</sup> of its supercomputer unit .</p></table>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e66 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t241 { value:P9M type:DURATION }</p>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e64 OVERLAP t241</p>
+<p class=relation>Task C: e63 OVERLAP t241</p>
+<p class=relation>Task E: e63 BEFORE e69</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>While a few assets are still being shopped -- including the sports and entertainment ticketing portion of the company 's Ticketron unit -- Mr. Price <etag>[said]</etag><sup>e69</sup> future restructuring would be a question of strategy .</p></table>
+<p class=attributes>e69 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task F: e69 OVERLAP e71</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>" We do n 't <etag>[need]</etag><sup>e71</sup> the cash . "</p></table>
+<p class=attributes>e71 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e71 OVERLAP e74</p>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>Ticketron 's automated wagering business , which operates lotteries in a half dozen states , is not for sale , the company <etag>[said]</etag><sup>e74</sup> .</p></table>
+<p class=attributes>e74 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e74 OVERLAP e75</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>Rather , Mr. Perlman <etag>[said]</etag><sup>e75</sup> , Control Data <etag>[intends]</etag><sup>e76</sup> to <etag>[bid]</etag><sup>e77</sup> for the coming Minnesota lottery contract and is <etag>[seeking]</etag><sup>e78</sup> new applications for the technology overseas , where " there is great interest in games of skill . "</p></table>
+<p class=attributes>e78 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e76 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e75 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e77 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e75 BEFORE e80</p>
+<p class=relation>Task F: e76 BEFORE e77</p>
+<p class=relation>Task F: e75 OVERLAP e76</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>He would n 't <etag>[elaborate]</etag><sup>e80</sup> .</p></table>
+<p class=attributes>e80 { polarity:NEG modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e80 AFTER e83</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>Control Data 's semiconductor business , VTC Inc. , <etag>[continues]</etag><sup>e81</sup> to <etag>[lose]</etag><sup>e82</sup> money , the executives <etag>[acknowledged]</etag><sup>e83</sup> , but they <etag>[said]</etag><sup>e84</sup> they consider some of the technology vital to national defense and so are <etag>[reluctant]</etag><sup>e86</sup> to <etag>[dispose]</etag><sup>e87</sup> of it .</p></table>
+<p class=attributes>e82 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e84 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e83 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e87 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e86 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e81 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e83 AFTER e90</p>
+<p class=relation>Task F: e84 OVERLAP e86</p>
+<p class=relation>Task F: e83 OVERLAP e81</p>
+<p class=relation>Task F: e86 BEFORE e87</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>The company 's strategy for keeping its computer products business profitable -- it <ttag>[recently]</ttag><sup>t1991</sup> <etag>[achieved]</etag><sup>e90</sup> profitability after <ttag>[several quarters]<sup>t1994</sup></ttag> of <etag>[losses]</etag><sup>e91</sup> -- calls for a narrow focus and a lid on expenses .</p></table>
+<p class=attributes>t1994 { type:DURATION value:PXQ }</p>
+<p class=attributes>t1991 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e91 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e90 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e91 OVERLAP t1994</p>
+<p class=relation>Task E: e90 BEFORE e94</p>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>Partly , costs will be <etag>[held]</etag><sup>e93</sup> down through strategic technology alliances , management <etag>[said]</etag><sup>e94</sup> .</p></table>
+<p class=attributes>e94 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e93 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e94 VAGUE e95</p>
+<p class=relation>Task F: e94 BEFORE e93</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>Control Data <ttag>[recently]</ttag><sup>t1995</sup> <etag>[announced]</etag><sup>e95</sup> an <etag>[agreement]</etag><sup>e96</sup> with MIPS Computer Systems Inc. to jointly <etag>[develop]</etag><sup>e97</sup> machines with simplified operating software .</p></table>
+<p class=attributes>e95 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t1995 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e96 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e97 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e95 OVERLAP t1995</p>
+<p class=relation>Task C: e96 BEFORE t1995</p>
+<p class=relation>Task E: e95 BEFORE e98</p>
+<p class=relation>Task F: e95 OVERLAP-OR-AFTER e96</p>
+<p class=relation>Task F: e96 BEFORE e97</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line>James E. Ousley , computer products group president , <etag>[said]</etag><sup>e98</sup> such arrangements could <etag>[help]</etag><sup>e99</sup> <etag>[slash]</etag><sup>e100</sup> Control Data 's computer research and development costs in half by <ttag>[the end of 1990]<sup>t2000</sup></ttag> .</p></table>
+<p class=attributes>e99 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>t2000 { value:1990 type:DATE }</p>
+<p class=attributes>e100 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e98 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e99 BEFORE t2000</p>
+<p class=relation>Task C: e98 BEFORE t2000</p>
+<p class=relation>Task E: e98 OVERLAP e101</p>
+<p class=relation>Task F: e99 BEFORE-OR-OVERLAP e100</p>
+<p class=relation>Task F: e98 BEFORE e99</p>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line>He <etag>[disclosed]</etag><sup>e101</sup> that before Control Data <etag>[scrapped]</etag><sup>e102</sup> its ETA Systems Inc. supercomputer business <ttag>[this past spring]<sup>t2001</sup></ttag> , those costs were <etag>[running]</etag><sup>e103</sup> at nearly 35% of group revenue .</p></table>
+<p class=attributes>t2001 { value:1989-SP type:DATE }</p>
+<p class=attributes>e101 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e102 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e103 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e101 OVERLAP e105</p>
+<p class=relation>Task F: e101 AFTER e103</p>
+</div>
+
+<div id=s27 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>27
+  <td><p class=line>At the same time four of six design projects were <etag>[spiked]</etag><sup>e104</sup> , he <etag>[said]</etag><sup>e105</sup> .</p></table>
+<p class=attributes>e104 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e105 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e105 OVERLAP e109</p>
+<p class=relation>Task F: e105 NONE e104</p>
+</div>
+
+<div id=s28 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>28
+  <td><p class=line><etag>[Asked]</etag><sup>e106</sup> how the company <etag>[hopes]</etag><sup>e107</sup> to <etag>[expand]</etag><sup>e108</sup> its computer hardware business , Mr. Ousley <etag>[said]</etag><sup>e109</sup> it <etag>[sees]</etag><sup>e110</sup> good opportunities in systems integration .</p></table>
+<p class=attributes>e106 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e110 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e107 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e109 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e108 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e109 OVERLAP e114</p>
+<p class=relation>Task F: e107 BEFORE e108</p>
+<p class=relation>Task F: e109 OVERLAP e111</p>
+</div>
+
+<div id=s29 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>29
+  <td><p class=line>" We <etag>[think]</etag><sup>e111</sup> we 're <etag>[getting]</etag><sup>e112</sup> only 10% of the integration dollars our customers are <etag>[spending]</etag><sup>e113</sup> , " he <etag>[said]</etag><sup>e114</sup> .</p></table>
+<p class=attributes>e114 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e113 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e111 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e112 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e114 BEFORE e117</p>
+<p class=relation>Task F: e111 OVERLAP e112</p>
+</div>
+
+<div id=s30 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>30
+  <td><p class=line>" We 're in environments that are going to <etag>[spend]</etag><sup>e117</sup> a lot of money on that . "</p></table>
+<p class=attributes>e117 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s31 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>31
+  <td><p class=line>Control Data mainframes are designed for numerically intensive computing users , such as the scientific , engineering and academic communities .</p></table>
+<p/>
+</div>
+
+<div id=s32 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>32
+  <td><p class=line>Utilities management is a major commercial niche .</p></table>
+<p/>
+</div>
+
+<div id=s33 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>33
+  <td><p class=line><etag>[Reviewing]</etag><sup>e120</sup> the company 's <etag>[scrape]</etag><sup>e121</sup> with disaster , Mr. Price <etag>[conceded]</etag><sup>e122</sup> it had <etag>[tried]</etag><sup>e123</sup> to <etag>[do]</etag><sup>e124</sup> too much on its own .</p></table>
+<p class=attributes>e120 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e123 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>e124 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e121 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e122 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e123 BEFORE e124</p>
+<p class=relation>Task F: e122 AFTER e123</p>
+</div>
+
+<div id=s34 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>34
+  <td><p class=line>" Absolutely , " he said .</p></table>
+<p/>
+</div>
+
+<div id=s35 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>35
+  <td><p class=line>But while its stock is <etag>[selling]</etag><sup>e126</sup> at about half Control Data 's estimated breakup value , neither Messrs .</p></table>
+<p class=attributes>e126 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s36 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>36
+  <td><p class=line>Perlman nor Price <etag>[said]</etag><sup>e127</sup> he <etag>[spends]</etag><sup>e128</sup> much time <etag>[considering]</etag><sup>e129</sup> the possibility of a hostile <etag>[takeover]</etag><sup>e130</sup> .</p></table>
+<p class=attributes>e129 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_STATE }</p>
+<p class=attributes>e127 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e128 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e130 { polarity:POS modality:none pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e127 OVERLAP e133</p>
+<p class=relation>Task F: e129 BEFORE e130</p>
+<p class=relation>Task F: e127 OVERLAP e128</p>
+</div>
+
+<div id=s37 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>37
+  <td><p class=line>" We 've been <etag>[listed]</etag><sup>e131</sup> as a candidate for so long it 's not worth worrying about , " <etag>[said]</etag><sup>e133</sup> Mr. Price .</p></table>
+<p class=attributes>e133 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e131 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e133 AFTER e131</p>
+</div>
+</body>
+</html>

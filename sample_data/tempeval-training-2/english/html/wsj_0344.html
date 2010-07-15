@@ -1,0 +1,127 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0344</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Price Stern Sloan Inc. <etag>[said]</etag><sup>e1</sup> it <etag>[hired]</etag><sup>e2</sup> an investment banking firm to <etag>[assist]</etag><sup>e3</sup> in <etag>[evaluating]</etag><sup>e4</sup> restructuring or merger alternatives and <etag>[reported]</etag><sup>e5</sup> a net <etag>[loss]</etag><sup>e6</sup> of $8.1 million , or $2.14 a share , for <ttag>[the third quarter]<sup>t41</sup></ttag> ended <ttag>[Sept. 30]<sup>t42</sup></ttag> .</p></table>
+<p class=attributes>t42 { value:1989-09-30 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t41 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e5 AFTER t42</p>
+<p class=relation>Task C: e6 BEFORE-OR-OVERLAP t42</p>
+<p class=relation>Task C: e1 AFTER t42</p>
+<p class=relation>Task E: e1 OVERLAP e7</p>
+<p class=relation>Task F: e3 OVERLAP e4</p>
+<p class=relation>Task F: e5 AFTER e6</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>These results <etag>[compare]</etag><sup>e7</sup> with net income of $1.8 million , or 44 cents a share , for <ttag>[the corresponding period last year]<sup>t46</sup></ttag> .</p></table>
+<p class=attributes>t46 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e7 AFTER e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line><ttag>[This quarter]<sup>t47</sup></ttag> 's <etag>[loss]</etag><sup>e8</sup> includes pretax <etag>[charges]</etag><sup>e10</sup> of $4.9 million on the proposed discontinuation of the company 's troubled British subsidiary , and $3.7 million of other write-offs the company <etag>[said]</etag><sup>e12</sup> were non-recurring and principally related to inventory , publishing advances and pre-publication costs .</p></table>
+<p class=attributes>t47 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t47</p>
+<p class=relation>Task C: e12 OVERLAP t47</p>
+<p class=relation>Task C: e10 OVERLAP t47</p>
+<p class=relation>Task E: e8 BEFORE e17</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The publishing concern <etag>[said]</etag><sup>e17</sup> it <etag>[retained]</etag><sup>e18</sup> the investment banking firm of Donaldson , Lufkin amp Jenrette Securities Inc. to <etag>[act]</etag><sup>e19</sup> as its financial adviser , <etag>[assisting]</etag><sup>e20</sup> in the <etag>[evaluation]</etag><sup>e21</sup> of various financial and strategic alternatives , including debt refinancing , raising capital , recapitalization , a merger or sale of the company .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e17 AFTER e27</p>
+<p class=relation>Task F: e20 OVERLAP e21</p>
+<p class=relation>Task F: e17 AFTER e18</p>
+<p class=relation>Task F: e18 BEFORE e19</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company also <etag>[retained]</etag><sup>e27</sup> attorney Martin P. Levin , a director of the company and former head of the Times-Mirror Publishing Group , as an adviser .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Net sales for <ttag>[this year 's third quarter]<sup>t49</sup></ttag> were $14 million , down from $21.4 million <ttag>[last year]<sup>t53</sup></ttag> .</p></table>
+<p class=attributes>t53 { value:1988 type:DATE }</p>
+<p class=attributes>t49 { value:1989-Q3 type:DATE }</p>
+<p/>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>The company <etag>[attributed]</etag><sup>e30</sup> the <etag>[decrease]</etag><sup>e31</sup> in part to the exclusion of the company 's British sales from the current year 's figures as a result of the subsidiary 's status as a proposed discontinued operation and , in part , to lower sales in certain key foreign and domestic accounts .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e30 AFTER e31</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>U.K. <etag>[sales]</etag><sup>e34</sup> for <ttag>[last year 's quarter]<sup>t58</sup></ttag> were about $3 million .</p></table>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t58 { value:1988-Q3 type:DATE }</p>
+<p/>
+</div>
+</body>
+</html>

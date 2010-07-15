@@ -1,0 +1,190 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>SO11.txt.pos</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line><ttag>[28/09/1993]</ttag><sup>t1</sup> Cassa Bologna cresce nel Rolo - Rilevato ai blocchi un altro 1,00% .</p></table>
+<p class=attributes>t1 { type:DATE val:1993-09-28 }</p>
+<p/>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>MILANO - La Cassa di risparmio di Bologna ( Carisbo ) ha ancora <etag>[incrementato]</etag><sup>e1</sup> la propria partecipazione nel Credito romagnolo , nell' ambito dell' <etag>[alleanza]</etag><sup>e2</sup> strategica con <etag>[scambio]</etag><sup>e3</sup> azionario <etag>[annunciata]</etag><sup>e4</sup> <ttag>[lo scorso giugno]<sup>t2</sup></ttag> .</p></table>
+<p class=attributes>e1 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:PRESENT }</p>
+<p class=attributes>t2 { type:DATE val:1992-06 }</p>
+<p class=attributes>e4 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e3 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e2 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e4 overlap t2</p>
+<p class=relation>Task C: e2 before-or-overlap t2</p>
+<p class=relation>Task D: e1 before t0</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task D: e3 vague t0</p>
+<p class=relation>Task D: e2 overlap t0</p>
+<p class=relation>Task E: e1 before-or-overlap e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>E anche il Rolo , <etag>[accelerando]</etag><sup>e5</sup> i tempi di <etag>[realizzazione]</etag><sup>e6</sup> del piano , ha <etag>[convocato]</etag><sup>e7</sup> per <ttag>[il prossimo 7 ottobre]<sup>t3</sup></ttag> l' <etag>[assemblea]</etag><sup>e8</sup> straordinaria del Rolo Spa ( l' azienda bancaria interamente <etag>[controllata]</etag><sup>e9</sup> dalla holding <etag>[quotata]</etag><sup>e10</sup> ) per il <etag>[varo]</etag><sup>e11</sup> del <etag>[prestito]</etag><sup>e12</sup> obbligazionario da 200 miliardi , <etag>[studiato]</etag><sup>e13</sup> per <etag>[finanziare]</etag><sup>e14</sup> l' <etag>[acquisizione]</etag><sup>e15</sup> del 10,00% della Carisbo Spa con la <etag>[sottoscrizione]</etag><sup>e16</sup> di un <etag>[aumento]</etag><sup>e17</sup> di capitale .</p></table>
+<p class=attributes>e16 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e6 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e12 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e5 { aspect:IMPERFECTIVE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e15 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e7 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:PRESENT }</p>
+<p class=attributes>e17 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>t3 { type:DATE val:1993-10-07 }</p>
+<p class=attributes>e10 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e8 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e11 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e13 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e9 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e14 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e7 before t3</p>
+<p class=relation>Task C: e8 overlap t3</p>
+<p class=relation>Task D: e16 vague t0</p>
+<p class=relation>Task D: e6 vague t0</p>
+<p class=relation>Task D: e12 vague t0</p>
+<p class=relation>Task D: e5 vague t0</p>
+<p class=relation>Task D: e15 vague t0</p>
+<p class=relation>Task D: e7 before t0</p>
+<p class=relation>Task D: e17 vague t0</p>
+<p class=relation>Task D: e10 overlap t0</p>
+<p class=relation>Task D: e8 after t0</p>
+<p class=relation>Task D: e11 vague t0</p>
+<p class=relation>Task D: e13 before t0</p>
+<p class=relation>Task D: e9 overlap t0</p>
+<p class=relation>Task D: e14 vague t0</p>
+<p class=relation>Task E: e7 overlap e18</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Sul mercato dei blocchi e' intanto <etag>[transitato]</etag><sup>e18</sup> <ttag>[ieri]</ttag><sup>t4</sup> - sotto tre diversi contratti - un pacchetto di 1,95 milioni di azioni del Rolo ( <etag>[quotato]</etag><sup>e19</sup> al Ristretto ) pari all' 1,00% circa del capitale .</p></table>
+<p class=attributes>t4 { type:DATE val:1993-09-27 }</p>
+<p class=attributes>e19 { aspect:PERFECTIVE modality:NONE mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e18 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:PRESENT }</p>
+<p/>
+<p class=relation>Task C: e18 overlap t4</p>
+<p class=relation>Task D: e19 overlap t0</p>
+<p class=relation>Task D: e18 before t0</p>
+<p class=relation>Task E: e18 after e20</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Le azioni sono state <etag>[trattate]</etag><sup>e20</sup> al <etag>[prezzo]</etag><sup>e21</sup> di 20860 lire , un <etag>[valore]</etag><sup>e22</sup> superiore alle 12800 lire della <etag>[chiusura]</etag><sup>e23</sup> al listino .</p></table>
+<p class=attributes>e23 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e20 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:PAST }</p>
+<p class=attributes>e22 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e21 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e23 vague t0</p>
+<p class=relation>Task D: e20 before t0</p>
+<p class=relation>Task D: e22 vague t0</p>
+<p class=relation>Task D: e21 vague t0</p>
+<p class=relation>Task E: e20 before e30</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Il <etag>[controvalore]</etag><sup>e24</sup> dell' operazione ( di cui non <etag>[e']</etag><sup>e25</sup> <etag>[noto]</etag><sup>e26</sup> il venditore , anche se <etag>[continuano]</etag><sup>e27</sup> le <etag>[indiscrezioni]</etag><sup>e28</sup> sul progressivo <etag>[disimpegno]</etag><sup>e29</sup> del gruppo De Benedetti ) e' <etag>[stato]</etag><sup>e30</sup> di una quarantina di miliardi .</p></table>
+<p class=attributes>e30 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:PRESENT }</p>
+<p class=attributes>e25 { aspect:IMPERFECTIVE modality: mood:NONE polarity:POS tense:PRESENT }</p>
+<p class=attributes>e29 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e28 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e26 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e27 { aspect:IMPERFECTIVE modality:NONE mood:NONE polarity:POS tense:PRESENT }</p>
+<p class=attributes>e24 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e30 before t0</p>
+<p class=relation>Task D: e25 overlap t0</p>
+<p class=relation>Task D: e29 vague t0</p>
+<p class=relation>Task D: e28 vague t0</p>
+<p class=relation>Task D: e26 overlap t0</p>
+<p class=relation>Task D: e27 vague t0</p>
+<p class=relation>Task D: e24 vague t0</p>
+<p class=relation>Task E: e30 vague e31</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Fonti creditizie hanno <etag>[confermato]</etag><sup>e31</sup> che l' <etag>[acquirente]</etag><sup>e32</sup> <etag>[e']</etag><sup>e33</sup> la Carisbo , che in teoria <etag>[dovrebbe]</etag><sup>e34</sup> <etag>[accumulare]</etag><sup>e35</sup> il 5,00% del Rolo e che a <ttag>[fine agosto]<sup>t5</sup></ttag> aveva gia' <etag>[rilevato]</etag><sup>e36</sup> fuori mercato un pacco dello 0,65 per cento .</p></table>
+<p class=attributes>e31 { aspect:PERFECTIVE modality:NONE mood:NONE polarity:POS tense:PRESENT }</p>
+<p class=attributes>e32 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e33 { aspect:IMPERFECTIVE modality: mood:NONE polarity:POS tense:PRESENT }</p>
+<p class=attributes>e34 { aspect:IMPERFECTIVE modality:DOVERE mood:CONDITIONAL polarity:POS tense:NONE }</p>
+<p class=attributes>e35 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>t5 { type:DATE val:1993-08 }</p>
+<p class=attributes>e36 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:PAST }</p>
+<p/>
+<p class=relation>Task C: e36 overlap t5</p>
+<p class=relation>Task D: e31 before t0</p>
+<p class=relation>Task D: e32 vague t0</p>
+<p class=relation>Task D: e33 overlap t0</p>
+<p class=relation>Task D: e34 vague t0</p>
+<p class=relation>Task D: e35 vague t0</p>
+<p class=relation>Task D: e36 before t0</p>
+<p class=relation>Task E: e31 vague e39</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>La <etag>[partecipazione]</etag><sup>e37</sup> della Cassa di Bologna <etag>[dovrebbe]</etag><sup>e38</sup> pero' <etag>[essere]</etag><sup>e39</sup> ormai <etag>[prossima]</etag><sup>e40</sup> al 3,19% che <etag>[e']</etag><sup>e41</sup> la <etag>[soglia]</etag><sup>e42</sup> <etag>[fissata]</etag><sup>e43</sup> dalla Consob per il <etag>[lancio]</etag><sup>e44</sup> obbligatorio dell' <etag>[Opa]</etag><sup>e45</sup> incrementale .</p></table>
+<p class=attributes>e43 { aspect:PERFECTIVE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e44 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e38 { aspect:IMPERFECTIVE modality:DOVERE mood:CONDITIONAL polarity:POS tense:NONE }</p>
+<p class=attributes>e45 { aspect:NONE modality:NONE mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e37 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e40 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e39 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e42 { aspect:NONE modality: mood:NONE polarity:POS tense:NONE }</p>
+<p class=attributes>e41 { aspect:IMPERFECTIVE modality: mood:NONE polarity:POS tense:PRESENT }</p>
+<p/>
+<p class=relation>Task D: e43 before t0</p>
+<p class=relation>Task D: e44 vague t0</p>
+<p class=relation>Task D: e38 overlap t0</p>
+<p class=relation>Task D: e45 vague t0</p>
+<p class=relation>Task D: e37 vague t0</p>
+<p class=relation>Task D: e40 overlap t0</p>
+<p class=relation>Task D: e39 overlap t0</p>
+<p class=relation>Task D: e42 overlap t0</p>
+<p class=relation>Task D: e41 overlap t0</p>
+</div>
+</body>
+</html>

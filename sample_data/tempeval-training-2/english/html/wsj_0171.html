@@ -1,0 +1,147 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0171</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Valley Federal Savings amp Loan Association <etag>[took]</etag><sup>e1</sup> an $89.9 million <etag>[charge]</etag><sup>e2</sup> as it <etag>[reported]</etag><sup>e3</sup> a <ttag>[third-quarter]</ttag><sup>t28</sup> <etag>[loss]</etag><sup>e4</sup> of $70.7 million , or $12.09 a share .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t28 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 AFTER t28</p>
+<p class=relation>Task C: e3 AFTER t28</p>
+<p class=relation>Task C: e4 OVERLAP t28</p>
+<p class=relation>Task C: e1 AFTER t28</p>
+<p class=relation>Task E: e1 AFTER e5</p>
+<p class=relation>Task F: e3 AFTER e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Van Nuys , Calif. , thrift <etag>[had]</etag><sup>e5</sup> net income of $132,000 , or three cents a share , <ttag>[a year ago]<sup>t29</sup></ttag> .</p></table>
+<p class=attributes>t29 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e5 OVERLAP t29</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The bulk of the pretax charge is a $62 million write-off of capitalized servicing at the mobile home financing subsidiary , which the company <etag>[said]</etag><sup>e7</sup> had been a big <etag>[drain]</etag><sup>e9</sup> on earnings .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e7 AFTER e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The company <etag>[said]</etag><sup>e10</sup> the one-time <etag>[provision]</etag><sup>e11</sup> would substantially <etag>[eliminate]</etag><sup>e12</sup> all <ttag>[future]</ttag><sup>t30</sup> <etag>[losses]</etag><sup>e13</sup> at the unit .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t30 { value:FUTURE_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t30</p>
+<p class=relation>Task C: e10 BEFORE t30</p>
+<p class=relation>Task E: e10 AFTER e14</p>
+<p class=relation>Task F: e12 VAGUE e13</p>
+<p class=relation>Task F: e10 BEFORE e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Valley Federal also <etag>[added]</etag><sup>e14</sup> $18 million to realestate loan reserves and <etag>[eliminated]</etag><sup>e15</sup> $9.9 million of good will .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e14 BEFORE e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The thrift <etag>[said]</etag><sup>e16</sup> that " after these <etag>[charges]</etag><sup>e17</sup> and <etag>[assuming]</etag><sup>e18</sup> no dramatic <etag>[fluctuation]</etag><sup>e19</sup> in interest rates , the association <etag>[expects]</etag><sup>e20</sup> to <etag>[achieve]</etag><sup>e21</sup> near record <etag>[earnings]</etag><sup>e22</sup> in <ttag>[1990]</ttag><sup>t31</sup> . "</p></table>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t31 { type:DATE value:1990 }</p>
+<p class=attributes>e19 { polarity:NEG modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e20 BEFORE t31</p>
+<p class=relation>Task C: e16 BEFORE t31</p>
+<p class=relation>Task C: e17 BEFORE t31</p>
+<p class=relation>Task E: e16 OVERLAP e23</p>
+<p class=relation>Task F: e21 OVERLAP e22</p>
+<p class=relation>Task F: e20 BEFORE e21</p>
+<p class=relation>Task F: e16 OVERLAP e18</p>
+<p class=relation>Task F: e18 VAGUE e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Valley Federal is <ttag>[currently]</ttag><sup>t2003</sup> being <etag>[examined]</etag><sup>e23</sup> by regulators .</p></table>
+<p class=attributes>t2003 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e23 OVERLAP e24</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>New loans <etag>[continue]</etag><sup>e24</sup> to <etag>[slow]</etag><sup>e25</sup> ; they were $6.6 million in <ttag>[the quarter]<sup>t32</sup></ttag> compared with $361.8 million <ttag>[a year ago]<sup>t33</sup></ttag> .</p></table>
+<p class=attributes>t32 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>t33 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e24 OVERLAP t32</p>
+<p class=relation>Task E: e24 OVERLAP e27</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>The thrift <etag>[has]</etag><sup>e27</sup> assets of $3.2 billion .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+</div>
+</body>
+</html>

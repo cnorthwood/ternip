@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0991</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Total Assets Protection Inc. , <etag>[rebounding]</etag><sup>e1</sup> from its earlier <etag>[loss]</etag><sup>e2</sup> , <etag>[expects]</etag><sup>e3</sup> to <etag>[report]</etag><sup>e4</sup> <etag>[earnings]</etag><sup>e5</sup> from operations of about $200,000 for <ttag>[the third quarter]<sup>t20</sup></ttag> , J.C. Matlock , chairman , <etag>[said]</etag><sup>e6</sup> .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t20 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e3 AFTER t20</p>
+<p class=relation>Task C: e4 AFTER t20</p>
+<p class=relation>Task C: e6 AFTER t20</p>
+<p class=relation>Task C: e2 BEFORE t20</p>
+<p class=relation>Task E: e6 AFTER e8</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+<p class=relation>Task F: e4 OVERLAP-OR-AFTER e5</p>
+<p class=relation>Task F: e6 OVERLAP e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Net income includes an extraordinary <etag>[gain]</etag><sup>e8</sup> of about $100,000 from the <etag>[reversal]</etag><sup>e9</sup> of bad debt and interest income .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Revenue was about $4.5 million .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In <ttag>[the 1988 third quarter]<sup>t23</sup></ttag> , the company <etag>[posted]</etag><sup>e12</sup> a net loss of $876,706 , or 22 cents a share , on revenue of about $5.1 million .</p></table>
+<p class=attributes>t23 { type:DATE value:1988-Q3 }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t23</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Total Assets plans and designs computer centers , computer security systems and computer backup systems .</p></table>
+<p/>
+</div>
+</body>
+</html>

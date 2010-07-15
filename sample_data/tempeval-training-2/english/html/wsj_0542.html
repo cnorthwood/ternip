@@ -1,0 +1,191 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0542</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Dow Jones amp Co. <etag>[extended]</etag><sup>e1</sup> its tender <etag>[offer]</etag><sup>e2</sup> of $18 a share , or about $576 million , for the 33% of Telerate Inc. that it does n 't already own until <ttag>[5 p.m. EST , Nov. 6]<sup>t87</sup></ttag> . The <etag>[offer]</etag><sup>e3</sup> , which Telerate 's two independent directors have <etag>[rejected]</etag><sup>e4</sup> as inadequate , previously had been <etag>[scheduled]</etag><sup>e6</sup> to <etag>[expire]</etag><sup>e7</sup> at <ttag>[midnight Friday]<sup>t90</sup></ttag> .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>t87 { value:1989-11-06T17 type:TIME }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t90 { value:1989-10-27T24 type:TIME }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e3 BEFORE t90</p>
+<p class=relation>Task C: e2 BEFORE t87</p>
+<p class=relation>Task E: e6 BEFORE e8</p>
+<p class=relation>Task E: e1 AFTER e6</p>
+<p class=relation>Task F: e4 AFTER e3</p>
+<p class=relation>Task F: e6 BEFORE e7</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Dow Jones <etag>[said]</etag><sup>e8</sup> it <etag>[extended]</etag><sup>e9</sup> the <etag>[offer]</etag><sup>e10</sup> to <etag>[allow]</etag><sup>e11</sup> shareholders time to <etag>[review]</etag><sup>e12</sup> a supplement to the Dow Jones tender offer circular that it <etag>[mailed]</etag><sup>e13</sup> <ttag>[last Friday]<sup>t91</sup></ttag> .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t91 { value:1989-10-27 type:DATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e8 AFTER t91</p>
+<p class=relation>Task C: e10 OVERLAP-OR-AFTER t91</p>
+<p class=relation>Task E: e8 AFTER e15</p>
+<p class=relation>Task F: e8 AFTER e9</p>
+<p class=relation>Task F: e9 BEFORE e11</p>
+<p class=relation>Task F: e11 BEFORE e12</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The supplement contains various information that has been <etag>[filed]</etag><sup>e15</sup> with the Securities and Exchange Commission since Dow Jones <etag>[launched]</etag><sup>e16</sup> the <etag>[offer]</etag><sup>e17</sup> on <ttag>[Sept. 26]<sup>t94</sup></ttag> , but it does n 't <etag>[change]</etag><sup>e18</sup> the terms and conditions of the <etag>[offer]</etag><sup>e19</sup> except to <etag>[extend]</etag><sup>e20</sup> its expiration date .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t94 { value:1989-09-26 type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e17 OVERLAP t94</p>
+<p class=relation>Task C: e18 AFTER t94</p>
+<p class=relation>Task C: e19 OVERLAP t94</p>
+<p class=relation>Task E: e15 BEFORE-OR-OVERLAP e22</p>
+<p class=relation>Task F: e16 OVERLAP e17</p>
+<p class=relation>Task F: e18 OVERLAP e19</p>
+<p class=relation>Task F: e20 AFTER e19</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In Delaware Chancery Court litigation , Telerate has <etag>[criticized]</etag><sup>e22</sup> Dow Jones for not <etag>[disclosing]</etag><sup>e23</sup> that Telerate 's management <etag>[expects]</etag><sup>e24</sup> the company 's revenue to <etag>[increase]</etag><sup>e25</sup> by 20% annually , while Dow Jones <etag>[based]</etag><sup>e26</sup> its projections of Telerate 's performance on a 12% revenue growth forecast .</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:NEG modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e22 BEFORE e30</p>
+<p class=relation>Task F: e22 AFTER e23</p>
+<p class=relation>Task F: e23 AFTER e24</p>
+<p class=relation>Task F: e24 BEFORE e25</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In the tender offer supplement , Dow Jones <etag>[discloses]</etag><sup>e30</sup> the different growth <etag>[forecasts]</etag><sup>e31</sup> but <etag>[says]</etag><sup>e32</sup> it <etag>[views]</etag><sup>e33</sup> the 20% growth rate " as a hoped-for goal " of Telerate 's management " and not as a realistic basis on which to project the company 's likely future performance . "</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e30 OVERLAP e36</p>
+<p class=relation>Task F: e30 OVERLAP e31</p>
+<p class=relation>Task F: e32 OVERLAP e33</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Telerate shares <etag>[fell]</etag><sup>e36</sup> 50 cents on <ttag>[Friday]</ttag><sup>t98</sup> to <etag>[close]</etag><sup>e37</sup> at $20 each in New York Stock Exchange composite trading .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t98 { value:1989-10-27 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e37 AFTER t98</p>
+<p class=relation>Task C: e36 OVERLAP t98</p>
+<p class=relation>Task E: e36 OVERLAP e39</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Dow Jones shares also <etag>[fell]</etag><sup>e39</sup> 50 cents to <etag>[close]</etag><sup>e40</sup> at $36.125 in Big Board composite trading .</p></table>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e39 AFTER e42</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Dow Jones has <etag>[said]</etag><sup>e42</sup> it <etag>[believes]</etag><sup>e43</sup> the $18-a-share price is <etag>[fair]</etag><sup>e45</sup> to Telerate 's minority shareholders .</p></table>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:REPORTING }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e42 BEFORE e46</p>
+<p class=relation>Task F: e42 OVERLAP e43</p>
+<p class=relation>Task F: e43 OVERLAP e45</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line><ttag>[Late last week]<sup>t102</sup></ttag> , representatives of Dow Jones and Telerate <etag>[began]</etag><sup>e46</sup> <etag>[negotiations]</etag><sup>e47</sup> about the terms of the <etag>[offer]</etag><sup>e48</sup> , but those <etag>[talks]</etag><sup>e49</sup> did n 't result in any <etag>[changes]</etag><sup>e51</sup> in the offer .</p></table>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e51 { polarity:NEG modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t102 { value:1989-WXX type:DATE }</p>
+<p/>
+<p class=relation>Task C: e46 OVERLAP t102</p>
+<p class=relation>Task C: e49 OVERLAP t102</p>
+<p class=relation>Task C: e48 OVERLAP-OR-AFTER t102</p>
+<p class=relation>Task C: e51 AFTER t102</p>
+<p class=relation>Task F: e47 AFTER e48</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Telerate provides information about financial markets through an electronic network .</p></table>
+<p/>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Dow Jones , which owns 67% of Telerate , publishes The Wall Street Journal , Barron 's magazine , community newspapers and operates financial news services and computer data bases .</p></table>
+<p/>
+</div>
+</body>
+</html>

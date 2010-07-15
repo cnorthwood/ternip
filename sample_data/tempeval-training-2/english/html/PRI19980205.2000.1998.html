@@ -1,0 +1,121 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>PRI19980205.2000.1998</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Thousands of people in Germany have been <etag>[demonstrating]</etag><sup>e1</sup> <ttag>[today]</ttag><sup>t1</sup> against the high level of unemployment in the country .</p></table>
+<p class=attributes>t1 { value:1998-02-05 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE_PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 AFTER e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Latest figures show a sharp <etag>[rise]</etag><sup>e3</sup> , with nearly five million Germans out of work .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e3 BEFORE t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Caroline Wyatt reports .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line><etag>[Chanting]</etag><sup>e5</sup> Helmut Kohl must <etag>[go]</etag><sup>e6</sup> the unemployed <etag>[took]</etag><sup>e7</sup> to the streets of the German capital , Berlin , mirroring <etag>[protests]</etag><sup>e8</sup> around the country .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:must pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e6 OVERLAP-OR-AFTER t0</p>
+<p class=relation>Task D: e7 BEFORE-OR-OVERLAP t0</p>
+<p class=relation>Task F: e5 BEFORE e6</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Joblessness is <ttag>[now]</ttag><sup>t2</sup> at its highest level in Germany since the second world <etag>[war]</etag><sup>e11</sup> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t2 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task D: e11 BEFORE t0</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>With the general <etag>[election]</etag><sup>e12</sup> due <ttag>[this September]<sup>t3</sup></ttag> , record figures could n 't have <etag>[come]</etag><sup>e14</sup> at a worst time for Chancellor Kohl .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t3 { value:1998-09 type:DATE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e14 BEFORE t0</p>
+<p class=relation>Task E: e14 OVERLAP e17</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>His <etag>[promise]</etag><sup>e15</sup> to <etag>[half]</etag><sup>e16</sup> unemployment by <ttag>[the year two thousand]<sup>t4</sup></ttag> has <ttag>[now]</ttag><sup>t5</sup> been <etag>[abandoned]</etag><sup>e17</sup> .</p></table>
+<p class=attributes>t5 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t4 { type:DATE value:2000 }</p>
+<p/>
+<p class=relation>Task E: e17 BEFORE-OR-OVERLAP e19</p>
+<p class=relation>Task F: e15 BEFORE e16</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>And the German electorate appears increasingly <etag>[eager]</etag><sup>e19</sup> to <etag>[dispense]</etag><sup>e20</sup> with the services of Europe 's longest serving leader .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task F: e19 BEFORE e20</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Caroline Wyatt , BBC news , Bonn .</p></table>
+<p/>
+</div>
+</body>
+</html>

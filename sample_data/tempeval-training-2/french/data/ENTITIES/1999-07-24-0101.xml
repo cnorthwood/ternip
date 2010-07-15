@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="1999-07-24" />BIBLIOTHEQUE <EVENT aspect="NONE" class="STATE" eid="e3" pos="ADJECTIVE" signalID="PRED=FERMER" tense="NONE" vform="NONE">FERMÉE</EVENT>.
+La bibliothèque sera <EVENT aspect="NONE" class="STATE" eid="e1" pos="ADJECTIVE" signalID="PRED=FERMER" tense="FUTURE" vform="NONE">fermée</EVENT> <SIGNAL sid="s1">en</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="1999-07">juillet</TIMEX3> et <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="NONE" signalID="PRED=ROUVRIR" tense="FUTURE" vform="NONE">rouvrira</EVENT> ses portes <SIGNAL sid="s2">en</SIGNAL> <TIMEX3 tid="t3" type="DATE" value="1999-08">août</TIMEX3>, uniquement <TIMEX3 quant="EVERY" tid="t4" type="SET" value="1999-WXX-3">le mercredi</TIMEX3>.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei2" eventID="e2" /><MAKEINSTANCE eiid="ei3" eventID="e3" /></TimeML>

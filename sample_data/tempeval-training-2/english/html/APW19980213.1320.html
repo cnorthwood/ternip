@@ -1,0 +1,145 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>APW19980213.1320</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>CANBERRA , Australia ( AP ) _ Qantas will almost <etag>[double]</etag><sup>e1</sup> its flights between Australia and India by <ttag>[August]</ttag><sup>t1</sup> in the <etag>[search]</etag><sup>e2</sup> for new markets untouched by the crippling Asian financial <etag>[crisis]</etag><sup>e3</sup> .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1 { value:1998-08 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 OVERLAP-OR-AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>This <etag>[move]</etag><sup>e4</sup> comes barely <ttag>[a month]<sup>t2</sup></ttag> after Qantas <etag>[suspended]</etag><sup>e6</sup> a number of services between Australia , Indonesia , Thailand and Malaysia in the wake of the Asian economic <etag>[crisis]</etag><sup>e7</sup> .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t2 { type:DURATION value:P1M }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e4 AFTER t0</p>
+<p class=relation>Task E: e4 OVERLAP e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The airline has also <etag>[cut]</etag><sup>e8</sup> all flights to South Korea .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e8 VAGUE e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Qantas <etag>[plans]</etag><sup>e9</sup> daily flights between Sydney and Bombay , up from the <ttag>[current]</ttag><sup>t4</sup> four flights a week , to <etag>[boost]</etag><sup>e10</sup> business and tourism ties with India , the airline <etag>[announced]</etag><sup>e11</sup> <ttag>[Friday]</ttag><sup>t6</sup> .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t4 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t6 { value:1998-02-13 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t6</p>
+<p class=relation>Task C: e11 OVERLAP t4</p>
+<p class=relation>Task D: e9 OVERLAP t0</p>
+<p class=relation>Task D: e10 AFTER t0</p>
+<p class=relation>Task D: e11 BEFORE t0</p>
+<p class=relation>Task E: e11 OVERLAP e12</p>
+<p class=relation>Task F: e9 BEFORE e10</p>
+<p class=relation>Task F: e11 OVERLAP e9</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In a joint statement with Tourism Minister Andrew Thomson , it <etag>[said]</etag><sup>e12</sup> two new flights would <etag>[leave]</etag><sup>e13</sup> Bombay on <ttag>[Monday]</ttag><sup>t7</sup> and <ttag>[Tuesday nights]<sup>t8</sup></ttag> from <ttag>[March 30]<sup>t9</sup></ttag> , with the third <etag>[departing]</etag><sup>e14</sup> <ttag>[each Thursday]<sup>t10</sup></ttag> from <ttag>[August 6]<sup>t11</sup></ttag> . This will <etag>[add]</etag><sup>e15</sup> nearly 700 seats a week on the route .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t9 { value:1998-03-30 type:DATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t8 { value:XXXX-WXX-2TNI type:SET }</p>
+<p class=attributes>e13 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t7 { value:XXXX-WXX-1TNI type:SET }</p>
+<p class=attributes>t10 { value:XXXX-WXX-4 type:SET }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t11 { value:1998-08-06 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t8</p>
+<p class=relation>Task C: e13 OVERLAP-OR-AFTER t9</p>
+<p class=relation>Task C: e13 OVERLAP t7</p>
+<p class=relation>Task C: e13 OVERLAP t10</p>
+<p class=relation>Task C: e13 OVERLAP-OR-AFTER t11</p>
+<p class=relation>Task D: e12 BEFORE t0</p>
+<p class=relation>Task D: e15 AFTER t0</p>
+<p class=relation>Task D: e13 AFTER t0</p>
+<p class=relation>Task E: e12 BEFORE e15</p>
+<p class=relation>Task E: e15 AFTER e17</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+<p class=relation>Task F: e12 BEFORE e14</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Thomson , in India to <etag>[talk]</etag><sup>e16</sup> to tourism leaders , <etag>[said]</etag><sup>e17</sup> the flights would <etag>[provide]</etag><sup>e18</sup> extra support to the growing tourism market .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task D: e17 BEFORE t0</p>
+<p class=relation>Task D: e16 BEFORE t0</p>
+<p class=relation>Task E: e17 OVERLAP e19</p>
+<p class=relation>Task F: e17 BEFORE e18</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Qantas ' India manager Khursheed Lam <etag>[said]</etag><sup>e19</sup> the airline was <etag>[working]</etag><sup>e20</sup> closely with the Australian Tourist Commission to <etag>[develop]</etag><sup>e21</sup> greater awareness of Australia in the Indian market .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task D: e19 BEFORE t0</p>
+<p class=relation>Task E: e19 BEFORE e22</p>
+<p class=relation>Task F: e19 OVERLAP e20</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Qantas will also <etag>[appoint]</etag><sup>e22</sup> a Bombay-based public relations consultant .</p></table>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

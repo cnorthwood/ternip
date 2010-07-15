@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><article>
+  <header>
+   <source>Est Républicain/CNRTL</source>
+   <sourceFile>2003-01-15.tei</sourceFile>
+   <filename>0010.txt</filename>
+   <publicationDate>2003-01-15</publicationDate>
+  </header>
+  <TEXT>
+  <TIMEX3 functionInDocument="PUBLICATION_TIME" temporalFunction="FALSE" tid="t1" type="DATE" value="2003-01-15" />
+    Soldes au déjeuner.
+    A propos de nos échos de commerces, qui s'<EVENT aspect="NONE" class="I_STATE" eid="e1" pos="VERB" tense="IMPERFECT" vform="NONE">étonnaient</EVENT> de <EVENT aspect="NONE" class="PERCEPTION" eid="e2" pos="VERB" tense="NONE" vform="INFINITIVE">voir</EVENT> si peu de boutiques <EVENT aspect="NONE" class="STATE" eid="e3" pos="ADJECTIVE" tense="NONE" vform="NONE">ouvertes</EVENT> à <TIMEX3 functionInDocument="NONE" mod="APPROX" temporalFunction="TRUE" tid="t6" type="TIME" value="T12:00">l'heure du déjeuner</TIMEX3> <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t7" type="DATE" value="XXXX-XX-XX">le premier jour</TIMEX3> des <EVENT aspect="NONE" class="OCCURRENCE" eid="e4" pos="NOUN" tense="NONE" vform="NONE">soldes</EVENT> (notre édition du <TIMEX3 functionInDocument="NONE" temporalFunction="TRUE" tid="t2" type="DATE" value="2002-12-11">11 décembre</TIMEX3>), Janine Padier, gérante du magasin « Bergère de France » sur la Rochelle, <EVENT aspect="NONE" class="I_STATE" eid="e5" pos="VERB" tense="PRESENT" vform="NONE">tient</EVENT> à <EVENT aspect="NONE" class="OCCURRENCE" eid="e6" pos="VERB" tense="NONE" vform="INFINITIVE">faire</EVENT> part de son <EVENT aspect="NONE" class="OCCURRENCE" eid="e7" pos="NOUN" tense="NONE" vform="NONE">expérience</EVENT> du jour : « Nous, nous avons effectivement <EVENT aspect="NONE" class="OCCURRENCE" eid="e8" pos="VERB" tense="PAST" vform="PASTPART">ouvert</EVENT> à <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t3" type="TIME" value="T12:00">midi</TIMEX3> pour l'<EVENT aspect="NONE" class="OCCURRENCE" eid="e9" pos="NOUN" tense="NONE" vform="NONE">ouverture</EVENT> des <EVENT aspect="NONE" class="OCCURRENCE" eid="e10" pos="NOUN" tense="NONE" vform="NONE">soldes</EVENT> : en <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t4" type="DURATION" value="P2H">deux heures</TIMEX3>, j'ai royalement <EVENT aspect="NONE" class="OCCURRENCE" eid="e11" pos="VERB" tense="PAST" vform="PASTPART">vendu</EVENT> trois pelotes de laine à une cliente ! <TIMEX3 functionInDocument="NONE" temporalFunction="FALSE" tid="t5" type="DATE" value="PRESENT_REF">Aujourd'hui</TIMEX3>, les gens ne <EVENT aspect="NONE" class="OCCURRENCE" eid="e12" polarity="NEG" pos="VERB" tense="PRESENT" vform="NONE">font</EVENT> plus tant d'efforts, contrairement à ce qu'on <EVENT aspect="NONE" class="STATE" eid="e13" pos="VERB" tense="PRESENT" vform="NONE">imagine</EVENT>. Mais à part ça, les <EVENT aspect="NONE" class="OCCURRENCE" eid="e19" pos="NOUN" tense="NONE" vform="NONE">soldes</EVENT> ont plutôt bien <EVENT aspect="NONE" class="OCCURRENCE" eid="e14" pos="VERB" tense="PAST" vform="PASTPART">démarré</EVENT>. ».
+    Elle s'en <EVENT aspect="NONE" class="OCCURRENCE" eid="e15" pos="VERB" tense="PRESENT" vform="NONE">félicite</EVENT> d'autant plus que dans son magasin, on n'<EVENT aspect="NONE" class="I_ACTION" eid="e16" polarity="NEG" pos="VERB" tense="PRESENT" vform="NONE">oblige</EVENT> pas les clientes à se <EVENT aspect="NONE" class="OCCURRENCE" eid="e17" pos="VERB" tense="NONE" vform="INFINITIVE">couvrir</EVENT> d'un foulard avant d'<EVENT aspect="NONE" class="OCCURRENCE" eid="e18" pos="VERB" tense="NONE" vform="INFINITIVE">essayer</EVENT> les pulls !
+  </TEXT>
+</article>
+
+<TLINK lid="l3" origin="USER" relType="BEFORE" relatedToTime="t1" timeID="t2" />
+<TLINK lid="l4" origin="USER" relType="OVERLAPS" relatedToTime="t7" timeID="t6" />
+<TLINK lid="l5" origin="USER" relType="OVERLAPS" relatedToTime="t3" timeID="t4" />
+<TLINK eventInstanceID="e4" lid="l6" origin="USER" relType="OVERLAPS" relatedToTime="t7" />
+<TLINK eventInstanceID="e2" lid="l8" origin="USER" relType="OVERLAPS" relatedToTime="t6" />
+<TLINK eventInstanceID="e7" lid="l9" origin="USER" relType="BEFORE" relatedToEventInstance="e6" />
+<TLINK eventInstanceID="e8" lid="l10" origin="USER" relType="OVERLAPS" relatedToTime="t3" />
+<TLINK eventInstanceID="e8" lid="l11" origin="USER" relType="OVERLAPS" relatedToEventInstance="e7" />
+<TLINK eventInstanceID="e9" lid="l12" origin="USER" relType="OVERLAPS" relatedToEventInstance="e8" />
+<TLINK eventInstanceID="e11" lid="l14" origin="USER" relType="OVERLAPS" relatedToTime="t4" />
+<TLINK eventInstanceID="e12" lid="l15" origin="USER" relType="OVERLAPS" relatedToTime="t5" />
+<TLINK eventInstanceID="e13" lid="l16" origin="USER" relType="OVERLAPS" relatedToTime="t5" />
+<TLINK eventInstanceID="e19" lid="l17" origin="USER" relType="OVERLAPS" relatedToEventInstance="e10" />
+<TLINK lid="l19" origin="USER" relType="OVERLAPS" relatedToTime="t5" timeID="t1" />
+<TLINK lid="l21" origin="USER" relType="BEFORE" relatedToTime="t2" timeID="t7" />
+<TLINK eventInstanceID="e5" lid="l22" origin="USER" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="e15" lid="l23" origin="USER" relType="AFTER" relatedToTime="t2" />
+<TLINK eventInstanceID="e17" lid="l25" origin="USER" relType="BEFORE" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e16" lid="l26" origin="USER" relType="OVERLAPS" relatedToTime="t5" />
+<TLINK lid="l28" origin="USER" relType="OVERLAPS" relatedToTime="t6" timeID="t3" />
+<TLINK eventInstanceID="e4" lid="l29" origin="USER" relType="OVERLAPS" relatedToEventInstance="e19" />
+<TLINK eventInstanceID="e9" lid="l30" origin="USER" relType="OVERLAPS" relatedToTime="t7" />
+<TLINK eventInstanceID="e9" lid="l31" origin="USER" relType="BEGINS" relatedToEventInstance="e10" />
+<TLINK lid="l32" origin="USER" relType="BEFORE" relatedToEventInstance="e6" timeID="t2" />
+<TLINK eventInstanceID="e3" lid="l33" origin="USER" relType="OVERLAPS" relatedToTime="t6" />
+<SLINK eventInstanceID="ei1" lid="l1" origin="USER" relType="EVIDENTIAL" subordinatedEventInstance="ei2" />
+<SLINK eventInstanceID="ei2" lid="l2" origin="USER" relType="EVIDENTIAL" subordinatedEventInstance="ei3" />
+<SLINK eventInstanceID="ei5" lid="l7" origin="USER" relType="MODAL" subordinatedEventInstance="ei6" />
+<SLINK eventInstanceID="ei16" lid="l24" origin="USER" relType="MODAL" subordinatedEventInstance="ei17" />
+<ALINK eventInstanceID="ei9" lid="l13" origin="USER" relType="INITIATES" relatedToEventInstance="ei10" />
+<ALINK eventInstanceID="ei14" lid="l18" origin="USER" relType="INITIATES" relatedToEventInstance="ei19" />
+
+</TimeML>

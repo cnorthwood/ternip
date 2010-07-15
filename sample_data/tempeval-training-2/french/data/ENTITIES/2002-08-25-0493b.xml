@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="2002-08-25" />Ni alcool, ni tabac.
+Adelina Domingues, connue pour être la doyenne des Américains, s'est <EVENT aspect="NONE" class="OCCURRENCE" eid="e3" pos="VERB" signalID="PRED=ETEINDRE" tense="PAST" vform="PASTPART">éteinte</EVENT> <TIMEX3 tid="t2" type="DATE" value="2002-08-21TAF">mercredi après-midi</TIMEX3> à l'âge de 114 ans. Elle était <EVENT aspect="NONE" class="STATE" eid="e4" pos="NOUN" signalID="PRED=VEUVE" tense="NONE" vform="NONE">veuve</EVENT> <SIGNAL sid="s1">depuis</SIGNAL>... <TIMEX3 tid="t3" type="DATE" value="1950">1950</TIMEX3>. Elle <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="NONE" signalID="PRED=LAISSER" tense="PRESENT" vform="NONE">laisse</EVENT> derrière elle six petits-enfants et neuf arrière-petits-enfants. Les secrets de sa longévité ? Une alimentation était riche en légumes et en fruits frais ; ni alcool, ni tabac.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei3" eventID="e3" /><MAKEINSTANCE eiid="ei5" eventID="e4" /></TimeML>

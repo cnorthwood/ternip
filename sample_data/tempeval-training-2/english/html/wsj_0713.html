@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0713</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>West German and French authorities have <etag>[cleared]</etag><sup>e1</sup> Dresdner Bank AG 's <etag>[takeover]</etag><sup>e2</sup> of a majority stake in Banque Internationale de Placement ( BIP ) , Dresdner Bank <etag>[said]</etag><sup>e3</sup> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 OVERLAP e6</p>
+<p class=relation>Task F: e3 AFTER e1</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The <etag>[approval]</etag><sup>e4</sup> , which had been <etag>[expected]</etag><sup>e5</sup> , <etag>[permits]</etag><sup>e6</sup> West Germany 's second-largest bank to <etag>[acquire]</etag><sup>e7</sup> shares of the French investment bank .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e6 OVERLAP e9</p>
+<p class=relation>Task F: e6 BEFORE-OR-OVERLAP e7</p>
+<p class=relation>Task F: e5 BEFORE e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In a first step , Dresdner Bank will <etag>[buy]</etag><sup>e9</sup> 32.99% of BIP for 1,015 French francs ( $162 ) a share , or 528 million francs ( $84.7 million ) .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e9 AFTER e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Dresdner Bank <etag>[said]</etag><sup>e10</sup> it will also <etag>[buy]</etag><sup>e11</sup> all shares <etag>[tendered]</etag><sup>e12</sup> by shareholders on the Paris Stock Exchange at the same price from <ttag>[today]</ttag><sup>t27</sup> through <ttag>[Nov. 17]<sup>t28</sup></ttag> .</p></table>
+<p class=attributes>t28 { value:1989-11-17 type:DATE }</p>
+<p class=attributes>t27 { value:1989-10-27 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e10 BEFORE t28</p>
+<p class=relation>Task C: e11 OVERLAP t28</p>
+<p class=relation>Task E: e10 OVERLAP e13</p>
+<p class=relation>Task F: e10 BEFORE e11</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In addition , the bank <etag>[has]</etag><sup>e13</sup> an option to <etag>[buy]</etag><sup>e14</sup> a 30.84% stake in BIP from Societe Generale after <ttag>[Jan. 1 , 1990]<sup>t29</sup></ttag> at 1,015 francs a share .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t29 { type:DATE value:1990-01-01 }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e14 OVERLAP t29</p>
+<p class=relation>Task C: e13 BEFORE-OR-OVERLAP t29</p>
+</div>
+</body>
+</html>

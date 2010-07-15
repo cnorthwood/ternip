@@ -1,0 +1,87 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1040</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>ONEIDA Ltd. <etag>[declared]</etag><sup>e1</sup> a 10% stock dividend , payable <ttag>[Dec. 15]<sup>t16</sup></ttag> to stock of record <ttag>[Nov. 17]<sup>t17</sup></ttag> .</p></table>
+<p class=attributes>t16 { value:1989-12-15 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t17 { value:1989-11-17 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Oneida , N.Y. , maker of consumer , food-service and industrial products also <etag>[declared]</etag><sup>e2</sup> a quarterly cash dividend of 12 cents a share , with the same payable and record dates .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e2 OVERLAP e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The cash dividend <etag>[paid]</etag><sup>e4</sup> on the common stock also will <etag>[apply]</etag><sup>e5</sup> to the new shares , the company <etag>[said]</etag><sup>e6</sup> .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e6 OVERLAP e10</p>
+<p class=relation>Task F: e6 OVERLAP-OR-AFTER e4</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The move rewards shareholders and should <etag>[improve]</etag><sup>e9</sup> the stock 's liquidity , Oneida <etag>[said]</etag><sup>e10</sup> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:POS modality:should pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 OVERLAP e11</p>
+<p class=relation>Task F: e10 BEFORE e9</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company <etag>[has]</etag><sup>e11</sup> about 8.8 million shares outstanding .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e11 OVERLAP-OR-AFTER e13</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In New York Stock Exchange composite trading <ttag>[yesterday]</ttag><sup>t63</sup> , Oneida 's shares <etag>[closed]</etag><sup>e13</sup> at $18.375 a share , unchanged .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t63 { value:1989-10-25 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t63</p>
+</div>
+</body>
+</html>

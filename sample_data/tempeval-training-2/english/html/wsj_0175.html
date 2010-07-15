@@ -1,0 +1,118 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0175</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Sony Corp. <etag>[completed]</etag><sup>e1</sup> its tender <etag>[offer]</etag><sup>e2</sup> for Columbia Pictures Entertainment Inc. , with Columbia shareholders <etag>[tendering]</etag><sup>e3</sup> 99.3% of all common shares outstanding by the <ttag>[Tuesday]</ttag><sup>t38</sup> deadline .</p></table>
+<p class=attributes>t38 { value:1989-10-31 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 BEFORE t38</p>
+<p class=relation>Task E: e1 BEFORE e7</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Sony Columbia Acquisition Corp. , <etag>[formed]</etag><sup>e4</sup> for the Columbia deal , will formally <etag>[take]</etag><sup>e6</sup> ownership of the movie studio later <ttag>[this month]<sup>t34</sup></ttag> , a spokesman <etag>[said]</etag><sup>e7</sup> .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t34 { value:1989-11 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e7 BEFORE t34</p>
+<p class=relation>Task C: e6 OVERLAP t34</p>
+<p class=relation>Task E: e7 BEFORE-OR-OVERLAP e8</p>
+<p class=relation>Task F: e7 BEFORE e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Sony is <etag>[paying]</etag><sup>e8</sup> $27 a share , or $3.55 billion , cash and is <etag>[assuming]</etag><sup>e9</sup> $1.4 billion of long-term debt .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 OVERLAP-OR-AFTER e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Still <etag>[unresolved]</etag><sup>e10</sup> is Sony 's <etag>[effort]</etag><sup>e11</sup> to <etag>[hire]</etag><sup>e12</sup> producers Jon Peters and Peter Guber to <etag>[run]</etag><sup>e13</sup> the studio .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e10 OVERLAP e15</p>
+<p class=relation>Task F: e11 OVERLAP e12</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Sony 's planned <etag>[acquisition]</etag><sup>e14</sup> of Guber/Peters Entertainment Co. for $200 million is <etag>[scheduled]</etag><sup>e15</sup> to <etag>[close]</etag><sup>e16</sup> <ttag>[Monday]</ttag><sup>t40</sup> .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t40 { value:1989-11-06 type:DATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e14 BEFORE-OR-OVERLAP t40</p>
+<p class=relation>Task C: e16 OVERLAP t40</p>
+<p class=relation>Task E: e15 OVERLAP e17</p>
+<p class=relation>Task F: e15 BEFORE-OR-OVERLAP e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Guber/Peters has been <etag>[locked]</etag><sup>e17</sup> in <etag>[litigation]</etag><sup>e18</sup> with Warner Communications Inc. in an <etag>[attempt]</etag><sup>e19</sup> to <etag>[get]</etag><sup>e20</sup> out of an exclusive production contract with Warner .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:STATE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e17 OVERLAP e21</p>
+<p class=relation>Task F: e19 BEFORE e20</p>
+<p class=relation>Task F: e18 OVERLAP e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Both sides are in <etag>[talks]</etag><sup>e21</sup> to <etag>[settle]</etag><sup>e22</sup> the <etag>[dispute]</etag><sup>e23</sup> .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task F: e21 OVERLAP e22</p>
+</div>
+</body>
+</html>

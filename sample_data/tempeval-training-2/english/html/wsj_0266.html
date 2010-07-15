@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0266</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>I was <etag>[pleased]</etag><sup>e1</sup> to <etag>[note]</etag><sup>e2</sup> that your <ttag>[Oct. 23]<sup>t42</sup></ttag> Centennial Journal item <etag>[recognized]</etag><sup>e3</sup> the money-fund concept as one of the significant events of the past century .</p></table>
+<p class=attributes>t42 { value:1989-10-23 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e1 AFTER e5</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 AFTER e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Actually , <ttag>[about two years ago]<sup>t39</sup></ttag> , the Journal <etag>[listed]</etag><sup>e5</sup> the <etag>[creation]</etag><sup>e6</sup> of the money fund as one of the 10 most significant events in the world of finance in <ttag>[the 20th century]<sup>t40</sup></ttag> .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t40 { type:DATE value:19XX }</p>
+<p class=attributes>t39 { value:P2Y type:DURATION }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e5 OVERLAP e8</p>
+<p class=relation>Task F: e5 AFTER e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>But the Reserve Fund , America 's first money fund , was not <etag>[named]</etag><sup>e8</sup> , nor were the creators of the money-fund concept , Harry Brown and myself .</p></table>
+<p class=attributes>e8 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 AFTER e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>We <etag>[innovated]</etag><sup>e9</sup> telephone <etag>[redemptions]</etag><sup>e10</sup> , daily dividends , total <etag>[elimination]</etag><sup>e11</sup> of share certificates and the constant $1 pershare pricing , all of which were painfully <etag>[thought]</etag><sup>e12</sup> out and not the result of some <etag>[inadvertence]</etag><sup>e14</sup> on the part of the SEC .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:NEG modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e9 BEFORE e10</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>BRUCE R. BENT President The Reserve Fund New York</p></table>
+<p/>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0551</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Trustcorp Inc. will <etag>[become]</etag><sup>e1</sup> Society Bank amp Trust when its <etag>[merger]</etag><sup>e2</sup> is <etag>[completed]</etag><sup>e3</sup> with Society Corp. of Cleveland , the bank <etag>[said]</etag><sup>e4</sup> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e4 AFTER e6</p>
+<p class=relation>Task F: e4 BEFORE e1</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Society Corp. , which is also a bank , <etag>[agreed]</etag><sup>e6</sup> in <ttag>[June]</ttag><sup>t15</sup> to <etag>[buy]</etag><sup>e7</sup> Trustcorp for 12.4 million shares of stock with a market value of about $450 million .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t15 { value:1989-06 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t15</p>
+<p class=relation>Task C: e7 AFTER t15</p>
+<p class=relation>Task E: e6 BEFORE e9</p>
+<p class=relation>Task F: e6 BEFORE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The <etag>[transaction]</etag><sup>e8</sup> is <etag>[expected]</etag><sup>e9</sup> to <etag>[close]</etag><sup>e10</sup> <ttag>[around year end]<sup>t17</sup></ttag> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t17 { value:1989-12 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e9 BEFORE t17</p>
+<p class=relation>Task C: e10 OVERLAP t17</p>
+<p class=relation>Task F: e9 BEFORE e10</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="2002-04-03" />Déchetterie <EVENT aspect="NONE" class="STATE" eid="e2" pos="ADJECTIVE" signalID="PRED=FERMER" tense="NONE" vform="NONE">fermée</EVENT>.
+La déchetterie, rue de la gare, sera <EVENT aspect="NONE" class="STATE" eid="e1" pos="VERB" signalID="PRED=FERMER" tense="FUTURE" vform="PASTPART">fermée</EVENT> <SIGNAL sid="s3">du</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="2002-04-03">mercredi 3 avril</TIMEX3> <SIGNAL sid="s4">au</SIGNAL> <TIMEX3 tid="t3" type="DATE" value="2002-04-06">samedi 6 avril</TIMEX3> inclus.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei2" eventID="e2" /></TimeML>

@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>123_20010202.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>La Fundació Família i Benestar Social de Barcelona <etag>[proyecta]</etag><sup>e1</sup> <etag>[construir]</etag><sup>e2</sup> 40 pisos en la calle de Buxadé , en el centro histórico de Berga .</p></table>
+<p class=attributes>e1 { aspect:IMPERFECTIVE class:I_STATE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e2 { aspect:IMPERFECTIVE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p/>
+<p class=relation>Task D: e1 overlap t0</p>
+<p class=relation>Task D: e2 after t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Este proyecto fue <etag>[presentado]</etag><sup>e3</sup> en el anterior <etag>[mandato]</etag><sup>e4</sup> y <etag>[recuperado]</etag><sup>e5</sup> <ttag>[ahora]</ttag><sup>t1</sup> por el equipo de gobierno de CiU y ERC .</p></table>
+<p class=attributes>t1 { type:DATE val:PRESENT_REF }</p>
+<p class=attributes>e4 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e3 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e5 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e5 overlap t1</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task D: e3 before t0</p>
+<p class=relation>Task D: e5 before-or-overlap t0</p>
+</div>
+</body>
+</html>

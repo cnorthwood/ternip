@@ -1,0 +1,123 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0348</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Ogden Projects Inc. <etag>[said]</etag><sup>e1</sup> net income <etag>[jumped]</etag><sup>e3</sup> to $6.6 million , or 18 cents a share , in <ttag>[the third quarter]<sup>t29</sup></ttag> .</p></table>
+<p class=attributes>t29 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t29</p>
+<p class=relation>Task E: e1 AFTER e5</p>
+<p class=relation>Task F: e1 AFTER e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Fairfield , N.J. , company , which is 92%-owned by Ogden Corp. , New York , <etag>[had]</etag><sup>e5</sup> net of $1.1 million , or four cents a share , <ttag>[a year ago]<sup>t89</sup></ttag> .</p></table>
+<p class=attributes>t89 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e5 OVERLAP t89</p>
+<p class=relation>Task E: e5 BEFORE e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Revenue <etag>[soared]</etag><sup>e8</sup> to $101.7 million from $39.5 million .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 BEFORE e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Ogden Projects , whose shares <etag>[began]</etag><sup>e9</sup> <etag>[trading]</etag><sup>e10</sup> on the New York Stock Exchange in <ttag>[August]</ttag><sup>t37</sup> , <etag>[closed]</etag><sup>e11</sup> <ttag>[yesterday]</ttag><sup>t38</sup> at $26.875 , down 75 cents .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t37 { value:1989-08 type:DATE }</p>
+<p class=attributes>t38 { value:1989-10-31 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t38</p>
+<p class=relation>Task C: e9 BEFORE t38</p>
+<p class=relation>Task E: e11 AFTER e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The stock <etag>[began]</etag><sup>e12</sup> <etag>[trading]</etag><sup>e13</sup> <ttag>[this summer]<sup>t41</sup></ttag> at $14 apiece .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t41 { value:1989-SU type:DATE }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t41</p>
+<p class=relation>Task E: e12 BEFORE e15</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Ogden Projects , which has interests in solid-waste recovery and hazardous-waste cleanup , <etag>[said]</etag><sup>e15</sup> it <etag>[has]</etag><sup>e16</sup> 13 facilities in operation , up from seven <ttag>[a year ago]<sup>t158</sup></ttag> .</p></table>
+<p class=attributes>t158 { value:1988-11 type:DATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e15 AFTER t158</p>
+<p class=relation>Task C: e16 AFTER t158</p>
+<p class=relation>Task E: e15 OVERLAP e18</p>
+<p class=relation>Task F: e15 OVERLAP e16</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Meanwhile , Ogden Corp. , which also has interests in building maintenance and management , <etag>[reported]</etag><sup>e18</sup> <ttag>[third-quarter]</ttag><sup>t52</sup> net <etag>[income]</etag><sup>e19</sup> of $27.1 million , or 67 cents a share , more than twice the $13.5 million , or 34 cents a share , <ttag>[a year]<sup>t55</sup></ttag> earlier .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t55 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t52 { value:1989-Q3 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e18 AFTER t52</p>
+<p class=relation>Task E: e18 AFTER e21</p>
+<p class=relation>Task F: e18 AFTER e19</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e21</sup> 33% to $378.1 million from $283.8 million .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

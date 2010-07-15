@@ -1,0 +1,95 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0806</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>HEALTHDYNE Inc. , Atlanta , <etag>[said]</etag><sup>e1</sup> its subsidiary , Home Nutritional Services Inc. , <etag>[registered]</etag><sup>e2</sup> with the Securities and Exchange Commission an initial public <etag>[offering]</etag><sup>e3</sup> of four million shares of common .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The in-home health care services provider <etag>[said]</etag><sup>e4</sup> it will <etag>[sell]</etag><sup>e5</sup> 1.8 million of the new shares , while Home Nutritional Services will <etag>[sell]</etag><sup>e6</sup> the remaining 2.2 million .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e4 OVERLAP e7</p>
+<p class=relation>Task F: e4 BEFORE e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The company <etag>[estimates]</etag><sup>e7</sup> the offering price at between $14 and $16 a share .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e7 OVERLAP e8</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The company <etag>[said]</etag><sup>e8</sup> it <etag>[expects]</etag><sup>e9</sup> to <etag>[use]</etag><sup>e10</sup> the proceeds to <etag>[repay]</etag><sup>e11</sup> certain bank debt and for general corporate purposes , including <etag>[establishing]</etag><sup>e12</sup> new operating centers and possible <etag>[acquisitions]</etag><sup>e13</sup> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 BEFORE-OR-OVERLAP e14</p>
+<p class=relation>Task F: e8 OVERLAP e9</p>
+<p class=relation>Task F: e9 BEFORE e10</p>
+<p class=relation>Task F: e10 BEFORE-OR-OVERLAP e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Home Nutritional <ttag>[currently]</ttag><sup>t23</sup> <etag>[has]</etag><sup>e14</sup> 10 million shares outstanding .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t23 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e14 OVERLAP t23</p>
+<p class=relation>Task E: e14 BEFORE e15</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>It will <etag>[have]</etag><sup>e15</sup> 11.8 million shares outstanding after the offering , with Healthdyne <etag>[owning]</etag><sup>e16</sup> about 65% of the total .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:STATE }</p>
+<p/>
+</div>
+</body>
+</html>

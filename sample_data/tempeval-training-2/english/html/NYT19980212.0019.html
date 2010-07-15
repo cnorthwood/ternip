@@ -1,0 +1,142 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>NYT19980212.0019</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>NEW YORK _ A Brooklyn woman who was <etag>[watching]</etag><sup>e1</sup> her clothes dry in a laundromat was <etag>[killed]</etag><sup>e3</sup> <ttag>[Thursday evening]<sup>t1</sup></ttag> when two would-be robbers <etag>[emptied]</etag><sup>e4</sup> their pistols into the store , the police <etag>[said]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>t1 { value:1998-02-12TEV type:TIME }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e5 BEFORE t0</p>
+<p class=relation>Task E: e5 OVERLAP e11</p>
+<p class=relation>Task F: e5 AFTER e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The men <etag>[appeared]</etag><sup>e6</sup> in the store at 469 Vermont St. in Brownsville <ttag>[around 7:15 p.m.]<sup>t2</sup></ttag> , after the victim , Linda Sanders , 35 , had <etag>[finished]</etag><sup>e7</sup> her <etag>[cleaning]</etag><sup>e8</sup> and was <etag>[waiting]</etag><sup>e9</sup> for her clothes to <etag>[dry]</etag><sup>e10</sup> , detectives <etag>[said]</etag><sup>e11</sup> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t2 { value:1998-02-12T19:15 type:TIME }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e11 BEFORE t0</p>
+<p class=relation>Task E: e11 OVERLAP e15</p>
+<p class=relation>Task F: e11 AFTER e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>` ` It <etag>[looks]</etag><sup>e12</sup> as though they <etag>[panicked]</etag><sup>e13</sup> , ' ' a detective , <etag>[speaking]</etag><sup>e14</sup> on condition of anonymity , <etag>[said]</etag><sup>e15</sup> of the robbers .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:PERCEPTION }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e15 BEFORE t0</p>
+<p class=relation>Task E: e15 AFTER e16</p>
+<p class=relation>Task F: e12 OVERLAP-OR-AFTER e13</p>
+<p class=relation>Task F: e15 OVERLAP-OR-AFTER e12</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>` ` They <etag>[intended]</etag><sup>e16</sup> to <etag>[rob]</etag><sup>e17</sup> the place .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e16 BEFORE e19</p>
+<p class=relation>Task F: e16 BEFORE-OR-OVERLAP e17</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>There were four or five people inside , and they just <etag>[started]</etag><sup>e19</sup> <etag>[firing]</etag><sup>e20</sup> . ' ' Ms. Sanders was <etag>[hit]</etag><sup>e21</sup> several times and was <etag>[pronounced]</etag><sup>e22</sup> <etag>[dead]</etag><sup>e23</sup> at the scene .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e19 BEFORE e21</p>
+<p class=relation>Task E: e21 OVERLAP e24</p>
+<p class=relation>Task F: e22 OVERLAP-OR-AFTER e23</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The other customers <etag>[fled]</etag><sup>e24</sup> , and the police <etag>[said]</etag><sup>e25</sup> it did not <etag>[appear]</etag><sup>e26</sup> that anyone else was <etag>[injured]</etag><sup>e27</sup> .</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e26 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e25 BEFORE t0</p>
+<p class=relation>Task E: e24 BEFORE e29</p>
+<p class=relation>Task F: e26 OVERLAP-OR-AFTER e27</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>The men <etag>[took]</etag><sup>e28</sup> no money from their victim or from the establishment , <etag>[said]</etag><sup>e29</sup> Detective Joseph Pentangelo , a Police Department spokesman .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e29 BEFORE t0</p>
+<p class=relation>Task D: e28 BEFORE t0</p>
+<p class=relation>Task E: e29 VAGUE e31</p>
+<p class=relation>Task F: e29 AFTER e28</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Victor Miranda , who <etag>[lives]</etag><sup>e30</sup> in Ms. Sanders ' apartment building at 405 Williams Ave. , <etag>[said]</etag><sup>e31</sup> the laundry machines in the building were <etag>[removed]</etag><sup>e32</sup> <ttag>[a few years ago]<sup>t3</sup></ttag> to <etag>[make]</etag><sup>e33</sup> room for management offices .</p></table>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t3 { value:199X type:DATE }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e31 BEFORE t0</p>
+<p class=relation>Task D: e33 BEFORE t0</p>
+<p class=relation>Task F: e31 AFTER e32</p>
+</div>
+</body>
+</html>

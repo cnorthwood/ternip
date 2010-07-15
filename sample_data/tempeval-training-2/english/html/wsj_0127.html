@@ -1,0 +1,129 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0127</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Reed International PLC <etag>[said]</etag><sup>e1</sup> that net <etag>[income]</etag><sup>e2</sup> for <ttag>[the six months]<sup>t31</sup></ttag> <etag>[ended]</etag><sup>e3</sup> <ttag>[Oct. 1]<sup>t25</sup></ttag> <etag>[slipped]</etag><sup>e4</sup> 5% to #89.7 million ( $141.9 million ) , or 16 pence a share , from #94.8 million ( $149.9 million ) , or 17.3 pence a share .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t31 { value:P6M type:DURATION }</p>
+<p class=attributes>t25 { value:1989-10-01 type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t25</p>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 AFTER e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The British paper , packaging and publishing concern , <etag>[said]</etag><sup>e5</sup> profit from continuing lines <etag>[fell]</etag><sup>e6</sup> 10% to #118 million from #130.6 million .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e5 AFTER e11</p>
+<p class=relation>Task F: e5 AFTER e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>While there were no one-time <etag>[gains]</etag><sup>e8</sup> or <etag>[losses]</etag><sup>e9</sup> in <ttag>[the latest period]<sup>t26</sup></ttag> , there was a one-time <etag>[gain]</etag><sup>e11</sup> of #18 million in the <ttag>[1988]</ttag><sup>t27</sup> period .</p></table>
+<p class=attributes>t26 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t27 { type:DATE value:1998 }</p>
+<p class=attributes>e8 { polarity:NEG modality:NONE pos:NOUN tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:NEG modality:NONE pos:NOUN tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t27</p>
+<p class=relation>Task C: e8 AFTER t27</p>
+<p class=relation>Task C: e9 AFTER t27</p>
+<p class=relation>Task E: e11 OVERLAP e14</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>And while there was no profit <ttag>[this year]<sup>t28</sup></ttag> from discontinued <etag>[operations]</etag><sup>e13</sup> , <ttag>[last year]<sup>t29</sup></ttag> they <etag>[contributed]</etag><sup>e14</sup> #34 million , before tax .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t29 { value:1988 type:DATE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t28 { value:1989 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e14 BEFORE e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Pretax profit <etag>[fell]</etag><sup>e15</sup> 3.7% to #128 million from #133 million and was below analysts ' expectations of #130 million to #135 million , but shares <etag>[rose]</etag><sup>e17</sup> 6 pence to 388 pence in early <etag>[trading]</etag><sup>e18</sup> <ttag>[yesterday]</ttag><sup>t30</sup> in London .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t30 { value:1989-11-01 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e18 OVERLAP t30</p>
+<p class=relation>Task C: e17 OVERLAP t30</p>
+<p class=relation>Task C: e15 BEFORE t30</p>
+<p class=relation>Task E: e15 BEFORE-OR-OVERLAP e19</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Reed is <etag>[paying]</etag><sup>e19</sup> an interim dividend of 4.6 pence , up 15% from 4 pence <ttag>[a year earlier]<sup>t2127</sup></ttag> .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>t2127 { value:1988-11-02 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e19 AFTER t2127</p>
+<p class=relation>Task E: e19 OVERLAP-OR-AFTER e21</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Sales <etag>[fell]</etag><sup>e21</sup> 20% to #722 million .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e21 BEFORE e25</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Earnings were <etag>[hurt]</etag><sup>e22</sup> by <etag>[disposal]</etag><sup>e23</sup> of operations in its <etag>[restructuring]</etag><sup>e24</sup> , Reed <etag>[said]</etag><sup>e25</sup> .</p></table>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e25 AFTER e22</p>
+</div>
+</body>
+</html>

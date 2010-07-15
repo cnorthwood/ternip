@@ -1,0 +1,410 @@
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="mainText">
+
+<h1>Tempeval-2 Training Data &mdash; Release Notes</h1>
+
+<p>Version 2 - Marc Verhagen - March 22nd, 2010</p>
+
+<p class="navigation">
+[ 
+<!-- <a href="http://www.timeml.org/tempeval2/">tempeval home</a> -->
+ <a href="#description">data description</a>
+| <a href="#annotation">annotation process</a>
+| <a href="#browser">data browser</a>
+| <a href="#future">evaluation data</a>
+| <a href="#specific">language-specific</a>
+| <a href="#contacts">contacts</a>
+]
+</p>
+
+<p>In this document, we describe the Tempeval training data. The description focuses on
+the English data, but the format for all other languages, with the exception of the French
+data, is essentially the same. Available in this release is the second batch of training
+data for Chinese, English, French, Italian, Korean and Spanish. The second batch includes
+all data that was in the first batch. The main differences are: (i) more English data,
+(ii) temporal links added to Italian and Spanish, and (iii) Korean data added.</p>
+
+<p>The unavoidable updates to this document will be published on the Tempeval2 pages
+at <a
+href="http://www.timeml.org/tempeval2/">http://www.timeml.org/tempeval2/</a>,
+which also contains a link to the Tempeval Google group.</p>
+
+
+<a name="description"></a>
+<h3>Data description</h3>
+
+<p>Training data are given for six languages. Not all language provide data for all
+tasks, below is a list with the contents of this distribution, the letters refer to the
+tasks in the Tempeval proposal.</p>
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr>
+  <td>language</td>
+  <td>tokens</td>
+  <td>A</td>
+  <td>B</td>
+  <td>C</td>
+  <td>D</td>
+  <td>E</td>
+  <td>F</td>
+<tr>
+  <td>Chinese</td>
+  <td>23,000</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+<tr>
+  <td>English</td>
+  <td>53,000</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+<tr>
+  <td>Italian</td>
+  <td>27,000</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&nbsp;</td>
+<tr>
+  <td>French</td>
+  <td>10,000</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+<tr>
+  <td>Korean</td>
+  <td>14,000</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+<tr>
+  <td>Spanish</td>
+  <td>47,000</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&#10003;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</table>
+
+<p>In addition, for French there is a small set of 3000 tokens with event, timex and
+temporal link annotation, but the temporal links are not split into sub tasks.</p>
+
+<p>The data are given in a set of vertical files with tab-separated rows. One file, named
+"base-segmentation.tab", contains the tokenized text. The other files are (1) an optional
+file with a lexical category for each token, (2) files with extents for events and timex3
+tags, (3) files with attributes of events and timexes, and (4) files with temporal
+relations. Below is a fragment of the file with the tokenized text (throughout, we use the
+fragment "<i>... of an impudent American whom Sony hosted for a year while...</i>" as an
+example).</p>
+
+<pre class="example">
+wsj_0037	27	5	of
+wsj_0037	27	6	an
+wsj_0037	27	7	impudent
+wsj_0037	27	8	American
+wsj_0037	27	9	whom
+wsj_0037	27	10	Sony
+wsj_0037	27	11	hosted
+wsj_0037	27	12	*T*-58
+wsj_0037	27	13	for
+wsj_0037	27	14	a
+wsj_0037	27	15	year
+wsj_0037	27	16	while
+</pre>
+
+<p>Each token is uniquely defined by a file name, a sentence offset and a token
+offset. Both sentence offset and token offsets start at 0. For example, in the fragment
+above, "impudent" is the eighth token in the 28th sentence of the file wsj_0037. The files
+in this example were derived from the Penn treebank and contain the empty categories from
+the Treebank, as with "*T*-58" above (note that this is actually an old description that
+is relevant only for the trial data, the training data were not taken from the
+Treebank). Some languages provide a file with lexical categories for each token, the
+format is the same as the file with the tokens.</p>
+
+<p>Events and their attributes are stored in two files:
+"event-extents.tab" and "event-attributes.tab".</p>
+
+<pre class="example">
+wsj_0037	27	11	event	e561	1
+</pre>
+
+<pre class="example">
+wsj_0037	27	11	event	e561	1	aspect	NONE
+wsj_0037	27	11	event	e561	1	modality	
+wsj_0037	27	11	event	e561	1	polarity	POS
+wsj_0037	27	11	event	e561	1	tense	PAST
+</pre>
+
+<p>Again, the first three columns uniquely identify a token position in the source. The
+other columns of "event-extents.tab" contain the tag name (always "event" in this file),
+the tag id, and the instance id. The tag id is unique to the file, and usually, but not
+necessarily, unique to the corpus. The instance id is there to deal with cases like "She
+plays soccer on Monday and Wednesday", where there are two instances of the "play soccer"
+event. In the vast majority of cases, there is only one instance and the value in the last
+column is "1". The file "event-attributes.tab" contains two more columns: an attribute
+name and an attribute value.</p>
+
+<p>Timexes and their attributes are stored in "timex-extents.tab" and
+"timex-attributes.tab".</p>
+
+<pre class="example">
+wsj_0037	27	14	timex3	t2	1
+wsj_0037	27	15	timex3	t2	1
+</pre>
+
+<pre class="example">
+wsj_0037	27	14	timex3	t2	1	type	DURATION
+wsj_0037	27	14	timex3	t2	1	value	P1Y
+</pre>
+
+<p>These files use the same columns as their eventive counter parts. But note that the
+attributes are associated with the first token of the timex extent. Also note that the
+instance number is always "1" for timexes.</p>
+
+<p>The four classes of Tempeval temporal relations are all stored with the same
+format. The associations between task identifier and file name are in the table below.</p>
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr>
+  <td>Task C</td>
+  <td>tlinks-event-timex.tab</td>
+</tr>
+<tr>
+  <td>Task D</td>
+  <td>tlinks-dct-events.tab</td>
+</tr>
+<tr>
+  <td>Task E</td>
+  <td>tlinks-main-events.tab</td>
+</tr>
+<tr>
+  <td>Task F</td>
+  <td>tlinks-subordinated-events.tab</td>
+</tr>
+</table>
+
+<p>The vertical files for the temporal relations all have four columns: (1) file name, (2)
+tag id of the first element in the relation, (3) tag id of the second element in the
+relation, and (4) the relation type.  Here is a fragment of "tlinks-event-time.tab", with
+the temporal relation between "host" and "a year".</p>
+
+<pre class="example">
+wsj_0037	e561	t2	overlap
+</pre>
+
+<p>For Task D ("tlinks-dct-events.tab"), the third column is always "t0", where "t0" is a
+special id that refers to the Document Creation Time. Note that the exact value of the DCT
+is not specified in the file with timexes since it is not necessarily associated with an
+offset, instead, the DCT timex is given for each file in a separate file named
+"dct.tab".</p>
+
+
+<a name="annotation"></a>
+<h3>Annotation process</h3>
+
+<p>Annotation of the trial data proceeded in several phases:</p>
+
+<ol>
+<li>Annotation of event and timex extents</li>
+<li>Annotation of event and timex attributes</li>
+<li>Annotation of temporal links</li>
+</ol>
+
+<p>The output of phase 1 was input to phases 2 and 3. For each phase, dual annotation
+followed by an adjudication phase was used. Annotators were given several documents to
+guide them in their tasks. What documents were used is language specific, see the docs
+directory for each language for guidelines and other documentation. Some documentation is
+still forthcoming.</p>
+
+<!--
+<a name="stats"></a>
+<h3>Trial data statistics</h3>
+
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr>
+  <td align="left">&nbsp;</td>
+  <td align="right">English</td>
+  <td align="right">Italian</td>
+<tr>
+  <td align="left">files</td>
+  <td align="right">2</td>
+  <td align="right">8</td>
+</tr>
+<tr>
+  <td align="left">tokens</td>
+  <td align="right">5111</td>
+  <td align="right">3355</td>
+</tr>
+<tr>
+  <td align="left">task A: timexes</td>
+  <td align="right">55</td>
+  <td align="right">57</td>
+</tr>
+<tr>
+  <td align="left">task B: events</td>
+  <td align="right">764</td>
+  <td align="right">519</td>
+</tr>
+<tr>
+  <td align="left">task C: event-timex links</td>
+  <td align="right">52</td>
+  <td align="right">48</td>
+</tr>
+<tr>
+  <td align="left">task D: event-dct links</td>
+  <td align="right">764</td>
+  <td align="right">519</td>
+</tr>
+<tr>
+  <td align="left">task E: links between main events</td>
+  <td align="right">193</td>
+  <td align="right">87</td>
+</tr>
+<tr>
+  <td align="left">task F: links in subordination contexts</td>
+  <td align="right">173</td>
+  <td align="right">94</td>
+</tr>
+</table>
+
+-->
+
+
+
+<a name="browser"></a>
+<h3>Browsing the data</h3>
+
+<p>The tabular data format is rather uninviting for manual inspection, therefore, we
+created HTML dumps for all tables. Links are available in the list below.</p>
+
+<ul>
+<li><a href="chinese/html/index.html">Chinese</a>
+<li><a href="english/html/index.html">English</a>
+<li><a href="italian/html/index.html">Italian</a>
+<li><a href="korean/html/index.html">Korean</a>
+<li><a href="spanish/html/index.html">Spanish</a>
+</ul>
+
+<p>There is no browser for French because the French data are in XML format and can be
+viewed as is. Note that the Italian data give a glimpse into some of the temporal
+relations even though those relations are not part of this official release. Consider
+this a sneak preview on the final data delivery.</p>
+
+
+
+<a name="future"></a>
+<h3>Evaluation data</h3>
+
+
+<p>The evaluation data will be held out from the entire corpus, but otherwise be identical
+in format to the training data. However, depending on the task some data will be left
+out:</p>
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr valign="top">
+  <td>Tasks A and B</td>
+  <td>Only the file "base-segmentation.tab" will be provided. The task
+  would be to create the files "timex-extents.tab",
+  "timex-attributes.tab", "event-extents.tab", and
+  "event-attributes.tab".</td> 
+</tr>
+<tr valign="top">
+  <td>Tasks&nbsp;C&nbsp;through&nbsp;F</td>
+  <td>All files will be provided, but the relation types in the files
+  with temporal links will be set to "NONE". The task here is to
+  replace "NONE" with one of the acceptable relation types.</td>
+</tr>
+</table>
+
+<p>The evaluation data will be released on March 28th. Scorer scripts will be made
+available on the Tempeval website before March 21st.</p>
+
+
+
+<a name="specific"></a>
+<h3>Language-specific remarks</h3>
+
+<p>The French data are not provided as vertical files, but as XML files. Likewise, the
+evaluation data for French will be in XML format.</p>
+
+<p>The Document Creation Time is given in listings in the data directory for three
+languages: Chinese, English and Spanish. For French the DCT is given as a timex inside the
+XML document where the attribute functionInDocument has value PUBLICATION_TIME, in most
+cases, the DCT is also reflected in the file name. For Italian, the DCT is typically given
+as the first timex in each document, marked with t1. There are a couple of exceptions
+though:</p>
+
+<ul>
+<li>cs.morph015 and cs.morph016 have as DCT 1995-08-07T18:00; signaled by t0
+<li>els.morph041 has as DCT 1986-09-30T18:00; signaled by t0
+<li>els.morph042 has as DCT 1986-09-29T18:00; signaled by t0
+</ul>
+
+
+
+<a name="contacts"></a>
+<h3>Contacts</h3>
+
+<p>For general questions on Tempeval and questions on this document, email
+marc@cs.brandeis.edu. For questions on the data sets, send an email to the Google
+group. You can also email one of the people below, depending on what language your
+question is on:</p>
+
+<table cellpadding=3 cellspacing=0 border=1 bordercolor=black>
+<tr>
+  <td>Chinese
+  <td>Nianwen Xue
+  <td>xuen@brandeis.edu
+<tr>
+  <td>English
+  <td>Marc Verhagen
+  <td>marc@cs.brandeis.edu
+<tr>
+  <td>French
+  <td>Andre Bittar
+  <td>andre.bittar@linguist.jussieu.fr
+<tr>
+  <td>Italian
+  <td>Tommaso Caselli
+  <td>t.caselli@gmail.com
+<tr>
+  <td>Korean
+  <td>Seohyun Im
+  <td>ish97@cs.brandeis.edu
+<tr>
+  <td>Spanish
+  <td>Roser Saur&iacute;
+  <td>roser.sauri@barcelonamedia.org
+</table>
+
+
+</div>
+
+</body>
+
+</html>

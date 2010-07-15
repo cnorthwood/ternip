@@ -1,0 +1,317 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0950</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>General Motors Corp. 's big defense and automotive electronics unit , GM Hughes Electronics , <etag>[said]</etag><sup>e1</sup> net income <etag>[fell]</etag><sup>e2</sup> 22% in <ttag>[the third quarter]<sup>t74</sup></ttag> , reflecting declining military spending and slumping GM vehicle <etag>[production]</etag><sup>e7</sup> .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t74 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t74</p>
+<p class=relation>Task C: e2 OVERLAP t74</p>
+<p class=relation>Task E: e1 AFTER e8</p>
+<p class=relation>Task F: e1 OVERLAP-OR-AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Meanwhile , net at GM 's finance arm , General Motors Acceptance Corp. , <etag>[fell]</etag><sup>e8</sup> 3.1% .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 OVERLAP e9</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>By contrast , Electronic Data Systems Corp. , GM 's data processing subsidiary , <etag>[boosted]</etag><sup>e9</sup> net 16% .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e9 BEFORE e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>GM <etag>[closed]</etag><sup>e10</sup> down $1.875 at $44.875 in New York Stock Exchange <etag>[trading]</etag><sup>e11</sup> <ttag>[yesterday]</ttag><sup>t80</sup> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t80 { value:1989-10-25 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t80</p>
+<p class=relation>Task C: e11 OVERLAP t80</p>
+<p class=relation>Task E: e10 BEFORE e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Earnings for GM common stock , reflecting the performance of GM 's core automotive <etag>[operations]</etag><sup>e14</sup> , will be <etag>[disclosed]</etag><sup>e15</sup> <ttag>[this morning]<sup>t81</sup></ttag> .</p></table>
+<p class=attributes>t81 { value:1989-10-26TMO type:TIME }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e15 AFTER e17</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>GM Class H , which represents a dividend interest in Hughes earnings , <etag>[closed]</etag><sup>e17</sup> at $29 , up 25 cents in Big Board composite trading .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e17 OVERLAP-OR-AFTER e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>GM Class E , which represents a dividend interest in EDS profit , <etag>[fell]</etag><sup>e19</sup> 75 cents to $52.25 on the Big Board .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e19 OVERLAP e20</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>The earnings <etag>[drop]</etag><sup>e20</sup> at GM Hughes Electronics is a sign of tough times at both the defense operations of Hughes Aircraft Co. and GM 's North American automotive operations , which are a primary customer for the Delco Electronics Corp. side of the GM Hughes unit .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e20 OVERLAP e22</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Profit at the unit <etag>[fell]</etag><sup>e22</sup> to $110.6 million , or 37 cents a share , from $142.4 million , or 45 cents a share , largely because of a $24 million one-time <etag>[charge]</etag><sup>e23</sup> associated with Hughes 's previously <etag>[announced]</etag><sup>e25</sup> <etag>[plan]</etag><sup>e26</sup> to <etag>[reduce]</etag><sup>e27</sup> employment by at least 6,000 people by <ttag>[year end]<sup>t96</sup></ttag> .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t96 { value:1989 type:DATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e26 BEFORE t96</p>
+<p class=relation>Task C: e23 BEFORE t96</p>
+<p class=relation>Task C: e22 BEFORE t96</p>
+<p class=relation>Task E: e22 OVERLAP e31</p>
+<p class=relation>Task F: e26 BEFORE e27</p>
+<p class=relation>Task F: e25 OVERLAP e26</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Even excluding the charge , however , net <etag>[fell]</etag><sup>e31</sup> 5% .</p></table>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e31 BEFORE e35</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>In addition , GM 's North American vehicle production <etag>[fell]</etag><sup>e33</sup> 8.4% from <ttag>[a year ago]<sup>t97</sup></ttag> , which <etag>[hurt]</etag><sup>e34</sup> Delco Electronic 's earnings , a company spokesman <etag>[said]</etag><sup>e35</sup> .</p></table>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t97 { value:1988-10 type:DATE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e35 AFTER t97</p>
+<p class=relation>Task C: e33 AFTER t97</p>
+<p class=relation>Task E: e35 AFTER e36</p>
+<p class=relation>Task F: e35 OVERLAP-OR-AFTER e34</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>That <etag>[decline]</etag><sup>e36</sup> was reflected in revenue for the GM Hughes unit , which <etag>[edged]</etag><sup>e38</sup> down to $2.58 billion from $2.63 billion .</p></table>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e36 OVERLAP e39</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>In <ttag>[the nine months]<sup>t105</sup></ttag> , GM Hughes net <etag>[fell]</etag><sup>e39</sup> 6.6% to $486.6 million , or $1.48 a share , from $521 million , or $1.58 a share .</p></table>
+<p class=attributes>t105 { type:DURATION value:P9M }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e39 OVERLAP t105</p>
+<p class=relation>Task E: e39 OVERLAP e40</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e40</sup> 3.5% to $8.47 billion from $8.18 billion .</p></table>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e40 OVERLAP e41</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>At GMAC , net <etag>[dropped]</etag><sup>e41</sup> 3.1% to $234.5 million from $241.9 million .</p></table>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e41 BEFORE e42</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>The finance unit <etag>[attributed]</etag><sup>e42</sup> the <etag>[decline]</etag><sup>e43</sup> to higher borrowing costs compared with <ttag>[a year earlier]<sup>t120</sup></ttag> .</p></table>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t120 { value:1988 type:DATE }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e43 AFTER t120</p>
+<p class=relation>Task E: e42 OVERLAP e46</p>
+<p class=relation>Task F: e42 BEFORE-OR-OVERLAP e43</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>GMAC <etag>[said]</etag><sup>e46</sup> its automotive financing and leasing business <etag>[rose]</etag><sup>e47</sup> 35% in the U.S. , largely because of dealer and customer incentives <etag>[used]</etag><sup>e49</sup> to <etag>[boost]</etag><sup>e50</sup> sales .</p></table>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e46 OVERLAP-OR-AFTER e47</p>
+<p class=relation>Task F: e49 OVERLAP e50</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>GMAC profits are combined with earnings from the rest of GM 's operations and attributed to the company 's traditional common stock .</p></table>
+<p/>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>In <ttag>[the first nine months]<sup>t126</sup></ttag> , GMAC 's earnings <etag>[fell]</etag><sup>e54</sup> 8% to $859.5 million from $930.2 million .</p></table>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t126 { type:DURATION value:P9M }</p>
+<p/>
+<p class=relation>Task C: e54 OVERLAP t126</p>
+<p class=relation>Task E: e54 OVERLAP e55</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>At EDS , <ttag>[third-quarter]</ttag><sup>t129</sup> profit <etag>[jumped]</etag><sup>e55</sup> 16% to a record $110.9 million , or 93 cents a share , from $95.9 million , or 79 cents a share .</p></table>
+<p class=attributes>t129 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e55 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e55 OVERLAP e56</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e56</sup> 12% to $1.37 billion from $1.22 billion .</p></table>
+<p class=attributes>e56 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e56 OVERLAP e57</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>In <ttag>[the nine months]<sup>t144</sup></ttag> , EDS <etag>[earned]</etag><sup>e57</sup> $315.8 million , or $2.62 a share , up 13% from $280.7 million , or $2.30 a share .</p></table>
+<p class=attributes>t144 { type:DURATION value:P9M }</p>
+<p class=attributes>e57 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e57 OVERLAP t144</p>
+<p class=relation>Task E: e57 OVERLAP e58</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e58</sup> 14% to $4.03 billion from $3.54 billion .</p></table>
+<p class=attributes>e58 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>Revenue from non-GM accounts was 45% of EDS 's total business in <ttag>[the latest nine months]<sup>t151</sup></ttag> , compared with 40% <ttag>[a year earlier]<sup>t152</sup></ttag> .</p></table>
+<p class=attributes>t151 { value:P9M type:DURATION }</p>
+<p class=attributes>t152 { type:DATE value:1988 }</p>
+<p/>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>The company has <etag>[said]</etag><sup>e61</sup> it <etag>[wants]</etag><sup>e62</sup> to <etag>[boost]</etag><sup>e63</sup> non-GM revenue to at least 50% of its total business by <ttag>[the end of 1990]<sup>t155</sup></ttag> .</p></table>
+<p class=attributes>t155 { value:1990 type:DATE }</p>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:REPORTING }</p>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e61 BEFORE t155</p>
+<p class=relation>Task C: e62 BEFORE t155</p>
+<p class=relation>Task C: e63 BEFORE t155</p>
+<p class=relation>Task F: e61 OVERLAP e62</p>
+<p class=relation>Task F: e62 OVERLAP e63</p>
+</div>
+</body>
+</html>

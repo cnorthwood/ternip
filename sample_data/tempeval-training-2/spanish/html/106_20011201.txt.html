@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>106_20011201.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Los vecinos habían <etag>[anunciado]</etag><sup>e1</sup> que <ttag>[hoy]</ttag><sup>t1</sup> <etag>[cargarían]</etag><sup>e2</sup> un camión con los escombros de los barrancos del barrio y lo <etag>[llevarían]</etag><sup>e3</sup> hasta la plaza de Sant Jaume .</p></table>
+<p class=attributes>e3 { aspect:IMPERFECTIVE class:OCCURRENCE mood:CONDITIONAL polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e1 { aspect:PERFECTIVE class:REPORTING mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e2 { aspect:IMPERFECTIVE class:OCCURRENCE mood:CONDITIONAL polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t1 { type:DATE val:2001-12-01 }</p>
+<p/>
+<p class=relation>Task C: e3 overlap t1</p>
+<p class=relation>Task C: e2 overlap t1</p>
+<p class=relation>Task D: e3 overlap t0</p>
+<p class=relation>Task D: e1 before t0</p>
+<p class=relation>Task D: e2 overlap t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line><ttag>[Ayer]</ttag><sup>t2</sup> <etag>[decidieron]</etag><sup>e4</sup> <etag>[suspender]</etag><sup>e5</sup> la <etag>[protesta]</etag><sup>e6</sup> porque el ayuntamiento ha <etag>[empezado]</etag><sup>e7</sup> a <etag>[adecentar]</etag><sup>e8</sup> el barrio .</p></table>
+<p class=attributes>e7 { aspect:PERFECTIVE class:ASPECTUAL mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e8 { aspect:IMPERFECTIVE class:STATE mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>t2 { type:DATE val:2001-11-30 }</p>
+<p class=attributes>e5 { aspect:IMPERFECTIVE class:ASPECTUAL mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e4 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e6 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e4 overlap t2</p>
+<p class=relation>Task D: e7 before-or-overlap t0</p>
+<p class=relation>Task D: e8 before-or-overlap t0</p>
+<p class=relation>Task D: e5 before t0</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task D: e6 before t0</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>No obstante , la asociación de vecinos <etag>[mantiene]</etag><sup>e9</sup> las demás <etag>[movilizaciones]</etag><sup>e10</sup> <etag>[previstas]</etag><sup>e11</sup> para <ttag>[este mes]<sup>t3</sup></ttag> .</p></table>
+<p class=attributes>e10 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e9 { aspect:IMPERFECTIVE class:ASPECTUAL mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e11 { aspect:NONE class:I_STATE mood:NONE polarity:POS tense:NONE vform:PARTICIPLE }</p>
+<p class=attributes>t3 { type:DATE val:2001-12 }</p>
+<p/>
+<p class=relation>Task C: e11 overlap t3</p>
+<p class=relation>Task D: e10 after t0</p>
+<p class=relation>Task D: e9 overlap t0</p>
+<p class=relation>Task D: e11 before-or-overlap t0</p>
+</div>
+</body>
+</html>

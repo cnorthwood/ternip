@@ -1,0 +1,107 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0660</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Montedison S.p.A .</p></table>
+<p/>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>definitively <etag>[agreed]</etag><sup>e1</sup> to <etag>[buy]</etag><sup>e2</sup> all of the publicly held shares of Erbamont N.V. for $37 each .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE-OR-OVERLAP e3</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Montedison <ttag>[now]</ttag><sup>t29</sup> <etag>[owns]</etag><sup>e3</sup> about 72% of Erbamont 's shares outstanding .</p></table>
+<p class=attributes>t29 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e3 OVERLAP-OR-AFTER e4</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The companies <etag>[said]</etag><sup>e4</sup> the accord was unanimously <etag>[approved]</etag><sup>e5</sup> by a special committee of Erbamont directors unaffiliated with Montedison .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e4 BEFORE e6</p>
+<p class=relation>Task F: e4 AFTER e5</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Under the pact , Montedision will <etag>[make]</etag><sup>e6</sup> a $37-a-share tender <etag>[offer]</etag><sup>e7</sup> for Erbamont stock outstanding .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e6 OVERLAP e8</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The tender <etag>[offer]</etag><sup>e8</sup> will be followed by the <etag>[sale]</etag><sup>e10</sup> of all of Erbamont 's assets , subject to all of its liabilities , to Montedison .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 BEFORE e11</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Erbamont will then be <etag>[liquidated]</etag><sup>e11</sup> , with any remaining Erbamont holders <etag>[receiving]</etag><sup>e12</sup> a distribution of $37 a share .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e11 AFTER e13</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>The companies <etag>[said]</etag><sup>e13</sup> the transaction is being <etag>[structured]</etag><sup>e15</sup> this way because the laws of the Netherlands Antilles , under which Erbamont is organized , do n 't <etag>[provide]</etag><sup>e17</sup> for merger transactions .</p></table>
+<p class=attributes>e17 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e13 OVERLAP-OR-AFTER e15</p>
+</div>
+</body>
+</html>

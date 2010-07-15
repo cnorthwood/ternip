@@ -1,0 +1,136 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1038</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Benjamin Franklin Federal Savings amp Loan Association <etag>[said]</etag><sup>e1</sup> it <etag>[plans]</etag><sup>e2</sup> to <etag>[restructure]</etag><sup>e3</sup> in the wake of a <ttag>[third-quarter]</ttag><sup>t59</sup> <etag>[loss]</etag><sup>e4</sup> of $7.7 million , or $1.01 a share , <etag>[reflecting]</etag><sup>e5</sup> an $11 million <etag>[addition]</etag><sup>e6</sup> to loan-loss reserves .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t59 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t59</p>
+<p class=relation>Task C: e4 OVERLAP t59</p>
+<p class=relation>Task C: e2 AFTER t59</p>
+<p class=relation>Task E: e1 OVERLAP e7</p>
+<p class=relation>Task F: e5 OVERLAP e6</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 OVERLAP e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Portland , Ore. , thrift <etag>[said]</etag><sup>e7</sup> the restructuring should <etag>[help]</etag><sup>e9</sup> it <etag>[meet]</etag><sup>e10</sup> new capital standards from the Financial Institution Reform , Recovery and Enforcement Act .</p></table>
+<p class=attributes>e9 { polarity:POS modality:should pos:VERB tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e7 AFTER e12</p>
+<p class=relation>Task F: e9 OVERLAP e10</p>
+<p class=relation>Task F: e7 BEFORE e9</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line><ttag>[A year ago]<sup>t96</sup></ttag> , Benjamin Franklin had <etag>[profit]</etag><sup>e12</sup> of $1.8 million , or 23 cents a share .</p></table>
+<p class=attributes>t96 { value:1988 type:DATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e12 BEFORE e14</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In over-the-counter <etag>[trading]</etag><sup>e13</sup> <ttag>[yesterday]</ttag><sup>t101</sup> , Benjamin Franklin <etag>[rose]</etag><sup>e14</sup> 25 cents to $4.25 .</p></table>
+<p class=attributes>t101 { value:1989-10-25 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e13 OVERLAP t101</p>
+<p class=relation>Task C: e14 OVERLAP t101</p>
+<p class=relation>Task E: e14 VAGUE e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company <etag>[said]</etag><sup>e15</sup> the restructuring 's initial phase will <etag>[feature]</etag><sup>e17</sup> a gradual reduction in assets and staff positions .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e15 BEFORE e20</p>
+<p class=relation>Task F: e15 BEFORE e17</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The <etag>[plan]</etag><sup>e19</sup> may <etag>[include]</etag><sup>e20</sup> <etag>[selling]</etag><sup>e21</sup> branches , <etag>[consolidating]</etag><sup>e22</sup> or eliminating departments , and <etag>[winding]</etag><sup>e23</sup> down or <etag>[disposing]</etag><sup>e24</sup> of unprofitable units <ttag>[within 18 months]<sup>t140</sup></ttag> .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t140 { value:P18M type:DURATION }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e20 { polarity:POS modality:may pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e19 OVERLAP t140</p>
+<p class=relation>Task E: e20 AFTER e25</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Initially , the company <etag>[said]</etag><sup>e25</sup> it will <etag>[close]</etag><sup>e26</sup> its commercial real-estate lending division , and <etag>[stop]</etag><sup>e27</sup> <etag>[originating]</etag><sup>e28</sup> new leases at its commercial lease subsidiary .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e25 BEFORE-OR-OVERLAP e34</p>
+<p class=relation>Task F: e25 BEFORE e26</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Details of the restructuring wo n 't be <etag>[made]</etag><sup>e30</sup> final until regulators <etag>[approve]</etag><sup>e32</sup> the regulations <etag>[mandated]</etag><sup>e33</sup> by the new federal act , the company <etag>[said]</etag><sup>e34</sup> .</p></table>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e30 { polarity:NEG modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e34 BEFORE e30</p>
+</div>
+</body>
+</html>

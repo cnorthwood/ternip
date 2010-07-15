@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>CNN19980222.1130.0084</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>CNN headline news , I 'm Sachi Koto .</p></table>
+<p/>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Diplomacy <etag>[appears]</etag><sup>e1</sup> to be <etag>[making]</etag><sup>e2</sup> headway in <etag>[resolving]</etag><sup>e3</sup> the united nation 's <etag>[standoff]</etag><sup>e4</sup> with Iraq .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task D: e2 OVERLAP t0</p>
+<p class=relation>Task E: e1 BEFORE-OR-OVERLAP e5</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e3 OVERLAP-OR-AFTER e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>A UN spokesman <etag>[says]</etag><sup>e5</sup> UN secretary general Kofi Annan is on the verge of a breakthrough , but <etag>[added]</etag><sup>e8</sup> it 's not <etag>[done]</etag><sup>e9</sup> yet .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:NEG modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e8 BEFORE t0</p>
+<p class=relation>Task D: e5 BEFORE t0</p>
+<p class=relation>Task E: e5 OVERLAP-OR-AFTER e10</p>
+<p class=relation>Task F: e8 BEFORE e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Annan <etag>[wrapped]</etag><sup>e10</sup> up a <ttag>[three hour]<sup>t1</sup></ttag> <etag>[meeting]</etag><sup>e11</sup> with Iraqi president Saddam Hussein in Baghdad <ttag>[today]</ttag><sup>t2</sup> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t1 { type:DURATION value:PT3H }</p>
+<p class=attributes>t2 { value:1998-02-22 type:DATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 AFTER e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>He 's <etag>[expected]</etag><sup>e12</sup> to <etag>[meet]</etag><sup>e13</sup> with Iraqi deputy prime minister Tariq Aziz <ttag>[later this afternoon]<sup>t3</sup></ttag> .</p></table>
+<p class=attributes>t3 { value:1998-02-22TAF type:DATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e12 OVERLAP t0</p>
+<p class=relation>Task E: e12 OVERLAP e15</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>One major sticking point has been Iraq 's <etag>[proposal]</etag><sup>e15</sup> to <etag>[open]</etag><sup>e16</sup> it 's presidential sites for <ttag>[no more than sixty days]<sup>t4</sup></ttag> .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t4 { value:P60D type:DURATION }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e15 VAGUE e17</p>
+<p class=relation>Task F: e15 BEFORE e16</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>The UN security council <etag>[insists]</etag><sup>e17</sup> any <etag>[deal]</etag><sup>e18</sup> must <etag>[allow]</etag><sup>e19</sup> UN inspectors unrestricted access to all suspected weapons sites .</p></table>
+<p class=attributes>e19 { polarity:POS modality:must pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e19 OVERLAP e18</p>
+<p class=relation>Task F: e17 BEFORE e19</p>
+</div>
+</body>
+</html>

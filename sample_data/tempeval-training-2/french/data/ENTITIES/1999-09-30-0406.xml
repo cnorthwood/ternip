@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="1999-09-30" />GYMNASTIQUE : LA RENTREE REPORTEE.
+Les <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="NOUN" signalID="PRED=COURS" tense="NONE" vform="NONE">cours</EVENT> de gymnastique volontaire <EVENT aspect="NONE" class="ASPECTUAL" eid="e2" pos="NONE" signalID="PRED=REPRENDRE" tense="FUTURE" vform="NONE">reprendront</EVENT> <TIMEX3 tid="t2" type="DATE" value="1999-10-07">le jeudi 7 octobre</TIMEX3>, <SIGNAL sid="s1">de</SIGNAL> <TIMEX3 tid="t3" type="TIME" value="1999-10-07T19:30">19 h 30</TIMEX3> <SIGNAL sid="s2">à</SIGNAL> <TIMEX3 tid="t4" type="TIME" value="1999-10-07T20:30">20 h 30</TIMEX3>, à la salle des fêtes d'Anemont et non <TIMEX3 tid="t5" type="DATE" value="1999-09-30">le jeudi 30 septembre</TIMEX3> comme <EVENT aspect="NONE" class="REPORTING" eid="e4" pos="VERB" signalID="PRED=ANNONCER" tense="NONE" vform="PASTPART">annoncé</EVENT>.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei2" eventID="e2" /><MAKEINSTANCE eiid="ei4" eventID="e4" /></TimeML>

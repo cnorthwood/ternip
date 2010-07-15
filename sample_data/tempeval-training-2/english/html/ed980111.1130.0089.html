@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>ed980111.1130.0089</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>The lights are <etag>[out]</etag><sup>e2</sup> and the heat is <etag>[off]</etag><sup>e4</sup> and those vital signs are not <etag>[likely]</etag><sup>e6</sup> to <etag>[change]</etag><sup>e7</sup> much over <ttag>[the next several days]<sup>t1</sup></ttag> for p- people in parts of the northeastern US and eastern Canada .</p></table>
+<p class=attributes>e6 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t1 { value:PXD type:DURATION }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e7 OVERLAP t1</p>
+<p class=relation>Task D: e7 AFTER t0</p>
+<p class=relation>Task E: e2 OVERLAP e9</p>
+<p class=relation>Task F: e6 BEFORE-OR-OVERLAP e7</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>A powerful ice storm <etag>[continues]</etag><sup>e9</sup> to <etag>[maintain]</etag><sup>e10</sup> its <etag>[grip]</etag><sup>e11</sup> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task D: e9 OVERLAP t0</p>
+<p class=relation>Task E: e9 OVERLAP e12</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line><ttag>[Yesterday]</ttag><sup>t2</sup> New York governor George Pataki <etag>[toured]</etag><sup>e12</sup> five counties that have been <etag>[declared]</etag><sup>e13</sup> under a state of emergency .</p></table>
+<p class=attributes>t2 { value:1998-01-10 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e12 BEFORE e15</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>He <etag>[added]</etag><sup>e15</sup> one more <ttag>[today]</ttag><sup>t3</sup> .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t3 { value:1998-01-11 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e15 OVERLAP t3</p>
+<p class=relation>Task D: e15 BEFORE-OR-OVERLAP t0</p>
+<p class=relation>Task E: e15 OVERLAP e17</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Helicopters are <etag>[flying]</etag><sup>e16</sup> over northern New York <ttag>[today]</ttag><sup>t4</sup> <etag>[trying]</etag><sup>e17</sup> to <etag>[locate]</etag><sup>e18</sup> people <etag>[stranded]</etag><sup>e19</sup> without food , heat or medicine .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>t4 { value:1998-01-11 type:DATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e17 OVERLAP t0</p>
+<p class=relation>Task E: e17 OVERLAP e20</p>
+<p class=relation>Task F: e17 BEFORE-OR-OVERLAP e18</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In Maine , about a half million people still don 't <etag>[have]</etag><sup>e20</sup> power and they ' re going to have to <etag>[live]</etag><sup>e22</sup> without it for a while .</p></table>
+<p class=attributes>e20 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task D: e20 OVERLAP t0</p>
+</div>
+</body>
+</html>

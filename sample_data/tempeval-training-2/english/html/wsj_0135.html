@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0135</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Elco Industries Inc. <etag>[said]</etag><sup>e1</sup> it <etag>[expects]</etag><sup>e2</sup> net income in <ttag>[the year]<sup>t28</sup></ttag> <etag>[ending]</etag><sup>e3</sup> <ttag>[June 30 , 1990]<sup>t27</sup></ttag> , to <etag>[fall]</etag><sup>e4</sup> below a recent analyst 's estimate of $1.65 a share .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t28 { value:P1Y type:DURATION }</p>
+<p class=attributes>t27 { type:DATE value:1990-06-30 }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e4 OVERLAP t28</p>
+<p class=relation>Task C: e1 BEFORE t28</p>
+<p class=relation>Task C: e2 OVERLAP t28</p>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 BEFORE e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Rockford , Ill. , maker of fasteners also <etag>[said]</etag><sup>e5</sup> it <etag>[expects]</etag><sup>e6</sup> to <etag>[post]</etag><sup>e7</sup> sales in <ttag>[the current fiscal year]<sup>t30</sup></ttag> that are " slightly above " <ttag>[fiscal 1989]<sup>t32</sup></ttag> sales of $155 million .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p class=attributes>t32 { value:1989 type:DATE }</p>
+<p class=attributes>t30 { value:1989 type:DATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e6 AFTER t32</p>
+<p class=relation>Task C: e7 AFTER t32</p>
+<p class=relation>Task C: e5 AFTER t32</p>
+<p class=relation>Task E: e5 OVERLAP e11</p>
+<p class=relation>Task F: e6 BEFORE e7</p>
+<p class=relation>Task F: e5 OVERLAP e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The company <etag>[said]</etag><sup>e11</sup> its industrial unit <etag>[continues]</etag><sup>e12</sup> to <etag>[face]</etag><sup>e13</sup> margin pressures and lower demand .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e11 AFTER e14</p>
+<p class=relation>Task F: e11 OVERLAP e12</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In <ttag>[fiscal 1989]<sup>t35</sup></ttag> , Elco <etag>[earned]</etag><sup>e14</sup> $7.8 million , or $1.65 a share .</p></table>
+<p class=attributes>t35 { value:1989 type:DATE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e14 OVERLAP t35</p>
+<p class=relation>Task E: e14 BEFORE e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company 's stock <etag>[fell]</etag><sup>e15</sup> $1.125 to $13.625 in over-the-counter trading <ttag>[yesterday]</ttag><sup>t37</sup> .</p></table>
+<p class=attributes>t37 { value:1989-11-01 type:DATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e15 OVERLAP t37</p>
+</div>
+</body>
+</html>

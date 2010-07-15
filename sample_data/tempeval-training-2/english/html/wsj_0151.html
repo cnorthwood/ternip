@@ -1,0 +1,146 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0151</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Intelogic Trace Inc. , San Antonio , Texas , <etag>[said]</etag><sup>e1</sup> it <etag>[bought]</etag><sup>e2</sup> 2.7 million shares , or about 18% , of its common stock from an unaffiliated shareholder for $3.625 a share , or $9.9 million .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE-OR-OVERLAP e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The move <etag>[boosts]</etag><sup>e3</sup> Intelogic Chairman Asher Edelman 's stake to 20% from 16.2% and may <etag>[help]</etag><sup>e4</sup> <etag>[prevent]</etag><sup>e5</sup> Martin Ackerman from <etag>[making]</etag><sup>e6</sup> a <etag>[run]</etag><sup>e7</sup> at the computer-services concern .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:may pos:VERB tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e3 OVERLAP e8</p>
+<p class=relation>Task F: e4 BEFORE-OR-OVERLAP e5</p>
+<p class=relation>Task F: e5 BEFORE e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Mr. Ackerman already is <etag>[seeking]</etag><sup>e8</sup> to <etag>[oust]</etag><sup>e9</sup> Mr. Edelman as chairman of Datapoint Corp. , an Intelogic affiliate .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 OVERLAP e11</p>
+<p class=relation>Task F: e8 BEFORE e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The <etag>[action]</etag><sup>e10</sup> <etag>[followed]</etag><sup>e11</sup> by <ttag>[one day]<sup>t60</sup></ttag> an Intelogic <etag>[announcement]</etag><sup>e12</sup> that it will <etag>[retain]</etag><sup>e13</sup> an investment banker to <etag>[explore]</etag><sup>e14</sup> alternatives " to <etag>[maximize]</etag><sup>e15</sup> shareholder value , " including the possible <etag>[sale]</etag><sup>e17</sup> of the company .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:possible pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t60 { type:DURATION value:P1D }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e17 AFTER t60</p>
+<p class=relation>Task E: e11 VAGUE e19</p>
+<p class=relation>Task F: e13 BEFORE e14</p>
+<p class=relation>Task F: e14 BEFORE e17</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In New York Stock Exchange composite trading <ttag>[yesterday]</ttag><sup>t58</sup> , Intelogic shares <etag>[rose]</etag><sup>e19</sup> 37.5 cents to <etag>[close]</etag><sup>e20</sup> at $2.75 .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t58 { value:1989-11-01 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e19 OVERLAP t58</p>
+<p class=relation>Task C: e20 OVERLAP t58</p>
+<p class=relation>Task E: e19 VAGUE e21</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Mr. Edelman <etag>[declined]</etag><sup>e21</sup> to <etag>[specify]</etag><sup>e22</sup> what <etag>[prompted]</etag><sup>e23</sup> the recent <etag>[moves]</etag><sup>e24</sup> , <etag>[saying]</etag><sup>e25</sup> they are <etag>[meant]</etag><sup>e26</sup> only to <etag>[benefit]</etag><sup>e27</sup> shareholders when " the company is <etag>[on]</etag><sup>e29</sup> a roll . "</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:PREPOSITION tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e21 OVERLAP e30</p>
+<p class=relation>Task F: e25 OVERLAP e26</p>
+<p class=relation>Task F: e26 OVERLAP e27</p>
+<p class=relation>Task F: e21 BEFORE e22</p>
+<p class=relation>Task F: e22 AFTER e23</p>
+<p class=relation>Task F: e23 BEFORE e24</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>He <etag>[added]</etag><sup>e30</sup> , " This <etag>[has]</etag><sup>e31</sup> nothing to do with Marty Ackerman and it is not <etag>[designed]</etag><sup>e33</sup> , particularly , to <etag>[take]</etag><sup>e34</sup> the company private . "</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e30 OVERLAP e35</p>
+<p class=relation>Task F: e30 OVERLAP e31</p>
+<p class=relation>Task F: e33 BEFORE e34</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>But Mr. Ackerman <etag>[said]</etag><sup>e35</sup> the <etag>[buy-back]</etag><sup>e36</sup> , and the above-market price <etag>[paid]</etag><sup>e37</sup> , <etag>[prove]</etag><sup>e38</sup> that Mr. Edelman is <etag>[running]</etag><sup>e39</sup> scared .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_STATE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e35 AFTER e38</p>
+<p class=relation>Task F: e38 OVERLAP e39</p>
+</div>
+</body>
+</html>

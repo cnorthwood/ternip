@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0324</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>QVC Network Inc. <etag>[said]</etag><sup>e1</sup> it <etag>[completed]</etag><sup>e2</sup> its <etag>[acquisition]</etag><sup>e3</sup> of CVN Cos .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 AFTER e4</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>for about $423 million .</p></table>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>QVC <etag>[agreed]</etag><sup>e4</sup> to <etag>[pay]</etag><sup>e5</sup> $19 and one-eighth QVC share for each of CVN 's 20 million fully diluted shares .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e4 BEFORE e7</p>
+<p class=relation>Task F: e4 BEFORE e5</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The <etag>[acquisition]</etag><sup>e6</sup> <etag>[brings]</etag><sup>e7</sup> together the two largest competitors to Home Shopping Network Inc. , which <ttag>[now]</ttag><sup>t49</sup> <etag>[reaches]</etag><sup>e8</sup> more viewers than any other company in the video shopping industry .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t49 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e6 BEFORE t49</p>
+<p class=relation>Task E: e7 OVERLAP e9</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Among them , Home Shopping , QVC and CVN already <etag>[control]</etag><sup>e9</sup> most of that young and fast-growing market , which <ttag>[last year]<sup>t64</sup></ttag> <etag>[had]</etag><sup>e10</sup> <etag>[sales]</etag><sup>e11</sup> of about $1.4 billion .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t64 { value:1988 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e10 OVERLAP t64</p>
+<p class=relation>Task C: e11 OVERLAP t64</p>
+</div>
+</body>
+</html>

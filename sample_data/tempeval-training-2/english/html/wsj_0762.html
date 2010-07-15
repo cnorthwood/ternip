@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0762</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>CAMBREX Corp. , Bayonne , N.J. , <etag>[declared]</etag><sup>e1</sup> its initial quarterly of five cents a share , payable <ttag>[Dec. 1]<sup>t23</sup></ttag> to stock of record <ttag>[Nov. 10]<sup>t25</sup></ttag> .</p></table>
+<p class=attributes>t23 { value:1989-12-01 type:DATE }</p>
+<p class=attributes>t25 { value:1989-11-10 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The maker of specialty chemicals has about 5.9 million shares outstanding .</p></table>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The company <etag>[said]</etag><sup>e3</sup> the <etag>[move]</etag><sup>e4</sup> <etag>[recognizes]</etag><sup>e5</sup> its strong financial position .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 OVERLAP e7</p>
+<p class=relation>Task F: e3 OVERLAP e5</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Although profits were " <etag>[squeezed]</etag><sup>e6</sup> " in <ttag>[1989]</ttag><sup>t26</sup> , mainly as a result of higher raw-material costs , the company <etag>[said]</etag><sup>e7</sup> it is <etag>[confident]</etag><sup>e9</sup> about future earnings and cash <etag>[flow]</etag><sup>e10</sup> for <ttag>[1990 and beyond]<sup>t27</sup></ttag> .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t27 { value:1990 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t26 { type:DATE value:1989 }</p>
+<p/>
+<p class=relation>Task C: e7 OVERLAP t26</p>
+<p class=relation>Task E: e7 VAGUE e12</p>
+<p class=relation>Task F: e7 OVERLAP e9</p>
+<p class=relation>Task F: e9 BEFORE e10</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In national over-the-counter <etag>[trading]</etag><sup>e11</sup> <ttag>[yesterday]</ttag><sup>t28</sup> , Cambrex shares <etag>[rose]</etag><sup>e12</sup> 50 cents to <etag>[close]</etag><sup>e13</sup> at $13 a share .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t28 { value:1989-10-26 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t28</p>
+<p class=relation>Task C: e11 OVERLAP t28</p>
+<p class=relation>Task C: e13 OVERLAP t28</p>
+</div>
+</body>
+</html>

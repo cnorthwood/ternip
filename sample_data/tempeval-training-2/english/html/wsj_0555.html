@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0555</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Waxman Industries Inc. <etag>[said]</etag><sup>e1</sup> holders of $6,542,000 face amount of its 6 1/4% convertible subordinated debentures , <etag>[due]</etag><sup>e2</sup> <ttag>[March 15 , 2007]<sup>t13</sup></ttag> , have <etag>[elected]</etag><sup>e3</sup> to <etag>[convert]</etag><sup>e4</sup> the debt into about 683,000 common shares .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t13 { type:DATE value:2007-03-15 }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e1 BEFORE t13</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+<p class=relation>Task F: e1 AFTER e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The conversion price is $9.58 a share .</p></table>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The company <etag>[said]</etag><sup>e8</sup> the holders <etag>[represent]</etag><sup>e9</sup> 52% of the face amount of the debentures .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task F: e8 OVERLAP e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Waxman sells a variety of hardware products for the home repair market .</p></table>
+<p/>
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0346</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Cilcorp Inc. , Peoria , Ill. , <etag>[said]</etag><sup>e1</sup> it <etag>[agreed]</etag><sup>e2</sup> to <etag>[acquire]</etag><sup>e3</sup> the environmental consulting and analytical service businesses of Hunter Environmental Services Inc. of Southport , Conn. The utility holding company <etag>[said]</etag><sup>e4</sup> Hunter will <etag>[receive]</etag><sup>e5</sup> 390,000 shares of a new series of Cilcorp convertible preferred stock with a face value of $39 million for the businesses .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e6</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e4 BEFORE e5</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Cilcorp will also <etag>[assume]</etag><sup>e6</sup> $22 million of Hunter 's existing debt .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e6 AFTER e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>As part of the agreement , Cilcorp <etag>[said]</etag><sup>e7</sup> it will <etag>[pay]</etag><sup>e8</sup> Hunter $4 million in exchange for agreements not to compete .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e7 OVERLAP e11</p>
+<p class=relation>Task F: e7 BEFORE e8</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Cilcorp <etag>[said]</etag><sup>e11</sup> the businesses to be <etag>[acquired]</etag><sup>e12</sup> <etag>[had]</etag><sup>e13</sup> revenue of $76 million for <ttag>[the year]<sup>t33</sup></ttag> ended <ttag>[March 31]<sup>t32</sup></ttag> .</p></table>
+<p class=attributes>t33 { value:P1Y type:DURATION }</p>
+<p class=attributes>t32 { value:1989-03-31 type:DATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 AFTER t32</p>
+<p class=relation>Task C: e13 OVERLAP t32</p>
+<p class=relation>Task C: e12 VAGUE t32</p>
+<p class=relation>Task E: e11 VAGUE e14</p>
+<p class=relation>Task F: e11 AFTER e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Separately , Cilcorp <etag>[said]</etag><sup>e14</sup> it <etag>[plans]</etag><sup>e15</sup> to <etag>[purchase]</etag><sup>e16</sup> as many as 1.4 million shares , or 10% of its common stock outstanding from time to time on the open market and through privately negotiated transactions .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e14 OVERLAP e19</p>
+<p class=relation>Task F: e14 OVERLAP e15</p>
+<p class=relation>Task F: e15 BEFORE e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The company , which <ttag>[currently]</ttag><sup>t34</sup> <etag>[has]</etag><sup>e18</sup> 13.5 million common shares outstanding , <etag>[said]</etag><sup>e19</sup> it <etag>[has]</etag><sup>e20</sup> no specific plans for the shares .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t34 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e19 OVERLAP t34</p>
+<p class=relation>Task C: e18 OVERLAP t34</p>
+<p class=relation>Task C: e20 OVERLAP t34</p>
+<p class=relation>Task F: e19 OVERLAP e20</p>
+</div>
+</body>
+</html>

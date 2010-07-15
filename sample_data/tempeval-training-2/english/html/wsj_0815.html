@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0815</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Di Giorgio Corp. <etag>[said]</etag><sup>e1</sup> it 's <etag>[continuing]</etag><sup>e2</sup> <etag>[talks]</etag><sup>e3</sup> with potential buyers of certain units , but has <etag>[reached]</etag><sup>e4</sup> no agreement on any <etag>[deals]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e6</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Di Giorgio , a food wholesaler and building products maker , is <etag>[seeking]</etag><sup>e6</sup> alternatives to an unsolicited $32-a-share tender <etag>[offer]</etag><sup>e7</sup> of DIG Acquisition Corp. , a unit of Rose Partners Limited Partnership .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e6 OVERLAP e8</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>DIG is the vehicle being <etag>[used]</etag><sup>e8</sup> to <etag>[pursue]</etag><sup>e9</sup> to <etag>[acquisition]</etag><sup>e10</sup> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e8 OVERLAP-OR-AFTER e11</p>
+<p class=relation>Task F: e8 BEFORE-OR-OVERLAP e9</p>
+<p class=relation>Task F: e9 OVERLAP e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Robert Mellor , Di Giorgio 's executive vice president , <etag>[said]</etag><sup>e11</sup> the company <etag>[stands]</etag><sup>e12</sup> to <etag>[reap]</etag><sup>e13</sup> more money through the <etag>[sale]</etag><sup>e14</sup> of individual units to others than by <etag>[accepting]</etag><sup>e15</sup> DIG 's offer .</p></table>
+<p class=attributes>e15 { polarity:NEG modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e11 OVERLAP e12</p>
+<p class=relation>Task F: e12 OVERLAP e13</p>
+</div>
+</body>
+</html>

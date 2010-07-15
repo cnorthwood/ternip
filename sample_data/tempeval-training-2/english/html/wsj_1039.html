@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_1039</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Amdahl Corp. , a maker of mainframe computers , <etag>[reported]</etag><sup>e1</sup> a sharp <etag>[decline]</etag><sup>e2</sup> in net <etag>[income]</etag><sup>e3</sup> for its <ttag>[third quarter]<sup>t17</sup></ttag> , <etag>[citing]</etag><sup>e4</sup> <etag>[pricecutting]</etag><sup>e5</sup> by competitors and adverse effects from a strong U.S. dollar .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t17 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e2 OVERLAP t17</p>
+<p class=relation>Task C: e1 AFTER t17</p>
+<p class=relation>Task E: e1 AFTER e8</p>
+<p class=relation>Task F: e1 OVERLAP-OR-AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Net income <etag>[fell]</etag><sup>e8</sup> 37% to $32.9 million , or 30 cents a share , from $52.2 million , or 48 cents a share , in <ttag>[the year-ago period]<sup>t21</sup></ttag> .</p></table>
+<p class=attributes>t21 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e8 AFTER t21</p>
+<p class=relation>Task E: e8 OVERLAP e10</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Revenue <etag>[rose]</etag><sup>e10</sup> 15% to $534.3 million from $464.7 million .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e10 BEFORE-OR-OVERLAP e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Amdahl 's <etag>[results]</etag><sup>e11</sup> were somewhat worse than expected .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e11 BEFORE e17</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Jay Stevens , an analyst with Dean Witter Reynolds , said he <etag>[expected]</etag><sup>e15</sup> the Sunnyvale , Calif. , company to earn 35 cents a share for <ttag>[the quarter]<sup>t22</sup></ttag> and <etag>[said]</etag><sup>e17</sup> the firm 's weaker profit was partly the <etag>[result]</etag><sup>e19</sup> of increased competition from International Business Machines Corp. , Amdahl 's principal competitor for mainframe sales .</p></table>
+<p class=attributes>t22 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e17 AFTER t22</p>
+<p class=relation>Task C: e19 OVERLAP t22</p>
+</div>
+</body>
+</html>

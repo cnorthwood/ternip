@@ -1,0 +1,145 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>PRI19980115.2000.0186</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Former savings and loan chief , Charles Keating , is <etag>[facing]</etag><sup>e1</sup> more legal troubles in California .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>A federal appeals court has <etag>[reinstated]</etag><sup>e2</sup> his state <etag>[convictions]</etag><sup>e3</sup> for securities <etag>[fraud]</etag><sup>e4</sup> .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task F: e3 AFTER e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>NPR 's Elaine Corey has more from San Francisco .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>In <ttag>[nineteen ninety-one]<sup>t1</sup></ttag> Charles Keating was <etag>[convicted]</etag><sup>e5</sup> in state court of <etag>[helping]</etag><sup>e6</sup> to <etag>[defraud]</etag><sup>e7</sup> thousands of investors who <etag>[bought]</etag><sup>e8</sup> high risk junk bonds <etag>[sold]</etag><sup>e9</sup> by Keating 's employees at Lincoln savings and loan .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1 { type:DATE value:1991 }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e6 BEFORE t0</p>
+<p class=relation>Task D: e9 BEFORE t0</p>
+<p class=relation>Task D: e8 BEFORE t0</p>
+<p class=relation>Task E: e5 AFTER e10</p>
+<p class=relation>Task F: e6 OVERLAP e7</p>
+<p class=relation>Task F: e5 AFTER e6</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The bonds <etag>[became]</etag><sup>e10</sup> worthless when the bankrupt thrift was <etag>[seized]</etag><sup>e12</sup> by government regulators .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e10 BEFORE t0</p>
+<p class=relation>Task E: e10 BEFORE e14</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Keating 's <etag>[convictions]</etag><sup>e13</sup> were <etag>[thrown]</etag><sup>e14</sup> out in <ttag>[nineteen ninety-six]<sup>t2</sup></ttag> on a technicality .</p></table>
+<p class=attributes>t2 { type:DATE value:1996 }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e14 BEFORE e15</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>And on that basis Keating was <etag>[released]</etag><sup>e15</sup> from prison before he was <etag>[eligible]</etag><sup>e17</sup> for <etag>[parole]</etag><sup>e18</sup> .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e15 BEFORE e19</p>
+<p class=relation>Task F: e17 BEFORE e18</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line><ttag>[Now]</ttag><sup>t3</sup> the ninth US circuit court of appeals has <etag>[ruled]</etag><sup>e19</sup> that the original <etag>[appeal]</etag><sup>e20</sup> was <etag>[flawed]</etag><sup>e21</sup> since it <etag>[brought]</etag><sup>e22</sup> up issues that had not been <etag>[raised]</etag><sup>e23</sup> before .</p></table>
+<p class=attributes>e23 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t3 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e19 BEFORE-OR-OVERLAP e24</p>
+<p class=relation>Task F: e19 AFTER e21</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>That <etag>[means]</etag><sup>e24</sup> the convictions <etag>[stand]</etag><sup>e25</sup> , a <etag>[ruling]</etag><sup>e26</sup> likely to <etag>[send]</etag><sup>e27</sup> Keating 's lawyers back to state court where they must <etag>[start]</etag><sup>e28</sup> over with a new <etag>[appeal]</etag><sup>e29</sup> .</p></table>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e28 { polarity:POS modality:must pos:NOUN tense:NONE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e24 OVERLAP e25</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Elaine Corey , NPR news , San Francisco .</p></table>
+<p/>
+</div>
+</body>
+</html>

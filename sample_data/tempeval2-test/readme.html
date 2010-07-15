@@ -1,0 +1,126 @@
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="mainText">
+
+<h1>Tempeval-2 Test Data &mdash; Release Notes</h1>
+
+<p>Version 1 - Marc Verhagen - March 28th, 2010</p>
+
+<p class="navigation">
+[ 
+<!-- <a href="http://www.timeml.org/tempeval2/">tempeval home</a> -->
+ <a href="#description">data description</a>
+| <a href="#specific">language-specific</a>
+| <a href="#contacts">contacts</a>
+]
+</p>
+
+<p>In this document, we describe the Tempeval test data. The description focuses on
+the English data, but the format for all other languages, with the exception of the French
+data, is essentially the same.</p>
+
+<p>The unavoidable updates to this document will be published on the Tempeval2 pages
+at <a
+href="http://www.timeml.org/tempeval2/">http://www.timeml.org/tempeval2/</a>,
+which also contains a link to the Tempeval Google group.</p> 
+
+
+
+<a name="description"></a>
+<h3>Data description</h3>
+
+<p>The data format is the same as for the training data, consult the release notes with the
+training data for details. However, depending on the task some data will be left
+out:</p>
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr valign="top">
+  <td>Tasks A and B</td>
+  <td>Only the file "base-segmentation.tab" will be provided. The task would be to create
+  the files "timex-extents.tab", "timex-attributes.tab", "event-extents.tab", and
+  "event-attributes.tab". The format of those files should identical to the same files in
+  the training data. But note that the scorer script only uses the first three columns for
+  the extent data and the first three and ther last two columns for the attribute
+  data.</td>
+</tr>
+<tr valign="top">
+  <td>Tasks&nbsp;C&nbsp;through&nbsp;F</td>
+  <td>All files will be provided, but the relation types in the files with temporal links
+  will be set to "NONE". The task here is to replace "NONE" with one of the acceptable
+  relation types. Teams are allowed to leave "NONE" as the value, in which case those
+  relations will be skipped by the scorer, there will however be an accompanying note
+  with the score that makes explicit how many relations were not generated (a recall score
+  basically).</td>
+</tr>
+</table>
+
+
+
+<a name="specific"></a>
+<h3>Language-specific remarks</h3>
+
+<p>The French data are not provided as vertical files, but as XML files. Special
+release notes for French will also be posted on the Tempeval Google group.</p>
+
+<p>With the exception of French and Italian, the Document Creation Time is given as a
+separate file in the release. For French, the DCT is given as a timex inside the XML
+document where the attribute functionInDocument has value PUBLICATION_TIME, in most cases,
+the DCT is also reflected in the file name. For Italian, the DCT is typically given as the
+first timex in each document, marked with t1. There are a couple of exceptions though:</p>
+
+<ul>
+<li>cs.morph015 and cs.morph016 have as DCT 1995-08-07T18:00; signaled by t0
+<li>els.morph041 has as DCT 1986-09-30T18:00; signaled by t0
+<li>els.morph042 has as DCT 1986-09-29T18:00; signaled by t0
+</ul>
+
+<p>Contact the people in the listing below for language-specific questions on the DCT.</p>
+
+
+<a name="contacts"></a>
+<h3>Contacts</h3>
+
+<p>For general questions on Tempeval and questions on this document, email
+marc@cs.brandeis.edu. For questions on the data sets, send an email to the Google
+group. You can also email one of the people below, depending on what language your
+question is on:</p>
+
+<table cellpadding=3 cellspacing=0 border=1 bordercolor=black>
+<tr>
+  <td>Chinese
+  <td>Nianwen Xue
+  <td>xuen@brandeis.edu
+<tr>
+  <td>English
+  <td>Marc Verhagen
+  <td>marc@cs.brandeis.edu
+<tr>
+  <td>French
+  <td>Andre Bittar
+  <td>andre.bittar@linguist.jussieu.fr
+<tr>
+  <td>Italian
+  <td>Tommaso Caselli
+  <td>t.caselli@gmail.com
+<tr>
+  <td>Korean
+  <td>Seohyun Im
+  <td>ish97@cs.brandeis.edu
+<tr>
+  <td>Spanish
+  <td>Roser Saur&iacute;
+  <td>roser.sauri@barcelonamedia.org
+</table>
+
+
+</div>
+
+</body>
+
+</html>

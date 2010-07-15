@@ -1,0 +1,188 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0904</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Compaq Computer Corp. <etag>[said]</etag><sup>e1</sup> that its net income <etag>[rose]</etag><sup>e2</sup> 51% in <ttag>[the third quarter]<sup>t106</sup></ttag> , <etag>[bolstered]</etag><sup>e3</sup> by unusual <etag>[gains]</etag><sup>e4</sup> from its <etag>[investment]</etag><sup>e5</sup> in a disk-drive maker and reflecting continued <etag>[growth]</etag><sup>e8</sup> in its European operations .</p></table>
+<p class=attributes>t106 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e4 OVERLAP t106</p>
+<p class=relation>Task C: e1 AFTER t106</p>
+<p class=relation>Task C: e2 OVERLAP t106</p>
+<p class=relation>Task E: e1 OVERLAP e9</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The computer maker <etag>[said]</etag><sup>e9</sup> net <etag>[jumped]</etag><sup>e10</sup> to $87 million , or $2.02 a share , from $58 million , or $1.40 a share , <ttag>[a year earlier]<sup>t58</sup></ttag> .</p></table>
+<p class=attributes>t58 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e9 AFTER t58</p>
+<p class=relation>Task E: e9 AFTER e11</p>
+<p class=relation>Task F: e9 OVERLAP e10</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Sales <etag>[increased]</etag><sup>e11</sup> 36% to $683 million from $502 million .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e11 BEFORE-OR-OVERLAP e12</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line><ttag>[The latest quarter]<sup>t64</sup></ttag> 's <etag>[results]</etag><sup>e12</sup> , however , included a pretax <etag>[gain]</etag><sup>e14</sup> of $13.7 million , or 20 cents a share , in the carrying value of the company 's <etag>[investment]</etag><sup>e15</sup> in Conner Peripherals Inc. and a $7.6 million gain , or 11 cents a share , from the <etag>[sale]</etag><sup>e16</sup> of one million Conner shares .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t64 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e14 OVERLAP t64</p>
+<p class=relation>Task C: e16 OVERLAP t64</p>
+<p class=relation>Task C: e12 OVERLAP-OR-AFTER t64</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Net for <ttag>[the nine months]<sup>t68</sup></ttag> was $254 million , or $5.94 a share , up 56% from $163 million , or $4.06 a share , <ttag>[a year earlier]<sup>t72</sup></ttag> .</p></table>
+<p class=attributes>t72 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>t68 { type:DURATION value:P9M }</p>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Sales <etag>[rose]</etag><sup>e18</sup> 50% to $2.1 billion from $1.4 billion .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e18 VAGUE e20</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Net for <ttag>[the year-earlier nine months]<sup>t247</sup></ttag> also included a <etag>[gain]</etag><sup>e20</sup> of $9.7 million , or 15 cents a share , in the carrying value of the Conner <etag>[investment]</etag><sup>e21</sup> .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t247 { value:P9M type:DURATION }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e20 OVERLAP t247</p>
+<p class=relation>Task E: e20 BEFORE e22</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Michael Swavely , president of Compaq 's North America division , <etag>[attributed]</etag><sup>e22</sup> the company 's <ttag>[third-quarter]</ttag><sup>t82</sup> <etag>[performance]</etag><sup>e23</sup> to continued <etag>[increases]</etag><sup>e25</sup> in international sales , which accounted for 43% of the company 's sales , a 74% <etag>[increase]</etag><sup>e29</sup> from <ttag>[a year earlier]<sup>t83</sup></ttag> .</p></table>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t83 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>t82 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e25 OVERLAP t82</p>
+<p class=relation>Task C: e29 OVERLAP t82</p>
+<p class=relation>Task E: e22 OVERLAP e34</p>
+<p class=relation>Task F: e22 AFTER e23</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>" Over <ttag>[the next couple of years]<sup>t86</sup></ttag> we would not be <etag>[surprised]</etag><sup>e31</sup> to <etag>[see]</etag><sup>e32</sup> Europe and international { sales } <etag>[represent]</etag><sup>e33</sup> 50% of the company 's revenues , " he <etag>[said]</etag><sup>e34</sup> .</p></table>
+<p class=attributes>e31 { polarity:NEG modality:would pos:ADJECTIVE tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:PERCEPTION }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t86 { value:P2Y type:DURATION }</p>
+<p/>
+<p class=relation>Task C: e32 OVERLAP t86</p>
+<p class=relation>Task C: e34 BEFORE t86</p>
+<p class=relation>Task E: e34 AFTER e35</p>
+<p class=relation>Task F: e31 OVERLAP e32</p>
+<p class=relation>Task F: e32 OVERLAP e33</p>
+<p class=relation>Task F: e34 BEFORE e31</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>During <ttag>[the third quarter]<sup>t87</sup></ttag> , Compaq <etag>[purchased]</etag><sup>e35</sup> a former Wang Laboratories manufacturing facility in Stirling , Scotland , which will be <etag>[used]</etag><sup>e36</sup> for international service and repair operations .</p></table>
+<p class=attributes>t87 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e36 AFTER t87</p>
+<p class=relation>Task C: e35 OVERLAP t87</p>
+<p class=relation>Task E: e35 BEFORE e38</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Mr. Swavely <etag>[said]</etag><sup>e38</sup> the new space will <etag>[allow]</etag><sup>e39</sup> Compaq to <etag>[increase]</etag><sup>e40</sup> the manufacturing capacity of its plant in Erskine , Scotland .</p></table>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e38 VAGUE e42</p>
+<p class=relation>Task F: e38 BEFORE e39</p>
+<p class=relation>Task F: e39 BEFORE-OR-OVERLAP e40</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>In New York Stock Exchange composite trading <ttag>[yesterday]</ttag><sup>t91</sup> , Compaq shares <etag>[fell]</etag><sup>e42</sup> $1.625 to $108.625 .</p></table>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t91 { value:1989-10-25 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e42 OVERLAP t91</p>
+</div>
+</body>
+</html>

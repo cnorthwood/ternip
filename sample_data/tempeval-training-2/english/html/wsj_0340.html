@@ -1,0 +1,104 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0340</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>The portfolio unit of the French bank group Credit Lyonnais <etag>[told]</etag><sup>e1</sup> stock market regulators that it <etag>[bought]</etag><sup>e2</sup> 43,000 shares of Cie .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 AFTER e6</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e2 BEFORE-OR-OVERLAP e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>de Navigation Mixte , apparently to <etag>[help]</etag><sup>e3</sup> <etag>[fend]</etag><sup>e4</sup> off an unwelcome takeover bid for the company .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e3 OVERLAP e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line><ttag>[Earlier yesterday]<sup>t23</sup></ttag> , the Societe de Bourses Francaises was <etag>[told]</etag><sup>e6</sup> that a unit of Framatome S.A. also <etag>[bought]</etag><sup>e7</sup> Navigation Mixte shares , this <etag>[purchase]</etag><sup>e8</sup> covering more than 160,000 shares .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t23 { value:1989-10-31 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t23</p>
+<p class=relation>Task C: e7 BEFORE t23</p>
+<p class=relation>Task C: e8 BEFORE t23</p>
+<p class=relation>Task E: e6 OVERLAP e12</p>
+<p class=relation>Task F: e6 AFTER e7</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Both companies are allies of Navigation Mixte in its <etag>[fight]</etag><sup>e12</sup> against a hostile takeover bid <etag>[launched]</etag><sup>e14</sup> <ttag>[last week]<sup>t61</sup></ttag> by Cie .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t61 { value:1989-WXX type:DATE }</p>
+<p/>
+<p class=relation>Task E: e12 OVERLAP e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Financiere de Paribas at 1,850 French francs ( $297 ) a share .</p></table>
+<p/>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Navigation Mixte 's chairman had <etag>[suggested]</etag><sup>e15</sup> that friendly institutions were likely to <etag>[buy]</etag><sup>e18</sup> its stock as soon as <etag>[trading]</etag><sup>e19</sup> <etag>[opened]</etag><sup>e20</sup> <ttag>[Monday]</ttag><sup>t26</sup> .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:I_STATE }</p>
+<p class=attributes>t26 { value:1989-11-06 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e19 OVERLAP t26</p>
+<p class=relation>Task C: e18 OVERLAP t26</p>
+<p class=relation>Task F: e15 BEFORE e18</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>The Credit Lyonnais purchase , for 33,000 regular common shares and 10,000 newly created shares , is valued at about slightly more than 80 million French francs .</p></table>
+<p/>
+</div>
+</body>
+</html>

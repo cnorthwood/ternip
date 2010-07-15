@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0136</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Oshkosh Truck Corp. , Oshkosh , Wis. , <etag>[estimated]</etag><sup>e1</sup> earnings for its <ttag>[fourth quarter]<sup>t2027</sup></ttag> ended <ttag>[Sept. 30]<sup>t2023</sup></ttag> <etag>[fell]</etag><sup>e2</sup> 50% to 75% below the year-earlier $4.5 million , or 51 cents a share .</p></table>
+<p class=attributes>t2027 { value:1998-Q4 type:DATE }</p>
+<p class=attributes>t2023 { value:1989-09 type:DATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e2 BEFORE t2023</p>
+<p class=relation>Task E: e1 OVERLAP e3</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The truck maker <etag>[said]</etag><sup>e3</sup> the significant <etag>[drop]</etag><sup>e4</sup> in net income will <etag>[result]</etag><sup>e5</sup> in lower earnings for <ttag>[the fiscal year]<sup>t2024</sup></ttag> .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t2024 { value:1989 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e5 OVERLAP t2024</p>
+<p class=relation>Task C: e3 OVERLAP t2024</p>
+<p class=relation>Task C: e4 OVERLAP t2024</p>
+<p class=relation>Task E: e3 AFTER e6</p>
+<p class=relation>Task F: e3 BEFORE e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In <ttag>[fiscal 1988]<sup>t37</sup></ttag> , the company <etag>[earned]</etag><sup>e6</sup> $17.3 million , or $1.92 a share , on revenue of $352.9 million .</p></table>
+<p class=attributes>t37 { type:DATE value:1989 }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t37</p>
+<p class=relation>Task E: e6 BEFORE e7</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Oshkosh Truck <etag>[attributed]</etag><sup>e7</sup> the <etag>[downturn]</etag><sup>e8</sup> in its earnings to higher start-up costs of its new chassis division , a softer motor-home market and higher administrative costs of compliance with government contractor regulations .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e7 OVERLAP e9</p>
+<p class=relation>Task F: e7 AFTER e8</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company <etag>[said]</etag><sup>e9</sup> it is in the process of <etag>[phasing]</etag><sup>e11</sup> out John Deere , its current source of production for midsized motor home chassis .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e9 OVERLAP e13</p>
+<p class=relation>Task F: e9 OVERLAP e11</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In anticipation of the start-up of its new factory , the company <etag>[said]</etag><sup>e13</sup> a larger-than-normal chassis supply has been <etag>[built]</etag><sup>e14</sup> to <etag>[carry]</etag><sup>e15</sup> it through the transition period .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task F: e14 BEFORE e15</p>
+<p class=relation>Task F: e13 AFTER e14</p>
+</div>
+</body>
+</html>

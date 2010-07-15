@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0160</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Savin Corp. <etag>[reported]</etag><sup>e1</sup> a <ttag>[third-quarter]</ttag><sup>t30</sup> net <etag>[loss]</etag><sup>e2</sup> of $35.2 million , or 31 cents a share , compared with <ttag>[year-earlier]</ttag><sup>t31</sup> <etag>[profit]</etag><sup>e4</sup> of $3.8 million , or one cent a share .</p></table>
+<p class=attributes>t31 { value:1988-Q3 type:TIME }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t30 { value:1989-Q3 type:TIME }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 AFTER t30</p>
+<p class=relation>Task C: e2 OVERLAP t30</p>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 AFTER e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>A spokesman for the Stamford , Conn.based company <etag>[said]</etag><sup>e5</sup> operations had a <etag>[loss]</etag><sup>e7</sup> of $5.5 million for <ttag>[the quarter]<sup>t33</sup></ttag> ; in addition , the <etag>[loss]</etag><sup>e8</sup> was <etag>[magnified]</etag><sup>e9</sup> by nonrecurring charges totaling $23.5 million and $8.2 million in asset-valuation adjustments that he described as " unusual . "</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t33 { value:1989-Q3 type:TIME }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t33</p>
+<p class=relation>Task C: e7 OVERLAP t33</p>
+<p class=relation>Task C: e5 AFTER t33</p>
+<p class=relation>Task E: e5 OVERLAP e18</p>
+<p class=relation>Task F: e9 OVERLAP e8</p>
+<p class=relation>Task F: e5 AFTER e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The charges were partly <etag>[offset]</etag><sup>e14</sup> by a $2 million <etag>[gain]</etag><sup>e15</sup> on the <etag>[sale]</etag><sup>e16</sup> of investments of two joint ventures , he <etag>[said]</etag><sup>e18</sup> .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e18 AFTER e19</p>
+<p class=relation>Task F: e18 AFTER e14</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Revenue <etag>[declined]</etag><sup>e19</sup> 8% to $85.7 million , from $93.3 million <ttag>[a year earlier]<sup>t38</sup></ttag> .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t38 { value:1988-Q3 type:TIME }</p>
+<p/>
+<p class=relation>Task C: e19 AFTER t38</p>
+<p class=relation>Task E: e19 BEFORE e20</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Savin <etag>[cited]</etag><sup>e20</sup> " a general <etag>[softening]</etag><sup>e21</sup> in the demand for office products in the market segments in which Savin competes . "</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e20 AFTER e21</p>
+</div>
+</body>
+</html>

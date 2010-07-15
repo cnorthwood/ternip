@@ -1,0 +1,334 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=GB18030">
+</head>
+
+<body>
+
+<h2>chtb_0130</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>柴达木 盆地 油气 <etag>[生产]</etag><sup>e50</sup> 再 <etag>[传]</etag><sup>e1</sup> 捷报</p></table>
+<p class=attributes>e50 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e1 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e50 before t0</p>
+<p class=relation>Task D: e1 before t0</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>新华社 西宁 <ttag>[一月 三日]<sup>t1</sup></ttag> 电 （ 记者 徐鸿伟 ）</p></table>
+<p class=attributes>t1 { type:DATE val:1998-01-03 }</p>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>青海 油田 新年 再 <etag>[传]</etag><sup>e2</sup> 捷报 ： 截至 <ttag>[九七年 十二月 末]<sup>t2</sup></ttag> ， 油气 产量 <etag>[达]</etag><sup>e3</sup> 一百六十万 吨 。</p></table>
+<p class=attributes>t2 { type:DATE val:undef }</p>
+<p class=attributes>e2 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e3 overlap t2</p>
+<p class=relation>Task D: e2 before t0</p>
+<p class=relation>Task D: e3 before t0</p>
+<p class=relation>Task E: e2 after e4</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>该 油田 油气 产量 已 连续 <ttag>[七 年]<sup>t3</sup></ttag> <etag>[逾]</etag><sup>e4</sup> 百万 吨 。</p></table>
+<p class=attributes>e4 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t3 { type:DURATION val:P7Y }</p>
+<p/>
+<p class=relation>Task C: e4 overlap t3</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task E: e4 overlap e5</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>青海 油田 <etag>[位]</etag><sup>e5</sup> 于 青藏 高原 北部 的 柴达木 盆地 ， 总 面积 二十四 平方公里 。</p></table>
+<p class=attributes>e5 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e5 overlap t0</p>
+<p class=relation>Task E: e5 overlap e8</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>自 <ttag>[一九五四年]</ttag><sup>t4</sup> <etag>[勘探]</etag><sup>e6</sup> <etag>[开发]</etag><sup>e7</sup> 以来 ， 已 累计 <etag>[生产]</etag><sup>e8</sup> 原油 一千五百五十多万 吨 ， <etag>[加工]</etag><sup>e9</sup> 原油 近 八百万 吨 。</p></table>
+<p class=attributes>t4 { type:DATE val:1954 }</p>
+<p class=attributes>e8 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e7 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e6 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e9 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e8 overlap-or-after t4</p>
+<p class=relation>Task C: e7 overlap-or-after t4</p>
+<p class=relation>Task C: e6 overlap-or-after t4</p>
+<p class=relation>Task C: e9 overlap-or-after t4</p>
+<p class=relation>Task D: e8 before t0</p>
+<p class=relation>Task D: e7 before t0</p>
+<p class=relation>Task D: e6 before t0</p>
+<p class=relation>Task D: e9 before t0</p>
+<p class=relation>Task E: e8 overlap e10</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>据 <etag>[介绍]</etag><sup>e51</sup> ， <ttag>[近 几 年]<sup>t5</sup></ttag> 来 ， 油田 <etag>[加大]</etag><sup>e10</sup> 了 对 油气 资源 的 勘探 和 开发 投资 力度 ， <etag>[投入]</etag><sup>e11</sup> 勘探 资金 近 十亿 元 ， <etag>[探明]</etag><sup>e12</sup> 油气 储量 年均 <etag>[增长]</etag><sup>e13</sup> 四千多万 吨 。</p></table>
+<p class=attributes>e11 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e13 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e12 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e51 { aspect:NONE class:REPORTING modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>t5 { type:DATE val:PAST_REF }</p>
+<p class=attributes>e10 { aspect:ACTUAL class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e11 overlap t5</p>
+<p class=relation>Task C: e13 overlap t5</p>
+<p class=relation>Task C: e12 overlap t5</p>
+<p class=relation>Task C: e10 overlap t5</p>
+<p class=relation>Task D: e11 before t0</p>
+<p class=relation>Task D: e13 before t0</p>
+<p class=relation>Task D: e12 before t0</p>
+<p class=relation>Task D: e51 before t0</p>
+<p class=relation>Task D: e10 before t0</p>
+<p class=relation>Task E: e10 before e14</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>通过 对 新 的 勘探 资料 的 <etag>[测算]</etag><sup>e52</sup> ， <etag>[确认]</etag><sup>e14</sup> 柴达木 盆地 的 石油 资源量 近 四十二亿 吨 。</p></table>
+<p class=attributes>e14 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e52 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e14 before t0</p>
+<p class=relation>Task D: e52 before t0</p>
+<p class=relation>Task E: e14 vague e15</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line><ttag>[目前]</ttag><sup>t6</sup> ， 已 <etag>[探明]</etag><sup>e15</sup> 二十二 个 油气田 石油 储量 两亿多 吨 ， 天然气 储量 <etag>[突破]</etag><sup>e16</sup> 一千五百亿 立方米 。</p></table>
+<p class=attributes>t6 { type:DATE val:PRESENT_REF }</p>
+<p class=attributes>e15 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e16 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e15 before t6</p>
+<p class=relation>Task C: e16 before t6</p>
+<p class=relation>Task D: e15 before t0</p>
+<p class=relation>Task D: e16 before t0</p>
+<p class=relation>Task E: e15 overlap e17</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>其 规模 仅 <etag>[次于]</etag><sup>e17</sup> 四川 、 陕甘宁 、 塔里木 ， <etag>[居]</etag><sup>e18</sup> 全 国 气田 第四 位 。</p></table>
+<p class=attributes>e18 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e17 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e18 overlap t0</p>
+<p class=relation>Task D: e17 overlap t0</p>
+<p class=relation>Task E: e17 vague e19</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>据悉 ， 中国 已 <etag>[作出]</etag><sup>e19</sup> 规划 ， “ <ttag>[九五]</ttag><sup>t7</sup> ” 期间 （ <ttag>[一九九六]</ttag><sup>t8</sup> 至 <ttag>[二０００年]</ttag><sup>t9</sup> ） <etag>[利用]</etag><sup>e20</sup> 这 一 地区 丰富 的 油气 资源 ， 通过 <etag>[引进]</etag><sup>e21</sup> 外资 、 与 地方 联合 <etag>[筹资]</etag><sup>e22</sup> 等 方式 ， 在 盆地 <etag>[兴建]</etag><sup>e23</sup> <ttag>[年]</ttag><sup>t10</sup> <etag>[产]</etag><sup>e24</sup> 十二万 吨 聚氯乙烯 、 十万 吨 烧碱 和 二十万 吨 合成 氨 、 三十万 吨 尿素 的 大型 天然气 化工 和 盐 化工 结合 项目 。</p></table>
+<p class=attributes>e21 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e23 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t9 { type:DATE val:2000 }</p>
+<p class=attributes>e20 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e22 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t10 { type:DURATION val:P1Y }</p>
+<p class=attributes>e24 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t8 { type:DATE val:1996 }</p>
+<p class=attributes>e19 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t7 { type:DATE val:undef }</p>
+<p/>
+<p class=relation>Task C: e21 overlap t7</p>
+<p class=relation>Task C: e23 overlap t7</p>
+<p class=relation>Task C: e20 overlap t7</p>
+<p class=relation>Task C: e22 overlap t7</p>
+<p class=relation>Task C: e24 overlap t10</p>
+<p class=relation>Task D: e21 after t0</p>
+<p class=relation>Task D: e23 after t0</p>
+<p class=relation>Task D: e20 after t0</p>
+<p class=relation>Task D: e22 after t0</p>
+<p class=relation>Task D: e24 after t0</p>
+<p class=relation>Task D: e19 before t0</p>
+<p class=relation>Task E: e19 vague e28</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line><ttag>[目前]</ttag><sup>t11</sup> ， 与 之 <etag>[配套]</etag><sup>e25</sup> <etag>[建设]</etag><sup>e26</sup> 的 两 条 总长 近 三百 公里 的 输气 管道 和 一 座 <etag>[装机]</etag><sup>e27</sup> 一万六千 瓦 的 天然气 发电站 已 <etag>[建成]</etag><sup>e28</sup> <etag>[投产]</etag><sup>e29</sup> 。</p></table>
+<p class=attributes>e28 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e29 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e27 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t11 { type:DATE val:PRESENT_REF }</p>
+<p class=attributes>e26 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e25 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e28 before t11</p>
+<p class=relation>Task C: e29 before t11</p>
+<p class=relation>Task D: e28 before t0</p>
+<p class=relation>Task D: e29 before t0</p>
+<p class=relation>Task D: e27 overlap t0</p>
+<p class=relation>Task D: e26 overlap t0</p>
+<p class=relation>Task D: e25 overlap t0</p>
+<p class=relation>Task E: e28 before e32</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line><etag>[通往]</etag><sup>e30</sup> 青海 石油局 生活 科研 基地 ── 甘肃 敦煌 长 二百八十 公里 的 第三 条 天然气 管道 和 格尔木 炼油厂 <ttag>[年]</ttag><sup>t12</sup> <etag>[产]</etag><sup>e31</sup> 十万 吨 甲醇 项目 将 于 <ttag>[今年]</ttag><sup>t13</sup> <etag>[动工]</etag><sup>e32</sup> <etag>[兴建]</etag><sup>e33</sup> 。</p></table>
+<p class=attributes>t12 { type:DURATION val:P1Y }</p>
+<p class=attributes>e31 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e33 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t13 { type:DATE val:1998 }</p>
+<p class=attributes>e32 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e30 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e31 overlap t12</p>
+<p class=relation>Task C: e33 overlap t13</p>
+<p class=relation>Task C: e32 overlap t13</p>
+<p class=relation>Task D: e31 after t0</p>
+<p class=relation>Task D: e33 after t0</p>
+<p class=relation>Task D: e32 after t0</p>
+<p class=relation>Task D: e30 after t0</p>
+<p class=relation>Task E: e32 after e35</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>此外 ， 为 <etag>[提高]</etag><sup>e34</sup> 油品 的 附加值 ， 总 投资 二亿六千万 元 的 青海 石油 管理局 格尔木 炼油厂 二 期 工程 已 <etag>[建成]</etag><sup>e35</sup> <etag>[投产]</etag><sup>e36</sup> ， 这 项 工程 主要 由 <ttag>[年]</ttag><sup>t14</sup> <etag>[产]</etag><sup>e37</sup> 十五万 吨 九十 号 无铅 汽油 催化 <etag>[重整]</etag><sup>e53</sup> 、 <ttag>[年]</ttag><sup>t15</sup> <etag>[产]</etag><sup>e38</sup> 十五万 吨 加氢 精制 柴油 装置 <etag>[组成]</etag><sup>e39</sup> 。</p></table>
+<p class=attributes>e53 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>t14 { type:DURATION val:P1Y }</p>
+<p class=attributes>e35 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e36 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e37 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e39 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e38 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t15 { type:DURATION val:P1Y }</p>
+<p class=attributes>e34 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e37 overlap t14</p>
+<p class=relation>Task C: e38 overlap t15</p>
+<p class=relation>Task D: e53 overlap t0</p>
+<p class=relation>Task D: e35 before t0</p>
+<p class=relation>Task D: e36 before t0</p>
+<p class=relation>Task D: e37 overlap t0</p>
+<p class=relation>Task D: e39 overlap t0</p>
+<p class=relation>Task D: e38 overlap t0</p>
+<p class=relation>Task D: e34 after t0</p>
+<p class=relation>Task E: e35 before e40</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>这 一 工程 的 <etag>[投产]</etag><sup>e54</sup> ， 将 进一步 <etag>[完善]</etag><sup>e40</sup> 该 厂 的 油品 结构 ， <etag>[提高]</etag><sup>e41</sup> 产品 的 市场 竞争 能力 。</p></table>
+<p class=attributes>e40 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e41 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e54 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e40 after t0</p>
+<p class=relation>Task D: e41 after t0</p>
+<p class=relation>Task D: e54 before t0</p>
+<p class=relation>Task E: e40 after e42</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>中国 石油 天然气 总 公司 已 <etag>[确定]</etag><sup>e42</sup> 把 柴达木 盆地 <etag>[列为]</etag><sup>e43</sup> 中国 油气 勘探 重点 地区 ， <etag>[计划]</etag><sup>e44</sup> 到 <ttag>[本 世纪 末]<sup>t16</sup></ttag> <etag>[实现]</etag><sup>e45</sup> 油气 <ttag>[年]</ttag><sup>t17</sup> 产量 三百万 吨 ， 到 <ttag>[二零零五年]</ttag><sup>t18</sup> ， <ttag>[年]</ttag><sup>t19</sup> 产量 <etag>[达到]</etag><sup>e46</sup> 一千万 吨 。</p></table>
+<p class=attributes>t17 { type:DURATION val:P1Y }</p>
+<p class=attributes>e43 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t16 { type:DATE val:undef }</p>
+<p class=attributes>e44 { aspect:NONE class:I_ACTION modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e45 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t19 { type:DURATION val:P1Y }</p>
+<p class=attributes>t18 { type:DATE val:2005 }</p>
+<p class=attributes>e46 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e42 { aspect:NONE class:I_ACTION modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e45 overlap t16</p>
+<p class=relation>Task C: e46 overlap t18</p>
+<p class=relation>Task D: e43 before t0</p>
+<p class=relation>Task D: e44 before t0</p>
+<p class=relation>Task D: e45 after t0</p>
+<p class=relation>Task D: e46 after t0</p>
+<p class=relation>Task D: e42 before t0</p>
+<p class=relation>Task E: e42 vague e47</p>
+<p class=relation>Task F: e44 before e46</p>
+<p class=relation>Task F: e44 before e45</p>
+<p class=relation>Task F: e42 overlap e43</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>经济界 人士 <etag>[指出]</etag><sup>e47</sup> ， 柴达木 盆地 丰富 的 油气 资源 ， 将 为 中国 能源 工业 中心 <etag>[西移]</etag><sup>e48</sup> <etag>[奠定]</etag><sup>e49</sup> 良好 的 物质 基础 。</p></table>
+<p class=attributes>e49 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e47 { aspect:NONE class:REPORTING modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e48 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e49 overlap t0</p>
+<p class=relation>Task D: e47 before t0</p>
+<p class=relation>Task D: e48 after t0</p>
+<p class=relation>Task F: e47 overlap e49</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>（ 完 ）</p></table>
+<p/>
+</div>
+</body>
+</html>

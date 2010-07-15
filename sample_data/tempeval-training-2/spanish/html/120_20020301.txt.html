@@ -1,0 +1,51 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>120_20020301.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>El grupo teatral catalán <etag>[actuará]</etag><sup>e1</sup> <ttag>[del 2]<sup>t1</sup></ttag> <ttag>[al 28 de abril próximos]<sup>t2</sup></ttag> en el Casino de París .</p></table>
+<p class=attributes>t2 { type:DATE val:2002-04-28 }</p>
+<p class=attributes>e1 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>t1 { type:DATE val:2002-04-02 }</p>
+<p/>
+<p class=relation>Task C: e1 overlap-or-after t1</p>
+<p class=relation>Task D: e1 after t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Tricicle <etag>[presentará]</etag><sup>e2</sup> su <etag>[espectáculo]</etag><sup>e3</sup> Antología de <ttag>[20 años]<sup>t3</sup></ttag> de éxitos , un <etag>[resumen]</etag><sup>e4</sup> de sus seis <etag>[creaciones]</etag><sup>e5</sup> , que ya ha <etag>[ofrecido]</etag><sup>e6</sup> en Barcelona y Madrid .</p></table>
+<p class=attributes>e4 { aspect:NONE class:I_STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e5 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e6 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e2 { aspect:IMPERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t3 { type:DURATION val:P20Y }</p>
+<p/>
+<p class=relation>Task D: e4 overlap t0</p>
+<p class=relation>Task D: e5 before t0</p>
+<p class=relation>Task D: e6 before t0</p>
+<p class=relation>Task D: e2 after t0</p>
+<p class=relation>Task D: e3 overlap t0</p>
+</div>
+</body>
+</html>

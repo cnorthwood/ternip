@@ -1,0 +1,513 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0768</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Billions of investors ' dollars are <etag>[pouring]</etag><sup>e1</sup> out of the nation 's junk-bond mutual funds , <etag>[undermining]</etag><sup>e2</sup> a pillar of support in the already reeling junk market .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line><ttag>[Last week]<sup>t174</sup></ttag> alone , an eye-popping $1.6 billion <etag>[flowed]</etag><sup>e4</sup> out of the junk funds , or nearly 5% of their total assets , <etag>[according]</etag><sup>e5</sup> to estimates by Dalbar Financial Services Inc. , a Boston research firm .</p></table>
+<p class=attributes>t174 { value:1989-WXX type:DATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e5 AFTER t174</p>
+<p class=relation>Task E: e4 BEFORE e10</p>
+<p class=relation>Task F: e5 VAGUE e4</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In <ttag>[the past two months]<sup>t175</sup></ttag> the nation 's 88 junk funds have <etag>[lost]</etag><sup>e7</sup> a total of about $6 billion -- more than 15% of assets -- through <etag>[sales]</etag><sup>e8</sup> or <etag>[transfers]</etag><sup>e9</sup> of junk-fund shares , Dalbar <etag>[says]</etag><sup>e10</sup> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>t175 { value:P2M type:DURATION }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t175</p>
+<p class=relation>Task C: e10 AFTER t175</p>
+<p class=relation>Task F: e10 OVERLAP-OR-AFTER e7</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>It made the estimates based on data collected from more than a dozen big junk funds .</p></table>
+<p/>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line><etag>[Interviews]</etag><sup>e15</sup> with three major fund groups -- Fidelity Investments , Vanguard Group Inc. and T. Rowe Price Associates Inc. -- <etag>[confirm]</etag><sup>e16</sup> the <etag>[trend]</etag><sup>e17</sup> .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e16 AFTER e20</p>
+<p class=relation>Task F: e16 OVERLAP e17</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Their junk funds combined have had net <etag>[outflows]</etag><sup>e20</sup> totaling nearly $500 million , or about 13% of their junk fund assets , in <ttag>[the past two months]<sup>t176</sup></ttag> .</p></table>
+<p class=attributes>t176 { value:P2M type:DURATION }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e20 BEFORE e22</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Some fund managers <etag>[say]</etag><sup>e22</sup> negative publicity has <etag>[exacerbated]</etag><sup>e24</sup> investors ' concern about <ttag>[recent]</ttag><sup>t185</sup> <etag>[declines]</etag><sup>e25</sup> in junk-bond prices .</p></table>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>t185 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e22 AFTER t185</p>
+<p class=relation>Task C: e25 OVERLAP t185</p>
+<p class=relation>Task E: e22 OVERLAP e30</p>
+<p class=relation>Task F: e22 OVERLAP-OR-AFTER e24</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>" People have been seeing headline after headline after headline and saying : ` I ca n 't take it anymore -- I 'm getting out , ' " <etag>[says]</etag><sup>e30</sup> Kurt Brouwer of Brouwer amp Janachowski , a San Francisco investment adviser .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e30 BEFORE e32</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>The <etag>[withdrawals]</etag><sup>e31</sup> could <etag>[spell]</etag><sup>e32</sup> trouble for the $200 billion junk market .</p></table>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e32 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e32 OVERLAP e35</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>If the heavy <etag>[outflows]</etag><sup>e33</sup> <etag>[continue]</etag><sup>e34</sup> , fund managers will <etag>[face]</etag><sup>e35</sup> increasing <etag>[pressure]</etag><sup>e36</sup> to <etag>[sell]</etag><sup>e37</sup> off some of their junk to <etag>[pay]</etag><sup>e38</sup> departing investors in <ttag>[the weeks ahead]<sup>t186</sup></ttag> .</p></table>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t186 { value:PXW type:DURATION }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e37 OVERLAP t186</p>
+<p class=relation>Task C: e38 OVERLAP t186</p>
+<p class=relation>Task C: e34 OVERLAP t186</p>
+<p class=relation>Task E: e35 BEFORE e40</p>
+<p class=relation>Task F: e36 OVERLAP e37</p>
+<p class=relation>Task F: e37 OVERLAP e38</p>
+<p class=relation>Task F: e34 BEFORE-OR-OVERLAP e35</p>
+<p class=relation>Task F: e35 VAGUE e36</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Such <etag>[selling]</etag><sup>e39</sup> could <etag>[erode]</etag><sup>e40</sup> prices of high-yield junk bonds , already <etag>[weakened]</etag><sup>e41</sup> by a rash of corporate credit problems .</p></table>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e40 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e40 AFTER e44</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Mutual fund groups have n 't <etag>[lost]</etag><sup>e43</sup> control of much of the outgoing money , <etag>[says]</etag><sup>e44</sup> Louis Harvey , Dalbar 's president .</p></table>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e43 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e44 OVERLAP e45</p>
+<p class=relation>Task F: e44 OVERLAP-OR-AFTER e43</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>Mutual fund officials <etag>[say]</etag><sup>e45</sup> that investors have <etag>[transferred]</etag><sup>e46</sup> most of it into their money market accounts , and to a lesser extent , government-bond funds .</p></table>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e45 BEFORE e47</p>
+<p class=relation>Task F: e45 OVERLAP-OR-AFTER e46</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>So the <etag>[impact]</etag><sup>e47</sup> on the $950 billion mutual fund industry as a whole probably will be slight .</p></table>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e47 AFTER e52</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>But tremors are likely in the junk-bond market , which has <etag>[helped]</etag><sup>e52</sup> to <etag>[finance]</etag><sup>e53</sup> the takeover <etag>[boom]</etag><sup>e54</sup> of <ttag>[recent years]<sup>t196</sup></ttag> .</p></table>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t196 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e52 OVERLAP t196</p>
+<p class=relation>Task F: e52 OVERLAP e53</p>
+<p class=relation>Task F: e53 OVERLAP e54</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>Mutual funds are the among the largest holders of junk , accounting for more than a quarter of the entire high-yield , high-risk market .</p></table>
+<p/>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>The 88 mutual funds investing solely in junk bonds hold assets of about $32 billion .</p></table>
+<p/>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>Other funds hold a smattering of junk bonds , too .</p></table>
+<p/>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>The $1.5 billion Fidelity High Income Fund has had a net <etag>[outflow]</etag><sup>e62</sup> of about $150 million in <ttag>[the past two months]<sup>t198</sup></ttag> .</p></table>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t198 { value:P2M type:DURATION }</p>
+<p/>
+<p class=relation>Task E: e62 OVERLAP e63</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>About $60 million <etag>[streamed]</etag><sup>e63</sup> out <ttag>[last week]<sup>t199</sup></ttag> alone , double the level of the <ttag>[week]</ttag><sup>t201</sup> following <ttag>[last month]<sup>t200</sup></ttag> 's Campeau Corp. credit <etag>[squeeze]</etag><sup>e64</sup> .</p></table>
+<p class=attributes>t201 { value:1989-WXX type:DATE }</p>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t200 { value:1989-09 type:DATE }</p>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t199 { value:1989-WXX type:DATE }</p>
+<p/>
+<p class=relation>Task E: e63 BEFORE e67</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>About 98% of the outflow was <etag>[transferred]</etag><sup>e66</sup> to other Fidelity funds , <etag>[says]</etag><sup>e67</sup> Neal Litvack , a Fidelity vice president , marketing , with most <etag>[going]</etag><sup>e68</sup> into money market funds .</p></table>
+<p class=attributes>e68 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e67 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e66 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e67 AFTER e68</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>" You get a news item , it hits , you have strong <etag>[redemptions]</etag><sup>e72</sup> that day and for two days following -- then go back to normal , " <etag>[says]</etag><sup>e75</sup> Mr. Litvack .</p></table>
+<p class=attributes>e72 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e75 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e75 BEFORE e80</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>The fund , with a cash cushion of more than 10% , has " met all the redemptions without having to sell one thing , " Mr. Litvack says .</p></table>
+<p/>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>He <etag>[adds]</etag><sup>e80</sup> : " Our fund has had { positive } net <etag>[sales]</etag><sup>e82</sup> <ttag>[every month]<sup>t2332</sup></ttag> for <ttag>[the last three years]<sup>t204</sup></ttag> -- until <ttag>[this month]<sup>t205</sup></ttag> . "</p></table>
+<p class=attributes>t2332 { value:P1M type:SET }</p>
+<p class=attributes>e82 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t204 { type:DURATION value:P3Y }</p>
+<p class=attributes>t205 { value:1989-10 type:DATE }</p>
+<p class=attributes>e80 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e82 OVERLAP t204</p>
+<p class=relation>Task C: e80 AFTER t204</p>
+<p class=relation>Task E: e80 AFTER e83</p>
+<p class=relation>Task F: e80 AFTER e82</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line>Vanguard 's $1 billion High Yield Bond Portfolio has <etag>[seen]</etag><sup>e83</sup> $161 million <etag>[flow]</etag><sup>e84</sup> out since <ttag>[early September]<sup>t206</sup></ttag> ; $14 million of that <etag>[seeped]</etag><sup>e85</sup> out <ttag>[Friday Oct. 13]<sup>t210</sup></ttag> alone .</p></table>
+<p class=attributes>t210 { type:DATE value:1989-10-13 }</p>
+<p class=attributes>e84 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t206 { value:1989-09 type:DATE }</p>
+<p class=attributes>e85 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e83 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:PERCEPTION }</p>
+<p/>
+<p class=relation>Task C: e83 OVERLAP-OR-AFTER t206</p>
+<p class=relation>Task E: e83 BEFORE e88</p>
+<p class=relation>Task F: e83 OVERLAP e84</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line>Still , two-thirds of the <etag>[outflow]</etag><sup>e86</sup> has been <etag>[steered]</etag><sup>e87</sup> into other Vanguard portfolios , <etag>[says]</etag><sup>e88</sup> Brian Mattes , a vice president .</p></table>
+<p class=attributes>e87 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e86 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e88 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e88 OVERLAP e89</p>
+<p class=relation>Task F: e88 AFTER e87</p>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line>The fund <ttag>[now]</ttag><sup>t211</sup> <etag>[holds]</etag><sup>e89</sup> a cash position of about 15% .</p></table>
+<p class=attributes>e89 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>t211 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e89 OVERLAP t211</p>
+<p class=relation>Task E: e89 AFTER e90</p>
+</div>
+
+<div id=s27 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>27
+  <td><p class=line>At the $932 million T. Rowe Price High Yield Fund , investors <etag>[yanked]</etag><sup>e90</sup> out about $182 million in <ttag>[the past two months]<sup>t213</sup></ttag> .</p></table>
+<p class=attributes>t213 { value:P2M type:DURATION }</p>
+<p class=attributes>e90 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e90 OVERLAP e91</p>
+</div>
+
+<div id=s28 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>28
+  <td><p class=line>Those <etag>[withdrawals]</etag><sup>e91</sup> , most of which were <etag>[transferred]</etag><sup>e92</sup> to other T. Rowe Price funds , followed little <etag>[change]</etag><sup>e94</sup> in the fund 's sales picture <ttag>[this year]<sup>t214</sup></ttag> through <ttag>[August]</ttag><sup>t216</sup> .</p></table>
+<p class=attributes>t214 { value:1989 type:DATE }</p>
+<p class=attributes>t216 { value:1989-08 type:DATE }</p>
+<p class=attributes>e94 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e91 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e92 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e94 OVERLAP t216</p>
+<p class=relation>Task E: e91 BEFORE e97</p>
+</div>
+
+<div id=s29 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>29
+  <td><p class=line>" <ttag>[The last two months]<sup>t217</sup></ttag> have been the whole ball <etag>[game]</etag><sup>e96</sup> , " <etag>[says]</etag><sup>e97</sup> Steven Norwitz , a vice president .</p></table>
+<p class=attributes>e96 { polarity:POS modality:NONE pos:NOUN tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e97 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>t217 { value:P2M type:DURATION }</p>
+<p/>
+<p class=relation>Task C: e97 AFTER t217</p>
+<p class=relation>Task E: e97 AFTER e98</p>
+<p class=relation>Task F: e97 AFTER e96</p>
+</div>
+
+<div id=s30 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>30
+  <td><p class=line>Junk-fund holders have barely <etag>[broken]</etag><sup>e98</sup> even <ttag>[this year]<sup>t1997</sup></ttag> , as fat interest payments barely <etag>[managed]</etag><sup>e100</sup> to offset declining prices .</p></table>
+<p class=attributes>t1997 { value:1989 type:DATE }</p>
+<p class=attributes>e98 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e100 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e98 AFTER e102</p>
+</div>
+
+<div id=s31 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>31
+  <td><p class=line>Through <ttag>[Oct. 19]<sup>t1998</sup></ttag> , high-yield funds <etag>[had]</etag><sup>e102</sup> an average 0.85% total return ( the price change plus dividends on fund shares ) , <etag>[according]</etag><sup>e104</sup> to Lipper Analytical Services Inc.</p></table>
+<p class=attributes>t1998 { value:1989-10-19 type:DATE }</p>
+<p class=attributes>e104 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e102 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e104 AFTER t1998</p>
+<p class=relation>Task C: e102 OVERLAP t1998</p>
+<p class=relation>Task E: e102 BEFORE e109</p>
+<p class=relation>Task F: e104 VAGUE e102</p>
+</div>
+
+<div id=s32 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>32
+  <td><p class=line>That 's even less than the 4.35% total return of the Merrill Lynch High-Yield Index .</p></table>
+<p/>
+</div>
+
+<div id=s33 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>33
+  <td><p class=line>Fidelity 's junk fund has <etag>[fallen]</etag><sup>e108</sup> 2.08% <ttag>[this year]<sup>t2000</sup></ttag> through <ttag>[Oct. 19]<sup>t2001</sup></ttag> , Lipper <etag>[says]</etag><sup>e109</sup> ; the Vanguard fund <etag>[rose]</etag><sup>e110</sup> 1.84% ; and the T. Rowe Price fund <etag>[edged]</etag><sup>e111</sup> up 0.66% .</p></table>
+<p class=attributes>t2001 { value:1989-10-19 type:DATE }</p>
+<p class=attributes>e109 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e110 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e111 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e108 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t2000 { value:1989 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e109 OVERLAP t2000</p>
+<p class=relation>Task C: e110 OVERLAP t2000</p>
+<p class=relation>Task C: e108 OVERLAP t2000</p>
+<p class=relation>Task E: e109 VAGUE e116</p>
+<p class=relation>Task F: e109 OVERLAP-OR-AFTER e108</p>
+</div>
+
+<div id=s34 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>34
+  <td><p class=line>People who <etag>[remain]</etag><sup>e112</sup> in junk funds <ttag>[now]</ttag><sup>t2003</sup> could <etag>[get]</etag><sup>e114</sup> <etag>[hit]</etag><sup>e115</sup> again , some analysts and fund specialists <etag>[say]</etag><sup>e116</sup> .</p></table>
+<p class=attributes>e115 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:STATE }</p>
+<p class=attributes>e114 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e112 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e116 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>t2003 { type:DATE value:PRESENT_REF }</p>
+<p/>
+<p class=relation>Task C: e112 OVERLAP t2003</p>
+<p class=relation>Task C: e116 OVERLAP t2003</p>
+<p class=relation>Task E: e116 OVERLAP-OR-AFTER e117</p>
+<p class=relation>Task F: e116 OVERLAP e114</p>
+</div>
+
+<div id=s35 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>35
+  <td><p class=line>Many funds in <ttag>[recent weeks and months]<sup>t2004</sup></ttag> have been <etag>[selling]</etag><sup>e117</sup> their highest-quality junk issues , such as RJR Nabisco , to <etag>[raise]</etag><sup>e118</sup> cash to <etag>[meet]</etag><sup>e119</sup> expected <etag>[redemptions]</etag><sup>e120</sup> .</p></table>
+<p class=attributes>e119 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e120 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e118 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t2004 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e117 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE_PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e117 OVERLAP t2004</p>
+<p class=relation>Task E: e117 BEFORE e121</p>
+<p class=relation>Task F: e119 VAGUE e120</p>
+<p class=relation>Task F: e118 OVERLAP e119</p>
+<p class=relation>Task F: e117 OVERLAP e118</p>
+</div>
+
+<div id=s36 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>36
+  <td><p class=line>Funds might be <etag>[forced]</etag><sup>e121</sup> to <etag>[accept]</etag><sup>e122</sup> lower prices if they <etag>[expand]</etag><sup>e123</sup> their <etag>[selling]</etag><sup>e124</sup> to the securities of less-creditworthy borrowers .</p></table>
+<p class=attributes>e123 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e121 { polarity:POS modality:might pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e124 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e122 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e121 VAGUE e125</p>
+<p class=relation>Task F: e123 OVERLAP e124</p>
+<p class=relation>Task F: e121 OVERLAP e122</p>
+<p class=relation>Task F: e122 AFTER e123</p>
+</div>
+
+<div id=s37 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>37
+  <td><p class=line>And then , asset values of the funds could <etag>[plunge]</etag><sup>e125</sup> more than they have so far .</p></table>
+<p class=attributes>e125 { polarity:POS modality:could pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+
+<div id=s38 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>38
+  <td><p class=line>Says Michael Hirsch , chief investment officer of Republic National Bank and manager of the FundTrust Group in New York : " It 's a time bomb just waiting to go off . "</p></table>
+<p/>
+</div>
+</body>
+</html>

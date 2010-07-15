@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0172</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>First of America Bank Corp. <etag>[said]</etag><sup>e1</sup> it <etag>[completed]</etag><sup>e2</sup> its <etag>[acquisition]</etag><sup>e3</sup> of Midwest Financial Group Inc. for about $250 million .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task E: e1 AFTER e5</p>
+<p class=relation>Task F: e1 AFTER e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>First of America , which <ttag>[now]</ttag><sup>t41</sup> <etag>[has]</etag><sup>e4</sup> 45 banks and $12.5 billion in assets , <etag>[announced]</etag><sup>e5</sup> an <etag>[agreement]</etag><sup>e6</sup> to <etag>[acquire]</etag><sup>e7</sup> the Peoria , Ill. , bank holding company in <ttag>[January]</ttag><sup>t67</sup> .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t67 { value:1990-01 type:TIME }</p>
+<p class=attributes>t41 { value:PRESENT_REF type:TIME }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e5 BEFORE t67</p>
+<p class=relation>Task C: e6 BEFORE t67</p>
+<p class=relation>Task C: e7 OVERLAP t67</p>
+<p class=relation>Task C: e4 BEFORE t67</p>
+<p class=relation>Task F: e5 OVERLAP e6</p>
+<p class=relation>Task F: e6 VAGUE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Midwest Financial has $2.3 billion in assets and eight banks .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The Midwest Financial subsidiary banks will <etag>[continue]</etag><sup>e9</sup> to <etag>[operate]</etag><sup>e10</sup> under their current names until <ttag>[early 1990]<sup>t75</sup></ttag> , when each will <etag>[adopt]</etag><sup>e11</sup> the First of America name .</p></table>
+<p class=attributes>t75 { value:1990 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task C: e9 BEFORE-OR-OVERLAP t75</p>
+<p class=relation>Task E: e9 OVERLAP e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Kalamazoo , Mich.-based First of America <etag>[said]</etag><sup>e12</sup> it will <etag>[eliminate]</etag><sup>e13</sup> the 13 management positions of the former Midwest Financial parent company .</p></table>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e12 OVERLAP e14</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>First of America <etag>[said]</etag><sup>e14</sup> some of the managers will <etag>[take]</etag><sup>e15</sup> other jobs with First of America .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e14 OVERLAP e16</p>
+<p class=relation>Task F: e14 BEFORE e15</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>But it <etag>[said]</etag><sup>e16</sup> that severance <etag>[payments]</etag><sup>e17</sup> to those executives not <etag>[staying]</etag><sup>e18</sup> with the company will <etag>[reduce]</etag><sup>e19</sup> First of America 's operating results for 1989 by $3 million to $4 million , or 15 cents to 20 cents a share .</p></table>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e18 { polarity:NEG modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e16 BEFORE e19</p>
+</div>
+</body>
+</html>

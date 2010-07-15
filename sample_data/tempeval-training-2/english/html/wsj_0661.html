@@ -1,0 +1,178 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0661</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>A unit of DPC Acquisition Partners <etag>[launched]</etag><sup>e1</sup> a $10-a-share tender <etag>[offer]</etag><sup>e2</sup> for the shares outstanding of Dataproducts Corp. , and <etag>[said]</etag><sup>e3</sup> it would <etag>[seek]</etag><sup>e4</sup> to <etag>[liquidate]</etag><sup>e5</sup> the computer-printer maker " <ttag>[as soon as possible]<sup>t80</sup></ttag> , " even if a <etag>[merger]</etag><sup>e6</sup> is n 't <etag>[consummated]</etag><sup>e7</sup> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t80 { value:FUTURE_REF type:DATE }</p>
+<p class=attributes>e7 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 BEFORE t80</p>
+<p class=relation>Task C: e3 BEFORE t80</p>
+<p class=relation>Task C: e4 OVERLAP t80</p>
+<p class=relation>Task F: e3 BEFORE e4</p>
+<p class=relation>Task F: e4 OVERLAP e5</p>
+<p class=relation>Task F: e7 VAGUE e4</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>DPC Acquisition is controlled by Crescott Investment Associates , Wilson Investment Group , Kernel Corp. and Catalyst Partners .</p></table>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The investor group owns 1,534,600 Dataproducts common shares , or a 7.6% stake .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The <etag>[offer]</etag><sup>e10</sup> is based on several conditions , including <etag>[obtaining]</etag><sup>e13</sup> <etag>[financing]</etag><sup>e14</sup> .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:none pos:VERB tense:PRESPART aspect:NONE class:I_STATE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e10 OVERLAP e15</p>
+<p class=relation>Task F: e13 VAGUE e14</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>DPC Acquisition <etag>[said]</etag><sup>e15</sup> it had <etag>[received]</etag><sup>e16</sup> the reasonable assurance of Chase Manhattan Bank N.A. that the <etag>[financing]</etag><sup>e17</sup> can be <etag>[obtained]</etag><sup>e18</sup> .</p></table>
+<p class=attributes>e18 { polarity:POS modality:can pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e15 OVERLAP e19</p>
+<p class=relation>Task F: e18 VAGUE e17</p>
+<p class=relation>Task F: e15 AFTER e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>In a filing with the Securities and Exchange Commission , DPC Acquisition <etag>[said]</etag><sup>e19</sup> it <etag>[expects]</etag><sup>e20</sup> it will <etag>[need]</etag><sup>e21</sup> about $215 million to <etag>[buy]</etag><sup>e22</sup> the shares and <etag>[pay]</etag><sup>e23</sup> related fees and expenses .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e19 OVERLAP e24</p>
+<p class=relation>Task F: e19 OVERLAP e20</p>
+<p class=relation>Task F: e20 BEFORE e21</p>
+<p class=relation>Task F: e21 VAGUE e22</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>DPC Acquisition <etag>[added]</etag><sup>e24</sup> that it has not <etag>[begun]</etag><sup>e25</sup> <etag>[discussions]</etag><sup>e26</sup> with financing sources , and <etag>[said]</etag><sup>e27</sup> it <etag>[expected]</etag><sup>e28</sup> to <etag>[repay]</etag><sup>e29</sup> the amounts <etag>[borrowed]</etag><sup>e30</sup> through proceeds of the <etag>[liquidation]</etag><sup>e31</sup> .</p></table>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e25 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e24 BEFORE e32</p>
+<p class=relation>Task F: e27 OVERLAP-OR-AFTER e28</p>
+<p class=relation>Task F: e28 BEFORE-OR-OVERLAP e29</p>
+<p class=relation>Task F: e24 OVERLAP-OR-AFTER e25</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Dataproducts officials <etag>[declined]</etag><sup>e32</sup> to <etag>[comment]</etag><sup>e33</sup> , and <etag>[said]</etag><sup>e34</sup> they had not yet <etag>[seen]</etag><sup>e35</sup> a suit <etag>[filed]</etag><sup>e36</sup> in federal court by DPC Acquisition that <etag>[seeks]</etag><sup>e37</sup> to <etag>[nullify]</etag><sup>e38</sup> a standstill <etag>[agreement]</etag><sup>e39</sup> between DPC Acquisition and Dataproducts .</p></table>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e35 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:PERCEPTION }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e32 AFTER e40</p>
+<p class=relation>Task F: e38 AFTER e39</p>
+<p class=relation>Task F: e35 OVERLAP-OR-AFTER e36</p>
+<p class=relation>Task F: e37 VAGUE e38</p>
+<p class=relation>Task F: e32 VAGUE e33</p>
+<p class=relation>Task F: e34 AFTER e35</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line><ttag>[Earlier this year]<sup>t86</sup></ttag> , DPC Acquisition <etag>[made]</etag><sup>e40</sup> a $15-a-share <etag>[offer]</etag><sup>e41</sup> for Dataproducts , which the Dataproducts board <etag>[said]</etag><sup>e42</sup> it <etag>[rejected]</etag><sup>e43</sup> because the $283.7 million offer was not fully <etag>[financed]</etag><sup>e45</sup> .</p></table>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e45 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t86 { value:1989 type:DATE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e42 OVERLAP t86</p>
+<p class=relation>Task C: e40 OVERLAP t86</p>
+<p class=relation>Task C: e41 OVERLAP t86</p>
+<p class=relation>Task E: e40 BEFORE e46</p>
+<p class=relation>Task F: e42 VAGUE e43</p>
+<p class=relation>Task F: e43 AFTER e41</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Dataproducts has since <etag>[started]</etag><sup>e46</sup> a <etag>[restructuring]</etag><sup>e47</sup> , and has <etag>[said]</etag><sup>e48</sup> it is not <etag>[for]</etag><sup>e50</sup> sale .</p></table>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:REPORTING }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:ASPECTUAL }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e50 { polarity:NEG modality:NONE pos:PREPOSITION tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task F: e48 VAGUE e50</p>
+</div>
+</body>
+</html>

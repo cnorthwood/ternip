@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>112_20010402.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>La sección Altaveu Frontera del <etag>[festival]</etag><sup>e1</sup> de Música Altaveu de Sant Boi de Llobregat , <etag>[abre]</etag><sup>e2</sup> <ttag>[hoy]</ttag><sup>t1</sup> el <etag>[plazo]</etag><sup>e3</sup> de <etag>[presentación]</etag><sup>e4</sup> de <etag>[propuestas]</etag><sup>e5</sup> a cargo de grupos noveles , que <etag>[finalizará]</etag><sup>e6</sup> <ttag>[el próximo 2 de mayo]<sup>t2</sup></ttag> .</p></table>
+<p class=attributes>e4 { aspect:NONE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t1 { type:DATE val:2001-04-02 }</p>
+<p class=attributes>e5 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:I_STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t2 { type:DATE val:2001-05-02 }</p>
+<p class=attributes>e6 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e2 { aspect:IMPERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e1 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e6 overlap t2</p>
+<p class=relation>Task C: e2 overlap t1</p>
+<p class=relation>Task D: e4 overlap-or-after t0</p>
+<p class=relation>Task D: e5 overlap-or-after t0</p>
+<p class=relation>Task D: e3 overlap-or-after t0</p>
+<p class=relation>Task D: e6 after t0</p>
+<p class=relation>Task D: e2 overlap t0</p>
+<p class=relation>Task D: e1 overlap t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>La treceava <etag>[edición]</etag><sup>e7</sup> del <etag>[certamen]</etag><sup>e8</sup> de esta localidad del Baix Llobregat se <etag>[celebrará]</etag><sup>e9</sup> <ttag>[del 7]<sup>t3</sup></ttag> <ttag>[al 11 de septiembre]<sup>t4</sup></ttag> .</p></table>
+<p class=attributes>e9 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>t3 { type:DATE val:2001-09-07 }</p>
+<p class=attributes>t4 { type:DATE val:2001-09-11 }</p>
+<p class=attributes>e7 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e8 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e9 overlap-or-after t3</p>
+<p class=relation>Task D: e9 after t0</p>
+<p class=relation>Task D: e7 after t0</p>
+<p class=relation>Task D: e8 after t0</p>
+</div>
+</body>
+</html>

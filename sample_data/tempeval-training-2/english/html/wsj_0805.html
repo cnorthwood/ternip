@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0805</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>CMS ENERGY Corp. <etag>[said]</etag><sup>e1</sup> management would <etag>[recommend]</etag><sup>e2</sup> to its board <ttag>[today]</ttag><sup>t14</sup> that its common stock dividend be <etag>[reinstated]</etag><sup>e3</sup> at a " modest level " <ttag>[later this year]<sup>t77</sup></ttag> .</p></table>
+<p class=attributes>t77 { value:1989-11-01 type:DATE }</p>
+<p class=attributes>t14 { value:1989-10-27 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e1 BEFORE t14</p>
+<p class=relation>Task E: e1 AFTER e4</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The Dearborn , Mich. , energy company <etag>[stopped]</etag><sup>e4</sup> <etag>[paying]</etag><sup>e5</sup> a dividend in <ttag>[the third quarter of 1984]<sup>t69</sup></ttag> because of <etag>[troubles]</etag><sup>e6</sup> at its Midland nuclear plant .</p></table>
+<p class=attributes>t69 { value:1984-Q3 type:DATE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e5 OVERLAP t69</p>
+<p class=relation>Task E: e4 BEFORE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In addition , CMS <etag>[reported]</etag><sup>e7</sup> <ttag>[third-quarter]</ttag><sup>t15</sup> net of $68.2 million , or 83 cents a share , <etag>[up]</etag><sup>e8</sup> from $66.8 million , or 81 cents a share , <ttag>[a year ago]<sup>t21</sup></ttag> .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t21 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>t15 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e7 AFTER t15</p>
+</div>
+</body>
+</html>

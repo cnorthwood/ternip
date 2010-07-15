@@ -1,0 +1,151 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>PRI19980213.2000.0313</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Officials in California are <etag>[warning]</etag><sup>e1</sup> residents that oncoming <etag>[rains]</etag><sup>e2</sup> will <etag>[cause]</etag><sup>e3</sup> dangerous and unpredictable <etag>[landslides]</etag><sup>e4</sup> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 OVERLAP e5</p>
+<p class=relation>Task F: e1 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>From member station KQED , Auncil Martinez <etag>[reports]</etag><sup>e5</sup> .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task D: e5 OVERLAP t0</p>
+<p class=relation>Task E: e5 OVERLAP e6</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Experts <etag>[say]</etag><sup>e6</sup> the ground is so <etag>[saturated]</etag><sup>e8</sup> it cannot <etag>[absorb]</etag><sup>e9</sup> any more water .</p></table>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task D: e6 BEFORE t0</p>
+<p class=relation>Task E: e6 OVERLAP e10</p>
+<p class=relation>Task F: e6 OVERLAP e9</p>
+<p class=relation>Task F: e6 OVERLAP e8</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>So that <etag>[means]</etag><sup>e10</sup> soil will <etag>[fall]</etag><sup>e11</sup> off in chunks and <etag>[destroy]</etag><sup>e12</sup> anything in its path .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e11 AFTER t0</p>
+<p class=relation>Task E: e10 OVERLAP e14</p>
+<p class=relation>Task F: e10 BEFORE e11</p>
+<p class=relation>Task F: e10 BEFORE e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In Los Angeles that lesson was brought home <ttag>[today]</ttag><sup>t1</sup> when tons of earth <etag>[cascaded]</etag><sup>e14</sup> down a hillside , <etag>[ripping]</etag><sup>e15</sup> two houses from their foundations .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t1 { value:1998-02-13 type:DATE }</p>
+<p/>
+<p class=relation>Task E: e14 BEFORE e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>No one was <etag>[hurt]</etag><sup>e16</sup> , but firefighters <etag>[ordered]</etag><sup>e17</sup> the <etag>[evacuation]</etag><sup>e18</sup> of nearby homes and <etag>[said]</etag><sup>e19</sup> they 'll <etag>[monitor]</etag><sup>e20</sup> the shifting ground .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:NEG modality:NONE pos:ADJECTIVE tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task D: e19 BEFORE t0</p>
+<p class=relation>Task E: e16 VAGUE e21</p>
+<p class=relation>Task F: e19 BEFORE-OR-OVERLAP e20</p>
+<p class=relation>Task F: e17 BEFORE e18</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>In the northern California town of Rio Nido , officials <etag>[say]</etag><sup>e21</sup> a football field sized slab of hillside could still <etag>[break]</etag><sup>e22</sup> loose at any time and <etag>[destroy]</etag><sup>e23</sup> an entire neighborhood .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e23 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e21 OVERLAP t0</p>
+<p class=relation>Task E: e21 OVERLAP e25</p>
+<p class=relation>Task F: e21 BEFORE e22</p>
+<p class=relation>Task F: e21 BEFORE e23</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>And in San Francisco , a mansion overlooking the Pacific Ocean and the Golden Gate Bridge is <etag>[slipping]</etag><sup>e25</sup> toward the sea .</p></table>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e25 OVERLAP e26</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Forecasters <etag>[say]</etag><sup>e26</sup> the picture will <etag>[get]</etag><sup>e27</sup> worse because more <etag>[rains]</etag><sup>e28</sup> are on the way .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:ASPECTUAL }</p>
+<p/>
+<p class=relation>Task D: e26 OVERLAP t0</p>
+<p class=relation>Task E: e26 OVERLAP e30</p>
+<p class=relation>Task F: e26 BEFORE e27</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>For NPR news , I 'm Auncil Martinez <etag>[reporting]</etag><sup>e30</sup> .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p/>
+</div>
+</body>
+</html>

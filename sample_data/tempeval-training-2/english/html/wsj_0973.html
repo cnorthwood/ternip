@@ -1,0 +1,328 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0973</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Westinghouse Electric Corp. , <etag>[capitalizing]</etag><sup>e1</sup> on a major restructuring program , <etag>[expects]</etag><sup>e2</sup> operating margins of more than 10% and double-digit per-share earnings growth <ttag>[next year]<sup>t119</sup></ttag> , top officers <etag>[told]</etag><sup>e3</sup> securities analysts here .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t119 { value:1990 type:DATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e2 BEFORE t119</p>
+<p class=relation>Task C: e3 BEFORE t119</p>
+<p class=relation>Task E: e3 OVERLAP e4</p>
+<p class=relation>Task F: e3 OVERLAP e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>John C. Marous , chairman and chief executive officer , also <etag>[said]</etag><sup>e4</sup> the company <etag>[expects]</etag><sup>e5</sup> sales from continuing businesses to <etag>[rise]</etag><sup>e7</sup> 8.5% annually through <ttag>[the next three years]<sup>t121</sup></ttag> .</p></table>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t121 { value:P3Y type:DURATION }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task C: e4 BEFORE t121</p>
+<p class=relation>Task C: e7 OVERLAP t121</p>
+<p class=relation>Task C: e5 BEFORE t121</p>
+<p class=relation>Task E: e4 AFTER e8</p>
+<p class=relation>Task F: e4 OVERLAP e5</p>
+<p class=relation>Task F: e5 BEFORE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>In <ttag>[1988]</ttag><sup>t122</sup> , the company <etag>[earned]</etag><sup>e8</sup> $822.8 million , or $5.66 a share , on sales of $12.49 billion .</p></table>
+<p class=attributes>t122 { type:DATE value:1988 }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e8 OVERLAP t122</p>
+<p class=relation>Task E: e8 OVERLAP e10</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Since <ttag>[1983]</ttag><sup>t126</sup> , Westinghouse has <etag>[shed]</etag><sup>e10</sup> 70 businesses that it did n 't <etag>[expect]</etag><sup>e11</sup> to <etag>[produce]</etag><sup>e12</sup> 10% operating margins while <etag>[acquiring]</etag><sup>e13</sup> 55 businesses .</p></table>
+<p class=attributes>t126 { type:DATE value:1983 }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e11 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 AFTER t126</p>
+<p class=relation>Task E: e10 BEFORE e14</p>
+<p class=relation>Task F: e11 BEFORE e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In <ttag>[the past 20 months]<sup>t127</sup></ttag> alone , Paul E. Lego , president and chief operating officer , <etag>[said]</etag><sup>e14</sup> the divestiture of $300 million of slow-growth , low-profit businesses has been more than <etag>[offset]</etag><sup>e16</sup> by $600 million in profitable acquisitions .</p></table>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:OTHER tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t127 { value:P20M type:DURATION }</p>
+<p/>
+<p class=relation>Task C: e14 AFTER t127</p>
+<p class=relation>Task E: e14 OVERLAP e18</p>
+<p class=relation>Task F: e14 OVERLAP e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Westinghouse <etag>[expects]</etag><sup>e18</sup> to <etag>[meet]</etag><sup>e19</sup> its corporate goals despite a softening in the economy .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e18 OVERLAP e23</p>
+<p class=relation>Task F: e18 BEFORE e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Even if the gross national product is either flat or in the growth range of 2% to 2.5% , " we can <etag>[handle]</etag><sup>e22</sup> that , " Mr. Marous <etag>[said]</etag><sup>e23</sup> .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e22 { polarity:POS modality:can pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e23 OVERLAP e22</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>GNP is the total value of the nation 's output of goods and services .</p></table>
+<p/>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>A bright spot is the company 's power-generation business , which is <etag>[experiencing]</etag><sup>e26</sup> a surge of <etag>[growth]</etag><sup>e28</sup> for the first time in <ttag>[years]</ttag><sup>t136</sup> .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_STATE }</p>
+<p class=attributes>t136 { type:DURATION value:PXY }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e26 OVERLAP e29</p>
+<p class=relation>Task F: e26 OVERLAP e28</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>Mr. Marous <etag>[said]</etag><sup>e29</sup> the business will <etag>[achieve]</etag><sup>e30</sup> higher sales <ttag>[this year]<sup>t137</sup></ttag> than the company 's target goal of 8.5% .</p></table>
+<p class=attributes>t137 { value:1989 type:DATE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e29 OVERLAP t137</p>
+<p class=relation>Task E: e29 AFTER e32</p>
+<p class=relation>Task F: e29 BEFORE e30</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>While Westinghouse hasn 't <etag>[had]</etag><sup>e32</sup> a nuclear power plant order from a U.S. utility in <ttag>[about a decade]<sup>t141</sup></ttag> , excess capacity is <etag>[beginning]</etag><sup>e33</sup> to <etag>[shrink]</etag><sup>e34</sup> .</p></table>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t141 { value:P1E type:DURATION }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:ASPECTUAL }</p>
+<p class=attributes>e32 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e33 AFTER t141</p>
+<p class=relation>Task C: e32 OVERLAP t141</p>
+<p class=relation>Task E: e32 BEFORE e35</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Mr. Lego <etag>[said]</etag><sup>e35</sup> the company <etag>[foresees]</etag><sup>e36</sup> the need for a major <etag>[boost]</etag><sup>e37</sup> in new-generation capability throughout <ttag>[the 1990s]<sup>t144</sup></ttag> .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t144 { type:DURATION value:199 }</p>
+<p/>
+<p class=relation>Task C: e37 OVERLAP t144</p>
+<p class=relation>Task C: e35 BEFORE t144</p>
+<p class=relation>Task E: e35 OVERLAP e39</p>
+<p class=relation>Task F: e35 OVERLAP e36</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>Westinghouse also is well <etag>[positioned]</etag><sup>e39</sup> to <etag>[sell]</etag><sup>e40</sup> steam turbine and gas turbine plants to independent power producers .</p></table>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e39 OVERLAP e44</p>
+<p class=relation>Task F: e39 OVERLAP e40</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>The company 's ability to respond to energy needs world-wide will be <etag>[enhanced]</etag><sup>e42</sup> through a <ttag>[recently]</ttag><sup>t145</sup> announced <etag>[venture]</etag><sup>e43</sup> with Mitsubishi Heavy Industries , Mr. Lego <etag>[said]</etag><sup>e44</sup> .</p></table>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t145 { value:PAST_REF type:DATE }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e44 AFTER t145</p>
+<p class=relation>Task E: e44 OVERLAP e45</p>
+<p class=relation>Task F: e44 BEFORE e42</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>He <etag>[said]</etag><sup>e45</sup> the independent power segment could <etag>[grow]</etag><sup>e46</sup> to <etag>[provide]</etag><sup>e47</sup> as much as 50% of near-term generation capacity , <etag>[adding]</etag><sup>e48</sup> : " We <etag>[expect]</etag><sup>e49</sup> to <etag>[supply]</etag><sup>e50</sup> a significant share of this market . "</p></table>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:REPORTING }</p>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e46 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e45 OVERLAP e51</p>
+<p class=relation>Task F: e49 BEFORE e50</p>
+<p class=relation>Task F: e48 OVERLAP e49</p>
+<p class=relation>Task F: e45 BEFORE-OR-OVERLAP e46</p>
+<p class=relation>Task F: e46 OVERLAP e47</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line>Westinghouse also <etag>[expects]</etag><sup>e51</sup> its international sales to <ttag>[soon]</ttag><sup>t147</sup> <etag>[grow]</etag><sup>e53</sup> to 25% of total corporate sales from 20% <ttag>[last year]<sup>t150</sup></ttag> .</p></table>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>t150 { value:1988 type:DATE }</p>
+<p class=attributes>t147 { value:FUTURE_REF type:DATE }</p>
+<p/>
+<p class=relation>Task C: e51 AFTER t150</p>
+<p class=relation>Task E: e51 OVERLAP e55</p>
+<p class=relation>Task F: e51 BEFORE e53</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>The company is <etag>[negotiating]</etag><sup>e55</sup> with the Soviets to <etag>[build]</etag><sup>e56</sup> a Thermo King truck-refrigeration plant that would <etag>[produce]</etag><sup>e57</sup> about 10,000 units annually .</p></table>
+<p class=attributes>e56 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e55 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e57 { polarity:POS modality:would pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e55 OVERLAP e58</p>
+<p class=relation>Task F: e55 BEFORE e56</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>Mr. Marous <etag>[said]</etag><sup>e58</sup> Westinghouse would <etag>[own]</etag><sup>e59</sup> 70% of the facility .</p></table>
+<p class=attributes>e58 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e59 { polarity:POS modality:would pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e58 BEFORE e65</p>
+<p class=relation>Task F: e58 BEFORE e59</p>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>The <etag>[deal]</etag><sup>e60</sup> , which will <etag>[involve]</etag><sup>e61</sup> an initial $20 million <etag>[investment]</etag><sup>e62</sup> , was <etag>[struck]</etag><sup>e63</sup> with a <etag>[handshake]</etag><sup>e64</sup> , he <etag>[added]</etag><sup>e65</sup> .</p></table>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e63 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e65 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e60 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e65 OVERLAP e66</p>
+<p class=relation>Task F: e63 VAGUE e60</p>
+<p class=relation>Task F: e65 OVERLAP-OR-AFTER e63</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>Company officials also <etag>[said]</etag><sup>e66</sup> that any gain from the <etag>[sale]</etag><sup>e68</sup> of Westinghouse 's 55% stake in its transmission and distribution venture with the Swiss firm of Asea Brown Boveri will be <etag>[offset]</etag><sup>e70</sup> by a restructuring charge in <ttag>[the fourth quarter]<sup>t157</sup></ttag> .</p></table>
+<p class=attributes>t157 { value:1989-Q4 type:DATE }</p>
+<p class=attributes>e70 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e66 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e68 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e66 BEFORE t157</p>
+<p class=relation>Task C: e68 BEFORE t157</p>
+<p class=relation>Task E: e66 OVERLAP e72</p>
+<p class=relation>Task F: e66 BEFORE e70</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>The executives did n 't <etag>[disclose]</etag><sup>e72</sup> the size of the expected gain .</p></table>
+<p class=attributes>e72 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e72 VAGUE e75</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>Capital expenditure in <ttag>[1990]</ttag><sup>t158</sup> will <etag>[rise]</etag><sup>e74</sup> slightly , Mr. Marous <etag>[said]</etag><sup>e75</sup> , from an estimated $470 million <ttag>[this year]<sup>t163</sup></ttag> .</p></table>
+<p class=attributes>e75 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t158 { type:DATE value:1990 }</p>
+<p class=attributes>e74 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t163 { value:1989 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e75 OVERLAP t163</p>
+<p class=relation>Task C: e74 AFTER t163</p>
+<p class=relation>Task F: e75 BEFORE e74</p>
+</div>
+</body>
+</html>

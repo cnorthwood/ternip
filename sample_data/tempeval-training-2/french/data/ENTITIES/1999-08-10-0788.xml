@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="1999-08-10" /><EVENT aspect="NONE" class="OCCURRENCE" eid="e10" pos="NOUN" signalID="PRED=RALLYE" tense="NONE" vform="NONE">RALLYE</EVENT> PROMENADE.
+Le comité des fêtes <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="NONE" signalID="PRED=ORGANISER" tense="PRESENT" vform="NONE">organise</EVENT> <TIMEX3 tid="t2" type="DATE" value="1999-08-29">dimanche 29 août</TIMEX3> un <EVENT aspect="NONE" class="OCCURRENCE" eid="e8" pos="NOUN" signalID="PRED=RALLYE" tense="NONE" vform="NONE">rallye</EVENT> promenade auto en Argonne : <EVENT aspect="NONE" class="OCCURRENCE" eid="e9" pos="NOUN" signalID="PRED=DÉPART" tense="NONE" vform="NONE">départ</EVENT> <SIGNAL sid="s1">à</SIGNAL> <TIMEX3 tid="t3" type="TIME" value="1999-08-29T09:00">9 h</TIMEX3> place de la Gare à Clermont, pique-nique tiré du sac.
+Pour tous renseignements et inscriptions, s'adresser au 03.29.88.43.12. ou au 03.29.87.42.10.
+</TEXT><MAKEINSTANCE eiid="ei2" eventID="e2" /><MAKEINSTANCE eiid="ei8" eventID="e8" /><MAKEINSTANCE eiid="ei9" eventID="e9" /><MAKEINSTANCE eiid="ei10" eventID="e10" /></TimeML>

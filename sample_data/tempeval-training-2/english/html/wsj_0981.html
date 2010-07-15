@@ -1,0 +1,214 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0981</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>MGM Grand Inc. has <etag>[agreed]</etag><sup>e1</sup> to <etag>[pay]</etag><sup>e2</sup> $93 million and nearly 1.8 million common shares to <etag>[buy]</etag><sup>e3</sup> 117 acres of land along the Las Vegas , Nev. , Strip as a site for its planned movie-studio and theme-park resort .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_STATE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e1 BEFORE e4</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+<p class=relation>Task F: e2 OVERLAP e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Of the total purchase price , $50 million cash and $30 million in stock ( nearly 1.8 million shares ) would be <etag>[paid]</etag><sup>e4</sup> to <etag>[buy]</etag><sup>e5</sup> the existing 700-room Marina Hotel amp Casino from Southwest Securities , a Nevada limited partnership .</p></table>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e4 OVERLAP-OR-AFTER e6</p>
+<p class=relation>Task F: e4 OVERLAP e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The remaining properties to be <etag>[acquired]</etag><sup>e6</sup> are the Tropicana Country Club amp Golf Course , a facility jointly owned by Ramada Inc. , of Phoenix , Ariz. , and the Jaffe family , and a small parcel owned by MGM Grand director James D. Aljian .</p></table>
+<p class=attributes>e6 { polarity:POS modality:none pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e6 AFTER e8</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The purchase price was <etag>[disclosed]</etag><sup>e8</sup> in a preliminary prospectus <etag>[issued]</etag><sup>e10</sup> in connection with MGM Grand 's planned offering of six million common shares .</p></table>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e8 AFTER e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The luxury airline and casino company , 98.6%-owned by investor Kirk Kerkorian and his Tracinda Corp. , earlier <ttag>[this month]<sup>t95</sup></ttag> <etag>[announced]</etag><sup>e13</sup> its <etag>[agreements]</etag><sup>e14</sup> to <etag>[acquire]</etag><sup>e15</sup> the properties , but did n 't <etag>[disclose]</etag><sup>e16</sup> the purchase price .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>t95 { value:1989-10 type:DATE }</p>
+<p class=attributes>e16 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e15 AFTER t95</p>
+<p class=relation>Task C: e13 OVERLAP t95</p>
+<p class=relation>Task C: e14 OVERLAP t95</p>
+<p class=relation>Task E: e13 BEFORE e20</p>
+<p class=relation>Task F: e13 OVERLAP e14</p>
+<p class=relation>Task F: e14 BEFORE e15</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The proposed stock <etag>[offering]</etag><sup>e17</sup> and <etag>[issuance]</etag><sup>e18</sup> of nearly 1.8 million common shares in connection with the land purchase will <etag>[bring]</etag><sup>e20</sup> MGM Grand 's total shares outstanding to 28.7 million , of which 72% will be <etag>[owned]</etag><sup>e21</sup> by Mr. Kerkorian and Tracinda , <etag>[according]</etag><sup>e22</sup> to the prospectus .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task E: e20 AFTER e24</p>
+<p class=relation>Task F: e22 VAGUE e21</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>In over-the-counter <etag>[trading]</etag><sup>e23</sup> , MGM Grand was <etag>[bid]</etag><sup>e24</sup> at $17.50 a share .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e24 OVERLAP e26</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>Proceeds from the offering are <etag>[expected]</etag><sup>e26</sup> to be <etag>[used]</etag><sup>e27</sup> for <etag>[remodeling]</etag><sup>e28</sup> the company 's Desert Inn resort in Las Vegas , <etag>[refurbishing]</etag><sup>e29</sup> certain aircraft of the MGM Grand Air unit , and to <etag>[acquire]</etag><sup>e30</sup> the property for the new resort .</p></table>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_STATE }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e26 OVERLAP-OR-AFTER e31</p>
+<p class=relation>Task F: e27 OVERLAP e28</p>
+<p class=relation>Task F: e26 BEFORE e27</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>The company <etag>[said]</etag><sup>e31</sup> it <etag>[estimates]</etag><sup>e32</sup> the Desert Inn remodeling will <etag>[cost]</etag><sup>e33</sup> about $32 million , and the <etag>[refurbishment]</etag><sup>e34</sup> of the three DC-8-62 aircraft , made by McDonnell Douglas Corp. , will <etag>[cost]</etag><sup>e35</sup> around $24.5 million .</p></table>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:STATE }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e31 OVERLAP e36</p>
+<p class=relation>Task F: e31 OVERLAP e32</p>
+<p class=relation>Task F: e32 BEFORE e35</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>MGM Grand <etag>[said]</etag><sup>e36</sup> the latest stock offering wo n 't <etag>[cover]</etag><sup>e37</sup> the $600 million or more cost of <etag>[building]</etag><sup>e38</sup> the proposed resort and theme park , and <etag>[added]</etag><sup>e39</sup> it will <etag>[need]</etag><sup>e40</sup> to <etag>[seek]</etag><sup>e41</sup> additional financing , either through bank borrowings or debt and equity offerings , at <ttag>[a later date]<sup>t104</sup></ttag> .</p></table>
+<p class=attributes>e37 { polarity:NEG modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t104 { value:FUTURE_REF type:DATE }</p>
+<p class=attributes>e41 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e39 BEFORE t104</p>
+<p class=relation>Task C: e41 OVERLAP t104</p>
+<p class=relation>Task C: e36 BEFORE t104</p>
+<p class=relation>Task E: e36 VAGUE e46</p>
+<p class=relation>Task F: e39 BEFORE e40</p>
+<p class=relation>Task F: e40 OVERLAP e41</p>
+<p class=relation>Task F: e36 BEFORE e37</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line><etag>[Construction]</etag><sup>e45</sup> is <etag>[set]</etag><sup>e46</sup> to <etag>[begin]</etag><sup>e47</sup> in <ttag>[early 1991]<sup>t105</sup></ttag> .</p></table>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t105 { value:1991 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e46 BEFORE t105</p>
+<p class=relation>Task C: e47 OVERLAP t105</p>
+<p class=relation>Task F: e46 BEFORE-OR-OVERLAP e47</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>The resort will include the MGM Grand Hotel , a multi-spired , castle-like facility that will include 5,000 rooms and 85,000 square feet of casino space .</p></table>
+<p/>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>The facility will be <etag>[marketed]</etag><sup>e50</sup> toward families , and room rates will be between $35 and $55 a night , MGM Grand <etag>[said]</etag><sup>e51</sup> .</p></table>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e50 AFTER e52</p>
+<p class=relation>Task F: e51 BEFORE e50</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>The prospectus did n 't <etag>[include]</etag><sup>e52</sup> many details about the studio and theme park , although conceptual drawings , <etag>[released]</etag><sup>e53</sup> <ttag>[this month]<sup>t108</sup></ttag> , <etag>[show]</etag><sup>e54</sup> that it may <etag>[feature]</etag><sup>e55</sup> several " themed " areas similar to those found at parks built by Walt Disney Co.</p></table>
+<p class=attributes>e55 { polarity:POS modality:may pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t108 { value:1989-10 type:DATE }</p>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e52 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task F: e54 BEFORE-OR-OVERLAP e55</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,570 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=GB18030">
+</head>
+
+<body>
+
+<h2>chtb_0310</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>世界 体操 <etag>[锦标赛]</etag><sup>e76</sup> <etag>[决出]</etag><sup>e1</sup> 五 个 单项 金牌</p></table>
+<p class=attributes>e1 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e76 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e1 before t0</p>
+<p class=relation>Task D: e76 before t0</p>
+<p class=relation>Task F: e1 overlap e76</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>中国 罗莉 <etag>[高低杠赛]</etag><sup>e77</sup> <etag>[独领风骚]</etag><sup>e2</sup></p></table>
+<p class=attributes>e2 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e77 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e2 before t0</p>
+<p class=relation>Task D: e77 before t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>新华社 布里斯班 <ttag>[４月 ２３日]<sup>t1</sup></ttag> 电 （ 记者 王发恩 ）</p></table>
+<p class=attributes>t1 { type:DATE val:1994-04-23 }</p>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>中国 小将 罗莉 <ttag>[今天]</ttag><sup>t2</sup> 在 这里 <etag>[冲破]</etag><sup>e3</sup> 东欧 和 美国 选手 的 <etag>[重重包围]</etag><sup>e78</sup> ， <etag>[夺得]</etag><sup>e4</sup> 第二十九 届 世界 体操 锦标赛 高低杠 的 金牌 。</p></table>
+<p class=attributes>t2 { type:DATE val:1994-04-23 }</p>
+<p class=attributes>e78 { aspect:NONE class:STATE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e4 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e78 overlap t2</p>
+<p class=relation>Task C: e4 overlap t2</p>
+<p class=relation>Task C: e3 overlap t2</p>
+<p class=relation>Task D: e78 before t0</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task D: e3 before t0</p>
+<p class=relation>Task E: e3 overlap e5</p>
+<p class=relation>Task F: e3 overlap e78</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>这 <etag>[是]</etag><sup>e5</sup> <etag>[锦标赛]</etag><sup>e79</sup> <etag>[开赛]</etag><sup>e6</sup> <ttag>[４ 天]<sup>t3</sup></ttag> 以来 中国 选手 <etag>[获得]</etag><sup>e7</sup> 的 最高 <etag>[奖赏]</etag><sup>e80</sup> 。</p></table>
+<p class=attributes>e80 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e5 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e6 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e79 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>t3 { type:DURATION val:P4D }</p>
+<p class=attributes>e7 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e6 overlap t3</p>
+<p class=relation>Task C: e79 overlap t3</p>
+<p class=relation>Task C: e7 overlap t3</p>
+<p class=relation>Task D: e80 overlap t0</p>
+<p class=relation>Task D: e5 overlap t0</p>
+<p class=relation>Task D: e6 before t0</p>
+<p class=relation>Task D: e79 overlap t0</p>
+<p class=relation>Task D: e7 before t0</p>
+<p class=relation>Task E: e5 overlap e8</p>
+<p class=relation>Task F: e6 overlap e79</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>女子 高低杠 <etag>[比赛]</etag><sup>e81</sup> 强手 <etag>[云集]</etag><sup>e8</sup> ， <etag>[有]</etag><sup>e9</sup> 俄罗斯 、 罗马尼亚 和 美国 名将 各 两 人 ， 乌克兰 选手 一 人 。</p></table>
+<p class=attributes>e81 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e8 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e9 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e81 before t0</p>
+<p class=relation>Task D: e8 before t0</p>
+<p class=relation>Task D: e9 before t0</p>
+<p class=relation>Task E: e8 overlap e10</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>１７ 岁 的 罗莉 在 <etag>[预赛]</etag><sup>e82</sup> 中 以 ９·９００ 分 <etag>[名列]</etag><sup>e10</sup> 榜首 ， <ttag>[今天]</ttag><sup>t4</sup> 她 第五 个 <etag>[出场]</etag><sup>e11</sup> 。</p></table>
+<p class=attributes>e10 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t4 { type:DATE val:1994-04-23 }</p>
+<p class=attributes>e82 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e11 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e11 overlap t4</p>
+<p class=relation>Task D: e10 before t0</p>
+<p class=relation>Task D: e82 before t0</p>
+<p class=relation>Task D: e11 before t0</p>
+<p class=relation>Task E: e10 before e16</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>她 的 动作 编排 <etag>[新颖]</etag><sup>e12</sup> ， 难度 <etag>[大]</etag><sup>e13</sup> ， 风格 <etag>[独特]</etag><sup>e14</sup> ， 演技 <etag>[炉火纯青]</etag><sup>e15</sup> ， <etag>[博得]</etag><sup>e16</sup> 观众 雷鸣般 掌声 。</p></table>
+<p class=attributes>e14 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e15 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e16 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e12 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e13 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e14 before t0</p>
+<p class=relation>Task D: e15 before t0</p>
+<p class=relation>Task D: e16 before t0</p>
+<p class=relation>Task D: e12 before t0</p>
+<p class=relation>Task D: e13 before t0</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>在 她 <etag>[下杠]</etag><sup>e17</sup> 稳稳 <etag>[站住]</etag><sup>e18</sup> 后 ， 裁判 以 最 快 的 速度 给 她 <etag>[亮出]</etag><sup>e19</sup> 了 ９·９１２ 的 <ttag>[今晚]</ttag><sup>t5</sup> 最高分 。</p></table>
+<p class=attributes>t5 { type:TIME val:1994-04-23TEV }</p>
+<p class=attributes>e17 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e19 { aspect:ACTUAL class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e18 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e17 before t0</p>
+<p class=relation>Task D: e19 before t0</p>
+<p class=relation>Task D: e18 before t0</p>
+<p class=relation>Task E: e19 before e21</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>压阵 <etag>[出场]</etag><sup>e20</sup> 的 俄罗斯 选手 斯·乔基娜 <etag>[孤注一掷]</etag><sup>e21</sup> 。</p></table>
+<p class=attributes>e20 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e21 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e20 before t0</p>
+<p class=relation>Task D: e21 before t0</p>
+<p class=relation>Task E: e21 before e24</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>尽管 她 的 动作 <etag>[潇洒自如]</etag><sup>e22</sup> ， 但 难度 无法 与 罗莉 <etag>[相比]</etag><sup>e23</sup> ， 只 <etag>[获得]</etag><sup>e24</sup> ９·８７５ 分 ， <etag>[夺得]</etag><sup>e25</sup> 银牌 。</p></table>
+<p class=attributes>e23 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e25 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e22 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e24 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e23 before t0</p>
+<p class=relation>Task D: e25 before t0</p>
+<p class=relation>Task D: e22 before t0</p>
+<p class=relation>Task D: e24 before t0</p>
+<p class=relation>Task E: e24 overlap e26</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>乔基娜 的 同伴 迪·科契特基娃 以 ９·８５０ 分 <etag>[获得]</etag><sup>e26</sup> 铜牌 。</p></table>
+<p class=attributes>e26 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e26 before t0</p>
+<p class=relation>Task E: e26 after e27</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>本 届 <etag>[锦标赛]</etag><sup>e83</sup> 女子 个人 全能 银牌 得主 罗马尼亚 的 米洛索维奇 <etag>[出现]</etag><sup>e27</sup> 大 <etag>[失误]</etag><sup>e84</sup> ， 只 <etag>[获]</etag><sup>e28</sup> 第六 名 。</p></table>
+<p class=attributes>e27 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e84 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e83 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e28 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e27 before t0</p>
+<p class=relation>Task D: e84 before t0</p>
+<p class=relation>Task D: e83 overlap t0</p>
+<p class=relation>Task D: e28 before t0</p>
+<p class=relation>Task E: e27 overlap e29</p>
+<p class=relation>Task F: e27 overlap e84</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line><ttag>[今天]</ttag><sup>t6</sup> 共 <etag>[进行]</etag><sup>e29</sup> 了 男子 自由 体操 、 鞍马 、 吊环 和 女子 跳马 、 高低杠 个人 单项赛 的 ５ 个 项目 的 <etag>[决赛]</etag><sup>e85</sup> 。</p></table>
+<p class=attributes>t6 { type:DATE val:1994-04-23 }</p>
+<p class=attributes>e29 { aspect:ACTUAL class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e85 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e29 overlap t6</p>
+<p class=relation>Task C: e85 overlap t6</p>
+<p class=relation>Task D: e29 before t0</p>
+<p class=relation>Task D: e85 before t0</p>
+<p class=relation>Task E: e29 overlap e30</p>
+<p class=relation>Task F: e29 overlap e85</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>罗马尼亚 <etag>[获]</etag><sup>e30</sup> 两 枚 金牌 ， 中国 、 意大利 和 白俄罗斯 <etag>[分享]</etag><sup>e31</sup> 其他 ３ 枚 金牌 。</p></table>
+<p class=attributes>e30 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e31 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e30 before t0</p>
+<p class=relation>Task D: e31 before t0</p>
+<p class=relation>Task E: e30 overlap e33</p>
+</div>
+
+<div id=s15 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>15
+  <td><p class=line><etag>[参加]</etag><sup>e32</sup> <ttag>[今天]</ttag><sup>t7</sup> <etag>[比赛]</etag><sup>e86</sup> 的 两 名 中国 男 选手 <etag>[是]</etag><sup>e33</sup> 李大双 和 黄华东 。</p></table>
+<p class=attributes>e33 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e32 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t7 { type:DATE val:1994-04-23 }</p>
+<p class=attributes>e86 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e33 overlap t7</p>
+<p class=relation>Task C: e86 overlap t7</p>
+<p class=relation>Task D: e33 before t0</p>
+<p class=relation>Task D: e32 before t0</p>
+<p class=relation>Task D: e86 before t0</p>
+<p class=relation>Task E: e33 overlap e34</p>
+<p class=relation>Task F: e32 overlap e86</p>
+</div>
+
+<div id=s16 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>16
+  <td><p class=line>他们 分别 在 自由 体操 和 鞍马 <etag>[比赛]</etag><sup>e87</sup> 中 均 <etag>[列]</etag><sup>e34</sup> 第五 名 。</p></table>
+<p class=attributes>e34 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e87 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e34 before t0</p>
+<p class=relation>Task D: e87 before t0</p>
+<p class=relation>Task E: e34 before e36</p>
+</div>
+
+<div id=s17 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>17
+  <td><p class=line>中国队 代表团 团长 张健 在 <etag>[评论]</etag><sup>e35</sup> 中国 选手 的 <etag>[表现]</etag><sup>e88</sup> 时 <etag>[说]</etag><sup>e36</sup> ， 男 选手 的 成绩 <etag>[是]</etag><sup>e37</sup> <ttag>[近 １０ 年]<sup>t8</sup></ttag> 来 最 <etag>[差]</etag><sup>e38</sup> 的 一 次 ， <etag>[说明]</etag><sup>e39</sup> 水平 在 <etag>[下降]</etag><sup>e40</sup> ； 而 罗莉 、 乔娅 和 莫惠兰 ３ 名 女 选手 都 <etag>[是]</etag><sup>e41</sup> 第一 次 <etag>[参加]</etag><sup>e42</sup> 世界 <etag>[大赛]</etag><sup>e89</sup> ， 均 <etag>[表现]</etag><sup>e90</sup> <etag>[不错]</etag><sup>e43</sup> ， 因为 她们 <etag>[有]</etag><sup>e44</sup> 强 项 ， 动作 <etag>[有]</etag><sup>e45</sup> 难度 。</p></table>
+<p class=attributes>e36 { aspect:NONE class:REPORTING modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>t8 { type:DATE val:undef }</p>
+<p class=attributes>e44 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e37 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e38 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e42 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e40 { aspect:DURATIVE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e89 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e39 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e43 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e90 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e45 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e35 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e88 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e41 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e38 overlap t8</p>
+<p class=relation>Task D: e36 before t0</p>
+<p class=relation>Task D: e44 before t0</p>
+<p class=relation>Task D: e37 overlap t0</p>
+<p class=relation>Task D: e38 overlap t0</p>
+<p class=relation>Task D: e42 before t0</p>
+<p class=relation>Task D: e40 overlap t0</p>
+<p class=relation>Task D: e89 before t0</p>
+<p class=relation>Task D: e39 overlap t0</p>
+<p class=relation>Task D: e43 before t0</p>
+<p class=relation>Task D: e90 before t0</p>
+<p class=relation>Task D: e45 before t0</p>
+<p class=relation>Task D: e35 before t0</p>
+<p class=relation>Task D: e88 before t0</p>
+<p class=relation>Task D: e41 overlap t0</p>
+<p class=relation>Task E: e36 after e46</p>
+<p class=relation>Task F: e36 overlap e37</p>
+<p class=relation>Task F: e42 overlap e89</p>
+<p class=relation>Task F: e39 overlap e40</p>
+<p class=relation>Task F: e35 overlap e88</p>
+</div>
+
+<div id=s18 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>18
+  <td><p class=line>男子 自由 体操 <etag>[决赛]</etag><sup>e91</sup> 几乎 <etag>[爆出冷门]</etag><sup>e46</sup> 。</p></table>
+<p class=attributes>e91 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e46 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e91 before t0</p>
+<p class=relation>Task D: e46 before t0</p>
+<p class=relation>Task E: e46 after e47</p>
+<p class=relation>Task F: e46 overlap e91</p>
+</div>
+
+<div id=s19 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>19
+  <td><p class=line>体操 赛坛 上 的 无名之辈 、 希腊 的 洛·迈利萨尼迪斯 不 <etag>[畏]</etag><sup>e47</sup> 强手 ， 同 白俄罗斯 名将 谢尔博 <etag>[进行]</etag><sup>e48</sup> 金牌 <etag>[竞争]</etag><sup>e92</sup> 。</p></table>
+<p class=attributes>e92 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e47 { aspect:NONE class:I_STATE modality: polarity:NEG pos:VERB tense:NONE }</p>
+<p class=attributes>e48 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e92 before t0</p>
+<p class=relation>Task D: e47 before t0</p>
+<p class=relation>Task D: e48 before t0</p>
+<p class=relation>Task E: e47 before e49</p>
+<p class=relation>Task F: e48 overlap e92</p>
+</div>
+
+<div id=s20 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>20
+  <td><p class=line>谢尔博 最后 <etag>[获得]</etag><sup>e49</sup> 冠军 ， 成绩 <etag>[是]</etag><sup>e50</sup> ９·７２５ 分 ； 迈利萨尼迪斯 <etag>[获得]</etag><sup>e51</sup> ９·６８７ 分 ， 与 英国 的 尼·托马斯 同 <etag>[享]</etag><sup>e52</sup> 银牌 。</p></table>
+<p class=attributes>e51 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e49 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e52 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e50 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e51 before t0</p>
+<p class=relation>Task D: e49 before t0</p>
+<p class=relation>Task D: e52 before t0</p>
+<p class=relation>Task D: e50 before t0</p>
+<p class=relation>Task E: e49 before e53</p>
+</div>
+
+<div id=s21 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>21
+  <td><p class=line>这 <etag>[是]</etag><sup>e53</sup> 希腊 选手 <etag>[参加]</etag><sup>e54</sup> 历 届 世界 体操 <etag>[大赛]</etag><sup>e93</sup> 以来 <etag>[获得]</etag><sup>e55</sup> 的 最好 名次 。</p></table>
+<p class=attributes>e53 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e93 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e54 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e55 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e53 overlap t0</p>
+<p class=relation>Task D: e93 before-or-overlap t0</p>
+<p class=relation>Task D: e54 before-or-overlap t0</p>
+<p class=relation>Task D: e55 before t0</p>
+<p class=relation>Task E: e53 vague e56</p>
+<p class=relation>Task F: e54 overlap e93</p>
+</div>
+
+<div id=s22 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>22
+  <td><p class=line>罗马尼亚 的 两 枚 金牌 由 １８ 岁 马·乌兹卡 在 鞍马 和 １６ 岁 的 吉·戈杰安 在 女子 跳马 上 <etag>[获得]</etag><sup>e56</sup> 的 ， 他们 的 成绩 分别 <etag>[为]</etag><sup>e57</sup> ９·７１２ 和 ９·８１２ 分 。</p></table>
+<p class=attributes>e57 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e56 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e57 before t0</p>
+<p class=relation>Task D: e56 before t0</p>
+<p class=relation>Task E: e56 overlap e58</p>
+</div>
+
+<div id=s23 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>23
+  <td><p class=line>意大利 的 尤·凯基 以 ９·７８７ 分 <etag>[获]</etag><sup>e58</sup> 吊环 金牌 。</p></table>
+<p class=attributes>e58 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e58 before t0</p>
+<p class=relation>Task E: e58 after e59</p>
+</div>
+
+<div id=s24 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>24
+  <td><p class=line><ttag>[今天]</ttag><sup>t9</sup> 吊环 <etag>[决赛]</etag><sup>e94</sup> <etag>[是]</etag><sup>e59</sup> 历 届 体操 <etag>[锦标赛]</etag><sup>e95</sup> 中 最高 水准 的 <etag>[角逐]</etag><sup>e96</sup> 。</p></table>
+<p class=attributes>e96 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e59 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e94 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e95 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>t9 { type:DATE val:1994-04-23 }</p>
+<p/>
+<p class=relation>Task C: e96 overlap t9</p>
+<p class=relation>Task C: e59 overlap t9</p>
+<p class=relation>Task C: e94 overlap t9</p>
+<p class=relation>Task D: e96 overlap t0</p>
+<p class=relation>Task D: e59 overlap t0</p>
+<p class=relation>Task D: e94 before t0</p>
+<p class=relation>Task D: e95 before-or-overlap t0</p>
+<p class=relation>Task E: e59 after e61</p>
+<p class=relation>Task F: e59 overlap e96</p>
+<p class=relation>Task F: e59 overlap e94</p>
+</div>
+
+<div id=s25 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>25
+  <td><p class=line><etag>[参加]</etag><sup>e60</sup> 比赛 的 ８ 名 选手 都 <etag>[做出]</etag><sup>e61</sup> 了 许多 惊险 的 高难 <etag>[动作]</etag><sup>e97</sup> 。</p></table>
+<p class=attributes>e60 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e97 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e61 { aspect:ACTUAL class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e60 before t0</p>
+<p class=relation>Task D: e97 before t0</p>
+<p class=relation>Task D: e61 before t0</p>
+<p class=relation>Task E: e61 overlap e65</p>
+<p class=relation>Task F: e61 overlap e97</p>
+</div>
+
+<div id=s26 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>26
+  <td><p class=line>在 <etag>[预赛]</etag><sup>e98</sup> 中 <etag>[排行]</etag><sup>e62</sup> 第一 的 凯基 动作 <etag>[刚健]</etag><sup>e63</sup> <etag>[有力]</etag><sup>e64</sup> ， <etag>[夺得]</etag><sup>e65</sup> 第一 名 。</p></table>
+<p class=attributes>e98 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e63 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e62 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e64 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e65 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e98 before t0</p>
+<p class=relation>Task D: e63 before t0</p>
+<p class=relation>Task D: e62 before t0</p>
+<p class=relation>Task D: e64 before t0</p>
+<p class=relation>Task D: e65 before t0</p>
+<p class=relation>Task E: e65 overlap e66</p>
+</div>
+
+<div id=s27 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>27
+  <td><p class=line>美国 的 保·奥夫内尔 以 ９·７２５ 分 <etag>[获]</etag><sup>e66</sup> 银牌 ， 罗马尼亚 的 丹·布林卡 和 德国 的 瓦·贝林基 均 以 ９·７００ 分 <etag>[并列]</etag><sup>e67</sup> 第三 名 。</p></table>
+<p class=attributes>e67 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e66 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e67 before t0</p>
+<p class=relation>Task D: e66 before t0</p>
+<p class=relation>Task E: e66 overlap e68</p>
+</div>
+
+<div id=s28 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>28
+  <td><p class=line>罗马尼亚 选手 在 女子 跳马 <etag>[决赛]</etag><sup>e99</sup> 中 也 <etag>[展示]</etag><sup>e68</sup> 了 雄厚 的 实力 ， 除 戈杰安 <etag>[夺得]</etag><sup>e69</sup> 金牌 外 ， 米洛索维奇 还 以 ９·７８７ 分 <etag>[摘取]</etag><sup>e70</sup> 铜牌 。</p></table>
+<p class=attributes>e68 { aspect:ACTUAL class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e99 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e70 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e69 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e68 before t0</p>
+<p class=relation>Task D: e99 before t0</p>
+<p class=relation>Task D: e70 before t0</p>
+<p class=relation>Task D: e69 before t0</p>
+<p class=relation>Task E: e68 overlap e71</p>
+</div>
+
+<div id=s29 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>29
+  <td><p class=line>俄罗斯 的 乔基娜 以 ９·８００ 分 <etag>[获得]</etag><sup>e71</sup> 银牌 。</p></table>
+<p class=attributes>e71 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e71 before t0</p>
+<p class=relation>Task E: e71 after e72</p>
+</div>
+
+<div id=s30 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>30
+  <td><p class=line>本 届 比赛 女子 个人 全能 金牌 得主 、 美国 的 米勒 在 此 次 <etag>[比赛]</etag><sup>e100</sup> 中 动作 严重 <etag>[失误]</etag><sup>e72</sup> ， <etag>[名列]</etag><sup>e73</sup> 第七 。</p></table>
+<p class=attributes>e72 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e100 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>e73 { aspect:NONE class:STATE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task D: e72 before t0</p>
+<p class=relation>Task D: e100 before t0</p>
+<p class=relation>Task D: e73 before t0</p>
+<p class=relation>Task E: e72 before e74</p>
+</div>
+
+<div id=s31 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>31
+  <td><p class=line>本 届 <etag>[锦标赛]</etag><sup>e101</sup> 到 <ttag>[今天]</ttag><sup>t10</sup> 为止 ， 已 <etag>[决出]</etag><sup>e74</sup> ７ 枚 金牌 。</p></table>
+<p class=attributes>e74 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p class=attributes>e101 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>t10 { type:DATE val:1994-04-23 }</p>
+<p/>
+<p class=relation>Task C: e74 before-or-overlap t10</p>
+<p class=relation>Task D: e74 before t0</p>
+<p class=relation>Task D: e101 overlap t0</p>
+<p class=relation>Task E: e74 before e75</p>
+<p class=relation>Task F: e74 overlap e101</p>
+</div>
+
+<div id=s32 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>32
+  <td><p class=line><ttag>[明天]</ttag><sup>t11</sup> 将 <etag>[进行]</etag><sup>e75</sup> 最后 ５ 个 男女 单项 的 <etag>[决赛]</etag><sup>e102</sup> 。</p></table>
+<p class=attributes>e102 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:NOUN tense:NONE }</p>
+<p class=attributes>t11 { type:DATE val:1994-04-24 }</p>
+<p class=attributes>e75 { aspect:NONE class:OCCURRENCE modality: polarity:POS pos:VERB tense:NONE }</p>
+<p/>
+<p class=relation>Task C: e102 overlap t11</p>
+<p class=relation>Task C: e75 overlap t11</p>
+<p class=relation>Task D: e102 after t0</p>
+<p class=relation>Task D: e75 after t0</p>
+<p class=relation>Task F: e75 overlap e102</p>
+</div>
+
+<div id=s33 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>33
+  <td><p class=line>（ 完 ）</p></table>
+<p/>
+</div>
+</body>
+</html>

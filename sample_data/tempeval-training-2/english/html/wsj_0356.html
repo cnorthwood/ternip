@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0356</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Rally 's Inc. <etag>[said]</etag><sup>e1</sup> it <etag>[adopted]</etag><sup>e2</sup> a shareholders rights plan to <etag>[protect]</etag><sup>e3</sup> shareholders from an inadequately priced takeover offer .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e1 AFTER e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The plan provides for the distribution of one common stock-purchase right as a dividend for each share of common outstanding .</p></table>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Each right entitles shareholders to buy one-half share of common for $30 .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line><ttag>[Earlier this month]<sup>t23</sup></ttag> , a group led by three of the company 's directors , Burt Sugarman , James M. Trotter III and Willam E. Trotter II , <etag>[indicated]</etag><sup>e10</sup> it <etag>[had]</etag><sup>e11</sup> a 45.2% stake in the Louisville , Ky. , fast-food company and that it <etag>[planned]</etag><sup>e12</sup> to <etag>[seek]</etag><sup>e13</sup> a majority of seats on Rally 's nine-member board .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t23 { value:1989-11 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e12 OVERLAP t23</p>
+<p class=relation>Task C: e13 AFTER t23</p>
+<p class=relation>Task C: e11 OVERLAP t23</p>
+<p class=relation>Task E: e10 OVERLAP e14</p>
+<p class=relation>Task F: e12 BEFORE e13</p>
+<p class=relation>Task F: e10 OVERLAP e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>The company <etag>[said]</etag><sup>e14</sup> it was " <etag>[concerned]</etag><sup>e15</sup> about the announced intent to <etag>[acquire]</etag><sup>e16</sup> control of the company " by a Sugarman-led group .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task F: e14 OVERLAP e15</p>
+</div>
+</body>
+</html>

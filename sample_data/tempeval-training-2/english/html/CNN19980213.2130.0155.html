@@ -1,0 +1,259 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>CNN19980213.2130.0155</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>President Clinton <etag>[says]</etag><sup>e1</sup> he is <etag>[committed]</etag><sup>e2</sup> to a possible <etag>[strike]</etag><sup>e3</sup> against Iraq , despite <etag>[objections]</etag><sup>e4</sup> from other countries .</p></table>
+<p class=attributes>e3 { polarity:POS modality:possible pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e1 OVERLAP t0</p>
+<p class=relation>Task F: e1 OVERLAP e2</p>
+<p class=relation>Task F: e2 BEFORE e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Steve Hurst has that .</p></table>
+<p/>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The US military <etag>[buildup]</etag><sup>e5</sup> in the Persian gulf <etag>[continues]</etag><sup>e6</sup> apace , more planes <etag>[headed]</etag><sup>e7</sup> from the united states and senior officials <etag>[say]</etag><sup>e8</sup> Iraq 's president Saddam Hussein can <etag>[expect]</etag><sup>e9</sup> punishing air <etag>[strikes]</etag><sup>e10</sup> to <etag>[continue]</etag><sup>e11</sup> well into <ttag>[the future]<sup>t1</sup></ttag> if he does n 't <etag>[stop]</etag><sup>e12</sup> <etag>[building]</etag><sup>e13</sup> biological and chemical weapons .</p></table>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:REPORTING }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t1 { value:FUTURE_REF type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:can pos:VERB tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e12 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e11 OVERLAP t1</p>
+<p class=relation>Task D: e8 OVERLAP t0</p>
+<p class=relation>Task D: e11 OVERLAP t0</p>
+<p class=relation>Task D: e9 OVERLAP t0</p>
+<p class=relation>Task D: e6 OVERLAP t0</p>
+<p class=relation>Task E: e6 BEFORE-OR-OVERLAP e14</p>
+<p class=relation>Task F: e8 BEFORE e9</p>
+<p class=relation>Task F: e9 BEFORE e11</p>
+<p class=relation>Task F: e12 BEFORE e9</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>Saddam will <etag>[know]</etag><sup>e14</sup> by our <etag>[actions]</etag><sup>e15</sup> and our <etag>[warning]</etag><sup>e16</sup> that we will be <etag>[prepared]</etag><sup>e17</sup> to <etag>[act]</etag><sup>e18</sup> again if we have evidence he is <etag>[trying]</etag><sup>e20</sup> to <etag>[rebuild]</etag><sup>e21</sup> his weapons of mass destruction capabilities .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e20 OVERLAP t0</p>
+<p class=relation>Task E: e14 BEFORE-OR-OVERLAP e23</p>
+<p class=relation>Task F: e17 BEFORE e18</p>
+<p class=relation>Task F: e20 BEFORE-OR-OVERLAP e21</p>
+<p class=relation>Task F: e14 AFTER e17</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In a bit of television diplomacy , Iraq 's deputy foreign minister <etag>[responded]</etag><sup>e22</sup> from Baghdad in <ttag>[less than one hour]<sup>t2</sup></ttag> , <etag>[saying]</etag><sup>e23</sup> Washington would <etag>[break]</etag><sup>e24</sup> international law by <etag>[attacking]</etag><sup>e25</sup> without UN <etag>[approval]</etag><sup>e26</sup> .</p></table>
+<p class=attributes>e24 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>t2 { value:PT1H type:DURATION }</p>
+<p class=attributes>e26 { polarity:NEG modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e23 BEFORE t0</p>
+<p class=relation>Task E: e23 OVERLAP e27</p>
+<p class=relation>Task F: e23 BEFORE e24</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>The united states is not <etag>[authorized]</etag><sup>e27</sup> to <etag>[use]</etag><sup>e28</sup> force before <etag>[going]</etag><sup>e29</sup> to the council .</p></table>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e27 { polarity:NEG modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e28 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e29 AFTER t0</p>
+<p class=relation>Task D: e28 OVERLAP t0</p>
+<p class=relation>Task E: e27 OVERLAP e30</p>
+<p class=relation>Task F: e27 BEFORE e28</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>President Clinton , meantime , <etag>[glossed]</etag><sup>e30</sup> over stern <etag>[warnings]</etag><sup>e31</sup> from Moscow on <ttag>[Thursday]</ttag><sup>t3</sup> that US air <etag>[strikes]</etag><sup>e32</sup> against Iraq could <etag>[do]</etag><sup>e33</sup> serious harm to relations with the Kremlin .</p></table>
+<p class=attributes>e33 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e31 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>t3 { value:1998-02-12 type:DATE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e30 OVERLAP e34</p>
+<p class=relation>Task F: e31 BEFORE e33</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>We 're <etag>[trying]</etag><sup>e34</sup> to <etag>[find]</etag><sup>e35</sup> a diplomatic solution .</p></table>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:I_ACTION }</p>
+<p class=attributes>e35 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e34 OVERLAP t0</p>
+<p class=relation>Task E: e34 OVERLAP e36</p>
+<p class=relation>Task F: e34 OVERLAP e35</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>And I <etag>[hope]</etag><sup>e36</sup> that , whatever <etag>[happens]</etag><sup>e37</sup> <ttag>[today]</ttag><sup>t4</sup> , that our relationships with Russia will <etag>[continue]</etag><sup>e38</sup> to be productive and constructive and strong , because that 's very important to the future of our peoples .</p></table>
+<p class=attributes>e36 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e38 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>t4 { value:1998-02-13 type:DATE }</p>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e38 OVERLAP t0</p>
+<p class=relation>Task E: e36 VAGUE e42</p>
+<p class=relation>Task F: e36 BEFORE e38</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>One contrary view of the issue <etag>[presented]</etag><sup>e42</sup> itself to the president as he <etag>[arrived]</etag><sup>e43</sup> in Philadelphia later in <ttag>[the day]<sup>t5</sup></ttag> .</p></table>
+<p class=attributes>t5 { value:1998-02-13 type:DATE }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e42 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e42 BEFORE e44</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Nevertheless , the president <etag>[said]</etag><sup>e44</sup> Washington would <etag>[use]</etag><sup>e45</sup> force if diplomacy <etag>[fails]</etag><sup>e46</sup> to <etag>[force]</etag><sup>e47</sup> Saddam Hussein to <etag>[back]</etag><sup>e48</sup> down .</p></table>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e48 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e44 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e45 { polarity:POS modality:would pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e44 BEFORE t0</p>
+<p class=relation>Task D: e45 AFTER t0</p>
+<p class=relation>Task E: e44 VAGUE e51</p>
+<p class=relation>Task F: e46 OVERLAP e47</p>
+<p class=relation>Task F: e46 BEFORE e45</p>
+<p class=relation>Task F: e47 BEFORE-OR-OVERLAP e48</p>
+<p class=relation>Task F: e44 BEFORE e45</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>The Russian foreign minister , meanwhile , <etag>[sought]</etag><sup>e49</sup> to <etag>[soften]</etag><sup>e50</sup> the harsh words of his military counterpart , <etag>[saying]</etag><sup>e51</sup> on <ttag>[Friday]</ttag><sup>t6</sup> that Russia <ttag>[now]</ttag><sup>t7</sup> <etag>[feels]</etag><sup>e52</sup> the US must <etag>[hold]</etag><sup>e53</sup> off at least until UN secretary general Kofi Annan <etag>[visits]</etag><sup>e54</sup> Baghdad in a last-ditch effort at diplomacy .</p></table>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p class=attributes>e54 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t6 { value:1998-02-13 type:DATE }</p>
+<p class=attributes>t7 { value:PRESENT_REF type:DATE }</p>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p class=attributes>e53 { polarity:POS modality:must pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e50 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e51 BEFORE t0</p>
+<p class=relation>Task D: e53 OVERLAP-OR-AFTER t0</p>
+<p class=relation>Task D: e49 BEFORE t0</p>
+<p class=relation>Task E: e51 OVERLAP e58</p>
+<p class=relation>Task F: e51 OVERLAP e52</p>
+<p class=relation>Task F: e49 BEFORE e50</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>Annan has no <etag>[trip]</etag><sup>e57</sup> <etag>[planned]</etag><sup>e58</sup> so far .</p></table>
+<p class=attributes>e57 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e58 { polarity:NEG modality:NONE pos:VERB tense:PASTPART aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task D: e58 OVERLAP t0</p>
+<p class=relation>Task E: e58 OVERLAP e59</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>Meanwhile , secretary of state Madeleine Albright , Berger and defense secretary William Cohen <etag>[announced]</etag><sup>e59</sup> <etag>[plans]</etag><sup>e60</sup> to <etag>[travel]</etag><sup>e61</sup> to an unnamed city in the US heartland <ttag>[next week]<sup>t8</sup></ttag> , to <etag>[explain]</etag><sup>e62</sup> to the American people just why military force will be <etag>[necessary]</etag><sup>e64</sup> if diplomacy <etag>[fails]</etag><sup>e65</sup> .</p></table>
+<p class=attributes>t8 { value:1998-WXX type:DATE }</p>
+<p class=attributes>e60 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e59 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e61 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e65 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e62 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e64 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task D: e60 OVERLAP t0</p>
+<p class=relation>Task D: e59 BEFORE t0</p>
+<p class=relation>Task F: e60 BEFORE e61</p>
+<p class=relation>Task F: e59 OVERLAP e60</p>
+<p class=relation>Task F: e65 BEFORE e64</p>
+<p class=relation>Task F: e62 BEFORE e64</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>Steve Hurst , CNN , the state department .</p></table>
+<p/>
+</div>
+</body>
+</html>

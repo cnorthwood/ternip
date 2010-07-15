@@ -1,0 +1,226 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0184</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Upjohn Co. <etag>[said]</etag><sup>e1</sup> it will <etag>[offer]</etag><sup>e2</sup> an early retirement package to as many as 1,100 employees in a cost-cutting <etag>[move]</etag><sup>e3</sup> <etag>[expected]</etag><sup>e4</sup> to <etag>[result]</etag><sup>e5</sup> in a <ttag>[fourth-quarter]</ttag><sup>t79</sup> <etag>[charge]</etag><sup>e6</sup> .</p></table>
+<p class=attributes>t79 { value:1989-Q4 type:DURATION }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:I_STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e6 OVERLAP t79</p>
+<p class=relation>Task C: e4 BEFORE t79</p>
+<p class=relation>Task C: e5 OVERLAP t79</p>
+<p class=relation>Task C: e3 BEFORE t79</p>
+<p class=relation>Task C: e1 BEFORE t79</p>
+<p class=relation>Task C: e2 BEFORE t79</p>
+<p class=relation>Task E: e1 OVERLAP e7</p>
+<p class=relation>Task F: e4 BEFORE e5</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Upjohn officials <etag>[said]</etag><sup>e7</sup> they could n 't <etag>[estimate]</etag><sup>e8</sup> the size of the <etag>[charge]</etag><sup>e9</sup> until they <etag>[determine]</etag><sup>e10</sup> which employees , and how many , will <etag>[participate]</etag><sup>e11</sup> in the retirement plan .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e8 { polarity:NEG modality:could pos:VERB tense:NONE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task E: e7 OVERLAP e12</p>
+<p class=relation>Task F: e7 VAGUE e8</p>
+<p class=relation>Task F: e10 BEFORE e11</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>But the pharmaceutical company <etag>[said]</etag><sup>e12</sup> it " <etag>[anticipates]</etag><sup>e13</sup> the long-term savings resulting from the plan 's implementation will more than <etag>[offset]</etag><sup>e17</sup> short-term costs . "</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:I_STATE }</p>
+<p/>
+<p class=relation>Task E: e12 BEFORE e18</p>
+<p class=relation>Task F: e12 OVERLAP e13</p>
+<p class=relation>Task F: e13 BEFORE e17</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>The program , available to Upjohn employees 55 years old or older , could <etag>[increase]</etag><sup>e18</sup> an individual 's retirement benefits 10% to 20% .</p></table>
+<p class=attributes>e18 { polarity:POS modality:could pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e18 AFTER e20</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>In addition , Upjohn is <etag>[offering]</etag><sup>e20</sup> a one-time retirement bonus equal to six months of base pay .</p></table>
+<p class=attributes>e20 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e20 OVERLAP e21</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Chairman Theodore Cooper <etag>[called]</etag><sup>e21</sup> the program part of the company 's <ttag>[two-year]</ttag><sup>t190</sup> <etag>[strategy]</etag><sup>e22</sup> to <etag>[implement]</etag><sup>e23</sup> budget constraints and " an effective headcount-control program . "</p></table>
+<p class=attributes>t190 { type:DURATION value:P2Y }</p>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e22 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task C: e21 OVERLAP t190</p>
+<p class=relation>Task E: e21 BEFORE-OR-OVERLAP e24</p>
+<p class=relation>Task F: e21 OVERLAP e22</p>
+<p class=relation>Task F: e22 VAGUE e23</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>But some analysts <etag>[questioned]</etag><sup>e24</sup> how much of an impact the retirement package will <etag>[have]</etag><sup>e25</sup> , because few jobs will <etag>[end]</etag><sup>e26</sup> up being <etag>[eliminated]</etag><sup>e27</sup> .</p></table>
+<p class=attributes>e26 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e24 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e25 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e27 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e24 OVERLAP e30</p>
+<p class=relation>Task F: e24 BEFORE e25</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>" It 's a cosmetic <etag>[move]</etag><sup>e29</sup> , " <etag>[said]</etag><sup>e30</sup> Jonathan S. Gelles of Wertheim Schroder amp Co. According to Upjohn 's estimates , only 50% to 60% of the 1,100 eligible employees will <etag>[take]</etag><sup>e32</sup> advantage of the plan .</p></table>
+<p class=attributes>e32 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e30 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e29 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e30 OVERLAP e33</p>
+<p class=relation>Task F: e30 VAGUE e29</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Upjohn further <etag>[estimated]</etag><sup>e33</sup> that about 50% of the employees who <etag>[leave]</etag><sup>e34</sup> for early retirement may be <etag>[replaced]</etag><sup>e36</sup> .</p></table>
+<p class=attributes>e34 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e33 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e36 { polarity:POS modality:may pos:VERB tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e33 BEFORE e37</p>
+<p class=relation>Task F: e33 BEFORE e36</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>As a result , Upjohn will likely <etag>[trim]</etag><sup>e37</sup> only about 275 to 350 of its more than 21,000 jobs world-wide .</p></table>
+<p class=attributes>e37 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e37 AFTER e39</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>In composite trading on the New York Stock Exchange <ttag>[yesterday]</ttag><sup>t92</sup> , Upjohn shares <etag>[rose]</etag><sup>e39</sup> 87.5 cents to $38.875 apiece .</p></table>
+<p class=attributes>t92 { value:1989-11-01 type:DATE }</p>
+<p class=attributes>e39 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e39 OVERLAP t92</p>
+<p class=relation>Task E: e39 VAGUE e40</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>An Upjohn spokesman <etag>[said]</etag><sup>e40</sup> he had " <etag>[heard]</etag><sup>e41</sup> nothing " to <etag>[suggest]</etag><sup>e42</sup> the early retirement package was <etag>[spurred]</etag><sup>e43</sup> by shareholder pressure or a potential bidder for the company , which occasionally has been the target of takeover speculation .</p></table>
+<p class=attributes>e42 { polarity:NEG modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:I_STATE }</p>
+<p class=attributes>e40 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e43 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e41 { polarity:NEG modality:NONE pos:VERB tense:PAST aspect:PERFECTIVE class:PERCEPTION }</p>
+<p/>
+<p class=relation>Task E: e40 AFTER e45</p>
+<p class=relation>Task F: e42 OVERLAP e43</p>
+<p class=relation>Task F: e40 AFTER e41</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>The company <ttag>[earlier this year]<sup>t372</sup></ttag> <etag>[adopted]</etag><sup>e45</sup> a shareholder-rights plan to <etag>[ward]</etag><sup>e46</sup> off unwanted suitors .</p></table>
+<p class=attributes>e46 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t372 { value:1989 type:DATE }</p>
+<p class=attributes>e45 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e45 BEFORE e47</p>
+<p class=relation>Task F: e45 BEFORE-OR-OVERLAP e46</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>The spokesman <etag>[said]</etag><sup>e47</sup> it is the first early retirement plan <etag>[offered]</etag><sup>e49</sup> under its two-year cost-control strategy .</p></table>
+<p class=attributes>e49 { polarity:POS modality:NONE pos:VERB tense:PASTPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e47 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task E: e47 OVERLAP e53</p>
+<p class=relation>Task F: e47 AFTER e49</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line><ttag>[Earlier]</ttag><sup>t404</sup> staff-reduction <etag>[moves]</etag><sup>e51</sup> have <etag>[trimmed]</etag><sup>e52</sup> about 300 jobs , the spokesman <etag>[said]</etag><sup>e53</sup> .</p></table>
+<p class=attributes>e53 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t404 { value:PAST_REF type:TIME }</p>
+<p class=attributes>e51 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e52 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e53 AFTER t404</p>
+<p class=relation>Task C: e51 OVERLAP t404</p>
+<p class=relation>Task F: e53 AFTER e52</p>
+</div>
+</body>
+</html>

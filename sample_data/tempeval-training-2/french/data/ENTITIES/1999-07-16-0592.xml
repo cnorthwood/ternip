@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML><TEXT>
+<TIMEX3 functionInDocument="CREATION_TIME" tid="t1" type="DATE" value="1999-07-16" /><EVENT aspect="NONE" class="OCCURRENCE" eid="e5" pos="NOUN" signalID="PRED=STAGE" tense="NONE" vform="NONE">STAGE</EVENT> GYM ENFANT.
+Un <EVENT aspect="NONE" class="OCCURRENCE" eid="e1" pos="NOUN" signalID="PRED=STAGE" tense="NONE" vform="NONE">stage</EVENT> de gym enfant et expression artistique se <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="NONE" signalID="PRED=DÉROULER" tense="FUTURE" vform="NONE">déroulera</EVENT> au centre social de Beauregard <SIGNAL sid="s1">du</SIGNAL> <TIMEX3 tid="t2" type="DATE" value="1999-07-19">19</TIMEX3> <SIGNAL sid="s2">au</SIGNAL> <TIMEX3 tid="t3" type="DATE" value="1999-07-23">23 juillet</TIMEX3>, pour les enfants de 2 à 8 ans. Renseignements et inscriptions au tél 03.83.96.46.12.
+</TEXT><MAKEINSTANCE eiid="ei1" eventID="e1" /><MAKEINSTANCE eiid="ei2" eventID="e2" /><MAKEINSTANCE eiid="ei5" eventID="e5" /></TimeML>

@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0167</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>RMS International Inc. , Hasbrouk Heights , N.J. , <etag>[facing]</etag><sup>e1</sup> a cash-flow <etag>[squeeze]</etag><sup>e2</sup> , <etag>[said]</etag><sup>e3</sup> it is <etag>[seeking]</etag><sup>e4</sup> other financing sources and waivers from debenture holders .</p></table>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 OVERLAP e5</p>
+<p class=relation>Task F: e1 BEFORE-OR-OVERLAP e2</p>
+<p class=relation>Task F: e3 OVERLAP e4</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The company <etag>[said]</etag><sup>e5</sup> that because of softening sales it isn 't <etag>[in]</etag><sup>e7</sup> compliance with requirements that it <etag>[maintain]</etag><sup>e8</sup> $3 million in working capital .</p></table>
+<p class=attributes>e7 { polarity:NEG modality:NONE pos:OTHER tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task F: e5 OVERLAP e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>RMS distributes electronic devices and produces power supplies and plastic literature displays .</p></table>
+<p/>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>RMS <etag>[said]</etag><sup>e11</sup> it <etag>[had]</etag><sup>e12</sup> a <etag>[loss]</etag><sup>e13</sup> of $158,666 , or 10 cents a share , in <ttag>[the third quarter]<sup>t21</sup></ttag> , compared with a <ttag>[year-earlier]</ttag><sup>t22</sup> loss of $26,956 , or two cents a share .</p></table>
+<p class=attributes>t21 { value:1989-Q3 type:DATE }</p>
+<p class=attributes>t22 { value:1988-Q3 type:DATE }</p>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:STATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e11 AFTER t22</p>
+<p class=relation>Task C: e12 AFTER t22</p>
+<p class=relation>Task C: e13 OVERLAP t22</p>
+<p class=relation>Task E: e11 AFTER e17</p>
+<p class=relation>Task F: e11 AFTER e12</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Sales <etag>[rose]</etag><sup>e17</sup> to $3 million from $2.9 million .</p></table>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e17 BEFORE e18</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>For <ttag>[the nine months]<sup>t23</sup></ttag> , the company <etag>[reported]</etag><sup>e18</sup> a net <etag>[loss]</etag><sup>e19</sup> of $608,413 , or 39 cents a share , compared with <ttag>[year-earlier]</ttag><sup>t24</sup> net <etag>[income]</etag><sup>e21</sup> of $967,809 , or 62 cents a share .</p></table>
+<p class=attributes>e21 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e19 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>t24 { value:1988 type:DATE }</p>
+<p class=attributes>t23 { value:P9M type:DURATION }</p>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task C: e19 OVERLAP t23</p>
+<p class=relation>Task C: e18 AFTER t23</p>
+<p class=relation>Task E: e18 AFTER e23</p>
+<p class=relation>Task F: e18 AFTER e19</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Sales <etag>[rose]</etag><sup>e23</sup> to $9.8 million from $8.9 million .</p></table>
+<p class=attributes>e23 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0706</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Security Pacific Corp. has <etag>[set]</etag><sup>e1</sup> its sights on <etag>[buying]</etag><sup>e2</sup> its second bank holding company <ttag>[this year]<sup>t29</sup></ttag> .</p></table>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t29 { value:1989 type:DATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e1 OVERLAP t29</p>
+<p class=relation>Task E: e1 OVERLAP e3</p>
+<p class=relation>Task F: e1 BEFORE e2</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Security <etag>[said]</etag><sup>e3</sup> it <etag>[signed]</etag><sup>e4</sup> a letter of intent to <etag>[purchase]</etag><sup>e5</sup> La Jolla Bancorp , <etag>[agreeing]</etag><sup>e6</sup> to <etag>[pay]</etag><sup>e7</sup> $15 of its own stock for each share of La Jolla .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:I_STATE }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e3 BEFORE e9</p>
+<p class=relation>Task F: e3 AFTER e4</p>
+<p class=relation>Task F: e6 BEFORE e7</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Based on the <ttag>[current]</ttag><sup>t30</sup> number of La Jolla shares , that gives the <etag>[transaction]</etag><sup>e9</sup> a value of $104 million .</p></table>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>t30 { value:PRESENT_REF type:DATE }</p>
+<p/>
+<p class=relation>Task E: e9 OVERLAP-OR-AFTER e11</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>La Jolla is the parent company of La Jolla Bank amp Trust Co. , which <etag>[has]</etag><sup>e11</sup> 12 branches in San Diego County .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task E: e11 OVERLAP e13</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>As of <ttag>[Sept. 30]<sup>t33</sup></ttag> , the bank <etag>[had]</etag><sup>e12</sup> assets of $511 million and deposits of $469 million , Security Pacific <etag>[said]</etag><sup>e13</sup> .</p></table>
+<p class=attributes>t33 { value:1989-09-30 type:DATE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:OTHER tense:PAST aspect:NONE class:STATE }</p>
+<p/>
+<p class=relation>Task C: e13 AFTER t33</p>
+<p class=relation>Task E: e13 AFTER e15</p>
+<p class=relation>Task F: e13 VAGUE e12</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line><ttag>[Earlier this month]<sup>t34</sup></ttag> , Security Pacific , which is among the 10 largest bank holding companies in the U.S. , <etag>[completed]</etag><sup>e15</sup> the <etag>[acquisition]</etag><sup>e16</sup> of San Diego-based Southwest Bancorp .</p></table>
+<p class=attributes>t34 { value:1989-10 type:DATE }</p>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:ASPECTUAL }</p>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e16 OVERLAP t34</p>
+</div>
+</body>
+</html>

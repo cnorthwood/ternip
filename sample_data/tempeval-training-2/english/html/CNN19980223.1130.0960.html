@@ -1,0 +1,124 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>CNN19980223.1130.0960</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Despite the recent possibility of military <etag>[conflict]</etag><sup>e2</sup> with Iraq , oil prices have been <etag>[falling]</etag><sup>e3</sup> , that 's because of a worldwide <etag>[glut]</etag><sup>e4</sup> of oil .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE_PROGRESSIVE class:OCCURRENCE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e2 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e3 OVERLAP t0</p>
+<p class=relation>Task E: e3 OVERLAP e8</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>Now with a diplomatic <etag>[solution]</etag><sup>e5</sup> to the <etag>[crisis]</etag><sup>e6</sup> seemingly at hand , get <etag>[set]</etag><sup>e8</sup> for oil prices from the Brent north sea variety to light swede crude to <etag>[fall]</etag><sup>e9</sup> further .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e9 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p class=attributes>e6 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e8 OVERLAP-OR-AFTER t0</p>
+<p class=relation>Task D: e9 AFTER t0</p>
+<p class=relation>Task E: e8 AFTER e10</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Oil prices have <etag>[come]</etag><sup>e10</sup> down from <ttag>[the middle of October]<sup>t1</sup></ttag> from a twenty-two dollar barrel level down to the fourteen dollars we ' re <etag>[seeing]</etag><sup>e11</sup> <ttag>[today]</ttag><sup>t2</sup> .</p></table>
+<p class=attributes>e11 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:PERCEPTION }</p>
+<p class=attributes>t2 { value:1998-02-23 type:DATE }</p>
+<p class=attributes>e10 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>t1 { value:1997-10 type:DATE }</p>
+<p/>
+<p class=relation>Task C: e10 BEFORE t2</p>
+<p class=relation>Task C: e10 AFTER t1</p>
+<p class=relation>Task D: e11 OVERLAP t0</p>
+<p class=relation>Task D: e10 BEFORE t0</p>
+<p class=relation>Task E: e10 BEFORE e12</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line>that ' s <etag>[built]</etag><sup>e12</sup> up a heck of a momentum and that momentum will <etag>[look]</etag><sup>e13</sup> to <etag>[increase]</etag><sup>e14</sup> .</p></table>
+<p class=attributes>e12 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:OCCURRENCE }</p>
+<p class=attributes>e13 { polarity:POS modality:NONE pos:VERB tense:FUTURE aspect:NONE class:I_ACTION }</p>
+<p class=attributes>e14 { polarity:POS modality:NONE pos:VERB tense:INFINITIVE aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task D: e14 AFTER t0</p>
+<p class=relation>Task E: e12 AFTER e15</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>ah next up is that thirteen dollar a barrel level we <etag>[saw]</etag><sup>e15</sup> in <ttag>[the winter of nineteen ninety-four]<sup>t3</sup></ttag> .</p></table>
+<p class=attributes>e15 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:PERCEPTION }</p>
+<p class=attributes>t3 { type:DATE value:1994-WI }</p>
+<p/>
+<p class=relation>Task C: e15 OVERLAP t3</p>
+<p class=relation>Task D: e15 BEFORE t0</p>
+<p class=relation>Task E: e15 BEFORE e16</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Weakened oil prices have already <etag>[made]</etag><sup>e16</sup> life easier for motorists at the gas pump .</p></table>
+<p class=attributes>e16 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PERFECTIVE class:I_ACTION }</p>
+<p/>
+<p class=relation>Task D: e16 BEFORE t0</p>
+<p class=relation>Task E: e16 OVERLAP-OR-AFTER e17</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>Gas prices <etag>[fell]</etag><sup>e17</sup> nearly two cents a gallon over <ttag>[the last two weeks]<sup>t4</sup></ttag> .</p></table>
+<p class=attributes>t4 { value:P2W type:DURATION }</p>
+<p class=attributes>e17 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task C: e17 OVERLAP t4</p>
+<p class=relation>Task D: e17 BEFORE t0</p>
+<p class=relation>Task E: e17 OVERLAP e18</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line>That <etag>[according]</etag><sup>e18</sup> to the Lundberg survey of ten thousand gas stations nationwide .</p></table>
+<p class=attributes>e18 { polarity:POS modality:NONE pos:VERB tense:PRESPART aspect:NONE class:REPORTING }</p>
+<p/>
+<p class=relation>Task D: e18 OVERLAP t0</p>
+</div>
+</body>
+</html>

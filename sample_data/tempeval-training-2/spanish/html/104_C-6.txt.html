@@ -1,0 +1,343 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>104_C-6.txt</h2>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>El <etag>[consumo]</etag><sup>e1</sup> de café en Alemania <etag>[aumentó]</etag><sup>e2</sup> cerca del 2 por ciento en <ttag>[1999]</ttag><sup>t1</sup> , <etag>[según]</etag><sup>e3</sup> las estadísticas <ttag>[anuales]</ttag><sup>t2</sup> de la empresa Kraft Foods de Bremen .</p></table>
+<p class=attributes>t2 { type:SET val:P1Y }</p>
+<p class=attributes>e1 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t1 { type:DATE val:1999 }</p>
+<p class=attributes>e2 { aspect:PERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e3 { aspect:NONE class:REPORTING mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e2 overlap t1</p>
+<p class=relation>Task C: e3 overlap t2</p>
+<p class=relation>Task D: e1 before-or-overlap t0</p>
+<p class=relation>Task D: e2 before t0</p>
+<p class=relation>Task D: e3 before-or-overlap t0</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>Sin embargo , a lo largo de <ttag>[la década de los noventa]<sup>t3</sup></ttag> se <etag>[registró]</etag><sup>e4</sup> un <etag>[descenso]</etag><sup>e5</sup> que se <etag>[calcula]</etag><sup>e6</sup> entre el 1 y el 2 por ciento .</p></table>
+<p class=attributes>t3 { type:DATE val:199 }</p>
+<p class=attributes>e4 { aspect:PERFECTIVE class:I_STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e5 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e6 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e4 overlap t3</p>
+<p class=relation>Task D: e4 before t0</p>
+<p class=relation>Task D: e5 before t0</p>
+<p class=relation>Task D: e6 overlap t0</p>
+</div>
+
+<div id=s3 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>3
+  <td><p class=line><ttag>[Actualmente]</ttag><sup>t4</sup> , los alemanes <etag>[toman]</etag><sup>e7</sup> un <etag>[promedio]</etag><sup>e8</sup> de 6,7 kilos de café por persona <ttag>[al año]<sup>t5</sup></ttag> .</p></table>
+<p class=attributes>t4 { type:DATE val:PRESENT_REF }</p>
+<p class=attributes>t5 { type:SET val:P1Y }</p>
+<p class=attributes>e7 { aspect:IMPERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e8 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e7 overlap t4</p>
+<p class=relation>Task C: e8 overlap t5</p>
+<p class=relation>Task D: e7 overlap t0</p>
+<p class=relation>Task D: e8 overlap t0</p>
+</div>
+
+<div id=s4 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>4
+  <td><p class=line>Los mayores bebedores de café en Europa <etag>[siguen]</etag><sup>e9</sup> <etag>[siendo]</etag><sup>e10</sup> los escandinavos con cerca de 12 kilos por persona mientras que los más reservados <etag>[son]</etag><sup>e11</sup> los portugueses con apenas 4,1 kilos por cabeza <ttag>[al año]<sup>t6</sup></ttag> .</p></table>
+<p class=attributes>e10 { aspect:IMPERFECTIVE class:STATE mood:NONE polarity:POS tense:NONE vform:GERUNDIVE }</p>
+<p class=attributes>e9 { aspect:IMPERFECTIVE class:ASPECTUAL mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>t6 { type:SET val:P1Y }</p>
+<p class=attributes>e11 { aspect:IMPERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e10 before-or-overlap t0</p>
+<p class=relation>Task D: e9 before-or-overlap t0</p>
+<p class=relation>Task D: e11 overlap t0</p>
+</div>
+
+<div id=s5 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>5
+  <td><p class=line>Entre <ttag>[el 5]<sup>t7</sup></ttag> y <ttag>[el 6 de junio]<sup>t8</sup></ttag> se <etag>[encontrarán]</etag><sup>e12</sup> en Bremen cerca de 200 expertos de Europa y Sudamérica en el XII <etag>[Congreso]</etag><sup>e13</sup> Europeo sobre café en el que se <etag>[tratarán]</etag><sup>e14</sup> diversos temas entre los que <etag>[están]</etag><sup>e15</sup> los <etag>[peligros]</etag><sup>e16</sup> de la tecnología genética y la <etag>[búsqueda]</etag><sup>e17</sup> de nuevos caminos para la <etag>[comercialización]</etag><sup>e18</sup> del grano .</p></table>
+<p class=attributes>e13 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e12 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p class=attributes>e15 { aspect:IMPERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e17 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t8 { type:DATE val:2000-06-06 }</p>
+<p class=attributes>e16 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t7 { type:DATE val:2000-06-05 }</p>
+<p class=attributes>e18 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e14 { aspect:IMPERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:FUTURE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e12 overlap-or-after t7</p>
+<p class=relation>Task D: e13 after t0</p>
+<p class=relation>Task D: e12 after t0</p>
+<p class=relation>Task D: e15 overlap t0</p>
+<p class=relation>Task D: e17 overlap-or-after t0</p>
+<p class=relation>Task D: e16 vague t0</p>
+<p class=relation>Task D: e18 after t0</p>
+<p class=relation>Task D: e14 after t0</p>
+</div>
+
+<div id=s6 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>6
+  <td><p class=line>La Policía y la Fiscalía General <etag>[investigan]</etag><sup>e19</sup> las <etag>[circunstancias]</etag><sup>e20</sup> que <etag>[provocaron]</etag><sup>e21</sup> la grave <etag>[crisis]</etag><sup>e22</sup> que <etag>[puso]</etag><sup>e23</sup> en <etag>[peligro]</etag><sup>e24</sup> el sistema bancario-financiero de Rumanía <ttag>[la última semana]<sup>t9</sup></ttag> , tras <etag>[volver]</etag><sup>e25</sup> <ttag>[hoy , jueves]<sup>t10</sup></ttag> , la <etag>[calma]</etag><sup>e26</sup> a los mercados .</p></table>
+<p class=attributes>e21 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>t9 { type:DATE val:2000-W22 }</p>
+<p class=attributes>e22 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e23 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e24 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t10 { type:DATE val:2000-06-01 }</p>
+<p class=attributes>e25 { aspect:IMPERFECTIVE class:I_STATE mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e26 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e19 { aspect:IMPERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e20 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e23 overlap t9</p>
+<p class=relation>Task C: e25 overlap t10</p>
+<p class=relation>Task D: e21 before t0</p>
+<p class=relation>Task D: e22 before t0</p>
+<p class=relation>Task D: e23 before t0</p>
+<p class=relation>Task D: e24 before t0</p>
+<p class=relation>Task D: e25 overlap t0</p>
+<p class=relation>Task D: e26 overlap t0</p>
+<p class=relation>Task D: e19 overlap t0</p>
+<p class=relation>Task D: e20 before t0</p>
+</div>
+
+<div id=s7 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>7
+  <td><p class=line><etag>[Surgida]</etag><sup>e27</sup> en plena <etag>[campaña]</etag><sup>e28</sup> para las <etag>[elecciones]</etag><sup>e29</sup> municipales <ttag>[del próximo domingo]<sup>t11</sup></ttag> , esta <etag>[crisis]</etag><sup>e30</sup> fue <etag>[estimada]</etag><sup>e31</sup> por el Consejo Supremo de Defensa del País como una " <etag>[amenaza]</etag><sup>e32</sup> a la <etag>[seguridad]</etag><sup>e33</sup> nacional " , al tiempo que el primer ministro , Mugur Isarescu , la <etag>[calificaba]</etag><sup>e34</sup> de " <etag>[ataque]</etag><sup>e35</sup> concertado y especulativo " .</p></table>
+<p class=attributes>t11 { type:DATE val:2000-06-04 }</p>
+<p class=attributes>e30 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e31 { aspect:PERFECTIVE class:I_STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e34 { aspect:IMPERFECTIVE class:REPORTING mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e33 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e35 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e32 { aspect:NONE class:I_STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e27 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:PARTICIPLE }</p>
+<p class=attributes>e28 { aspect:NONE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e29 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e29 overlap t11</p>
+<p class=relation>Task D: e30 before t0</p>
+<p class=relation>Task D: e31 before t0</p>
+<p class=relation>Task D: e34 before t0</p>
+<p class=relation>Task D: e33 vague t0</p>
+<p class=relation>Task D: e35 before t0</p>
+<p class=relation>Task D: e32 before t0</p>
+<p class=relation>Task D: e27 before t0</p>
+<p class=relation>Task D: e28 before-or-overlap t0</p>
+<p class=relation>Task D: e29 after t0</p>
+</div>
+
+<div id=s8 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>8
+  <td><p class=line>Los <etag>[efectos]</etag><sup>e36</sup> negativos en plano interno <etag>[fueron]</etag><sup>e37</sup> el <etag>[pánico]</etag><sup>e38</sup> y la <etag>[desconfianza]</etag><sup>e39</sup> de cientos de miles de rumanos en las autoridades del Estado , mientras en el ámbito exterior , el Fondo Monetario Internacional <etag>[aplazó]</etag><sup>e40</sup> , <ttag>[ayer , miércoles]<sup>t12</sup></ttag> , la <etag>[prolongación]</etag><sup>e41</sup> del <etag>[acuerdo]</etag><sup>e42</sup> con Rumanía , de importancia capital para el <etag>[relanzamiento]</etag><sup>e43</sup> económico del país .</p></table>
+<p class=attributes>t12 { type:DATE val:2000-05-31 }</p>
+<p class=attributes>e39 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e42 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e41 { aspect:NONE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e40 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e36 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e43 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e37 { aspect:PERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e38 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e40 overlap t12</p>
+<p class=relation>Task D: e39 before t0</p>
+<p class=relation>Task D: e42 before t0</p>
+<p class=relation>Task D: e41 vague t0</p>
+<p class=relation>Task D: e40 before t0</p>
+<p class=relation>Task D: e36 before t0</p>
+<p class=relation>Task D: e43 overlap-or-after t0</p>
+<p class=relation>Task D: e37 before t0</p>
+<p class=relation>Task D: e38 before t0</p>
+</div>
+
+<div id=s9 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>9
+  <td><p class=line>La <etag>[quiebra]</etag><sup>e44</sup> del Fondo Nacional de Inversores , mayor fondo mutuo privado , que <etag>[desencadenó]</etag><sup>e45</sup> el <etag>[pánico]</etag><sup>e46</sup> <ttag>[la semana pasada]<sup>t13</sup></ttag> a 300.000 personas , fue <etag>[seguida]</etag><sup>e47</sup> por <etag>[intentos]</etag><sup>e48</sup> desestabilizadores en el Banco Comercial Rumano ( BCR ) , el mayor del Estado , y en el CEC , entidad en la que seis millones de rumanos <etag>[colocaron]</etag><sup>e49</sup> sus ahorros .</p></table>
+<p class=attributes>e47 { aspect:PERFECTIVE class:I_STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e45 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e46 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t13 { type:DATE val:2000-W21 }</p>
+<p class=attributes>e49 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e48 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e44 { aspect:NONE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task C: e45 overlap t13</p>
+<p class=relation>Task D: e47 before t0</p>
+<p class=relation>Task D: e45 before t0</p>
+<p class=relation>Task D: e46 before t0</p>
+<p class=relation>Task D: e49 before t0</p>
+<p class=relation>Task D: e48 before t0</p>
+<p class=relation>Task D: e44 before t0</p>
+</div>
+
+<div id=s10 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>10
+  <td><p class=line>Las pruebas <etag>[recogidas]</etag><sup>e50</sup> por la Policía , así como informaciones de prensa , <etag>[indican]</etag><sup>e51</sup> que <etag>[fueron]</etag><sup>e52</sup> grupos organizados los que <etag>[difundieron]</etag><sup>e53</sup> <etag>[rumores]</etag><sup>e54</sup> sobre la inminente <etag>[quiebra]</etag><sup>e55</sup> del BCR , a través de <etag>[llamadas]</etag><sup>e56</sup> telefónicas anónimas y <etag>[mensajes]</etag><sup>e57</sup> por correo electrónico .</p></table>
+<p class=attributes>e55 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e51 { aspect:IMPERFECTIVE class:I_STATE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e54 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e52 { aspect:PERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e56 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e57 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e50 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:PARTICIPLE }</p>
+<p class=attributes>e53 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e55 before-or-overlap t0</p>
+<p class=relation>Task D: e51 overlap t0</p>
+<p class=relation>Task D: e54 before t0</p>
+<p class=relation>Task D: e52 before t0</p>
+<p class=relation>Task D: e56 before t0</p>
+<p class=relation>Task D: e57 before t0</p>
+<p class=relation>Task D: e50 before t0</p>
+<p class=relation>Task D: e53 before t0</p>
+</div>
+
+<div id=s11 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>11
+  <td><p class=line>Una de estas <etag>[llamadas]</etag><sup>e58</sup> , <etag>[dirigida]</etag><sup>e59</sup> al entrenador del equipo de fútbol Universitatea de Craiova , Sorin Sichitiu , se <etag>[comprobó]</etag><sup>e60</sup> que fue <etag>[hecha]</etag><sup>e61</sup> desde un teléfono de la filial local del Banco Popular Rumano , cuyo director ha sido ya <etag>[destituido]</etag><sup>e62</sup> hasta el <etag>[fin]</etag><sup>e63</sup> de las <etag>[investigaciones]</etag><sup>e64</sup> .</p></table>
+<p class=attributes>e61 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e60 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e64 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e63 { aspect:NONE class:ASPECTUAL mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e62 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PRESENT vform:NONE }</p>
+<p class=attributes>e58 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e59 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:PARTICIPLE }</p>
+<p/>
+<p class=relation>Task D: e61 before t0</p>
+<p class=relation>Task D: e60 before t0</p>
+<p class=relation>Task D: e64 overlap-or-after t0</p>
+<p class=relation>Task D: e63 overlap-or-after t0</p>
+<p class=relation>Task D: e62 before t0</p>
+<p class=relation>Task D: e58 before t0</p>
+<p class=relation>Task D: e59 before t0</p>
+</div>
+
+<div id=s12 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>12
+  <td><p class=line>La firme <etag>[intervención]</etag><sup>e65</sup> del primer ministro , Mugur Isarescu , quien <etag>[garantizó]</etag><sup>e66</sup> la <etag>[solidez]</etag><sup>e67</sup> de BCR , la <etag>[estabilidad]</etag><sup>e68</sup> de las cotizaciones de la moneda nacional , asimismo la <etag>[convicción]</etag><sup>e69</sup> de la gente de que <etag>[fueron]</etag><sup>e70</sup> <etag>[víctimas]</etag><sup>e71</sup> de <etag>[manipulaciones]</etag><sup>e72</sup> especulativas , <etag>[contribuyeron]</etag><sup>e73</sup> a <etag>[traer]</etag><sup>e74</sup> de nuevo la <etag>[calma]</etag><sup>e75</sup> .</p></table>
+<p class=attributes>e72 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e66 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e67 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e75 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e68 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e73 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e74 { aspect:IMPERFECTIVE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e69 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e71 { aspect:NONE class:I_STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e70 { aspect:PERFECTIVE class:STATE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e65 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p/>
+<p class=relation>Task D: e72 before t0</p>
+<p class=relation>Task D: e66 before t0</p>
+<p class=relation>Task D: e67 before t0</p>
+<p class=relation>Task D: e75 overlap t0</p>
+<p class=relation>Task D: e68 before t0</p>
+<p class=relation>Task D: e73 before t0</p>
+<p class=relation>Task D: e74 before-or-overlap t0</p>
+<p class=relation>Task D: e69 before t0</p>
+<p class=relation>Task D: e71 before t0</p>
+<p class=relation>Task D: e70 before t0</p>
+<p class=relation>Task D: e65 before t0</p>
+</div>
+
+<div id=s13 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>13
+  <td><p class=line>La Fiscalía General de este país <etag>[emitió]</etag><sup>e76</sup> <ttag>[hoy]</ttag><sup>t14</sup> <etag>[ordenes]</etag><sup>e77</sup> de <etag>[detención]</etag><sup>e78</sup> contra la directiva de Sov Invest , sociedad que <etag>[administró]</etag><sup>e79</sup> el Fondo Nacional de Inversiones , tras <etag>[comprobarse]</etag><sup>e80</sup> un <etag>[agujero]</etag><sup>e81</sup> de más de 500.000 dólares de un <etag>[total]</etag><sup>e82</sup> de 170 millones de dólares que este fondo privado había <etag>[atraído]</etag><sup>e83</sup> de la población .</p></table>
+<p class=attributes>e78 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e82 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e79 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e81 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e80 { aspect:IMPERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e83 { aspect:PERFECTIVE class:OCCURRENCE mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e76 { aspect:PERFECTIVE class:I_ACTION mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e77 { aspect:NONE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t14 { type:DATE val:2000-06-01 }</p>
+<p/>
+<p class=relation>Task C: e76 overlap t14</p>
+<p class=relation>Task D: e78 after t0</p>
+<p class=relation>Task D: e82 before t0</p>
+<p class=relation>Task D: e79 before t0</p>
+<p class=relation>Task D: e81 before-or-overlap t0</p>
+<p class=relation>Task D: e80 before t0</p>
+<p class=relation>Task D: e83 before t0</p>
+<p class=relation>Task D: e76 overlap t0</p>
+<p class=relation>Task D: e77 overlap t0</p>
+</div>
+
+<div id=s14 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>14
+  <td><p class=line>Asimismo el Gobierno rumano <etag>[anunció]</etag><sup>e84</sup> <ttag>[hoy]</ttag><sup>t15</sup> <etag>[medidas]</etag><sup>e85</sup> legislativas para <etag>[fortalecer]</etag><sup>e86</sup> el <etag>[control]</etag><sup>e87</sup> sobre los fondos mutuos de inversiones con el <etag>[objetivo]</etag><sup>e88</sup> de <etag>[impedir]</etag><sup>e89</sup> el <etag>[fraude]</etag><sup>e90</sup> , el <etag>[engaño]</etag><sup>e91</sup> y la falsa <etag>[publicidad]</etag><sup>e92</sup> .</p></table>
+<p class=attributes>e86 { aspect:IMPERFECTIVE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e87 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e88 { aspect:NONE class:I_STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e89 { aspect:IMPERFECTIVE class:I_ACTION mood:NONE polarity:POS tense:NONE vform:INFINITIVE }</p>
+<p class=attributes>e92 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e91 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e84 { aspect:PERFECTIVE class:REPORTING mood:INDICATIVE polarity:POS tense:PAST vform:NONE }</p>
+<p class=attributes>e90 { aspect:NONE class:OCCURRENCE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>e85 { aspect:NONE class:STATE mood:NONE polarity:POS tense:NONE vform:NONE }</p>
+<p class=attributes>t15 { type:DATE val:2000-06-01 }</p>
+<p/>
+<p class=relation>Task C: e84 overlap t15</p>
+<p class=relation>Task D: e86 after t0</p>
+<p class=relation>Task D: e87 after t0</p>
+<p class=relation>Task D: e88 overlap-or-after t0</p>
+<p class=relation>Task D: e89 after t0</p>
+<p class=relation>Task D: e92 after t0</p>
+<p class=relation>Task D: e91 after t0</p>
+<p class=relation>Task D: e84 overlap t0</p>
+<p class=relation>Task D: e90 after t0</p>
+<p class=relation>Task D: e85 overlap-or-after t0</p>
+</div>
+</body>
+</html>

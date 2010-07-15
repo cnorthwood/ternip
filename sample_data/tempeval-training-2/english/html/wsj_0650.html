@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+.header { padding-top:10pt; color:darkblue; }
+.sentence { margin: 5pt; margin-top: 10pt; border: thin dotted darkgray; padding: 6px; }
+.line { margin: 5pt; margin-bottom: 10pt; }
+.attributes { margin: 5pt; margin-left: 20pt; color:darkgreen; }
+.relation { margin: 5pt; margin-left: 20pt; color:darkred; }
+etag { color:red; }
+ttag { color:blue; }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+
+<h2>wsj_0650</h2>
+
+<div id=s0 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>0
+  <td><p class=line>Sun Microsystems Inc. , a computer maker , <etag>[announced]</etag><sup>e1</sup> the effectiveness of its registration statement for $125 million of 6 3/8% convertible subordinated debentures <etag>[due]</etag><sup>e3</sup> <ttag>[Oct. 15 , 1999]<sup>t14</sup></ttag> .</p></table>
+<p class=attributes>e3 { polarity:POS modality:NONE pos:ADJECTIVE tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e1 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>t14 { type:DATE value:1999-10-15 }</p>
+<p/>
+<p class=relation>Task C: e1 BEFORE t14</p>
+<p class=relation>Task E: e1 OVERLAP e4</p>
+<p class=relation>Task F: e1 BEFORE-OR-OVERLAP e3</p>
+</div>
+
+<div id=s1 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>1
+  <td><p class=line>The company <etag>[said]</etag><sup>e4</sup> the debentures are being <etag>[issued]</etag><sup>e5</sup> at an issue price of $849 for each $1,000 principal amount and are <etag>[convertible]</etag><sup>e7</sup> at any time prior to <etag>[maturity]</etag><sup>e8</sup> at a conversion price of $25 a share .</p></table>
+<p class=attributes>e8 { polarity:POS modality:NONE pos:NOUN tense:NONE aspect:NONE class:STATE }</p>
+<p class=attributes>e4 { polarity:POS modality:NONE pos:VERB tense:PAST aspect:NONE class:REPORTING }</p>
+<p class=attributes>e7 { polarity:POS modality:NONE pos:ADJECTIVE tense:PRESENT aspect:NONE class:STATE }</p>
+<p class=attributes>e5 { polarity:POS modality:NONE pos:VERB tense:PRESENT aspect:PROGRESSIVE class:OCCURRENCE }</p>
+<p/>
+<p class=relation>Task F: e4 OVERLAP-OR-AFTER e5</p>
+</div>
+
+<div id=s2 class=sentence>
+<table>
+<tr>
+  <td width=20 valign=top class=line>2
+  <td><p class=line>The debentures are available through Goldman , Sachs amp Co.</p></table>
+<p/>
+</div>
+</body>
+</html>

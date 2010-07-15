@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>            
+<TimeML>
+
+
+<TEXT>
+<TIMEX3 functionInDocument="PUBLICATION_TIME" tid="t1" type="DATE" value="2007-06-02">Samedi 02 juin 2007</TIMEX3>
+Murray <EVENT aspect="NONE" class="MODAL" eid="e1" pos="VERB" tense="PRESENT" vform="NONE">veut</EVENT> qu'on <EVENT aspect="NONE" class="OCCURRENCE" eid="e2" pos="VERB" tense="PRESENT" vform="NONE">suspende</EVENT> Pronger.
+On <EVENT aspect="NONE" class="MODAL" eid="e3" pos="VERB" tense="PRESENT" vform="NONE">doit</EVENT> s'<EVENT aspect="NONE" class="I_STATE" eid="e4" modality="NECESSITY" pos="VERB" tense="NONE" vform="INFINITIVE">attendre</EVENT> à ce que les Sénateurs <EVENT aspect="NONE" class="I_ACTION" eid="e5" pos="VERB" tense="PRESENT" vform="NONE">exigent</EVENT> auprès de la LNH que le <EVENT aspect="NONE" class="OCCURRENCE" eid="e6" pos="NOUN" tense="NONE" vform="NONE">coup</EVENT> d'avant-bras que Chris Pronger a <EVENT aspect="NONE" class="OCCURRENCE" eid="e7" pos="VERB" tense="PAST" vform="PASTPART">porté</EVENT> à la tête de Dean McAmmond soit <EVENT aspect="NONE" class="OCCURRENCE" eid="e8" pos="VERB" tense="NONE" vform="PASTPART">sanctionné</EVENT>.
+L'entraîneur Bryan Murray a <EVENT aspect="NONE" class="REPORTING" eid="e9" pos="VERB" tense="PAST" vform="PASTPART">évoqué</EVENT> la <EVENT aspect="NONE" class="OCCURRENCE" eid="e10" pos="NOUN" tense="NONE" vform="NONE">suspension</EVENT> que Pronger a <EVENT aspect="NONE" class="OCCURRENCE" eid="e11" pos="VERB" tense="PAST" vform="PASTPART">reçue</EVENT> au cours de la <EVENT aspect="NONE" class="OCCURRENCE" eid="e12" pos="NOUN" tense="NONE" vform="NONE">finale</EVENT> de l'Association ouest pour un <EVENT aspect="NONE" class="OCCURRENCE" eid="e13" pos="NOUN" tense="NONE" vform="NONE">coup</EVENT> semblable <EVENT aspect="NONE" class="OCCURRENCE" eid="e14" pos="VERB" tense="NONE" vform="PASTPART">porté</EVENT> à la tête de Tomas Holmstrom des Red Wings de Detroit.
+Le robuste Chris Neil a <EVENT aspect="NONE" class="REPORTING" eid="e15" pos="VERB" tense="PAST" vform="PASTPART">souligné</EVENT> que la réputation de Pronger le <EVENT aspect="NONE" class="STATE" eid="e25" pos="VERB" tense="PRESENT" vform="NONE">précède</EVENT>.
+Neil était <EVENT aspect="NONE" class="STATE" eid="e16" pos="OTHER" tense="NONE" vform="NONE">aux anges</EVENT> après avoir <EVENT aspect="PERFECTIVE" class="OCCURRENCE" eid="e17" pos="VERB" tense="PAST" vform="PASTPART">offert</EVENT> une <EVENT aspect="NONE" class="OCCURRENCE" eid="e18" pos="NOUN" tense="NONE" vform="NONE">performance</EVENT> fort inspirante, au lendemain de la <EVENT aspect="NONE" class="OCCURRENCE" eid="e19" pos="NOUN" tense="NONE" vform="NONE">naissance</EVENT> de son premier enfant.
+Chez les Ducks, l'entraîneur Randy Carlyle a <EVENT aspect="NONE" class="REPORTING" eid="e20" pos="VERB" tense="PAST" vform="PASTPART">dit</EVENT> que les Sénateurs l'ont <EVENT aspect="NONE" class="OCCURRENCE" eid="e21" pos="VERB" tense="PAST" vform="PASTPART">emporté</EVENT> parce qu'ils ont <EVENT aspect="NONE" class="OCCURRENCE" eid="e22" pos="VERB" tense="PAST" vform="PASTPART">travaillé</EVENT> plus fort qu'eux.
+Carlyle a <EVENT aspect="NONE" class="REPORTING" eid="e23" pos="VERB" tense="PAST" vform="PASTPART">souligné</EVENT> l'<EVENT aspect="NONE" class="STATE" eid="e24" pos="NOUN" tense="NONE" vform="NONE">implication</EVENT> des joueurs de soutien des Sénateurs.
+</TEXT>
+
+<TLINK eventInstanceID="e1" lid="l2" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e7" lid="l5" origin="USER" relType="NONE" relatedToEventInstance="e6" />
+<TLINK eventInstanceID="e6" lid="l6" origin="USER" relType="NONE" relatedToEventInstance="e3" />
+<TLINK eventInstanceID="e11" lid="l9" origin="USER" relType="NONE" relatedToEventInstance="e10" />
+<TLINK eventInstanceID="e11" lid="l11" origin="USER" relType="NONE" relatedToEventInstance="e12" />
+<TLINK eventInstanceID="e14" lid="l12" origin="USER" relType="NONE" relatedToEventInstance="e13" />
+<TLINK eventInstanceID="e14" lid="l13" origin="USER" relType="NONE" relatedToEventInstance="e12" />
+<TLINK eventInstanceID="e14" lid="l14" origin="USER" relType="NONE" relatedToEventInstance="e11" />
+<TLINK eventInstanceID="e16" lid="l16" origin="USER" relType="NONE" relatedToEventInstance="e17" />
+<TLINK eventInstanceID="e17" lid="l17" origin="USER" relType="NONE" relatedToEventInstance="e18" />
+<TLINK eventInstanceID="e19" lid="l18" origin="USER" relType="NONE" relatedToEventInstance="e17" />
+<TLINK eventInstanceID="e22" lid="l20" origin="USER" relType="NONE" relatedToEventInstance="e21" />
+<TLINK eventInstanceID="e3" lid="l22" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e9" lid="l23" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e15" lid="l24" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e16" lid="l25" origin="USER" relType="NONE" relatedToEventInstance="e15" />
+<TLINK eventInstanceID="e20" lid="l26" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e17" lid="l27" origin="USER" relType="NONE" relatedToEventInstance="e21" />
+<TLINK eventInstanceID="e24" lid="l28" origin="USER" relType="NONE" relatedToEventInstance="e22" />
+<TLINK eventInstanceID="e23" lid="l31" origin="USER" relType="NONE" relatedToEventInstance="e20" />
+<TLINK eventInstanceID="e6" lid="l33" origin="USER" relType="NONE" relatedToTime="t1" />
+<TLINK eventInstanceID="e10" lid="l35" origin="USER" relType="NONE" relatedToEventInstance="e9" />
+<TLINK eventInstanceID="e24" lid="l37" origin="USER" relType="NONE" relatedToEventInstance="e23" />
+<SLINK eventInstanceID="ei1" lid="l1" origin="USER" relType="NONE" subordinatedEventInstance="ei2" />
+<SLINK eventInstanceID="ei4" lid="l3" origin="USER" relType="NONE" subordinatedEventInstance="ei5" />
+<SLINK eventInstanceID="ei3" lid="l4" origin="USER" relType="NONE" subordinatedEventInstance="ei4" />
+<SLINK eventInstanceID="ei5" lid="l7" origin="USER" relType="NONE" subordinatedEventInstance="ei8" />
+<SLINK eventInstanceID="ei9" lid="l8" origin="USER" relType="NONE" subordinatedEventInstance="ei10" />
+<SLINK eventInstanceID="ei15" lid="l15" origin="USER" relType="NONE" subordinatedEventInstance="ei25" />
+<SLINK eventInstanceID="ei20" lid="l19" origin="USER" relType="NONE" subordinatedEventInstance="ei21" />
+<SLINK eventInstanceID="ei23" lid="l21" origin="USER" relType="NONE" subordinatedEventInstance="ei24" />
+
+</TimeML>
