@@ -26,7 +26,7 @@ class tempeval2_test(unittest.TestCase):
         sents = [[('The', 'DT', set()), ('first', 'JJ', set([t1])), ('sentence', 'NN', set()), ('.', '.', set())], [('The', 'DT', set()), ('second', 'JJ', set([t2])), ('sentence', 'NN', set([t2])), ('.', '.', set())]]
         d = ternip.formats.tempeval2.create(sents, 'ABC1')
         with open(os.path.normpath('tests/formats/timex-extents.tab')) as fd:
-            self.assertEquals(d.get_extents(), fd.read())
+            self.assertEquals(sorted(d.get_extents().splitlines()), sorted(fd.read().splitlines()))
     
     def test_attr(self):
         t1 = ternip.timex(id=1, type='date')
