@@ -100,7 +100,11 @@ for i in range(len(unannotated)):
 
 print
 print "OVERALL F-MEASURE"
+
+# Macroaveraging
 print "GUTime:", sum(gutime_scores)/len(gutime_scores)
 print "TERNIP:", sum(ternip_scores)/len(ternip_scores)
+
+# Todo: microaveraging
 
 shutil.rmtree(temp)

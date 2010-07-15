@@ -1,0 +1,597 @@
+<html>
+<head>
+<link href="manual.css" rel="stylesheet" type"text/css" />
+<link rel="icon" type="image/png" href="../../images/bat.ico"/>
+<script language="javascript" type="text/javascript" src="manual.js"></script>
+</head>
+
+<body>
+
+<h1><img src="images/bat.png" class="floatright" height="20px"/>
+Brandeis Annotation Tool
+</h1>
+
+<p class="version">BAT Manual for Annotators<p>
+
+<p class="version">Version 4, August 12<sup>th</sup>, 2009</p>
+
+<p class="author">Author: Marc Verhagen, Jessica Moszkowicz and Lotus Goldberg</p>
+
+<p class="larger">
+<a href="#annotating-corpus">Annotation</a>
+| <a href="#extents">Extents</a>
+| <a href="#attributes">Attributes</a>
+</p>
+
+
+<h2>Introduction</h2>
+
+This document describes how to use BAT for TimeML annotation. BAT is
+intended as a generic web-based annotation tool that is centered
+around the notion of annotation tasks. In general, there are three
+kinds of tasks:
+
+<ol>
+<li>selecting a sequence of tokens as a member of a category
+<li>adding features to a marked-up token (or sequence of tokens)
+<li>labeling a relation between a pair of tokens or sequences
+</ol>
+
+<p>This manual is rather incomplete (keeping up with the
+incompleteness of the tool). In particular, sections on relation
+annotation and adjudication are still missing. Also, much of the text
+in this document is aimed specifically at the English Tempeval
+annotation task.</p>
+
+<p>Comments, remarks and bug report are always welcome. Please send
+email to marc@cs.brandeis.edu.</p>
+
+
+<a name="annotating-corpus"/>
+<h2>Annotating the corpus</h2>
+
+<p>Everyone can see what corpora are available by clicking the
+annotator link on the main page. But once you have selected the corpus
+you have to log in with an annotator name that was defined for that
+corpus. Recall that the initial password is 'bat'. In the future,
+annotators will be forced to change their password immediately after
+the first login. Also in the future, test corpora and guest accounts
+will be provided.
+
+<p>Once you're logged in you will see a list of layers that contain
+documents that where assigned to you. Click the link for the layer
+that you want to work on.</p>
+
+
+<h3>Note on opening more than one window or tab</h3>
+
+<p>Throughout the annotation process, annotators should keep in mind
+that, at this point in its development, BAT cannot properly deal with two
+windows or tabs or tables being opened at the same time.  This is
+because it uses session variables to keep track of what you are
+doing, but, if you are doing two things at the same time, the tool
+becomes confused and work that you do can be lost, even if you have
+saved it and/or frozen it already.</p>
+
+<p>For example, this sequence used to be dangerous:</p>
+
+<ol>
+<li>Work on file X, submit result, and freeze it
+<li>Open file Y in a new tab
+<li>Open X in the original tab (now the tool thinks you are working on X)
+<li>Go back to Y and add some judgements (the tool still thinks you're working on X)
+<li>Submit results of work on Y.
+</ol>
+
+<p>After this submit, the tool used to delete all old annotations from
+X and tried to add the Y annotations to it, usually failing. As a
+result, you would notice that all your old work on X would have been
+lost as well as your new work on Y.</p>
+
+<p>This particular problem has been fixed, but, in general, be aware
+that you may get unexpected behaviour when opening multiple windows or
+tags. What you can do however, is to connect to BAT from another
+machine and/or a different browser on the same machine.</p>
+
+
+
+<h3>Annotation basics</h3>
+
+For TimeML, annotation proceeds in several steps, where each step
+embodies a task or a set of tasks:
+
+<ol>
+<li>annotation of event extents
+<li>annotation of event features
+<li>annotation of timex extents
+<li>annotation of timex features
+<li>annotation of relations between events and timexes
+</ol>
+
+<p>Step five really is a shorthand for a potentially long list of
+relation labeling tasks. For TempEval, there are four such tasks. The
+steps do not necessarily have to be performed in the order listed
+above as long as dependencies are observed. Each step consists of a
+dual annotation phase followed by an adjudication phase. This section
+focuses on the dual annotation phase where each document is assigned
+to two or more annotators. Each annotator see the exact same document, but
+they do not have access to each other's annotations.</p>
+
+
+<a name="extents"/>
+<h3>Event extents</h3>
+
+<p>Event extents are annotated not all at once but in five phases
+corresponding to major categories: verbs, nouns, adjectives, adverbs
+and prepositions. For each of those categories, the tokens available
+for event annotations are restricted by their category. The event
+extent annotation screen presents all tokens of the selected category
+in blue typeface. The example below shows the screen for the verb
+event annotation where all verb tokens are in blue.</p>
+
+<!--
+<a class="screenshot" href='javascript:show_image("images/annotator_events2.jpg","e2","Annotating%20event%20extents","800","340")'>
+See screen shot of event annotation</a>
+-->
+
+<a target=_blank class="screenshot" href="images/annotator_events.png">
+See screen shot of event annotation</a>
+
+<p>The annotator can select highlighted tokens by clicking them. The
+selected token will now change color and will be surrounded by square
+brackets. In addition, one line will be added to the display that
+allows the annotator to (i) check if the selected event is part of a
+multi-word event and (ii) specify if there is more than one instance
+of the event. To take the event markup away from a token, simply click
+the token again. Short comments can be added for each
+sentence. Pressing "Save judgements" will save all judgements to the
+database, prior judgements will be replaced.</p>
+
+<p>NOTE. In subsequent event annotation, we will not use this five-way
+split anymore. For trained annotators, annotations is faster and more
+intuitive when all tokens are available.</p>
+
+
+<h3>Timex Extents</h3>
+
+<p>Events typically are one token. The exceptions (phrasal verbs,
+idioms and named events) are marked using the multi-word checkbox and
+full extent annotation is deferred till a later stage. Time
+expressions are different in that the extent very often is more than
+one token and that the exact full extent is harder to predict than
+with English verbs. Therefore, timex extents are annotated
+differently, not by selecting a token but by selected a sequence of
+tokens that are not in any way constrained.</p>
+
+<p>Annotation starts with a blank slate and timex extents are selected
+by clicking the first and last tokens. Timexes are then marked in the
+text in much the same way as events (green typeface and square
+brackets).</p>
+
+<!--
+<a class="screenshot" href='javascript:show_image("images/annotator_timexes2.jpg","t2","Annotating%20timex3%20extents","800","340")'>
+See screen shot of timex3 annotation</a>
+-->
+
+<a target=_blank class="screenshot" href="images/annotator_timexes.png">
+See screen shot of timex3 annotation</a>
+
+<p>A timex tag can be deleted by first clicking the blue "delete
+sequence" box followed by clicking the timex that needs to be
+removed. The extent of a timex can be changed by clicking the opening
+or closing brackets and then selecting a new first or last token, in
+the process shrinking or growing the timex extent.</p>
+
+<p>In all cases, the tool will not allow you to create illegal
+timexes, for example, you cannot create a timex where the first token
+occurs in the text after the last token. You can also not create
+crossing tags or nested timexes.</p>
+
+
+
+<a name="attributes"/>
+<h3>Event Attributes</h3>
+
+<p>Like the annotation of event extents, the annotation of event attributes proceeds by lexical category, beginning with the attributes of verb events, then the attributes of noun events, followed by the attributes of adjective, adverb, and finally preposition events.</p>
+
+<h4>Specific Instructions for Annotating Individual Event Attributes</h4>
+
+<i>Part of Speech (POS)</i>
+
+<p>The first event attribute shown is POS, Part of Speech.  The default value selected here matches the part of speech of the event attribute layer which is being annotated.  For instance, during the annotation of the event attributes of verbs, the default value for each event's POS will be 'VERB'; for annotating noun event attributes, the default POS value shown will be 'NOUN', and so on.</p> 
+
+<p>The majority of events being annotated were assigned an accurate POS value during the automated POS tagging which was carried out for each document prior to the start of event annotation.  Therefore, for such events, the default POS which appears will match the actual part of speech of the event.  In these cases, the annoator does not need to make any change to the POS value.</p>
+
+<p>Importantly, however, many documents will also contain events to which the automated POS tagging has assigned an incorrect POS value.  This means that, at the start of marking up the attributes of each event, the annotator should carefully consider whether the POS shown for the event is correct or not.  In cases where the default POS shown is not correct, the annotator should manually correct the event's POS value.</p>
+
+<p>Note that locative adverbs should have the POS value 'OTHER', as consistent with their description in the event annotation guidelines.</p>
+
+
+<i>A Note about the Default Values Set for Other Attributes</i>
+
+<p>The Tense and Aspect attributes each have a default setting of
+'NONE', and the default setting for the Polarity attribute is 'POS',
+i.e. 'positive'.  Importantly, for each of these attributes, the
+annotator should once again take care to explicitly decide whether the
+default value should indeed hold, or, instead, whether a different
+value from the default needs to be selected, because the default value
+is not accurate for the event in question.</p>
+
+
+<i>The Modality Attribute</i>
+
+<p>As specified in the Event Annotation Guidelines, events which are
+not modified by any modal auxiliary verb have an empty value for the
+Modality attribute, and in these cases the annotator can just leave
+the 'Modality' field blank for that event.  However, when a modal is
+present as a modifier to the event, the annotator should type in the
+particular modal present as the value for the Modality attribute.  For
+instance, if an event instance is modified by the modal word 'could',
+the value for the Modality attribute should be typed in as the literal
+string 'could'.
+
+
+<h3>Timex Attributes</h3>
+
+<p>Along with the general content laid out in the annotation
+guidelines for temporal expressions within TimeML for TempEval 2010,
+annotators should take note of the following additional comments with
+respect to the annotation of certain TIMEX3 attributes using BAT.</p>
+
+
+<h4>Entering Timex ID Numbers ("tid"s) as Attribute Values</h4>
+
+<p>As described in the guidelines for the annotation of temporal
+expressions, the Timex ID number ("tid") is an attribute which is
+automatically assigned to each TIMEX3 extent by the annotation tool,
+without any additional specification required on the part of the
+annotator.</p>
+
+<p>During the annotation of TIMEX3 attributes, these tid's will appear
+to the annotator as superscripted numbers at the right edge of each
+TIMEX3 extent.  For instance, in the following screen shot, the
+superscripted number '1' is the tid which the tool has assigned to the
+TIMEX3 'May', and the superscripted number '2' is the tid which the
+tool has assigned to the TIMEX3 'the 1960s':</p>
+
+<a target=_blank class="screenshot" href="images/annotator_timexAttributes1.png">
+view screen shot</a>
+
+<!--
+<blockquote>
+  <img src="images/annotator_timexAttributes1.png" width="550">
+</blockquote>
+-->
+
+<p>Whenever the annotator needs to input a tid as the value for some
+attribute, the appropriate tid number should be entered with the
+letter 't' preceding it, and with no spaces in betweeen the 't' and
+the tid.</p>
+
+<p>For instance, anchorTimeID is an attribute which needs to specified
+for a first TIMEX3 whenever it is temporally anchored to a second
+TIMEX3.  For this attribute, the annotator enters the second TIMEX3's
+tid as the anchorTimeID value for the first TIMEX3 being marked.</p>
+
+<p>This is seen in the following example, in which the TIMEX3 'the
+day' is temporally anchored to the preceding TIMEX3 'Thursday'.
+Because the superscripted tid shown for 'Thursday' is '1', the
+annotator would enter in 't1' as the anchorTimeID value for 'the day'
+in this case:</p>
+
+<a target=_blank class="screenshot" href="images/annotator_timexAttributes1.png">
+view screen shot</a>
+
+<!--
+<blockquote>
+  <img src="images/annotator_timexAttributes2.png" width="550">
+</blockquote>
+-->
+
+<h4>The Value Attribute</h4>
+
+<p>As specified in the annotation guidelines, the value which
+annotators should enter for the Value attribute should be in an
+extended ISO 8601 format.  Deciding on the right format to use for a
+given TIMEX3 can appear complicated from the instructions in the
+annotation guidelines.  However, and although we have not provided
+e.g. a table which spells out the specific format to use for each type
+of Value, annotators should use the following process, which will make
+the majority of cases relatively straightforward.</p>
+
+<ol>
+	
+<li>As a first step, the annotator should review the examples given on
+pages 6-10 of the annotation guidelines, and should use the Value
+format of the example from the guidelines which most closely matches
+the sort of TIMEX3 being annotated.  The majority of TIMEX3 Value
+formats will be able to be determined in this way, with the annotator
+needing to do no further work beyond this step to identify the proper
+format to use.</li>
+
+<li>For cases in which the TIMEX3 being annotated does not seem to
+have a straightforward counterpart in the examples given in the
+annotation guidelines, the process will be slightly more
+difficult.</li>
+	
+<ul>
+<li>Here, as mentioned in the annotation guidelines, the annotator should refer to additional description of ISO format for Values given in the <i>TIDES Temporal Annotation Guidelines</i> Version 1.0.2 document, which is available at <a href="http://timeml.org/site/terqas/readings/MTRAnnotationGuide_v1_02.pdf">http://timeml.org/site/terqas/readings/MTRAnnotationGuide_v1_02.pdf</a>.  (Please note that this address is corrected from the one which currently appears in the annotation guidelines, which is accidentally "MTRAnnotationGuide_1_2.pdf" rather than the correct "MTRAnnotationGuide_v1_02.pdf".)</li>
+<li>This is a long document, and the anntoator should not attempt to read through all of it, or even to read all that it says about Value formats.  Instead, the annotator should quickly search through the document, do their best to identify a Value example given in the document which provides a reasonable match to the TIMEX3 being annotated, use that format, and move on to the next TIMEX3 in the document being annotated.</li> 
+</ul>
+
+</ol>
+
+
+<h4>The temporalFunction Attribute</h4>
+
+<p>Note that, along with the valueFromFunction and functionInDocument
+Attributes, the temporalFunction Attribute is also being omitted for
+TempEval 2010, and so may be ignored by the annotator during this
+round of annotation.</p>
+
+
+<h4>The beginPoint and endPoint Attributes</h4>
+
+<p>The annotator should enter in a value for these optional attributes
+in situations in which:</p>
+
+<ol> 
+
+<li>the TIMEX3 being annotated has the Type DURATION, <b>and</b>,
+furthermore, it is being anchored by another time expression, or
+
+<li>the TIMEX3 being annotated is a range expression.
+
+</ol>
+
+<p>(For a description of range expressions, please see the final
+paragraph of Section 2 ("TIMEX3 Extents") on page 4 of the annotation
+guidelines.)</p>
+
+<p>It will generally be the case for such TIMEX3s that one of
+beginPoint or endPoint will be a missing point (i.e. a point which
+does not correspond to any actual words in the text of the document
+being annotated) whose value the annotator will need to calculate and
+then enter as the value for the appropriate attribute.</p>
+
+<p>For example, in <i>Harriet left two days before yesterday</i>, each
+of <i>two days</i> and <i>yesterday</i> would be marked as distinct
+TIMEX3 extents.  The TIMEX3 <i>yesterday</i> would be,
+straightforwardly, of Type DATE, and so would have no values for
+beginPoint or endPoint.</p>
+
+<p>However, the TIMEX3 <i>two days</i> would be a DURATION which is,
+furthermore, anchored to the TIMEX3 <i>yesterday</i>---specifically
+denoting the point which is two days prior to the value of
+<i>yesterday</i>.  <i>two days</i> would therefore need to be assigned
+values for beginPoint and endPoint.</p>
+
+<p>In this case, the endPoint value for <i>two days</i> would be
+entered as the TIMEX3 <i>yesterday</i>'s tid.  So, for instance, if
+the superscripted tid shown for <i>yesterday</i> is the number 98,
+then the annotator would enter 't98' as the endPoint value for <i>two
+days</i>.</p>
+
+<p>The beginPoint value entered, in contrast, would be the date,
+represented in the extended ISO format for dates, which the annotator
+has calculated to be two calendar days before <i>yesterday</i>'s date
+in the particular document.  For instance, for a document whose dct is
+August 4, 2009, so that <i>yesterday</i>'s value in ISO format would
+be "2009-08-03", the annotator would enter "2009-08-01" as the
+beginPoint value for <i>two days</i> in this sentence.</p>
+
+<p>(Note that, for anchored durations like <i>two days</i> in this
+example, the anchorTimeID attribute should be left blank, with no
+value entered in.  This is because, in this example, for instance,
+since <i>yesterday</i>'s status as anchor for <i>two days</i> is
+already clear from the fact that its tid is being entered as <i>two
+days</i>'s endPoint value, there is no need to redundantly specify
+<i>yesterday</i>'s tid as the anchorTimeID value as well.)</p>
+
+<p>A later processing step will take the beginPoint value which the
+annotator has calculated and create from it a new, non-text-consuming
+TIMEX3 (i.e. a TIMEX3 extent which does not correspond to any actual
+words in the text of the document being annotated), with its own
+distinct tid.  It will be the tid of this newly created,
+non-text-consuming TIMEX3 which will then participate in the TLINK
+that will ultimately anchor the <i>left</i> event to its correct time
+expression.</p>
+
+
+<h3>Temporal Relations</h3>
+
+<p>To be written.</p>
+
+<p>For TempEval 2010, temporal relations are encoded in four different TLINK tasks.  In each task, the annotator will select from the menu which BAT provides the TLINK relation (before, before-or-overlap, overlap, overlap-or-after, after, or vague) which best fits the temporal relationship between the two elements which are being connected via a TLINK.</p>
+
+<p>Things to note for each individual TLINK task are listed below.</p>
+
+
+<h3>TLINK Task #1:  Annotating Event-DCT Relations</h3>
+
+<p>In this task, BAT will display each previously judged event extent within each sentence as highlighted in green, and within double square brackets [[  ]].  For each of these events, the annotator should select the TLINK relation which best fits the relationship between the event and the document's DCT (document creation time).  Annotators should use the same DCTs that were used for the TIMEX3 attribute annotation, namely the following for the three documents being annotated:</p>
+
+<ul>
+	<li>wsj_0037:  February 1, 1989, 11:00am</li>  
+	<li>wsj_0044:  March 1, 1989, 11:00am</li>
+	<li>wsj_0049:  April 1, 1989, 11:00am</li>
+</ul>
+
+
+<h3>TLINK Task #2:  Annotaing Consecutive Main Event Relations</h3>
+
+<p>There are two sub-tasks to be carried out for this overall task.  First, annotators will go through each document, and, among all elements which were previously judged to be event extents, the annotator will choose the single event in each sentence which serves as the <b>main event</b> of that sentence.  After the annotators have all finished this first sub-task and the judge has reviewed the annotation and frozen the final judgements, the second sub-task will involve annotators returning to each file, and, for each sentence in the document, assigning TLINKs that mark the temporal relation between the sentence's main event and the main event of the next sentence in the document.</p>
+
+
+<h4>Sub-task #1, Marking the Main Event within Each Sentence --- General Instructions</h4>
+
+<p>To select this task from the list of layers in the corpus, click 'main-events'.  As the annotator proceeds through the document, each previously marked event will appear in blue, while the other non-event words in each sentence appear in black.  Clicking on a blue event causes the event to turn to green and appear within double square brackets [[  ]], and this indicates that you have selected it as the main event for that sentence.  Clicking the event again returns it to blue and removes its double square brackets the [[  ]]), meaning that it is no longer marked as the sentence's main event.</p>
+
+<p>Note that each sentence has only one main event, so you should mark one and only one of the blue events in each sentence as the main event.  The tool allows more than one event within a sentence to be marked as the main event, however, and so, while proceeding through each document, the annotator should make sure that each sentence has only a single event marked as the main event.</p>
+
+<h4>Additional Information for Sub-task #1:  How to Identify the Main Event of Each Sentence</h4>
+
+<p>Since there is only one main event per sentence, for sentences which contain only one event, that event should necessarily be marked as the main event of the sentence.  For sentences in which there is more than one event, the general rule is to identify the main event by following very shallow, syntactically-based criteria.</p>
+
+
+<p><b><i>Common Types of Syntatic Subordination</i></b></p>
+
+<p>In each instance of syntactic subordination, there will be one or more embedded clauses within the matrix (i.e. the 'main' or 'root') clause.  In all such cases, the <b>main event</b> of the sentence will always be the event which serves as the predicate of the matrix clause (i.e. the event which is syntactically dominant within the sentence), and never an event within an embedded (or 'subordinate') clause of the sentence.</p>
+
+<p> The following list describes the majority of the types of syntactic subordination which the annotator is likely to encounter.  In each example given, the embedded clause appears within square brackets [ ], each event appears in <b>boldface</b>, and just the main event is also <b><u>underlined</u></b>.</p> 
+
+<ol>
+<li> Finite embedded clauses marked with the complementizer <i>that</i> (often called a 'subordinating conjunction' in traditional grammar; i.e. <i>that</i>-headed CPs):  Grammatically, such clauses can function in different roles, such as subject (1) or object (2) of certain verbs.  Note that the <i>that</i> of such clauses can often be omitted.</p>
+
+<p> For instance, each sentence in the following examples contains two events.  In each, the event serving as the predicate of the matrix clause would be the main event, and the events within the embedded clauses would not be main events.</p>
+
+          <p>(1) [That Gulshan Lake <b>has</b> so many little bugs and bacteria] <b><u>surprised</u></b> me.</p>
+
+          <p>(2) He <b><u>told</u></b> reporters [(that) he <b>had</b> no message from Baghdad].</li> 
+
+<li><i>if</i>, <i>whether</i>, and <i>wh</i>-clauses:  Introduced by the complementizers (often called 'subordinating conjunctions' in traditional grammar) <i>if</i> and <i>whether</i> (3), or by a <i>wh</i>-phrase (<i>who</i>, <i>where</i>, <i>what</i>, <i>how</i>, etc.) (4).  Grammatically, such clauses can also function as the object or subject of a verb.</p>
+
+          <p>(3) Reporters <b><u>asked</u></b> President Bush [whether the interdiction would <b>apply</b> to food].</p>
+
+          <p>(4) The panel is <b><u>investigating</u></b> [who <b>shot</b> down Rwandan President Juvenal Habyarimana's plane on April 6, 1994].</li>
+
+<li>Relative clauses:  These are embedded clauses (CPs) which semantically modify a noun, within a noun phrase.</p>
+
+          <p>(5) It <b><u>is</u></b> a <b>war</b> [that <b>is</b> <b>supposed</b> to help feed the desperate people of Afghanistan].</li>
+
+<li>Small clauses: These are minimal clausal structures with a subject and predicate, but no tense.  We are also including <i>ing</i>-clauses here, as in (8).</p>
+
+          <p>(6) Several neighbors <b><u>heard</u></b> [it <b>happen</b>].</p>
+
+          <p>(7) His wife <b><u>convinced</u></b> [him to <b>leave</b> the country].</p>
+
+          <p>(8) I don't <b><u>see</u></b> [things <b>getting</b> as acrimonious as they might].</li> 
+
+<li>Adverbial clauses:  Introduced by elements which are generally complementizers or prepositions which express temporal relations (<i>after</i>, <i>before</i>, <i>when</i>, <i>while</i>), purpose (<i>to</i>, <i>in order to</i>, <i>so that</i>), cause (<i>because</i>, <i>since</i>), condition (<i>if</i>, <i>unless</i>), contrast (<i>although</i>, <i>even though</i>, <i>while</i>), or comparison (<i>similar to</i>, <i>like</i>).  (Note that this list is not exhaustive.)</p>
+
+          <p>(9) He <b><u>stayed</u></b> behind [because he couldn't <b>speak</b> French].</p>
+
+          <p>(10) So [when Wong Kwan <b>spent</b> seventy million dollars for this house], he <b><u>thought</u></b> it was a great deal.</li>
+
+<li>Comparative clauses: The subordinated clause is introduced by <i>as</i> or <i>than</i>.</p>
+
+          <p>(11) There have <b><u>been</u></b> far more <b>participants</b> this year [than there <b>were</b> last year].</p>
+
+          <p>(12) He <b><u>is</u></b> about as <b>old</b> [as his father <b>was</b> then].</li>
+
+<li>NPs, APs, or PPs headed by an event-denoting element:  Such phrases can function as subjects, objects, or other arguments of verbal predicates (13-14). They can also be complements of nouns (15) or adjectives (16).</p>
+
+          <p>(13) [The <b>transaction</b>] has been <b><u>approved</u></b> by Kyle's board.</p>
+
+          <p>(14) The new Essex County task force is <b><u>delving</u></b> [into the <b>slayings</b> of 14 black women].</p>
+
+          <p>(15) There <b><u>was</u></b> no independent <b>confirmation</b> [of the <b>fact</b>] by the government-run news agency.</p>
+
+          <p>(16) The agreement <b><u>is</u></b> <b>subject</b> [to shareholder and regulatory <b>approval</b>].</li>
+
+</ol>
+
+
+<p><b><i>Less Clear-Cut Cases</i></b></p>
+
+<ol>
+
+<li>In constructions involving <b>aspectual predicates</b> (17) and <b>light verbs</b> (18), the syntacticaclly dominant element is semantically weaker than the subordinated event.  In these cases, following the general rule used above for subordination, we will annotate the syntactic head as the main event, since the semantic head can be easily recovered from the syntax (along with any temporal relation that may hold between the main event and the subordinated event).</p>
+
+          <p>(17) A new Essex County task force <b><u>began</u></b> [<b>delving</b> Thursday into the slayings of 14 black women].</p>
+
+          <p>(18) The chip <b><u>gives</u></b> [wrong <b>answers</b>] for some mathematical calculations.</li>
+
+<li>In news reports, <b>reporting</b> and <b>perception events</b> seem pragmatically less relevant than the events being reported or perceived (i.e. these seem less pragmatically relevant than the events which are denoted by the subordinated complements of these events).  Nonetheless, the same general criterion for subordination relations will be applied here, and we will therefore annotate the reporting or perception event as the main event of the sentence.  Similar to the case of light verbs and aspectual predications above, the semantic relations holding between the two events can generally be calculated from the syntactic structure.</p>
+
+          <p>(19) [But over all, arrests were <b>made</b> in more than 60 percent of murder cases], he <b><u>said</u></b>.</li>
+
+<li>From a semantic perspective, <b>causal sentences</b> are difficult to annotate.  For instance, in a sentence like (20), <i>rains</i>, <i>caused</i>, and <i>flooding</i> are all event-denoting expressions.  In such cases, we will follow the same syntactically-based criteria as used above, and so the main event annotated should be the syntactic head of the matrix clause's predicate.</p>
+
+          <p>(20) The <b>rains</b> <b><u>caused</u></b> the <b>flood</b>.</li>
+</ol>
+
+
+<p><b><i>Coordination Contexts</i></b></p>
+
+<p>There are cases in which the highest sentence or VP (verb phrase) of the sentence actually consists of two or more coordinated phrases, where each of these phrases contains what would be a main event if the phrase stood on its own, rather than appearing within a coordinate structure.  It remains true for such cases that each sentence in the corpus should be annotated as having just a single main event.  Therefore, for such examples, the main event within just the <b>first</b> conjunct of the coordinate structure should be annotated as the <b>main event</b>.  Some common coordinating elements in English are: <i>and, or, but, nor, yet, so, as well as, only,</i> and <i>such that</i>.</p>
+
+<p>The following sentences give some sample cases of coordinated phrases which each contain what would be a main event outside of a coordinate structure.</p>
+
+    <p>(21) He [<b><u>sold</u></b> the property to five buyers] and [<b>said</b> he'd <b>double</b> his money].</p>
+
+    <p>(22) [Australia has been <b><u>independent</u></b> since 1901], but [like many Commonwealth nations it still <b>recognizes</b> the British monarch as its head of state.</p>
+
+    <p>(23) [I had <b><u>hoped</u></b> to <b>see</b> her], only [she did not <b>come</b>].</p>
+
+    <p>(24) [The <b>work</b> <b><u>started</u></b> very hard], such that [many people were <b>injured</b>].</p>
+
+<p><b><i>Overall Summary of Guidelines for Annotating the Main Event of Each Sentence</i></b></p>
+
+<ol>
+   <li>Annotate only one main event per sentence.</li>
+   <li>In subordination contexts, the main event of the sentence is the event which is the most syntactically dominant.</li>
+   <li>In coordination contexts, the main event of the sentence is what would be the main event within the first conjunct.</li>
+
+</ol>
+
+
+<h4>Sub-task #2:  Marking TLINKs Between the Main Event in Each Sentence and the Main Event in the Next Sentence</h4>
+
+<p>In this task, while all words in each sentence which are not main events appear just in black, BAT will display the single main event in each sentence as highlighted in green, and within double square brackets [[  ]].  To the immediate right of the last right bracket, and before the next word, a superscripted number appears in black.  This number is the ID number for that main event.</p>
+
+<p>For the main event of each sentence, there are two attributes which the annoator needs to select.</p>
+
+<p>For the 'relatedToEvent' attribute, the annotator should enter in the ID number of the main event in the next sentence.  For instance, in the following screen shot, sentence S1's main event, <i>said</i>, has the number 3 as the value for its 'relatedToEvent' attribute, since 3 is the ID number for the main event of sentence S2, namely <i>filed</i>.  (Notice that just the superscripted number has been entered here, with no 'e' added preceding the number, so that it is '3' and not 'e3' that should be entered.)</p>
+
+<a target=_blank class="screenshot" href="images/annotator_tlinkMainEvent.png">
+See screen shot for main event TLINK annotation</a>
+
+<p>For the value of the relationToEvent attribute, the annotator should select the TLINK which best fits the temporal relationship between the main event being marked and the main event of the next sentence (whose ID number was entered for as the 'relatedToEvent' value).  For instance, if the main event being annotated happens before the main event of the next sentence, then the annotator would enter 'before' as the 'relationToEvent' value.</p>
+
+<p>Note that this process results in both 'relatedToEvent' and 'relationtoEvent' needing to be left blank for the main event of the last sentence in each document, since there is no next sentence in the document.</p>
+
+
+<h3>TLINK Task #3:  Annotating Intrasentential Event-Event Relations</h3>
+
+<p>In this task, all words in each sentence which are not events appear just in black, while each previously judged event will appear as highlighted in green, and within double square brackets [[  ]].  To the immediate right of the last right bracket, and before the next word, a superscripted number appears in black.  This number is the eid (event identification number) for that event.</p>
+
+<p>For sentences which contain just one event, both 'relatedToEvent' and 'relationToEvent' should be left blank, since this task marks TLINKs between events <i>only</i> within a single sentence.</p>
+
+<p>Sentences which contain two or more events should be treated as follows.  There are two possible annotation scenarios that can arise, depending on whether the sentence has just two total events, or instead has more than two events.</p>
+
+<p>In sentences in which there are only two total events, the annotation can proceed relatively straightforwardly.  The annotator should enter the eid of the sentence's second event as the 'relatedToEvent' value for the sentence's first event.  (Note that just the number corresponding to the second event's eid should be entered, with no 'e' (for 'event') preceding that number, as in some previous tasks.  Thus, if the second event's eid is 2, then just '2', and not 'e2', should be entered.)</p>
+
+<p>Then, for the sentence's first event, the annotator should select as the 'relationToEvent' value the TLINK relation which best suits how the first event relates temporally to the second event.  For instance, if the first event in the sentence occurs after the second event, then the 'relatedToEvent' value entered for the first event should be 'after'.  Since there is no third event subordinate to the sentence's second event, both 'relatedToEvent' and 'relationToEvent' should be left blank for the sentence's second event.</p>
+
+<p>For sentences containing more than two events, the same procedure will be followed to create a TLINK between each event and the next event in the sentence.  However, each event has just one 'relatedToEvent' and 'relationToEvent' attribute, and this means that only one TLINK can be created between that event and another event in the same sentence, using these attributes.</p>
+
+<p>Therefore, where a TLINK relation needs to be created between an event and the second, third, fourth, etc. event that follows it within the same sentence, the TLINK details will need to be entered into the 'comment' field for the subordinating event instead.  In this case, the annotator should enter into the comment field a string---containing no spaces---in the format:</p>
+
+<p>eX:relation</p>
+
+<p>where 'X' is the eid of the relatedToEvent, and 'relation' is the appropriate TLINK value between the event being annotated and the relatedToEvent.  Where such a comment entry needs to be used for more than one TLINK between the event being annotated and subordinate events in the sentence, each string in the above format should be separated by one space.</p>
+
+<p>For instance, if, in the 'comment' field, a 'before-or-overlap' TLINK is being created between the event being annotated and an event whose eid is 4, and a additional 'vague' TLINK is being created between the event and another event whose eid is 8, the annotator would enter the following into the comment field:</p>
+
+<p>e4:before-or-overlap e8:vague</p>
+
+<p>Once again, the last event in the sentence should be given no values for 'relatedToEvent' and 'relationToEvent', since there is no next event in the sentence with which a TLINK can be created.</p>
+
+<p>The following screen shot shows how an entire sample sentence containing more than two events would be annotated.</p>
+
+<a target=_blank class="screenshot" href="images/annotator_tlinkIntrasentEventEvent.png">
+See screen shot for intrasentential event-event TLINK annotation</a>
+
+
+<h3>TLINK Task #4:  Annotating Intrasentential Event-TIMEX3 Relations</h3>
+
+<p>The layer name to select for this last TLINK task is 'tlinks-event-timex'.</p>
+
+<p>In this task, TLINKs will be marked as attributes for each event in a sentence, between the event and each timex in the same sentence.  In each document being annotated, each previously marked event will appear within double brackets [[ ]] and in green, while each previously marked timex will appear within double brackets [[ ]] and in red.</p>
+
+<br>
+
+
+</body>
+</html>

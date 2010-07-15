@@ -1,0 +1,323 @@
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="mainText">
+
+<h1>Tempeval-2 Trial Data &mdash; Release Notes</h1>
+
+<p class="navigation">
+[ 
+<!-- <a href="http://www.timeml.org/tempeval2/">tempeval home</a> -->
+ <a href="#description">data description</a>
+| <a href="#annotation">annotation process</a>
+| <a href="#stats">statistics</a>
+| <a href="#training">training and evaluation data</a>
+]
+</p>
+
+<p>In this document, we describe the English trial data. The format
+for all other languages is essentially the same, although small
+differences are possible. Available in this release are the trial data
+for English and Italian. </p>
+
+<p>Updates to this document will be published on the Tempeval2 pages
+at <a
+href="http://www.timeml.org/tempeval2/tempeval2-trial/">http://www.timeml.org/tempeval2/tempeval2-trial/</a>.</p>
+
+
+<a name="description"></a>
+<h3>Data description</h3>
+
+<p>The trial data are given in a set of vertical files with
+tab-separated rows. One file, named "base-segmentation.tab", contains
+the tokenized text. The other files are (1) a file with a lexical
+category for each token, (2) files with extents for events and timex3
+tags, (3) files with attributes of events and timexes, and (4) files
+with temporal relations. Below is a fragment of the file with the
+tokenized text (throughout, we use the fragment "<i>... of an impudent
+American whom Sony hosted for a year while...</i>" as an example).</p>
+
+<pre class="example">
+wsj_0037	27	5	of
+wsj_0037	27	6	an
+wsj_0037	27	7	impudent
+wsj_0037	27	8	American
+wsj_0037	27	9	whom
+wsj_0037	27	10	Sony
+wsj_0037	27	11	hosted
+wsj_0037	27	12	*T*-58
+wsj_0037	27	13	for
+wsj_0037	27	14	a
+wsj_0037	27	15	year
+wsj_0037	27	16	while
+</pre>
+
+<p>Each token is uniquely defined by a filename, a sentence offset and a
+token offset. Both sentence offset and token offsets start at 0. For
+example, in the fragment above, "impudent" is the eighth token in the
+28th sentence of the file wsj_0037. The files in this sample are
+derived from the Penn treebank and contain the empty categories from
+the Treebank, as with "*T*-58" above.</p>
+
+<!--
+<p>The "lex-categories.tab" file assigns lexical categories to each
+token. This file is may be useful because, for event recognition in
+English, we will report results for each major lexical category. For
+English, the lexical categories are derived from the part-of-speech
+tags from the Treebank. Below is the slice of the file where lexical
+categories are assigned to the tokens in our running example.</p>
+
+<pre class="example">
+wsj_0037        27      5       prep
+wsj_0037        27      6       other
+wsj_0037        27      7       adj
+wsj_0037        27      8       noun
+wsj_0037        27      9       other
+wsj_0037        27      10      noun
+wsj_0037        27      11      verb
+wsj_0037        27      12      trace
+wsj_0037        27      13      prep
+wsj_0037        27      14      other
+wsj_0037        27      15      noun
+wsj_0037        27      16      prep
+</pre>
+-->
+
+<p>Events and their attributes are stored in two files:
+"event-extents.tab" and "event-attributes.tab".</p>
+
+<pre class="example">
+wsj_0037	27	11	event	e561	1
+</pre>
+
+<pre class="example">
+wsj_0037	27	11	event	e561	1	aspect	NONE
+wsj_0037	27	11	event	e561	1	modality	
+wsj_0037	27	11	event	e561	1	polarity	POS
+wsj_0037	27	11	event	e561	1	tense	PAST
+</pre>
+
+<p>Again, the first three columns uniquely identify a token position
+in the source. The other columns of "event-extents.tab" contain the
+tag name (always "event" in this file), the tag id, and the instance
+id. The tag id is unique to the file, and usually, but not
+necessarily, unique to the corpus. The instance id is there to deal
+with cases like "She plays soccer on Monday and Wednesday", where
+there are two instances of the "play soccer" event. In the vast
+majority of cases, there is only one instance and the value in the
+last column is "1". The file "event-attributes.tab" contains two more
+columns: an attribute name and an attribute value.</p>
+
+<!--
+<p>In addition to "event-extents.tab", there is a file named
+"main-events.tab" which contains the extents of main events. Each main
+event is also an event, but the mainevent tag is a separate tag with a
+separate id.</p>
+-->
+
+<p>Timexes and their attributes are stored in "timex-extents.tab" and
+"timex-attributes.tab".</p>
+
+<pre class="example">
+wsj_0037	27	14	timex3	t2	1
+wsj_0037	27	15	timex3	t2	1
+</pre>
+
+<pre class="example">
+wsj_0037	27	14	timex3	t2	1	type	DURATION
+wsj_0037	27	14	timex3	t2	1	value	P1Y
+</pre>
+
+<p>These files use the same colomns as their eventive counter
+parts. But note that the attributes are associated with the first
+token of the timex extent. Also note that the instance number is
+always "1" for timexes.</p>
+
+<p>The four classes of Tempeval temporal relations are all stored with
+the same format. The associations between task indentifer and file
+name are in the table below.</p>
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr>
+  <td>Task C</td>
+  <td>tlinks-event-timex.tab</td>
+</tr>
+<tr>
+  <td>Task D</td>
+  <td>tlinks-dct-events.tab</td>
+</tr>
+<tr>
+  <td>Task E</td>
+  <td>tlinks-main-events.tab</td>
+</tr>
+<tr>
+  <td>Task F</td>
+  <td>tlinks-subordinated-events.tab</td>
+</tr>
+</table>
+
+<p>The vertical files for the temporal relations all have four
+columns: (1) filename, (2) tag id of the first element in the
+relation, (3) tag id of the second element in the relation, and (4)
+the relation type.  Here is a fragment of "tlinks-event-time.tab",
+with the temporal relation between "host" and "a year".</p>
+
+<pre class="example">
+wsj_0037	e561	t2	overlap
+</pre>
+
+<p>For Task D ("tlnks-dct-events.tab"), the third column is always
+"t0", where "t0" is a special id that refers to the Document Creation
+Time. Note that the exact value of the DCT is not specified in the
+file with timexes since it is not nexessarily associated with an
+offset, instead, the DCT timex is given for each file in a separate
+file named "dct.tab".</p>
+
+<!--
+<p>For task E ("tlinks-main-events.tab"), all the tag ids refer to the
+ids in the "main-events.tab" file.</p>
+-->
+
+<a name="annotation"></a>
+<h3>Annotation process</h3>
+
+<p>Annotation of the trial data proceeded in several phases:</p>
+
+<ol>
+<li>Dual annotation of event extents</li>
+<li>Judgement of event extents</li>
+<li>Dual annotation of timex extents</li>
+<li>Judgement of timex extents</li>
+<li>Annotation of event and timex attributes</li>
+<li>Annotation of temporal links</li>
+</ol>
+
+<p>The output of phases 2 and 4 was input to phases 5 and 6. Note that
+for the trial data, no dual annotation was attempted. This will be
+different for the training and evaluation data.</p>
+
+<p>Annotators were given four documents to guide them in their tasks:
+<a href="guidelines/introToTimeML-052809.pdf">TimeML overview</a>,
+<a href="guidelines/EventGuidelines-050409.pdf">event annotation guidelines</a>,
+<a href="guidelines/timex3guidelines-072009.pdf">timex annotation guidelines</a>, and
+<a href="guidelines/tlink-guidelines-081409.pdf">TLINK annotation guidelines</a>. The
+annotators were also asked to refer to additional descriptions of the ISO
+format for timex values given in the <a
+href="http://timeml.org/site/terqas/readings/MTRAnnotationGuide_v1_02.pdf">TIDES
+Temporal Annotation Guidelines Version 1.0.2 document</a>.
+
+
+<a name="stats"></a>
+<h3>Trial data statistics</h3>
+
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr>
+  <td align="left">&nbsp;</td>
+  <td align="right">English</td>
+  <td align="right">Italian</td>
+<tr>
+  <td align="left">files</td>
+  <td align="right">2</td>
+  <td align="right">8</td>
+</tr>
+<tr>
+  <td align="left">tokens</td>
+  <td align="right">5111</td>
+  <td align="right">3355</td>
+</tr>
+<tr>
+  <td align="left">task A: timexes</td>
+  <td align="right">55</td>
+  <td align="right">57</td>
+</tr>
+<tr>
+  <td align="left">task B: events</td>
+  <td align="right">764</td>
+  <td align="right">519</td>
+</tr>
+<tr>
+  <td align="left">task C: event-timex links</td>
+  <td align="right">52</td>
+  <td align="right">48</td>
+</tr>
+<tr>
+  <td align="left">task D: event-dct links</td>
+  <td align="right">764</td>
+  <td align="right">519</td>
+</tr>
+<tr>
+  <td align="left">task E: links between main events</td>
+  <td align="right">193</td>
+  <td align="right">87</td>
+</tr>
+<tr>
+  <td align="left">task F: links in subordination contexts</td>
+  <td align="right">173</td>
+  <td align="right">94</td>
+</tr>
+</table>
+
+
+<a name="training"></a>
+<h3>Training and evaluation data</h3>
+
+<p>The English training data will be different in at least the
+following respects:</p>
+
+<ol>
+
+<li>Size. The training corpus will be an order of magnitude larger.
+
+<li>Document selection. The documents in the trial data are very
+large compared to most documents expected to be in the training
+data. In addition, the first document in the trial set is a book
+description, these kinds of documents will be excluded from the
+training data.
+
+<li>Annotation quality. The trial data have not been checked
+rigurously and annotation guidelines were written while the annotation
+was in progress. For the training data, we use fixed guidelines and
+dual annotation.
+
+<li>Temporal relations. The set of temporal relations may be changed
+for some tasks.
+
+<li>Eliminating little glitches. For example, not all events and
+timexes have attributes due to a hickup in the annotation
+procedure. This will be fixed for the training data.
+
+</ol>
+
+<p>The evaluation data will be held out from the entire corpus, but
+otherwise be identical in format to the training data. However,
+depending on the task some data will be left out:</p>
+
+<table cellpadding="3" cellspacing="0" border="1">
+<tr valign="top">
+  <td>Tasks A and B</td>
+  <td>Only the file "base-segmentation.tab" will be provided. The task
+  would be to create the files "timex-extents.tab",
+  "timex-attributes.tab", "event-extents.tab", and
+  "event-attributes.tab".</td> 
+</tr>
+<tr valign="top">
+  <td>Tasks&nbsp;C&nbsp;through&nbsp;F</td>
+  <td>All files will be provided, but the relation types in the files
+  with temporal links will be set to "NONE". The task here is to
+  replace "NONE" with one of the acceptable relation types.</td>
+</tr>
+</table>
+
+<p>Scorer scripts will be made available with the training data.</p>
+
+</diva>
+
+</body>
+
+</html>
