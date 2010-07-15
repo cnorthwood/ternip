@@ -1,0 +1,11 @@
+ABC1	0	1	timex3	t1	1	value	20100710
+ABC1	0	1	timex3	t1	1	mod	BEFORE
+ABC1	0	1	timex3	t1	1	freq	1M
+ABC1	0	1	timex3	t1	1	comment	Test
+ABC1	0	1	timex3	t1	1	quant	EVERY
+ABC1	0	1	timex3	t1	1	temporalFunction	true
+ABC1	0	1	timex3	t1	1	functionInDocument	MODIFICATION_TIME
+ABC1	0	1	timex3	t1	1	type	DATE
+ABC1	0	1	timex3	t1	1	beginPoint	t1
+ABC1	0	1	timex3	t1	1	endPoint	t2
+ABC1	0	1	timex3	t1	1	anchorTimeID	t3

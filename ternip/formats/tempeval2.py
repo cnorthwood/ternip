@@ -12,6 +12,22 @@ class tempeval2:
     """
     
     @staticmethod
+    def create(sents, docid=''):
+        """
+        Creates a TempEval-2 document from the internal representation
+        
+        sents is the [[(word, pos, timexes), ...], ...] format.
+        """
+        
+        # Create a blank document
+        d = tempeval2('', docid)
+        
+        # Add sents
+        d.reconcile(sents)
+        
+        return d
+    
+    @staticmethod
     def load_multi(file):
         """
         Load multiple documents from a single base-segmentation.tab
@@ -72,9 +88,9 @@ class tempeval2:
         Print out the format suitable for timex-extents.tab
         """
         
-        # For XML documents, TIMEXes need unique IDs
+        # TIMEXes need unique IDs
         all_ts = set()
-        for sent in sents:
+        for sent in self._sents:
             for (tok, pos, ts) in sent:
                 for t in ts:
                     all_ts.add(t)
@@ -84,7 +100,7 @@ class tempeval2:
         for i in range(len(self._sents)):
             for j in range(len(self._sents[i])):
                 for timex in self._sents[i][j][2]:
-                    s.append(self._get_timex_line(i, j, timex) + "\n")
+                    s += self._get_timex_line(i, j, timex) + "\n"
         
         return s
     
@@ -92,40 +108,43 @@ class tempeval2:
         """
         Print out the format suitable for timex-attributes.tab
         """
+        
+        s = ''
+        
         for i in range(len(self._sents)):
             for j in range(len(self._sents[i])):
                 for timex in self._sents[i][j][2]:
                     if timex.value != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tvalue\t"+timex.value+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tvalue\t"+timex.value+"\n"
                     
                     if timex.mod != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tmod\t"+timex.mod+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tmod\t"+timex.mod+"\n"
                     
                     if timex.type != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\ttype\t"+timex.type.upper()+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\ttype\t"+timex.type.upper()+"\n"
                     
                     if timex.freq != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tfreq\t"+timex.freq+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tfreq\t"+timex.freq+"\n"
                     
                     if timex.comment != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tcomment\t"+timex.comment+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tcomment\t"+timex.comment+"\n"
                     
                     if timex.quant != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tquant\t"+timex.quant+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tquant\t"+timex.quant+"\n"
                     
                     if timex.temporal_function:
-                        s.append(self._get_timex_line(i, j, timex) + "\ttemporalFunction\ttrue\n")
+                        s += self._get_timex_line(i, j, timex) + "\ttemporalFunction\ttrue\n"
                     
                     if timex.document_role != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tfunctionInDocument\t"+timex.document_role+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tfunctionInDocument\t"+timex.document_role+"\n"
                     
                     if timex.begin_timex != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tbeginPoint\tt"+timex.begin_timex.id+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tbeginPoint\tt"+str(timex.begin_timex.id)+"\n"
                     
                     if timex.end_timex != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tendPoint\tt"+timex.end_timex.id+"\n")
+                        s += self._get_timex_line(i, j, timex) + "\tendPoint\tt"+str(timex.end_timex.id)+"\n"
                     
                     if timex.context != None:
-                        s.append(self._get_timex_line(i, j, timex) + "\tanchorTimeID\tt"+timex.context.id+"\n")
+                       s += self._get_timex_line(i, j, timex) + "\tanchorTimeID\tt"+str(timex.context.id)+"\n"
         
         return s
