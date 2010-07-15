@@ -50,7 +50,7 @@ for i in range(len(unannotated)):
     try:
         # Open this document
         with open(unannotated[i]) as fd:
-            doc = ternip.formats.timex2(fd.read(), 'TEXT')
+            doc = ternip.formats.tern(fd.read())
         
         # Add S, LEX and POS tags for GUTime
         doc.reconcile(doc.get_sents(), add_S='s', add_LEX='lex', pos_attr='pos')
@@ -66,7 +66,7 @@ for i in range(len(unannotated)):
         
         # Strip LEX and S tags
         with open(gutime_out_file) as fd:
-            doc = ternip.formats.timex2(fd.read(), 'TEXT')
+            doc = ternip.formats.tern(fd.read())
         doc.strip_tag('s')
         doc.strip_tag('lex')
         with open(gutime_out_file, 'w') as fd:
@@ -79,7 +79,7 @@ for i in range(len(unannotated)):
         
         # Now reopen this document cleanly for TERNIP
         with open(unannotated[i]) as fd:
-            doc = ternip.formats.timex2(fd.read(), 'TEXT')
+            doc = ternip.formats.tern(fd.read())
         sents = recogniser.tag(doc.get_sents())
         normaliser.annotate(sents, "")
         
