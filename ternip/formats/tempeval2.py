@@ -26,7 +26,7 @@ class tempeval2:
         docs = []
         
         for d in ds:
-            docs.append(tempeval2(ds[d], d))
+            docs.append(tempeval2('\n'.join(ds[d]), d))
         
         return docs
     
@@ -40,13 +40,14 @@ class tempeval2:
         
         for line in file.splitlines():
             parts = line.split('\t')
-            i = int(parts[1])
-            j = int(parts[2])
-            
-            if len(sents) < i:
-                toks.insert(i, [])
-            
-            tok_sents[i][j] = parts[3]
+            if len(parts) > 3:
+                i = int(parts[1])
+                j = int(parts[2])
+                
+                if len(tok_sents) <= i:
+                    tok_sents.insert(i, [])
+                
+                tok_sents[i].insert(j, parts[3])
         
         self._sents = [[(tok, pos, set()) for (tok, pos) in nltk.tag.pos_tag(tok_sent)] for tok_sent in tok_sents]
     

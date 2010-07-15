@@ -14,6 +14,7 @@ from tests.formats.timex2 import *
 from tests.formats.timex3 import *
 from tests.formats.timeml import *
 from tests.formats.tern import *
+from tests.formats.tempeval2 import *
 
 from tests.timex import *
 
