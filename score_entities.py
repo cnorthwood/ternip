@@ -104,7 +104,13 @@ def score_entities(tokens, key_extents, response_extents, key_attrs, response_at
             scores.add_response_attribute_data(file, sid, tid, attr, val)
         except ValueError:
             pass
-
+    
+    fh1.close()
+    fh2.close()
+    fh3.close()
+    fh4.close()
+    fh5.close()
+    
     scores.calculate_extent_scores()
     scores.calculate_attribute_scores()
     
