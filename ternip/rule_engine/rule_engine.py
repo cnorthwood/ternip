@@ -144,7 +144,7 @@ class rule_engine:
         
         # ID and After are invalid in individual rules
         for rule in rules:
-            if rule.id[:-2] != filename:
+            if rule.id[:len(filename)] != filename:
                 errors.append(rule_load_error(filename, "'ID' fields are invalid outside of the block header in a rule block"))
             if len(rule.after) > 0:
                 errors.append(rule_load_error(filename, "'After' fields are invalid outside of the block header in a rule block"))
