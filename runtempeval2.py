@@ -17,7 +17,7 @@ normaliser = ternip.rule_engine.normalisation_rule_engine()
 normaliser.load_rules(os.path.normpath('rules/normalisation/'))
 
 # Load testing data
-data_path = os.path.normpath('sample_data/tempeval2-trial/data/english/')
+data_path = os.path.normpath('sample_data/tempeval-training-2/english/data/')
 with open(os.path.join(data_path, 'base-segmentation.tab')) as fd:
     docs = ternip.formats.tempeval2.load_multi(fd.read())
 
