@@ -15,6 +15,26 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1], 'actual result was '+str(sent))
         self.assertTrue(success)
     
+    def testMatchCaseSensitive1(self):
+        rule = recognition_rule(r'<wednesday~.+>', 'date', 'test', case_sensitive=True)
+        (sent, success) = rule.apply([('the', 'POS', set()),
+                           ('plane', 'POS', set()),
+                           ('leaves', 'POS', set()),
+                           ('on', 'POS', set()),
+                           ('Wednesday', 'POS', set())])
+        self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,0], 'actual result was '+str(sent))
+        self.assertFalse(success)
+    
+    def testMatchCaseSensitive2(self):
+        rule = recognition_rule(r'<wednesday~.+>', 'date', 'test', case_sensitive=True)
+        (sent, success) = rule.apply([('the', 'POS', set()),
+                           ('plane', 'POS', set()),
+                           ('leaves', 'POS', set()),
+                           ('on', 'POS', set()),
+                           ('wednesday', 'POS', set())])
+        self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1], 'actual result was '+str(sent))
+        self.assertTrue(success)
+    
     def testMatchAppends(self):
         rule = recognition_rule(r'<Friday~.+>', 'date', 'test')
         (sent, success) = rule.apply([('the', 'POS', set()),

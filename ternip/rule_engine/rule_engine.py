@@ -134,15 +134,17 @@ class rule_engine:
                 errors.append(rule_load_error(filename, "Key '" + key + "' is not valid in a block header"))
         
         # Now load all other parts
+        i = 0
         for part in parts:
+            i += 1
             try:
-                rules.append(self._load_rule(filename, part))
+                rules.append(self._load_rule(filename + ":" + str(i), part))
             except rule_load_error as e:
                 errors.append(e)
         
         # ID and After are invalid in individual rules
         for rule in rules:
-            if rule.id != filename:
+            if rule.id[:-2] != filename:
                 errors.append(rule_load_error(filename, "'ID' fields are invalid outside of the block header in a rule block"))
             if len(rule.after) > 0:
                 errors.append(rule_load_error(filename, "'After' fields are invalid outside of the block header in a rule block"))

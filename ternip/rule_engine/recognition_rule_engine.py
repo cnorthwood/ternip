@@ -36,6 +36,7 @@ class recognition_rule_engine(rule_engine):
         before_guards = []
         after_guards  = []
         after         = []
+        case_sensitive= False
         
         for key in d:
             
@@ -74,6 +75,20 @@ class recognition_rule_engine(rule_engine):
                 elif (len(d[key]) > 1):
                     raise rule_load_error(filename, "Too many 'Squelch' fields")
             
+            # Case-sensitive is an optional field, defaulting to False, which
+            # accepts either true or false (case-insensitive) as values
+            elif key == 'case-sensitive':
+                if (len(d[key]) == 1):
+                    case_sensitive = d[key][0].lower()
+                    if case_sensitive == 'true':
+                        case_sensitive = True
+                    elif case_sensitive == 'false':
+                        case_sensitive = False
+                    else:
+                        raise rule_load_error(filename, "Case-Sensitive must be either 'True' or 'False'")
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Case-Sensitive' fields")
+            
             # set optional fields
             elif key == 'guard':
                 guards = d[key]
@@ -96,7 +111,7 @@ class recognition_rule_engine(rule_engine):
         
         # Guard against any RE errors
         try:
-            return recognition_rule(match, type, id, guards, after_guards, before_guards, after, squelch)
+            return recognition_rule(match, type, id, guards, after_guards, before_guards, after, squelch, case_sensitive)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     
