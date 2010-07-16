@@ -1,0 +1,63 @@
+Block-Type: run-all
+
+---
+
+Type: date
+Match: <\'~.+><\d\d~.+>
+
+---
+
+Type: date
+Match: <\d\d\d\d-?\d\d-?/d/d-?T\d\d(((~.+><)?:~.+><)?\d\d)?([\+\-]\d{1,4})?~.+>
+
+---
+
+Type: date
+Match: <\d\d\d\d-\d\d-\d\d~.+>
+
+---
+
+Type: time
+Match: <T\d\d(:?\d\d)?(:?\d\d)?([\+\-]\d{1,4})?~.+>
+
+---
+
+Type: date
+Match: (<\d\d:?\d\d~.+>(<on~.+>)?)?<\d\d?\/\d\d?\/\d\d(\d\d)?~.+>
+
+---
+
+Type: date
+Match: <\d\d?\.\d\d?\.\d\d(\d\d)?~.+>
+
+---
+
+Type: date
+Match: (<(alternate|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?|each|next|last|this~.+><coming)~.+>)?<$DAYSs?~.+>(<(the~.+><($ORDINAL_NUMS|$ORDINAL_WORDS)|morning|afternoon|evening|night|next)s?~.+>)?
+
+---
+
+Type: date
+Match: ((<the~.+>)<day~.+><(before|after)~.+>)?<$RELATIVE_DAYS~.+>(<(morning|afternoon|evening|night)~.+>)?
+
+---
+
+Type: date
+Match: <\w+~.+><(Today|Tonight)~.+>
+Squelch: True
+Case-Sensitive: True
+
+---
+
+Type: date
+Match: <(alternate|each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?)~.+><(minute|hour|day|week|month|year)s?>
+
+---
+
+Type: date
+Match: (<(early|late)~.+>)?<this~.+><(morning|afternoon|evening)~.+>
+
+---
+
+Type: date
+Match: (<(early|late)~.+>)<last~.+><night~.+>
