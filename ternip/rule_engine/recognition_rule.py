@@ -55,18 +55,6 @@ class recognition_rule(rule.rule):
             be matched case sensitively or not.
         """
         
-        # Substitute in our predefined values
-        match = re.sub(r'\$ORDINAL_WORDS', r'(tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|twenty-first|twenty-second|twenty-third|twenty-fourth|twenty-fifth|twenty-sixth|twenty-seventh|twenty-eighth|twenty-ninth|thirtieth|thirty-first|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth)', match)
-        match = re.sub(r'\$ORDINAL_NUMS', r'([23]?1-?st|11-?th|[23]?2-?nd|12-?th|[12]?3-?rd|13-?th|[12]?[4-90]-?th|30-?th)', match)
-        match = re.sub(r'\$DAYS', r'(monday|tuesday|wednesday|thursday|friday|saturday|sunday)', match)
-        match = re.sub(r'\$MONTHS', r'"(january|february|march|april|may|june|july|august|september|october|november|december)', match)
-        match = re.sub(r'\$MONTH_ABBRS', r'"(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)', match)
-        match = re.sub(r'\$RELATIVE_DAYS', r'"(today|yesterday|tomorrow|tonight|tonite)', match)
-        match = re.sub(r'\$FIXED_HOLIDAYS', r'"(new\\s+year|inauguration|valentine|ground|candlemas|patrick|fool|(saint|st\.)\\s+george|walpurgisnacht|may\\s+day|beltane|cinco|flag|baptiste|canada|dominion|independence|bastille|halloween|allhallow|all\\s+(saint|soul)s|day\\s+of\\s+the\\s+dead|fawkes|veteran|christmas|xmas|boxing)', match)
-        match = re.sub(r'\$NTH_DOW_HOLIDAYS', r'"(mlk|king|president|canberra|mother|father|labor|columbus|thanksgiving)', match)
-        match = re.sub(r'\$LUNAR_HOLIDAYS', r'"(easter|palm\\s+sunday|good\\s+friday|ash\\s+wednesday|shrove\\s+tuesday|mardis\\s+gras)', match)
-        match = re.sub(r'\$DAY_HOLIDAYS', r'"(election|memorial|C?Hanukk?ah|Rosh|Kippur|tet|diwali|halloween)', match)
-        
         self.id               = id
         self._type            = type
         if case_sensitive:
@@ -80,6 +68,24 @@ class recognition_rule(rule.rule):
         self._guards = self._load_guards(guards)
         self._before_guards = self._load_guards(before_guards)
         self._after_guards = self._load_guards(after_guards)
+    
+    def _replace_predefs(self, match):
+        """
+        Substitute some special values for their actual RE values
+        """
+        match = re.sub(r'\$ORDINAL_WORDS', r'(tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|twenty-first|twenty-second|twenty-third|twenty-fourth|twenty-fifth|twenty-sixth|twenty-seventh|twenty-eighth|twenty-ninth|thirtieth|thirty-first|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth)', match)
+        match = re.sub(r'\$ORDINAL_NUMS', r'([23]?1-?st|11-?th|[23]?2-?nd|12-?th|[12]?3-?rd|13-?th|[12]?[4-90]-?th|30-?th)', match)
+        match = re.sub(r'\$DAYS', r'(monday|tuesday|wednesday|thursday|friday|saturday|sunday)', match)
+        match = re.sub(r'\$MONTHS', r'(january|february|march|april|may|june|july|august|september|october|november|december)', match)
+        match = re.sub(r'\$MONTH_ABBRS', r'(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)', match)
+        match = re.sub(r'\$RELATIVE_DAYS', r'(today|yesterday|tomorrow|tonight|tonite)', match)
+        match = re.sub(r'\$DAY_HOLIDAYS', r'(election|memorial|C?Hanukk?ah|Rosh|Kippur|tet|diwali|halloween)', match)
+        match = re.sub(r'\$NTH_DOW_HOLIDAYS', r'(mlk|king|president|canberra|mother|father|labor|columbus|thanksgiving)', match)
+        
+        # unsure if these work - need to check
+        #match = re.sub(r'\$FIXED_HOLIDAYS', r'(new~.+><year|inauguration|valentine|ground|candlemas|patrick|fool|(saint|st\.)~.+><george|walpurgisnacht|may~.+><day|beltane|cinco|flag|baptiste|canada|dominion|independence|bastille|halloween|allhallow|all~.+><(saint|soul)s|day~.+><of~.+><the~.+><dead|fawkes|veteran|christmas|xmas|boxing)', match)
+        #match = re.sub(r'\$LUNAR_HOLIDAYS', r'(easter|palm~.+><sunday|good~.+><friday|ash~.+><wednesday|shrove~.+><tuesday|mardis~.+><gras)', match)
+        return match
     
     def apply(self, sent):
         """

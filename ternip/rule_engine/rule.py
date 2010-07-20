@@ -7,10 +7,19 @@ class rule:
     Base class for recognition and normalisation rules
     """
     
+    def _replace_predefs(self, match):
+        """
+        Substitute some special values for their actual RE values
+        """
+        return match
+    
     def _prep_re(self, exp):
         """
         Prepare a regular expression which uses <> for token boundaries
         """
+        
+        exp = self._replace_predefs(exp)
+        
         # This code is modified from NLTK's text.py for dealing with pattern
         # matching with tokenised strings, under the Apache License 2.0
         

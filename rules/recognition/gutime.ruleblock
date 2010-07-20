@@ -38,7 +38,7 @@ Match: (<(alternate|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?|each|next|
 ---
 
 Type: date
-Match: ((<the~.+>)<day~.+><(before|after)~.+>)?<$RELATIVE_DAYS~.+>(<(morning|afternoon|evening|night)~.+>)?
+Match: (<the~.+><day~.+><(before|after)~.+>)?<$RELATIVE_DAYS~.+>(<(morning|afternoon|evening|night)~.+>)?
 
 ---
 
@@ -61,3 +61,55 @@ Match: (<(early|late)~.+>)?<this~.+><(morning|afternoon|evening)~.+>
 
 Type: date
 Match: (<(early|late)~.+>)<last~.+><night~.+>
+
+---
+
+Type: date
+Match: <(early|late)~.+><(morning|afternoon|evening)~.+>
+
+---
+
+Type: date
+Match: (<(early|late)~.+>(<[io]n~.+>)?)?(<the~.+><((($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><)?week(end)?|beginning|start|middle|end|morning|day|afternoon|evening|night|ides|nones)~.+><(of|in)~.+>)?(<(\d\d?|next|last|($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><of)~.+>)*<(mid-~.+><)?($MONTHS|$MONTH_ABBRS\.?(~.+><.)?)~.+>((<of~.+>|<,~.+>)?<\d{4}~.+>|<($ORDINAL_NUMS|$ORDINAL_WORDS|\d\d?)~.+>((<,~.+>)?<(\d{4}|\'~.+><\d\d)~.+>)?)?
+Guard: ($MONTHS|$MONTH_ABBRS)
+
+---
+
+Type: date
+Match: <(mar|march|may|august)~.+>
+Squelch: True
+Case-Sensitive: True
+
+---
+
+Type: date
+Match: (<(late|early|the~.+><(beginning|start|dawn|middle|end)~.+><of)~.+>(<in~.+>)?)?(<the~.+>)?<(next|last|coming|this(~.+><(coming|past))?)~.+><(week|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)~.+>
+Guard: (next|last|coming|this)
+
+---
+
+Type: date
+Guard: (spring|summer|winter|fall|autumn)
+Match: (<(each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?|late|early|the~.+><(beginning|start|dawn|middle|end)~.+><of)~.+>)?(<in~.+><the~.+>)?<(spring|summer|winter|fall|autumn)~.+>((<of~.+>)?<\d\d\d\d~.+>)?
+
+---
+
+Type: date
+Match: (<(this(~.+><(coming|past))?|next|last|each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?)~.+>)?<(Xmas|Christmas|Thanksgiving)~.+>(<(Day|Eve)~.+>)?((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
+
+---
+
+Type: date
+Guard: <day~.+>
+Match: (<(this(~.+><(coming|past))?|next|last|each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?)~.+>)?<((Saint|St(~.+><)?\.)~.+><(\w+|Jean~.+><Baptiste)|Ground~.+><Hog|April~.+><Fool|Valentine|Mother|Father|Veteran|President)((~.+><)?\'?(~.+><)?s)?~.+><Day~.+>((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
+
+---
+
+Type: date
+Guard: <day~.+>
+Match: (<(this(~.+><(coming|past))?|next|last|each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?)~.+>)?<(Flag|Memorial|Independence|Labor|Columbus|Bastille|Canberra|Dominion|Canada|Boxing|Election|Inauguration|Guy~.+><Fawkes|MLK|(Martin~.+><Luther~.+><)?King|May|All~.+><(Saint|Soul)s((~.+><)?\')?)~.+><Day~.+>((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
+
+---
+
+Type: date
+Match: (<\w+~NNP>)*<\w+\'?s?~NNP>(<\'?(~.+><)?s~.+>)?<Birthday~.+>((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
