@@ -437,23 +437,8 @@ EACHPAT: while ($string =~ /$curPattern/g){
     ########  End of code by jfrank  ##########
     ###########################################
 
-    #new year
-    $string =~ s/(($OT+(this($CT+\s+$OT+(coming|past))?|next|last|each|every($CT+\s+$OT+(other|$TENumOrds|$TEOrdinalWords))?)$CT+\s+)?$OT+New$CT+\s*$OT+Year$CT+$OT+\'$CT*$OT*s$CT+\s*$OT+(Day|Eve)$CT+(($OT+,$CT+)?\s+$OT+\d{4}$CT+)?)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/gosi;
-    # holidays that are not X Day
-    $string =~ s/(($OT+(this($CT+\s+$OT+(coming|past))?|next|last|each|every($CT+\s+$OT+(other|$TENumOrds|$TEOrdinalWords))?)$CT+\s+)?$OT+(Halloween|Allhallow(ma)?s|C?Hanukk?ah|Rosh$CT+\s*$OT+Hashanah|Yom$CT+\s*$OT+Kippur|Passover|Ramadan|Cinco$CT+\s+$OT+de$CT+\s+$OT+Mayo|tet|diwali|kwanzaa|Easter($CT+\s+$OT+Sunday)?|palm$CT+\s+$OT+sunday|mardis$CT+\s+$OT+gras|shrove$CT+\s+$OT+tuesday|ash$CT+\s+$OT+wednesday|good$CT+\s+$OT+friday|walpurgisnacht|beltane|candlemas|day$CT+\s+$OT+of$CT+\s+$OT+the$CT+\s+$OT+dead)$CT+(($OT+,$CT+)?\s+($OT+of$CT+\s+)?$OT+\d\d\d\d$CT+)?)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi;
-    # Generic decade
-    $string =~ s/($OT+the$CT+\s+($OT+(early|late|(beginning|start|middle|end)$CT+\s+$OT+of$CT+\s+$OT+the)$CT+\s+)?$OT+(\'$CT*$OT*\d0s|(\w+teen$CT+\s+$OT+)?(twen|thir|for|fif|six|seven|eigh|nine)ties)$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi;
-
-    # some century expressions
-    $string =~ s/((($OT+(late|early)$CT+\s+$OT+in$CT+\s+)?$OT+the$CT+\s+($OT+(late|early|mid-?)$CT*\s*)?)?$OT*($TENumOrds-?|$TEOrdinalWords)$CT*\s*$OT*century$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi; 
-
-    # some quarter expressions - need to add year refs
-    if($string =~ /\bquarter\b/io) {
-	$string =~ s/($OT+($TENumOrds|$TEOrdinalWords)$CT+\s+$OT+quarter$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi; 
-	$string =~ s/($OT+($TENumOrds|$TEOrdinalWords)-quarter$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi;
-    }
     # past|present|future refs   "The past" is special case
-    $string =~ s/($OT+(current|once|medieval|(the$CT+\s+$OT+)?future)$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi;
+    $string =~ s//<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi;
 
 ## jfrank changes here - originally there was a ? after "(\s*$OT+(week|fortnight...autumn)$CT+)" below
 ## - this gets rid of "the past" as a special case, but this was conflicting with duration constructions such as "the past three weeks"
@@ -471,73 +456,6 @@ EACHPAT: while ($string =~ /$curPattern/g){
 
 ##
 ## End of jfrank additions ##
-
-
-    # each|every unit
-    $string =~ s/($OT+(alternate|each|every($CT+\s+$OT+(other|$TENumOrds|$TEOrdinalWords))?)$CT+\s+$OT+(minute|hour|day|week|month|year)s?$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/gosi;
-
-    # (unit)ly
-    $string =~ s/($OT+(bi-?)?((annual|year|month|week|dai|hour|night)ly|annual)$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/goi;
-    
-    # (unit) before last/after next
-    $string =~ s/(($OT+the$CT+\s+$OT+)?$OT+(year|month|week|day|night)$CT+\s+$OT+(before$CT+\s+$OT+last|after$CT+\s+$OT+next)$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/goi;
-    
-    # some interval expressions
-    $string =~ s/($OT+\d{4}-to$CT*$OT*-\d{4}$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/go;
-    $string =~ s/($OT+(the|this|last|next|coming)$CT+\s+$OT+weekend$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/oig;
-
-    # year|month|week|day ago|from_now
-    if($string =~ /\b(ago|hence|from)\b/io) {
-	$string =~ s/(($OT+(about|around|some)$CT+\s+)?($OT*$OTCD$OT*\S+$CT+\s+($OT+and$CT+\s+)?)*($OT*$OTCD$OT*\S+$CT+\s+)$OT+(year|month|week|day|decade|cenutur(y|ie))s?$CT+\s+$OT+(ago($CT+\s+$OT+(today|tomorrow|yesterday|$TEday))?|hence|from$CT+\s$OT+(now|today|tomorrow|yesterday|$TEday))$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/goi;
-	$string =~ s/(($OT+(about|around|some)$CT+\s+)?$OT+(a($CT+\s+$OT+few)?|several|some|many)$CT+\s+$OT+(year|month|fortnight|moon|week|day|((little|long)$CT+\s+$OT+)?while|decade|centur(y|ie)|(((really|very)$CT+\s+$OT+)?((long$CT+$OT+,$CT+\s+$OT+)*long|short)$CT+\s+$OT+)?(life)?time)s?$CT+\s+$OT+(ago($CT+\s+$OT+(today|tomorrow|yesterday|$TEday))?|hence|from$CT+\s$OT+(now|today|tomorrow|yesterday|$TEday))$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/goi;
-	$string =~ s/<TIMEX$tever[^>]*>($OT+(today|tomorrow|yesterday|$TEday)$CT+<\/TIMEX$tever>)$CT*<\/TIMEX$tever>/$1/gio;
-	$string =~ s/($OT+(ages|long)$CT+\s+$OT+ago$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/goi;
-    }
-    
-    # Now a few time expressions
-
-    # 24 hour Euro time
-    $string =~ s/(($OT+(about|around|some)$CT+\s+)?$OT+\d\d?h\d\d$CT+)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/gois;
-
-    # hh:mm AM/PM (time zone)
-    if($string =~ /[ap]\.?m\b/io) {
-	$string =~ s/(($OT+(about|around|some|exactly|precisely)$CT+\s+)?($OT*(quarter|half|$OTCD$OT*\w+$CT+\s+$OT+minutes?)$CT+\s+$OT+(past|after|of|before|to)$CT+\s+)?($OT+the$CT+\s+$OT+hour$CT+\s+$OT+of$CT+\s+)?($OT+\d\d?|$OT*$OTCD$OT*\w+)$CT*($OT*:$CT*$OT*\d\d$CT*|\s+$OT*$OTCD$OT*[a-z\-]+$CT*(\s+$OT*$OTCD$OT*[a-z\-]+$CT*)?)?\s*$OT*[ap]m$CT+(\s+$OT+(universal|zulu|[a-z]+$CT+\s+$OT+(standard|daylight))$CT+\s+$OT+time$CT+)?(\s+$OT+(sharp|exactly|precisely|on$CT+\s+$OT+the$CT+\s+$OT+dot)$CT+)?)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/gois;
-	$string =~ s/(($OT+(about|around|some|exactly|precisely)$CT+\s+)?($OT*(quarter|half|$OTCD$OT*((\w+(-\w+)?|\d\d?)$CT+\s+$OT+minutes?))$CT+\s+$OT+(past|after|of|before|to)$CT+\s+)?($OT+the$CT+\s+$OT+hour$CT+\s+$OT+of$CT+\s+)?($OT+\d\d?|$OT*$OTCD$OT*\w+)$CT*($OT*:$CT*$OT*\d\d$CT*|\s+$OT*$OTCD$OT*[a-z\-]+$CT*(\s+$OT*$OTCD$OT*[a-z\-]+$CT*)?)?\s*$OT*[ap]\.m\.$CT+(\s+$OT+(universal|zulu|[a-z]+$CT+\s+$OT+(standard|daylight))$CT+\s+$OT+time$CT+)?(\s+$OT+(sharp|exactly|precisely|on$CT+\s+$OT+the$CT+\s+$OT+dot)$CT+)?)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/gois;
-    }
-    if($string =~ /\btime\b/io) {
-	$string =~ s/($OT+\d{4}$CT+\s+($OT+hours$CT+\s+($OT+,$CT+)?)?$OT+(universal|zulu|[a-z]+$CT+\s+$OT+(standard|daylight))$CT+\s+$OT+time$CT+)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/gois;
-	$string =~ s/($OT+\d\d?$CT+\s+$OT+hours?$CT+(\s+$OT+\d\d?$CT+\s+$OT+minutes?$CT+)?($OT+,$CT+)?\s+$OT+(universal|zulu|local|[a-z]+$CT+\s+$OT+(standard|daylight))$CT+\s+$OT+time$CT+)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/gois;
-    }
-    $string =~ s/($OT+\d\d\d\d$CT+\s+$OT+h(ou)?rs?$CT+)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/gois;
-
-    # hh:mm in the (morning|afternoon|evening)
-    if($string =~ /(morning|afternoon|evening|night)/io) {
-	$string =~ s/(($OT+(about|around|some|exactly|precisely)$CT+\s+)?($OT*((a$CT+\s+$OT+)?quarter|half|$OTCD$OT*\w+(-\w+)?($CT+\s+$OT+minutes?)?)$CT+\s+$OT+(past|after|of|before|to|until)$CT+\s+)?($OT+the$CT+\s+$OT+hour$CT+\s+$OT+of$CT+\s+)?$OT*$OTCD$OT*([a-z]+|\d\d?)$CT+($OT+:$CT+$OT+\d\d$CT+)?\s+$OT+(in$CT+\s+$OT+the$CT+\s+$OT+(morning|afternoon|evening)|at$CT+\s+$OT+night)$CT+)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi; }
-    # o'clock
-    if($string =~ /clock/io) {
-	$string =~ s/(($OT+(about|around|some|exactly|precisely)$CT+\s+)?($OT*((a$CT+\s+$OT+)?quarter|half|$OTCD$OT*\w+(-\w+)?($CT+\s+$OT+minutes?)?)$CT+\s+$OT+(past|after|of|before|to|until)$CT+\s+)?($OT+the$CT+\s+$OT+hour$CT+\s+$OT+of$CT+\s+)?$OT*$OTCD$OT*([a-z]+|\d\d?)$CT+\s+$OT+o\'clock$CT+(\s+$OT+(in$CT+\s*$OT+the$CT+\s*$OT+(morning|afternoon|evening)|at$CT+\s+$OT+night)$CT+)?(\s+$OT+(sharp|exactly|precisely|on$CT+\s+$OT+the$CT+\s+$OT+dot)$CT+)?)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
- 
-}
-    # the hour of  (WARNING:  Overlaps previous - fixed below)
-    $string =~ s/(($OT+(about|around|some|exactly|precisely)$CT+\s+)?($OT*((a$CT+\s+$OT+)?quarter|half|$OTCD$OT*(\w+(-\w+)?|\d\d?)($CT+\s+$OT+minutes?)?)$CT+\s+$OT+(past|after|of|before|to|until)$CT+\s+)?$OT+the$CT+\s+$OT+hour$CT+(\s+$OT+of$CT+\s+$OT*$OTCD$OT*([a-z]+|\d\d?)$CT+)?(\s+$OT+(sharp|exactly|precisely|on$CT+\s+$OT+the$CT+\s+$OT+dot)$CT+)?)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
-    # X minutes before (WARNING:  Overlaps previous - fixed below)
-    if($string =~ /\bminute/io) {
-	$string =~ s/(($OT+(about|around|some|exactly|precisely)$CT+\s+)?$OT*((a$CT+\s+$OT+)?quarter|half|$OTCD$OT*([a-z]+(-[a-z]+)?|\d\d?)$CT+\s+$OT+minutes?)$CT+\s+$OT+(past|after|of|before|to|until)$CT+\s+$OT*$OTCD$OT*([a-z]+|\d\d?)$CT+(\s+$OT+(exactly|precisely|on$CT+\s+$OT+the$CT+\s+$OT+dot)$CT+)?)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi; }
-
-    # noon/midnight/zero hour/midday
-    $string =~ s/(($OT+(about|around|some)$CT+\s+)?$OT+(noon|midnight|mid-?day)$CT+)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
-    $string =~ s/($OT+zero$CT+\s+$OT+hour$CT+\s+$OT+(universal|zulu|[a-z]+$CT+\s+$OT+(standard|daylight))$CT+\s+$OT+time$CT+)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
-
-    # X hours|minutes ago
-    if($string =~ /\b(ago|hence|from)\b/io) {
-	$string =~ s/(($OT+(about|around|some)$CT+\s+)?($OT*$OTCD$OT*\S+$CT+\s+($OT+and$CT+\s+)?)*$OT*$OTCD$OT*\S+$CT+\s+($OT+and$CT+\s+$OT+a$CT+\s+$OT+half$CT+\s+)?$OT+hours?$CT+\s+$OT+(ago|hence|from$CT+\s+$OT+now)$CT)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
-	$string =~ s/($OT+(a$CT+\s+$OT+few|several|some)$CT+\s+$OT+hours$CT+\s+$OT+(ago|hence|from$CT+\s+$OT+now)$CT)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
-	$string =~ s/(($OT+about$CT+\s+)?($OT+an?$CT+\s+)?($OT+(half($CT+\s+$OT+an)?|few)$CT+\s+)?$OT+hour$CT+\s+($OT+and$CT+\s+$OT+a$CT+\s+$OT+half$CT+\s+)?$OT+(ago|hence|from$CT+\s+$OT+now)$CT)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
-	$string =~ s/(($OT*(($OT*$OTCD$OT*\S+$CT+\s+($OT+and$CT+\s+)?)*$OT*$OTCD$OT*\S+|$OT+(a|several|some)($CT+\s+$OT+few)?)$CT+\s+)+$OT+minutes?$CT+\s+$OT+(ago|hence|from$CT+\s+$OT+now)$CT)/<TIMEX$tever TYPE=\"TIME\">$1<\/TIMEX$tever>/goi;
-    }
-
-    # Now (by itself)
-    $string =~ s/($OT+now$CT+)/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi; 
     
     # ---------------------
     # Clean up tags
