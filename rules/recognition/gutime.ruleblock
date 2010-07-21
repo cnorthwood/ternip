@@ -1,4 +1,5 @@
 Block-Type: run-all
+After: gutime-durations
 
 ---
 
@@ -289,3 +290,8 @@ Match: (((<\S+~CD>(<and~.+>)?)<\S+~CD>|<(a|several|some)(~.+><few)?)~.+>)+<minut
 
 Type: date
 Match: <now~.+>
+
+---
+
+Type: date
+Match: <the~.+><past~.+><(week|fortnight|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)~.+>

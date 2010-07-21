@@ -81,10 +81,8 @@ class recognition_rule(rule.rule):
         match = re.sub(r'\$RELATIVE_DAYS', r'(today|yesterday|tomorrow|tonight|tonite)', match)
         match = re.sub(r'\$DAY_HOLIDAYS', r'(election|memorial|C?Hanukk?ah|Rosh|Kippur|tet|diwali|halloween)', match)
         match = re.sub(r'\$NTH_DOW_HOLIDAYS', r'(mlk|king|president|canberra|mother|father|labor|columbus|thanksgiving)', match)
-        
-        # unsure if these work - need to check
-        #match = re.sub(r'\$FIXED_HOLIDAYS', r'(new~.+><year|inauguration|valentine|ground|candlemas|patrick|fool|(saint|st\.)~.+><george|walpurgisnacht|may~.+><day|beltane|cinco|flag|baptiste|canada|dominion|independence|bastille|halloween|allhallow|all~.+><(saint|soul)s|day~.+><of~.+><the~.+><dead|fawkes|veteran|christmas|xmas|boxing)', match)
-        #match = re.sub(r'\$LUNAR_HOLIDAYS', r'(easter|palm~.+><sunday|good~.+><friday|ash~.+><wednesday|shrove~.+><tuesday|mardis~.+><gras)', match)
+        match = re.sub(r'\$FIXED_HOLIDAYS', r'(new~.+><year|inauguration|valentine|ground|candlemas|patrick|fool|(saint|st\.)~.+><george|walpurgisnacht|may~.+><day|beltane|cinco|flag|baptiste|canada|dominion|independence|bastille|halloween|allhallow|all~.+><(saint|soul)s|day~.+><of~.+><the~.+><dead|fawkes|veteran|christmas|xmas|boxing)', match)
+        match = re.sub(r'\$LUNAR_HOLIDAYS', r'(easter|palm~.+><sunday|good~.+><friday|ash~.+><wednesday|shrove~.+><tuesday|mardis~.+><gras)', match)
         return match
     
     def apply(self, sent):

@@ -284,50 +284,7 @@ sub TE_TagTIMEX (\$) {
     #ADD NEW DURATION PATTERNS HERE
     #Note: each added pattern here requires an added pattern in the expressionToDuration and expressionToPoints functions
 
-    my @matchPatterns;
-    #i.e. "3-year","four-month old"
-       $matchPatterns[0] = "($OT\+$numString(-|$CT\+\\s$OT\+)$TE_Units((-|$CT\+\\s$OT\+)old)?$CT\+)";
-
-
-    #i.e. "the past twenty four years"
-       $matchPatterns[1] = "($OT\+the$CT\+\\s$OT\+(\[pl\]ast|next)$CT\+\\s$OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+)";
-
-
-    #i.e. "another 3 years"
-       $matchPatterns[2] = "($OT+another$CT\+\\s$OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+)";
-
-
-    #i.e. "the 2 months following the crash", "for ten days before leaving" 
-    #### NEED TO FIX THIS, right now it doesn't include "the crash" or "leaving"...need to be able to recognize NPs and VPs using POS tags
-#      $matchPatterns[3] = "($OT\+(the|for|in)$CT\+\\s$OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+\\s$OT\+(since|after|following|before|prior$CT\+\\s$OT\+to|previous$CT\+\\s$OT\+to)$CT\+)"; 
-       $matchPatterns[3] = "($OT\+the$CT\+\\s$OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+)"; 
-    ####
-
-    #i.e. "the first 9 months of 1997"
-#       $matchPatterns[4] = "($OT\+the$CT\+\\s$OT\+(NUM_ORD_STARTfirstNUM_ORD_END|initial|last|final)$CT\+\\s($OT\+$numString$CT\+)\\s$OT\+$TE_Units(s)?$CT\+\\s$OT\+of$CT\+)"; 
-       $matchPatterns[4] = "($OT\+the$CT\+\\s$OT\+(NUM_ORD_STARTfirstNUM_ORD_END|initial|last|final)$CT\+\\s($OT\+$numString$CT\+)\\s$OT\+$TE_Units(s)?$CT\+)"; 
-   #### NEED TO FIX THIS, RIGHT NOW NEEDS TO INCLUDE THE FOLLOWING, like "1997" or "December" or "her life"
-
-
-   #i.e. "the fifth straight year", "the third straight month in a row", "the ninth day consecutively"
-       $matchPatterns[5] = "($OT\+the$CT\+\\s$OT\+$numOrdString$CT\+\\s$OT\+(straight|consecutive)$CT\+\\s$OT\+$TE_Units$CT\+(\\s($OT\+in$CT\+\\s$OT\+a$CT\+\\s$OT\+row$CT\+|$OT\+consecutively$CT\+))?)"; 
-       $matchPatterns[6] = "($OT\+the$CT\+\\s$OT\+$numOrdString$CT\+\\s$OT\+$TE_Units$CT\+\\s$OT\+(straight|consecutively|in$CT\+\\s$OT\+a$CT\+\\s$OT\+row)$CT\+)";
-
-   #jbp i.e. "no more than 60 days" "no more than 20 years"
-       $matchPatterns[7] =  "($OT\+(n|N)o$CT\+\\s$OT\+more$CT\+\\s$OT\+than$CT\+\\s$OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+)";
-
-   #jbp i.e. "no more than 60 days" "no more than 20 years"
-       $matchPatterns[8] =  "($OT\+(m|M)ore$CT\+\\s$OT\+than$CT\+\\s$OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+)";
-
-   #jbp i.e. "at least sixty days"
-       $matchPatterns[9] =  "($OT\+(a|A)t$CT\+\\s$OT\+least$CT\+\\s$OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+)";
-
-   #i.e. "four years"
-       $matchPatterns[10] = "($OT\+$numString$CT\+\\s$OT\+$TE_Units(s)?$CT\+)";
-
-   #i.e. "a decade", "a few decades", NOT "a few hundred decades"
-       $matchPatterns[11] = "($OT\+a$CT\+\\s($OT\+(few|couple|couple$CT\+\\s$OT\+of)$CT\+\\s)?$OT\+$TE_Units(s)?$CT\+)";
-   
+    my @matchPatterns;   
 
     #Do substitutions
     my $curPattern;
@@ -335,17 +292,6 @@ sub TE_TagTIMEX (\$) {
     foreach $curPattern (@matchPatterns){
 EACHPAT: while ($string =~ /$curPattern/g){
 		$curPhrase = $1;
-
-		# This is a somewhat quick fix to the problem where in the pattern finding, $numString will include
-		#   something like "NUM_START...NUM_END......NUM_START...NUM_END", with the first NUM_START and the last
-		#   NUM_END supposedly enclosing just one number, when obviously that's not the case...this ends up screwing
-		#   up the expressionToDuration function.
-		# PROBLEM - This does create a problem with the case of "the first five minutes", because "first" ends up
-		#	getting tags around it, which gets stopped here...this doesn't create a terrible problem, but
-		#	it should still be fixed
-		if ($curPhrase =~ /(NUM_START|NUM_ORD_START).+(NUM_START|NUM_ORD_START)/){
-			next EACHPAT;
-		}
 
 		my $bef = $`;
 
@@ -436,14 +382,6 @@ EACHPAT: while ($string =~ /$curPattern/g){
     ###########################################
     ########  End of code by jfrank  ##########
     ###########################################
-
-    # past|present|future refs   "The past" is special case
-    $string =~ s//<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/sogi;
-
-## jfrank changes here - originally there was a ? after "(\s*$OT+(week|fortnight...autumn)$CT+)" below
-## - this gets rid of "the past" as a special case, but this was conflicting with duration constructions such as "the past three weeks"
-## - therefore, the few lines of code following the next line deal with the special case of "the past"
-    $string =~ s/($OT+the$CT+\s+$OT+past$CT+(\s*$OT+(week|fortnight|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)$CT+))/<TIMEX$tever TYPE=\"DATE\">$1<\/TIMEX$tever>/gosi;
 
     #special case of "the past" - this needs to come after the durations processing so it doesn't conflict with cases like "the past 12 days"
     while ($string =~ /(($OT+)the$CT+\s$OT+past$CT+)/gi){
@@ -2711,85 +2649,7 @@ sub wordToNumberRecurse{
 # Also, make sure it deals with letter ", like "a hundred people"
 # Also, need to deal with other words like "dozen","gross","score",etc..
 
-sub deliminateNumbers{
-	my $string = shift;
 
-	my $numStart = "NUM_START";
-	my $numEnd = "NUM_END";
-	my $ordNumStart = "NUM_ORD_START";
-	my $ordNumEnd = "NUM_ORD_END";
-
-	my $middleOfNum = 0;
-	my $curWord;
-	my $rest = $string;
-	$string = "";
-
-	my $previousWord = "";
-	my $nextWord = "";
-	
-	my $addTerm;
-	while ($rest =~ /$OT+([a-zA-Z-]+)$CT+/g){
-		$curWord = $2;
-		my $oTags = $1;
-		my $cTags = $3;
-
-		$string .= $`;
-		$rest = $';
-
-		$rest =~ /$OT+([a-zA-Z-]+)/o;
-		$nextWord = $2;		
-
-		#the following deals reasonably well with hypenated numbers like "twenty-one"
-		if ($curWord =~ /^$numberTerm(-$numberTerm)*$/i){	#current word is a number
-			if ($middleOfNum == 0){	#first in (possible) series of numbers
-				$addTerm = "$oTags$numStart$curWord$cTags";		
-				$middleOfNum = 1;
-			} else {    #either not first in series, or between ordinal and regular nums (i.e. "first two")
-				if (($previousWord =~ /$ordUnitNums$/) or ($previousWord =~ /$ordOtherNums$/)){  #between ordinal and regular
-					$string =~ s/($numStart(.*?))$/$ordNumStart$2/;	#replace with NUM_ORD_START
-					$string =~ s/(($CT+)(\s*))$/$ordNumEnd$1/;	#insert in NUM_ORD_END
-					$addTerm = "$oTags$numStart$curWord$cTags";		
-				}else{	#number is continuing
-					$addTerm = "$oTags$curWord$cTags";
-				}
-			}  #not first in series
-
-		} else {				#current word is not a number
-			if ($middleOfNum == 1){		#previous word was a number
-
-				#following works fairly well...it avoids marking things like "six and two" as a single
-				# number while still marking things like "two hundred and one" as a single number
-
-				if (((lc $curWord) eq "and") and 	#number is continuing
-                                    ($previousWord =~ /$higherNums/i) and 
-				    (($nextWord =~ /$unitNums/i) or ($nextWord =~ /$uniqueNums/i) or
-				     ($nextWord =~ /$tensNums(-$unitNums|-$ordUnitNums)?/i) or 
-				     ($nextWord =~ /$ordUnitNums/i) or ($nextWord =~ /$ordOtherNums/i))){
-					$addTerm = "$oTags$curWord$cTags";
-				}else{						#number doesn't continue
-					$middleOfNum = 0;
-
-					# for ordinal numbers
-					if (($previousWord =~ /$ordUnitNums$/) or ($previousWord =~ /$ordOtherNums$/)){
-						$string =~ s/($numStart(.*?))$/$ordNumStart$2/;	#replace with NUM_ORD_START
-						$string =~ s/(($CT+)(\s*))$/$ordNumEnd$1/;	#insert in NUM_ORD_END
-					}else {   #for other numbers
-						$string =~ s/(($CT+)(\s*))$/$numEnd$1/;	#insert in NUM_END
-					}
-					$addTerm = "$oTags$curWord$cTags";
-				}
-			} else { $addTerm = "$oTags$curWord$cTags";}
-		}
-		$string .= $addTerm;
-		$previousWord = $curWord;
-	}
-	if (defined($curWord)){
-		if ($curWord =~ /$numberTerm(-$numberTerm)*/){$string =~ s/(($CT+)(\s*))$/$numEnd$1/o;}	#if final word is a number
-	}
-	$string .= $rest;
-
-	return $string;
-}
 
 
 # -For input string, adds TIDS to TIMEX2 tags, then returns updated string
