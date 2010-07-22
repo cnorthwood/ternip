@@ -95,7 +95,7 @@ Guard: (next|last|coming|this)
 
 Type: date
 Guard: (spring|summer|winter|fall|autumn)
-Match: ((<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<late~.+>|<early~.+>|<the~.+><(beginning|start|dawn|middle|end)~.+><of))?(<in~.+><the~.+>)?<(spring|summer|winter|fall|autumn)~.+>((<of~.+>)?<\d\d\d\d~.+>)?
+Match: ((<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<late~.+>|<early~.+>|<the~.+><(beginning|start|dawn|middle|end)~.+><of~.+>))?(<in~.+><the~.+>)?<(spring|summer|winter|fall|autumn)~.+>((<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
 
