@@ -9,7 +9,12 @@ Match: <\'~.+><\d\d~.+>
 ---
 
 Type: date
-Match: <\d\d\d\d-?\d\d-?/d/d-?T\d\d(((~.+><)?:~.+><)?\d\d)?([\+\-]\d{1,4})?~.+>
+Match: <\d\d\d\d-?\d\d-?\d\d-?T\d\d~.+>(<:~.+>)?<(\d\d)?([\+\-]\d{1,4})?~.+>
+
+---
+
+Type: date
+Match: <\d\d\d\d-?\d\d-?\d\d-?T\d\d:?(\d\d)?([\+\-]\d{1,4})?~.+>
 
 ---
 
@@ -34,7 +39,7 @@ Match: <\d\d?\.\d\d?\.\d\d(\d\d)?~.+>
 ---
 
 Type: date
-Match: (<(alternate|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?|each|next|last|this~.+><coming)~.+>)?<$DAYSs?~.+>(<(the~.+><($ORDINAL_NUMS|$ORDINAL_WORDS)|morning|afternoon|evening|night|next)s?~.+>)?
+Match: ((<alternate~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<each~.+>|<next~.+>|<last~.+>|<this~.+><coming~.+>))?<$DAYSs?~.+>(<(the~.+><($ORDINAL_NUMS|$ORDINAL_WORDS)|morning|afternoon|evening|night|next)s?~.+>)?
 
 ---
 
@@ -51,7 +56,7 @@ Case-Sensitive: True
 ---
 
 Type: date
-Match: <(alternate|each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?)~.+><(minute|hour|day|week|month|year)s?>
+Match: (<alternate~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?)<(minute|hour|day|week|month|year)s?>
 
 ---
 
@@ -71,9 +76,8 @@ Match: <(early|late)~.+><(morning|afternoon|evening)~.+>
 ---
 
 Type: date
-Match: (<(early|late)~.+>(<[io]n~.+>)?)?(<the~.+><((($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><)?week(end)?|beginning|start|middle|end|morning|day|afternoon|evening|night|ides|nones)~.+><(of|in)~.+>)?(<(\d\d?|next|last|($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><of)~.+>)*<(mid-~.+><)?($MONTHS|$MONTH_ABBRS\.?(~.+><.)?)~.+>((<of~.+>|<,~.+>)?<\d{4}~.+>|<($ORDINAL_NUMS|$ORDINAL_WORDS|\d\d?)~.+>((<,~.+>)?<(\d{4}|\'~.+><\d\d)~.+>)?)?
+Match: (<(early|late)~.+>(<[io]n~.+>)?)?(<the~.+>((<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?<week(end)?~.+>|<beginning~.+>|<start~.+>|<middle~.+>|<end~.+>|<morning~.+>|<day~.+>|<afternoon~.+>|<evening~.+>|<night~.+>|<ides~.+>|<nones~.+>)<(of|in)~.+>)?((<\d\d?~.+>|<next~.+>|<last~.+>|<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><of~.+>))*(<mid-~.+>)?(<$MONTHS|$MONTH_ABBRS\.?~.+>(<.~.+>)?)((<of~.+>|<,~.+>)?<\d{4}~.+>|<($ORDINAL_NUMS|$ORDINAL_WORDS|\d\d?)~.+>((<,~.+>)?(<\d{4}~.+>|<\'~.+><\d\d~.+>))?)?
 Guard: ($MONTHS|$MONTH_ABBRS)
-
 ---
 
 Type: date
@@ -84,19 +88,19 @@ Case-Sensitive: True
 ---
 
 Type: date
-Match: (<(late|early|the~.+><(beginning|start|dawn|middle|end)~.+><of)~.+>(<in~.+>)?)?(<the~.+>)?<(next|last|coming|this(~.+><(coming|past))?)~.+><(week|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)~.+>
+Match: ((<late~.+>|<early~.+>|<the~.+><(beginning|start|dawn|middle|end)~.+><of~.+>)(<in~.+>)?)?(<the~.+>)?(<next~.+>|<last~.+>|<coming~.+>|<this~.+>(<(coming|past)~.+>)?)<(week|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)~.+>
 Guard: (next|last|coming|this)
 
 ---
 
 Type: date
 Guard: (spring|summer|winter|fall|autumn)
-Match: (<(each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?|late|early|the~.+><(beginning|start|dawn|middle|end)~.+><of)~.+>)?(<in~.+><the~.+>)?<(spring|summer|winter|fall|autumn)~.+>((<of~.+>)?<\d\d\d\d~.+>)?
+Match: ((<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<late~.+>|<early~.+>|<the~.+><(beginning|start|dawn|middle|end)~.+><of))?(<in~.+><the~.+>)?<(spring|summer|winter|fall|autumn)~.+>((<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
 
 Type: date
-Match: (<(this(~.+><(coming|past))?|next|last|each|every(~.+><(other|$ORDINAL_NUMS|$ORDINAL_WORDS))?)~.+>)?<(Xmas|Christmas|Thanksgiving)~.+>(<(Day|Eve)~.+>)?((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
+Match: ((<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?))?<(Xmas|Christmas|Thanksgiving)~.+>(<(Day|Eve)~.+>)?((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
 
