@@ -7,6 +7,10 @@ import rule
 class recognition_rule(rule.rule):
     """ A class that represents identification rules """
     
+    # If debug mode is enabled, then the comment in the TIMEX tag is set to
+    # the ID of the rule which created it
+    _DEBUG = True
+    
     def __init__(self, match,
                        type,
                        id,
@@ -127,6 +131,8 @@ class recognition_rule(rule.rule):
                 
                 if not self._squelch:
                     t = ternip.timex(self._type) # only create a new timex if not squelching
+                    if self._DEBUG:
+                        t.comment = self.id
                 
                 for i in range(len(sent)):
                     # now get all tokens in the range and add the new timex if needed

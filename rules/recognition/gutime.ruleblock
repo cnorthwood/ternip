@@ -211,29 +211,27 @@ Match: (<(about|around|some)~.+>)?<\d\d?h\d\d~.+>
 
 ---
 
-####################################################
-
 Type: time
 Guard: [ap]\.?m\b
-Match: (<(about|around|some|exactly|precisely)~.+>)?(<(quarter|half|\w+~CD><minutes?)~.+><(past|after|of|before|to)~.+>)?(<the~.+><hour~.+><of~.+>)?<(\d\d?~.+|\w+~CD)>(<:~.+><\d\d~.+>|<[a-z\-]+~CD>(<[a-z\-]+~CD>)?)?<[ap]m~.+>(<(universal|zulu|[a-z]+~.+><(standard|daylight))~.+><time~.+>)?(<(sharp|exactly|precisely|on~.+><the~.+><dot)~.+>)?
+Match: (<(about|around|some|exactly|precisely)~.+>)?((<quarter~.+>|<half~.+>|<\w+~CD><minutes?~.+>)<(past|after|of|before|to)~.+>)?(<the~.+><hour~.+><of~.+>)?<(\d\d?~.+|\w+~CD)>(<:~.+><\d\d~.+>|<[a-z\-]+~CD>(<[a-z\-]+~CD>)?)?<[ap]m~.+>((<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>)?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
 
 Type: time
 Guard: [ap]\.?m\b
-Match: (<(about|around|some|exactly|precisely)~.+>)?(<(quarter|half|((\w+(-\w+)?|\d\d?)~CD><minutes?))~.+><(past|after|of|before|to)~.+>)?(<the~.+><hour~.+><of~.+>)?(<\d\d?~.+|\w+~CD)>(<:~.+><\d\d~.+>|<[a-z\-]+~CD>(<[a-z\-]+~CD>)?)?<[ap]\.m\.~.+>(<(universal|zulu|[a-z]+~.+><(standard|daylight))~.+><time~.+>)?(<(sharp|exactly|precisely|on~.+><the~.+><dot)~.+>)?
+Match: (<(about|around|some|exactly|precisely)~.+>)?((<quarter~.+>|<half~.+>|<((\w+(-\w+)?|\d\d?)~CD><minutes?)~.+>)<(past|after|of|before|to)~.+>)?(<the~.+><hour~.+><of~.+>)?(<\d\d?~.+|\w+~CD)>(<:~.+><\d\d~.+>|<[a-z\-]+~CD>(<[a-z\-]+~CD>)?)?<[ap]\.m\.~.+>((<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>)?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
 
 Type: time
 Guard: \btime\b
-Match: <\d{4}~.+>(<hours~.+>(<,~.+>)?)?<(universal|zulu|[a-z]+~.+><(standard|daylight))~.+><time~.+>
+Match: <\d{4}~.+>(<hours~.+>(<,~.+>)?)?(<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>
 
 ---
 
 Type: time
 Guard: \btime\b
-Match: <\d\d?~.+><hours?~.+>(<\d\d?~.+><minutes?~.+>)?(<,~.+>)?<(universal|zulu|local|[a-z]+~.+><(standard|daylight))~.+><time~.+>
+Match: <\d\d?~.+><hours?~.+>(<\d\d?~.+><minutes?~.+>)?(<,~.+>)?(<universal~.+>|<zulu~.+>|<local~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>
 
 ---
 
@@ -244,24 +242,24 @@ Match: <\d\d\d\d~.+><h(ou)?rs?~.+>
 
 Type: time
 Guard: <(morning|afternoon|evening|night)~.+>
-Match: (<(about|around|some|exactly|precisely)~.+>)?(<((a~.+><)?quarter~.+|half~.+|\w+(-\w+)?~CD(><minutes?~.+)?)><(past|after|of|before|to|until)~.+>)?(<the~.+><hour~.+><of~.+>)?<([a-z]+|\d\d?)~CD>(<:~.+><\d\d~.+>)?<(in~.+><the~.+><(morning|afternoon|evening)|at~.+><night)~.+>
+Match: (<(about|around|some|exactly|precisely)~.+>)?(((<a~.+>)?<quarter~.+>|<half~.+>|<\w+(-\w+)?~CD>(<minutes?~.+>)?)<(past|after|of|before|to|until)~.+>)?(<the~.+><hour~.+><of~.+>)?<([a-z]+|\d\d?)~CD>(<:~.+><\d\d~.+>)?(<in~.+><the~.+><(morning|afternoon|evening)~.+>|<at~.+><night~.+>)
 
 ---
 
 Type: time
 Guard: clock
-Match: (<(about|around|some|exactly|precisely)~.+>)?(<((a~.+><)?quarter~.+|half~.+|\w+(-\w+)?~CD(><minutes?~.+)?)><(past|after|of|before|to|until)~.+>)?(<the~.+><hour~.+><of~.+>)?<([a-z]+|\d\d?)~CD><o\'clock~.+>(<(in~.+><the~.+><(morning|afternoon|evening)|at~.+><night)~.+>)?(<(sharp|exactly|precisely|on~.+><the~.+><dot)~.+>)?
+Match: (<(about|around|some|exactly|precisely)~.+>)?(((<a~.+>)?<quarter~.+>|<half~.+>|<\w+(-\w+)?~CD>(<minutes?~.+>)?)<(past|after|of|before|to|until)~.+>)?(<the~.+><hour~.+><of~.+>)?<([a-z]+|\d\d?)~CD><o\'clock~.+>((<in~.+><the~.+><(morning|afternoon|evening)~.+>|<at~.+><night~.+>))?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
 
 Type: time
-Match: (<(about|around|some|exactly|precisely)~.+>)?(<((a~.+><)?quarter~.+|half~.+|(\w+(-\w+)?|\d\d?)~CD(><minutes?)?)><(past|after|of|before|to|until)~.+>)?<the~.+><hour~.+>(<of~.+><([a-z]+|\d\d?)~CD>)?(<(sharp|exactly|precisely|on~.+><the~.+><dot)~.+>)?
+Match: (<(about|around|some|exactly|precisely)~.+>)?(((<a~.+>)?<quarter~.+>|<half~.+>|<(\w+(-\w+)?|\d\d?)~CD>(<minutes?~.+>)?)<(past|after|of|before|to|until)~.+>)?<the~.+><hour~.+>(<of~.+><([a-z]+|\d\d?)~CD>)?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
 
 Type: time
 Guard: \bminute
-Match: (<(about|around|some|exactly|precisely)~.+>)?<((a~.+><)?quarter|half|([a-z]+(-[a-z]+)?|\d\d?)~CD><minutes?)~.+><(past|after|of|before|to|until)~.+><([a-z]+|\d\d?)~CD>(<(exactly|precisely|on~.+><the~.+><dot)~.+>)?
+Match: (<(about|around|some|exactly|precisely)~.+>)?((<a~.+>)?<quarter~.+>|<half~.+>|<([a-z]+(-[a-z]+)?|\d\d?)~CD><minutes?~.+>)<(past|after|of|before|to|until)~.+><([a-z]+|\d\d?)~CD>((<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
 
@@ -271,19 +269,19 @@ Match: (<(about|around|some)~.+>)?<(noon|midnight|mid-?day)~.+>
 ---
 
 Type: time
-Match: <zero~.+><hour~.+><(universal|zulu|[a-z]+~.+><(standard|daylight))~.+><time~.+>
+Match: <zero~.+><hour~.+>(<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>
 
 ---
 
 Type: time
 Guard: \b(ago|hence|from)\b
-Match: (<(about|around|some)~.+>)?(<\S+~CD>(<and~.+>)?)<\S+~CD>(<and~.+><a~.+><half~.+>)?<hours?~.+><(ago|hence|from~.+><now)~.+>
+Match: (<(about|around|some)~.+>)?(<\S+~CD>(<and~.+>)?)<\S+~CD>(<and~.+><a~.+><half~.+>)?<hours?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
 
 Type: time
 Guard: \b(ago|hence|from)\b
-Match: <(a~.+><few|several|some)~.+><hours~.+><(ago|hence|from~.+><now)~.+>
+Match: (<a~.+><few~.+>|<several~.+>|<some~.+>)<hours~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
 
@@ -295,7 +293,7 @@ Match: (<about~.+>)?(<an?~.+>)?(<(half(~.+><an)?|few)~.+>)?<hour~.+>(<and~.+><a~
 
 Type: time
 Guard: \b(ago|hence|from)\b
-Match: (((<\S+~CD>(<and~.+>)?)<\S+~CD>|<(a|several|some)(~.+><few)?)~.+>)+<minutes?~.+><(ago|hence|from~.+><now)~.+>
+Match: (((<\S+~CD>(<and~.+>)?)<\S+~CD>|(<a~.+><few~.+>|<several~.+>|<some~.+>)))+<minutes?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
 

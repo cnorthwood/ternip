@@ -12,6 +12,7 @@ class rule(ternip.rule_engine.rule.rule):
     
     id = 'gutime-durations'
     after = []
+    _DEBUG = True
     
     _rule_exps = [
         r'(<(\d+|NUM_START.*?NUM_END)(-(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))(-old)?)?~.+>|<(\d+|NUM_START.*?NUM_END)~.+>)(<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))(-old)?~.+>(<old~.+>)?)?',
@@ -129,6 +130,7 @@ class rule(ternip.rule_engine.rule.rule):
         senttext = self._deliminate_numbers(self._toks_to_str(sent))
         
         success = False
+        if self._DEBUG: i = 0
         for rule in self._rules:
             for match in rule.finditer(senttext):
                 # This is a somewhat quick fix to the problem where in the pattern finding, $numString will include
@@ -148,6 +150,9 @@ class rule(ternip.rule_engine.rule.rule):
                 
                 # New TIMEX
                 t = ternip.timex('duration')
+                if self._DEBUG:
+                    i += 1
+                    t.comment = self.id + ':' + str(i)
                 
                 for i in range(len(sent)):
                     # now get all tokens in the range and add the new timex if needed
