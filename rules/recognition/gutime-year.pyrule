@@ -1,0 +1,58 @@
+#!/usr/bin/env python
+
+import re
+import ternip
+import ternip.rule_engine.rule
+
+class rule(ternip.rule_engine.rule.rule):
+    """
+    The duration rules from GUTime require special pre and postprocessing to the
+    string
+    """
+    
+    id = 'gutime-year'
+    after = []
+    _DEBUG = True
+    
+    def apply(self, sent):
+        
+        senttext = self._toks_to_str(sent)
+        
+        rule = re.compile(self._prep_re(r'((<mid-~.+>)?<(\d{4})s?~.+>|<(mid-)?(\d{4})s?~.+>)'), re.I)
+        success = False
+        for match in rule.finditer(senttext):
+            
+            # Additional more complex guard
+            if match.group(3) == None:
+                year = int(match.group(5))
+            else:
+                year = int(match.group(3))
+            
+            if year > 1649 and year < 2100 \
+              and re.match(self._prep_re(r'<\w+~.+>(<(daylight|standard)~.+>)?<time~.+>'), match.string[:match.end()], re.I) == None \
+              and re.match(self._prep_re(r'<.*?~NNP>'), match.string[:match.end()], re.I) == None:
+                
+                # This rule succeeded
+                success = True
+                
+                # Get TIMEX extents
+                ti = senttext.count('<', 0, match.start())
+                tj = senttext.count('<', 0, match.end())
+                
+                t = ternip.timex(type='date')
+                
+                # If this is a decade and is followed by 's, widen the extent
+                following_match = re.match(self._prep_re(r'<\'s~.+>'), match.string[:match.end()], re.I)
+                if str(year)[-1] == '0' and following_match != None:
+                    tj += 1
+                
+                # Add TIMEX
+                for i in range(len(sent)):
+                    (token, pos, ts) = sent[i]
+                    if i >= ti and i < tj:
+                        ts.add(t)
+                    
+                    sent[i] = (token, pos, ts)
+            
+        
+        return (sent, success)

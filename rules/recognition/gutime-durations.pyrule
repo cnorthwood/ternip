@@ -11,7 +11,7 @@ class rule(ternip.rule_engine.rule.rule):
     """
     
     id = 'gutime-durations'
-    after = []
+    after = ['gutime-year']
     _DEBUG = True
     
     _rule_exps = [

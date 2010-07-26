@@ -2,10 +2,10 @@
 
 # Attribute     TIMEX2      TIMEX3
 #---------------------------------
-# ID            None        X tid ('t' + ID)
+# ID            None        tid ('t' + ID)
 # value         val         value
 # mod           mod         mod
-# type          set         X type
+# type          set         type
 #               (only if type=set)
 # freq          periodicity freq
 #               ('f' + freq)
