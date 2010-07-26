@@ -178,3 +178,20 @@ class rule:
         sent += rest
         return sent
     
+    def _set_timex_extents(self, t, sent, ti, tj, squelch):
+        """
+        Inserts the timex t in the appropriate points in the sentence sent
+        (i.e., between the extents ti, tj). If squelch is set, remove timexes
+        between those extents.
+        """
+        for i in range(len(sent)):
+            # now get all tokens in the range and add the new timex if needed
+            if i >= ti and i < tj:
+                if squelch:
+                    # in the case of this being a squelch rule, remove the
+                    # timexes
+                    sent[i] = (sent[i][0], sent[i][1], set())
+                else:
+                    # otherwise add the new timex to the list of timexes
+                    # associated with this token
+                    sent[i][2].add(t)

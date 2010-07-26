@@ -147,21 +147,11 @@ class recognition_rule(rule.rule):
                 t = ternip.timex(self._type) # only create a new timex if not squelching
                 if self._DEBUG:
                     t.comment = self.id
+            else:
+                t = None
             
-            for i in range(len(sent)):
-                # now get all tokens in the range and add the new timex if needed
-                (token, pos, ts) = sent[i]
-                if i >= ti and i < tj:
-                    if self._squelch:
-                        # in the case of this being a squelch rule, remove the
-                        # timexes
-                        ts = set()
-                    else:
-                        # otherwise add the new timex to the list of timexes
-                        # associated with this token
-                        ts.add(t)
-                
-                sent[i] = (token, pos, ts)
-                success = True
+            # Add TIMEX
+            self._set_timex_extents(t, sent, ti, tj, self._squelch)
+            success = True
         
         return (sent, success)

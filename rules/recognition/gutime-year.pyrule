@@ -6,21 +6,23 @@ import ternip.rule_engine.rule
 
 class rule(ternip.rule_engine.rule.rule):
     """
-    The duration rules from GUTime require special pre and postprocessing to the
-    string
+    Rules from GUTime dealing with the year that have a more complex guard than
+    can normally be expressed in the formalism
     """
     
     id = 'gutime-year'
     after = []
     _DEBUG = True
     
+    def __init__(self):
+        self._rule = re.compile(self._prep_re(r'((<mid-~.+>)?<(\d{4})s?~.+>|<(mid-)?(\d{4})s?~.+>)'), re.I)
+    
     def apply(self, sent):
         
         senttext = self._toks_to_str(sent)
         
-        rule = re.compile(self._prep_re(r'((<mid-~.+>)?<(\d{4})s?~.+>|<(mid-)?(\d{4})s?~.+>)'), re.I)
         success = False
-        for match in rule.finditer(senttext):
+        for match in self._rule.finditer(senttext):
             
             # Additional more complex guard
             if match.group(3) == None:
@@ -46,13 +48,7 @@ class rule(ternip.rule_engine.rule.rule):
                 if str(year)[-1] == '0' and following_match != None:
                     tj += 1
                 
-                # Add TIMEX
-                for i in range(len(sent)):
-                    (token, pos, ts) = sent[i]
-                    if i >= ti and i < tj:
-                        ts.add(t)
-                    
-                    sent[i] = (token, pos, ts)
+                self._set_timex_extents(t, sent, ti, tj, False)
             
         
         return (sent, success)
