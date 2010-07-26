@@ -236,35 +236,6 @@ sub TE_TagTIMEX (\$) {
     my($TE1, $TE2, $Tag2, $MixedCase);
     my($mid1, $mid2, $b4, $copy);
    
-    
-    if(($string =~ /[A-Z]/o) && ($string =~ /[a-z]/o)) { $MixedCase = 1; }
-    else { $MixedCase = 0; }
-
-    $rest = $string;
-    $string = "";
-    $Count  = 0;
-    $MCount = 0;
-    while($rest =~ /($OT+((mid-$CT*$OT*)?(\d\d\d(\d))s?)$CT+)/) {
-	$Count++;
-	$string  .= $`;
-	$year     = $1;
-	$Nyear    = $7;
-	$testyear = $8;
-	$rest     = $';
-
-	if(($Nyear > 1649) && ($Nyear < 2100) &&
-	   !($rest =~ /\A\s+$OT+\w+$CT+\s+($OT+(daylight|standard)$CT+\s+)?$OT+time$CT+/ois) &&
-	   !($rest =~ /\A\s+$OT*$OTNNP/os)) {
-	    if(($testyear == 0) &&
-	       ($rest =~ /(\A$OT+\'s$CT)/oi)) {
-		$year .= $1;
-		$rest = $';
-	    }
-	    $year = "<TIMEX$tever TYPE=\"DATE\">$year</TIMEX$tever>"; 
-	}
-	$string  .= $year;
-    }
-    $string  .= $rest;
     ###########################################
     ###  Code added by jfrank - July-August 2004  ###
     ###########################################

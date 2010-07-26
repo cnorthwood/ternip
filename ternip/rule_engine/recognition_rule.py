@@ -14,12 +14,13 @@ class recognition_rule(rule.rule):
     def __init__(self, match,
                        type,
                        id,
-                       guards        = [],
-                       after_guards  = [],
-                       before_guards = [],
-                       after         = [],
-                       squelch       = False,
-                       case_sensitive= False):
+                       guards          = [],
+                       after_guards    = [],
+                       before_guards   = [],
+                       after           = [],
+                       squelch         = False,
+                       case_sensitive  = False,
+                       delimit_numbers = False):
         """
         Create a recognition rule, with a number of optional arguments. All
         regex's are in the form to be used with nltk.TokenSearcher.findall
@@ -57,6 +58,8 @@ class recognition_rule(rule.rule):
             and no timex is added to the match. Defaults to false.
         case_sensitive is a Boolean indicating whether or not this rule should
             be matched case sensitively or not.
+        delimit_numbers is a Boolean indicating whether or not this rule
+            requires the sentence to have delimited numbers
         """
         
         self.id               = id
@@ -67,6 +70,7 @@ class recognition_rule(rule.rule):
             self._match       = re.compile(self._prep_re(match), re.IGNORECASE)
         self._squelch         = squelch
         self.after            = after
+        self.delimit_numbers  = delimit_numbers
         
         # Load guards
         self._guards = self._load_guards(guards)
@@ -104,6 +108,9 @@ class recognition_rule(rule.rule):
         
         senttext = self._toks_to_str(sent)
         
+        if self._deliminate_numbers:
+            senttext = self._deliminate_numbers(senttext)
+        
         success = False
         
         # Ensure the sentence-level guards are satisfied
@@ -113,41 +120,48 @@ class recognition_rule(rule.rule):
         # Now see if this rule actually matches anything
         for match in self._match.finditer(senttext):
             
-            guard_sat = True
-            
             # Now check before guards
             if not self._check_guards(senttext[:match.start()], self._before_guards):
-                guard_sat = False
+                continue
             
             # and after guards
             if not self._check_guards(senttext[match.end():], self._after_guards):
-                guard_sat = False
+                continue
             
-            if guard_sat:
-                # okay, first we need to find which tokens we matched, can do this
-                # by using our token markers
-                ti = senttext.count('<', 0, match.start())
-                tj = senttext.count('<', 0, match.end())
+            # This is a somewhat quick fix to the problem where in the pattern finding, $numString will include
+            #   something like "NUM_START...NUM_END......NUM_START...NUM_END", with the first NUM_START and the last
+            #   NUM_END supposedly enclosing just one number, when obviously that's not the case...this ends up screwing
+            #   up the expressionToDuration function.
+            # PROBLEM - This does create a problem with the case of "the first five minutes", because "first" ends up
+            #   getting tags around it, which gets stopped here...this doesn't create a terrible problem, but
+            #   it should still be fixed
+            if self.delimit_numbers and re.search(r'(NUM_START|NUM_ORD_START).+(NUM_START|NUM_ORD_START)', match.group()):
+                continue
+            
+            # okay, first we need to find which tokens we matched, can do this
+            # by using our token markers
+            ti = senttext.count('<', 0, match.start())
+            tj = senttext.count('<', 0, match.end())
+            
+            if not self._squelch:
+                t = ternip.timex(self._type) # only create a new timex if not squelching
+                if self._DEBUG:
+                    t.comment = self.id
+            
+            for i in range(len(sent)):
+                # now get all tokens in the range and add the new timex if needed
+                (token, pos, ts) = sent[i]
+                if i >= ti and i < tj:
+                    if self._squelch:
+                        # in the case of this being a squelch rule, remove the
+                        # timexes
+                        ts = set()
+                    else:
+                        # otherwise add the new timex to the list of timexes
+                        # associated with this token
+                        ts.add(t)
                 
-                if not self._squelch:
-                    t = ternip.timex(self._type) # only create a new timex if not squelching
-                    if self._DEBUG:
-                        t.comment = self.id
-                
-                for i in range(len(sent)):
-                    # now get all tokens in the range and add the new timex if needed
-                    (token, pos, ts) = sent[i]
-                    if i >= ti and i < tj:
-                        if self._squelch:
-                            # in the case of this being a squelch rule, remove the
-                            # timexes
-                            ts = set()
-                        else:
-                            # otherwise add the new timex to the list of timexes
-                            # associated with this token
-                            ts.add(t)
-                    
-                    sent[i] = (token, pos, ts)
-                    success = True
+                sent[i] = (token, pos, ts)
+                success = True
         
         return (sent, success)

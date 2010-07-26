@@ -1,0 +1,75 @@
+ID: gutime-durations
+Block-Type: run-all
+After: gutime-year
+
+---
+
+Type: duration
+Match: (<\d+-(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))(-old)?~.+>|(<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))(-old)?~.+>(<old~.+>)?)
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <the~.+><([pl]ast|next)~.+>(<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <another~.+>(<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <the~.+>(<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <the~.+>(NUM_ORD_START<first~.+>NUM_ORD_END|<initial~.+>|<last~.+>|<final~.+>)(<\d+~.+>|NUM_START.*?NUM_END)?<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <the~.+>(<\d*(1st|2nd|3rd|[4567890]th)~.+>|NUM_ORD_START.+?NUM_ORD_END)<(straight|consecutive)~.+><(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))~.+>((<in~.+><a~.+><row~.+>|<consecutively~.+>))?
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <the~.+>(<\d*(1st|2nd|3rd|[4567890]th)~.+>|NUM_ORD_START.+?NUM_ORD_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))~.+>(<straight~.+>|<consecutively~.+>|<in~.+><a~.+><row~.+>)
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <no~.+><more~.+><than~.+>(<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <more~.+><than~.+>(<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <at~.+><least~.+>(<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: (<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: <a~.+>(<(few|couple|couple~.+><of)~.+>)?<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True

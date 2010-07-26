@@ -28,15 +28,16 @@ class recognition_rule_engine(rule_engine):
         d = self._parse_rule(filename, rulelines)
         
         # Set defaults
-        type          = None
-        match         = None
-        id            = filename
-        squelch       = False
-        guards        = []
-        before_guards = []
-        after_guards  = []
-        after         = []
-        case_sensitive= False
+        type               = None
+        match              = None
+        id                 = filename
+        squelch            = False
+        guards             = []
+        before_guards      = []
+        after_guards       = []
+        after              = []
+        case_sensitive     = False
+        deliminate_numbers = False
         
         for key in d:
             
@@ -89,6 +90,20 @@ class recognition_rule_engine(rule_engine):
                 elif (len(d[key]) > 1):
                     raise rule_load_error(filename, "Too many 'Case-Sensitive' fields")
             
+            # Deliminate-Numbers is an optional field, defaulting to False, which
+            # accepts either true or false (case-insensitive) as values
+            elif key == 'deliminate-numbers':
+                if (len(d[key]) == 1):
+                    deliminate_numbers = d[key][0].lower()
+                    if deliminate_numbers == 'true':
+                        deliminate_numbers = True
+                    elif deliminate_numbers == 'false':
+                        deliminate_numbers = False
+                    else:
+                        raise rule_load_error(filename, "Deliminate-Numbers must be either 'True' or 'False'")
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Deliminate-Numbers' fields")
+            
             # set optional fields
             elif key == 'guard':
                 guards = d[key]
@@ -111,7 +126,7 @@ class recognition_rule_engine(rule_engine):
         
         # Guard against any RE errors
         try:
-            return recognition_rule(match, type, id, guards, after_guards, before_guards, after, squelch, case_sensitive)
+            return recognition_rule(match, type, id, guards, after_guards, before_guards, after, squelch, case_sensitive, deliminate_numbers)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     
