@@ -71,5 +71,14 @@ Deliminate-Numbers: True
 ---
 
 Type: duration
-Match: <a~.+>(<(few|couple|couple~.+><of)~.+>)?<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Match: <a~.+>(<few~.+>|<couple~.+>|<couple~.+><of~.+>)?<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
 Deliminate-Numbers: True
+
+---
+
+Type: duration
+Match: (<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Deliminate-Numbers: True
+Squelch: True
+After-Guard: ^(<since~.+>|<after~.+>|<following~.+>|<later~.+>|<earlier~.+>|<before~.+>|<prior~.+><to~.+>|<previous~.+><to~.+>)
+Before-Guard: !<(the|for|in)~.+>$

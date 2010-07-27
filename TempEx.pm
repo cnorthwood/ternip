@@ -318,30 +318,6 @@ EACHPAT: while ($string =~ /$curPattern/g){
     }
 
 
-    #postprocessing to get rid of incorrect durations marked by the above patterns
-
-    #this loop takes care of how we want to count "the four months after" as a duration, but don't want to count simply "four months later" as a duration
-    while ($string =~ /(<TIMEX$tever[^>]*TYPE=\"DURATION\"[^>]*>($OT*$numString$CT+\s$OT+$TE_Units(s)?$CT*)<\/TIMEX$tever>)/gi){
-	my $bef = $`;	
-	my $aft = $';	
-	my $foundString = $1;
-
-
-	my $withinString = $2;
-	#get rid of duration tags around something like "four months" if it ends with, i.e. "after" but is not preceded
-	#  by "the", "for" or "in"
-
-	if ($aft =~ /^$CT*\s$OT+(since|after|following|later|earlier|before|prior$CT+ $OT+to|previous$CT+ $OT+to)$CT+/i){
-		unless ($bef =~ /$OT+(the|for|in)$CT+\s$OT*$/i){
-			if ($useDurationChanges == 1){
-				$string =~ s/$foundString/$withinString/;
-			}
-		} 
-	}
-    }
-    
-
-
 
     #get rid of number delimiters  ###  NEED TO MAKE SURE THIS WORKS AT BEGINNING AND END
     $string =~ s/NUM_START//g;
@@ -353,15 +329,6 @@ EACHPAT: while ($string =~ /$curPattern/g){
     ###########################################
     ########  End of code by jfrank  ##########
     ###########################################
-
-    #special case of "the past" - this needs to come after the durations processing so it doesn't conflict with cases like "the past 12 days"
-    while ($string =~ /(($OT+)the$CT+\s$OT+past$CT+)/gi){
-	my $currentThePastPattern = $1;
-	my $currentOpeningTags = $2;
-	unless ($currentOpeningTags =~ /<TIMEX/){
-		$string =~ s/$currentThePastPattern/<TIMEX$tever TYPE=\"DATE\">$currentThePastPattern<\/TIMEX$tever>/g;
-	}	
-    }
 
 ##
 ## End of jfrank additions ##
