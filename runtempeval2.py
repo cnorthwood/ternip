@@ -39,12 +39,12 @@ for doc in docs:
     # Convert into a GUTime friendly format
     gutime_in = os.path.join(temp, doc.docid + '.input')
     gutime_out = os.path.join(temp, doc.docid)
+    start = time.clock()
     xml_doc = ternip.formats.tern.create(doc.get_sents(), doc.docid, add_S='s', add_LEX='lex', pos_attr='pos')
     with open(gutime_in, 'w') as fd:
         fd.write(str(xml_doc)[22:])
     
     # Now run GU Time
-    start = time.clock()
     subprocess.Popen(['perl', 'gutime.pl', gutime_in, gutime_out], stdout=subprocess.PIPE, cwd='gutime').communicate()
     gutime_time += time.clock() - start
     
