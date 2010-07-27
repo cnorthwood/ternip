@@ -23,6 +23,7 @@ def get_f_measure(text, type):
         if overall_found and line[7:].startswith(type):
             return float(line[-5:])
         i += 1
+    return float()
 
 unannotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgm'))
 annotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgml'))
