@@ -340,73 +340,8 @@ EACHPAT: while ($string =~ /$curPattern/g){
 #    while($string =~ s/(<TIMEX[^>]*>)(<s>)/$2$1/oi) {}
 #    while($string =~ s/(<\/s>)(<\/TIMEX[^>]*>)/$2$1/oi) {}
     
-    # Remove embedded tags
-    while($string =~ /<TIMEX$tever[^>]*>/go) {
-	$temp1 = $` . $&;
-	$temp2 = $';
-	while(($temp2 =~ /<\/TIMEX$tever>/o) &&
-	   ($temp3 = $`) && (($temp4 = $') || 1) &&
-	   ($temp3 =~ /<TIMEX$tever[^>]*>/o)) {
-	       $temp2 = $` . $' . $temp4;
-	       $string = $temp1 . $temp2;
-	   }
-    }
-    
     # ---------------------
     # merge timex tags here
-    
-    # This loop merges DOW followed by date
-    $rest   = $string;
-    $string = "";
-    while($rest =~/(<\/TIMEX$tever>((\s*$OT)*,($CT\s*)*)?<TIMEX$tever[^>]*>)/gsio)  {
-	$rest    = $';
-	$b4      = $`;
-	$mid1    = $1;
-	$mid2    = $2;
-
-	$b4      =~ /(.*<TIMEX$tever[^>]*>)/sio;
-	$string .= $1;
-	$TE1     = $';
-
-	$rest    =~ /(<\/TIMEX$tever>)/gio;
-	$rest    = $';
-	$Tag2    = $1;
-	$TE2     = $`;
-
-	if(($TE1 =~ /$TEday/io) && ($TE2 =~ /\d/o)
-	   && ($TE2 =~ /$TEmonthabbr/io)) {
-	    $string .= "$TE1$mid2$TE2$Tag2";   #reprints with only 1 pair of tags
-	} else {
-	    $string .= "$TE1$mid1$TE2$Tag2";
-	}
-    }
-    $string .= $rest;
-
-    # This loop merges date followed by (this|next|last) year
-    $rest   = $string;
-    $string = "";
-    while($rest =~/(<\/TIMEX$tever>(\s*($OT+of$CT+)?\s*)<TIMEX$tever[^>]*>)/giso)  {
-	$rest    = $';
-	$b4      = $`;
-	$mid1    = $1;
-	$mid2    = $2;
-
-	$b4      =~ /(.*<TIMEX$tever[^>]*>)/sio;
-	$string .= $1;
-	$TE1     = $';
-
-	$rest    =~ /(<\/TIMEX$tever>)/gios;
-	$rest    = $';
-	$Tag2    = $1;
-	$TE2     = $`;
-
-	if(($TE1 =~ /$TEmonthabbr/io) && ($TE2 =~ /year/o)) {
-	    $string .= "$TE1$mid2$TE2$Tag2";
-	} else {
-	    $string .= "$TE1$mid1$TE2$Tag2";
-	}
-    }
-    $string .= $rest;
 
     #########################
     ###  added by jfrank  ###

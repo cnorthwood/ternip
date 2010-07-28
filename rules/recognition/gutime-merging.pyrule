@@ -1,0 +1,84 @@
+#!/usr/bin/env python
+
+import re
+import ternip
+import ternip.rule_engine.rule
+from collections import defaultdict
+
+class rule(ternip.rule_engine.rule.rule):
+    """
+    Merges adjacent timex tags in certain circumstances that means that the two
+    adjacent tags should be one timex
+    
+    Translated from GUTime
+    """
+    
+    id = 'gutime-merging'
+    after = ['gutime', 'gutime-year']
+    
+    def _get_tokens_for_timexes(self, sent):
+        ttoks = defaultdict(list)
+        i = 0
+        for (tok, pos, ts) in sent:
+            for t in ts:
+                ttoks[t].append((i, tok, pos, ts))
+            i += 1
+        return ttoks
+    
+    def apply(self, sent):
+        
+        success = False
+        
+        # Get all timexes in sentence and their associated tokens
+        ttoks = self._get_tokens_for_timexes(sent)
+        
+        # Okay, now determine if this TIMEX matches the first expression we're
+        # interested in
+        for t in ttoks:
+            # Get last index
+            i = ttoks[t][-1][0] + 1
+            if i < len(sent) and sent[i][0] == ',':
+                i += 1
+            if i < len(sent):
+                for next_t in sent[i][2]:
+                    if re.search(self._prep_re('(monday|tuesday|wednesday|thursday|friday|saturday|sunday)'),
+                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and \
+                       re.search(self._prep_re('\d'),
+                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])) and \
+                       re.search(self._prep_re('(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)'),
+                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
+                        # have a day of week followed by date - merge
+                        start = ttoks[t][0][0]
+                        end = ttoks[next_t][-1][0]
+                        for j in range(len(sent)):
+                            (tok, pos, ts) = sent[j]
+                            if j >= start and j <= end:
+                                ts.add(t)
+                                ts.discard(next_t)
+        
+        # Now rebuild that
+        ttoks = self._get_tokens_for_timexes(sent)
+        
+        # Okay, now determine if this TIMEX matches the second expression we're
+        # interested in
+        for t in ttoks:
+            # Get last index
+            i = ttoks[t][-1][0] + 1
+            if i < len(sent) and sent[i][0] == 'of':
+                i += 1
+            if i < len(sent):
+                for next_t in sent[i][2]:
+                    if re.search(self._prep_re('(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)'),
+                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and \
+                       re.search(self._prep_re('year'),
+                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
+                        # have a day of week followed by date - merge
+                        start = ttoks[t][0][0]
+                        end = ttoks[next_t][-1][0]
+                        for j in range(len(sent)):
+                            (tok, pos, ts) = sent[j]
+                            if j >= start and j <= end:
+                                ts.add(t)
+                                ts.discard(next_t)
+        
+        return (sent, success)
