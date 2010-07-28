@@ -304,3 +304,9 @@ Match: <now~.+>
 
 Type: date
 Match: <the~.+><past~.+><(week|fortnight|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)~.+>
+
+---
+
+Type: date
+Match: \S(<\"~.+>(<[^a-z0-9\"]\w*~.+>)+?<\"~.+>)
+Squelch: true

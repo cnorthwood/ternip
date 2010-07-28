@@ -352,18 +352,6 @@ EACHPAT: while ($string =~ /$curPattern/g){
 	   }
     }
     
-    $string =~ s/<TIMEX$tever[^>]*>($OT+(\'$CT+$OT+\d\d|\w+)$CT+<\/TIMEX$tever>\s*)<\/TIMEX$tever>/$1/goi;
-
-    # proper names in quotes
-    $copy = $string;
-    while($copy =~ /\S\s*($OT+\"$CT+($OT+[^a-z0-9\"]\w*$CT+\s+)*<TIMEX$tever[^>]*>($OT+[^a-z0-9\"]\w*$CT+\s+)*$OT+[^a-z0-9\"]\w*$CT+<\/TIMEX$tever>(\s*$OT+[^a-z0-9\"]\w*$CT+)*$OT+\"$CT+)/gos) {
-	$temp2 = $temp1 = $1;
-	if($temp1 =~ />\s/o) {
-	    $temp2  =~ s/<\/?TIMEX$tever[^>]*>//go;
-	    $string =~ s/$temp1/$temp2/g;
-	}
-    }
-    
     # ---------------------
     # merge timex tags here
     

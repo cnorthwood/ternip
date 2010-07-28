@@ -5,6 +5,7 @@ import nltk.tokenize
 import nltk.tag
 import xml.dom.minidom
 from collections import defaultdict
+import sys
 
 class xml_doc:
     """
@@ -630,7 +631,11 @@ class xml_doc:
             
             # Now, for each timex, add it to the sentence
             for timex in timexes:
-                self._add_timex(timex, sents[i], s_nodes[i])
+                try:
+                    self._add_timex(timex, sents[i], s_nodes[i])
+                except nesting_error as e:
+                    print >>sys.stderr, "Error whilst adding TIMEX:", str(e)
+                    print >>sys.stderr, "Not adding TIMEX", t
     
     def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):
         """
