@@ -35,6 +35,9 @@ class rule:
         
         # End NLTK contribution
         
+        # Fix for NUM_START/NUM_ORD_START which really wants to match on .
+        exp = re.sub(r'_START\[\^>\]', '_START.', exp)
+        
         return exp
     
     def _toks_to_str(self, toks):
@@ -135,7 +138,7 @@ class rule:
                     # either not first in series, or between ordinal and regular nums (i.e. "first two")
                     if (re.search(self._ord_unit_nums + r'$', previous_word) != None) or (re.search(self._ord_other_nums + r'$', previous_word) != None):
                         # between ordinal and regular
-                        sent = re.sub(r'(NUM_START(.*?))$', 'NUM_ORD_START\2', sent) # replace with NUM_ORD_START
+                        sent = re.sub(r'(NUM_START(.*?))$', r'NUM_ORD_START\2', sent) # replace with NUM_ORD_START
                         sent += 'NUM_ORD_END'
                         to_add = 'NUM_START<' + m.group('word') + '~' + m.group('pos') + '>'
                     else:
@@ -160,7 +163,7 @@ class rule:
                         # number doesn't continue
                         in_number = False
                         if (re.search(self._ord_unit_nums + '$', previous_word) != None) or (re.search(self._ord_other_nums + '$', previous_word) != None):
-                            sent = re.sub(r'(NUM_START(.*?))$', 'NUM_ORD_START\2', sent) # replace with NUM_ORD_START
+                            sent = re.sub(r'(NUM_START(.*?))$', r'NUM_ORD_START\2', sent) # replace with NUM_ORD_START
                             sent += 'NUM_ORD_END'
                         else:
                             sent += 'NUM_END'
