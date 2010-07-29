@@ -128,16 +128,6 @@ class recognition_rule(rule.rule):
             if not self._check_guards(senttext[match.end():], self._after_guards):
                 continue
             
-            # This is a somewhat quick fix to the problem where in the pattern finding, $numString will include
-            #   something like "NUM_START...NUM_END......NUM_START...NUM_END", with the first NUM_START and the last
-            #   NUM_END supposedly enclosing just one number, when obviously that's not the case...this ends up screwing
-            #   up the expressionToDuration function.
-            # PROBLEM - This does create a problem with the case of "the first five minutes", because "first" ends up
-            #   getting tags around it, which gets stopped here...this doesn't create a terrible problem, but
-            #   it should still be fixed
-            if self._deliminate_numbers and re.search(r'(NUM_START|NUM_ORD_START).+(NUM_START|NUM_ORD_START)', match.group()):
-                continue
-            
             # okay, first we need to find which tokens we matched, can do this
             # by using our token markers
             ti = senttext.count('<', 0, match.start())

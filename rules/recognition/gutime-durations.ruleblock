@@ -65,7 +65,7 @@ Deliminate-Numbers: True
 ---
 
 Type: duration
-Match: (<\d+~.+>|NUM_START.*?NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
+Match: (<\d+~.+>|NUM_START.*NUM_END)<(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))s?~.+>
 Deliminate-Numbers: True
 
 ---

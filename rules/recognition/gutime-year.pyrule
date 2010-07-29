@@ -31,8 +31,8 @@ class rule(ternip.rule_engine.rule.rule):
                 year = int(match.group(3))
             
             if year > 1649 and year < 2100 \
-              and re.match(self._prep_re(r'<\w+~.+>(<(daylight|standard)~.+>)?<time~.+>'), match.string[:match.end()], re.I) == None \
-              and re.match(self._prep_re(r'<.*?~NNP>'), match.string[:match.end()], re.I) == None:
+              and re.match(self._prep_re(r'<\w+~.+>(<(daylight|standard)~.+>)?<time~.+>'), match.string[match.end():], re.I) == None \
+              and re.match(self._prep_re(r'<.*?~NNP>'), match.string[match.end():], re.I) == None:
                 
                 # This rule succeeded
                 success = True
@@ -44,7 +44,7 @@ class rule(ternip.rule_engine.rule.rule):
                 t = ternip.timex(type='date')
                 
                 # If this is a decade and is followed by 's, widen the extent
-                following_match = re.match(self._prep_re(r'<\'s~.+>'), match.string[:match.end()], re.I)
+                following_match = re.match(self._prep_re(r'<\'s~.+>'), match.string[match.end():], re.I)
                 if str(year)[-1] == '0' and following_match != None:
                     tj += 1
                 

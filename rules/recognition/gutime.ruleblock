@@ -40,7 +40,7 @@ Match: <\d\d?\.\d\d?\.\d\d(\d\d)?~.+>
 ---
 
 Type: date
-Match: ((<alternate~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<each~.+>|<next~.+>|<last~.+>|<this~.+><coming~.+>))?<$DAYSs?~.+>(<(the~.+><($ORDINAL_NUMS|$ORDINAL_WORDS)|morning|afternoon|evening|night|next)s?~.+>)?
+Match: ((<alternate~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<each~.+>|<next~.+>|<last~.+>|<this~.+><coming~.+>))?<$DAYSs?~.+>(<the~.+><($ORDINAL_NUMS|$ORDINAL_WORDS)s?~.+>|<mornings?~.+>|<afternoons?~.+>|<evenings?~.+>|<nights?~.+>|<nexts?~.+>)?
 
 ---
 
@@ -191,7 +191,7 @@ Match: (<(about|around|some)~.+>)?(<.+~CD>(<and~.+>)?)*(<.+~CD>)<(year|month|wee
 
 Type: date
 Guard: <(ago|hence|from)~.+>
-Match: (<(about|around|some)~.+>)?(<a~.+>(<few~.+>)?|<several~.+>|<some~.+>|<many~.+>)(<years?~.+>|<months?~.+>|<fortnights?~.+>|<moons?~.+>|<weeks?~.+>|<days?~.+>|(<(little|long)~.+>)?<whiles?~.+>|<decades?~.+>|<centur(y|ie)s?~.+>|((<(really|very)~.+>)?((<long~.+><,~.+>)*<long~.+>|<short~.+>))?<(life)?times?~.+>)(<ago~.+>(<(today|tomorrow|yesterday|$DAYS))?|hence|from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+Match: (<(about|around|some)~.+>)?(<a~.+>(<few~.+>)?|<several~.+>|<some~.+>|<many~.+>)(<(year|month|fortnight|moon|week|day|decade|centur(y|ie))s?~.+>|(<(little|long)~.+>)?<whiles?~.+>|((<(really|very)~.+>)?((<long~.+><,~.+>)*<long~.+>|<short~.+>))?<(life)?times?~.+>)(<ago~.+>(<(today|tomorrow|yesterday|$DAYS)~.+>)?|<hence~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
 
 ---
 
