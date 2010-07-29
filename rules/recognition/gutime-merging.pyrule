@@ -27,6 +27,18 @@ class rule(ternip.rule_engine.rule.rule):
             i += 1
         return ttoks
     
+    def _merge_extents(self, sent, ttoks, t, next_t):
+        start = ttoks[t][0][0]
+        end = ttoks[next_t][-1][0]
+        if self._DEBUG:
+            t.comment += ':merged'
+            next_t.comment += ":discarded"
+        for j in range(len(sent)):
+            (tok, pos, ts) = sent[j]
+            if j >= start and j <= end:
+                ts.add(t)
+                ts.discard(next_t)
+    
     def apply(self, sent):
         
         success = False
@@ -50,16 +62,7 @@ class rule(ternip.rule_engine.rule.rule):
                        re.search(self._prep_re('(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)'),
                                  self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
                         # have a day of week followed by date - merge
-                        start = ttoks[t][0][0]
-                        end = ttoks[next_t][-1][0]
-                        if self._DEBUG:
-                            t.comment += ':merged'
-                            next_t.comment += ":discarded"
-                        for j in range(len(sent)):
-                            (tok, pos, ts) = sent[j]
-                            if j >= start and j <= end:
-                                ts.add(t)
-                                ts.discard(next_t)
+                        self._merge_extents(sent, ttoks, t, next_t)
         
         # Now rebuild that
         ttoks = self._get_tokens_for_timexes(sent)
@@ -77,16 +80,23 @@ class rule(ternip.rule_engine.rule.rule):
                                  self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and \
                        re.search(self._prep_re('year'),
                                  self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
-                        # have a day of week followed by date - merge
-                        start = ttoks[t][0][0]
-                        end = ttoks[next_t][-1][0]
-                        if self._DEBUG:
-                            t.comment += ':merged'
-                            next_t.comment += ":discarded"
-                        for j in range(len(sent)):
-                            (tok, pos, ts) = sent[j]
-                            if j >= start and j <= end:
-                                ts.add(t)
-                                ts.discard(next_t)
+                        # have a date followed by year specifier - merge
+                        self._merge_extents(sent, ttoks, t, next_t)
+        
+        # Now rebuild that
+        ttoks = self._get_tokens_for_timexes(sent)
+        
+        # Eliminate any timexes that tag identical extents
+        delete = set()
+        for t in ttoks:
+            if t not in delete:
+                for u in ttoks:
+                    if u != t and ttoks[u][0][0] == ttoks[t][0][0] and ttoks[t][-1][0] == ttoks[t][-1][0]:
+                        # extents are identical!
+                        delete.add(u)
+        
+        for (tok, pos, ts) in sent:
+            for d in delete:
+                ts.discard(d)
         
         return (sent, success)

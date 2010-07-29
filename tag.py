@@ -108,4 +108,7 @@ if normaliser is not None:
 doc.reconcile(sents)
 
 # Now output the final document
-print str(doc)
+if options.doc_type == 'tern':
+    print str(doc)[22:]
+else:
+    print str(doc)

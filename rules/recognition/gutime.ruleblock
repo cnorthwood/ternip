@@ -185,20 +185,13 @@ Match: <(the|this|last|next|coming)~.+><weekend~.+>
 
 Type: date
 Guard: <(ago|hence|from)~.+>
-Match: (<(about|around|some)~.+>)?(<\S+~CD>(<and~.+>)?)*(<\S+~CD>)<(year|month|week|day|decade|cenutur(y|ie))s?~.+>(<ago~.+>(<(today|tomorrow|yesterday|$DAYS)~.+>)?|<hence~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+Match: (<(about|around|some)~.+>)?(<.+~CD>(<and~.+>)?)*(<.+~CD>)<(year|month|week|day|decade|cenutur(y|ie))s?~.+>(<ago~.+>(<(today|tomorrow|yesterday|$DAYS)~.+>)?|<hence~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
 
 ---
 
 Type: date
 Guard: <(ago|hence|from)~.+>
 Match: (<(about|around|some)~.+>)?(<a~.+>(<few~.+>)?|<several~.+>|<some~.+>|<many~.+>)(<years?~.+>|<months?~.+>|<fortnights?~.+>|<moons?~.+>|<weeks?~.+>|<days?~.+>|(<(little|long)~.+>)?<whiles?~.+>|<decades?~.+>|<centur(y|ie)s?~.+>|((<(really|very)~.+>)?((<long~.+><,~.+>)*<long~.+>|<short~.+>))?<(life)?times?~.+>)(<ago~.+>(<(today|tomorrow|yesterday|$DAYS))?|hence|from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-
----
-
-Type: date
-Guard: <(ago|hence|from)~.+>
-Match: <(today|tomorrow|yesterday|$DAYS)~.+>
-Squelch: True
 
 ---
 
@@ -277,7 +270,7 @@ Match: <zero~.+><hour~.+>(<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|dayligh
 
 Type: time
 Guard: \b(ago|hence|from)\b
-Match: (<(about|around|some)~.+>)?(<\S+~CD>(<and~.+>)?)<\S+~CD>(<and~.+><a~.+><half~.+>)?<hours?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
+Match: (<(about|around|some)~.+>)?(<.+~CD>(<and~.+>)?)<.+~CD>(<and~.+><a~.+><half~.+>)?<hours?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
 
@@ -295,7 +288,7 @@ Match: (<about~.+>)?(<an?~.+>)?(<(half(~.+><an)?|few)~.+>)?<hour~.+>(<and~.+><a~
 
 Type: time
 Guard: \b(ago|hence|from)\b
-Match: (((<\S+~CD>(<and~.+>)?)<\S+~CD>|(<a~.+><few~.+>|<several~.+>|<some~.+>)))+<minutes?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
+Match: (((<.+~CD>(<and~.+>)?)<.+~CD>|(<a~.+><few~.+>|<several~.+>|<some~.+>)))+<minutes?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
 

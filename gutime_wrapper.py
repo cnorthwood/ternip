@@ -29,4 +29,4 @@ os.remove(file_path)
 os.remove(file_path + '.output')
 
 # Print output
-print str(doc)
+print str(doc)[22:]
