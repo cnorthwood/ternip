@@ -97,7 +97,7 @@ class rule:
     _unique_nums = r'(ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen)'
     _tens_nums = r'(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)'
     
-    def _deliminate_numbers(self, sent):
+    def _do_deliminate_numbers(self, sent):
         """
         Translation of GUTime function 'deliminateNumbers' - marks up number
         sequences

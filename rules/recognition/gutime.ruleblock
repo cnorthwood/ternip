@@ -77,8 +77,9 @@ Match: <(early|late)~.+><(morning|afternoon|evening)~.+>
 ---
 
 Type: date
-Match: (<(early|late)~.+>(<[io]n~.+>)?)?(<the~.+>((<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?<week(end)?~.+>|<beginning~.+>|<start~.+>|<middle~.+>|<end~.+>|<morning~.+>|<day~.+>|<afternoon~.+>|<evening~.+>|<night~.+>|<ides~.+>|<nones~.+>)<(of|in)~.+>)?((<\d\d?~.+>|<next~.+>|<last~.+>|<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><of~.+>))*(<mid-~.+>)?(<$MONTHS|$MONTH_ABBRS\.?~.+>(<.~.+>)?)((<of~.+>|<,~.+>)?<\d{4}~.+>|<($ORDINAL_NUMS|$ORDINAL_WORDS|\d\d?)~.+>((<,~.+>)?(<\d{4}~.+>|<\'~.+><\d\d~.+>))?)?
+Match: (<(early|late)~.+>(<[io]n~.+>)?)?(<the~.+>((<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?<week(end)?~.+>|<beginning~.+>|<start~.+>|<middle~.+>|<end~.+>|<morning~.+>|<day~.+>|<afternoon~.+>|<evening~.+>|<night~.+>|<ides~.+>|<nones~.+>)<(of|in)~.+>)?((<\d\d?~.+>|<next~.+>|<last~.+>|<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><of~.+>))*(<mid-$MONTHS~.+>|<mid-$MONTH_ABBRS\.?~.+>(<.~.+>)?|(<mid-?~.+>)?(<$MONTHS~.+>|<$MONTH_ABBRS\.?~.+>(<.~.+>)?))((<of~.+>|<,~.+>)?<\d{4}~.+>|<($ORDINAL_NUMS|$ORDINAL_WORDS|\d\d?)~.+>((<,~.+>)?(<\d{4}~.+>|<\'~.+><\d\d~.+>))?)?
 Guard: ($MONTHS|$MONTH_ABBRS)
+
 ---
 
 Type: date

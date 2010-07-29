@@ -14,13 +14,13 @@ class recognition_rule(rule.rule):
     def __init__(self, match,
                        type,
                        id,
-                       guards          = [],
-                       after_guards    = [],
-                       before_guards   = [],
-                       after           = [],
-                       squelch         = False,
-                       case_sensitive  = False,
-                       delimit_numbers = False):
+                       guards             = [],
+                       after_guards       = [],
+                       before_guards      = [],
+                       after              = [],
+                       squelch            = False,
+                       case_sensitive     = False,
+                       deliminate_numbers = False):
         """
         Create a recognition rule, with a number of optional arguments. All
         regex's are in the form to be used with nltk.TokenSearcher.findall
@@ -58,19 +58,19 @@ class recognition_rule(rule.rule):
             and no timex is added to the match. Defaults to false.
         case_sensitive is a Boolean indicating whether or not this rule should
             be matched case sensitively or not.
-        delimit_numbers is a Boolean indicating whether or not this rule
-            requires the sentence to have delimited numbers
+        deliminate_numbers is a Boolean indicating whether or not this rule
+            requires the sentence to have deliminated numbers
         """
         
-        self.id               = id
-        self._type            = type
+        self.id                  = id
+        self._type               = type
         if case_sensitive:
-            self._match       = re.compile(self._prep_re(match))
+            self._match          = re.compile(self._prep_re(match))
         else:
-            self._match       = re.compile(self._prep_re(match), re.IGNORECASE)
-        self._squelch         = squelch
-        self.after            = after
-        self.delimit_numbers  = delimit_numbers
+            self._match          = re.compile(self._prep_re(match), re.IGNORECASE)
+        self._squelch            = squelch
+        self.after               = after
+        self._deliminate_numbers = deliminate_numbers
         
         # Load guards
         self._guards = self._load_guards(guards)
@@ -109,7 +109,7 @@ class recognition_rule(rule.rule):
         senttext = self._toks_to_str(sent)
         
         if self._deliminate_numbers:
-            senttext = self._deliminate_numbers(senttext)
+            senttext = self._do_deliminate_numbers(senttext)
         
         success = False
         
@@ -135,7 +135,7 @@ class recognition_rule(rule.rule):
             # PROBLEM - This does create a problem with the case of "the first five minutes", because "first" ends up
             #   getting tags around it, which gets stopped here...this doesn't create a terrible problem, but
             #   it should still be fixed
-            if self.delimit_numbers and re.search(r'(NUM_START|NUM_ORD_START).+(NUM_START|NUM_ORD_START)', match.group()):
+            if self._deliminate_numbers and re.search(r'(NUM_START|NUM_ORD_START).+(NUM_START|NUM_ORD_START)', match.group()):
                 continue
             
             # okay, first we need to find which tokens we matched, can do this
@@ -152,6 +152,7 @@ class recognition_rule(rule.rule):
             
             # Add TIMEX
             self._set_timex_extents(t, sent, ti, tj, self._squelch)
+            #print self.id, "matched", match.group(), sent[ti:tj], senttext
             success = True
         
         return (sent, success)

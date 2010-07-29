@@ -13,7 +13,7 @@ option_parser = optparse.OptionParser(usage='%prog [options] FILENAME', version=
 
 # The options we take
 io_group = optparse.OptionGroup(option_parser, "Format Options", "Options for dealing with the type of input and output files")
-io_group.add_option('-t', '--doctype', dest='doc_type', type='choice', choices=['timex2','timex3'], help='The format of the document and resulting tags. Supported values: timex2 - XML document resulting in TIMEX2 tags; timex3 - XML document resulting in TIMEX3 tags')
+io_group.add_option('-t', '--doctype', dest='doc_type', type='choice', choices=['timex2','timex3','tern','timeml'], help='The format of the document and resulting tags. Supported values: timex2 - XML document resulting in TIMEX2 tags; timex3 - XML document resulting in TIMEX3 tags; tern - a document from the TERN corpus; timeml - a document annotated with TimeML')
 io_group.add_option('-s', '--strip-timexes', dest='strip_timexes', default=False, action="store_true", help='If set, any timexes in the document are stripped, and then tagging starts afresh. If you don\'t enable this, feed in a document which already has TIMEXes in it and are doing recognition, you may end up with duplicate TIMEX tags.')
 io_group.add_option('-b', '--body-tag', dest='body_tag', default=None, type='string', help='If set, this tag only the contents of this tag is tagged.')
 io_group.add_option('--s-tag', dest='has_S', metavar='S_tag', default=None, type='string', help='If set, this tag name is used to denote sentence boundaries. If unset, NLTK is used to tokenise.')
@@ -48,6 +48,20 @@ if options.doc_type == 'timex2':
 elif options.doc_type == 'timex3':
     with open(input_file) as fd:
         doc = ternip.formats.timex3(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
+elif options.doc_type == 'timeml':
+    if options.body_tag != None or options.has_S != None or options.has_LEX != None or options.pos_attr != None:
+        option_parser.print_help()
+        print "incompatible options with document type"
+        sys.exit(1)
+    with open(input_file) as fd:
+        doc = ternip.formats.timeml(fd.read())
+elif options.doc_type == 'tern':
+    if options.body_tag != None or options.has_S != None or options.has_LEX != None or options.pos_attr != None:
+        option_parser.print_help()
+        print "incompatible options with document type"
+        sys.exit(1)
+    with open(input_file) as fd:
+        doc = ternip.formats.tern(fd.read())
 else:
     option_parser.print_help()
     print "invalid document type specified"

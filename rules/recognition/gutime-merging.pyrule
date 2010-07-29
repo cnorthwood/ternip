@@ -16,6 +16,8 @@ class rule(ternip.rule_engine.rule.rule):
     id = 'gutime-merging'
     after = ['gutime', 'gutime-year']
     
+    _DEBUG = True
+    
     def _get_tokens_for_timexes(self, sent):
         ttoks = defaultdict(list)
         i = 0
@@ -50,6 +52,9 @@ class rule(ternip.rule_engine.rule.rule):
                         # have a day of week followed by date - merge
                         start = ttoks[t][0][0]
                         end = ttoks[next_t][-1][0]
+                        if self._DEBUG:
+                            t.comment += ':merged'
+                            next_t.comment += ":discarded"
                         for j in range(len(sent)):
                             (tok, pos, ts) = sent[j]
                             if j >= start and j <= end:
@@ -75,6 +80,9 @@ class rule(ternip.rule_engine.rule.rule):
                         # have a day of week followed by date - merge
                         start = ttoks[t][0][0]
                         end = ttoks[next_t][-1][0]
+                        if self._DEBUG:
+                            t.comment += ':merged'
+                            next_t.comment += ":discarded"
                         for j in range(len(sent)):
                             (tok, pos, ts) = sent[j]
                             if j >= start and j <= end:
