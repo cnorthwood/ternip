@@ -139,7 +139,7 @@ Match: <the~.+>((<early~.+>|<late~.+>|<(beginning|start|middle|end)~.+><of~.+><t
 ---
 
 Type: date
-Match: ((<(late|early)~.+><in~.+>)?<the~.+>(<(late|early|mid-?)~.+>)?)?<(mid-?)?($ORDINAL_NUMS-?|$ORDINAL_WORDS)~.+><century~.+>
+Match: ((<(late|early)~.+><in~.+>)?<the~.+>(<(late|early|mid-?)~.+>)?)?(<(mid-?)?($ORDINAL_NUMS-?|$ORDINAL_WORDS)~.+><century~.+>|<(mid-?)?($ORDINAL_NUMS-?|$ORDINAL_WORDS)-century~.+>)
 
 ---
 
