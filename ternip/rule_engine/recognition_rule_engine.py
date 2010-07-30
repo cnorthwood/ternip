@@ -129,6 +129,8 @@ class recognition_rule_engine(rule_engine):
             return recognition_rule(match, type, id, guards, after_guards, before_guards, after, squelch, case_sensitive, deliminate_numbers)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
+        except (SyntaxError, ValueError) as e:
+            raise rule_load_error(filename, "Malformed Python expression: " + str(e))
     
     def tag(self, sents):
         """

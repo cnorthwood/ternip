@@ -3,6 +3,7 @@
 import re
 import ternip.timex
 import rule
+import expressions
 
 class recognition_rule(rule.rule):
     """ A class that represents identification rules """
@@ -35,6 +36,13 @@ class recognition_rule(rule.rule):
         $ORDINAL_WORDS - which consist of word forms of ordinal values,
         $ORDINAL_NUMS - the number forms (including suffixes) of ordinal values,
         $DAYS - day names
+        $MONTHS - month names
+        $MONTH_ABBRS - three-letter abbreviations of month names
+        $RELATIVE_DAYS - relative expressions referring to days
+        $DAY_HOLIDAYS
+        $NTH_DOW_HOLIDAYS
+        $FIXED_HOLIDAYS - holidays which have a fixed date
+        $LUNAR_HOLIDAYS - holidays which are relative to Easter
         
         match is a regex. The text that is matched by this regex is annotated as
             a timex. Compulsory.
@@ -81,16 +89,16 @@ class recognition_rule(rule.rule):
         """
         Substitute some special values for their actual RE values
         """
-        match = re.sub(r'\$ORDINAL_WORDS', r'(tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|twenty-first|twenty-second|twenty-third|twenty-fourth|twenty-fifth|twenty-sixth|twenty-seventh|twenty-eighth|twenty-ninth|thirtieth|thirty-first|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth)', match)
-        match = re.sub(r'\$ORDINAL_NUMS', r'([23]?1-?st|11-?th|[23]?2-?nd|12-?th|[12]?3-?rd|13-?th|[12]?[4-90]-?th|30-?th)', match)
-        match = re.sub(r'\$DAYS', r'(monday|tuesday|wednesday|thursday|friday|saturday|sunday)', match)
-        match = re.sub(r'\$MONTHS', r'(january|february|march|april|may|june|july|august|september|october|november|december)', match)
-        match = re.sub(r'\$MONTH_ABBRS', r'(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)', match)
-        match = re.sub(r'\$RELATIVE_DAYS', r'(today|yesterday|tomorrow|tonight|tonite)', match)
-        match = re.sub(r'\$DAY_HOLIDAYS', r'(election|memorial|C?Hanukk?ah|Rosh|Kippur|tet|diwali|halloween)', match)
-        match = re.sub(r'\$NTH_DOW_HOLIDAYS', r'(mlk|king|president|canberra|mother|father|labor|columbus|thanksgiving)', match)
-        match = re.sub(r'\$FIXED_HOLIDAYS', r'(<new~.+><year~.+>|<inauguration~.+>|<valentine~.+>|<ground~.+>|<candlemas~.+>|<patrick~.+>|<fool~.+>|<(saint|st\.)~.+><george~.+>|<walpurgisnacht~.+>|<may~.+><day~.+>|<beltane~.+>|<cinco~.+>|<flag~.+>|<baptiste~.+>|<canada~.+>|<dominion~.+>|<independence~.+>|<bastille~.+>|<halloween~.+>|<allhallow~.+>|<all~.+><(saint|soul)s~.+>|<day~.+><of~.+><the~.+><dead~.+>|<fawkes~.+>|<veteran~.+>|<christmas~.+>|<xmas~.+>|<boxing~.+>)', match)
-        match = re.sub(r'\$LUNAR_HOLIDAYS', r'(<easter~.+>|<palm~.+><sunday~.+>|<good~.+><friday~.+>|<ash~.+><wednesday~.+>|<shrove~.+><tuesday~.+>|<mardis~.+><gras~.+>)', match)
+        match = re.sub(r'\$ORDINAL_WORDS', expressions.ORDINAL_WORDS, match)
+        match = re.sub(r'\$ORDINAL_NUMS', expressions.ORDINAL_NUMS, match)
+        match = re.sub(r'\$DAYS', expressions.DAYS, match)
+        match = re.sub(r'\$MONTHS', expressions.MONTHS, match)
+        match = re.sub(r'\$MONTH_ABBRS', expressions.MONTH_ABBRS, match)
+        match = re.sub(r'\$RELATIVE_DAYS', expressions.RELATIVE_DAYS, match)
+        match = re.sub(r'\$DAY_HOLIDAYS', expressions.DAY_HOLIDAYS, match)
+        match = re.sub(r'\$NTH_DOW_HOLIDAYS', expressions.NTH_DOW_HOLIDAYS, match)
+        match = re.sub(r'\$FIXED_HOLIDAYS', expressions.FIXED_HOLIDAYS, match)
+        match = re.sub(r'\$LUNAR_HOLIDAYS', expressions.LUNAR_HOLIDAYS, match)
         return match
     
     def apply(self, sent):

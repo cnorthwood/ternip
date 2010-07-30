@@ -12,7 +12,6 @@ class rule(ternip.rule_engine.rule.rule):
     
     id = 'gutime-year'
     after = []
-    _DEBUG = True
     
     def __init__(self):
         self._rule = re.compile(self._prep_re(r'((<mid-~.+>)?<(\d{4})s?~.+>|<(mid-)?(\d{4})s?~.+>)'), re.I)

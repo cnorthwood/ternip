@@ -14,7 +14,6 @@ class rule(ternip.rule_engine.rule.rule):
     
     id = 'gutime-past'
     after = ['gutime-durations']
-    _DEBUG = True
     
     def __init__(self):
         self._rule = re.compile(self._prep_re(r'<the~.+><past~.+>'), re.I)

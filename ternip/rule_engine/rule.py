@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import re
+import expressions
 
 class rule:
     """
@@ -9,7 +10,8 @@ class rule:
     
     def _replace_predefs(self, match):
         """
-        Substitute some special values for their actual RE values
+        Substitute some special values for their actual RE values. To be
+        overriden by child.
         """
         return match
     
@@ -93,14 +95,6 @@ class rule:
         
         return True
     
-    _number_term = r'(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|thousand|million|billion|trillion|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|thirtieth|fortieth|fiftieth|sixtieth|seventieth|eightieth|ninetieth|hundreth|thousandth|millionth|billionth|trillionth)'
-    _ord_unit_nums = r'(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth)'
-    _ord_other_nums = r'(tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|thirtieth|fortieth|fiftieth|sixtieth|seventieth|eightieth|ninetieth|hundreth|thousandth|millionth|billionth|trillionth)'
-    _higher_nums = r'(hundred|thousand|million|billion|trillion)'
-    _unit_nums = r'(one|two|three|four|five|six|seven|eight|nine)'
-    _unique_nums = r'(ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen)'
-    _tens_nums = r'(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)'
-    
     def _do_deliminate_numbers(self, sent):
         """
         Translation of GUTime function 'deliminateNumbers' - marks up number
@@ -129,7 +123,7 @@ class rule:
                 next_word = ''
             
             # the following deals reasonably well with hypenated numbers like "twenty-one"
-            if re.match(self._number_term + '(-' + self._number_term + ')*', current_word, re.I) != None:
+            if re.match(expressions.NUMBER_TERM + '(-' + expressions.NUMBER_TERM + ')*', current_word, re.I) != None:
                 # This current word is identified as a number
                 if not in_number:
                     # first in (possible) series of numbers
@@ -137,7 +131,7 @@ class rule:
                     in_number = True
                 else:
                     # either not first in series, or between ordinal and regular nums (i.e. "first two")
-                    if (re.search(self._ord_unit_nums + r'$', previous_word) != None) or (re.search(self._ord_other_nums + r'$', previous_word) != None):
+                    if (re.search(expressions.ORD_UNIT_NUMS + r'$', previous_word) != None) or (re.search(expressions.ORD_OTHER_NUMS + r'$', previous_word) != None):
                         # between ordinal and regular
                         sent = re.sub(r'(NUM_START((.(?!NUM_START))*))$', r'NUM_ORD_START\2', sent) # replace with NUM_ORD_START
                         sent += 'NUM_ORD_END'
@@ -153,17 +147,17 @@ class rule:
                     # following works fairly well...it avoids marking things like "six and two" as a single
                     # number while still marking things like "two hundred and one" as a single number
                     if (current_word.lower() == 'and') and \
-                       (re.search(self._higher_nums, previous_word, re.I) != None) and \
-                       ((re.search(self._unit_nums, next_word, re.I) != None) or \
-                        (re.search(self._unique_nums, next_word, re.I) != None) or \
-                        (re.search(self._tens_nums+'(-'+self._unit_nums+'|'+self._ord_unit_nums+')?', next_word, re.I) != None) or \
-                        (re.search(self._ord_unit_nums, next_word, re.I) != None) or \
-                        (re.search(self._ord_other_nums, next_word, re.I) != None)):
+                       (re.search(expressions.HIGHER_NUMS, previous_word, re.I) != None) and \
+                       ((re.search(expressions.UNIT_NUMS, next_word, re.I) != None) or \
+                        (re.search(expressions.UNIQUE_NUMS, next_word, re.I) != None) or \
+                        (re.search(expressions.TENS_NUMS+'(-'+expressions.UNIT_NUMS+'|'+expressions.ORD_UNIT_NUMS+')?', next_word, re.I) != None) or \
+                        (re.search(expressions.ORD_UNIT_NUMS, next_word, re.I) != None) or \
+                        (re.search(expressions.ORD_OTHER_NUMS, next_word, re.I) != None)):
                         to_add = '<' + m.group('word') + '~' + m.group('pos') + '>'
                     else:
                         # number doesn't continue
                         in_number = False
-                        if (re.search(self._ord_unit_nums + r'$', previous_word) != None) or (re.search(self._ord_other_nums + r'$', previous_word) != None):
+                        if (re.search(expressions.ORD_UNIT_NUMS + r'$', previous_word) != None) or (re.search(expressions.ORD_OTHER_NUMS + r'$', previous_word) != None):
                             sent = re.sub(r'(NUM_START((.(?!NUM_START))*))$', r'NUM_ORD_START\2', sent) # replace with NUM_ORD_START
                             sent += 'NUM_ORD_END'
                         else:
@@ -175,7 +169,7 @@ class rule:
             sent += to_add
             previous_word = current_word
         
-        if re.match(self._number_term + '(-' + self._number_term + ')*', current_word, re.I) != None:
+        if re.match(expressions.NUMBER_TERM + '(-' + expressions.NUMBER_TERM + ')*', current_word, re.I) != None:
             # final word is a number
             sent += 'NUM_END'
         

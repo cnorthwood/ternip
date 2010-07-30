@@ -432,30 +432,6 @@ sub TE_AddAttributes {
 	# type=date
 	if($Type eq "date") {
 	   	
-	    # Year marker present - No refTime required
-	    if($TEstring =~ /(\d\d\d\d-?\d\d-?\d\d-?(T\d\d(:?\d\d)?(:?\d\d)?([\+\-]\d{1,4})?)?)/o) {
-		# ISO date
-		$Val = Date2ISO($1);
-		$Attributes .= " $valTagName=\"$Val\"";
-		$FoundVal = 1;
-	    } elsif($TEstring =~ /\d\d?[\/\.]\d\d?[\/\.]\d\d(\d\d)?/o) {
-		$Val = Date2ISO($TEstring);
-		$Attributes .= " $valTagName=\"$Val\"";
-		$FoundVal = 1;		
-	    }elsif($TEstring =~ /(\d{4})-(to-)(\d{4})/io) {
-		$Val  = $1;
-		$Val1 = $3;
-		$Attributes .= " $valTagName=\"$Val\/$Val1\"";
-		$FoundVal = 1;
-	    } elsif($TEstring =~ /((\w+teen)\s+)?(twen|thir|for|fif|six|seven|eigh|nine)ties/io) {
-		$temp1 = $2;
-		$temp2 = $3;
-		if(defined($temp1) && ($temp3 = Word2Num($temp1))) {
-		    $Val = (10*$temp3) + $TE_DecadeNums{lc($temp2)};
-		} else { $Val = 190 + $TE_DecadeNums{lc($temp2)};
-		     }
-		$Attributes .= " $valTagName=\"$Val\"";
-		$FoundVal = 1;
 	    } elsif(($TEstring =~ /(\d{4}|\'\d\d)/io) &&
 		    ($temp1 = $1) && (($temp2 = $') || 1) &&
 		    ($temp2 !~ /years/io)) {
@@ -463,21 +439,6 @@ sub TE_AddAttributes {
 		$b4  = $`;
 		$trailtext = $string;
 		$trailtext =~ s/<[^>]+>//go;
-		if($Val =~ /\'(\d\d)/o) {
-		    if($1 < 30) { $Val = 2000 + $1; }
-		    else { $Val = 1900 + $1; }
-		}
-
-		# decades
-		if($TEstring =~ /(\d{3})0\'?s/io) {
-		    $Val  = $1;
-		    $FoundVal = 1;
-		}
-		elsif($TEstring =~ /\'(\d)0s/io) {
-		    if($1<3) { $Val = 200 +$1; }
-		    else { $Val = 190 +$1; }
-		    $FoundVal = 1;
-		}
 
 	        # Handle absolute dates 
 		elsif(($b4 =~ /\b($TEmonth|$TEmonthabbr)\b/io) &&
@@ -1950,107 +1911,7 @@ sub TE_AddAttributes {
     
 } # TE_AddAttributes
 
-########################################
-sub Date2ISO {
-    my($string, $ISO, $TOD);
-    my($M, $D, $Y, $temp);
-    my($H, $m, $S, $FS, $Z, $zone, $AMPM);
-    ($string) = @_;
 
-    # Already ISO
-    if($string =~ /(\d\d\d\d-?\d\d-?\d\d)(-?(T\d\d(:?\d\d)?(:?\d\d)?([+-]\d{1,4})?))?/o) {
-	$D = $1;  $H = $3;
-	$D =~ s/-//go;
-	if(defined($H)) {
-	    $H =~ s/://go; 
-	    return($D . $H); }
-	else { return $D; }
-    }
-    ## ACE Format
-    if($string =~ /(\d\d\d\d\d\d\d\d:\d\d\d\d)/o) {
-	$D = $1; 
-	$D =~ s/:/T/o;
-	return $D; 
-    }
-    if($string =~ /T\d\d(:?\d\d)?(:?\d\d)?([+-]\d{1,4})?/o) {
-	$string =~ s/://go;
-	return($string);
-    }
-
-    if($string =~ /(\d\d?)\s+($TEmonth|$TEmonthabbr\.?),?\s+(\d\d(\s|\Z)|\d{4}\b)/oi) {
-	$D = $1;    $M = $2;    $Y = $5;
-	$M =~ /(\w{3})/o;
-	$M = $Month2Num{lc($1)};
-    } elsif($string =~ /($TEmonth|$TEmonthabbr\.?)\s+(\d\d?|$TEOrdinalWords)\b,?\s*(\d\d(\s|\Z)|\d{4}\b)/oi) {
-	$D = $4;    $M = $1;    $Y = $6;
-	if($D =~ /$TEOrdinalWords/o) { $D = $TE_Ord2Num{$D}; }
-	$M =~ /(\w{3})/o;
-	$M = $Month2Num{lc($1)};
-    } elsif($string =~ /(\d\d\d\d)\/(\d\d?)\/(\d\d?)/o) {
-	$M = $2; $D = $3; $Y = $1;
-    } elsif($string =~ /(\d\d\d\d)\-(\d\d?)\-(\d\d?)/o) {
-	$M = $2; $D = $3; $Y = $1;
-    } elsif($string =~ /(\d\d?)\/(\d\d?)\/(\d\d(\d\d)?)/o) {
-	$M = $1; $D = $2; $Y = $3;
-    } elsif($string =~ /(\d\d?)\-(\d\d?)\-(\d\d(\d\d)?)/o) {
-	$M = $1; $D = $2; $Y = $3;
-    } elsif($string =~ /(\d\d?)\.(\d\d?)\.(\d\d(\d\d)?)/o) {
-	$M = $2; $D = $1; $Y = $3;       # Euro date
-    } elsif($string =~ /($TEmonth|$TEmonthabbr\.?)\s+(\d\d?).+(\d\d\d\d)\b/i) {
-	$D = $4;    $M = $1;    $Y = $5;
-	$M =~ /(\w{3})/o;
-	$M = $Month2Num{lc($1)};
-	unless(($Y<2100) && ($Y>1900)) { undef $Y; }
-    }
-    
-    if(defined($Y)) {
-	# Possible European Date
-	if(($M > 12) && ($M < 31) && ($D < 12)) {
-	    $temp = $M;   $M = $D;   $D = $temp;
-	}
-	# two digit year
-	if($Y<39) { $Y += 2000; }
-	elsif($Y<100) { $Y += 1900; }
-
-	$ISO = sprintf("%4d%02d%02d", $Y, $M, $D);
-    } else { $ISO = "XXXXXXXX"; }
-
-
-    #Now add Time of Day
-    if($string =~ /(\d?\d):(\d\d)(:(\d\d)(\.\d+)?)?(\s*([AP])\.?M\.?)?(\s+([+\-]\d+|[A-Z][SD]T|GMT([+\-]\d+)?))?/oi) {
-	$H = $1;  $m = $2;  $S = $4; $FS = $5; $AMPM = $7; $zone = $9;
-	if((defined($AMPM)) && ($AMPM =~ /P/oi)) { $H += 12; }
-	if(defined($zone)) {
-	    if($zone =~ /(GMT)([+\-]\d+)/o) { $zone = $2; }
-	    elsif($zone =~ /GMT/o) { $zone = "Z"; }
-	    elsif($zone =~ /([A-Z])([SD])T/o) {
-		if(defined($TE_TimeZones{$1})) {
-		    $Z = $TE_TimeZones{$1};
-		    if($2 eq "D") { $Z++; }
-		    if($Z<0) { $zone = sprintf("-%02d", -1*$Z); }
-		    else { $zone = sprintf("+%02d", $Z); }
-		}
-	    }
-	}
-    } elsif($string =~ /(\d\d)(\d\d)\s+(h(ou)?r|(on\s+)?\d\d?\/\d)/oi) {
-	$H = $1;  $m = $2;
-    }
-    
-    if(defined($H)) {
-	if(defined($FS)) { 
-		$FS =~ s/\.//;	
-		$TOD = sprintf("T%02d:%02d:%02d.%02d", $H, $m, $S, $FS); }
-	elsif(defined($S)) { $TOD = sprintf("T%02d:%02d:%02d", $H, $m, $S); }
-	elsif(defined($m)) { $TOD = sprintf("T%02d:%02d", $H, $m); }
-	else { $TOD = sprintf("T%02d", $H); }
-	$ISO .= $TOD;
-	if(defined($zone)) {
-	    if($zone =~ /\A\s+/o) { $zone = $'; }
-	    $ISO .= $zone; }
-    }
-
-    return($ISO);
-}  # Date2ISO
 
 
 ########################################

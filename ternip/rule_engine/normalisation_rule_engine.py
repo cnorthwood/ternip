@@ -36,6 +36,7 @@ class normalisation_rule_engine(rule_engine):
         before_guards = []
         after_guards  = []
         after         = []
+        tokenise      = True
         
         for key in d:
             
@@ -77,6 +78,18 @@ class normalisation_rule_engine(rule_engine):
             elif key == 'after-guard':
                 after_guards = d[key]
             
+            elif key == 'tokenise':
+                if (len(d[key]) == 1):
+                    tokenise = d[key][0].lower()
+                    if tokenise == 'true':
+                        tokenise = True
+                    elif tokenise == 'space':
+                        tokenise = ' '
+                    elif tokenise == 'null':
+                        tokenise = ''
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Tokenise' fields")
+            
             # error on unknown fields
             else:
                 raise rule_load_error(filename, "Unknown field '" + key + "'")
@@ -89,7 +102,7 @@ class normalisation_rule_engine(rule_engine):
         
         # Guard against any RE errors
         try:
-            return normalisation_rule(match, type, id, value, guards, after_guards, before_guards, after)
+            return normalisation_rule(match, type, id, value, guards, after_guards, before_guards, after, tokenise)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     

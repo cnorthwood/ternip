@@ -111,9 +111,18 @@ class tempeval2:
         
         s = ''
         
+        timexes_done = set()
+        
         for i in range(len(self._sents)):
             for j in range(len(self._sents[i])):
                 for timex in self._sents[i][j][2]:
+                    
+                    # Only need to print attributes once
+                    if timex in timexes_done:
+                        continue
+                    else:
+                        timexes_done.add(timex)
+                    
                     if timex.value != None:
                         s += self._get_timex_line(i, j, timex) + "\tvalue\t"+timex.value+"\n"
                     

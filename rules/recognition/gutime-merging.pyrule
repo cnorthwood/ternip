@@ -15,8 +15,7 @@ class rule(ternip.rule_engine.rule.rule):
     
     id = 'gutime-merging'
     after = ['gutime', 'gutime-year']
-    
-    _DEBUG = True
+    _DEBUG = False
     
     def _get_tokens_for_timexes(self, sent):
         ttoks = defaultdict(list)
