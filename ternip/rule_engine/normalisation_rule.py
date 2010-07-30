@@ -118,6 +118,12 @@ class normalisation_rule(rule.rule):
             return (False, cur_context)
 
 # Functions for normalisation rules to use
+def normalise_two_digit_year(y):
+    if int(y) < 39:
+        return str(int(y) + 2000)
+    elif int(y) < 100:
+        return str(int(y) + 1900)
+
 def date_to_iso(string):
     """
     A translation of GUTime's Date2ISO function
@@ -204,10 +210,7 @@ def date_to_iso(string):
             d = new_d
         
         # check for 2 digit year
-        if int(y) < 39:
-            y = str(int(y) + 2000)
-        elif int(y) < 100:
-            y = str(int(y) + 1900)
+        y = normalise_two_digit_year(y)
         
         iso = "%4d%02d%02d" % (int(y), int(m), int(d))
     
@@ -263,3 +266,30 @@ def date_to_iso(string):
             iso += zone.lstrip()
     
     return iso
+
+def absolute_date_to_iso(string):
+    match = re.search(r'(\d{4}|\'\d\d)', string, re.I)
+    v = match.group(1)
+    before = string[:match.start]
+    if v[0] == "'":
+        v = normalise_two_digit_year(v[1:])
+    
+    match = re.search(r'\b(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r')\b', before, re.I)
+    v += str(expressions.month_to_num[match.group(1)[:3].lower()])
+    
+    match = re.search(r'(' + expressions.ORDINAL_WORDS + r'|' + expressions.ORDINAL_NUMS + r')\s+week(end)?\s+(of|in)', before, re.I)
+    if match != None:
+        wk_match = re.search(r'\d+', match.group(1))
+        if wk_match != None:
+            wk = int(wk_match.group(0))
+        else:
+            wk = expressions.ordinal_to_num[match.group(1).lower()]
+        if re.search(r'weekend', string, re.I) != None:
+            v += '%02d' % (wk * 7 - 5)
+        else:
+            v += '%02d' % (wk * 7 - 3)
+        v = date_to_week(v)
+        if re.search(r'weekend', string, re.I):
+            v += 'WE'
+
+# Todo: Finish converting function above, convert date to week function

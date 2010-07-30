@@ -443,23 +443,8 @@ sub TE_AddAttributes {
 	        # Handle absolute dates 
 		elsif(($b4 =~ /\b($TEmonth|$TEmonthabbr)\b/io) &&
 		      ($b4 !~ /\b(fool|may\s+day)/io)) {
-		    $Month  = $1;
-		    $Month  =~ /(\w{3})/o;
-		    $Month  = lc($1);
-		    $NMonth = $Month2Num{$Month};
-		    $Val   .= sprintf("%02d", $NMonth);
 
-		    if($b4 =~ /($TEOrdinalWords|$TENumOrds)\s+week(end)?\s+(of|in)/io) {
-			$temp1 = lc($1);
-			if($temp1 =~ /\d+/o) { $temp2 = $&; }
-			else { $temp2 = $TE_Ord2Num{$temp1}; }
-			if($temp2 > 4) { $Attributes .= " ERROR=\"BadWeek\""; }
-			if($TEstring =~ /weekend/io) { 
-			    $Val   .= sprintf("%02d", ($temp2*7)-5); }
-			else { $Val   .= sprintf("%02d", ($temp2*7)-3); }
-			$Val = &Date2Week($Val);
-			if($TEstring =~ /weekend/io) { $Val .= "WE"; }
-		    }
+
 		    elsif($b4 =~ /(\d\d?)/o) {
 			$Val .= sprintf("%02d", $1); }
 		    elsif($b4 =~ /$TEOrdinalWords/io) {

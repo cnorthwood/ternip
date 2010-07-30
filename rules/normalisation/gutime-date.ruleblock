@@ -39,15 +39,17 @@ Value: str((200 if int({#1}) < 3 else 190) + int({#1}))
 ---
 
 Type: date
-Tokenise: space
-Match: \'(\d\d)
-Guard: !years
-Value: str((2000 if int({#1}) < 30 else 1900) + int({#1}))
-
----
-
-Type: date
 Tokenise: null
 Match: (\d{3})0\'?s
 Guard: !years
 Value: {#1}
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: (\d{4}|\'\d\d)
+Guard: !(fool|may\s+day)
+Match: \b($MONTHS|$MONTH_ABBRS)\b
+Value: absolute_date_to_iso(body)
