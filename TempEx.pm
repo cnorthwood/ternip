@@ -36,76 +36,8 @@ $TE_Loaded    = 1;
 $TE_HeurLevel = 3;
 $TE_DEBUG     = 0;
 
-$TEday        = "(monday|tuesday|wednesday|thursday|friday|saturday|sunday)";
-$TEmonth      = "(january|february|march|april|may|june|july|august|september|october|november|december)";
-$TEmonthabbr  = "(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)";
-$TERelDayExpr = "(today|yesterday|tomorrow|tonight|tonite)";
-
-$TEFixedHol   = "(new\\s+year|inauguration|valentine|ground|candlemas|patrick|fool|(saint|st\.)\\s+george|walpurgisnacht|may\\s+day|beltane|cinco|flag|baptiste|canada|dominion|independence|bastille|halloween|allhallow|all\\s+(saint|soul)s|day\\s+of\\s+the\\s+dead|fawkes|veteran|christmas|xmas|boxing)";
-$TENthDOWHol  = "(mlk|king|president|canberra|mother|father|labor|columbus|thanksgiving)";
-$TELunarHol = "(easter|palm\\s+sunday|good\\s+friday|ash\\s+wednesday|shrove\\s+tuesday|mardis\\s+gras)";
-$TEDayHol   = "(election|memorial|C?Hanukk?ah|Rosh|Kippur|tet|diwali|halloween)";
-
-%FixedHol2Date = ("newyear",   "0101",    "inauguration", "0120",
-		  "valentine", "0214",
-                  "ground",    "0202",    "candlemas",    "0202",
-		  "patrick",   "0317",    "fool",         "0401",
-		  "st\.george","0423",    "saintgeorge",  "0423",
-		  "walpurgisnacht", "0430",
-		  "mayday",    "0501",    "beltane",      "0501",
-		  "cinco",     "0505",    "flag",         "0614",
-		  "baptiste",  "0624",    "dominion",     "0701",
-		  "canada",    "0701",
-		  "independence", "0704", "bastille",     "0714",
-		  "halloween", "1031",    "allhallow",    "1101",
-		  "allsaints",  "1101",   "allsouls",     "1102",
-		  "dayofthedead", "1102",
-		  "fawkes",    "1105",    "veteran",      "1111",
-		  "christmas", "1225",    "xmas",         "1225"   );
-
-# Format is month-DOW-nth
-%NthDOWHol2Date   = ("mlk",        "1-1-3",  "king",         "1-1-3",
-		     "president",  "2-1-3",  "canberra",     "3-1-3",
-		     "mother",       "5-7-2",
-		     "father",     "6-7-3",  "labor",        "9-1-1",
-		     "columbus",   "10-1-2", "thanksgiving", "11-4-4");
-
-
-%Month2Num    = ("jan" => 1, "feb" =>  2, "mar" =>  3, "apr" =>  4,
-		 "may" => 5, "jun" =>  6, "jul" =>  7, "aug" =>  8,
-		 "sep" => 9, "oct" => 10, "nov" => 11, "dec" => 12);
-%Day2Num      = ("sunday"    => 0, "monday"   => 1, "tuesday" => 2,
-		 "wednesday" => 3, "thursday" => 4, "friday"  => 5,
-		 "saturday"  => 6);
-
-
-%TE_TimeZones    = ("E" => -5, "C" => -6, "M" => -7, "P" => -8);
-
-%TE_Season       = ("spring" => "SP", "summer" => "SU",
-		 "autumn" => "FA", "fall" => "FA", "winter" => "WI");
-
 %TE_Season2Month = ("SP" => 4, "SU" => 6, "FA" => 9, "WI" => 12);
 
-@TE_ML     = (0, 31, 28, 31,  30,  31,  30,  31,  31,  30,  31,  30, 31);
-@TE_CumML  = (0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365);
-
-%TE_Ord2Num = ("first", 1, "second", 2, "third", 3, "fourth", 4,
-	       "fifth", 5, "sixth", 6, "seventh", 7, "eighth", 8,
-	       "ninth", 9, "tenth", 10, "eleventh", 11, "twelfth", 12,
-	       "thirteenth", 13, "fourteenth", 14, "fifteenth", 15,
-	       "sixteenth", 16, "seventeenth", 17, "eighteenth", 18,
-	       "nineteenth", 19, "twentieth", 20, "twenty-first", 21,
-	       "twenty-second", 22, "twenty-third", 23, "twenty-fourth", 24,
-	       "twenty-fifth", 25, "twenty-sixth", 26, "twenty-seventh", 27,
-	       "twenty-eighth", 28, "twenty-ninth", 29, "thirtieth", 30,
-	       "thirty-first", 31);
-
-%TE_DecadeNums = ("twen", 2, "thir",  3, "for",  4, "fif",  5, 
-		  "six",  6, "seven", 7, "eigh", 8, "nine", 9);
-
-# Need these in order - first must come after 21st
-$TEOrdinalWords = "(tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|twenty-first|twenty-second|twenty-third|twenty-fourth|twenty-fifth|twenty-sixth|twenty-seventh|twenty-eighth|twenty-ninth|thirtieth|thirty-first|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth)";
-$TENumOrds = "([23]?1-?st|11-?th|[23]?2-?nd|12-?th|[12]?3-?rd|13-?th|[12]?[4-90]-?th|30-?th)";
 
 $OT = "(<[^\/][^>]*>)";
 $CT = "(<\\\/[^>]*>)";
@@ -139,30 +71,9 @@ my $printNCTs = 1;		# if set to 1, it will print out the non-consuming TIMEXES a
 
 #wordtonum.pl variables
 
-my %word2Num = ("zero" => 0,
-		"one" => 1,"two" => 2,"three" => 3,"four" => 4,"five" => 5,
-		"six" => 6,"seven" => 7,"eight" => 8,"nine" => 9,"ten" => 10,
-		"eleven" => 11,"twelve" => 12,"thirteen" => 13,
-		"fourteen" => 14,"fifteen" => 15,"sixteen" => 16,
-		"seventeen" => 17,"eighteen" => 18,"nineteen" => 19,
-		"twenty" => 20,"thirty" => 30,"forty" => 40,"fifty" => 50,
-		"sixty" => 60,"seventy" => 70,"eighty" => 80,"ninety" => 90,
-		"hundred" => 100,"thousand" => 1000,
-		"million" => 1000000,"billion" => 1000000000,"trillion" => 1000000000000);
-
-my $unitNums = "(one|two|three|four|five|six|seven|eight|nine)";
-my $uniqueNums = "(ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen)";
-my $tensNums = "(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)";
-my $higherNums = "(hundred|thousand|million|billion|trillion)";
-
 ####
 
-my $numberTerm = "(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|thousand|million|billion|trillion|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|thirtieth|fortieth|fiftieth|sixtieth|seventieth|eightieth|ninetieth|hundreth|thousandth|millionth|billionth|trillionth)";
-
 my $TE_Units = "(second|minute|hour|day|month|year|week|decade|centur(y|ie)|milleni(um|a))";
-
-my $ordUnitNums = "(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth)";
-my $ordOtherNums = "(tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|thirtieth|fortieth|fiftieth|sixtieth|seventieth|eightieth|ninetieth|hundreth|thousandth|millionth|billionth|trillionth)";
 
 my %ordWord2Num = ("zeroeth" => 0,
 		   "first" => 1,"second" => 2,"third" => 3,"fourth" => 4,"fifth" => 5,
@@ -432,73 +343,9 @@ sub TE_AddAttributes {
 	# type=date
 	if($Type eq "date") {
 	   	
-	    } elsif(($TEstring =~ /(\d{4}|\'\d\d)/io) &&
-		    ($temp1 = $1) && (($temp2 = $') || 1) &&
-		    ($temp2 !~ /years/io)) {
-		$Val = $temp1;
-		$b4  = $`;
-		$trailtext = $string;
-		$trailtext =~ s/<[^>]+>//go;
-
-
-		} elsif($b4 =~ /$TEFixedHol/io) {
-		    $hol = lc($1);
-		    $hol =~ s/\s+//go;
-		    $FixedHol2Date{$hol} =~ /(\d\d)(\d\d)/o;
-		    $Y = $Val;
-		    $M = $1;
-		    $D = $2;
-		    $Val = sprintf("%4d%02d%02d", $Y, $M, $D);
-		    if($TEstring =~ /(eve)/io) {
-			$Val = &OffsetFromRef($Val, -1);
-			if($Val =~ /\d\d\d\d(\d\d)(\d\d)/o) {
-			    $M = $1;
-			    $D = $2;
-			    $Val = sprintf("%4d%02d%02d", $Y, $M, $D);
-			} else { $Val = ""; }
-		    }
-		    if($Val) { $Attributes .= " ALT_VAL=\"$Val\""; }
-		    $Val = "";
-		} elsif($b4 =~ /$TENthDOWHol/io) {
-		    $temp1 = $NthDOWHol2Date{lc($1)};
-		    if($temp1 =~ /(\d\d?)-(\d)-(\d)/o) {
-			$M = $1;
-			$temp2 = $2;
-			$temp3 = $3;
-			$D = NthDOW2Date($M, $temp2, $temp3, $Val);
-			$Val = sprintf("%4d%02d%02d", $Val, $M, $D);
-			$Attributes .= " ALT_VAL=\"$Val\"";
-			$Val = "";
-		    }
-		} elsif($b4 =~ /\b$TELunarHol\b/io) {
-		    $temp1 = $1;
-		    $Val = EasterDate($Val);
-		    if($b4 =~ /\bgood\s+friday\b/io) {
-			$Val = &OffsetFromRef($Val, -3); }
-		    elsif($b4 =~ /\b(shrove\s+tuesday|mardis\s+gras)\b/io) {
-			$Val = &OffsetFromRef($Val, -47); }
-		    elsif($b4 =~ /\bash\s+wednesday\b/io) {
-			$Val = &OffsetFromRef($Val, -46); }
-		    elsif($b4 =~ /\bpalm\s+sunday\b/io) {
-			$Val = &OffsetFromRef($Val, -7); }
-		    $Attributes .= " ALT_VAL=\"$Val\"";
-		    $Val = "";
-		} elsif($b4 =~ /(spring|summer|autumn|fall|winter)/io) {
-		    $Val   .= $TE_Season{lc($1)};
-		}
-
-		if(($Val =~ /((\d\d\d\d)(\d\d))(\d\d)/o) &&  
-		   ($4 > MonthLength($3, $2))) {
-		    $Val = $1;
-		    $Attributes .= " ERROR=\"BadDay\"";
-		}
-		if($Val) { $Attributes .= " $valTagName=\"$Val\""; }
-		
-		$FoundVal = 1;
-	    } # if year present
 
 	    # ago
-	    elsif($TEstring =~ /(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?\s+(ago|hence|before\s+last|after\s+next|from\s+(now|today|tomorrow|yesterday|$TEday))/oi) {
+	    if($TEstring =~ /(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?\s+(ago|hence|before\s+last|after\s+next|from\s+(now|today|tomorrow|yesterday|$TEday))/oi) {
 
 		$temp1 = $`;
 		$temp2 = lc($1);
@@ -1879,110 +1726,6 @@ sub TE_AddAttributes {
 ## Purely internal subroutines
 ########################################
 
-sub OffsetFromRef {
-    my($Ref, $Offset, $Gran);
-    my($Month, $Day, $Year);
-    my($Hour, $Minute, $ML);
-
-    ($Ref, $Offset, $Gran) = (@_);
-    unless(defined($Gran)) { $Gran = "D"; }
-
-    if($Ref =~ /(\d\d\d\d)(\d\d)(\d\d)?(T(\d\d)(\d\d)?)?/o) {
-	$Year  = $1;
-	$Month = $2;
-	$Day   = $3;
-	$Hour  = $5;
-	$Minute = $6;
-    } else { return(""); }
-
-    if($Gran eq "TH") {
-	# Hours
-	$Hour += $Offset;
-	if($Hour > 23) {
-	    $Offset = int($Hour/24);
-	    $Hour   = $Hour % 24;
-	    $Ref = sprintf("%4d%02d%02d", $Year, $Month, $Day);
-	    $Ref = OffsetFromRef($Ref, $Offset, "D");
-	    $Ref =~ /(\d\d\d\d)(\d\d)(\d\d)/o;
-	    $Year  = $1;
-	    $Month = $2;
-	    $Day   = $3;
-	} elsif($Hour < 0) {
-	    $Offset = int($Hour/24) - 1;
-	    $Hour   = $Hour % 24;
-	    $Ref = sprintf("%4d%02d%02d", $Year, $Month, $Day);
-	    $Ref = OffsetFromRef($Ref, $Offset, "D");
-	    $Ref =~ /(\d\d\d\d)(\d\d)(\d\d)/o;
-	    $Year  = $1;
-	    $Month = $2;
-	    $Day   = $3;	    
-	}
-	return(sprintf("%04d%02d%02dT%02d%02d", $Year, $Month, $Day, $Hour, $Minute));
-    } elsif($Gran eq "TM") {
-	# Minutes
-	$Minute += $Offset;
-	if($Minute > 60) {
-	    $Offset = int($Minute/60);
-	    $Minute = $Minute % 60;
-	    $Ref = sprintf("%04d%02d%02dT%02d%02d", $Year, $Month, $Day, $Hour, $Minute);
-	    $Ref = OffsetFromRef($Ref, $Offset, "TH");
-	    return($Ref);
-	} elsif($Minute <0) {
-	    $Offset = int($Minute/60) - 1;
-	    $Minute = $Minute % 60;
-	    $Ref = sprintf("%04d%02d%02dT%02d%02d", $Year, $Month, $Day, $Hour, $Minute);
-	    $Ref = OffsetFromRef($Ref, $Offset, "TH");
-	    return($Ref);
-	}
-	return(sprintf("%04d%02d%02dT%02d%02d", $Year, $Month, $Day, $Hour, $Minute));
-    } elsif($Gran eq "M") {
-	# Month granularity
-	$Month += $Offset;
-	if($Month > 12) {
-	    $Year += int($Month/12);
-	    $Month = $Month % 12;
-	} elsif ($Month < 0) {
-	    $Year += int($Month/12) - 1;
-	    $Month = $Month % 12;
-	}
-	if($Month == 0) {
-	    $Month = 12;
-	    $Year --;
-	}
-	return(sprintf("%4d%02d", $Year, $Month));
-	
-    } elsif($Gran eq "Y") {
-	# Year granularity
-	$Year += $Offset;
-	return(sprintf("%4d", $Year));
-    } else {
-	# Day granularity
-	$ML = &MonthLength($Month, $Year);
-
-	$Day += $Offset;
-	if($Offset > 0) {
-	    # positive offsets
-	    while($Day > $ML) {
-		$Day -= $ML;
-		$Month++;
-		if($Month > 12) { $Month -= 12; $Year++; }
-		$ML = &MonthLength($Month, $Year);
-	    }
-	} else {
-	    # negative offsets
-	    while($Day < 1) {
-		$Month --;
-		if($Month < 1) { $Month += 12; $Year--; }
-		$ML = &MonthLength($Month, $Year);
-		$Day += $ML;
-	    }
-	}
-	return(sprintf("%4d%02d%02d", $Year, $Month, $Day));
-    }
-
-    return("");
-    
-} # End of subroutine OffsetFromRef
 
 
 ######################################## 
@@ -2036,27 +1779,6 @@ sub Week2Date {
 
 }  # End of subroutine Week2Date
 
-########################################
-# Figures the nth DOW in month
-# as a date for a given year
-sub NthDOW2Date {
-    my($month, $DOW, $nth, $year);
-    ($month, $DOW, $nth, $year) = (@_);
-    my($first, $shift);
-
-    if($DOW == 7) { $DOW = 0; }
-    # print "A: $month $DOW  $nth $year\n";
-    
-    $first = sprintf("%04d%02d01", $year, $month);
-    # print "B: $first\n";
-    $first = Date2DOW($first);
-    $shift = $DOW - $first;
-
-    # print "C: $first  $shift\n";
-    
-    if($shift < 0) { $shift += 7; }
-    return($shift+(7*$nth)-6);
-}
 
 ########################################
 # Figures The date of easter for a given year

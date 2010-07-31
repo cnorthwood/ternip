@@ -30,20 +30,6 @@ class recognition_rule(rule.rule):
         the form <token~POS>, e.g., <about~.+> would match about with any POS
         tag.
         
-        Additionally, certain constants are defined which can be used in the
-        Match regular expressions:
-        
-        $ORDINAL_WORDS - which consist of word forms of ordinal values,
-        $ORDINAL_NUMS - the number forms (including suffixes) of ordinal values,
-        $DAYS - day names
-        $MONTHS - month names
-        $MONTH_ABBRS - three-letter abbreviations of month names
-        $RELATIVE_DAYS - relative expressions referring to days
-        $DAY_HOLIDAYS
-        $NTH_DOW_HOLIDAYS
-        $FIXED_HOLIDAYS - holidays which have a fixed date
-        $LUNAR_HOLIDAYS - holidays which are relative to Easter
-        
         match is a regex. The text that is matched by this regex is annotated as
             a timex. Compulsory.
         type can be date, time or duration (TIMEX3 annotation guidelines). This
@@ -84,22 +70,6 @@ class recognition_rule(rule.rule):
         self._guards = self._load_guards(guards)
         self._before_guards = self._load_guards(before_guards)
         self._after_guards = self._load_guards(after_guards)
-    
-    def _replace_predefs(self, match):
-        """
-        Substitute some special values for their actual RE values
-        """
-        match = re.sub(r'\$ORDINAL_WORDS', expressions.ORDINAL_WORDS, match)
-        match = re.sub(r'\$ORDINAL_NUMS', expressions.ORDINAL_NUMS, match)
-        match = re.sub(r'\$DAYS', expressions.DAYS, match)
-        match = re.sub(r'\$MONTHS', expressions.MONTHS, match)
-        match = re.sub(r'\$MONTH_ABBRS', expressions.MONTH_ABBRS, match)
-        match = re.sub(r'\$RELATIVE_DAYS', expressions.RELATIVE_DAYS, match)
-        match = re.sub(r'\$DAY_HOLIDAYS', expressions.DAY_HOLIDAYS, match)
-        match = re.sub(r'\$NTH_DOW_HOLIDAYS', expressions.NTH_DOW_HOLIDAYS, match)
-        match = re.sub(r'\$FIXED_HOLIDAYS', expressions.FIXED_HOLIDAYS, match)
-        match = re.sub(r'\$LUNAR_HOLIDAYS', expressions.LUNAR_HOLIDAYS, match)
-        return match
     
     def apply(self, sent):
         """

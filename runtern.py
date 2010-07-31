@@ -25,6 +25,10 @@ def get_f_measure(text, type):
         i += 1
     return float()
 
+print
+print "TERNIP vs. GUTime TERN evaluator"
+print
+
 unannotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgm'))
 annotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgml'))
 
@@ -39,8 +43,10 @@ os.mkdir(ternip_dir)
 # Load TERNIP
 recogniser = ternip.rule_engine.recognition_rule_engine()
 recogniser.load_rules(os.path.normpath('rules/recognition/'))
+print "TERNIP loaded", recogniser.num_rules, "recognition rules"
 normaliser = ternip.rule_engine.normalisation_rule_engine()
 normaliser.load_rules(os.path.normpath('rules/normalisation/'))
+print "TERNIP loaded", normaliser.num_rules, "normalisation rules"
 
 gutime_recognition_scores = []
 gutime_extent_scores = []

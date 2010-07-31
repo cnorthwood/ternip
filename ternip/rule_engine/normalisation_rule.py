@@ -2,7 +2,7 @@
 
 import re
 import rule
-import expressions
+from expressions import *
 import calendar
 from normalisation_functions import *
 
@@ -53,12 +53,9 @@ class normalisation_rule(rule.rule):
             considered to be the separator for tokens.
         """
         
-        if tokenise == True:
-            match = self._prep_re(match)
-        
         self.id               = id
         self._type            = type
-        self._match           = re.compile(match, re.IGNORECASE)
+        self._match           = re.compile(self._prep_re(match, tokenise), re.IGNORECASE)
         self.after            = after
         self._tokenise        = tokenise
         
@@ -67,9 +64,9 @@ class normalisation_rule(rule.rule):
         self._value_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', value), id + ':value', 'eval')
         
         # Load guards
-        self._guards = self._load_guards(guards)
-        self._before_guards = self._load_guards(before_guards)
-        self._after_guards = self._load_guards(after_guards)
+        self._guards = self._load_guards(guards, tokenise)
+        self._before_guards = self._load_guards(before_guards, tokenise)
+        self._after_guards = self._load_guards(after_guards, tokenise)
     
     def apply(self, timex, cur_context, dct, body, before, after):
         """
@@ -93,7 +90,7 @@ class normalisation_rule(rule.rule):
         if not self._check_guards(self._toks_to_str(after), self._after_guards):
             return (False, cur_context)
         
-        if not self._check_guards(self._toks_to_str(before + body + after), self._guards):
+        if not self._check_guards(self._toks_to_str(body), self._guards):
             return (False, cur_context)
         
         # Now, check if we match:

@@ -3,6 +3,8 @@
 import calendar
 import expressions
 import datetime
+import dateutil.easter
+import re
 
 # Mappings
 month_to_num = {
@@ -108,12 +110,68 @@ decade_nums = {
     "nine": 9
 }
 
+fixed_holiday_date = {
+    "newyear":          "0101",
+    "inauguration":     "0120",
+    "valentine":        "0214",
+    "ground":           "0202",
+    "candlemas":        "0202",
+    "patrick":          "0317",
+    "fool":             "0401",
+    "st\.george":       "0423",
+    "saintgeorge":      "0423",
+    "walpurgisnacht":   "0430",
+    "mayday":           "0501",
+    "beltane":          "0501",
+    "cinco":            "0505",
+    "flag":             "0614",
+    "baptiste":         "0624",
+    "dominion":         "0701",
+    "canada":           "0701",
+    "independence":     "0704",
+    "bastille":         "0714",
+    "halloween":        "1031",
+    "allhallow":        "1101",
+    "allsaints":        "1101",
+    "allsouls":         "1102",
+    "dayofthedead":     "1102",
+    "fawkes":           "1105",
+    "veteran":          "1111",
+    "christmas":        "1225",
+    "xmas":             "1225"
+}
+
+# month dow nth
+nth_dow_holiday_date = {
+    "mlk":          (1, 1, 3),
+    "king":         (1, 1, 3),
+    "president":    (2, 1, 3),
+    "canberra":     (3, 1, 3),
+    "mother":       (5, 7, 2),
+    "father":       (6, 7, 3),
+    "labor":        (9, 1, 1),
+    "columbus":     (10, 1, 2),
+    "thanksgiving": (11, 4, 4)
+}
+
+season = {
+    "spring": "SP",
+    "summer": "SU",
+    "autumn": "FA",
+    "fall":   "FA",
+    "winter": "WI"
+}
+
 # Functions for normalisation rules to use
 def normalise_two_digit_year(y):
+    if y[0] == "'":
+        y = y[1:]
     if int(y) < 39:
-        return str(int(y) + 2000)
+        return '%04d' % int(y) + 2000
     elif int(y) < 100:
-        return str(int(y) + 1900)
+        return '%04d' % int(y) + 1900
+    else:
+        return '%04d' % int(y)
 
 def date_to_iso(string):
     """
@@ -201,7 +259,7 @@ def date_to_iso(string):
             d = new_d
         
         # check for 2 digit year
-        y = normalise_two_digit_year(y)
+        y = normalise_two_digit_year(str(y))
         
         iso = "%4d%02d%02d" % (int(y), int(m), int(d))
     
@@ -275,15 +333,11 @@ def absolute_date_to_iso(string):
     v = None
     d = None
     match = re.search(r'(\d{4}|\'\d\d)', string, re.I)
-    y = match.group(1)
-    before = string[:match.start]
-    if y[0] == "'":
-        y = int(normalise_two_digit_year(v[1:]))
-    else:
-        y = int(y)
+    y = int(normalise_two_digit_year(match.group(1)))
+    before = string[:match.start()]
     
     match = re.search(r'\b(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r')\b', before, re.I)
-    m = expressions.month_to_num[match.group(1)[:3].lower()]
+    m = month_to_num[match.group(1)[:3].lower()]
     
     match = re.search(r'(' + expressions.ORDINAL_WORDS + r'|' + expressions.ORDINAL_NUMS + r')\s+week(end)?\s+(of|in)', before, re.I)
     if match != None:
@@ -333,3 +387,100 @@ def absolute_date_to_iso(string):
                 v = "%4d%02d%02d" % (y, m, d)
         else:
             v = "%4d%02d" % (y, m)
+
+def offset_from_date(v, offset, gran='D'):
+    if len(v) >= 4:
+        y = v[:4]
+    else:
+        y = None
+    
+    if len(v) >= 6:
+        m = v[4:6]
+    else:
+        m = None
+    
+    if len(v) >= 8:
+        d = v[6:8]
+    else:
+        d = None
+    
+    if len(v) >= 11:
+        h = v[9:11]
+    else:
+        h = None
+    
+    if len(v) >= 13:
+        min = v[11:13]
+    else:
+        min = None
+    
+    dt = datetime.datetime(y, m, d, h, min, s)
+    
+    if gran == 'TM':
+        # minutes
+        dt += datetime.timedelta(minutes=offset)
+        return dt.strftime('%Y%m%dT%H%M')
+    elif gran == 'TH':
+        # hours
+        dt += datetime.timedelta(hours=offset)
+        return dt.strftime('%Y%m%dT%H%M')
+    elif gran == 'D':
+        # days
+        dt += datetime.timedelta(days=offset)
+        return dt.strftime('%Y%m%d')
+    elif gran == 'W':
+        # weeks
+        dt += datetime.timedelta(weeks=offset)
+        return dt.strftime('%YW%W')
+    elif gran == 'M':
+        # months - timedelta rather annoyingly doesn't support months, so we
+        # need to do a bit more work here
+        m += offset
+        if m > 12:
+            year += int(m/12)
+            m = m % 12
+        elif m < 0:
+            y += int(m/12) - 1
+            m = m % 12
+        
+        if m == 0:
+            m = 12
+            y -= 1
+        
+        dt = datetime.datetime(y, m, 1)
+        return dt.strftime('%Y%m')
+    elif gran == 'Y':
+        # years - again, need to do a bit more work
+        if d == 29 and m == 2 and not calendar.isleap(y + offset):
+            # eugh, mucking about with a date that's not going to be in the
+            # target year - fall back
+            d = 28
+        y += offset
+        dt = datetime.datetime(y, m, d, h, min, s)
+        return dt.strftime('%Y')
+
+def easter_date(y):
+    """
+    Return the date of Easter for that year
+    """
+    return dateutil.easter.easter(int(y)).strftime('%Y%m%d')
+
+def nth_dow_to_date(m, dow, n, y):
+    """
+    Figures out the date of the nth day-of-week in the month m and year y,
+    
+    e.g., 2nd Wednesday in July 2010:
+          nth_dow_to_date(7, 3, 2, 2010)
+    
+    Conversion from GUTime
+    """
+    
+    if dow == 7:
+        dow = 0
+    
+    first_dow = date_to_dow(y, m, 1) # the dow of the first of the month
+    shift = dow - first
+    if shift < 0:
+        shift += 7
+    
+    return shift + (7 * n) - 6

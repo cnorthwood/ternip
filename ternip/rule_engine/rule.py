@@ -8,38 +8,54 @@ class rule:
     Base class for recognition and normalisation rules
     """
     
-    def _replace_predefs(self, match):
+    def _prep_re(self, exp, tokenise=True):
         """
-        Substitute some special values for their actual RE values. To be
-        overriden by child.
+        Prepare a regular expression which uses <> for token boundaries.
+        
+        Also, substitute special constants for expressions which can be used in
+        Match and Guard regular expressions:
+        
+        $ORDINAL_WORDS - which consist of word forms of ordinal values,
+        $ORDINAL_NUMS - the number forms (including suffixes) of ordinal values,
+        $DAYS - day names
+        $MONTHS - month names
+        $MONTH_ABBRS - three-letter abbreviations of month names
+        $RELATIVE_DAYS - relative expressions referring to days
+        $DAY_HOLIDAYS
+        $NTH_DOW_HOLIDAYS
+        $FIXED_HOLIDAYS - holidays which have a fixed date
+        $LUNAR_HOLIDAYS - holidays which are relative to Easter
         """
-        return match
-    
-    def _prep_re(self, exp):
-        """
-        Prepare a regular expression which uses <> for token boundaries
-        """
+        exp = re.sub(r'\$ORDINAL_WORDS', expressions.ORDINAL_WORDS, exp)
+        exp = re.sub(r'\$ORDINAL_NUMS', expressions.ORDINAL_NUMS, exp)
+        exp = re.sub(r'\$DAYS', expressions.DAYS, exp)
+        exp = re.sub(r'\$MONTHS', expressions.MONTHS, exp)
+        exp = re.sub(r'\$MONTH_ABBRS', expressions.MONTH_ABBRS, exp)
+        exp = re.sub(r'\$RELATIVE_DAYS', expressions.RELATIVE_DAYS, exp)
+        exp = re.sub(r'\$DAY_HOLIDAYS', expressions.DAY_HOLIDAYS, exp)
+        exp = re.sub(r'\$NTH_DOW_HOLIDAYS', expressions.NTH_DOW_HOLIDAYS, exp)
+        exp = re.sub(r'\$FIXED_HOLIDAYS', expressions.FIXED_HOLIDAYS, exp)
+        exp = re.sub(r'\$LUNAR_HOLIDAYS', expressions.LUNAR_HOLIDAYS, exp)
         
-        exp = self._replace_predefs(exp)
-        
-        # This code is modified from NLTK's text.py for dealing with pattern
-        # matching with tokenised strings, under the Apache License 2.0
-        
-        # Natural Language Toolkit (NLTK) http://www.nltk.org/
-        # Copyright (C) 2001-2010 NLTK Project
-        # Bird, Steven, Edward Loper and Ewan Klein (2009).
-        # Natural Language Processing with Python.  O'Reilly Media Inc.
-        
-        exp = re.sub(r'\s', '', exp)
-        exp = re.sub(r'<', '(?:<(?:', exp)
-        exp = re.sub(r'>', ')>)', exp)
-        exp = re.sub(r'(?<!\\)\.', '[^>]', exp)
-        
-        # End NLTK contribution
-        
-        # Fix for NUM_START/NUM_ORD_START which really wants to match on ., but
-        # in a non-greedy way
-        exp = re.sub(r'_START\[\^>\]', '_START(.(?!NUM_START))', exp)
+        if tokenise is True:
+            # This code is modified from NLTK's text.py for dealing with pattern
+            # matching with tokenised strings, under the Apache License 2.0
+            
+            # Natural Language Toolkit (NLTK) http://www.nltk.org/
+            # Copyright (C) 2001-2010 NLTK Project
+            # Bird, Steven, Edward Loper and Ewan Klein (2009).
+            # Natural Language Processing with Python.  O'Reilly Media Inc.
+            
+            exp = re.sub(r'\s', '', exp)
+            exp = re.sub(r'<', '(?:<(?:', exp)
+            exp = re.sub(r'>', ')>)', exp)
+            exp = re.sub(r'(?<!\\)\.', '[^>]', exp)
+            
+            # End NLTK contribution
+            
+            # Fix for NUM_START/NUM_ORD_START which really wants to match on ., but
+            # in a non-greedy way
+            exp = re.sub(r'_START\[\^>\]', '_START(.(?!NUM_START))', exp)
         
         return exp
     
@@ -61,7 +77,7 @@ class rule:
         
         # End NLTK contribution
     
-    def _load_guards(self, guards):
+    def _load_guards(self, guards, tokenise=True):
         """
         Given a list of regexs, return a tuple of REs representing positive and
         negative guards.
@@ -71,9 +87,9 @@ class rule:
         
         for guard in guards:
             if guard[0] == '!':
-                neg.append(re.compile(self._prep_re(guard[1:]), re.IGNORECASE))
+                neg.append(re.compile(self._prep_re(guard[1:], tokenise), re.IGNORECASE))
             else:
-                pos.append(re.compile(self._prep_re(guard), re.IGNORECASE))
+                pos.append(re.compile(self._prep_re(guard, tokenise), re.IGNORECASE))
         
         return (pos, neg)
     

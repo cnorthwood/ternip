@@ -11,11 +11,17 @@ import time
 
 import score_entities
 
+print
+print "TERNIP vs. GUTime TempEval-2 evaluator"
+print
+
 # Load TERNIP
 recogniser = ternip.rule_engine.recognition_rule_engine()
 recogniser.load_rules(os.path.normpath('rules/recognition/'))
+print "TERNIP loaded", recogniser.num_rules, "recognition rules"
 normaliser = ternip.rule_engine.normalisation_rule_engine()
 normaliser.load_rules(os.path.normpath('rules/normalisation/'))
+print "TERNIP loaded", normaliser.num_rules, "normalisation rules"
 
 # Load testing data
 data_path = os.path.normpath('sample_data/tempeval-training-2/english/data/')

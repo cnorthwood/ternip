@@ -16,6 +16,7 @@ class rule_engine:
     
     def __init__(self):
         self._rules = []
+        self.num_rules = 0
     
     def load_rules(self, path):
         """
@@ -34,6 +35,7 @@ class rule_engine:
             with open(filename) as fd:
                 try:
                     self._rules.append(self._load_rule(filename, fd.readlines()))
+                    self.num_rules += 1
                 except rule_load_error as e:
                     errors.append(e)
         
@@ -41,6 +43,7 @@ class rule_engine:
         for file in glob(os.path.join(path, '*.ruleblock')):
             try:
                 self._rules.append(self._load_block(file))
+                self.num_rules += len(self._rules[-1]._rules)
             except rule_load_error as e:
                 errors.append(e)
             except rule_load_errors as e:
@@ -52,6 +55,7 @@ class rule_engine:
             (dir, modname) = os.path.split(file)
             modname = modname[:-7]
             self._rules.append(imp.load_source(modname, file).rule())
+            self.num_rules += 1
         
         # Now, check the rule's we've just loaded for consistency
         try:

@@ -31,7 +31,7 @@ class normalisation_rule_Test(unittest.TestCase):
     
     def testPosGuardAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', 'testPosGuardAllows', r'{#2} + "01" + {#1}',
-                                  guards = [r'<on~.+><the~.+>'])
+                                  guards = [r'<th~.+><January~.+>'])
         t = timex(type='date')
         (before, body, after) = (
             [('We', 'POS', set()),
@@ -52,7 +52,7 @@ class normalisation_rule_Test(unittest.TestCase):
     
     def testPosGuardBlocks(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', 'testPosGuardBlocks', r'{#2} + "01" + {#1}',
-                                  guards = [r'<a~.+><train~.+>'])
+                                  guards = [r'<th~.+><February~.+>'])
         t = timex(type='date')
         (before, body, after) = (
             [('We', 'POS', set()),
@@ -72,7 +72,7 @@ class normalisation_rule_Test(unittest.TestCase):
         
     def testNegGuardAllows(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', 'testNegGuardAllows', r'{#2} + "01" + {#1}',
-                                  guards = [r'!<a~.+><train~.+>'])
+                                  guards = [r'!<th~.+><February~.+>'])
         t = timex(type='date')
         (before, body, after) = (
             [('We', 'POS', set()),
@@ -93,7 +93,7 @@ class normalisation_rule_Test(unittest.TestCase):
     
     def testNegGuardBlocks(self):
         rule = normalisation_rule(r'<(\d+)~.+><th~.+><January~.+><(\d{4})~.+>', 'date', 'testNegGuardBlocks', r'{#2} + "01" + {#1}',
-                                  guards = [r'!<on~.+><the~.+>'])
+                                  guards = [r'!<th~.+><January~.+>'])
         t = timex(type='date')
         (before, body, after) = (
             [('We', 'POS', set()),

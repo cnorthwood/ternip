@@ -26,7 +26,7 @@ Value: {#1}/{#3}
 Type: date
 Tokenise: space
 Match: ((\w+teen)\s+)?(twen|thir|for|fif|six|seven|eigh|nine)ties
-Value: str(((10 * expressions.word_to_num[{#2}.lower()]) if {#2} != None and {#2}.lower() in expressions.word_to_num else 190) + expressions.decade_nums[{#3}.lower()])
+Value: str(((10 * word_to_num[{#2}.lower()]) if {#2} != None and {#2}.lower() in word_to_num else 190) + decade_nums[{#3}.lower()])
 
 ---
 
@@ -52,4 +52,83 @@ Guard: !years
 Guard: (\d{4}|\'\d\d)
 Guard: !(fool|may\s+day)
 Match: \b($MONTHS|$MONTH_ABBRS)\b
-Value: absolute_date_to_iso(body)
+Value: absolute_date_to_iso(' '.join([tok for (tok, pos, ts) in body]))
+
+---
+
+Type: date
+Guard: !years
+Match: $FIXED_HOLIDAYS(<.*>)*<(\d{4}|\'\d\d)~.+>
+Guard: !eve
+Value: normalise_two_digit_year({#3}) + fixed_holiday_date[re.sub(r'<([^~]*)~[^>]*>', r'\1', {#1}).lower()]
+
+---
+
+Type: date
+Guard: !years
+Match: $FIXED_HOLIDAYS(<.*>)*<(\d{4}|\'\d\d)~.+>
+Guard: eve
+Value: offset_from_date(normalise_two_digit_year({#3}) + fixed_holiday_date[re.sub(r'<([^~]*)~[^>]*>', r'\1', {#1}).lower()], -1)
+
+---
+
+Type: date
+Guard: !years
+Match: <$NTH_DOW_HOLIDAYS~.>(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: "%4d%02d%02d" % (int(normalise_two_digit_year({#3})), nth_dow_holiday_date[{#1}.lower()][0], nth_dow_to_date(nth_dow_holiday_date[{#1}.lower()][0], nth_dow_holiday_date[{#1}.lower()][1], nth_dow_holiday_date[{#1}.lower()][2], int(normalise_two_digit_year({#3}))))
+
+---
+
+Type: date
+Guard: !years
+Match: <$NTH_DOW_HOLIDAYS~.>(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: "%4d%02d%02d" % (int(normalise_two_digit_year({#3})), nth_dow_holiday_date[{#1}.lower()][0], nth_dow_to_date(nth_dow_holiday_date[{#1}.lower()][0], nth_dow_holiday_date[{#1}.lower()][1], nth_dow_holiday_date[{#1}.lower()][2], int(normalise_two_digit_year({#3}))))
+
+---
+
+Type: date
+Guard: !years
+Match: <good~.+><friday~.+>(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: offset_from_date(easter_date(normalise_two_digit_year({#2})), -3)
+
+---
+
+Type: date
+Guard: !years
+Match: (<shrove~.+><tuesday~.+>|<mardis~.+><gras~.+>)(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: offset_from_date(easter_date(normalise_two_digit_year({#3})), -47)
+
+---
+
+Type: date
+Guard: !years
+Match: (<ash~.+><wednesday~.+>)(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: offset_from_date(easter_date(normalise_two_digit_year({#3})), -46)
+
+---
+
+Type: date
+Guard: !years
+Match: (<palm~.+><sunday~.+>)(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: offset_from_date(easter_date(normalise_two_digit_year({#3})), -7)
+
+---
+
+Type: date
+Guard: !years
+Match: (<easter~.+>)(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: easter_date(normalise_two_digit_year({#3}))
+
+---
+
+Type: date
+Guard: !years
+Match: (spring|summer|autumn|fall|winter)(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: normalise_two_digit_year({#3}) + season[{#1}.lower()]
+
+---
+
+Type: date
+Guard: !years
+Match: <(\d{4}|\'\d\d)~.+>
+Value: normalise_two_digit_year({#1})
