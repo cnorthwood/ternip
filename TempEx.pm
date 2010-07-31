@@ -440,30 +440,6 @@ sub TE_AddAttributes {
 		$trailtext = $string;
 		$trailtext =~ s/<[^>]+>//go;
 
-	        # Handle absolute dates 
-		elsif(($b4 =~ /\b($TEmonth|$TEmonthabbr)\b/io) &&
-		      ($b4 !~ /\b(fool|may\s+day)/io)) {
-
-
-		    elsif($b4 =~ /(\d\d?)/o) {
-			$Val .= sprintf("%02d", $1); }
-		    elsif($b4 =~ /$TEOrdinalWords/io) {
-			$Val .= sprintf("%02d", $TE_Ord2Num{lc($1)});
-		    }
-		    elsif($b4 =~ /\bides\b/io) {
-			if($Month =~ /(mar|may|jul|oct)/io) {
-			    $Val .= sprintf("%02d", 15); }
-			else { $Val .= sprintf("%02d", 13); }
-		    }
-		    elsif($b4 =~ /\bnones\b/io) {
-			if($Month =~ /(mar|may|jul|oct)/io) {
-			    $Val .= sprintf("%02d", 7); }
-			else { $Val .= sprintf("%02d", 5); }
-		    }
-		    if(($TEstring =~ /the\s+week\s+(of|in)/io) &&
-		       ($Val =~ /\A\d{8}\Z/)) {
-			$Val = &Date2Week($Val);
-		    }
 
 		} elsif($b4 =~ /$TEFixedHol/io) {
 		    $hol = lc($1);
@@ -2019,20 +1995,6 @@ sub MonthLength {
     return($ML);
 } # End of subroutine MonthLength
 
-
-######################################## 
-sub IsLeapYear {
-    # This is the Gregorian Calendar
-    my($Year);
-    ($Year) = @_;
-
-    if((($Year % 400) == 0) ||
-       ((($Year % 4) == 0) && (($Year % 100) != 0))) {
-	return(1);
-    } else { return(0); }
-
-} # End of subroutine IsLeapYear
-
 ######################################## 
 sub DayOfYear {
     my($Month, $Year, $Day, $ISO, $DOY);
@@ -2073,59 +2035,6 @@ sub Week2Date {
     } else { return "00000001"; }
 
 }  # End of subroutine Week2Date
-
-######################################## 
-sub Date2Week {
-    my($Month, $Year, $Day, $ISO);
-    my($D1, $DOY, $W);
-    ($ISO) = @_;
-    $W = 0;
-
-    if($ISO =~ /\A(\d\d\d\d)(\d\d)(\d\d)/o) {
-	$Year = $1; $Month = $2; $Day = $3;
-	$D1   = "${Year}0101";
-	$D1   = Date2DOW($D1);
-	$DOY  = DayOfYear($ISO);
-
-	if(($D1 > 4) && ($DOY < (7-$DOY))) {
-	    $Year--;
-	    $D1   = "${Year}0101";
-	    $D1   = Date2DOW($D1);
-	    $DOY += 365 + IsLeapYear($Year);
-	}
-	
-	$W = int(($DOY + $D1 +5)/7);
-	if($D1 > 4) { $W--; }
-	$W = sprintf("%4.dW%02.d", $Year, $W);
-	    
-	return($W);
-    } else { return(0); }
-
-} # End of subroutine Date2Week
-
-
-########################################
-# Converts date to Day of Week
-# Sunday = 0, Monday = 1, etc
-sub Date2DOW  {
-    my($YMD, $Month, $Day, $Year);
-    my($A, $Y, $M, $D);
-
-    ($YMD) = (@_);
-    if($YMD =~ /(\d\d\d\d)(\d\d)(\d\d)/o) {
-	$Year  = $1;
-	$Month = $2;
-	$Day   = $3; }
-    else { return "7"; }
-
-    $A = int((14 - $Month)/12);
-    $Y = $Year - $A;
-    $M = $Month + (12 * $A) - 2;
-    $D = ($Day + $Y + int($Y/4) - int($Y/100)
-	  + int($Y/400) + int(31*$M/12)) % 7;
-    return($D);
-
-} # Date2DOW
 
 ########################################
 # Figures the nth DOW in month
