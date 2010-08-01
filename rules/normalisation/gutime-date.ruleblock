@@ -47,12 +47,116 @@ Value: {#1}
 ---
 
 Type: date
+Guard: !years
+Guard: !(fool|<may~.+><day~.+>)
+Match: <($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><weekend~.+><(of|in)~.+><($MONTHS|$MONTH_ABBRS)>(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: date_to_week(int(normalise_two_digit_year({#7})), month_to_num({#5}, ordinal_to_num({#1}) * 7 - 5)) + 'WE'
+
+---
+
+Type: date
+Guard: !years
+Guard: !(fool|<may~.+><day~.+>)
+Match: <($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><week~.+><(of|in)~.+><($MONTHS|$MONTH_ABBRS)>(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: date_to_week(int(normalise_two_digit_year({#7})), month_to_num({#5}, ordinal_to_num({#1}) * 7 - 3))
+
+---
+
+Type: date
 Tokenise: space
 Guard: !years
-Guard: (\d{4}|\'\d\d)
 Guard: !(fool|may\s+day)
-Match: \b($MONTHS|$MONTH_ABBRS)\b
-Value: absolute_date_to_iso(' '.join([tok for (tok, pos, ts) in body]))
+Match: \b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
+Value: normalise_two_digit_year({#4}) + str(month_to_num({#1}))
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: the\s+week\s+(of|in).*(\d\d?|$ORDINAL_WORDS).*\b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
+Value: date_to_week(int(normalise_two_digit_year({#7})), month_to_num({#4}), ordinal_to_num({#2}))
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: (\d\d?|$ORDINAL_WORDS).*\b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
+Value: "%4d%02d%02d" % (int(normalise_two_digit_year({#6})), month_to_num({#3}), ordinal_to_num({#1}))
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: the\s+week\s+(of|in).*\bides\b.*\b(mar(ch)?|may|july?|oct(ober)?)\b.*?(\d{4}|\'\d\d)
+Value: date_to_week(int(normalise_two_digit_year({#5})), month_to_num({#2}), 15)
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: \bides\b.*\b(mar(ch)?|may|july?|oct(ober)?)\b.*?(\d{4}|\'\d\d)
+Value: "%4d%02d%02d" % (int(normalise_two_digit_year({#4})), month_to_num({#1}), 15)
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: the\s+week\s+(of|in).*\bides\b.*\b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
+Value: date_to_week(int(normalise_two_digit_year({#5})), month_to_num({#2}), 13)
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: \bides\b.*\b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
+Value: "%4d%02d%02d" % (int(normalise_two_digit_year({#4})), month_to_num({#1}), 13)
+
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: the\s+week\s+(of|in).*\bnones\b.*\b(mar(ch)?|may|july?|oct(ober)?)\b.*?(\d{4}|\'\d\d)
+Value: date_to_week(int(normalise_two_digit_year({#5})), month_to_num({#2}), 7)
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: \bnones\b.*\b(mar(ch)?|may|july?|oct(ober)?)\b.*?(\d{4}|\'\d\d)
+Value: "%4d%02d%02d" % (int(normalise_two_digit_year({#4})), month_to_num({#1}), 7)
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: the\s+week\s+(of|in).*\bnones\b.*\b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
+Value: date_to_week(int(normalise_two_digit_year({#5})), month_to_num({#2}), 5)
+
+---
+
+Type: date
+Tokenise: space
+Guard: !years
+Guard: !(fool|may\s+day)
+Match: \bnones\b.*\b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
+Value: "%4d%02d%02d" % (int(normalise_two_digit_year({#4})), month_to_num({#1}), 5)
 
 ---
 
@@ -132,3 +236,111 @@ Type: date
 Guard: !years
 Match: <(\d{4}|\'\d\d)~.+>
 Value: normalise_two_digit_year({#1})
+
+---
+
+Type: date
+Match: <years?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = Y
+
+---
+
+Type: date
+Match: <years?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = Y
+
+---
+
+Type: date
+Match: <decades?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = E
+
+---
+
+Type: date
+Match: <months?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = M
+
+---
+
+Type: date
+Match: <weeks?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = W
+
+---
+
+Type: date
+Match: <fortnights?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = W
+
+---
+
+Type: date
+Match: <days?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = D
+
+---
+
+Type: date
+Match: <(while|moon|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
+# dir = -1
+# unit = X
+
+---
+
+Type: date
+Match: <years?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+# dir = 1
+# unit = Y
+
+---
+
+Type: date
+Match: <decades?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+# dir = 1
+# unit = E
+
+---
+
+Type: date
+Match: <months?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+# dir = 1
+# unit = M
+
+---
+
+Type: date
+Match: <weeks?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+# dir = 1
+# unit = W
+
+---
+
+Type: date
+Match: <fortnights?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+# dir = 1
+# unit = W
+
+---
+
+Type: date
+Match: <days?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+# dir = 1
+# unit = D
+
+---
+
+Type: date
+Match: <(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+# dir = 1
+# unit = X
+
+
+#<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<ago~.+>|<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)

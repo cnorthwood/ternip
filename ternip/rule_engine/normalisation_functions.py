@@ -7,7 +7,7 @@ import dateutil.easter
 import re
 
 # Mappings
-month_to_num = {
+_month_to_num = {
     'jan': 1,
     'feb': 2,
     'mar': 3,
@@ -22,7 +22,10 @@ month_to_num = {
     'dec': 12
 }
 
-ordinal_to_num = {
+def month_to_num(m):
+    return _month_to_num[m[:3].lower()]
+
+_ordinal_to_num = {
     "first": 1,
     "second": 2,
     "third": 3,
@@ -55,6 +58,15 @@ ordinal_to_num = {
     "thirtieth": 30,
     "thirty-first": 31
 }
+
+def ordinal_to_num(o):
+    match = re.search(r'\d+', o)
+    if match != None:
+        return match.group()
+    elif o.lower() in _ordinal_to_num:
+        return _ordinal_to_num[o.lower()]
+    else:
+        return 0
 
 timezones = {
     "E": -5,
@@ -219,7 +231,7 @@ def date_to_iso(string):
     if re.search(r'(\d\d?)\s+(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r'\s*\.?)\s*,?\s+(\d\d(\s|\Z)|\d{4}\b)', string, re.I) != None:
         match = re.search(r'(\d\d?)\s+(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r'\s*\.?)\s*,?\s+(\d\d(\s|\Z)|\d{4}\b)', string, re.I)
         d = match.group(1)
-        m = month_to_num[match.group(2)[:3].lower()]
+        m = month_to_num(match.group(2))
         y = match.group(5)
         
     elif re.search(r'(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r'\s*\.?)\s+(\d\d?|' + expressions.ORDINAL_WORDS + r')\b,?\s*(\d\d(\s|\Z)|\d{4}\b)', string, re.I) != None:
@@ -227,8 +239,8 @@ def date_to_iso(string):
         d = match.group(4)
         dm = re.search(expressions.ORDINAL_WORDS, d)
         if dm != None:
-            d = ordinal_to_num[dm.group()]
-        m = month_to_num[match.group(1)[:3].lower()]
+            d = ordinal_to_num(dm.group())
+        m = month_to_num(match.group(1))
         y = match.group(6)
     
     elif re.search(r'(\d\d\d\d)(\/|\-)(\d\d?)\2(\d\d?)', re.sub('\s', '', string)) != None:
@@ -246,7 +258,7 @@ def date_to_iso(string):
     elif re.search(r'(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r'\.?)\s+(\d\d?).+(\d\d\d\d)\b', string) != None:
         match = re.search(r'(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r'\.?)\s+(\d\d?).+(\d\d\d\d)\b', string)
         d = match.group(4)
-        m = month_to_num[match.group(2)[:3].lower()]
+        m = month_to_num(match.group(2))
         y = match.group(5)
         if int(y) > 2100 or int(y) < 1900:
             y = None
@@ -328,65 +340,6 @@ def date_to_dow(y, m, d):
     if w == 7:
         w = 0
     return w
-
-def absolute_date_to_iso(string):
-    v = None
-    d = None
-    match = re.search(r'(\d{4}|\'\d\d)', string, re.I)
-    y = int(normalise_two_digit_year(match.group(1)))
-    before = string[:match.start()]
-    
-    match = re.search(r'\b(' + expressions.MONTHS + r'|' + expressions.MONTH_ABBRS + r')\b', before, re.I)
-    m = month_to_num[match.group(1)[:3].lower()]
-    
-    match = re.search(r'(' + expressions.ORDINAL_WORDS + r'|' + expressions.ORDINAL_NUMS + r')\s+week(end)?\s+(of|in)', before, re.I)
-    if match != None:
-        wk_match = re.search(r'\d+', match.group(1))
-        if wk_match != None:
-            wk = int(wk_match.group(0))
-        else:
-            wk = ordinal_to_num[match.group(1).lower()]
-        
-        if re.search(r'weekend', string, re.I) != None:
-            d = wk * 7 - 5
-        else:
-            d = wk * 7 - 3
-        
-        v = date_to_week(y, m, d)
-        
-        if re.search(r'weekend', string, re.I):
-            v += 'WE'
-    
-    elif re.search(r'(\d\d?)', before) != None:
-        match  = re.search(r'(\d\d?)', before)
-        d = int(match.group(1))
-    
-    elif re.search(expressions.ORDINAL_WORDS, before, re.I) != None:
-        match = re.search(expressions.ORDINAL_WORDS, before, re.I)
-        d = ordinal_to_num[match.group(1).lower()]
-    
-    elif re.search(r'\bides\b', before, re.I) != None:
-        match = re.search(r'\bides\b', before, re.I)
-        if m == 3 or m == 5 or m == 7 or m == 10:
-            d = 15
-        else:
-            d = 13
-    
-    elif re.search(r'\bnones\b', before, re.I) != None:
-        match = re.search(r'\bnones\b', before, re.I)
-        if m == 3 or m == 5 or m == 7 or m == 10:
-            d = 7
-        else:
-            d = 5
-    
-    if v == None:
-        if d != None:
-            if re.search(r'the\s+week\s+(of|in)', string, re.I):
-                v = date_to_week(y, m, d)
-            else:
-                v = "%4d%02d%02d" % (y, m, d)
-        else:
-            v = "%4d%02d" % (y, m)
 
 def offset_from_date(v, offset, gran='D'):
     if len(v) >= 4:
