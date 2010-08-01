@@ -15,7 +15,7 @@ class tempeval2_test(unittest.TestCase):
     
     def test_load_multi(self):
         with open(os.path.normpath('tests/formats/base-segmentation-multi.tab')) as fd:
-            ds = ternip.formats.tempeval2.load_multi(fd.read())
+            ds = ternip.formats.tempeval2.load_multi(fd.read(), '')
         self.assertEquals(2, len(ds))
         self.assertTrue('ABC1' in [d.docid for d in ds])
         self.assertTrue('ABC2' in [d.docid for d in ds])
