@@ -37,6 +37,7 @@ class normalisation_rule_engine(rule_engine):
         after_guards  = []
         after         = []
         tokenise      = True
+        deliminate_numbers = False
         
         for key in d:
             
@@ -90,6 +91,20 @@ class normalisation_rule_engine(rule_engine):
                 elif (len(d[key]) > 1):
                     raise rule_load_error(filename, "Too many 'Tokenise' fields")
             
+            # Deliminate-Numbers is an optional field, defaulting to False, which
+            # accepts either true or false (case-insensitive) as values
+            elif key == 'deliminate-numbers':
+                if (len(d[key]) == 1):
+                    deliminate_numbers = d[key][0].lower()
+                    if deliminate_numbers == 'true':
+                        deliminate_numbers = True
+                    elif deliminate_numbers == 'false':
+                        deliminate_numbers = False
+                    else:
+                        raise rule_load_error(filename, "Deliminate-Numbers must be either 'True' or 'False'")
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Deliminate-Numbers' fields")
+            
             # error on unknown fields
             else:
                 raise rule_load_error(filename, "Unknown field '" + key + "'")
@@ -100,9 +115,12 @@ class normalisation_rule_engine(rule_engine):
         if match is None:
             raise rule_load_error(filename, "'Match' is a compulsory field")
         
+        if deliminate_numbers and tokenise != True:
+            raise rule_load_error(filename, "'Deliminate-Numbers' can not be set if Tokenise is")
+        
         # Guard against any RE errors
         try:
-            return normalisation_rule(match, type, id, value, guards, after_guards, before_guards, after, tokenise)
+            return normalisation_rule(match, type, id, value, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     

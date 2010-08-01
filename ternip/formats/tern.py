@@ -59,3 +59,23 @@ class tern(timex2.timex2):
     
     def __init__(self, file, nodename='TEXT', has_S=False, has_LEX=False, pos_attr=False):
         timex2.timex2.__init__(self, file, nodename, has_S, has_LEX, pos_attr)
+    
+    def get_dct_sents(self):
+        """
+        Returns the creation time sents for this document.
+        """
+        
+        old_xml_body = self._xml_body
+        self._xml_body = self._xml_doc.documentElement.getElementsByTagName('DATE_TIME')[0]
+        s = self.get_sents()
+        self._xml_body = old_xml_body
+        return s
+    
+    def reconcile_dct(self, dct):
+        """
+        Adds a TIMEX to the DCT tag and return the DCT
+        """
+        old_xml_body = self._xml_body
+        self._xml_body = self._xml_doc.documentElement.getElementsByTagName('DATE_TIME')[0]
+        self.reconcile(dct)
+        self._xml_body = old_xml_body

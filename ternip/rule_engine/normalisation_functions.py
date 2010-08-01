@@ -6,6 +6,8 @@ import datetime
 import dateutil.easter
 import re
 
+from operator import itemgetter
+
 # Mappings
 _month_to_num = {
     'jan': 1,
@@ -24,6 +26,23 @@ _month_to_num = {
 
 def month_to_num(m):
     return _month_to_num[m[:3].lower()]
+
+
+_day_to_num = {
+    "sunday": 0,
+    "monday": 1,
+    "tuesday": 2,
+    "wednesday": 3,
+    "thursday": 4,
+    "friday": 5,
+    "saturday": 6
+}
+
+def day_to_num(day):
+    if day.lower() in _day_to_num:
+        return _day_to_num[day.lower()]
+    else:
+        return 7
 
 _ordinal_to_num = {
     "first": 1,
@@ -341,50 +360,89 @@ def date_to_dow(y, m, d):
         w = 0
     return w
 
-def offset_from_date(v, offset, gran='D'):
-    if len(v) >= 4:
-        y = v[:4]
-    else:
-        y = None
+def offset_from_date(v, offset, gran='D', exact=False):
     
-    if len(v) >= 6:
-        m = v[4:6]
-    else:
-        m = None
+    # Convert long forms into short units
+    units_to_gran = {
+        'day': 'D',
+        'week': 'W',
+        'fortnight': 'F',
+        'month': 'M',
+        'year': 'Y',
+        'decade': 'E',
+        'century': 'C',
+        'centurie': 'C'
+    }
+    
+    if gran.lower() in units_to_gran:
+        gran = units_to_gran[gran.lower()]
+    
+    # Extract date components into a datetime object for manipulation
+    y = int(v[:4])
+    m = int(v[4:6])
     
     if len(v) >= 8:
-        d = v[6:8]
+        d = int(v[6:8])
+        really_d = True
     else:
-        d = None
+        really_d = False
+        d = 1
     
     if len(v) >= 11:
-        h = v[9:11]
+        h = int(v[9:11])
     else:
         h = None
+        dt = datetime.datetime(y, m, d)
     
-    if len(v) >= 13:
-        min = v[11:13]
+    if len(v) >= 14:
+        min = int(v[12:14])
     else:
         min = None
+        if h != None:
+            dt = datetime.datetime(y, m, d, h)
     
-    dt = datetime.datetime(y, m, d, h, min, s)
+    if len(v) >= 17:
+        s = int(v[15:17])
+        dt = datetime.datetime(y, m, d, h, min, s)
+    else:
+        s = None
+        if min != None:
+            dt = datetime.datetime(y, m, d, h, min)
     
+    # Do manipulations
     if gran == 'TM':
         # minutes
         dt += datetime.timedelta(minutes=offset)
         return dt.strftime('%Y%m%dT%H%M')
+    
     elif gran == 'TH':
         # hours
         dt += datetime.timedelta(hours=offset)
-        return dt.strftime('%Y%m%dT%H%M')
+        if exact:
+            return dt.strftime('%Y%m%dT%H%M')
+        else:
+            return dt.strftime('%Y%m%dT%H')
+    
     elif gran == 'D':
         # days
         dt += datetime.timedelta(days=offset)
-        return dt.strftime('%Y%m%d')
-    elif gran == 'W':
-        # weeks
+        if exact and min != None:
+            return dt.strftime('%Y%m%dT%H%M')
+        elif exact and h != None:
+            return dt.strftime('%Y%m%dT%H')
+        else:
+            return dt.strftime('%Y%m%d')
+    
+    elif gran == 'W' or gran == 'F':
+        # weeks/fortnights
+        if gran == 'F':
+            offset *= 2
         dt += datetime.timedelta(weeks=offset)
-        return dt.strftime('%YW%W')
+        if exact:
+            return dt.strftime('%Y%m%d')
+        else:
+            return dt.strftime('%YW%W')
+    
     elif gran == 'M':
         # months - timedelta rather annoyingly doesn't support months, so we
         # need to do a bit more work here
@@ -400,17 +458,59 @@ def offset_from_date(v, offset, gran='D'):
             m = 12
             y -= 1
         
-        dt = datetime.datetime(y, m, 1)
-        return dt.strftime('%Y%m')
-    elif gran == 'Y':
-        # years - again, need to do a bit more work
+        # avoid bad days
+        dt = None
+        while dt == None and d > 0:
+            try:
+                dt = datetime.datetime(y, m, d)
+            except ValueError:
+                d -= 1
+        
+        if exact:
+            return dt.strftime('%Y%m%d')
+        else:
+            return dt.strftime('%Y%m')
+    
+    elif gran == 'Y' or gran == 'E' or gran == 'C':
+        # years/decades/centuries - again, need to do a bit more work
+        if gran == 'C':
+            offset *= 100
+        if gran == 'E':
+            offset *= 10
         if d == 29 and m == 2 and not calendar.isleap(y + offset):
             # eugh, mucking about with a date that's not going to be in the
             # target year - fall back
             d = 28
         y += offset
-        dt = datetime.datetime(y, m, d, h, min, s)
-        return dt.strftime('%Y')
+        dt = datetime.datetime(y, m, d)
+        if not exact and gran == 'C':
+            return dt.strftime('%Y')[:2]
+        elif not exact and gran == 'E':
+            return dt.strftime('%Y')[:3]
+        elif exact and really_d:
+            return dt.strftime('%Y%m%d')
+        elif exact and not really_d:
+            return dt.strftime('%Y%m')
+        else:
+            return dt.strftime('%Y')
+    
+    elif offset > 1:
+        return 'FUTURE_REF'
+    
+    elif offset < 1:
+        return 'PAST_REF'
+    
+    elif min != None:
+        return dt.strftime('%Y%m%dT%H%M')
+        
+    elif h != None:
+        return dt.strftime('%Y%m%dT%H')
+        
+    elif really_d:
+        return dt.strftime('%Y%m%d')
+        
+    else:
+        return dt.strftime('%Y%m')
 
 def easter_date(y):
     """
@@ -437,3 +537,73 @@ def nth_dow_to_date(m, dow, n, y):
         shift += 7
     
     return shift + (7 * n) - 6
+
+def compute_relative_date(ref_date, expression, current_direction):
+    if expression is None:
+        return ref_date
+    match = re.search(expressions.DAYS, expression, re.I)
+    if match != None:
+        day = day_to_num(match.group())
+        t = day - date_to_dow(int(ref_date[:4]), int(ref_date[4:6]), int(ref_date[6:8]))
+        if t > 0 and current_direction < 0:
+            t -= 7
+        if t < 0 and current_direction > 0:
+            t += 7
+        return offset_from_date(ref_date, t)
+    elif expression.lower().contains('yesterday'):
+        return offset_from_date(ref_date, -1)
+    elif expression.lower().contains('tomorrow'):
+        return offset_from_date(ref_date, 1)
+    else:
+        return ref_date
+
+def words_to_num(words):
+    """ Converted from GUTime """
+    if words is None:
+        return 0
+    
+    words = words.lower()
+    
+    # Eliminate unnecessary things
+    words = re.sub(r'NUM_START', r'', words).strip()
+    words = re.sub(r'NUM_END', r'', words).strip()
+    words = re.sub(r'<([^~]*)[^>]*>', r'\1 ', words).strip()
+    words = words.strip()
+    words = re.sub(r'-', '', words)
+    words = re.sub(r',', '', words)
+    words = re.sub(r'\sand', '', words)
+    words = re.sub(r'^a', 'one', words)
+    
+    # convert to list
+    words = words.split()
+    
+    for i in range(len(words)):
+        if words[i] in word_to_num:
+            words[i] = word_to_num[words[i]]
+        elif words[i] in _ordinal_to_num and len(words) == i:
+            words[i] = ordinal_to_num(words[i])
+    
+    return _words_to_num(words)
+
+def _words_to_num(nums):
+    
+    # base case
+    if len(nums) == 1:
+        return nums[0]
+    
+    # find highest number in string
+    (highest_num, highest_num_i) = max(zip(nums, range(len(nums))), key=itemgetter(0))
+    before = nums[:highest_num_i]
+    after = nums[highest_num_i+1:]
+    
+    if len(before) > 0:
+        before = _word_to_nums(before)
+    else:
+        before = 1
+    
+    if len(after) > 0:
+        after = _word_to_nums(after)
+    else:
+        after = 0
+    
+    return (before * highest_num) + after_num

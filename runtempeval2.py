@@ -26,7 +26,11 @@ print "TERNIP loaded", normaliser.num_rules, "normalisation rules"
 # Load testing data
 data_path = os.path.normpath('sample_data/tempeval-training-2/english/data/')
 with open(os.path.join(data_path, 'base-segmentation.tab')) as fd:
-    docs = ternip.formats.tempeval2.load_multi(fd.read())
+    with open(os.path.join(data_path, 'dct.txt')) as dct_fd:
+        docs = ternip.formats.tempeval2.load_multi(fd.read(), dct_fd.read())
+
+# Get DCTs
+
 
 temp = tempfile.mkdtemp()
 
@@ -71,7 +75,7 @@ for doc in docs:
     # Now do it in TERNIP
     start = time.clock()
     sents = recogniser.tag(doc.get_sents())
-    normaliser.annotate(sents, "")
+    normaliser.annotate(sents, doc.dct)
     doc.reconcile(sents)
     ternip_time += time.clock() - start
     

@@ -21,7 +21,8 @@ class normalisation_rule(rule.rule):
                        after_guards  = [],
                        before_guards = [],
                        after         = [],
-                       tokenise      = True):
+                       tokenise      = True,
+                       deliminate_numbers = False):
         """
         Create a normalisation rule, with a number of optional arguments. If
         tokenise is set to true, then regex's are in the form to be used with
@@ -58,6 +59,7 @@ class normalisation_rule(rule.rule):
         self._match           = re.compile(self._prep_re(match, tokenise), re.IGNORECASE)
         self.after            = after
         self._tokenise        = tokenise
+        self._deliminate_numbers = deliminate_numbers
         
         # replace our group short form, e.g., {#6} with actual Python code
         # it would be nice to support named groups, but this'll do for now
@@ -99,6 +101,8 @@ class normalisation_rule(rule.rule):
         # Now, check if we match:
         if self._tokenise == True:
             senttext = self._toks_to_str(body)
+            if self._deliminate_numbers:
+                senttext = self._do_deliminate_numbers(senttext)
         else:
             senttext = self._tokenise.join([tok for (tok, pos, ts) in body])
         

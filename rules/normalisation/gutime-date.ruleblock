@@ -240,107 +240,31 @@ Value: normalise_two_digit_year({#1})
 ---
 
 Type: date
-Match: <years?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = Y
+Before-Guard: <(exact|precise).*>$
+Deliminate-Numbers: true
+Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 
 Type: date
-Match: <years?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = Y
+After-Guard: ^<(exact|precise).*>
+Deliminate-Numbers: true
+Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 
 Type: date
-Match: <decades?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = E
+Deliminate-Numbers: true
+Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_relative_date(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 
 Type: date
-Match: <months?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = M
-
----
-
-Type: date
-Match: <weeks?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = W
-
----
-
-Type: date
-Match: <fortnights?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = W
-
----
-
-Type: date
-Match: <days?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = D
-
----
-
-Type: date
-Match: <(while|moon|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>)?<(now|today|tomorrow|yesterday|$DAYS)~.+>
-# dir = -1
-# unit = X
-
----
-
-Type: date
-Match: <years?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-# dir = 1
-# unit = Y
-
----
-
-Type: date
-Match: <decades?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-# dir = 1
-# unit = E
-
----
-
-Type: date
-Match: <months?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-# dir = 1
-# unit = M
-
----
-
-Type: date
-Match: <weeks?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-# dir = 1
-# unit = W
-
----
-
-Type: date
-Match: <fortnights?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-# dir = 1
-# unit = W
-
----
-
-Type: date
-Match: <days?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-# dir = 1
-# unit = D
-
----
-
-Type: date
-Match: <(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
-# dir = 1
-# unit = X
-
+Deliminate-Numbers: true
+Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>
+Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#4}, False)
 
 #<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<ago~.+>|<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)

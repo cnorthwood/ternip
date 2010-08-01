@@ -110,8 +110,15 @@ for i in range(len(unannotated)):
         # Now reopen this document cleanly for TERNIP
         with open(unannotated[i]) as fd:
             doc = ternip.formats.tern(fd.read())
+        
+        # Get DCT
+        dct_sents = doc.get_dct_sents()
+        dct_sents = recogniser.tag(dct_sents)
+        normaliser.annotate(dct_sents, 'XXXXXXXX')
+        doc.reconcile_dct(dct_sents)
+        dct = dct_sents[0][0][2].pop().value
         sents = recogniser.tag(doc.get_sents())
-        normaliser.annotate(sents, "")
+        normaliser.annotate(sents, dct)
         
         # Add TIMEX tags back in
         doc.reconcile(sents)

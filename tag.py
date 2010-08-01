@@ -74,6 +74,9 @@ if options.strip_timexes:
 # Get internal representation
 sents = doc.get_sents()
 
+# Get DCT
+dct_sents = doc.get_dct_sents()
+
 # Load correct recognition engine
 if options.recognition_engine is None:
     recogniser = None
@@ -87,6 +90,7 @@ else:
 
 # Do recognition
 if recogniser is not None:
+    dct_sents = recogniser.tag(dct_sents)
     sents = recogniser.tag(sents)
 
 # Load correct recognition engine
@@ -102,7 +106,11 @@ else:
 
 # Do normalisation
 if normaliser is not None:
-    normaliser.annotate(sents, "")
+    normaliser.annotate(dct_sents, 'XXXXXXXX')
+    doc.reconcile_dct(dct_sents)
+    # Get dct value
+    dct = dct_sents[0][0][2].pop().value
+    normaliser.annotate(sents, dct)
     
 # Now apply the changes back to the internal document
 doc.reconcile(sents)

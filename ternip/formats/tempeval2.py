@@ -28,12 +28,17 @@ class tempeval2:
         return d
     
     @staticmethod
-    def load_multi(file):
+    def load_multi(file, dct_file):
         """
         Load multiple documents from a single base-segmentation.tab
         """
         
         ds = defaultdict(list)
+        dcts = defaultdict(str)
+        
+        for line in dct_file.splitlines():
+            parts = line.split('\t')
+            dcts[parts[0]] = parts[1]
         
         for line in file.splitlines():
             parts = line.split('\t')
@@ -42,11 +47,11 @@ class tempeval2:
         docs = []
         
         for d in ds:
-            docs.append(tempeval2('\n'.join(ds[d]), d))
+            docs.append(tempeval2('\n'.join(ds[d]), d, dcts[d]))
         
         return docs
     
-    def __init__(self, file, docid=''):
+    def __init__(self, file, docid='', dct='XXXXXXXX'):
         """
         Load a document
         """
@@ -66,6 +71,7 @@ class tempeval2:
                 tok_sents[i].insert(j, parts[3])
         
         self._sents = [[(tok, pos, set()) for (tok, pos) in nltk.tag.pos_tag(tok_sent)] for tok_sent in tok_sents]
+        self.dct = dct
     
     def get_sents(self):
         """
@@ -73,6 +79,18 @@ class tempeval2:
         [[(word, pos, timexes), ...], ...] format.
         """
         return copy.deepcopy(self._sents)
+    
+    def get_dct_sents(self):
+        """
+        Returns the creation time sents for this document.
+        """
+        return [[(self.dct, 'DCT', set())]]
+    
+    def reconcile_dct(self, dct):
+        """
+        Adds a TIMEX to the DCT tag and return the DCT
+        """
+        pass
     
     def reconcile(self, sents):
         """

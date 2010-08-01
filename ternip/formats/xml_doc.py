@@ -854,6 +854,18 @@ class xml_doc:
         String representation of this document
         """
         return self._xml_doc.toxml()
+    
+    def get_dct_sents(self):
+        """
+        Returns the creation time sents for this document.
+        """
+        return 'XXXXXXXX'
+    
+    def reconcile_dct(self, dct):
+        """
+        Adds a TIMEX to the DCT tag and return the DCT
+        """
+        pass
 
 class tokenise_error(Exception):
     
