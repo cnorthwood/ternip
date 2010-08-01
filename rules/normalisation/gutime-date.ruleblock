@@ -242,7 +242,7 @@ Value: normalise_two_digit_year({#1})
 Type: date
 Before-Guard: <(exact|precise).*>$
 Deliminate-Numbers: true
-Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
 Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
@@ -250,21 +250,107 @@ Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words
 Type: date
 After-Guard: ^<(exact|precise).*>
 Deliminate-Numbers: true
-Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
 Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 
 Type: date
 Deliminate-Numbers: true
-Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
 Value: offset_from_date(compute_relative_date(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 
 Type: date
 Deliminate-Numbers: true
-Match: (<a~.+>|NUM_START(.*)NUM_END)?(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>
 Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#4}, False)
 
-#<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<ago~.+>|<hence~.+>|<before~.+><last~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+---
+
+Type: date
+Before-Guard: <(exact|precise).*>$
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_relative_date(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
+
+---
+
+Type: date
+After-Guard: ^<(exact|precise).*>
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_relative_date(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>
+Value: offset_from_date(cur_context, words_to_num({#1}), {#4}, False)
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: <about~.+>(<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, False)
+
+---
+
+Type: date
+Before-Guard: <(exact|precise).*>$
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+
+---
+
+Type: date
+After-Guard: ^<(exact|precise).*>
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><before~.+><last~.+>
+Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#4}, False)
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><after~.+><next~.+>
+Value: offset_from_date(cur_context, words_to_num({#1}), {#4}, False)
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: <(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<hence~.+>|<after~.+><next~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
+Value: 'FUTURE_REF'
+
+---
+
+Type: date
+Deliminate-Numbers: true
+Match: <(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<ago~.+>|<before~.+><last~.+>)
+Value: 'PAST_REF'

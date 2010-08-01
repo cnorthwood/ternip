@@ -573,6 +573,7 @@ def words_to_num(words):
     words = re.sub(r',', '', words)
     words = re.sub(r'\sand', '', words)
     words = re.sub(r'^a', 'one', words)
+    words = re.sub(r'^the', 'one', words)
     
     # convert to list
     words = words.split()
@@ -582,6 +583,8 @@ def words_to_num(words):
             words[i] = word_to_num[words[i]]
         elif words[i] in _ordinal_to_num and len(words) == i:
             words[i] = ordinal_to_num(words[i])
+        else:
+            words[i] = int(words[i])
     
     return _words_to_num(words)
 
