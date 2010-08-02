@@ -391,22 +391,6 @@ sub TE_AddAttributes {
 		}
 		$FoundVal = 1;
 	    }  # each|every|alternate
-	    elsif(($TEstring =~ /(morning|afternoon|evening|night)s/io) &&
-		  ($TEstring =~ /\b$TEday\b/oi)) {
-		$Val = $Day2Num{lc($1)};
-		if($TEstring =~ /morning/io) { $Val .= "TMO"; }
-		elsif($TEstring =~ /afternoon/io) { $Val .= "TAF"; }
-		elsif($TEstring =~ /evening/io) { $Val .= "TEV"; }
-		elsif($TEstring =~ /night/io) { $Val .= "TNI"; }
-		$Attributes .= " $valTagName=\"XXXXWXX-$Val\"";
-		$Attributes .= " PERIODICITY=\"F1W\"";
-		$FoundVal = 1;
-	    }
-	    elsif($TEstring =~ /($TEday)s/io) {
-		$Val = $Day2Num{lc($1)};
-		$Attributes .= " $valTagName=\"XXXXWXX-$Val\"";
-		$Attributes .= " PERIODICITY=\"F1W\" GRANULARITY=\"G1D\"";
-	    }
 
 	    # periods
 	    elsif($TEstring =~ /((annual|year|month|week|dai|hour|night)ly|annual)/io) {

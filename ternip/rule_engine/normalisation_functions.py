@@ -195,11 +195,14 @@ season = {
 
 # Convert long forms into short units
 _units_to_gran = {
+    'dai': 'D',
+    'night': 'D',
     'day': 'D',
     'week': 'W',
     'fortnight': 'F',
     'month': 'M',
     'year': 'Y',
+    'annual': 'Y',
     'decade': 'E',
     'century': 'C',
     'centurie': 'C'

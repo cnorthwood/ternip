@@ -378,3 +378,89 @@ Value: 'FUTURE_REF'
 Type: date
 Match: ^(<once~.+>|<medieval~.+>|<the~.+><past~.+>)$
 Value: 'PAST_REF'
+
+---
+
+# Rules handling sets
+
+Type: date
+Match: (every|each|alternate)
+Change-Type: 'set'
+
+# this is an incomplete conversion
+
+---
+
+Type: date
+Guard: morning
+Match: $DAYS
+Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TMO'
+
+---
+
+Type: date
+Guard: afternoon
+Match: $DAYS
+Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TAF'
+
+---
+
+Type: date
+Guard: evening
+Match: $DAYS
+Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TEV'
+
+---
+
+Type: date
+Guard: night
+Match: $DAYS
+Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TNI'
+
+---
+
+Type: date
+Match: $DAYS
+Value: 'XXXXWXX' + str(day_to_num({#1}))
+
+---
+
+Type: date
+Match: bi(annual|year|month|week|dai|hour|night)ly
+Value: 'P2' + units_to_gran({#1})
+
+---
+
+Type: date
+Match: fortnightly
+Value: 'P2W'
+
+---
+
+Type: date
+Match: (annual|year|month|week|dai|hour|night)ly
+Value: 'P1' + units_to_gran({#1})
+
+---
+
+Type: date
+Match: biannual
+Value: 'P2Y'
+
+---
+
+Type: date
+Match: annual
+Value: 'P1Y'
+
+---
+
+Type: date
+Match: <day~.+><before~.+><yesterday~.+>
+Value: offset_from_date(cur_context, -2)
+
+---
+
+Type: date
+Match: <yesterday~.+>
+Value: offset_from_date(cur_context, -1)
