@@ -354,3 +354,27 @@ Type: date
 Deliminate-Numbers: true
 Match: <(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+>(<ago~.+>|<before~.+><last~.+>)
 Value: 'PAST_REF'
+
+---
+
+Type: date
+Match: <($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>(<.*>)*<century~.*>
+Value: str(ordinal_to_num({#1}) - 1)
+
+---
+
+Type: date
+Match: ^<(now|current)~.*>$
+Value: 'PRESENT_REF'
+
+---
+
+Type: date
+Match: <future~.*>
+Value: 'FUTURE_REF'
+
+---
+
+Type: date
+Match: ^(<once~.+>|<medieval~.+>|<the~.+><past~.+>)$
+Value: 'PAST_REF'

@@ -344,33 +344,8 @@ sub TE_AddAttributes {
 	if($Type eq "date") {
 	   	
 
-	    # Century
-	    if(($TEstring =~ /century/oi) && ($b4 = $`) &&
-		  ($b4 =~ /($TENumOrds|$TEOrdinalWords)/io)) {
-		$temp1 = $&;
-		if($temp1 =~ /\d+/o) { $temp2 = $& - 1; }
-		elsif(defined($TE_Ord2Num{lc($temp1)})) {
-		    $temp2 = $TE_Ord2Num{lc($temp1)} - 1; }
-		$Attributes .= " $valTagName=\"$temp2\"";
-		$FoundVal = 1;
-	    }
-	    
-	    # Some REFs
-	    elsif($TEstring =~ /\A(now|current)\Z/oi) {
-		$Attributes .= " $valTagName=\"PRESENT_REF\"";
-		$FoundVal = 1;
-	    }
-	    elsif($TEstring =~ /(future)/oi) {
-		$Attributes .= " $valTagName=\"FUTURE_REF\"";
-		$FoundVal = 1;
-	    }
-	    elsif($TEstring =~ /\A(once|medieval|the\s+past)\Z/oi) {
-		$Attributes .= " $valTagName=\"PAST_REF\"";
-		$FoundVal = 1;
-	    }
-
 	    # generic
-	    elsif($TEstring =~ /(every|each|alternate)/io) {
+	    if($TEstring =~ /(every|each|alternate)/io) {
 		$Attributes .= " SET=\"YES\"";
 		if($TEstring =~ /alternate/io) { $temp2 = 2; }
 		elsif($TEstring =~ /every\s+other/io) { $temp2 = 2; }
