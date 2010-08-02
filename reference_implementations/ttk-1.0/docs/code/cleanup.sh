@@ -1,2 +1,0 @@
-rm functions/*
-rm modules/*
