@@ -38,13 +38,16 @@ class normalisation_rule_engine(rule_engine):
         after         = []
         tokenise      = True
         deliminate_numbers = False
+        change_type   = None
+        periodicity   = None
+        granuality    = None
         
         for key in d:
             
             # Only one 'Type' field allowed
             if key == 'type':
                 if (len(d[key]) != 1):
-                    raise rule_load_error(filename, "There must be exactly 1 'Type' field")
+                    raise rule_load_error(filename, "Too many 'Type' field")
                 else:
                     type = d[key][0]
             
@@ -68,6 +71,27 @@ class normalisation_rule_engine(rule_engine):
                     value = d[key][0]
                 elif (len(d[key]) > 1):
                     raise rule_load_error(filename, "Too many 'Value' fields")
+            
+            # No more than one Change-Type key allowed
+            elif key == 'change-type':
+                if (len(d[key]) == 1):
+                    change_type = d[key][0]
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Change-Type' fields")
+            
+            # No more than one Periodicity key allowed
+            elif key == 'periodicity':
+                if (len(d[key]) == 1):
+                    periodicity = d[key][0]
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Periodicity' fields")
+            
+            # No more than one Granuality key allowed
+            elif key == 'granuality':
+                if (len(d[key]) == 1):
+                    granuality = d[key][0]
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Granuality' fields")
             
             # set optional fields
             elif key == 'guard':
@@ -109,9 +133,6 @@ class normalisation_rule_engine(rule_engine):
             else:
                 raise rule_load_error(filename, "Unknown field '" + key + "'")
         
-        if type is None:
-            raise rule_load_error(filename, "'Type' is a compulsory field")
-        
         if match is None:
             raise rule_load_error(filename, "'Match' is a compulsory field")
         
@@ -120,7 +141,7 @@ class normalisation_rule_engine(rule_engine):
         
         # Guard against any RE errors
         try:
-            return normalisation_rule(match, type, id, value, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
+            return normalisation_rule(match, type, id, value, change_type, periodicity, granuality, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     

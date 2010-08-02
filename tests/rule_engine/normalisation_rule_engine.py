@@ -29,6 +29,6 @@ class normalisation_rule_engine_Test(unittest.TestCase):
         try:
             r.load_rules('tests/rule_engine/test_normalisation_rules_malformed/')
         except ternip.rule_engine.rule_load_errors as e:
-            self.assertEquals(len(e.errors), 8, "These errors were raised: " + str(e))
+            self.assertEquals(len(e.errors), 7, "These errors were raised: " + str(e))
         else:
             self.fail('No exceptions were raised/caught')

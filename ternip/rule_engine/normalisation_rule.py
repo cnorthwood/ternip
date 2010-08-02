@@ -14,9 +14,12 @@ class normalisation_rule(rule.rule):
     _DEBUG = False
     
     def __init__(self, match,
-                       type,
-                       id,
+                       type          = None,
+                       id            = '',
                        value         = None,
+                       change_type   = None,
+                       periodicity   = None,
+                       granuality    = None,
                        guards        = [],
                        after_guards  = [],
                        before_guards = [],
@@ -68,6 +71,21 @@ class normalisation_rule(rule.rule):
         else:
             self._value_exp = None
         
+        if change_type != None:
+            self._type_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', change-type), id + ':change-type', 'eval')
+        else:
+            self._type_exp = None
+        
+        if periodicity != None:
+            self._periodicity_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', periodicity), id + ':periodicity', 'eval')
+        else:
+            self._periodicity_exp = None
+        
+        if granuality != None:
+            self._granuality_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', granuality), id + ':granuality', 'eval')
+        else:
+            self._granuality_exp = None
+        
         # Load guards
         self._guards = self._load_guards(guards, tokenise)
         self._before_guards = self._load_guards(before_guards, tokenise)
@@ -85,7 +103,7 @@ class normalisation_rule(rule.rule):
         """
         
         # Check this rule type matches the timex type
-        if timex.type != self._type:
+        if timex.type != self._type and self._type != None:
             return (False, cur_context)
         
         # Check before, after and whole sentence guards
@@ -116,6 +134,15 @@ class normalisation_rule(rule.rule):
             
             if self._value_exp != None:
                 timex.value = eval(self._value_exp)
+            
+            if self._type_exp != None:
+                timex.type = eval(self._type_exp)
+            
+            if self._periodicity_exp != None:
+                timex.periodicity = eval(self._periodicity_exp)
+            
+            if self._granuality_exp != None:
+                timex.granuality = eval(self._granuality_exp)
             
             # Need to update current time context, if necessary
             return (True, cur_context)
