@@ -81,7 +81,7 @@ _ordinal_to_num = {
 def ordinal_to_num(o):
     match = re.search(r'\d+', o)
     if match != None:
-        return match.group()
+        return int(match.group())
     elif o.lower() in _ordinal_to_num:
         return _ordinal_to_num[o.lower()]
     else:
@@ -192,6 +192,24 @@ season = {
     "fall":   "FA",
     "winter": "WI"
 }
+
+# Convert long forms into short units
+_units_to_gran = {
+    'day': 'D',
+    'week': 'W',
+    'fortnight': 'F',
+    'month': 'M',
+    'year': 'Y',
+    'decade': 'E',
+    'century': 'C',
+    'centurie': 'C'
+}
+
+def units_to_gran(unit):
+    if unit.lower() in _units_to_gran:
+        return _units_to_gran[unit.lower()]
+    else:
+        return unit
 
 # Functions for normalisation rules to use
 def normalise_two_digit_year(y):
@@ -362,20 +380,7 @@ def date_to_dow(y, m, d):
 
 def offset_from_date(v, offset, gran='D', exact=False):
     
-    # Convert long forms into short units
-    units_to_gran = {
-        'day': 'D',
-        'week': 'W',
-        'fortnight': 'F',
-        'month': 'M',
-        'year': 'Y',
-        'decade': 'E',
-        'century': 'C',
-        'centurie': 'C'
-    }
-    
-    if gran.lower() in units_to_gran:
-        gran = units_to_gran[gran.lower()]
+    gran = units_to_gran(gran)
     
     # Extract date components into a datetime object for manipulation
     y = int(v[:4])

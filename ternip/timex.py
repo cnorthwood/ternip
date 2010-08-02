@@ -7,12 +7,9 @@
 # mod           mod         mod
 # type          set         type
 #               (only if type=set)
-# freq          periodicity freq
-#               ('f' + freq)
+# freq          None        freq
 # quant         None        quant
-# granuality    granuality  None
 # comment       comment     comment
-# non_specific  non_specific None
 # temporal_function None    temporalFunction
 # role          None        functionInDocument
 # begin_timex   None        beginPoint (ID of begin_timex)
@@ -33,9 +30,7 @@ class timex:
         self.mod        = None
         self.freq       = None
         self.quant      = None
-        self.granuality = None
         self.comment    = None
-        self.non_specific = False
         self.temporal_function = False
         self.document_role = None
         self.begin_timex = None

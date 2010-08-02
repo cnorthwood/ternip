@@ -50,7 +50,7 @@ for doc in docs:
     gutime_in = os.path.join(temp, doc.docid + '.input')
     gutime_out = os.path.join(temp, doc.docid)
     start = time.clock()
-    xml_doc = ternip.formats.tern.create(doc.get_sents(), doc.docid, add_S='s', add_LEX='lex', pos_attr='pos')
+    xml_doc = ternip.formats.tern.create(doc.get_sents(), doc.docid, add_S='s', add_LEX='lex', pos_attr='pos', dct=doc.dct)
     with open(gutime_in, 'w') as fd:
         fd.write(str(xml_doc)[22:])
     

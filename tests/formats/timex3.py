@@ -23,8 +23,6 @@ class timex3_Test(unittest.TestCase):
         t.mod = "BEFORE"
         t.freq = "1M"
         t.comment = "Test"
-        t.granuality = "1D"
-        t.non_specific = True
         t.quant = 'EVERY'
         t.temporal_function = True
         t.document_role = 'MODIFICATION_TIME'
@@ -43,7 +41,6 @@ class timex3_Test(unittest.TestCase):
         self.assertEquals(t.mod, "BEFORE")
         self.assertEquals(t.freq, "1M")
         self.assertEquals(t.comment, "Test")
-        self.assertEquals(t.non_specific, False)
         self.assertEquals(t.quant, 'EVERY')
         self.assertEquals(t.temporal_function, True)
         self.assertEquals(t.document_role, 'MODIFICATION_TIME')

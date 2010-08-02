@@ -20,10 +20,8 @@ class timex2_Test(unittest.TestCase):
         t.mod = "BEFORE"
         t.freq = "1M"
         t.comment = "Test"
-        t.granuality = "1D"
-        t.non_specific = True
         s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t])), ('annotated', 'POS', set([t])), ('text', 'POS', set([t])), ('.', 'POS', set())]])
-        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <TIMEX2 VAL="20100710" MOD="BEFORE" PERIODICITY="F1M" COMMENT="Test" GRANUALITY="G1D" NON_SPECIFIC="YES">some annotated text</TIMEX2>.</root>').toxml())
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <TIMEX2 VAL="20100710" MOD="BEFORE" COMMENT="Test" GRANUALITY="G1M">some annotated text</TIMEX2>.</root>').toxml())
     
     def test_reconcile_TIMEX_SET(self):
         s = ternip.formats.timex2('<root>This is some annotated text.</root>')
@@ -34,20 +32,17 @@ class timex2_Test(unittest.TestCase):
         self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <TIMEX2 VAL="20100710" MOD="BEFORE" SET="YES">some annotated text</TIMEX2>.</root>').toxml())
     
     def test_timex_to_sents(self):
-        d = ternip.formats.timex2('<root>This is <TIMEX2 VAL="20100701" MOD="BEFORE" PERIODICITY="F1M" NON_SPECIFIC="YES" GRANUALITY="G1D" COMMENT="Text">a timex</TIMEX2>.</root>')
+        d = ternip.formats.timex2('<root>This is <TIMEX2 VAL="20100701" MOD="BEFORE" NON_SPECIFIC="YES" GRANUALITY="G1D" COMMENT="Text">a timex</TIMEX2>.</root>')
         s = d.get_sents()
         t = s[0][2][2].pop()
         self.assertEquals(t.type, None)
         self.assertEquals(t.value, '20100701')
         self.assertEquals(t.mod, 'BEFORE')
-        self.assertEquals(t.freq, "1M")
+        self.assertEquals(t.freq, "1D")
         self.assertEquals(t.comment, "Text")
-        self.assertEquals(t.granuality, "1D")
-        self.assertTrue(t.non_specific)
     
     def test_timex_to_sents_SET(self):
         d = ternip.formats.timex2('<root>This is <TIMEX2 SET="YES">a timex</TIMEX2>.</root>')
         s = d.get_sents()
         t = s[0][2][2].pop()
         self.assertEquals(t.type, 'set')
-        self.assertFalse(t.non_specific)

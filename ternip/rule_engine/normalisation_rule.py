@@ -18,7 +18,8 @@ class normalisation_rule(rule.rule):
                        id            = '',
                        value         = None,
                        change_type   = None,
-                       periodicity   = None,
+                       freq          = None,
+                       quant         = None,
                        granuality    = None,
                        guards        = [],
                        after_guards  = [],
@@ -63,33 +64,27 @@ class normalisation_rule(rule.rule):
         self.after            = after
         self._tokenise        = tokenise
         self._deliminate_numbers = deliminate_numbers
-        
-        # replace our group short form, e.g., {#6} with actual Python code
-        # it would be nice to support named groups, but this'll do for now
-        if value != None:
-            self._value_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', value), id + ':value', 'eval')
-        else:
-            self._value_exp = None
-        
-        if change_type != None:
-            self._type_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', change-type), id + ':change-type', 'eval')
-        else:
-            self._type_exp = None
-        
-        if periodicity != None:
-            self._periodicity_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', periodicity), id + ':periodicity', 'eval')
-        else:
-            self._periodicity_exp = None
-        
-        if granuality != None:
-            self._granuality_exp = compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', granuality), id + ':granuality', 'eval')
-        else:
-            self._granuality_exp = None
+        self._value_exp = self._compile_exp(value, 'value')
+        self._type_exp = self._compile_exp(change_type, 'change-type')
+        self._freq_exp = self._compile_exp(freq, 'freq')
+        self._quant_exp = self._compile_exp(quant, 'quant')
+        self._granuality_exp = self._compile_exp(granuality, 'granuality')
         
         # Load guards
         self._guards = self._load_guards(guards, tokenise)
         self._before_guards = self._load_guards(before_guards, tokenise)
         self._after_guards = self._load_guards(after_guards, tokenise)
+    
+    def _compile_exp(self, exp, type):
+        """
+        Replace our group short form in value expressions, e.g., {#6} with
+        actual Python code so that matched regular expressions get subbed in
+        """
+        # it would be nice to support named groups, but this'll do for now
+        if exp != None:
+            return compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', exp), self.id + ':' + type, 'eval')
+        else:
+            return None
     
     def apply(self, timex, cur_context, dct, body, before, after):
         """
@@ -138,8 +133,11 @@ class normalisation_rule(rule.rule):
             if self._type_exp != None:
                 timex.type = eval(self._type_exp)
             
-            if self._periodicity_exp != None:
-                timex.periodicity = eval(self._periodicity_exp)
+            if self._freq_exp != None:
+                timex.freq = eval(self._freq_exp)
+            
+            if self._quant_exp != None:
+                timex.quant = eval(self._quant_exp)
             
             if self._granuality_exp != None:
                 timex.granuality = eval(self._granuality_exp)

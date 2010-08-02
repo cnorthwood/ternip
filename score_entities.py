@@ -53,6 +53,7 @@ Systems are not penalized for adding attributes that are not in the gold standar
 
 
 import sys
+import re
 
 
 def score_entities(tokens, key_extents, response_extents, key_attrs, response_attrs):
@@ -143,6 +144,7 @@ class Scores:
 
     def add_key_attribute_data(self, file, sid, tid, attr, val):
         position = "%s-%s-%s" % (file, sid, tid)
+        if attr == 'value': val = re.sub(r'-', '', val)
         self.data[position][2][attr] = val
                 
     def add_response_attribute_data(self, file, sid, tid, attr, val):

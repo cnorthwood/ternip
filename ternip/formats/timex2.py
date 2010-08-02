@@ -26,18 +26,11 @@ class timex2(xml_doc.xml_doc):
         if node.hasAttribute('MOD'):
             t.mod = node.getAttribute('MOD')
         
-        if node.hasAttribute('PERIODICITY'):
-            t.freq = node.getAttribute('PERIODICITY')[1:]
-        
         if node.hasAttribute('GRANUALITY'):
-            t.granuality = node.getAttribute('GRANUALITY')[1:]
+            t.freq = node.getAttribute('GRANUALITY')[1:]
         
         if node.hasAttribute('COMMENT'):
             t.comment = node.getAttribute('COMMENT')
-        
-        if node.hasAttribute('NON_SPECIFIC'):
-            if node.getAttribute('NON_SPECIFIC').lower() == 'yes':
-                t.non_specific = True
         
         return t
     
@@ -57,13 +50,7 @@ class timex2(xml_doc.xml_doc):
                 node.setAttribute('SET', 'YES')
         
         if timex.freq != None:
-            node.setAttribute('PERIODICITY', 'F' + timex.freq)
-        
-        if timex.granuality != None:
-            node.setAttribute('GRANUALITY', 'G' + timex.granuality)
+            node.setAttribute('GRANUALITY', 'G' + timex.freq)
         
         if timex.comment != None:
             node.setAttribute('COMMENT', timex.comment)
-        
-        if timex.non_specific:
-            node.setAttribute('NON_SPECIFIC', 'YES')

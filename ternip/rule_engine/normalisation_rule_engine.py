@@ -39,7 +39,8 @@ class normalisation_rule_engine(rule_engine):
         tokenise      = True
         deliminate_numbers = False
         change_type   = None
-        periodicity   = None
+        freq          = None
+        quant         = None
         granuality    = None
         
         for key in d:
@@ -79,15 +80,22 @@ class normalisation_rule_engine(rule_engine):
                 elif (len(d[key]) > 1):
                     raise rule_load_error(filename, "Too many 'Change-Type' fields")
             
-            # No more than one Periodicity key allowed
-            elif key == 'periodicity':
+            # No more than one Freq key allowed
+            elif key == 'freq':
                 if (len(d[key]) == 1):
-                    periodicity = d[key][0]
+                    freq = d[key][0]
                 elif (len(d[key]) > 1):
-                    raise rule_load_error(filename, "Too many 'Periodicity' fields")
+                    raise rule_load_error(filename, "Too many 'Freq' fields")
+            
+            # No more than one Quant key allowed
+            elif key == 'quant':
+                if (len(d[key]) == 1):
+                    quant = d[key][0]
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Quant' fields")
             
             # No more than one Granuality key allowed
-            elif key == 'granuality':
+            elif key == 'granularity':
                 if (len(d[key]) == 1):
                     granuality = d[key][0]
                 elif (len(d[key]) > 1):
@@ -141,7 +149,7 @@ class normalisation_rule_engine(rule_engine):
         
         # Guard against any RE errors
         try:
-            return normalisation_rule(match, type, id, value, change_type, periodicity, granuality, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
+            return normalisation_rule(match, type, id, value, change_type, freq, quant, granuality, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     

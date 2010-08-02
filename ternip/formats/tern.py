@@ -9,7 +9,7 @@ class tern(timex2.timex2):
     """
     
     @staticmethod
-    def create(sents, docid, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
+    def create(sents, docid, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False, dct=''):
         """
         Creates a TERN document from the internal representation
         
@@ -29,6 +29,8 @@ class tern(timex2.timex2):
         
         pos_attr is similar but refers to the name of the attribute on the LEX
         (or whatever) tag that holds the POS tag.
+        
+        dct is the document creation time string
         """
         
         # Create a blank XML document
@@ -39,6 +41,11 @@ class tern(timex2.timex2):
         docid_tag = doc.createElement('DOCNO')
         docid_tag.appendChild(doc.createTextNode(docid))
         doc.documentElement.appendChild(docid_tag)
+        
+        if dct != '':
+            dct_tag = doc.createElement('DATE_TIME')
+            dct_tag.appendChild(doc.createTextNode(dct[4:6] + '/' + dct[6:8] + '/' + dct[:4]))
+            doc.documentElement.appendChild(dct_tag)
         
         body_tag = doc.createElement('BODY')
         doc.documentElement.appendChild(body_tag)
@@ -77,5 +84,10 @@ class tern(timex2.timex2):
         """
         old_xml_body = self._xml_body
         self._xml_body = self._xml_doc.documentElement.getElementsByTagName('DATE_TIME')[0]
+        # Set functionInDocument
+        for sent in dct:
+            for (doc, pos, ts) in sent:
+                for t in ts:
+                    t.document_role = 'CREATION_TIME'
         self.reconcile(dct)
         self._xml_body = old_xml_body
