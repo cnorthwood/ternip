@@ -164,7 +164,7 @@ Type: date
 Guard: !years
 Match: $FIXED_HOLIDAYS(<.*>)*<(\d{4}|\'\d\d)~.+>
 Guard: !eve
-Value: normalise_two_digit_year({#3}) + fixed_holiday_date[re.sub(r'<([^~]*)~[^>]*>', r'\1', {#1}).lower()]
+Value: normalise_two_digit_year({#3}) + fixed_holiday_date({#1})
 
 ---
 
@@ -172,7 +172,7 @@ Type: date
 Guard: !years
 Match: $FIXED_HOLIDAYS(<.*>)*<(\d{4}|\'\d\d)~.+>
 Guard: eve
-Value: offset_from_date(normalise_two_digit_year({#3}) + fixed_holiday_date[re.sub(r'<([^~]*)~[^>]*>', r'\1', {#1}).lower()], -1)
+Value: offset_from_date(normalise_two_digit_year({#3}) + fixed_holiday_date({#1}), -1)
 
 ---
 
@@ -381,13 +381,14 @@ Value: 'PAST_REF'
 
 ---
 
-# Rules handling sets
-
 Type: date
-Match: (every|each|alternate)
+Guard: morning
+Tokenise: space
+Guard: !\b(shrove|ash|good|palm|easter)\b
+Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$DAYS
+Value: 'XXXXWXX' + str(day_to_num({#6})) + 'TMO'
 Change-Type: 'set'
-
-# this is an incomplete conversion
+Quant: {#1}
 
 ---
 
@@ -400,8 +401,30 @@ Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TMO'
 
 Type: date
 Guard: afternoon
+Tokenise: space
+Guard: !\b(shrove|ash|good|palm|easter)\b
+Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$DAYS
+Value: 'XXXXWXX' + str(day_to_num({#6})) + 'TAF'
+Change-Type: 'set'
+Quant: {#1}
+
+---
+
+Type: date
+Guard: afternoon
 Match: $DAYS
 Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TAF'
+
+---
+
+Type: date
+Guard: evening
+Tokenise: space
+Guard: !\b(shrove|ash|good|palm|easter)\b
+Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$DAYS
+Value: 'XXXXWXX' + str(day_to_num({#6})) + 'TEV'
+Change-Type: 'set'
+Quant: {#1}
 
 ---
 
@@ -414,14 +437,85 @@ Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TEV'
 
 Type: date
 Guard: night
+Tokenise: space
+Guard: !\b(shrove|ash|good|palm|easter)\b
+Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$DAYS
+Value: 'XXXXWXX' + str(day_to_num({#6})) + 'TNI'
+Change-Type: 'set'
+Quant: {#1}
+
+---
+
+Type: date
+Guard: night
 Match: $DAYS
 Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TNI'
 
 ---
 
 Type: date
+Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$DAYS
+Tokenise: space
+Guard: !\b(shrove|ash|good|palm|easter)\b
+Value: 'XXXXWXX' + str(day_to_num({#6}))
+Change-Type: 'set'
+Quant: {#1}
+
+---
+
+Type: date
 Match: $DAYS
 Value: 'XXXXWXX' + str(day_to_num({#1}))
+
+---
+
+Type: date
+Match: (<(every|every|each|alternate)~.+>(<(other|$ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?)(<.*>)*(<(St\.|Saint)~.+>(<.*>)*<Day~.+>|<$NTH_DOW_HOLIDAYS~.+>|<$DAY_HOLIDAYS~.+>|$LUNAR_HOLIDAYS)
+Value: 'P1Y'
+Freq: '1D'
+Change-Type: 'set'
+Quant: {#1}
+
+---
+
+Type: date
+Match: (<(every|every|each|alternate)~.+>(<(other|$ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?)(<.*>)*($FIXED_HOLIDAYS)
+Value: 'XXXX' + fixed_holiday_date({#8})
+Change-Type: 'set'
+Quant: re.sub(r'<([^~]*)[^>]*>', r'\1', {#1})
+
+---
+
+Type: date
+Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*\b(spring|summer|winter|fall|autumn)s?\b
+Tokenise: space
+Value: 'XXXX' + season({#6})
+Change-Type: 'set'
+Quant: {#1}
+
+---
+
+Type: date
+Match: ((every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*\b(minute|hour|day|week|month|year)s?\b
+Tokenise: space
+Value: 'P1' + units_to_gran({#6})
+Change-Type: 'set'
+Quant: {#1}
+
+---
+
+Type: date
+Match: <every~.+>(<\d+~.+>|NUM_START.*NUM_END)<(minute|hour|day|week|month|year)s?~.+>
+Deliminate-Numbers: True
+Value: 'P' + str(words_to_num({#1})) + units_to_gran({#2})
+Change-Type: 'set'
+Quant: EVERY
+
+---
+
+Type: date
+Match: (<every~.+>|<each~.+>|<alternate~.+>)
+Change-Type: 'set'
 
 ---
 

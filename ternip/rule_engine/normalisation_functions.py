@@ -85,7 +85,7 @@ def ordinal_to_num(o):
     elif o.lower() in _ordinal_to_num:
         return _ordinal_to_num[o.lower()]
     else:
-        return 0
+        return 1
 
 timezones = {
     "E": -5,
@@ -141,7 +141,7 @@ decade_nums = {
     "nine": 9
 }
 
-fixed_holiday_date = {
+_fixed_holiday_dates = {
     "newyear":          "0101",
     "inauguration":     "0120",
     "valentine":        "0214",
@@ -172,6 +172,13 @@ fixed_holiday_date = {
     "xmas":             "1225"
 }
 
+def fixed_holiday_date(hol):
+    hol = re.sub(r'<([^~]*)~[^>]*>', r'\1', hol).lower()
+    if hol in _fixed_holiday_dates:
+        return _fixed_holiday_dates[hol]
+    else:
+        return ''
+
 # month dow nth
 nth_dow_holiday_date = {
     "mlk":          (1, 1, 3),
@@ -185,13 +192,19 @@ nth_dow_holiday_date = {
     "thanksgiving": (11, 4, 4)
 }
 
-season = {
+_season = {
     "spring": "SP",
     "summer": "SU",
     "autumn": "FA",
     "fall":   "FA",
     "winter": "WI"
 }
+
+def season(s):
+    if s.lower() in _season:
+        return _season[s.lower()]
+    else:
+        return s
 
 # Convert long forms into short units
 _units_to_gran = {

@@ -342,84 +342,12 @@ sub TE_AddAttributes {
 
 	# type=date
 	if($Type eq "date") {
-	   	
-
-	    # generic
-	    if($TEstring =~ /(every|each|alternate)/io) {
-		$Attributes .= " SET=\"YES\"";
-		if($TEstring =~ /alternate/io) { $temp2 = 2; }
-		elsif($TEstring =~ /every\s+other/io) { $temp2 = 2; }
-		elsif($TEstring =~ /$TENumOrds/io) {
-		    $& =~ /\d+/o;  $temp2 = $&; }
-		elsif($TEstring =~ /$TEOrdinalWords/io) {
-		    $temp2 = $TE_Ord2Num{lc($&)}; }
-		else { $temp2 = 1; }
-		
-		if($TEstring =~ /(St\.|Saint)\s.*\bDay\b/oi) {
-		    $Attributes .= " PERIODICITY=\"F${temp2}Y\" GRANULARITY=\"G1D\"";
-		} elsif($TEstring =~ /\b$TEFixedHol\b/oi) {
-		    $Attributes .= " PERIODICITY=\"F${temp2}Y\" GRANULARITY=\"G1D\"";
-		} elsif($TEstring =~ /\b($TENthDOWHol|$TEDayHol|$TELunarHol)/oi) {
-		    $Attributes .= " GRANULARITY=\"G1D\"";
-		} elsif($TEstring =~ /\b(minute|hour|day|week|month|year)s?\b/oi) {
-		    $temp1 = lc($1);
-		    if($temp1 eq "minute") {
-			$Attributes .= " PERIODICITY=\"FT${temp2}M\""; }
-		    elsif($temp1 eq "hour") {
-			$Attributes .= " PERIODICITY=\"FT${temp2}H\""; }
-		    elsif($temp1 eq "day") {
-			$Attributes .= " PERIODICITY=\"F${temp2}D\""; }
-		    elsif($temp1 eq "week") {
-			$Attributes .= " PERIODICITY=\"F${temp2}W\""; }
-		    elsif($temp1 eq "month") {
-			$Attributes .= " PERIODICITY=\"F${temp2}M\""; }
-		    elsif($temp1 eq "year") {
-			$Attributes .= " PERIODICITY=\"F${temp2}Y\""; }
-		} elsif($TEstring =~ /\b(spring|summer|winter|fall|autumn)s?\b/oi) {
-		    $temp1 = $TE_Season{lc($1)};
-		    $Attributes .= " $valTagName=\"XXXX$temp1\" PERIODICITY=\"F${temp2}Y\"";
-		} elsif(($TEstring =~ /\b$TEday(s)?\b/oi) &&
-			($TEstring !~ /\b(shrove|ash|good|palm|easter)\b/oi)) {
-		    $Val = $Day2Num{lc($1)};
-		    if($TEstring =~ /morning/io) { $Val .= "TMO"; }
-		    elsif($TEstring =~ /afternoon/io) { $Val .= "TAF"; }
-		    elsif($TEstring =~ /evening/io) { $Val .= "TEV"; }
-		    elsif($TEstring =~ /night/io) { $Val .= "TNI"; }
-		    $Attributes .= " $valTagName=\"XXXXWXX-$Val\"";
-		    if($Val =~ /T/o) { $Attributes .= " PERIODICITY=\"F${temp2}W\""; }
-		    else { $Attributes .= " PERIODICITY=\"F${temp2}W\" GRANULARITY=\"G1D\""; }
-		}
-		$FoundVal = 1;
-	    }  # each|every|alternate
-
-	    # periods
-	    elsif($TEstring =~ /((annual|year|month|week|dai|hour|night)ly|annual)/io) {
-		$temp1 = lc($2);
-		if($TEstring =~/(year|annual)/io) { $temp1 = "Y"; }
-		elsif($temp1 eq "month") { $temp1 = "M"; }
-		elsif($temp1 eq "week") { $temp1 = "W"; }
-		elsif($temp1 =~ /(dai|night)/io) { $temp1 = "D"; }
-		elsif($temp1 eq "hour") { $temp1 = "H"; }
-		if($TEstring =~ /bi/io) { $temp2 = 2; }
-		else { $temp2 = 1; }
-		$Attributes .= " PERIODICITY=\"F$temp2$temp1\"";
-		$FoundVal = 1;
-	    }
-	    
 	    
 	    # Now rules requiring RefTime
-	    elsif($RefTime && ($RefTime =~ /\d\d\d\d/o)) {
+	    if($RefTime && ($RefTime =~ /\d\d\d\d/o)) {
 		# yesterday, today, tomorrow, tonight
 		# this (morning|afternoon|evening)
 		# Friday the 13th
-
-		if($TEstring =~ /yesterday/oi) {
-		    $temp1 = $`;
-		    $Val = &OffsetFromRef($RefTime, -1);
-		    if($temp1 =~ /day\s+before/io) {
-			$Val = &OffsetFromRef($Val, -1); }
-		    $Attributes .= " $valTagName=\"$Val\"";
-		    $FoundVal = 1;
 
 		    # Friday the 13th type dates
 		} elsif(($TEstring =~ /($TEOrdinalWords|$TENumOrds)/oi) &&
