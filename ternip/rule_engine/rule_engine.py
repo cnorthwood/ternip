@@ -24,6 +24,9 @@ class rule_engine:
         (direct Python code), .rule using the documented rule format, and
         .ruleblock as blocks which contain sequences of rules.
         For direct Python code, the rule must be a class called 'rule'.
+        
+        Throws rule_load_errors containing errors for all rules that failed to
+        load.
         """
         
         errors = []
@@ -69,12 +72,19 @@ class rule_engine:
             raise rule_load_errors(errors)
     
     def load_rule(self, filename):
-        """ Load a rule, then check for consistency """
+        """
+        Load a rule, then check for consistency
+        
+        Throws rule_load_error if a rule fails to load
+        """
         self._load_rule(filename)
         self._check_rule_consistency()
     
     def load_block(self, filename):
-        """ Load a block of rules, then check for consistency """
+        """
+        Load a block of rules, then check for consistency
+        Throws rule_load_errors if a rule fails to load
+        """
         self._load_block(filename)
         self._check_rule_consistency()
     

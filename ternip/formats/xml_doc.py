@@ -634,8 +634,7 @@ class xml_doc:
                 try:
                     self._add_timex(timex, sents[i], s_nodes[i])
                 except nesting_error as e:
-                    print >>sys.stderr, "Error whilst adding TIMEX:", str(e)
-                    print >>sys.stderr, "Not adding TIMEX", t
+                    ternip.warn("Error whilst attempting to add TIMEX", e)
     
     def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):
         """

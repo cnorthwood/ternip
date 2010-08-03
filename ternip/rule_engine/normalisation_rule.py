@@ -125,17 +125,20 @@ class normalisation_rule(rule.rule):
             if self._DEBUG:
                 timex.comment = self.id
             
-            if self._value_exp != None:
-                timex.value = eval(self._value_exp)
-            
-            if self._type_exp != None:
-                timex.type = eval(self._type_exp)
-            
-            if self._freq_exp != None:
-                timex.freq = eval(self._freq_exp)
-            
-            if self._quant_exp != None:
-                timex.quant = eval(self._quant_exp)
+            try:
+                if self._value_exp != None:
+                    timex.value = eval(self._value_exp)
+                
+                if self._type_exp != None:
+                    timex.type = eval(self._type_exp)
+                
+                if self._freq_exp != None:
+                    timex.freq = eval(self._freq_exp)
+                
+                if self._quant_exp != None:
+                    timex.quant = eval(self._quant_exp)
+            except Exception as e:
+                ternip.warn('Malformed rule expression', e)
             
             # Need to update current time context, if necessary
             return (True, cur_context)
