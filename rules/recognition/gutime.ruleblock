@@ -3,51 +3,61 @@ After: gutime-durations
 ID: gutime
 
 ---
+# 1
 
 Type: date
 Match: <\'~.+><\d\d~.+>
 
 ---
+# 2
 
 Type: date
 Match: <\d\d\d\d-?\d\d-?\d\d-?T\d\d~.+>(<:~.+>)?<(\d\d)?([\+\-]\d{1,4})?~.+>
 
 ---
+# 3
 
 Type: date
 Match: <\d\d\d\d-?\d\d-?\d\d-?T\d\d:?(\d\d)?([\+\-]\d{1,4})?~.+>
 
 ---
+# 4
 
 Type: date
 Match: <\d\d\d\d-\d\d-\d\d~.+>
 
 ---
+# 5
 
 Type: time
 Match: <T\d\d(:?\d\d)?(:?\d\d)?([\+\-]\d{1,4})?~.+>
 
 ---
+# 6
 
 Type: date
 Match: (<\d\d:?\d\d~.+>(<on~.+>)?)?<\d\d?\/\d\d?\/\d\d(\d\d)?~.+>
 
 ---
+# 7
 
 Type: date
 Match: <\d\d?\.\d\d?\.\d\d(\d\d)?~.+>
 
 ---
+# 8
 
 Type: date
 Match: ((<alternate~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<each~.+>|<next~.+>|<last~.+>|<this~.+><coming~.+>))?<$DAYSs?~.+>(<the~.+><($ORDINAL_NUMS|$ORDINAL_WORDS)s?~.+>|<mornings?~.+>|<afternoons?~.+>|<evenings?~.+>|<nights?~.+>|<nexts?~.+>)?
 
 ---
+# 9
 
 Type: date
 Match: (<the~.+><day~.+><(before|after)~.+>)?<$RELATIVE_DAYS~.+>(<(morning|afternoon|evening|night)~.+>)?
 
 ---
+# 10
 
 Type: date
 Match: <\w+~.+><(Today|Tonight)~.+>
@@ -55,32 +65,38 @@ Squelch: True
 Case-Sensitive: True
 
 ---
+# 11
 
 Type: date
 Match: (<alternate~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?)<(minute|hour|day|week|month|year)s?>
 
 ---
+# 12
 
 Type: date
 Match: (<(early|late)~.+>)?<this~.+><(morning|afternoon|evening)~.+>
 
 ---
+# 13
 
 Type: date
 Match: (<(early|late)~.+>)<last~.+><night~.+>
 
 ---
+# 14
 
 Type: date
 Match: <(early|late)~.+><(morning|afternoon|evening)~.+>
 
 ---
+# 15
 
 Type: date
 Match: (<(early|late)~.+>(<[io]n~.+>)?)?(<the~.+>((<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?<week(end)?~.+>|<beginning~.+>|<start~.+>|<middle~.+>|<end~.+>|<morning~.+>|<day~.+>|<afternoon~.+>|<evening~.+>|<night~.+>|<ides~.+>|<nones~.+>)<(of|in)~.+>)?((<\d\d?~.+>|<next~.+>|<last~.+>|<($ORDINAL_WORDS|$ORDINAL_NUMS)~.+><of~.+>))*(<mid-$MONTHS~.+>|<mid-$MONTH_ABBRS\.?~.+>(<.~.+>)?|(<mid-?~.+>)?(<$MONTHS~.+>|<$MONTH_ABBRS\.?~.+>(<.~.+>)?))((<of~.+>|<,~.+>)?<\d{4}~.+>|<($ORDINAL_NUMS|$ORDINAL_WORDS|\d\d?)~.+>((<,~.+>)?(<\d{4}~.+>|<\'~.+><\d\d~.+>))?)?
 Guard: ($MONTHS|$MONTH_ABBRS)
 
 ---
+# 16
 
 Type: date
 Match: <(mar|march|may|august)~.+>
@@ -88,219 +104,259 @@ Squelch: True
 Case-Sensitive: True
 
 ---
+# 17
 
 Type: date
 Match: ((<late~.+>|<early~.+>|<the~.+><(beginning|start|dawn|middle|end)~.+><of~.+>)(<in~.+>)?)?(<the~.+>)?(<next~.+>|<last~.+>|<coming~.+>|<this~.+>(<(coming|past)~.+>)?)<(week|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)~.+>
 Guard: (next|last|coming|this)
 
 ---
+# 18
 
 Type: date
 Guard: (spring|summer|winter|fall|autumn)
 Match: ((<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?|<late~.+>|<early~.+>|<the~.+><(beginning|start|dawn|middle|end)~.+><of~.+>))?(<in~.+><the~.+>)?<(spring|summer|winter|fall|autumn)~.+>((<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
+# 19
 
 Type: date
 Match: ((<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?))?<(Xmas|Christmas|Thanksgiving)~.+>(<(Day|Eve)~.+>)?((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
+# 20
 
 Type: date
 Guard: <day~.+>
 Match: ((<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?))?(<(Saint|St\.?)~.+>(<\.~.+>)?<\w+\'?s?~.+>|<Jean~.+><Baptiste\'?s?~.+>|<Ground~.+><Hog\'?s?~.+>|<April~.+><Fool\'?s?~.+>|<Valentine\'?s?~.+>|<Mother\'?s?~.+>|<Father\'?s?~.+>|<Veteran\'?s?~.+>|<President\'?s?~.+>)((<\'~.+>)?<s~.+>|<\'s~.+>)?<Day~.+>((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
+# 21
 
 Type: date
 Guard: <day~.+>
 Match: ((<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?))?(<Flag~.+>|<Memorial~.+>|<Independence~.+>|<Labou?r~.+>|<Columbus~.+>|<Bastille~.+>|<Canberra~.+>|<Dominion~.+>|<Canada~.+>|<Boxing~.+>|<Election~.+>|<Inauguration~.+>|<Guy~.+><Fawkes~.+>|<MLK~.+>|(<Martin~.+><Luther~.+>)?<King~.+>|<May~.+>|<All~.+><(Saint|Soul)s\'?~.+>(<\'~.+>)?)<Day~.+>((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
+# 22
 
 Type: date
 Match: (<\w+~NNP>)*<\w+\'?s?~NNP>((<\'~.+>)?<s~.+>|<\'s~.+>)?<Birthday~.+>((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
+# 23
 
 Type: date
 Match: ((<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?))?<New~.+><Year\'?s?~.+>((<\'~.+>)?<s~.+>|<\'s~.+>)?<(Day|Eve)~.+>((<,~.+>)?<\d{4}~.+>)?
 
 ---
+# 24
 
 Type: date
 Match: (<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?)(<Halloween~.+>|<Allhallow(ma)?s~.+>|<C?Hanukk?ah~.+>|<Rosh~.+><Hashanah~.+>|<Yom~.+><Kippur~.+>|<Passover~.+>|<Ramadan~.+>|<Cinco~.+><de~.+><Mayo~.+>|<tet~.+>|<diwali~.+>|<kwanzaa~.+>|<Easter~.+>(<Sunday~.+>)?|<palm~.+><sunday~.+>|<mardis~.+><gras~.+>|<shrove~.+><tuesday~.+>|<ash~.+><wednesday~.+>|<good~.+><friday~.+>|<walpurgisnacht~.+>|<beltane~.+>|<candlemas~.+>|<day~.+><of~.+><the~.+><dead~.+>)((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
+# 25
 
 Type: date
 Match: <the~.+>((<early~.+>|<late~.+>|<(beginning|start|middle|end)~.+><of~.+><the~.+>))?(<\'~.+>)?\d0s|<\'\d0s~.+>|(<\w+teen~.+>)?<(twen|thir|for|fif|six|seven|eigh|nine)ties~.+>
 
 ---
+# 26
 
 Type: date
 Match: ((<(late|early)~.+><in~.+>)?<the~.+>(<(late|early|mid-?)~.+>)?)?(<(mid-?)?($ORDINAL_NUMS-?|$ORDINAL_WORDS)~.+><century~.+>|<(mid-?)?($ORDINAL_NUMS-?|$ORDINAL_WORDS)-century~.+>)
 
 ---
+# 27
 
 Type: date
 Match: (<($ORDINAL_NUMS|$ORDINAL_WORDS)-quarter~.+>|<($ORDINAL_NUMS|$ORDINAL_WORDS)~.+><quarter~.+>)
 
 ---
+# 28
 
 Type: date
 Match: (<current~.+>|<once~.+>|<medieval~.+>|(<the~.+>)?<future~.+>)
 
 ---
+# 29
 
 Type: date
 Match: (<alternate~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?)<(minute|hour|day|week|month|year)s?~.+>
 
 ---
+# 30
 
 Type: date
 Match: <(bi-?)?((annual|year|month|week|dai|hour|night)ly|annual)~.+>
 
 ---
+# 31
 
 Type: date
 Match: (<the~.+>)?<(year|month|week|day|night)~.+>(<before~.+><last~.+>|<after~.+><next~.+>)
 
 ---
+# 32
 
 Type: date
 Match: <\d{4}-to-\d{4}~.+>
 
 ---
+# 33
 
 Type: date
 Match: <\d{4}-to~.+><-\d{4}~.+>
 
 ---
+# 34
 
 Type: date
 Match: <(the|this|last|next|coming)~.+><weekend~.+>
 
 ---
+# 35
 
 Type: date
 Guard: <(ago|hence|from)~.+>
 Match: (<(about|around|some)~.+>)?(<.+~CD>(<and~.+>)?)*(<.+~CD>)<(year|month|week|day|decade|cenutur(y|ie))s?~.+>(<ago~.+>(<(today|tomorrow|yesterday|$DAYS)~.+>)?|<hence~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
 
 ---
+# 36
 
 Type: date
 Guard: <(ago|hence|from)~.+>
 Match: (<(about|around|some)~.+>)?(<a~.+>(<few~.+>)?|<several~.+>|<some~.+>|<many~.+>)(<(year|month|fortnight|moon|week|day|decade|centur(y|ie))s?~.+>|(<(little|long)~.+>)?<whiles?~.+>|((<(really|very)~.+>)?((<long~.+><,~.+>)*<long~.+>|<short~.+>))?<(life)?times?~.+>)(<ago~.+>(<(today|tomorrow|yesterday|$DAYS)~.+>)?|<hence~.+>|<from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>)
 
 ---
+# 37
 
 Type: date
 Guard: <(ago|hence|from)~.+>
 Match: <(ages|long)~.+><ago~.+>
 
 ---
+# 38
 
 Type: time
 Match: (<(about|around|some)~.+>)?<\d\d?h\d\d~.+>
 
 ---
+# 39
 
 Type: time
 Guard: [ap]\.?m\b
 Match: (<(about|around|some|exactly|precisely)~.+>)?((<quarter~.+>|<half~.+>|<\w+~CD><minutes?~.+>)<(past|after|of|before|to)~.+>)?(<the~.+><hour~.+><of~.+>)?<(\d\d?~.+|\w+~CD)>(<:~.+><\d\d~.+>|<[a-z\-]+~CD>(<[a-z\-]+~CD>)?)?<[ap]m~.+>((<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>)?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
+# 40
 
 Type: time
 Guard: [ap]\.?m\b
 Match: (<(about|around|some|exactly|precisely)~.+>)?((<quarter~.+>|<half~.+>|<((\w+(-\w+)?|\d\d?)~CD><minutes?)~.+>)<(past|after|of|before|to)~.+>)?(<the~.+><hour~.+><of~.+>)?(<\d\d?~.+|\w+~CD)>(<:~.+><\d\d~.+>|<[a-z\-]+~CD>(<[a-z\-]+~CD>)?)?<[ap]\.m\.~.+>((<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>)?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
+# 41
 
 Type: time
 Guard: \btime\b
 Match: <\d{4}~.+>(<hours~.+>(<,~.+>)?)?(<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>
 
 ---
+# 42
 
 Type: time
 Guard: \btime\b
 Match: <\d\d?~.+><hours?~.+>(<\d\d?~.+><minutes?~.+>)?(<,~.+>)?(<universal~.+>|<zulu~.+>|<local~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>
 
 ---
+# 43
 
 Type: time
 Match: <\d\d\d\d~.+><h(ou)?rs?~.+>
 
 ---
+# 44
 
 Type: time
 Guard: <(morning|afternoon|evening|night)~.+>
 Match: (<(about|around|some|exactly|precisely)~.+>)?(((<a~.+>)?<quarter~.+>|<half~.+>|<\w+(-\w+)?~CD>(<minutes?~.+>)?)<(past|after|of|before|to|until)~.+>)?(<the~.+><hour~.+><of~.+>)?<([a-z]+|\d\d?)~CD>(<:~.+><\d\d~.+>)?(<in~.+><the~.+><(morning|afternoon|evening)~.+>|<at~.+><night~.+>)
 
 ---
+# 45
 
 Type: time
 Guard: clock
 Match: (<(about|around|some|exactly|precisely)~.+>)?(((<a~.+>)?<quarter~.+>|<half~.+>|<\w+(-\w+)?~CD>(<minutes?~.+>)?)<(past|after|of|before|to|until)~.+>)?(<the~.+><hour~.+><of~.+>)?<([a-z]+|\d\d?)~CD><o\'clock~.+>((<in~.+><the~.+><(morning|afternoon|evening)~.+>|<at~.+><night~.+>))?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
+# 46
 
 Type: time
 Match: (<(about|around|some|exactly|precisely)~.+>)?(((<a~.+>)?<quarter~.+>|<half~.+>|<(\w+(-\w+)?|\d\d?)~CD>(<minutes?~.+>)?)<(past|after|of|before|to|until)~.+>)?<the~.+><hour~.+>(<of~.+><([a-z]+|\d\d?)~CD>)?((<sharp~.+>|<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
+# 47
 
 Type: time
 Guard: \bminute
 Match: (<(about|around|some|exactly|precisely)~.+>)?((<a~.+>)?<quarter~.+>|<half~.+>|<([a-z]+(-[a-z]+)?|\d\d?)~CD><minutes?~.+>)<(past|after|of|before|to|until)~.+><([a-z]+|\d\d?)~CD>((<exactly~.+>|<precisely~.+>|<on~.+><the~.+><dot~.+>))?
 
 ---
+# 48
 
 Type: time
 Match: (<(about|around|some)~.+>)?<(noon|midnight|mid-?day)~.+>
 
 ---
+# 49
 
 Type: time
 Match: <zero~.+><hour~.+>(<universal~.+>|<zulu~.+>|<[a-z]+~.+><(standard|daylight)~.+>)<time~.+>
 
 ---
+# 50
 
 Type: time
 Guard: \b(ago|hence|from)\b
 Match: (<(about|around|some)~.+>)?(<.+~CD>(<and~.+>)?)<.+~CD>(<and~.+><a~.+><half~.+>)?<hours?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
+# 51
 
 Type: time
 Guard: \b(ago|hence|from)\b
 Match: (<a~.+><few~.+>|<several~.+>|<some~.+>)<hours~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
+# 52
 
 Type: time
 Guard: \b(ago|hence|from)\b
 Match: (<about~.+>)?(<an?~.+>)?(<(half(~.+><an)?|few)~.+>)?<hour~.+>(<and~.+><a~.+><half~.+>)?<(ago|hence|from~.+><now)~.+>
 
 ---
+# 53
 
 Type: time
 Guard: \b(ago|hence|from)\b
 Match: (((<.+~CD>(<and~.+>)?)<.+~CD>|(<a~.+><few~.+>|<several~.+>|<some~.+>)))+<minutes?~.+>(<ago~.+>|<hence~.+>|<from~.+><now~.+>)
 
 ---
+# 54
 
 Type: date
 Match: <now~.+>
 
 ---
+# 55
 
 Type: date
 Match: <the~.+><past~.+><(week|fortnight|month|quarter|year|decade|century|spring|summer|winter|fall|autumn)~.+>
 
 ---
+# 56
 
 Type: date
 Match: \S(<\"~.+>(<[^a-z0-9\"]\w*~.+>)+?<\"~.+>)
