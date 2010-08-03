@@ -244,3 +244,18 @@ class recognition_rule_Test(unittest.TestCase):
                            ('Atlanta', 'POS', set())])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,1,0,0], 'actual result was '+str(sent))
         self.assertTrue(success)
+    
+    def testDeliminateNumbers1(self):
+        rule = recognition_rule(r'NUM_START<twenty~.+><one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty', 'POS', set()), ('one', 'POS', set()), ('baloons', 'POS', set())])
+        self.assertTrue(success)
+    
+    def testDeliminateNumbers2(self):
+        rule = recognition_rule(r'NUM_START<twenty-one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty-one', 'POS', set()), ('baloons', 'POS', set())])
+        self.assertTrue(success)
+    
+    def testDeliminateNumbers3(self):
+        rule = recognition_rule(r'NUM_ORD_START<twenty~.+><first~.+>NUM_ORD_END', 'date', 'test', deliminate_numbers=True)
+        (sent, success) = rule.apply([('this', 'POS', set()), ('is', 'POS', set()), ('the', 'POS', set()), ('twenty', 'POS', set()), ('first', 'POS', set()), ('baloon', 'POS', set())])
+        self.assertTrue(success)
