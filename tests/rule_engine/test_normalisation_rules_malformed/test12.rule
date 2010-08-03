@@ -1,8 +1,5 @@
-Type: date
 Match: <(\d+)~.+><th~.+><January~.+><(\d{4})~.+>
 Value: {#2} + "01" + {#1}
-Change-Type: 1
+Type: date
 Freq: 1
-Quant: 1
-Tokenise: true
-Deliminate-Numbers: false
+Freq: 2

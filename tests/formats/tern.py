@@ -12,6 +12,12 @@ class tern_Test(unittest.TestCase):
                                         [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], 'ABC123')
         self.assertEquals(str(s), xml.dom.minidom.parseString('<DOC><DOCNO>ABC123</DOCNO><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>').toxml())
     
+    def test_create_from_sents_with_dct(self):
+        s = ternip.formats.tern.create([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
+                                        [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]], 'ABC123',
+                                        dct='20100802')
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<DOC><DOCNO>ABC123</DOCNO><DATE_TIME>08/02/2010</DATE_TIME><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>').toxml())
+    
     def test_create_from_sents_with_offsets(self):
         s = ternip.formats.tern.create([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
                                         [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]],
