@@ -247,15 +247,25 @@ class recognition_rule_Test(unittest.TestCase):
     
     def testDeliminateNumbers1(self):
         rule = recognition_rule(r'NUM_START<twenty~.+><one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
-        (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty', 'POS', set()), ('one', 'POS', set()), ('baloons', 'POS', set())])
+        (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty', 'POS', set()), ('one', 'POS', set()), ('balloons', 'POS', set())])
         self.assertTrue(success)
     
     def testDeliminateNumbers2(self):
         rule = recognition_rule(r'NUM_START<twenty-one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
-        (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty-one', 'POS', set()), ('baloons', 'POS', set())])
+        (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty-one', 'POS', set()), ('balloons', 'POS', set())])
         self.assertTrue(success)
     
     def testDeliminateNumbers3(self):
         rule = recognition_rule(r'NUM_ORD_START<twenty~.+><first~.+>NUM_ORD_END', 'date', 'test', deliminate_numbers=True)
-        (sent, success) = rule.apply([('this', 'POS', set()), ('is', 'POS', set()), ('the', 'POS', set()), ('twenty', 'POS', set()), ('first', 'POS', set()), ('baloon', 'POS', set())])
+        (sent, success) = rule.apply([('this', 'POS', set()), ('is', 'POS', set()), ('the', 'POS', set()), ('twenty', 'POS', set()), ('first', 'POS', set()), ('balloon', 'POS', set())])
+        self.assertTrue(success)
+    
+    def testDeliminateNumbers4(self):
+        rule = recognition_rule(r'NUM_ORD_START<first~.+>NUM_ORD_ENDNUM_START<two~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        (sent, success) = rule.apply([('these', 'POS', set()), ('are', 'POS', set()), ('the', 'POS', set()), ('first', 'POS', set()), ('two', 'POS', set()), ('balloons', 'POS', set())])
+        self.assertTrue(success)
+    
+    def testDeliminateNumbers5(self):
+        rule = recognition_rule(r'NUM_START<two~.+><hundred~.+><and~.+><sixty~.+><eight~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        (sent, success) = rule.apply([('these', 'POS', set()), ('are', 'POS', set()), ('the', 'POS', set()), ('first', 'POS', set()), ('two', 'POS', set()), ('hundred', 'POS', set()), ('and', 'POS', set()), ('sixty', 'POS', set()), ('eight', 'POS', set()), ('balloons', 'POS', set())])
         self.assertTrue(success)
