@@ -11,7 +11,7 @@ class normalisation_rule(rule.rule):
     
     # If debug mode is enabled, then the comment in the TIMEX tag is set to
     # the ID of the rule which normalised it
-    _DEBUG = False
+    _DEBUG = True
     
     def __init__(self, match,
                        type          = None,

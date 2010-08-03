@@ -393,13 +393,6 @@ Quant: {#1}
 ---
 
 Type: date
-Guard: morning
-Match: $DAYS
-Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TMO'
-
----
-
-Type: date
 Guard: afternoon
 Tokenise: space
 Guard: !\b(shrove|ash|good|palm|easter)\b
@@ -407,13 +400,6 @@ Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$
 Value: 'XXXXWXX' + str(day_to_num({#6})) + 'TAF'
 Change-Type: 'set'
 Quant: {#1}
-
----
-
-Type: date
-Guard: afternoon
-Match: $DAYS
-Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TAF'
 
 ---
 
@@ -429,13 +415,6 @@ Quant: {#1}
 ---
 
 Type: date
-Guard: evening
-Match: $DAYS
-Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TEV'
-
----
-
-Type: date
 Guard: night
 Tokenise: space
 Guard: !\b(shrove|ash|good|palm|easter)\b
@@ -447,25 +426,12 @@ Quant: {#1}
 ---
 
 Type: date
-Guard: night
-Match: $DAYS
-Value: 'XXXXWXX' + str(day_to_num({#1})) + 'TNI'
-
----
-
-Type: date
 Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$DAYS
 Tokenise: space
 Guard: !\b(shrove|ash|good|palm|easter)\b
 Value: 'XXXXWXX' + str(day_to_num({#6}))
 Change-Type: 'set'
 Quant: {#1}
-
----
-
-Type: date
-Match: $DAYS
-Value: 'XXXXWXX' + str(day_to_num({#1}))
 
 ---
 
@@ -558,3 +524,87 @@ Value: offset_from_date(cur_context, -2)
 Type: date
 Match: <yesterday~.+>
 Value: offset_from_date(cur_context, -1)
+
+---
+
+Type: date
+Match: <($DAYS)~.+>(<.*>)*<($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>
+Guard: !<friday~.+><the~.+><(thirteen|13)th~.+>
+Value: ('XXXXXX' if day_to_num({#1}) == date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), ordinal_to_num({#4})) else cur_context[:6]) + str(ordinal_to_num({#4}))
+
+---
+
+Type: date
+Match: today
+Before-Guard: <(said|later|earlier)~.+>$
+Value: cur_context
+
+---
+
+Type: date
+Match: today
+After-Guard: ^<(for|at|on)~.+>
+Value: cur_context
+
+---
+
+Type: date
+Match: today
+Before-Guard: <(am|is|are|were|was|that|of|in)~.+>$
+Value: 'PRESENT_REF'
+
+---
+
+Type: date
+Match: today
+After-Guard: <(many|here|most)~.+>
+Value: 'PRESENT_REF'
+
+---
+
+Type: date
+Match: today
+Before-Guard: <(many|here|most)~.+>
+Value: 'PRESENT_REF'
+
+---
+
+Type: date
+Match: today
+Value: cur_context[:8]
+
+---
+
+Type: date
+Match: <this~.+><morning~.+>
+Value: cur_context[:8] + 'TMO'
+
+---
+
+Type: date
+Match: <this~.+><afternoon~.+>
+Value: cur_context[:8] + 'TAF'
+
+---
+
+Type: date
+Match: <this~.+><evening~.+>
+Value: cur_context[:8] + 'TEV'
+
+---
+
+Type: date
+Match: <(tonight|tonite)~.+>
+Value: cur_context[:8] + 'TNI'
+
+---
+
+Type: date
+Match: <day~.+><after~.+><tomorrow~.+>
+Value: offset_from_date(cur_context, 2)
+
+---
+
+Type: date
+Match: <tomorrow~.+>
+Value: offset_from_date(cur_context, 1)
