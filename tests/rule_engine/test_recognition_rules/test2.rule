@@ -5,3 +5,4 @@ Match: <(Monday|Tuesday)~.+>
 
 Before-Guard: <last~.+>
 After-Guard: !^<afternoon~.+>
+Deliminate-Numbers: False

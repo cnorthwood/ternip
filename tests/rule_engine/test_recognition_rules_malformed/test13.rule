@@ -1,0 +1,6 @@
+Type: Date
+Match: <(Thursday|Friday)~.+>
+Guard: !<last~.+>
+Deliminate-Numbers: True
+Deliminate-Numbers: False
+Squelch: True

@@ -20,7 +20,6 @@ class normalisation_rule(rule.rule):
                        change_type   = None,
                        freq          = None,
                        quant         = None,
-                       granuality    = None,
                        guards        = [],
                        after_guards  = [],
                        before_guards = [],
@@ -68,7 +67,6 @@ class normalisation_rule(rule.rule):
         self._type_exp = self._compile_exp(change_type, 'change-type')
         self._freq_exp = self._compile_exp(freq, 'freq')
         self._quant_exp = self._compile_exp(quant, 'quant')
-        self._granuality_exp = self._compile_exp(granuality, 'granuality')
         
         # Load guards
         self._guards = self._load_guards(guards, tokenise)
@@ -138,9 +136,6 @@ class normalisation_rule(rule.rule):
             
             if self._quant_exp != None:
                 timex.quant = eval(self._quant_exp)
-            
-            if self._granuality_exp != None:
-                timex.granuality = eval(self._granuality_exp)
             
             # Need to update current time context, if necessary
             return (True, cur_context)

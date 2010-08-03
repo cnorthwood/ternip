@@ -1,5 +1,6 @@
 Type: Date
 Match: <(Thursday|Friday)~.+>
 Guard: !<last~.+>
-Squelch: FALSE
+Case-Sensitive: True
 Case-Sensitive: False
+Squelch: True
