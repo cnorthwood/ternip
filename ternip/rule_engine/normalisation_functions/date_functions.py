@@ -13,11 +13,11 @@ def normalise_two_digit_year(y):
     if y[0] == "'":
         y = y[1:]
     if int(y) < 39:
-        return '%04d' % int(y) + 2000
+        return '%04d' % (int(y) + 2000)
     elif int(y) < 100:
-        return '%04d' % int(y) + 1900
+        return '%04d' % (int(y) + 1900)
     else:
-        return '%04d' % int(y)
+        return '%04d' % int(y[:4])
 
 def easter_date(y):
     """
@@ -56,7 +56,7 @@ def nth_dow_to_date(m, dow, n, y):
         dow = 0
     
     first_dow = date_to_dow(y, m, 1) # the dow of the first of the month
-    shift = dow - first
+    shift = dow - first_dow
     if shift < 0:
         shift += 7
     
