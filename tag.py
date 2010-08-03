@@ -29,6 +29,7 @@ option_parser.add_option_group(recog_group)
 norm_group = optparse.OptionGroup(option_parser, "Normalisation Rules")
 norm_group.add_option('-n', '--normalisation-engine', dest='normalisation_engine', type='choice', default=None, choices=['rule'], help='If set, performs normalisation on the TIMEXes in the input document, include those detected during the recognition phase, with the nominated engine. Leave unset to not do normalisation. Supported values: rule - the normalisation rule engine')
 norm_group.add_option('--normalisation-rules', dest='normalisation_rules', type='string', default='rules/normalisation/', help='Path to normalisation rules. Defaults to ./rules/normalisation/')
+option_parser.add_option('-c', '--dct', dest='dct', default=None, type='string', help='The document creation time used as the basis for normalisation')
 option_parser.add_option_group(norm_group)
 
 (options, args) = option_parser.parse_args()
@@ -36,7 +37,7 @@ option_parser.add_option_group(norm_group)
 if len(args) != 1:
     # Only parse one file at a time
     option_parser.print_help()
-    print "multiple input files specified"
+    print "ERROR: multiple input files specified" if len(args) > 1 else "ERROR: no input files specified"
     sys.exit(1)
 
 input_file = args[0]
@@ -74,9 +75,6 @@ if options.strip_timexes:
 # Get internal representation
 sents = doc.get_sents()
 
-# Get DCT
-dct_sents = doc.get_dct_sents()
-
 # Load correct recognition engine
 if options.recognition_engine is None:
     recogniser = None
@@ -85,12 +83,14 @@ elif options.recognition_engine == 'rule':
     recogniser.load_rules(options.recognition_rules)
 else:
     option_parser.print_help()
-    print "invalid recognition engine specified"
+    print "ERROR: invalid recognition engine specified"
     sys.exit(1)
 
 # Do recognition
 if recogniser is not None:
-    dct_sents = recogniser.tag(dct_sents)
+    if options.dct == None:
+        dct_sents = doc.get_dct_sents()
+        dct_sents = recogniser.tag(dct_sents)
     sents = recogniser.tag(sents)
 
 # Load correct recognition engine
@@ -101,15 +101,28 @@ elif options.normalisation_engine == 'rule':
     normaliser.load_rules(options.normalisation_rules)
 else:
     option_parser.print_help()
-    print "invalid normalisation engine specified"
+    print "ERROR: invalid normalisation engine specified"
     sys.exit(1)
 
 # Do normalisation
 if normaliser is not None:
-    normaliser.annotate(dct_sents, 'XXXXXXXX')
-    doc.reconcile_dct(dct_sents)
-    # Get dct value
-    dct = dct_sents[0][0][2].pop().value
+    dct = ''
+    if options.dct == None:
+        # Get DCT from normaliser
+        normaliser.annotate(dct_sents, 'XXXXXXXX')
+        doc.reconcile_dct(dct_sents)
+        # Get dct value
+        for sent in dct_sents:
+            for (tok, pos, ts) in sent:
+                for t in ts:
+                    if dct == None and t.value != None:
+                        dct = t.value
+    else:
+        dct = options.dct
+    
+    # Now check if we got a dct
+    if dct == '':
+        print >>sys.stderr, "Could not determine document creation time, use -c to override"
     normaliser.annotate(sents, dct)
     
 # Now apply the changes back to the internal document

@@ -859,7 +859,7 @@ class xml_doc:
         """
         Returns the creation time sents for this document.
         """
-        return 'XXXXXXXX'
+        return []
     
     def reconcile_dct(self, dct):
         """
