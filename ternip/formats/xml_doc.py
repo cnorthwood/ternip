@@ -425,7 +425,7 @@ class xml_doc:
         i = 0
         for child in list(node.childNodes):
             e = self._get_token_extent(child, sent[i:])
-            if (i + e) >= start and i <= start:
+            if (i + e) >= start and i <= start and e > 0:
                 if child.nodeType == node.TEXT_NODE:
                     # get length of bit before TIMEX
                     texti = 0
@@ -460,7 +460,7 @@ class xml_doc:
             
             # This node is completely covered by this TIMEX, so include it
             # inside the TIMEX, unless the timex is non consuming
-            if (i + e) <= end and i >= start and not timex.non_consuming:
+            if (i + e) <= end and i >= start and not timex.non_consuming and e > 0:
                 timex_tag.appendChild(child)
             
             if (i + e) > end and i < end and not timex.non_consuming:
@@ -509,6 +509,7 @@ class xml_doc:
                     break
                 else:
                     self._add_timex(timex, sent[start_extent:end_extent], child)
+                    break
             elif start_extent < start and end_extent < end - 1 and end_extent >= start:
                 # This child contains the start of the TIMEX, but can't
                 # completely hold it, which must mean the parent node is the
