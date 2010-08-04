@@ -80,12 +80,15 @@ def words_to_num(words):
     for i in range(len(words)):
         if words[i] in _word_to_num:
             words[i] = _word_to_num[words[i]]
-        elif words[i] in _ordinal_to_num and len(words) == i:
+        elif words[i] in _ordinal_to_num and len(words) - 1 == i:
             # only allow ordinal words in the last position
             words[i] = ordinal_to_num(words[i])
         else:
             # Hope it's a number. If not, we error out
-            words[i] = int(words[i])
+            try:
+                words[i] = int(words[i])
+            except ValueError:
+                return 0
     
     # Now recursively break down these
     return _words_to_num(words)
@@ -109,17 +112,17 @@ def _words_to_num(nums):
     # If there are no numbers before the biggest term, then assume it means 1 of
     # those units
     if len(before) > 0:
-        before = _word_to_nums(before)
+        before = _words_to_num(before)
     else:
         before = 1
     
     # if there are no numbers after, then append 0 to it
     if len(after) > 0:
-        after = _word_to_nums(after)
+        after = _words_to_num(after)
     else:
         after = 0
     
-    return (before * highest_num) + after_num
+    return (before * highest_num) + after
 
 # Mapping of ordinals to numbers
 _ordinal_to_num = {

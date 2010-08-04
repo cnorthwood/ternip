@@ -118,3 +118,47 @@ class string_conversions_Test(unittest.TestCase):
     
     def test_nth_dow_holiday_date_bad(self):
         self.assertEquals((0,0,0), nth_dow_holiday_date('bad'))
+
+class words_to_num_Test(unittest.TestCase):
+    
+    def test_ordinal_number(self):
+        self.assertEquals(6, ordinal_to_num('6th'))
+    
+    def test_ordinal_word(self):
+        self.assertEquals(18, ordinal_to_num('eighteenth'))
+    
+    def test_ordinal_bad(self):
+        self.assertEquals(1, ordinal_to_num('beefburger'))
+    
+    def test_words_to_num_simple(self):
+        self.assertEquals(8, words_to_num("eight"))
+    
+    def test_words_to_num_none(self):
+        self.assertEquals(0, words_to_num(None))
+    
+    def test_words_to_num_a(self):
+        self.assertEquals(100, words_to_num('a hundred'))
+    
+    def test_words_to_num_the(self):
+        self.assertEquals(6, words_to_num('the six'))
+    
+    def test_words_to_num_and(self):
+        self.assertEquals(326, words_to_num('three hundred and twenty six'))
+    
+    def test_words_to_num_and(self):
+        self.assertEquals(7320, words_to_num('seven thousand, three hundred and twenty'))
+    
+    def test_words_to_num_mixed(self):
+        self.assertEquals(1806, words_to_num('18 hundred and six'))
+    
+    def test_words_to_num_mixed(self):
+        self.assertEquals(324, words_to_num('324'))
+    
+    def test_words_to_num_mixed(self):
+        self.assertEquals(0, words_to_num('six hundred and bread'))
+    
+    def test_words_to_num_ordinal(self):
+        self.assertEquals(92, words_to_num('ninety second'))
+    
+    def test_words_to_num_bad_ordinal(self):
+        self.assertEquals(0, words_to_num('first two'))
