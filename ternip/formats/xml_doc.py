@@ -456,7 +456,7 @@ class xml_doc:
                     # Error if this is a non-text node which starts before the
                     # TIMEX but finishes inside it
                     if i < start:
-                        raise nesting_error('Can not tag TIMEX without causing invalid XML nesting')
+                        raise nesting_error('Can not tag TIMEX (' + str(timex) + ') without causing invalid XML nesting')
             
             # This node is completely covered by this TIMEX, so include it
             # inside the TIMEX, unless the timex is non consuming
@@ -480,7 +480,7 @@ class xml_doc:
                     node.replaceChild(new_child, child)
                     
                 else:
-                    raise nesting_error('Can not tag TIMEX without causing invalid XML nesting')
+                    raise nesting_error('Can not tag TIMEX (' + str(timex) + ') without causing invalid XML nesting')
             
             i += e
     
@@ -505,16 +505,17 @@ class xml_doc:
                 # This child can completely contain the TIMEX, so recurse on it
                 # unless it's a text node
                 if child.nodeType == child.TEXT_NODE:
-                    self._add_timex_child(timex, sent, s_node, start, end)
+                    self._add_timex_child(timex, sent[start_extent:end_extent], s_node, start - start_extent, end - start_extent)
                     break
                 else:
                     self._add_timex(timex, sent[start_extent:end_extent], child)
-            elif start_extent < start and end_extent < end:
+            elif start_extent < start and end_extent < end - 1 and end_extent >= start:
                 # This child contains the start of the TIMEX, but can't
                 # completely hold it, which must mean the parent node is the
                 # highest node which contains the TIMEX
                 self._add_timex_child(timex, sent, s_node, start, end)
                 break
+            start_extent = end_extent
     
     def reconcile(self, sents, add_S = False, add_LEX = False, pos_attr=False):
         """
