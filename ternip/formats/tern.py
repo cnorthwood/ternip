@@ -87,7 +87,7 @@ class tern(timex2.timex2):
         """
         old_xml_body = self._xml_body
         if self._dct_to_xml_body() == False:
-            return []
+            return [[]]
         s = self.get_sents()
         self._xml_body = old_xml_body
         return s
@@ -98,7 +98,7 @@ class tern(timex2.timex2):
         """
         old_xml_body = self._xml_body
         if self._dct_to_xml_body() == False:
-            return []
+            return
         # Set functionInDocument
         for sent in dct:
             for (doc, pos, ts) in sent:

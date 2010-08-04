@@ -32,11 +32,19 @@ class tern_Test(unittest.TestCase):
         self.assertEquals(str(s), xml.dom.minidom.parseString('<DOC><DOCNO>ABC123</DOCNO><BODY><TEXT>  <s><lex pos="POS">This</lex> <lex pos="POS">is</lex>  <lex pos="POS">some</lex> <lex pos="POS">annotated</lex>   <lex pos="POS">text.</lex></s>   <s><lex pos="POS">This</lex> <lex pos="POS">is</lex>  <lex pos="POS">a</lex><lex pos="POS">second</lex> <lex pos="POS">sentence.</lex></s></TEXT></BODY></DOC>').toxml())
         self.assertEquals(sents, s.get_sents())
     
-    def test_get_DCT_sents(self):
+    def test_get_DCT_sents_DATE_TIME(self):
         d = ternip.formats.tern('<DOC><DOCNO>ABC123</DOCNO><DATE_TIME>20100801</DATE_TIME><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>')
         self.assertEquals([[('20100801', 'CD', set())]], d.get_dct_sents())
     
-    def test_reconcile_DCT_sents(self):
+    def test_get_DCT_sents_DATE(self):
+        d = ternip.formats.tern('<DOC><DOCNO>ABC123</DOCNO><DATE>20100801</DATE><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>')
+        self.assertEquals([[('20100801', 'CD', set())]], d.get_dct_sents())
+    
+    def test_get_DCT_sents_None(self):
+        d = ternip.formats.tern('<DOC><DOCNO>ABC123</DOCNO><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>')
+        self.assertEquals([[]], d.get_dct_sents())
+    
+    def test_reconcile_DCT_sents_DATE_TIME(self):
         d = ternip.formats.tern('<DOC><DOCNO>ABC123</DOCNO><DATE_TIME>20100801</DATE_TIME><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>')
         s = d.get_dct_sents()
         t = ternip.timex()
@@ -44,4 +52,13 @@ class tern_Test(unittest.TestCase):
         s[0][0][2].add(t)
         d.reconcile_dct(s)
         self.assertEquals(str(d), xml.dom.minidom.parseString('<DOC><DOCNO>ABC123</DOCNO><DATE_TIME><TIMEX2 VAL="ABCDEF">20100801</TIMEX2></DATE_TIME><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>').toxml())
-        
+    
+    
+    def test_reconcile_DCT_sents_DATE(self):
+        d = ternip.formats.tern('<DOC><DOCNO>ABC123</DOCNO><DATE>20100801</DATE><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>')
+        s = d.get_dct_sents()
+        t = ternip.timex()
+        t.value = 'ABCDEF'
+        s[0][0][2].add(t)
+        d.reconcile_dct(s)
+        self.assertEquals(str(d), xml.dom.minidom.parseString('<DOC><DOCNO>ABC123</DOCNO><DATE><TIMEX2 VAL="ABCDEF">20100801</TIMEX2></DATE><BODY><TEXT>This is some annotated text. This is a second sentence.</TEXT></BODY></DOC>').toxml())

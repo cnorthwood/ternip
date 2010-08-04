@@ -19,11 +19,12 @@ def get_f_measure(text, type):
         if not overall_found and line[:9] == '  overall':
             overall_found = True
             if type == None:
-                return float(lines[i+2][-5:])
-        if overall_found and line[7:].startswith(type):
+                if lines[i+2][-5:] != '':
+                    return float(lines[i+2][-5:])
+        if type != None and overall_found and line[7:].startswith(type):
             return float(line[-5:])
         i += 1
-    return float()
+    return float(1)
 
 print
 print "TERNIP vs. GUTime TERN evaluator"
