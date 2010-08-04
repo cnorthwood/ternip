@@ -7,6 +7,8 @@ import shutil
 import os
 import subprocess
 import time
+import traceback
+import sys
 
 import ternip.formats
 import ternip.rule_engine
@@ -145,6 +147,7 @@ for i in range(len(unannotated)):
         
     except Exception as e:
         print "EXCEPTION:", str(e)
+        traceback.print_exc(file=sys.stdout)
 
 print
 print "MACROAVERAGED F-MEASURES"

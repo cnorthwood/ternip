@@ -196,6 +196,19 @@ class xml_doc_Test(unittest.TestCase):
         s.reconcile([[('This', 'POS', set([t3])), ('is', 'POS', set()), ('some', 'POS', set([t1])), ('annotated', 'POS', set([t1])), ('text', 'POS', set([t1])), ('.', 'POS', set())], [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set([t2])), ('second', 'POS', set([t2])), ('timex.', 'POS', set([t2]))]], add_S='s')
         self.assertEquals(str(s), xml.dom.minidom.parseString('<root><s><TIMEX />This is <TIMEX>some <p>annotated</p> text</TIMEX>.</s> <s>This is <TIMEX><b>a second timex.</b></TIMEX></s></root>').toxml())
     
+    def test_reconcile_TIMEX_consecutive(self):
+        s = _xml_doc('<root>This is <other>some annotated text</other> <TIMEX>and a second annotation</TIMEX>.</root>')
+        t2 = ternip.timex()
+        s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text', 'POS', set()), ('and', 'POS', set([t2])), ('a', 'POS', set([t2])), ('second', 'POS', set([t2])), ('annotation', 'POS', set([t2])), ('.', 'POS', set())]])
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <other>some annotated text</other> <TIMEX>and a second annotation</TIMEX>.</root>').toxml())
+    
+    def test_reconcile_TIMEX_consecutive_timex(self):
+        s = _xml_doc('<root>This is some annotated text and a second annotation.</root>')
+        t1 = ternip.timex()
+        t2 = ternip.timex()
+        s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set([t1])), ('annotated', 'POS', set([t1])), ('text', 'POS', set([t1])), ('and', 'POS', set([t2])), ('a', 'POS', set([t2])), ('second', 'POS', set([t2])), ('annotation', 'POS', set([t2])), ('.', 'POS', set())]])
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is <TIMEX>some annotated text</TIMEX> <TIMEX>and a second annotation</TIMEX>.</root>').toxml())
+    
     def test_create_from_sents(self):
         s = _xml_doc.create([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set()), ('text.', 'POS', set())],
                              [('This', 'POS', set()), ('is', 'POS', set()), ('a', 'POS', set()), ('second', 'POS', set()), ('sentence.', 'POS', set())]])

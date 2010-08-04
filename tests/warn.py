@@ -15,14 +15,17 @@ class warning_hider:
 
 class warning_Test(unittest.TestCase):
     
-    def test_warn(self):
-        
+    def setUp(self):
         # Set up warning handler
-        w = warning_hider()
-        ternip.warn = w.parse_warning
-        
+        self.w = warning_hider()
+        ternip.warn = self.w.parse_warning
+    
+    def test_warn(self):
         # Do something that generates a warning
         t = timex()
         r = normalisation_rule('test', value='non_existent_function()')
         r.apply(t, '', '', [('test', 'POS', set([t]))], [], [])
-        self.assertEquals(1, w.num)
+        self.assertEquals(1, self.w.num)
+    
+    def tearDown(self):
+        ternip.warn = ternip._warn
