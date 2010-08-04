@@ -2,7 +2,11 @@
 
 import re
 import datetime
+import calendar
+
 import string_conversions
+import date_functions
+from .. import expressions
 
 def offset_from_date(v, offset, gran='D', exact=False):
     """
@@ -50,13 +54,13 @@ def offset_from_date(v, offset, gran='D', exact=False):
     if gran == 'TM':
         # minutes
         dt += datetime.timedelta(minutes=offset)
-        return dt.strftime('%Y%m%dT%H%M')
+        return dt.strftime('%Y%m%dT%H:%M')
     
     elif gran == 'TH':
         # hours
         dt += datetime.timedelta(hours=offset)
         if exact:
-            return dt.strftime('%Y%m%dT%H%M')
+            return dt.strftime('%Y%m%dT%H:%M')
         else:
             return dt.strftime('%Y%m%dT%H')
     
@@ -64,7 +68,7 @@ def offset_from_date(v, offset, gran='D', exact=False):
         # days
         dt += datetime.timedelta(days=offset)
         if exact and min != None:
-            return dt.strftime('%Y%m%dT%H%M')
+            return dt.strftime('%Y%m%dT%H:%M')
         elif exact and h != None:
             return dt.strftime('%Y%m%dT%H')
         else:
@@ -85,10 +89,10 @@ def offset_from_date(v, offset, gran='D', exact=False):
         # need to do a bit more work here
         m += offset
         if m > 12:
-            year += int(m/12)
+            y += int(m/12)
             m = m % 12
         elif m < 0:
-            y += int(m/12) - 1
+            y += int(m/12)
             m = m % 12
         
         if m == 0:
@@ -131,30 +135,20 @@ def offset_from_date(v, offset, gran='D', exact=False):
         else:
             return dt.strftime('%Y')
     
-    elif offset > 1:
+    elif offset >= 1:
         return 'FUTURE_REF'
     
-    elif offset < 1:
+    elif offset <= -1:
         return 'PAST_REF'
     
-    elif min != None:
-        return dt.strftime('%Y%m%dT%H%M')
-        
-    elif h != None:
-        return dt.strftime('%Y%m%dT%H')
-        
-    elif really_d:
-        return dt.strftime('%Y%m%d')
-        
     else:
-        return dt.strftime('%Y%m')
+        return v
 
-def compute_relative_date(ref_date, expression, current_direction):
+def compute_offset_base(ref_date, expression, current_direction):
     """
-    Given a reference date, some expression and the current direction of the
-    expression (e.g., if talking in the past tense, then the definition of
-    "Friday" might mean the previous rather than preceeding Friday).
-    Returns string.
+    Given a reference date, some simple expression (yesterday/tomorrow or a
+    day of week) and the direction of the relative expression, the base date
+    with which to compute the offset from as a date string
     """
     
     # No expression or empty match object, do no computation
@@ -164,8 +158,8 @@ def compute_relative_date(ref_date, expression, current_direction):
     # If it's a day...
     match = re.search(expressions.DAYS, expression, re.I)
     if match != None:
-        day = day_to_num(match.group())
-        t = day - date_to_dow(int(ref_date[:4]), int(ref_date[4:6]), int(ref_date[6:8]))
+        day = string_conversions.day_to_num(match.group())
+        t = day - date_functions.date_to_dow(int(ref_date[:4]), int(ref_date[4:6]), int(ref_date[6:8]))
         if t > 0 and current_direction < 0:
             t -= 7
         if t < 0 and current_direction > 0:
@@ -173,9 +167,9 @@ def compute_relative_date(ref_date, expression, current_direction):
         return offset_from_date(ref_date, t)
     
     # Other expressions
-    elif expression.lower().contains('yesterday'):
+    elif expression.lower().find('yesterday') > -1:
         return offset_from_date(ref_date, -1)
-    elif expression.lower().contains('tomorrow'):
+    elif expression.lower().find('tomorrow') > -1:
         return offset_from_date(ref_date, 1)
     
     # Couldn't figure out an offset

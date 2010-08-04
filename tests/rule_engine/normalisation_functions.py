@@ -162,3 +162,90 @@ class words_to_num_Test(unittest.TestCase):
     
     def test_words_to_num_bad_ordinal(self):
         self.assertEquals(0, words_to_num('first two'))
+
+class relative_date_functions_Test(unittest.TestCase):
+    
+    def test_compute_offset_base_yesterday(self):
+        self.assertEquals('20100803', compute_offset_base('20100804', 'Yesterday', 1))
+        self.assertEquals('20100803', compute_offset_base('20100804', 'yesterday', -1))
+    
+    def test_compute_offset_base_tomorrow(self):
+        self.assertEquals('20100805', compute_offset_base('20100804', 'tomORROW', -1))
+        self.assertEquals('20100805', compute_offset_base('20100804', 'tomorrow', 1))
+    
+    def test_compute_offset_base_no_match(self):
+        self.assertEquals('20100804', compute_offset_base('20100804', None, -1))
+    
+    def test_compute_offset_base_bad_day(self):
+        self.assertEquals('20100804', compute_offset_base('20100804', 'nosuchday', -1))
+    
+    def test_compute_offset_base_last_day(self):
+        self.assertEquals('20100730', compute_offset_base('20100804', 'Friday', -1))
+        self.assertEquals('20100729', compute_offset_base('20100804', 'thursday', -1))
+    
+    def test_compute_offset_base_next_day(self):
+        self.assertEquals('20100806', compute_offset_base('20100804', 'Friday', 1))
+        self.assertEquals('20100810', compute_offset_base('20100804', 'tuesday', 1))
+    
+    def test_compute_offset_base_today(self):
+        self.assertEquals('20100804', compute_offset_base('20100804', 'Wednesday', 1))
+        self.assertEquals('20100804', compute_offset_base('20100804', 'Wednesday', -1))
+    
+    def test_offset_minute(self):
+        self.assertEquals('20100804T16:28', offset_from_date('20100804T16:36', -8, 'TM'))
+        self.assertEquals('20100804T16:42', offset_from_date('20100804T16:36', 6, 'TM'))
+        self.assertEquals('20100804T15:04', offset_from_date('20100804T14:59', 5, 'TM'))
+        self.assertEquals('20100804T15:59', offset_from_date('20100804T17:09', -70, 'TM'))
+    
+    def test_offset_hour(self):
+        self.assertEquals('20100804T10', offset_from_date('20100804T18:36', -8, 'TH'))
+        self.assertEquals('20100804T10:36', offset_from_date('20100804T18:36', -8, 'TH', True))
+        self.assertEquals('20100804T22', offset_from_date('20100804T16:36', 6, 'TH'))
+        self.assertEquals('20100805T06', offset_from_date('20100804T18:59', 12, 'TH'))
+        self.assertEquals('20100802T22', offset_from_date('20100804T04:09', -30, 'TH'))
+    
+    def test_offset_day(self):
+        self.assertEquals('20100401', offset_from_date('20100403T14:43', -2))
+        self.assertEquals('20100401T14:43', offset_from_date('20100403T14:43', -2, exact=True))
+        self.assertEquals('20100401T14', offset_from_date('20100403T14', -2, exact=True))
+        self.assertEquals('20100406', offset_from_date('20100403T14:43', 3))
+        self.assertEquals('20100403', offset_from_date('20100321T14:43', 13))
+        self.assertEquals('20080229', offset_from_date('20090301', -366, exact=True))
+    
+    def test_offset_week(self):
+        self.assertEquals('2010W31', offset_from_date('20100820', -2, 'W'))
+        self.assertEquals('20100806', offset_from_date('20100820', -2, 'W', True))
+        self.assertEquals('2010W01', offset_from_date('20091225', 2, 'W'))
+    
+    def test_offset_fortnight(self):
+        self.assertEquals('2010W29', offset_from_date('20100820', -2, 'F'))
+        self.assertEquals('20100731', offset_from_date('20100828', -2, 'F', True))
+        self.assertEquals('2010W03', offset_from_date('20091225', 2, 'F'))
+    
+    def test_offset_month(self):
+        self.assertEquals('201006', offset_from_date('20100820', -2, 'M'))
+        self.assertEquals('20100628', offset_from_date('20100828', -2, 'M', True))
+        self.assertEquals('201004', offset_from_date('200810', 18, 'M'))
+        self.assertEquals('20100228', offset_from_date('20100331', -1, 'M', True))
+        self.assertEquals('200912', offset_from_date('20100110', -1, 'M'))
+        self.assertEquals('20080229', offset_from_date('20100331', -25, 'M', True))
+    
+    def test_offset_year(self):
+        self.assertEquals('1999', offset_from_date('20080812', -9, 'Y'))
+        self.assertEquals('20090812', offset_from_date('20080812T12:36', 1, 'Y', True))
+        self.assertEquals('202008', offset_from_date('200808',12, 'Y', True))
+        self.assertEquals('20080229', offset_from_date('20120229', -4, 'Y', True))
+        self.assertEquals('20100228', offset_from_date('20120229', -2, 'Y', True))
+    
+    def test_offset_decade(self):
+        self.assertEquals('199', offset_from_date('200908', -1, 'E'))
+        self.assertEquals('19990812', offset_from_date('19890812T12:36', 1, 'E', True))
+    
+    def test_offset_century(self):
+        self.assertEquals('19', offset_from_date('200908', -1, 'C'))
+        self.assertEquals('20990812', offset_from_date('19990812T12:36', 1, 'C', True))
+    
+    def test_offset_generic(self):
+        self.assertEquals('PAST_REF', offset_from_date('20100804T14:32', -1, 'X'))
+        self.assertEquals('FUTURE_REF', offset_from_date('20100804T14:32', 1, 'X'))
+        self.assertEquals('20100804T14:32', offset_from_date('20100804T14:32', 0, 'X'))

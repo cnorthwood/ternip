@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import re
-import ternip.timex
+from .. import timex
 import rule
 import expressions
 
@@ -112,7 +112,7 @@ class recognition_rule(rule.rule):
             tj = senttext.count('<', 0, match.end())
             
             if not self._squelch:
-                t = ternip.timex(self._type) # only create a new timex if not squelching
+                t = timex(self._type) # only create a new timex if not squelching
                 if self._DEBUG:
                     t.comment = self.id
             else:

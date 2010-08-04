@@ -274,7 +274,7 @@ Type: date
 Before-Guard: <(exact|precise).*>$
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 # 32
@@ -283,7 +283,7 @@ Type: date
 After-Guard: ^<(exact|precise).*>
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 # 33
@@ -291,7 +291,7 @@ Value: offset_from_date(compute_relative_date(cur_context, {#7}, -1), -1 * words
 Type: date
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_relative_date(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#4}, True)
 
 ---
 # 34
@@ -308,7 +308,7 @@ Type: date
 Before-Guard: <(exact|precise).*>$
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_relative_date(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
 
 ---
 # 36
@@ -317,7 +317,7 @@ Type: date
 After-Guard: ^<(exact|precise).*>
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_relative_date(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
 
 ---
 # 37
@@ -325,7 +325,7 @@ Value: offset_from_date(compute_relative_date(cur_context, {#7}, 1), words_to_nu
 Type: date
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
 
 ---
 # 38
@@ -341,7 +341,7 @@ Value: offset_from_date(cur_context, words_to_num({#1}), {#4}, False)
 Type: date
 Deliminate-Numbers: true
 Match: <about~.+>(<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, False)
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, False)
 
 ---
 # 40
@@ -350,7 +350,7 @@ Type: date
 Before-Guard: <(exact|precise).*>$
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
 
 ---
 # 41
@@ -359,7 +359,7 @@ Type: date
 After-Guard: ^<(exact|precise).*>
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
 
 ---
 # 42
@@ -367,7 +367,7 @@ Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_nu
 Type: date
 Deliminate-Numbers: true
 Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_relative_date(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
 
 ---
 # 43
