@@ -35,15 +35,15 @@ def offset_from_date(v, offset, gran='D', exact=False):
         h = None
         dt = datetime.datetime(y, m, d)
     
-    if len(v) >= 14:
-        min = int(v[12:14])
+    if len(v) >= 13:
+        min = int(v[11:13])
     else:
         min = None
         if h != None:
             dt = datetime.datetime(y, m, d, h)
     
-    if len(v) >= 17:
-        s = int(v[15:17])
+    if len(v) >= 15:
+        s = int(v[13:15])
         dt = datetime.datetime(y, m, d, h, min, s)
     else:
         s = None
@@ -54,13 +54,13 @@ def offset_from_date(v, offset, gran='D', exact=False):
     if gran == 'TM':
         # minutes
         dt += datetime.timedelta(minutes=offset)
-        return dt.strftime('%Y%m%dT%H:%M')
+        return dt.strftime('%Y%m%dT%H%M')
     
     elif gran == 'TH':
         # hours
         dt += datetime.timedelta(hours=offset)
         if exact:
-            return dt.strftime('%Y%m%dT%H:%M')
+            return dt.strftime('%Y%m%dT%H%M')
         else:
             return dt.strftime('%Y%m%dT%H')
     
@@ -68,7 +68,7 @@ def offset_from_date(v, offset, gran='D', exact=False):
         # days
         dt += datetime.timedelta(days=offset)
         if exact and min != None:
-            return dt.strftime('%Y%m%dT%H:%M')
+            return dt.strftime('%Y%m%dT%H%M')
         elif exact and h != None:
             return dt.strftime('%Y%m%dT%H')
         else:
