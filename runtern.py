@@ -29,8 +29,8 @@ print
 print "TERNIP vs. GUTime TERN evaluator"
 print
 
-unannotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgm'))
-annotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/nwire/*.sgml'))
+unannotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/*/*.sgm'))
+annotated = glob(os.path.normpath('sample_data/tern/data/english/ace_2004/*/*.sgml'))
 
 temp = tempfile.mkdtemp()
 

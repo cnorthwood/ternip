@@ -5,6 +5,8 @@ import calendar
 import datetime
 import re
 
+from .. import expressions
+
 def normalise_two_digit_year(y):
     """
     Given a year string, which could be 2 digits, try and get a 4 digit year

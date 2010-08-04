@@ -36,7 +36,13 @@ USING TAG.PY
 
 USING THE API
 
-    TODO
+    Loading Documents In
+
+    Doing The Recognition/Normalisation
+
+    Writing Documents Out
+
+    Changing How TERNIP Handles Warnings
 
 EXTENDING TERNIP
 
@@ -58,27 +64,34 @@ EXTRAS
 
         In the sample_data folder you will find varying corpora of documents
         with TIMEX tags annotated in varying formats. You can use these
-        (perhaps stripping the TIMEX3 tags first) to test the system, as well as
-        aiding in development of your own tools
+        (perhaps stripping the TIMEX tags first) to test the system, as well as
+        aiding in development of your own rules/modules/etc
 
-    extras/terneval.py (TODO)
+    extras/terneval.py
 
         This handy little script runs TERNIP against the TERN sample data and
-        reports the performance at the end.
+        reports the performance at the end. This also requires Perl to be
+        installed and on your path, as that's what the TERN scorer uses.
+        
+        (NOTE: The TERN scorer appears to give very low results on Linux)
     
-    extras/tempeval2.py (TODO)
+    extras/tempeval2.py
 
         As with the TERN script, this runs TERNIP against the TempEval-2 corpus
         provided in the sample data, and reports its performance at the end.
         Both this and terneval.py demonstrate samples on how to use the TERNIP
-        API.
+        API. 
 
-    extras/add_rule_numbers.py (TODO)
+    extras/add_rule_numbers.py
 
         This handy little script takes a ruleblock file and outputs the same
         ruleblock but with a comment at the top of each rule indicating it's
         index in the file. It is highly recommended to run this if you write
         your own rules, as it makes quickly identifying faulty rules easy.
+
+    runtests.py
+
+        This file executes the unit test suite for TERNIP.
 
 RELATED READING
 
