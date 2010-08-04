@@ -9,6 +9,7 @@ from tests.rule_engine.normalisation_rule import *
 from tests.rule_engine.normalisation_rule_block import *
 from tests.rule_engine.normalisation_rule_engine import *
 from tests.rule_engine.normalisation_functions import *
+from tests.warn import *
 
 from tests.formats.xml_doc import *
 from tests.formats.timex2 import *

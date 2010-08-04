@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
 import re
+import calendar
+
 import rule
 from expressions import *
-import calendar
 from normalisation_functions import *
+import ternip
 
 class normalisation_rule(rule.rule):
     """ A class that represents normalisation rules """
@@ -57,16 +59,16 @@ class normalisation_rule(rule.rule):
             considered to be the separator for tokens.
         """
         
-        self.id               = id
-        self._type            = type
-        self._match           = re.compile(self._prep_re(match, tokenise), re.IGNORECASE)
-        self.after            = after
-        self._tokenise        = tokenise
+        self.id                  = id
+        self._type               = type
+        self._match              = re.compile(self._prep_re(match, tokenise), re.IGNORECASE)
+        self.after               = after
+        self._tokenise           = tokenise
         self._deliminate_numbers = deliminate_numbers
-        self._value_exp = self._compile_exp(value, 'value')
-        self._type_exp = self._compile_exp(change_type, 'change-type')
-        self._freq_exp = self._compile_exp(freq, 'freq')
-        self._quant_exp = self._compile_exp(quant, 'quant')
+        self._value_exp          = self._compile_exp(value, 'value')
+        self._type_exp           = self._compile_exp(change_type, 'change-type')
+        self._freq_exp           = self._compile_exp(freq, 'freq')
+        self._quant_exp          = self._compile_exp(quant, 'quant')
         
         # Load guards
         self._guards = self._load_guards(guards, tokenise)
@@ -137,6 +139,7 @@ class normalisation_rule(rule.rule):
                 
                 if self._quant_exp != None:
                     timex.quant = eval(self._quant_exp)
+            
             except Exception as e:
                 ternip.warn('Malformed rule expression', e)
             

@@ -192,7 +192,7 @@ class relative_date_functions_Test(unittest.TestCase):
         self.assertEquals('20100804', compute_offset_base('20100804', 'Wednesday', -1))
     
     def test_offset_minute(self):
-        self.assertEquals('20100804T16:28', offset_from_date('20100804T16:36', -8, 'TM'))
+        self.assertEquals('20100804T16:28', offset_from_date('20100804T16:36:04', -8, 'TM'))
         self.assertEquals('20100804T16:42', offset_from_date('20100804T16:36', 6, 'TM'))
         self.assertEquals('20100804T15:04', offset_from_date('20100804T14:59', 5, 'TM'))
         self.assertEquals('20100804T15:59', offset_from_date('20100804T17:09', -70, 'TM'))
