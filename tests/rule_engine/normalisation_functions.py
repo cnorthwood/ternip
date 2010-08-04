@@ -50,6 +50,46 @@ class date_functions_Test(unittest.TestCase):
     
     def test_nth_dow_to_date_special_case2(self):
         self.assertEquals(12, nth_dow_to_date(7, 1, 2, 2010))
+    
+    def test_date_to_iso_alreadyiso(self):
+        self.assertEquals('20100808', date_to_iso('20100808'))
+        self.assertEquals('20100808', date_to_iso('2010-08-08'))
+        self.assertEquals('20100808T144026', date_to_iso('20100808T144026'))
+        self.assertEquals('20100808T144026', date_to_iso('2010-08-08T14:40:26'))
+        self.assertEquals('20100808T144026+0100', date_to_iso('20100808 T 144026 + 0100'))
+        self.assertEquals('20100808T144026+0100', date_to_iso('2010-08-08T14:40:26+0100'))
+        self.assertEquals('T144026+0100', date_to_iso('T14:40:26+0100'))
+        self.assertEquals('T144026', date_to_iso('T14:40:26'))
+        self.assertEquals('T144026', date_to_iso('T144026'))
+    
+    def test_date_to_iso_ace(self):
+        self.assertEquals('20100808T1625', date_to_iso('20100808:1625'))
+    
+    def test_date_to_iso_date(self):
+        self.assertEquals('20101006', date_to_iso('6 October 2010'))
+        self.assertEquals('20101006', date_to_iso('6th October 2010'))
+        self.assertEquals('20101006', date_to_iso('October 6th 2010'))
+        self.assertEquals('20101010', date_to_iso('October Tenth 2010'))
+        self.assertEquals('20100810', date_to_iso('2010/08/10'))
+        self.assertEquals('20101031', date_to_iso('31/10/2010'))
+        self.assertEquals('20101031', date_to_iso('10/31/2010'))
+        self.assertEquals('20101008', date_to_iso('October 8 2010'))
+        self.assertEquals('19991008', date_to_iso('October 8 99'))
+    
+    def test_date_to_iso_time(self):
+        self.assertEquals('20101008T1628', date_to_iso('October 8th 2010 16:28'))
+        self.assertEquals('XXXXXXXXT1628', date_to_iso('16:28'))
+        self.assertEquals('XXXXXXXXT1628', date_to_iso('4:28 PM'))
+        self.assertEquals('XXXXXXXXT1628+0200', date_to_iso('16:28 GMT+0200'))
+        self.assertEquals('XXXXXXXXT1628Z', date_to_iso('16:28 GMT'))
+        self.assertEquals('XXXXXXXXT1628-0500', date_to_iso('16:28 EST'))
+        self.assertEquals('XXXXXXXXT1628-0400', date_to_iso('16:28 EDT'))
+        self.assertEquals('XXXXXXXXT1628+0200', date_to_iso('16:28 RDT'))
+        self.assertEquals('XXXXXXXXT1628', date_to_iso('1628 4/2'))
+        self.assertEquals('XXXXXXXXT1628', date_to_iso('1628 hours 4/2'))
+        self.assertEquals('XXXXXXXXT162808.02', date_to_iso('16:28:08.02'))
+        self.assertEquals('XXXXXXXXT162808', date_to_iso('16:28:08'))
+        
 
 class string_conversions_Test(unittest.TestCase):
     
@@ -249,3 +289,4 @@ class relative_date_functions_Test(unittest.TestCase):
         self.assertEquals('PAST_REF', offset_from_date('20100804T1432', -1, 'X'))
         self.assertEquals('FUTURE_REF', offset_from_date('20100804T1432', 1, 'X'))
         self.assertEquals('20100804T1432', offset_from_date('20100804T1432', 0, 'X'))
+        
