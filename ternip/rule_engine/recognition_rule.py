@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import re
-from .. import timex
+from ..timex import timex
 import rule
 import expressions
 

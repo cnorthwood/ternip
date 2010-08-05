@@ -22,14 +22,14 @@ io_group.add_option('--pos-attr', dest='pos_attr', metavar='POS_attr', default=N
 option_parser.add_option_group(io_group)
 
 recog_group = optparse.OptionGroup(option_parser, "Recognition Rules")
-recog_group.add_option('-r', '--recognition-engine', dest='recognition_engine', type='choice', default=None, choices=['rule'], help='If set, performs recognition on the input document with the nominated engine. Leave unset to not do recognition. Supported values: rule - the recognition rule engine')
+recog_group.add_option('-r', '--recognition-engine', dest='recognition_engine', type='choice', default='default', choices=['none','rule','default'], help='Selects the engine to use for TIMEX recognition. Defaults to the currently recommended TERNIP engine. Other options are \'rule\' for the rule engine and \'none\' to disable recognition (e.g., if the document already has TIMEXs annotated, but just needs normalising)')
 recog_group.add_option('--recognition-rules', dest='recognition_rules', type='string', default='rules/recognition/', help='Path to recognition rules. Defaults to ./rules/recognition/')
 option_parser.add_option_group(recog_group)
 
 norm_group = optparse.OptionGroup(option_parser, "Normalisation Rules")
-norm_group.add_option('-n', '--normalisation-engine', dest='normalisation_engine', type='choice', default=None, choices=['rule'], help='If set, performs normalisation on the TIMEXes in the input document, include those detected during the recognition phase, with the nominated engine. Leave unset to not do normalisation. Supported values: rule - the normalisation rule engine')
+norm_group.add_option('-n', '--normalisation-engine', dest='normalisation_engine', type='choice', default='default', choices=['none','rule','default'], help='Selects the engine to use for TIMEX recognition. Defaults to the currently recommended TERNIP engine. Other options are \'rule\' for the rule engine and \'none\' to disable recognition (e.g., to just do recognition)')
 norm_group.add_option('--normalisation-rules', dest='normalisation_rules', type='string', default='rules/normalisation/', help='Path to normalisation rules. Defaults to ./rules/normalisation/')
-option_parser.add_option('-c', '--dct', dest='dct', default=None, type='string', help='The document creation time used as the basis for normalisation')
+option_parser.add_option('-c', '--dct', dest='dct', default=None, type='string', help='The document creation time used as the basis for normalisation. If not set, it will attempt to be extracted from the document.')
 option_parser.add_option_group(norm_group)
 
 (options, args) = option_parser.parse_args()
@@ -37,7 +37,7 @@ option_parser.add_option_group(norm_group)
 if len(args) != 1:
     # Only parse one file at a time
     option_parser.print_help()
-    print "ERROR: multiple input files specified" if len(args) > 1 else "ERROR: no input files specified"
+    print >>sys.stderr, "ERROR: multiple input files specified" if len(args) > 1 else "ERROR: no input files specified"
     sys.exit(1)
 
 input_file = args[0]
@@ -52,20 +52,20 @@ elif options.doc_type == 'timex3':
 elif options.doc_type == 'timeml':
     if options.body_tag != None or options.has_S != None or options.has_LEX != None or options.pos_attr != None:
         option_parser.print_help()
-        print "incompatible options with document type"
+        print >>sys.stderr, "ERROR: incompatible options with document type"
         sys.exit(1)
     with open(input_file) as fd:
         doc = ternip.formats.timeml(fd.read())
 elif options.doc_type == 'tern':
     if options.body_tag != None or options.has_S != None or options.has_LEX != None or options.pos_attr != None:
         option_parser.print_help()
-        print "incompatible options with document type"
+        print  >>sys.stderr,"ERROR: incompatible options with document type"
         sys.exit(1)
     with open(input_file) as fd:
         doc = ternip.formats.tern(fd.read())
 else:
     option_parser.print_help()
-    print "invalid document type specified"
+    print >>sys.stderr, "ERROR: invalid document type specified"
     sys.exit(1)
 
 # Strip TIMEXes from the input document if need be
@@ -76,14 +76,16 @@ if options.strip_timexes:
 sents = doc.get_sents()
 
 # Load correct recognition engine
-if options.recognition_engine is None:
+if options.recognition_engine == 'none':
     recogniser = None
+elif options.recognition_engine == 'default':
+    recogniser = ternip.recogniser()
 elif options.recognition_engine == 'rule':
     recogniser = ternip.rule_engine.recognition_rule_engine()
     recogniser.load_rules(options.recognition_rules)
 else:
     option_parser.print_help()
-    print "ERROR: invalid recognition engine specified"
+    print >>sys.stderr, "ERROR: invalid recognition engine specified"
     sys.exit(1)
 
 # Do recognition
@@ -94,14 +96,16 @@ if recogniser is not None:
     sents = recogniser.tag(sents)
 
 # Load correct recognition engine
-if options.normalisation_engine is None:
+if options.normalisation_engine == 'none':
     normaliser = None
+elif options.normalisation_engine == 'default':
+    normaliser = ternip.normaliser()
 elif options.normalisation_engine == 'rule':
     normaliser = ternip.rule_engine.normalisation_rule_engine()
     normaliser.load_rules(options.normalisation_rules)
 else:
     option_parser.print_help()
-    print "ERROR: invalid normalisation engine specified"
+    print >>sys.stderr, "ERROR: invalid normalisation engine specified"
     sys.exit(1)
 
 # Do normalisation
@@ -122,7 +126,7 @@ if normaliser is not None:
     
     # Now check if we got a dct
     if dct == '':
-        print >>sys.stderr, "Could not determine document creation time, use -c to override"
+        print >>sys.stderr, "WARNING: Could not determine document creation time, use -c to override"
     normaliser.annotate(sents, dct)
     
 # Now apply the changes back to the internal document
