@@ -166,6 +166,32 @@ def compute_offset_base(ref_date, expression, current_direction):
             t += 7
         return offset_from_date(ref_date, t)
     
+    # if it's a month
+    elif re.search('(' + expressions.MONTH_ABBRS + '|' + expressions.MONTHS + ')', expression, re.I) != None:
+        match = re.search('(' + expressions.MONTH_ABBRS + '|' + expressions.MONTHS + ')', expression, re.I)
+        m = date_functions.month_to_num(match.group()) - int(ref_date[4:6])
+        if m > 0 and current_direction < 0:
+            m -= 12
+        if m < 0 and current_direction > 0:
+            m += 12
+        return offset_from_date(ref_date, m, 'M')
+    
+    # if it's a holiday
+    elif re.search(expressions.FIXED_HOLIDAYS, expression, re.I) != None:
+        match = re.search(expressions.FIXED_HOLIDAYS, expression, re.I)
+        ref_m = int(ref_date[4:6])
+        ref_d = int(ref_date[6:8])
+        holdate = string_conversions.fixed_holiday_date(match.group())
+        hol_m = int(holdate[:2])
+        hol_d = int(holdate[2:4])
+        
+        if (hol_m < ref_m or (hol_m == ref_m and hol_d < ref_d)) and current_direction > 0:
+            ref_date = offset_from_date(ref_date, 1, 'Y', True)
+        elif (hol_m > ref_m or (hol_m == ref_m and hol_d > ref_d)) and current_direction < 0:
+            ref_date = offset_from_date(ref_date, -1, 'Y', True)
+        
+        return ref_date[:4] + holdate
+    
     # Other expressions
     elif expression.lower().find('yesterday') > -1:
         return offset_from_date(ref_date, -1)
@@ -175,3 +201,4 @@ def compute_offset_base(ref_date, expression, current_direction):
     # Couldn't figure out an offset
     else:
         return ref_date
+    

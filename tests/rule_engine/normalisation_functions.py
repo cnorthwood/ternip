@@ -158,6 +158,15 @@ class string_conversions_Test(unittest.TestCase):
     
     def test_nth_dow_holiday_date_bad(self):
         self.assertEquals((0,0,0), nth_dow_holiday_date('bad'))
+    
+    def test_season_to_month_id(self):
+        self.assertEquals('december', season_to_month('WI'))
+    
+    def test_season_to_month_name(self):
+        self.assertEquals('september', season_to_month('autumn'))
+    
+    def test_season_to_month_bad(self):
+        self.assertEquals('', season_to_month('foobar'))
 
 class words_to_num_Test(unittest.TestCase):
     
@@ -230,6 +239,30 @@ class relative_date_functions_Test(unittest.TestCase):
     def test_compute_offset_base_today(self):
         self.assertEquals('20100804', compute_offset_base('20100804', 'Wednesday', 1))
         self.assertEquals('20100804', compute_offset_base('20100804', 'Wednesday', -1))
+    
+    def test_compute_offset_base_last_month(self):
+        self.assertEquals('201006', compute_offset_base('20100804', 'June', -1))
+        self.assertEquals('200912', compute_offset_base('20100804', 'dec', -1))
+    
+    def test_compute_offset_base_next_month(self):
+        self.assertEquals('201012', compute_offset_base('20100804', 'DECEMBER', 1))
+        self.assertEquals('201101', compute_offset_base('20100804', 'jan', 1))
+    
+    def test_compute_offset_base_this_month(self):
+        self.assertEquals('201008', compute_offset_base('20100804', 'August', 1))
+        self.assertEquals('201008', compute_offset_base('20100804', 'aug', -1))
+    
+    def test_compute_offset_base_last_fixedhol(self):
+        self.assertEquals('20091225', compute_offset_base('20091230', '<christmas~foo>', -1))
+        self.assertEquals('20091225', compute_offset_base('20100804', '<christmas~foo>', -1))
+    
+    def test_compute_offset_base_next_fixedhol(self):
+        self.assertEquals('20111225', compute_offset_base('20101231', '<christmas~foo>', 1))
+        self.assertEquals('20111225', compute_offset_base('20110426', '<christmas~foo>', 1))
+    
+    def test_compute_offset_base_this_fixedhol(self):
+        self.assertEquals('20101225', compute_offset_base('20101225', '<christmas~foo>', 1))
+        self.assertEquals('20101225', compute_offset_base('20101225', '<christmas~foo>', -1))
     
     def test_offset_minute(self):
         self.assertEquals('20100804T1628', offset_from_date('20100804T163604', -8, 'TM'))

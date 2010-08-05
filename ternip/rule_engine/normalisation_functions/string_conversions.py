@@ -94,6 +94,22 @@ def season(s):
     else:
         return s
 
+_season_to_month = {
+    'SP': 'april',
+    'SU': 'june',
+    'FA': 'september',
+    'WI': 'december'
+}
+
+def season_to_month(s):
+    """
+    Convert seasons to months (roughly), returns an int
+    """
+    s = season(s)
+    if s in _season_to_month:
+        return _season_to_month[s]
+    else:
+        return ''
 
 # Words (or parts of words) and then unit identifier
 _units_to_gran = {

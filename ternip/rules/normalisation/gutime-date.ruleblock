@@ -689,3 +689,293 @@ Value: offset_from_date(cur_context, 2)
 Type: date
 Match: <tomorrow~.+>
 Value: offset_from_date(cur_context, 1)
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !(fool|<may~.+><day~.+>)
+Match: <($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>(<.*>)*<($MONTHS|$MONTH_ABBRS)~.+>
+Value: compute_offset_base(cur_context, {#5}, 1) + ("%02d" % ordinal_to_num({#1}))
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !(fool|<may~.+><day~.+>)
+Match: <($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>(<.*>)*<($MONTHS|$MONTH_ABBRS)~.+>
+Value: compute_offset_base(cur_context, {#5}, -1) + ("%02d" % ordinal_to_num({#1}))
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !(fool|<may~.+><day~.+>)
+Match: <($MONTHS|$MONTH_ABBRS)~.+>(<.*>)*<($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>
+Value: compute_offset_base(cur_context, {#1}, 1) + ("%02d" % ordinal_to_num({#5}))
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !(fool|<may~.+><day~.+>)
+Match: <($MONTHS|$MONTH_ABBRS)~.+>(<.*>)*<($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + ("%02d" % ordinal_to_num({#5}))
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !(fool|<may~.+><day~.+>)
+Match: ($MONTHS|$MONTH_ABBRS)
+Value: compute_offset_base(cur_context, {#1}, 1)
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !(fool|<may~.+><day~.+>)
+Match: ($MONTHS|$MONTH_ABBRS)
+Value: compute_offset_base(cur_context, {#1}, -1)
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><morning~.+>
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TMO'
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><morning~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TMO'
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><afternoon~.+>
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TAF'
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><afternoon~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TAF'
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><evening~.+>
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TEV'
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><evening~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TEV'
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><night~.+>
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TNI'
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+><night~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TNI'
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+>
+Value: compute_offset_base(cur_context, {#1}, 1)
+
+---
+
+Type: date
+Guard: (last|past)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: <(the|a)~.+>$
+Match: <($DAYS)~.+>
+Value: compute_offset_base(cur_context, {#1}, -1)
+
+---
+
+Type: date
+Guard: (next|coming|this)
+Match: <(spring|summer|winter|fall|autumn)~.+>
+Value: compute_offset_base(cur_context, season_to_month({#1}), 1)[:4] + season({#1})
+
+---
+
+Type: date
+Guard: (last|past)
+Match: <(spring|summer|winter|fall|autumn)~.+>
+Value: compute_offset_base(cur_context, season_to_month({#1}), -1)[:4] + season({#1})
+
+---
+
+Type: date
+Guard: (this)
+Match: <month~.+>
+Value: offset_from_date(cur_context, 0, 'M')
+
+---
+
+Type: date
+Guard: (next|coming)
+Match: <month~.+>
+Value: offset_from_date(cur_context, 1, 'M')
+
+---
+
+Type: date
+Guard: (last|past)
+Match: <month~.+>
+Value: offset_from_date(cur_context, -1, 'M')
+
+---
+
+Type: date
+Guard: (this)
+Match: <year~.+>
+Value: offset_from_date(cur_context, 0, 'Y')
+
+---
+
+Type: date
+Guard: (next|coming)
+Match: <year~.+>
+Value: offset_from_date(cur_context, 1, 'Y')
+
+---
+
+Type: date
+Guard: (last|past)
+Match: <year~.+>
+Value: offset_from_date(cur_context, -1, 'Y')
+
+---
+
+Type: date
+Guard: (this)
+Match: <century~.+>
+Value: offset_from_date(cur_context, 0, 'C')
+
+---
+
+Type: date
+Guard: (next|coming)
+Match: <century~.+>
+Value: offset_from_date(cur_context, 1, 'C')
+
+---
+
+Type: date
+Guard: (last|past)
+Match: <century~.+>
+Value: offset_from_date(cur_context, -1, 'C')
+
+---
+
+Type: date
+Guard: (this)
+Match: <decade~.+>
+Value: offset_from_date(cur_context, 0, 'E')
+
+---
+
+Type: date
+Guard: (next|coming)
+Match: <decade~.+>
+Value: offset_from_date(cur_context, 1, 'E')
+
+---
+
+Type: date
+Guard: (last|past)
+Match: <decade~.+>
+Value: offset_from_date(cur_context, -1, 'E')
+
+---
+
+Type: date
+Match: <(past|last)~.+><night~.+>
+Value: offset_from_date(cur_context, -1) + 'TNI'
+
+---
+
+Type: date
+Match: <(next|coming)~.+><weekend~.+>
+Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[6:8])) + 'WE'
+
+---
+
+Type: date
+Match: <(past|last)~.+><weekend~.+>
+Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[6:8])) + 'WE'
+
+---
+
+Type: date
+Match: <(next|coming)~.+><week~.+>
+Value: offset_from_date(cur_context, 1, 'W')
+
+---
+
+Type: date
+Match: <last~.+><week~.+>
+Value: offset_from_date(cur_context, -1, 'W')
+
+---
+
+Type: date
+Match: <(next|coming|this)~.+>$FIXED_HOLIDAYS<eve~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#2}, 1), -1)
+
+---
+
+Type: date
+Match: <(last|past)~.+>$FIXED_HOLIDAYS<eve~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#2}, -1), -1)
+
+---
+
+Type: date
+Match: <(next|coming|this)~.+>$FIXED_HOLIDAYS
+Value: compute_offset_base(cur_context, {#2}, 1)
+
+---
+
+Type: date
+Match: <(last|past)~.+>$FIXED_HOLIDAYS
+Value: compute_offset_base(cur_context, {#2}, -1)
