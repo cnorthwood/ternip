@@ -23,12 +23,12 @@ option_parser.add_option_group(io_group)
 
 recog_group = optparse.OptionGroup(option_parser, "Recognition Rules")
 recog_group.add_option('-r', '--recognition-engine', dest='recognition_engine', type='choice', default='default', choices=['none','rule','default'], help='Selects the engine to use for TIMEX recognition. Defaults to the currently recommended TERNIP engine. Other options are \'rule\' for the rule engine and \'none\' to disable recognition (e.g., if the document already has TIMEXs annotated, but just needs normalising)')
-recog_group.add_option('--recognition-rules', dest='recognition_rules', type='string', default='rules/recognition/', help='Path to recognition rules. Defaults to ./rules/recognition/')
+recog_group.add_option('--recognition-rules', dest='recognition_rules', type='string', default=None, help='Path to recognition rules. Defaults to ./rules/recognition/')
 option_parser.add_option_group(recog_group)
 
 norm_group = optparse.OptionGroup(option_parser, "Normalisation Rules")
 norm_group.add_option('-n', '--normalisation-engine', dest='normalisation_engine', type='choice', default='default', choices=['none','rule','default'], help='Selects the engine to use for TIMEX recognition. Defaults to the currently recommended TERNIP engine. Other options are \'rule\' for the rule engine and \'none\' to disable recognition (e.g., to just do recognition)')
-norm_group.add_option('--normalisation-rules', dest='normalisation_rules', type='string', default='rules/normalisation/', help='Path to normalisation rules. Defaults to ./rules/normalisation/')
+norm_group.add_option('--normalisation-rules', dest='normalisation_rules', type='string', default=None, help='Path to normalisation rules. Defaults to ./rules/normalisation/')
 option_parser.add_option('-c', '--dct', dest='dct', default=None, type='string', help='The document creation time used as the basis for normalisation. If not set, it will attempt to be extracted from the document.')
 option_parser.add_option_group(norm_group)
 
@@ -82,11 +82,18 @@ elif options.recognition_engine == 'default':
     recogniser = ternip.recogniser()
 elif options.recognition_engine == 'rule':
     recogniser = ternip.rule_engine.recognition_rule_engine()
-    recogniser.load_rules(options.recognition_rules)
 else:
     option_parser.print_help()
     print >>sys.stderr, "ERROR: invalid recognition engine specified"
     sys.exit(1)
+
+# Load rules
+if options.recognition_rules != None and options.recognition_engine == 'rule':
+    recogniser.load_rules(options.recognition_rules)
+elif options.recognition_rules == None and options.recognition_engine == 'rule':
+    print >>sys.stderr, "WARNING: no recognition rules set to load"
+elif options.recognition_rules != None and options.recognition_engine != 'rule':
+    print >>sys.stderr, "WARNING: recognition rule path only valid when rule engine specified"
 
 # Do recognition
 if recogniser is not None:
@@ -107,6 +114,14 @@ else:
     option_parser.print_help()
     print >>sys.stderr, "ERROR: invalid normalisation engine specified"
     sys.exit(1)
+
+# Load rules
+if options.normalisation_rules != None and options.normalisation_engine == 'rule':
+    normaliser.load_rules(options.normalisation_rules)
+elif options.normalisation_rules == None and options.normalisation_engine == 'rule':
+    print >>sys.stderr, "WARNING: no normsalisation rules set to load"
+elif options.normalisation_rules != None and options.normalisation_engine != 'rule':
+    print >>sys.stderr, "WARNING: normalisation rule path only valid when rule engine specified"
 
 # Do normalisation
 if normaliser is not None:
