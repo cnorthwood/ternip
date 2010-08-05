@@ -455,10 +455,11 @@ class xml_doc:
             
             # This node is completely covered by this TIMEX, so include it
             # inside the TIMEX, unless the timex is non consuming
-            if (i + e) <= end and i >= start and not timex.non_consuming and e > 0:
+            if (i + e) <= end and i >= start and not timex.non_consuming and e > 0 and (child.nodeType != node.TEXT_NODE or (i + e) < end):
                 timex_tag.appendChild(child)
             
-            if (i + e) > end and i < end and not timex.non_consuming:
+            if ((i + e) > end and i < end and not timex.non_consuming) or \
+                ((i + e) == end and i >= start and not timex.non_consuming and e > 0 and child.nodeType == node.TEXT_NODE):
                 # This crosses the end boundary, so if our TIMEX consumes text
                 # then split the node in half (if it's a text node)
                 if child.nodeType == node.TEXT_NODE:
