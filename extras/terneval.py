@@ -42,11 +42,9 @@ ternip_dir = os.path.join(temp, 'ternip')
 os.mkdir(ternip_dir)
 
 # Load TERNIP
-recogniser = ternip.rule_engine.recognition_rule_engine()
-recogniser.load_rules(os.path.normpath('../rules/recognition/'))
+recogniser = ternip.recogniser()
 print "TERNIP loaded", recogniser.num_rules, "recognition rules"
-normaliser = ternip.rule_engine.normalisation_rule_engine()
-normaliser.load_rules(os.path.normpath('../rules/normalisation/'))
+normaliser = ternip.normaliser()
 print "TERNIP loaded", normaliser.num_rules, "normalisation rules"
 print
 
