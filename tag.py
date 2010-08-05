@@ -115,7 +115,7 @@ if normaliser is not None:
         for sent in dct_sents:
             for (tok, pos, ts) in sent:
                 for t in ts:
-                    if dct == None and t.value != None:
+                    if dct == '' and t.value != None:
                         dct = t.value
     else:
         dct = options.dct
