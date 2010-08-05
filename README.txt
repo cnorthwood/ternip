@@ -28,11 +28,17 @@ INSTALLING
     
     TERNIP also depends on NLTK and dateutil. Please ensure both of these Python
     packages are installed.
+    
+    TERNIP uses Python's distutils to install itself. To install TERNIP, please
+    run:
+    
+        python setup.py install
 
-USING TAG.PY
+USING ANNOTATE_TIMEX
 
-    tag.py is a simple front-end to TERNIP. Running tag.py with no arguments
-    will show you the correct usage.
+    The annotate_timex command provides a simple front-end to TERNIP. Running
+    'annotate_timex' with no arguments shows you the default usage for the
+    script.
 
 USING THE API
 
