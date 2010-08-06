@@ -42,14 +42,14 @@ class date_functions_Test(unittest.TestCase):
     def test_date_to_dow_wraparound(self):
         self.assertEquals(0, date_to_dow(2010, 8, 1))
     
-    def test_nth_dow_to_date_normal(self):
-        self.assertEquals(3, nth_dow_to_date(8, 2, 1, 2010))
+    def test_nth_dow_to_day_normal(self):
+        self.assertEquals(3, nth_dow_to_day((8, 2, 1), 2010))
     
-    def test_nth_dow_to_date_special_case(self):
-        self.assertEquals(8, nth_dow_to_date(8, 7, 2, 2010))
+    def test_nth_dow_to_day_special_case(self):
+        self.assertEquals(8, nth_dow_to_day((8, 7, 2), 2010))
     
-    def test_nth_dow_to_date_special_case2(self):
-        self.assertEquals(12, nth_dow_to_date(7, 1, 2, 2010))
+    def test_nth_dow_to_day_special_case2(self):
+        self.assertEquals(12, nth_dow_to_day((7, 1, 2), 2010))
     
     def test_date_to_iso_alreadyiso(self):
         self.assertEquals('20100808', date_to_iso('20100808'))
@@ -263,6 +263,30 @@ class relative_date_functions_Test(unittest.TestCase):
     def test_compute_offset_base_this_fixedhol(self):
         self.assertEquals('20101225', compute_offset_base('20101225', '<christmas~foo>', 1))
         self.assertEquals('20101225', compute_offset_base('20101225', '<christmas~foo>', -1))
+    
+    def test_compute_offset_base_last_nthdowhol(self):
+        self.assertEquals('20100620', compute_offset_base('20100806', 'father', -1))
+        self.assertEquals('20090621', compute_offset_base('20100618', 'father', -1))
+    
+    def test_compute_offset_base_next_nthdowhol(self):
+        self.assertEquals('20110619', compute_offset_base('20100806', 'father', 1))
+        self.assertEquals('20100620', compute_offset_base('20100608', 'father', 1))
+    
+    def test_compute_offset_base_this_nthdowhol(self):
+        self.assertEquals('20100620', compute_offset_base('20100620', 'father', 1))
+        self.assertEquals('20100620', compute_offset_base('20100620', 'father', -1))
+    
+    def test_compute_offset_base_last_lunarhol(self):
+        self.assertEquals('20090412', compute_offset_base('20091006', '<easter~foo>', -1))
+        self.assertEquals('20090412', compute_offset_base('20100201', '<easter~foo>', -1))
+    
+    def test_compute_offset_base_next_lunarhol(self):
+        self.assertEquals('20100404', compute_offset_base('20100201', '<easter~foo>', 1))
+        self.assertEquals('20110424', compute_offset_base('20101006', '<easter~foo>', 1))
+    
+    def test_compute_offset_base_this_lunarhol(self):
+        self.assertEquals('20100404', compute_offset_base('20100404', '<easter~foo>', 1))
+        self.assertEquals('20100404', compute_offset_base('20100404', '<easter~foo>', -1))
     
     def test_offset_minute(self):
         self.assertEquals('20100804T1628', offset_from_date('20100804T163604', -8, 'TM'))

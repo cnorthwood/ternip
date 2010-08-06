@@ -45,13 +45,13 @@ def date_to_dow(y, m, d):
         w = 0
     return w
 
-def nth_dow_to_date(m, dow, n, y):
+def nth_dow_to_day((m, dow, n), y):
     """
     Figures out the day of the nth day-of-week in the month m and year y as an
     integer
     
     e.g., 2nd Wednesday in July 2010:
-          nth_dow_to_date(7, 3, 2, 2010)
+          nth_dow_to_day((7, 3, 2), 2010)
     
     Conversion from GUTime
     """

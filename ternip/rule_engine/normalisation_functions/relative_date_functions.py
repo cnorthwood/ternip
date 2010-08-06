@@ -176,7 +176,7 @@ def compute_offset_base(ref_date, expression, current_direction):
             m += 12
         return offset_from_date(ref_date, m, 'M')
     
-    # if it's a holiday
+    # if it's a fixed holiday
     elif re.search(expressions.FIXED_HOLIDAYS, expression, re.I) != None:
         match = re.search(expressions.FIXED_HOLIDAYS, expression, re.I)
         ref_m = int(ref_date[4:6])
@@ -191,6 +191,50 @@ def compute_offset_base(ref_date, expression, current_direction):
             ref_date = offset_from_date(ref_date, -1, 'Y', True)
         
         return ref_date[:4] + holdate
+    
+    # if it's an nth dow holiday
+    elif re.search(expressions.NTH_DOW_HOLIDAYS, expression, re.I) != None:
+        match = re.search(expressions.NTH_DOW_HOLIDAYS, expression, re.I)
+        
+        # Get the date of the event this year and figure out if it's passed or
+        # not
+        ref_m = int(ref_date[4:6])
+        ref_d = int(ref_date[6:8])
+        hol_m = string_conversions.nth_dow_holiday_date(match.group(1))[0]
+        hol_d = date_functions.nth_dow_to_day(string_conversions.nth_dow_holiday_date(match.group(1)), int(ref_date[:4]))
+        
+        if (hol_m < ref_m or (hol_m == ref_m and hol_d < ref_d)) and current_direction > 0:
+            ref_date = offset_from_date(ref_date, 1, 'Y', True)
+        elif (hol_m > ref_m or (hol_m == ref_m and hol_d > ref_d)) and current_direction < 0:
+            ref_date = offset_from_date(ref_date, -1, 'Y', True)
+        
+        # Now figure out the date for that year
+        return "%s%02d%02d" % (ref_date[:4], string_conversions.nth_dow_holiday_date(match.group(1))[0], date_functions.nth_dow_to_day(string_conversions.nth_dow_holiday_date(match.group(1)), int(ref_date[:4])))
+    
+    # if it's a lunar holiday
+    elif re.search(expressions.LUNAR_HOLIDAYS, expression, re.I) != None:
+        match = re.search(expressions.LUNAR_HOLIDAYS, expression, re.I)
+        
+        # Get the date of the event this year and figure out if it's passed or
+        # not
+        ref_m = int(ref_date[4:6])
+        ref_d = int(ref_date[6:8])
+        easter = date_functions.easter_date(int(ref_date[:4]))
+        hol_m = int(easter[4:6])
+        hol_d = int(easter[6:8])
+        
+        if (hol_m < ref_m or (hol_m == ref_m and hol_d < ref_d)) and current_direction > 0:
+            ref_date = offset_from_date(ref_date, 1, 'Y', True)
+        elif (hol_m > ref_m or (hol_m == ref_m and hol_d > ref_d)) and current_direction < 0:
+            ref_date = offset_from_date(ref_date, -1, 'Y', True)
+        
+        hol_y = int(ref_date[:4])
+        easter = date_functions.easter_date(hol_y)
+        hol_m = int(easter[4:6])
+        hol_d = int(easter[6:8])
+        
+        # Now figure out the date for that year
+        return "%04d%02d%02d" % (hol_y, hol_m, hol_d)
     
     # Other expressions
     elif expression.lower().find('yesterday') > -1:
