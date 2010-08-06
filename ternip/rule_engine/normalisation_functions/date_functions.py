@@ -205,3 +205,30 @@ def date_to_iso(string):
             iso += zone.lstrip()
     
     return iso
+
+def extract_timezone(string):
+    """
+    Given some string, try and extract the timezone it refers to. Returns a
+    string.
+    """
+    
+    tz = ''
+    
+    # detokenise if need be
+    string = re.sub(r'<([^~]*)~[^>]*>', r'\1 ', string)
+    
+    match = re.search(r'[\d\b]([A-Z][SD]T)\b', string)
+    if match != None:
+        tz = match.group(1)
+    
+    elif string.lower().find('universal') > -1:
+        tz = 'UT'
+    
+    elif string.lower().find('zulu') > -1:
+        tz = 'GMT'
+    
+    elif re.search(r'([a-z])[a-z]+\s+([ds])[a-z]+\s+time', string, re.I) != None:
+        match = re.search(r'([a-z])[a-z]+\s+([ds])[a-z]+\s+time', string, re.I)
+        tz = match.group(1).upper() + match.group(2).upper() + 'T'
+    
+    return tz

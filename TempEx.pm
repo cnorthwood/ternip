@@ -749,18 +749,6 @@ sub TE_AddAttributes {
 		    }
 		    
 		}  # (!$FoundVal && ($TE_HeurLevel > 1))
-
-		if(($Attributes =~ /$valTagName=\"\d{8}\"/o) &&
-		   ($TEstring =~ /(morning|afternoon|evening|night)/oi)) {
-		    if($TEstring =~ /morning/io) {
-			$Attributes =~ s/($valTagName=\"\d{8})\"/$1TMO\"/io; }
-		    elsif($TEstring =~ /afternoon/io) {
-			$Attributes =~ s/($valTagName=\"\d{8})\"/$1TAF\"/io; }
-		    elsif($TEstring =~ /evening/io) {
-			$Attributes =~ s/($valTagName=\"\d{8})\"/$1TEV\"/io; }
-		    elsif($TEstring =~ /night/io) {
-			$Attributes =~ s/($valTagName=\"\d{8})\"/$1TNI\"/io; }
-		}
 		
 	    } # if($RefTime)
 	}  # if type=date
@@ -768,98 +756,14 @@ sub TE_AddAttributes {
 	# type=time
 	elsif($Type eq "time") {
 
-	    $TimeZone = "";
-	    if($TEstring =~ /[\d\b]([A-Z][SD]T)\b/o) { $TimeZone = $1; }
-	    elsif($TEstring =~ /universal/oi) { $TimeZone = "UT"; }
-	    elsif($TEstring =~ /zulu/oi) { $TimeZone = "GMT"; }
-	    elsif($TEstring =~ /([a-z])[a-z]+\s+([ds])[a-z]+\s+time/oi) {
-		$Zone = uc($1);
-		$DorS = uc($2);
-		$TimeZone = "$Zone${DorS}T";
-	    }
-
 	    if($TEstring =~ /(exact|precise|sharp|on\s+the\s+dot)/io) {
 		$Exact = 1; }
 	    elsif($output =~ /(exactly|precisely)/io) { $Exact = 1; }
 	    else { $Exact = 0; }
 
-	    # ISO time
-	    if($TEstring =~ /(T\d\d(:?\d\d)?(:?\d\d)?([\+\-]\d{1,4})?)/o) {
-		$Val = Date2ISO($1);
-		$Attributes .= " $valTagName=\"$Val\"";
-	    }
-	    # noon/midnight 
-	    elsif($TEstring =~ /\b(noon|midnight|zero\s+hour)/oi) {
-		$twelve = lc($1);
-		if($twelve eq "noon") {
-		    $Attributes .= " $valTagName=\"T1200$TimeZone\""; }
-		else { $Attributes .= " $valTagName=\"T0000$TimeZone\""; }
-	    }
-	    # 24 hour Euro time
-	    elsif($TEstring =~ /\b(\d\d?)h(\d\d)\b/io) {
-		$Hour = $1;   $Min = $2;
-		$Val = sprintf("%02d%02d", $Hour, $Min);
-		$Attributes .= " $valTagName=\"T$Val\"";
-		if(($Hour>24) || ($Min>59)) {
-		    $Attributes .= " ERROR=\"Bad Time\""; }
-	    }
-
-	    # X hour|minute ago
-	    elsif($TEstring =~ /hours?\s+(and\s+a\s+half\s+)?(ago|hence|from\s+now)\Z/oi) {
-		$temp1 = $`;
-		$temp2 = $1;
-		$temp3 = $2;
-
-		if($temp3 eq "ago") { $Dir = -1; }
-		else { $Dir = 1; }
-
-		if(!$RefTime) {
-		    # Do Nothing
-		}
-		elsif($temp1 =~ /\Aan\s+\Z/o) {
-		    if($temp2) { $Val = &OffsetFromRef($RefTime, 90 * $Dir, "TM"); }
-		    else { $Val = &OffsetFromRef($RefTime, $Dir, "TH"); }
-		    $Attributes .= " $valTagName=\"$Val\"";
-		} elsif($Offset = Word2Num($temp1)) {
-		    $Offset *= $Dir;
-		    $Val = &OffsetFromRef($RefTime, $Offset, "TH");
-		    $Attributes .= " $valTagName=\"$Val\"";
-		} elsif(($temp1 =~ /and\s+a\s+half\s*\Z/o) &&
-			($Offset = Word2Num($`))) {
-		    $Offset = ((60 * $Offset) + 30) * $Dir ;
-		    $Val = &OffsetFromRef($RefTime, $Offset, "TM");
-		    $Attributes .= " $valTagName=\"$Val\"";
-		} elsif($temp1 =~ /\A(a\s+)?half(\s+an)?\s*\Z/o) {
-		    $Val = &OffsetFromRef($RefTime, 30 * $Dir, "TM");
-		    $Attributes .= " $valTagName=\"$Val\"";
-		} else {
-		    if($Dir == 1) { $Attributes .= " $valTagName=\"FUTURE_REF\""; }
-		    else { $Attributes .= " $valTagName=\"PAST_REF\""; }
-		}
-	    }
-	    elsif($TEstring =~ /minutes?\s+(ago|hence|from\s+now)\Z/oi) {
-		$temp1 = $`;
-		$temp3 = $1;
-
-		if($temp3 eq "ago") { $Dir = -1; }
-		else { $Dir = 1; }
-
-		if(!$RefTime) {
-		    if($Dir == 1) { $Attributes .= " $valTagName=\"FUTURE_REF\""; }
-		    else { $Attributes .= " $valTagName=\"PAST_REF\""; }
-		}
-		elsif($Offset = Word2Num($temp1)) {
-		    $Offset *= $Dir;
-		    $Val = &OffsetFromRef($RefTime, $Offset, "TM");
-		    $Attributes .= " $valTagName=\"$Val\"";
-		} else {
-		    if($Dir == 1) { $Attributes .= " $valTagName=\"FUTURE_REF\""; }
-		    else { $Attributes .= " $valTagName=\"PAST_REF\""; }
-		}
-	    }
 	    
 	    # AM/PM
-	    elsif($TEstring =~ /(\d\d?)(:(\d\d))?\s*([ap])\.?\s*m\.?/oi) {
+	    if($TEstring =~ /(\d\d?)(:(\d\d))?\s*([ap])\.?\s*m\.?/oi) {
 		$Hour = $1;
 		$Min  = $3;
 		$AorP = lc($4);

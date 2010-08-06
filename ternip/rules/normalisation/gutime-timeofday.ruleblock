@@ -1,0 +1,22 @@
+Block-Type: run-until-success
+After: gutime-date
+
+---
+
+Match: <morning~.+>
+Value: (timex.value + 'TMO') if (re.match(r'^\d{8}$', timex.value if timex.value != None else '') != None) else timex.value
+
+---
+
+Match: <afternoon~.+>
+Value: (timex.value + 'TAF') if (re.match(r'^\d{8}$', timex.value if timex.value != None else '') != None) else timex.value
+
+---
+
+Match: <evening~.+>
+Value: (timex.value + 'TEV') if (re.match(r'^\d{8}$', timex.value if timex.value != None else '') != None) else timex.value
+
+---
+
+Match: <night~.+>
+Value: (timex.value + 'TNI') if (re.match(r'^\d{8}$', timex.value if timex.value != None else '') != None) else timex.value

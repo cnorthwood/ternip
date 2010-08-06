@@ -1,0 +1,127 @@
+Block-Type: run-until-success
+
+---
+
+Type: time
+Match: (T\d\d(:?\d\d)?(:?\d\d)?([\+\-]\d{1,4})?)
+Value: date_to_iso({#0})
+
+---
+
+Type: time
+Match: <noon~.+>
+Value: 'T1200' + extract_timezone(self._toks_to_str(body))
+
+---
+
+Type: time
+Match: (<midnight~.+>|<zerso~.+><hour~.+>)
+Value: 'T0000' + extract_timezone(self._toks_to_str(body))
+
+---
+
+Type: time
+Match: <(\d\d?)h(\d\d)~.+>
+Value: "T%02d%02d" % (int({#1}), int({#2}))
+
+---
+
+Type: time
+Match: <an~.+><hour~.+><and~.+><a~.+><half~.+><ago~.+>
+Value: offset_from_date(cur_context, -90, 'TM')
+
+---
+
+Type: time
+Match: <an~.+><hour~.+><and~.+><a~.+><half~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: offset_from_date(cur_context, 90, 'TM')
+
+---
+
+Type: time
+Match: <half~.+>(<an~.+>)?<hour~.+><ago~.+>
+Value: offset_from_date(cur_context, -30, 'TM')
+
+---
+
+Type: time
+Match: <half~.+>(<an~.+>)?<hour~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: offset_from_date(cur_context, 30, 'TM')
+
+---
+
+Type: time
+Match: <an~.+><hour~.+><ago~.+>
+Value: offset_from_date(cur_context, -1, 'TH')
+
+---
+
+Type: time
+Match: <an~.+><hour~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: offset_from_date(cur_context, 1, 'TH')
+
+---
+
+Type: time
+Deliminate-Numbers: true
+Match: (\d+|NUM_START.*NUM_END)<and~.+><a~.+><half~.+><hours?~.+><ago~.+>
+Value: offset_from_date(cur_context, (words_to_num({#1}) * -60) - 30, 'TM')
+
+---
+
+Type: time
+Deliminate-Numbers: true
+Match: (\d+|NUM_START.*NUM_END)<and~.+><a~.+><half~.+><hours?~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: offset_from_date(cur_context, (words_to_num({#1}) * 60) + 30, 'TM')
+
+---
+
+Type: time
+Deliminate-Numbers: true
+Match: (\d+|NUM_START.*NUM_END)<hours?~.+><ago~.+>
+Value: offset_from_date(cur_context, -1 * words_to_num({#1}), 'TH')
+
+---
+
+Type: time
+Deliminate-Numbers: true
+Match: (\d+|NUM_START.*NUM_END)<hours?~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: offset_from_date(cur_context, words_to_num({#1}), 'TH')
+
+---
+
+Type: time
+Match: <hours?~.+><ago~.+>
+Value: 'PAST_REF'
+
+---
+
+Type: time
+Match: <hours?~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: 'FUTURE_REF'
+
+---
+
+Type: time
+Deliminate-Numbers: true
+Match: (\d+|NUM_START.*NUM_END)<minutes?~.+><ago~.+>
+Value: offset_from_date(cur_context, -1 * words_to_num({#1}), 'TM')
+
+---
+
+Type: time
+Deliminate-Numbers: true
+Match: (\d+|NUM_START.*NUM_END)<minutes?~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: offset_from_date(cur_context, words_to_num({#1}), 'TM')
+
+---
+
+Type: time
+Match: <minutes?~.+><ago~.+>
+Value: 'PAST_REF'
+
+---
+
+Type: time
+Match: <minutes?~.+>(<hence~.+>|<from~.+><now~.+>)
+Value: 'FUTURE_REF'
