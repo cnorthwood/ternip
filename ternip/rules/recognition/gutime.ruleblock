@@ -80,7 +80,7 @@ Match: (<(early|late)~.+>)?<this~.+><(morning|afternoon|evening)~.+>
 # 13
 
 Type: date
-Match: (<(early|late)~.+>)<last~.+><night~.+>
+Match: (<(early|late)~.+>)?<last~.+><night~.+>
 
 ---
 # 14
@@ -153,7 +153,7 @@ Match: ((<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>
 # 24
 
 Type: date
-Match: (<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?)(<Halloween~.+>|<Allhallow(ma)?s~.+>|<C?Hanukk?ah~.+>|<Rosh~.+><Hashanah~.+>|<Yom~.+><Kippur~.+>|<Passover~.+>|<Ramadan~.+>|<Cinco~.+><de~.+><Mayo~.+>|<tet~.+>|<diwali~.+>|<kwanzaa~.+>|<Easter~.+>(<Sunday~.+>)?|<palm~.+><sunday~.+>|<mardis~.+><gras~.+>|<shrove~.+><tuesday~.+>|<ash~.+><wednesday~.+>|<good~.+><friday~.+>|<walpurgisnacht~.+>|<beltane~.+>|<candlemas~.+>|<day~.+><of~.+><the~.+><dead~.+>)((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
+Match: (<this~.+>(<(coming|past)~.+>)?|<next~.+>|<last~.+>|<each~.+>|<every~.+>(<(other|$ORDINAL_NUMS|$ORDINAL_WORDS)~.+>)?)?(<Halloween~.+>|<Allhallow(ma)?s~.+>|<C?Hanukk?ah~.+>|<Rosh~.+><Hashanah~.+>|<Yom~.+><Kippur~.+>|<Passover~.+>|<Ramadan~.+>|<Cinco~.+><de~.+><Mayo~.+>|<tet~.+>|<diwali~.+>|<kwanzaa~.+>|<Easter~.+>(<Sunday~.+>)?|<palm~.+><sunday~.+>|<mardis~.+><gras~.+>|<shrove~.+><tuesday~.+>|<ash~.+><wednesday~.+>|<good~.+><friday~.+>|<walpurgisnacht~.+>|<beltane~.+>|<candlemas~.+>|<day~.+><of~.+><the~.+><dead~.+>)((<,~.+>)?(<of~.+>)?<\d\d\d\d~.+>)?
 
 ---
 # 25
