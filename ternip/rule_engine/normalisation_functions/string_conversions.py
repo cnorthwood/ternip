@@ -225,10 +225,10 @@ _duration_values = {
 def build_duration_value(num, unit):
     
     if unit.lower() in _duration_values:
+        du = _duration_values[unit.lower()]
         if num == 'X':
             return 'X' + du[1]
         else:
-            du = _duration_values[unit.lower()]
             return ('T' if du[2] else '') + str(num * du[0]) + du[1]
     
     else:

@@ -89,7 +89,18 @@ class date_functions_Test(unittest.TestCase):
         self.assertEquals('XXXXXXXXT1628', date_to_iso('1628 hours 4/2'))
         self.assertEquals('XXXXXXXXT162808.02', date_to_iso('16:28:08.02'))
         self.assertEquals('XXXXXXXXT162808', date_to_iso('16:28:08'))
-        
+    
+    def test_extract_timezone(self):
+        self.assertEquals('RDT', extract_timezone('18:26 RDT'))
+        self.assertEquals('PST', extract_timezone('<PST~.+>'))
+        self.assertEquals('UT', extract_timezone('<Universal~.+>'))
+        self.assertEquals('GMT', extract_timezone('<zulu~.+>'))
+        self.assertEquals('EST', extract_timezone('<Eastern~.+><standard~.+><time~.+>'))
+    
+    def test_convert_to_24_hours(self):
+        self.assertEquals(18, convert_to_24_hours(6, 'p'))
+        self.assertEquals(6, convert_to_24_hours(6, 'a'))
+        self.assertEquals(20, convert_to_24_hours(20, 'a'))
 
 class string_conversions_Test(unittest.TestCase):
     
@@ -167,6 +178,13 @@ class string_conversions_Test(unittest.TestCase):
     
     def test_season_to_month_bad(self):
         self.assertEquals('', season_to_month('foobar'))
+    
+    def test_build_duration_value(self):
+        self.assertEquals('XM', build_duration_value('X', 'month'))
+        self.assertEquals('6X', build_duration_value(6, 'pineapples'))
+        self.assertEquals('T10M', build_duration_value(10, 'minute'))
+        self.assertEquals('12D', build_duration_value(12, 'day'))
+        self.assertEquals('700Y', build_duration_value(7, 'century'))
 
 class words_to_num_Test(unittest.TestCase):
     
@@ -346,4 +364,7 @@ class relative_date_functions_Test(unittest.TestCase):
         self.assertEquals('PAST_REF', offset_from_date('20100804T1432', -1, 'X'))
         self.assertEquals('FUTURE_REF', offset_from_date('20100804T1432', 1, 'X'))
         self.assertEquals('20100804T1432', offset_from_date('20100804T1432', 0, 'X'))
-        
+    
+    def test_offset_no_ref_date(self):
+        self.assertEquals('PAST_REF', offset_from_date('', -1, 'Y'))
+        self.assertEquals('FUTURE_REF', offset_from_date('', 1, 'Y'))

@@ -217,9 +217,9 @@ def extract_timezone(string):
     # detokenise if need be
     string = re.sub(r'<([^~]*)~[^>]*>', r'\1 ', string)
     
-    match = re.search(r'[\d\b]([A-Z][SD]T)\b', string)
+    match = re.search(r'(\d|\b)([A-Z][SD]T)\b', string)
     if match != None:
-        tz = match.group(1)
+        tz = match.group(2)
     
     elif string.lower().find('universal') > -1:
         tz = 'UT'
@@ -238,7 +238,7 @@ def convert_to_24_hours(time, ap):
     Given a hour and an a/p specifier, then convert the hour into 24 hour clock
     if need be
     """
-    if ap.lower == 'p' and time <= 12:
+    if ap.lower() == 'p' and time <= 12:
         time += 12
     
     return time
