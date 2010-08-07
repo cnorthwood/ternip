@@ -1,0 +1,43 @@
+Block-Type: run-until-success
+
+---
+
+Type: duration
+Deliminate-Numbers: true
+Match: (<a~.+>|<\d+~.+>|NUM_START.*NUM_END)<$UNITSs?(-old)?~.+>
+Value: 'P' + build_duration_value(words_to_num({#1}), {#2})
+
+---
+
+Type: duration
+Deliminate-Numbers: true
+Match: <(\d+)-$UNITS~.+>(<old~.+>)?
+Value: 'P' + build_duration_value(words_to_num({#1}), {#2})
+
+---
+
+Type: duration
+Deliminate-Numbers: true
+Match: <(\d+)-$UNITS-old~.+>
+Value: 'P' + build_duration_value(words_to_num({#1}), {#2})
+
+---
+
+Type: duration
+Deliminate-Numbers: true
+Match: <the~.+>(<\d+~.+>|NUM_START.*NUM_END|ORD_NUM_START.*ORD_NUM_END|$ORDINAL_WORDS|$ORDINAL_NUMS)(<.+>)?<$UNITSs?~.+>
+Value: 'P' + build_duration_value(words_to_num({#1}), {#3})
+
+---
+
+Type: duration
+Deliminate-Numbers: true
+Match: <a~.+><couple~.+>(<.+>)?<$UNITSs?~.+>
+Value: 'P' + build_duration_value(2, {#2})
+
+---
+
+Type: duration
+Deliminate-Numbers: true
+Match: <a~.+><few~.+>(<.+>)?<$UNITSs?~.+>
+Value: 'P' + build_duration_value('X', {#2})

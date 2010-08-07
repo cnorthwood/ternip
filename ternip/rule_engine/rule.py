@@ -36,6 +36,7 @@ class rule:
         exp = re.sub(r'\$NTH_DOW_HOLIDAYS', expressions.NTH_DOW_HOLIDAYS, exp)
         exp = re.sub(r'\$FIXED_HOLIDAYS', expressions.FIXED_HOLIDAYS, exp)
         exp = re.sub(r'\$LUNAR_HOLIDAYS', expressions.LUNAR_HOLIDAYS, exp)
+        exp = re.sub(r'\$UNITS', expressions.UNITS, exp)
         
         if tokenise is True:
             # This code is modified from NLTK's text.py for dealing with pattern
@@ -55,7 +56,7 @@ class rule:
             
             # Fix for NUM_START/NUM_ORD_START which really wants to match on ., but
             # in a non-greedy way
-            exp = re.sub(r'_START\[\^>\]', '_START(.(?!NUM_START))', exp)
+            exp = re.sub(r'_START\[\^>\]', '_START(?:.(?!NUM_START))', exp)
         
         return exp
     

@@ -203,3 +203,33 @@ def nth_dow_holiday_date(hol):
         return _nth_dow_holiday_date[hol.lower()]
     else:
         return (0,0,0)
+
+# Mapping of units to multipliers, duration representations, and whether or not
+# it needs to be prepended with T
+_duration_values = {
+    'second': (1, 'S', True),
+    'minute': (1, 'M', True),
+    'hour': (1, 'H', True),
+    'day': (1, 'D', False),
+    'month': (1, 'M', False),
+    'year': (1, 'Y', False),
+    'week': (1, 'W', False),
+    'fortnight': (2, 'W', False),
+    'decade': (10, 'Y', False),
+    'century': (100, 'Y', False),
+    'centurie': (100, 'Y', False),
+    'millenium': (1000, 'Y', False),
+    'millenia': (1000, 'Y', False)
+}
+
+def build_duration_value(num, unit):
+    
+    if unit.lower() in _duration_values:
+        if num == 'X':
+            return 'X' + du[1]
+        else:
+            du = _duration_values[unit.lower()]
+            return ('T' if du[2] else '') + str(num * du[0]) + du[1]
+    
+    else:
+        return str(num) + 'X'
