@@ -18,37 +18,48 @@ def offset_from_date(v, offset, gran='D', exact=False):
     
     gran = string_conversions.units_to_gran(gran)
     
-    # Extract date components into a datetime object for manipulation
-    y = int(v[:4])
-    m = int(v[4:6])
+    # check for valid refdate
+    if len(v) > 0:
+        # Extract date components into a datetime object for manipulation
+        y = int(v[:4])
+        m = int(v[4:6])
+        
+        if len(v) >= 8:
+            d = int(v[6:8])
+            really_d = True
+        else:
+            really_d = False
+            d = 1
+        
+        if len(v) >= 11:
+            h = int(v[9:11])
+        else:
+            h = None
+            dt = datetime.datetime(y, m, d)
+        
+        if len(v) >= 13:
+            min = int(v[11:13])
+        else:
+            min = None
+            if h != None:
+                dt = datetime.datetime(y, m, d, h)
+        
+        if len(v) >= 15:
+            s = int(v[13:15])
+            dt = datetime.datetime(y, m, d, h, min, s)
+        else:
+            s = None
+            if min != None:
+                dt = datetime.datetime(y, m, d, h, min)
     
-    if len(v) >= 8:
-        d = int(v[6:8])
-        really_d = True
-    else:
-        really_d = False
-        d = 1
+    elif offset >= 1:
+        return 'FUTURE_REF'
     
-    if len(v) >= 11:
-        h = int(v[9:11])
-    else:
-        h = None
-        dt = datetime.datetime(y, m, d)
+    elif offset <= -1:
+        return 'PAST_REF'
     
-    if len(v) >= 13:
-        min = int(v[11:13])
     else:
-        min = None
-        if h != None:
-            dt = datetime.datetime(y, m, d, h)
-    
-    if len(v) >= 15:
-        s = int(v[13:15])
-        dt = datetime.datetime(y, m, d, h, min, s)
-    else:
-        s = None
-        if min != None:
-            dt = datetime.datetime(y, m, d, h, min)
+        return v
     
     # Do manipulations
     if gran == 'TM':

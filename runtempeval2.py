@@ -8,6 +8,9 @@ import os.path
 import tempfile
 import shutil
 import time
+import sys
+
+sys.path.append('extras')
 
 import score_entities
 

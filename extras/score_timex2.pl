@@ -1024,6 +1024,12 @@ sub score_atts {
 
 	  $v1 =~ s/[\s-]//go;
 	  $v2 =~ s/[\s-]//go;
+	  
+	  if (lc($attr) eq 'val') {
+	    # convert to ISO basic
+	    $v1 =~ s/(-|:)//go;
+	    $v2 =~ s/(-|:)//go;
+	  }
 
 	  if(lc($v1) eq lc($v2)) {
 	    $ret .= sprintf($lab_format, "corr", $attr, $kav->{$attr}, $tav->{$attr});

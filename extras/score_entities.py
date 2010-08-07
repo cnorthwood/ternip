@@ -144,11 +144,12 @@ class Scores:
 
     def add_key_attribute_data(self, file, sid, tid, attr, val):
         position = "%s-%s-%s" % (file, sid, tid)
-        if attr == 'value': val = re.sub(r'-', '', val)
+        if attr == 'value': val = re.sub(r'(-|:)', '', val) # convert to ISO basic
         self.data[position][2][attr] = val
                 
     def add_response_attribute_data(self, file, sid, tid, attr, val):
         position = "%s-%s-%s" % (file, sid, tid)
+        if attr == 'value': val = re.sub(r'(-|:)', '', val) # convert to ISO basic
         self.data[position][3][attr] = val
 
         

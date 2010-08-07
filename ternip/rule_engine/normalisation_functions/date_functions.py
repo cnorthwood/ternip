@@ -232,3 +232,13 @@ def extract_timezone(string):
         tz = match.group(1).upper() + match.group(2).upper() + 'T'
     
     return tz
+
+def convert_to_24_hours(time, ap):
+    """
+    Given a hour and an a/p specifier, then convert the hour into 24 hour clock
+    if need be
+    """
+    if ap.lower == 'p' and time <= 12:
+        time += 12
+    
+    return time

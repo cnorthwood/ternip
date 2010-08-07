@@ -1,127 +1,447 @@
 Block-Type: run-until-success
 
 ---
+# 1
 
 Type: time
 Match: (T\d\d(:?\d\d)?(:?\d\d)?([\+\-]\d{1,4})?)
 Value: date_to_iso({#0})
 
 ---
+# 2
 
 Type: time
 Match: <noon~.+>
 Value: 'T1200' + extract_timezone(self._toks_to_str(body))
 
 ---
+# 3
 
 Type: time
 Match: (<midnight~.+>|<zerso~.+><hour~.+>)
 Value: 'T0000' + extract_timezone(self._toks_to_str(body))
 
 ---
+# 4
 
 Type: time
 Match: <(\d\d?)h(\d\d)~.+>
 Value: "T%02d%02d" % (int({#1}), int({#2}))
 
 ---
+# 5
 
 Type: time
 Match: <an~.+><hour~.+><and~.+><a~.+><half~.+><ago~.+>
 Value: offset_from_date(cur_context, -90, 'TM')
 
 ---
+# 6
 
 Type: time
 Match: <an~.+><hour~.+><and~.+><a~.+><half~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: offset_from_date(cur_context, 90, 'TM')
 
 ---
+# 7
 
 Type: time
 Match: <half~.+>(<an~.+>)?<hour~.+><ago~.+>
 Value: offset_from_date(cur_context, -30, 'TM')
 
 ---
+# 8
 
 Type: time
 Match: <half~.+>(<an~.+>)?<hour~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: offset_from_date(cur_context, 30, 'TM')
 
 ---
+# 9
 
 Type: time
 Match: <an~.+><hour~.+><ago~.+>
 Value: offset_from_date(cur_context, -1, 'TH')
 
 ---
+# 10
 
 Type: time
 Match: <an~.+><hour~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: offset_from_date(cur_context, 1, 'TH')
 
 ---
+# 11
 
 Type: time
 Deliminate-Numbers: true
-Match: (\d+|NUM_START.*NUM_END)<and~.+><a~.+><half~.+><hours?~.+><ago~.+>
+Match: (<\d+~.+>|NUM_START.*NUM_END)<and~.+><a~.+><half~.+><hours?~.+><ago~.+>
 Value: offset_from_date(cur_context, (words_to_num({#1}) * -60) - 30, 'TM')
 
 ---
+# 12
 
 Type: time
 Deliminate-Numbers: true
-Match: (\d+|NUM_START.*NUM_END)<and~.+><a~.+><half~.+><hours?~.+>(<hence~.+>|<from~.+><now~.+>)
+Match: (<\d+~.+>|NUM_START.*NUM_END)<and~.+><a~.+><half~.+><hours?~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: offset_from_date(cur_context, (words_to_num({#1}) * 60) + 30, 'TM')
 
 ---
+# 13
 
 Type: time
 Deliminate-Numbers: true
-Match: (\d+|NUM_START.*NUM_END)<hours?~.+><ago~.+>
+Match: (<\d+~.+>|NUM_START.*NUM_END)<hours?~.+><ago~.+>
 Value: offset_from_date(cur_context, -1 * words_to_num({#1}), 'TH')
 
 ---
+# 14
 
 Type: time
 Deliminate-Numbers: true
-Match: (\d+|NUM_START.*NUM_END)<hours?~.+>(<hence~.+>|<from~.+><now~.+>)
+Match: (<\d+~.+>|NUM_START.*NUM_END)<hours?~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: offset_from_date(cur_context, words_to_num({#1}), 'TH')
 
 ---
+# 15
 
 Type: time
 Match: <hours?~.+><ago~.+>
 Value: 'PAST_REF'
 
 ---
+# 16
 
 Type: time
 Match: <hours?~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: 'FUTURE_REF'
 
 ---
+# 17
 
 Type: time
 Deliminate-Numbers: true
-Match: (\d+|NUM_START.*NUM_END)<minutes?~.+><ago~.+>
+Match: (<\d+~.+>|NUM_START.*NUM_END)<minutes?~.+><ago~.+>
 Value: offset_from_date(cur_context, -1 * words_to_num({#1}), 'TM')
 
 ---
+# 18
 
 Type: time
 Deliminate-Numbers: true
-Match: (\d+|NUM_START.*NUM_END)<minutes?~.+>(<hence~.+>|<from~.+><now~.+>)
+Match: (<\d+~.+>|NUM_START.*NUM_END)<minutes?~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: offset_from_date(cur_context, words_to_num({#1}), 'TM')
 
 ---
+# 19
 
 Type: time
 Match: <minutes?~.+><ago~.+>
 Value: 'PAST_REF'
 
 ---
+# 20
 
 Type: time
 Match: <minutes?~.+>(<hence~.+>|<from~.+><now~.+>)
 Value: 'FUTURE_REF'
+
+---
+# 21
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(after|past)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#3}), 15)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 22
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(after|past)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: ('T%02d%02d' % (num_to_words({#1}), 15)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 23
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(after|past)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: ('T%02d%02d' % (convert_to_24_hours({#1}, 'p'), 15)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 24
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(after|past)~.+>
+Match: <(\d\d?)([ap])\.?m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#2}), 15)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 25
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(of|before|to)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#3}), 45)), -1, 'TH', True)[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 26
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(of|before|to)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d%02d' % (num_to_words({#1}), 45)), -1, 'TH', True)[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 27
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(of|before|to)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: offset_from_date(ref_date[:8] + ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), 'p'), 45)), -1, 'TH', True)[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 28
+
+Type: time
+Deliminate-Numbers: true
+Guard: <quarter~.+><(of|before|to)~.+>
+Match: <(\d\d?)([ap])\.?m?\.?~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#2}), 45)), -1, 'TH', True)[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 29
+
+Type: time
+Deliminate-Numbers: true
+Guard: <half~.+><(after|past)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#3}), 30)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 30
+
+Type: time
+Deliminate-Numbers: true
+Guard: <half~.+><(after|past)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: ('T%02d%02d' % (num_to_words({#1}), 30)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 31
+
+Type: time
+Deliminate-Numbers: true
+Guard: <half~.+><(after|past)~.+>
+Match: (<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), 'p'), 30)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 32
+
+Type: time
+Deliminate-Numbers: true
+Guard: <half~.+><(after|past)~.+>
+Match: <(\d\d?)([ap])\.?m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#2}), 30)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 33
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(before|to|until)~.+>(<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d' % convert_to_24_hours(num_to_words({#4}), {#6})), -1 * num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 34
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(before|to|until)~.+>(<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d' % num_to_words({#4}, {#6})), -1 * num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 35
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(before|to|until)~.+>(<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: offset_from_date(ref_date[:8] + ('T%02d' % convert_to_24_hours(num_to_words({#4}), 'p')), -1 * num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 36
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(before|to|until)~.+><(\d\d?)([ap])\.?m?\.?~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d' % convert_to_24_hours(num_to_words({#4}), {#5})), -1 * num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 37
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(after|past)~.+>(<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d' % convert_to_24_hours(num_to_words({#4}), {#6})), num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 38
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(after|past)~.+>(<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d' % num_to_words({#4})), num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 39
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(after|past)~.+>(<\d\d?~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: offset_from_date(ref_date[:8] + ('T%02d' % convert_to_24_hours(num_to_words({#4}), 'p')), num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 40
+
+Type: time
+Deliminate-Numbers: True
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<minutes?~.+>)?<(after|past)~.+><(\d\d?)([ap])\.?m?\.?~.+>
+Value: offset_from_date(ref_date[:8] + ('T%02d' % convert_to_24_hours(num_to_words({#4}), {#5})), num_to_words({#1}), 'TM')[8:13] + extract_timezone(self._toks_to_str(body))
+
+---
+# 41
+
+Type: time
+Tokenise: space
+Match: (\d\d?):(\d\d)\s*([ap])\s*\.?\s*m\s*\.?
+Value: ('T%02d%02d' % (convert_to_24_hours(int({#1}), {#4}), int({#2}))) + extract_timezone(self._toks_to_str(body))
+
+---
+# 42
+
+Type: time
+Tokenise: space
+Match: (\d\d?):(\d\d)\s*(in\s+the\s+(afternoon|evening)|at\s+night)
+Value: ('T%02d%02d' % (convert_to_24_hours(int({#1}), 'p'), int({#2}))) + extract_timezone(self._toks_to_str(body))
+
+---
+# 43
+
+Type: time
+Tokenise: space
+Match: (\d\d?):(\d\d)\s*in\s+the\s+morning
+Value: ('T%02d%02d' % (int({#1}), int({#2}))) + extract_timezone(self._toks_to_str(body))
+
+---
+# 44
+
+Type: time
+Deliminate-Numbers: true
+Guard: (<exact(ly)?~.+>|<precise(ly)?~.+>|<sharp~.+>|<on~.+><the~.+><dot~.+>)
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#3}), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 45
+
+Type: time
+Deliminate-Numbers: true
+Guard: (<exact(ly)?~.+>|<precise(ly)?~.+>|<sharp~.+>|<on~.+><the~.+><dot~.+>)
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: ('T%02d%02d' % (num_to_words({#1}), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 46
+
+Type: time
+Deliminate-Numbers: true
+Guard: (<exact(ly)?~.+>|<precise(ly)?~.+>|<sharp~.+>|<on~.+><the~.+><dot~.+>)
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), 'p'), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 47
+
+Type: time
+Deliminate-Numbers: true
+Guard: (<exact(ly)?~.+>|<precise(ly)?~.+>|<sharp~.+>|<on~.+><the~.+><dot~.+>)
+Match: <(\d\d?)([ap])\.?m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(int({#1}), {#2}), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 48
+
+Type: time
+Deliminate-Numbers: true
+Before-Guard: <(exactly|precisely)~.+>
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), {#3}), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 49
+
+Type: time
+Deliminate-Numbers: true
+Before-Guard: <(exactly|precisely)~.+>
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: ('T%02d%02d' % (num_to_words({#1}), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 50
+
+Type: time
+Deliminate-Numbers: true
+Before-Guard: <(exactly|precisely)~.+>
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: ('T%02d%02d' % (convert_to_24_hours(num_to_words({#1}), 'p'), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 51
+
+Type: time
+Deliminate-Numbers: true
+Before-Guard: <(exactly|precisely)~.+>
+Match: <(\d\d?)([ap])\.?m?\.?~.+>
+Value: ('T%02d%02d' % (convert_to_24_hours(int({#1}), {#2}), 0)) + extract_timezone(self._toks_to_str(body))
+
+---
+# 52
+
+Type: time
+Deliminate-Numbers: true
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<([ap])m?\.?~.+>
+Value: ('T%02d' % (convert_to_24_hours(num_to_words({#1}), {#3}))) + extract_timezone(self._toks_to_str(body))
+
+---
+# 53
+
+Type: time
+Deliminate-Numbers: true
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?<in~.+><the~.+><morning~.+>
+Value: ('T%02d' % (num_to_words({#1}))) + extract_timezone(self._toks_to_str(body))
+
+---
+# 54
+
+Type: time
+Deliminate-Numbers: true
+Match: (<\d+~.+>|NUM_START.*NUM_END)(<o'clock~.+>)?(<in~.+><the~.+><(afternoon|evening)~.+>|<at~.+><night~.+>)
+Value: ('T%02d' % (convert_to_24_hours(num_to_words({#1}), 'p'))) + extract_timezone(self._toks_to_str(body))
+
+---
+# 55
+
+Type: time
+Deliminate-Numbers: true
+Match: <(\d\d?)([ap])\.?m?\.?~.+>
+Value: ('T%02d' % (convert_to_24_hours(int({#1}), {#2}))) + extract_timezone(self._toks_to_str(body))
