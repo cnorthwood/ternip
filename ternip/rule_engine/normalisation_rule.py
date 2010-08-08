@@ -22,6 +22,7 @@ class normalisation_rule(rule.rule):
                        change_type   = None,
                        freq          = None,
                        quant         = None,
+                       mod           = None,
                        guards        = [],
                        after_guards  = [],
                        before_guards = [],
@@ -69,6 +70,7 @@ class normalisation_rule(rule.rule):
         self._type_exp           = self._compile_exp(change_type, 'change-type')
         self._freq_exp           = self._compile_exp(freq, 'freq')
         self._quant_exp          = self._compile_exp(quant, 'quant')
+        self._mod_exp            = self._compile_exp(mod, 'mod')
         
         # Load guards
         self._guards = self._load_guards(guards, tokenise)
@@ -139,6 +141,9 @@ class normalisation_rule(rule.rule):
                 
                 if self._quant_exp != None:
                     timex.quant = eval(self._quant_exp)
+                
+                if self._mod_exp != None:
+                    timex.mod = eval(self._mod_exp)
             
             except Exception as e:
                 ternip.warn('Malformed rule expression', e)

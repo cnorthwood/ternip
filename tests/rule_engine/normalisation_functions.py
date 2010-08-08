@@ -219,7 +219,7 @@ class words_to_num_Test(unittest.TestCase):
         self.assertEquals(1806, words_to_num('18 hundred and six'))
     
     def test_words_to_num_mixed(self):
-        self.assertEquals(324, words_to_num('324'))
+        self.assertEquals(324, words_to_num('<324~.+>'))
     
     def test_words_to_num_mixed(self):
         self.assertEquals(0, words_to_num('six hundred and bread'))

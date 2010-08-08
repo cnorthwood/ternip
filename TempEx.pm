@@ -842,44 +842,6 @@ sub TE_AddAttributes {
 	    
 	} # if type=time
 
-
-	##############################
-	###  Code added by jfrank  ###
-	##############################
-
-	# type=duration
-	elsif($Type eq "duration") {
-
-
-
-	}
-
-	##############################
-	###   end of jfrank code   ###
-	##############################
-
-
-	else {
-	    print STDERR "Bad type assigned!! $Type\n";
-	}
-
-	# Add  MOD\'s
-	if($TEstring =~ /\b(late|end)\b/io) {
-	    $Attributes .= " MOD=\"LATE\"";
-	}elsif($TEstring =~ /\bno\s+more\s+than\b/io){
-	    $Attributes .= " MOD=\"EQUAL_OR_LESS\"";
-	}elsif($TEstring =~ /\bmore\s+than\b/io){ 
-	    $Attributes .= " MOD=\"MORE_THAN\"";
-	} elsif($TEstring =~ /\b(early|start|beginning|dawn of)\b/io) {
-	    $Attributes .= " MOD=\"EARLY\"";
-	} elsif($TEstring =~ /\bmid(dle)?\b/io) {
-	    $Attributes .= " MOD=\"MID\"";
-	} elsif($TEstring =~ /\bat\s+least\b/io){
-	    $Attributes .= " MOD=\"EQUAL_OR_MORE\"";
-	}	
-	if($TEstring =~ /(about|around|some)/io) {
-	    $Attributes .= " MOD=\"APPROX\""; }
-
 	$STag     =~ s/>/$Attributes>/;
 	$output  .= "$STag$TE$EndTag";
 

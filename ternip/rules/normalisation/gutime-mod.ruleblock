@@ -1,0 +1,36 @@
+Block-Type: run-until-success
+
+---
+
+Match: <(about|around|some)~.+>
+Mod: 'APPROX'
+
+---
+
+Match: <(late|end)~.+>
+Mod: 'LATE'
+
+---
+
+Match: <no~.+><more~.+><than~.+>
+Mod: 'EQUAL_OR_LESS'
+
+---
+
+Match: <more~.+><than~.+>
+Mod: 'MORE_THAN'
+
+---
+
+Match: (<early~.+>|<start~.+>|<dawn~.+><of~.+>)
+Mod: 'EARLY'
+
+---
+
+Match: <mid(dle)?~.+>
+Mod: 'MID'
+
+---
+
+Match: <at~.+><least~.+>
+Mod: 'EQUAL_OR_MORE'

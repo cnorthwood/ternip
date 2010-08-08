@@ -41,6 +41,7 @@ class normalisation_rule_engine(rule_engine):
         change_type   = None
         freq          = None
         quant         = None
+        mod           = None
         
         for key in d:
             
@@ -93,6 +94,13 @@ class normalisation_rule_engine(rule_engine):
                 elif (len(d[key]) > 1):
                     raise rule_load_error(filename, "Too many 'Quant' fields")
             
+            # No more than one Mod key allowed
+            elif key == 'mod':
+                if (len(d[key]) == 1):
+                    mod = d[key][0]
+                elif (len(d[key]) > 1):
+                    raise rule_load_error(filename, "Too many 'Mod' fields")
+            
             # set optional fields
             elif key == 'guard':
                 guards = d[key]
@@ -141,7 +149,7 @@ class normalisation_rule_engine(rule_engine):
         
         # Guard against any RE errors
         try:
-            return normalisation_rule(match, type, id, value, change_type, freq, quant, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
+            return normalisation_rule(match, type, id, value, change_type, freq, quant, mod, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     
