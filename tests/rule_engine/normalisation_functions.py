@@ -221,6 +221,9 @@ class words_to_num_Test(unittest.TestCase):
     def test_words_to_num_mixed(self):
         self.assertEquals(324, words_to_num('<324~.+>'))
     
+    def test_words_to_num_marked_up(self):
+        self.assertEquals(4, words_to_num('NUM_START<four~CD>NUM_END'))
+    
     def test_words_to_num_mixed(self):
         self.assertEquals(0, words_to_num('six hundred and bread'))
     

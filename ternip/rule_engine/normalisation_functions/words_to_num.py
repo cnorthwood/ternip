@@ -49,12 +49,12 @@ def words_to_num(words):
     if words is None:
         return 0
     
-    # Clean up our input
-    words = words.lower()
-    
     # If this comes from deliminated numbers
     words = re.sub(r'NUM_START', r'', words).strip()
     words = re.sub(r'NUM_END', r'', words).strip()
+    
+    # Clean up our input
+    words = words.lower()
     
     # Get rid of tokens
     words = re.sub(r'<([^~]*)[^>]*>', r'\1 ', words).strip()
