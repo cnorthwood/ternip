@@ -34,7 +34,7 @@ Deliminate-Numbers: True
 # 5
 
 Type: duration
-Match: <the~.+>(NUM_ORD_START<first~.+>NUM_ORD_END|<initial~.+>|<last~.+>|<final~.+>)(<\d+~.+>|NUM_START.*NUM_END)?<$UNITSs?~.+>
+Match: <the~.+>(NUM_ORD_START<first~.+>NUM_ORD_END|<initial~.+>|<last~.+>|<final~.+>)(<\d+~.+>|NUM_START.*NUM_END)<$UNITSs?~.+>
 Deliminate-Numbers: True
 
 ---

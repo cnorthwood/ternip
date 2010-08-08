@@ -77,7 +77,7 @@ Tokenise: space
 Guard: !years
 Guard: !(fool|may\s+day)
 Match: \b($MONTHS|$MONTH_ABBRS)\b.*?(\d{4}|\'\d\d)
-Value: normalise_two_digit_year({#4}) + str(month_to_num({#1}))
+Value: normalise_two_digit_year({#4}) + "%02d" % (month_to_num({#1}))
 ---
 # 10
 
@@ -249,8 +249,8 @@ Value: easter_date(normalise_two_digit_year({#3}))
 
 Type: date
 Guard: !years
-Match: (spring|summer|autumn|fall|winter)(<.*>)*<(\d{4}|\'\d\d)~.+>
-Value: normalise_two_digit_year({#3}) + season[{#1}.lower()]
+Match: <(spring|summer|autumn|fall|winter)~.+>(<.*>)*<(\d{4}|\'\d\d)~.+>
+Value: normalise_two_digit_year({#3}) + season({#1})
 
 ---
 # 29
@@ -266,8 +266,8 @@ Value: normalise_two_digit_year({#1})
 Type: date
 Before-Guard: <(exact|precise).*>$
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_offset_base(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#3}, True)
 
 ---
 # 31
@@ -275,24 +275,24 @@ Value: offset_from_date(compute_offset_base(cur_context, {#7}, -1), -1 * words_t
 Type: date
 After-Guard: ^<(exact|precise).*>
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_offset_base(cur_context, {#7}, -1), -1 * words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#3}, True)
 
 ---
 # 32
 
 Type: date
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_offset_base(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, -1), -1 * words_to_num({#1}), {#3}, True)
 
 ---
 # 33
 
 Type: date
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>
-Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#4}, False)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><ago~.+>
+Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#3}, False)
 
 ---
 # 34
@@ -300,8 +300,8 @@ Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#4}, False)
 Type: date
 Before-Guard: <(exact|precise).*>$
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_offset_base(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#3}, True)
 
 ---
 # 35
@@ -309,32 +309,32 @@ Value: offset_from_date(compute_offset_base(cur_context, {#7}, 1), words_to_num(
 Type: date
 After-Guard: ^<(exact|precise).*>
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
-Value: offset_from_date(compute_offset_base(cur_context, {#7}, 1), words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>(<.*>*<(today|tomorrow|yesterday|$DAYS)~.+>)?
+Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#3}, True)
 
 ---
 # 36
 
 Type: date
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+><.*>*<(today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#5}, 1), words_to_num({#1}), {#3}, True)
 
 ---
 # 37
 
 Type: date
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>
-Value: offset_from_date(cur_context, words_to_num({#1}), {#4}, False)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><hence~.+>
+Value: offset_from_date(cur_context, words_to_num({#1}), {#3}, False)
 
 ---
 # 38
 
 Type: date
 Deliminate-Numbers: true
-Match: <about~.+>(<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, False)
+Match: <about~.+>(<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#5}, 1), words_to_num({#1}), {#3}, False)
 
 ---
 # 39
@@ -342,8 +342,8 @@ Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num(
 Type: date
 Before-Guard: <(exact|precise).*>$
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#5}, 1), words_to_num({#1}), {#3}, True)
 
 ---
 # 40
@@ -351,32 +351,32 @@ Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num(
 Type: date
 After-Guard: ^<(exact|precise).*>
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#5}, 1), words_to_num({#1}), {#3}, True)
 
 ---
 # 41
 
 Type: date
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
-Value: offset_from_date(compute_offset_base(cur_context, {#6}, 1), words_to_num({#1}), {#4}, True)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><from~.+><(now|today|tomorrow|yesterday|$DAYS)~.+>
+Value: offset_from_date(compute_offset_base(cur_context, {#5}, 1), words_to_num({#1}), {#3}, True)
 
 ---
 # 42
 
 Type: date
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><before~.+><last~.+>
-Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#4}, False)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><before~.+><last~.+>
+Value: offset_from_date(cur_context, -1 * words_to_num({#1}), {#3}, False)
 
 ---
 # 43
 
 Type: date
 Deliminate-Numbers: true
-Match: (<the~.+>|<a~.+>|NUM_START(.*)NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><after~.+><next~.+>
-Value: offset_from_date(cur_context, words_to_num({#1}), {#4}, False)
+Match: (<the~.+>|<a~.+>|NUM_START.*NUM_END)(<.*>)*<(while|year|month|moon|fortnight|week|day|decade|centur(y|ie)|time|long)s?~.+><after~.+><next~.+>
+Value: offset_from_date(cur_context, words_to_num({#1}), {#3}, False)
 
 ---
 # 44
@@ -399,31 +399,38 @@ Value: 'PAST_REF'
 
 Type: date
 Match: <($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>(<.*>)*<century~.*>
-Value: str(ordinal_to_num({#1}) - 1)
+Value: "%02d" % (ordinal_to_num({#1}) - 1)
 
 ---
 # 47
+
+Type: date
+Match: <($ORDINAL_NUMS|$ORDINAL_WORDS)-century~.*>
+Value: "%02d" % (ordinal_to_num({#1}) - 1)
+
+---
+# 48
 
 Type: date
 Match: ^<(now|current)~.*>$
 Value: 'PRESENT_REF'
 
 ---
-# 48
+# 49
 
 Type: date
 Match: <future~.*>
 Value: 'FUTURE_REF'
 
 ---
-# 49
+# 50
 
 Type: date
 Match: ^(<once~.+>|<medieval~.+>|<the~.+><past~.+>)$
 Value: 'PAST_REF'
 
 ---
-# 50
+# 51
 
 Type: date
 Guard: morning
@@ -435,7 +442,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 51
+# 52
 
 Type: date
 Guard: afternoon
@@ -447,7 +454,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 52
+# 53
 
 Type: date
 Guard: evening
@@ -459,7 +466,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 53
+# 54
 
 Type: date
 Guard: night
@@ -471,7 +478,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 54
+# 55
 
 Type: date
 Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*$DAYS
@@ -482,7 +489,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 55
+# 56
 
 Type: date
 Match: (<(every|every|each|alternate)~.+>(<(other|$ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?)(<.*>)*(<(St\.|Saint)~.+>(<.*>)*<Day~.+>|<$NTH_DOW_HOLIDAYS~.+>|<$DAY_HOLIDAYS~.+>|$LUNAR_HOLIDAYS)
@@ -492,7 +499,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 56
+# 57
 
 Type: date
 Match: (<(every|every|each|alternate)~.+>(<(other|$ORDINAL_WORDS|$ORDINAL_NUMS)~.+>)?)(<.*>)*($FIXED_HOLIDAYS)
@@ -501,7 +508,7 @@ Change-Type: 'set'
 Quant: re.sub(r'<([^~]*)[^>]*>', r'\1', {#1})
 
 ---
-# 57
+# 58
 
 Type: date
 Match: ((every|every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*\b(spring|summer|winter|fall|autumn)s?\b
@@ -511,7 +518,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 58
+# 59
 
 Type: date
 Match: ((every|each|alternate)\s+(other|$ORDINAL_WORDS|$ORDINAL_NUMS)?).*\b(minute|hour|day|week|month|year)s?\b
@@ -521,7 +528,7 @@ Change-Type: 'set'
 Quant: {#1}
 
 ---
-# 59
+# 60
 
 Type: date
 Match: <every~.+>(<\d+~.+>|NUM_START.*NUM_END)<(minute|hour|day|week|month|year)s?~.+>
@@ -531,63 +538,63 @@ Change-Type: 'set'
 Quant: EVERY
 
 ---
-# 60
+# 61
 
 Type: date
 Match: (<every~.+>|<each~.+>|<alternate~.+>)
 Change-Type: 'set'
 
 ---
-# 61
+# 62
 
 Type: date
 Match: bi(annual|year|month|week|dai|hour|night)ly
 Value: 'P2' + units_to_gran({#1})
 
 ---
-# 62
+# 63
 
 Type: date
 Match: fortnightly
 Value: 'P2W'
 
 ---
-# 63
+# 64
 
 Type: date
 Match: (annual|year|month|week|dai|hour|night)ly
 Value: 'P1' + units_to_gran({#1})
 
 ---
-# 64
+# 65
 
 Type: date
 Match: biannual
 Value: 'P2Y'
 
 ---
-# 65
+# 66
 
 Type: date
 Match: annual
 Value: 'P1Y'
 
 ---
-# 66
+# 67
 
 Type: date
 Match: <day~.+><before~.+><yesterday~.+>
 Value: offset_from_date(cur_context, -2)
 
 ---
-# 67
+# 68
 
 Type: date
 Match: <yesterday~.+>
 Value: offset_from_date(cur_context, -1)
 
 ---
-# 68
+# 69
 
 Type: date
 Match: <($DAYS)~.+>(<.*>)*<($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>
@@ -595,7 +602,7 @@ Guard: !<friday~.+><the~.+><(thirteen|13)th~.+>
 Value: ('XXXXXX' if day_to_num({#1}) == date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), ordinal_to_num({#4})) else cur_context[:6]) + str(ordinal_to_num({#4}))
 
 ---
-# 69
+# 70
 
 Type: date
 Match: today
@@ -603,7 +610,7 @@ Before-Guard: <(said|later|earlier)~.+>$
 Value: cur_context
 
 ---
-# 70
+# 71
 
 Type: date
 Match: today
@@ -611,7 +618,7 @@ After-Guard: ^<(for|at|on)~.+>
 Value: cur_context
 
 ---
-# 71
+# 72
 
 Type: date
 Match: today
@@ -619,7 +626,7 @@ Before-Guard: <(am|is|are|were|was|that|of|in)~.+>$
 Value: 'PRESENT_REF'
 
 ---
-# 72
+# 73
 
 Type: date
 Match: today
@@ -627,7 +634,7 @@ After-Guard: <(many|here|most)~.+>
 Value: 'PRESENT_REF'
 
 ---
-# 73
+# 74
 
 Type: date
 Match: today
@@ -635,65 +642,65 @@ Before-Guard: <(many|here|most)~.+>
 Value: 'PRESENT_REF'
 
 ---
-# 74
+# 75
 
 Type: date
 Match: today
 Value: cur_context[:8]
 
 ---
-# 75
+# 76
 
 Type: date
 Match: <this~.+><morning~.+>
 Value: cur_context[:8] + 'TMO'
 
 ---
-# 76
+# 77
 
 Type: date
 Match: <this~.+><afternoon~.+>
 Value: cur_context[:8] + 'TAF'
 
 ---
-# 77
+# 78
 
 Type: date
 Match: <this~.+><evening~.+>
 Value: cur_context[:8] + 'TEV'
 
 ---
-# 78
+# 79
 
 Type: date
 Match: <(tonight|tonite)~.+>
 Value: cur_context[:8] + 'TNI'
 
 ---
-# 79
+# 80
 
 Type: date
 Match: <day~.+><after~.+><tomorrow~.+>
 Value: offset_from_date(cur_context, 2)
 
 ---
-# 80
+# 81
 
 Type: date
 Match: <tomorrow~.+>
 Value: offset_from_date(cur_context, 1)
 
 ---
-# 81
+# 82
 
 Type: date
-Guard: (next|coming|this)
+Guard: (next|coming)
 Guard: !(fool|<may~.+><day~.+>)
 Match: <($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>(<.*>)*<($MONTHS|$MONTH_ABBRS)~.+>
 Value: compute_offset_base(cur_context, {#5}, 1) + ("%02d" % ordinal_to_num({#1}))
 
 ---
-# 82
+# 83
 
 Type: date
 Guard: (last|past)
@@ -702,16 +709,16 @@ Match: <($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>(<.*>)*<($MONTHS|$MONTH_ABBRS)~.+>
 Value: compute_offset_base(cur_context, {#5}, -1) + ("%02d" % ordinal_to_num({#1}))
 
 ---
-# 83
+# 84
 
 Type: date
-Guard: (next|coming|this)
+Guard: (next|coming)
 Guard: !(fool|<may~.+><day~.+>)
 Match: <($MONTHS|$MONTH_ABBRS)~.+>(<.*>)*<($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>
 Value: compute_offset_base(cur_context, {#1}, 1) + ("%02d" % ordinal_to_num({#5}))
 
 ---
-# 84
+# 85
 
 Type: date
 Guard: (last|past)
@@ -720,133 +727,141 @@ Match: <($MONTHS|$MONTH_ABBRS)~.+>(<.*>)*<($ORDINAL_NUMS|$ORDINAL_WORDS)~.+>
 Value: compute_offset_base(cur_context, {#1}, -1) + ("%02d" % ordinal_to_num({#5}))
 
 ---
-# 85
-
-Type: date
-Guard: (next|coming|this)
-Guard: !(fool|<may~.+><day~.+>)
-Match: ($MONTHS|$MONTH_ABBRS)
-Value: compute_offset_base(cur_context, {#1}, 1)
-
----
 # 86
 
 Type: date
-Guard: (last|past)
+Guard: (next|coming)
 Guard: !(fool|<may~.+><day~.+>)
-Match: ($MONTHS|$MONTH_ABBRS)
-Value: compute_offset_base(cur_context, {#1}, -1)
+Match: <($MONTHS|$MONTH_ABBRS)~.+>
+Value: compute_offset_base(cur_context, {#1}, 1)
 
 ---
 # 87
 
 Type: date
-Guard: (next|coming|this)
-Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
-Match: <($DAYS)~.+><morning~.+>
-Value: compute_offset_base(cur_context, {#1}, 1) + 'TMO'
+Guard: (last|past)
+Guard: !(fool|<may~.+><day~.+>)
+Match: <($MONTHS|$MONTH_ABBRS)~.+>
+Value: compute_offset_base(cur_context, {#1}, -1)
 
 ---
 # 88
 
 Type: date
-Guard: (last|past)
+Guard: (next|coming)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
+Before-Guard: !<(the|a)~.+>$
 Match: <($DAYS)~.+><morning~.+>
-Value: compute_offset_base(cur_context, {#1}, -1) + 'TMO'
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TMO'
 
 ---
 # 89
 
 Type: date
-Guard: (next|coming|this)
+Guard: (last|past)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
-Match: <($DAYS)~.+><afternoon~.+>
-Value: compute_offset_base(cur_context, {#1}, 1) + 'TAF'
+Before-Guard: !<(the|a)~.+>$
+Match: <($DAYS)~.+><morning~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TMO'
 
 ---
 # 90
 
 Type: date
-Guard: (last|past)
+Guard: (next|coming)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
+Before-Guard: !<(the|a)~.+>$
 Match: <($DAYS)~.+><afternoon~.+>
-Value: compute_offset_base(cur_context, {#1}, -1) + 'TAF'
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TAF'
 
 ---
 # 91
 
 Type: date
-Guard: (next|coming|this)
+Guard: (last|past)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
-Match: <($DAYS)~.+><evening~.+>
-Value: compute_offset_base(cur_context, {#1}, 1) + 'TEV'
+Before-Guard: !<(the|a)~.+>$
+Match: <($DAYS)~.+><afternoon~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TAF'
 
 ---
 # 92
 
 Type: date
-Guard: (last|past)
+Guard: (next|coming)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
+Before-Guard: !<(the|a)~.+>$
 Match: <($DAYS)~.+><evening~.+>
-Value: compute_offset_base(cur_context, {#1}, -1) + 'TEV'
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TEV'
 
 ---
 # 93
 
 Type: date
-Guard: (next|coming|this)
+Guard: (last|past)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
-Match: <($DAYS)~.+><night~.+>
-Value: compute_offset_base(cur_context, {#1}, 1) + 'TNI'
+Before-Guard: !<(the|a)~.+>$
+Match: <($DAYS)~.+><evening~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TEV'
 
 ---
 # 94
 
 Type: date
-Guard: (last|past)
+Guard: (next|coming)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
+Before-Guard: !<(the|a)~.+>$
 Match: <($DAYS)~.+><night~.+>
-Value: compute_offset_base(cur_context, {#1}, -1) + 'TNI'
+Value: compute_offset_base(cur_context, {#1}, 1) + 'TNI'
 
 ---
 # 95
 
 Type: date
-Guard: (next|coming|this)
+Guard: (last|past)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
-Match: <($DAYS)~.+>
-Value: compute_offset_base(cur_context, {#1}, 1)
+Before-Guard: !<(the|a)~.+>$
+Match: <($DAYS)~.+><night~.+>
+Value: compute_offset_base(cur_context, {#1}, -1) + 'TNI'
 
 ---
 # 96
 
 Type: date
-Guard: (last|past)
+Guard: (next|coming)
 Guard: !<(shrove|ash|good|palm|easter)~.+>
-Before-Guard: <(the|a)~.+>$
+Before-Guard: !<(the|a)~.+>$
 Match: <($DAYS)~.+>
-Value: compute_offset_base(cur_context, {#1}, -1)
+Value: compute_offset_base(cur_context, {#1}, 1)
 
 ---
 # 97
 
 Type: date
-Guard: (next|coming|this)
+Guard: (last|past)
+Guard: !<(shrove|ash|good|palm|easter)~.+>
+Before-Guard: !<(the|a)~.+>$
+Match: <($DAYS)~.+>
+Value: compute_offset_base(cur_context, {#1}, -1)
+
+---
+# 98
+
+Type: date
+Guard: (next|coming)
 Match: <(spring|summer|winter|fall|autumn)~.+>
 Value: compute_offset_base(cur_context, season_to_month({#1}), 1)[:4] + season({#1})
 
 ---
-# 98
+# 99
+
+Type: date
+Guard: (this)
+Match: <(spring|summer|winter|fall|autumn)~.+>
+Value: cur_context[:4] + season({#1})
+
+---
+# 100
 
 Type: date
 Guard: (last|past)
@@ -854,7 +869,7 @@ Match: <(spring|summer|winter|fall|autumn)~.+>
 Value: compute_offset_base(cur_context, season_to_month({#1}), -1)[:4] + season({#1})
 
 ---
-# 99
+# 101
 
 Type: date
 Guard: (this)
@@ -862,7 +877,7 @@ Match: <month~.+>
 Value: offset_from_date(cur_context, 0, 'M')
 
 ---
-# 100
+# 102
 
 Type: date
 Guard: (next|coming)
@@ -870,7 +885,7 @@ Match: <month~.+>
 Value: offset_from_date(cur_context, 1, 'M')
 
 ---
-# 101
+# 103
 
 Type: date
 Guard: (last|past)
@@ -878,7 +893,7 @@ Match: <month~.+>
 Value: offset_from_date(cur_context, -1, 'M')
 
 ---
-# 102
+# 104
 
 Type: date
 Guard: (this)
@@ -886,7 +901,7 @@ Match: <year~.+>
 Value: offset_from_date(cur_context, 0, 'Y')
 
 ---
-# 103
+# 105
 
 Type: date
 Guard: (next|coming)
@@ -894,7 +909,7 @@ Match: <year~.+>
 Value: offset_from_date(cur_context, 1, 'Y')
 
 ---
-# 104
+# 106
 
 Type: date
 Guard: (last|past)
@@ -902,7 +917,7 @@ Match: <year~.+>
 Value: offset_from_date(cur_context, -1, 'Y')
 
 ---
-# 105
+# 107
 
 Type: date
 Guard: (this)
@@ -910,7 +925,7 @@ Match: <century~.+>
 Value: offset_from_date(cur_context, 0, 'C')
 
 ---
-# 106
+# 108
 
 Type: date
 Guard: (next|coming)
@@ -918,7 +933,7 @@ Match: <century~.+>
 Value: offset_from_date(cur_context, 1, 'C')
 
 ---
-# 107
+# 109
 
 Type: date
 Guard: (last|past)
@@ -926,7 +941,7 @@ Match: <century~.+>
 Value: offset_from_date(cur_context, -1, 'C')
 
 ---
-# 108
+# 110
 
 Type: date
 Guard: (this)
@@ -934,7 +949,7 @@ Match: <decade~.+>
 Value: offset_from_date(cur_context, 0, 'E')
 
 ---
-# 109
+# 111
 
 Type: date
 Guard: (next|coming)
@@ -942,7 +957,7 @@ Match: <decade~.+>
 Value: offset_from_date(cur_context, 1, 'E')
 
 ---
-# 110
+# 112
 
 Type: date
 Guard: (last|past)
@@ -950,78 +965,85 @@ Match: <decade~.+>
 Value: offset_from_date(cur_context, -1, 'E')
 
 ---
-# 111
+# 113
 
 Type: date
 Match: <(past|last)~.+><night~.+>
 Value: offset_from_date(cur_context, -1) + 'TNI'
 
 ---
-# 112
+# 114
 
 Type: date
 Match: <(next|coming)~.+><weekend~.+>
 Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[6:8])) + 'WE'
 
 ---
-# 113
+# 115
 
 Type: date
 Match: <(past|last)~.+><weekend~.+>
 Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[6:8])) + 'WE'
 
 ---
-# 114
+# 116
+
+Type: date
+Match: <this~.+><week~.+>
+Value: offset_from_date(cur_context, 0, 'W')
+
+---
+# 117
 
 Type: date
 Match: <(next|coming)~.+><week~.+>
 Value: offset_from_date(cur_context, 1, 'W')
 
 ---
-# 115
+# 118
 
 Type: date
 Match: <last~.+><week~.+>
 Value: offset_from_date(cur_context, -1, 'W')
 
 ---
-# 116
+# 119
 
 Type: date
-Match: <(next|coming|this)~.+>$FIXED_HOLIDAYS<eve~.+>
+Match: <(next|coming)~.+>$FIXED_HOLIDAYS<eve~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#2}, 1), -1)
 
 ---
-# 117
+# 120
 
 Type: date
 Match: <(last|past)~.+>$FIXED_HOLIDAYS<eve~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#2}, -1), -1)
 
 ---
-# 118
+# 121
 
 Type: date
-Match: <(next|coming|this)~.+>$FIXED_HOLIDAYS
+Match: <(next|coming)~.+>$FIXED_HOLIDAYS
 Value: compute_offset_base(cur_context, {#2}, 1)
 
 ---
-# 119
+# 122
 
 Type: date
 Match: <(last|past)~.+>$FIXED_HOLIDAYS
 Value: compute_offset_base(cur_context, {#2}, -1)
 
 ---
-# 120
+# 123
 
 Type: date
-Guard: <(next|coming|this)~.+>
+Guard: <(next|coming)~.+>
 Match: $NTH_DOW_HOLIDAYS
 Value: compute_offset_base(cur_context, {#1}, 1)
 
 ---
-# 121
+# 124
 
 Type: date
 Guard: <(last|past)~.+>
@@ -1029,15 +1051,15 @@ Match: $NTH_DOW_HOLIDAYS
 Value: compute_offset_base(cur_context, {#1}, -1)
 
 ---
-# 122
+# 125
 
 Type: date
-Guard: <(next|coming|this)~.+>
+Guard: <(next|coming)~.+>
 Match: <good~.+><friday~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, 1), -3)
 
 ---
-# 123
+# 126
 
 Type: date
 Guard: <(last|past)~.+>
@@ -1045,15 +1067,15 @@ Match: <good~.+><friday~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, -1), -3)
 
 ---
-# 124
+# 127
 
 Type: date
-Guard: <(next|coming|this)~.+>
+Guard: <(next|coming)~.+>
 Match: (<shrove~.+><tuesday~.+>|<mardis~.+><gras~.+>)
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, 1), -47)
 
 ---
-# 125
+# 128
 
 Type: date
 Guard: <(last|past)~.+>
@@ -1061,15 +1083,15 @@ Match: (<shrove~.+><tuesday~.+>|<mardis~.+><gras~.+>)
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, -1), -47)
 
 ---
-# 126
+# 129
 
 Type: date
-Guard: <(next|coming|this)~.+>
+Guard: <(next|coming)~.+>
 Match: <ash~.+><wednesday~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, 1), -46)
 
 ---
-# 127
+# 130
 
 Type: date
 Guard: <(last|past)~.+>
@@ -1077,15 +1099,15 @@ Match: <ash~.+><wednesday~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, -1), -46)
 
 ---
-# 128
+# 131
 
 Type: date
-Guard: <(next|coming|this)~.+>
+Guard: <(next|coming)~.+>
 Match: <palm~.+><sunday~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, 1), -7)
 
 ---
-# 129
+# 132
 
 Type: date
 Guard: <(last|past)~.+>
@@ -1093,15 +1115,15 @@ Match: <palm~.+><sunday~.+>
 Value: offset_from_date(compute_offset_base(cur_context, {#0}, -1), -7)
 
 ---
-# 130
+# 133
 
 Type: date
-Guard: <(next|coming|this)~.+>
+Guard: <(next|coming)~.+>
 Match: <easter~.+>
 Value: compute_offset_base(cur_context, {#0}, 1)
 
 ---
-# 131
+# 134
 
 Type: date
 Guard: <(last|past)~.+>

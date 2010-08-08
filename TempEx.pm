@@ -753,95 +753,6 @@ sub TE_AddAttributes {
 	    } # if($RefTime)
 	}  # if type=date
 
-	# type=time
-	elsif($Type eq "time") {
-
-	    if($TEstring =~ /(exact|precise|sharp|on\s+the\s+dot)/io) {
-		$Exact = 1; }
-	    elsif($output =~ /(exactly|precisely)/io) { $Exact = 1; }
-	    else { $Exact = 0; }
-	    
-	    #     o\'clock      - No AM/PM clue
-	    # OR  the hour of  - No AM/PM clue
-	    if((($TEstring =~ /(\w+)\s+o\'clock/oi) &&
-		   ($temp1 = Word2Num($1)) && ($temp1 < 13)) ||
-		  (($TEstring =~ /the\s+hour\s+of\s+(\w+)/oi) &&
-		   ($temp1 = Word2Num($1)) && ($temp1 < 13)) ||
-		  (($TEstring =~ /(\w+(-\w+)?)\s+(minutes?\s+)?(before|after|past|of|to|until)\s+(\w+)/oi) &&
-		   ($temp2 = Word2Num($1)) &&
-		   ($temp1 = Word2Num($5)) && ($temp1 < 13))
-		  ) {
-		undef $Min;
-		$Tag = "ALT_VAL";
-		$Comment = " COMMENT=\"No AM/PM info\"";
-
-		$Hour = $temp1;
-		$Val = sprintf("%02d", $Hour);
-		if($TEstring =~ /half\s+past/io) { $Val .= "30"; }
-		elsif($TEstring =~ /quarter\s+after/io) { $Val .= "15"; }
-		elsif($TEstring =~ /quarter\s+(of|before|to)/io) {
-		    $Hour--; $Val = sprintf("%02d45", $Hour);  }
-		elsif($TEstring =~ /(\w+(-\w+)?)\s+(minutes?\s+)?(before|after|past|of|to|until)/io) {
-		    $Min = Word2Num(lc($1));
-		    $temp1 = $4;
-		    if($temp1 =~ /(of|before|to|until)/io) {
-			$Min = 60 - $Min;  $Hour--;
-		    }
-		    $Val = sprintf("%02d%02d", $Hour, $Min);
-		}
-
-		# Search for broader context
-		if(($orig_string =~/morning/io) &&
-		   ($orig_string !~/(afternoon|evening|night)/io)) {
-		    $Tag = "VAL"; $Comment = "";
-		} elsif(($orig_string !~/morning/io) &&
-			($orig_string =~/(afternoon|evening|night)/io)) {
-		    $Tag = "VAL"; $Comment = "";
-		    $Hour += 12;
-		    if(defined($Min)) {
-			$Val = sprintf("%02d%02d", $Hour, $Min); }
-		    else { $Val = sprintf("%02d", $Hour); }
-		}
-
-		$Attributes .= " $Tag=\"T$Val\"";
-		$Attributes .= $Comment;
-		if($Hour>24) {
-		    $Attributes .= " ERROR=\"Bad Time\""; }
-		$FoundVal = 1;
-	    }  # No AM/PM clue
-
-	    # military type time
-	    elsif($TEstring =~ /(\d\d):?(\d\d)/oi) {
-		$Hour = $1;
-		$Min  = $2;
-		$Val = sprintf("%02d%02d", $Hour, $Min);
-		$Attributes .= " $valTagName=\"T$Val$TimeZone\"";
-		if(($Hour>24) || (defined($Min) && ($Min>59))) {
-		    $Attributes .= " ERROR=\"Bad Time\""; }
-		$FoundVal = 1;
-	    }
-	    elsif($TEstring =~ /(\d\d)(\d\d)\s+h(ou)rs?/oi) {
-		$Hour = $1;
-		$Min  = $2;
-		$Val = sprintf("%02d%02d", $Hour, $Min);
-		$Attributes .= " $valTagName=\"T$Val$TimeZone\"";
-		if(($Hour>24) || (defined($Min) && ($Min>59))) {
-		    $Attributes .= " ERROR=\"Bad Time\""; }
-		$FoundVal = 1;
-	    }
-	    elsif($TEstring =~ /\b(\d\d?)\s+hours?(\s+(\d\d?)\s+minutes?)?/oi) {
-		$Hour = $1;
-		$Min  = $3;
-		if($Min) { $Val = sprintf("%02d%02d", $Hour, $Min); }
-		else { $Val = sprintf("%02d", $Hour); }
-		$Attributes .= " $valTagName=\"T$Val$TimeZone\"";
-		if(($Hour>24) || (defined($Min) && ($Min>59))) {
-		    $Attributes .= " ERROR=\"Bad Time\""; }
-		$FoundVal = 1;
-	    }
-	    
-	} # if type=time
-
 	$STag     =~ s/>/$Attributes>/;
 	$output  .= "$STag$TE$EndTag";
 
@@ -1064,7 +975,7 @@ sub expressionToPoints{
 
 }
 
-sub getUnspecifiedTID{
+sub g0etUnspecifiedTID{
 	my $retval = "";
 	if ($useUnspecTID == 1){			
 		$retval= $tiddef;

@@ -27,7 +27,7 @@ Mod: 'EARLY'
 
 ---
 
-Match: <mid(dle)?~.+>
+Match: mid(dle)?
 Mod: 'MID'
 
 ---

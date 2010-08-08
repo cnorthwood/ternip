@@ -26,6 +26,7 @@ class normalisation_rule(rule.rule):
                        guards        = [],
                        after_guards  = [],
                        before_guards = [],
+                       sent_guards   = [],
                        after         = [],
                        tokenise      = True,
                        deliminate_numbers = False):
@@ -76,6 +77,7 @@ class normalisation_rule(rule.rule):
         self._guards = self._load_guards(guards, tokenise)
         self._before_guards = self._load_guards(before_guards, tokenise)
         self._after_guards = self._load_guards(after_guards, tokenise)
+        self._sent_guards = self._load_guards(sent_guards, tokenise)
     
     def _compile_exp(self, exp, type):
         """
@@ -100,7 +102,7 @@ class normalisation_rule(rule.rule):
         """
         
         # Check this rule type matches the timex type
-        if timex.type != self._type and self._type != None:
+        if self._type != None and timex.type.lower() != self._type.lower():
             return (False, cur_context)
         
         # Check before, after and whole sentence guards
@@ -111,6 +113,9 @@ class normalisation_rule(rule.rule):
             return (False, cur_context)
         
         if not self._check_guards(self._toks_to_str(body), self._guards):
+            return (False, cur_context)
+        
+        if not self._check_guards(self._toks_to_str(before + body + after), self._sent_guards):
             return (False, cur_context)
         
         # Now, check if we match:

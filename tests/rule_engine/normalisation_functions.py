@@ -258,8 +258,8 @@ class relative_date_functions_Test(unittest.TestCase):
         self.assertEquals('20100810', compute_offset_base('20100804', 'tuesday', 1))
     
     def test_compute_offset_base_today(self):
-        self.assertEquals('20100804', compute_offset_base('20100804', 'Wednesday', 1))
-        self.assertEquals('20100804', compute_offset_base('20100804', 'Wednesday', -1))
+        self.assertEquals('20100811', compute_offset_base('20100804', 'Wednesday', 1))
+        self.assertEquals('20100728', compute_offset_base('20100804', 'Wednesday', -1))
     
     def test_compute_offset_base_last_month(self):
         self.assertEquals('201006', compute_offset_base('20100804', 'June', -1))
@@ -270,8 +270,8 @@ class relative_date_functions_Test(unittest.TestCase):
         self.assertEquals('201101', compute_offset_base('20100804', 'jan', 1))
     
     def test_compute_offset_base_this_month(self):
-        self.assertEquals('201008', compute_offset_base('20100804', 'August', 1))
-        self.assertEquals('201008', compute_offset_base('20100804', 'aug', -1))
+        self.assertEquals('201108', compute_offset_base('20100804', 'August', 1))
+        self.assertEquals('200908', compute_offset_base('20100804', 'aug', -1))
     
     def test_compute_offset_base_last_fixedhol(self):
         self.assertEquals('20091225', compute_offset_base('20091230', '<christmas~foo>', -1))

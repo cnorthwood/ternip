@@ -136,7 +136,7 @@ def offset_from_date(v, offset, gran='D', exact=False):
         y += offset
         dt = datetime.datetime(y, m, d)
         if not exact and gran == 'C':
-            return dt.strftime('%Y')[:2]
+            return ("%04d" % y)[:2]
         elif not exact and gran == 'E':
             return dt.strftime('%Y')[:3]
         elif exact and really_d:
@@ -171,9 +171,9 @@ def compute_offset_base(ref_date, expression, current_direction):
     if match != None:
         day = string_conversions.day_to_num(match.group())
         t = day - date_functions.date_to_dow(int(ref_date[:4]), int(ref_date[4:6]), int(ref_date[6:8]))
-        if t > 0 and current_direction < 0:
+        if t >= 0 and current_direction < 0:
             t -= 7
-        if t < 0 and current_direction > 0:
+        if t <= 0 and current_direction > 0:
             t += 7
         return offset_from_date(ref_date, t)
     
@@ -181,9 +181,9 @@ def compute_offset_base(ref_date, expression, current_direction):
     elif re.search('(' + expressions.MONTH_ABBRS + '|' + expressions.MONTHS + ')', expression, re.I) != None:
         match = re.search('(' + expressions.MONTH_ABBRS + '|' + expressions.MONTHS + ')', expression, re.I)
         m = date_functions.month_to_num(match.group()) - int(ref_date[4:6])
-        if m > 0 and current_direction < 0:
+        if m >= 0 and current_direction < 0:
             m -= 12
-        if m < 0 and current_direction > 0:
+        if m <= 0 and current_direction > 0:
             m += 12
         return offset_from_date(ref_date, m, 'M')
     

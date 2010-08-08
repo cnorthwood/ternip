@@ -35,6 +35,7 @@ class normalisation_rule_engine(rule_engine):
         guards        = []
         before_guards = []
         after_guards  = []
+        sent_guards   = []
         after         = []
         tokenise      = True
         deliminate_numbers = False
@@ -110,6 +111,8 @@ class normalisation_rule_engine(rule_engine):
                 before_guards = d[key]
             elif key == 'after-guard':
                 after_guards = d[key]
+            elif key == 'sent-guard':
+                sent_guards = d[key]
             
             elif key == 'tokenise':
                 if (len(d[key]) == 1):
@@ -149,7 +152,7 @@ class normalisation_rule_engine(rule_engine):
         
         # Guard against any RE errors
         try:
-            return normalisation_rule(match, type, id, value, change_type, freq, quant, mod, guards, after_guards, before_guards, after, tokenise, deliminate_numbers)
+            return normalisation_rule(match, type, id, value, change_type, freq, quant, mod, guards, after_guards, before_guards, sent_guards, after, tokenise, deliminate_numbers)
         except re.error as e:
             raise rule_load_error(filename, "Malformed regular expression: " + str(e))
     
