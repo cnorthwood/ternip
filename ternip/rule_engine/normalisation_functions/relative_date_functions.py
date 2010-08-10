@@ -166,9 +166,24 @@ def compute_offset_base(ref_date, expression, current_direction):
     if expression is None:
         return ref_date
     
-    # If it's a day...
-    match = re.search(expressions.DAYS, expression, re.I)
+    # If it's a partial date expression
+    match = re.search(r'^XXXX(\d\d)(\d\d)', expression, re.I)
     if match != None:
+        m = int(match.group(1))
+        d = int(match.group(2))
+        ref_m = int(ref_date[4:6])
+        ref_d = int(ref_date[6:8])
+        
+        if (m < ref_m or (m == ref_m and d < ref_d)) and current_direction > 0:
+            ref_date = offset_from_date(ref_date, 1, 'Y', True)
+        elif (m > ref_m or (m == ref_m and d > ref_d)) and current_direction < 0:
+            ref_date = offset_from_date(ref_date, -1, 'Y', True)
+        
+        return ref_date[:4] + expression[4:]
+    
+    # If it's a day...
+    elif re.search(expressions.DAYS, expression, re.I) != None:
+        match = re.search(expressions.DAYS, expression, re.I)
         day = string_conversions.day_to_num(match.group())
         t = day - date_functions.date_to_dow(int(ref_date[:4]), int(ref_date[4:6]), int(ref_date[6:8]))
         if t >= 0 and current_direction < 0:
@@ -226,25 +241,33 @@ def compute_offset_base(ref_date, expression, current_direction):
     elif re.search(expressions.LUNAR_HOLIDAYS, expression, re.I) != None:
         match = re.search(expressions.LUNAR_HOLIDAYS, expression, re.I)
         
+        hol = match.group()
+        hol = re.sub(r'<([^~]*)[^>]*>', r'\1', hol)
+        hol = re.sub(r'\s', '', hol)
+        hol = hol.lower()
+        
+        easter_offsets = {
+            'goodfriday': -3,
+            'shrovetuesday': -47,
+            'ashwednesday': -46,
+            'palmsunday': -7,
+            'easter': 0
+        }
+        
         # Get the date of the event this year and figure out if it's passed or
         # not
         ref_m = int(ref_date[4:6])
         ref_d = int(ref_date[6:8])
-        easter = date_functions.easter_date(int(ref_date[:4]))
-        hol_m = int(easter[4:6])
-        hol_d = int(easter[6:8])
+        hol_date = offset_from_date(date_functions.easter_date(int(ref_date[:4])), easter_offsets[hol])
+        hol_m = int(hol_date[4:6])
+        hol_d = int(hol_date[6:8])
         
         if (hol_m < ref_m or (hol_m == ref_m and hol_d < ref_d)) and current_direction > 0:
             ref_date = offset_from_date(ref_date, 1, 'Y', True)
         elif (hol_m > ref_m or (hol_m == ref_m and hol_d > ref_d)) and current_direction < 0:
             ref_date = offset_from_date(ref_date, -1, 'Y', True)
         
-        hol_y = int(ref_date[:4])
-        easter = date_functions.easter_date(hol_y)
-        hol_m = int(easter[4:6])
-        hol_d = int(easter[6:8])
-        
-        # Now figure out the date for that year
+        hol_y = int(hol_date[:4])
         return "%04d%02d%02d" % (hol_y, hol_m, hol_d)
     
     # Other expressions
@@ -256,4 +279,75 @@ def compute_offset_base(ref_date, expression, current_direction):
     # Couldn't figure out an offset
     else:
         return ref_date
+
+def _extract_verbs(s):
+    """
+    Given a sentence, extract the verbs and their POS tags from it.
+    """
+    verb = None
+    verb2 = None
+    vpos = None
+    vpos2 = None
+    pos_found = False
+    for (tok, pos, ts) in s:
+        if (pos.upper() == 'VBP' or \
+            pos.upper() == 'VBZ' or \
+            pos.upper() == 'VBD' or \
+            pos.upper() == 'MD') and \
+            not pos_found:
+            verb = tok.lower()
+            vpos = pos.upper()
+        elif pos_found and tok[:2].upper() == 'VB':
+                verb2 = tok.lower()
+                vpos2 = pos.upper()
+                break
     
+    if pos == 'VBP' or pos == 'VBZ' or pos == 'MD' and \
+        re.search(r'going\s+to', ' '.join([tok for (tok, pos, ts) in s]), re.I) != None:
+        pos = 'MD'
+        verb = 'going_to'
+    
+    return (verb, vpos, verb2, vpos2)
+
+def relative_direction_heuristic(before, after):
+    """
+    Given what preceeds and proceeds a TIMEX, then use heuristics to use tense
+    to compute which direction a relative expression is in.
+    Converted from GUTime.
+    """
+    
+    # Get the bit after the last TIMEX and before this one
+    lead = before
+    for i in range(-1, -1 * len(before), -1):
+        if len(before[i][2]) > 0:
+            lead = before[i:]
+            break
+    
+    # Okay, now extract the verbs
+    (verb, pos, verb2, pos2) = _extract_verbs(lead)
+    if verb is None:
+        (verb, pos, verb2, pos2) = _extract_verbs(after)
+    if verb is None:
+        (verb, pos, verb2, pos2) = _extract_verbs(before)
+    if verb is None:
+        return 0
+    
+    # Now try and figure out a relative direction based on the verb information
+    if pos == 'VBD':
+        return -1
+    
+    elif pos == 'MD':
+        if re.search(r'(will|\'ll|going_to)', verb, re.I) != None:
+            return 1
+        elif verb2 == 'have':
+            return -1
+        elif re.search(r'((w|c|sh)ould|\'d)', verb, re.I) != None and pos2 == 'VB':
+            return 1
+    
+    # Use other linguistic cues to determine tense
+    if before[-1][0].lower() == 'since':
+        return -1
+    elif before[-1][0].lower() == 'until':
+        return 1
+    
+    return 0
