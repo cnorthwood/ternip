@@ -19,6 +19,8 @@ class timex2(xml_doc.xml_doc):
         if node.hasAttribute('SET'):
             if node.getAttribute('SET').lower() == 'yes':
                 t.type = 'set'
+                if node.hasAttribute('PERIODICITY'):
+                    t.value = 'P' + node.getAttribute('PERIODICITY')[1:]
         
         if node.hasAttribute('VAL'):
             t.value = node.getAttribute('VAL')
@@ -39,15 +41,16 @@ class timex2(xml_doc.xml_doc):
         Add attributes to this TIMEX2 node
         """
         
-        if timex.value != None:
+        if timex.value != None and not (timex.value[0] == 'P' and timex.type != None and timex.type.lower() == 'set'):
             node.setAttribute('VAL', timex.value)
         
         if timex.mod != None:
             node.setAttribute('MOD', timex.mod)
         
-        if timex.type != None:
-            if timex.type.lower() == 'set':
-                node.setAttribute('SET', 'YES')
+        if timex.type != None and timex.type.lower() == 'set':
+            node.setAttribute('SET', 'YES')
+            if timex.value != None and timex.value[0] == 'P':
+                node.setAttribute('PERIODICITY', 'F' + timex.value[1:])
         
         if timex.freq != None:
             node.setAttribute('GRANUALITY', 'G' + timex.freq)
