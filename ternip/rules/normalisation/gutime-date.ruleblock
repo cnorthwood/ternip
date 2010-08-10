@@ -1197,9 +1197,8 @@ Value: compute_offset_base(cur_context, 'XXXX%02d%02d' % (month_to_num({#1}), 5)
 # 143
 
 Type: date
-Tokenise: space
-Match: \b($MONTHS|$MONTH_ABBRS)
-Value: compute_offset_base(cur_context, {#1}, relative_direction_heuristic(before, after))[:4]
+Match: <($MONTHS|$MONTH_ABBRS)~.+>
+Value: compute_offset_base(cur_context, {#1}, relative_direction_heuristic(before, after))
 
 ---
 # 144
@@ -1236,7 +1235,7 @@ Value: compute_offset_base(cur_context, {#1}, relative_direction_heuristic(befor
 
 Type: date
 Match: $DAYS
-Value: compute_offset_base(cur_context, {#1}, relative_direction_heuristic(before, after))
+Value: compute_offset_base(cur_context, {#1}, relative_direction_heuristic(before, after)) if date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), int(cur_context[6:8])) != date_to_dow(int(compute_offset_base(cur_context, {#1}, relative_direction_heuristic(before, after))[:4]), int(compute_offset_base(cur_context, {#1}, relative_direction_heuristic(before, after))[4:6]), int(compute_offset_base(cur_context, {#1}, relative_direction_heuristic(before, after))[6:8])) else cur_context
 
 ---
 # 149

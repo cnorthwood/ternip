@@ -129,22 +129,27 @@ def offset_from_date(v, offset, gran='D', exact=False):
             offset *= 100
         if gran == 'E':
             offset *= 10
-        if d == 29 and m == 2 and not calendar.isleap(y + offset):
-            # eugh, mucking about with a date that's not going to be in the
-            # target year - fall back
-            d = 28
+        
         y += offset
-        dt = datetime.datetime(y, m, d)
-        if not exact and gran == 'C':
-            return ("%04d" % y)[:2]
-        elif not exact and gran == 'E':
-            return dt.strftime('%Y')[:3]
-        elif exact and really_d:
-            return dt.strftime('%Y%m%d')
-        elif exact and not really_d:
-            return dt.strftime('%Y%m')
+        
+        # Python doesn't allow datetime objects to be created representing years
+        # before 1970, so do this the old fashioned way
+        if not exact:
+            if gran == 'C':
+                return ("%04d" % y)[:2]
+            elif gran == 'E':
+                return ("%04d" % y)[:3]
+            else:
+                return ("%04d" % y)
         else:
-            return dt.strftime('%Y')
+            if d == 29 and m == 2 and not calendar.isleap(y):
+                # eugh, mucking about with a date that's not going to be in the
+                # target year - fall back
+                d = 28
+            if really_d:
+                return "%04d%02d%02d" % (y, m, d)
+            else:
+                return "%04d%02d" % (y, m)
     
     elif offset >= 1:
         return 'FUTURE_REF'
@@ -267,8 +272,8 @@ def compute_offset_base(ref_date, expression, current_direction):
         elif (hol_m > ref_m or (hol_m == ref_m and hol_d > ref_d)) and current_direction < 0:
             ref_date = offset_from_date(ref_date, -1, 'Y', True)
         
-        hol_y = int(hol_date[:4])
-        return "%04d%02d%02d" % (hol_y, hol_m, hol_d)
+        hol_y = int(ref_date[:4])
+        return offset_from_date(date_functions.easter_date(hol_y), easter_offsets[hol])
     
     # Other expressions
     elif expression.lower().find('yesterday') > -1:
@@ -302,9 +307,9 @@ def _extract_verbs(s):
                 vpos2 = pos.upper()
                 break
     
-    if pos == 'VBP' or pos == 'VBZ' or pos == 'MD' and \
+    if vpos == 'VBP' or vpos == 'VBZ' or vpos == 'MD' and \
         re.search(r'going\s+to', ' '.join([tok for (tok, pos, ts) in s]), re.I) != None:
-        pos = 'MD'
+        vpos = 'MD'
         verb = 'going_to'
     
     return (verb, vpos, verb2, vpos2)
