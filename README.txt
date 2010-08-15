@@ -5,7 +5,7 @@
     Speech and Language Processing at The University of Sheffield's Department
     of Computer Science.
     
-    Version 0.9.dev
+    Version 1.0
 
 WHAT IS TERNIP?
 
@@ -42,31 +42,254 @@ USING ANNOTATE_TIMEX
 
 USING THE API
 
-    Loading Documents In
-
     Doing The Recognition/Normalisation
 
-    Writing Documents Out
+        Two functions are provided which returns instances of the default
+        recognisers and normalisers:
+        
+          * ternip.recogniser()
+          * ternip.normaliser()
+        
+        You can also manually load the recognition and normalisation rule
+        engines (currently the only modules for recognition and normalisation).
+        
+        This can be done by instantiating the objects:
+        
+          * ternip.rule_engine.recognition_rule_engine()
+          * ternip.rule_engine.normalisation_rule_engine()
+        
+        And then calling the load_rules(path) with a path to where the rules to
+        be loaded are stored.
+        
+        Once this has been done, the recogniser supports a single method:
+        
+          * tag(sents): This takes a list of sentences (in the format detailed
+                        in the section below) and returns a list of sentences in
+                        the same format, with the third element of the token
+                        tuple filled with ternip.timex objects indicating the
+                        type and extent of the expression covered.
+        
+        Once this has been done, the normaliser can be used on the recognised
+        time expression extents to fill the other attributes. Again, a single
+        method exists on the normaliser class:
+        
+          * annotate(sents, dct): This takes sentences where the third element
+                                  in the token tuple is filled with timex
+                                  extents and the document creation time (or the
+                                  context to be considered when computing
+                                  relative date offsets) and fills the
+                                  attributes of the timex objects where it can.
+                                  The DCT is expected to be a string in ISO 8601
+                                  (basic) format.
+
+    Handling TIMEX-annotated documents
+
+        The annotation functions expect input in the format of a list of
+        sentences, where a sentence is a list of tuples consisting of the token,
+        the part-of-speech tag and a set of TIMEXes tagged with that object,
+        
+        i.e., [[('token', 'POS-tag', set([timex1, timex2, ...])), ...], ...]
+        
+        In the ternip.formats package, a number of classes exist which can
+        convert to and from document formats and this internal format.
+        
+        These classes can be instantiated by passing in a string containing the
+        document to the constructor, with different classes also supporting
+        optional keyword arguments which can specify additional metadata (as
+        fully documented in the API documentation). These classes will also use
+        the NLTK to tokenise and part-of-speech tag the document text.
+        
+        These document classes then support a standard interface for accessing
+        the data:
+        
+          * get_sents(): Get the text from the document in the format required
+                         for the annotator
+          * get_dct_sents(): If the document format contains the document
+                             creation time, then get that in the format ready
+                             for the annotator
+          * reconcile(sents): Add the TIMEX metadata from the annotated sents to
+                              the document - XML documents also allow adding
+                              part-of-speech and tokenisation metadata to the
+                              document
+          * reconcile_dct(sents): Add TIMEX metadata to the document creation
+                                  time information (from get_dct_sents())
+          * __str__(): Returns the document in a string, ready to be written
+                       out or similar.
+        
+        Some classes also support a create static method, which can be used to
+        create new instances of that document from the internal representation.
+        This can be useful without the annotator functions to transform TIMEX
+        annotated documents between 2 formats.
+        
+        The supported formats included with TERNIP are:
+        
+          * ternip.formats.tern: An XML parser for the TERN dataset (note, the
+                                 TERN dataset is SGML, a superset of XML, so
+                                 some documents may not correctly parse as XML)
+          * ternip.formats.timeml: Documents in TimeML format
+          * ternip.formats.timex2: Generic XML documents annotated with the
+                                   TIMEX2 tag
+          * ternip.formats.timex3: Generic XML documents annotated with TimeML's
+                                   TIMEX3 tag
+          * ternip.formats.tempeval2: The tabulated format used for the
+                                      TempEval-2 competition
 
     Changing How TERNIP Handles Warnings
+
+        To use TERNIP in a larger program, the default method for reporting
+        warnings during program execution, writing to stderr, may not be
+        appropriate. To work around this, you can override the default warning
+        function by setting the variable ternip.warn to your own function.
+        
+        Your function must accept a string as the first argument containing a
+        description of the warning, and the second the raised exception
+        containing more information about the error that generated the warning.
 
 EXTENDING TERNIP
 
     Writing Your Own Rules
 
-        TODO
+        The rule engines (normalisation and recognition) in TERNIP support three
+        types of files: single rules, rule blocks and complex rules. Single
+        rules and rule blocks consist of files with lines in the format:
+        
+            Key: Value
+        
+        Where the acceptable keys and value formats depend on the exact type of
+        rule (recognition or normalisation) and are defined further below.
+        
+        Rule blocks can contain many rules, separated by three dashes on a line.
+        Additionally, the first section of the file is a header for the rule
+        block.
+        
+        Complex rules are Python files which contain a class called 'rule' which
+        is instantiated. These classes must implement an interface depending on
+        which type of rule it is.
+
+        Rule Blocks
+
+            Rule blocks consist of sections seperated by three dashes (---) on
+            a line by themselves. The first section in a rule block is the
+            header of the block and is in the following format, regardless of
+            whether it's a recognition or normalisation rule. The format of the
+            following sections is in the format of the single rules described
+            below, except keys relating to ordering (ID and After) are erroneous
+            as ordering is defined by the rule block.
+            
+            The following keys are valid in the header:
+            
+              * Block-Type: this can be either 'run-all' or 'run-until-success'.
+                            In the case of run-all, all rules are run regardless
+                            of whether or not previous rules succeeded or not,
+                            and 'run-until-success' which will run until the
+                            first rule successfully applies.
+              * ID: This is an (optional) string containing an identifier which
+                    can be referred to by other rules to express ordering.
+              * After: This can exist multiple times in a header and defines
+                       an ID which must have executed (successfully or not)
+                       before this rule block runs.
+
+        Single Recognition Rule
+
+            The following keys are valid in recognition rules:
+            
+              * ID: This is an (optional) string containing an identifier which
+                    can be referred to by other rules to express ordering.
+              * After: This can exist multiple times in a header and defines
+                       an ID which must have executed (successfully or not)
+                       before this rule runs.
+              * Type (compulsory)
+              * Match (compulsory)
+              * Squelch: true/false, defaults to false
+              * Case-Sensitive: true/false, defaults to false
+              * Deliminate-Numbers: true/false, defaults to false
+              * Guard: multiple allowed
+              * Before-Guard: multiple allowed
+              * After-Guard: multiple allowed
+
+        Complex Recognition Rule
+
+            Complex recognition rules are Python classes with a single method
+            and two static variables:
+            
+              * id: A string (or None) containing an identifier for this rule
+                    which can be used for ordering
+              * after: A list of strings containing identifiers which must
+                       have run before this rule is executed
+              * apply(sent): This function is called when this rule is excecuted.
+                             'sent' is a list of sentences in the internal
+                             format described above, and the function is
+                             expected to return a tuple where the first element
+                             is the sentence with timex objects added and the
+                             second element is a Boolean indicating whether or
+                             not the rule altered the sentence or not.
+
+        Single Normalisation Rule
+
+            The following keys are valid in normalisation rules:
+            
+              * ID: This is an (optional) string containing an identifier which
+                    can be referred to by other rules to express ordering.
+              * After: This can exist multiple times in a header and defines
+                       an ID which must have executed (successfully or not)
+                       before this rule runs.
+              * Type: optional
+              * Match
+              * Value
+              * Change-Type
+              * Freq
+              * Quant
+              * Mod
+              * Guard
+              * After-Guard
+              * Before-Guard
+              * Sent-Guard
+              * Tokenise: (defaults to true), space, null
+              * Deliminate-Numbers: true/false, defaults to false - mutually exclusive to tokenise
+              
+
+        Complex Normalisation Rule
+
+            Complex normalisation rules are Python classes with a single method
+            and two static variables:
+            
+              * id: A string (or None) containing an identifier for this rule
+                    which can be used for ordering
+              * after: A list of strings containing identifiers which must
+                       have been executed (successfully or not) before this rule
+                       is executed
+              * apply(timex, cur_context, dct, body, before, after):
+                    The function that is called when this rule is being executed.
+                    The first argument is the TIMEX to be annotated (the fields
+                    of the timex object which could be annotated are detailed in
+                    the API documentation for the ternip.timex class), the
+                    second argument is a string in ISO 8601 basic format
+                    representation of the current context of the document. The
+                    'dct' argument is the creation time of the document and
+                    'body', 'before' and 'after' contain the list of tokens
+                    (in the internal form) of the extent of the timex,
+                    preceeding and following the timex extent. This function is
+                    expected to a return a tuple where the first element
+                    consists of a boolean indicating whether or not this rule
+                    successfully ran, and the second element consists of the
+                    current date/time context (in ISO 8601 basic form), which
+                    may have been changed by this rule.
 
     Writing New Tagging or Annotating Modules
 
-        TODO
+        New tagging and annotation modules are expected to implement the same
+        interface as the rule engines described above.
 
-    Writing A New Document Format
+    Writing New Document Formats
 
-        TODO
+        New document formats are expected to contain the same interface as
+        described above. If you are writing a new document format based around
+        XML, the ternip.formats.xml_doc.xml_doc class may provide useful
+        functionality.
 
 EXTRAS
 
-    Some Corpora
+    sample_data
 
         In the sample_data folder you will find varying corpora of documents
         with TIMEX tags annotated in varying formats. You can use these
