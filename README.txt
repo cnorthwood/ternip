@@ -165,6 +165,51 @@ EXTENDING TERNIP
         Complex rules are Python files which contain a class called 'rule' which
         is instantiated. These classes must implement an interface depending on
         which type of rule it is.
+        
+        Rule regular expressions undertake some preprocessing. Apart from when
+        specified using the 'Tokenise' option on normalisation rules, sentences
+        are converted into the form <token~pos><token~pos> with no spaces, so
+        this is what the rules are matched against. Additionally, < and >, which
+        indicate token boundaries are preprocessed and the token open bracket
+        must be at the same parenthesis nesting level as the closing one.
+        
+        For example,
+        
+            <hello~.+>(<world~.+>)? is valid
+            <hello(~.+><world)?~.+> is not, and will not match as expected
+        
+        Finally, the quantifiers + and ? on the matching character . will not
+        match across token boundaries, apart from if matching Deliminated number
+        word sequences (i.e., NUM_START.+NUM_END).
+        
+        When number delimination is enabled, then sequences of number words will
+        be surrounded with NUM_START and NUM_END, and of ordinal sequences with
+        NUM_ORD_START and NUM_ORD_END, e.g.,
+        
+            NUM_START<twenty~CD><four~CD>NUM_END
+            NUM_ORD_START<sixty~CD><seventh~CD>NUM_END
+        
+        Additionally, in regular expressions, the following words will be
+        replaced with predefined regular expression groups:
+        
+          * $ORDINAL_WORDS: which consist of word forms of ordinal values,
+          * $ORDINAL_NUMS: the number forms (including suffixes) of ordinal values,
+          * $DAYS: day names
+          * $MONTHS: month names
+          * $MONTH_ABBRS: three-letter abbreviations of month names
+          * $RELATIVE_DAYS: relative expressions referring to days
+          * $DAY_HOLIDAYS: holidays that have "day" in the name
+          * $NTH_DOW_HOLIDAYS: holidays which always appear on a particular day
+                               in the nth week of a given month
+          * $FIXED_HOLIDAYS: holidays which have a fixed date (including token
+                             boundaries)
+          * $LUNAR_HOLIDAYS: holidays which are relative to Easter (including
+                             token boundaries)
+        
+        When dealing with guard regular expressions, if the first character of
+        the regular expression is a !, this makes the regular expression
+        negative - the rule will only execute if that regular expression does
+        not match.
 
         Rule Blocks
 
@@ -198,14 +243,29 @@ EXTENDING TERNIP
               * After: This can exist multiple times in a header and defines
                        an ID which must have executed (successfully or not)
                        before this rule runs.
-              * Type (compulsory)
-              * Match (compulsory)
-              * Squelch: true/false, defaults to false
-              * Case-Sensitive: true/false, defaults to false
-              * Deliminate-Numbers: true/false, defaults to false
-              * Guard: multiple allowed
-              * Before-Guard: multiple allowed
-              * After-Guard: multiple allowed
+              * Type: This is a compulsory field which indicates the type of
+                      temporal expression this rule matches.
+              * Match: A compulsory regular expression, where the part of a
+                       sentence that matches is marked as the extent of a new
+                       timex
+              * Squelch: Defaults to false, but if set to true, then removes any
+                         timexes in the matched extent. True/false are allowed
+                         values.
+              * Case-Sensitive: true/false, defaults to false. Indicates whether
+                                or not the regular expressions should be case
+                                sensitive
+              * Deliminate-Numbers: true/false, defaults to false, whether or
+                                    not number sequences are deliminated as
+                                    described above
+              * Guard: multiple allowed, a regular expression the entire
+                       sentence should match to be allowed to execute
+              * Before-Guard: multiple allowed, as a guard, but only matches
+                              on the tokens before the extent that was matched
+                              by the 'Match' rule. (Anchors such as $ can be
+                              useful here)
+              * After-Guard: multiple allowed. As a Before-Guard, but instead
+                             matches on the tokens after the extent matched by
+                             Match (Anchors such as ^ can be useful here).
 
         Complex Recognition Rule
 
