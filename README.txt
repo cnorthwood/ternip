@@ -206,6 +206,8 @@ EXTENDING TERNIP
           * $LUNAR_HOLIDAYS: holidays which are relative to Easter (including
                              token boundaries)
         
+        The exact format of regular expressions 
+        
         When dealing with guard regular expressions, if the first character of
         the regular expression is a !, this makes the regular expression
         negative - the rule will only execute if that regular expression does
@@ -286,27 +288,90 @@ EXTENDING TERNIP
 
         Single Normalisation Rule
 
-            The following keys are valid in normalisation rules:
+            In the Python expressions described below, you can use the shortcut
+            text {#X} which is replaced with the matched regular expression
+            group X, e.g., {#1} will be the part of the sentence that matched
+            the first parenthesis group in the text. {#0} would be the entire
+            matched expression (this is equivalent to the group member of the
+            Python re.match class).
+            
+            Additionally, a number of variables and support functions are
+            available to these Python expressions which can assist the writing
+            of normalisation rules.
+            
+            The following variables are available:
+            
+              * timex: The timex object which is currently being annotated.
+              * cur_context: The ISO 8601 basic string containing the current
+                             date-time context of this sentence.
+              * dct: The ISO 8601 basic string containing the document creation
+                     time of this document.
+              * body: The part of the sentence which is covered by the extent of
+                      this timex, in internal format (self._toks_to_str() can be
+                      useful to convert this into a string format described
+                      above).
+              * before: The part of the sentence preceeding the timex, in
+                        internal format
+              * after: The part of the sentence processing the timex, in
+                       internal format.
+            
+            The functions in the ternip.rule_engine.normalisation_functions
+            package are all imported in the same namespace as the expression
+            being evaluated, so you can call the functions directly. You can
+            find more details about these functions and their signatures in the
+            API documentation.
+            
+            The timex fields are fully documented in the ternip.timex class,
+            and are related to their meaning in the TimeML specification.
+            
+            The following keys are valid in normalisation rule definitions:
             
               * ID: This is an (optional) string containing an identifier which
                     can be referred to by other rules to express ordering.
               * After: This can exist multiple times in a header and defines
                        an ID which must have executed (successfully or not)
                        before this rule runs.
-              * Type: optional
-              * Match
-              * Value
-              * Change-Type
-              * Freq
-              * Quant
-              * Mod
-              * Guard
-              * After-Guard
-              * Before-Guard
-              * Sent-Guard
-              * Tokenise: (defaults to true), space, null
-              * Deliminate-Numbers: true/false, defaults to false - mutually exclusive to tokenise
-              
+              * Type: an optional string which the type of the timex must match
+                      for this rule to be applied
+              * Match: A regular expression which the body of the timex must
+                       match for this rule to be applied. The groups in this
+                       regular expression are available in the annotation
+                       expressions below.
+              * Guard: A regular expression which the body of the timex must
+                       match for this rule to be applied. Unlike 'Match', the
+                       regular expression groups are not available in other
+                       expressions.
+              * After-Guard: A regular expression like Guard, except it matches
+                             the part of the sentence after the timex.
+              * Before-Guard: A regular expression like Guard, except it matches
+                              the part of the sentence before the timex.
+              * Sent-Guard: A regular expression like Guard, except that it
+                            matches against the entire sentence.
+              * Value: A Python expression which the results of evaluating are
+                       set to the 'value' attribute of the timex.
+              * Change-Type: A Python expression which, if set, changes the type
+                             of the timex to what it evaluates to.
+              * Freq: A Python expression which, if set, sets the freq attribute
+                      on the timex.
+              * Quant: A Python expression which, if set, sets the quant
+                       attribute on the timex.
+              * Mod: A Python expression which, if set, sets the mod attribute
+                     on the timex.
+              * Tokenise: Whether or not to prepare the sentence into the form
+                          described above for the regular expressions. If set to
+                          true (the default), then it it converted into the
+                          tokenised string format described above. Otherwise,
+                          the value is used as the seperator between the tokens
+                          when detokenising. The special values 'space' and
+                          'null' can be used to indicate the token seperator
+                          should be the single space, or no gap at all. Note, if
+                          tokenise is not true, then Deliminate-Numbers can not
+                          be used, and part-of-speech tags are not available to
+                          the regular expressions.
+              * Deliminate-Numbers: If set to true (defaults to false), then
+                                    sequences of number words are delimited with
+                                    the tokens NUM_START and NUM_END, and
+                                    ordinals with NUM_ORD_START and NUM_ORD_END.
 
         Complex Normalisation Rule
 
@@ -346,6 +411,13 @@ EXTENDING TERNIP
         described above. If you are writing a new document format based around
         XML, the ternip.formats.xml_doc.xml_doc class may provide useful
         functionality.
+    
+    Enabling Debug Functionality
+
+        The classes normalisation_rule and recognition_rule have a member called
+        _DEBUG which is a Boolean to help in debugging rules. When _DEBUG is set
+        to True, then the comment attribute of the timex is set to the
+        identifier of the rule which tagged/annotated it.
 
 EXTRAS
 
