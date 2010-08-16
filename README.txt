@@ -206,7 +206,8 @@ EXTENDING TERNIP
           * $LUNAR_HOLIDAYS: holidays which are relative to Easter (including
                              token boundaries)
         
-        The exact format of regular expressions 
+        The exact format of regular expressions is as implemented in the Python
+        're' module: http://docs.python.org/library/re.html
         
         When dealing with guard regular expressions, if the first character of
         the regular expression is a !, this makes the regular expression
