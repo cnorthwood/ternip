@@ -86,7 +86,7 @@ USING THE API
 
         The annotation functions expect input in the format of a list of
         sentences, where a sentence is a list of tuples consisting of the token,
-        the part-of-speech tag and a set of TIMEXes tagged with that object,
+        the part-of-speech tag and a set of timexes tagged with that object,
         
         i.e., [[('token', 'POS-tag', set([timex1, timex2, ...])), ...], ...]
         
@@ -216,7 +216,7 @@ EXTENDING TERNIP
 
         Rule Blocks
 
-            Rule blocks consist of sections seperated by three dashes (---) on
+            Rule blocks consist of sections separated by three dashes (---) on
             a line by themselves. The first section in a rule block is the
             header of the block and is in the following format, regardless of
             whether it's a recognition or normalisation rule. The format of the
@@ -279,7 +279,7 @@ EXTENDING TERNIP
                     which can be used for ordering
               * after: A list of strings containing identifiers which must
                        have run before this rule is executed
-              * apply(sent): This function is called when this rule is excecuted.
+              * apply(sent): This function is called when this rule is executed.
                              'sent' is a list of sentences in the internal
                              format described above, and the function is
                              expected to return a tuple where the first element
@@ -311,7 +311,7 @@ EXTENDING TERNIP
                       this timex, in internal format (self._toks_to_str() can be
                       useful to convert this into a string format described
                       above).
-              * before: The part of the sentence preceeding the timex, in
+              * before: The part of the sentence preceding the timex, in
                         internal format
               * after: The part of the sentence processing the timex, in
                        internal format.
@@ -362,9 +362,9 @@ EXTENDING TERNIP
                           described above for the regular expressions. If set to
                           true (the default), then it it converted into the
                           tokenised string format described above. Otherwise,
-                          the value is used as the seperator between the tokens
+                          the value is used as the separator between the tokens
                           when detokenising. The special values 'space' and
-                          'null' can be used to indicate the token seperator
+                          'null' can be used to indicate the token separator
                           should be the single space, or no gap at all. Note, if
                           tokenise is not true, then Deliminate-Numbers can not
                           be used, and part-of-speech tags are not available to
@@ -394,9 +394,9 @@ EXTENDING TERNIP
                     'dct' argument is the creation time of the document and
                     'body', 'before' and 'after' contain the list of tokens
                     (in the internal form) of the extent of the timex,
-                    preceeding and following the timex extent. This function is
+                    preceding and following the timex extent. This function is
                     expected to a return a tuple where the first element
-                    consists of a boolean indicating whether or not this rule
+                    consists of a Boolean indicating whether or not this rule
                     successfully ran, and the second element consists of the
                     current date/time context (in ISO 8601 basic form), which
                     may have been changed by this rule.
