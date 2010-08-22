@@ -447,7 +447,7 @@ EXTRAS
     extras/add_rule_numbers.py
 
         This handy little script takes a ruleblock file and outputs the same
-        ruleblock but with a comment at the top of each rule indicating it's
+        ruleblock but with a comment at the top of each rule indicating its
         index in the file. It is highly recommended to run this if you write
         your own rules, as it makes quickly identifying faulty rules easy.
 
