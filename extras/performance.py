@@ -13,12 +13,12 @@ recogniser = ternip.recogniser()
 normaliser = ternip.normaliser()
 for file in glob(os.path.normpath('preprocessed/*.sgm')):
     with open(file) as fd:
-        doc = ternip.formats.tern(fd.read())
+        doc = ternip.formats.tern(fd.read(), has_S='s', has_LEX='lex', pos_attr='pos')
     dct_sents = doc.get_dct_sents()
     dct_sents = recogniser.tag(dct_sents)
     normaliser.annotate(dct_sents, 'XXXXXXXX')
     doc.reconcile_dct(dct_sents)
-    if len(dct_sents) > 0 and len(dct_sents[0][0][2]) > 0:
+    if len(dct_sents) > 0 and len(dct_sents[0]) > 0 and len(dct_sents[0][0][2]) > 0:
         dct = dct_sents[0][0][2].pop().value
     else:
         dct = ''
@@ -31,7 +31,7 @@ ternip_time = time.clock() - ternip_time
 
 # Count document size
 bits = 0
-for file in glob(os.path.normpath('extras/preprocessed/*.sgm')):
+for file in glob(os.path.normpath('preprocessed/*.sgm')):
     with open(file) as fd:
         bits += len(fd.read())
 
