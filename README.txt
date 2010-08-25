@@ -451,6 +451,16 @@ EXTRAS
         index in the file. It is highly recommended to run this if you write
         your own rules, as it makes quickly identifying faulty rules easy.
 
+    extras/preprocesstern.py
+
+        This will take the TERN corpus and annotate it with tokenisation/part-of
+        -speech metadata to make document loading quicker.
+
+    extras/performance.py
+
+        This takes the pre-processed documents (produced by the script above)
+        and annotates them all, giving speed statistics at the end.
+
     runtests.py
 
         This file executes the unit test suite for TERNIP.
