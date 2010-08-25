@@ -423,6 +423,7 @@ class xml_doc:
     
     def _add_timex_child(self, timex, sent, node, start, end):
         i = 0
+        timex_tag = None
         for child in list(node.childNodes):
             e = self._get_token_extent(child, sent[i:])
             if (i + e) >= start and i <= start and e > 0:
@@ -455,7 +456,11 @@ class xml_doc:
             
             # This node is completely covered by this TIMEX, so include it
             # inside the TIMEX, unless the timex is non consuming
-            if (i + e) <= end and i >= start and not timex.non_consuming and e > 0 and (child.nodeType != node.TEXT_NODE or (i + e) < end):
+            if (i + e) <= end and i >= start and not timex.non_consuming and (e > 0 or (i > start and (i + e) < end)) and (child.nodeType != node.TEXT_NODE or (i + e) < end):
+                if timex_tag is None:
+                    timex_tag = self._xml_doc.createElement(self._timex_tag_name)
+                    self._annotate_node_from_timex(timex, timex_tag)
+                    node.insertBefore(timex_tag, child)
                 timex_tag.appendChild(child)
             
             if ((i + e) > end and i < end and not timex.non_consuming) or \
@@ -553,9 +558,8 @@ class xml_doc:
             
             # Then add the new ones
             leftover = self._add_S_tags(self._xml_body, sents, add_S)
-            if len(leftover) > 0:
-                #raise nesting_error('Unable to add all S tags, possibly due to bad tag nesting')
-                pass
+            if len(leftover) > 1:
+                raise nesting_error('Unable to add all S tags, possibly due to bad tag nesting' + str(leftover))
             
             # Update what we consider to be our S tags
             self._has_S = add_S

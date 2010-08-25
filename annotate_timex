@@ -50,19 +50,19 @@ elif options.doc_type == 'timex3':
     with open(input_file) as fd:
         doc = ternip.formats.timex3(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
 elif options.doc_type == 'timeml':
-    if options.body_tag != None or options.has_S != None or options.has_LEX != None or options.pos_attr != None:
+    if options.body_tag != None:
         option_parser.print_help()
         print >>sys.stderr, "ERROR: incompatible options with document type"
         sys.exit(1)
     with open(input_file) as fd:
-        doc = ternip.formats.timeml(fd.read())
+        doc = ternip.formats.timeml(fd.read(), has_S=options.has_S, has_LEX=options.has_LEX, pos_attr=options.pos_attr)
 elif options.doc_type == 'tern':
-    if options.body_tag != None or options.has_S != None or options.has_LEX != None or options.pos_attr != None:
+    if options.body_tag != None:
         option_parser.print_help()
         print  >>sys.stderr,"ERROR: incompatible options with document type"
         sys.exit(1)
     with open(input_file) as fd:
-        doc = ternip.formats.tern(fd.read())
+        doc = ternip.formats.tern(fd.read(), has_S=options.has_S, has_LEX=options.has_LEX, pos_attr=options.pos_attr)
 else:
     option_parser.print_help()
     print >>sys.stderr, "ERROR: invalid document type specified"

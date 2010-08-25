@@ -41,7 +41,7 @@ class timex2(xml_doc.xml_doc):
         Add attributes to this TIMEX2 node
         """
         
-        if timex.value != None and not (timex.value[0] == 'P' and timex.type != None and timex.type.lower() == 'set'):
+        if timex.value != None and not (len(timex.value) > 0 and timex.value[0] == 'P' and timex.type != None and timex.type.lower() == 'set'):
             node.setAttribute('VAL', timex.value)
         
         if timex.mod != None:
