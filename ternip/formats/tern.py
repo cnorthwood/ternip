@@ -92,11 +92,14 @@ class tern(timex2.timex2):
         self._xml_body = old_xml_body
         return s
     
-    def reconcile_dct(self, dct):
+    def reconcile_dct(self, dct, add_S = False, add_LEX = False, pos_attr=False):
         """
         Adds a TIMEX to the DCT tag and return the DCT
         """
         old_xml_body = self._xml_body
+        old_has_S = self._has_S
+        old_has_LEX = self._has_LEX
+        old_pos_attr = self._pos_attr
         if self._dct_to_xml_body() == False:
             return
         # Set functionInDocument
@@ -104,5 +107,8 @@ class tern(timex2.timex2):
             for (doc, pos, ts) in sent:
                 for t in ts:
                     t.document_role = 'CREATION_TIME'
-        self.reconcile(dct)
+        self.reconcile(dct, add_S, add_LEX, pos_attr)
         self._xml_body = old_xml_body
+        self._has_S = old_has_S
+        self._has_LEX = old_has_LEX
+        self._pos_attr = old_pos_attr

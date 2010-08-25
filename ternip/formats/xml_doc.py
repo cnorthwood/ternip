@@ -862,7 +862,7 @@ class xml_doc:
         """
         return []
     
-    def reconcile_dct(self, dct):
+    def reconcile_dct(self, dct, add_S = False, add_LEX = False, pos_attr=False):
         """
         Adds a TIMEX to the DCT tag and return the DCT
         """
