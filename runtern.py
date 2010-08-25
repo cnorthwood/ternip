@@ -58,6 +58,7 @@ ternip_norm_scores = []
 
 gutime_time = float()
 ternip_time = float()
+bytes = 0
 
 for i in range(len(unannotated)):
     
@@ -66,6 +67,9 @@ for i in range(len(unannotated)):
     print
     print "Annotating", id
     print '-' * 80
+    
+    with open(unannotated[i]) as fd:
+        bytes += len(fd.read())
     
     try:
         start = time.clock()
@@ -158,6 +162,7 @@ print "    recognition", sum(gutime_recognition_scores)/len(gutime_recognition_s
 print "    extent", sum(gutime_extent_scores)/len(gutime_extent_scores)
 print "    normalisation", sum(gutime_norm_scores)/len(gutime_norm_scores)
 print "    time", gutime_time
+print "    throughput", bytes / gutime_time
 print
 print "TERNIP"
 print "    successfully tagged", len(ternip_recognition_scores), "documents"
@@ -165,6 +170,7 @@ print "    recognition", sum(ternip_recognition_scores)/len(ternip_recognition_s
 print "    extent", sum(ternip_extent_scores)/len(ternip_extent_scores)
 print "    normalisation", sum(ternip_norm_scores)/len(ternip_norm_scores)
 print "    time", ternip_time
+print "    throughput", bytes / ternip_time
 print
 
 shutil.rmtree(temp)
