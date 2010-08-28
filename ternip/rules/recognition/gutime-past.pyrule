@@ -30,10 +30,13 @@ class rule(ternip.rule_engine.rule.rule):
             
             # Okay, now check that there isn't a TIMEX that already starts
             # with the same phrase
+            guard = False
             ts = sent[ti][2]
             for t in ts:
                 if ti == 0 or t not in sent[ti-1][2]:
-                    continue
+                    guard = True
+            if guard:
+                continue
             
             # This rule succeeded
             success = True
