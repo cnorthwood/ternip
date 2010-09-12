@@ -3,12 +3,7 @@
 from collections import defaultdict
 import copy
 
-# Conditionally import NLTK - can speed up loading if we know we're not going
-# to need it
-try:
-    no_NLTK
-except NameError:
-    import nltk.tag
+import nltk.tag
 
 import ternip
 

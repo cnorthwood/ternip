@@ -2,13 +2,8 @@
 
 import ternip
 
-# Conditionally import NLTK - can speed up loading if we know we're not going
-# to need it
-try:
-    no_NLTK
-except NameError:
-    import nltk.tag
-    import nltk.tokenize
+import nltk.tag
+import nltk.tokenize
 
 import xml.dom.minidom
 from collections import defaultdict
