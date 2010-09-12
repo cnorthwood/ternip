@@ -56,6 +56,46 @@ class gate:
         """
         self._sents = copy.deepcopy(sents)
     
+    def _get_attrs(self, timex):
+        
+        s = ""
+        
+        if timex.id != None:
+            s += "\tid=t"+timex.id
+        
+        if timex.value != None:
+            s += "\tvalue="+timex.value
+        
+        if timex.type != None:
+            s += "\ttype="+timex.type.upper()
+        
+        if timex.mod != None:
+            s += "\tmod="+timex.mod
+        
+        if timex.freq != None:
+            s += "\tfreq="+timex.freq
+        
+        if timex.comment != None:
+            s += "\tcomment="+timex.comment
+        
+        if timex.quant != None:
+            s += "\tquant="+timex.quant
+        
+        if timex.temporal_function:
+            s += "\ttemporalFunction=true"
+        
+        if timex.document_role != None:
+            s += "\tfunctionInDocument="+timex.document_role
+        
+        if timex.begin_timex != None:
+            s += "\tbeginPoint=t"+str(timex.begin_timex.id)
+        
+        if timex.end_timex != None:
+            s += "\tendPoint=t"+str(timex.end_timex.id)
+        
+        if timex.context != None:
+           s += "\tanchorTimeID=t"+str(timex.context.id)
+    
     def __str__(self):
         """
         Output format
@@ -69,6 +109,6 @@ class gate:
                     if timex in open_timexes:
                         mode = 'I'
                     else:
-                        mode = 'B\t' + self._attrs(timex)
+                        mode = 'B' + self._get_attrs(timex)
                         break
                 print mode
