@@ -16,16 +16,22 @@ class gate:
         
         sents = []
         sent = []
-        self.docid = docid
+        dct = None
         
         for line in file.splitlines():
             parts = line.split('\t')
-            if len(parts) > 1:
+            if dct is None:
+                dct = parts[3]
+            if parts[2] == 'I':
                 sent.append((parts[0], parts[1], set()))
             else:
-                sents.append(sent)
+                if len(sent) > 0:
+                    sents.append(sent)
+                sent = [(parts[0], parts[1], set())]
+        sents.append(sent)
         
         self._sents = sents
+        self._dct = dct
     
     def get_sents(self):
         """
@@ -37,12 +43,8 @@ class gate:
     def get_dct_sents(self):
         """
         Returns the creation time sents for this document.
-        
-        At the moment returns nothing. This needs to be revisted to make
-        normalisation more useful, need to identify (perhaps first normalisable
-        expression) as a DCT
         """
-        return []
+        return [[(self._dct, 'DCT', set())]]
     
     def reconcile_dct(self, dct):
         """
@@ -61,7 +63,7 @@ class gate:
         s = ""
         
         if timex.id != None:
-            s += "\tid=t"+timex.id
+            s += "\tid=t"+str(timex.id)
         
         if timex.value != None:
             s += "\tvalue="+timex.value
@@ -74,9 +76,6 @@ class gate:
         
         if timex.freq != None:
             s += "\tfreq="+timex.freq
-        
-        if timex.comment != None:
-            s += "\tcomment="+timex.comment
         
         if timex.quant != None:
             s += "\tquant="+timex.quant
@@ -94,21 +93,26 @@ class gate:
             s += "\tendPoint=t"+str(timex.end_timex.id)
         
         if timex.context != None:
-           s += "\tanchorTimeID=t"+str(timex.context.id)
+            s += "\tanchorTimeID=t"+str(timex.context.id)
+        
+        return s
     
     def __str__(self):
         """
         Output format
         """
+        s = ''
         open_timexes = set()
         for sent in self._sents:
             for (tok, pos, ts) in sent:
-                print tok + "\t",
+                s += tok + "\t"
                 mode = 'O'
                 for timex in ts:
                     if timex in open_timexes:
                         mode = 'I'
                     else:
                         mode = 'B' + self._get_attrs(timex)
+                        open_timexes.add(timex)
                         break
-                print mode
+                s += mode + "\n"
+        return s

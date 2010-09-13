@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-import os
 import sys
 
-sys.path.append(os.path.join('..', '..'))
+sys.path.append('..')
 
 import ternip
 from ternip.formats.gate import gate
@@ -13,7 +12,7 @@ normaliser = ternip.normaliser()
 
 doc = gate(sys.stdin.read())
 sents = recogniser.tag(doc.get_sents())
-normaliser.annotate(sents, '')
+normaliser.annotate(sents, doc._dct)
 doc.reconcile(sents)
 
-sys.stdin.write(str(doc))
+sys.stdout.write(str(doc))
