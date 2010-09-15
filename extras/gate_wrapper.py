@@ -7,7 +7,7 @@ sys.path.append('..')
 import ternip
 ternip.no_NLTK = True
 
-from ternip.formats.gate import gate
+from ternip.formats import gate
 
 recogniser = ternip.recogniser()
 normaliser = ternip.normaliser()
