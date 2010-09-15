@@ -1,0 +1,24 @@
+Imports: { import static gate.Utils.*; }
+
+// if there was no ReferenceDate annotation, look for the reference date as a
+// document feature.
+
+Phase: ReferenceDateFromFeature
+Input: Token
+Options: control = once
+
+Rule: RefDate
+({Token}):tok
+-->
+:tok {
+  List<Annotation> tokens = inDocumentOrder(inputAS.get("Token"));
+  if(tokens.size() >= 1) {
+    Annotation firstTok = tokens.get(0);
+    // if we haven't already determined a reference date from an annotation,
+    // look for a document feature.
+    if(!firstTok.getFeatures().containsKey("referenceDate")) {
+      firstTok.getFeatures().put(
+          "referenceDate", "\t" + doc.getFeatures().get("referenceDate"));
+    }
+  }
+}

@@ -1,0 +1,21 @@
+Imports: { import static gate.Utils.*; }
+
+Phase: SentenceTokens
+Input: Sentence
+Options: control = all
+
+Rule: SentenceTokens
+({Sentence}):sent
+-->
+:sent {
+  List<Annotation> tokens = inDocumentOrder(
+      inputAS.getContained(start(sentAnnots), end(sentAnnots)).get("Token"));
+  // First token gets a B
+  if(tokens.size() >= 1) {
+    tokens.get(0).getFeatures().put("sentenceBIO", "B");
+  }
+  // subsequent tokens get an I
+  for(int i = 1; i < tokens.size(); ++i) {
+    tokens.get(i).getFeatures().put("sentenceBIO", "I");
+  }
+}

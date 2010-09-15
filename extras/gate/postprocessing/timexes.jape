@@ -1,0 +1,106 @@
+Imports: {
+  import static gate.Utils.*;
+  import java.util.regex.*;
+}
+
+// Process the output from TERNIP.  TERNIP annotates each token with the
+// following features:
+//
+// - beginTimexes: a semicolon-separated list of timexes that start at this
+//     token, where each timex is represented as a comma-separated list of
+//     key=value features.
+//
+// - inTimexes: a semicolon-separated list of the IDs of any timexes that cover
+//     this token but started earlier.
+//
+// This grammar converts this representation into spanning Timex annotations
+
+Phase: Timexes
+Input: Token
+Options: control = once
+
+Rule: Timexes
+({Token}):tok
+-->
+{
+  // Some useful constants
+  Pattern idPattern = Pattern.compile("id=(t[^,]*)");
+
+  List<Annotation> tokens = inDocumentOrder(inputAS.get("Token"));
+  Map<String, Long> timexStarts = new HashMap<String, Long>();
+  Map<String, String> timexFeatures = new HashMap<String, String>();
+  Set<String> timexesForPrevTok = new HashSet<String>();
+  Long endOffsetOfPrevToken = 0L;
+
+  for(Annotation t : tokens) {
+    Set<String> timexesForThisToken = new HashSet<String>();
+    FeatureMap features = t.getFeatures();
+
+    // first deal with the timexes that start here, storing their start offsets
+    // and features for future use.
+    if(features.containsKey("beginTimexes") && !"".equals(features.get("beginTimexes"))) {
+      String[] timexesStartingHere = ((String)features.get("beginTimexes"))
+                                       .split(";");
+      for(String timex : timexesStartingHere) {
+        Matcher idMatcher = idPattern.matcher(timex);
+        if(idMatcher.find()) {
+          String id = idMatcher.group(1);
+          timexStarts.put(id, t.getStartNode().getOffset());
+          timexFeatures.put(id, timex);
+          timexesForThisToken.add(id);
+        }
+      }
+    }
+
+    // now deal with any timexes that include this token but don't start here
+    if(features.containsKey("inTimexes") && !"".equals(features.get("inTimexes"))) {
+      String[] timexesCoveringHere = ((String)features.get("inTimexes"))
+                                      .split(";");
+      for(String timexId : timexesCoveringHere) {
+        timexesForThisToken.add(timexId);
+      }
+    }
+
+    // determine if any timexes ended at the *previous* token
+    for(String prevTokenTimex : timexesForPrevTok) {
+      if(!timexesForThisToken.contains(prevTokenTimex)) {
+        // found a timex that covered the previous token but not this one.  We
+        // know where it started, so we now have the information necessary to
+        // create a spanning annotation.
+        FeatureMap newTimexFeatures = Factory.newFeatureMap();
+        for(String kv : timexFeatures.get(prevTokenTimex).split(",")) {
+          String[] keyAndValue = kv.split("=", 2);
+          newTimexFeatures.put(keyAndValue[0], keyAndValue[1]);
+        }
+        try {
+          outputAS.add(timexStarts.get(prevTokenTimex), endOffsetOfPrevToken,
+              "Timex", newTimexFeatures);
+        }
+        catch(InvalidOffsetException e) {
+          throw new JapeException(e);
+        }
+      }
+    }
+
+    // remember this token's timexes and end offset for the next time round the
+    // loop
+    endOffsetOfPrevToken = t.getEndNode().getOffset();
+    timexesForPrevTok = timexesForThisToken;
+  }
+
+  // all tokens processed, close off any outstanding timexes
+  for(String prevTokenTimex : timexesForPrevTok) {
+    FeatureMap newTimexFeatures = Factory.newFeatureMap();
+    for(String kv : timexFeatures.get(prevTokenTimex).split(",")) {
+      String[] keyAndValue = kv.split("=", 2);
+      newTimexFeatures.put(keyAndValue[0], keyAndValue[1]);
+    }
+    try {
+      outputAS.add(timexStarts.get(prevTokenTimex), endOffsetOfPrevToken,
+          "Timex", newTimexFeatures);
+    }
+    catch(InvalidOffsetException e) {
+      throw new JapeException(e);
+    }
+  }
+}

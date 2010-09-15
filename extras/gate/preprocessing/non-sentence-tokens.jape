@@ -1,0 +1,14 @@
+Phase: NonSentenceTokens
+Input: Token
+Options: control = all
+
+// If there are any tokens by now that do not have a sentenceBIO they must be
+// outside any sentence.
+Rule: NonSentenceTokens
+({Token.sentenceBIO !=~ "[BI]"}):tok
+-->
+:tok {
+  for(Annotation t : tokAnnots) {
+    t.getFeatures().put("sentenceBIO", "O");
+  }
+}

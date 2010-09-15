@@ -1,0 +1,10 @@
+Multiphase: TernipPreProcessing
+
+// Pre-processing grammar for ternip, adding BIO tags for sentence boundaries
+// to the tokens and attempting to find a reference date for the document.
+
+Phases:
+sentence-tokens
+non-sentence-tokens
+reference-date-from-annot
+reference-date-from-feat

@@ -56,46 +56,53 @@ class gate:
         """
         Update this document with the newly annotated tokens.
         """
+        # TIMEXes need unique IDs
+        all_ts = set()
+        for sent in sents:
+            for (tok, pos, ts) in sent:
+                for t in ts:
+                    all_ts.add(t)
+        ternip.add_timex_ids(all_ts)
         self._sents = copy.deepcopy(sents)
     
     def _get_attrs(self, timex):
         
-        s = ""
+        attrs = []
         
         if timex.id != None:
-            s += "\tid=t"+str(timex.id)
+            attrs.append("id=t"+str(timex.id))
         
         if timex.value != None:
-            s += "\tvalue="+timex.value
+            attrs.append("value="+timex.value)
         
         if timex.type != None:
-            s += "\ttype="+timex.type.upper()
+            attrs.append("type="+timex.type.upper())
         
         if timex.mod != None:
-            s += "\tmod="+timex.mod
+            attrs.append("mod="+timex.mod)
         
         if timex.freq != None:
-            s += "\tfreq="+timex.freq
+            attrs.append("freq="+timex.freq)
         
         if timex.quant != None:
-            s += "\tquant="+timex.quant
+            attrs.append("quant="+timex.quant)
         
         if timex.temporal_function:
-            s += "\ttemporalFunction=true"
+            attrs.append("temporalFunction=true")
         
         if timex.document_role != None:
-            s += "\tfunctionInDocument="+timex.document_role
+            attrs.append("functionInDocument="+timex.document_role)
         
         if timex.begin_timex != None:
-            s += "\tbeginPoint=t"+str(timex.begin_timex.id)
+            attrs.append("beginPoint=t"+str(timex.begin_timex.id))
         
         if timex.end_timex != None:
-            s += "\tendPoint=t"+str(timex.end_timex.id)
+            attrs.append("endPoint=t"+str(timex.end_timex.id))
         
         if timex.context != None:
-            s += "\tanchorTimeID=t"+str(timex.context.id)
+            attrs.append("anchorTimeID=t"+str(timex.context.id))
         
-        return s
+        return ','.join(attrs)
     
     def __str__(self):
         """
@@ -106,13 +113,14 @@ class gate:
         for sent in self._sents:
             for (tok, pos, ts) in sent:
                 s += tok + "\t"
-                mode = 'O'
+                begins = []
+                ins = []
                 for timex in ts:
                     if timex in open_timexes:
-                        mode = 'I'
+                        ins.append('t'+str(timex.id))
                     else:
-                        mode = 'B' + self._get_attrs(timex)
+                        begins.append(self._get_attrs(timex))
                         open_timexes.add(timex)
                         break
-                s += mode + "\n"
+                s += ';'.join(begins)+"\t"+';'.join(ins)+"\n"
         return s

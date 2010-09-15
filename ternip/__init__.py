@@ -6,6 +6,8 @@ import os.path
 # Avoid messy imports
 from timex import *
 
+no_NLTK = False
+
 # Set up non-fatal error reporting
 
 def _warn(message, e):

@@ -1,0 +1,211 @@
+<gate.util.persistence.GateApplication>
+  <urlList class="gate.util.persistence.CollectionPersistence">
+    <localList>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$gatehome$plugins/ANNIE/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$gatehome$plugins/Tagger_Framework/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+    </localList>
+    <collectionType>java.util.ArrayList</collectionType>
+  </urlList>
+  <application class="gate.util.persistence.SerialAnalyserControllerPersistence">
+    <prList class="gate.util.persistence.CollectionPersistence">
+      <localList>
+        <gate.util.persistence.PRPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </runtimeParams>
+          <resourceType>gate.creole.annotdelete.AnnotationDeletePR</resourceType>
+          <resourceName>Document Reset PR_00014</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.PRPersistence>
+        <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </runtimeParams>
+          <resourceType>gate.creole.tokeniser.DefaultTokeniser</resourceType>
+          <resourceName>ANNIE English Tokeniser_00015</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+        <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </runtimeParams>
+          <resourceType>gate.creole.splitter.SentenceSplitter</resourceType>
+          <resourceName>ANNIE Sentence Splitter_00018</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+        <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </runtimeParams>
+          <resourceType>gate.creole.POSTagger</resourceType>
+          <resourceName>ANNIE POS Tagger</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+        <gate.util.persistence.PRPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>outputAnnotationType</string>
+                <string>Token</string>
+              </entry>
+              <entry>
+                <string>inputASName</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>regex</string>
+                <string>(.+)\t(.+)?\t(.+)?</string>
+              </entry>
+              <entry>
+                <string>featureMapping</string>
+                <gate.util.persistence.MapPersistence>
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>beginTimexes</string>
+                      <string>2</string>
+                    </entry>
+                    <entry>
+                      <string>inTimexes</string>
+                      <string>3</string>
+                    </entry>
+                    <entry>
+                      <string>string</string>
+                      <string>1</string>
+                    </entry>
+                  </localMap>
+                </gate.util.persistence.MapPersistence>
+              </entry>
+              <entry>
+                <string>updateAnnotations</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>debug</string>
+                <boolean>false</boolean>
+              </entry>
+              <entry>
+                <string>taggerBinary</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$../gate_wrapper.py</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>inputAnnotationType</string>
+                <string>Token</string>
+              </entry>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>corpus</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>taggerDir</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$../</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>inputTemplate</string>
+                <string>${string}\t${category}\t${sentenceBIO}${referenceDate}</string>
+              </entry>
+              <entry>
+                <string>failOnUnmappableCharacter</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>outputASName</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>encoding</string>
+                <string>UTF-8</string>
+              </entry>
+              <entry>
+                <string>taggerFlags</string>
+                <gate.util.persistence.CollectionPersistence>
+                  <localList/>
+                  <collectionType>java.util.ArrayList</collectionType>
+                </gate.util.persistence.CollectionPersistence>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>gate.taggerframework.GenericTagger</resourceType>
+          <resourceName>TERNIP tagger</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>preProcessURL</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$preprocessing/main.jape</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>postProcessURL</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$postprocessing/main.jape</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.PRPersistence>
+      </localList>
+      <collectionType>java.util.ArrayList</collectionType>
+    </prList>
+    <resourceType>gate.creole.SerialAnalyserController</resourceType>
+    <resourceName>TERNIP application</resourceName>
+    <initParams class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </initParams>
+    <features class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </features>
+  </application>
+</gate.util.persistence.GateApplication>

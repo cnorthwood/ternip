@@ -1,0 +1,8 @@
+Multiphase: TernipPostProcessing
+
+// Post-processing grammar for TERNIP, converting the tagger output (in terms
+// of token features) to a suitable GATE form (spanning annotations).
+
+Phases:
+timexes
+remove-token-features

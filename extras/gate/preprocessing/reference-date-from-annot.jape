@@ -1,0 +1,18 @@
+Imports: { import static gate.Utils.*; }
+
+// add the reference date as a feature on the first token in the document
+
+Phase: ReferenceDateFromAnnotation
+Input: ReferenceDate
+Options: control = once
+
+Rule: RefDate
+({ReferenceDate}):ref
+-->
+:ref {
+  List<Annotation> tokens = inDocumentOrder(inputAS.get("Token"));
+  if(tokens.size() >= 1) {
+    tokens.get(0).getFeatures().put(
+        "referenceDate", "\t" + stringFor(doc, refAnnots));
+  }
+}

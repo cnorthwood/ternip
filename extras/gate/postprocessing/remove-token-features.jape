@@ -1,0 +1,18 @@
+// Remove temporary token features created by (and for) TERNIP
+
+Phase: RemoveTokenFeatures
+Input: Token
+Options: control = all
+
+Rule: TokenFeatures
+({Token}):tok
+-->
+:tok {
+  for(Annotation t : tokAnnots) {
+    FeatureMap fm = t.getFeatures();
+    fm.remove("sentenceBIO");
+    fm.remove("referenceDate");
+    fm.remove("beginTimexes");
+    fm.remove("inTimexes");
+  }
+}
