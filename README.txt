@@ -465,6 +465,11 @@ EXTRAS
 
         This file executes the unit test suite for TERNIP.
 
+    gate/ternip.xgapp
+
+        This provides a .xgapp file which can be loaded into GATE to use TERNIP
+        as a processing resource.
+
 RELATED READING
 
     Full API documentation: http://www.pling.org.uk/projects/ternip/doc/
