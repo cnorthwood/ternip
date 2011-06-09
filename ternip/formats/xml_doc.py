@@ -139,7 +139,7 @@ class xml_doc:
         """
         
         # Recursive step - depth-first search
-        for child in node.childNodes:
+        for child in list(node.childNodes):
             
             # Get the list of nodes which replace this one (if any)
             rep = self._strip_tags(doc, tagname, child)
@@ -150,7 +150,7 @@ class xml_doc:
                 # inside it), but only if the node's changed
                 if rep[0] is not child:
                     node.replaceChild(rep[0], child)
-                    #node.normalize()
+                    node.normalize()
             else:
                 # There were multiple child nodes, need to insert all of them
                 # where in the same location, in order, where their parent
@@ -399,7 +399,7 @@ class xml_doc:
                 return self._add_LEX_tags(new_text, sent, LEX_name)
                 
             else:
-                for child in node.childNodes:
+                for child in list(node.childNodes):
                     sent = self._add_LEX_tags(child, sent, LEX_name)
         
         return sent
