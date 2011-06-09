@@ -150,6 +150,7 @@ class xml_doc:
                 # inside it), but only if the node's changed
                 if rep[0] is not child:
                     node.replaceChild(rep[0], child)
+                    #node.normalize()
             else:
                 # There were multiple child nodes, need to insert all of them
                 # where in the same location, in order, where their parent

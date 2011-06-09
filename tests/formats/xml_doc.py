@@ -247,3 +247,10 @@ class xml_doc_Test(unittest.TestCase):
         s = _xml_doc.create(sents, tok_offsets=[[2, 7, 11, 16, 28], [36, 41, 45, 46, 53]], add_S='s', add_LEX='lex', pos_attr='pos')
         self.assertEquals(str(s), xml.dom.minidom.parseString('<root>  <s><lex pos="POS">This</lex> <lex pos="POS">is</lex>  <lex pos="POS">some</lex> <lex pos="POS">annotated</lex>   <lex pos="POS">text.</lex></s>   <s><lex pos="POS">This</lex> <lex pos="POS">is</lex>  <lex pos="POS">a</lex><lex pos="POS">second</lex> <lex pos="POS">sentence.</lex></s></root>').toxml())
         self.assertEquals(sents, s.get_sents())
+    
+    def test_parse_strip_and_reconcile(self):
+        s = _xml_doc('<root>This is some <TIMEX>annotated</TIMEX> text.</root>')
+        s.strip_timexes()
+        t1 = ternip.timex()
+        s.reconcile([[('This', 'POS', set()), ('is', 'POS', set()), ('some', 'POS', set()), ('annotated', 'POS', set([t1])), ('text', 'POS', set()), ('.', 'POS', set())]])
+        self.assertEquals(str(s), xml.dom.minidom.parseString('<root>This is some <TIMEX>annotated</TIMEX> text.</root>').toxml())
