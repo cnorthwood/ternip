@@ -151,7 +151,7 @@ class normalisation_rule(rule.rule):
                     timex.mod = eval(self._mod_exp)
             
             except Exception as e:
-                ternip.warn('Malformed rule expression', e)
+                logger.exception('Malformed rule expression')
             
             # Need to update current time context, if necessary
             return (True, cur_context)

@@ -8,6 +8,9 @@ import nltk.tokenize
 import xml.dom.minidom
 from collections import defaultdict
 import sys
+import logging
+
+LOGGER = logging.getLogger(__name__)
 
 class xml_doc:
     """
@@ -639,7 +642,7 @@ class xml_doc:
                 try:
                     self._add_timex(timex, sents[i], s_nodes[i])
                 except nesting_error as e:
-                    ternip.warn("Error whilst attempting to add TIMEX", e)
+                    LOGGER.exception("Error whilst attempting to add TIMEX")
     
     def _nodes_to_sents(self, node, done_sents, nondone_sents, senti):
         """

@@ -136,14 +136,9 @@ USING THE API
 
     Changing How TERNIP Handles Warnings
 
-        To use TERNIP in a larger program, the default method for reporting
-        warnings during program execution, writing to stderr, may not be
-        appropriate. To work around this, you can override the default warning
-        function by setting the variable ternip.warn to your own function.
-        
-        Your function must accept a string as the first argument containing a
-        description of the warning, and the second the raised exception
-        containing more information about the error that generated the warning.
+        TERNIP logs all warnings as 'warn' level under the ternip namespace
+        using Python's logger. You are responsible for handling this however
+        you'd like.
 
 EXTENDING TERNIP
 
