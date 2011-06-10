@@ -2,11 +2,14 @@
 
 import re
 import calendar
+import logging
 
 import rule
 from expressions import *
 from normalisation_functions import *
 import ternip
+
+LOGGER = logging.getLogger(__name__)
 
 class normalisation_rule(rule.rule):
     """ A class that represents normalisation rules """
@@ -151,7 +154,7 @@ class normalisation_rule(rule.rule):
                     timex.mod = eval(self._mod_exp)
             
             except Exception as e:
-                logger.exception('Malformed rule expression')
+                LOGGER.exception('Malformed rule expression')
             
             # Need to update current time context, if necessary
             return (True, cur_context)
