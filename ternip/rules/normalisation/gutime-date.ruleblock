@@ -997,14 +997,14 @@ Value: offset_from_date(cur_context, -1) + 'TNI'
 
 Type: date
 Match: <(next|coming)~.+><weekend~.+>
-Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) + 6)[6:8])) + 'WE'
+Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), int(cur_context[6:8])) + 6)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), int(cur_context[6:8])) + 6)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), int(cur_context[6:8])) + 6)[6:8])) + 'WE'
 
 ---
 # 117
 
 Type: date
 Match: <(past|last)~.+><weekend~.+>
-Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), (cur_context[6:8])) - 1)[6:8])) + 'WE'
+Value: date_to_week(int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), int(cur_context[6:8])) - 1)[:4]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), int(cur_context[6:8])) - 1)[4:6]), int(offset_from_date(cur_context, -1 * date_to_dow(int(cur_context[:4]), int(cur_context[4:6]), int(cur_context[6:8])) - 1)[6:8])) + 'WE'
 
 ---
 # 118
