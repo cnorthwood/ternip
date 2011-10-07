@@ -77,7 +77,7 @@ class rule_engine:
         
         Throws rule_load_error if a rule fails to load
         """
-        self._load_rule(filename)
+        self._rules.append(self._load_rule(filename))
         self._check_rule_consistency()
     
     def load_block(self, filename):
@@ -85,7 +85,7 @@ class rule_engine:
         Load a block of rules, then check for consistency
         Throws rule_load_errors if a rule fails to load
         """
-        self._load_block(filename)
+        self._rules.append(self._load_block(filename))
         self._check_rule_consistency()
     
     def _load_block(self, filename):
