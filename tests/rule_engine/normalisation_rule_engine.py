@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os.path
 import unittest
 import ternip.rule_engine
 import ternip
@@ -8,7 +9,7 @@ class normalisation_rule_engine_Test(unittest.TestCase):
     
     def testTag(self):
         e = ternip.rule_engine.normalisation_rule_engine()
-        e.load_rules('tests/rule_engine/test_normalisation_rules/')
+        e.load_rules(os.path.join(os.path.dirname(__file__), 'test_normalisation_rules'))
         t = ternip.timex(type='date')
         e.annotate([[('We', 'POS', set()),
              ('took', 'POS', set()),
@@ -27,7 +28,7 @@ class normalisation_rule_engine_Test(unittest.TestCase):
     def testBadErrors(self):
         r = ternip.rule_engine.normalisation_rule_engine()
         try:
-            r.load_rules('tests/rule_engine/test_normalisation_rules_malformed/')
+            r.load_rules(os.path.join(os.path.dirname(__file__), 'test_normalisation_rules_malformed/'))
         except ternip.rule_engine.rule_load_errors as e:
             self.assertEquals(len(e.errors), 12, "These errors were raised: " + str(e))
         else:

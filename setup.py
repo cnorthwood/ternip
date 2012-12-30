@@ -10,7 +10,7 @@ setup(
     scripts=['annotate_timex'],
     author='Chris Northwood',
     author_email='chris@pling.org.uk',
-    install_requires=['python-dateutil','nltk'],
+    install_requires=['python-dateutil','nltk','numpy'],
     description='Temporal Expression Recognition and Normalisation in Python',
     long_description="""
     TERNIP is a library which can recognise and normalise temporal expressions

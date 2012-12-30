@@ -4,6 +4,6 @@ python:
   - "2.7"
 install:
   - python setup.py install
-  - python -m nltk.downloader punkt
+  - python -m nltk.downloader punkt maxent_treebank_pos_tagger
 script:
   - python runtests.py
