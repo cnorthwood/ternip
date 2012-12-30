@@ -1,10 +1,9 @@
-#!/usr/bin/env python
-
 """
 Functions which convert strings to some number index
 """
 
 import re
+
 
 # Mapping of month abbreviations to month index
 _month_to_num = {
@@ -22,6 +21,7 @@ _month_to_num = {
     'dec': 12
 }
 
+
 def month_to_num(m):
     """
     Given a name of a month, get the number of that month. Invalid data gets 0.
@@ -31,6 +31,7 @@ def month_to_num(m):
         return _month_to_num[m[:3].lower()]
     else:
         return 0
+
 
 # Mapping of days to day index
 _day_to_num = {
@@ -43,6 +44,7 @@ _day_to_num = {
     "saturday": 6
 }
 
+
 def day_to_num(day):
     """
     Given the name of a day, the number of that day. Sunday is 0. Invalid data
@@ -52,6 +54,7 @@ def day_to_num(day):
         return _day_to_num[day.lower()]
     else:
         return 7
+
 
 # The decade number that a year component (-ty) refers to
 _decade_nums = {
@@ -65,6 +68,7 @@ _decade_nums = {
     "nine": 9
 }
 
+
 def decade_nums(dec):
     """
     Given the decade component (less the ty suffix) of a year, the number of
@@ -75,14 +79,16 @@ def decade_nums(dec):
     else:
         return 1
 
+
 # Season to TIDES identifiers
 _season = {
     "spring": "SP",
     "summer": "SU",
     "autumn": "FA",
-    "fall":   "FA",
+    "fall": "FA",
     "winter": "WI"
 }
+
 
 def season(s):
     """
@@ -94,12 +100,14 @@ def season(s):
     else:
         return s
 
+
 _season_to_month = {
     'SP': 'april',
     'SU': 'june',
     'FA': 'september',
     'WI': 'december'
 }
+
 
 def season_to_month(s):
     """
@@ -110,6 +118,7 @@ def season_to_month(s):
         return _season_to_month[s]
     else:
         return ''
+
 
 # Words (or parts of words) and then unit identifier
 _units_to_gran = {
@@ -126,6 +135,7 @@ _units_to_gran = {
     'centurie': 'C'
 }
 
+
 def units_to_gran(unit):
     """
     Given a word, or part of a word, that represents a unit of time, return the
@@ -136,38 +146,40 @@ def units_to_gran(unit):
     else:
         return unit
 
+
 # Dates of holidays which are on the same date every year MMDD. Keys have spaces
 # removed
 _fixed_holiday_dates = {
-    "newyear":          "0101",
-    "inauguration":     "0120",
-    "valentine":        "0214",
-    "ground":           "0202",
-    "candlemas":        "0202",
-    "patrick":          "0317",
-    "fool":             "0401",
-    "st\.george":       "0423",
-    "saintgeorge":      "0423",
-    "walpurgisnacht":   "0430",
-    "mayday":           "0501",
-    "beltane":          "0501",
-    "cinco":            "0505",
-    "flag":             "0614",
-    "baptiste":         "0624",
-    "dominion":         "0701",
-    "canada":           "0701",
-    "independence":     "0704",
-    "bastille":         "0714",
-    "halloween":        "1031",
-    "allhallow":        "1101",
-    "allsaints":        "1101",
-    "allsouls":         "1102",
-    "dayofthedead":     "1102",
-    "fawkes":           "1105",
-    "veteran":          "1111",
-    "christmas":        "1225",
-    "xmas":             "1225"
+    "newyear": "0101",
+    "inauguration": "0120",
+    "valentine": "0214",
+    "ground": "0202",
+    "candlemas": "0202",
+    "patrick": "0317",
+    "fool": "0401",
+    "st\.george": "0423",
+    "saintgeorge": "0423",
+    "walpurgisnacht": "0430",
+    "mayday": "0501",
+    "beltane": "0501",
+    "cinco": "0505",
+    "flag": "0614",
+    "baptiste": "0624",
+    "dominion": "0701",
+    "canada": "0701",
+    "independence": "0704",
+    "bastille": "0714",
+    "halloween": "1031",
+    "allhallow": "1101",
+    "allsaints": "1101",
+    "allsouls": "1102",
+    "dayofthedead": "1102",
+    "fawkes": "1105",
+    "veteran": "1111",
+    "christmas": "1225",
+    "xmas": "1225"
 }
+
 
 def fixed_holiday_date(hol):
     """
@@ -179,19 +191,21 @@ def fixed_holiday_date(hol):
     else:
         return ''
 
+
 # Mapping of holidays which always occur on the Nth X of some month, where X is
 # day of week. Mapping is of tuples of the form (month, dow, n)
 _nth_dow_holiday_date = {
-    "mlk":          (1, 1, 3),
-    "king":         (1, 1, 3),
-    "president":    (2, 1, 3),
-    "canberra":     (3, 1, 3),
-    "mother":       (5, 7, 2),
-    "father":       (6, 7, 3),
-    "labor":        (9, 1, 1),
-    "columbus":     (10, 1, 2),
+    "mlk": (1, 1, 3),
+    "king": (1, 1, 3),
+    "president": (2, 1, 3),
+    "canberra": (3, 1, 3),
+    "mother": (5, 7, 2),
+    "father": (6, 7, 3),
+    "labor": (9, 1, 1),
+    "columbus": (10, 1, 2),
     "thanksgiving": (11, 4, 4)
 }
+
 
 def nth_dow_holiday_date(hol):
     """
@@ -202,7 +216,8 @@ def nth_dow_holiday_date(hol):
     if hol.lower() in _nth_dow_holiday_date:
         return _nth_dow_holiday_date[hol.lower()]
     else:
-        return (0,0,0)
+        return (0, 0, 0)
+
 
 # Mapping of units to multipliers, duration representations, and whether or not
 # it needs to be prepended with T
@@ -222,14 +237,14 @@ _duration_values = {
     'millenia': (1000, 'Y', False)
 }
 
+
 def build_duration_value(num, unit):
-    
     if unit.lower() in _duration_values:
         du = _duration_values[unit.lower()]
         if num == 'X':
             return 'X' + du[1]
         else:
             return ('T' if du[2] else '') + str(num * du[0]) + du[1]
-    
+
     else:
         return str(num) + 'X'

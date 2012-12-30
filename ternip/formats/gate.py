@@ -1,23 +1,21 @@
-#!/usr/bin/env python
-
-from collections import defaultdict
 import copy
-import ternip
+from ternip.timex import add_timex_ids
 
-class gate:
+
+class GateDocument(object):
     """
     A class to facilitate communication with GATE
     """
-    
+
     def __init__(self, file):
         """
         Load a document
         """
-        
+
         sents = []
         sent = []
         dct = None
-        
+
         for line in file.splitlines():
             parts = line.split('\t')
             if dct is None:
@@ -29,29 +27,29 @@ class gate:
                     sents.append(sent)
                 sent = [(parts[0], parts[1], set())]
         sents.append(sent)
-        
+
         self._sents = sents
         self._dct = dct
-    
+
     def get_sents(self):
         """
         Returns a representation of this document in the
         [[(word, pos, timexes), ...], ...] format.
         """
         return copy.deepcopy(self._sents)
-    
+
     def get_dct_sents(self):
         """
         Returns the creation time sents for this document.
         """
         return [[(self._dct, 'DCT', set())]]
-    
+
     def reconcile_dct(self, dct):
         """
         Adds a TIMEX to the DCT tag and return the DCT
         """
         pass
-    
+
     def reconcile(self, sents):
         """
         Update this document with the newly annotated tokens.
@@ -62,48 +60,47 @@ class gate:
             for (tok, pos, ts) in sent:
                 for t in ts:
                     all_ts.add(t)
-        ternip.add_timex_ids(all_ts)
+        add_timex_ids(all_ts)
         self._sents = copy.deepcopy(sents)
-    
+
     def _get_attrs(self, timex):
-        
         attrs = []
-        
-        if timex.id != None:
-            attrs.append("id=t"+str(timex.id))
-        
-        if timex.value != None:
-            attrs.append("value="+timex.value)
-        
-        if timex.type != None:
-            attrs.append("type="+timex.type.upper())
-        
-        if timex.mod != None:
-            attrs.append("mod="+timex.mod)
-        
-        if timex.freq != None:
-            attrs.append("freq="+timex.freq)
-        
-        if timex.quant != None:
-            attrs.append("quant="+timex.quant)
-        
+
+        if timex.id is not None:
+            attrs.append("id=t" + str(timex.id))
+
+        if timex.value is not None:
+            attrs.append("value=" + timex.value)
+
+        if timex.type is not None:
+            attrs.append("type=" + timex.type.upper())
+
+        if timex.mod is not None:
+            attrs.append("mod=" + timex.mod)
+
+        if timex.freq is not None:
+            attrs.append("freq=" + timex.freq)
+
+        if timex.quant is not None:
+            attrs.append("quant=" + timex.quant)
+
         if timex.temporal_function:
             attrs.append("temporalFunction=true")
-        
-        if timex.document_role != None:
-            attrs.append("functionInDocument="+timex.document_role)
-        
-        if timex.begin_timex != None:
-            attrs.append("beginPoint=t"+str(timex.begin_timex.id))
-        
-        if timex.end_timex != None:
-            attrs.append("endPoint=t"+str(timex.end_timex.id))
-        
-        if timex.context != None:
-            attrs.append("anchorTimeID=t"+str(timex.context.id))
-        
+
+        if timex.document_role is not None:
+            attrs.append("functionInDocument=" + timex.document_role)
+
+        if timex.begin_timex is not None:
+            attrs.append("beginPoint=t" + str(timex.begin_timex.id))
+
+        if timex.end_timex is not None:
+            attrs.append("endPoint=t" + str(timex.end_timex.id))
+
+        if timex.context is not None:
+            attrs.append("anchorTimeID=t" + str(timex.context.id))
+
         return ','.join(attrs)
-    
+
     def __str__(self):
         """
         Output format
@@ -117,10 +114,10 @@ class gate:
                 ins = []
                 for timex in ts:
                     if timex in open_timexes:
-                        ins.append('t'+str(timex.id))
+                        ins.append('t' + str(timex.id))
                     else:
                         begins.append(self._get_attrs(timex))
                         open_timexes.add(timex)
                         break
-                s += ';'.join(begins)+"\t"+';'.join(ins)+"\n"
+                s += ';'.join(begins) + "\t" + ';'.join(ins) + "\n"
         return s

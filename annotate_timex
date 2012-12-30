@@ -8,7 +8,13 @@ import sys
 import logging
 
 import ternip.formats
+from ternip.formats.tern import TernDocument
+from ternip.formats.timeml import TimeMlDocument
+from ternip.formats.timex2 import Timex2XmlDocument
+from ternip.formats.timex3 import Timex3XmlDocument
 import ternip.rule_engine
+from ternip.rule_engine.normalisation_rule_engine import NormalisationRuleEngine
+from ternip.rule_engine.recognition_rule_engine import RecognitionRuleEngine
 
 option_parser = optparse.OptionParser(usage='%prog [options] FILENAME', version=""" $Id$, """)
 
@@ -51,24 +57,24 @@ logger.addHandler(logging.StreamHandler())
 # Create document for input file
 if options.doc_type == 'timex2':
     with open(input_file) as fd:
-        doc = ternip.formats.timex2(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
+        doc = Timex2XmlDocument(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
 elif options.doc_type == 'timex3':
     with open(input_file) as fd:
-        doc = ternip.formats.timex3(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
+        doc = Timex3XmlDocument(fd.read(), options.body_tag, options.has_S, options.has_LEX, options.pos_attr)
 elif options.doc_type == 'timeml':
-    if options.body_tag != None:
+    if options.body_tag is not None:
         option_parser.print_help()
         print >>sys.stderr, "ERROR: incompatible options with document type"
         sys.exit(1)
     with open(input_file) as fd:
-        doc = ternip.formats.timeml(fd.read(), has_S=options.has_S, has_LEX=options.has_LEX, pos_attr=options.pos_attr)
+        doc = TimeMlDocument(fd.read(), has_S=options.has_S, has_LEX=options.has_LEX, pos_attr=options.pos_attr)
 elif options.doc_type == 'tern':
-    if options.body_tag != None:
+    if options.body_tag is not None:
         option_parser.print_help()
         print  >>sys.stderr,"ERROR: incompatible options with document type"
         sys.exit(1)
     with open(input_file) as fd:
-        doc = ternip.formats.tern(fd.read(), has_S=options.has_S, has_LEX=options.has_LEX, pos_attr=options.pos_attr)
+        doc = TernDocument(fd.read(), has_S=options.has_S, has_LEX=options.has_LEX, pos_attr=options.pos_attr)
 else:
     option_parser.print_help()
     print >>sys.stderr, "ERROR: invalid document type specified"
@@ -87,23 +93,23 @@ if options.recognition_engine == 'none':
 elif options.recognition_engine == 'default':
     recogniser = ternip.recogniser()
 elif options.recognition_engine == 'rule':
-    recogniser = ternip.rule_engine.recognition_rule_engine()
+    recogniser = RecognitionRuleEngine()
 else:
     option_parser.print_help()
     print >>sys.stderr, "ERROR: invalid recognition engine specified"
     sys.exit(1)
 
 # Load rules
-if options.recognition_rules != None and options.recognition_engine == 'rule':
+if options.recognition_rules is not None and options.recognition_engine == 'rule':
     recogniser.load_rules(options.recognition_rules)
-elif options.recognition_rules == None and options.recognition_engine == 'rule':
+elif options.recognition_rules is None and options.recognition_engine == 'rule':
     print >>sys.stderr, "WARNING: no recognition rules set to load"
-elif options.recognition_rules != None and options.recognition_engine != 'rule':
+elif options.recognition_rules is not None and options.recognition_engine != 'rule':
     print >>sys.stderr, "WARNING: recognition rule path only valid when rule engine specified"
 
 # Do recognition
 if recogniser is not None:
-    if options.dct == None:
+    if options.dct is None:
         dct_sents = doc.get_dct_sents()
         dct_sents = recogniser.tag(dct_sents)
     sents = recogniser.tag(sents)
@@ -114,7 +120,7 @@ if options.normalisation_engine == 'none':
 elif options.normalisation_engine == 'default':
     normaliser = ternip.normaliser()
 elif options.normalisation_engine == 'rule':
-    normaliser = ternip.rule_engine.normalisation_rule_engine()
+    normaliser = NormalisationRuleEngine()
     normaliser.load_rules(options.normalisation_rules)
 else:
     option_parser.print_help()
@@ -122,17 +128,17 @@ else:
     sys.exit(1)
 
 # Load rules
-if options.normalisation_rules != None and options.normalisation_engine == 'rule':
+if options.normalisation_rules is not None and options.normalisation_engine == 'rule':
     normaliser.load_rules(options.normalisation_rules)
-elif options.normalisation_rules == None and options.normalisation_engine == 'rule':
+elif options.normalisation_rules is None and options.normalisation_engine == 'rule':
     print >>sys.stderr, "WARNING: no normsalisation rules set to load"
-elif options.normalisation_rules != None and options.normalisation_engine != 'rule':
+elif options.normalisation_rules is not None and options.normalisation_engine != 'rule':
     print >>sys.stderr, "WARNING: normalisation rule path only valid when rule engine specified"
 
 # Do normalisation
 if normaliser is not None:
     dct = ''
-    if options.dct == None:
+    if options.dct is None:
         # Get DCT from normaliser
         normaliser.annotate(dct_sents, 'XXXXXXXX')
         doc.reconcile_dct(dct_sents)
@@ -140,7 +146,7 @@ if normaliser is not None:
         for sent in dct_sents:
             for (tok, pos, ts) in sent:
                 for t in ts:
-                    if dct == '' and t.value != None:
+                    if dct == '' and t.value is not None:
                         dct = t.value
     else:
         dct = options.dct

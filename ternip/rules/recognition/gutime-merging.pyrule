@@ -1,22 +1,24 @@
 #!/usr/bin/env python
 
-import re
-import ternip
-import ternip.rule_engine.rule
 from collections import defaultdict
 
-class rule(ternip.rule_engine.rule.rule):
+import re
+
+from ternip.rule_engine.rule import Rule
+
+
+class rule(Rule):
     """
     Merges adjacent timex tags in certain circumstances that means that the two
     adjacent tags should be one timex
     
     Translated from GUTime
     """
-    
+
     id = 'gutime-merging'
     after = ['gutime', 'gutime-year']
     _DEBUG = False
-    
+
     def _get_tokens_for_timexes(self, sent):
         ttoks = defaultdict(list)
         i = 0
@@ -25,7 +27,7 @@ class rule(ternip.rule_engine.rule.rule):
                 ttoks[t].append((i, tok, pos, ts))
             i += 1
         return ttoks
-    
+
     def _merge_extents(self, sent, ttoks, t, next_t):
         start = ttoks[t][0][0]
         end = ttoks[next_t][-1][0]
@@ -37,14 +39,13 @@ class rule(ternip.rule_engine.rule.rule):
             if j >= start and j <= end:
                 ts.add(t)
                 ts.discard(next_t)
-    
+
     def apply(self, sent):
-        
         success = False
-        
+
         # Get all timexes in sentence and their associated tokens
         ttoks = self._get_tokens_for_timexes(sent)
-        
+
         # Okay, now determine if this TIMEX matches the first expression we're
         # interested in
         for t in ttoks:
@@ -55,17 +56,17 @@ class rule(ternip.rule_engine.rule.rule):
             if i < len(sent):
                 for next_t in sent[i][2]:
                     if re.search(self._prep_re('(monday|tuesday|wednesday|thursday|friday|saturday|sunday)'),
-                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and \
+                        self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and\
                        re.search(self._prep_re('\d'),
-                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])) and \
+                           self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])) and\
                        re.search(self._prep_re('(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)'),
-                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
+                           self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
                         # have a day of week followed by date - merge
                         self._merge_extents(sent, ttoks, t, next_t)
-        
+
         # Now rebuild that
         ttoks = self._get_tokens_for_timexes(sent)
-        
+
         # Okay, now determine if this TIMEX matches the second expression we're
         # interested in
         for t in ttoks:
@@ -76,15 +77,15 @@ class rule(ternip.rule_engine.rule.rule):
             if i < len(sent):
                 for next_t in sent[i][2]:
                     if re.search(self._prep_re('(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)'),
-                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and \
+                        self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and\
                        re.search(self._prep_re('year'),
-                                 self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
+                           self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[next_t]])):
                         # have a date followed by year specifier - merge
                         self._merge_extents(sent, ttoks, t, next_t)
-        
+
         # Now rebuild that
         ttoks = self._get_tokens_for_timexes(sent)
-        
+
         # Eliminate any timexes that tag identical extents or where the extent
         # is subsumed by another rule
         delete = set()
@@ -94,9 +95,9 @@ class rule(ternip.rule_engine.rule.rule):
                     if u != t and ttoks[u][0][0] >= ttoks[t][0][0] and ttoks[u][-1][0] <= ttoks[t][-1][0]:
                         # extents are identical
                         delete.add(u)
-        
+
         for (tok, pos, ts) in sent:
             for d in delete:
                 ts.discard(d)
-        
+
         return (sent, success)

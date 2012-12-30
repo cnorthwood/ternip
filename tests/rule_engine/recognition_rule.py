@@ -1,12 +1,10 @@
-#!/usr/bin/env python
-
 import unittest
-from ternip.rule_engine import recognition_rule
+from ternip.rule_engine.recognition_rule import RecognitionRule
 
-class recognition_rule_Test(unittest.TestCase):
+class RecognitionRuleTest(unittest.TestCase):
     
     def testMatch(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test')
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test')
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -16,7 +14,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testMatchCaseSensitive1(self):
-        rule = recognition_rule(r'<wednesday~.+>', 'date', 'test', case_sensitive=True)
+        rule = RecognitionRule(r'<wednesday~.+>', 'date', 'test', case_sensitive=True)
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -26,7 +24,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testMatchCaseSensitive2(self):
-        rule = recognition_rule(r'<wednesday~.+>', 'date', 'test', case_sensitive=True)
+        rule = RecognitionRule(r'<wednesday~.+>', 'date', 'test', case_sensitive=True)
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -36,17 +34,17 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testMatchAppends(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test')
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test')
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
-                           ('Friday', 'POS', set([None]))])
+                           ('Friday', 'POS', {None})])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,2], 'actual result was '+str(sent))
         self.assertTrue(success)
     
     def testPosGuard1(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'<plane~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -57,7 +55,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testPosGuard2(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'<train~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -68,7 +66,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testNegGuard1(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'!<plane~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -79,7 +77,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testNegGuard2(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 guards=[r'!<train~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -90,7 +88,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testMatchMulti(self):
-        rule = recognition_rule(r'<Friday~.+><afternoon~.+>', 'time', 'test')
+        rule = RecognitionRule(r'<Friday~.+><afternoon~.+>', 'time', 'test')
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -102,7 +100,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testMatchMultiMiddle(self):
-        rule = recognition_rule(r'<Friday~.+><afternoon~.+>', 'time', 'test')
+        rule = RecognitionRule(r'<Friday~.+><afternoon~.+>', 'time', 'test')
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -116,7 +114,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testNoMatch(self):
-        rule = recognition_rule(r'<Thursday~.+>', 'date', 'test')
+        rule = RecognitionRule(r'<Thursday~.+>', 'date', 'test')
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -126,17 +124,17 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testMatchSquelch(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test', squelch=True)
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test', squelch=True)
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
                            ('on', 'POS', set()),
-                           ('Friday', 'POS', set([None]))])
+                           ('Friday', 'POS', {None})])
         self.assertEquals([len(s[2]) for s in sent], [0,0,0,0,0], 'actual result was '+str(sent))
         self.assertTrue(success)
     
     def testMatchInsensitive(self):
-        rule = recognition_rule(r'<friday~.+>', 'date', 'test')
+        rule = RecognitionRule(r'<friday~.+>', 'date', 'test')
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -146,7 +144,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testPosBefore1(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 before_guards=[r'<last~.+>$'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -157,7 +155,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testPosBefore2(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 before_guards=[r'<at~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -171,7 +169,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testNegBefore1(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 before_guards=[r'!<next~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -182,7 +180,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testNegBefore2(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 before_guards=[r'!<next~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -196,7 +194,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testPosAfter1(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 after_guards=[r'^<for~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -209,7 +207,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testPosAfter2(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 after_guards=[r'<plane~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -220,7 +218,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testNegAfter1(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 after_guards=[r'!<for~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -233,7 +231,7 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertFalse(success)
     
     def testNegAfter2(self):
-        rule = recognition_rule(r'<Friday~.+>', 'date', 'test',
+        rule = RecognitionRule(r'<Friday~.+>', 'date', 'test',
                                 after_guards=[r'!<plane~.+>'])
         (sent, success) = rule.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
@@ -246,26 +244,29 @@ class recognition_rule_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testDeliminateNumbers1(self):
-        rule = recognition_rule(r'NUM_START<twenty~.+><one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        rule = RecognitionRule(r'NUM_START<twenty~.+><one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
         (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty', 'POS', set()), ('one', 'POS', set()), ('balloons', 'POS', set())])
         self.assertTrue(success)
     
     def testDeliminateNumbers2(self):
-        rule = recognition_rule(r'NUM_START<twenty-one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        rule = RecognitionRule(r'NUM_START<twenty-one~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
         (sent, success) = rule.apply([('there', 'POS', set()), ('are', 'POS', set()), ('twenty-one', 'POS', set()), ('balloons', 'POS', set())])
         self.assertTrue(success)
     
     def testDeliminateNumbers3(self):
-        rule = recognition_rule(r'NUM_ORD_START<twenty~.+><first~.+>NUM_ORD_END', 'date', 'test', deliminate_numbers=True)
+        rule = RecognitionRule(r'NUM_ORD_START<twenty~.+><first~.+>NUM_ORD_END', 'date', 'test', deliminate_numbers=True)
         (sent, success) = rule.apply([('this', 'POS', set()), ('is', 'POS', set()), ('the', 'POS', set()), ('twenty', 'POS', set()), ('first', 'POS', set()), ('balloon', 'POS', set())])
         self.assertTrue(success)
     
     def testDeliminateNumbers4(self):
-        rule = recognition_rule(r'NUM_ORD_START<first~.+>NUM_ORD_ENDNUM_START<two~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        rule = RecognitionRule(r'NUM_ORD_START<first~.+>NUM_ORD_ENDNUM_START<two~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
         (sent, success) = rule.apply([('these', 'POS', set()), ('are', 'POS', set()), ('the', 'POS', set()), ('first', 'POS', set()), ('two', 'POS', set()), ('balloons', 'POS', set())])
         self.assertTrue(success)
     
     def testDeliminateNumbers5(self):
-        rule = recognition_rule(r'NUM_START<two~.+><hundred~.+><and~.+><sixty~.+><eight~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
-        (sent, success) = rule.apply([('these', 'POS', set()), ('are', 'POS', set()), ('the', 'POS', set()), ('first', 'POS', set()), ('two', 'POS', set()), ('hundred', 'POS', set()), ('and', 'POS', set()), ('sixty', 'POS', set()), ('eight', 'POS', set()), ('balloons', 'POS', set())])
+        rule = RecognitionRule(r'NUM_START<two~.+><hundred~.+><and~.+><sixty~.+><eight~.+>NUM_END', 'date', 'test', deliminate_numbers=True)
+        (sent, success) = rule.apply([('these', 'POS', set()), ('are', 'POS', set()), ('the', 'POS', set()),
+                                      ('first', 'POS', set()), ('two', 'POS', set()), ('hundred', 'POS', set()),
+                                      ('and', 'POS', set()), ('sixty', 'POS', set()), ('eight', 'POS', set()),
+                                      ('balloons', 'POS', set())])
         self.assertTrue(success)

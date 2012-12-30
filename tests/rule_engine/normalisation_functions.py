@@ -1,10 +1,10 @@
-#!/usr/bin/env python
-
 import unittest
-from ternip import timex
-from ternip.rule_engine.normalisation_functions import *
+from ternip.rule_engine.normalisation_functions.string_conversions import *
+from ternip.rule_engine.normalisation_functions.words_to_num import *
+from ternip.rule_engine.normalisation_functions.date_functions import *
+from ternip.rule_engine.normalisation_functions.relative_date_functions import *
 
-class date_functions_Test(unittest.TestCase):
+class DateFunctionsTest(unittest.TestCase):
     
     def test_normalise_two_year_date_full(self):
         self.assertEquals('1989', normalise_two_digit_year('1989'))
@@ -102,7 +102,7 @@ class date_functions_Test(unittest.TestCase):
         self.assertEquals(6, convert_to_24_hours(6, 'a'))
         self.assertEquals(20, convert_to_24_hours(20, 'a'))
 
-class string_conversions_Test(unittest.TestCase):
+class StringConversionsTest(unittest.TestCase):
     
     def test_month_to_num_abbr(self):
         self.assertEquals(4, month_to_num('apr'))
@@ -186,7 +186,7 @@ class string_conversions_Test(unittest.TestCase):
         self.assertEquals('12D', build_duration_value(12, 'day'))
         self.assertEquals('700Y', build_duration_value(7, 'century'))
 
-class words_to_num_Test(unittest.TestCase):
+class WordsToNumTest(unittest.TestCase):
     
     def test_ordinal_number(self):
         self.assertEquals(6, ordinal_to_num('6th'))
@@ -233,7 +233,7 @@ class words_to_num_Test(unittest.TestCase):
     def test_words_to_num_bad_ordinal(self):
         self.assertEquals(0, words_to_num('first two'))
 
-class relative_date_functions_Test(unittest.TestCase):
+class RelativeDateFunctionsTest(unittest.TestCase):
     
     def test_compute_offset_base_yesterday(self):
         self.assertEquals('20100803', compute_offset_base('20100804', 'Yesterday', 1))

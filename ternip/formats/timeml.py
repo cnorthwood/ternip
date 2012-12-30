@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 
 import xml.dom.minidom
-from timex3 import timex3
+from timex3 import Timex3XmlDocument
 
-class timeml(timex3):
+
+class TimeMlDocument(Timex3XmlDocument):
     """
     A class which holds a TimeML representation of a document.
     
     Suitable for use with the AQUAINT dataset.
     """
-    
+
     @staticmethod
     def create(sents, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False):
         """
@@ -32,18 +33,18 @@ class timeml(timex3):
         pos_attr is similar but refers to the name of the attribute on the LEX
         (or whatever) tag that holds the POS tag.
         """
-        
+
         # Create a blank XML document
         impl = xml.dom.minidom.getDOMImplementation()
         doc = impl.createDocument('http://www.timeml.org/site/publications/timeMLdocs/timeml_1.2.1.dtd', 'TimeML', None)
-        
+
         # Add text to document
-        timeml._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
-        
+        TimeMlDocument._add_words_to_node_from_sents(doc, doc.documentElement, sents, tok_offsets)
+
         # Now create the object
-        x = timeml(doc)
-        
+        x = TimeMlDocument(doc)
+
         # Now reconcile the S, LEX and TIMEX tags
         x.reconcile(sents, add_S, add_LEX, pos_attr)
-        
+
         return x

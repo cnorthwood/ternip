@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 # Attribute     TIMEX2      TIMEX3
 #---------------------------------
 # ID            None        tid ('t' + ID)
@@ -16,28 +14,26 @@
 # end_timex     None        endPoint (ID of end_timex)
 # context       None        anchorTimeID (ID of context)
 
-class timex:
+
+class Timex(object):
     """ A temporal expression """
-    
-    def __init__(self,
-                 type  = None,
-                 value = None,
-                 id    = None):
+
+    def __init__(self, type=None, value=None, id=None):
         """ Initialise a timex object with some optional values """
-        self.type       = type
-        self.value      = value
-        self.id         = id
-        self.mod        = None
-        self.freq       = None
-        self.quant      = None
-        self.comment    = None
+        self.type = type
+        self.value = value
+        self.id = id
+        self.mod = None
+        self.freq = None
+        self.quant = None
+        self.comment = None
         self.temporal_function = False
         self.document_role = None
         self.begin_timex = None
-        self.end_timex  = None
-        self.context    = None
+        self.end_timex = None
+        self.context = None
         self.non_consuming = False
-        
+
 
 def add_timex_ids(ts):
     """
@@ -47,7 +43,7 @@ def add_timex_ids(ts):
     """
     # go through all timexes and collect current IDs
     ids = set([t.id for t in ts])
-    
+
     # start an incrementing counter, then skip any IDs that already exist
     i = 1
     for t in ts:

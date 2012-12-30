@@ -1,47 +1,44 @@
 #!/usr/bin/env python
 
 import re
-import ternip
-import ternip.rule_engine.rule
+from ternip.rule_engine.rule import Rule
+from ternip.timex import Timex
 
-class rule(ternip.rule_engine.rule.rule):
+class rule(Rule):
     """
     Special case of "the past" - this needs to come after the durations
     processing so it doesn't conflict with cases like "the past 12 days"
     
     Translated from GUTime
     """
-    
+
     id = 'gutime-past'
     after = ['gutime-durations']
-    
+
     def __init__(self):
         self._rule = re.compile(self._prep_re(r'<the~.+><past~.+>'), re.I)
-    
+
     def apply(self, sent):
-        
         senttext = self._toks_to_str(sent)
-        
+
         success = False
         for match in self._rule.finditer(senttext):
-            
             ti = senttext.count('<', 0, match.start())
             tj = senttext.count('<', 0, match.end())
-            
+
             # Okay, now check that there isn't a TIMEX that already starts
             # with the same phrase
             guard = False
             ts = sent[ti][2]
             for t in ts:
-                if ti == 0 or t not in sent[ti-1][2]:
+                if ti == 0 or t not in sent[ti - 1][2]:
                     guard = True
             if guard:
                 continue
-            
+
             # This rule succeeded
             success = True
-            t = ternip.timex(type='date')
+            t = Timex(type='date')
             self._set_timex_extents(t, sent, ti, tj, False)
-            
-        
+
         return (sent, success)

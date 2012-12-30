@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
 import unittest
-import ternip
+from ternip.timex import Timex, add_timex_ids
 
-class timex_Test(unittest.TestCase):
+class TimexTest(unittest.TestCase):
     
     def test_assign_IDs(self):
         # Get some sample IDs
-        ts = set([ternip.timex(), ternip.timex(), ternip.timex()])
-        ternip.add_timex_ids(ts)
+        ts = set([Timex(), Timex(), Timex()])
+        add_timex_ids(ts)
         
         # Get the assigned IDs
         tids = set()
@@ -25,11 +25,11 @@ class timex_Test(unittest.TestCase):
     
     def test_assign_IDs_no_reassign(self):
         # Get some sample IDs
-        ts = set([ternip.timex(), ternip.timex(), ternip.timex()])
-        at = ternip.timex()
+        ts = set([Timex(), Timex(), Timex()])
+        at = Timex()
         at.id = 6
         ts.add(at)
-        ternip.add_timex_ids(ts)
+        add_timex_ids(ts)
         
         # Get the assigned IDs
         tids = set()
@@ -48,11 +48,11 @@ class timex_Test(unittest.TestCase):
     
     def test_assign_IDs_consecutive(self):
         # Get some sample IDs
-        ts = set([ternip.timex(), ternip.timex(), ternip.timex()])
-        at = ternip.timex()
+        ts = set([Timex(), Timex(), Timex()])
+        at = Timex()
         at.id = 2
         ts.add(at)
-        ternip.add_timex_ids(ts)
+        add_timex_ids(ts)
         
         # Get the assigned IDs
         tids = set()

@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 
-import timex2
 import xml.dom.minidom
 
-class tern(timex2.timex2):
+import timex2
+
+
+class TernDocument(timex2.Timex2XmlDocument):
     """
     A class which can handle TERN documents
     """
-    
+
     @staticmethod
     def create(sents, docid, tok_offsets=None, add_S=False, add_LEX=False, pos_attr=False, dct=''):
         """
@@ -32,41 +34,41 @@ class tern(timex2.timex2):
         
         dct is the document creation time string
         """
-        
+
         # Create a blank XML document
         impl = xml.dom.minidom.getDOMImplementation()
         doc = impl.createDocument(None, 'DOC', None)
-        
+
         # Add necessary tags
         docid_tag = doc.createElement('DOCNO')
         docid_tag.appendChild(doc.createTextNode(docid))
         doc.documentElement.appendChild(docid_tag)
-        
+
         if dct != '':
             dct_tag = doc.createElement('DATE_TIME')
             dct_tag.appendChild(doc.createTextNode(dct[4:6] + '/' + dct[6:8] + '/' + dct[:4]))
             doc.documentElement.appendChild(dct_tag)
-        
+
         body_tag = doc.createElement('BODY')
         doc.documentElement.appendChild(body_tag)
-        
+
         text_tag = doc.createElement('TEXT')
         body_tag.appendChild(text_tag)
-        
+
         # Add text to document
-        tern._add_words_to_node_from_sents(doc, text_tag, sents, tok_offsets)
-        
+        TernDocument._add_words_to_node_from_sents(doc, text_tag, sents, tok_offsets)
+
         # Now create the object
-        x = tern(doc)
-        
+        x = TernDocument(doc)
+
         # Now reconcile the S, LEX and TIMEX tags
         x.reconcile(sents, add_S, add_LEX, pos_attr)
-        
+
         return x
-    
+
     def __init__(self, file, nodename='TEXT', has_S=False, has_LEX=False, pos_attr=False):
-        timex2.timex2.__init__(self, file, nodename, has_S, has_LEX, pos_attr)
-    
+        timex2.Timex2XmlDocument.__init__(self, file, nodename, has_S, has_LEX, pos_attr)
+
     def _dct_to_xml_body(self):
         """
         Set the XML body to be the tag containing the document creation time
@@ -80,19 +82,19 @@ class tern(timex2.timex2):
                 self._xml_body = dtags[0]
             else:
                 return False
-    
+
     def get_dct_sents(self):
         """
         Returns the creation time sents for this document.
         """
         old_xml_body = self._xml_body
-        if self._dct_to_xml_body() == False:
+        if self._dct_to_xml_body() is False:
             return [[]]
         s = self.get_sents()
         self._xml_body = old_xml_body
         return s
-    
-    def reconcile_dct(self, dct, add_S = False, add_LEX = False, pos_attr=False):
+
+    def reconcile_dct(self, dct, add_S=False, add_LEX=False, pos_attr=False):
         """
         Adds a TIMEX to the DCT tag and return the DCT
         """
@@ -100,9 +102,9 @@ class tern(timex2.timex2):
         old_has_S = self._has_S
         old_has_LEX = self._has_LEX
         old_pos_attr = self._pos_attr
-        if self._dct_to_xml_body() == False:
+        if self._dct_to_xml_body() is False:
             return
-        # Set functionInDocument
+            # Set functionInDocument
         for sent in dct:
             for (doc, pos, ts) in sent:
                 for t in ts:

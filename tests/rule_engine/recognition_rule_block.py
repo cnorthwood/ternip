@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
 import unittest
-import ternip.rule_engine
+from ternip.rule_engine.recognition_rule import RecognitionRule
+from ternip.rule_engine.recognition_rule_block import RecognitionRuleBlock
+from ternip.rule_engine.rule_engine import RuleLoadError
 
-class recognition_rule_block_Test(unittest.TestCase):
+class RecognitionRuleBlockTest(unittest.TestCase):
     
     def testApplyAll(self):
-        rules = [ternip.rule_engine.recognition_rule(r'<Thursday~.+>', 'date', 'test'),
-                 ternip.rule_engine.recognition_rule(r'<Friday~.+>', 'date', 'test2')]
-        b = ternip.rule_engine.recognition_rule_block(None, [], 'all', rules)
+        rules = [RecognitionRule(r'<Thursday~.+>', 'date', 'test'),
+                 RecognitionRule(r'<Friday~.+>', 'date', 'test2')]
+        b = RecognitionRuleBlock(None, [], 'all', rules)
         (sent, success) = b.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -20,9 +22,9 @@ class recognition_rule_block_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testApplyUntilSuccess(self):
-        rules = [ternip.rule_engine.recognition_rule(r'<Thursday~.+>', 'date', 'test'),
-                 ternip.rule_engine.recognition_rule(r'<Friday~.+>', 'date', 'test2')]
-        b = ternip.rule_engine.recognition_rule_block(None, [], 'until-success', rules)
+        rules = [RecognitionRule(r'<Thursday~.+>', 'date', 'test'),
+                 RecognitionRule(r'<Friday~.+>', 'date', 'test2')]
+        b = RecognitionRuleBlock(None, [], 'until-success', rules)
         (sent, success) = b.apply([('the', 'POS', set()),
                            ('plane', 'POS', set()),
                            ('leaves', 'POS', set()),
@@ -34,6 +36,6 @@ class recognition_rule_block_Test(unittest.TestCase):
         self.assertTrue(success)
     
     def testRaiseError(self):
-        rules = [ternip.rule_engine.recognition_rule(r'<Thursday~.+>', 'date', 'test'),
-                 ternip.rule_engine.recognition_rule(r'<Friday~.+>', 'date', 'test2')]
-        self.assertRaises(ternip.rule_engine.rule_load_error, ternip.rule_engine.recognition_rule_block, None, [], 'invalid', rules)
+        rules = [RecognitionRule(r'<Thursday~.+>', 'date', 'test'),
+                 RecognitionRule(r'<Friday~.+>', 'date', 'test2')]
+        self.assertRaises(RuleLoadError, RecognitionRuleBlock, None, [], 'invalid', rules)

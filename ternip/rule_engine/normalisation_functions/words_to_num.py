@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
-import re
 from operator import itemgetter
+
+import re
+
 
 _word_to_num = {
     "zero": 0,
@@ -39,43 +41,44 @@ _word_to_num = {
     "trillion": 1000000000000
 }
 
+
 def words_to_num(words):
     """
     Converted from GUTime. Given a string of number words, attempts to derive
     the numerical value of those words. Returns an integer.
     """
-    
+
     # Get out quickly if we're passed in a group that doesn't match
     if words is None:
         return 0
-    
+
     # If this comes from deliminated numbers
     words = re.sub(r'NUM_START', r'', words).strip()
     words = re.sub(r'NUM_END', r'', words).strip()
-    
+
     # Clean up our input
     words = words.lower()
-    
+
     # Get rid of tokens
     words = re.sub(r'<([^~]*)[^>]*>', r'\1 ', words).strip()
-    
+
     # Superfluous white space
     words = words.strip()
-    
+
     # Hyphenated number words
     words = re.sub(r'-', '', words)
-    
+
     # Number word separators
     words = re.sub(r',', '', words)
     words = re.sub(r'\sand', '', words)
-    
+
     # "a" and "the" mean one, really
     words = re.sub(r'^a', 'one', words)
     words = re.sub(r'^the', 'one', words)
-    
+
     # convert to list
     words = words.split()
-    
+
     # now attempt to convert each word to it's numerical equivalent
     for i in range(len(words)):
         if words[i] in _word_to_num:
@@ -89,9 +92,10 @@ def words_to_num(words):
                 words[i] = int(words[i])
             except ValueError:
                 return 0
-    
+
     # Now recursively break down these
     return _words_to_num(words)
+
 
 def _words_to_num(nums):
     """
@@ -99,29 +103,29 @@ def _words_to_num(nums):
     compute the value of those components (basically, the bit before the largest
     number, and the bit after) and then put it all back together.
     """
-    
+
     # base case
     if len(nums) == 1:
         return nums[0]
-    
+
     # find highest number in string
     (highest_num, highest_num_i) = max(zip(nums, range(len(nums))), key=itemgetter(0))
     before = nums[:highest_num_i]
-    after = nums[highest_num_i+1:]
-    
+    after = nums[highest_num_i + 1:]
+
     # If there are no numbers before the biggest term, then assume it means 1 of
     # those units
     if len(before) > 0:
         before = _words_to_num(before)
     else:
         before = 1
-    
+
     # if there are no numbers after, then append 0 to it
     if len(after) > 0:
         after = _words_to_num(after)
     else:
         after = 0
-    
+
     return (before * highest_num) + after
 
 # Mapping of ordinals to numbers
@@ -159,6 +163,7 @@ _ordinal_to_num = {
     "thirty-first": 31
 }
 
+
 def ordinal_to_num(o):
     """
     Given an ordinal (i.e., thirty-first or second) in the range 1st-31st (both
@@ -166,7 +171,7 @@ def ordinal_to_num(o):
     Unrecognised data gets 1. Returns an integer
     """
     match = re.search(r'\d+', o)
-    if match != None:
+    if match is not None:
         return int(match.group())
     elif o.lower() in _ordinal_to_num:
         return _ordinal_to_num[o.lower()]
