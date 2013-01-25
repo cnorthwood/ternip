@@ -75,7 +75,7 @@ class rule(Rule):
             if i < len(sent) and sent[i][0] == 'of':
                 i += 1
             if i < len(sent):
-                for next_t in sent[i][2]:
+                for next_t in set(sent[i][2]):
                     if re.search(self._prep_re('(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)'),
                         self._toks_to_str([(tok, pos, ts) for (i, tok, pos, ts) in ttoks[t]]), re.I) and\
                        re.search(self._prep_re('year'),

@@ -5,10 +5,12 @@ import logging
 
 import re
 
-import rule
-from expressions import *
-from normalisation_functions import *
-import ternip
+from ternip.rule_engine import rule
+from ternip.rule_engine.expressions import *
+from ternip.rule_engine.normalisation_functions.date_functions import *
+from ternip.rule_engine.normalisation_functions.relative_date_functions import *
+from ternip.rule_engine.normalisation_functions.string_conversions import *
+from ternip.rule_engine.normalisation_functions.words_to_num import *
 
 
 LOGGER = logging.getLogger(__name__)
@@ -21,20 +23,8 @@ class NormalisationRule(rule.Rule):
     # the ID of the rule which normalised it
     _DEBUG = False
 
-    def __init__(self, match,
-                 type=None,
-                 id='',
-                 value=None,
-                 change_type=None,
-                 freq=None,
-                 quant=None,
-                 mod=None,
-                 guards=[],
-                 after_guards=[],
-                 before_guards=[],
-                 sent_guards=[],
-                 after=[],
-                 tokenise=True,
+    def __init__(self, match, type=None, id='', value=None, change_type=None, freq=None, quant=None, mod=None,
+                 guards=None, after_guards=None, before_guards=None, sent_guards=None, after=None, tokenise=True,
                  deliminate_numbers=False):
         """
         Create a normalisation rule, with a number of optional arguments. If
@@ -66,6 +56,11 @@ class NormalisationRule(rule.Rule):
             care about token boundaries/POS tags. If it is not true, it is
             considered to be the separator for tokens.
         """
+        if not after: after = []
+        if not sent_guards: sent_guards = []
+        if not before_guards: before_guards = []
+        if not after_guards: after_guards = []
+        if not guards: guards = []
 
         self.id = id
         self._type = type
