@@ -87,7 +87,7 @@ class NormalisationRule(rule.Rule):
         """
         # it would be nice to support named groups, but this'll do for now
         if exp is not None:
-            return compile(re.sub(r'\{#(\d)+\}', r'match.group(\1)', exp), self.id + ':' + type, 'eval')
+            return compile(re.sub(r'\{#(\d+)\}', r'match.group(\1)', exp), self.id + ':' + type, 'eval')
         else:
             return None
 
