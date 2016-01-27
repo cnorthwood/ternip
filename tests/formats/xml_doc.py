@@ -38,41 +38,41 @@ class XmlDocumentTest(unittest.TestCase):
     
     def test_to_sents(self):
         t = _XmlDocument('<root>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>. This is the second sentence.</root>')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'VBN', set()),
-                                           ('embedded', 'VBN', set()), ('annotated', 'VBN', set()), ('text', 'NN', set()),
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'JJ', set()),
+                                           ('embedded', 'VBD', set()), ('annotated', 'JJ', set()), ('text', 'NN', set()),
                                            ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()),
                                            ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
     
     def test_to_sents_only_node(self):
         t = _XmlDocument('<root>This is outside of the body. <body>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>. This is the second sentence.</body></root>', nodename='body')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'VBN', set()), ('embedded', 'VBN', set()), ('annotated', 'VBN', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'JJ', set()), ('embedded', 'VBD', set()), ('annotated', 'JJ', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
     
     def test_to_sents_only_single_node(self):
         self.assertRaises(BadNodeNameError, _XmlDocument, '<root>This is outside of the body. <body>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text</FOO>. This is the second sentence.</body><body>Oh dear.</body></root>', nodename='body')
     
     def test_to_sents_tag_crossing_sentence_boundary(self):
         t = _XmlDocument('<root>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text. This is the second </FOO>sentence.</root>')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'VBN', set()), ('embedded', 'VBN', set()), ('annotated', 'VBN', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'JJ', set()), ('embedded', 'VBD', set()), ('annotated', 'JJ', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
     
     def test_to_sents_tag_whole_sentence(self):
         t = _XmlDocument('<root><a>This is some <FOO attr="timex">annotated <FOO>embedded annotated </FOO>text. </FOO></a>This is the second sentence.</root>')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'VBN', set()), ('embedded', 'VBN', set()), ('annotated', 'VBN', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('some', 'DT', set()), ('annotated', 'JJ', set()), ('embedded', 'VBD', set()), ('annotated', 'JJ', set()), ('text', 'NN', set()), ('.', '.', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
     
     def test_to_sents_s_tags(self):
         t = _XmlDocument('<root><s>This is sentence 1. This is the</s> <s>second sentence.</s></root>', has_S='s')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence', 'NN', set()), ('1.', 'CD', set()), ('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set())], [('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence', 'JJ', set()), ('1', 'CD', set()), ('.', '.', set()), ('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set())], [('second', 'JJ', set()), ('sentence', 'NN', set()), ('.', '.', set())]])
     
     def test_to_sents_lex_tags(self):
         t = _XmlDocument('<root><s><lex>This</lex> <lex>is</lex> <lex>sentence 1.</lex> <lex>This</lex> <lex>is</lex> <lex>the</lex></s> <s><lex>second</lex> <lex>sentence.</lex></s></root>', has_S='s', has_LEX='lex')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence 1.', 'NNP', set()), ('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set())], [('second', 'JJ', set()), ('sentence.', 'NNP', set())]])
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence 1.', 'JJ', set()), ('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set())], [('second', 'JJ', set()), ('sentence.', 'NN', set())]])
     
     def test_to_sents_lex_tags_1sent(self):
         t = _XmlDocument('<root><lex>This</lex> <lex>is</lex> <lex>sentence 1.</lex></root>', has_LEX='lex')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence 1.', 'NNP', set())]])
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence 1.', 'JJ', set())]])
     
     def test_to_sents_lex_tags_no_S(self):
         t = _XmlDocument('<root><lex>This</lex> <lex>is</lex> <lex>sentence 1.</lex> <lex>This</lex> <lex>is</lex> <lex>the</lex> <lex>second</lex> <lex>sentence.</lex></root>', has_LEX='lex')
-        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence 1.', 'NNP', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence.', 'NNP', set())]])
+        self.assertEquals(t.get_sents(), [[('This', 'DT', set()), ('is', 'VBZ', set()), ('sentence 1.', 'JJ', set())], [('This', 'DT', set()), ('is', 'VBZ', set()), ('the', 'DT', set()), ('second', 'JJ', set()), ('sentence.', 'NN', set())]])
     
     def test_to_sents_pos_attr(self):
         t = _XmlDocument('<root><s><lex pos="POS1">This</lex> <lex pos="POS1">is</lex> <lex pos="POS1">sentence 1</lex><lex pos="POS2">.</lex> <lex pos="POS1">This</lex> <lex pos="POS1">is</lex> <lex pos="POS1">the</lex></s> <s><lex pos="POS1">second</lex> <lex pos="POS1">sentence.</lex></s></root>', has_S='s', has_LEX='lex', pos_attr='pos')
