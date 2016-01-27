@@ -665,8 +665,11 @@ class XmlDocument(object):
             nondone_sents = nondone_sents[1:]
 
             # Now recurse on the next text node
-            (done_sents, nondone_sents, senti) = self._nodes_to_sents(
-                self._xml_doc.createTextNode(text[len(sent) - senti:]), done_sents, nondone_sents, 0)
+            if nondone_sents:
+                (done_sents, nondone_sents, senti) = self._nodes_to_sents(
+                    self._xml_doc.createTextNode(text[len(sent) - senti:]), done_sents, nondone_sents, 0)
+            else:
+                senti = 0
 
         else:
             # This node is shorter or the same length as what's left in this
