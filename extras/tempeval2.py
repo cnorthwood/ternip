@@ -3,15 +3,21 @@
 import sys
 sys.path.append('..')
 
-import ternip.formats
-import ternip.rule_engine
+import ternip
+from ternip.formats.tempeval2 import TempEval2Document
 
 import os.path
 import tempfile
 import shutil
 import time
+import logging
 
 from score_entities import score_entities
+
+console = logging.StreamHandler()
+console.setFormatter(logging.Formatter('[%(asctime)s] %(name)-12s %(levelname)-8s %(message)s'))
+logging.getLogger().addHandler(console)
+logging.getLogger('ternip').setLevel(logging.INFO)
 
 print
 print "TERNIP TempEval-2 evaluator"
@@ -29,7 +35,7 @@ print "Loading data..."
 data_path = os.path.normpath('../sample_data/tempeval-training-2/english/data/')
 with open(os.path.join(data_path, 'base-segmentation.tab')) as fd:
     with open(os.path.join(data_path, 'dct.txt')) as dct_fd:
-        docs = ternip.formats.tempeval2.load_multi(fd.read(), dct_fd.read())
+        docs = TempEval2Document.load_multi(fd.read(), dct_fd.read())
 
 temp = tempfile.mkdtemp()
 

@@ -5,14 +5,13 @@ sys.path.append('..')
 
 from glob import glob
 import tempfile
-import os.path
 import shutil
 import os
 import subprocess
 import time
 
-import ternip.formats
-import ternip.rule_engine
+import ternip
+from ternip.formats.tern import TernDocument
 
 def get_f_measure(text, type):
     overall_found = False
@@ -28,6 +27,7 @@ def get_f_measure(text, type):
             return float(line[-5:])
         i += 1
     return float(0)
+
 
 def get_bits(text, type):
     overall_found = False
@@ -47,6 +47,7 @@ def get_bits(text, type):
             return (int(l[1]), int(l[2]), int(l[4]))
         i += 1
     return (0,0,0)
+
 
 def compute_f_measure(pos, act, cor):
     prec = float(cor)/float(act)
@@ -94,7 +95,7 @@ for i in range(len(unannotated)):
     # Open the document
     try:
         with open(unannotated[i]) as fd:
-            doc = ternip.formats.tern(fd.read())
+            doc = TernDocument(fd.read())
     except:
         doc = None
         print "Unable to load document", id
