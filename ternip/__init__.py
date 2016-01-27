@@ -4,6 +4,8 @@ from ternip.rule_engine.normalisation_rule_engine import NormalisationRuleEngine
 from ternip.rule_engine.recognition_rule_engine import RecognitionRuleEngine
 
 
+VERSION = '1.1dev'
+
 no_NLTK = False
 
 
