@@ -3,7 +3,7 @@ python:
   - "2.7"
 install:
   - python setup.py install
-  - python -m nltk.downloader averaged_perceptron_tagger
+  - python -m nltk.downloader punkt averaged_perceptron_tagger
 script:
   - python runtests.py
 sudo: false
